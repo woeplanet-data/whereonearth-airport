@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519328, 
-        "name": "Cortez-Montezuma County Airport", 
         "alias_ENG_V": [
           "CEZ Airport"
         ], 
-        "ne_latitude": 37.312, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Cortez-Montezuma County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587769", 
+          "woe:state=2347564", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519328, 
         "ne_longitude": -108.610, 
         "longitude": -108.630, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587769, 
+        "ne_latitude": 37.312, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2385362, 
+        "sw_latitude": 37.294, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 37.305, 
         "sw_longitude": -108.664, 
-        "fullname": "Cortez-Montezuma County Airport, Cortez, Colorado, Montezuma, United States", 
-        "sw_latitude": 37.294
+        "fullname": "Cortez-Montezuma County Airport, Cortez, Colorado, United States", 
+        "iata_code": "CEZ", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519328
     }

@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 56052002, 
+        "placetype": "airport", 
         "name": "Sportflugplatz Sonnen", 
-        "ne_latitude": 48.684, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12622951", 
+          "woe:county=12596826", 
+          "woe:state=2345482", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56052002, 
         "ne_longitude": 13.696, 
         "longitude": 13.692, 
-        "placetype": "Airport", 
+        "parent_woeid": 12622951, 
+        "ne_latitude": 48.684, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 695497, 
+        "sw_latitude": 48.679, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.680, 
         "sw_longitude": 13.692, 
-        "fullname": "Sportflugplatz Sonnen, Sonnen, Bavaria, Landkreis Passau, Germany", 
-        "sw_latitude": 48.679
+        "fullname": "Sportflugplatz Sonnen, Sonnen, Bavaria, Germany", 
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 56052002
     }

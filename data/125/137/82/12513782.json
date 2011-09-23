@@ -3,28 +3,90 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              34.942, 
-              29.543
-            ], 
-            [
-              34.942, 
-              29.565
-            ], 
-            [
-              34.968, 
-              29.565
-            ], 
-            [
-              34.968, 
-              29.543
-            ], 
-            [
-              34.942, 
-              29.543
+              [
+                34.950, 
+                29.548
+              ], 
+              [
+                34.952, 
+                29.552
+              ], 
+              [
+                34.953, 
+                29.555
+              ], 
+              [
+                34.954, 
+                29.557
+              ], 
+              [
+                34.957, 
+                29.562
+              ], 
+              [
+                34.958, 
+                29.558
+              ], 
+              [
+                34.962, 
+                29.557
+              ], 
+              [
+                34.969, 
+                29.556
+              ], 
+              [
+                34.971, 
+                29.553
+              ], 
+              [
+                34.968, 
+                29.550
+              ], 
+              [
+                34.967, 
+                29.547
+              ], 
+              [
+                34.960, 
+                29.544
+              ], 
+              [
+                34.954, 
+                29.544
+              ], 
+              [
+                34.951, 
+                29.536
+              ], 
+              [
+                34.946, 
+                29.532
+              ], 
+              [
+                34.942, 
+                29.531
+              ], 
+              [
+                34.944, 
+                29.535
+              ], 
+              [
+                34.945, 
+                29.540
+              ], 
+              [
+                34.949, 
+                29.545
+              ], 
+              [
+                34.950, 
+                29.548
+              ]
             ]
           ]
         ]
@@ -32,23 +94,28 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513782, 
-        "name": "J Hozman Airport", 
         "alias_ENG_V": [
           "ETH Airport"
         ], 
-        "ne_latitude": 29.565, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": 34.968, 
-        "longitude": 34.955, 
-        "placetype": "Airport", 
+        "name": "J Hozman Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2345791", 
+          "woe:country=23424852", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513782, 
+        "ne_longitude": 34.971, 
+        "longitude": 34.956, 
+        "parent_woeid": 2345791, 
+        "ne_latitude": 29.562, 
         "iso": "IL", 
-        "date_indexed": "2010-12-02T08:53:06Z", 
-        "parent_woeid": 1968170, 
-        "latitude": 29.554, 
+        "sw_latitude": 29.531, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 29.548, 
         "sw_longitude": 34.942, 
         "fullname": "J Hozman Airport, Elat, HaDarom, Israel", 
-        "sw_latitude": 29.543
+        "date_indexed": "2010-12-02T08:53:06Z"
       }, 
       "id": 12513782
     }

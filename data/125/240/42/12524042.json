@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524042, 
-        "name": "Ilford Airport", 
         "alias_ENG_V": [
           "ILF Airport"
         ], 
-        "ne_latitude": 56.060, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Ilford Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375231", 
+          "woe:state=2344917", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524042, 
         "ne_longitude": -95.582, 
         "longitude": -95.590, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375231, 
+        "ne_latitude": 56.060, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 2017, 
+        "sw_latitude": 56.051, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 56.056, 
         "sw_longitude": -95.598, 
-        "fullname": "Ilford Airport, Ilford, Manitoba, Manitoba, Canada", 
-        "sw_latitude": 56.051
+        "fullname": "Ilford Airport, Ilford, Manitoba, Canada", 
+        "iata_code": "ILF", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12524042
     }

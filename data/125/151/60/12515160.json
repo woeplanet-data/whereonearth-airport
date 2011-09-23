@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515160, 
-        "name": "Nelson Airport", 
         "alias_ENG_V": [
           "NSN Airport"
         ], 
-        "ne_latitude": -41.291, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Nelson Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:suburb=2350664", 
+          "woe:county=55875906", 
+          "woe:state=15021758", 
+          "woe:country=23424916", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515160, 
         "ne_longitude": 173.233, 
         "longitude": 173.227, 
-        "placetype": "Airport", 
-        "iso": "NZ", 
-        "date_indexed": "2010-12-02T17:02:39Z", 
         "parent_woeid": 2350664, 
+        "ne_latitude": -41.291, 
+        "iso": "NZ", 
+        "sw_latitude": -41.303, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -41.298, 
         "sw_longitude": 173.206, 
-        "fullname": "Nelson Airport, Nelson, Nelson, Nelson City, New Zealand", 
-        "sw_latitude": -41.303
+        "fullname": "Nelson Airport, Nelson, Nelson, New Zealand", 
+        "iata_code": "NSN", 
+        "date_indexed": "2010-12-02T17:02:39Z"
       }, 
       "id": 12515160
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515808, 
+        "placetype": "airport", 
         "name": "Bezenchuk Airport", 
-        "ne_latitude": 52.961, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598599", 
+          "woe:state=2346906", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515808, 
         "ne_longitude": 49.371, 
         "longitude": 49.363, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598599, 
+        "ne_latitude": 52.961, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2103216, 
+        "sw_latitude": 52.951, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 52.956, 
         "sw_longitude": 49.356, 
         "fullname": "Bezenchuk Airport, Samarskaya Oblast, Bezenchuksky, Russia", 
-        "sw_latitude": 52.951
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12515808
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29230258, 
-        "name": "Juhu Airport", 
         "alias_ENG_V": [
           "Juhu Aerodrome"
         ], 
-        "ne_latitude": 19.104, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Juhu Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=28743745", 
+          "woe:state=2345750", 
+          "woe:country=23424848", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29230258, 
         "ne_longitude": 72.839, 
         "longitude": 72.838, 
-        "placetype": "Airport", 
+        "parent_woeid": 28743745, 
+        "ne_latitude": 19.104, 
         "iso": "IN", 
-        "date_indexed": "2010-12-02T09:26:27Z", 
-        "parent_woeid": 2273886, 
+        "sw_latitude": 19.091, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 19.097, 
         "sw_longitude": 72.827, 
-        "fullname": "Juhu Airport, Mumbai, Maharashtra, Mumbai Suburban, India", 
-        "sw_latitude": 19.091
+        "fullname": "Juhu Airport, Mumbai, Maharashtra, India", 
+        "date_indexed": "2010-12-02T09:26:27Z"
       }, 
       "id": 29230258
     }

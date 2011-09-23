@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388271, 
-        "name": "Washington Island Airport", 
         "alias_ENG_V": [
           "2p2"
         ], 
-        "ne_latitude": 45.392, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Washington Island Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590548", 
+          "woe:state=2347608", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388271, 
         "ne_longitude": -86.920, 
         "longitude": -86.923, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590548, 
+        "ne_latitude": 45.392, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2514601, 
+        "sw_latitude": 45.384, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.385, 
         "sw_longitude": -86.929, 
-        "fullname": "Washington Island Airport, Washington, Wisconsin, Door, United States", 
-        "sw_latitude": 45.384
+        "fullname": "Washington Island Airport, Washington, Wisconsin, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388271
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513360, 
-        "name": "Las Limas Airport", 
         "alias_ENG_V": [
           "LLH"
         ], 
-        "ne_latitude": 15.448, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Las Limas Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26813690", 
+          "woe:state=2345628", 
+          "woe:country=23424841", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513360, 
         "ne_longitude": -87.894, 
         "longitude": -87.899, 
-        "placetype": "Airport", 
+        "parent_woeid": 26813690, 
+        "ne_latitude": 15.448, 
         "iso": "HN", 
-        "date_indexed": "2010-12-02T19:21:06Z", 
-        "parent_woeid": 103182, 
+        "sw_latitude": 15.439, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 15.443, 
         "sw_longitude": -87.904, 
-        "fullname": "Las Limas Airport, La Lima, Cort\u00e9s, La Lima, Honduras", 
-        "sw_latitude": 15.439
+        "fullname": "Las Limas Airport, La Lima, Cort\u00e9s, Honduras", 
+        "iata_code": "LLH", 
+        "date_indexed": "2010-12-02T19:21:06Z"
       }, 
       "id": 12513360
     }

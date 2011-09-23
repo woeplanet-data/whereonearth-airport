@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524261, 
-        "name": "Winisk Airport", 
         "alias_ENG_V": [
           "YWN Airport"
         ], 
-        "ne_latitude": 55.279, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Winisk Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375238", 
+          "woe:state=2344922", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524261, 
         "ne_longitude": -85.156, 
         "longitude": -85.164, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375238, 
+        "ne_latitude": 55.279, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 2041, 
+        "sw_latitude": 55.270, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 55.274, 
         "sw_longitude": -85.172, 
-        "fullname": "Winisk Airport, Winisk, Ontario, Kenora, Canada", 
-        "sw_latitude": 55.270
+        "fullname": "Winisk Airport, Winisk, Ontario, Canada", 
+        "iata_code": "YWN", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12524261
     }

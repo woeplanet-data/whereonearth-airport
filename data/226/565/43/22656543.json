@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 22656543, 
+        "placetype": "airport", 
         "name": "Manchester Aerodrome", 
-        "ne_latitude": 53.475, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12695847", 
+          "woe:county=12602158", 
+          "woe:state=24554868", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 22656543, 
         "ne_longitude": -2.379, 
         "longitude": -2.387, 
-        "placetype": "Airport", 
+        "parent_woeid": 12695847, 
+        "ne_latitude": 53.475, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:21:01Z", 
-        "parent_woeid": 17975, 
+        "sw_latitude": 53.466, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.471, 
         "sw_longitude": -2.395, 
-        "fullname": "Manchester Aerodrome, Davyhulme, England, Greater Manchester, United Kingdom", 
-        "sw_latitude": 53.466
+        "fullname": "Manchester Aerodrome, Davyhulme, England, United Kingdom", 
+        "date_indexed": "2010-12-02T12:21:01Z"
       }, 
       "id": 22656543
     }

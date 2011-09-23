@@ -3,28 +3,46 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -77.483, 
-              25.027
-            ], 
-            [
-              -77.483, 
-              25.055
-            ], 
-            [
-              -77.449, 
-              25.055
-            ], 
-            [
-              -77.449, 
-              25.027
-            ], 
-            [
-              -77.483, 
-              25.027
+              [
+                -77.464, 
+                25.048
+              ], 
+              [
+                -77.464, 
+                25.045
+              ], 
+              [
+                -77.463, 
+                25.043
+              ], 
+              [
+                -77.465, 
+                25.045
+              ], 
+              [
+                -77.466, 
+                25.047
+              ], 
+              [
+                -77.466, 
+                25.049
+              ], 
+              [
+                -77.466, 
+                25.050
+              ], 
+              [
+                -77.464, 
+                25.050
+              ], 
+              [
+                -77.464, 
+                25.048
+              ]
             ]
           ]
         ]
@@ -32,23 +50,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510874, 
-        "name": "Nassau International Airport", 
         "alias_ENG_V": [
           "Nassau Airport"
         ], 
-        "ne_latitude": 25.055, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -77.449, 
-        "longitude": -77.472, 
-        "placetype": "Airport", 
+        "name": "Nassau International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2344777", 
+          "woe:country=23424758", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510874, 
+        "ne_longitude": -77.463, 
+        "longitude": -77.465, 
+        "parent_woeid": 2344777, 
+        "ne_latitude": 25.050, 
         "iso": "BS", 
-        "date_indexed": "2010-12-02T07:50:25Z", 
-        "parent_woeid": 56882, 
-        "latitude": 25.041, 
-        "sw_longitude": -77.483, 
+        "sw_latitude": 25.043, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 25.048, 
+        "sw_longitude": -77.466, 
         "fullname": "Nassau International Airport, New Providence, The Bahamas", 
-        "sw_latitude": 25.027
+        "iata_code": "NAS", 
+        "date_indexed": "2010-12-02T07:50:25Z"
       }, 
       "id": 12510874
     }

@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512566, 
+        "placetype": "airport", 
         "name": "Skutec Airport", 
-        "ne_latitude": 49.833, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12609586", 
+          "woe:county=12582593", 
+          "woe:state=20070465", 
+          "woe:country=23424810", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512566, 
         "ne_longitude": 16.014, 
         "longitude": 16.007, 
-        "placetype": "Airport", 
+        "parent_woeid": 12609586, 
+        "ne_latitude": 49.833, 
         "iso": "CZ", 
-        "date_indexed": "2010-12-02T08:56:52Z", 
-        "parent_woeid": 29396664, 
+        "sw_latitude": 49.824, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.828, 
         "sw_longitude": 16.000, 
         "fullname": "Skutec Airport, Pardubick\u00fd, Chrudim, Czech Republic", 
-        "sw_latitude": 49.824
+        "date_indexed": "2010-12-02T08:56:52Z"
       }, 
       "id": 12512566
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516665, 
-        "name": "Pechora Southwest Airport", 
         "alias_ENG_V": [
           "Pechora Southwest"
         ], 
-        "ne_latitude": 65.122, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Pechora Southwest Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12597449", 
+          "woe:state=2346874", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516665, 
         "ne_longitude": 57.120, 
         "longitude": 57.110, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597449, 
+        "ne_latitude": 65.122, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2121581, 
+        "sw_latitude": 65.113, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 65.118, 
         "sw_longitude": 57.099, 
         "fullname": "Pechora Southwest Airport, Komi, Pechora, Russia", 
-        "sw_latitude": 65.113
+        "iata_code": "PEX", 
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516665
     }

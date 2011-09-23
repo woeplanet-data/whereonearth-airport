@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517887, 
-        "name": "Erzincan Airport", 
         "alias_ENG_V": [
           "ERC"
         ], 
-        "ne_latitude": 39.716, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Erzincan Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29390608", 
+          "woe:state=2347281", 
+          "woe:country=23424969", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517887, 
         "ne_longitude": 39.523, 
         "longitude": 39.517, 
-        "placetype": "Airport", 
+        "parent_woeid": 29390608, 
+        "ne_latitude": 39.716, 
         "iso": "TR", 
-        "date_indexed": "2010-12-02T16:23:11Z", 
-        "parent_woeid": 2343976, 
+        "sw_latitude": 39.707, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 39.712, 
         "sw_longitude": 39.511, 
-        "fullname": "Erzincan Airport, Erzincan, Erzincan, Merkez, Turkey", 
-        "sw_latitude": 39.707
+        "fullname": "Erzincan Airport, Erzincan, Erzincan, Turkey", 
+        "iata_code": "ERC", 
+        "date_indexed": "2010-12-02T16:23:11Z"
       }, 
       "id": 12517887
     }

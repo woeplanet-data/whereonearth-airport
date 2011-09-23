@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521818, 
-        "name": "Sheboygan County Memorial Airport", 
         "alias_ENG_V": [
           "SBM Airport"
         ], 
-        "ne_latitude": 43.780, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Sheboygan County Memorial Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590592", 
+          "woe:state=2347608", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521818, 
         "ne_longitude": -87.839, 
         "longitude": -87.853, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590592, 
+        "ne_latitude": 43.780, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2492043, 
+        "sw_latitude": 43.759, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.764, 
         "sw_longitude": -87.863, 
-        "fullname": "Sheboygan County Memorial Airport, Sheboygan Falls, Wisconsin, Sheboygan, United States", 
-        "sw_latitude": 43.759
+        "fullname": "Sheboygan County Memorial Airport, Sheboygan Falls, Wisconsin, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521818
     }

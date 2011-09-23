@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388306, 
+        "placetype": "airport", 
         "name": "New Lenox-Howell Airport", 
-        "ne_latitude": 41.487, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12588176", 
+          "woe:state=2347572", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388306, 
         "ne_longitude": -87.917, 
         "longitude": -87.922, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588176, 
+        "ne_latitude": 41.487, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2452752, 
+        "sw_latitude": 41.480, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.484, 
         "sw_longitude": -87.927, 
-        "fullname": "New Lenox-Howell Airport, Mokena, Illinois, Will, United States", 
-        "sw_latitude": 41.480
+        "fullname": "New Lenox-Howell Airport, Mokena, Illinois, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 29388306
     }

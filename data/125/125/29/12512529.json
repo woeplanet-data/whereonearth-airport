@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512529, 
+        "placetype": "airport", 
         "name": "Jamolice Airport", 
-        "ne_latitude": 49.079, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12605665", 
+          "woe:county=12582558", 
+          "woe:state=20070503", 
+          "woe:country=23424810", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512529, 
         "ne_longitude": 16.263, 
         "longitude": 16.256, 
-        "placetype": "Airport", 
+        "parent_woeid": 12605665, 
+        "ne_latitude": 49.079, 
         "iso": "CZ", 
-        "date_indexed": "2010-12-02T08:56:52Z", 
-        "parent_woeid": 790507, 
+        "sw_latitude": 49.070, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.075, 
         "sw_longitude": 16.249, 
-        "fullname": "Jamolice Airport, Jamolice, Jihomoravsk\u00fd, Znojmo, Czech Republic", 
-        "sw_latitude": 49.070
+        "fullname": "Jamolice Airport, Jamolice, Jihomoravsk\u00fd, Czech Republic", 
+        "date_indexed": "2010-12-02T08:56:52Z"
       }, 
       "id": 12512529
     }

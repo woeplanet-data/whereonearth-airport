@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520240, 
-        "name": "Houston County Airport", 
         "alias_ENG_V": [
           "CHU"
         ], 
-        "ne_latitude": 43.601, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Houston County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588824", 
+          "woe:state=2347582", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520240, 
         "ne_longitude": -91.498, 
         "longitude": -91.510, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588824, 
+        "ne_latitude": 43.601, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2373213, 
+        "sw_latitude": 43.592, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.598, 
         "sw_longitude": -91.512, 
-        "fullname": "Houston County Airport, Caledonia, Minnesota, Houston, United States", 
-        "sw_latitude": 43.592
+        "fullname": "Houston County Airport, Caledonia, Minnesota, United States", 
+        "iata_code": "CHU", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520240
     }

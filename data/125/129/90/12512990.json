@@ -3,28 +3,34 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -16.666, 
-              13.326
-            ], 
-            [
-              -16.666, 
-              13.349
-            ], 
-            [
-              -16.643, 
-              13.349
-            ], 
-            [
-              -16.643, 
-              13.326
-            ], 
-            [
-              -16.666, 
-              13.326
+              [
+                -16.653, 
+                13.343
+              ], 
+              [
+                -16.652, 
+                13.343
+              ], 
+              [
+                -16.652, 
+                13.342
+              ], 
+              [
+                -16.653, 
+                13.342
+              ], 
+              [
+                -16.654, 
+                13.340
+              ], 
+              [
+                -16.653, 
+                13.343
+              ]
             ]
           ]
         ]
@@ -32,23 +38,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512990, 
-        "name": "Yundum International Airport", 
         "alias_ENG_V": [
           "BJL Airport"
         ], 
-        "ne_latitude": 13.349, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -16.643, 
-        "longitude": -16.654, 
-        "placetype": "Airport", 
+        "name": "Yundum International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2345447", 
+          "woe:country=23424821", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512990, 
+        "ne_longitude": -16.652, 
+        "longitude": -16.653, 
+        "parent_woeid": 2345447, 
+        "ne_latitude": 13.343, 
         "iso": "GM", 
-        "date_indexed": "2010-12-02T08:51:00Z", 
-        "parent_woeid": 1483364, 
-        "latitude": 13.337, 
-        "sw_longitude": -16.666, 
+        "sw_latitude": 13.340, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 13.342, 
+        "sw_longitude": -16.654, 
         "fullname": "Yundum International Airport, Yundum, Western, The Gambia", 
-        "sw_latitude": 13.326
+        "iata_code": "BJL", 
+        "date_indexed": "2010-12-02T08:51:00Z"
       }, 
       "id": 12512990
     }

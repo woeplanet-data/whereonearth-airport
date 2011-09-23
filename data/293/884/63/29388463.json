@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388463, 
-        "name": "Kutztown Airport", 
         "alias_ENG_V": [
           "N31"
         ], 
-        "ne_latitude": 40.508, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Kutztown Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589733", 
+          "woe:state=2347597", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388463, 
         "ne_longitude": -75.779, 
         "longitude": -75.789, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589733, 
+        "ne_latitude": 40.508, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2447033, 
+        "sw_latitude": 40.500, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.507, 
         "sw_longitude": -75.790, 
-        "fullname": "Kutztown Airport, Maxatawny, Pennsylvania, Berks, United States", 
-        "sw_latitude": 40.500
+        "fullname": "Kutztown Airport, Maxatawny, Pennsylvania, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388463
     }

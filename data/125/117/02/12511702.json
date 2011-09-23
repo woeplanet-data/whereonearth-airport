@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511702, 
-        "name": "Inner Harbour Airport", 
         "alias_ENG_V": [
           "YWH Airport"
         ], 
-        "ne_latitude": 70.921, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Inner Harbour Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375230", 
+          "woe:state=20069920", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511702, 
         "ne_longitude": -109.971, 
         "longitude": -109.985, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375230, 
+        "ne_latitude": 70.921, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 23405898, 
+        "sw_latitude": 70.912, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 70.917, 
         "sw_longitude": -109.999, 
-        "fullname": "Inner Harbour Airport, Kugluktuk, Nunavut, Nunavut, Canada", 
-        "sw_latitude": 70.912
+        "fullname": "Inner Harbour Airport, Kugluktuk, Nunavut, Canada", 
+        "iata_code": "YWH", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12511702
     }

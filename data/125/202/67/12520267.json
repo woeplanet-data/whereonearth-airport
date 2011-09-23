@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520267, 
-        "name": "Huron Regional Airport", 
         "alias_ENG_V": [
           "Huron Airport"
         ], 
-        "ne_latitude": 44.396, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Huron Regional Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589847", 
+          "woe:state=2347600", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520267, 
         "ne_longitude": -98.216, 
         "longitude": -98.224, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589847, 
+        "ne_latitude": 44.396, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2426092, 
+        "sw_latitude": 44.376, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.387, 
         "sw_longitude": -98.246, 
-        "fullname": "Huron Regional Airport, Huron, South Dakota, Beadle, United States", 
-        "sw_latitude": 44.376
+        "fullname": "Huron Regional Airport, Huron, South Dakota, United States", 
+        "iata_code": "HON", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520267
     }

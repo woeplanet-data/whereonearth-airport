@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516524, 
+        "placetype": "airport", 
         "name": "Norilsk Northwest Airport", 
-        "ne_latitude": 69.401, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597872", 
+          "woe:state=20070524", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516524, 
         "ne_longitude": 87.925, 
         "longitude": 87.912, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597872, 
+        "ne_latitude": 69.401, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2124771, 
+        "sw_latitude": 69.392, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 69.396, 
         "sw_longitude": 87.899, 
-        "fullname": "Norilsk Northwest Airport, Noril'sk, Krasnoyarskiy Kray, Noril'sk, Russia", 
-        "sw_latitude": 69.392
+        "fullname": "Norilsk Northwest Airport, Noril'sk, Krasnoyarskiy Kray, Russia", 
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516524
     }

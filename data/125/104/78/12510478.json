@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510478, 
-        "name": "Clorinda Airport", 
         "alias_ENG_V": [
           "CLX"
         ], 
-        "ne_latitude": -25.299, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Clorinda Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=20070788", 
+          "woe:state=2344683", 
+          "woe:country=23424747", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510478, 
         "ne_longitude": -57.727, 
         "longitude": -57.732, 
-        "placetype": "Airport", 
+        "parent_woeid": 20070788, 
+        "ne_latitude": -25.299, 
         "iso": "AR", 
-        "date_indexed": "2010-12-02T17:41:29Z", 
-        "parent_woeid": 466933, 
+        "sw_latitude": -25.308, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -25.303, 
         "sw_longitude": -57.737, 
-        "fullname": "Clorinda Airport, Clorinda, Formosa, Pilcomayo, Argentina", 
-        "sw_latitude": -25.308
+        "fullname": "Clorinda Airport, Clorinda, Formosa, Argentina", 
+        "iata_code": "CLX", 
+        "date_indexed": "2010-12-02T17:41:29Z"
       }, 
       "id": 12510478
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "SWE", 
-        "woeid": 12517659, 
+        "placetype": "airport", 
         "name": "Ljungbyhed Flygplats", 
         "alias_ENG_P": [
           "Ljungbyhed Airport"
         ], 
-        "ne_latitude": 56.090, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12587306", 
+          "woe:state=20070561", 
+          "woe:country=23424954", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517659, 
         "ne_longitude": 13.210, 
         "longitude": 13.202, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587306, 
+        "ne_latitude": 56.090, 
         "iso": "SE", 
-        "date_indexed": "2010-12-02T16:45:55Z", 
-        "parent_woeid": 887221, 
+        "sw_latitude": 56.081, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 56.085, 
         "sw_longitude": 13.194, 
-        "fullname": "Ljungbyhed Flygplats, Bonarp, Skane, Klippan, Sweden", 
-        "sw_latitude": 56.081
+        "fullname": "Ljungbyhed Flygplats, Bonarp, Skane, Sweden", 
+        "date_indexed": "2010-12-02T16:45:55Z"
       }, 
       "id": 12517659
     }

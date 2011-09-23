@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520570, 
-        "name": "Lansing Municipal Airport", 
         "alias_ENG_V": [
           "Igq"
         ], 
-        "ne_latitude": 41.543, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Lansing Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588093", 
+          "woe:state=2347572", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520570, 
         "ne_longitude": -87.525, 
         "longitude": -87.538, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588093, 
+        "ne_latitude": 41.543, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2436443, 
+        "sw_latitude": 41.539, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.542, 
         "sw_longitude": -87.539, 
-        "fullname": "Lansing Municipal Airport, Lansing, Illinois, Cook, United States", 
-        "sw_latitude": 41.539
+        "fullname": "Lansing Municipal Airport, Lansing, Illinois, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520570
     }

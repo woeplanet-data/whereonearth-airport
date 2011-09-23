@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520369, 
-        "name": "Jim Hogg County Airport", 
         "alias_ENG_V": [
           "Hbv"
         ], 
-        "ne_latitude": 27.356, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Jim Hogg County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590130", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520369, 
         "ne_longitude": -98.730, 
         "longitude": -98.743, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590130, 
+        "ne_latitude": 27.356, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 23418122, 
+        "sw_latitude": 27.343, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 27.352, 
         "sw_longitude": -98.746, 
-        "fullname": "Jim Hogg County Airport, Las Lomitas, Texas, Jim Hogg, United States", 
-        "sw_latitude": 27.343
+        "fullname": "Jim Hogg County Airport, Las Lomitas, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520369
     }

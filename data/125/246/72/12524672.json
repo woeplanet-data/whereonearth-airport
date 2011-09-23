@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524672, 
-        "name": "Errol Airport", 
         "alias_ENG_V": [
           "ERR"
         ], 
-        "ne_latitude": 44.797, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Errol Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589251", 
+          "woe:state=2347588", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524672, 
         "ne_longitude": -71.158, 
         "longitude": -71.165, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589251, 
+        "ne_latitude": 44.797, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2400128, 
+        "sw_latitude": 44.788, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.792, 
         "sw_longitude": -71.171, 
-        "fullname": "Errol Airport, Errol, New Hampshire, Coos, United States", 
-        "sw_latitude": 44.788
+        "fullname": "Errol Airport, Errol, New Hampshire, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12524672
     }

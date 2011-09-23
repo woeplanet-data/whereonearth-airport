@@ -3,28 +3,38 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -111.969, 
-              33.467
-            ], 
-            [
-              -111.969, 
-              33.476
-            ], 
-            [
-              -111.958, 
-              33.476
-            ], 
-            [
-              -111.958, 
-              33.467
-            ], 
-            [
-              -111.969, 
-              33.467
+              [
+                -111.945, 
+                33.462
+              ], 
+              [
+                -111.945, 
+                33.461
+              ], 
+              [
+                -111.945, 
+                33.462
+              ], 
+              [
+                -111.945, 
+                33.463
+              ], 
+              [
+                -111.943, 
+                33.463
+              ], 
+              [
+                -111.942, 
+                33.463
+              ], 
+              [
+                -111.945, 
+                33.462
+              ]
             ]
           ]
         ]
@@ -32,20 +42,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521300, 
+        "placetype": "airport", 
         "name": "Papago Army Air Field", 
-        "ne_latitude": 33.476, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -111.958, 
-        "longitude": -111.963, 
-        "placetype": "Airport", 
-        "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
+        "hierarchy": [
+          "woe:suburb=29230214", 
+          "woe:county=12587587", 
+          "woe:state=2347561", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521300, 
+        "ne_longitude": -111.942, 
+        "longitude": -111.944, 
         "parent_woeid": 29230214, 
-        "latitude": 33.472, 
-        "sw_longitude": -111.969, 
-        "fullname": "Papago Army Air Field, Phoenix, Arizona, Maricopa, United States", 
-        "sw_latitude": 33.467
+        "ne_latitude": 33.463, 
+        "iso": "US", 
+        "sw_latitude": 33.461, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 33.462, 
+        "sw_longitude": -111.945, 
+        "fullname": "Papago Army Air Field, Phoenix, Arizona, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521300
     }

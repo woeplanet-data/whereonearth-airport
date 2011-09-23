@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523522, 
-        "name": "Carmen de Patagones Airport", 
         "alias_ENG_V": [
           "Carmen Patagones Airport"
         ], 
-        "ne_latitude": -40.795, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Carmen de Patagones Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=20071002", 
+          "woe:state=2344675", 
+          "woe:country=23424747", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523522, 
         "ne_longitude": -62.977, 
         "longitude": -62.983, 
-        "placetype": "Airport", 
+        "parent_woeid": 20071002, 
+        "ne_latitude": -40.795, 
         "iso": "AR", 
-        "date_indexed": "2010-12-02T17:41:29Z", 
-        "parent_woeid": 466919, 
+        "sw_latitude": -40.805, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -40.800, 
         "sw_longitude": -62.989, 
-        "fullname": "Carmen de Patagones Airport, Patagones, Buenos Aires, Patagones, Argentina", 
-        "sw_latitude": -40.805
+        "fullname": "Carmen de Patagones Airport, Patagones, Buenos Aires, Argentina", 
+        "iata_code": "CPG", 
+        "date_indexed": "2010-12-02T17:41:29Z"
       }, 
       "id": 12523522
     }

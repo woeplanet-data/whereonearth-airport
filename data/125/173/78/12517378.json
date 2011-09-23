@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517378, 
-        "name": "Wejh Airport", 
         "alias_ENG_V": [
           "EJH"
         ], 
-        "ne_latitude": 26.205, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Wejh Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=56120107", 
+          "woe:state=2346962", 
+          "woe:country=23424938", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517378, 
         "ne_longitude": 36.481, 
         "longitude": 36.476, 
-        "placetype": "Airport", 
+        "parent_woeid": 56120107, 
+        "ne_latitude": 26.205, 
         "iso": "SA", 
-        "date_indexed": "2010-12-02T09:34:42Z", 
-        "parent_woeid": 1939688, 
+        "sw_latitude": 26.196, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 26.200, 
         "sw_longitude": 36.471, 
-        "fullname": "Wejh Airport, Al Wajh, Tabuk, Tabouk, Saudi Arabia", 
-        "sw_latitude": 26.196
+        "fullname": "Wejh Airport, Al Wajh, Tabuk, Saudi Arabia", 
+        "date_indexed": "2010-12-02T09:34:42Z"
       }, 
       "id": 12517378
     }

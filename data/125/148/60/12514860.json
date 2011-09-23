@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514860, 
+        "placetype": "airport", 
         "name": "Cumpas New Airport", 
-        "ne_latitude": 30.041, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12601566", 
+          "woe:state=2346289", 
+          "woe:country=23424900", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514860, 
         "ne_longitude": -109.759, 
         "longitude": -109.764, 
-        "placetype": "Airport", 
+        "parent_woeid": 12601566, 
+        "ne_latitude": 30.041, 
         "iso": "MX", 
-        "date_indexed": "2010-12-02T16:57:55Z", 
-        "parent_woeid": 135143, 
+        "sw_latitude": 30.032, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 30.036, 
         "sw_longitude": -109.769, 
-        "fullname": "Cumpas New Airport, Ojo de Agua Bacanuchi, Sonora, Cumpas, Mexico", 
-        "sw_latitude": 30.032
+        "fullname": "Cumpas New Airport, Ojo de Agua Bacanuchi, Sonora, Mexico", 
+        "date_indexed": "2010-12-02T16:57:55Z"
       }, 
       "id": 12514860
     }

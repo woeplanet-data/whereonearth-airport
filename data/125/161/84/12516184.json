@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516184, 
+        "placetype": "airport", 
         "name": "Kletino Airport", 
-        "ne_latitude": 56.798, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598786", 
+          "woe:state=2346911", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516184, 
         "ne_longitude": 37.352, 
         "longitude": 37.344, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598786, 
+        "ne_latitude": 56.798, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2103838, 
+        "sw_latitude": 56.789, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 56.793, 
         "sw_longitude": 37.335, 
         "fullname": "Kletino Airport, Moskovskaya Oblast, Taldomsky, Russia", 
-        "sw_latitude": 56.789
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516184
     }

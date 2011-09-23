@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519777, 
-        "name": "Fort Madison Municipal Airport", 
         "alias_ENG_V": [
           "Ft Madison Municipal Airport"
         ], 
-        "ne_latitude": 40.665, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Fort Madison Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588327", 
+          "woe:state=2347574", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519777, 
         "ne_longitude": -91.320, 
         "longitude": -91.321, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588327, 
+        "ne_latitude": 40.665, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2405825, 
+        "sw_latitude": 40.653, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.658, 
         "sw_longitude": -91.330, 
-        "fullname": "Fort Madison Municipal Airport, Fort Madison, Iowa, Lee, United States", 
-        "sw_latitude": 40.653
+        "fullname": "Fort Madison Municipal Airport, Fort Madison, Iowa, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12519777
     }

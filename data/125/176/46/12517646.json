@@ -3,28 +3,34 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              16.261, 
-              56.671
-            ], 
-            [
-              16.261, 
-              56.703
-            ], 
-            [
-              16.305, 
-              56.703
-            ], 
-            [
-              16.305, 
-              56.671
-            ], 
-            [
-              16.261, 
-              56.671
+              [
+                16.244, 
+                56.680
+              ], 
+              [
+                16.243, 
+                56.680
+              ], 
+              [
+                16.243, 
+                56.680
+              ], 
+              [
+                16.243, 
+                56.681
+              ], 
+              [
+                16.244, 
+                56.680
+              ], 
+              [
+                16.244, 
+                56.680
+              ]
             ]
           ]
         ]
@@ -40,8 +46,14 @@
         "alias_ENG_P": [
           "Kalmar Airport"
         ], 
-        "ne_latitude": 56.703, 
-        "placetype": "Airport", 
+        "hierarchy": [
+          "woe:county=12587278", 
+          "woe:state=2347052", 
+          "woe:country=23424954", 
+          "woe:planet=1"
+        ], 
+        "ne_latitude": 56.681, 
+        "placetype": "airport", 
         "alias_POR_Q": [
           "Aeroporto de Kalmar"
         ], 
@@ -58,9 +70,9 @@
         "alias_FIN_S": [
           "Kalmarin Lentokentta"
         ], 
-        "sw_longitude": 16.261, 
+        "sw_longitude": 16.243, 
         "provider": "geoplanet 7.6.0", 
-        "latitude": 56.677, 
+        "latitude": 56.680, 
         "date_indexed": "2010-12-02T16:45:55Z", 
         "alias_DUT_Q": [
           "Luchthaven Kalmar"
@@ -76,15 +88,15 @@
         ], 
         "lang": "SWE", 
         "name": "Kalmar Flygplats", 
-        "parent_woeid": 20151775, 
+        "parent_woeid": 12587278, 
         "alias_UNK_Q": [
           "Letisko Kalmar"
         ], 
-        "ne_longitude": 16.305, 
-        "longitude": 16.288, 
+        "ne_longitude": 16.244, 
+        "longitude": 16.243, 
         "iso": "SE", 
-        "sw_latitude": 56.671, 
-        "fullname": "Kalmar Flygplats, Kalmar flygolats, Kalmar, Kalmar, Sweden", 
+        "sw_latitude": 56.680, 
+        "fullname": "Kalmar Flygplats, Kalmar flygolats, Kalmar, Sweden", 
         "alias_FRE_S": [
           "Aeroport de Kalmar"
         ], 

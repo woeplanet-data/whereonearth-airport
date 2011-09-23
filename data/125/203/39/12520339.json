@@ -3,28 +3,86 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -81.722, 
-              30.465
-            ], 
-            [
-              -81.722, 
-              30.512
-            ], 
-            [
-              -81.653, 
-              30.512
-            ], 
-            [
-              -81.653, 
-              30.465
-            ], 
-            [
-              -81.722, 
-              30.465
+              [
+                -81.686, 
+                30.494
+              ], 
+              [
+                -81.685, 
+                30.495
+              ], 
+              [
+                -81.684, 
+                30.496
+              ], 
+              [
+                -81.681, 
+                30.501
+              ], 
+              [
+                -81.678, 
+                30.501
+              ], 
+              [
+                -81.677, 
+                30.496
+              ], 
+              [
+                -81.677, 
+                30.494
+              ], 
+              [
+                -81.676, 
+                30.491
+              ], 
+              [
+                -81.675, 
+                30.491
+              ], 
+              [
+                -81.676, 
+                30.489
+              ], 
+              [
+                -81.678, 
+                30.488
+              ], 
+              [
+                -81.680, 
+                30.486
+              ], 
+              [
+                -81.682, 
+                30.485
+              ], 
+              [
+                -81.683, 
+                30.488
+              ], 
+              [
+                -81.686, 
+                30.489
+              ], 
+              [
+                -81.689, 
+                30.490
+              ], 
+              [
+                -81.688, 
+                30.493
+              ], 
+              [
+                -81.688, 
+                30.494
+              ], 
+              [
+                -81.686, 
+                30.494
+              ]
             ]
           ]
         ]
@@ -32,23 +90,32 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520339, 
-        "name": "Jacksonville International Airport", 
         "alias_ENG_V": [
           "JAX"
         ], 
-        "ne_latitude": 30.512, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -81.653, 
-        "longitude": -81.676, 
-        "placetype": "Airport", 
-        "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
+        "name": "Jacksonville International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:suburb=29230002", 
+          "woe:suburb=28288733", 
+          "woe:county=12587818", 
+          "woe:state=2347568", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520339, 
+        "ne_longitude": -81.675, 
+        "longitude": -81.681, 
         "parent_woeid": 29230002, 
-        "latitude": 30.492, 
-        "sw_longitude": -81.722, 
-        "fullname": "Jacksonville International Airport, Jacksonville, Florida, Duval, United States", 
-        "sw_latitude": 30.465
+        "ne_latitude": 30.501, 
+        "iso": "US", 
+        "sw_latitude": 30.485, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 30.493, 
+        "sw_longitude": -81.689, 
+        "fullname": "Jacksonville International Airport, Jacksonville, Florida, United States", 
+        "iata_code": "JAX", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520339
     }

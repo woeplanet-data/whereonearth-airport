@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515357, 
+        "placetype": "airport", 
         "name": "Nadarzyce Airport", 
-        "ne_latitude": 53.462, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=24547508", 
+          "woe:county=12591487", 
+          "woe:state=12577949", 
+          "woe:country=23424923", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515357, 
         "ne_longitude": 16.485, 
         "longitude": 16.478, 
-        "placetype": "Airport", 
+        "parent_woeid": 24547508, 
+        "ne_latitude": 53.462, 
         "iso": "PL", 
-        "date_indexed": "2010-12-02T12:12:45Z", 
-        "parent_woeid": 508610, 
+        "sw_latitude": 53.452, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.457, 
         "sw_longitude": 16.470, 
         "fullname": "Nadarzyce Airport, Greater Poland, Zlotow County, Poland", 
-        "sw_latitude": 53.452
+        "date_indexed": "2010-12-02T12:12:45Z"
       }, 
       "id": 12515357
     }

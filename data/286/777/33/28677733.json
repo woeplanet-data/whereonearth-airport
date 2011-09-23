@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 28677733, 
+        "placetype": "airport", 
         "name": "Nullagine Aerodrome", 
-        "ne_latitude": -21.906, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55864370", 
+          "woe:state=2344706", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 28677733, 
         "ne_longitude": 120.202, 
         "longitude": 120.197, 
-        "placetype": "Airport", 
+        "parent_woeid": 55864370, 
+        "ne_latitude": -21.906, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1104702, 
+        "sw_latitude": -21.916, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -21.911, 
         "sw_longitude": 120.193, 
-        "fullname": "Nullagine Aerodrome, Nullagine, Western Australia, East Pilbara, Australia", 
-        "sw_latitude": -21.916
+        "fullname": "Nullagine Aerodrome, Nullagine, Western Australia, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 28677733
     }

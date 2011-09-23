@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524668, 
-        "name": "Elfin Cove Airport", 
         "alias_ENG_V": [
           "ELV"
         ], 
-        "ne_latitude": 58.188, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Elfin Cove Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55999797", 
+          "woe:state=2347560", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524668, 
         "ne_longitude": -136.308, 
         "longitude": -136.317, 
-        "placetype": "Airport", 
+        "parent_woeid": 55999797, 
+        "ne_latitude": 58.188, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2398229, 
+        "sw_latitude": 58.179, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 58.183, 
         "sw_longitude": -136.326, 
-        "fullname": "Elfin Cove Airport, Elfin Cove, Alaska, Hoonah-Angoon Census Area, United States", 
-        "sw_latitude": 58.179
+        "fullname": "Elfin Cove Airport, Elfin Cove, Alaska, United States", 
+        "iata_code": "ELV", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12524668
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522273, 
-        "name": "Vandenberg Airport", 
         "alias_ENG_V": [
           "X16"
         ], 
-        "ne_latitude": 28.024, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Vandenberg Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587831", 
+          "woe:state=2347568", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522273, 
         "ne_longitude": -82.336, 
         "longitude": -82.344, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587831, 
+        "ne_latitude": 28.024, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2504683, 
+        "sw_latitude": 28.002, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 28.011, 
         "sw_longitude": -82.350, 
-        "fullname": "Vandenberg Airport, Temple Terrace Junction, Florida, Hillsborough, United States", 
-        "sw_latitude": 28.002
+        "fullname": "Vandenberg Airport, Temple Terrace Junction, Florida, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522273
     }

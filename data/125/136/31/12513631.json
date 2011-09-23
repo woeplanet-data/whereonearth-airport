@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513631, 
-        "name": "Mangalore International Airport", 
         "alias_ENG_V": [
           "Mangalore Airport"
         ], 
-        "ne_latitude": 12.986, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Mangalore International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12586579", 
+          "woe:state=2345753", 
+          "woe:country=23424848", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513631, 
         "ne_longitude": 74.904, 
         "longitude": 74.899, 
-        "placetype": "Airport", 
+        "parent_woeid": 12586579, 
+        "ne_latitude": 12.986, 
         "iso": "IN", 
-        "date_indexed": "2010-12-02T09:26:27Z", 
-        "parent_woeid": 29212942, 
+        "sw_latitude": 12.977, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 12.981, 
         "sw_longitude": 74.895, 
-        "fullname": "Mangalore International Airport, Kolambe, Karnataka, Dakshina Kannada, India", 
-        "sw_latitude": 12.977
+        "fullname": "Mangalore International Airport, Kolambe, Karnataka, India", 
+        "date_indexed": "2010-12-02T09:26:27Z"
       }, 
       "id": 12513631
     }

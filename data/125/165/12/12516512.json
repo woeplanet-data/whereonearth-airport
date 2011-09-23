@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516512, 
+        "placetype": "airport", 
         "name": "Nizhneyansk Airport", 
-        "ne_latitude": 71.425, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597650", 
+          "woe:state=2346881", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516512, 
         "ne_longitude": 136.208, 
         "longitude": 136.193, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597650, 
+        "ne_latitude": 71.425, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2122421, 
+        "sw_latitude": 71.416, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 71.421, 
         "sw_longitude": 136.179, 
-        "fullname": "Nizhneyansk Airport, Nizhneyansk, Sakha, Ust-Yansky, Russia", 
-        "sw_latitude": 71.416
+        "fullname": "Nizhneyansk Airport, Nizhneyansk, Sakha, Russia", 
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516512
     }

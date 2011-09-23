@@ -3,28 +3,66 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -86.256, 
-              43.158
-            ], 
-            [
-              -86.256, 
-              43.179
-            ], 
-            [
-              -86.217, 
-              43.179
-            ], 
-            [
-              -86.217, 
-              43.158
-            ], 
-            [
-              -86.256, 
-              43.158
+              [
+                -86.221, 
+                43.174
+              ], 
+              [
+                -86.220, 
+                43.175
+              ], 
+              [
+                -86.220, 
+                43.178
+              ], 
+              [
+                -86.221, 
+                43.181
+              ], 
+              [
+                -86.222, 
+                43.175
+              ], 
+              [
+                -86.225, 
+                43.172
+              ], 
+              [
+                -86.234, 
+                43.162
+              ], 
+              [
+                -86.242, 
+                43.164
+              ], 
+              [
+                -86.248, 
+                43.173
+              ], 
+              [
+                -86.236, 
+                43.166
+              ], 
+              [
+                -86.233, 
+                43.167
+              ], 
+              [
+                -86.225, 
+                43.172
+              ], 
+              [
+                -86.221, 
+                43.174
+              ], 
+              [
+                -86.221, 
+                43.174
+              ]
             ]
           ]
         ]
@@ -32,23 +70,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521071, 
-        "name": "Muskegon County Airport", 
         "alias_ENG_V": [
           "MKG"
         ], 
-        "ne_latitude": 43.179, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -86.217, 
-        "longitude": -86.237, 
-        "placetype": "Airport", 
+        "name": "Muskegon County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588774", 
+          "woe:state=2347581", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521071, 
+        "ne_longitude": -86.220, 
+        "longitude": -86.241, 
+        "parent_woeid": 12588774, 
+        "ne_latitude": 43.181, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2462216, 
+        "sw_latitude": 43.162, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.165, 
-        "sw_longitude": -86.256, 
-        "fullname": "Muskegon County Airport, Norton Shores, Michigan, Muskegon, United States", 
-        "sw_latitude": 43.158
+        "sw_longitude": -86.248, 
+        "fullname": "Muskegon County Airport, Norton Shores, Michigan, United States", 
+        "iata_code": "MKG", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12521071
     }

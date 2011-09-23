@@ -32,29 +32,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511209, 
-        "name": "Aeroporto Lauro Kurtz", 
-        "alias_ENG_P": [
-          "Lauro Kurtz Airport"
-        ], 
-        "ne_latitude": -28.240, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "PFB"
         ], 
+        "name": "Aeroporto Lauro Kurtz", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Lauro Kurtz Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12581434", 
+          "woe:state=2344864", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511209, 
         "ne_longitude": -52.327, 
         "longitude": -52.332, 
-        "placetype": "Airport", 
+        "parent_woeid": 12581434, 
+        "ne_latitude": -28.240, 
         "alias_POR_V": [
           "Aeroporto PFB"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 455896, 
+        "sw_latitude": -28.249, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -28.245, 
         "sw_longitude": -52.337, 
-        "fullname": "Aeroporto Lauro Kurtz, Passo Fundo, Rio Grande do Sul, Passo Fundo, Brazil", 
-        "sw_latitude": -28.249
+        "fullname": "Aeroporto Lauro Kurtz, Passo Fundo, Rio Grande do Sul, Brazil", 
+        "iata_code": "PFB", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511209
     }

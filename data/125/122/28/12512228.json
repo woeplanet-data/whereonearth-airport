@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512228, 
+        "placetype": "airport", 
         "name": "Wensu Airport", 
-        "ne_latitude": 41.272, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=20071163", 
+          "woe:county=26198313", 
+          "woe:state=12578003", 
+          "woe:country=23424781", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512228, 
         "ne_longitude": 80.295, 
         "longitude": 80.289, 
-        "placetype": "Airport", 
+        "parent_woeid": 20071163, 
+        "ne_latitude": 41.272, 
         "iso": "CN", 
-        "date_indexed": "2010-12-02T08:51:54Z", 
-        "parent_woeid": 2143965, 
+        "sw_latitude": 41.263, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.267, 
         "sw_longitude": 80.283, 
-        "fullname": "Wensu Airport, Wensu, Xinjiang, Akesu, China", 
-        "sw_latitude": 41.263
+        "fullname": "Wensu Airport, Wensu, Xinjiang, China", 
+        "date_indexed": "2010-12-02T08:51:54Z"
       }, 
       "id": 12512228
     }

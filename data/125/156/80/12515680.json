@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515680, 
+        "placetype": "airport", 
         "name": "Agafonovka Airport", 
-        "ne_latitude": 50.627, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599243", 
+          "woe:state=2346924", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515680, 
         "ne_longitude": 47.443, 
         "longitude": 47.436, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599243, 
+        "ne_latitude": 50.627, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 1980184, 
+        "sw_latitude": 50.618, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.622, 
         "sw_longitude": 47.429, 
         "fullname": "Agafonovka Airport, Saratovskaya Oblast, Pitersky, Russia", 
-        "sw_latitude": 50.618
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12515680
     }

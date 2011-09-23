@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519348, 
-        "name": "Craig-Moffat Airport", 
         "alias_ENG_V": [
           "CIG"
         ], 
-        "ne_latitude": 40.498, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Craig-Moffat Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587768", 
+          "woe:state=2347564", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519348, 
         "ne_longitude": -107.510, 
         "longitude": -107.520, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587768, 
+        "ne_latitude": 40.498, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2386584, 
+        "sw_latitude": 40.492, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.492, 
         "sw_longitude": -107.538, 
-        "fullname": "Craig-Moffat Airport, Craig South Highlands, Colorado, Moffat, United States", 
-        "sw_latitude": 40.492
+        "fullname": "Craig-Moffat Airport, Craig South Highlands, Colorado, United States", 
+        "iata_code": "CIG", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519348
     }

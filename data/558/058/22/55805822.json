@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 55805822, 
-        "name": "Iron County Airport", 
         "alias_ENG_V": [
           "50d"
         ], 
-        "ne_latitude": 46.017, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Iron County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588749", 
+          "woe:state=2347581", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 55805822, 
         "ne_longitude": -88.264, 
         "longitude": -88.279, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588749, 
+        "ne_latitude": 46.017, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2498793, 
+        "sw_latitude": 46.001, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.008, 
         "sw_longitude": -88.286, 
-        "fullname": "Iron County Airport, Stager, Michigan, Iron, United States", 
-        "sw_latitude": 46.001
+        "fullname": "Iron County Airport, Stager, Michigan, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 55805822
     }

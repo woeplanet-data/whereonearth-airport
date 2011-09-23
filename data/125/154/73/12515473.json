@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515473, 
-        "name": "Manus Island Airport", 
         "alias_ENG_V": [
           "MAS"
         ], 
-        "ne_latitude": -2.101, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Manus Island Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2346593", 
+          "woe:country=23424926", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515473, 
         "ne_longitude": 146.930, 
         "longitude": 146.926, 
-        "placetype": "Airport", 
+        "parent_woeid": 2346593, 
+        "ne_latitude": -2.101, 
         "iso": "PG", 
-        "date_indexed": "2010-12-02T09:57:28Z", 
-        "parent_woeid": 1061516, 
+        "sw_latitude": -2.110, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -2.105, 
         "sw_longitude": 146.921, 
         "fullname": "Manus Island Airport, Loi, Manus, Papua New Guinea", 
-        "sw_latitude": -2.110
+        "iata_code": "MAS", 
+        "date_indexed": "2010-12-02T09:57:28Z"
       }, 
       "id": 12515473
     }

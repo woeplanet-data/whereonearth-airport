@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513335, 
+        "placetype": "airport", 
         "name": "Inta Northeast Airport", 
-        "ne_latitude": 15.810, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=26806910", 
+          "woe:state=2345552", 
+          "woe:country=23424834", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513335, 
         "ne_longitude": -89.844, 
         "longitude": -89.849, 
-        "placetype": "Airport", 
+        "parent_woeid": 26806910, 
+        "ne_latitude": 15.810, 
         "iso": "GT", 
-        "date_indexed": "2010-12-02T16:55:27Z", 
-        "parent_woeid": 82103, 
+        "sw_latitude": 15.801, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 15.806, 
         "sw_longitude": -89.853, 
         "fullname": "Inta Northeast Airport, Alta Verapaz, Fray Bartolom\u00e9 de Las Casas, Guatemala", 
-        "sw_latitude": 15.801
+        "date_indexed": "2010-12-02T16:55:27Z"
       }, 
       "id": 12513335
     }

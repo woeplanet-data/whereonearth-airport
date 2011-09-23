@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519445, 
+        "placetype": "airport", 
         "name": "Deer Creek Ranch Airport", 
-        "ne_latitude": 39.955, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12587721", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519445, 
         "ne_longitude": -121.990, 
         "longitude": -121.996, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587721, 
+        "ne_latitude": 39.955, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:15Z", 
-        "parent_woeid": 2512425, 
+        "sw_latitude": 39.945, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 39.950, 
         "sw_longitude": -122.002, 
-        "fullname": "Deer Creek Ranch Airport, Vina, California, Tehama, United States", 
-        "sw_latitude": 39.945
+        "fullname": "Deer Creek Ranch Airport, Vina, California, United States", 
+        "date_indexed": "2010-12-02T18:39:15Z"
       }, 
       "id": 12519445
     }

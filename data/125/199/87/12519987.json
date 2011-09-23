@@ -3,28 +3,62 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -104.656, 
-              40.422
-            ], 
-            [
-              -104.656, 
-              40.461
-            ], 
-            [
-              -104.621, 
-              40.461
-            ], 
-            [
-              -104.621, 
-              40.422
-            ], 
-            [
-              -104.656, 
-              40.422
+              [
+                -104.639, 
+                40.427
+              ], 
+              [
+                -104.639, 
+                40.427
+              ], 
+              [
+                -104.642, 
+                40.430
+              ], 
+              [
+                -104.648, 
+                40.431
+              ], 
+              [
+                -104.652, 
+                40.432
+              ], 
+              [
+                -104.653, 
+                40.432
+              ], 
+              [
+                -104.653, 
+                40.434
+              ], 
+              [
+                -104.647, 
+                40.434
+              ], 
+              [
+                -104.641, 
+                40.432
+              ], 
+              [
+                -104.637, 
+                40.429
+              ], 
+              [
+                -104.634, 
+                40.426
+              ], 
+              [
+                -104.635, 
+                40.425
+              ], 
+              [
+                -104.639, 
+                40.427
+              ]
             ]
           ]
         ]
@@ -32,23 +66,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519987, 
-        "name": "Greeley Weld County Airport", 
         "alias_ENG_V": [
           "Greeley Weld Airport"
         ], 
-        "ne_latitude": 40.461, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -104.621, 
-        "longitude": -104.638, 
-        "placetype": "Airport", 
+        "name": "Greeley Weld County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587789", 
+          "woe:state=2347564", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519987, 
+        "ne_longitude": -104.634, 
+        "longitude": -104.643, 
+        "parent_woeid": 12587789, 
+        "ne_latitude": 40.434, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2413643, 
-        "latitude": 40.426, 
-        "sw_longitude": -104.656, 
-        "fullname": "Greeley Weld County Airport, Greeley, Colorado, Weld, United States", 
-        "sw_latitude": 40.422
+        "sw_latitude": 40.425, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 40.430, 
+        "sw_longitude": -104.653, 
+        "fullname": "Greeley Weld County Airport, Greeley, Colorado, United States", 
+        "iata_code": "GXY", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12519987
     }

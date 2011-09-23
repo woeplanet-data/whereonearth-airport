@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519668, 
-        "name": "Eureka Municipal Airport", 
         "alias_ENG_V": [
           "3w8"
         ], 
-        "ne_latitude": 45.806, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Eureka Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589890", 
+          "woe:state=2347600", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519668, 
         "ne_longitude": -99.635, 
         "longitude": -99.636, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589890, 
+        "ne_latitude": 45.806, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2400606, 
+        "sw_latitude": 45.796, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.798, 
         "sw_longitude": -99.651, 
-        "fullname": "Eureka Municipal Airport, Eureka, South Dakota, Mcpherson, United States", 
-        "sw_latitude": 45.796
+        "fullname": "Eureka Municipal Airport, Eureka, South Dakota, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12519668
     }

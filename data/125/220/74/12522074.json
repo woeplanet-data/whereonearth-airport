@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522074, 
-        "name": "Tallahassee Commercial Airport", 
         "alias_ENG_V": [
           "68j"
         ], 
-        "ne_latitude": 30.552, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Tallahassee Commercial Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587839", 
+          "woe:state=2347568", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522074, 
         "ne_longitude": -84.371, 
         "longitude": -84.377, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587839, 
+        "ne_latitude": 30.552, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2434977, 
+        "sw_latitude": 30.540, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 30.549, 
         "sw_longitude": -84.377, 
-        "fullname": "Tallahassee Commercial Airport, Lake Jackson, Florida, Leon, United States", 
-        "sw_latitude": 30.540
+        "fullname": "Tallahassee Commercial Airport, Lake Jackson, Florida, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522074
     }

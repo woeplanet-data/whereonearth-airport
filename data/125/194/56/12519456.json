@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519456, 
-        "name": "Delaware County Airport-Johnson Field", 
         "alias_ENG_V": [
           "Delaware County Airport"
         ], 
-        "ne_latitude": 40.252, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Delaware County Airport-Johnson Field", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588197", 
+          "woe:state=2347573", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519456, 
         "ne_longitude": -85.386, 
         "longitude": -85.387, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588197, 
+        "ne_latitude": 40.252, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2456291, 
+        "sw_latitude": 40.233, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.239, 
         "sw_longitude": -85.408, 
-        "fullname": "Delaware County Airport-Johnson Field, Muncie, Indiana, Delaware, United States", 
-        "sw_latitude": 40.233
+        "fullname": "Delaware County Airport-Johnson Field, Muncie, Indiana, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519456
     }

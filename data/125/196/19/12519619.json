@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519619, 
-        "name": "Elk City Municipal Airport", 
         "alias_ENG_V": [
           "Elk City Airport"
         ], 
-        "ne_latitude": 35.436, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Elk City Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589619", 
+          "woe:state=2347595", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519619, 
         "ne_longitude": -99.391, 
         "longitude": -99.397, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589619, 
+        "ne_latitude": 35.436, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2398379, 
+        "sw_latitude": 35.422, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.426, 
         "sw_longitude": -99.400, 
-        "fullname": "Elk City Municipal Airport, Elk City, Oklahoma, Beckham, United States", 
-        "sw_latitude": 35.422
+        "fullname": "Elk City Municipal Airport, Elk City, Oklahoma, United States", 
+        "iata_code": "ELK", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519619
     }

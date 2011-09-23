@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520112, 
-        "name": "Hart Airport", 
         "alias_ENG_V": [
           "3r4"
         ], 
-        "ne_latitude": 31.549, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Hart Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588638", 
+          "woe:state=2347577", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520112, 
         "ne_longitude": -93.474, 
         "longitude": -93.488, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588638, 
+        "ne_latitude": 31.549, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2445095, 
+        "sw_latitude": 31.538, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 31.548, 
         "sw_longitude": -93.495, 
-        "fullname": "Hart Airport, Many, Louisiana, Sabine Parish, United States", 
-        "sw_latitude": 31.538
+        "fullname": "Hart Airport, Many, Louisiana, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520112
     }

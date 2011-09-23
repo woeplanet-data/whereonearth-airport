@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513709, 
+        "placetype": "airport", 
         "name": "Bisheh Kola Airport", 
-        "ne_latitude": 36.660, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345780", 
+          "woe:country=23424851", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513709, 
         "ne_longitude": 52.353, 
         "longitude": 52.347, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345780, 
+        "ne_latitude": 36.660, 
         "iso": "IR", 
-        "date_indexed": "2010-12-02T08:53:52Z", 
-        "parent_woeid": 2254885, 
+        "sw_latitude": 36.651, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.656, 
         "sw_longitude": 52.342, 
         "fullname": "Bisheh Kola Airport, Mahmudabad, Mazandaran, Iran", 
-        "sw_latitude": 36.651
+        "date_indexed": "2010-12-02T08:53:52Z"
       }, 
       "id": 12513709
     }

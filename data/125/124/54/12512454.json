@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512454, 
-        "name": "Caibarien Airport", 
         "alias_ENG_V": [
           "CBN"
         ], 
-        "ne_latitude": 22.511, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Caibarien Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2345120", 
+          "woe:country=23424793", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512454, 
         "ne_longitude": -79.465, 
         "longitude": -79.470, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345120, 
+        "ne_latitude": 22.511, 
         "iso": "CU", 
-        "date_indexed": "2010-12-02T08:58:58Z", 
-        "parent_woeid": 60747, 
+        "sw_latitude": 22.502, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 22.506, 
         "sw_longitude": -79.475, 
         "fullname": "Caibarien Airport, Caibari\u00e9n, Villa Clara, Cuba", 
-        "sw_latitude": 22.502
+        "iata_code": "CBN", 
+        "date_indexed": "2010-12-02T08:58:58Z"
       }, 
       "id": 12512454
     }

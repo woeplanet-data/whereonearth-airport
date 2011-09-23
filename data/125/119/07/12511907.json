@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511907, 
-        "name": "Wawa Airport", 
         "alias_ENG_V": [
           "YXZ Airport"
         ], 
-        "ne_latitude": 47.972, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Wawa Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375191", 
+          "woe:state=2344922", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511907, 
         "ne_longitude": -84.779, 
         "longitude": -84.785, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375191, 
+        "ne_latitude": 47.972, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 3169, 
+        "sw_latitude": 47.963, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.967, 
         "sw_longitude": -84.792, 
-        "fullname": "Wawa Airport, Wawa, Ontario, Algoma, Canada", 
-        "sw_latitude": 47.963
+        "fullname": "Wawa Airport, Wawa, Ontario, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12511907
     }

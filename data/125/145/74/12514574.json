@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514574, 
+        "placetype": "airport", 
         "name": "Liepas Airport", 
-        "ne_latitude": 57.394, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55844407", 
+          "woe:state=56190584", 
+          "woe:country=23424874", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514574, 
         "ne_longitude": 25.526, 
         "longitude": 25.518, 
-        "placetype": "Airport", 
+        "parent_woeid": 55844407, 
+        "ne_latitude": 57.394, 
         "iso": "LV", 
-        "date_indexed": "2010-12-02T08:49:48Z", 
-        "parent_woeid": 855521, 
+        "sw_latitude": 57.385, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 57.389, 
         "sw_longitude": 25.509, 
         "fullname": "Liepas Airport, Cesu Rajons, M\u0105rsn\u0157nu Pagasts, Latvia", 
-        "sw_latitude": 57.385
+        "date_indexed": "2010-12-02T08:49:48Z"
       }, 
       "id": 12514574
     }

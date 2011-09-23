@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516062, 
+        "placetype": "airport", 
         "name": "Kalachinsk Airport", 
-        "ne_latitude": 55.023, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598885", 
+          "woe:state=2346915", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516062, 
         "ne_longitude": 74.633, 
         "longitude": 74.625, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598885, 
+        "ne_latitude": 55.023, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2098737, 
+        "sw_latitude": 55.014, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 55.018, 
         "sw_longitude": 74.617, 
         "fullname": "Kalachinsk Airport, Omskaya Oblast, Kalachinsky, Russia", 
-        "sw_latitude": 55.014
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516062
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513735, 
-        "name": "Kerman Airport", 
         "alias_ENG_V": [
           "KER"
         ], 
-        "ne_latitude": 30.268, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Kerman Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2345788", 
+          "woe:country=23424851", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513735, 
         "ne_longitude": 56.964, 
         "longitude": 56.958, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345788, 
+        "ne_latitude": 30.268, 
         "iso": "IR", 
-        "date_indexed": "2010-12-02T08:53:52Z", 
-        "parent_woeid": 2231941, 
+        "sw_latitude": 30.259, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 30.263, 
         "sw_longitude": 56.953, 
         "fullname": "Kerman Airport, Kerman, Iran", 
-        "sw_latitude": 30.259
+        "iata_code": "KER", 
+        "date_indexed": "2010-12-02T08:53:52Z"
       }, 
       "id": 12513735
     }

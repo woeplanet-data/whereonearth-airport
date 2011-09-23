@@ -32,23 +32,28 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515162, 
-        "name": "Oamaru Airport", 
         "alias_ENG_V": [
           "OAM Airport"
         ], 
-        "ne_latitude": -44.971, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Oamaru Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55875857", 
+          "woe:country=23424916", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515162, 
         "ne_longitude": 171.089, 
         "longitude": 171.082, 
-        "placetype": "Airport", 
+        "parent_woeid": 55875857, 
+        "ne_latitude": -44.971, 
         "iso": "NZ", 
-        "date_indexed": "2010-12-02T17:02:39Z", 
-        "parent_woeid": 2348777, 
+        "sw_latitude": -44.980, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -44.976, 
         "sw_longitude": 171.076, 
-        "fullname": "Oamaru Airport, Hilderthorpe, Canterbury, Waitaki District, New Zealand", 
-        "sw_latitude": -44.980
+        "fullname": "Oamaru Airport, Hilderthorpe, Canterbury, New Zealand", 
+        "date_indexed": "2010-12-02T17:02:39Z"
       }, 
       "id": 12515162
     }

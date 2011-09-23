@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524247, 
-        "name": "Shepherd Bay Airport", 
         "alias_ENG_V": [
           "YUS Airport"
         ], 
-        "ne_latitude": 68.828, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Shepherd Bay Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375230", 
+          "woe:state=20069920", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524247, 
         "ne_longitude": -93.453, 
         "longitude": -93.466, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375230, 
+        "ne_latitude": 68.828, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 23405901, 
+        "sw_latitude": 68.819, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 68.824, 
         "sw_longitude": -93.478, 
-        "fullname": "Shepherd Bay Airport, Taloyoak, Nunavut, Nunavut, Canada", 
-        "sw_latitude": 68.819
+        "fullname": "Shepherd Bay Airport, Taloyoak, Nunavut, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12524247
     }

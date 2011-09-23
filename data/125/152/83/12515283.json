@@ -3,28 +3,46 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              20.891, 
-              52.264
-            ], 
-            [
-              20.891, 
-              52.277
-            ], 
-            [
-              20.932, 
-              52.277
-            ], 
-            [
-              20.932, 
-              52.264
-            ], 
-            [
-              20.891, 
-              52.264
+              [
+                20.914, 
+                52.271
+              ], 
+              [
+                20.911, 
+                52.270
+              ], 
+              [
+                20.909, 
+                52.268
+              ], 
+              [
+                20.910, 
+                52.266
+              ], 
+              [
+                20.911, 
+                52.270
+              ], 
+              [
+                20.914, 
+                52.272
+              ], 
+              [
+                20.915, 
+                52.272
+              ], 
+              [
+                20.919, 
+                52.273
+              ], 
+              [
+                20.914, 
+                52.271
+              ]
             ]
           ]
         ]
@@ -32,23 +50,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
+        "name": "Bemowo Airport", 
+        "parent_woeid": 24548810, 
         "woeid": 12515283, 
+        "provider": "geoplanet 7.6.0", 
+        "ne_longitude": 20.919, 
+        "longitude": 20.978, 
         "alias_UNK_V": [
           "Lotnisko Bemowo"
         ], 
-        "name": "Bemowo Airport", 
-        "ne_latitude": 52.277, 
-        "ne_longitude": 20.932, 
-        "longitude": 20.914, 
-        "parent_woeid": 523920, 
-        "placetype": "Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=24548810", 
+          "woe:county=12591304", 
+          "woe:state=12577941", 
+          "woe:country=23424923", 
+          "woe:planet=1"
+        ], 
         "iso": "PL", 
-        "date_indexed": "2010-12-02T12:12:45Z", 
-        "provider": "geoplanet 7.6.0", 
-        "latitude": 52.272, 
-        "sw_longitude": 20.891, 
-        "fullname": "Bemowo Airport, Warsaw, Masovian, Warsaw, Poland", 
-        "sw_latitude": 52.264
+        "sw_latitude": 52.266, 
+        "ne_latitude": 52.273, 
+        "latitude": 52.322, 
+        "sw_longitude": 20.909, 
+        "fullname": "Bemowo Airport, Warsaw, Masovian, Poland", 
+        "date_indexed": "2010-12-02T12:12:45Z"
       }, 
       "id": 12515283
     }

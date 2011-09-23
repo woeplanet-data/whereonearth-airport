@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29387872, 
-        "name": "Wilsall Airport", 
         "alias_ENG_V": [
           "9u1"
         ], 
-        "ne_latitude": 46.055, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Wilsall Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589114", 
+          "woe:state=2347585", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29387872, 
         "ne_longitude": -110.683, 
         "longitude": -110.686, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589114, 
+        "ne_latitude": 46.055, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2521428, 
+        "sw_latitude": 46.045, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.045, 
         "sw_longitude": -110.687, 
-        "fullname": "Wilsall Airport, Wilsall, Montana, Park, United States", 
-        "sw_latitude": 46.045
+        "fullname": "Wilsall Airport, Wilsall, Montana, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29387872
     }

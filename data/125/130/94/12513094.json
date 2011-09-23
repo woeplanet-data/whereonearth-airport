@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513094, 
+        "placetype": "airport", 
         "name": "Forst Neuendorf Airport", 
-        "ne_latitude": 53.041, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=24547282", 
+          "woe:county=12596792", 
+          "woe:state=2345491", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513094, 
         "ne_longitude": 12.713, 
         "longitude": 12.705, 
-        "placetype": "Airport", 
+        "parent_woeid": 24547282, 
+        "ne_latitude": 53.041, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:24Z", 
-        "parent_woeid": 650216, 
+        "sw_latitude": 53.032, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.036, 
         "sw_longitude": 12.698, 
-        "fullname": "Forst Neuendorf Airport, Frankendorf, Brandenburg, Ostprignitz-Ruppin, Germany", 
+        "fullname": "Forst Neuendorf Airport, Frankendorf, Brandenburg, Germany", 
         "alias_GER_Q": [
           "Flughafen Forst Neuendorf"
         ], 
-        "sw_latitude": 53.032
+        "date_indexed": "2010-12-02T09:50:24Z"
       }, 
       "id": 12513094
     }

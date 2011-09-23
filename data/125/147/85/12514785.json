@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514785, 
-        "name": "Dakhla Airport", 
         "alias_ENG_V": [
           "VIL"
         ], 
-        "ne_latitude": 23.723, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Dakhla Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=56120093", 
+          "woe:state=56120088", 
+          "woe:country=23424990", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514785, 
         "ne_longitude": -15.931, 
         "longitude": -15.936, 
-        "placetype": "Airport", 
+        "parent_woeid": 56120093, 
+        "ne_latitude": 23.723, 
         "iso": "EH", 
-        "date_indexed": "2010-12-02T16:12:23Z", 
-        "parent_woeid": 1466746, 
+        "sw_latitude": 23.714, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 23.719, 
         "sw_longitude": -15.941, 
         "fullname": "Dakhla Airport, Ad Dakhla, Oued Ed-Dahab, Western Sahara", 
-        "sw_latitude": 23.714
+        "date_indexed": "2010-12-02T16:12:23Z"
       }, 
       "id": 12514785
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521086, 
+        "placetype": "airport", 
         "name": "Navajo State Park Airport", 
-        "ne_latitude": 36.813, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12589302", 
+          "woe:state=2347590", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521086, 
         "ne_longitude": -107.645, 
         "longitude": -107.651, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589302, 
+        "ne_latitude": 36.813, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2457338, 
+        "sw_latitude": 36.804, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.808, 
         "sw_longitude": -107.656, 
-        "fullname": "Navajo State Park Airport, Navajo Dam, New Mexico, San Juan, United States", 
-        "sw_latitude": 36.804
+        "fullname": "Navajo State Park Airport, Navajo Dam, New Mexico, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521086
     }

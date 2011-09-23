@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513077, 
+        "placetype": "airport", 
         "name": "Demmin Airport", 
-        "ne_latitude": 53.914, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12630614", 
+          "woe:county=12596795", 
+          "woe:state=2345492", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513077, 
         "ne_longitude": 13.228, 
         "longitude": 13.220, 
-        "placetype": "Airport", 
+        "parent_woeid": 12630614, 
+        "ne_latitude": 53.914, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:24Z", 
-        "parent_woeid": 700264, 
+        "sw_latitude": 53.905, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.910, 
         "sw_longitude": 13.212, 
-        "fullname": "Demmin Airport, Tutow, Mecklenburg-Vorpommern, Landkreis Demmin, Germany", 
+        "fullname": "Demmin Airport, Tutow, Mecklenburg-Vorpommern, Germany", 
         "alias_GER_Q": [
           "Flughafen Demmin"
         ], 
-        "sw_latitude": 53.905
+        "date_indexed": "2010-12-02T09:50:24Z"
       }, 
       "id": 12513077
     }

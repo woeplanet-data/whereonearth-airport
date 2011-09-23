@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512688, 
+        "placetype": "airport", 
         "name": "Faid Airport", 
-        "ne_latitude": 30.339, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345229", 
+          "woe:country=23424802", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512688, 
         "ne_longitude": 32.279, 
         "longitude": 32.273, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345229, 
+        "ne_latitude": 30.339, 
         "iso": "EG", 
-        "date_indexed": "2010-12-02T12:16:51Z", 
-        "parent_woeid": 1523677, 
+        "sw_latitude": 30.330, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 30.335, 
         "sw_longitude": 32.268, 
         "fullname": "Faid Airport, Fayid, Al Isma'iliyah, Egypt", 
-        "sw_latitude": 30.330
+        "date_indexed": "2010-12-02T12:16:51Z"
       }, 
       "id": 12512688
     }

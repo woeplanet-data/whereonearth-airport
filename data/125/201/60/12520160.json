@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520160, 
-        "name": "Henderson Oxford Airport", 
         "alias_ENG_V": [
           "HNZ"
         ], 
-        "ne_latitude": 36.367, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Henderson Oxford Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589412", 
+          "woe:state=2347592", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520160, 
         "ne_longitude": -78.520, 
         "longitude": -78.526, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589412, 
+        "ne_latitude": 36.367, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2391809, 
+        "sw_latitude": 36.357, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.361, 
         "sw_longitude": -78.536, 
-        "fullname": "Henderson Oxford Airport, Dexter, North Carolina, Granville, United States", 
-        "sw_latitude": 36.357
+        "fullname": "Henderson Oxford Airport, Dexter, North Carolina, United States", 
+        "iata_code": "HNZ", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520160
     }

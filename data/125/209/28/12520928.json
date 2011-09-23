@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520928, 
-        "name": "Michael J Smith Field Airport", 
         "alias_ENG_V": [
           "MRH Airport"
         ], 
-        "ne_latitude": 34.738, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Michael J Smith Field Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589389", 
+          "woe:state=2347592", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520928, 
         "ne_longitude": -76.654, 
         "longitude": -76.662, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589389, 
+        "ne_latitude": 34.738, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2360875, 
+        "sw_latitude": 34.726, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 34.727, 
         "sw_longitude": -76.671, 
-        "fullname": "Michael J Smith Field Airport, Beaufort, North Carolina, Carteret, United States", 
-        "sw_latitude": 34.726
+        "fullname": "Michael J Smith Field Airport, Beaufort, North Carolina, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520928
     }

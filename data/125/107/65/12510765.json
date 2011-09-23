@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510765, 
-        "name": "Port Lincoln Airport", 
         "alias_ENG_V": [
           "Port Lincoln Aerodrome"
         ], 
-        "ne_latitude": -34.597, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Port Lincoln Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55864202", 
+          "woe:state=2344703", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510765, 
         "ne_longitude": 135.899, 
         "longitude": 135.874, 
-        "placetype": "Airport", 
+        "parent_woeid": 55864202, 
+        "ne_latitude": -34.597, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1104680, 
+        "sw_latitude": -34.616, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -34.603, 
         "sw_longitude": 135.869, 
-        "fullname": "Port Lincoln Airport, North Shields, South Australia, Lower Eyre Peninsula, Australia", 
-        "sw_latitude": -34.616
+        "fullname": "Port Lincoln Airport, North Shields, South Australia, Australia", 
+        "iata_code": "PLO", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 12510765
     }

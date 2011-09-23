@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514357, 
+        "placetype": "airport", 
         "name": "Karady Airport", 
-        "ne_latitude": 49.532, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345980", 
+          "woe:country=23424871", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514357, 
         "ne_longitude": 54.016, 
         "longitude": 54.009, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345980, 
+        "ne_latitude": 49.532, 
         "iso": "KZ", 
-        "date_indexed": "2010-12-02T08:54:13Z", 
-        "parent_woeid": 2264473, 
+        "sw_latitude": 49.523, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.528, 
         "sw_longitude": 54.002, 
         "fullname": "Karady Airport, Aqtobe, Kazakhstan", 
-        "sw_latitude": 49.523
+        "date_indexed": "2010-12-02T08:54:13Z"
       }, 
       "id": 12514357
     }

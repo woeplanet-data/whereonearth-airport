@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522366, 
-        "name": "Wayne County Airport", 
         "alias_ENG_V": [
           "Ekq"
         ], 
-        "ne_latitude": 36.861, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Wayne County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588591", 
+          "woe:state=2347576", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522366, 
         "ne_longitude": -84.851, 
         "longitude": -84.851, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588591, 
+        "ne_latitude": 36.861, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2453446, 
+        "sw_latitude": 36.850, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.858, 
         "sw_longitude": -84.861, 
-        "fullname": "Wayne County Airport, Monticello, Kentucky, Wayne, United States", 
-        "sw_latitude": 36.850
+        "fullname": "Wayne County Airport, Monticello, Kentucky, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522366
     }

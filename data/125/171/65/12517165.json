@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517165, 
+        "placetype": "airport", 
         "name": "Verkhoyansk Airport", 
-        "ne_latitude": 67.531, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597629", 
+          "woe:state=2346881", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517165, 
         "ne_longitude": 133.424, 
         "longitude": 133.412, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597629, 
+        "ne_latitude": 67.531, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2105936, 
+        "sw_latitude": 67.522, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 67.526, 
         "sw_longitude": 133.400, 
         "fullname": "Verkhoyansk Airport, Sakha, Eveno-Bytantaysky Nats., Russia", 
-        "sw_latitude": 67.522
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12517165
     }

@@ -3,28 +3,66 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -69.681, 
-              18.418
-            ], 
-            [
-              -69.681, 
-              18.441
-            ], 
-            [
-              -69.657, 
-              18.441
-            ], 
-            [
-              -69.657, 
-              18.418
-            ], 
-            [
-              -69.681, 
-              18.418
+              [
+                -69.681, 
+                18.433
+              ], 
+              [
+                -69.678, 
+                18.435
+              ], 
+              [
+                -69.677, 
+                18.432
+              ], 
+              [
+                -69.674, 
+                18.431
+              ], 
+              [
+                -69.671, 
+                18.430
+              ], 
+              [
+                -69.672, 
+                18.425
+              ], 
+              [
+                -69.673, 
+                18.425
+              ], 
+              [
+                -69.673, 
+                18.425
+              ], 
+              [
+                -69.673, 
+                18.426
+              ], 
+              [
+                -69.678, 
+                18.429
+              ], 
+              [
+                -69.681, 
+                18.430
+              ], 
+              [
+                -69.681, 
+                18.431
+              ], 
+              [
+                -69.681, 
+                18.433
+              ], 
+              [
+                -69.681, 
+                18.433
+              ]
             ]
           ]
         ]
@@ -32,23 +70,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512616, 
-        "name": "De Las Americas International Airport", 
         "alias_ENG_V": [
           "De Las Americas Airport"
         ], 
-        "ne_latitude": 18.441, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -69.657, 
-        "longitude": -69.669, 
-        "placetype": "Airport", 
+        "name": "De Las Americas International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=28358196", 
+          "woe:country=23424800", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512616, 
+        "ne_longitude": -69.671, 
+        "longitude": -69.676, 
+        "parent_woeid": 28358196, 
+        "ne_latitude": 18.435, 
         "iso": "DO", 
-        "date_indexed": "2010-12-02T16:32:46Z", 
-        "parent_woeid": 68957, 
-        "latitude": 18.429, 
+        "sw_latitude": 18.425, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 18.430, 
         "sw_longitude": -69.681, 
         "fullname": "De Las Americas International Airport, Santo Domingo, Dominican Republic", 
-        "sw_latitude": 18.418
+        "iata_code": "SDQ", 
+        "date_indexed": "2010-12-02T16:32:46Z"
       }, 
       "id": 12512616
     }

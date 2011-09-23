@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521594, 
+        "placetype": "airport", 
         "name": "Riley Field Airport", 
-        "ne_latitude": 40.305, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12588202", 
+          "woe:state=2347573", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521594, 
         "ne_longitude": -87.223, 
         "longitude": -87.229, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588202, 
+        "ne_latitude": 40.305, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2357174, 
+        "sw_latitude": 40.296, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.301, 
         "sw_longitude": -87.235, 
-        "fullname": "Riley Field Airport, Attica, Indiana, Fountain, United States", 
-        "sw_latitude": 40.296
+        "fullname": "Riley Field Airport, Attica, Indiana, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521594
     }

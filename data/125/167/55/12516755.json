@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516755, 
+        "placetype": "airport", 
         "name": "Pugachev Southeast Airport", 
-        "ne_latitude": 51.953, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599233", 
+          "woe:state=2346924", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516755, 
         "ne_longitude": 48.869, 
         "longitude": 48.861, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599233, 
+        "ne_latitude": 51.953, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2000391, 
+        "sw_latitude": 51.944, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.948, 
         "sw_longitude": 48.854, 
         "fullname": "Pugachev Southeast Airport, Saratovskaya Oblast, Krasnopartizansky, Russia", 
-        "sw_latitude": 51.944
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516755
     }

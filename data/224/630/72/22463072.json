@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 22463072, 
-        "name": "Dundee Airport", 
         "alias_ENG_V": [
           "DND Airport"
         ], 
-        "ne_latitude": 56.454, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Dundee Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=12696206", 
+          "woe:county=12602208", 
+          "woe:state=12578048", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 22463072, 
         "ne_longitude": -3.011, 
         "longitude": -3.016, 
-        "placetype": "Airport", 
+        "parent_woeid": 12696206, 
+        "ne_latitude": 56.454, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:21:01Z", 
-        "parent_woeid": 24480, 
+        "sw_latitude": 56.452, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 56.454, 
         "sw_longitude": -3.028, 
-        "fullname": "Dundee Airport, Invergowrie, Scotland, Tayside, United Kingdom", 
-        "sw_latitude": 56.452
+        "fullname": "Dundee Airport, Invergowrie, Scotland, United Kingdom", 
+        "iata_code": "DND", 
+        "date_indexed": "2010-12-02T12:21:01Z"
       }, 
       "id": 22463072
     }

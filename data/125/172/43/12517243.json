@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517243, 
+        "placetype": "airport", 
         "name": "Yekaterinovka North Airport", 
-        "ne_latitude": 53.575, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599419", 
+          "woe:state=2346929", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517243, 
         "ne_longitude": 38.868, 
         "longitude": 38.860, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599419, 
+        "ne_latitude": 53.575, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2051245, 
+        "sw_latitude": 53.566, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.570, 
         "sw_longitude": 38.852, 
         "fullname": "Yekaterinovka North Airport, Tulrskaya Oblast, Kurkinsky, Russia", 
-        "sw_latitude": 53.566
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12517243
     }

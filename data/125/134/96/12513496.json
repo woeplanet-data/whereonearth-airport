@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513496, 
-        "name": "Pitu Airport", 
         "alias_ENG_V": [
           "OTI"
         ], 
-        "ne_latitude": 2.319, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Pitu Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=56000184", 
+          "woe:state=20069998", 
+          "woe:country=23424846", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513496, 
         "ne_longitude": 128.445, 
         "longitude": 128.440, 
-        "placetype": "Airport", 
+        "parent_woeid": 56000184, 
+        "ne_latitude": 2.319, 
         "iso": "ID", 
-        "date_indexed": "2010-12-02T16:54:32Z", 
-        "parent_woeid": 1047351, 
+        "sw_latitude": 2.310, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 2.315, 
         "sw_longitude": 128.436, 
         "fullname": "Pitu Airport, North Maluku, Halmahera Utara, Indonesia", 
-        "sw_latitude": 2.310
+        "iata_code": "OTI", 
+        "date_indexed": "2010-12-02T16:54:32Z"
       }, 
       "id": 12513496
     }

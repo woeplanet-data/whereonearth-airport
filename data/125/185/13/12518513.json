@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518513, 
-        "name": "Aberdeen Municipal Airport", 
         "alias_ENG_V": [
           "U36"
         ], 
-        "ne_latitude": 42.922, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Aberdeen Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588039", 
+          "woe:state=2347571", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518513, 
         "ne_longitude": -112.873, 
         "longitude": -112.888, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588039, 
+        "ne_latitude": 42.922, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2351565, 
+        "sw_latitude": 42.920, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.922, 
         "sw_longitude": -112.889, 
-        "fullname": "Aberdeen Municipal Airport, Aberdeen, Idaho, Bingham, United States", 
-        "sw_latitude": 42.920
+        "fullname": "Aberdeen Municipal Airport, Aberdeen, Idaho, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518513
     }

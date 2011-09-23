@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520541, 
-        "name": "Lakefield Airport", 
         "alias_ENG_V": [
           "CQA"
         ], 
-        "ne_latitude": 40.486, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Lakefield Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589580", 
+          "woe:state=2347594", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520541, 
         "ne_longitude": -84.553, 
         "longitude": -84.563, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589580, 
+        "ne_latitude": 40.486, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2453325, 
+        "sw_latitude": 40.480, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.486, 
         "sw_longitude": -84.568, 
-        "fullname": "Lakefield Airport, Montezuma, Ohio, Mercer, United States", 
-        "sw_latitude": 40.480
+        "fullname": "Lakefield Airport, Montezuma, Ohio, United States", 
+        "iata_code": "CQA", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520541
     }

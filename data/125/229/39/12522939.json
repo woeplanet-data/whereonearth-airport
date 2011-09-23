@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522939, 
+        "placetype": "airport", 
         "name": "Phu Cat Airport", 
-        "ne_latitude": 13.956, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2347730", 
+          "woe:country=23424984", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522939, 
         "ne_longitude": 109.043, 
         "longitude": 109.038, 
-        "placetype": "Airport", 
+        "parent_woeid": 2347730, 
+        "ne_latitude": 13.956, 
         "iso": "VN", 
-        "date_indexed": "2010-12-02T08:52:49Z", 
-        "parent_woeid": 1252545, 
+        "sw_latitude": 13.947, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 13.951, 
         "sw_longitude": 109.034, 
         "fullname": "Phu Cat Airport, Binh Dinh, Vietnam", 
-        "sw_latitude": 13.947
+        "date_indexed": "2010-12-02T08:52:49Z"
       }, 
       "id": 12522939
     }

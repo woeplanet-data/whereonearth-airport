@@ -3,28 +3,54 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -70.581, 
-              19.746
-            ], 
-            [
-              -70.581, 
-              19.769
-            ], 
-            [
-              -70.557, 
-              19.769
-            ], 
-            [
-              -70.557, 
-              19.746
-            ], 
-            [
-              -70.581, 
-              19.746
+              [
+                -70.563, 
+                19.756
+              ], 
+              [
+                -70.560, 
+                19.756
+              ], 
+              [
+                -70.555, 
+                19.757
+              ], 
+              [
+                -70.560, 
+                19.755
+              ], 
+              [
+                -70.562, 
+                19.755
+              ], 
+              [
+                -70.563, 
+                19.755
+              ], 
+              [
+                -70.565, 
+                19.755
+              ], 
+              [
+                -70.566, 
+                19.757
+              ], 
+              [
+                -70.569, 
+                19.758
+              ], 
+              [
+                -70.566, 
+                19.760
+              ], 
+              [
+                -70.563, 
+                19.756
+              ]
             ]
           ]
         ]
@@ -32,23 +58,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512619, 
-        "name": "Puerto Plata International Airport", 
         "alias_ENG_V": [
           "Pto Plata Airport"
         ], 
-        "ne_latitude": 19.769, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -70.557, 
-        "longitude": -70.569, 
-        "placetype": "Airport", 
+        "name": "Puerto Plata International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2345187", 
+          "woe:country=23424800", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512619, 
+        "ne_longitude": -70.555, 
+        "longitude": -70.563, 
+        "parent_woeid": 2345187, 
+        "ne_latitude": 19.760, 
         "iso": "DO", 
-        "date_indexed": "2010-12-02T16:32:46Z", 
-        "parent_woeid": 76505, 
-        "latitude": 19.758, 
-        "sw_longitude": -70.581, 
+        "sw_latitude": 19.755, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 19.757, 
+        "sw_longitude": -70.569, 
         "fullname": "Puerto Plata International Airport, Sos\u00faa, Puerto Plata, Dominican Republic", 
-        "sw_latitude": 19.746
+        "iata_code": "POP", 
+        "date_indexed": "2010-12-02T16:32:46Z"
       }, 
       "id": 12512619
     }

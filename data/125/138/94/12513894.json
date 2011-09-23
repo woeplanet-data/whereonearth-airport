@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513894, 
+        "placetype": "airport", 
         "name": "Bashur Airport", 
-        "ne_latitude": 36.535, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55999943", 
+          "woe:state=2345843", 
+          "woe:country=23424855", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513894, 
         "ne_longitude": 44.350, 
         "longitude": 44.344, 
-        "placetype": "Airport", 
+        "parent_woeid": 55999943, 
+        "ne_latitude": 36.535, 
         "iso": "IQ", 
-        "date_indexed": "2010-12-02T16:42:58Z", 
-        "parent_woeid": 1977965, 
+        "sw_latitude": 36.526, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.531, 
         "sw_longitude": 44.338, 
         "fullname": "Bashur Airport, Arbil, Shaqlawa, Iraq", 
-        "sw_latitude": 36.526
+        "date_indexed": "2010-12-02T16:42:58Z"
       }, 
       "id": 12513894
     }

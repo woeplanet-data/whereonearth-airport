@@ -3,28 +3,38 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              98.969, 
-              8.090
-            ], 
-            [
-              98.969, 
-              8.113
-            ], 
-            [
-              98.995, 
-              8.113
-            ], 
-            [
-              98.995, 
-              8.090
-            ], 
-            [
-              98.969, 
-              8.090
+              [
+                98.981, 
+                8.099
+              ], 
+              [
+                98.977, 
+                8.097
+              ], 
+              [
+                98.979, 
+                8.102
+              ], 
+              [
+                98.982, 
+                8.100
+              ], 
+              [
+                98.987, 
+                8.098
+              ], 
+              [
+                98.982, 
+                8.098
+              ], 
+              [
+                98.981, 
+                8.099
+              ]
             ]
           ]
         ]
@@ -32,23 +42,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 56049650, 
-        "name": "Krabi International Airport", 
         "alias_ENG_V": [
           "KBV Airport"
         ], 
-        "ne_latitude": 8.113, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": 98.995, 
-        "longitude": 98.978, 
-        "placetype": "Airport", 
+        "name": "Krabi International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=28341646", 
+          "woe:state=2347187", 
+          "woe:country=23424960", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56049650, 
+        "ne_longitude": 98.987, 
+        "longitude": 98.981, 
+        "parent_woeid": 28341646, 
+        "ne_latitude": 8.102, 
         "iso": "TH", 
-        "date_indexed": "2010-12-02T17:05:34Z", 
-        "parent_woeid": 1216386, 
-        "latitude": 8.097, 
-        "sw_longitude": 98.969, 
-        "fullname": "Krabi International Airport, Ban Nua Khlong, Krabi, Nuea Khlang, Thailand", 
-        "sw_latitude": 8.090
+        "sw_latitude": 8.097, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 8.099, 
+        "sw_longitude": 98.977, 
+        "fullname": "Krabi International Airport, Ban Nua Khlong, Krabi, Thailand", 
+        "date_indexed": "2010-12-02T17:05:34Z"
       }, 
       "id": 56049650
     }

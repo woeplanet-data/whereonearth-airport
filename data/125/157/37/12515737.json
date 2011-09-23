@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515737, 
+        "placetype": "airport", 
         "name": "Artumey North Airport", 
-        "ne_latitude": 55.615, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598258", 
+          "woe:state=2346896", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515737, 
         "ne_longitude": 102.295, 
         "longitude": 102.287, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598258, 
+        "ne_latitude": 55.615, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2124728, 
+        "sw_latitude": 55.606, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 55.611, 
         "sw_longitude": 102.279, 
         "fullname": "Artumey North Airport, Irkutskaya Oblast, Bratsky, Russia", 
-        "sw_latitude": 55.606
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12515737
     }

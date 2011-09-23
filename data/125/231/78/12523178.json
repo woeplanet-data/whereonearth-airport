@@ -32,29 +32,35 @@
       "type": "Feature", 
       "properties": {
         "lang": "JPN", 
-        "woeid": 12523178, 
-        "name": "\u4e09\u6ca2\u7a7a\u6e2f", 
         "alias_ENG_V": [
           "Misawa Air Station"
         ], 
+        "name": "\u4e09\u6ca2\u7a7a\u6e2f", 
         "alias_ENG_P": [
           "Misawa Airport"
         ], 
-        "ne_latitude": 40.710, 
+        "parent_woeid": 2345853, 
+        "woeid": 12523178, 
+        "provider": "geoplanet 7.6.0", 
         "alias_JPN_V": [
           "\u30df\u30b5\u30ef\u30af\u30a6\u30b3\u30a6"
         ], 
-        "ne_longitude": 141.367, 
         "longitude": 141.361, 
-        "parent_woeid": 1117733, 
-        "placetype": "Airport", 
+        "ne_longitude": 141.367, 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2345853", 
+          "woe:country=23424856", 
+          "woe:planet=1"
+        ], 
         "iso": "JP", 
-        "date_indexed": "2010-12-02T08:09:09Z", 
-        "provider": "geoplanet 7.6.0", 
+        "sw_latitude": 40.701, 
+        "ne_latitude": 40.710, 
         "latitude": 40.705, 
         "sw_longitude": 141.355, 
         "fullname": "\u4e09\u6ca2\u7a7a\u6e2f, Misawa-shi, Aomori Prefecture, Japan", 
-        "sw_latitude": 40.701
+        "iata_code": "MSJ", 
+        "date_indexed": "2010-12-02T08:09:09Z"
       }, 
       "id": 12523178
     }

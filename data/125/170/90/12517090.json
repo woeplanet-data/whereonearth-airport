@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517090, 
+        "placetype": "airport", 
         "name": "Urkan Airport", 
-        "ne_latitude": 54.126, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598005", 
+          "woe:state=2346888", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517090, 
         "ne_longitude": 124.666, 
         "longitude": 124.658, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598005, 
+        "ne_latitude": 54.126, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2100651, 
+        "sw_latitude": 54.117, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 54.121, 
         "sw_longitude": 124.650, 
         "fullname": "Urkan Airport, Amurskaya Oblast, Tyndinsky, Russia", 
-        "sw_latitude": 54.117
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12517090
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516173, 
+        "placetype": "airport", 
         "name": "Kirzhach Airport", 
-        "ne_latitude": 56.158, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599530", 
+          "woe:state=2346932", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516173, 
         "ne_longitude": 38.844, 
         "longitude": 38.836, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599530, 
+        "ne_latitude": 56.158, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2121400, 
+        "sw_latitude": 56.149, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 56.153, 
         "sw_longitude": 38.828, 
-        "fullname": "Kirzhach Airport, Kirzhach, Vladimirskaya Oblast, Kirzhachsky, Russia", 
-        "sw_latitude": 56.149
+        "fullname": "Kirzhach Airport, Kirzhach, Vladimirskaya Oblast, Russia", 
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516173
     }

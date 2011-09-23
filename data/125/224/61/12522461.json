@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522461, 
-        "name": "Williamsburg-Jamestown Airport", 
         "alias_ENG_V": [
           "JGG"
         ], 
-        "ne_latitude": 37.244, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Williamsburg-Jamestown Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590435", 
+          "woe:state=2347605", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522461, 
         "ne_longitude": -76.709, 
         "longitude": -76.718, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590435, 
+        "ne_latitude": 37.244, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2520842, 
+        "sw_latitude": 37.236, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 37.241, 
         "sw_longitude": -76.723, 
-        "fullname": "Williamsburg-Jamestown Airport, Williamsburg, Virginia, Williamsburg City, United States", 
-        "sw_latitude": 37.236
+        "fullname": "Williamsburg-Jamestown Airport, Williamsburg, Virginia, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522461
     }

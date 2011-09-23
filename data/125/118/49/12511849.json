@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511849, 
-        "name": "St Leonard Airport", 
         "alias_ENG_V": [
           "YSL Airport"
         ], 
-        "ne_latitude": 47.168, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "St Leonard Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375041", 
+          "woe:state=2344918", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511849, 
         "ne_longitude": -67.829, 
         "longitude": -67.834, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375041, 
+        "ne_latitude": 47.168, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 29374794, 
+        "sw_latitude": 47.149, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.159, 
         "sw_longitude": -67.844, 
-        "fullname": "St Leonard Airport, St-L\u00e9onard Paroisse, New Brunswick, Madawaska, Canada", 
-        "sw_latitude": 47.149
+        "fullname": "St Leonard Airport, St-L\u00e9onard Paroisse, New Brunswick, Canada", 
+        "iata_code": "YSL", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12511849
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513549, 
-        "name": "Bhavnagar Airport", 
         "alias_ENG_V": [
           "BHU"
         ], 
-        "ne_latitude": 21.758, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Bhavnagar Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12586420", 
+          "woe:state=2345743", 
+          "woe:country=23424848", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513549, 
         "ne_longitude": 72.192, 
         "longitude": 72.187, 
-        "placetype": "Airport", 
+        "parent_woeid": 12586420, 
+        "ne_latitude": 21.758, 
         "iso": "IN", 
-        "date_indexed": "2010-12-02T09:26:27Z", 
-        "parent_woeid": 29185659, 
+        "sw_latitude": 21.749, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 21.754, 
         "sw_longitude": 72.182, 
-        "fullname": "Bhavnagar Airport, Akwada, Gujarat, Bhavnagar, India", 
-        "sw_latitude": 21.749
+        "fullname": "Bhavnagar Airport, Akwada, Gujarat, India", 
+        "date_indexed": "2010-12-02T09:26:27Z"
       }, 
       "id": 12513549
     }

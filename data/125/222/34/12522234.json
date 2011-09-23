@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522234, 
+        "placetype": "airport", 
         "name": "Twin Lakes Airport", 
-        "ne_latitude": 33.650, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12589801", 
+          "woe:state=2347599", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522234, 
         "ne_longitude": -81.862, 
         "longitude": -81.867, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589801, 
+        "ne_latitude": 33.650, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2498201, 
+        "sw_latitude": 33.641, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 33.646, 
         "sw_longitude": -81.873, 
-        "fullname": "Twin Lakes Airport, Springdale, South Carolina, Aiken, United States", 
-        "sw_latitude": 33.641
+        "fullname": "Twin Lakes Airport, Springdale, South Carolina, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12522234
     }

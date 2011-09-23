@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515725, 
+        "placetype": "airport", 
         "name": "Arkhangelsk-Keg Ostrov Airport", 
-        "ne_latitude": 64.543, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598029", 
+          "woe:state=20070508", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515725, 
         "ne_longitude": 40.460, 
         "longitude": 40.450, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598029, 
+        "ne_latitude": 64.543, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 1983940, 
+        "sw_latitude": 64.534, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 64.538, 
         "sw_longitude": 40.439, 
-        "fullname": "Arkhangelsk-Keg Ostrov Airport, Arkhangel'sk, Arkhangelrskaya Oblast, Primorsky, Russia", 
-        "sw_latitude": 64.534
+        "fullname": "Arkhangelsk-Keg Ostrov Airport, Arkhangel'sk, Arkhangelrskaya Oblast, Russia", 
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12515725
     }

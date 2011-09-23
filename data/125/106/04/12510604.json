@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510604, 
-        "name": "Benalla Airport", 
         "alias_ENG_V": [
           "Benalla Airfield"
         ], 
-        "ne_latitude": -36.549, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Benalla Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55863972", 
+          "woe:state=2344705", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510604, 
         "ne_longitude": 146.004, 
         "longitude": 145.998, 
-        "placetype": "Airport", 
+        "parent_woeid": 55863972, 
+        "ne_latitude": -36.549, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1100272, 
+        "sw_latitude": -36.558, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -36.553, 
         "sw_longitude": 145.992, 
-        "fullname": "Benalla Airport, Benalla, Victoria, Benalla, Australia", 
-        "sw_latitude": -36.558
+        "fullname": "Benalla Airport, Benalla, Victoria, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 12510604
     }

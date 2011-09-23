@@ -32,29 +32,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511018, 
-        "name": "Aeroporto Altamira", 
-        "alias_ENG_P": [
-          "Altamira Airport"
-        ], 
-        "ne_latitude": -3.246, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "ATM"
         ], 
+        "name": "Aeroporto Altamira", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Altamira Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12580132", 
+          "woe:state=2344857", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511018, 
         "ne_longitude": -52.247, 
         "longitude": -52.252, 
-        "placetype": "Airport", 
+        "parent_woeid": 12580132, 
+        "ne_latitude": -3.246, 
         "alias_POR_V": [
           "Aeroporto ATM"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 455925, 
+        "sw_latitude": -3.255, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -3.251, 
         "sw_longitude": -52.256, 
-        "fullname": "Aeroporto Altamira, Altamira, Para, Altamira, Brazil", 
-        "sw_latitude": -3.255
+        "fullname": "Aeroporto Altamira, Altamira, Para, Brazil", 
+        "iata_code": "ATM", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511018
     }

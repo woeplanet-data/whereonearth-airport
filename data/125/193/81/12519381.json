@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519381, 
-        "name": "Culpeper County Airport", 
         "alias_ENG_V": [
           "Culpeper Regional Airport"
         ], 
-        "ne_latitude": 38.533, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Culpeper County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590336", 
+          "woe:state=2347605", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519381, 
         "ne_longitude": -77.855, 
         "longitude": -77.860, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590336, 
+        "ne_latitude": 38.533, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2398565, 
+        "sw_latitude": 38.521, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.530, 
         "sw_longitude": -77.864, 
-        "fullname": "Culpeper County Airport, Elkwood, Virginia, Culpeper, United States", 
-        "sw_latitude": 38.521
+        "fullname": "Culpeper County Airport, Elkwood, Virginia, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519381
     }

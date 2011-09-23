@@ -32,29 +32,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511278, 
-        "name": "Aeroporto Ponta Grossa", 
-        "alias_ENG_P": [
-          "Ponta Grossa Airport"
-        ], 
-        "ne_latitude": -25.183, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "PGZ"
         ], 
+        "name": "Aeroporto Ponta Grossa", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Ponta Grossa Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12580624", 
+          "woe:state=2344859", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511278, 
         "ne_longitude": -50.139, 
         "longitude": -50.144, 
-        "placetype": "Airport", 
+        "parent_woeid": 12580624, 
+        "ne_latitude": -25.183, 
         "alias_POR_V": [
           "Aeroporto PGZ"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 428379, 
+        "sw_latitude": -25.192, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -25.187, 
         "sw_longitude": -50.149, 
-        "fullname": "Aeroporto Ponta Grossa, Car\u00e1-Car\u00e1, Parana, Ponta Grossa, Brazil", 
-        "sw_latitude": -25.192
+        "fullname": "Aeroporto Ponta Grossa, Car\u00e1-Car\u00e1, Parana, Brazil", 
+        "iata_code": "PGZ", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511278
     }

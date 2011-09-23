@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515848, 
+        "placetype": "airport", 
         "name": "Bolshoye Sidorov Airport", 
-        "ne_latitude": 45.045, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597771", 
+          "woe:state=2346884", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515848, 
         "ne_longitude": 39.862, 
         "longitude": 39.856, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597771, 
+        "ne_latitude": 45.045, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 1984061, 
+        "sw_latitude": 45.036, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.040, 
         "sw_longitude": 39.849, 
         "fullname": "Bolshoye Sidorov Airport, Adygeya, Krasnogvardeysky, Russia", 
-        "sw_latitude": 45.036
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12515848
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517264, 
+        "placetype": "airport", 
         "name": "Yoshkar Southwest Airport", 
-        "ne_latitude": 56.611, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597472", 
+          "woe:state=2346875", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517264, 
         "ne_longitude": 47.586, 
         "longitude": 47.578, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597472, 
+        "ne_latitude": 56.611, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2028847, 
+        "sw_latitude": 56.602, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 56.606, 
         "sw_longitude": 47.570, 
         "fullname": "Yoshkar Southwest Airport, Mariy-El, Medvedevsky, Russia", 
-        "sw_latitude": 56.602
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12517264
     }

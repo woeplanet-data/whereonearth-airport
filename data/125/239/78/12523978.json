@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523978, 
-        "name": "Coll Island Airport", 
         "alias_ENG_V": [
           "COL"
         ], 
-        "ne_latitude": 56.621, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Coll Island Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=12696185", 
+          "woe:county=12602207", 
+          "woe:state=12578048", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523978, 
         "ne_longitude": -6.608, 
         "longitude": -6.617, 
-        "placetype": "Airport", 
+        "parent_woeid": 12696185, 
+        "ne_latitude": 56.621, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:21:01Z", 
-        "parent_woeid": 16122, 
+        "sw_latitude": 56.612, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 56.617, 
         "sw_longitude": -6.625, 
-        "fullname": "Coll Island Airport, Clabhach, Scotland, Strathclyde, United Kingdom", 
-        "sw_latitude": 56.612
+        "fullname": "Coll Island Airport, Clabhach, Scotland, United Kingdom", 
+        "iata_code": "COL", 
+        "date_indexed": "2010-12-02T12:21:01Z"
       }, 
       "id": 12523978
     }

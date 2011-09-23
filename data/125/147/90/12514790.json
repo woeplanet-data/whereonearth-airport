@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514790, 
-        "name": "Saiss Airport", 
         "alias_ENG_V": [
           "FEZ Airport"
         ], 
-        "ne_latitude": 33.940, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Saiss Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=56120072", 
+          "woe:state=56120052", 
+          "woe:country=23424893", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514790, 
         "ne_longitude": -4.963, 
         "longitude": -4.977, 
-        "placetype": "Airport", 
+        "parent_woeid": 56120072, 
+        "ne_latitude": 33.940, 
         "iso": "MA", 
-        "date_indexed": "2010-12-02T18:19:13Z", 
-        "parent_woeid": 1529894, 
+        "sw_latitude": 33.917, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 33.929, 
         "sw_longitude": -4.990, 
         "fullname": "Saiss Airport, Fes, Morocco", 
-        "sw_latitude": 33.917
+        "iata_code": "FEZ", 
+        "date_indexed": "2010-12-02T18:19:13Z"
       }, 
       "id": 12514790
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 56049636, 
+        "placetype": "airport", 
         "name": "Aeroporto de Cabo Frio", 
-        "ne_latitude": -22.919, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12581070", 
+          "woe:state=2344862", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56049636, 
         "ne_longitude": -42.063, 
         "longitude": -42.079, 
-        "placetype": "Airport", 
+        "parent_woeid": 12581070, 
+        "ne_latitude": -22.919, 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:28Z", 
-        "parent_woeid": 451099, 
+        "sw_latitude": -22.929, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -22.926, 
         "sw_longitude": -42.083, 
-        "fullname": "Aeroporto de Cabo Frio, S\u00e3o Pedro da Aldeia, Rio de Janeiro, S\u00e3o Pedro da Aldeia, Brazil", 
-        "sw_latitude": -22.929
+        "fullname": "Aeroporto de Cabo Frio, S\u00e3o Pedro da Aldeia, Rio de Janeiro, Brazil", 
+        "date_indexed": "2010-12-02T18:01:28Z"
       }, 
       "id": 56049636
     }

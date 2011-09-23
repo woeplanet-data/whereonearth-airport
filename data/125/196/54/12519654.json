@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519654, 
+        "placetype": "airport", 
         "name": "Erie County Airport", 
-        "ne_latitude": 42.049, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12589752", 
+          "woe:state=2347597", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519654, 
         "ne_longitude": -79.848, 
         "longitude": -79.854, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589752, 
+        "ne_latitude": 42.049, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:16Z", 
-        "parent_woeid": 28744815, 
+        "sw_latitude": 42.040, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.044, 
         "sw_longitude": -79.860, 
-        "fullname": "Erie County Airport, Venango, Pennsylvania, Erie, United States", 
-        "sw_latitude": 42.040
+        "fullname": "Erie County Airport, Venango, Pennsylvania, United States", 
+        "date_indexed": "2010-12-02T18:39:16Z"
       }, 
       "id": 12519654
     }

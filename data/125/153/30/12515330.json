@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515330, 
+        "placetype": "airport", 
         "name": "Labunie Airport", 
-        "ne_latitude": 50.656, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12617200", 
+          "woe:county=12591233", 
+          "woe:state=12577938", 
+          "woe:country=23424923", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515330, 
         "ne_longitude": 23.401, 
         "longitude": 23.394, 
-        "placetype": "Airport", 
+        "parent_woeid": 12617200, 
+        "ne_latitude": 50.656, 
         "iso": "PL", 
-        "date_indexed": "2010-12-02T12:12:45Z", 
-        "parent_woeid": 503517, 
+        "sw_latitude": 50.647, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.652, 
         "sw_longitude": 23.387, 
-        "fullname": "Labunie Airport, \u0141abunie, Lublin, Zamosc County, Poland", 
-        "sw_latitude": 50.647
+        "fullname": "Labunie Airport, \u0141abunie, Lublin, Poland", 
+        "date_indexed": "2010-12-02T12:12:45Z"
       }, 
       "id": 12515330
     }

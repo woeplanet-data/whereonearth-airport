@@ -32,29 +32,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511308, 
-        "name": "Aeroporto Internacional Santarem", 
-        "alias_ENG_P": [
-          "Santarem International Airport"
-        ], 
-        "ne_latitude": -2.420, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "Santarem Airport"
         ], 
+        "name": "Aeroporto Internacional Santarem", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Santarem International Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12580210", 
+          "woe:state=2344857", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511308, 
         "ne_longitude": -54.781, 
         "longitude": -54.785, 
-        "placetype": "Airport", 
+        "parent_woeid": 12580210, 
+        "ne_latitude": -2.420, 
         "alias_POR_V": [
           "Aeroporto STM"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 455909, 
+        "sw_latitude": -2.429, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -2.424, 
         "sw_longitude": -54.790, 
-        "fullname": "Aeroporto Internacional Santarem, Santar\u00e9m, Para, Santar\u00e9m, Brazil", 
-        "sw_latitude": -2.429
+        "fullname": "Aeroporto Internacional Santarem, Santar\u00e9m, Para, Brazil", 
+        "iata_code": "STM", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511308
     }

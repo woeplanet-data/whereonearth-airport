@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515269, 
-        "name": "Skardu Airport", 
         "alias_ENG_V": [
           "KDU Airport"
         ], 
-        "ne_latitude": 35.335, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Skardu Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12586457", 
+          "woe:state=2345746", 
+          "woe:country=23424848", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515269, 
         "ne_longitude": 75.546, 
         "longitude": 75.540, 
-        "placetype": "Airport", 
+        "parent_woeid": 12586457, 
+        "ne_latitude": 35.335, 
         "iso": "IN", 
-        "date_indexed": "2010-12-02T09:26:27Z", 
-        "parent_woeid": 2209890, 
+        "sw_latitude": 35.325, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.330, 
         "sw_longitude": 75.534, 
-        "fullname": "Skardu Airport, Teerbarh, Jammu and Kashmir, Leh, India", 
-        "sw_latitude": 35.325
+        "fullname": "Skardu Airport, Teerbarh, Jammu and Kashmir, India", 
+        "date_indexed": "2010-12-02T09:26:27Z"
       }, 
       "id": 12515269
     }

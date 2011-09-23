@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 22656533, 
+        "placetype": "airport", 
         "name": "Earls Colne Airfield", 
-        "ne_latitude": 51.918, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12695941", 
+          "woe:county=12602168", 
+          "woe:state=24554868", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 22656533, 
         "ne_longitude": 0.688, 
         "longitude": 0.681, 
-        "placetype": "Airport", 
+        "parent_woeid": 12695941, 
+        "ne_latitude": 51.918, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:21:01Z", 
-        "parent_woeid": 18849, 
+        "sw_latitude": 51.909, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.913, 
         "sw_longitude": 0.673, 
-        "fullname": "Earls Colne Airfield, Earls Colne, England, Essex, United Kingdom", 
-        "sw_latitude": 51.909
+        "fullname": "Earls Colne Airfield, Earls Colne, England, United Kingdom", 
+        "date_indexed": "2010-12-02T12:21:01Z"
       }, 
       "id": 22656533
     }

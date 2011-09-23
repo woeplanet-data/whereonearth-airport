@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 28677792, 
+        "placetype": "airport", 
         "name": "Leinster Aerodrome", 
-        "ne_latitude": -27.840, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55864061", 
+          "woe:state=2344706", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 28677792, 
         "ne_longitude": 120.713, 
         "longitude": 120.708, 
-        "placetype": "Airport", 
+        "parent_woeid": 55864061, 
+        "ne_latitude": -27.840, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1103407, 
+        "sw_latitude": -27.849, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -27.844, 
         "sw_longitude": 120.703, 
-        "fullname": "Leinster Aerodrome, Leinster, Western Australia, Leonora, Australia", 
-        "sw_latitude": -27.849
+        "fullname": "Leinster Aerodrome, Leinster, Western Australia, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 28677792
     }

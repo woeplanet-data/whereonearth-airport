@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520932, 
+        "placetype": "airport", 
         "name": "Mid America Airport", 
-        "ne_latitude": 40.352, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12589222", 
+          "woe:state=2347586", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520932, 
         "ne_longitude": -97.417, 
         "longitude": -97.425, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589222, 
+        "ne_latitude": 40.352, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2370733, 
+        "sw_latitude": 40.335, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.343, 
         "sw_longitude": -97.439, 
-        "fullname": "Mid America Airport, Bruning, Nebraska, Thayer, United States", 
-        "sw_latitude": 40.335
+        "fullname": "Mid America Airport, Bruning, Nebraska, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520932
     }

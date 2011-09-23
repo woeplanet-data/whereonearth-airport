@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515612, 
-        "name": "Dipolog Airport", 
         "alias_ENG_V": [
           "DPL"
         ], 
-        "ne_latitude": 8.609, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Dipolog Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=2346718", 
+          "woe:state=23424731", 
+          "woe:country=23424934", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515612, 
         "ne_longitude": 123.353, 
         "longitude": 123.348, 
-        "placetype": "Airport", 
+        "parent_woeid": 2346718, 
+        "ne_latitude": 8.609, 
         "iso": "PH", 
-        "date_indexed": "2010-12-02T09:56:58Z", 
-        "parent_woeid": 1199147, 
+        "sw_latitude": 8.600, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 8.604, 
         "sw_longitude": 123.343, 
-        "fullname": "Dipolog Airport, Dipolog, Zamboanga Peninsula, Zamboanga del Norte, Philippines", 
-        "sw_latitude": 8.600
+        "fullname": "Dipolog Airport, Dipolog, Zamboanga Peninsula, Philippines", 
+        "date_indexed": "2010-12-02T09:56:58Z"
       }, 
       "id": 12515612
     }

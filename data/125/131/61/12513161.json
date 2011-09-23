@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513161, 
+        "placetype": "airport", 
         "name": "Laupheim Airport", 
-        "ne_latitude": 48.225, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12623758", 
+          "woe:county=12596779", 
+          "woe:state=2345481", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513161, 
         "ne_longitude": 9.918, 
         "longitude": 9.911, 
-        "placetype": "Airport", 
+        "parent_woeid": 12623758, 
+        "ne_latitude": 48.225, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 670624, 
+        "sw_latitude": 48.216, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.221, 
         "sw_longitude": 9.905, 
-        "fullname": "Laupheim Airport, Laupheim, Baden-Wurttemberg, Landkreis Biberach, Germany", 
+        "fullname": "Laupheim Airport, Laupheim, Baden-Wurttemberg, Germany", 
         "alias_GER_Q": [
           "Flughafen Laupheim"
         ], 
-        "sw_latitude": 48.216
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 12513161
     }

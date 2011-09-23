@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 22656532, 
+        "placetype": "airport", 
         "name": "Rayne Airfield", 
-        "ne_latitude": 51.890, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12695941", 
+          "woe:county=12602168", 
+          "woe:state=24554868", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 22656532, 
         "ne_longitude": 0.529, 
         "longitude": 0.521, 
-        "placetype": "Airport", 
+        "parent_woeid": 12695941, 
+        "ne_latitude": 51.890, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:21:01Z", 
-        "parent_woeid": 31372, 
+        "sw_latitude": 51.881, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.886, 
         "sw_longitude": 0.514, 
-        "fullname": "Rayne Airfield, Panfield, England, Essex, United Kingdom", 
-        "sw_latitude": 51.881
+        "fullname": "Rayne Airfield, Panfield, England, United Kingdom", 
+        "date_indexed": "2010-12-02T12:21:01Z"
       }, 
       "id": 22656532
     }

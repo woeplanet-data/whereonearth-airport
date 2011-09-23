@@ -32,23 +32,28 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523889, 
-        "name": "Husavik Airport", 
         "alias_ENG_V": [
           "HZK"
         ], 
-        "ne_latitude": 65.948, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Husavik Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2345705", 
+          "woe:country=23424845", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523889, 
         "ne_longitude": -17.333, 
         "longitude": -17.345, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345705, 
+        "ne_latitude": 65.948, 
         "iso": "IS", 
-        "date_indexed": "2010-12-02T09:55:32Z", 
-        "parent_woeid": 980318, 
+        "sw_latitude": 65.939, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 65.944, 
         "sw_longitude": -17.356, 
         "fullname": "Husavik Airport, Sudur-Tingeyjarsysla, Iceland", 
-        "sw_latitude": 65.939
+        "date_indexed": "2010-12-02T09:55:32Z"
       }, 
       "id": 12523889
     }

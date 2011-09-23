@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514903, 
+        "placetype": "airport", 
         "name": "La Gloria Airport", 
-        "ne_latitude": 19.964, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12600294", 
+          "woe:state=2346277", 
+          "woe:country=23424900", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514903, 
         "ne_longitude": -105.331, 
         "longitude": -105.336, 
-        "placetype": "Airport", 
+        "parent_woeid": 12600294, 
+        "ne_latitude": 19.964, 
         "iso": "MX", 
-        "date_indexed": "2010-12-02T16:57:55Z", 
-        "parent_woeid": 127565, 
+        "sw_latitude": 19.955, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 19.960, 
         "sw_longitude": -105.341, 
-        "fullname": "La Gloria Airport, La Gloria, Jalisco, Tomatlan, Mexico", 
-        "sw_latitude": 19.955
+        "fullname": "La Gloria Airport, La Gloria, Jalisco, Mexico", 
+        "date_indexed": "2010-12-02T16:57:55Z"
       }, 
       "id": 12514903
     }

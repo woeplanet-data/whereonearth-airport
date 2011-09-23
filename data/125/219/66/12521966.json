@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521966, 
-        "name": "St James Municipal Airport", 
         "alias_ENG_V": [
           "JYG"
         ], 
-        "ne_latitude": 43.989, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "St James Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588879", 
+          "woe:state=2347582", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521966, 
         "ne_longitude": -94.547, 
         "longitude": -94.553, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588879, 
+        "ne_latitude": 43.989, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2415166, 
+        "sw_latitude": 43.980, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.984, 
         "sw_longitude": -94.559, 
-        "fullname": "St James Municipal Airport, Grogan, Minnesota, Watonwan, United States", 
-        "sw_latitude": 43.980
+        "fullname": "St James Municipal Airport, Grogan, Minnesota, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521966
     }

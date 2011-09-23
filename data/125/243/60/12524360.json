@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524360, 
-        "name": "La Esperanza Airport", 
         "alias_ENG_V": [
           "LEZ"
         ], 
-        "ne_latitude": 14.246, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "La Esperanza Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26813672", 
+          "woe:state=2345632", 
+          "woe:country=23424841", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524360, 
         "ne_longitude": -88.174, 
         "longitude": -88.178, 
-        "placetype": "Airport", 
+        "parent_woeid": 26813672, 
+        "ne_latitude": 14.246, 
         "iso": "HN", 
-        "date_indexed": "2010-12-02T19:21:06Z", 
-        "parent_woeid": 102265, 
+        "sw_latitude": 14.237, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 14.242, 
         "sw_longitude": -88.183, 
-        "fullname": "La Esperanza Airport, Intibuc\u00e1, Intibuc\u00e1, Intibuc\u00e1, Honduras", 
-        "sw_latitude": 14.237
+        "fullname": "La Esperanza Airport, Intibuc\u00e1, Intibuc\u00e1, Honduras", 
+        "date_indexed": "2010-12-02T19:21:06Z"
       }, 
       "id": 12524360
     }

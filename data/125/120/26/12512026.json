@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512026, 
-        "name": "Dandong Airport", 
         "alias_ENG_V": [
           "DDG Airport"
         ], 
-        "ne_latitude": 40.029, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Dandong Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=12686782", 
+          "woe:county=26198226", 
+          "woe:state=12578008", 
+          "woe:country=23424781", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512026, 
         "ne_longitude": 124.289, 
         "longitude": 124.283, 
-        "placetype": "Airport", 
+        "parent_woeid": 12686782, 
+        "ne_latitude": 40.029, 
         "iso": "CN", 
-        "date_indexed": "2010-12-02T08:51:48Z", 
-        "parent_woeid": 2148008, 
+        "sw_latitude": 40.020, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.024, 
         "sw_longitude": 124.277, 
-        "fullname": "Dandong Airport, Langtou, Liaoning, Dandong, China", 
-        "sw_latitude": 40.020
+        "fullname": "Dandong Airport, Langtou, Liaoning, China", 
+        "iata_code": "DDG", 
+        "date_indexed": "2010-12-02T08:51:48Z"
       }, 
       "id": 12512026
     }

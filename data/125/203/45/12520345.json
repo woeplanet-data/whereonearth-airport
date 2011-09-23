@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520345, 
+        "placetype": "airport", 
         "name": "James A Rhodes Airport", 
-        "ne_latitude": 38.986, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12589566", 
+          "woe:state=2347594", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520345, 
         "ne_longitude": -82.572, 
         "longitude": -82.578, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589566, 
+        "ne_latitude": 38.986, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2373514, 
+        "sw_latitude": 38.977, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.981, 
         "sw_longitude": -82.584, 
-        "fullname": "James A Rhodes Airport, Camba, Ohio, Jackson, United States", 
-        "sw_latitude": 38.977
+        "fullname": "James A Rhodes Airport, Camba, Ohio, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12520345
     }

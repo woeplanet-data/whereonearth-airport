@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514066, 
+        "placetype": "airport", 
         "name": "Isiolo Airport", 
-        "ne_latitude": 0.348, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345939", 
+          "woe:country=23424863", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514066, 
         "ne_longitude": 37.593, 
         "longitude": 37.588, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345939, 
+        "ne_latitude": 0.348, 
         "iso": "KE", 
-        "date_indexed": "2010-12-02T08:53:57Z", 
-        "parent_woeid": 1527329, 
+        "sw_latitude": 0.339, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 0.344, 
         "sw_longitude": 37.584, 
         "fullname": "Isiolo Airport, Eastern, Kenya", 
-        "sw_latitude": 0.339
+        "date_indexed": "2010-12-02T08:53:57Z"
       }, 
       "id": 12514066
     }

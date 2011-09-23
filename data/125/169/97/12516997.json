@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516997, 
+        "placetype": "airport", 
         "name": "Terensay Airport", 
-        "ne_latitude": 51.606, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598917", 
+          "woe:state=2346916", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516997, 
         "ne_longitude": 59.479, 
         "longitude": 59.472, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598917, 
+        "ne_latitude": 51.606, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2123879, 
+        "sw_latitude": 51.597, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.601, 
         "sw_longitude": 59.464, 
         "fullname": "Terensay Airport, Orenburgskaya Oblast, Adamovsky, Russia", 
-        "sw_latitude": 51.597
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516997
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520544, 
+        "placetype": "airport", 
         "name": "Lakehurst Naval Air Test Facility Airport", 
-        "ne_latitude": 40.028, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12589272", 
+          "woe:state=2347589", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520544, 
         "ne_longitude": -74.393, 
         "longitude": -74.399, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589272, 
+        "ne_latitude": 40.028, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2428154, 
+        "sw_latitude": 40.019, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.023, 
         "sw_longitude": -74.405, 
-        "fullname": "Lakehurst Naval Air Test Facility Airport, Jackson, New Jersey, Ocean, United States", 
-        "sw_latitude": 40.019
+        "fullname": "Lakehurst Naval Air Test Facility Airport, Jackson, New Jersey, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12520544
     }

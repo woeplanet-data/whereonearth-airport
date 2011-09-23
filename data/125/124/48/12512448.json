@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512448, 
+        "placetype": "airport", 
         "name": "Bobangui Airport", 
-        "ne_latitude": 4.048, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55998322", 
+          "woe:state=2345095", 
+          "woe:country=23424792", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512448, 
         "ne_longitude": 18.140, 
         "longitude": 18.136, 
-        "placetype": "Airport", 
+        "parent_woeid": 55998322, 
+        "ne_latitude": 4.048, 
         "iso": "CF", 
-        "date_indexed": "2010-12-02T17:43:32Z", 
-        "parent_woeid": 1309962, 
+        "sw_latitude": 4.039, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 4.043, 
         "sw_longitude": 18.131, 
         "fullname": "Bobangui Airport, Lobaye, M'Ba\u00efki, Central African Republic", 
-        "sw_latitude": 4.039
+        "date_indexed": "2010-12-02T17:43:32Z"
       }, 
       "id": 12512448
     }

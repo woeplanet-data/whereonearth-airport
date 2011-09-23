@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511330, 
+        "placetype": "airport", 
         "name": "Aeroporto Sitio de Pouso Aviador", 
         "alias_ENG_P": [
           "Sitio de Pouso Aviador Airport"
         ], 
-        "ne_latitude": -20.487, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12579121", 
+          "woe:state=2344853", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511330, 
         "ne_longitude": -54.468, 
         "longitude": -54.473, 
-        "placetype": "Airport", 
+        "parent_woeid": 12579121, 
+        "ne_latitude": -20.487, 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 455849, 
+        "sw_latitude": -20.496, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -20.491, 
         "sw_longitude": -54.478, 
-        "fullname": "Aeroporto Sitio de Pouso Aviador, Campo Grande, Mato Grosso do Sul, Campo Grande, Brazil", 
-        "sw_latitude": -20.496
+        "fullname": "Aeroporto Sitio de Pouso Aviador, Campo Grande, Mato Grosso do Sul, Brazil", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511330
     }

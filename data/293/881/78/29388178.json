@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388178, 
+        "placetype": "airport", 
         "name": "Perry's Airport", 
-        "ne_latitude": 34.857, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12587637", 
+          "woe:state=2347562", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388178, 
         "ne_longitude": -92.046, 
         "longitude": -92.048, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587637, 
+        "ne_latitude": 34.857, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2408188, 
+        "sw_latitude": 34.848, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 34.849, 
         "sw_longitude": -92.049, 
-        "fullname": "Perry's Airport, Furlow, Arkansas, Lonoke, United States", 
-        "sw_latitude": 34.848
+        "fullname": "Perry's Airport, Furlow, Arkansas, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388178
     }

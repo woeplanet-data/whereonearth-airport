@@ -32,29 +32,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511056, 
-        "name": "Aeroporto Borba", 
-        "alias_ENG_P": [
-          "Borba Airport"
-        ], 
-        "ne_latitude": -4.404, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "RBB"
         ], 
+        "name": "Aeroporto Borba", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Borba Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12578182", 
+          "woe:state=2344847", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511056, 
         "ne_longitude": -59.593, 
         "longitude": -59.597, 
-        "placetype": "Airport", 
+        "parent_woeid": 12578182, 
+        "ne_latitude": -4.404, 
         "alias_POR_V": [
           "Aeroporto RBB"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 456089, 
+        "sw_latitude": -4.413, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -4.408, 
         "sw_longitude": -59.602, 
-        "fullname": "Aeroporto Borba, Borba, Amazonas, Borba, Brazil", 
-        "sw_latitude": -4.413
+        "fullname": "Aeroporto Borba, Borba, Amazonas, Brazil", 
+        "iata_code": "RBB", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511056
     }

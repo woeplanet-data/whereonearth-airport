@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510691, 
-        "name": "Cambridge Aerodrome", 
         "alias_ENG_V": [
           "Hobart Cambridge Airport"
         ], 
-        "ne_latitude": -42.825, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Cambridge Aerodrome", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55864269", 
+          "woe:state=2344704", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510691, 
         "ne_longitude": 147.482, 
         "longitude": 147.476, 
-        "placetype": "Airport", 
+        "parent_woeid": 55864269, 
+        "ne_latitude": -42.825, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1094888, 
+        "sw_latitude": -42.835, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -42.830, 
         "sw_longitude": 147.470, 
-        "fullname": "Cambridge Aerodrome, Cambridge, Tasmania, Clarence, Australia", 
-        "sw_latitude": -42.835
+        "fullname": "Cambridge Aerodrome, Cambridge, Tasmania, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 12510691
     }

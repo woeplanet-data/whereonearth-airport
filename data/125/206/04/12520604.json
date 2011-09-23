@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520604, 
-        "name": "Lebanon Municipal Airport", 
         "alias_ENG_V": [
           "Lebanon Airport"
         ], 
-        "ne_latitude": 43.635, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Lebanon Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589252", 
+          "woe:state=2347588", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520604, 
         "ne_longitude": -72.288, 
         "longitude": -72.309, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589252, 
+        "ne_latitude": 43.635, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2437673, 
+        "sw_latitude": 43.613, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.625, 
         "sw_longitude": -72.313, 
-        "fullname": "Lebanon Municipal Airport, Lebanon, New Hampshire, Grafton, United States", 
-        "sw_latitude": 43.613
+        "fullname": "Lebanon Municipal Airport, Lebanon, New Hampshire, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520604
     }

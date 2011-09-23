@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29387848, 
-        "name": "Whidbey Air Park", 
         "alias_ENG_V": [
           "W10"
         ], 
-        "ne_latitude": 48.022, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Whidbey Air Park", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590454", 
+          "woe:state=2347606", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29387848, 
         "ne_longitude": -122.436, 
         "longitude": -122.440, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590454, 
+        "ne_latitude": 48.022, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2436358, 
+        "sw_latitude": 48.013, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.021, 
         "sw_longitude": -122.440, 
-        "fullname": "Whidbey Air Park, Langley, Washington, Island, United States", 
-        "sw_latitude": 48.013
+        "fullname": "Whidbey Air Park, Langley, Washington, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29387848
     }

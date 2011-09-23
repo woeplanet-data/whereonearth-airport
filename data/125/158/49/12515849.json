@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515849, 
+        "placetype": "airport", 
         "name": "Borgoy Airport", 
-        "ne_latitude": 50.779, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597282", 
+          "woe:state=2346867", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515849, 
         "ne_longitude": 105.827, 
         "longitude": 105.820, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597282, 
+        "ne_latitude": 50.779, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 1987860, 
+        "sw_latitude": 50.769, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.774, 
         "sw_longitude": 105.812, 
         "fullname": "Borgoy Airport, Buryatiya, Dzhidinsky, Russia", 
-        "sw_latitude": 50.769
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12515849
     }

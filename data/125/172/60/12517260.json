@@ -3,28 +3,62 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              37.235, 
-              55.579
-            ], 
-            [
-              37.235, 
-              55.619
-            ], 
-            [
-              37.310, 
-              55.619
-            ], 
-            [
-              37.310, 
-              55.579
-            ], 
-            [
-              37.235, 
-              55.579
+              [
+                37.279, 
+                55.600
+              ], 
+              [
+                37.278, 
+                55.603
+              ], 
+              [
+                37.282, 
+                55.603
+              ], 
+              [
+                37.283, 
+                55.604
+              ], 
+              [
+                37.289, 
+                55.603
+              ], 
+              [
+                37.289, 
+                55.603
+              ], 
+              [
+                37.291, 
+                55.604
+              ], 
+              [
+                37.290, 
+                55.607
+              ], 
+              [
+                37.289, 
+                55.603
+              ], 
+              [
+                37.284, 
+                55.599
+              ], 
+              [
+                37.284, 
+                55.599
+              ], 
+              [
+                37.280, 
+                55.600
+              ], 
+              [
+                37.279, 
+                55.600
+              ]
             ]
           ]
         ]
@@ -37,11 +71,15 @@
         "alias_SWE_V": [
           "Vnukovo Flygplats"
         ], 
-        "ne_latitude": 55.619, 
-        "alias_UNK_V": [
-          "Vnukovo Aeroport"
+        "hierarchy": [
+          "woe:county=12598741", 
+          "woe:state=2346911", 
+          "woe:country=23424936", 
+          "woe:planet=1"
         ], 
-        "placetype": "Airport", 
+        "ne_latitude": 55.607, 
+        "ne_longitude": 37.291, 
+        "placetype": "airport", 
         "alias_POR_V": [
           "Aeroporto de Vnukovo"
         ], 
@@ -49,14 +87,14 @@
           "Aeroporto Di Vnukovo"
         ], 
         "woeid": 12517260, 
-        "sw_longitude": 37.235, 
+        "sw_longitude": 37.278, 
         "alias_FIN_V": [
           "Vnukovo Lentokentta"
         ], 
         "alias_SPA_V": [
           "Aeropuerto de Vnukovo"
         ], 
-        "latitude": 55.605, 
+        "latitude": 55.601, 
         "date_indexed": "2010-12-02T16:11:04Z", 
         "provider": "geoplanet 7.6.0", 
         "alias_DUT_V": [
@@ -70,15 +108,17 @@
         ], 
         "lang": "ENG", 
         "name": "Ynukovo Airport", 
-        "parent_woeid": 2124290, 
-        "ne_longitude": 37.310, 
-        "longitude": 37.292, 
+        "parent_woeid": 12598741, 
+        "alias_UNK_V": [
+          "Vnukovo Aeroport"
+        ], 
+        "longitude": 37.282, 
         "iso": "RU", 
-        "sw_latitude": 55.579, 
+        "sw_latitude": 55.599, 
         "alias_FRE_V": [
           "Aeroport de Vnukovo"
         ], 
-        "fullname": "Ynukovo Airport, Vnukovo, Moskovskaya Oblast, Leninsky, Russia"
+        "fullname": "Ynukovo Airport, Vnukovo, Moskovskaya Oblast, Russia"
       }, 
       "id": 12517260
     }

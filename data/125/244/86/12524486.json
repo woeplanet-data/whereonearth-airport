@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524486, 
-        "name": "Las Gaviotas Airport", 
         "alias_ENG_V": [
           "LGT"
         ], 
-        "ne_latitude": 4.588, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Las Gaviotas Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26797675", 
+          "woe:state=2345076", 
+          "woe:country=23424787", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524486, 
         "ne_longitude": -70.829, 
         "longitude": -70.833, 
-        "placetype": "Airport", 
+        "parent_woeid": 26797675, 
+        "ne_latitude": 4.588, 
         "iso": "CO", 
-        "date_indexed": "2010-12-02T17:57:37Z", 
-        "parent_woeid": 369073, 
+        "sw_latitude": 4.579, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 4.583, 
         "sw_longitude": -70.838, 
         "fullname": "Las Gaviotas Airport, Vichada, Santa Rosalia, Colombia", 
-        "sw_latitude": 4.579
+        "date_indexed": "2010-12-02T17:57:37Z"
       }, 
       "id": 12524486
     }

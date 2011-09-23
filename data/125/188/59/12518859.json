@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518859, 
+        "placetype": "airport", 
         "name": "Blech Ranch Airport", 
-        "ne_latitude": 35.600, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12587709", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518859, 
         "ne_longitude": -120.332, 
         "longitude": -120.338, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587709, 
+        "ne_latitude": 35.600, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:15Z", 
-        "parent_woeid": 2491594, 
+        "sw_latitude": 35.590, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.595, 
         "sw_longitude": -120.343, 
-        "fullname": "Blech Ranch Airport, Shandon, California, San Luis Obispo, United States", 
-        "sw_latitude": 35.590
+        "fullname": "Blech Ranch Airport, Shandon, California, United States", 
+        "date_indexed": "2010-12-02T18:39:15Z"
       }, 
       "id": 12518859
     }

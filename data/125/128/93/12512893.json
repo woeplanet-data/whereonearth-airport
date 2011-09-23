@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512893, 
+        "placetype": "airport", 
         "name": "Epinoy Airport", 
-        "ne_latitude": 50.226, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12660893", 
+          "woe:county=12597181", 
+          "woe:state=7153324", 
+          "woe:country=23424819", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512893, 
         "ne_longitude": 3.162, 
         "longitude": 3.154, 
-        "placetype": "Airport", 
+        "parent_woeid": 12660893, 
+        "ne_latitude": 50.226, 
         "iso": "FR", 
-        "date_indexed": "2010-12-02T12:04:01Z", 
-        "parent_woeid": 589806, 
+        "sw_latitude": 50.217, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.222, 
         "sw_longitude": 3.147, 
-        "fullname": "Epinoy Airport, \u00c9pinoy, Nord-Pas-de-Calais, Pas-de-Calais, France", 
-        "sw_latitude": 50.217
+        "fullname": "Epinoy Airport, \u00c9pinoy, Nord-Pas-de-Calais, France", 
+        "date_indexed": "2010-12-02T12:04:01Z"
       }, 
       "id": 12512893
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514838, 
+        "placetype": "airport", 
         "name": "Celaya Airport", 
-        "ne_latitude": 20.550, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599995", 
+          "woe:state=2346274", 
+          "woe:country=23424900", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514838, 
         "ne_longitude": -100.885, 
         "longitude": -100.890, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599995, 
+        "ne_latitude": 20.550, 
         "iso": "MX", 
-        "date_indexed": "2010-12-02T16:57:55Z", 
-        "parent_woeid": 123562, 
+        "sw_latitude": 20.541, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 20.545, 
         "sw_longitude": -100.895, 
-        "fullname": "Celaya Airport, Estrada, Guanajuato, Celaya, Mexico", 
-        "sw_latitude": 20.541
+        "fullname": "Celaya Airport, Estrada, Guanajuato, Mexico", 
+        "date_indexed": "2010-12-02T16:57:55Z"
       }, 
       "id": 12514838
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521189, 
+        "placetype": "airport", 
         "name": "Ocean Isle Airport", 
-        "ne_latitude": 35.912, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12589465", 
+          "woe:state=2347592", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521189, 
         "ne_longitude": -78.431, 
         "longitude": -78.437, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589465, 
+        "ne_latitude": 35.912, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2484018, 
+        "sw_latitude": 35.903, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.908, 
         "sw_longitude": -78.443, 
-        "fullname": "Ocean Isle Airport, Rolesville, North Carolina, Wake, United States", 
-        "sw_latitude": 35.903
+        "fullname": "Ocean Isle Airport, Rolesville, North Carolina, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521189
     }

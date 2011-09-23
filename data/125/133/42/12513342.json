@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513342, 
-        "name": "Conakry Airport", 
         "alias_ENG_V": [
           "CKY"
         ], 
-        "ne_latitude": 9.588, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Conakry Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=56060913", 
+          "woe:county=2345577", 
+          "woe:state=56059372", 
+          "woe:country=23424835", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513342, 
         "ne_longitude": -13.599, 
         "longitude": -13.611, 
-        "placetype": "Airport", 
+        "parent_woeid": 56060913, 
+        "ne_latitude": 9.588, 
         "iso": "GN", 
-        "date_indexed": "2010-12-02T16:11:57Z", 
-        "parent_woeid": 1334760, 
+        "sw_latitude": 9.565, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 9.576, 
         "sw_longitude": -13.622, 
-        "fullname": "Conakry Airport, Conakry, Conakry, Conakry, Guinea", 
-        "sw_latitude": 9.565
+        "fullname": "Conakry Airport, Conakry, Conakry, Guinea", 
+        "iata_code": "CKY", 
+        "date_indexed": "2010-12-02T16:11:57Z"
       }, 
       "id": 12513342
     }

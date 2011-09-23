@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521229, 
-        "name": "Ontario Municipal Airport", 
         "alias_ENG_V": [
           "Ontario Airport"
         ], 
-        "ne_latitude": 44.027, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Ontario Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589714", 
+          "woe:state=2347596", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521229, 
         "ne_longitude": -117.005, 
         "longitude": -117.012, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589714, 
+        "ne_latitude": 44.027, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2465714, 
+        "sw_latitude": 44.014, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.023, 
         "sw_longitude": -117.020, 
-        "fullname": "Ontario Municipal Airport, Ontario, Oregon, Malheur, United States", 
-        "sw_latitude": 44.014
+        "fullname": "Ontario Municipal Airport, Ontario, Oregon, United States", 
+        "iata_code": "ONO", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521229
     }

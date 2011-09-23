@@ -3,28 +3,30 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              11.269, 
-              48.074
-            ], 
-            [
-              11.269, 
-              48.091
-            ], 
-            [
-              11.301, 
-              48.091
-            ], 
-            [
-              11.301, 
-              48.074
-            ], 
-            [
-              11.269, 
-              48.074
+              [
+                11.282, 
+                48.085
+              ], 
+              [
+                11.280, 
+                48.090
+              ], 
+              [
+                11.282, 
+                48.090
+              ], 
+              [
+                11.285, 
+                48.089
+              ], 
+              [
+                11.282, 
+                48.085
+              ]
             ]
           ]
         ]
@@ -32,29 +34,37 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513199, 
-        "name": "Oberpfaffenhofen Airport", 
         "alias_ENG_V": [
           "OBF Airport"
         ], 
-        "ne_latitude": 48.091, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": 11.301, 
-        "longitude": 11.283, 
-        "placetype": "Airport", 
+        "name": "Oberpfaffenhofen Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=12635117", 
+          "woe:county=12596969", 
+          "woe:state=2345482", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513199, 
+        "ne_longitude": 11.285, 
+        "longitude": 11.282, 
+        "parent_woeid": 12635117, 
+        "ne_latitude": 48.090, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 681988, 
-        "latitude": 48.090, 
-        "sw_longitude": 11.269, 
-        "fullname": "Oberpfaffenhofen Airport, Oberpfaffenhofen, Bavaria, Landkreis Starnberg, Germany", 
+        "sw_latitude": 48.085, 
+        "iata_code": "OBF", 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 48.088, 
+        "sw_longitude": 11.280, 
+        "fullname": "Oberpfaffenhofen Airport, Oberpfaffenhofen, Bavaria, Germany", 
         "alias_GER_V": [
           "OBF Flughafen"
         ], 
         "alias_GER_Q": [
           "Flughafen Oberpfaffenhofen"
         ], 
-        "sw_latitude": 48.074
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 12513199
     }

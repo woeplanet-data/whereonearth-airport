@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523609, 
-        "name": "La Uribe Airport", 
         "alias_ENG_V": [
           "LAT"
         ], 
-        "ne_latitude": 4.755, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "La Uribe Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26797093", 
+          "woe:state=2345078", 
+          "woe:country=23424787", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523609, 
         "ne_longitude": -74.045, 
         "longitude": -74.050, 
-        "placetype": "Airport", 
+        "parent_woeid": 26797093, 
+        "ne_latitude": 4.755, 
         "iso": "CO", 
-        "date_indexed": "2010-12-02T17:57:37Z", 
-        "parent_woeid": 369514, 
+        "sw_latitude": 4.745, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 4.750, 
         "sw_longitude": -74.055, 
         "fullname": "La Uribe Airport, Distrito Especial, Santafe de Bogota D.c., Colombia", 
-        "sw_latitude": 4.745
+        "iata_code": "LAT", 
+        "date_indexed": "2010-12-02T17:57:37Z"
       }, 
       "id": 12523609
     }

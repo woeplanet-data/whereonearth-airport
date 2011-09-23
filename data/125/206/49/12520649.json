@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520649, 
-        "name": "Lima Allen County Airport", 
         "alias_ENG_V": [
           "AOH Airport"
         ], 
-        "ne_latitude": 40.715, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Lima Allen County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589528", 
+          "woe:state=2347594", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520649, 
         "ne_longitude": -84.016, 
         "longitude": -84.027, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589528, 
+        "ne_latitude": 40.715, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2496885, 
+        "sw_latitude": 40.702, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.705, 
         "sw_longitude": -84.037, 
-        "fullname": "Lima Allen County Airport, South Warsaw, Ohio, Allen, United States", 
-        "sw_latitude": 40.702
+        "fullname": "Lima Allen County Airport, South Warsaw, Ohio, United States", 
+        "iata_code": "AOH", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520649
     }

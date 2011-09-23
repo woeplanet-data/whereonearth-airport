@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523449, 
-        "name": "Hartley Bay Airport", 
         "alias_ENG_V": [
           "YTB Airport"
         ], 
-        "ne_latitude": 53.438, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Hartley Bay Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375077", 
+          "woe:state=2344916", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523449, 
         "ne_longitude": -129.259, 
         "longitude": -129.267, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375077, 
+        "ne_latitude": 53.438, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 9144, 
+        "sw_latitude": 53.429, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.433, 
         "sw_longitude": -129.274, 
-        "fullname": "Hartley Bay Airport, Hartley Bay, British Columbia, Skeena-Queen Charlotte, Canada", 
-        "sw_latitude": 53.429
+        "fullname": "Hartley Bay Airport, Hartley Bay, British Columbia, Canada", 
+        "iata_code": "YTB", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12523449
     }

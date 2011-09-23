@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517721, 
+        "placetype": "airport", 
         "name": "Payerne Airport", 
-        "ne_latitude": 46.849, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12684021", 
+          "woe:county=12593175", 
+          "woe:state=2347088", 
+          "woe:country=23424957", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517721, 
         "ne_longitude": 6.926, 
         "longitude": 6.919, 
-        "placetype": "Airport", 
+        "parent_woeid": 12684021, 
+        "ne_latitude": 46.849, 
         "iso": "CH", 
-        "date_indexed": "2010-12-02T18:20:52Z", 
-        "parent_woeid": 783402, 
+        "sw_latitude": 46.840, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.844, 
         "sw_longitude": 6.913, 
-        "fullname": "Payerne Airport, Morens, Canton of Fribourg, La Broye, Switzerland", 
-        "sw_latitude": 46.840
+        "fullname": "Payerne Airport, Morens, Canton of Fribourg, Switzerland", 
+        "date_indexed": "2010-12-02T18:20:52Z"
       }, 
       "id": 12517721
     }

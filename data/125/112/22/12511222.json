@@ -32,29 +32,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511222, 
-        "name": "Aeroporto Manicore", 
-        "alias_ENG_P": [
-          "Manicore Airport"
-        ], 
-        "ne_latitude": -5.810, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "MNX"
         ], 
+        "name": "Aeroporto Manicore", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Manicore Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12578207", 
+          "woe:state=2344847", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511222, 
         "ne_longitude": -61.264, 
         "longitude": -61.268, 
-        "placetype": "Airport", 
+        "parent_woeid": 12578207, 
+        "ne_latitude": -5.810, 
         "alias_POR_V": [
           "Aeroporto MNX"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 457524, 
+        "sw_latitude": -5.819, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -5.814, 
         "sw_longitude": -61.273, 
-        "fullname": "Aeroporto Manicore, Manicor\u00e9, Amazonas, Manicor\u00e9, Brazil", 
-        "sw_latitude": -5.819
+        "fullname": "Aeroporto Manicore, Manicor\u00e9, Amazonas, Brazil", 
+        "iata_code": "MNX", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511222
     }

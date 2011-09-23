@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388460, 
-        "name": "Laurel Airport", 
         "alias_ENG_V": [
           "N06"
         ], 
-        "ne_latitude": 38.547, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Laurel Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587801", 
+          "woe:state=2347566", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388460, 
         "ne_longitude": -75.589, 
         "longitude": -75.591, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587801, 
+        "ne_latitude": 38.547, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2436933, 
+        "sw_latitude": 38.538, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.541, 
         "sw_longitude": -75.598, 
-        "fullname": "Laurel Airport, Laurel, Delaware, Sussex, United States", 
-        "sw_latitude": 38.538
+        "fullname": "Laurel Airport, Laurel, Delaware, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388460
     }

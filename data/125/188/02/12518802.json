@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518802, 
-        "name": "Benton County Airport", 
         "alias_ENG_V": [
           "0m4"
         ], 
-        "ne_latitude": 36.016, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Benton County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589914", 
+          "woe:state=2347601", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518802, 
         "ne_longitude": -88.119, 
         "longitude": -88.125, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589914, 
+        "ne_latitude": 36.016, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2387684, 
+        "sw_latitude": 36.006, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.013, 
         "sw_longitude": -88.128, 
-        "fullname": "Benton County Airport, Crossroads, Tennessee, Benton, United States", 
-        "sw_latitude": 36.006
+        "fullname": "Benton County Airport, Crossroads, Tennessee, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518802
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513266, 
+        "placetype": "airport", 
         "name": "Wormstedt Airport", 
-        "ne_latitude": 51.016, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12625383", 
+          "woe:county=12596888", 
+          "woe:state=2345495", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513266, 
         "ne_longitude": 11.621, 
         "longitude": 11.614, 
-        "placetype": "Airport", 
+        "parent_woeid": 12625383, 
+        "ne_latitude": 51.016, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 709006, 
+        "sw_latitude": 51.007, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.011, 
         "sw_longitude": 11.606, 
-        "fullname": "Wormstedt Airport, Zimmern, Thuringia, Saale-Holzland-Kreis, Germany", 
+        "fullname": "Wormstedt Airport, Zimmern, Thuringia, Germany", 
         "alias_GER_Q": [
           "Flughafen Wormstedt"
         ], 
-        "sw_latitude": 51.007
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 12513266
     }

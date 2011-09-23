@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512611, 
+        "placetype": "airport", 
         "name": "Arroyo Barril Airport", 
-        "ne_latitude": 19.203, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345189", 
+          "woe:country=23424800", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512611, 
         "ne_longitude": -69.426, 
         "longitude": -69.431, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345189, 
+        "ne_latitude": 19.203, 
         "iso": "DO", 
-        "date_indexed": "2010-12-02T16:32:46Z", 
-        "parent_woeid": 74928, 
+        "sw_latitude": 19.194, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 19.198, 
         "sw_longitude": -69.436, 
         "fullname": "Arroyo Barril Airport, Samana, Dominican Republic", 
-        "sw_latitude": 19.194
+        "date_indexed": "2010-12-02T16:32:46Z"
       }, 
       "id": 12512611
     }

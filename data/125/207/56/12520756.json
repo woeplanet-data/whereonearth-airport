@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520756, 
+        "placetype": "airport", 
         "name": "Magnolia Airport", 
-        "ne_latitude": 40.664, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12589602", 
+          "woe:state=2347594", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520756, 
         "ne_longitude": -81.297, 
         "longitude": -81.303, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589602, 
+        "ne_latitude": 40.664, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2444164, 
+        "sw_latitude": 40.655, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.660, 
         "sw_longitude": -81.309, 
-        "fullname": "Magnolia Airport, Magnolia, Ohio, Stark, United States", 
-        "sw_latitude": 40.655
+        "fullname": "Magnolia Airport, Magnolia, Ohio, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12520756
     }

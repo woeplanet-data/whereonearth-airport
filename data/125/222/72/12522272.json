@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522272, 
-        "name": "Vandalia Municipal Airport", 
         "alias_ENG_V": [
           "VLA"
         ], 
-        "ne_latitude": 38.998, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Vandalia Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588103", 
+          "woe:state=2347572", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522272, 
         "ne_longitude": -89.159, 
         "longitude": -89.165, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588103, 
+        "ne_latitude": 38.998, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2429351, 
+        "sw_latitude": 38.986, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.986, 
         "sw_longitude": -89.171, 
-        "fullname": "Vandalia Municipal Airport, Jimtown, Illinois, Fayette, United States", 
-        "sw_latitude": 38.986
+        "fullname": "Vandalia Municipal Airport, Jimtown, Illinois, United States", 
+        "iata_code": "VLA", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522272
     }

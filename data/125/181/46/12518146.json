@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518146, 
-        "name": "Scampton Airport", 
         "alias_ENG_V": [
           "SQZ"
         ], 
-        "ne_latitude": 53.311, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Scampton Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=12696022", 
+          "woe:county=12602145", 
+          "woe:state=24554868", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518146, 
         "ne_longitude": -0.542, 
         "longitude": -0.550, 
-        "placetype": "Airport", 
+        "parent_woeid": 12696022, 
+        "ne_latitude": 53.311, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:21:01Z", 
-        "parent_woeid": 39483, 
+        "sw_latitude": 53.302, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.307, 
         "sw_longitude": -0.558, 
-        "fullname": "Scampton Airport, Welton Cliff, England, Lincolnshire, United Kingdom", 
-        "sw_latitude": 53.302
+        "fullname": "Scampton Airport, Welton Cliff, England, United Kingdom", 
+        "date_indexed": "2010-12-02T12:21:01Z"
       }, 
       "id": 12518146
     }

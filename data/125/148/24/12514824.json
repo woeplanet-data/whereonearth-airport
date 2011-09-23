@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514824, 
-        "name": "Ciudad Constitucion Airport", 
         "alias_ENG_V": [
           "CUA"
         ], 
-        "ne_latitude": 25.058, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Ciudad Constitucion Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2346266", 
+          "woe:country=23424900", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514824, 
         "ne_longitude": -111.610, 
         "longitude": -111.615, 
-        "placetype": "Airport", 
+        "parent_woeid": 2346266, 
+        "ne_latitude": 25.058, 
         "iso": "MX", 
-        "date_indexed": "2010-12-02T16:57:55Z", 
-        "parent_woeid": 116541, 
+        "sw_latitude": 25.049, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 25.053, 
         "sw_longitude": -111.620, 
-        "fullname": "Ciudad Constitucion Airport, Ciudad Constitucion, Baja California Sur, Comondu, Mexico", 
-        "sw_latitude": 25.049
+        "fullname": "Ciudad Constitucion Airport, Ciudad Constitucion, Baja California Sur, Mexico", 
+        "iata_code": "CUA", 
+        "date_indexed": "2010-12-02T16:57:55Z"
       }, 
       "id": 12514824
     }

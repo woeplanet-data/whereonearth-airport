@@ -3,28 +3,50 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              16.745, 
-              41.128
-            ], 
-            [
-              16.745, 
-              41.145
-            ], 
-            [
-              16.779, 
-              41.145
-            ], 
-            [
-              16.779, 
-              41.128
-            ], 
-            [
-              16.745, 
-              41.128
+              [
+                16.767, 
+                41.137
+              ], 
+              [
+                16.769, 
+                41.137
+              ], 
+              [
+                16.770, 
+                41.135
+              ], 
+              [
+                16.768, 
+                41.134
+              ], 
+              [
+                16.766, 
+                41.134
+              ], 
+              [
+                16.766, 
+                41.135
+              ], 
+              [
+                16.765, 
+                41.135
+              ], 
+              [
+                16.763, 
+                41.135
+              ], 
+              [
+                16.764, 
+                41.138
+              ], 
+              [
+                16.767, 
+                41.137
+              ]
             ]
           ]
         ]
@@ -37,11 +59,16 @@
         "alias_SWE_V": [
           "Bari Palese Flygplats"
         ], 
-        "ne_latitude": 41.145, 
-        "alias_UNK_V": [
-          "Letisko Bari Palese"
+        "hierarchy": [
+          "woe:localadmin=12676579", 
+          "woe:county=12591850", 
+          "woe:state=7153342", 
+          "woe:country=23424853", 
+          "woe:planet=1"
         ], 
-        "placetype": "Airport", 
+        "ne_latitude": 41.138, 
+        "ne_longitude": 16.770, 
+        "placetype": "airport", 
         "alias_POR_V": [
           "Aeroporto de Bari Palese"
         ], 
@@ -55,14 +82,15 @@
           "BRI Aeroporto"
         ], 
         "woeid": 12513843, 
-        "sw_longitude": 16.745, 
+        "iata_code": "BRI", 
+        "sw_longitude": 16.763, 
         "alias_FIN_V": [
           "Barin Lentokentta"
         ], 
         "alias_SPA_V": [
           "Aeropuerto Bari Palese"
         ], 
-        "latitude": 41.134, 
+        "latitude": 41.136, 
         "date_indexed": "2010-12-02T16:30:51Z", 
         "provider": "geoplanet 7.6.0", 
         "alias_DUT_V": [
@@ -76,15 +104,17 @@
         ], 
         "lang": "ENG", 
         "name": "Palese Macchie Airport", 
-        "parent_woeid": 719847, 
-        "ne_longitude": 16.779, 
-        "longitude": 16.768, 
+        "parent_woeid": 12676579, 
+        "alias_UNK_V": [
+          "Letisko Bari Palese"
+        ], 
+        "longitude": 16.766, 
         "iso": "IT", 
-        "sw_latitude": 41.128, 
+        "sw_latitude": 41.134, 
         "alias_FRE_V": [
           "Aeroport de Bari Palese"
         ], 
-        "fullname": "Palese Macchie Airport, Palese, Puglia, Bari, Italy"
+        "fullname": "Palese Macchie Airport, Palese, Puglia, Italy"
       }, 
       "id": 12513843
     }

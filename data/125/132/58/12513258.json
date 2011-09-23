@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513258, 
+        "placetype": "airport", 
         "name": "Werneuchen Airport", 
-        "ne_latitude": 52.633, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=24547225", 
+          "woe:county=12596902", 
+          "woe:state=2345491", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513258, 
         "ne_longitude": 13.758, 
         "longitude": 13.750, 
-        "placetype": "Airport", 
+        "parent_woeid": 24547225, 
+        "ne_latitude": 52.633, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 705509, 
+        "sw_latitude": 52.624, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 52.629, 
         "sw_longitude": 13.743, 
-        "fullname": "Werneuchen Airport, Werneuchen, Brandenburg, Barnim, Germany", 
+        "fullname": "Werneuchen Airport, Werneuchen, Brandenburg, Germany", 
         "alias_GER_Q": [
           "Flughafen Werneuchen"
         ], 
-        "sw_latitude": 52.624
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 12513258
     }

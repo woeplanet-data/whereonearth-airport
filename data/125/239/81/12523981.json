@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523981, 
-        "name": "Eday Airport", 
         "alias_ENG_V": [
           "EOI"
         ], 
-        "ne_latitude": 59.204, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Eday Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=12696205", 
+          "woe:county=12602205", 
+          "woe:state=12578048", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523981, 
         "ne_longitude": -2.767, 
         "longitude": -2.776, 
-        "placetype": "Airport", 
+        "parent_woeid": 12696205, 
+        "ne_latitude": 59.204, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:21:01Z", 
-        "parent_woeid": 19302, 
+        "sw_latitude": 59.195, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 59.199, 
         "sw_longitude": -2.784, 
-        "fullname": "Eday Airport, Eday, Scotland, Orkney, United Kingdom", 
-        "sw_latitude": 59.195
+        "fullname": "Eday Airport, Eday, Scotland, United Kingdom", 
+        "iata_code": "EOI", 
+        "date_indexed": "2010-12-02T12:21:01Z"
       }, 
       "id": 12523981
     }

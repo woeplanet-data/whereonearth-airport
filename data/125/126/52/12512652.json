@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512652, 
-        "name": "Simon Bolivar International Airport", 
         "alias_ENG_V": [
           "Simon Bolivar Airport"
         ], 
-        "ne_latitude": -2.149, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Simon Bolivar International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=26810032", 
+          "woe:county=26809700", 
+          "woe:state=2345211", 
+          "woe:country=23424801", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512652, 
         "ne_longitude": -79.879, 
         "longitude": -79.883, 
-        "placetype": "Airport", 
+        "parent_woeid": 26810032, 
+        "ne_latitude": -2.149, 
         "iso": "EC", 
-        "date_indexed": "2010-12-02T17:51:45Z", 
-        "parent_woeid": 375733, 
+        "sw_latitude": -2.158, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -2.153, 
         "sw_longitude": -79.888, 
-        "fullname": "Simon Bolivar International Airport, Guayaquil, Guayas, Guayaquil, Ecuador", 
-        "sw_latitude": -2.158
+        "fullname": "Simon Bolivar International Airport, Guayaquil, Guayas, Ecuador", 
+        "iata_code": "GYE", 
+        "date_indexed": "2010-12-02T17:51:45Z"
       }, 
       "id": 12512652
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520087, 
-        "name": "Harlan Municipal Airport", 
         "alias_ENG_V": [
           "HNR"
         ], 
-        "ne_latitude": 41.591, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Harlan Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588354", 
+          "woe:state=2347574", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520087, 
         "ne_longitude": -95.335, 
         "longitude": -95.335, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588354, 
+        "ne_latitude": 41.591, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2385080, 
+        "sw_latitude": 41.578, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.581, 
         "sw_longitude": -95.345, 
-        "fullname": "Harlan Municipal Airport, Corley, Iowa, Shelby, United States", 
-        "sw_latitude": 41.578
+        "fullname": "Harlan Municipal Airport, Corley, Iowa, United States", 
+        "iata_code": "HNR", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520087
     }

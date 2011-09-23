@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513640, 
-        "name": "Gandhinagar Airport", 
         "alias_ENG_V": [
           "ISK Airport"
         ], 
-        "ne_latitude": 19.971, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Gandhinagar Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12586542", 
+          "woe:state=2345750", 
+          "woe:country=23424848", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513640, 
         "ne_longitude": 73.822, 
         "longitude": 73.817, 
-        "placetype": "Airport", 
+        "parent_woeid": 12586542, 
+        "ne_latitude": 19.971, 
         "iso": "IN", 
-        "date_indexed": "2010-12-02T09:26:27Z", 
-        "parent_woeid": 2295155, 
+        "sw_latitude": 19.962, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 19.967, 
         "sw_longitude": 73.812, 
-        "fullname": "Gandhinagar Airport, Nasik Road Deoladi, Maharashtra, Nashik, India", 
-        "sw_latitude": 19.962
+        "fullname": "Gandhinagar Airport, Nasik Road Deoladi, Maharashtra, India", 
+        "iata_code": "ISK", 
+        "date_indexed": "2010-12-02T09:26:27Z"
       }, 
       "id": 12513640
     }

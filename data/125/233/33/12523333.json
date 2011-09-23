@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523333, 
-        "name": "Tana Toraja Airport", 
         "alias_ENG_V": [
           "Tana Toraja"
         ], 
-        "ne_latitude": -3.412, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Tana Toraja Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=56000141", 
+          "woe:state=2345729", 
+          "woe:country=23424846", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523333, 
         "ne_longitude": 119.922, 
         "longitude": 119.917, 
-        "placetype": "Airport", 
+        "parent_woeid": 56000141, 
+        "ne_latitude": -3.412, 
         "iso": "ID", 
-        "date_indexed": "2010-12-02T16:54:32Z", 
-        "parent_woeid": 1030997, 
+        "sw_latitude": -3.421, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -3.417, 
         "sw_longitude": 119.912, 
         "fullname": "Tana Toraja Airport, South Sulawesi, Enrekang, Indonesia", 
-        "sw_latitude": -3.421
+        "iata_code": "TTR", 
+        "date_indexed": "2010-12-02T16:54:32Z"
       }, 
       "id": 12523333
     }

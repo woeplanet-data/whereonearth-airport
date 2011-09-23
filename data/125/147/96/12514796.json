@@ -3,28 +3,50 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              57.665, 
-              -20.439
-            ], 
-            [
-              57.665, 
-              -20.416
-            ], 
-            [
-              57.689, 
-              -20.416
-            ], 
-            [
-              57.689, 
-              -20.439
-            ], 
-            [
-              57.665, 
-              -20.439
+              [
+                57.676, 
+                -20.432
+              ], 
+              [
+                57.670, 
+                -20.433
+              ], 
+              [
+                57.675, 
+                -20.430
+              ], 
+              [
+                57.677, 
+                -20.430
+              ], 
+              [
+                57.679, 
+                -20.431
+              ], 
+              [
+                57.684, 
+                -20.432
+              ], 
+              [
+                57.683, 
+                -20.430
+              ], 
+              [
+                57.679, 
+                -20.431
+              ], 
+              [
+                57.677, 
+                -20.433
+              ], 
+              [
+                57.676, 
+                -20.432
+              ]
             ]
           ]
         ]
@@ -32,23 +54,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514796, 
-        "name": "Plaisance International Airport", 
         "alias_ENG_V": [
           "MRU Airport"
         ], 
-        "ne_latitude": -20.416, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": 57.689, 
-        "longitude": 57.677, 
-        "placetype": "Airport", 
+        "name": "Plaisance International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2346230", 
+          "woe:country=23424894", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514796, 
+        "ne_longitude": 57.684, 
+        "longitude": 57.672, 
+        "parent_woeid": 2346230, 
+        "ne_latitude": -20.430, 
         "iso": "MU", 
-        "date_indexed": "2010-12-02T08:58:29Z", 
-        "parent_woeid": 1377381, 
-        "latitude": -20.427, 
-        "sw_longitude": 57.665, 
+        "sw_latitude": -20.433, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": -20.432, 
+        "sw_longitude": 57.670, 
         "fullname": "Plaisance International Airport, Mahebourg, Grand Port, Mauritius", 
-        "sw_latitude": -20.439
+        "iata_code": "MRU", 
+        "date_indexed": "2010-12-02T08:58:29Z"
       }, 
       "id": 12514796
     }

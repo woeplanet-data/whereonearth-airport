@@ -3,28 +3,106 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -97.323, 
-              32.972
-            ], 
-            [
-              -97.323, 
-              33.007
-            ], 
-            [
-              -97.298, 
-              33.007
-            ], 
-            [
-              -97.298, 
-              32.972
-            ], 
-            [
-              -97.323, 
-              32.972
+              [
+                -97.315, 
+                32.982
+              ], 
+              [
+                -97.317, 
+                32.983
+              ], 
+              [
+                -97.319, 
+                32.983
+              ], 
+              [
+                -97.323, 
+                32.981
+              ], 
+              [
+                -97.320, 
+                32.984
+              ], 
+              [
+                -97.321, 
+                32.985
+              ], 
+              [
+                -97.323, 
+                32.989
+              ], 
+              [
+                -97.321, 
+                32.993
+              ], 
+              [
+                -97.321, 
+                32.996
+              ], 
+              [
+                -97.317, 
+                32.997
+              ], 
+              [
+                -97.316, 
+                32.997
+              ], 
+              [
+                -97.314, 
+                32.997
+              ], 
+              [
+                -97.309, 
+                32.996
+              ], 
+              [
+                -97.310, 
+                32.994
+              ], 
+              [
+                -97.314, 
+                32.991
+              ], 
+              [
+                -97.311, 
+                32.987
+              ], 
+              [
+                -97.308, 
+                32.989
+              ], 
+              [
+                -97.303, 
+                32.986
+              ], 
+              [
+                -97.301, 
+                32.989
+              ], 
+              [
+                -97.302, 
+                32.985
+              ], 
+              [
+                -97.305, 
+                32.984
+              ], 
+              [
+                -97.307, 
+                32.980
+              ], 
+              [
+                -97.309, 
+                32.981
+              ], 
+              [
+                -97.315, 
+                32.982
+              ]
             ]
           ]
         ]
@@ -32,23 +110,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519785, 
-        "name": "Fort Worth Alliance Airport", 
         "alias_ENG_V": [
           "AFW Airport"
         ], 
-        "ne_latitude": 33.007, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -97.298, 
+        "name": "Fort Worth Alliance Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590226", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519785, 
+        "ne_longitude": -97.301, 
         "longitude": -97.314, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590226, 
+        "ne_latitude": 32.997, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2418539, 
-        "latitude": 32.986, 
+        "sw_latitude": 32.980, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 32.988, 
         "sw_longitude": -97.323, 
-        "fullname": "Fort Worth Alliance Airport, Haslet, Texas, Tarrant, United States", 
-        "sw_latitude": 32.972
+        "fullname": "Fort Worth Alliance Airport, Haslet, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12519785
     }

@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512575, 
+        "placetype": "airport", 
         "name": "Tynec Airport", 
-        "ne_latitude": 50.297, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12607088", 
+          "woe:county=12582566", 
+          "woe:state=20070499", 
+          "woe:country=23424810", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512575, 
         "ne_longitude": 13.937, 
         "longitude": 13.930, 
-        "placetype": "Airport", 
+        "parent_woeid": 12607088, 
+        "ne_latitude": 50.297, 
         "iso": "CZ", 
-        "date_indexed": "2010-12-02T08:56:52Z", 
-        "parent_woeid": 802062, 
+        "sw_latitude": 50.287, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.292, 
         "sw_longitude": 13.923, 
-        "fullname": "Tynec Airport, \u017derot\u00edn, \u00dasteck\u00fd, Louny, Czech Republic", 
-        "sw_latitude": 50.287
+        "fullname": "Tynec Airport, \u017derot\u00edn, \u00dasteck\u00fd, Czech Republic", 
+        "date_indexed": "2010-12-02T08:56:52Z"
       }, 
       "id": 12512575
     }

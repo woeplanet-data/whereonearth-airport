@@ -3,28 +3,50 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -103.339, 
-              34.387
-            ], 
-            [
-              -103.339, 
-              34.421
-            ], 
-            [
-              -103.298, 
-              34.421
-            ], 
-            [
-              -103.298, 
-              34.387
-            ], 
-            [
-              -103.339, 
-              34.387
+              [
+                -103.333, 
+                34.396
+              ], 
+              [
+                -103.329, 
+                34.396
+              ], 
+              [
+                -103.328, 
+                34.396
+              ], 
+              [
+                -103.331, 
+                34.392
+              ], 
+              [
+                -103.331, 
+                34.392
+              ], 
+              [
+                -103.331, 
+                34.392
+              ], 
+              [
+                -103.334, 
+                34.395
+              ], 
+              [
+                -103.333, 
+                34.396
+              ], 
+              [
+                -103.333, 
+                34.401
+              ], 
+              [
+                -103.333, 
+                34.396
+              ]
             ]
           ]
         ]
@@ -32,23 +54,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519046, 
-        "name": "Cannon Air Force Base", 
         "alias_ENG_V": [
           "Cannon Air Base"
         ], 
-        "ne_latitude": 34.421, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -103.298, 
-        "longitude": -103.318, 
-        "placetype": "Airport", 
+        "name": "Cannon Air Force Base", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589284", 
+          "woe:state=2347590", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519046, 
+        "ne_longitude": -103.328, 
+        "longitude": -103.331, 
+        "parent_woeid": 12589284, 
+        "ne_latitude": 34.401, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:15Z", 
-        "parent_woeid": 2475559, 
-        "latitude": 34.404, 
-        "sw_longitude": -103.339, 
-        "fullname": "Cannon Air Force Base, Portair, New Mexico, Curry, United States", 
-        "sw_latitude": 34.387
+        "sw_latitude": 34.392, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 34.395, 
+        "sw_longitude": -103.334, 
+        "fullname": "Cannon Air Force Base, Portair, New Mexico, United States", 
+        "date_indexed": "2010-12-02T18:39:15Z"
       }, 
       "id": 12519046
     }

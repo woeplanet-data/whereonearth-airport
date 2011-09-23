@@ -32,29 +32,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511160, 
-        "name": "Aeroporto Governador Valadares", 
-        "alias_ENG_P": [
-          "Governador Valadares Airport"
-        ], 
-        "ne_latitude": -18.891, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "GVR"
         ], 
+        "name": "Aeroporto Governador Valadares", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Governador Valadares Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12579680", 
+          "woe:state=2344856", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511160, 
         "ne_longitude": -41.981, 
         "longitude": -41.986, 
-        "placetype": "Airport", 
+        "parent_woeid": 12579680, 
+        "ne_latitude": -18.891, 
         "alias_POR_V": [
           "Aeroporto GVR"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 455865, 
+        "sw_latitude": -18.900, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -18.896, 
         "sw_longitude": -41.990, 
-        "fullname": "Aeroporto Governador Valadares, Governador Valadares, Minas Gerais, Governador Valadares, Brazil", 
-        "sw_latitude": -18.900
+        "fullname": "Aeroporto Governador Valadares, Governador Valadares, Minas Gerais, Brazil", 
+        "iata_code": "GVR", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511160
     }

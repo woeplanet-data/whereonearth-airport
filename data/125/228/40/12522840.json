@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522840, 
+        "placetype": "airport", 
         "name": "San Carlos Airport", 
-        "ne_latitude": 9.657, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=26805509", 
+          "woe:county=26804509", 
+          "woe:state=2347684", 
+          "woe:country=23424982", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522840, 
         "ne_longitude": -68.570, 
         "longitude": -68.574, 
-        "placetype": "Airport", 
+        "parent_woeid": 26805509, 
+        "ne_latitude": 9.657, 
         "iso": "VE", 
-        "date_indexed": "2010-12-02T16:11:43Z", 
-        "parent_woeid": 468433, 
+        "sw_latitude": 9.648, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 9.652, 
         "sw_longitude": -68.579, 
-        "fullname": "San Carlos Airport, San Carlos, Cojedes, San Carlos, Venezuela", 
-        "sw_latitude": 9.648
+        "fullname": "San Carlos Airport, San Carlos, Cojedes, Venezuela", 
+        "date_indexed": "2010-12-02T16:11:43Z"
       }, 
       "id": 12522840
     }

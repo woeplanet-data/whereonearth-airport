@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516365, 
+        "placetype": "airport", 
         "name": "Lovozero Airport", 
-        "ne_latitude": 68.020, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598805", 
+          "woe:state=2346912", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516365, 
         "ne_longitude": 35.087, 
         "longitude": 35.075, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598805, 
+        "ne_latitude": 68.020, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2121989, 
+        "sw_latitude": 68.011, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 68.016, 
         "sw_longitude": 35.063, 
-        "fullname": "Lovozero Airport, Lovozero, Murmanskaya Oblast, Lovozersky, Russia", 
-        "sw_latitude": 68.011
+        "fullname": "Lovozero Airport, Lovozero, Murmanskaya Oblast, Russia", 
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516365
     }

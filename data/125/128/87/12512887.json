@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512887, 
+        "placetype": "airport", 
         "name": "Courcelles Airport", 
-        "ne_latitude": 47.493, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12642330", 
+          "woe:county=12597116", 
+          "woe:state=7153317", 
+          "woe:country=23424819", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512887, 
         "ne_longitude": 6.804, 
         "longitude": 6.792, 
-        "placetype": "Airport", 
+        "parent_woeid": 12642330, 
+        "ne_latitude": 47.493, 
         "iso": "FR", 
-        "date_indexed": "2010-12-02T12:04:01Z", 
-        "parent_woeid": 587416, 
+        "sw_latitude": 47.484, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.487, 
         "sw_longitude": 6.780, 
-        "fullname": "Courcelles Airport, Courcelles-l\u00e8s-Montb\u00e9liard, Franche-Comte, Doubs, France", 
-        "sw_latitude": 47.484
+        "fullname": "Courcelles Airport, Courcelles-l\u00e8s-Montb\u00e9liard, Franche-Comte, France", 
+        "date_indexed": "2010-12-02T12:04:01Z"
       }, 
       "id": 12512887
     }

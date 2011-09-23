@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520007, 
-        "name": "Greenville Municipal Airport", 
         "alias_ENG_V": [
           "Prn"
         ], 
-        "ne_latitude": 31.850, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Greenville Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587493", 
+          "woe:state=2347559", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520007, 
         "ne_longitude": -86.604, 
         "longitude": -86.612, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587493, 
+        "ne_latitude": 31.850, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2414589, 
+        "sw_latitude": 31.839, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 31.848, 
         "sw_longitude": -86.616, 
-        "fullname": "Greenville Municipal Airport, Greenville, Alabama, Butler, United States", 
-        "sw_latitude": 31.839
+        "fullname": "Greenville Municipal Airport, Greenville, Alabama, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520007
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516713, 
+        "placetype": "airport", 
         "name": "Pokrovskoye Airport", 
-        "ne_latitude": 47.435, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599124", 
+          "woe:state=2346921", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516713, 
         "ne_longitude": 38.936, 
         "longitude": 38.929, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599124, 
+        "ne_latitude": 47.435, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2122951, 
+        "sw_latitude": 47.426, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.430, 
         "sw_longitude": 38.922, 
-        "fullname": "Pokrovskoye Airport, Pokrovskoye, Rostovskaya Oblast, Neklinovsky, Russia", 
-        "sw_latitude": 47.426
+        "fullname": "Pokrovskoye Airport, Pokrovskoye, Rostovskaya Oblast, Russia", 
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516713
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "FRE", 
-        "woeid": 56051811, 
+        "placetype": "airport", 
         "name": "A\u00e9rodrome de Romans Saint-paul", 
-        "ne_latitude": 45.067, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12671035", 
+          "woe:county=12597190", 
+          "woe:state=7153329", 
+          "woe:country=23424819", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56051811, 
         "ne_longitude": 5.105, 
         "longitude": 5.094, 
-        "placetype": "Airport", 
+        "parent_woeid": 12671035, 
+        "ne_latitude": 45.067, 
         "iso": "FR", 
-        "date_indexed": "2010-12-02T12:04:01Z", 
-        "parent_woeid": 626305, 
+        "sw_latitude": 45.061, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.062, 
         "sw_longitude": 5.094, 
-        "fullname": "A\u00e9rodrome de Romans Saint-paul, St-Paul, Rhone-Alpes, Drome, France", 
+        "fullname": "A\u00e9rodrome de Romans Saint-paul, St-Paul, Rhone-Alpes, France", 
         "alias_FRE_S": [
           "Aerodrome de Romans Saint-paul"
         ], 
-        "sw_latitude": 45.061
+        "date_indexed": "2010-12-02T12:04:01Z"
       }, 
       "id": 56051811
     }

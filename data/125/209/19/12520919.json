@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520919, 
-        "name": "Mettel Field", 
         "alias_ENG_V": [
           "CEV"
         ], 
-        "ne_latitude": 39.708, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Mettel Field", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588200", 
+          "woe:state=2347573", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520919, 
         "ne_longitude": -85.129, 
         "longitude": -85.135, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588200, 
+        "ne_latitude": 39.708, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2384251, 
+        "sw_latitude": 39.693, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 39.697, 
         "sw_longitude": -85.136, 
-        "fullname": "Mettel Field, Connersville, Indiana, Fayette, United States", 
-        "sw_latitude": 39.693
+        "fullname": "Mettel Field, Connersville, Indiana, United States", 
+        "iata_code": "CEV", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520919
     }

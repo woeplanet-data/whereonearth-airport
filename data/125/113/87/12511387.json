@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511387, 
+        "placetype": "airport", 
         "name": "Banitsa Airport", 
-        "ne_latitude": 43.348, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55873719", 
+          "woe:state=20070057", 
+          "woe:country=23424771", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511387, 
         "ne_longitude": 23.688, 
         "longitude": 23.682, 
-        "placetype": "Airport", 
+        "parent_woeid": 55873719, 
+        "ne_latitude": 43.348, 
         "iso": "BG", 
-        "date_indexed": "2010-12-02T16:14:37Z", 
-        "parent_woeid": 834795, 
+        "sw_latitude": 43.338, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.343, 
         "sw_longitude": 23.676, 
         "fullname": "Banitsa Airport, Vratsa, Vratsa, Bulgaria", 
-        "sw_latitude": 43.338
+        "date_indexed": "2010-12-02T16:14:37Z"
       }, 
       "id": 12511387
     }

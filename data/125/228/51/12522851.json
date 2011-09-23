@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522851, 
+        "placetype": "airport", 
         "name": "Torunos Airport", 
-        "ne_latitude": 8.321, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=26805609", 
+          "woe:county=26804738", 
+          "woe:state=2347681", 
+          "woe:country=23424982", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522851, 
         "ne_longitude": -70.045, 
         "longitude": -70.050, 
-        "placetype": "Airport", 
+        "parent_woeid": 26805609, 
+        "ne_latitude": 8.321, 
         "iso": "VE", 
-        "date_indexed": "2010-12-02T16:11:43Z", 
-        "parent_woeid": 468665, 
+        "sw_latitude": 8.312, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 8.317, 
         "sw_longitude": -70.055, 
-        "fullname": "Torunos Airport, San Silvestre, Barinas, Barinas, Venezuela", 
-        "sw_latitude": 8.312
+        "fullname": "Torunos Airport, San Silvestre, Barinas, Venezuela", 
+        "date_indexed": "2010-12-02T16:11:43Z"
       }, 
       "id": 12522851
     }

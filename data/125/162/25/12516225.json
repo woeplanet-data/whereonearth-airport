@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516225, 
+        "placetype": "airport", 
         "name": "Korsakovka Airport", 
-        "ne_latitude": 43.807, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597931", 
+          "woe:state=2346886", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516225, 
         "ne_longitude": 131.704, 
         "longitude": 131.698, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597931, 
+        "ne_latitude": 43.807, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2026311, 
+        "sw_latitude": 43.798, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.803, 
         "sw_longitude": 131.691, 
         "fullname": "Korsakovka Airport, Primorskiy Kray, Ussurysky, Russia", 
-        "sw_latitude": 43.798
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516225
     }

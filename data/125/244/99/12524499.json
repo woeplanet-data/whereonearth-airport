@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524499, 
-        "name": "Macanal Airport", 
         "alias_ENG_V": [
           "NAD"
         ], 
-        "ne_latitude": 2.571, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Macanal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26797659", 
+          "woe:state=2345060", 
+          "woe:country=23424787", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524499, 
         "ne_longitude": -67.579, 
         "longitude": -67.583, 
-        "placetype": "Airport", 
+        "parent_woeid": 26797659, 
+        "ne_latitude": 2.571, 
         "iso": "CO", 
-        "date_indexed": "2010-12-02T17:57:37Z", 
-        "parent_woeid": 369120, 
+        "sw_latitude": 2.562, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 2.567, 
         "sw_longitude": -67.588, 
         "fullname": "Macanal Airport, Guainia, Puerto Colombia, Colombia", 
-        "sw_latitude": 2.562
+        "iata_code": "NAD", 
+        "date_indexed": "2010-12-02T17:57:37Z"
       }, 
       "id": 12524499
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521985, 
-        "name": "Stanford Airport", 
         "alias_ENG_V": [
           "S64"
         ], 
-        "ne_latitude": 47.148, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Stanford Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589103", 
+          "woe:state=2347585", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521985, 
         "ne_longitude": -110.217, 
         "longitude": -110.222, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589103, 
+        "ne_latitude": 47.148, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2498940, 
+        "sw_latitude": 47.141, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.144, 
         "sw_longitude": -110.228, 
-        "fullname": "Stanford Airport, Stanford, Montana, Judith Basin, United States", 
-        "sw_latitude": 47.141
+        "fullname": "Stanford Airport, Stanford, Montana, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521985
     }

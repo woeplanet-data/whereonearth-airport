@@ -3,28 +3,122 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -117.206, 
-              32.728
-            ], 
-            [
-              -117.206, 
-              32.739
-            ], 
-            [
-              -117.174, 
-              32.739
-            ], 
-            [
-              -117.174, 
-              32.728
-            ], 
-            [
-              -117.206, 
-              32.728
+              [
+                -117.188, 
+                32.724
+              ], 
+              [
+                -117.190, 
+                32.724
+              ], 
+              [
+                -117.200, 
+                32.721
+              ], 
+              [
+                -117.203, 
+                32.719
+              ], 
+              [
+                -117.205, 
+                32.720
+              ], 
+              [
+                -117.207, 
+                32.722
+              ], 
+              [
+                -117.208, 
+                32.725
+              ], 
+              [
+                -117.204, 
+                32.730
+              ], 
+              [
+                -117.203, 
+                32.734
+              ], 
+              [
+                -117.202, 
+                32.736
+              ], 
+              [
+                -117.195, 
+                32.737
+              ], 
+              [
+                -117.193, 
+                32.736
+              ], 
+              [
+                -117.192, 
+                32.734
+              ], 
+              [
+                -117.190, 
+                32.732
+              ], 
+              [
+                -117.173, 
+                32.730
+              ], 
+              [
+                -117.152, 
+                32.731
+              ], 
+              [
+                -117.149, 
+                32.736
+              ], 
+              [
+                -117.147, 
+                32.748
+              ], 
+              [
+                -117.144, 
+                32.748
+              ], 
+              [
+                -117.149, 
+                32.736
+              ], 
+              [
+                -117.149, 
+                32.732
+              ], 
+              [
+                -117.150, 
+                32.729
+              ], 
+              [
+                -117.160, 
+                32.711
+              ], 
+              [
+                -117.167, 
+                32.701
+              ], 
+              [
+                -117.169, 
+                32.699
+              ], 
+              [
+                -117.171, 
+                32.709
+              ], 
+              [
+                -117.178, 
+                32.715
+              ], 
+              [
+                -117.188, 
+                32.724
+              ]
             ]
           ]
         ]
@@ -32,23 +126,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520660, 
-        "name": "San Diego International Airport", 
         "alias_ENG_V": [
           "San Diego International Airport-Lindbergh"
         ], 
-        "ne_latitude": 32.739, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -117.174, 
-        "longitude": -117.195, 
-        "placetype": "Airport", 
-        "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
+        "name": "San Diego International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:suburb=29389008", 
+          "woe:county=12587706", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520660, 
+        "ne_longitude": -117.144, 
+        "longitude": -117.176, 
         "parent_woeid": 29389008, 
-        "latitude": 32.730, 
-        "sw_longitude": -117.206, 
-        "fullname": "San Diego International Airport, San Diego, California, San Diego, United States", 
-        "sw_latitude": 32.728
+        "ne_latitude": 32.748, 
+        "iso": "US", 
+        "sw_latitude": 32.699, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 32.723, 
+        "sw_longitude": -117.208, 
+        "fullname": "San Diego International Airport, San Diego, California, United States", 
+        "iata_code": "SAN", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520660
     }

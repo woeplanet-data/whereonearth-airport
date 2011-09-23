@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513035, 
+        "placetype": "airport", 
         "name": "Ahlhorn Airport", 
-        "ne_latitude": 52.894, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12629993", 
+          "woe:county=12596786", 
+          "woe:state=2345486", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513035, 
         "ne_longitude": 8.241, 
         "longitude": 8.234, 
-        "placetype": "Airport", 
+        "parent_woeid": 12629993, 
+        "ne_latitude": 52.894, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:24Z", 
-        "parent_woeid": 633540, 
+        "sw_latitude": 52.885, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 52.890, 
         "sw_longitude": 8.226, 
-        "fullname": "Ahlhorn Airport, Ahlhorn, Lower Saxony, Landkreis Oldenburg, Germany", 
+        "fullname": "Ahlhorn Airport, Ahlhorn, Lower Saxony, Germany", 
         "alias_GER_Q": [
           "Flughafen Ahlhorn"
         ], 
-        "sw_latitude": 52.885
+        "date_indexed": "2010-12-02T09:50:24Z"
       }, 
       "id": 12513035
     }

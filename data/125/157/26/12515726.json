@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515726, 
+        "placetype": "airport", 
         "name": "Arkhangelsk-Kholm Airport", 
-        "ne_latitude": 64.383, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598029", 
+          "woe:state=20070508", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515726, 
         "ne_longitude": 40.716, 
         "longitude": 40.705, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598029, 
+        "ne_latitude": 64.383, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2020151, 
+        "sw_latitude": 64.373, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 64.378, 
         "sw_longitude": 40.694, 
         "fullname": "Arkhangelsk-Kholm Airport, Arkhangelrskaya Oblast, Novodvinsk, Russia", 
-        "sw_latitude": 64.373
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12515726
     }

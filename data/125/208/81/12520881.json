@@ -3,28 +3,30 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -119.075, 
-              35.420
-            ], 
-            [
-              -119.075, 
-              35.451
-            ], 
-            [
-              -119.039, 
-              35.451
-            ], 
-            [
-              -119.039, 
-              35.420
-            ], 
-            [
-              -119.075, 
-              35.420
+              [
+                -119.049, 
+                35.426
+              ], 
+              [
+                -119.045, 
+                35.428
+              ], 
+              [
+                -119.046, 
+                35.425
+              ], 
+              [
+                -119.047, 
+                35.422
+              ], 
+              [
+                -119.049, 
+                35.426
+              ]
             ]
           ]
         ]
@@ -32,23 +34,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520881, 
-        "name": "Kern County-Meadows Field Airport", 
         "alias_ENG_V": [
           "BFL Airport"
         ], 
-        "ne_latitude": 35.451, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -119.039, 
-        "longitude": -119.044, 
-        "placetype": "Airport", 
+        "name": "Kern County-Meadows Field Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587684", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520881, 
+        "ne_longitude": -119.045, 
+        "longitude": -119.047, 
+        "parent_woeid": 12587684, 
+        "ne_latitude": 35.428, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2464448, 
-        "latitude": 35.429, 
-        "sw_longitude": -119.075, 
-        "fullname": "Kern County-Meadows Field Airport, Oil Junction, California, Kern, United States", 
-        "sw_latitude": 35.420
+        "sw_latitude": 35.422, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 35.426, 
+        "sw_longitude": -119.049, 
+        "fullname": "Kern County-Meadows Field Airport, Oil Junction, California, United States", 
+        "iata_code": "BFL", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520881
     }

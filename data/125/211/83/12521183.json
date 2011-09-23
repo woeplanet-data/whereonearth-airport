@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521183, 
-        "name": "Oakley Municipal Airport", 
         "alias_ENG_V": [
           "OEL"
         ], 
-        "ne_latitude": 39.119, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Oakley Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588425", 
+          "woe:state=2347575", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521183, 
         "ne_longitude": -100.812, 
         "longitude": -100.812, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588425, 
+        "ne_latitude": 39.119, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2463713, 
+        "sw_latitude": 39.101, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 39.112, 
         "sw_longitude": -100.821, 
-        "fullname": "Oakley Municipal Airport, Oakley, Kansas, Logan, United States", 
-        "sw_latitude": 39.101
+        "fullname": "Oakley Municipal Airport, Oakley, Kansas, United States", 
+        "iata_code": "OEL", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521183
     }

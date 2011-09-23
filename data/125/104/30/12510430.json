@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510430, 
-        "name": "Cabinda Airport", 
         "alias_ENG_V": [
           "CAB"
         ], 
-        "ne_latitude": -5.585, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Cabinda Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2344658", 
+          "woe:country=23424745", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510430, 
         "ne_longitude": 12.193, 
         "longitude": 12.189, 
-        "placetype": "Airport", 
+        "parent_woeid": 2344658, 
+        "ne_latitude": -5.585, 
         "iso": "AO", 
-        "date_indexed": "2010-12-02T17:52:20Z", 
-        "parent_woeid": 1258561, 
+        "sw_latitude": -5.595, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -5.590, 
         "sw_longitude": 12.184, 
         "fullname": "Cabinda Airport, Cabinda, Cabinda, Angola", 
-        "sw_latitude": -5.595
+        "iata_code": "CAB", 
+        "date_indexed": "2010-12-02T17:52:20Z"
       }, 
       "id": 12510430
     }

@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512505, 
+        "placetype": "airport", 
         "name": "Bela Airport", 
-        "ne_latitude": 49.592, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12610018", 
+          "woe:county=12582605", 
+          "woe:state=20070501", 
+          "woe:country=23424810", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512505, 
         "ne_longitude": 12.717, 
         "longitude": 12.710, 
-        "placetype": "Airport", 
+        "parent_woeid": 12610018, 
+        "ne_latitude": 49.592, 
         "iso": "CZ", 
-        "date_indexed": "2010-12-02T08:56:52Z", 
-        "parent_woeid": 786033, 
+        "sw_latitude": 49.583, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.587, 
         "sw_longitude": 12.703, 
-        "fullname": "Bela Airport, B\u011bl\u00e1 nad Radbuzou, Plze\u0148sk\u00fd, Doma\u017elice, Czech Republic", 
-        "sw_latitude": 49.583
+        "fullname": "Bela Airport, B\u011bl\u00e1 nad Radbuzou, Plze\u0148sk\u00fd, Czech Republic", 
+        "date_indexed": "2010-12-02T08:56:52Z"
       }, 
       "id": 12512505
     }

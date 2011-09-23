@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29387936, 
-        "name": "Stambaugh Airport", 
         "alias_ENG_V": [
           "Y73"
         ], 
-        "ne_latitude": 46.083, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Stambaugh Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588749", 
+          "woe:state=2347581", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29387936, 
         "ne_longitude": -88.631, 
         "longitude": -88.633, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588749, 
+        "ne_latitude": 46.083, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2427571, 
+        "sw_latitude": 46.079, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.081, 
         "sw_longitude": -88.636, 
-        "fullname": "Stambaugh Airport, Iron River, Michigan, Iron, United States", 
-        "sw_latitude": 46.079
+        "fullname": "Stambaugh Airport, Iron River, Michigan, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 29387936
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519825, 
-        "name": "French Valley Airport", 
         "alias_ENG_V": [
           "F70"
         ], 
-        "ne_latitude": 33.581, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "French Valley Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587702", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519825, 
         "ne_longitude": -117.128, 
         "longitude": -117.134, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587702, 
+        "ne_latitude": 33.581, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2456553, 
+        "sw_latitude": 33.571, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 33.576, 
         "sw_longitude": -117.140, 
-        "fullname": "French Valley Airport, Murrieta, California, Riverside, United States", 
-        "sw_latitude": 33.571
+        "fullname": "French Valley Airport, Murrieta, California, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12519825
     }

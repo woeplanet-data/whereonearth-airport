@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 22656535, 
+        "placetype": "airport", 
         "name": "Fife Airport", 
-        "ne_latitude": 56.189, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12696197", 
+          "woe:county=12602201", 
+          "woe:state=12578048", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 22656535, 
         "ne_longitude": -3.209, 
         "longitude": -3.221, 
-        "placetype": "Airport", 
+        "parent_woeid": 12696197, 
+        "ne_latitude": 56.189, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:21:01Z", 
-        "parent_woeid": 26134, 
+        "sw_latitude": 56.180, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 56.184, 
         "sw_longitude": -3.226, 
-        "fullname": "Fife Airport, Leslie, Scotland, Fife, United Kingdom", 
-        "sw_latitude": 56.180
+        "fullname": "Fife Airport, Leslie, Scotland, United Kingdom", 
+        "date_indexed": "2010-12-02T12:21:01Z"
       }, 
       "id": 22656535
     }

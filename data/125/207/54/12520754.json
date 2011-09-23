@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520754, 
+        "placetype": "airport", 
         "name": "Madisonville Municipal Airport", 
-        "ne_latitude": 30.916, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12590160", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520754, 
         "ne_longitude": -95.946, 
         "longitude": -95.951, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590160, 
+        "ne_latitude": 30.916, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2385635, 
+        "sw_latitude": 30.907, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 30.911, 
         "sw_longitude": -95.957, 
-        "fullname": "Madisonville Municipal Airport, Cottonwood, Texas, Madison, United States", 
-        "sw_latitude": 30.907
+        "fullname": "Madisonville Municipal Airport, Cottonwood, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12520754
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "FRE", 
-        "woeid": 56051906, 
+        "placetype": "airport", 
         "name": "A\u00e9rodrome de Tours-sorigny", 
-        "ne_latitude": 47.271, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12654130", 
+          "woe:county=12597121", 
+          "woe:state=7153314", 
+          "woe:country=23424819", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56051906, 
         "ne_longitude": 0.703, 
         "longitude": 0.695, 
-        "placetype": "Airport", 
+        "parent_woeid": 12654130, 
+        "ne_latitude": 47.271, 
         "iso": "FR", 
-        "date_indexed": "2010-12-02T12:04:01Z", 
-        "parent_woeid": 630456, 
+        "sw_latitude": 47.263, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.266, 
         "sw_longitude": 0.694, 
-        "fullname": "A\u00e9rodrome de Tours-sorigny, Veign\u00e9, Centre, Indre-et-Loire, France", 
+        "fullname": "A\u00e9rodrome de Tours-sorigny, Veign\u00e9, Centre, France", 
         "alias_FRE_S": [
           "Aerodrome de Tours-sorigny"
         ], 
-        "sw_latitude": 47.263
+        "date_indexed": "2010-12-02T12:04:01Z"
       }, 
       "id": 56051906
     }

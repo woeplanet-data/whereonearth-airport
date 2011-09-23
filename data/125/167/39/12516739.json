@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516739, 
+        "placetype": "airport", 
         "name": "Privolnyy Airport", 
-        "ne_latitude": 45.337, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597965", 
+          "woe:state=2346887", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516739, 
         "ne_longitude": 41.309, 
         "longitude": 41.303, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597965, 
+        "ne_latitude": 45.337, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2073993, 
+        "sw_latitude": 45.327, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.332, 
         "sw_longitude": 41.296, 
         "fullname": "Privolnyy Airport, Stavropolrskiy Kray, Novoaleksandrovsky, Russia", 
-        "sw_latitude": 45.327
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516739
     }

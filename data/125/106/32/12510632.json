@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510632, 
-        "name": "Clermont Aerodrome", 
         "alias_ENG_V": [
           "Clermont Airport"
         ], 
-        "ne_latitude": -22.771, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Clermont Aerodrome", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=56072985", 
+          "woe:state=2344702", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510632, 
         "ne_longitude": 147.625, 
         "longitude": 147.621, 
-        "placetype": "Airport", 
+        "parent_woeid": 56072985, 
+        "ne_latitude": -22.771, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1101175, 
+        "sw_latitude": -22.780, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -22.776, 
         "sw_longitude": 147.616, 
-        "fullname": "Clermont Aerodrome, Clermont, Queensland, Belyando, Australia", 
-        "sw_latitude": -22.780
+        "fullname": "Clermont Aerodrome, Clermont, Queensland, Australia", 
+        "iata_code": "CMQ", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 12510632
     }

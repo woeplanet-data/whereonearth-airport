@@ -3,28 +3,38 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -66.107, 
-              18.450
-            ], 
-            [
-              -66.107, 
-              18.460
-            ], 
-            [
-              -66.087, 
-              18.460
-            ], 
-            [
-              -66.087, 
-              18.450
-            ], 
-            [
-              -66.107, 
-              18.450
+              [
+                -66.098, 
+                18.456
+              ], 
+              [
+                -66.098, 
+                18.456
+              ], 
+              [
+                -66.101, 
+                18.456
+              ], 
+              [
+                -66.099, 
+                18.457
+              ], 
+              [
+                -66.097, 
+                18.458
+              ], 
+              [
+                -66.096, 
+                18.458
+              ], 
+              [
+                -66.098, 
+                18.456
+              ]
             ]
           ]
         ]
@@ -32,26 +42,33 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "ne_latitude": 18.460, 
+        "woeid": 12515661, 
         "name": "Isla Grande Airport", 
         "alias_ENG_V": [
           "Fernando Luis Ribas Dominicci Airport"
         ], 
-        "woeid": 12515661, 
+        "hierarchy": [
+          "woe:county=26806705", 
+          "woe:state=2346815", 
+          "woe:country=23424935", 
+          "woe:planet=1"
+        ], 
+        "ne_latitude": 18.458, 
+        "provider": "geoplanet 7.6.0", 
+        "ne_longitude": -66.096, 
+        "longitude": -66.098, 
+        "parent_woeid": 26806705, 
+        "placetype": "airport", 
+        "iso": "PR", 
+        "sw_latitude": 18.456, 
         "alias_SPA_V": [
           "Aeropuerto Fernando Ribas Dominicci"
         ], 
-        "ne_longitude": -66.087, 
-        "longitude": -66.098, 
-        "parent_woeid": 161685, 
-        "placetype": "Airport", 
-        "iso": "PR", 
-        "date_indexed": "2010-12-02T17:42:25Z", 
-        "provider": "geoplanet 7.6.0", 
-        "latitude": 18.456, 
-        "sw_longitude": -66.107, 
-        "fullname": "Isla Grande Airport, San Juan, San Juan, San Juan Antiguo, Puerto Rico", 
-        "sw_latitude": 18.450
+        "latitude": 18.457, 
+        "sw_longitude": -66.101, 
+        "fullname": "Isla Grande Airport, San Juan, San Juan, Puerto Rico", 
+        "iata_code": "SIG", 
+        "date_indexed": "2010-12-02T17:42:25Z"
       }, 
       "id": 12515661
     }

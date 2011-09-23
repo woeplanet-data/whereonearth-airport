@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517431, 
+        "placetype": "airport", 
         "name": "Kroonstad Airport", 
-        "ne_latitude": -27.658, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=56189650", 
+          "woe:county=56189420", 
+          "woe:state=2346980", 
+          "woe:country=23424942", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517431, 
         "ne_longitude": 27.323, 
         "longitude": 27.318, 
-        "placetype": "Airport", 
+        "parent_woeid": 56189650, 
+        "ne_latitude": -27.658, 
         "iso": "ZA", 
-        "date_indexed": "2010-12-02T08:57:46Z", 
-        "parent_woeid": 1583076, 
+        "sw_latitude": -27.667, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -27.662, 
         "sw_longitude": 27.313, 
-        "fullname": "Kroonstad Airport, Kroonstad, Free State, Kroonstad, South Africa", 
-        "sw_latitude": -27.667
+        "fullname": "Kroonstad Airport, Kroonstad, Free State, South Africa", 
+        "date_indexed": "2010-12-02T08:57:46Z"
       }, 
       "id": 12517431
     }

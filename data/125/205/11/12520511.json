@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520511, 
-        "name": "La Mesa Park Airport", 
         "alias_ENG_V": [
           "La Mesa Airport"
         ], 
-        "ne_latitude": 36.870, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "La Mesa Park Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589283", 
+          "woe:state=2347590", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520511, 
         "ne_longitude": -104.443, 
         "longitude": -104.448, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589283, 
+        "ne_latitude": 36.870, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2478806, 
+        "sw_latitude": 36.861, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.866, 
         "sw_longitude": -104.454, 
-        "fullname": "La Mesa Park Airport, Raton, New Mexico, Colfax, United States", 
-        "sw_latitude": 36.861
+        "fullname": "La Mesa Park Airport, Raton, New Mexico, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12520511
     }

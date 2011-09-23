@@ -3,28 +3,30 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              15.251, 
-              56.250
-            ], 
-            [
-              15.251, 
-              56.280
-            ], 
-            [
-              15.287, 
-              56.280
-            ], 
-            [
-              15.287, 
-              56.250
-            ], 
-            [
-              15.251, 
-              56.250
+              [
+                15.278, 
+                56.257
+              ], 
+              [
+                15.280, 
+                56.256
+              ], 
+              [
+                15.278, 
+                56.257
+              ], 
+              [
+                15.277, 
+                56.257
+              ], 
+              [
+                15.278, 
+                56.257
+              ]
             ]
           ]
         ]
@@ -40,11 +42,18 @@
         "alias_SWE_Q": [
           "RNB Flygplats"
         ], 
-        "ne_latitude": 56.280, 
-        "placetype": "Airport", 
+        "hierarchy": [
+          "woe:county=12587221", 
+          "woe:state=2347045", 
+          "woe:country=23424954", 
+          "woe:planet=1"
+        ], 
+        "ne_latitude": 56.257, 
+        "placetype": "airport", 
         "alias_POR_Q": [
           "Aeroporto de Ronneby-Kallinge"
         ], 
+        "iata_code": "RNB", 
         "alias_ITA_Q": [
           "Aeroporto di Ronneby-Kallinge"
         ], 
@@ -58,9 +67,9 @@
         "alias_FIN_S": [
           "Ronneby-Kallingen Lentokentta"
         ], 
-        "sw_longitude": 15.251, 
+        "sw_longitude": 15.277, 
         "provider": "geoplanet 7.6.0", 
-        "latitude": 56.254, 
+        "latitude": 56.257, 
         "alias_NOR_Q": [
           "Ronneby-Kallinge Lufthavn"
         ], 
@@ -79,15 +88,15 @@
         ], 
         "lang": "ENG", 
         "name": "Ronneby Airport", 
-        "parent_woeid": 894662, 
+        "parent_woeid": 12587221, 
         "alias_UNK_Q": [
           "Letisko Ronneby-Kallinge"
         ], 
-        "ne_longitude": 15.287, 
-        "longitude": 15.267, 
+        "ne_longitude": 15.280, 
+        "longitude": 15.278, 
         "iso": "SE", 
-        "sw_latitude": 56.250, 
-        "fullname": "Ronneby Airport, Hasslestad, Blekinge, Ronneby, Sweden", 
+        "sw_latitude": 56.256, 
+        "fullname": "Ronneby Airport, Hasslestad, Blekinge, Sweden", 
         "alias_FRE_S": [
           "Aeroport de Ronneby-Kallinge"
         ], 

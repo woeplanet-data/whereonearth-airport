@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515652, 
-        "name": "Tuguegarao Airport", 
         "alias_ENG_V": [
           "TUG"
         ], 
-        "ne_latitude": 17.646, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Tuguegarao Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=2346669", 
+          "woe:state=23424715", 
+          "woe:country=23424934", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515652, 
         "ne_longitude": 121.736, 
         "longitude": 121.731, 
-        "placetype": "Airport", 
+        "parent_woeid": 2346669, 
+        "ne_latitude": 17.646, 
         "iso": "PH", 
-        "date_indexed": "2010-12-02T09:56:58Z", 
-        "parent_woeid": 1199949, 
+        "sw_latitude": 17.637, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 17.642, 
         "sw_longitude": 121.726, 
-        "fullname": "Tuguegarao Airport, Tuguegarao, Cagayan Valley, Cagayan, Philippines", 
-        "sw_latitude": 17.637
+        "fullname": "Tuguegarao Airport, Tuguegarao, Cagayan Valley, Philippines", 
+        "iata_code": "TUG", 
+        "date_indexed": "2010-12-02T09:56:58Z"
       }, 
       "id": 12515652
     }

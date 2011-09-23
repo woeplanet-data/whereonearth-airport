@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388375, 
-        "name": "Randolph Airport", 
         "alias_ENG_V": [
           "D85"
         ], 
-        "ne_latitude": 42.157, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Randolph Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589316", 
+          "woe:state=2347591", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388375, 
         "ne_longitude": -79.009, 
         "longitude": -79.018, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589316, 
+        "ne_latitude": 42.157, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2478612, 
+        "sw_latitude": 42.151, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.156, 
         "sw_longitude": -79.022, 
-        "fullname": "Randolph Airport, Randolph, New York, Cattaraugus, United States", 
-        "sw_latitude": 42.151
+        "fullname": "Randolph Airport, Randolph, New York, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388375
     }

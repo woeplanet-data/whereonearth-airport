@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516435, 
+        "placetype": "airport", 
         "name": "Millerovo Northwest Airport", 
-        "ne_latitude": 48.956, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599120", 
+          "woe:state=2346921", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516435, 
         "ne_longitude": 40.306, 
         "longitude": 40.300, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599120, 
+        "ne_latitude": 48.956, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2002108, 
+        "sw_latitude": 48.947, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.952, 
         "sw_longitude": 40.293, 
         "fullname": "Millerovo Northwest Airport, Rostovskaya Oblast, Millerovsky, Russia", 
-        "sw_latitude": 48.947
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516435
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512108, 
-        "name": "Kashi Airport", 
         "alias_ENG_V": [
           "KHG"
         ], 
-        "ne_latitude": 39.546, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Kashi Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=12686363", 
+          "woe:county=26198048", 
+          "woe:state=12578003", 
+          "woe:country=23424781", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512108, 
         "ne_longitude": 76.023, 
         "longitude": 76.018, 
-        "placetype": "Airport", 
+        "parent_woeid": 12686363, 
+        "ne_latitude": 39.546, 
         "iso": "CN", 
-        "date_indexed": "2010-12-02T08:51:48Z", 
-        "parent_woeid": 2143696, 
+        "sw_latitude": 39.537, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 39.541, 
         "sw_longitude": 76.012, 
-        "fullname": "Kashi Airport, Kashi, Xinjiang, Kashi, China", 
-        "sw_latitude": 39.537
+        "fullname": "Kashi Airport, Kashi, Xinjiang, China", 
+        "date_indexed": "2010-12-02T08:51:48Z"
       }, 
       "id": 12512108
     }

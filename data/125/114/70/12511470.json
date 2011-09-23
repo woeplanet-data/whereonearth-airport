@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511470, 
+        "placetype": "airport", 
         "name": "Moskovets Airport", 
-        "ne_latitude": 42.666, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55873795", 
+          "woe:state=20070068", 
+          "woe:country=23424771", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511470, 
         "ne_longitude": 24.671, 
         "longitude": 24.665, 
-        "placetype": "Airport", 
+        "parent_woeid": 55873795, 
+        "ne_latitude": 42.666, 
         "iso": "BG", 
-        "date_indexed": "2010-12-02T16:14:37Z", 
-        "parent_woeid": 836740, 
+        "sw_latitude": 42.657, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.662, 
         "sw_longitude": 24.659, 
         "fullname": "Moskovets Airport, Plovdiv, Karlovo, Bulgaria", 
-        "sw_latitude": 42.657
+        "date_indexed": "2010-12-02T16:14:37Z"
       }, 
       "id": 12511470
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517182, 
+        "placetype": "airport", 
         "name": "Volchki Airport", 
-        "ne_latitude": 52.497, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599369", 
+          "woe:state=2346927", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517182, 
         "ne_longitude": 40.730, 
         "longitude": 40.723, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599369, 
+        "ne_latitude": 52.497, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2107562, 
+        "sw_latitude": 52.487, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 52.492, 
         "sw_longitude": 40.715, 
         "fullname": "Volchki Airport, Tambovskaya Oblast, Petrovsky, Russia", 
-        "sw_latitude": 52.487
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12517182
     }

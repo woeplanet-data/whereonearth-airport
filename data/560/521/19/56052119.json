@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 56052119, 
+        "placetype": "airport", 
         "name": "Flugplatz Wahlstedt", 
-        "ne_latitude": 53.972, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12631739", 
+          "woe:county=12597010", 
+          "woe:state=2345490", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56052119, 
         "ne_longitude": 10.226, 
         "longitude": 10.221, 
-        "placetype": "Airport", 
+        "parent_woeid": 12631739, 
+        "ne_latitude": 53.972, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 703239, 
+        "sw_latitude": 53.967, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.968, 
         "sw_longitude": 10.215, 
-        "fullname": "Flugplatz Wahlstedt, Wahlstedt, Schleswig-Holstein, Segeberg, Germany", 
-        "sw_latitude": 53.967
+        "fullname": "Flugplatz Wahlstedt, Wahlstedt, Schleswig-Holstein, Germany", 
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 56052119
     }

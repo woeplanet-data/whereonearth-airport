@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512556, 
+        "placetype": "airport", 
         "name": "Pobezovice Airport", 
-        "ne_latitude": 49.491, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12610581", 
+          "woe:county=12582605", 
+          "woe:state=20070501", 
+          "woe:country=23424810", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512556, 
         "ne_longitude": 12.814, 
         "longitude": 12.807, 
-        "placetype": "Airport", 
+        "parent_woeid": 12610581, 
+        "ne_latitude": 49.491, 
         "iso": "CZ", 
-        "date_indexed": "2010-12-02T08:56:52Z", 
-        "parent_woeid": 801002, 
+        "sw_latitude": 49.482, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.486, 
         "sw_longitude": 12.800, 
-        "fullname": "Pobezovice Airport, Vlkanov, Plze\u0148sk\u00fd, Doma\u017elice, Czech Republic", 
-        "sw_latitude": 49.482
+        "fullname": "Pobezovice Airport, Vlkanov, Plze\u0148sk\u00fd, Czech Republic", 
+        "date_indexed": "2010-12-02T08:56:52Z"
       }, 
       "id": 12512556
     }

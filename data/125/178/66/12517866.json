@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517866, 
-        "name": "Afyon Airport", 
         "alias_ENG_V": [
           "AFY"
         ], 
-        "ne_latitude": 38.732, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Afyon Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29390603", 
+          "woe:state=2347260", 
+          "woe:country=23424969", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517866, 
         "ne_longitude": 30.608, 
         "longitude": 30.603, 
-        "placetype": "Airport", 
+        "parent_woeid": 29390603, 
+        "ne_latitude": 38.732, 
         "iso": "TR", 
-        "date_indexed": "2010-12-02T16:23:11Z", 
-        "parent_woeid": 2343682, 
+        "sw_latitude": 38.723, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.728, 
         "sw_longitude": 30.597, 
-        "fullname": "Afyon Airport, Afyon, Afyonkarahisar, Merkez, Turkey", 
-        "sw_latitude": 38.723
+        "fullname": "Afyon Airport, Afyon, Afyonkarahisar, Turkey", 
+        "iata_code": "AFY", 
+        "date_indexed": "2010-12-02T16:23:11Z"
       }, 
       "id": 12517866
     }

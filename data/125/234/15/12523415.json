@@ -3,28 +3,42 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -104.875, 
-              41.117
-            ], 
-            [
-              -104.875, 
-              41.162
-            ], 
-            [
-              -104.816, 
-              41.162
-            ], 
-            [
-              -104.816, 
-              41.117
-            ], 
-            [
-              -104.875, 
-              41.117
+              [
+                -104.835, 
+                41.156
+              ], 
+              [
+                -104.836, 
+                41.155
+              ], 
+              [
+                -104.838, 
+                41.157
+              ], 
+              [
+                -104.837, 
+                41.157
+              ], 
+              [
+                -104.836, 
+                41.157
+              ], 
+              [
+                -104.833, 
+                41.160
+              ], 
+              [
+                -104.834, 
+                41.158
+              ], 
+              [
+                -104.835, 
+                41.156
+              ]
             ]
           ]
         ]
@@ -32,23 +46,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523415, 
-        "name": "Francis E. Warren Air Force Base", 
         "alias_ENG_V": [
           "Francis E. Warren Base"
         ], 
-        "ne_latitude": 41.162, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -104.816, 
-        "longitude": -104.846, 
-        "placetype": "Airport", 
+        "name": "Francis E. Warren Air Force Base", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590616", 
+          "woe:state=2347609", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523415, 
+        "ne_longitude": -104.833, 
+        "longitude": -104.836, 
+        "parent_woeid": 12590616, 
+        "ne_latitude": 41.160, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2379552, 
-        "latitude": 41.140, 
-        "sw_longitude": -104.875, 
-        "fullname": "Francis E. Warren Air Force Base, Cheyenne, Wyoming, Laramie, United States", 
-        "sw_latitude": 41.117
+        "sw_latitude": 41.155, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 41.157, 
+        "sw_longitude": -104.838, 
+        "fullname": "Francis E. Warren Air Force Base, Cheyenne, Wyoming, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12523415
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516466, 
+        "placetype": "airport", 
         "name": "Nachiki Airport", 
-        "ne_latitude": 53.090, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=24505201", 
+          "woe:state=20070514", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516466, 
         "ne_longitude": 157.749, 
         "longitude": 157.742, 
-        "placetype": "Airport", 
+        "parent_woeid": 24505201, 
+        "ne_latitude": 53.090, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2049409, 
+        "sw_latitude": 53.081, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.085, 
         "sw_longitude": 157.734, 
         "fullname": "Nachiki Airport, Kamchatskaya Oblast, Vilyuchinsk, Russia", 
-        "sw_latitude": 53.081
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516466
     }

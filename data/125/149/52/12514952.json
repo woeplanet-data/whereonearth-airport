@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514952, 
+        "placetype": "airport", 
         "name": "San Antonio Copalar Airport", 
-        "ne_latitude": 16.170, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599758", 
+          "woe:state=2346268", 
+          "woe:country=23424900", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514952, 
         "ne_longitude": -92.034, 
         "longitude": -92.039, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599758, 
+        "ne_latitude": 16.170, 
         "iso": "MX", 
-        "date_indexed": "2010-12-02T16:57:55Z", 
-        "parent_woeid": 129450, 
+        "sw_latitude": 16.161, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 16.166, 
         "sw_longitude": -92.044, 
-        "fullname": "San Antonio Copalar Airport, La Trinitaria, Chiapas, La Trinitaria, Mexico", 
-        "sw_latitude": 16.161
+        "fullname": "San Antonio Copalar Airport, La Trinitaria, Chiapas, Mexico", 
+        "date_indexed": "2010-12-02T16:57:55Z"
       }, 
       "id": 12514952
     }

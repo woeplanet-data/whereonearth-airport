@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519125, 
-        "name": "Chadron Municipal Airport", 
         "alias_ENG_V": [
           "Chadron Airport"
         ], 
-        "ne_latitude": 42.847, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Chadron Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589160", 
+          "woe:state=2347586", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519125, 
         "ne_longitude": -103.086, 
         "longitude": -103.094, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589160, 
+        "ne_latitude": 42.847, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2388838, 
+        "sw_latitude": 42.828, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.828, 
         "sw_longitude": -103.106, 
-        "fullname": "Chadron Municipal Airport, Dakota Junction, Nebraska, Dawes, United States", 
-        "sw_latitude": 42.828
+        "fullname": "Chadron Municipal Airport, Dakota Junction, Nebraska, United States", 
+        "iata_code": "CDR", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519125
     }

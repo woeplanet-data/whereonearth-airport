@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521783, 
-        "name": "Searchlight Airport", 
         "alias_ENG_V": [
           "1l3"
         ], 
-        "ne_latitude": 35.456, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Searchlight Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589233", 
+          "woe:state=2347587", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521783, 
         "ne_longitude": -114.904, 
         "longitude": -114.910, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589233, 
+        "ne_latitude": 35.456, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2490301, 
+        "sw_latitude": 35.445, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.450, 
         "sw_longitude": -114.917, 
-        "fullname": "Searchlight Airport, Searchlight, Nevada, Clark, United States", 
-        "sw_latitude": 35.445
+        "fullname": "Searchlight Airport, Searchlight, Nevada, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521783
     }

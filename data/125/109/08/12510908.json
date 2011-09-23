@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510908, 
-        "name": "Jorge Wilsterman Airport", 
         "alias_ENG_V": [
           "CBB"
         ], 
-        "ne_latitude": -17.412, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Jorge Wilsterman Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=55968170", 
+          "woe:county=55967760", 
+          "woe:state=2344802", 
+          "woe:country=23424762", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510908, 
         "ne_longitude": -66.170, 
         "longitude": -66.174, 
-        "placetype": "Airport", 
+        "parent_woeid": 55968170, 
+        "ne_latitude": -17.412, 
         "iso": "BO", 
-        "date_indexed": "2010-12-02T17:57:50Z", 
-        "parent_woeid": 346058, 
+        "sw_latitude": -17.421, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -17.416, 
         "sw_longitude": -66.179, 
-        "fullname": "Jorge Wilsterman Airport, Cochabamba, Cochabamba, Cercado, Bolivia", 
-        "sw_latitude": -17.421
+        "fullname": "Jorge Wilsterman Airport, Cochabamba, Cochabamba, Bolivia", 
+        "iata_code": "CBB", 
+        "date_indexed": "2010-12-02T17:57:50Z"
       }, 
       "id": 12510908
     }

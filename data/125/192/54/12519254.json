@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519254, 
+        "placetype": "airport", 
         "name": "Cluck Ranch Airport", 
-        "ne_latitude": 36.182, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12590217", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519254, 
         "ne_longitude": -101.689, 
         "longitude": -101.694, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590217, 
+        "ne_latitude": 36.182, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:15Z", 
-        "parent_woeid": 2437146, 
+        "sw_latitude": 36.173, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.178, 
         "sw_longitude": -101.700, 
-        "fullname": "Cluck Ranch Airport, Lautz, Texas, Sherman, United States", 
-        "sw_latitude": 36.173
+        "fullname": "Cluck Ranch Airport, Lautz, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:15Z"
       }, 
       "id": 12519254
     }

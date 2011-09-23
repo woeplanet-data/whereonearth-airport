@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518150, 
+        "placetype": "airport", 
         "name": "Shawbury Airport", 
-        "ne_latitude": 52.802, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12696063", 
+          "woe:county=12602188", 
+          "woe:state=24554868", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518150, 
         "ne_longitude": -2.659, 
         "longitude": -2.667, 
-        "placetype": "Airport", 
+        "parent_woeid": 12696063, 
+        "ne_latitude": 52.802, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:21:01Z", 
-        "parent_woeid": 29328, 
+        "sw_latitude": 52.793, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 52.798, 
         "sw_longitude": -2.674, 
-        "fullname": "Shawbury Airport, Moreton Corbet, England, Shropshire, United Kingdom", 
-        "sw_latitude": 52.793
+        "fullname": "Shawbury Airport, Moreton Corbet, England, United Kingdom", 
+        "date_indexed": "2010-12-02T12:21:01Z"
       }, 
       "id": 12518150
     }

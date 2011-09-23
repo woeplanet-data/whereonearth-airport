@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518556, 
-        "name": "Albany Municipal Airport", 
         "alias_ENG_V": [
           "T23"
         ], 
-        "ne_latitude": 32.726, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Albany Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590215", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518556, 
         "ne_longitude": -99.267, 
         "longitude": -99.268, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590215, 
+        "ne_latitude": 32.726, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2352641, 
+        "sw_latitude": 32.713, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 32.726, 
         "sw_longitude": -99.270, 
-        "fullname": "Albany Municipal Airport, Albany, Texas, Shackelford, United States", 
-        "sw_latitude": 32.713
+        "fullname": "Albany Municipal Airport, Albany, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518556
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388353, 
-        "name": "Royalton Airport", 
         "alias_ENG_V": [
           "9g5"
         ], 
-        "ne_latitude": 43.184, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Royalton Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589343", 
+          "woe:state=2347591", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388353, 
         "ne_longitude": -78.552, 
         "longitude": -78.563, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589343, 
+        "ne_latitude": 43.184, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2485510, 
+        "sw_latitude": 43.180, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.182, 
         "sw_longitude": -78.563, 
-        "fullname": "Royalton Airport, Royalton Center, New York, Niagara, United States", 
-        "sw_latitude": 43.180
+        "fullname": "Royalton Airport, Royalton Center, New York, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388353
     }

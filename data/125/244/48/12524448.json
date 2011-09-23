@@ -32,29 +32,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12524448, 
-        "name": "Aeroporto Cachoeira", 
-        "alias_ENG_P": [
-          "Cachoeira Airport"
-        ], 
-        "ne_latitude": -12.595, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "CCQ"
         ], 
+        "name": "Aeroporto Cachoeira", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Cachoeira Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12578583", 
+          "woe:state=2344848", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524448, 
         "ne_longitude": -38.962, 
         "longitude": -38.967, 
-        "placetype": "Airport", 
+        "parent_woeid": 12578583, 
+        "ne_latitude": -12.595, 
         "alias_POR_V": [
           "Aeroporto CCQ"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:28Z", 
-        "parent_woeid": 461046, 
+        "sw_latitude": -12.605, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -12.600, 
         "sw_longitude": -38.971, 
-        "fullname": "Aeroporto Cachoeira, S\u00e3o F\u00e9lix, Bahia, S\u00e3o F\u00e9lix, Brazil", 
-        "sw_latitude": -12.605
+        "fullname": "Aeroporto Cachoeira, S\u00e3o F\u00e9lix, Bahia, Brazil", 
+        "iata_code": "CCQ", 
+        "date_indexed": "2010-12-02T18:01:28Z"
       }, 
       "id": 12524448
     }

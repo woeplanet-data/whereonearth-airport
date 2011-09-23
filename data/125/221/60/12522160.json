@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522160, 
-        "name": "Tompkinsville-Monroe County Airport", 
         "alias_ENG_V": [
           "TZV"
         ], 
-        "ne_latitude": 36.734, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Tompkinsville-Monroe County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588561", 
+          "woe:state=2347576", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522160, 
         "ne_longitude": -85.648, 
         "longitude": -85.651, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588561, 
+        "ne_latitude": 36.734, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2507053, 
+        "sw_latitude": 36.723, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.728, 
         "sw_longitude": -85.657, 
-        "fullname": "Tompkinsville-Monroe County Airport, Tompkinsville, Kentucky, Monroe, United States", 
-        "sw_latitude": 36.723
+        "fullname": "Tompkinsville-Monroe County Airport, Tompkinsville, Kentucky, United States", 
+        "iata_code": "TZV", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522160
     }

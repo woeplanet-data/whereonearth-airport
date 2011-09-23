@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513501, 
-        "name": "Sam Ratulangi Airport", 
         "alias_ENG_V": [
           "MDC Airport"
         ], 
-        "ne_latitude": 1.553, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Sam Ratulangi Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=56000118", 
+          "woe:state=28350156", 
+          "woe:country=23424846", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513501, 
         "ne_longitude": 124.931, 
         "longitude": 124.926, 
-        "placetype": "Airport", 
+        "parent_woeid": 56000118, 
+        "ne_latitude": 1.553, 
         "iso": "ID", 
-        "date_indexed": "2010-12-02T16:54:32Z", 
-        "parent_woeid": 1037990, 
+        "sw_latitude": 1.544, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 1.549, 
         "sw_longitude": 124.922, 
         "fullname": "Sam Ratulangi Airport, North Sulawesi, Manado, Indonesia", 
-        "sw_latitude": 1.544
+        "iata_code": "MDC", 
+        "date_indexed": "2010-12-02T16:54:32Z"
       }, 
       "id": 12513501
     }

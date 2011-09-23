@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519729, 
+        "placetype": "airport", 
         "name": "Fillmore County Airport", 
-        "ne_latitude": 43.681, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12588819", 
+          "woe:state=2347582", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519729, 
         "ne_longitude": -92.171, 
         "longitude": -92.177, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588819, 
+        "ne_latitude": 43.681, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:16Z", 
-        "parent_woeid": 2374976, 
+        "sw_latitude": 43.672, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.676, 
         "sw_longitude": -92.183, 
-        "fullname": "Fillmore County Airport, Carimona, Minnesota, Fillmore, United States", 
-        "sw_latitude": 43.672
+        "fullname": "Fillmore County Airport, Carimona, Minnesota, United States", 
+        "date_indexed": "2010-12-02T18:39:16Z"
       }, 
       "id": 12519729
     }

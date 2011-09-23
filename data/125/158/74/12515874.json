@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515874, 
+        "placetype": "airport", 
         "name": "Buorsysy Airport", 
-        "ne_latitude": 66.479, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597637", 
+          "woe:state=2346881", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515874, 
         "ne_longitude": 143.046, 
         "longitude": 143.034, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597637, 
+        "ne_latitude": 66.479, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 1995693, 
+        "sw_latitude": 66.470, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 66.474, 
         "sw_longitude": 143.023, 
         "fullname": "Buorsysy Airport, Sakha, Momsky, Russia", 
-        "sw_latitude": 66.470
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12515874
     }

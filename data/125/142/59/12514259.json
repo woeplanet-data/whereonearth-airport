@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514259, 
-        "name": "Alma Ata Airport", 
         "alias_ENG_V": [
           "ALA Airport"
         ], 
-        "ne_latitude": 43.365, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Alma Ata Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=20070180", 
+          "woe:country=23424871", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514259, 
         "ne_longitude": 77.038, 
         "longitude": 77.032, 
-        "placetype": "Airport", 
+        "parent_woeid": 20070180, 
+        "ne_latitude": 43.365, 
         "iso": "KZ", 
-        "date_indexed": "2010-12-02T08:54:13Z", 
-        "parent_woeid": 2257776, 
+        "sw_latitude": 43.356, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.361, 
         "sw_longitude": 77.026, 
         "fullname": "Alma Ata Airport, Almaty, Kazakhstan", 
-        "sw_latitude": 43.356
+        "iata_code": "ALA", 
+        "date_indexed": "2010-12-02T08:54:13Z"
       }, 
       "id": 12514259
     }

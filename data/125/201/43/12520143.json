@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520143, 
-        "name": "Hazen Municipal Airport", 
         "alias_ENG_V": [
           "6m0"
         ], 
-        "ne_latitude": 34.767, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Hazen Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587653", 
+          "woe:state=2347562", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520143, 
         "ne_longitude": -91.624, 
         "longitude": -91.627, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587653, 
+        "ne_latitude": 34.767, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2490138, 
+        "sw_latitude": 34.752, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 34.765, 
         "sw_longitude": -91.642, 
-        "fullname": "Hazen Municipal Airport, Cuneo, Arkansas, Prairie, United States", 
-        "sw_latitude": 34.752
+        "fullname": "Hazen Municipal Airport, Cuneo, Arkansas, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520143
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520295, 
-        "name": "Indianapolis Metro Airport", 
         "alias_ENG_V": [
           "UMP Airport"
         ], 
-        "ne_latitude": 39.942, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Indianapolis Metro Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588208", 
+          "woe:state=2347573", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520295, 
         "ne_longitude": -86.039, 
         "longitude": -86.051, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588208, 
+        "ne_latitude": 39.942, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2403635, 
+        "sw_latitude": 39.927, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 39.930, 
         "sw_longitude": -86.051, 
-        "fullname": "Indianapolis Metro Airport, Fishers, Indiana, Hamilton, United States", 
-        "sw_latitude": 39.927
+        "fullname": "Indianapolis Metro Airport, Fishers, Indiana, United States", 
+        "iata_code": "UMP", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520295
     }

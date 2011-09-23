@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519692, 
-        "name": "Fairmont State Airfield", 
         "alias_ENG_V": [
           "FMZ"
         ], 
-        "ne_latitude": 40.604, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Fairmont State Airfield", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589167", 
+          "woe:state=2347586", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519692, 
         "ne_longitude": -97.559, 
         "longitude": -97.566, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589167, 
+        "ne_latitude": 40.604, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2401583, 
+        "sw_latitude": 40.578, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.596, 
         "sw_longitude": -97.593, 
-        "fullname": "Fairmont State Airfield, Fairmont, Nebraska, Fillmore, United States", 
-        "sw_latitude": 40.578
+        "fullname": "Fairmont State Airfield, Fairmont, Nebraska, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12519692
     }

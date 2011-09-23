@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522492, 
-        "name": "Winona-Montgomery County Airport", 
         "alias_ENG_V": [
           "5a6"
         ], 
-        "ne_latitude": 33.472, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Winona-Montgomery County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588932", 
+          "woe:state=2347583", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522492, 
         "ne_longitude": -89.726, 
         "longitude": -89.729, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588932, 
+        "ne_latitude": 33.472, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2522205, 
+        "sw_latitude": 33.462, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 33.469, 
         "sw_longitude": -89.733, 
-        "fullname": "Winona-Montgomery County Airport, Winona, Mississippi, Montgomery, United States", 
-        "sw_latitude": 33.462
+        "fullname": "Winona-Montgomery County Airport, Winona, Mississippi, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522492
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521021, 
-        "name": "Mora Municipal Airport", 
         "alias_ENG_V": [
           "JMR"
         ], 
-        "ne_latitude": 45.894, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Mora Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588829", 
+          "woe:state=2347582", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521021, 
         "ne_longitude": -93.266, 
         "longitude": -93.266, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588829, 
+        "ne_latitude": 45.894, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2453891, 
+        "sw_latitude": 45.881, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.886, 
         "sw_longitude": -93.278, 
-        "fullname": "Mora Municipal Airport, Mora, Minnesota, Kanabec, United States", 
-        "sw_latitude": 45.881
+        "fullname": "Mora Municipal Airport, Mora, Minnesota, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12521021
     }

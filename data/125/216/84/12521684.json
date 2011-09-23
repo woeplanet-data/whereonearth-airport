@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521684, 
+        "placetype": "airport", 
         "name": "Ruth Airport", 
-        "ne_latitude": 40.216, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12587722", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521684, 
         "ne_longitude": -123.291, 
         "longitude": -123.297, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587722, 
+        "ne_latitude": 40.216, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2486086, 
+        "sw_latitude": 40.207, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.211, 
         "sw_longitude": -123.303, 
-        "fullname": "Ruth Airport, Ruth, California, Trinity, United States", 
-        "sw_latitude": 40.207
+        "fullname": "Ruth Airport, Ruth, California, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521684
     }

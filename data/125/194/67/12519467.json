@@ -3,28 +3,62 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -97.206, 
-              33.191
-            ], 
-            [
-              -97.206, 
-              33.212
-            ], 
-            [
-              -97.190, 
-              33.212
-            ], 
-            [
-              -97.190, 
-              33.191
-            ], 
-            [
-              -97.206, 
-              33.191
+              [
+                -97.196, 
+                33.199
+              ], 
+              [
+                -97.201, 
+                33.197
+              ], 
+              [
+                -97.201, 
+                33.200
+              ], 
+              [
+                -97.202, 
+                33.202
+              ], 
+              [
+                -97.197, 
+                33.203
+              ], 
+              [
+                -97.197, 
+                33.205
+              ], 
+              [
+                -97.197, 
+                33.209
+              ], 
+              [
+                -97.194, 
+                33.204
+              ], 
+              [
+                -97.193, 
+                33.203
+              ], 
+              [
+                -97.193, 
+                33.201
+              ], 
+              [
+                -97.193, 
+                33.198
+              ], 
+              [
+                -97.193, 
+                33.198
+              ], 
+              [
+                -97.196, 
+                33.199
+              ]
             ]
           ]
         ]
@@ -32,23 +66,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519467, 
-        "name": "Denton Municipal Airport", 
         "alias_ENG_V": [
           "DTO"
         ], 
-        "ne_latitude": 33.212, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -97.190, 
-        "longitude": -97.194, 
-        "placetype": "Airport", 
+        "name": "Denton Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590067", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519467, 
+        "ne_longitude": -97.193, 
+        "longitude": -97.197, 
+        "parent_woeid": 12590067, 
+        "ne_latitude": 33.209, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2391231, 
-        "latitude": 33.202, 
-        "sw_longitude": -97.206, 
-        "fullname": "Denton Municipal Airport, Denton, Texas, Denton, United States", 
-        "sw_latitude": 33.191
+        "sw_latitude": 33.197, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 33.201, 
+        "sw_longitude": -97.202, 
+        "fullname": "Denton Municipal Airport, Denton, Texas, United States", 
+        "iata_code": "DTO", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519467
     }

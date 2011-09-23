@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523201, 
-        "name": "Pilot Point Airport", 
         "alias_ENG_V": [
           "PIP"
         ], 
-        "ne_latitude": 57.568, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Pilot Point Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587567", 
+          "woe:state=2347560", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523201, 
         "ne_longitude": -157.550, 
         "longitude": -157.558, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587567, 
+        "ne_latitude": 57.568, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2471840, 
+        "sw_latitude": 57.559, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 57.563, 
         "sw_longitude": -157.567, 
-        "fullname": "Pilot Point Airport, Pilot Point, Alaska, Lake and Peninsula Borough, United States", 
-        "sw_latitude": 57.559
+        "fullname": "Pilot Point Airport, Pilot Point, Alaska, United States", 
+        "iata_code": "PIP", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12523201
     }

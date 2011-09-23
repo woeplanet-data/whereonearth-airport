@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512510, 
+        "placetype": "airport", 
         "name": "Bur North Airport", 
-        "ne_latitude": 49.754, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12610036", 
+          "woe:county=12582613", 
+          "woe:state=20070501", 
+          "woe:country=23424810", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512510, 
         "ne_longitude": 12.806, 
         "longitude": 12.799, 
-        "placetype": "Airport", 
+        "parent_woeid": 12610036, 
+        "ne_latitude": 49.754, 
         "iso": "CZ", 
-        "date_indexed": "2010-12-02T08:56:52Z", 
-        "parent_woeid": 792295, 
+        "sw_latitude": 49.745, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.749, 
         "sw_longitude": 12.792, 
         "fullname": "Bur North Airport, Plze\u0148sk\u00fd, Tachov, Czech Republic", 
-        "sw_latitude": 49.745
+        "date_indexed": "2010-12-02T08:56:52Z"
       }, 
       "id": 12512510
     }

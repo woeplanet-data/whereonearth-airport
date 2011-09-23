@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 28677588, 
+        "placetype": "airport", 
         "name": "Kidman Springs Aerodrome", 
-        "ne_latitude": -16.110, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=56072990", 
+          "woe:state=2344701", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 28677588, 
         "ne_longitude": 130.956, 
         "longitude": 130.951, 
-        "placetype": "Airport", 
+        "parent_woeid": 56072990, 
+        "ne_latitude": -16.110, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1106304, 
+        "sw_latitude": -16.119, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -16.115, 
         "sw_longitude": 130.946, 
         "fullname": "Kidman Springs Aerodrome, Victoria River Downs, Northern Territory, Australia", 
-        "sw_latitude": -16.119
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 28677588
     }

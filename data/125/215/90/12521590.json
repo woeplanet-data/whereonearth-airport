@@ -3,28 +3,74 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -82.956, 
-              39.802
-            ], 
-            [
-              -82.956, 
-              39.833
-            ], 
-            [
-              -82.916, 
-              39.833
-            ], 
-            [
-              -82.916, 
-              39.802
-            ], 
-            [
-              -82.956, 
-              39.802
+              [
+                -82.937, 
+                39.814
+              ], 
+              [
+                -82.938, 
+                39.816
+              ], 
+              [
+                -82.938, 
+                39.820
+              ], 
+              [
+                -82.936, 
+                39.818
+              ], 
+              [
+                -82.933, 
+                39.819
+              ], 
+              [
+                -82.929, 
+                39.820
+              ], 
+              [
+                -82.928, 
+                39.826
+              ], 
+              [
+                -82.926, 
+                39.822
+              ], 
+              [
+                -82.928, 
+                39.819
+              ], 
+              [
+                -82.928, 
+                39.817
+              ], 
+              [
+                -82.927, 
+                39.814
+              ], 
+              [
+                -82.932, 
+                39.814
+              ], 
+              [
+                -82.934, 
+                39.810
+              ], 
+              [
+                -82.937, 
+                39.812
+              ], 
+              [
+                -82.941, 
+                39.811
+              ], 
+              [
+                -82.937, 
+                39.814
+              ]
             ]
           ]
         ]
@@ -32,23 +78,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521590, 
-        "name": "Rickenbacker International Airport", 
         "alias_ENG_V": [
           "LCK Airport"
         ], 
-        "ne_latitude": 39.833, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -82.916, 
-        "longitude": -82.936, 
-        "placetype": "Airport", 
-        "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
+        "name": "Rickenbacker International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:suburb=29229627", 
+          "woe:county=12589551", 
+          "woe:state=2347594", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521590, 
+        "ne_longitude": -82.926, 
+        "longitude": -82.933, 
         "parent_woeid": 29229627, 
-        "latitude": 39.818, 
-        "sw_longitude": -82.956, 
-        "fullname": "Rickenbacker International Airport, Columbus, Ohio, Franklin, United States", 
-        "sw_latitude": 39.802
+        "ne_latitude": 39.826, 
+        "iso": "US", 
+        "sw_latitude": 39.810, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 39.816, 
+        "sw_longitude": -82.941, 
+        "fullname": "Rickenbacker International Airport, Columbus, Ohio, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521590
     }

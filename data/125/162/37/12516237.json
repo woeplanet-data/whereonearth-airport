@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516237, 
+        "placetype": "airport", 
         "name": "Kotlas South Airport", 
-        "ne_latitude": 61.003, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599614", 
+          "woe:state=2346934", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516237, 
         "ne_longitude": 46.879, 
         "longitude": 46.870, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599614, 
+        "ne_latitude": 61.003, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2120283, 
+        "sw_latitude": 60.994, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 60.998, 
         "sw_longitude": 46.861, 
         "fullname": "Kotlas South Airport, Arkhangelrskaya Oblast, Kotlassky, Russia", 
-        "sw_latitude": 60.994
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516237
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522201, 
+        "placetype": "airport", 
         "name": "Triangle Ranch Airport", 
-        "ne_latitude": 34.034, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12590057", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522201, 
         "ne_longitude": -100.063, 
         "longitude": -100.068, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590057, 
+        "ne_latitude": 34.034, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2415886, 
+        "sw_latitude": 34.025, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 34.029, 
         "sw_longitude": -100.074, 
-        "fullname": "Triangle Ranch Airport, Hackberry, Texas, Cottle, United States", 
-        "sw_latitude": 34.025
+        "fullname": "Triangle Ranch Airport, Hackberry, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12522201
     }

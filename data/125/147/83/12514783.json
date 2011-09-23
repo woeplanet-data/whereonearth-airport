@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514783, 
-        "name": "Boukhalf Airport", 
         "alias_ENG_V": [
           "Boukhalf"
         ], 
-        "ne_latitude": 35.740, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Boukhalf Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=56120064", 
+          "woe:state=56120062", 
+          "woe:country=23424893", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514783, 
         "ne_longitude": -5.904, 
         "longitude": -5.918, 
-        "placetype": "Airport", 
+        "parent_woeid": 56120064, 
+        "ne_latitude": 35.740, 
         "iso": "MA", 
-        "date_indexed": "2010-12-02T18:19:13Z", 
-        "parent_woeid": 1540044, 
+        "sw_latitude": 35.717, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.728, 
         "sw_longitude": -5.931, 
         "fullname": "Boukhalf Airport, Tanger, Morocco", 
-        "sw_latitude": 35.717
+        "iata_code": "TNG", 
+        "date_indexed": "2010-12-02T18:19:13Z"
       }, 
       "id": 12514783
     }

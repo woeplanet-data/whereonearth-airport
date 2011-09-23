@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 56049515, 
-        "name": "Waco Field Airport", 
         "alias_ENG_V": [
           "1wf"
         ], 
-        "ne_latitude": 40.022, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Waco Field Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589581", 
+          "woe:state=2347594", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56049515, 
         "ne_longitude": -84.189, 
         "longitude": -84.201, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589581, 
+        "ne_latitude": 40.022, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2386355, 
+        "sw_latitude": 40.004, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.013, 
         "sw_longitude": -84.213, 
-        "fullname": "Waco Field Airport, Cowlesville, Ohio, Miami, United States", 
-        "sw_latitude": 40.004
+        "fullname": "Waco Field Airport, Cowlesville, Ohio, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 56049515
     }

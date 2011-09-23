@@ -3,28 +3,34 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -0.541, 
-              51.112
-            ], 
-            [
-              -0.541, 
-              51.121
-            ], 
-            [
-              -0.526, 
-              51.121
-            ], 
-            [
-              -0.526, 
-              51.112
-            ], 
-            [
-              -0.541, 
-              51.112
+              [
+                -0.536, 
+                51.119
+              ], 
+              [
+                -0.533, 
+                51.118
+              ], 
+              [
+                -0.535, 
+                51.117
+              ], 
+              [
+                -0.536, 
+                51.113
+              ], 
+              [
+                -0.539, 
+                51.116
+              ], 
+              [
+                -0.536, 
+                51.119
+              ]
             ]
           ]
         ]
@@ -32,20 +38,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518075, 
+        "placetype": "airport", 
         "name": "Dunsfold Airport", 
-        "ne_latitude": 51.121, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -0.526, 
-        "longitude": -0.533, 
-        "placetype": "Airport", 
+        "hierarchy": [
+          "woe:localadmin=12696096", 
+          "woe:county=12602176", 
+          "woe:state=24554868", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518075, 
+        "ne_longitude": -0.533, 
+        "longitude": -0.536, 
+        "parent_woeid": 12696096, 
+        "ne_latitude": 51.119, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:20:54Z", 
-        "parent_woeid": 20093326, 
+        "sw_latitude": 51.113, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.116, 
-        "sw_longitude": -0.541, 
-        "fullname": "Dunsfold Airport, Alfold Crossways, England, Surrey, United Kingdom", 
-        "sw_latitude": 51.112
+        "sw_longitude": -0.539, 
+        "fullname": "Dunsfold Airport, Alfold Crossways, England, United Kingdom", 
+        "date_indexed": "2010-12-02T12:20:54Z"
       }, 
       "id": 12518075
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516613, 
-        "name": "Ordzhonikidze North Airport", 
         "alias_ENG_V": [
           "OGZ Airport"
         ], 
-        "ne_latitude": 43.211, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Ordzhonikidze North Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12597314", 
+          "woe:state=20070521", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516613, 
         "ne_longitude": 44.617, 
         "longitude": 44.611, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597314, 
+        "ne_latitude": 43.211, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2016181, 
+        "sw_latitude": 43.202, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.207, 
         "sw_longitude": 44.604, 
         "fullname": "Ordzhonikidze North Airport, Severnaya Osetiya-Alaniya, Beslan, Russia", 
-        "sw_latitude": 43.202
+        "iata_code": "OGZ", 
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516613
     }

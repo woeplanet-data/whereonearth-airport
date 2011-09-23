@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523003, 
-        "name": "Hodeidah Airport", 
         "alias_ENG_V": [
           "HOD"
         ], 
-        "ne_latitude": 14.766, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Hodeidah Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=56189919", 
+          "woe:state=20070047", 
+          "woe:country=23425002", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523003, 
         "ne_longitude": 42.998, 
         "longitude": 42.986, 
-        "placetype": "Airport", 
+        "parent_woeid": 56189919, 
+        "ne_latitude": 14.766, 
         "iso": "YE", 
-        "date_indexed": "2010-12-02T16:39:41Z", 
-        "parent_woeid": 1958951, 
+        "sw_latitude": 14.744, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 14.755, 
         "sw_longitude": 42.974, 
         "fullname": "Hodeidah Airport, Al Hudaydah, Al Hudaydah, Yemen", 
-        "sw_latitude": 14.744
+        "iata_code": "HOD", 
+        "date_indexed": "2010-12-02T16:39:41Z"
       }, 
       "id": 12523003
     }

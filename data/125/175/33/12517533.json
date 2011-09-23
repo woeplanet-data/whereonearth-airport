@@ -3,28 +3,78 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -1.885, 
-              38.944
-            ], 
-            [
-              -1.885, 
-              38.958
-            ], 
-            [
-              -1.837, 
-              38.958
-            ], 
-            [
-              -1.837, 
-              38.944
-            ], 
-            [
-              -1.885, 
-              38.944
+              [
+                -1.863, 
+                38.950
+              ], 
+              [
+                -1.859, 
+                38.953
+              ], 
+              [
+                -1.863, 
+                38.957
+              ], 
+              [
+                -1.868, 
+                38.953
+              ], 
+              [
+                -1.873, 
+                38.953
+              ], 
+              [
+                -1.880, 
+                38.949
+              ], 
+              [
+                -1.879, 
+                38.944
+              ], 
+              [
+                -1.880, 
+                38.944
+              ], 
+              [
+                -1.886, 
+                38.944
+              ], 
+              [
+                -1.889, 
+                38.946
+              ], 
+              [
+                -1.889, 
+                38.947
+              ], 
+              [
+                -1.881, 
+                38.950
+              ], 
+              [
+                -1.878, 
+                38.953
+              ], 
+              [
+                -1.873, 
+                38.953
+              ], 
+              [
+                -1.870, 
+                38.952
+              ], 
+              [
+                -1.867, 
+                38.948
+              ], 
+              [
+                -1.863, 
+                38.950
+              ]
             ]
           ]
         ]
@@ -32,26 +82,33 @@
       "type": "Feature", 
       "properties": {
         "lang": "SPA", 
-        "woeid": 12517533, 
+        "placetype": "airport", 
         "name": "Aeropuerto d\u00e9 Albacete", 
         "alias_ENG_P": [
           "Albacete Airport"
         ], 
-        "ne_latitude": 38.958, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -1.837, 
-        "longitude": -1.881, 
-        "placetype": "Airport", 
+        "hierarchy": [
+          "woe:localadmin=12690214", 
+          "woe:county=12602110", 
+          "woe:state=12578032", 
+          "woe:country=23424950", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517533, 
+        "ne_longitude": -1.859, 
+        "longitude": -2.679, 
+        "parent_woeid": 12690214, 
+        "ne_latitude": 38.957, 
         "alias_SPA_S": [
           "Aeropuerto de Albacete"
         ], 
         "iso": "ES", 
-        "date_indexed": "2010-12-02T17:38:37Z", 
-        "parent_woeid": 20226566, 
-        "latitude": 38.945, 
-        "sw_longitude": -1.885, 
-        "fullname": "Aeropuerto d\u00e9 Albacete, Urbanizaci\u00f3n la P\u00e9rgola, Castille la Mancha, Albacete, Spain", 
-        "sw_latitude": 38.944
+        "sw_latitude": 38.944, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 38.734, 
+        "sw_longitude": -1.889, 
+        "fullname": "Aeropuerto d\u00e9 Albacete, Urbanizaci\u00f3n la P\u00e9rgola, Castille la Mancha, Spain", 
+        "date_indexed": "2010-12-02T17:38:37Z"
       }, 
       "id": 12517533
     }

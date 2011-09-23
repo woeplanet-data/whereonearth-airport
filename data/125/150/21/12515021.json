@@ -3,28 +3,102 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              32.557, 
-              -25.932
-            ], 
-            [
-              32.557, 
-              -25.910
-            ], 
-            [
-              32.582, 
-              -25.910
-            ], 
-            [
-              32.582, 
-              -25.932
-            ], 
-            [
-              32.557, 
-              -25.932
+              [
+                32.547, 
+                -25.944
+              ], 
+              [
+                32.543, 
+                -25.949
+              ], 
+              [
+                32.533, 
+                -25.945
+              ], 
+              [
+                32.533, 
+                -25.944
+              ], 
+              [
+                32.543, 
+                -25.942
+              ], 
+              [
+                32.548, 
+                -25.938
+              ], 
+              [
+                32.552, 
+                -25.931
+              ], 
+              [
+                32.551, 
+                -25.925
+              ], 
+              [
+                32.557, 
+                -25.928
+              ], 
+              [
+                32.565, 
+                -25.940
+              ], 
+              [
+                32.575, 
+                -25.934
+              ], 
+              [
+                32.574, 
+                -25.925
+              ], 
+              [
+                32.573, 
+                -25.924
+              ], 
+              [
+                32.574, 
+                -25.924
+              ], 
+              [
+                32.579, 
+                -25.932
+              ], 
+              [
+                32.586, 
+                -25.936
+              ], 
+              [
+                32.579, 
+                -25.940
+              ], 
+              [
+                32.573, 
+                -25.945
+              ], 
+              [
+                32.568, 
+                -25.945
+              ], 
+              [
+                32.567, 
+                -25.945
+              ], 
+              [
+                32.564, 
+                -25.945
+              ], 
+              [
+                32.548, 
+                -25.944
+              ], 
+              [
+                32.547, 
+                -25.944
+              ]
             ]
           ]
         ]
@@ -32,23 +106,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515021, 
-        "name": "Maputo Airport", 
         "alias_ENG_V": [
           "MPM"
         ], 
-        "ne_latitude": -25.910, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": 32.582, 
-        "longitude": 32.569, 
-        "placetype": "Airport", 
+        "name": "Maputo Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2346314", 
+          "woe:country=23424902", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515021, 
+        "ne_longitude": 32.586, 
+        "longitude": 32.560, 
+        "parent_woeid": 2346314, 
+        "ne_latitude": -25.924, 
         "iso": "MZ", 
-        "date_indexed": "2010-12-02T07:50:33Z", 
-        "parent_woeid": 1550363, 
-        "latitude": -25.921, 
-        "sw_longitude": 32.557, 
+        "sw_latitude": -25.949, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": -25.939, 
+        "sw_longitude": 32.533, 
         "fullname": "Maputo Airport, Maputo, Maputo, Mozambique", 
-        "sw_latitude": -25.932
+        "iata_code": "MPM", 
+        "date_indexed": "2010-12-02T07:50:33Z"
       }, 
       "id": 12515021
     }

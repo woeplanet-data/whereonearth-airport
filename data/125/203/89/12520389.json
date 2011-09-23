@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520389, 
-        "name": "Johnson County Airport", 
         "alias_ENG_V": [
           "6a4"
         ], 
-        "ne_latitude": 36.417, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Johnson County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589957", 
+          "woe:state=2347601", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520389, 
         "ne_longitude": -81.826, 
         "longitude": -81.829, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589957, 
+        "ne_latitude": 36.417, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2488553, 
+        "sw_latitude": 36.413, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.415, 
         "sw_longitude": -81.832, 
-        "fullname": "Johnson County Airport, Vaughtsville, Tennessee, Johnson, United States", 
-        "sw_latitude": 36.413
+        "fullname": "Johnson County Airport, Vaughtsville, Tennessee, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12520389
     }

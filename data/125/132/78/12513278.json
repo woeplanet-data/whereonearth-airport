@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513278, 
-        "name": "Marie Galante Airport", 
         "alias_ENG_V": [
           "GBJ"
         ], 
-        "ne_latitude": 15.876, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Marie Galante Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=24551306", 
+          "woe:state=28358256", 
+          "woe:country=23424831", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513278, 
         "ne_longitude": -61.260, 
         "longitude": -61.265, 
-        "placetype": "Airport", 
+        "parent_woeid": 24551306, 
+        "ne_latitude": 15.876, 
         "iso": "GP", 
-        "date_indexed": "2010-12-02T08:50:01Z", 
-        "parent_woeid": 80738, 
+        "sw_latitude": 15.867, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 15.871, 
         "sw_longitude": -61.269, 
         "fullname": "Marie Galante Airport, Pointe-\u00c0-Pitre, Grand-Bourg, Guadeloupe", 
-        "sw_latitude": 15.867
+        "iata_code": "GBJ", 
+        "date_indexed": "2010-12-02T08:50:01Z"
       }, 
       "id": 12513278
     }

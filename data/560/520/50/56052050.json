@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 56052050, 
+        "placetype": "airport", 
         "name": "Flugplatz Nordenbeck", 
-        "ne_latitude": 51.241, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12632846", 
+          "woe:county=12596852", 
+          "woe:state=2345485", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56052050, 
         "ne_longitude": 8.826, 
         "longitude": 8.813, 
-        "placetype": "Airport", 
+        "parent_woeid": 12632846, 
+        "ne_latitude": 51.241, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 668269, 
+        "sw_latitude": 51.233, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.234, 
         "sw_longitude": 8.809, 
-        "fullname": "Flugplatz Nordenbeck, Korbach, Hesse, Waldeck-Frankenberg, Germany", 
-        "sw_latitude": 51.233
+        "fullname": "Flugplatz Nordenbeck, Korbach, Hesse, Germany", 
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 56052050
     }

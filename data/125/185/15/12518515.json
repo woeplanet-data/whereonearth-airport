@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518515, 
-        "name": "Abernathy Field Airport", 
         "alias_ENG_V": [
           "GZS"
         ], 
-        "ne_latitude": 35.161, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Abernathy Field Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589939", 
+          "woe:state=2347601", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518515, 
         "ne_longitude": -87.050, 
         "longitude": -87.052, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589939, 
+        "ne_latitude": 35.161, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2413798, 
+        "sw_latitude": 35.147, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.150, 
         "sw_longitude": -87.062, 
-        "fullname": "Abernathy Field Airport, Green Field, Tennessee, Giles, United States", 
-        "sw_latitude": 35.147
+        "fullname": "Abernathy Field Airport, Green Field, Tennessee, United States", 
+        "iata_code": "GZS", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518515
     }

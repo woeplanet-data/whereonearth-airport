@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520922, 
+        "placetype": "airport", 
         "name": "Mexico Memorial Airport", 
-        "ne_latitude": 39.162, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12588969", 
+          "woe:state=2347584", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520922, 
         "ne_longitude": -91.813, 
         "longitude": -91.819, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588969, 
+        "ne_latitude": 39.162, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2449979, 
+        "sw_latitude": 39.153, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 39.158, 
         "sw_longitude": -91.824, 
-        "fullname": "Mexico Memorial Airport, Mexico, Missouri, Audrain, United States", 
-        "sw_latitude": 39.153
+        "fullname": "Mexico Memorial Airport, Mexico, Missouri, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12520922
     }

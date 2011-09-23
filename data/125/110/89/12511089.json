@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511089, 
+        "placetype": "airport", 
         "name": "Aeroporto Chapada do Apodi", 
         "alias_ENG_P": [
           "Chapada do Apodi Airport"
         ], 
-        "ne_latitude": -5.118, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12578791", 
+          "woe:state=2344849", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511089, 
         "ne_longitude": -37.967, 
         "longitude": -37.971, 
-        "placetype": "Airport", 
+        "parent_woeid": 12578791, 
+        "ne_latitude": -5.118, 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 460692, 
+        "sw_latitude": -5.127, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -5.122, 
         "sw_longitude": -37.976, 
-        "fullname": "Aeroporto Chapada do Apodi, Quixer\u00e9, Ceara, Quixer\u00e9, Brazil", 
-        "sw_latitude": -5.127
+        "fullname": "Aeroporto Chapada do Apodi, Quixer\u00e9, Ceara, Brazil", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511089
     }

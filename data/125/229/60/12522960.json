@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522960, 
+        "placetype": "airport", 
         "name": "Thuy Dong Airport", 
-        "ne_latitude": 10.656, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2347710", 
+          "woe:country=23424984", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522960, 
         "ne_longitude": 106.177, 
         "longitude": 106.172, 
-        "placetype": "Airport", 
+        "parent_woeid": 2347710, 
+        "ne_latitude": 10.656, 
         "iso": "VN", 
-        "date_indexed": "2010-12-02T08:52:49Z", 
-        "parent_woeid": 1252262, 
+        "sw_latitude": 10.647, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 10.652, 
         "sw_longitude": 106.168, 
         "fullname": "Thuy Dong Airport, Long An, Vietnam", 
-        "sw_latitude": 10.647
+        "date_indexed": "2010-12-02T08:52:49Z"
       }, 
       "id": 12522960
     }

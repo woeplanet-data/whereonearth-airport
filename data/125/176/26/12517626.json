@@ -3,28 +3,34 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              14.471, 
-              63.184
-            ], 
-            [
-              14.471, 
-              63.204
-            ], 
-            [
-              14.533, 
-              63.204
-            ], 
-            [
-              14.533, 
-              63.184
-            ], 
-            [
-              14.471, 
-              63.184
+              [
+                14.497, 
+                63.198
+              ], 
+              [
+                14.496, 
+                63.195
+              ], 
+              [
+                14.496, 
+                63.198
+              ], 
+              [
+                14.498, 
+                63.199
+              ], 
+              [
+                14.497, 
+                63.198
+              ], 
+              [
+                14.497, 
+                63.198
+              ]
             ]
           ]
         ]
@@ -40,8 +46,14 @@
         "alias_SWE_S": [
           "Are Ostersund Flygplats"
         ], 
-        "ne_latitude": 63.204, 
-        "placetype": "Airport", 
+        "hierarchy": [
+          "woe:county=12587260", 
+          "woe:state=2347050", 
+          "woe:country=23424954", 
+          "woe:planet=1"
+        ], 
+        "ne_latitude": 63.199, 
+        "placetype": "airport", 
         "alias_POR_Q": [
           "Aeroporto de \u00c5re \u00d6stersund"
         ], 
@@ -70,9 +82,9 @@
         "alias_FIN_S": [
           "Are Ostersundin Lentoasema"
         ], 
-        "sw_longitude": 14.471, 
+        "sw_longitude": 14.496, 
         "provider": "geoplanet 7.6.0", 
-        "latitude": 63.198, 
+        "latitude": 63.197, 
         "date_indexed": "2010-12-02T16:45:55Z", 
         "alias_DUT_Q": [
           "Luchthaven \u00c5re \u00d6stersund"
@@ -103,15 +115,15 @@
         "alias_UNK_S": [
           "Letisko Are Ostersund"
         ], 
-        "parent_woeid": 890087, 
+        "parent_woeid": 12587260, 
         "alias_UNK_Q": [
           "Letisko \u00c5re \u00d6stersund"
         ], 
-        "ne_longitude": 14.533, 
-        "longitude": 14.498, 
+        "ne_longitude": 14.498, 
+        "longitude": 14.497, 
         "iso": "SE", 
-        "sw_latitude": 63.184, 
-        "fullname": "\u00c5re \u00d6stersund Flygplats, L\u00f6vtorpet, Jamtland, \u00d6stersund, Sweden", 
+        "sw_latitude": 63.195, 
+        "fullname": "\u00c5re \u00d6stersund Flygplats, L\u00f6vtorpet, Jamtland, Sweden", 
         "alias_FRE_S": [
           "Aeroport d'Are Ostersund"
         ], 

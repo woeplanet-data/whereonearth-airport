@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514868, 
+        "placetype": "airport", 
         "name": "El Lencero Airport", 
-        "ne_latitude": 19.477, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12601783", 
+          "woe:state=2346293", 
+          "woe:country=23424900", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514868, 
         "ne_longitude": -96.777, 
         "longitude": -96.782, 
-        "placetype": "Airport", 
+        "parent_woeid": 12601783, 
+        "ne_latitude": 19.477, 
         "iso": "MX", 
-        "date_indexed": "2010-12-02T16:57:55Z", 
-        "parent_woeid": 117546, 
+        "sw_latitude": 19.468, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 19.472, 
         "sw_longitude": -96.787, 
-        "fullname": "El Lencero Airport, Coyolillo, Veracruz-Llave, Emiliano Zapata, Mexico", 
-        "sw_latitude": 19.468
+        "fullname": "El Lencero Airport, Coyolillo, Veracruz-Llave, Mexico", 
+        "date_indexed": "2010-12-02T16:57:55Z"
       }, 
       "id": 12514868
     }

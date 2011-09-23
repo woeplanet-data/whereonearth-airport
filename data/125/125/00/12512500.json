@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512500, 
+        "placetype": "airport", 
         "name": "Lakatamia Airport", 
-        "ne_latitude": 35.111, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=12577971", 
+          "woe:country=26812346", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512500, 
         "ne_longitude": 33.327, 
         "longitude": 33.321, 
-        "placetype": "Airport", 
+        "parent_woeid": 12577971, 
+        "ne_latitude": 35.111, 
         "iso": "CY", 
-        "date_indexed": "2010-12-02T09:35:25Z", 
-        "parent_woeid": 841350, 
+        "sw_latitude": 35.102, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.107, 
         "sw_longitude": 33.316, 
         "fullname": "Lakatamia Airport, Nicosia District, Cyprus", 
-        "sw_latitude": 35.102
+        "date_indexed": "2010-12-02T09:35:25Z"
       }, 
       "id": 12512500
     }

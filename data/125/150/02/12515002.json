@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515002, 
-        "name": "Marudi Airport", 
         "alias_ENG_V": [
           "MUR"
         ], 
-        "ne_latitude": 4.180, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Marudi Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=56014284", 
+          "woe:county=56013598", 
+          "woe:state=2346305", 
+          "woe:country=23424901", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515002, 
         "ne_longitude": 114.335, 
         "longitude": 114.330, 
-        "placetype": "Airport", 
+        "parent_woeid": 56014284, 
+        "ne_latitude": 4.180, 
         "iso": "MY", 
-        "date_indexed": "2010-12-02T18:04:56Z", 
-        "parent_woeid": 1154896, 
+        "sw_latitude": 4.170, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 4.175, 
         "sw_longitude": 114.326, 
-        "fullname": "Marudi Airport, Marudi, Sarawak, Division Miri, Malaysia", 
-        "sw_latitude": 4.170
+        "fullname": "Marudi Airport, Marudi, Sarawak, Malaysia", 
+        "iata_code": "MUR", 
+        "date_indexed": "2010-12-02T18:04:56Z"
       }, 
       "id": 12515002
     }

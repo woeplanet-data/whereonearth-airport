@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 28677651, 
+        "placetype": "airport", 
         "name": "Betoota Aerodrome", 
-        "ne_latitude": -25.637, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55863925", 
+          "woe:state=2344702", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 28677651, 
         "ne_longitude": 140.795, 
         "longitude": 140.790, 
-        "placetype": "Airport", 
+        "parent_woeid": 55863925, 
+        "ne_latitude": -25.637, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1100388, 
+        "sw_latitude": -25.646, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -25.642, 
         "sw_longitude": 140.785, 
-        "fullname": "Betoota Aerodrome, Birdsville, Queensland, Diamantina, Australia", 
-        "sw_latitude": -25.646
+        "fullname": "Betoota Aerodrome, Birdsville, Queensland, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 28677651
     }

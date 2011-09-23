@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519283, 
-        "name": "Columbia Marion County Airport", 
         "alias_ENG_V": [
           "0r0"
         ], 
-        "ne_latitude": 31.302, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Columbia Marion County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588929", 
+          "woe:state=2347583", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519283, 
         "ne_longitude": -89.806, 
         "longitude": -89.814, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588929, 
+        "ne_latitude": 31.302, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2383553, 
+        "sw_latitude": 31.292, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 31.293, 
         "sw_longitude": -89.822, 
-        "fullname": "Columbia Marion County Airport, Columbia, Mississippi, Marion, United States", 
-        "sw_latitude": 31.292
+        "fullname": "Columbia Marion County Airport, Columbia, Mississippi, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519283
     }

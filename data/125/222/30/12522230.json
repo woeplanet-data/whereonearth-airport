@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522230, 
-        "name": "Twentynine Palms Airport", 
         "alias_ENG_V": [
           "TNP"
         ], 
-        "ne_latitude": 34.137, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Twentynine Palms Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587705", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522230, 
         "ne_longitude": -115.931, 
         "longitude": -115.946, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587705, 
+        "ne_latitude": 34.137, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2509031, 
+        "sw_latitude": 34.120, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 34.137, 
         "sw_longitude": -115.960, 
-        "fullname": "Twentynine Palms Airport, Twentynine Palms, California, San Bernardino, United States", 
-        "sw_latitude": 34.120
+        "fullname": "Twentynine Palms Airport, Twentynine Palms, California, United States", 
+        "iata_code": "TNP", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522230
     }

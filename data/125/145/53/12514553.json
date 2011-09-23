@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514553, 
+        "placetype": "airport", 
         "name": "Pha Khao Airport", 
-        "ne_latitude": 19.041, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2346011", 
+          "woe:country=23424872", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514553, 
         "ne_longitude": 103.026, 
         "longitude": 103.021, 
-        "placetype": "Airport", 
+        "parent_woeid": 2346011, 
+        "ne_latitude": 19.041, 
         "iso": "LA", 
-        "date_indexed": "2010-12-02T16:42:51Z", 
-        "parent_woeid": 1140512, 
+        "sw_latitude": 19.031, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 19.036, 
         "sw_longitude": 103.017, 
         "fullname": "Pha Khao Airport, Xiangkhoang, Laos", 
-        "sw_latitude": 19.031
+        "date_indexed": "2010-12-02T16:42:51Z"
       }, 
       "id": 12514553
     }

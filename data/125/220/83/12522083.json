@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522083, 
-        "name": "Taunton Municipal Airport", 
         "alias_ENG_V": [
           "TAN"
         ], 
-        "ne_latitude": 41.877, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Taunton Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588702", 
+          "woe:state=2347580", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522083, 
         "ne_longitude": -71.007, 
         "longitude": -71.015, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588702, 
+        "ne_latitude": 41.877, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2504265, 
+        "sw_latitude": 41.871, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.875, 
         "sw_longitude": -71.020, 
-        "fullname": "Taunton Municipal Airport, Taunton, Massachusetts, Bristol, United States", 
-        "sw_latitude": 41.871
+        "fullname": "Taunton Municipal Airport, Taunton, Massachusetts, United States", 
+        "iata_code": "TAN", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522083
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520684, 
-        "name": "Lodi Airport", 
         "alias_ENG_V": [
           "Lodi Municipal Airport"
         ], 
-        "ne_latitude": 38.204, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Lodi Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587708", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520684, 
         "ne_longitude": -121.263, 
         "longitude": -121.263, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587708, 
+        "ne_latitude": 38.204, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2525047, 
+        "sw_latitude": 38.199, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.203, 
         "sw_longitude": -121.276, 
-        "fullname": "Lodi Airport, Youngstown, California, San Joaquin, United States", 
-        "sw_latitude": 38.199
+        "fullname": "Lodi Airport, Youngstown, California, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520684
     }

@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "CZE", 
-        "woeid": 56049743, 
+        "placetype": "airport", 
         "name": "Letiste Horni Libchava", 
-        "ne_latitude": 50.709, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12606886", 
+          "woe:county=12582560", 
+          "woe:state=20070498", 
+          "woe:country=23424810", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56049743, 
         "ne_longitude": 14.510, 
         "longitude": 14.500, 
-        "placetype": "Airport", 
+        "parent_woeid": 12606886, 
+        "ne_latitude": 50.709, 
         "iso": "CZ", 
-        "date_indexed": "2010-12-02T08:56:52Z", 
-        "parent_woeid": 789791, 
+        "sw_latitude": 50.696, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.703, 
         "sw_longitude": 14.490, 
-        "fullname": "Letiste Horni Libchava, Horn\u00ed Libchava, Libereck\u00fd, \u010cesk\u00e1 L\u00edpa, Czech Republic", 
-        "sw_latitude": 50.696
+        "fullname": "Letiste Horni Libchava, Horn\u00ed Libchava, Libereck\u00fd, Czech Republic", 
+        "date_indexed": "2010-12-02T08:56:52Z"
       }, 
       "id": 56049743
     }

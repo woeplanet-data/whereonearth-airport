@@ -3,28 +3,42 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -115.155, 
-              35.962
-            ], 
-            [
-              -115.155, 
-              35.985
-            ], 
-            [
-              -115.128, 
-              35.985
-            ], 
-            [
-              -115.128, 
-              35.962
-            ], 
-            [
-              -115.155, 
-              35.962
+              [
+                -115.141, 
+                35.976
+              ], 
+              [
+                -115.142, 
+                35.981
+              ], 
+              [
+                -115.138, 
+                35.980
+              ], 
+              [
+                -115.137, 
+                35.980
+              ], 
+              [
+                -115.136, 
+                35.975
+              ], 
+              [
+                -115.139, 
+                35.974
+              ], 
+              [
+                -115.144, 
+                35.972
+              ], 
+              [
+                -115.141, 
+                35.976
+              ]
             ]
           ]
         ]
@@ -32,23 +46,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 22656563, 
-        "name": "Henderson Executive Airport", 
         "alias_ENG_V": [
           "HSH Airport"
         ], 
-        "ne_latitude": 35.985, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -115.128, 
+        "name": "Henderson Executive Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:suburb=55859650", 
+          "woe:county=12589233", 
+          "woe:state=2347587", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 22656563, 
+        "ne_longitude": -115.136, 
         "longitude": -115.139, 
-        "placetype": "Airport", 
-        "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
         "parent_woeid": 55859650, 
+        "ne_latitude": 35.981, 
+        "iso": "US", 
+        "sw_latitude": 35.972, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.977, 
-        "sw_longitude": -115.155, 
-        "fullname": "Henderson Executive Airport, Henderson, Nevada, Clark, United States", 
-        "sw_latitude": 35.962
+        "sw_longitude": -115.144, 
+        "fullname": "Henderson Executive Airport, Henderson, Nevada, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 22656563
     }

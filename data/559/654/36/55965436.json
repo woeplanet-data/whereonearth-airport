@@ -3,28 +3,46 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              78.419, 
-              17.231
-            ], 
-            [
-              78.419, 
-              17.249
-            ], 
-            [
-              78.438, 
-              17.249
-            ], 
-            [
-              78.438, 
-              17.231
-            ], 
-            [
-              78.419, 
-              17.231
+              [
+                78.424, 
+                17.243
+              ], 
+              [
+                78.429, 
+                17.241
+              ], 
+              [
+                78.424, 
+                17.242
+              ], 
+              [
+                78.422, 
+                17.240
+              ], 
+              [
+                78.420, 
+                17.242
+              ], 
+              [
+                78.421, 
+                17.244
+              ], 
+              [
+                78.421, 
+                17.248
+              ], 
+              [
+                78.423, 
+                17.244
+              ], 
+              [
+                78.424, 
+                17.243
+              ]
             ]
           ]
         ]
@@ -32,23 +50,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 55965436, 
-        "name": "Hyderabad International Airport", 
         "alias_ENG_V": [
           "Hyderabad Airport"
         ], 
-        "ne_latitude": 17.249, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": 78.438, 
-        "longitude": 78.429, 
-        "placetype": "Airport", 
+        "name": "Hyderabad International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12586344", 
+          "woe:state=2345740", 
+          "woe:country=23424848", 
+          "woe:planet=1"
+        ], 
+        "woeid": 55965436, 
+        "ne_longitude": 78.429, 
+        "longitude": 78.422, 
+        "parent_woeid": 12586344, 
+        "ne_latitude": 17.248, 
         "iso": "IN", 
-        "date_indexed": "2010-12-02T09:26:27Z", 
-        "parent_woeid": 2295414, 
-        "latitude": 17.241, 
-        "sw_longitude": 78.419, 
-        "fullname": "Hyderabad International Airport, Hyderabad, Andhra Pradesh, Rangareddi, India", 
-        "sw_latitude": 17.231
+        "sw_latitude": 17.240, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 17.243, 
+        "sw_longitude": 78.420, 
+        "fullname": "Hyderabad International Airport, Hyderabad, Andhra Pradesh, India", 
+        "iata_code": "HYD", 
+        "date_indexed": "2010-12-02T09:26:27Z"
       }, 
       "id": 55965436
     }

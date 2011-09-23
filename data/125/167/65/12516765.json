@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516765, 
+        "placetype": "airport", 
         "name": "Rakhinka Airport", 
-        "ne_latitude": 49.063, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599551", 
+          "woe:state=2346933", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516765, 
         "ne_longitude": 45.119, 
         "longitude": 45.112, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599551, 
+        "ne_latitude": 49.063, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2056032, 
+        "sw_latitude": 49.054, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.059, 
         "sw_longitude": 45.105, 
         "fullname": "Rakhinka Airport, Volgogradskaya Oblast, Sredneakhtubinsky, Russia", 
-        "sw_latitude": 49.054
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516765
     }

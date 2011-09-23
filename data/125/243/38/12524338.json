@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524338, 
-        "name": "Chiquimula Airport", 
         "alias_ENG_V": [
           "CIQ"
         ], 
-        "ne_latitude": 14.805, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Chiquimula Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26806951", 
+          "woe:state=2345555", 
+          "woe:country=23424834", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524338, 
         "ne_longitude": -89.545, 
         "longitude": -89.550, 
-        "placetype": "Airport", 
+        "parent_woeid": 26806951, 
+        "ne_latitude": 14.805, 
         "iso": "GT", 
-        "date_indexed": "2010-12-02T16:55:27Z", 
-        "parent_woeid": 81701, 
+        "sw_latitude": 14.795, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 14.800, 
         "sw_longitude": -89.555, 
-        "fullname": "Chiquimula Airport, Chiquimula, Chiquimula, Chiquimula, Guatemala", 
-        "sw_latitude": 14.795
+        "fullname": "Chiquimula Airport, Chiquimula, Chiquimula, Guatemala", 
+        "iata_code": "CIQ", 
+        "date_indexed": "2010-12-02T16:55:27Z"
       }, 
       "id": 12524338
     }

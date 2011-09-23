@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520179, 
-        "name": "Hickory Regional Airport", 
         "alias_ENG_V": [
           "HKY"
         ], 
-        "ne_latitude": 35.750, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Hickory Regional Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589391", 
+          "woe:state=2347592", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520179, 
         "ne_longitude": -81.373, 
         "longitude": -81.390, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589391, 
+        "ne_latitude": 35.750, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2441750, 
+        "sw_latitude": 35.732, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.742, 
         "sw_longitude": -81.403, 
-        "fullname": "Hickory Regional Airport, Longview, North Carolina, Catawba, United States", 
-        "sw_latitude": 35.732
+        "fullname": "Hickory Regional Airport, Longview, North Carolina, United States", 
+        "iata_code": "HKY", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520179
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516873, 
+        "placetype": "airport", 
         "name": "Sigikta Airport", 
-        "ne_latitude": 55.287, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598004", 
+          "woe:state=2346888", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516873, 
         "ne_longitude": 124.783, 
         "longitude": 124.775, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598004, 
+        "ne_latitude": 55.287, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2124028, 
+        "sw_latitude": 55.278, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 55.283, 
         "sw_longitude": 124.767, 
-        "fullname": "Sigikta Airport, Tynda, Amurskaya Oblast, Tynda, Russia", 
-        "sw_latitude": 55.278
+        "fullname": "Sigikta Airport, Tynda, Amurskaya Oblast, Russia", 
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516873
     }

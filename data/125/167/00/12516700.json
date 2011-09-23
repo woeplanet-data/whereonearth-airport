@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516700, 
+        "placetype": "airport", 
         "name": "Plestsy Airport", 
-        "ne_latitude": 62.713, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598028", 
+          "woe:state=20070508", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516700, 
         "ne_longitude": 40.505, 
         "longitude": 40.495, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598028, 
+        "ne_latitude": 62.713, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2123069, 
+        "sw_latitude": 62.704, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 62.709, 
         "sw_longitude": 40.485, 
         "fullname": "Plestsy Airport, Arkhangelrskaya Oblast, Plesetsky, Russia", 
-        "sw_latitude": 62.704
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516700
     }

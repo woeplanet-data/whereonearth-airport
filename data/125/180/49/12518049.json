@@ -3,28 +3,54 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -0.476, 
-              51.341
-            ], 
-            [
-              -0.476, 
-              51.350
-            ], 
-            [
-              -0.462, 
-              51.350
-            ], 
-            [
-              -0.462, 
-              51.341
-            ], 
-            [
-              -0.476, 
-              51.341
+              [
+                -0.464, 
+                51.355
+              ], 
+              [
+                -0.464, 
+                51.354
+              ], 
+              [
+                -0.465, 
+                51.352
+              ], 
+              [
+                -0.470, 
+                51.350
+              ], 
+              [
+                -0.473, 
+                51.349
+              ], 
+              [
+                -0.473, 
+                51.349
+              ], 
+              [
+                -0.474, 
+                51.348
+              ], 
+              [
+                -0.470, 
+                51.350
+              ], 
+              [
+                -0.468, 
+                51.354
+              ], 
+              [
+                -0.465, 
+                51.356
+              ], 
+              [
+                -0.464, 
+                51.355
+              ]
             ]
           ]
         ]
@@ -32,20 +58,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518049, 
+        "placetype": "airport", 
         "name": "Brooklands Airport", 
-        "ne_latitude": 51.350, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -0.462, 
-        "longitude": -0.469, 
-        "placetype": "Airport", 
+        "hierarchy": [
+          "woe:localadmin=12696097", 
+          "woe:county=12602176", 
+          "woe:state=24554868", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518049, 
+        "ne_longitude": -0.464, 
+        "longitude": -0.466, 
+        "parent_woeid": 12696097, 
+        "ne_latitude": 51.356, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:20:54Z", 
-        "parent_woeid": 14788, 
-        "latitude": 51.346, 
-        "sw_longitude": -0.476, 
-        "fullname": "Brooklands Airport, Byfleet, England, Surrey, United Kingdom", 
-        "sw_latitude": 51.341
+        "sw_latitude": 51.348, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 51.353, 
+        "sw_longitude": -0.474, 
+        "fullname": "Brooklands Airport, Byfleet, England, United Kingdom", 
+        "date_indexed": "2010-12-02T12:20:54Z"
       }, 
       "id": 12518049
     }

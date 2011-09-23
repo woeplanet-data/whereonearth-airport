@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516933, 
+        "placetype": "airport", 
         "name": "Staroderevyankovskaya Airport", 
-        "ne_latitude": 46.115, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597780", 
+          "woe:state=2346884", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516933, 
         "ne_longitude": 38.677, 
         "longitude": 38.671, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597780, 
+        "ne_latitude": 46.115, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2071313, 
+        "sw_latitude": 46.105, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.110, 
         "sw_longitude": 38.664, 
         "fullname": "Staroderevyankovskaya Airport, Krasnodarskiy Kray, Kanevsky, Russia", 
-        "sw_latitude": 46.105
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516933
     }

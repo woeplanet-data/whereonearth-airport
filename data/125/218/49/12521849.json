@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521849, 
-        "name": "Sidney Municipal Airport", 
         "alias_ENG_V": [
           "I12"
         ], 
-        "ne_latitude": 40.239, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Sidney Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589601", 
+          "woe:state=2347594", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521849, 
         "ne_longitude": -84.148, 
         "longitude": -84.153, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589601, 
+        "ne_latitude": 40.239, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2391351, 
+        "sw_latitude": 40.233, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.236, 
         "sw_longitude": -84.157, 
-        "fullname": "Sidney Municipal Airport, Depew, Ohio, Shelby, United States", 
-        "sw_latitude": 40.233
+        "fullname": "Sidney Municipal Airport, Depew, Ohio, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521849
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516825, 
+        "placetype": "airport", 
         "name": "Sarova Airport", 
-        "ne_latitude": 54.961, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=24505222", 
+          "woe:state=2346895", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516825, 
         "ne_longitude": 43.322, 
         "longitude": 43.314, 
-        "placetype": "Airport", 
+        "parent_woeid": 24505222, 
+        "ne_latitude": 54.961, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2123278, 
+        "sw_latitude": 54.952, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 54.957, 
         "sw_longitude": 43.306, 
         "fullname": "Sarova Airport, Nizhegorodskaya Oblast, Diveyevsky, Russia", 
-        "sw_latitude": 54.952
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516825
     }

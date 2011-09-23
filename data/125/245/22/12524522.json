@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524522, 
-        "name": "Tablon de Tamara Airport", 
         "alias_ENG_V": [
           "TTM"
         ], 
-        "ne_latitude": 5.721, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Tablon de Tamara Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26797623", 
+          "woe:state=2345077", 
+          "woe:country=23424787", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524522, 
         "ne_longitude": -72.095, 
         "longitude": -72.100, 
-        "placetype": "Airport", 
+        "parent_woeid": 26797623, 
+        "ne_latitude": 5.721, 
         "iso": "CO", 
-        "date_indexed": "2010-12-02T17:57:37Z", 
-        "parent_woeid": 369242, 
+        "sw_latitude": 5.712, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 5.717, 
         "sw_longitude": -72.105, 
-        "fullname": "Tablon de Tamara Airport, Pore, Casanare, Pore, Colombia", 
-        "sw_latitude": 5.712
+        "fullname": "Tablon de Tamara Airport, Pore, Casanare, Colombia", 
+        "iata_code": "TTM", 
+        "date_indexed": "2010-12-02T17:57:37Z"
       }, 
       "id": 12524522
     }

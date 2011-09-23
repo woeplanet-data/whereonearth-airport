@@ -3,28 +3,46 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -82.578, 
-              38.356
-            ], 
-            [
-              -82.578, 
-              38.382
-            ], 
-            [
-              -82.535, 
-              38.382
-            ], 
-            [
-              -82.535, 
-              38.356
-            ], 
-            [
-              -82.578, 
-              38.356
+              [
+                -82.556, 
+                38.362
+              ], 
+              [
+                -82.560, 
+                38.364
+              ], 
+              [
+                -82.556, 
+                38.364
+              ], 
+              [
+                -82.557, 
+                38.369
+              ], 
+              [
+                -82.557, 
+                38.369
+              ], 
+              [
+                -82.556, 
+                38.364
+              ], 
+              [
+                -82.556, 
+                38.363
+              ], 
+              [
+                -82.555, 
+                38.361
+              ], 
+              [
+                -82.556, 
+                38.362
+              ]
             ]
           ]
         ]
@@ -32,23 +50,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522198, 
-        "name": "Tri State Walker Long Field Airport", 
         "alias_ENG_V": [
           "HTS Airport"
         ], 
-        "ne_latitude": 38.382, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -82.535, 
-        "longitude": -82.554, 
-        "placetype": "Airport", 
+        "name": "Tri State Walker Long Field Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590528", 
+          "woe:state=2347607", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522198, 
+        "ne_longitude": -82.555, 
+        "longitude": -82.557, 
+        "parent_woeid": 12590528, 
+        "ne_latitude": 38.369, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2377703, 
-        "latitude": 38.370, 
-        "sw_longitude": -82.578, 
-        "fullname": "Tri State Walker Long Field Airport, Ceredo, West Virginia, Wayne, United States", 
-        "sw_latitude": 38.356
+        "sw_latitude": 38.361, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 38.362, 
+        "sw_longitude": -82.560, 
+        "fullname": "Tri State Walker Long Field Airport, Ceredo, West Virginia, United States", 
+        "iata_code": "HTS", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522198
     }

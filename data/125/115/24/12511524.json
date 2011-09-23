@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511524, 
+        "placetype": "airport", 
         "name": "Svirkovo Airport", 
-        "ne_latitude": 42.043, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55873720", 
+          "woe:state=20070073", 
+          "woe:country=23424771", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511524, 
         "ne_longitude": 25.897, 
         "longitude": 25.890, 
-        "placetype": "Airport", 
+        "parent_woeid": 55873720, 
+        "ne_latitude": 42.043, 
         "iso": "BG", 
-        "date_indexed": "2010-12-02T16:14:37Z", 
-        "parent_woeid": 840073, 
+        "sw_latitude": 42.034, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.039, 
         "sw_longitude": 25.884, 
         "fullname": "Svirkovo Airport, Khaskovo, Simeonovgrad, Bulgaria", 
-        "sw_latitude": 42.034
+        "date_indexed": "2010-12-02T16:14:37Z"
       }, 
       "id": 12511524
     }

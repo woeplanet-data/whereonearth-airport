@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513598, 
-        "name": "Imphal Airport", 
         "alias_ENG_V": [
           "IMF"
         ], 
-        "ne_latitude": 24.766, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Imphal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=28743738", 
+          "woe:state=2345751", 
+          "woe:country=23424848", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513598, 
         "ne_longitude": 93.902, 
         "longitude": 93.897, 
-        "placetype": "Airport", 
+        "parent_woeid": 28743738, 
+        "ne_latitude": 24.766, 
         "iso": "IN", 
-        "date_indexed": "2010-12-02T09:26:27Z", 
-        "parent_woeid": 29047383, 
+        "sw_latitude": 24.757, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 24.761, 
         "sw_longitude": 93.892, 
-        "fullname": "Imphal Airport, Irom Meijrao, Manipur, Imphal West, India", 
-        "sw_latitude": 24.757
+        "fullname": "Imphal Airport, Irom Meijrao, Manipur, India", 
+        "iata_code": "IMF", 
+        "date_indexed": "2010-12-02T09:26:27Z"
       }, 
       "id": 12513598
     }

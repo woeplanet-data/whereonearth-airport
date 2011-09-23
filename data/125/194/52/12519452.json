@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519452, 
-        "name": "Del Rio International Airport", 
         "alias_ENG_V": [
           "DRT"
         ], 
-        "ne_latitude": 29.378, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Del Rio International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590239", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519452, 
         "ne_longitude": -100.917, 
         "longitude": -100.920, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590239, 
+        "ne_latitude": 29.378, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2390706, 
+        "sw_latitude": 29.364, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 29.371, 
         "sw_longitude": -100.929, 
-        "fullname": "Del Rio International Airport, Del Rio, Texas, Val Verde, United States", 
-        "sw_latitude": 29.364
+        "fullname": "Del Rio International Airport, Del Rio, Texas, United States", 
+        "iata_code": "DRT", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519452
     }

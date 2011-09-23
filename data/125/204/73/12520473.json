@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520473, 
-        "name": "Kingsville Naval Air Station", 
         "alias_ENG_V": [
           "Kingsville NAS"
         ], 
-        "ne_latitude": 27.511, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Kingsville Naval Air Station", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590143", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520473, 
         "ne_longitude": -97.804, 
         "longitude": -97.809, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590143, 
+        "ne_latitude": 27.511, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2432840, 
+        "sw_latitude": 27.502, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 27.507, 
         "sw_longitude": -97.815, 
-        "fullname": "Kingsville Naval Air Station, Kingsville, Texas, Kleberg, United States", 
-        "sw_latitude": 27.502
+        "fullname": "Kingsville Naval Air Station, Kingsville, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12520473
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523158, 
-        "name": "Karluk Airport", 
         "alias_ENG_V": [
           "KYK"
         ], 
-        "ne_latitude": 57.569, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Karluk Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587566", 
+          "woe:state=2347560", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523158, 
         "ne_longitude": -154.445, 
         "longitude": -154.454, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587566, 
+        "ne_latitude": 57.569, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2430749, 
+        "sw_latitude": 57.560, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 57.565, 
         "sw_longitude": -154.462, 
-        "fullname": "Karluk Airport, Karluk, Alaska, Kodiak Island Borough, United States", 
-        "sw_latitude": 57.560
+        "fullname": "Karluk Airport, Karluk, Alaska, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12523158
     }

@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518160, 
+        "placetype": "airport", 
         "name": "Swinderby Airport", 
-        "ne_latitude": 53.151, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12696019", 
+          "woe:county=12602145", 
+          "woe:state=24554868", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518160, 
         "ne_longitude": -0.680, 
         "longitude": -0.688, 
-        "placetype": "Airport", 
+        "parent_woeid": 12696019, 
+        "ne_latitude": 53.151, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:21:01Z", 
-        "parent_woeid": 36795, 
+        "sw_latitude": 53.142, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.146, 
         "sw_longitude": -0.695, 
-        "fullname": "Swinderby Airport, Swinderby, England, Lincolnshire, United Kingdom", 
-        "sw_latitude": 53.142
+        "fullname": "Swinderby Airport, Swinderby, England, United Kingdom", 
+        "date_indexed": "2010-12-02T12:21:01Z"
       }, 
       "id": 12518160
     }

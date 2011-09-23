@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514869, 
+        "placetype": "airport", 
         "name": "El Llano Airport", 
-        "ne_latitude": 21.083, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12600590", 
+          "woe:state=2346281", 
+          "woe:country=23424900", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514869, 
         "ne_longitude": -105.221, 
         "longitude": -105.226, 
-        "placetype": "Airport", 
+        "parent_woeid": 12600590, 
+        "ne_latitude": 21.083, 
         "iso": "MX", 
-        "date_indexed": "2010-12-02T16:57:55Z", 
-        "parent_woeid": 128049, 
+        "sw_latitude": 21.074, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 21.079, 
         "sw_longitude": -105.230, 
-        "fullname": "El Llano Airport, La Lima, Nayarit, Compostela, Mexico", 
-        "sw_latitude": 21.074
+        "fullname": "El Llano Airport, La Lima, Nayarit, Mexico", 
+        "date_indexed": "2010-12-02T16:57:55Z"
       }, 
       "id": 12514869
     }

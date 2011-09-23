@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515755, 
+        "placetype": "airport", 
         "name": "Azovskiy Airport", 
-        "ne_latitude": 46.866, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599098", 
+          "woe:state=2346921", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515755, 
         "ne_longitude": 39.150, 
         "longitude": 39.143, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599098, 
+        "ne_latitude": 46.866, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2069177, 
+        "sw_latitude": 46.857, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.861, 
         "sw_longitude": 39.136, 
         "fullname": "Azovskiy Airport, Rostovskaya Oblast, Azovsky, Russia", 
-        "sw_latitude": 46.857
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12515755
     }

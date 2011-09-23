@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523738, 
-        "name": "Tolu Airport", 
         "alias_ENG_V": [
           "TLU"
         ], 
-        "ne_latitude": 9.503, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Tolu Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26797516", 
+          "woe:state=2345072", 
+          "woe:country=23424787", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523738, 
         "ne_longitude": -75.582, 
         "longitude": -75.586, 
-        "placetype": "Airport", 
+        "parent_woeid": 26797516, 
+        "ne_latitude": 9.503, 
         "iso": "CO", 
-        "date_indexed": "2010-12-02T17:57:37Z", 
-        "parent_woeid": 368428, 
+        "sw_latitude": 9.494, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 9.498, 
         "sw_longitude": -75.591, 
-        "fullname": "Tolu Airport, Tol\u00fa, Sucre, Tolu, Colombia", 
-        "sw_latitude": 9.494
+        "fullname": "Tolu Airport, Tol\u00fa, Sucre, Colombia", 
+        "iata_code": "TLU", 
+        "date_indexed": "2010-12-02T17:57:37Z"
       }, 
       "id": 12523738
     }

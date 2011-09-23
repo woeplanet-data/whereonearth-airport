@@ -3,28 +3,78 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -92.238, 
-              46.831
-            ], 
-            [
-              -92.238, 
-              46.855
-            ], 
-            [
-              -92.166, 
-              46.855
-            ], 
-            [
-              -92.166, 
-              46.831
-            ], 
-            [
-              -92.238, 
-              46.831
+              [
+                -92.194, 
+                46.839
+              ], 
+              [
+                -92.195, 
+                46.839
+              ], 
+              [
+                -92.198, 
+                46.838
+              ], 
+              [
+                -92.201, 
+                46.838
+              ], 
+              [
+                -92.205, 
+                46.840
+              ], 
+              [
+                -92.208, 
+                46.842
+              ], 
+              [
+                -92.204, 
+                46.840
+              ], 
+              [
+                -92.201, 
+                46.841
+              ], 
+              [
+                -92.200, 
+                46.843
+              ], 
+              [
+                -92.199, 
+                46.843
+              ], 
+              [
+                -92.195, 
+                46.840
+              ], 
+              [
+                -92.195, 
+                46.840
+              ], 
+              [
+                -92.194, 
+                46.840
+              ], 
+              [
+                -92.193, 
+                46.840
+              ], 
+              [
+                -92.189, 
+                46.841
+              ], 
+              [
+                -92.193, 
+                46.839
+              ], 
+              [
+                -92.194, 
+                46.839
+              ]
             ]
           ]
         ]
@@ -32,23 +82,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519545, 
-        "name": "Duluth International Airport", 
         "alias_ENG_V": [
           "Duluth Airport"
         ], 
-        "ne_latitude": 46.855, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -92.166, 
-        "longitude": -92.178, 
-        "placetype": "Airport", 
+        "name": "Duluth International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588868", 
+          "woe:state=2347582", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519545, 
+        "ne_longitude": -92.189, 
+        "longitude": -92.199, 
+        "parent_woeid": 12588868, 
+        "ne_latitude": 46.843, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2394207, 
-        "latitude": 46.838, 
-        "sw_longitude": -92.238, 
-        "fullname": "Duluth International Airport, Duluth, Minnesota, St. Louis, United States", 
-        "sw_latitude": 46.831
+        "sw_latitude": 46.838, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 46.840, 
+        "sw_longitude": -92.208, 
+        "fullname": "Duluth International Airport, Duluth, Minnesota, United States", 
+        "iata_code": "DLH", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519545
     }

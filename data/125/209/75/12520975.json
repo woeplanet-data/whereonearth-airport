@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520975, 
-        "name": "Mitchell Municipal Airport", 
         "alias_ENG_V": [
           "Mitchell Airport"
         ], 
-        "ne_latitude": 43.786, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Mitchell Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589862", 
+          "woe:state=2347600", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520975, 
         "ne_longitude": -98.028, 
         "longitude": -98.043, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589862, 
+        "ne_latitude": 43.786, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2452429, 
+        "sw_latitude": 43.760, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.771, 
         "sw_longitude": -98.058, 
-        "fullname": "Mitchell Municipal Airport, Mitchell, South Dakota, Davison, United States", 
-        "sw_latitude": 43.760
+        "fullname": "Mitchell Municipal Airport, Mitchell, South Dakota, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520975
     }

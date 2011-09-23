@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523781, 
-        "name": "Vidin Airport", 
         "alias_ENG_V": [
           "VID"
         ], 
-        "ne_latitude": 43.988, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Vidin Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55873956", 
+          "woe:state=20070055", 
+          "woe:country=23424771", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523781, 
         "ne_longitude": 22.823, 
         "longitude": 22.817, 
-        "placetype": "Airport", 
+        "parent_woeid": 55873956, 
+        "ne_latitude": 43.988, 
         "iso": "BG", 
-        "date_indexed": "2010-12-02T16:14:37Z", 
-        "parent_woeid": 839632, 
+        "sw_latitude": 43.979, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.983, 
         "sw_longitude": 22.810, 
         "fullname": "Vidin Airport, Vidin, Vidin, Bulgaria", 
-        "sw_latitude": 43.979
+        "date_indexed": "2010-12-02T16:14:37Z"
       }, 
       "id": 12523781
     }

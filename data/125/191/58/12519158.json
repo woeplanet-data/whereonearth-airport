@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519158, 
-        "name": "Chehalis Centralia Airport", 
         "alias_ENG_V": [
           "Chehalis Centralia"
         ], 
-        "ne_latitude": 46.685, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Chehalis Centralia Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590460", 
+          "woe:state=2347606", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519158, 
         "ne_longitude": -122.972, 
         "longitude": -122.982, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590460, 
+        "ne_latitude": 46.685, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2378792, 
+        "sw_latitude": 46.668, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.668, 
         "sw_longitude": -122.987, 
-        "fullname": "Chehalis Centralia Airport, Chehalis, Washington, Lewis, United States", 
-        "sw_latitude": 46.668
+        "fullname": "Chehalis Centralia Airport, Chehalis, Washington, United States", 
+        "iata_code": "CLS", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519158
     }

@@ -32,29 +32,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511062, 
-        "name": "Aeroporto Caceres", 
-        "alias_ENG_P": [
-          "Caceres Airport"
-        ], 
-        "ne_latitude": -16.074, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "CCX"
         ], 
+        "name": "Aeroporto Caceres", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Caceres Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12579327", 
+          "woe:state=2344855", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511062, 
         "ne_longitude": -57.648, 
         "longitude": -57.653, 
-        "placetype": "Airport", 
+        "parent_woeid": 12579327, 
+        "ne_latitude": -16.074, 
         "alias_POR_V": [
           "Aeroporto CCX"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 455938, 
+        "sw_latitude": -16.083, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -16.078, 
         "sw_longitude": -57.657, 
-        "fullname": "Aeroporto Caceres, C\u00e1ceres, Mato Grosso, C\u00e1ceres, Brazil", 
-        "sw_latitude": -16.083
+        "fullname": "Aeroporto Caceres, C\u00e1ceres, Mato Grosso, Brazil", 
+        "iata_code": "CCX", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511062
     }

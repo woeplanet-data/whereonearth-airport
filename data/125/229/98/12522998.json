@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522998, 
-        "name": "Aden International Airport", 
         "alias_ENG_V": [
           "Aden Airport"
         ], 
-        "ne_latitude": 12.839, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Aden International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=56189868", 
+          "woe:state=20070035", 
+          "woe:country=23425002", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522998, 
         "ne_longitude": 45.042, 
         "longitude": 45.031, 
-        "placetype": "Airport", 
+        "parent_woeid": 56189868, 
+        "ne_latitude": 12.839, 
         "iso": "YE", 
-        "date_indexed": "2010-12-02T16:39:41Z", 
-        "parent_woeid": 1954648, 
+        "sw_latitude": 12.816, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 12.828, 
         "sw_longitude": 45.019, 
         "fullname": "Aden International Airport, Ash Shaykh Uthman, `Adan, Yemen", 
-        "sw_latitude": 12.816
+        "iata_code": "ADE", 
+        "date_indexed": "2010-12-02T16:39:41Z"
       }, 
       "id": 12522998
     }

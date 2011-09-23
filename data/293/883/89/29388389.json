@@ -3,28 +3,66 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -71.294, 
-              41.521
-            ], 
-            [
-              -71.294, 
-              41.540
-            ], 
-            [
-              -71.271, 
-              41.540
-            ], 
-            [
-              -71.271, 
-              41.521
-            ], 
-            [
-              -71.294, 
-              41.521
+              [
+                -71.286, 
+                41.526
+              ], 
+              [
+                -71.284, 
+                41.532
+              ], 
+              [
+                -71.281, 
+                41.535
+              ], 
+              [
+                -71.283, 
+                41.532
+              ], 
+              [
+                -71.283, 
+                41.531
+              ], 
+              [
+                -71.280, 
+                41.526
+              ], 
+              [
+                -71.286, 
+                41.524
+              ], 
+              [
+                -71.288, 
+                41.522
+              ], 
+              [
+                -71.289, 
+                41.521
+              ], 
+              [
+                -71.293, 
+                41.518
+              ], 
+              [
+                -71.293, 
+                41.519
+              ], 
+              [
+                -71.289, 
+                41.522
+              ], 
+              [
+                -71.287, 
+                41.525
+              ], 
+              [
+                -71.286, 
+                41.526
+              ]
             ]
           ]
         ]
@@ -32,23 +70,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388389, 
-        "name": "Newport State Airport", 
         "alias_ENG_V": [
           "Uuu"
         ], 
-        "ne_latitude": 41.540, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -71.271, 
-        "longitude": -71.283, 
-        "placetype": "Airport", 
+        "name": "Newport State Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589797", 
+          "woe:state=2347598", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388389, 
+        "ne_longitude": -71.280, 
+        "longitude": -71.285, 
+        "parent_woeid": 12589797, 
+        "ne_latitude": 41.535, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 23418007, 
-        "latitude": 41.532, 
-        "sw_longitude": -71.294, 
-        "fullname": "Newport State Airport, Newport East, Rhode Island, Newport, United States", 
-        "sw_latitude": 41.521
+        "sw_latitude": 41.518, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 41.526, 
+        "sw_longitude": -71.293, 
+        "fullname": "Newport State Airport, Newport East, Rhode Island, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388389
     }

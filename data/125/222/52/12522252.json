@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522252, 
-        "name": "University Park Airport", 
         "alias_ENG_V": [
           "SCE"
         ], 
-        "ne_latitude": 40.857, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "University Park Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589741", 
+          "woe:state=2347597", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522252, 
         "ne_longitude": -77.837, 
         "longitude": -77.851, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589741, 
+        "ne_latitude": 40.857, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 28745600, 
+        "sw_latitude": 40.843, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.852, 
         "sw_longitude": -77.858, 
-        "fullname": "University Park Airport, Benner, Pennsylvania, Centre, United States", 
-        "sw_latitude": 40.843
+        "fullname": "University Park Airport, Benner, Pennsylvania, United States", 
+        "iata_code": "SCE", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522252
     }

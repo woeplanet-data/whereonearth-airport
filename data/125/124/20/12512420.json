@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512420, 
-        "name": "Tibu Airport", 
         "alias_ENG_V": [
           "TIB"
         ], 
-        "ne_latitude": 8.633, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Tibu Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26797377", 
+          "woe:state=2345066", 
+          "woe:country=23424787", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512420, 
         "ne_longitude": -72.721, 
         "longitude": -72.726, 
-        "placetype": "Airport", 
+        "parent_woeid": 26797377, 
+        "ne_latitude": 8.633, 
         "iso": "CO", 
-        "date_indexed": "2010-12-02T17:57:37Z", 
-        "parent_woeid": 369489, 
+        "sw_latitude": 8.624, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 8.629, 
         "sw_longitude": -72.731, 
-        "fullname": "Tibu Airport, Tib\u00fa, Norte de Santander, Tibu, Colombia", 
-        "sw_latitude": 8.624
+        "fullname": "Tibu Airport, Tib\u00fa, Norte de Santander, Colombia", 
+        "date_indexed": "2010-12-02T17:57:37Z"
       }, 
       "id": 12512420
     }

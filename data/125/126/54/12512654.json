@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512654, 
+        "placetype": "airport", 
         "name": "Victor Larrea Airport", 
-        "ne_latitude": -3.427, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=26810507", 
+          "woe:county=26809668", 
+          "woe:state=2345209", 
+          "woe:country=23424801", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512654, 
         "ne_longitude": -79.971, 
         "longitude": -79.975, 
-        "placetype": "Airport", 
+        "parent_woeid": 26810507, 
+        "ne_latitude": -3.427, 
         "iso": "EC", 
-        "date_indexed": "2010-12-02T17:51:45Z", 
-        "parent_woeid": 375762, 
+        "sw_latitude": -3.436, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -3.431, 
         "sw_longitude": -79.980, 
-        "fullname": "Victor Larrea Airport, Santa Rosa, El Oro, Santa Rosa, Ecuador", 
-        "sw_latitude": -3.436
+        "fullname": "Victor Larrea Airport, Santa Rosa, El Oro, Ecuador", 
+        "date_indexed": "2010-12-02T17:51:45Z"
       }, 
       "id": 12512654
     }

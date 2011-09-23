@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523229, 
-        "name": "Temindung Airport", 
         "alias_ENG_V": [
           "SRI Airport"
         ], 
-        "ne_latitude": -0.612, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Temindung Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=56000115", 
+          "woe:state=2345723", 
+          "woe:country=23424846", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523229, 
         "ne_longitude": 117.155, 
         "longitude": 117.150, 
-        "placetype": "Airport", 
+        "parent_woeid": 56000115, 
+        "ne_latitude": -0.612, 
         "iso": "ID", 
-        "date_indexed": "2010-12-02T16:54:32Z", 
-        "parent_woeid": 1047783, 
+        "sw_latitude": -0.621, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -0.617, 
         "sw_longitude": 117.145, 
-        "fullname": "Temindung Airport, Loa Djanan, East Kalimantan, Samarinda, Indonesia", 
-        "sw_latitude": -0.621
+        "fullname": "Temindung Airport, Loa Djanan, East Kalimantan, Indonesia", 
+        "date_indexed": "2010-12-02T16:54:32Z"
       }, 
       "id": 12523229
     }

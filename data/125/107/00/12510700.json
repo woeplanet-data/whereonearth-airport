@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510700, 
-        "name": "Jackson Aerodrome", 
         "alias_ENG_V": [
           "Jackson Airport"
         ], 
-        "ne_latitude": -27.634, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Jackson Aerodrome", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55863938", 
+          "woe:state=2344702", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510700, 
         "ne_longitude": 142.414, 
         "longitude": 142.408, 
-        "placetype": "Airport", 
+        "parent_woeid": 55863938, 
+        "ne_latitude": -27.634, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1101800, 
+        "sw_latitude": -27.644, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -27.639, 
         "sw_longitude": 142.403, 
-        "fullname": "Jackson Aerodrome, Durham Downs, Queensland, Bulloo, Australia", 
-        "sw_latitude": -27.644
+        "fullname": "Jackson Aerodrome, Durham Downs, Queensland, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 12510700
     }

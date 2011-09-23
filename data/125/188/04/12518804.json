@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518804, 
-        "name": "Bentonville Municipal Airport", 
         "alias_ENG_V": [
           "VBT"
         ], 
-        "ne_latitude": 36.352, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Bentonville Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587598", 
+          "woe:state=2347562", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518804, 
         "ne_longitude": -94.217, 
         "longitude": -94.218, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587598, 
+        "ne_latitude": 36.352, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2362823, 
+        "sw_latitude": 36.339, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.345, 
         "sw_longitude": -94.222, 
-        "fullname": "Bentonville Municipal Airport, Bentonville, Arkansas, Benton, United States", 
-        "sw_latitude": 36.339
+        "fullname": "Bentonville Municipal Airport, Bentonville, Arkansas, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518804
     }

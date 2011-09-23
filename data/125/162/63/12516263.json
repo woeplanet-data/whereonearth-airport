@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516263, 
+        "placetype": "airport", 
         "name": "Krasnoyarsk Airport", 
-        "ne_latitude": 56.052, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597862", 
+          "woe:state=20070524", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516263, 
         "ne_longitude": 92.930, 
         "longitude": 92.922, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597862, 
+        "ne_latitude": 56.052, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2029043, 
+        "sw_latitude": 56.043, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 56.047, 
         "sw_longitude": 92.913, 
-        "fullname": "Krasnoyarsk Airport, Krasnoyarsk, Krasnoyarskiy Kray, Krasnoyarsk, Russia", 
-        "sw_latitude": 56.043
+        "fullname": "Krasnoyarsk Airport, Krasnoyarsk, Krasnoyarskiy Kray, Russia", 
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516263
     }

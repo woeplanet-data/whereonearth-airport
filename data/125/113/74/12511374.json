@@ -3,28 +3,46 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -47.150, 
-              -23.018
-            ], 
-            [
-              -47.150, 
-              -22.996
-            ], 
-            [
-              -47.121, 
-              -22.996
-            ], 
-            [
-              -47.121, 
-              -23.018
-            ], 
-            [
-              -47.150, 
-              -23.018
+              [
+                -47.138, 
+                -23.006
+              ], 
+              [
+                -47.136, 
+                -23.007
+              ], 
+              [
+                -47.137, 
+                -23.013
+              ], 
+              [
+                -47.140, 
+                -23.011
+              ], 
+              [
+                -47.144, 
+                -23.012
+              ], 
+              [
+                -47.147, 
+                -23.009
+              ], 
+              [
+                -47.143, 
+                -23.010
+              ], 
+              [
+                -47.138, 
+                -23.007
+              ], 
+              [
+                -47.138, 
+                -23.006
+              ]
             ]
           ]
         ]
@@ -32,29 +50,35 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511374, 
-        "name": "Aeroporto Internacional de Viracopos", 
-        "alias_ENG_P": [
-          "Viracopos International Airport"
-        ], 
-        "ne_latitude": -22.996, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "VCP"
         ], 
-        "ne_longitude": -47.121, 
-        "longitude": -47.134, 
-        "placetype": "Airport", 
+        "name": "Aeroporto Internacional de Viracopos", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Viracopos International Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12582019", 
+          "woe:state=2344868", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511374, 
+        "ne_longitude": -47.136, 
+        "longitude": -47.140, 
+        "parent_woeid": 12582019, 
+        "ne_latitude": -23.006, 
         "alias_POR_V": [
           "Aeroporto de Viracopos"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:28Z", 
-        "parent_woeid": 459661, 
-        "latitude": -23.007, 
-        "sw_longitude": -47.150, 
-        "fullname": "Aeroporto Internacional de Viracopos, Indaiatuba, Sao Paulo, Indaiatuba, Brazil", 
-        "sw_latitude": -23.018
+        "sw_latitude": -23.013, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": -23.010, 
+        "sw_longitude": -47.147, 
+        "fullname": "Aeroporto Internacional de Viracopos, Indaiatuba, Sao Paulo, Brazil", 
+        "date_indexed": "2010-12-02T18:01:28Z"
       }, 
       "id": 12511374
     }

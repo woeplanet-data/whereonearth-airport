@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515635, 
+        "placetype": "airport", 
         "name": "Mrmp Airport", 
-        "ne_latitude": 16.835, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=2346686", 
+          "woe:state=23424715", 
+          "woe:country=23424934", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515635, 
         "ne_longitude": 121.502, 
         "longitude": 121.497, 
-        "placetype": "Airport", 
+        "parent_woeid": 2346686, 
+        "ne_latitude": 16.835, 
         "iso": "PH", 
-        "date_indexed": "2010-12-02T09:56:58Z", 
-        "parent_woeid": 1199684, 
+        "sw_latitude": 16.825, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 16.830, 
         "sw_longitude": 121.492, 
-        "fullname": "Mrmp Airport, Ramon, Cagayan Valley, Isabela, Philippines", 
-        "sw_latitude": 16.825
+        "fullname": "Mrmp Airport, Ramon, Cagayan Valley, Philippines", 
+        "date_indexed": "2010-12-02T09:56:58Z"
       }, 
       "id": 12515635
     }

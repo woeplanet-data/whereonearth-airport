@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388062, 
-        "name": "Zangger Airport", 
         "alias_ENG_V": [
           "2va"
         ], 
-        "ne_latitude": 43.455, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Zangger Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588331", 
+          "woe:state=2347574", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388062, 
         "ne_longitude": -96.405, 
         "longitude": -96.406, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588331, 
+        "ne_latitude": 43.455, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2436560, 
+        "sw_latitude": 43.448, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.454, 
         "sw_longitude": -96.408, 
-        "fullname": "Zangger Airport, Larchwood, Iowa, Lyon, United States", 
-        "sw_latitude": 43.448
+        "fullname": "Zangger Airport, Larchwood, Iowa, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388062
     }

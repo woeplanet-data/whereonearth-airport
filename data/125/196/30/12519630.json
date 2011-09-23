@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519630, 
-        "name": "Elliott Field Airport", 
         "alias_ENG_V": [
           "30ga"
         ], 
-        "ne_latitude": 34.464, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Elliott Field Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587911", 
+          "woe:state=2347569", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519630, 
         "ne_longitude": -84.173, 
         "longitude": -84.175, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587911, 
+        "ne_latitude": 34.464, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2448108, 
+        "sw_latitude": 34.453, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 34.455, 
         "sw_longitude": -84.187, 
-        "fullname": "Elliott Field Airport, Mckee, Georgia, Dawson, United States", 
-        "sw_latitude": 34.453
+        "fullname": "Elliott Field Airport, Mckee, Georgia, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519630
     }

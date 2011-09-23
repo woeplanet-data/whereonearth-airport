@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513638, 
-        "name": "Bikaner Airport", 
         "alias_ENG_V": [
           "BKB Airport"
         ], 
-        "ne_latitude": 28.021, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Bikaner Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12586653", 
+          "woe:state=2345757", 
+          "woe:country=23424848", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513638, 
         "ne_longitude": 73.305, 
         "longitude": 73.300, 
-        "placetype": "Airport", 
+        "parent_woeid": 12586653, 
+        "ne_latitude": 28.021, 
         "iso": "IN", 
-        "date_indexed": "2010-12-02T09:26:27Z", 
-        "parent_woeid": 2294989, 
+        "sw_latitude": 28.012, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 28.017, 
         "sw_longitude": 73.295, 
-        "fullname": "Bikaner Airport, Bikaner, Rajasthan, Bikaner, India", 
-        "sw_latitude": 28.012
+        "fullname": "Bikaner Airport, Bikaner, Rajasthan, India", 
+        "iata_code": "NAL", 
+        "date_indexed": "2010-12-02T09:26:27Z"
       }, 
       "id": 12513638
     }

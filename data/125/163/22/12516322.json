@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516322, 
+        "placetype": "airport", 
         "name": "Kyubeyy Airport", 
-        "ne_latitude": 63.899, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597654", 
+          "woe:state=2346881", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516322, 
         "ne_longitude": 122.778, 
         "longitude": 122.768, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597654, 
+        "ne_latitude": 63.899, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2034499, 
+        "sw_latitude": 63.889, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 63.894, 
         "sw_longitude": 122.758, 
         "fullname": "Kyubeyy Airport, Sakha, Vilyuysky, Russia", 
-        "sw_latitude": 63.889
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516322
     }

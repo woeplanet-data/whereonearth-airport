@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516239, 
+        "placetype": "airport", 
         "name": "Kotly Airport", 
-        "ne_latitude": 59.593, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598639", 
+          "woe:state=2346907", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516239, 
         "ne_longitude": 28.806, 
         "longitude": 28.798, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598639, 
+        "ne_latitude": 59.593, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2108948, 
+        "sw_latitude": 59.584, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 59.588, 
         "sw_longitude": 28.789, 
         "fullname": "Kotly Airport, Leningradskaya Oblast, Kingiseppsky, Russia", 
-        "sw_latitude": 59.584
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516239
     }

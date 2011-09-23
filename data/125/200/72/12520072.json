@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520072, 
-        "name": "Hana Airport", 
         "alias_ENG_V": [
           "HNM"
         ], 
-        "ne_latitude": 20.800, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Hana Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588033", 
+          "woe:state=2347570", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520072, 
         "ne_longitude": -156.007, 
         "longitude": -156.015, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588033, 
+        "ne_latitude": 20.800, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2430419, 
+        "sw_latitude": 20.794, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 20.794, 
         "sw_longitude": -156.021, 
-        "fullname": "Hana Airport, Kaeleku, Hawaii, Maui, United States", 
-        "sw_latitude": 20.794
+        "fullname": "Hana Airport, Kaeleku, Hawaii, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520072
     }

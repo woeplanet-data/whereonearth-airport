@@ -3,28 +3,30 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -97.521, 
-              27.757
-            ], 
-            [
-              -97.521, 
-              27.785
-            ], 
-            [
-              -97.493, 
-              27.785
-            ], 
-            [
-              -97.493, 
-              27.757
-            ], 
-            [
-              -97.521, 
-              27.757
+              [
+                -97.502, 
+                27.775
+              ], 
+              [
+                -97.502, 
+                27.775
+              ], 
+              [
+                -97.500, 
+                27.776
+              ], 
+              [
+                -97.500, 
+                27.775
+              ], 
+              [
+                -97.502, 
+                27.775
+              ]
             ]
           ]
         ]
@@ -32,23 +34,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519324, 
-        "name": "Corpus Christi International Airport", 
         "alias_ENG_V": [
           "CRP"
         ], 
-        "ne_latitude": 27.785, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -97.493, 
-        "longitude": -97.502, 
-        "placetype": "Airport", 
-        "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
+        "name": "Corpus Christi International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:suburb=2380912", 
+          "woe:county=12590184", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519324, 
+        "ne_longitude": -97.500, 
+        "longitude": -97.501, 
         "parent_woeid": 2380912, 
+        "ne_latitude": 27.776, 
+        "iso": "US", 
+        "sw_latitude": 27.775, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 27.775, 
-        "sw_longitude": -97.521, 
-        "fullname": "Corpus Christi International Airport, Corpus Christi, Texas, Nueces, United States", 
-        "sw_latitude": 27.757
+        "sw_longitude": -97.502, 
+        "fullname": "Corpus Christi International Airport, Corpus Christi, Texas, United States", 
+        "iata_code": "CRP", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519324
     }

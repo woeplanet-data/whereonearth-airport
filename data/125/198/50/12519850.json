@@ -3,28 +3,86 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -82.288, 
-              29.681
-            ], 
-            [
-              -82.288, 
-              29.700
-            ], 
-            [
-              -82.245, 
-              29.700
-            ], 
-            [
-              -82.245, 
-              29.681
-            ], 
-            [
-              -82.288, 
-              29.681
+              [
+                -82.276, 
+                29.688
+              ], 
+              [
+                -82.276, 
+                29.688
+              ], 
+              [
+                -82.277, 
+                29.687
+              ], 
+              [
+                -82.277, 
+                29.687
+              ], 
+              [
+                -82.277, 
+                29.686
+              ], 
+              [
+                -82.278, 
+                29.681
+              ], 
+              [
+                -82.281, 
+                29.682
+              ], 
+              [
+                -82.281, 
+                29.682
+              ], 
+              [
+                -82.282, 
+                29.683
+              ], 
+              [
+                -82.286, 
+                29.679
+              ], 
+              [
+                -82.287, 
+                29.684
+              ], 
+              [
+                -82.287, 
+                29.685
+              ], 
+              [
+                -82.286, 
+                29.691
+              ], 
+              [
+                -82.286, 
+                29.685
+              ], 
+              [
+                -82.285, 
+                29.684
+              ], 
+              [
+                -82.281, 
+                29.685
+              ], 
+              [
+                -82.281, 
+                29.691
+              ], 
+              [
+                -82.277, 
+                29.694
+              ], 
+              [
+                -82.276, 
+                29.688
+              ]
             ]
           ]
         ]
@@ -32,23 +90,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519850, 
-        "name": "Gainesville Regional Airport", 
         "alias_ENG_V": [
           "GNV"
         ], 
-        "ne_latitude": 29.700, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -82.245, 
-        "longitude": -82.277, 
-        "placetype": "Airport", 
-        "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
+        "name": "Gainesville Regional Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:suburb=55859149", 
+          "woe:county=12587803", 
+          "woe:state=2347568", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519850, 
+        "ne_longitude": -82.276, 
+        "longitude": -82.281, 
         "parent_woeid": 55859149, 
+        "ne_latitude": 29.694, 
+        "iso": "US", 
+        "sw_latitude": 29.679, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 29.686, 
-        "sw_longitude": -82.288, 
-        "fullname": "Gainesville Regional Airport, Gainesville, Florida, Alachua, United States", 
-        "sw_latitude": 29.681
+        "sw_longitude": -82.287, 
+        "fullname": "Gainesville Regional Airport, Gainesville, Florida, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12519850
     }

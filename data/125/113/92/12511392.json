@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511392, 
+        "placetype": "airport", 
         "name": "Bezmer Airport", 
-        "ne_latitude": 42.459, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55873892", 
+          "woe:state=20070074", 
+          "woe:country=23424771", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511392, 
         "ne_longitude": 26.361, 
         "longitude": 26.355, 
-        "placetype": "Airport", 
+        "parent_woeid": 55873892, 
+        "ne_latitude": 42.459, 
         "iso": "BG", 
-        "date_indexed": "2010-12-02T16:14:37Z", 
-        "parent_woeid": 835062, 
+        "sw_latitude": 42.450, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.455, 
         "sw_longitude": 26.349, 
         "fullname": "Bezmer Airport, Yambol, Tundzha, Bulgaria", 
-        "sw_latitude": 42.450
+        "date_indexed": "2010-12-02T16:14:37Z"
       }, 
       "id": 12511392
     }

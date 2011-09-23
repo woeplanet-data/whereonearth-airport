@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515186, 
-        "name": "Puerto Vallemi Airport", 
         "alias_ENG_V": [
           "Pto Vallemi Airport"
         ], 
-        "ne_latitude": -22.156, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Puerto Vallemi Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26810830", 
+          "woe:state=2346454", 
+          "woe:country=23424917", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515186, 
         "ne_longitude": -57.938, 
         "longitude": -57.943, 
-        "placetype": "Airport", 
+        "parent_woeid": 26810830, 
+        "ne_latitude": -22.156, 
         "iso": "PY", 
-        "date_indexed": "2010-12-02T12:08:38Z", 
-        "parent_woeid": 378985, 
+        "sw_latitude": -22.165, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -22.161, 
         "sw_longitude": -57.948, 
-        "fullname": "Puerto Vallemi Airport, San L\u00e1zaro, Concepci\u00f3n, San L\u00e1zaro, Paraguay", 
-        "sw_latitude": -22.165
+        "fullname": "Puerto Vallemi Airport, San L\u00e1zaro, Concepci\u00f3n, Paraguay", 
+        "date_indexed": "2010-12-02T12:08:38Z"
       }, 
       "id": 12515186
     }

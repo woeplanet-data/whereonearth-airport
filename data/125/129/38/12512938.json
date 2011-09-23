@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512938, 
+        "placetype": "airport", 
         "name": "Mimizan Airport", 
-        "ne_latitude": 44.149, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12649205", 
+          "woe:county=12597149", 
+          "woe:state=7153309", 
+          "woe:country=23424819", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512938, 
         "ne_longitude": -1.154, 
         "longitude": -1.165, 
-        "placetype": "Airport", 
+        "parent_woeid": 12649205, 
+        "ne_latitude": 44.149, 
         "iso": "FR", 
-        "date_indexed": "2010-12-02T12:04:01Z", 
-        "parent_woeid": 611554, 
+        "sw_latitude": 44.144, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.146, 
         "sw_longitude": -1.174, 
-        "fullname": "Mimizan Airport, Mimizan, Aquitaine, Landes, France", 
-        "sw_latitude": 44.144
+        "fullname": "Mimizan Airport, Mimizan, Aquitaine, France", 
+        "date_indexed": "2010-12-02T12:04:01Z"
       }, 
       "id": 12512938
     }

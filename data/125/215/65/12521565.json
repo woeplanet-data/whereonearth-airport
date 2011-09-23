@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521565, 
-        "name": "Republic Airport", 
         "alias_ENG_V": [
           "FRG"
         ], 
-        "ne_latitude": 40.739, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Republic Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589363", 
+          "woe:state=2347591", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521565, 
         "ne_longitude": -73.401, 
         "longitude": -73.418, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589363, 
+        "ne_latitude": 40.739, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2358094, 
+        "sw_latitude": 40.719, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.726, 
         "sw_longitude": -73.424, 
-        "fullname": "Republic Airport, Babylon, New York, Suffolk, United States", 
-        "sw_latitude": 40.719
+        "fullname": "Republic Airport, Babylon, New York, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521565
     }

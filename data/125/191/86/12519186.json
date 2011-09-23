@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519186, 
-        "name": "Chinook Municipal Airport", 
         "alias_ENG_V": [
           "Edgar G Obie Airport"
         ], 
-        "ne_latitude": 48.595, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Chinook Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589083", 
+          "woe:state=2347585", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519186, 
         "ne_longitude": -109.237, 
         "longitude": -109.237, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589083, 
+        "ne_latitude": 48.595, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2379880, 
+        "sw_latitude": 48.590, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.592, 
         "sw_longitude": -109.260, 
-        "fullname": "Chinook Municipal Airport, Chinook, Montana, Blaine, United States", 
-        "sw_latitude": 48.590
+        "fullname": "Chinook Municipal Airport, Chinook, Montana, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519186
     }

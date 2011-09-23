@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29387922, 
-        "name": "Stephen Municipal Airport", 
         "alias_ENG_V": [
           "D41"
         ], 
-        "ne_latitude": 48.466, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Stephen Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588840", 
+          "woe:state=2347582", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29387922, 
         "ne_longitude": -96.865, 
         "longitude": -96.867, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588840, 
+        "ne_latitude": 48.466, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2499570, 
+        "sw_latitude": 48.456, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.458, 
         "sw_longitude": -96.867, 
-        "fullname": "Stephen Municipal Airport, Stephen, Minnesota, Marshall, United States", 
-        "sw_latitude": 48.456
+        "fullname": "Stephen Municipal Airport, Stephen, Minnesota, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29387922
     }

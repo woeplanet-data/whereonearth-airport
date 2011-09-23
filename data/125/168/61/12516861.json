@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516861, 
-        "name": "Sheromy Airport", 
         "alias_ENG_V": [
           "SRY"
         ], 
-        "ne_latitude": 54.284, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Sheromy Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12598421", 
+          "woe:state=20070514", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516861, 
         "ne_longitude": 158.150, 
         "longitude": 158.143, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598421, 
+        "ne_latitude": 54.284, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2081529, 
+        "sw_latitude": 54.274, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 54.279, 
         "sw_longitude": 158.135, 
         "fullname": "Sheromy Airport, Kamchatskaya Oblast, Milkovsky, Russia", 
-        "sw_latitude": 54.274
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516861
     }

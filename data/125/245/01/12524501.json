@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524501, 
-        "name": "Barrancominas Airport", 
         "alias_ENG_V": [
           "NBB"
         ], 
-        "ne_latitude": 3.338, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Barrancominas Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26797677", 
+          "woe:state=2345076", 
+          "woe:country=23424787", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524501, 
         "ne_longitude": -70.329, 
         "longitude": -70.333, 
-        "placetype": "Airport", 
+        "parent_woeid": 26797677, 
+        "ne_latitude": 3.338, 
         "iso": "CO", 
-        "date_indexed": "2010-12-02T17:57:37Z", 
-        "parent_woeid": 368819, 
+        "sw_latitude": 3.329, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 3.333, 
         "sw_longitude": -70.338, 
         "fullname": "Barrancominas Airport, Vichada, San Jose de Ocune, Colombia", 
-        "sw_latitude": 3.329
+        "iata_code": "NBB", 
+        "date_indexed": "2010-12-02T17:57:37Z"
       }, 
       "id": 12524501
     }

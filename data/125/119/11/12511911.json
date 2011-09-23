@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511911, 
+        "placetype": "airport", 
         "name": "Weyburn Airport", 
-        "ne_latitude": 49.703, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=29375232", 
+          "woe:state=2344925", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511911, 
         "ne_longitude": -103.793, 
         "longitude": -103.800, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375232, 
+        "ne_latitude": 49.703, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 23403073, 
+        "sw_latitude": 49.694, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.698, 
         "sw_longitude": -103.807, 
-        "fullname": "Weyburn Airport, North Weyburn, Saskatchewan, Saskatchewan, Canada", 
-        "sw_latitude": 49.694
+        "fullname": "Weyburn Airport, North Weyburn, Saskatchewan, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12511911
     }

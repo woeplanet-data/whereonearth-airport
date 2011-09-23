@@ -32,29 +32,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511284, 
-        "name": "Aeroporto Porto Seguro", 
-        "alias_ENG_P": [
-          "Porto Seguro Airport"
-        ], 
-        "ne_latitude": -16.436, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "BPS"
         ], 
+        "name": "Aeroporto Porto Seguro", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Porto Seguro Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12578539", 
+          "woe:state=2344848", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511284, 
         "ne_longitude": -39.079, 
         "longitude": -39.083, 
-        "placetype": "Airport", 
+        "parent_woeid": 12578539, 
+        "ne_latitude": -16.436, 
         "alias_POR_V": [
           "Aeroporto BPS"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 456445, 
+        "sw_latitude": -16.445, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -16.441, 
         "sw_longitude": -39.088, 
-        "fullname": "Aeroporto Porto Seguro, Porto Seguro, Bahia, Porto Seguro, Brazil", 
-        "sw_latitude": -16.445
+        "fullname": "Aeroporto Porto Seguro, Porto Seguro, Bahia, Brazil", 
+        "iata_code": "BPS", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511284
     }

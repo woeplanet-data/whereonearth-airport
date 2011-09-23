@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 56051729, 
+        "placetype": "airport", 
         "name": "Flugplatz Schaffhausen", 
-        "ne_latitude": 47.692, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12684074", 
+          "woe:county=12593256", 
+          "woe:state=2347098", 
+          "woe:country=23424957", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56051729, 
         "ne_longitude": 8.532, 
         "longitude": 8.528, 
-        "placetype": "Airport", 
+        "parent_woeid": 12684074, 
+        "ne_latitude": 47.692, 
         "iso": "CH", 
-        "date_indexed": "2010-12-02T18:20:52Z", 
-        "parent_woeid": 783493, 
+        "sw_latitude": 47.689, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.690, 
         "sw_longitude": 8.523, 
-        "fullname": "Flugplatz Schaffhausen, Neunkirch, Canton of Schaffhausen, Oberklettgau, Switzerland", 
-        "sw_latitude": 47.689
+        "fullname": "Flugplatz Schaffhausen, Neunkirch, Canton of Schaffhausen, Switzerland", 
+        "date_indexed": "2010-12-02T18:20:52Z"
       }, 
       "id": 56051729
     }

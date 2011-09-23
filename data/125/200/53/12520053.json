@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520053, 
+        "placetype": "airport", 
         "name": "Hacienda Sur Luna Airport", 
-        "ne_latitude": 31.882, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12589295", 
+          "woe:state=2347590", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520053, 
         "ne_longitude": -107.640, 
         "longitude": -107.645, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589295, 
+        "ne_latitude": 31.882, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2383655, 
+        "sw_latitude": 31.873, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 31.878, 
         "sw_longitude": -107.650, 
-        "fullname": "Hacienda Sur Luna Airport, Columbus, New Mexico, Luna, United States", 
-        "sw_latitude": 31.873
+        "fullname": "Hacienda Sur Luna Airport, Columbus, New Mexico, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12520053
     }

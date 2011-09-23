@@ -3,28 +3,42 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -81.523, 
-              30.325
-            ], 
-            [
-              -81.523, 
-              30.346
-            ], 
-            [
-              -81.502, 
-              30.346
-            ], 
-            [
-              -81.502, 
-              30.325
-            ], 
-            [
-              -81.523, 
-              30.325
+              [
+                -81.516, 
+                30.335
+              ], 
+              [
+                -81.518, 
+                30.336
+              ], 
+              [
+                -81.519, 
+                30.340
+              ], 
+              [
+                -81.517, 
+                30.338
+              ], 
+              [
+                -81.516, 
+                30.336
+              ], 
+              [
+                -81.514, 
+                30.336
+              ], 
+              [
+                -81.516, 
+                30.335
+              ], 
+              [
+                -81.516, 
+                30.335
+              ]
             ]
           ]
         ]
@@ -32,23 +46,32 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519349, 
-        "name": "Craig Municipal Airport", 
         "alias_ENG_V": [
           "CRG"
         ], 
-        "ne_latitude": 30.346, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -81.502, 
-        "longitude": -81.523, 
-        "placetype": "Airport", 
-        "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
+        "name": "Craig Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:suburb=29229930", 
+          "woe:suburb=55864639", 
+          "woe:county=12587818", 
+          "woe:state=2347568", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519349, 
+        "ne_longitude": -81.514, 
+        "longitude": -81.517, 
         "parent_woeid": 29229930, 
-        "latitude": 30.336, 
-        "sw_longitude": -81.523, 
-        "fullname": "Craig Municipal Airport, Jacksonville, Florida, Duval, United States", 
-        "sw_latitude": 30.325
+        "ne_latitude": 30.340, 
+        "iso": "US", 
+        "sw_latitude": 30.335, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 30.337, 
+        "sw_longitude": -81.519, 
+        "fullname": "Craig Municipal Airport, Jacksonville, Florida, United States", 
+        "iata_code": "CRG", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519349
     }

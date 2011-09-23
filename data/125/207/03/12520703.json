@@ -3,28 +3,66 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -67.925, 
-              46.921
-            ], 
-            [
-              -67.925, 
-              46.979
-            ], 
-            [
-              -67.841, 
-              46.979
-            ], 
-            [
-              -67.841, 
-              46.921
-            ], 
-            [
-              -67.925, 
-              46.921
+              [
+                -67.867, 
+                46.970
+              ], 
+              [
+                -67.867, 
+                46.966
+              ], 
+              [
+                -67.874, 
+                46.935
+              ], 
+              [
+                -67.885, 
+                46.914
+              ], 
+              [
+                -67.909, 
+                46.933
+              ], 
+              [
+                -67.928, 
+                46.931
+              ], 
+              [
+                -67.905, 
+                46.955
+              ], 
+              [
+                -67.898, 
+                46.954
+              ], 
+              [
+                -67.886, 
+                46.959
+              ], 
+              [
+                -67.879, 
+                46.961
+              ], 
+              [
+                -67.871, 
+                46.966
+              ], 
+              [
+                -67.868, 
+                46.969
+              ], 
+              [
+                -67.865, 
+                46.973
+              ], 
+              [
+                -67.867, 
+                46.970
+              ]
             ]
           ]
         ]
@@ -32,23 +70,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520703, 
-        "name": "Loring Air Force Base", 
         "alias_ENG_V": [
           "LIZ Airport"
         ], 
-        "ne_latitude": 46.979, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -67.841, 
-        "longitude": -67.883, 
-        "placetype": "Airport", 
+        "name": "Loring Air Force Base", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588661", 
+          "woe:state=2347578", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520703, 
+        "ne_longitude": -67.865, 
+        "longitude": -67.892, 
+        "parent_woeid": 12588661, 
+        "ne_latitude": 46.973, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2439393, 
-        "latitude": 46.950, 
-        "sw_longitude": -67.925, 
-        "fullname": "Loring Air Force Base, Limestone, Maine, Aroostook, United States", 
-        "sw_latitude": 46.921
+        "sw_latitude": 46.914, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 46.941, 
+        "sw_longitude": -67.928, 
+        "fullname": "Loring Air Force Base, Limestone, Maine, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12520703
     }

@@ -3,28 +3,38 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -83.977, 
-              33.971
-            ], 
-            [
-              -83.977, 
-              33.984
-            ], 
-            [
-              -83.949, 
-              33.984
-            ], 
-            [
-              -83.949, 
-              33.971
-            ], 
-            [
-              -83.977, 
-              33.971
+              [
+                -83.963, 
+                33.975
+              ], 
+              [
+                -83.963, 
+                33.976
+              ], 
+              [
+                -83.962, 
+                33.980
+              ], 
+              [
+                -83.962, 
+                33.977
+              ], 
+              [
+                -83.961, 
+                33.976
+              ], 
+              [
+                -83.962, 
+                33.975
+              ], 
+              [
+                -83.963, 
+                33.975
+              ]
             ]
           ]
         ]
@@ -32,23 +42,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520048, 
-        "name": "Gwinnett County Airport-Briscoe Field", 
         "alias_ENG_V": [
           "LZU"
         ], 
-        "ne_latitude": 33.984, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -83.949, 
-        "longitude": -83.966, 
-        "placetype": "Airport", 
+        "name": "Gwinnett County Airport-Briscoe Field", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587936", 
+          "woe:state=2347569", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520048, 
+        "ne_longitude": -83.961, 
+        "longitude": -83.962, 
+        "parent_woeid": 12587936, 
+        "ne_latitude": 33.980, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2437315, 
-        "latitude": 33.982, 
-        "sw_longitude": -83.977, 
-        "fullname": "Gwinnett County Airport-Briscoe Field, Lawrenceville, Georgia, Gwinnett, United States", 
-        "sw_latitude": 33.971
+        "sw_latitude": 33.975, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 33.977, 
+        "sw_longitude": -83.963, 
+        "fullname": "Gwinnett County Airport-Briscoe Field, Lawrenceville, Georgia, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520048
     }

@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522903, 
+        "placetype": "airport", 
         "name": "Duc Lap Airport", 
-        "ne_latitude": 12.425, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=28301719", 
+          "woe:country=23424984", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522903, 
         "ne_longitude": 107.676, 
         "longitude": 107.671, 
-        "placetype": "Airport", 
+        "parent_woeid": 28301719, 
+        "ne_latitude": 12.425, 
         "iso": "VN", 
-        "date_indexed": "2010-12-02T08:52:49Z", 
-        "parent_woeid": 1252403, 
+        "sw_latitude": 12.416, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 12.421, 
         "sw_longitude": 107.666, 
         "fullname": "Duc Lap Airport, Dac Nong, Vietnam", 
-        "sw_latitude": 12.416
+        "date_indexed": "2010-12-02T08:52:49Z"
       }, 
       "id": 12522903
     }

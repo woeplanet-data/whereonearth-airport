@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514739, 
+        "placetype": "airport", 
         "name": "Choybalsan East Airport", 
-        "ne_latitude": 48.100, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2346160", 
+          "woe:country=23424887", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514739, 
         "ne_longitude": 114.592, 
         "longitude": 114.586, 
-        "placetype": "Airport", 
+        "parent_woeid": 2346160, 
+        "ne_latitude": 48.100, 
         "iso": "MN", 
-        "date_indexed": "2010-12-02T08:53:23Z", 
-        "parent_woeid": 2266384, 
+        "sw_latitude": 48.091, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.095, 
         "sw_longitude": 114.579, 
         "fullname": "Choybalsan East Airport, Tsagaanders, Dornod, Mongolia", 
-        "sw_latitude": 48.091
+        "date_indexed": "2010-12-02T08:53:23Z"
       }, 
       "id": 12514739
     }

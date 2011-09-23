@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515325, 
+        "placetype": "airport", 
         "name": "Krosno Airport", 
-        "ne_latitude": 49.692, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12618717", 
+          "woe:county=12591330", 
+          "woe:state=12577943", 
+          "woe:country=23424923", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515325, 
         "ne_longitude": 21.756, 
         "longitude": 21.746, 
-        "placetype": "Airport", 
+        "parent_woeid": 12618717, 
+        "ne_latitude": 49.692, 
         "iso": "PL", 
-        "date_indexed": "2010-12-02T12:12:45Z", 
-        "parent_woeid": 493817, 
+        "sw_latitude": 49.671, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.672, 
         "sw_longitude": 21.722, 
         "fullname": "Krosno Airport, Subcarpathia, Krosno City, Poland", 
-        "sw_latitude": 49.671
+        "date_indexed": "2010-12-02T12:12:45Z"
       }, 
       "id": 12515325
     }

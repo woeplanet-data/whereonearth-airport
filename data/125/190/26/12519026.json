@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519026, 
-        "name": "Cambridge Municipal Airport", 
         "alias_ENG_V": [
           "Cdi"
         ], 
-        "ne_latitude": 39.981, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Cambridge Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589556", 
+          "woe:state=2347594", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519026, 
         "ne_longitude": -81.572, 
         "longitude": -81.578, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589556, 
+        "ne_latitude": 39.981, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2428280, 
+        "sw_latitude": 39.970, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 39.977, 
         "sw_longitude": -81.582, 
-        "fullname": "Cambridge Municipal Airport, Jackson Special, Ohio, Guernsey, United States", 
-        "sw_latitude": 39.970
+        "fullname": "Cambridge Municipal Airport, Jackson Special, Ohio, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519026
     }

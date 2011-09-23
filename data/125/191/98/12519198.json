@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519198, 
-        "name": "Cincinnati Blue Ash Airport", 
         "alias_ENG_V": [
           "ISZ Airport"
         ], 
-        "ne_latitude": 39.253, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Cincinnati Blue Ash Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589557", 
+          "woe:state=2347594", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519198, 
         "ne_longitude": -84.380, 
         "longitude": -84.391, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589557, 
+        "ne_latitude": 39.253, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2365738, 
+        "sw_latitude": 39.241, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 39.252, 
         "sw_longitude": -84.396, 
-        "fullname": "Cincinnati Blue Ash Airport, Blue Ash, Ohio, Hamilton, United States", 
-        "sw_latitude": 39.241
+        "fullname": "Cincinnati Blue Ash Airport, Blue Ash, Ohio, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519198
     }

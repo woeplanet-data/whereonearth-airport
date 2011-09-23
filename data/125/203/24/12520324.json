@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520324, 
-        "name": "Jack Mcnamara Field Airport", 
         "alias_ENG_V": [
           "CEC Airport"
         ], 
-        "ne_latitude": 41.781, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Jack Mcnamara Field Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587677", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520324, 
         "ne_longitude": -124.231, 
         "longitude": -124.237, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587677, 
+        "ne_latitude": 41.781, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 23417121, 
+        "sw_latitude": 41.772, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.777, 
         "sw_longitude": -124.242, 
-        "fullname": "Jack Mcnamara Field Airport, Crescent City North, California, Del Norte, United States", 
-        "sw_latitude": 41.772
+        "fullname": "Jack Mcnamara Field Airport, Crescent City North, California, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12520324
     }

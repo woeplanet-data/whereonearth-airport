@@ -3,28 +3,134 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -117.564, 
-              47.605
-            ], 
-            [
-              -117.564, 
-              47.641
-            ], 
-            [
-              -117.498, 
-              47.641
-            ], 
-            [
-              -117.498, 
-              47.605
-            ], 
-            [
-              -117.564, 
-              47.605
+              [
+                -117.507, 
+                47.620
+              ], 
+              [
+                -117.504, 
+                47.621
+              ], 
+              [
+                -117.506, 
+                47.621
+              ], 
+              [
+                -117.511, 
+                47.622
+              ], 
+              [
+                -117.511, 
+                47.622
+              ], 
+              [
+                -117.513, 
+                47.616
+              ], 
+              [
+                -117.521, 
+                47.620
+              ], 
+              [
+                -117.523, 
+                47.620
+              ], 
+              [
+                -117.532, 
+                47.622
+              ], 
+              [
+                -117.532, 
+                47.623
+              ], 
+              [
+                -117.538, 
+                47.623
+              ], 
+              [
+                -117.542, 
+                47.620
+              ], 
+              [
+                -117.540, 
+                47.624
+              ], 
+              [
+                -117.539, 
+                47.626
+              ], 
+              [
+                -117.540, 
+                47.632
+              ], 
+              [
+                -117.541, 
+                47.633
+              ], 
+              [
+                -117.540, 
+                47.632
+              ], 
+              [
+                -117.534, 
+                47.628
+              ], 
+              [
+                -117.531, 
+                47.629
+              ], 
+              [
+                -117.529, 
+                47.628
+              ], 
+              [
+                -117.527, 
+                47.626
+              ], 
+              [
+                -117.521, 
+                47.621
+              ], 
+              [
+                -117.521, 
+                47.620
+              ], 
+              [
+                -117.515, 
+                47.614
+              ], 
+              [
+                -117.514, 
+                47.615
+              ], 
+              [
+                -117.513, 
+                47.616
+              ], 
+              [
+                -117.511, 
+                47.622
+              ], 
+              [
+                -117.511, 
+                47.622
+              ], 
+              [
+                -117.506, 
+                47.621
+              ], 
+              [
+                -117.504, 
+                47.621
+              ], 
+              [
+                -117.507, 
+                47.620
+              ]
             ]
           ]
         ]
@@ -32,23 +138,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521938, 
-        "name": "Spokane International Airport", 
         "alias_ENG_V": [
           "Spokane Airport"
         ], 
-        "ne_latitude": 47.641, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -117.498, 
-        "longitude": -117.538, 
-        "placetype": "Airport", 
+        "name": "Spokane International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590471", 
+          "woe:state=2347606", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521938, 
+        "ne_longitude": -117.504, 
+        "longitude": -117.533, 
+        "parent_woeid": 12590471, 
+        "ne_latitude": 47.633, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2352421, 
-        "latitude": 47.625, 
-        "sw_longitude": -117.564, 
-        "fullname": "Spokane International Airport, Airway Heights, Washington, Spokane, United States", 
-        "sw_latitude": 47.605
+        "sw_latitude": 47.614, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 47.626, 
+        "sw_longitude": -117.542, 
+        "fullname": "Spokane International Airport, Airway Heights, Washington, United States", 
+        "iata_code": "GEG", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521938
     }

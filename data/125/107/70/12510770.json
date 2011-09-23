@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510770, 
-        "name": "Renmark Aerodrome", 
         "alias_ENG_V": [
           "Renmark Airport"
         ], 
-        "ne_latitude": -34.193, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Renmark Aerodrome", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55864107", 
+          "woe:state=2344703", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510770, 
         "ne_longitude": 140.684, 
         "longitude": 140.682, 
-        "placetype": "Airport", 
+        "parent_woeid": 55864107, 
+        "ne_latitude": -34.193, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 28584404, 
+        "sw_latitude": -34.206, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -34.198, 
         "sw_longitude": 140.659, 
-        "fullname": "Renmark Aerodrome, Calperum, South Australia, Renmark Paringa, Australia", 
-        "sw_latitude": -34.206
+        "fullname": "Renmark Aerodrome, Calperum, South Australia, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 12510770
     }

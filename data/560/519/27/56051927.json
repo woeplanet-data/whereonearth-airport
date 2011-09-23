@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "FRE", 
-        "woeid": 56051927, 
+        "placetype": "airport", 
         "name": "A\u00e9rodrome de Dijon-darois", 
-        "ne_latitude": 47.389, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12642748", 
+          "woe:county=12597144", 
+          "woe:state=7153312", 
+          "woe:country=23424819", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56051927, 
         "ne_longitude": 4.951, 
         "longitude": 4.942, 
-        "placetype": "Airport", 
+        "parent_woeid": 12642748, 
+        "ne_latitude": 47.389, 
         "iso": "FR", 
-        "date_indexed": "2010-12-02T12:04:01Z", 
-        "parent_woeid": 588368, 
+        "sw_latitude": 47.381, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.386, 
         "sw_longitude": 4.942, 
-        "fullname": "A\u00e9rodrome de Dijon-darois, Daix, Burgundy, Cote-d'Or, France", 
+        "fullname": "A\u00e9rodrome de Dijon-darois, Daix, Burgundy, France", 
         "alias_FRE_S": [
           "Aerodrome de Dijon-darois"
         ], 
-        "sw_latitude": 47.381
+        "date_indexed": "2010-12-02T12:04:01Z"
       }, 
       "id": 56051927
     }

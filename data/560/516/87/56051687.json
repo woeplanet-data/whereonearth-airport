@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 56051687, 
+        "placetype": "airport", 
         "name": "Flugplatz Gmunden", 
-        "ne_latitude": 47.953, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12674564", 
+          "woe:county=12591713", 
+          "woe:state=2344711", 
+          "woe:country=23424750", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56051687, 
         "ne_longitude": 13.871, 
         "longitude": 13.867, 
-        "placetype": "Airport", 
+        "parent_woeid": 12674564, 
+        "ne_latitude": 47.953, 
         "iso": "AT", 
-        "date_indexed": "2010-12-02T16:35:40Z", 
-        "parent_woeid": 545253, 
+        "sw_latitude": 47.951, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.952, 
         "sw_longitude": 13.863, 
-        "fullname": "Flugplatz Gmunden, Gschwandt, Upper Austria, Gmunden, Austria", 
-        "sw_latitude": 47.951
+        "fullname": "Flugplatz Gmunden, Gschwandt, Upper Austria, Austria", 
+        "date_indexed": "2010-12-02T16:35:40Z"
       }, 
       "id": 56051687
     }

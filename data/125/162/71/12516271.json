@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516271, 
+        "placetype": "airport", 
         "name": "Krasnyy Oktyabr Airport", 
-        "ne_latitude": 46.458, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599152", 
+          "woe:state=2346921", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516271, 
         "ne_longitude": 40.814, 
         "longitude": 40.807, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599152, 
+        "ne_latitude": 46.458, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2108949, 
+        "sw_latitude": 46.449, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.454, 
         "sw_longitude": 40.801, 
         "fullname": "Krasnyy Oktyabr Airport, Rostovskaya Oblast, Tselinsky, Russia", 
-        "sw_latitude": 46.449
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516271
     }

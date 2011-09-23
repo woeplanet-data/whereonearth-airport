@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519263, 
+        "placetype": "airport", 
         "name": "Codell Airport", 
-        "ne_latitude": 38.024, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12588500", 
+          "woe:state=2347576", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519263, 
         "ne_longitude": -84.214, 
         "longitude": -84.216, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588500, 
+        "ne_latitude": 38.024, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2480168, 
+        "sw_latitude": 38.021, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.022, 
         "sw_longitude": -84.225, 
-        "fullname": "Codell Airport, Renick, Kentucky, Clark, United States", 
-        "sw_latitude": 38.021
+        "fullname": "Codell Airport, Renick, Kentucky, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519263
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522547, 
+        "placetype": "airport", 
         "name": "Zachry Ranch Airport", 
-        "ne_latitude": 27.077, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12590130", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522547, 
         "ne_longitude": -98.933, 
         "longitude": -98.938, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590130, 
+        "ne_latitude": 27.077, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2478563, 
+        "sw_latitude": 27.068, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 27.072, 
         "sw_longitude": -98.943, 
-        "fullname": "Zachry Ranch Airport, Randado, Texas, Jim Hogg, United States", 
-        "sw_latitude": 27.068
+        "fullname": "Zachry Ranch Airport, Randado, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12522547
     }

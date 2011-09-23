@@ -32,23 +32,28 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523880, 
-        "name": "Djupivogur Airport", 
         "alias_ENG_V": [
           "DJU"
         ], 
-        "ne_latitude": 64.663, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Djupivogur Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2345704", 
+          "woe:country=23424845", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523880, 
         "ne_longitude": -14.263, 
         "longitude": -14.273, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345704, 
+        "ne_latitude": 64.663, 
         "iso": "IS", 
-        "date_indexed": "2010-12-02T09:55:32Z", 
-        "parent_woeid": 980102, 
+        "sw_latitude": 64.654, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 64.659, 
         "sw_longitude": -14.284, 
         "fullname": "Djupivogur Airport, Diupivogur, Sudur-Mulasysla, Iceland", 
-        "sw_latitude": 64.654
+        "date_indexed": "2010-12-02T09:55:32Z"
       }, 
       "id": 12523880
     }

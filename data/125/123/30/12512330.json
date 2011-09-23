@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512330, 
-        "name": "Los Angeles Airport", 
         "alias_ENG_V": [
           "LSQ"
         ], 
-        "ne_latitude": -37.393, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Los Angeles Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=26794093", 
+          "woe:county=26793978", 
+          "woe:state=2345023", 
+          "woe:country=23424782", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512330, 
         "ne_longitude": -72.417, 
         "longitude": -72.423, 
-        "placetype": "Airport", 
+        "parent_woeid": 26794093, 
+        "ne_latitude": -37.393, 
         "iso": "CL", 
-        "date_indexed": "2010-12-02T12:15:39Z", 
-        "parent_woeid": 350229, 
+        "sw_latitude": -37.402, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -37.397, 
         "sw_longitude": -72.429, 
         "fullname": "Los Angeles Airport, Biobio Region, Biobio Province, Chile", 
-        "sw_latitude": -37.402
+        "date_indexed": "2010-12-02T12:15:39Z"
       }, 
       "id": 12512330
     }

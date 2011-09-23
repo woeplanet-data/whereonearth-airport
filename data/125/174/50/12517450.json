@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517450, 
+        "placetype": "airport", 
         "name": "Mtubatuba Airport", 
-        "ne_latitude": -28.362, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=56189656", 
+          "woe:county=56189428", 
+          "woe:state=2346982", 
+          "woe:country=23424942", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517450, 
         "ne_longitude": 32.251, 
         "longitude": 32.246, 
-        "placetype": "Airport", 
+        "parent_woeid": 56189656, 
+        "ne_latitude": -28.362, 
         "iso": "ZA", 
-        "date_indexed": "2010-12-02T08:57:52Z", 
-        "parent_woeid": 1585540, 
+        "sw_latitude": -28.371, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -28.366, 
         "sw_longitude": 32.241, 
-        "fullname": "Mtubatuba Airport, Mtubatuba, Kwazulu Natal, Mtubatuba, South Africa", 
-        "sw_latitude": -28.371
+        "fullname": "Mtubatuba Airport, Mtubatuba, Kwazulu Natal, South Africa", 
+        "date_indexed": "2010-12-02T08:57:52Z"
       }, 
       "id": 12517450
     }

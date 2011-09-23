@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511672, 
+        "placetype": "airport", 
         "name": "Frontier Airport", 
-        "ne_latitude": 49.180, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=29375232", 
+          "woe:state=2344925", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511672, 
         "ne_longitude": -108.568, 
         "longitude": -108.575, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375232, 
+        "ne_latitude": 49.180, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 2854, 
+        "sw_latitude": 49.170, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.175, 
         "sw_longitude": -108.582, 
-        "fullname": "Frontier Airport, Frontier, Saskatchewan, Saskatchewan, Canada", 
-        "sw_latitude": 49.170
+        "fullname": "Frontier Airport, Frontier, Saskatchewan, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12511672
     }

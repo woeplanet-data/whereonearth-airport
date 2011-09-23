@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513607, 
-        "name": "Jamnagar Airport", 
         "alias_ENG_V": [
           "JGA"
         ], 
-        "ne_latitude": 22.468, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Jamnagar Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12586424", 
+          "woe:state=2345743", 
+          "woe:country=23424848", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513607, 
         "ne_longitude": 70.017, 
         "longitude": 70.012, 
-        "placetype": "Airport", 
+        "parent_woeid": 12586424, 
+        "ne_latitude": 22.468, 
         "iso": "IN", 
-        "date_indexed": "2010-12-02T09:26:27Z", 
-        "parent_woeid": 29184570, 
+        "sw_latitude": 22.459, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 22.463, 
         "sw_longitude": 70.007, 
-        "fullname": "Jamnagar Airport, Naghedi, Gujarat, Jamnagar, India", 
-        "sw_latitude": 22.459
+        "fullname": "Jamnagar Airport, Naghedi, Gujarat, India", 
+        "iata_code": "JGA", 
+        "date_indexed": "2010-12-02T09:26:27Z"
       }, 
       "id": 12513607
     }

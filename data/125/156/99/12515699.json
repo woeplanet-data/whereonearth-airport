@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515699, 
+        "placetype": "airport", 
         "name": "Altay Airport", 
-        "ne_latitude": 60.338, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599453", 
+          "woe:state=20070526", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515699, 
         "ne_longitude": 68.962, 
         "longitude": 68.953, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599453, 
+        "ne_latitude": 60.338, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2120002, 
+        "sw_latitude": 60.329, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 60.333, 
         "sw_longitude": 68.944, 
         "fullname": "Altay Airport, Khanty-Mansiyskiy Avtonomnyy Okrug, Kondinsky, Russia", 
-        "sw_latitude": 60.329
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12515699
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 28677628, 
+        "placetype": "airport", 
         "name": "Inverleigh Aerodrome", 
-        "ne_latitude": -18.000, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55864340", 
+          "woe:state=2344702", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 28677628, 
         "ne_longitude": 140.544, 
         "longitude": 140.539, 
-        "placetype": "Airport", 
+        "parent_woeid": 55864340, 
+        "ne_latitude": -18.000, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1104664, 
+        "sw_latitude": -18.009, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -18.005, 
         "sw_longitude": 140.534, 
-        "fullname": "Inverleigh Aerodrome, Normanton, Queensland, Carpentaria Shire, Australia", 
-        "sw_latitude": -18.009
+        "fullname": "Inverleigh Aerodrome, Normanton, Queensland, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 28677628
     }

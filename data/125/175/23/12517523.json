@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517523, 
-        "name": "Seletar Airport", 
         "alias_ENG_V": [
           "XSP"
         ], 
-        "ne_latitude": 1.426, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Seletar Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=24703044", 
+          "woe:country=23424948", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517523, 
         "ne_longitude": 103.873, 
         "longitude": 103.864, 
-        "placetype": "Airport", 
+        "parent_woeid": 24703044, 
+        "ne_latitude": 1.426, 
         "iso": "SG", 
-        "date_indexed": "2010-12-02T08:53:28Z", 
-        "parent_woeid": 1062598, 
+        "sw_latitude": 1.409, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 1.419, 
         "sw_longitude": 103.861, 
         "fullname": "Seletar Airport, Central Singapore, Singapore", 
-        "sw_latitude": 1.409
+        "iata_code": "XSP", 
+        "date_indexed": "2010-12-02T08:53:28Z"
       }, 
       "id": 12517523
     }

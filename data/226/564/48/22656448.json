@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 22656448, 
+        "placetype": "airport", 
         "name": "Aerodrome de Persan-Beaumont", 
-        "ne_latitude": 49.181, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12638688", 
+          "woe:county=12597124", 
+          "woe:state=7153319", 
+          "woe:country=23424819", 
+          "woe:planet=1"
+        ], 
+        "woeid": 22656448, 
         "ne_longitude": 2.333, 
         "longitude": 2.310, 
-        "placetype": "Airport", 
+        "parent_woeid": 12638688, 
+        "ne_latitude": 49.181, 
         "iso": "FR", 
-        "date_indexed": "2010-12-02T12:04:01Z", 
-        "parent_woeid": 579419, 
+        "sw_latitude": 49.160, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.174, 
         "sw_longitude": 2.302, 
-        "fullname": "Aerodrome de Persan-Beaumont, Bernes, Ile-de-France, Val-d'Oise, France", 
-        "sw_latitude": 49.160
+        "fullname": "Aerodrome de Persan-Beaumont, Bernes, Ile-de-France, France", 
+        "date_indexed": "2010-12-02T12:04:01Z"
       }, 
       "id": 22656448
     }

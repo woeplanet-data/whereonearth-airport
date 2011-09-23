@@ -3,28 +3,106 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -88.276, 
-              40.027
-            ], 
-            [
-              -88.276, 
-              40.046
-            ], 
-            [
-              -88.251, 
-              40.046
-            ], 
-            [
-              -88.251, 
-              40.027
-            ], 
-            [
-              -88.276, 
-              40.027
+              [
+                -88.264, 
+                40.036
+              ], 
+              [
+                -88.265, 
+                40.036
+              ], 
+              [
+                -88.271, 
+                40.040
+              ], 
+              [
+                -88.272, 
+                40.040
+              ], 
+              [
+                -88.275, 
+                40.041
+              ], 
+              [
+                -88.272, 
+                40.042
+              ], 
+              [
+                -88.271, 
+                40.040
+              ], 
+              [
+                -88.265, 
+                40.038
+              ], 
+              [
+                -88.263, 
+                40.046
+              ], 
+              [
+                -88.261, 
+                40.046
+              ], 
+              [
+                -88.259, 
+                40.046
+              ], 
+              [
+                -88.253, 
+                40.048
+              ], 
+              [
+                -88.252, 
+                40.049
+              ], 
+              [
+                -88.252, 
+                40.049
+              ], 
+              [
+                -88.253, 
+                40.047
+              ], 
+              [
+                -88.253, 
+                40.045
+              ], 
+              [
+                -88.253, 
+                40.042
+              ], 
+              [
+                -88.254, 
+                40.040
+              ], 
+              [
+                -88.254, 
+                40.038
+              ], 
+              [
+                -88.257, 
+                40.039
+              ], 
+              [
+                -88.262, 
+                40.038
+              ], 
+              [
+                -88.263, 
+                40.036
+              ], 
+              [
+                -88.264, 
+                40.036
+              ], 
+              [
+                -88.264, 
+                40.036
+              ]
             ]
           ]
         ]
@@ -32,23 +110,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522247, 
-        "name": "University of Illinois-Willard Airport", 
         "alias_ENG_V": [
           "CMI"
         ], 
-        "ne_latitude": 40.046, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -88.251, 
-        "longitude": -88.264, 
-        "placetype": "Airport", 
+        "name": "University of Illinois-Willard Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588087", 
+          "woe:state=2347572", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522247, 
+        "ne_longitude": -88.252, 
+        "longitude": -88.259, 
+        "parent_woeid": 12588087, 
+        "ne_latitude": 40.049, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2489351, 
-        "latitude": 40.037, 
-        "sw_longitude": -88.276, 
-        "fullname": "University of Illinois-Willard Airport, Savoy, Illinois, Champaign, United States", 
-        "sw_latitude": 40.027
+        "sw_latitude": 40.036, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 40.042, 
+        "sw_longitude": -88.275, 
+        "fullname": "University of Illinois-Willard Airport, Savoy, Illinois, United States", 
+        "iata_code": "CMI", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12522247
     }

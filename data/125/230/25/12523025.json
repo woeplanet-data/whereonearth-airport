@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523025, 
+        "placetype": "airport", 
         "name": "Harare Charles Prince Airport", 
-        "ne_latitude": -17.745, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=56048505", 
+          "woe:state=2347814", 
+          "woe:country=23425004", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523025, 
         "ne_longitude": 30.930, 
         "longitude": 30.925, 
-        "placetype": "Airport", 
+        "parent_woeid": 56048505, 
+        "ne_latitude": -17.745, 
         "iso": "ZW", 
-        "date_indexed": "2010-12-02T16:52:36Z", 
-        "parent_woeid": 1467323, 
+        "sw_latitude": -17.755, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -17.750, 
         "sw_longitude": 30.920, 
         "fullname": "Harare Charles Prince Airport, Mashonaland West, Zvimba, Zimbabwe", 
-        "sw_latitude": -17.755
+        "date_indexed": "2010-12-02T16:52:36Z"
       }, 
       "id": 12523025
     }

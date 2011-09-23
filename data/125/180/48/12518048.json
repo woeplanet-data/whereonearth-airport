@@ -3,28 +3,38 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -1.582, 
-              51.757
-            ], 
-            [
-              -1.582, 
-              51.766
-            ], 
-            [
-              -1.567, 
-              51.766
-            ], 
-            [
-              -1.567, 
-              51.757
-            ], 
-            [
-              -1.582, 
-              51.757
+              [
+                -1.558, 
+                51.753
+              ], 
+              [
+                -1.561, 
+                51.754
+              ], 
+              [
+                -1.559, 
+                51.754
+              ], 
+              [
+                -1.558, 
+                51.754
+              ], 
+              [
+                -1.558, 
+                51.754
+              ], 
+              [
+                -1.558, 
+                51.753
+              ], 
+              [
+                -1.558, 
+                51.753
+              ]
             ]
           ]
         ]
@@ -32,23 +42,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518048, 
-        "name": "Brize Norton Airport", 
         "alias_ENG_V": [
           "BZZ"
         ], 
-        "ne_latitude": 51.766, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -1.567, 
-        "longitude": -1.575, 
-        "placetype": "Airport", 
+        "name": "Brize Norton Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=12696061", 
+          "woe:county=12602175", 
+          "woe:state=24554868", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518048, 
+        "ne_longitude": -1.558, 
+        "longitude": -1.559, 
+        "parent_woeid": 12696061, 
+        "ne_latitude": 51.754, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:20:54Z", 
-        "parent_woeid": 15300, 
-        "latitude": 51.761, 
-        "sw_longitude": -1.582, 
-        "fullname": "Brize Norton Airport, Carterton, England, Oxfordshire, United Kingdom", 
-        "sw_latitude": 51.757
+        "sw_latitude": 51.753, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 51.754, 
+        "sw_longitude": -1.561, 
+        "fullname": "Brize Norton Airport, Carterton, England, United Kingdom", 
+        "iata_code": "BZZ", 
+        "date_indexed": "2010-12-02T12:20:54Z"
       }, 
       "id": 12518048
     }

@@ -3,28 +3,66 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -97.485, 
-              35.233
-            ], 
-            [
-              -97.485, 
-              35.262
-            ], 
-            [
-              -97.461, 
-              35.262
-            ], 
-            [
-              -97.461, 
-              35.233
-            ], 
-            [
-              -97.485, 
-              35.233
+              [
+                -97.488, 
+                35.231
+              ], 
+              [
+                -97.487, 
+                35.233
+              ], 
+              [
+                -97.486, 
+                35.236
+              ], 
+              [
+                -97.484, 
+                35.245
+              ], 
+              [
+                -97.479, 
+                35.243
+              ], 
+              [
+                -97.468, 
+                35.241
+              ], 
+              [
+                -97.464, 
+                35.244
+              ], 
+              [
+                -97.461, 
+                35.248
+              ], 
+              [
+                -97.460, 
+                35.240
+              ], 
+              [
+                -97.459, 
+                35.236
+              ], 
+              [
+                -97.472, 
+                35.231
+              ], 
+              [
+                -97.480, 
+                35.232
+              ], 
+              [
+                -97.485, 
+                35.229
+              ], 
+              [
+                -97.488, 
+                35.231
+              ]
             ]
           ]
         ]
@@ -32,23 +70,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522249, 
-        "name": "University of Oklahoma Airport", 
         "alias_ENG_V": [
           "University of Oklahoma"
         ], 
-        "ne_latitude": 35.262, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -97.461, 
-        "longitude": -97.466, 
-        "placetype": "Airport", 
+        "name": "University of Oklahoma Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589628", 
+          "woe:state=2347595", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522249, 
+        "ne_longitude": -97.459, 
+        "longitude": -97.474, 
+        "parent_woeid": 12589628, 
+        "ne_latitude": 35.248, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2460448, 
-        "latitude": 35.241, 
-        "sw_longitude": -97.485, 
-        "fullname": "University of Oklahoma Airport, Norman, Oklahoma, Cleveland, United States", 
-        "sw_latitude": 35.233
+        "sw_latitude": 35.229, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 35.237, 
+        "sw_longitude": -97.488, 
+        "fullname": "University of Oklahoma Airport, Norman, Oklahoma, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522249
     }

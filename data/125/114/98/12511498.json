@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511498, 
+        "placetype": "airport", 
         "name": "Rogozen Airport", 
-        "ne_latitude": 43.519, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55873782", 
+          "woe:state=20070057", 
+          "woe:country=23424771", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511498, 
         "ne_longitude": 23.695, 
         "longitude": 23.688, 
-        "placetype": "Airport", 
+        "parent_woeid": 55873782, 
+        "ne_latitude": 43.519, 
         "iso": "BG", 
-        "date_indexed": "2010-12-02T16:14:37Z", 
-        "parent_woeid": 839274, 
+        "sw_latitude": 43.510, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.515, 
         "sw_longitude": 23.682, 
         "fullname": "Rogozen Airport, Vratsa, Hayredin, Bulgaria", 
-        "sw_latitude": 43.510
+        "date_indexed": "2010-12-02T16:14:37Z"
       }, 
       "id": 12511498
     }

@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522782, 
-        "name": "El Vigia Airport", 
         "alias_ENG_V": [
           "VVG"
         ], 
-        "ne_latitude": 8.633, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "El Vigia Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=26805256", 
+          "woe:county=26804725", 
+          "woe:state=2347690", 
+          "woe:country=23424982", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522782, 
         "ne_longitude": -71.657, 
         "longitude": -71.661, 
-        "placetype": "Airport", 
+        "parent_woeid": 26805256, 
+        "ne_latitude": 8.633, 
         "iso": "VE", 
-        "date_indexed": "2010-12-02T16:11:43Z", 
-        "parent_woeid": 468413, 
+        "sw_latitude": 8.624, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 8.628, 
         "sw_longitude": -71.666, 
-        "fullname": "El Vigia Airport, El Vig\u00eda, M\u00e9rida, Alberto Adriani, Venezuela", 
-        "sw_latitude": 8.624
+        "fullname": "El Vigia Airport, El Vig\u00eda, M\u00e9rida, Venezuela", 
+        "iata_code": "VVG", 
+        "date_indexed": "2010-12-02T16:11:43Z"
       }, 
       "id": 12522782
     }

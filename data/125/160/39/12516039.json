@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516039, 
+        "placetype": "airport", 
         "name": "Innakh Airport", 
-        "ne_latitude": 67.265, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597640", 
+          "woe:state=2346881", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516039, 
         "ne_longitude": 159.174, 
         "longitude": 159.163, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597640, 
+        "ne_latitude": 67.265, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2121475, 
+        "sw_latitude": 67.256, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 67.260, 
         "sw_longitude": 159.151, 
-        "fullname": "Innakh Airport, Kolymskaya, Sakha, Nizhnekolymsky, Russia", 
-        "sw_latitude": 67.256
+        "fullname": "Innakh Airport, Kolymskaya, Sakha, Russia", 
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516039
     }

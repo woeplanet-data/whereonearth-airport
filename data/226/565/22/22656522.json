@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 22656522, 
+        "placetype": "airport", 
         "name": "Flugplatz Triengen", 
-        "ne_latitude": 47.229, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12684517", 
+          "woe:county=12593207", 
+          "woe:state=2347093", 
+          "woe:country=23424957", 
+          "woe:planet=1"
+        ], 
+        "woeid": 22656522, 
         "ne_longitude": 8.081, 
         "longitude": 8.078, 
-        "placetype": "Airport", 
+        "parent_woeid": 12684517, 
+        "ne_latitude": 47.229, 
         "iso": "CH", 
-        "date_indexed": "2010-12-02T18:20:52Z", 
-        "parent_woeid": 784436, 
+        "sw_latitude": 47.225, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.227, 
         "sw_longitude": 8.076, 
-        "fullname": "Flugplatz Triengen, Triengen, Canton of Lucerne, Sursee, Switzerland", 
-        "sw_latitude": 47.225
+        "fullname": "Flugplatz Triengen, Triengen, Canton of Lucerne, Switzerland", 
+        "date_indexed": "2010-12-02T18:20:52Z"
       }, 
       "id": 22656522
     }

@@ -3,28 +3,30 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              0.707, 
-              47.418
-            ], 
-            [
-              0.707, 
-              47.445
-            ], 
-            [
-              0.734, 
-              47.445
-            ], 
-            [
-              0.734, 
-              47.418
-            ], 
-            [
-              0.707, 
-              47.418
+              [
+                0.711, 
+                47.426
+              ], 
+              [
+                0.710, 
+                47.426
+              ], 
+              [
+                0.710, 
+                47.425
+              ], 
+              [
+                0.710, 
+                47.426
+              ], 
+              [
+                0.711, 
+                47.426
+              ]
             ]
           ]
         ]
@@ -32,32 +34,39 @@
       "type": "Feature", 
       "properties": {
         "lang": "FRE", 
-        "woeid": 12512976, 
+        "alias_ENG_V": [
+          "TUF"
+        ], 
         "name": "A\u00e9roport de Tours-Val-D\u00e9-Loir\u00e9", 
         "alias_ENG_P": [
           "St Symphorien Airport"
         ], 
-        "ne_latitude": 47.445, 
-        "alias_ENG_V": [
-          "TUF"
+        "hierarchy": [
+          "woe:localadmin=12653257", 
+          "woe:county=12597121", 
+          "woe:state=7153314", 
+          "woe:country=23424819", 
+          "woe:planet=1"
         ], 
-        "ne_longitude": 0.734, 
-        "longitude": 0.719, 
-        "parent_woeid": 628971, 
-        "placetype": "Airport", 
+        "woeid": 12512976, 
+        "provider": "geoplanet 7.6.0", 
+        "ne_longitude": 0.711, 
+        "longitude": 0.710, 
+        "parent_woeid": 12653257, 
+        "placetype": "airport", 
+        "latitude": 47.426, 
+        "iso": "FR", 
+        "sw_latitude": 47.425, 
+        "ne_latitude": 47.426, 
         "alias_FRE_V": [
           "TUF A\u00e9roport"
         ], 
-        "iso": "FR", 
-        "date_indexed": "2010-12-02T12:04:01Z", 
-        "provider": "geoplanet 7.6.0", 
-        "latitude": 47.426, 
-        "sw_longitude": 0.707, 
-        "fullname": "A\u00e9roport de Tours-Val-D\u00e9-Loir\u00e9, Tours, Centre, Indre-et-Loire, France", 
+        "sw_longitude": 0.710, 
+        "fullname": "A\u00e9roport de Tours-Val-D\u00e9-Loir\u00e9, Tours, Centre, France", 
         "alias_FRE_S": [
           "Aeroport Tours-Val-Loire"
         ], 
-        "sw_latitude": 47.418
+        "date_indexed": "2010-12-02T12:04:01Z"
       }, 
       "id": 12512976
     }

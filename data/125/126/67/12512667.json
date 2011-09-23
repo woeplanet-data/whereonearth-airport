@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512667, 
-        "name": "Asyut Airport", 
         "alias_ENG_V": [
           "ATZ"
         ], 
-        "ne_latitude": 27.046, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Asyut Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2345239", 
+          "woe:country=23424802", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512667, 
         "ne_longitude": 31.017, 
         "longitude": 31.011, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345239, 
+        "ne_latitude": 27.046, 
         "iso": "EG", 
-        "date_indexed": "2010-12-02T12:16:51Z", 
-        "parent_woeid": 1525077, 
+        "sw_latitude": 27.037, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 27.041, 
         "sw_longitude": 31.006, 
         "fullname": "Asyut Airport, Asyut, Egypt", 
-        "sw_latitude": 27.037
+        "iata_code": "ATZ", 
+        "date_indexed": "2010-12-02T12:16:51Z"
       }, 
       "id": 12512667
     }

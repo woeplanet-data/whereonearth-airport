@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522846, 
+        "placetype": "airport", 
         "name": "Santa Barbara de Monagas Airport", 
-        "ne_latitude": 9.713, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=26805147", 
+          "woe:county=26804657", 
+          "woe:state=2347692", 
+          "woe:country=23424982", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522846, 
         "ne_longitude": -63.620, 
         "longitude": -63.625, 
-        "placetype": "Airport", 
+        "parent_woeid": 26805147, 
+        "ne_latitude": 9.713, 
         "iso": "VE", 
-        "date_indexed": "2010-12-02T16:11:43Z", 
-        "parent_woeid": 395306, 
+        "sw_latitude": 9.704, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 9.708, 
         "sw_longitude": -63.630, 
-        "fullname": "Santa Barbara de Monagas Airport, Punta de Mata, Monagas, Ezequiel Zamora, Venezuela", 
-        "sw_latitude": 9.704
+        "fullname": "Santa Barbara de Monagas Airport, Punta de Mata, Monagas, Venezuela", 
+        "date_indexed": "2010-12-02T16:11:43Z"
       }, 
       "id": 12522846
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513899, 
+        "placetype": "airport", 
         "name": "H 2 Airport", 
-        "ne_latitude": 33.360, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55999898", 
+          "woe:state=2345833", 
+          "woe:country=23424855", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513899, 
         "ne_longitude": 40.604, 
         "longitude": 40.598, 
-        "placetype": "Airport", 
+        "parent_woeid": 55999898, 
+        "ne_latitude": 33.360, 
         "iso": "IQ", 
-        "date_indexed": "2010-12-02T16:42:58Z", 
-        "parent_woeid": 1979431, 
+        "sw_latitude": 33.351, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 33.355, 
         "sw_longitude": 40.593, 
-        "fullname": "H 2 Airport, Rutbah, Al Anbar, Al Rutba, Iraq", 
-        "sw_latitude": 33.351
+        "fullname": "H 2 Airport, Rutbah, Al Anbar, Iraq", 
+        "date_indexed": "2010-12-02T16:42:58Z"
       }, 
       "id": 12513899
     }

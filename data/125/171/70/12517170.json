@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517170, 
+        "placetype": "airport", 
         "name": "Vetyu Airport", 
-        "ne_latitude": 62.953, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597446", 
+          "woe:state=2346874", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517170, 
         "ne_longitude": 50.780, 
         "longitude": 50.770, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597446, 
+        "ne_latitude": 62.953, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2106385, 
+        "sw_latitude": 62.943, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 62.948, 
         "sw_longitude": 50.760, 
         "fullname": "Vetyu Airport, Komi, Knyazhpogostsky, Russia", 
-        "sw_latitude": 62.943
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12517170
     }

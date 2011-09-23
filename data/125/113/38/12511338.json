@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511338, 
+        "placetype": "airport", 
         "name": "Aeroporto Tamboril", 
         "alias_ENG_P": [
           "Tamboril Airport"
         ], 
-        "ne_latitude": -4.845, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12578809", 
+          "woe:state=2344849", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511338, 
         "ne_longitude": -40.345, 
         "longitude": -40.350, 
-        "placetype": "Airport", 
+        "parent_woeid": 12578809, 
+        "ne_latitude": -4.845, 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:28Z", 
-        "parent_woeid": 458148, 
+        "sw_latitude": -4.855, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -4.850, 
         "sw_longitude": -40.355, 
-        "fullname": "Aeroporto Tamboril, Tamboril, Ceara, Tamboril, Brazil", 
-        "sw_latitude": -4.855
+        "fullname": "Aeroporto Tamboril, Tamboril, Ceara, Brazil", 
+        "date_indexed": "2010-12-02T18:01:28Z"
       }, 
       "id": 12511338
     }

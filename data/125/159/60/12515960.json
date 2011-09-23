@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515960, 
+        "placetype": "airport", 
         "name": "Dygdal Airport", 
-        "ne_latitude": 63.310, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597648", 
+          "woe:state=2346881", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515960, 
         "ne_longitude": 130.406, 
         "longitude": 130.396, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597648, 
+        "ne_latitude": 63.310, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2004008, 
+        "sw_latitude": 63.300, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 63.305, 
         "sw_longitude": 130.386, 
         "fullname": "Dygdal Airport, Sakha, Ust-Aldansky, Russia", 
-        "sw_latitude": 63.300
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12515960
     }

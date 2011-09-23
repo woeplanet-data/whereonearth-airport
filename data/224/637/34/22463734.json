@@ -3,28 +3,222 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -3.398, 
-              55.940
-            ], 
-            [
-              -3.398, 
-              55.960
-            ], 
-            [
-              -3.324, 
-              55.960
-            ], 
-            [
-              -3.324, 
-              55.940
-            ], 
-            [
-              -3.398, 
-              55.940
+              [
+                -3.367, 
+                55.955
+              ], 
+              [
+                -3.364, 
+                55.956
+              ], 
+              [
+                -3.362, 
+                55.956
+              ], 
+              [
+                -3.355, 
+                55.961
+              ], 
+              [
+                -3.357, 
+                55.969
+              ], 
+              [
+                -3.358, 
+                55.971
+              ], 
+              [
+                -3.362, 
+                55.974
+              ], 
+              [
+                -3.358, 
+                55.980
+              ], 
+              [
+                -3.353, 
+                55.978
+              ], 
+              [
+                -3.343, 
+                55.974
+              ], 
+              [
+                -3.330, 
+                55.972
+              ], 
+              [
+                -3.328, 
+                55.972
+              ], 
+              [
+                -3.327, 
+                55.971
+              ], 
+              [
+                -3.326, 
+                55.971
+              ], 
+              [
+                -3.328, 
+                55.972
+              ], 
+              [
+                -3.336, 
+                55.967
+              ], 
+              [
+                -3.344, 
+                55.956
+              ], 
+              [
+                -3.343, 
+                55.953
+              ], 
+              [
+                -3.343, 
+                55.953
+              ], 
+              [
+                -3.338, 
+                55.946
+              ], 
+              [
+                -3.336, 
+                55.945
+              ], 
+              [
+                -3.330, 
+                55.944
+              ], 
+              [
+                -3.330, 
+                55.939
+              ], 
+              [
+                -3.335, 
+                55.938
+              ], 
+              [
+                -3.339, 
+                55.934
+              ], 
+              [
+                -3.345, 
+                55.938
+              ], 
+              [
+                -3.351, 
+                55.935
+              ], 
+              [
+                -3.351, 
+                55.921
+              ], 
+              [
+                -3.351, 
+                55.920
+              ], 
+              [
+                -3.350, 
+                55.920
+              ], 
+              [
+                -3.346, 
+                55.922
+              ], 
+              [
+                -3.351, 
+                55.935
+              ], 
+              [
+                -3.360, 
+                55.932
+              ], 
+              [
+                -3.367, 
+                55.930
+              ], 
+              [
+                -3.369, 
+                55.925
+              ], 
+              [
+                -3.370, 
+                55.924
+              ], 
+              [
+                -3.377, 
+                55.915
+              ], 
+              [
+                -3.378, 
+                55.923
+              ], 
+              [
+                -3.379, 
+                55.930
+              ], 
+              [
+                -3.381, 
+                55.940
+              ], 
+              [
+                -3.388, 
+                55.941
+              ], 
+              [
+                -3.392, 
+                55.944
+              ], 
+              [
+                -3.399, 
+                55.942
+              ], 
+              [
+                -3.401, 
+                55.953
+              ], 
+              [
+                -3.397, 
+                55.956
+              ], 
+              [
+                -3.397, 
+                55.956
+              ], 
+              [
+                -3.389, 
+                55.955
+              ], 
+              [
+                -3.384, 
+                55.951
+              ], 
+              [
+                -3.375, 
+                55.954
+              ], 
+              [
+                -3.374, 
+                55.968
+              ], 
+              [
+                -3.372, 
+                55.954
+              ], 
+              [
+                -3.369, 
+                55.954
+              ], 
+              [
+                -3.367, 
+                55.955
+              ]
             ]
           ]
         ]
@@ -37,11 +231,19 @@
         "alias_SWE_Q": [
           "Edinburgh Flygplats"
         ], 
-        "ne_latitude": 55.960, 
-        "placetype": "Airport", 
+        "hierarchy": [
+          "woe:localadmin=12696195", 
+          "woe:county=12602204", 
+          "woe:state=12578048", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "ne_latitude": 55.980, 
+        "placetype": "airport", 
         "alias_POR_Q": [
           "Aeroporto de Edimburgo"
         ], 
+        "iata_code": "EDI", 
         "alias_ITA_Q": [
           "Aeroporto Di Edimburgo"
         ], 
@@ -52,12 +254,12 @@
         "alias_FIN_Q": [
           "Edinburghin Lentokentt\u00e4"
         ], 
-        "sw_longitude": -3.398, 
+        "sw_longitude": -3.401, 
         "alias_FIN_V": [
           "Edinburghin Lentokentta"
         ], 
         "provider": "geoplanet 7.6.0", 
-        "latitude": 55.948, 
+        "latitude": 55.950, 
         "date_indexed": "2010-12-02T12:21:01Z", 
         "alias_DUT_Q": [
           "Luchthaven Edinburgh"
@@ -70,15 +272,15 @@
         ], 
         "lang": "ENG", 
         "name": "Edinburgh International Airport", 
-        "parent_woeid": 20091439, 
-        "ne_longitude": -3.324, 
-        "longitude": -3.364, 
+        "parent_woeid": 12696195, 
+        "ne_longitude": -3.326, 
+        "longitude": -3.362, 
         "iso": "GB", 
-        "sw_latitude": 55.940, 
+        "sw_latitude": 55.915, 
         "alias_FRE_V": [
           "Aeroport d'Edinbourg"
         ], 
-        "fullname": "Edinburgh International Airport, Ingliston, Scotland, Lothian, United Kingdom", 
+        "fullname": "Edinburgh International Airport, Ingliston, Scotland, United Kingdom", 
         "alias_FRE_Q": [
           "A\u00e9roport d'Edinbourg"
         ]

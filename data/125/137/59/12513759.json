@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513759, 
+        "placetype": "airport", 
         "name": "Semnan Airport", 
-        "ne_latitude": 35.595, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345784", 
+          "woe:country=23424851", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513759, 
         "ne_longitude": 53.500, 
         "longitude": 53.494, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345784, 
+        "ne_latitude": 35.595, 
         "iso": "IR", 
-        "date_indexed": "2010-12-02T08:53:52Z", 
-        "parent_woeid": 2254310, 
+        "sw_latitude": 35.586, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.591, 
         "sw_longitude": 53.489, 
         "fullname": "Semnan Airport, Alla, Semnan, Iran", 
-        "sw_latitude": 35.586
+        "date_indexed": "2010-12-02T08:53:52Z"
       }, 
       "id": 12513759
     }

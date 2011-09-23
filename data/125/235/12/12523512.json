@@ -32,29 +32,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12523512, 
-        "name": "Aeroporto Camocim", 
-        "alias_ENG_P": [
-          "Camocim Airport"
-        ], 
-        "ne_latitude": -2.898, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "CMC"
         ], 
+        "name": "Aeroporto Camocim", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Camocim Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12578676", 
+          "woe:state=2344849", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523512, 
         "ne_longitude": -40.839, 
         "longitude": -40.844, 
-        "placetype": "Airport", 
+        "parent_woeid": 12578676, 
+        "ne_latitude": -2.898, 
         "alias_POR_V": [
           "Aeroporto CMC"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:28Z", 
-        "parent_woeid": 456111, 
+        "sw_latitude": -2.908, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -2.903, 
         "sw_longitude": -40.848, 
-        "fullname": "Aeroporto Camocim, Camocim, Ceara, Camocim, Brazil", 
-        "sw_latitude": -2.908
+        "fullname": "Aeroporto Camocim, Camocim, Ceara, Brazil", 
+        "iata_code": "CMC", 
+        "date_indexed": "2010-12-02T18:01:28Z"
       }, 
       "id": 12523512
     }

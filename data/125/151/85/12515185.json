@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515185, 
-        "name": "Pilar Airport", 
         "alias_ENG_V": [
           "PIL"
         ], 
-        "ne_latitude": -26.876, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Pilar Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26810743", 
+          "woe:state=2346459", 
+          "woe:country=23424917", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515185, 
         "ne_longitude": -58.313, 
         "longitude": -58.318, 
-        "placetype": "Airport", 
+        "parent_woeid": 26810743, 
+        "ne_latitude": -26.876, 
         "iso": "PY", 
-        "date_indexed": "2010-12-02T12:08:38Z", 
-        "parent_woeid": 379189, 
+        "sw_latitude": -26.885, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -26.880, 
         "sw_longitude": -58.323, 
-        "fullname": "Pilar Airport, Pilar, \u00d1eembuc\u00fa, Pilar, Paraguay", 
-        "sw_latitude": -26.885
+        "fullname": "Pilar Airport, Pilar, \u00d1eembuc\u00fa, Paraguay", 
+        "iata_code": "PIL", 
+        "date_indexed": "2010-12-02T12:08:38Z"
       }, 
       "id": 12515185
     }

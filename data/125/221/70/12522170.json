@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522170, 
+        "placetype": "airport", 
         "name": "Tract C A 84 Mesa Airport", 
-        "ne_latitude": 39.952, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12587779", 
+          "woe:state=2347564", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522170, 
         "ne_longitude": -108.432, 
         "longitude": -108.438, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587779, 
+        "ne_latitude": 39.952, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2519518, 
+        "sw_latitude": 39.943, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 39.947, 
         "sw_longitude": -108.444, 
-        "fullname": "Tract C A 84 Mesa Airport, White River City, Colorado, Rio Blanco, United States", 
-        "sw_latitude": 39.943
+        "fullname": "Tract C A 84 Mesa Airport, White River City, Colorado, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12522170
     }

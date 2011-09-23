@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521561, 
-        "name": "Goodland Municipal Airport", 
         "alias_ENG_V": [
           "GLD Airport"
         ], 
-        "ne_latitude": 39.376, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Goodland Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588461", 
+          "woe:state=2347575", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521561, 
         "ne_longitude": -101.688, 
         "longitude": -101.708, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588461, 
+        "ne_latitude": 39.376, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2412064, 
+        "sw_latitude": 39.361, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 39.369, 
         "sw_longitude": -101.708, 
-        "fullname": "Goodland Municipal Airport, Goodland, Kansas, Sherman, United States", 
-        "sw_latitude": 39.361
+        "fullname": "Goodland Municipal Airport, Goodland, Kansas, United States", 
+        "iata_code": "GLD", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521561
     }

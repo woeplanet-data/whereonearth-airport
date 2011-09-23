@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521503, 
+        "placetype": "airport", 
         "name": "Putty Ranch Airport", 
-        "ne_latitude": 31.977, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12590103", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521503, 
         "ne_longitude": -98.056, 
         "longitude": -98.061, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590103, 
+        "ne_latitude": 31.977, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2420968, 
+        "sw_latitude": 31.968, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 31.972, 
         "sw_longitude": -98.066, 
-        "fullname": "Putty Ranch Airport, Hico, Texas, Hamilton, United States", 
-        "sw_latitude": 31.968
+        "fullname": "Putty Ranch Airport, Hico, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521503
     }

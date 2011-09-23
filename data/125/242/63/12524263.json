@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524263, 
-        "name": "Webequie Airport", 
         "alias_ENG_V": [
           "YWP Airport"
         ], 
-        "ne_latitude": 52.983, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Webequie Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375238", 
+          "woe:state=2344922", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524263, 
         "ne_longitude": -87.350, 
         "longitude": -87.358, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375238, 
+        "ne_latitude": 52.983, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 23397716, 
+        "sw_latitude": 52.973, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 52.978, 
         "sw_longitude": -87.365, 
-        "fullname": "Webequie Airport, Webequie, Ontario, Kenora, Canada", 
-        "sw_latitude": 52.973
+        "fullname": "Webequie Airport, Webequie, Ontario, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12524263
     }

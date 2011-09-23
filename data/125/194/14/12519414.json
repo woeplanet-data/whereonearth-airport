@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519414, 
-        "name": "Darke County Airport", 
         "alias_ENG_V": [
           "VES"
         ], 
-        "ne_latitude": 40.207, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Darke County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589545", 
+          "woe:state=2347594", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519414, 
         "ne_longitude": -84.522, 
         "longitude": -84.541, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589545, 
+        "ne_latitude": 40.207, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2360648, 
+        "sw_latitude": 40.204, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.204, 
         "sw_longitude": -84.541, 
-        "fullname": "Darke County Airport, Beamsville, Ohio, Darke, United States", 
-        "sw_latitude": 40.204
+        "fullname": "Darke County Airport, Beamsville, Ohio, United States", 
+        "iata_code": "VES", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519414
     }

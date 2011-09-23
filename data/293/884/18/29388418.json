@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388418, 
-        "name": "Griswold Airport", 
         "alias_ENG_V": [
           "N04"
         ], 
-        "ne_latitude": 41.276, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Griswold Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587795", 
+          "woe:state=2347565", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388418, 
         "ne_longitude": -72.545, 
         "longitude": -72.549, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587795, 
+        "ne_latitude": 41.276, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2443929, 
+        "sw_latitude": 41.269, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.275, 
         "sw_longitude": -72.552, 
-        "fullname": "Griswold Airport, Madison, Connecticut, New Haven, United States", 
-        "sw_latitude": 41.269
+        "fullname": "Griswold Airport, Madison, Connecticut, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388418
     }

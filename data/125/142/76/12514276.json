@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514276, 
+        "placetype": "airport", 
         "name": "Atbasar Airport", 
-        "ne_latitude": 51.857, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345996", 
+          "woe:country=23424871", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514276, 
         "ne_longitude": 68.387, 
         "longitude": 68.379, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345996, 
+        "ne_latitude": 51.857, 
         "iso": "KZ", 
-        "date_indexed": "2010-12-02T08:54:13Z", 
-        "parent_woeid": 2264212, 
+        "sw_latitude": 51.848, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.852, 
         "sw_longitude": 68.372, 
         "fullname": "Atbasar Airport, Atbasar, Aqmola, Kazakhstan", 
-        "sw_latitude": 51.848
+        "date_indexed": "2010-12-02T08:54:13Z"
       }, 
       "id": 12514276
     }

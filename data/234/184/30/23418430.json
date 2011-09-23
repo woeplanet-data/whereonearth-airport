@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 23418430, 
-        "name": "Santa Paula Airport", 
         "alias_ENG_V": [
           "Szp"
         ], 
-        "ne_latitude": 34.350, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Santa Paula Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587725", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 23418430, 
         "ne_longitude": -119.056, 
         "longitude": -119.062, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587725, 
+        "ne_latitude": 34.350, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2488904, 
+        "sw_latitude": 34.344, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 34.349, 
         "sw_longitude": -119.067, 
-        "fullname": "Santa Paula Airport, Santa Paula, California, Ventura, United States", 
-        "sw_latitude": 34.344
+        "fullname": "Santa Paula Airport, Santa Paula, California, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 23418430
     }

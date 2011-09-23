@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512701, 
-        "name": "Port Said Airport", 
         "alias_ENG_V": [
           "Pt Said Airport"
         ], 
-        "ne_latitude": 31.285, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Port Said Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2345241", 
+          "woe:country=23424802", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512701, 
         "ne_longitude": 32.248, 
         "longitude": 32.243, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345241, 
+        "ne_latitude": 31.285, 
         "iso": "EG", 
-        "date_indexed": "2010-12-02T12:16:51Z", 
-        "parent_woeid": 1525969, 
+        "sw_latitude": 31.276, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 31.281, 
         "sw_longitude": 32.238, 
         "fullname": "Port Said Airport, Port Said, Bur Sa'id, Egypt", 
-        "sw_latitude": 31.276
+        "iata_code": "PSD", 
+        "date_indexed": "2010-12-02T12:16:51Z"
       }, 
       "id": 12512701
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 28677753, 
-        "name": "Halls Creek Aerodrome", 
         "alias_ENG_V": [
           "Halls Creek Airport"
         ], 
-        "ne_latitude": -18.231, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Halls Creek Aerodrome", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55864073", 
+          "woe:state=2344706", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 28677753, 
         "ne_longitude": 127.673, 
         "longitude": 127.668, 
-        "placetype": "Airport", 
+        "parent_woeid": 55864073, 
+        "ne_latitude": -18.231, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1102527, 
+        "sw_latitude": -18.242, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -18.231, 
         "sw_longitude": 127.661, 
-        "fullname": "Halls Creek Aerodrome, Halls Creek, Western Australia, Halls Creek, Australia", 
-        "sw_latitude": -18.242
+        "fullname": "Halls Creek Aerodrome, Halls Creek, Western Australia, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 28677753
     }

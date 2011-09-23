@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521676, 
-        "name": "Rusk County Airport", 
         "alias_ENG_V": [
           "RCX"
         ], 
-        "ne_latitude": 45.503, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Rusk County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590588", 
+          "woe:state=2347608", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521676, 
         "ne_longitude": -90.995, 
         "longitude": -91.008, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590588, 
+        "ne_latitude": 45.503, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2507111, 
+        "sw_latitude": 45.491, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.498, 
         "sw_longitude": -91.008, 
-        "fullname": "Rusk County Airport, Tony, Wisconsin, Rusk, United States", 
-        "sw_latitude": 45.491
+        "fullname": "Rusk County Airport, Tony, Wisconsin, United States", 
+        "iata_code": "RCX", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521676
     }

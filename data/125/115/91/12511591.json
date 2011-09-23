@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511591, 
-        "name": "Burns Lake Airport", 
         "alias_ENG_V": [
           "YPZ Airport"
         ], 
-        "ne_latitude": 54.257, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Burns Lake Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375075", 
+          "woe:state=2344916", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511591, 
         "ne_longitude": -125.766, 
         "longitude": -125.773, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375075, 
+        "ne_latitude": 54.257, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 29373645, 
+        "sw_latitude": 54.248, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 54.253, 
         "sw_longitude": -125.781, 
-        "fullname": "Burns Lake Airport, Burns Lake Indian Reserve 18, British Columbia, Bulkley-Nechako, Canada", 
-        "sw_latitude": 54.248
+        "fullname": "Burns Lake Airport, Burns Lake Indian Reserve 18, British Columbia, Canada", 
+        "iata_code": "YPZ", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12511591
     }

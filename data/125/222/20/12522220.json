@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522220, 
-        "name": "Tunica Municipal Airport", 
         "alias_ENG_V": [
           "Tunica Airport"
         ], 
-        "ne_latitude": 34.701, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Tunica Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588955", 
+          "woe:state=2347583", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522220, 
         "ne_longitude": -90.341, 
         "longitude": -90.351, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588955, 
+        "ne_latitude": 34.701, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2508608, 
+        "sw_latitude": 34.670, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 34.682, 
         "sw_longitude": -90.354, 
-        "fullname": "Tunica Municipal Airport, Tunica, Mississippi, Tunica, United States", 
-        "sw_latitude": 34.670
+        "fullname": "Tunica Municipal Airport, Tunica, Mississippi, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522220
     }

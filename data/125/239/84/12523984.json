@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523984, 
-        "name": "Flotta Airport", 
         "alias_ENG_V": [
           "FLH"
         ], 
-        "ne_latitude": 58.832, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Flotta Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=12696205", 
+          "woe:county=12602205", 
+          "woe:state=12578048", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523984, 
         "ne_longitude": -3.106, 
         "longitude": -3.114, 
-        "placetype": "Airport", 
+        "parent_woeid": 12696205, 
+        "ne_latitude": 58.832, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:21:01Z", 
-        "parent_woeid": 20094130, 
+        "sw_latitude": 58.823, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 58.827, 
         "sw_longitude": -3.123, 
-        "fullname": "Flotta Airport, Oil Terminal, Scotland, Orkney, United Kingdom", 
-        "sw_latitude": 58.823
+        "fullname": "Flotta Airport, Oil Terminal, Scotland, United Kingdom", 
+        "date_indexed": "2010-12-02T12:21:01Z"
       }, 
       "id": 12523984
     }

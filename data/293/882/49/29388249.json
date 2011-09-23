@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388249, 
+        "placetype": "airport", 
         "name": "Au Gres Airport", 
-        "ne_latitude": 44.055, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12588719", 
+          "woe:state=2347581", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388249, 
         "ne_longitude": -83.693, 
         "longitude": -83.696, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588719, 
+        "ne_latitude": 44.055, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2357237, 
+        "sw_latitude": 44.052, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.054, 
         "sw_longitude": -83.698, 
-        "fullname": "Au Gres Airport, Au Gres, Michigan, Arenac, United States", 
-        "sw_latitude": 44.052
+        "fullname": "Au Gres Airport, Au Gres, Michigan, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 29388249
     }

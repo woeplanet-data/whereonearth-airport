@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521570, 
-        "name": "Rhinelander-Oneida County Airport", 
         "alias_ENG_V": [
           "RHI Airport"
         ], 
-        "ne_latitude": 45.641, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Rhinelander-Oneida County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590577", 
+          "woe:state=2347608", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521570, 
         "ne_longitude": -89.448, 
         "longitude": -89.463, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590577, 
+        "ne_latitude": 45.641, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2480537, 
+        "sw_latitude": 45.620, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.626, 
         "sw_longitude": -89.502, 
-        "fullname": "Rhinelander-Oneida County Airport, Rhinelander, Wisconsin, Oneida, United States", 
-        "sw_latitude": 45.620
+        "fullname": "Rhinelander-Oneida County Airport, Rhinelander, Wisconsin, United States", 
+        "iata_code": "RHI", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521570
     }

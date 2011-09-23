@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29387858, 
-        "name": "Junction Airport", 
         "alias_ENG_V": [
           "U13"
         ], 
-        "ne_latitude": 38.258, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Junction Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590276", 
+          "woe:state=2347603", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29387858, 
         "ne_longitude": -112.220, 
         "longitude": -112.220, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590276, 
+        "ne_latitude": 38.258, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2430263, 
+        "sw_latitude": 38.245, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.251, 
         "sw_longitude": -112.229, 
-        "fullname": "Junction Airport, Junction, Utah, Piute, United States", 
-        "sw_latitude": 38.245
+        "fullname": "Junction Airport, Junction, Utah, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29387858
     }

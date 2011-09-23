@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518095, 
-        "name": "Greenham Common Airport", 
         "alias_ENG_V": [
           "EWY Airport"
         ], 
-        "ne_latitude": 51.382, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Greenham Common Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=12696165", 
+          "woe:county=26821262", 
+          "woe:state=24554868", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518095, 
         "ne_longitude": -1.272, 
         "longitude": -1.279, 
-        "placetype": "Airport", 
+        "parent_woeid": 12696165, 
+        "ne_latitude": 51.382, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:20:54Z", 
-        "parent_woeid": 22824, 
+        "sw_latitude": 51.373, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.378, 
         "sw_longitude": -1.286, 
-        "fullname": "Greenham Common Airport, Heads Hill, England, Berkshire, United Kingdom", 
-        "sw_latitude": 51.373
+        "fullname": "Greenham Common Airport, Heads Hill, England, United Kingdom", 
+        "iata_code": "EWY", 
+        "date_indexed": "2010-12-02T12:20:54Z"
       }, 
       "id": 12518095
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511868, 
-        "name": "Terrace Airport", 
         "alias_ENG_V": [
           "YXT Airport"
         ], 
-        "ne_latitude": 54.477, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Terrace Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375209", 
+          "woe:state=2344916", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511868, 
         "ne_longitude": -128.559, 
         "longitude": -128.577, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375209, 
+        "ne_latitude": 54.477, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:24:00Z", 
-        "parent_woeid": 29374013, 
+        "sw_latitude": 54.448, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 54.473, 
         "sw_longitude": -128.597, 
-        "fullname": "Terrace Airport, Kulspai Indian Reserve 6, British Columbia, Kitimat-Stikine, Canada", 
-        "sw_latitude": 54.448
+        "fullname": "Terrace Airport, Kulspai Indian Reserve 6, British Columbia, Canada", 
+        "date_indexed": "2010-12-02T10:24:00Z"
       }, 
       "id": 12511868
     }

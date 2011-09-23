@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523007, 
+        "placetype": "airport", 
         "name": "Kasompe Airport", 
-        "ne_latitude": -12.569, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2347802", 
+          "woe:country=23425003", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523007, 
         "ne_longitude": 27.899, 
         "longitude": 27.894, 
-        "placetype": "Airport", 
+        "parent_woeid": 2347802, 
+        "ne_latitude": -12.569, 
         "iso": "ZM", 
-        "date_indexed": "2010-12-02T07:50:42Z", 
-        "parent_woeid": 1564691, 
+        "sw_latitude": -12.578, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -12.574, 
         "sw_longitude": 27.890, 
         "fullname": "Kasompe Airport, Chingola, Copperbelt, Zambia", 
-        "sw_latitude": -12.578
+        "date_indexed": "2010-12-02T07:50:42Z"
       }, 
       "id": 12523007
     }

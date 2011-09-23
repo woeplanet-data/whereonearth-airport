@@ -3,28 +3,66 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -78.000, 
-              39.392
-            ], 
-            [
-              -78.000, 
-              39.411
-            ], 
-            [
-              -77.968, 
-              39.411
-            ], 
-            [
-              -77.968, 
-              39.392
-            ], 
-            [
-              -78.000, 
-              39.392
+              [
+                -77.986, 
+                39.402
+              ], 
+              [
+                -77.985, 
+                39.403
+              ], 
+              [
+                -77.983, 
+                39.406
+              ], 
+              [
+                -77.983, 
+                39.406
+              ], 
+              [
+                -77.979, 
+                39.406
+              ], 
+              [
+                -77.977, 
+                39.404
+              ], 
+              [
+                -77.973, 
+                39.405
+              ], 
+              [
+                -77.972, 
+                39.407
+              ], 
+              [
+                -77.977, 
+                39.404
+              ], 
+              [
+                -77.983, 
+                39.403
+              ], 
+              [
+                -77.982, 
+                39.400
+              ], 
+              [
+                -77.985, 
+                39.400
+              ], 
+              [
+                -77.987, 
+                39.400
+              ], 
+              [
+                -77.986, 
+                39.402
+              ]
             ]
           ]
         ]
@@ -32,23 +70,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519557, 
-        "name": "Eastern West Virginia Regional Airport-Shepherd Field", 
         "alias_ENG_V": [
           "Eastern West Virginia-Shepherd Field"
         ], 
-        "ne_latitude": 39.411, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -77.968, 
-        "longitude": -77.982, 
-        "placetype": "Airport", 
+        "name": "Eastern West Virginia Regional Airport-Shepherd Field", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590480", 
+          "woe:state=2347607", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519557, 
+        "ne_longitude": -77.972, 
+        "longitude": -77.983, 
+        "parent_woeid": 12590480, 
+        "ne_latitude": 39.407, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2511371, 
-        "latitude": 39.400, 
-        "sw_longitude": -78.000, 
-        "fullname": "Eastern West Virginia Regional Airport-Shepherd Field, Vanville, West Virginia, Berkeley, United States", 
-        "sw_latitude": 39.392
+        "sw_latitude": 39.400, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 39.403, 
+        "sw_longitude": -77.987, 
+        "fullname": "Eastern West Virginia Regional Airport-Shepherd Field, Vanville, West Virginia, United States", 
+        "iata_code": "MRB", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519557
     }

@@ -3,28 +3,78 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -119.385, 
-              49.946
-            ], 
-            [
-              -119.385, 
-              49.970
-            ], 
-            [
-              -119.369, 
-              49.970
-            ], 
-            [
-              -119.369, 
-              49.946
-            ], 
-            [
-              -119.385, 
-              49.946
+              [
+                -119.380, 
+                49.951
+              ], 
+              [
+                -119.379, 
+                49.948
+              ], 
+              [
+                -119.386, 
+                49.945
+              ], 
+              [
+                -119.391, 
+                49.941
+              ], 
+              [
+                -119.394, 
+                49.941
+              ], 
+              [
+                -119.396, 
+                49.942
+              ], 
+              [
+                -119.398, 
+                49.943
+              ], 
+              [
+                -119.398, 
+                49.944
+              ], 
+              [
+                -119.394, 
+                49.943
+              ], 
+              [
+                -119.386, 
+                49.945
+              ], 
+              [
+                -119.390, 
+                49.953
+              ], 
+              [
+                -119.383, 
+                49.952
+              ], 
+              [
+                -119.382, 
+                49.953
+              ], 
+              [
+                -119.381, 
+                49.955
+              ], 
+              [
+                -119.380, 
+                49.954
+              ], 
+              [
+                -119.380, 
+                49.954
+              ], 
+              [
+                -119.380, 
+                49.951
+              ]
             ]
           ]
         ]
@@ -32,23 +82,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511712, 
-        "name": "Kelowna International Airport", 
         "alias_ENG_V": [
           "YLW Airport"
         ], 
-        "ne_latitude": 49.970, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -119.369, 
-        "longitude": -119.382, 
-        "placetype": "Airport", 
+        "name": "Kelowna International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375224", 
+          "woe:state=2344916", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511712, 
+        "ne_longitude": -119.379, 
+        "longitude": -119.386, 
+        "parent_woeid": 29375224, 
+        "ne_latitude": 49.955, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:24:00Z", 
-        "parent_woeid": 29372948, 
-        "latitude": 49.951, 
-        "sw_longitude": -119.385, 
-        "fullname": "Kelowna International Airport, Duck Lake Indian Reserve 7, British Columbia, Central Okanagan, Canada", 
-        "sw_latitude": 49.946
+        "sw_latitude": 49.941, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 49.948, 
+        "sw_longitude": -119.398, 
+        "fullname": "Kelowna International Airport, Duck Lake Indian Reserve 7, British Columbia, Canada", 
+        "date_indexed": "2010-12-02T10:24:00Z"
       }, 
       "id": 12511712
     }

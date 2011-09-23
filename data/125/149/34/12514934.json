@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514934, 
+        "placetype": "airport", 
         "name": "Plan de Ayala Airport", 
-        "ne_latitude": 17.473, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599772", 
+          "woe:state=2346268", 
+          "woe:country=23424900", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514934, 
         "ne_longitude": -93.487, 
         "longitude": -93.492, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599772, 
+        "ne_latitude": 17.473, 
         "iso": "MX", 
-        "date_indexed": "2010-12-02T16:57:55Z", 
-        "parent_woeid": 147468, 
+        "sw_latitude": 17.464, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 17.468, 
         "sw_longitude": -93.496, 
-        "fullname": "Plan de Ayala Airport, Sayula, Chiapas, Ostuacan, Mexico", 
-        "sw_latitude": 17.464
+        "fullname": "Plan de Ayala Airport, Sayula, Chiapas, Mexico", 
+        "date_indexed": "2010-12-02T16:57:55Z"
       }, 
       "id": 12514934
     }

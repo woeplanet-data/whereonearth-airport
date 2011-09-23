@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516568, 
+        "placetype": "airport", 
         "name": "Novoyegoryevskoye Airport", 
-        "ne_latitude": 51.798, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597727", 
+          "woe:state=20070529", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516568, 
         "ne_longitude": 80.924, 
         "longitude": 80.917, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597727, 
+        "ne_latitude": 51.798, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2057556, 
+        "sw_latitude": 51.789, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.793, 
         "sw_longitude": 80.910, 
-        "fullname": "Novoyegoryevskoye Airport, Novoyegor'yevskoye, Altayskiy Kray, Yegoryevsky, Russia", 
-        "sw_latitude": 51.789
+        "fullname": "Novoyegoryevskoye Airport, Novoyegor'yevskoye, Altayskiy Kray, Russia", 
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516568
     }

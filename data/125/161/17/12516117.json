@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516117, 
+        "placetype": "airport", 
         "name": "Kazym Airport", 
-        "ne_latitude": 64.219, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599441", 
+          "woe:state=20070526", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516117, 
         "ne_longitude": 69.061, 
         "longitude": 69.050, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599441, 
+        "ne_latitude": 64.219, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2114046, 
+        "sw_latitude": 64.210, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 64.215, 
         "sw_longitude": 69.040, 
         "fullname": "Kazym Airport, Khanty-Mansiyskiy Avtonomnyy Okrug, Beloyarsky, Russia", 
-        "sw_latitude": 64.210
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516117
     }

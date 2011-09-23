@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388136, 
-        "name": "Villnave Airport", 
         "alias_ENG_V": [
           "19k"
         ], 
-        "ne_latitude": 38.775, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Villnave Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588984", 
+          "woe:state=2347584", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388136, 
         "ne_longitude": -94.591, 
         "longitude": -94.597, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588984, 
+        "ne_latitude": 38.775, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2428736, 
+        "sw_latitude": 38.765, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.775, 
         "sw_longitude": -94.598, 
-        "fullname": "Villnave Airport, Jaudon, Missouri, Cass, United States", 
-        "sw_latitude": 38.765
+        "fullname": "Villnave Airport, Jaudon, Missouri, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388136
     }

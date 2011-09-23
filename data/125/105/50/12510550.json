@@ -3,28 +3,34 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -71.187, 
-              -41.162
-            ], 
-            [
-              -71.187, 
-              -41.139
-            ], 
-            [
-              -71.157, 
-              -41.139
-            ], 
-            [
-              -71.157, 
-              -41.162
-            ], 
-            [
-              -71.187, 
-              -41.162
+              [
+                -71.161, 
+                -41.146
+              ], 
+              [
+                -71.161, 
+                -41.149
+              ], 
+              [
+                -71.162, 
+                -41.146
+              ], 
+              [
+                -71.163, 
+                -41.145
+              ], 
+              [
+                -71.162, 
+                -41.146
+              ], 
+              [
+                -71.161, 
+                -41.146
+              ]
             ]
           ]
         ]
@@ -32,23 +38,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510550, 
-        "name": "San Carlos de Bariloche Airport", 
         "alias_ENG_V": [
           "San Carlos Bariloche"
         ], 
-        "ne_latitude": -41.139, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -71.157, 
-        "longitude": -71.172, 
-        "placetype": "Airport", 
+        "name": "San Carlos de Bariloche Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=20071047", 
+          "woe:state=2344690", 
+          "woe:country=23424747", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510550, 
+        "ne_longitude": -71.161, 
+        "longitude": -71.162, 
+        "parent_woeid": 20071047, 
+        "ne_latitude": -41.145, 
         "iso": "AR", 
-        "date_indexed": "2010-12-02T17:41:29Z", 
-        "parent_woeid": 332478, 
-        "latitude": -41.151, 
-        "sw_longitude": -71.187, 
-        "fullname": "San Carlos de Bariloche Airport, Bariloche, Rio Negro, Bariloche, Argentina", 
-        "sw_latitude": -41.162
+        "sw_latitude": -41.149, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": -41.147, 
+        "sw_longitude": -71.163, 
+        "fullname": "San Carlos de Bariloche Airport, Bariloche, Rio Negro, Argentina", 
+        "iata_code": "BRC", 
+        "date_indexed": "2010-12-02T17:41:29Z"
       }, 
       "id": 12510550
     }

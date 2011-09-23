@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518937, 
-        "name": "Broken Bow Airport", 
         "alias_ENG_V": [
           "90f"
         ], 
-        "ne_latitude": 34.019, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Broken Bow Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589662", 
+          "woe:state=2347595", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518937, 
         "ne_longitude": -94.757, 
         "longitude": -94.757, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589662, 
+        "ne_latitude": 34.019, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2369696, 
+        "sw_latitude": 34.008, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 34.010, 
         "sw_longitude": -94.759, 
-        "fullname": "Broken Bow Airport, Broken Bow, Oklahoma, Mccurtain, United States", 
-        "sw_latitude": 34.008
+        "fullname": "Broken Bow Airport, Broken Bow, Oklahoma, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518937
     }

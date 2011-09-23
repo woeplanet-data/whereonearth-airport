@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512557, 
+        "placetype": "airport", 
         "name": "Policka Airport", 
-        "ne_latitude": 49.748, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12609352", 
+          "woe:county=12582601", 
+          "woe:state=20070465", 
+          "woe:country=23424810", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512557, 
         "ne_longitude": 16.262, 
         "longitude": 16.255, 
-        "placetype": "Airport", 
+        "parent_woeid": 12609352, 
+        "ne_latitude": 49.748, 
         "iso": "CZ", 
-        "date_indexed": "2010-12-02T08:56:52Z", 
-        "parent_woeid": 24930307, 
+        "sw_latitude": 49.739, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.743, 
         "sw_longitude": 16.248, 
         "fullname": "Policka Airport, Pardubick\u00fd, Svitavy, Czech Republic", 
-        "sw_latitude": 49.739
+        "date_indexed": "2010-12-02T08:56:52Z"
       }, 
       "id": 12512557
     }

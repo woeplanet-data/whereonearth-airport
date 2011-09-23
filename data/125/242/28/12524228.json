@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524228, 
-        "name": "Tulugak Airport", 
         "alias_ENG_V": [
           "YTK Airport"
         ], 
-        "ne_latitude": 59.505, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Tulugak Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375254", 
+          "woe:state=2344924", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524228, 
         "ne_longitude": -77.741, 
         "longitude": -77.750, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375254, 
+        "ne_latitude": 59.505, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 23394709, 
+        "sw_latitude": 59.495, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 59.500, 
         "sw_longitude": -77.759, 
-        "fullname": "Tulugak Airport, Puvirnituq, Quebec, Kativik, Canada", 
-        "sw_latitude": 59.495
+        "fullname": "Tulugak Airport, Puvirnituq, Quebec, Canada", 
+        "iata_code": "YTK", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12524228
     }

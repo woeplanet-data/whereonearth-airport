@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513579, 
-        "name": "Dhanbad Airport", 
         "alias_ENG_V": [
           "DBD Airport"
         ], 
-        "ne_latitude": 23.841, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Dhanbad Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12586380", 
+          "woe:state=20070463", 
+          "woe:country=23424848", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513579, 
         "ne_longitude": 86.438, 
         "longitude": 86.433, 
-        "placetype": "Airport", 
+        "parent_woeid": 12586380, 
+        "ne_latitude": 23.841, 
         "iso": "IN", 
-        "date_indexed": "2010-12-02T09:26:27Z", 
-        "parent_woeid": 29201517, 
+        "sw_latitude": 23.832, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 23.837, 
         "sw_longitude": 86.428, 
-        "fullname": "Dhanbad Airport, Susnilewa, Jharkhand, Dhanbad, India", 
-        "sw_latitude": 23.832
+        "fullname": "Dhanbad Airport, Susnilewa, Jharkhand, India", 
+        "date_indexed": "2010-12-02T09:26:27Z"
       }, 
       "id": 12513579
     }

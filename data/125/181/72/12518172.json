@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518172, 
+        "placetype": "airport", 
         "name": "Warton Airport", 
-        "ne_latitude": 53.754, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12695999", 
+          "woe:county=12602160", 
+          "woe:state=24554868", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518172, 
         "ne_longitude": -2.882, 
         "longitude": -2.889, 
-        "placetype": "Airport", 
+        "parent_woeid": 12695999, 
+        "ne_latitude": 53.754, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:21:01Z", 
-        "parent_woeid": 39224, 
+        "sw_latitude": 53.744, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.749, 
         "sw_longitude": -2.897, 
-        "fullname": "Warton Airport, Warton, England, Lancashire, United Kingdom", 
-        "sw_latitude": 53.744
+        "fullname": "Warton Airport, Warton, England, United Kingdom", 
+        "date_indexed": "2010-12-02T12:21:01Z"
       }, 
       "id": 12518172
     }

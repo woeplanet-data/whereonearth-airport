@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520333, 
-        "name": "Jackson County Airport", 
         "alias_ENG_V": [
           "I18"
         ], 
-        "ne_latitude": 38.935, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Jackson County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590496", 
+          "woe:state=2347607", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520333, 
         "ne_longitude": -81.814, 
         "longitude": -81.819, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590496, 
+        "ne_latitude": 38.935, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2474176, 
+        "sw_latitude": 38.923, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.926, 
         "sw_longitude": -81.825, 
-        "fullname": "Jackson County Airport, Willow Grove, West Virginia, Jackson, United States", 
-        "sw_latitude": 38.923
+        "fullname": "Jackson County Airport, Willow Grove, West Virginia, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520333
     }

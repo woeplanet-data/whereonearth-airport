@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519711, 
-        "name": "Faribault Municipal Airport", 
         "alias_ENG_V": [
           "FBL"
         ], 
-        "ne_latitude": 44.333, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Faribault Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588862", 
+          "woe:state=2347582", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519711, 
         "ne_longitude": -93.302, 
         "longitude": -93.304, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588862, 
+        "ne_latitude": 44.333, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2402306, 
+        "sw_latitude": 44.323, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.328, 
         "sw_longitude": -93.320, 
-        "fullname": "Faribault Municipal Airport, Faribault, Minnesota, Rice, United States", 
-        "sw_latitude": 44.323
+        "fullname": "Faribault Municipal Airport, Faribault, Minnesota, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12519711
     }

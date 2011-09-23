@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388121, 
+        "placetype": "airport", 
         "name": "Solomon Valley Airpark", 
-        "ne_latitude": 39.118, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12588442", 
+          "woe:state=2347575", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388121, 
         "ne_longitude": -97.678, 
         "longitude": -97.680, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588442, 
+        "ne_latitude": 39.118, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2439761, 
+        "sw_latitude": 39.110, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 39.111, 
         "sw_longitude": -97.687, 
-        "fullname": "Solomon Valley Airpark, Lindsey, Kansas, Ottawa, United States", 
-        "sw_latitude": 39.110
+        "fullname": "Solomon Valley Airpark, Lindsey, Kansas, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388121
     }

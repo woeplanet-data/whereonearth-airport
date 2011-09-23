@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 56052188, 
+        "placetype": "airport", 
         "name": "Landeplatz Ellwangen-erpfental", 
-        "ne_latitude": 48.964, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12624209", 
+          "woe:county=12596698", 
+          "woe:state=2345481", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56052188, 
         "ne_longitude": 10.242, 
         "longitude": 10.231, 
-        "placetype": "Airport", 
+        "parent_woeid": 12624209, 
+        "ne_latitude": 48.964, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 647668, 
+        "sw_latitude": 48.959, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.961, 
         "sw_longitude": 10.228, 
-        "fullname": "Landeplatz Ellwangen-erpfental, Ellwangen, Baden-Wurttemberg, Ostalbkreis, Germany", 
-        "sw_latitude": 48.959
+        "fullname": "Landeplatz Ellwangen-erpfental, Ellwangen, Baden-Wurttemberg, Germany", 
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 56052188
     }

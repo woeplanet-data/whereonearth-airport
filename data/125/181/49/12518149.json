@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518149, 
+        "placetype": "airport", 
         "name": "Seighford Airport", 
-        "ne_latitude": 52.828, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12696077", 
+          "woe:county=12602189", 
+          "woe:state=24554868", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518149, 
         "ne_longitude": -2.191, 
         "longitude": -2.198, 
-        "placetype": "Airport", 
+        "parent_woeid": 12696077, 
+        "ne_latitude": 52.828, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:21:01Z", 
-        "parent_woeid": 16966, 
+        "sw_latitude": 52.819, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 52.824, 
         "sw_longitude": -2.206, 
-        "fullname": "Seighford Airport, Coton Clanford, England, Staffordshire, United Kingdom", 
-        "sw_latitude": 52.819
+        "fullname": "Seighford Airport, Coton Clanford, England, United Kingdom", 
+        "date_indexed": "2010-12-02T12:21:01Z"
       }, 
       "id": 12518149
     }

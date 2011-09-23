@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519853, 
-        "name": "Galion Municipal Airport", 
         "alias_ENG_V": [
           "GQQ"
         ], 
-        "ne_latitude": 40.759, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Galion Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589596", 
+          "woe:state=2347594", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519853, 
         "ne_longitude": -82.713, 
         "longitude": -82.726, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589596, 
+        "ne_latitude": 40.759, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2465708, 
+        "sw_latitude": 40.748, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.750, 
         "sw_longitude": -82.730, 
-        "fullname": "Galion Municipal Airport, Riblet, Ohio, Richland, United States", 
-        "sw_latitude": 40.748
+        "fullname": "Galion Municipal Airport, Riblet, Ohio, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12519853
     }

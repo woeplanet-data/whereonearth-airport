@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521769, 
-        "name": "Schuylkill County Airport", 
         "alias_ENG_V": [
           "ZER"
         ], 
-        "ne_latitude": 40.713, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Schuylkill County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589781", 
+          "woe:state=2347597", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521769, 
         "ne_longitude": -76.364, 
         "longitude": -76.366, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589781, 
+        "ne_latitude": 40.713, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 28745299, 
+        "sw_latitude": 40.704, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.707, 
         "sw_longitude": -76.384, 
-        "fullname": "Schuylkill County Airport, Foster, Pennsylvania, Schuylkill, United States", 
-        "sw_latitude": 40.704
+        "fullname": "Schuylkill County Airport, Foster, Pennsylvania, United States", 
+        "iata_code": "ZER", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521769
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519276, 
-        "name": "Colorado Springs East Airport", 
         "alias_ENG_V": [
           "Springs East Airport"
         ], 
-        "ne_latitude": 38.881, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Colorado Springs East Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587747", 
+          "woe:state=2347564", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519276, 
         "ne_longitude": -104.406, 
         "longitude": -104.406, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587747, 
+        "ne_latitude": 38.881, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2398660, 
+        "sw_latitude": 38.867, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.872, 
         "sw_longitude": -104.414, 
-        "fullname": "Colorado Springs East Airport, Ellicott, Colorado, El Paso, United States", 
-        "sw_latitude": 38.867
+        "fullname": "Colorado Springs East Airport, Ellicott, Colorado, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519276
     }

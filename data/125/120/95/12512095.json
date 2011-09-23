@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512095, 
-        "name": "Jiayuguan Airport", 
         "alias_ENG_V": [
           "JGN"
         ], 
-        "ne_latitude": 39.862, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Jiayuguan Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=12686520", 
+          "woe:county=26198044", 
+          "woe:state=12578005", 
+          "woe:country=23424781", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512095, 
         "ne_longitude": 98.343, 
         "longitude": 98.337, 
-        "placetype": "Airport", 
+        "parent_woeid": 12686520, 
+        "ne_latitude": 39.862, 
         "iso": "CN", 
-        "date_indexed": "2010-12-02T08:51:48Z", 
-        "parent_woeid": 2145613, 
+        "sw_latitude": 39.853, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 39.857, 
         "sw_longitude": 98.331, 
-        "fullname": "Jiayuguan Airport, Jiayuguan, Gansu, Jiayuguan, China", 
-        "sw_latitude": 39.853
+        "fullname": "Jiayuguan Airport, Jiayuguan, Gansu, China", 
+        "iata_code": "JGN", 
+        "date_indexed": "2010-12-02T08:51:48Z"
       }, 
       "id": 12512095
     }

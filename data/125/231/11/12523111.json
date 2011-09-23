@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523111, 
-        "name": "Magenta Airport", 
         "alias_ENG_V": [
           "GEA"
         ], 
-        "ne_latitude": -22.262, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Magenta Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=24551443", 
+          "woe:state=24549807", 
+          "woe:country=23424903", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523111, 
         "ne_longitude": 166.472, 
         "longitude": 166.467, 
-        "placetype": "Airport", 
+        "parent_woeid": 24551443, 
+        "ne_latitude": -22.262, 
         "iso": "NC", 
-        "date_indexed": "2010-12-02T17:02:10Z", 
-        "parent_woeid": 1049640, 
+        "sw_latitude": -22.271, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -22.267, 
         "sw_longitude": 166.462, 
-        "fullname": "Magenta Airport, Noumea, Sud, Noumea, New Caledonia", 
-        "sw_latitude": -22.271
+        "fullname": "Magenta Airport, Noumea, Sud, New Caledonia", 
+        "iata_code": "GEA", 
+        "date_indexed": "2010-12-02T17:02:10Z"
       }, 
       "id": 12523111
     }

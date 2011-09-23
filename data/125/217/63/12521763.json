@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521763, 
-        "name": "Schenectady County Airport", 
         "alias_ENG_V": [
           "SCH"
         ], 
-        "ne_latitude": 42.864, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Schenectady County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589357", 
+          "woe:state=2347591", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521763, 
         "ne_longitude": -73.920, 
         "longitude": -73.940, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589357, 
+        "ne_latitude": 42.864, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2411349, 
+        "sw_latitude": 42.846, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.849, 
         "sw_longitude": -73.943, 
-        "fullname": "Schenectady County Airport, Glenville, New York, Schenectady, United States", 
-        "sw_latitude": 42.846
+        "fullname": "Schenectady County Airport, Glenville, New York, United States", 
+        "iata_code": "SCH", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521763
     }

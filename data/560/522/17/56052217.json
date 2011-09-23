@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 56052217, 
+        "placetype": "airport", 
         "name": "Landeplatz Linkenheim", 
-        "ne_latitude": 49.144, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12623895", 
+          "woe:county=12597063", 
+          "woe:state=2345481", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56052217, 
         "ne_longitude": 8.400, 
         "longitude": 8.396, 
-        "placetype": "Airport", 
+        "parent_woeid": 12623895, 
+        "ne_latitude": 49.144, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 672083, 
+        "sw_latitude": 49.138, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.142, 
         "sw_longitude": 8.389, 
-        "fullname": "Landeplatz Linkenheim, Linkenheim, Baden-Wurttemberg, Landkreis Karlsruhe, Germany", 
-        "sw_latitude": 49.138
+        "fullname": "Landeplatz Linkenheim, Linkenheim, Baden-Wurttemberg, Germany", 
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 56052217
     }

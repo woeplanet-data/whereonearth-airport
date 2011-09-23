@@ -32,26 +32,33 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 22656474, 
+        "placetype": "airport", 
         "name": "Haxterberg Airport", 
-        "ne_latitude": 51.691, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12624565", 
+          "woe:county=12596880", 
+          "woe:state=2345487", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 22656474, 
         "ne_longitude": 8.785, 
         "longitude": 8.778, 
-        "placetype": "Airport", 
+        "parent_woeid": 12624565, 
+        "ne_latitude": 51.691, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 658161, 
+        "sw_latitude": 51.682, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.687, 
         "sw_longitude": 8.770, 
-        "fullname": "Haxterberg Airport, Haxtergrund, North Rhine-Westphalia, Landkreis Paderborn, Germany", 
+        "fullname": "Haxterberg Airport, Haxtergrund, North Rhine-Westphalia, Germany", 
         "alias_GER_V": [
           "Flughafen Haxterberg"
         ], 
         "alias_GER_Q": [
           "Haxterberg"
         ], 
-        "sw_latitude": 51.682
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 22656474
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515964, 
+        "placetype": "airport", 
         "name": "Dzherba Airport", 
-        "ne_latitude": 60.495, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597633", 
+          "woe:state=2346881", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515964, 
         "ne_longitude": 116.543, 
         "longitude": 116.534, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597633, 
+        "ne_latitude": 60.495, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2098876, 
+        "sw_latitude": 60.486, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 60.491, 
         "sw_longitude": 116.524, 
         "fullname": "Dzherba Airport, Sakha, Lensky, Russia", 
-        "sw_latitude": 60.486
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12515964
     }

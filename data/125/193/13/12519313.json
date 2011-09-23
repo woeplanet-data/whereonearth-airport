@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519313, 
-        "name": "Cook Municipal Airport", 
         "alias_ENG_V": [
           "CQM"
         ], 
-        "ne_latitude": 47.827, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Cook Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588868", 
+          "woe:state=2347582", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519313, 
         "ne_longitude": -92.681, 
         "longitude": -92.682, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588868, 
+        "ne_latitude": 47.827, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2492490, 
+        "sw_latitude": 47.818, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.819, 
         "sw_longitude": -92.696, 
-        "fullname": "Cook Municipal Airport, Shermans Corner, Minnesota, St. Louis, United States", 
-        "sw_latitude": 47.818
+        "fullname": "Cook Municipal Airport, Shermans Corner, Minnesota, United States", 
+        "iata_code": "CQM", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519313
     }

@@ -3,28 +3,78 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -89.341, 
-              48.364
-            ], 
-            [
-              -89.341, 
-              48.381
-            ], 
-            [
-              -89.301, 
-              48.381
-            ], 
-            [
-              -89.301, 
-              48.364
-            ], 
-            [
-              -89.341, 
-              48.364
+              [
+                -89.299, 
+                48.381
+              ], 
+              [
+                -89.299, 
+                48.381
+              ], 
+              [
+                -89.299, 
+                48.381
+              ], 
+              [
+                -89.304, 
+                48.380
+              ], 
+              [
+                -89.305, 
+                48.380
+              ], 
+              [
+                -89.310, 
+                48.372
+              ], 
+              [
+                -89.312, 
+                48.372
+              ], 
+              [
+                -89.315, 
+                48.370
+              ], 
+              [
+                -89.324, 
+                48.373
+              ], 
+              [
+                -89.327, 
+                48.371
+              ], 
+              [
+                -89.325, 
+                48.373
+              ], 
+              [
+                -89.318, 
+                48.375
+              ], 
+              [
+                -89.318, 
+                48.381
+              ], 
+              [
+                -89.314, 
+                48.377
+              ], 
+              [
+                -89.305, 
+                48.380
+              ], 
+              [
+                -89.304, 
+                48.380
+              ], 
+              [
+                -89.299, 
+                48.381
+              ]
             ]
           ]
         ]
@@ -32,23 +82,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511875, 
-        "name": "Thunder Bay International Airport", 
         "alias_ENG_V": [
           "Thunder Bay Airport"
         ], 
-        "ne_latitude": 48.381, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -89.301, 
-        "longitude": -89.312, 
-        "placetype": "Airport", 
-        "iso": "CA", 
-        "date_indexed": "2010-12-02T10:24:00Z", 
+        "name": "Thunder Bay International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:suburb=23396963", 
+          "woe:county=29375089", 
+          "woe:state=2344922", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511875, 
+        "ne_longitude": -89.299, 
+        "longitude": -89.314, 
         "parent_woeid": 23396963, 
-        "latitude": 48.372, 
-        "sw_longitude": -89.341, 
-        "fullname": "Thunder Bay International Airport, Thunder Bay, Ontario, Thunder Bay, Canada", 
-        "sw_latitude": 48.364
+        "ne_latitude": 48.381, 
+        "iso": "CA", 
+        "sw_latitude": 48.370, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 48.375, 
+        "sw_longitude": -89.327, 
+        "fullname": "Thunder Bay International Airport, Thunder Bay, Ontario, Canada", 
+        "date_indexed": "2010-12-02T10:24:00Z"
       }, 
       "id": 12511875
     }

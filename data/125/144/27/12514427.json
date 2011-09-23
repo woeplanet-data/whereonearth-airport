@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514427, 
+        "placetype": "airport", 
         "name": "Olenty South Airport", 
-        "ne_latitude": 52.123, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345993", 
+          "woe:country=23424871", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514427, 
         "ne_longitude": 74.486, 
         "longitude": 74.478, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345993, 
+        "ne_latitude": 52.123, 
         "iso": "KZ", 
-        "date_indexed": "2010-12-02T08:54:13Z", 
-        "parent_woeid": 2264499, 
+        "sw_latitude": 52.114, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 52.118, 
         "sw_longitude": 74.471, 
         "fullname": "Olenty South Airport, Pavlodar, Kazakhstan", 
-        "sw_latitude": 52.114
+        "date_indexed": "2010-12-02T08:54:13Z"
       }, 
       "id": 12514427
     }

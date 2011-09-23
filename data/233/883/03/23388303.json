@@ -32,29 +32,35 @@
       "type": "Feature", 
       "properties": {
         "lang": "JPN", 
-        "woeid": 23388303, 
-        "name": "\u65b0\u5317\u4e5d\u5dde\u7a7a\u6e2f", 
         "alias_ENG_V": [
           "Kitakyushu Airport"
         ], 
+        "name": "\u65b0\u5317\u4e5d\u5dde\u7a7a\u6e2f", 
         "alias_ENG_P": [
           "New Kitakyushu Airport"
         ], 
-        "ne_latitude": 33.843, 
+        "parent_woeid": 15015395, 
+        "woeid": 23388303, 
+        "provider": "geoplanet 7.6.0", 
         "alias_JPN_V": [
           "\u30b7\u30f3\u30ad\u30bf\u30ad\u30e5\u30a6\u30b7\u30e5\u30a6\u30af\u30a6\u30b3\u30a6"
         ], 
-        "ne_longitude": 131.038, 
         "longitude": 131.033, 
-        "parent_woeid": 15015395, 
-        "placetype": "Airport", 
+        "ne_longitude": 131.038, 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=15015395", 
+          "woe:state=58646425", 
+          "woe:country=23424856", 
+          "woe:planet=1"
+        ], 
         "iso": "JP", 
-        "date_indexed": "2010-12-02T08:09:09Z", 
-        "provider": "geoplanet 7.6.0", 
+        "sw_latitude": 33.834, 
+        "ne_latitude": 33.843, 
         "latitude": 33.839, 
         "sw_longitude": 131.027, 
-        "fullname": "\u65b0\u5317\u4e5d\u5dde\u7a7a\u6e2f, Kitakyushu-shi, Fukuoka Prefecture, Kokuraminami-ku, Japan", 
-        "sw_latitude": 33.834
+        "fullname": "\u65b0\u5317\u4e5d\u5dde\u7a7a\u6e2f, Kitakyushu-shi, Fukuoka Prefecture, Japan", 
+        "date_indexed": "2010-12-02T08:09:09Z"
       }, 
       "id": 23388303
     }

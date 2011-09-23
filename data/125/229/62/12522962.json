@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522962, 
+        "placetype": "airport", 
         "name": "Tonle Cham Airport", 
-        "ne_latitude": 11.585, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=20070086", 
+          "woe:country=23424984", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522962, 
         "ne_longitude": 106.485, 
         "longitude": 106.480, 
-        "placetype": "Airport", 
+        "parent_woeid": 20070086, 
+        "ne_latitude": 11.585, 
         "iso": "VN", 
-        "date_indexed": "2010-12-02T08:52:49Z", 
-        "parent_woeid": 1237185, 
+        "sw_latitude": 11.576, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 11.581, 
         "sw_longitude": 106.476, 
         "fullname": "Tonle Cham Airport, Hon Quan, Bin Phuoc, Vietnam", 
-        "sw_latitude": 11.576
+        "date_indexed": "2010-12-02T08:52:49Z"
       }, 
       "id": 12522962
     }

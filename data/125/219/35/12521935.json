@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521935, 
-        "name": "Spencer Municipal Airport", 
         "alias_ENG_V": [
           "SPW"
         ], 
-        "ne_latitude": 43.170, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Spencer Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588292", 
+          "woe:state=2347574", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521935, 
         "ne_longitude": -95.193, 
         "longitude": -95.196, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588292, 
+        "ne_latitude": 43.170, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2497505, 
+        "sw_latitude": 43.158, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.169, 
         "sw_longitude": -95.210, 
-        "fullname": "Spencer Municipal Airport, Spencer, Iowa, Clay, United States", 
-        "sw_latitude": 43.158
+        "fullname": "Spencer Municipal Airport, Spencer, Iowa, United States", 
+        "iata_code": "SPW", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521935
     }

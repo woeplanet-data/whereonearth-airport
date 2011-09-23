@@ -3,28 +3,58 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              103.928, 
-              30.566
-            ], 
-            [
-              103.928, 
-              30.589
-            ], 
-            [
-              103.954, 
-              30.589
-            ], 
-            [
-              103.954, 
-              30.566
-            ], 
-            [
-              103.928, 
-              30.566
+              [
+                103.959, 
+                30.583
+              ], 
+              [
+                103.960, 
+                30.580
+              ], 
+              [
+                103.962, 
+                30.578
+              ], 
+              [
+                103.959, 
+                30.575
+              ], 
+              [
+                103.958, 
+                30.575
+              ], 
+              [
+                103.955, 
+                30.577
+              ], 
+              [
+                103.950, 
+                30.573
+              ], 
+              [
+                103.952, 
+                30.579
+              ], 
+              [
+                103.953, 
+                30.580
+              ], 
+              [
+                103.954, 
+                30.582
+              ], 
+              [
+                103.955, 
+                30.585
+              ], 
+              [
+                103.959, 
+                30.583
+              ]
             ]
           ]
         ]
@@ -32,23 +62,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512010, 
-        "name": "Chengdushuang Liu Airport", 
         "alias_ENG_V": [
           "Chengdushuang Liu"
         ], 
-        "ne_latitude": 30.589, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": 103.954, 
-        "longitude": 103.941, 
-        "placetype": "Airport", 
+        "name": "Chengdushuang Liu Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=12687399", 
+          "woe:county=26198200", 
+          "woe:state=12578016", 
+          "woe:country=23424781", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512010, 
+        "ne_longitude": 103.962, 
+        "longitude": 103.956, 
+        "parent_woeid": 12687399, 
+        "ne_latitude": 30.585, 
         "iso": "CN", 
-        "date_indexed": "2010-12-02T08:51:48Z", 
-        "parent_woeid": 2158571, 
-        "latitude": 30.577, 
-        "sw_longitude": 103.928, 
-        "fullname": "Chengdushuang Liu Airport, Shuangliu, Sichuan, Chengdu, China", 
-        "sw_latitude": 30.566
+        "sw_latitude": 30.573, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 30.579, 
+        "sw_longitude": 103.950, 
+        "fullname": "Chengdushuang Liu Airport, Shuangliu, Sichuan, China", 
+        "iata_code": "CTU", 
+        "date_indexed": "2010-12-02T08:51:48Z"
       }, 
       "id": 12512010
     }

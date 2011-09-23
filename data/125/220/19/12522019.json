@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522019, 
+        "placetype": "airport", 
         "name": "Stockton Municipal Airport", 
-        "ne_latitude": 37.665, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12588985", 
+          "woe:state=2347584", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522019, 
         "ne_longitude": -93.811, 
         "longitude": -93.817, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588985, 
+        "ne_latitude": 37.665, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2500093, 
+        "sw_latitude": 37.655, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 37.660, 
         "sw_longitude": -93.822, 
-        "fullname": "Stockton Municipal Airport, Stockton, Missouri, Cedar, United States", 
-        "sw_latitude": 37.655
+        "fullname": "Stockton Municipal Airport, Stockton, Missouri, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12522019
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29387836, 
-        "name": "Swanson Airport", 
         "alias_ENG_V": [
           "2w3"
         ], 
-        "ne_latitude": 46.876, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Swanson Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590466", 
+          "woe:state=2347606", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29387836, 
         "ne_longitude": -122.256, 
         "longitude": -122.258, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590466, 
+        "ne_latitude": 46.876, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2396702, 
+        "sw_latitude": 46.867, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.875, 
         "sw_longitude": -122.258, 
-        "fullname": "Swanson Airport, Eatonville, Washington, Pierce, United States", 
-        "sw_latitude": 46.867
+        "fullname": "Swanson Airport, Eatonville, Washington, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 29387836
     }

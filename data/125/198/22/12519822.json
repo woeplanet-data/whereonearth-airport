@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519822, 
-        "name": "Fremont Municipal Airport", 
         "alias_ENG_V": [
           "Ffx"
         ], 
-        "ne_latitude": 43.446, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Fremont Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588775", 
+          "woe:state=2347581", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519822, 
         "ne_longitude": -85.985, 
         "longitude": -85.993, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588775, 
+        "ne_latitude": 43.446, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 28743813, 
+        "sw_latitude": 43.427, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.446, 
         "sw_longitude": -85.999, 
-        "fullname": "Fremont Municipal Airport, Sheridan, Michigan, Newaygo, United States", 
-        "sw_latitude": 43.427
+        "fullname": "Fremont Municipal Airport, Sheridan, Michigan, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12519822
     }

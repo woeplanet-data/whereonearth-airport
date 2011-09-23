@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 56052127, 
+        "placetype": "airport", 
         "name": "Verkehrslandeplatz Dedelow", 
-        "ne_latitude": 53.359, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=24547327", 
+          "woe:county=12596890", 
+          "woe:state=2345491", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56052127, 
         "ne_longitude": 13.795, 
         "longitude": 13.793, 
-        "placetype": "Airport", 
+        "parent_woeid": 24547327, 
+        "ne_latitude": 53.359, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 685915, 
+        "sw_latitude": 53.355, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.356, 
         "sw_longitude": 13.782, 
-        "fullname": "Verkehrslandeplatz Dedelow, Prenzlau, Brandenburg, Uckermark, Germany", 
-        "sw_latitude": 53.355
+        "fullname": "Verkehrslandeplatz Dedelow, Prenzlau, Brandenburg, Germany", 
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 56052127
     }

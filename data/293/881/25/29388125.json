@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388125, 
-        "name": "Miami County Airport", 
         "alias_ENG_V": [
           "K81"
         ], 
-        "ne_latitude": 38.546, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Miami County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588431", 
+          "woe:state=2347575", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388125, 
         "ne_longitude": -94.914, 
         "longitude": -94.922, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588431, 
+        "ne_latitude": 38.546, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2481531, 
+        "sw_latitude": 38.534, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.536, 
         "sw_longitude": -94.925, 
-        "fullname": "Miami County Airport, Ringer, Kansas, Miami, United States", 
-        "sw_latitude": 38.534
+        "fullname": "Miami County Airport, Ringer, Kansas, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388125
     }

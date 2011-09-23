@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524210, 
-        "name": "Cartwright Airport", 
         "alias_ENG_V": [
           "YRF Airport"
         ], 
-        "ne_latitude": 53.713, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Cartwright Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375216", 
+          "woe:state=2344919", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524210, 
         "ne_longitude": -56.994, 
         "longitude": -57.001, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375216, 
+        "ne_latitude": 53.713, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 2735, 
+        "sw_latitude": 53.704, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.708, 
         "sw_longitude": -57.009, 
-        "fullname": "Cartwright Airport, Cartwright, Newfoundland and Labrador, Newfoundland and Labrador, Canada", 
-        "sw_latitude": 53.704
+        "fullname": "Cartwright Airport, Cartwright, Newfoundland and Labrador, Canada", 
+        "iata_code": "YRF", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12524210
     }

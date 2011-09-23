@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524227, 
-        "name": "Sullivan Bay Seaplane Base", 
         "alias_ENG_V": [
           "YTG Airport"
         ], 
-        "ne_latitude": 50.888, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Sullivan Bay Seaplane Base", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375223", 
+          "woe:state=2344916", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524227, 
         "ne_longitude": -126.793, 
         "longitude": -126.800, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375223, 
+        "ne_latitude": 50.888, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 9478, 
+        "sw_latitude": 50.879, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.883, 
         "sw_longitude": -126.807, 
-        "fullname": "Sullivan Bay Seaplane Base, Sullivan Bay, British Columbia, Mt Waddington, Canada", 
-        "sw_latitude": 50.879
+        "fullname": "Sullivan Bay Seaplane Base, Sullivan Bay, British Columbia, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12524227
     }

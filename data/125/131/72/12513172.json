@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513172, 
+        "placetype": "airport", 
         "name": "Mahlwinkel Airport", 
-        "ne_latitude": 52.381, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12626728", 
+          "woe:county=12596790", 
+          "woe:state=2345494", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513172, 
         "ne_longitude": 11.818, 
         "longitude": 11.810, 
-        "placetype": "Airport", 
+        "parent_woeid": 12626728, 
+        "ne_latitude": 52.381, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 673414, 
+        "sw_latitude": 52.372, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 52.376, 
         "sw_longitude": 11.803, 
-        "fullname": "Mahlwinkel Airport, Mahlwinkel, Saxony-Anhalt, Ohrekreis, Germany", 
+        "fullname": "Mahlwinkel Airport, Mahlwinkel, Saxony-Anhalt, Germany", 
         "alias_GER_Q": [
           "Flughafen Mahlwinkel"
         ], 
-        "sw_latitude": 52.372
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 12513172
     }

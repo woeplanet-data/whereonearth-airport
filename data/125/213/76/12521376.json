@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521376, 
-        "name": "Pike County-Hatcher Field Airport", 
         "alias_ENG_V": [
           "Hatcher Field Airport"
         ], 
-        "ne_latitude": 37.572, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Pike County-Hatcher Field Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588573", 
+          "woe:state=2347576", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521376, 
         "ne_longitude": -82.558, 
         "longitude": -82.565, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588573, 
+        "ne_latitude": 37.572, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2365192, 
+        "sw_latitude": 37.558, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 37.558, 
         "sw_longitude": -82.581, 
-        "fullname": "Pike County-Hatcher Field Airport, Blair Town, Kentucky, Pike, United States", 
-        "sw_latitude": 37.558
+        "fullname": "Pike County-Hatcher Field Airport, Blair Town, Kentucky, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521376
     }

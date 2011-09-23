@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515368, 
+        "placetype": "airport", 
         "name": "Osla Airport", 
-        "ne_latitude": 51.311, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12616947", 
+          "woe:county=12591135", 
+          "woe:state=12577935", 
+          "woe:country=23424923", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515368, 
         "ne_longitude": 15.728, 
         "longitude": 15.720, 
-        "placetype": "Airport", 
+        "parent_woeid": 12616947, 
+        "ne_latitude": 51.311, 
         "iso": "PL", 
-        "date_indexed": "2010-12-02T12:12:45Z", 
-        "parent_woeid": 516325, 
+        "sw_latitude": 51.302, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.307, 
         "sw_longitude": 15.713, 
         "fullname": "Osla Airport, Lower Silesia, Boleslawiec County, Poland", 
-        "sw_latitude": 51.302
+        "date_indexed": "2010-12-02T12:12:45Z"
       }, 
       "id": 12515368
     }

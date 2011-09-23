@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 22656475, 
+        "placetype": "airport", 
         "name": "Porta-Westfalica Airport", 
-        "ne_latitude": 52.226, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12624554", 
+          "woe:county=12596892", 
+          "woe:state=2345487", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 22656475, 
         "ne_longitude": 8.873, 
         "longitude": 8.866, 
-        "placetype": "Airport", 
+        "parent_woeid": 12624554, 
+        "ne_latitude": 52.226, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 702172, 
+        "sw_latitude": 52.217, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 52.221, 
         "sw_longitude": 8.858, 
-        "fullname": "Porta-Westfalica Airport, Vennebeck, North Rhine-Westphalia, Minden, Germany", 
+        "fullname": "Porta-Westfalica Airport, Vennebeck, North Rhine-Westphalia, Germany", 
         "alias_GER_Q": [
           "Flughafen Porta-Westfalica"
         ], 
-        "sw_latitude": 52.217
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 22656475
     }

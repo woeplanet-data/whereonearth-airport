@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512735, 
-        "name": "Kardla East Airport", 
         "alias_ENG_V": [
           "Kardla East"
         ], 
-        "ne_latitude": 59.004, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Kardla East Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29389855", 
+          "woe:state=2345277", 
+          "woe:country=23424805", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512735, 
         "ne_longitude": 22.827, 
         "longitude": 22.818, 
-        "placetype": "Airport", 
+        "parent_woeid": 29389855, 
+        "ne_latitude": 59.004, 
         "iso": "EE", 
-        "date_indexed": "2010-12-02T16:43:34Z", 
-        "parent_woeid": 844578, 
+        "sw_latitude": 58.995, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 59.000, 
         "sw_longitude": 22.809, 
         "fullname": "Kardla East Airport, Hiiu County, Puhalepa Parish, Estonia", 
-        "sw_latitude": 58.995
+        "date_indexed": "2010-12-02T16:43:34Z"
       }, 
       "id": 12512735
     }

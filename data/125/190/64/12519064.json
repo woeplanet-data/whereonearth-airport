@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519064, 
+        "placetype": "airport", 
         "name": "Capozzoli Airport", 
-        "ne_latitude": 30.353, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12588612", 
+          "woe:state=2347577", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519064, 
         "ne_longitude": -90.917, 
         "longitude": -90.922, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588612, 
+        "ne_latitude": 30.353, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:15Z", 
-        "parent_woeid": 2433305, 
+        "sw_latitude": 30.344, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 30.348, 
         "sw_longitude": -90.927, 
-        "fullname": "Capozzoli Airport, Hopeville, Louisiana, East Baton Rouge Parish, United States", 
-        "sw_latitude": 30.344
+        "fullname": "Capozzoli Airport, Hopeville, Louisiana, United States", 
+        "date_indexed": "2010-12-02T18:39:15Z"
       }, 
       "id": 12519064
     }

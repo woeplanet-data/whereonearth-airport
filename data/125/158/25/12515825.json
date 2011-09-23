@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515825, 
+        "placetype": "airport", 
         "name": "Bobrovka Airport", 
-        "ne_latitude": 53.158, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598611", 
+          "woe:state=2346906", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515825, 
         "ne_longitude": 50.712, 
         "longitude": 50.704, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598611, 
+        "ne_latitude": 53.158, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 1990190, 
+        "sw_latitude": 53.149, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.154, 
         "sw_longitude": 50.697, 
         "fullname": "Bobrovka Airport, Samarskaya Oblast, Kinelsky, Russia", 
-        "sw_latitude": 53.149
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12515825
     }

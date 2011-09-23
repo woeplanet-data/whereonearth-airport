@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29387955, 
-        "name": "Velo Airstrip", 
         "alias_ENG_V": [
           "Mn95"
         ], 
-        "ne_latitude": 46.515, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Velo Airstrip", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588880", 
+          "woe:state=2347582", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29387955, 
         "ne_longitude": -96.190, 
         "longitude": -96.192, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588880, 
+        "ne_latitude": 46.515, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2485094, 
+        "sw_latitude": 46.508, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.514, 
         "sw_longitude": -96.194, 
-        "fullname": "Velo Airstrip, Rothsay, Minnesota, Wilkin, United States", 
-        "sw_latitude": 46.508
+        "fullname": "Velo Airstrip, Rothsay, Minnesota, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29387955
     }

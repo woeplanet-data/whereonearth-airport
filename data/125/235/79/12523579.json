@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523579, 
-        "name": "Huanuco Airport", 
         "alias_ENG_V": [
           "HUU"
         ], 
-        "ne_latitude": -9.904, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Huanuco Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26805856", 
+          "woe:state=2346477", 
+          "woe:country=23424919", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523579, 
         "ne_longitude": -76.209, 
         "longitude": -76.214, 
-        "placetype": "Airport", 
+        "parent_woeid": 26805856, 
+        "ne_latitude": -9.904, 
         "iso": "PE", 
-        "date_indexed": "2010-12-02T16:12:16Z", 
-        "parent_woeid": 418455, 
+        "sw_latitude": -9.913, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -9.908, 
         "sw_longitude": -76.219, 
-        "fullname": "Huanuco Airport, Hu\u00e1nuco, Hu\u00e1nuco, Hu\u00e1nuco, Peru", 
-        "sw_latitude": -9.913
+        "fullname": "Huanuco Airport, Hu\u00e1nuco, Hu\u00e1nuco, Peru", 
+        "iata_code": "HUU", 
+        "date_indexed": "2010-12-02T16:12:16Z"
       }, 
       "id": 12523579
     }

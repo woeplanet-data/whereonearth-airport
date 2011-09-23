@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517138, 
+        "placetype": "airport", 
         "name": "Vanino Airport", 
-        "ne_latitude": 49.029, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597758", 
+          "woe:state=2346883", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517138, 
         "ne_longitude": 140.212, 
         "longitude": 140.205, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597758, 
+        "ne_latitude": 49.029, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2044245, 
+        "sw_latitude": 49.020, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.025, 
         "sw_longitude": 140.198, 
         "fullname": "Vanino Airport, Khabarovskiy Kray, Sovetsko-Gavansky, Russia", 
-        "sw_latitude": 49.020
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12517138
     }

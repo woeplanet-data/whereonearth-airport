@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524459, 
-        "name": "Andes Airport", 
         "alias_ENG_V": [
           "ADN"
         ], 
-        "ne_latitude": 5.671, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Andes Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26796613", 
+          "woe:state=2345048", 
+          "woe:country=23424787", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524459, 
         "ne_longitude": -75.879, 
         "longitude": -75.883, 
-        "placetype": "Airport", 
+        "parent_woeid": 26796613, 
+        "ne_latitude": 5.671, 
         "iso": "CO", 
-        "date_indexed": "2010-12-02T17:57:37Z", 
-        "parent_woeid": 368256, 
+        "sw_latitude": 5.662, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 5.667, 
         "sw_longitude": -75.888, 
-        "fullname": "Andes Airport, Andes, Antioquia, Andes, Colombia", 
-        "sw_latitude": 5.662
+        "fullname": "Andes Airport, Andes, Antioquia, Colombia", 
+        "iata_code": "ADN", 
+        "date_indexed": "2010-12-02T17:57:37Z"
       }, 
       "id": 12524459
     }

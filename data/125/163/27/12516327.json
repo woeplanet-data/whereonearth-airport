@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516327, 
+        "placetype": "airport", 
         "name": "Kyzyl South Airport", 
-        "ne_latitude": 51.681, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597580", 
+          "woe:state=2346879", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516327, 
         "ne_longitude": 94.408, 
         "longitude": 94.401, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597580, 
+        "ne_latitude": 51.681, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2121841, 
+        "sw_latitude": 51.672, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.677, 
         "sw_longitude": 94.393, 
-        "fullname": "Kyzyl South Airport, Kyzyl, Tyva, Kyzyl, Russia", 
-        "sw_latitude": 51.672
+        "fullname": "Kyzyl South Airport, Kyzyl, Tyva, Russia", 
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516327
     }

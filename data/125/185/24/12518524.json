@@ -3,28 +3,66 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -176.650, 
-              51.873
-            ], 
-            [
-              -176.650, 
-              51.887
-            ], 
-            [
-              -176.627, 
-              51.887
-            ], 
-            [
-              -176.627, 
-              51.873
-            ], 
-            [
-              -176.650, 
-              51.873
+              [
+                -176.636, 
+                51.875
+              ], 
+              [
+                -176.641, 
+                51.876
+              ], 
+              [
+                -176.636, 
+                51.877
+              ], 
+              [
+                -176.636, 
+                51.880
+              ], 
+              [
+                -176.634, 
+                51.881
+              ], 
+              [
+                -176.632, 
+                51.883
+              ], 
+              [
+                -176.629, 
+                51.884
+              ], 
+              [
+                -176.627, 
+                51.883
+              ], 
+              [
+                -176.628, 
+                51.880
+              ], 
+              [
+                -176.629, 
+                51.875
+              ], 
+              [
+                -176.627, 
+                51.874
+              ], 
+              [
+                -176.630, 
+                51.874
+              ], 
+              [
+                -176.635, 
+                51.874
+              ], 
+              [
+                -176.636, 
+                51.875
+              ]
             ]
           ]
         ]
@@ -32,23 +70,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518524, 
-        "name": "Adak Airport", 
         "alias_ENG_V": [
           "Adak Island Naval Air Station"
         ], 
-        "ne_latitude": 51.887, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Adak Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587555", 
+          "woe:state=2347560", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518524, 
         "ne_longitude": -176.627, 
-        "longitude": -176.639, 
-        "placetype": "Airport", 
+        "longitude": -176.632, 
+        "parent_woeid": 12587555, 
+        "ne_latitude": 51.884, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:15Z", 
-        "parent_woeid": 2351864, 
-        "latitude": 51.880, 
-        "sw_longitude": -176.650, 
-        "fullname": "Adak Airport, Adak, Alaska, Aleutians West Census Area, United States", 
-        "sw_latitude": 51.873
+        "sw_latitude": 51.874, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 51.878, 
+        "sw_longitude": -176.641, 
+        "fullname": "Adak Airport, Adak, Alaska, United States", 
+        "iata_code": "ADK", 
+        "date_indexed": "2010-12-02T18:39:15Z"
       }, 
       "id": 12518524
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 56052242, 
+        "placetype": "airport", 
         "name": "Balclutha Airport", 
-        "ne_latitude": -46.243, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55875902", 
+          "woe:state=15021754", 
+          "woe:country=23424916", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56052242, 
         "ne_longitude": 169.754, 
         "longitude": 169.748, 
-        "placetype": "Airport", 
+        "parent_woeid": 55875902, 
+        "ne_latitude": -46.243, 
         "iso": "NZ", 
-        "date_indexed": "2010-12-02T17:02:39Z", 
-        "parent_woeid": 2348123, 
+        "sw_latitude": -46.248, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -46.245, 
         "sw_longitude": 169.743, 
-        "fullname": "Balclutha Airport, Balclutha, Otago, Clutha District, New Zealand", 
-        "sw_latitude": -46.248
+        "fullname": "Balclutha Airport, Balclutha, Otago, New Zealand", 
+        "date_indexed": "2010-12-02T17:02:39Z"
       }, 
       "id": 56052242
     }

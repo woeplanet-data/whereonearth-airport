@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515863, 
+        "placetype": "airport", 
         "name": "Bryusterort Airport", 
-        "ne_latitude": 54.946, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=24505200", 
+          "woe:state=2346938", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515863, 
         "ne_longitude": 19.991, 
         "longitude": 19.983, 
-        "placetype": "Airport", 
+        "parent_woeid": 24505200, 
+        "ne_latitude": 54.946, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2126046, 
+        "sw_latitude": 54.937, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 54.941, 
         "sw_longitude": 19.975, 
         "fullname": "Bryusterort Airport, Kaliningradskaya Oblast, Pionerskiy, Russia", 
-        "sw_latitude": 54.937
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12515863
     }

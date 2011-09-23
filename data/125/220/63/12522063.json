@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522063, 
-        "name": "Syracuse-Hamilton County Municipal Airport", 
         "alias_ENG_V": [
           "3k3"
         ], 
-        "ne_latitude": 37.997, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Syracuse-Hamilton County Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588408", 
+          "woe:state=2347575", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522063, 
         "ne_longitude": -101.743, 
         "longitude": -101.748, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588408, 
+        "ne_latitude": 37.997, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2503416, 
+        "sw_latitude": 37.990, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 37.992, 
         "sw_longitude": -101.752, 
-        "fullname": "Syracuse-Hamilton County Municipal Airport, Syracuse, Kansas, Hamilton, United States", 
-        "sw_latitude": 37.990
+        "fullname": "Syracuse-Hamilton County Municipal Airport, Syracuse, Kansas, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522063
     }

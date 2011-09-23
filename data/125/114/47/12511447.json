@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511447, 
+        "placetype": "airport", 
         "name": "Klimentovo Airport", 
-        "ne_latitude": 43.368, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55873932", 
+          "woe:state=20070063", 
+          "woe:country=23424771", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511447, 
         "ne_longitude": 25.611, 
         "longitude": 25.605, 
-        "placetype": "Airport", 
+        "parent_woeid": 55873932, 
+        "ne_latitude": 43.368, 
         "iso": "BG", 
-        "date_indexed": "2010-12-02T16:14:37Z", 
-        "parent_woeid": 838863, 
+        "sw_latitude": 43.359, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.363, 
         "sw_longitude": 25.599, 
         "fullname": "Klimentovo Airport, Veliko Turnovo, Polski Trambesh, Bulgaria", 
-        "sw_latitude": 43.359
+        "date_indexed": "2010-12-02T16:14:37Z"
       }, 
       "id": 12511447
     }

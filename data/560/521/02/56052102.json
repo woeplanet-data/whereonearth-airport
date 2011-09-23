@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 56052102, 
+        "placetype": "airport", 
         "name": "Flugplatz Varrelbusch", 
-        "ne_latitude": 52.910, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12629862", 
+          "woe:county=12596798", 
+          "woe:state=2345486", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56052102, 
         "ne_longitude": 8.053, 
         "longitude": 8.033, 
-        "placetype": "Airport", 
+        "parent_woeid": 12629862, 
+        "ne_latitude": 52.910, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 643216, 
+        "sw_latitude": 52.908, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 52.908, 
         "sw_longitude": 8.033, 
-        "fullname": "Flugplatz Varrelbusch, Cloppenburg, Lower Saxony, Landkreis Cloppenburg, Germany", 
-        "sw_latitude": 52.908
+        "fullname": "Flugplatz Varrelbusch, Cloppenburg, Lower Saxony, Germany", 
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 56052102
     }

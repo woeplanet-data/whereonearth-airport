@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512480, 
+        "placetype": "airport", 
         "name": "Playa Baracoa Airport", 
-        "ne_latitude": 23.038, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345115", 
+          "woe:country=23424793", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512480, 
         "ne_longitude": -82.569, 
         "longitude": -82.574, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345115, 
+        "ne_latitude": 23.038, 
         "iso": "CU", 
-        "date_indexed": "2010-12-02T08:58:58Z", 
-        "parent_woeid": 60498, 
+        "sw_latitude": 23.029, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 23.034, 
         "sw_longitude": -82.579, 
         "fullname": "Playa Baracoa Airport, Bauta, La Habana, Cuba", 
-        "sw_latitude": 23.029
+        "date_indexed": "2010-12-02T08:58:58Z"
       }, 
       "id": 12512480
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524630, 
-        "name": "Chitina Airport", 
         "alias_ENG_V": [
           "CXC"
         ], 
-        "ne_latitude": 61.567, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Chitina Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587576", 
+          "woe:state=2347560", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524630, 
         "ne_longitude": -144.433, 
         "longitude": -144.443, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587576, 
+        "ne_latitude": 61.567, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2379956, 
+        "sw_latitude": 61.558, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 61.562, 
         "sw_longitude": -144.452, 
-        "fullname": "Chitina Airport, Chitina, Alaska, Valdez-Cordova Census Area, United States", 
-        "sw_latitude": 61.558
+        "fullname": "Chitina Airport, Chitina, Alaska, United States", 
+        "iata_code": "CXC", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12524630
     }

@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522942, 
+        "placetype": "airport", 
         "name": "Phu Tuc Airport", 
-        "ne_latitude": 13.207, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2347733", 
+          "woe:country=23424984", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522942, 
         "ne_longitude": 108.699, 
         "longitude": 108.694, 
-        "placetype": "Airport", 
+        "parent_woeid": 2347733, 
+        "ne_latitude": 13.207, 
         "iso": "VN", 
-        "date_indexed": "2010-12-02T08:52:49Z", 
-        "parent_woeid": 1252323, 
+        "sw_latitude": 13.198, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 13.203, 
         "sw_longitude": 108.689, 
         "fullname": "Phu Tuc Airport, Gia Lai, Vietnam", 
-        "sw_latitude": 13.198
+        "date_indexed": "2010-12-02T08:52:49Z"
       }, 
       "id": 12522942
     }

@@ -32,26 +32,32 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523963, 
-        "name": "Sines Airport", 
         "alias_ENG_V": [
           "SIE"
         ], 
-        "ne_latitude": 37.944, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Sines Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12596664", 
+          "woe:state=2346577", 
+          "woe:country=23424925", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523963, 
         "ne_longitude": -8.810, 
         "longitude": -8.816, 
-        "placetype": "Airport", 
+        "parent_woeid": 12596664, 
+        "ne_latitude": 37.944, 
         "alias_POR_V": [
           "SIE Aeroport"
         ], 
         "iso": "PT", 
-        "date_indexed": "2010-12-02T10:00:50Z", 
-        "parent_woeid": 24900169, 
+        "sw_latitude": 37.934, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 37.939, 
         "sw_longitude": -8.821, 
-        "fullname": "Sines Airport, Barbuda, Set\u00fabal, Sines, Portugal", 
-        "sw_latitude": 37.934
+        "fullname": "Sines Airport, Barbuda, Set\u00fabal, Portugal", 
+        "date_indexed": "2010-12-02T10:00:50Z"
       }, 
       "id": 12523963
     }

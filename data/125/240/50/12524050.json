@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524050, 
-        "name": "Tumbler Ridge Airport", 
         "alias_ENG_V": [
           "TUX Airport"
         ], 
-        "ne_latitude": 55.189, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Tumbler Ridge Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375233", 
+          "woe:state=2344916", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524050, 
         "ne_longitude": -121.040, 
         "longitude": -121.048, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375233, 
+        "ne_latitude": 55.189, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 23405197, 
+        "sw_latitude": 55.180, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 55.184, 
         "sw_longitude": -121.056, 
-        "fullname": "Tumbler Ridge Airport, Tumbler Ridge, British Columbia, Peace River, Canada", 
-        "sw_latitude": 55.180
+        "fullname": "Tumbler Ridge Airport, Tumbler Ridge, British Columbia, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12524050
     }

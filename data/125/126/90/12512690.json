@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512690, 
+        "placetype": "airport", 
         "name": "Habata Airport", 
-        "ne_latitude": 31.096, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345244", 
+          "woe:country=23424802", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512690, 
         "ne_longitude": 25.454, 
         "longitude": 25.449, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345244, 
+        "ne_latitude": 31.096, 
         "iso": "EG", 
-        "date_indexed": "2010-12-02T12:16:51Z", 
-        "parent_woeid": 1522728, 
+        "sw_latitude": 31.087, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 31.091, 
         "sw_longitude": 25.444, 
         "fullname": "Habata Airport, Matruh, Egypt", 
-        "sw_latitude": 31.087
+        "date_indexed": "2010-12-02T12:16:51Z"
       }, 
       "id": 12512690
     }

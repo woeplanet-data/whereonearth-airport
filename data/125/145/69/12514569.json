@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514569, 
+        "placetype": "airport", 
         "name": "Daugavpils Northeast Airport", 
-        "ne_latitude": 55.971, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55844440", 
+          "woe:state=56190593", 
+          "woe:country=23424874", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514569, 
         "ne_longitude": 26.669, 
         "longitude": 26.661, 
-        "placetype": "Airport", 
+        "parent_woeid": 55844440, 
+        "ne_latitude": 55.971, 
         "iso": "LV", 
-        "date_indexed": "2010-12-02T08:49:48Z", 
-        "parent_woeid": 853301, 
+        "sw_latitude": 55.962, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 55.966, 
         "sw_longitude": 26.653, 
         "fullname": "Daugavpils Northeast Airport, Daugavpils Rajons, Maainovas Pagasts, Latvia", 
-        "sw_latitude": 55.962
+        "date_indexed": "2010-12-02T08:49:48Z"
       }, 
       "id": 12514569
     }

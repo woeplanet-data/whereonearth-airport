@@ -3,28 +3,70 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -112.100, 
-              33.684
-            ], 
-            [
-              -112.100, 
-              33.697
-            ], 
-            [
-              -112.066, 
-              33.697
-            ], 
-            [
-              -112.066, 
-              33.684
-            ], 
-            [
-              -112.100, 
-              33.684
+              [
+                -112.093, 
+                33.684
+              ], 
+              [
+                -112.092, 
+                33.685
+              ], 
+              [
+                -112.086, 
+                33.689
+              ], 
+              [
+                -112.083, 
+                33.690
+              ], 
+              [
+                -112.078, 
+                33.689
+              ], 
+              [
+                -112.078, 
+                33.687
+              ], 
+              [
+                -112.078, 
+                33.687
+              ], 
+              [
+                -112.082, 
+                33.684
+              ], 
+              [
+                -112.086, 
+                33.683
+              ], 
+              [
+                -112.092, 
+                33.685
+              ], 
+              [
+                -112.093, 
+                33.685
+              ], 
+              [
+                -112.095, 
+                33.684
+              ], 
+              [
+                -112.096, 
+                33.683
+              ], 
+              [
+                -112.094, 
+                33.684
+              ], 
+              [
+                -112.093, 
+                33.684
+              ]
             ]
           ]
         ]
@@ -32,23 +74,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521366, 
-        "name": "Phoenix Deer Valley Municipal Airport", 
         "alias_ENG_V": [
           "DVT Airport"
         ], 
-        "ne_latitude": 33.697, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -112.066, 
-        "longitude": -112.087, 
-        "placetype": "Airport", 
-        "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
+        "name": "Phoenix Deer Valley Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:suburb=2390460", 
+          "woe:county=12587587", 
+          "woe:state=2347561", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521366, 
+        "ne_longitude": -112.078, 
+        "longitude": -112.084, 
         "parent_woeid": 2390460, 
-        "latitude": 33.684, 
-        "sw_longitude": -112.100, 
-        "fullname": "Phoenix Deer Valley Municipal Airport, Phoenix, Arizona, Maricopa, United States", 
-        "sw_latitude": 33.684
+        "ne_latitude": 33.690, 
+        "iso": "US", 
+        "sw_latitude": 33.683, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 33.686, 
+        "sw_longitude": -112.096, 
+        "fullname": "Phoenix Deer Valley Municipal Airport, Phoenix, Arizona, United States", 
+        "iata_code": "DVT", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521366
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519246, 
-        "name": "Clinton Municipal Airport", 
         "alias_ENG_V": [
           "CLK"
         ], 
-        "ne_latitude": 35.544, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Clinton Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589634", 
+          "woe:state=2347595", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519246, 
         "ne_longitude": -98.932, 
         "longitude": -98.933, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589634, 
+        "ne_latitude": 35.544, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2381787, 
+        "sw_latitude": 35.531, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.537, 
         "sw_longitude": -98.938, 
-        "fullname": "Clinton Municipal Airport, Clinton, Oklahoma, Custer, United States", 
-        "sw_latitude": 35.531
+        "fullname": "Clinton Municipal Airport, Clinton, Oklahoma, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519246
     }

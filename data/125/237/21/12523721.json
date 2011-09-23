@@ -32,29 +32,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12523721, 
-        "name": "Aeroporto Serra Pelada", 
-        "alias_ENG_P": [
-          "Serra Pelada Airport"
-        ], 
-        "ne_latitude": -5.367, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "RSG"
         ], 
+        "name": "Aeroporto Serra Pelada", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Serra Pelada Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12580175", 
+          "woe:state=2344857", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523721, 
         "ne_longitude": -49.280, 
         "longitude": -49.284, 
-        "placetype": "Airport", 
+        "parent_woeid": 12580175, 
+        "ne_latitude": -5.367, 
         "alias_POR_V": [
           "Aeroporto RSG"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:28Z", 
-        "parent_woeid": 455881, 
+        "sw_latitude": -5.376, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -5.372, 
         "sw_longitude": -49.289, 
-        "fullname": "Aeroporto Serra Pelada, Marab\u00e1, Para, Marab\u00e1, Brazil", 
-        "sw_latitude": -5.376
+        "fullname": "Aeroporto Serra Pelada, Marab\u00e1, Para, Brazil", 
+        "iata_code": "RSG", 
+        "date_indexed": "2010-12-02T18:01:28Z"
       }, 
       "id": 12523721
     }

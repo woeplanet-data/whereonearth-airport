@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388393, 
-        "name": "Sky Manor Airport", 
         "alias_ENG_V": [
           "N40"
         ], 
-        "ne_latitude": 40.570, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Sky Manor Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589267", 
+          "woe:state=2347589", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388393, 
         "ne_longitude": -74.973, 
         "longitude": -74.975, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589267, 
+        "ne_latitude": 40.570, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 28744980, 
+        "sw_latitude": 40.565, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.570, 
         "sw_longitude": -74.981, 
-        "fullname": "Sky Manor Airport, Alexandria, New Jersey, Hunterdon, United States", 
-        "sw_latitude": 40.565
+        "fullname": "Sky Manor Airport, Alexandria, New Jersey, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388393
     }

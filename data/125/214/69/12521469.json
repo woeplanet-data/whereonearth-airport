@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521469, 
-        "name": "Pratt Industrial Airport", 
         "alias_ENG_V": [
           "PTT Airport"
         ], 
-        "ne_latitude": 37.716, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Pratt Industrial Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588446", 
+          "woe:state=2347575", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521469, 
         "ne_longitude": -98.743, 
         "longitude": -98.749, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588446, 
+        "ne_latitude": 37.716, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2427948, 
+        "sw_latitude": 37.693, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 37.716, 
         "sw_longitude": -98.759, 
-        "fullname": "Pratt Industrial Airport, Iuka, Kansas, Pratt, United States", 
-        "sw_latitude": 37.693
+        "fullname": "Pratt Industrial Airport, Iuka, Kansas, United States", 
+        "iata_code": "PTT", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521469
     }

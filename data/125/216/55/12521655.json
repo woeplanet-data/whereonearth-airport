@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521655, 
-        "name": "Roseau Municipal Airport", 
         "alias_ENG_V": [
           "ROX"
         ], 
-        "ne_latitude": 48.864, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Roseau Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588864", 
+          "woe:state=2347582", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521655, 
         "ne_longitude": -95.689, 
         "longitude": -95.702, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588864, 
+        "ne_latitude": 48.864, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2484591, 
+        "sw_latitude": 48.849, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.857, 
         "sw_longitude": -95.702, 
-        "fullname": "Roseau Municipal Airport, Roseau, Minnesota, Roseau, United States", 
-        "sw_latitude": 48.849
+        "fullname": "Roseau Municipal Airport, Roseau, Minnesota, United States", 
+        "iata_code": "ROX", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521655
     }

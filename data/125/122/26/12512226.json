@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512226, 
+        "placetype": "airport", 
         "name": "Wang-Chia Tun Airport", 
-        "ne_latitude": 30.605, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12686302", 
+          "woe:county=26198158", 
+          "woe:state=12578002", 
+          "woe:country=23424781", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512226, 
         "ne_longitude": 114.249, 
         "longitude": 114.244, 
-        "placetype": "Airport", 
+        "parent_woeid": 12686302, 
+        "ne_latitude": 30.605, 
         "iso": "CN", 
-        "date_indexed": "2010-12-02T08:51:54Z", 
-        "parent_woeid": 2163866, 
+        "sw_latitude": 30.595, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 30.600, 
         "sw_longitude": 114.239, 
-        "fullname": "Wang-Chia Tun Airport, Wuhan, Hubei, Wuhan, China", 
-        "sw_latitude": 30.595
+        "fullname": "Wang-Chia Tun Airport, Wuhan, Hubei, China", 
+        "date_indexed": "2010-12-02T08:51:54Z"
       }, 
       "id": 12512226
     }

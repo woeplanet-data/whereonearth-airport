@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515338, 
+        "placetype": "airport", 
         "name": "Lisiekaty Airport", 
-        "ne_latitude": 53.538, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=24547504", 
+          "woe:county=12591172", 
+          "woe:state=12577936", 
+          "woe:country=23424923", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515338, 
         "ne_longitude": 18.843, 
         "longitude": 18.835, 
-        "placetype": "Airport", 
+        "parent_woeid": 24547504, 
+        "ne_latitude": 53.538, 
         "iso": "PL", 
-        "date_indexed": "2010-12-02T12:12:45Z", 
-        "parent_woeid": 508075, 
+        "sw_latitude": 53.529, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.533, 
         "sw_longitude": 18.828, 
         "fullname": "Lisiekaty Airport, Kuiavia-Pomerania, Grudziadz County, Poland", 
-        "sw_latitude": 53.529
+        "date_indexed": "2010-12-02T12:12:45Z"
       }, 
       "id": 12515338
     }

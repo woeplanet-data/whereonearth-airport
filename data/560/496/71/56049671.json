@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "CZE", 
-        "woeid": 56049671, 
+        "placetype": "airport", 
         "name": "Letiste Policna", 
-        "ne_latitude": 49.483, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12607228", 
+          "woe:county=12582580", 
+          "woe:state=20070469", 
+          "woe:country=23424810", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56049671, 
         "ne_longitude": 17.939, 
         "longitude": 17.929, 
-        "placetype": "Airport", 
+        "parent_woeid": 12607228, 
+        "ne_latitude": 49.483, 
         "iso": "CZ", 
-        "date_indexed": "2010-12-02T08:56:52Z", 
-        "parent_woeid": 800342, 
+        "sw_latitude": 49.470, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.476, 
         "sw_longitude": 17.919, 
-        "fullname": "Letiste Policna, Vala\u0161sk\u00e9 Mezi\u0159\u00ed\u010d\u00ed, Zl\u00ednsk\u00fd, Vset\u00edn, Czech Republic", 
-        "sw_latitude": 49.470
+        "fullname": "Letiste Policna, Vala\u0161sk\u00e9 Mezi\u0159\u00ed\u010d\u00ed, Zl\u00ednsk\u00fd, Czech Republic", 
+        "date_indexed": "2010-12-02T08:56:52Z"
       }, 
       "id": 56049671
     }

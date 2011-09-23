@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520413, 
-        "name": "Kake Airport", 
         "alias_ENG_V": [
           "AFE"
         ], 
-        "ne_latitude": 56.966, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Kake Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587578", 
+          "woe:state=2347560", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520413, 
         "ne_longitude": -133.904, 
         "longitude": -133.913, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587578, 
+        "ne_latitude": 56.966, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2430468, 
+        "sw_latitude": 56.957, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 56.962, 
         "sw_longitude": -133.921, 
         "fullname": "Kake Airport, Alaska, Wrangell-Petersburg Census Area, United States", 
-        "sw_latitude": 56.957
+        "iata_code": "AFE", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12520413
     }

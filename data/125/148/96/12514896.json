@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514896, 
+        "placetype": "airport", 
         "name": "Ixmiquilpan Airport", 
-        "ne_latitude": 20.485, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12600139", 
+          "woe:state=2346276", 
+          "woe:country=23424900", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514896, 
         "ne_longitude": -99.256, 
         "longitude": -99.261, 
-        "placetype": "Airport", 
+        "parent_woeid": 12600139, 
+        "ne_latitude": 20.485, 
         "iso": "MX", 
-        "date_indexed": "2010-12-02T16:57:55Z", 
-        "parent_woeid": 135899, 
+        "sw_latitude": 20.476, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 20.481, 
         "sw_longitude": -99.266, 
-        "fullname": "Ixmiquilpan Airport, Panales, Hidalgo, Ixmiquilpan, Mexico", 
-        "sw_latitude": 20.476
+        "fullname": "Ixmiquilpan Airport, Panales, Hidalgo, Mexico", 
+        "date_indexed": "2010-12-02T16:57:55Z"
       }, 
       "id": 12514896
     }

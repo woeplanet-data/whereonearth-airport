@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515158, 
-        "name": "Bay of Islands Airport", 
         "alias_ENG_V": [
           "KKE Airport"
         ], 
-        "ne_latitude": -35.250, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Bay of Islands Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55875844", 
+          "woe:state=15021755", 
+          "woe:country=23424916", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515158, 
         "ne_longitude": 173.920, 
         "longitude": 173.914, 
-        "placetype": "Airport", 
+        "parent_woeid": 55875844, 
+        "ne_latitude": -35.250, 
         "iso": "NZ", 
-        "date_indexed": "2010-12-02T17:02:39Z", 
-        "parent_woeid": 2351138, 
+        "sw_latitude": -35.265, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -35.265, 
         "sw_longitude": 173.908, 
-        "fullname": "Bay of Islands Airport, Waimate North, Northland, Far North District, New Zealand", 
-        "sw_latitude": -35.265
+        "fullname": "Bay of Islands Airport, Waimate North, Northland, New Zealand", 
+        "date_indexed": "2010-12-02T17:02:39Z"
       }, 
       "id": 12515158
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521341, 
-        "name": "Perry County Municipal Airport", 
         "alias_ENG_V": [
           "TEL"
         ], 
-        "ne_latitude": 38.021, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Perry County Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588241", 
+          "woe:state=2347573", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521341, 
         "ne_longitude": -86.686, 
         "longitude": -86.690, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588241, 
+        "ne_latitude": 38.021, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2439281, 
+        "sw_latitude": 38.014, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.015, 
         "sw_longitude": -86.696, 
-        "fullname": "Perry County Municipal Airport, Lilly Dale, Indiana, Perry, United States", 
-        "sw_latitude": 38.014
+        "fullname": "Perry County Municipal Airport, Lilly Dale, Indiana, United States", 
+        "iata_code": "TEL", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521341
     }

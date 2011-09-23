@@ -3,28 +3,106 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -74.614, 
-              39.428
-            ], 
-            [
-              -74.614, 
-              39.477
-            ], 
-            [
-              -74.538, 
-              39.477
-            ], 
-            [
-              -74.538, 
-              39.428
-            ], 
-            [
-              -74.614, 
-              39.428
+              [
+                -74.566, 
+                39.449
+              ], 
+              [
+                -74.571, 
+                39.449
+              ], 
+              [
+                -74.574, 
+                39.448
+              ], 
+              [
+                -74.575, 
+                39.449
+              ], 
+              [
+                -74.575, 
+                39.449
+              ], 
+              [
+                -74.576, 
+                39.453
+              ], 
+              [
+                -74.575, 
+                39.453
+              ], 
+              [
+                -74.575, 
+                39.453
+              ], 
+              [
+                -74.572, 
+                39.455
+              ], 
+              [
+                -74.568, 
+                39.451
+              ], 
+              [
+                -74.567, 
+                39.451
+              ], 
+              [
+                -74.565, 
+                39.451
+              ], 
+              [
+                -74.562, 
+                39.451
+              ], 
+              [
+                -74.563, 
+                39.446
+              ], 
+              [
+                -74.563, 
+                39.445
+              ], 
+              [
+                -74.563, 
+                39.441
+              ], 
+              [
+                -74.563, 
+                39.440
+              ], 
+              [
+                -74.560, 
+                39.436
+              ], 
+              [
+                -74.565, 
+                39.438
+              ], 
+              [
+                -74.567, 
+                39.438
+              ], 
+              [
+                -74.566, 
+                39.441
+              ], 
+              [
+                -74.567, 
+                39.443
+              ], 
+              [
+                -74.566, 
+                39.449
+              ], 
+              [
+                -74.566, 
+                39.449
+              ]
             ]
           ]
         ]
@@ -32,23 +110,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518689, 
-        "name": "Atlantic City International Airport", 
         "alias_ENG_V": [
           "Atlantic City Airport"
         ], 
-        "ne_latitude": 39.477, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -74.538, 
-        "longitude": -74.572, 
-        "placetype": "Airport", 
+        "name": "Atlantic City International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589258", 
+          "woe:state=2347589", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518689, 
+        "ne_longitude": -74.560, 
+        "longitude": -74.568, 
+        "parent_woeid": 12589258, 
+        "ne_latitude": 39.455, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 26342940, 
-        "latitude": 39.451, 
-        "sw_longitude": -74.614, 
-        "fullname": "Atlantic City International Airport, Galloway, New Jersey, Atlantic, United States", 
-        "sw_latitude": 39.428
+        "sw_latitude": 39.436, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 39.447, 
+        "sw_longitude": -74.576, 
+        "fullname": "Atlantic City International Airport, Galloway, New Jersey, United States", 
+        "iata_code": "ACY", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518689
     }

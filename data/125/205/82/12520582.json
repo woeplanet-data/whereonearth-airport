@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520582, 
-        "name": "Laverne Municipal Airport", 
         "alias_ENG_V": [
           "O51"
         ], 
-        "ne_latitude": 36.750, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Laverne Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589644", 
+          "woe:state=2347595", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520582, 
         "ne_longitude": -99.908, 
         "longitude": -99.908, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589644, 
+        "ne_latitude": 36.750, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2437177, 
+        "sw_latitude": 36.739, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.739, 
         "sw_longitude": -99.909, 
-        "fullname": "Laverne Municipal Airport, Laverne, Oklahoma, Harper, United States", 
-        "sw_latitude": 36.739
+        "fullname": "Laverne Municipal Airport, Laverne, Oklahoma, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520582
     }

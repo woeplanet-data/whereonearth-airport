@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515566, 
+        "placetype": "airport", 
         "name": "Sabaoani Airport", 
-        "ne_latitude": 47.025, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2346641", 
+          "woe:country=23424933", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515566, 
         "ne_longitude": 26.908, 
         "longitude": 26.901, 
-        "placetype": "Airport", 
+        "parent_woeid": 2346641, 
+        "ne_latitude": 47.025, 
         "iso": "RO", 
-        "date_indexed": "2010-12-02T16:37:48Z", 
-        "parent_woeid": 866024, 
+        "sw_latitude": 47.016, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.020, 
         "sw_longitude": 26.894, 
         "fullname": "Sabaoani Airport, Neamt, Romania", 
-        "sw_latitude": 47.016
+        "date_indexed": "2010-12-02T16:37:48Z"
       }, 
       "id": 12515566
     }

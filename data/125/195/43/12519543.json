@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519543, 
+        "placetype": "airport", 
         "name": "Dulce Airport", 
-        "ne_latitude": 36.932, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12589300", 
+          "woe:state=2347590", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519543, 
         "ne_longitude": -106.978, 
         "longitude": -106.983, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589300, 
+        "ne_latitude": 36.932, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:15Z", 
-        "parent_woeid": 2394192, 
+        "sw_latitude": 36.923, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.928, 
         "sw_longitude": -106.989, 
-        "fullname": "Dulce Airport, Dulce, New Mexico, Rio Arriba, United States", 
-        "sw_latitude": 36.923
+        "fullname": "Dulce Airport, Dulce, New Mexico, United States", 
+        "date_indexed": "2010-12-02T18:39:15Z"
       }, 
       "id": 12519543
     }

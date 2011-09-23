@@ -3,28 +3,42 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              28.011, 
-              53.868
-            ], 
-            [
-              28.011, 
-              53.897
-            ], 
-            [
-              28.057, 
-              53.897
-            ], 
-            [
-              28.057, 
-              53.868
-            ], 
-            [
-              28.011, 
-              53.868
+              [
+                28.034, 
+                53.890
+              ], 
+              [
+                28.035, 
+                53.890
+              ], 
+              [
+                28.037, 
+                53.889
+              ], 
+              [
+                28.038, 
+                53.885
+              ], 
+              [
+                28.035, 
+                53.888
+              ], 
+              [
+                28.034, 
+                53.889
+              ], 
+              [
+                28.033, 
+                53.890
+              ], 
+              [
+                28.034, 
+                53.890
+              ]
             ]
           ]
         ]
@@ -32,23 +46,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510995, 
-        "name": "Velikiydvor Airport", 
         "alias_ENG_V": [
           "MSQ Airport"
         ], 
-        "ne_latitude": 53.897, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": 28.057, 
-        "longitude": 28.034, 
-        "placetype": "Airport", 
+        "name": "Velikiydvor Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2344834", 
+          "woe:country=23424765", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510995, 
+        "ne_longitude": 28.038, 
+        "longitude": 28.036, 
+        "parent_woeid": 2344834, 
+        "ne_latitude": 53.890, 
         "iso": "BY", 
-        "date_indexed": "2010-12-02T16:32:57Z", 
-        "parent_woeid": 834512, 
-        "latitude": 53.887, 
-        "sw_longitude": 28.011, 
+        "sw_latitude": 53.885, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 53.888, 
+        "sw_longitude": 28.033, 
         "fullname": "Velikiydvor Airport, Minskaya Voblasts', Belarus", 
-        "sw_latitude": 53.868
+        "iata_code": "MSQ", 
+        "date_indexed": "2010-12-02T16:32:57Z"
       }, 
       "id": 12510995
     }

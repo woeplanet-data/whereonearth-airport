@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520237, 
-        "name": "Houlton International Airport", 
         "alias_ENG_V": [
           "HUL"
         ], 
-        "ne_latitude": 46.133, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Houlton International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588661", 
+          "woe:state=2347578", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520237, 
         "ne_longitude": -67.783, 
         "longitude": -67.786, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588661, 
+        "ne_latitude": 46.133, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2424718, 
+        "sw_latitude": 46.114, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.125, 
         "sw_longitude": -67.802, 
-        "fullname": "Houlton International Airport, Houlton, Maine, Aroostook, United States", 
-        "sw_latitude": 46.114
+        "fullname": "Houlton International Airport, Houlton, Maine, United States", 
+        "iata_code": "HUL", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520237
     }

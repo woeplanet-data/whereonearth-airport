@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523873, 
-        "name": "Pyrgos Airport", 
         "alias_ENG_V": [
           "PYR"
         ], 
-        "ne_latitude": 37.755, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Pyrgos Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=24544337", 
+          "woe:county=12591091", 
+          "woe:state=12577880", 
+          "woe:country=23424833", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523873, 
         "ne_longitude": 21.756, 
         "longitude": 21.750, 
-        "placetype": "Airport", 
+        "parent_woeid": 24544337, 
+        "ne_latitude": 37.755, 
         "iso": "GR", 
-        "date_indexed": "2010-12-02T16:52:21Z", 
-        "parent_woeid": 960495, 
+        "sw_latitude": 37.745, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 37.750, 
         "sw_longitude": 21.744, 
-        "fullname": "Pyrgos Airport, Poloi, Dytiki Ellada, Ilia, Greece", 
-        "sw_latitude": 37.745
+        "fullname": "Pyrgos Airport, Poloi, Dytiki Ellada, Greece", 
+        "iata_code": "PYR", 
+        "date_indexed": "2010-12-02T16:52:21Z"
       }, 
       "id": 12523873
     }

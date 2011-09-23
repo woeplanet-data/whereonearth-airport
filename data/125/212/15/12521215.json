@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521215, 
-        "name": "Olivia Municipal Airport", 
         "alias_ENG_V": [
           "Olivia Regional Airport"
         ], 
-        "ne_latitude": 44.782, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Olivia Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588861", 
+          "woe:state=2347582", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521215, 
         "ne_longitude": -95.026, 
         "longitude": -95.028, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588861, 
+        "ne_latitude": 44.782, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2465396, 
+        "sw_latitude": 44.775, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.779, 
         "sw_longitude": -95.040, 
-        "fullname": "Olivia Municipal Airport, Olivia, Minnesota, Renville, United States", 
-        "sw_latitude": 44.775
+        "fullname": "Olivia Municipal Airport, Olivia, Minnesota, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521215
     }

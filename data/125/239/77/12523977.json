@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523977, 
-        "name": "Burtonwood Airport", 
         "alias_ENG_V": [
           "BUT"
         ], 
-        "ne_latitude": 53.433, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Burtonwood Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=12696172", 
+          "woe:county=12602157", 
+          "woe:state=24554868", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523977, 
         "ne_longitude": -2.641, 
         "longitude": -2.649, 
-        "placetype": "Airport", 
+        "parent_woeid": 12696172, 
+        "ne_latitude": 53.433, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:21:01Z", 
-        "parent_woeid": 14698, 
+        "sw_latitude": 53.423, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.428, 
         "sw_longitude": -2.656, 
-        "fullname": "Burtonwood Airport, Burtonwood, England, Cheshire, United Kingdom", 
-        "sw_latitude": 53.423
+        "fullname": "Burtonwood Airport, Burtonwood, England, United Kingdom", 
+        "iata_code": "BUT", 
+        "date_indexed": "2010-12-02T12:21:01Z"
       }, 
       "id": 12523977
     }

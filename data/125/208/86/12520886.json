@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520886, 
-        "name": "Medina Municipal Airport", 
         "alias_ENG_V": [
           "1g5"
         ], 
-        "ne_latitude": 41.136, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Medina Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589578", 
+          "woe:state=2347594", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520886, 
         "ne_longitude": -81.761, 
         "longitude": -81.761, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589578, 
+        "ne_latitude": 41.136, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2521753, 
+        "sw_latitude": 41.126, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.136, 
         "sw_longitude": -81.775, 
-        "fullname": "Medina Municipal Airport, Windfall, Ohio, Medina, United States", 
-        "sw_latitude": 41.126
+        "fullname": "Medina Municipal Airport, Windfall, Ohio, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520886
     }

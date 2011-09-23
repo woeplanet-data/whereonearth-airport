@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515515, 
+        "placetype": "airport", 
         "name": "Carei East Airport", 
-        "ne_latitude": 47.679, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2346645", 
+          "woe:country=23424933", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515515, 
         "ne_longitude": 22.545, 
         "longitude": 22.539, 
-        "placetype": "Airport", 
+        "parent_woeid": 2346645, 
+        "ne_latitude": 47.679, 
         "iso": "RO", 
-        "date_indexed": "2010-12-02T16:37:48Z", 
-        "parent_woeid": 872715, 
+        "sw_latitude": 47.670, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.674, 
         "sw_longitude": 22.532, 
         "fullname": "Carei East Airport, Satu Mare, Romania", 
-        "sw_latitude": 47.670
+        "date_indexed": "2010-12-02T16:37:48Z"
       }, 
       "id": 12515515
     }

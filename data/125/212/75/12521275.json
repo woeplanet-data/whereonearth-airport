@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521275, 
-        "name": "Padgham Field Airport", 
         "alias_ENG_V": [
           "35d"
         ], 
-        "ne_latitude": 42.535, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Padgham Field Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588716", 
+          "woe:state=2347581", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521275, 
         "ne_longitude": -85.817, 
         "longitude": -85.825, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588716, 
+        "ne_latitude": 42.535, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2353231, 
+        "sw_latitude": 42.530, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.535, 
         "sw_longitude": -85.831, 
-        "fullname": "Padgham Field Airport, Allegan, Michigan, Allegan, United States", 
-        "sw_latitude": 42.530
+        "fullname": "Padgham Field Airport, Allegan, Michigan, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521275
     }

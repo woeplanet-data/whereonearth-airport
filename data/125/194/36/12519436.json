@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519436, 
-        "name": "De Witt Municipal Airport", 
         "alias_ENG_V": [
           "5m1"
         ], 
-        "ne_latitude": 34.268, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "De Witt Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587595", 
+          "woe:state=2347562", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519436, 
         "ne_longitude": -91.306, 
         "longitude": -91.308, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587595, 
+        "ne_latitude": 34.268, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2390028, 
+        "sw_latitude": 34.258, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 34.268, 
         "sw_longitude": -91.309, 
-        "fullname": "De Witt Municipal Airport, Thomwall, Arkansas, Arkansas, United States", 
-        "sw_latitude": 34.258
+        "fullname": "De Witt Municipal Airport, Thomwall, Arkansas, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519436
     }

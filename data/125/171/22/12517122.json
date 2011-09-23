@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517122, 
+        "placetype": "airport", 
         "name": "Ust Voya Airport", 
-        "ne_latitude": 64.448, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597466", 
+          "woe:state=2346874", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517122, 
         "ne_longitude": 57.678, 
         "longitude": 57.667, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597466, 
+        "ne_latitude": 64.448, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2101838, 
+        "sw_latitude": 64.439, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 64.443, 
         "sw_longitude": 57.656, 
         "fullname": "Ust Voya Airport, Komi, Vuktyl'sky, Russia", 
-        "sw_latitude": 64.439
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12517122
     }

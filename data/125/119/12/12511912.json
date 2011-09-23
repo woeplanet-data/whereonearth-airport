@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511912, 
-        "name": "Whitecourt Airport", 
         "alias_ENG_V": [
           "YZU Airport"
         ], 
-        "ne_latitude": 54.148, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Whitecourt Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375228", 
+          "woe:state=2344915", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511912, 
         "ne_longitude": -115.778, 
         "longitude": -115.786, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375228, 
+        "ne_latitude": 54.148, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 29373840, 
+        "sw_latitude": 54.139, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 54.143, 
         "sw_longitude": -115.793, 
-        "fullname": "Whitecourt Airport, Woodlands County, Alberta, Alberta, Canada", 
-        "sw_latitude": 54.139
+        "fullname": "Whitecourt Airport, Woodlands County, Alberta, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12511912
     }

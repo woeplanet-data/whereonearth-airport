@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519465, 
-        "name": "Denison Municipal Airport", 
         "alias_ENG_V": [
           "DNS"
         ], 
-        "ne_latitude": 41.992, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Denison Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588295", 
+          "woe:state=2347574", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519465, 
         "ne_longitude": -95.370, 
         "longitude": -95.378, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588295, 
+        "ne_latitude": 41.992, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2391099, 
+        "sw_latitude": 41.980, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.987, 
         "sw_longitude": -95.391, 
-        "fullname": "Denison Municipal Airport, Denison, Iowa, Crawford, United States", 
-        "sw_latitude": 41.980
+        "fullname": "Denison Municipal Airport, Denison, Iowa, United States", 
+        "iata_code": "DNS", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519465
     }

@@ -3,28 +3,38 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              77.697, 
-              13.189
-            ], 
-            [
-              77.697, 
-              13.207
-            ], 
-            [
-              77.716, 
-              13.207
-            ], 
-            [
-              77.716, 
-              13.189
-            ], 
-            [
-              77.697, 
-              13.189
+              [
+                77.708, 
+                13.202
+              ], 
+              [
+                77.710, 
+                13.201
+              ], 
+              [
+                77.711, 
+                13.199
+              ], 
+              [
+                77.709, 
+                13.197
+              ], 
+              [
+                77.706, 
+                13.198
+              ], 
+              [
+                77.705, 
+                13.200
+              ], 
+              [
+                77.708, 
+                13.202
+              ]
             ]
           ]
         ]
@@ -32,23 +42,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 55965437, 
-        "name": "Bengaluru International Airport", 
         "alias_ENG_V": [
           "Devanahalli airport"
         ], 
-        "ne_latitude": 13.207, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": 77.716, 
-        "longitude": 77.706, 
-        "placetype": "Airport", 
+        "name": "Bengaluru International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12586571", 
+          "woe:state=2345753", 
+          "woe:country=23424848", 
+          "woe:planet=1"
+        ], 
+        "woeid": 55965437, 
+        "ne_longitude": 77.711, 
+        "longitude": 77.708, 
+        "parent_woeid": 12586571, 
+        "ne_latitude": 13.202, 
         "iso": "IN", 
-        "date_indexed": "2010-12-02T09:26:27Z", 
-        "parent_woeid": 2294160, 
-        "latitude": 13.198, 
-        "sw_longitude": 77.697, 
-        "fullname": "Bengaluru International Airport, Devanahalli, Karnataka, Bangalore Rural, India", 
-        "sw_latitude": 13.189
+        "sw_latitude": 13.197, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 13.200, 
+        "sw_longitude": 77.705, 
+        "fullname": "Bengaluru International Airport, Devanahalli, Karnataka, India", 
+        "iata_code": "BLR", 
+        "date_indexed": "2010-12-02T09:26:27Z"
       }, 
       "id": 55965437
     }

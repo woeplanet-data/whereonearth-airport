@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388256, 
-        "name": "Put-in-Bay Airport", 
         "alias_ENG_V": [
           "3w2"
         ], 
-        "ne_latitude": 41.639, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Put-in-Bay Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589588", 
+          "woe:state=2347594", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388256, 
         "ne_longitude": -82.827, 
         "longitude": -82.830, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589588, 
+        "ne_latitude": 41.639, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2477401, 
+        "sw_latitude": 41.636, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.637, 
         "sw_longitude": -82.832, 
-        "fullname": "Put-in-Bay Airport, Put-In-Bay, Ohio, Ottawa, United States", 
-        "sw_latitude": 41.636
+        "fullname": "Put-in-Bay Airport, Put-In-Bay, Ohio, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 29388256
     }

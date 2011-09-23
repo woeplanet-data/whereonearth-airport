@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523241, 
-        "name": "Manapouri Aerodrome", 
         "alias_ENG_V": [
           "TEU Airport"
         ], 
-        "ne_latitude": -45.529, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Manapouri Aerodrome", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55875873", 
+          "woe:state=15021750", 
+          "woe:country=23424916", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523241, 
         "ne_longitude": 167.651, 
         "longitude": 167.645, 
-        "placetype": "Airport", 
+        "parent_woeid": 55875873, 
+        "ne_latitude": -45.529, 
         "iso": "NZ", 
-        "date_indexed": "2010-12-02T17:02:39Z", 
-        "parent_woeid": 2349328, 
+        "sw_latitude": -45.538, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -45.534, 
         "sw_longitude": 167.638, 
-        "fullname": "Manapouri Aerodrome, Manapouri, Southland, Southland District, New Zealand", 
-        "sw_latitude": -45.538
+        "fullname": "Manapouri Aerodrome, Manapouri, Southland, New Zealand", 
+        "iata_code": "TEU", 
+        "date_indexed": "2010-12-02T17:02:39Z"
       }, 
       "id": 12523241
     }

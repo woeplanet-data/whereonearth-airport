@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519174, 
-        "name": "Chesterfield County Airport", 
         "alias_ENG_V": [
           "FCI"
         ], 
-        "ne_latitude": 37.416, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Chesterfield County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590330", 
+          "woe:state=2347605", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519174, 
         "ne_longitude": -77.514, 
         "longitude": -77.521, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590330, 
+        "ne_latitude": 37.416, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2379329, 
+        "sw_latitude": 37.396, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 37.407, 
         "sw_longitude": -77.535, 
-        "fullname": "Chesterfield County Airport, Chesterfield, Virginia, Chesterfield, United States", 
-        "sw_latitude": 37.396
+        "fullname": "Chesterfield County Airport, Chesterfield, Virginia, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519174
     }

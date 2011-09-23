@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515829, 
+        "placetype": "airport", 
         "name": "Bogomolov Airport", 
-        "ne_latitude": 45.847, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597954", 
+          "woe:state=2346887", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515829, 
         "ne_longitude": 41.344, 
         "longitude": 41.337, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597954, 
+        "ne_latitude": 45.847, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2024720, 
+        "sw_latitude": 45.838, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.842, 
         "sw_longitude": 41.330, 
         "fullname": "Bogomolov Airport, Stavropolrskiy Kray, Krasnogvardeysky, Russia", 
-        "sw_latitude": 45.838
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12515829
     }

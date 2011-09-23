@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522758, 
-        "name": "Barquisimeto Airport", 
         "alias_ENG_V": [
           "BRM"
         ], 
-        "ne_latitude": 10.050, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Barquisimeto Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=26805372", 
+          "woe:county=26804501", 
+          "woe:state=2347689", 
+          "woe:country=23424982", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522758, 
         "ne_longitude": -69.351, 
         "longitude": -69.356, 
-        "placetype": "Airport", 
+        "parent_woeid": 26805372, 
+        "ne_latitude": 10.050, 
         "iso": "VE", 
-        "date_indexed": "2010-12-02T16:11:43Z", 
-        "parent_woeid": 468382, 
+        "sw_latitude": 10.041, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 10.045, 
         "sw_longitude": -69.361, 
-        "fullname": "Barquisimeto Airport, Barquisimeto, Lara, Iribarren, Venezuela", 
-        "sw_latitude": 10.041
+        "fullname": "Barquisimeto Airport, Barquisimeto, Lara, Venezuela", 
+        "iata_code": "BRM", 
+        "date_indexed": "2010-12-02T16:11:43Z"
       }, 
       "id": 12522758
     }

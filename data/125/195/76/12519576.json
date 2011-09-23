@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519576, 
-        "name": "Eastern Kentucky Regional Airport", 
         "alias_ENG_V": [
           "Wendell H Ford Airport"
         ], 
-        "ne_latitude": 37.394, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Eastern Kentucky Regional Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588572", 
+          "woe:state=2347576", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519576, 
         "ne_longitude": -83.249, 
         "longitude": -83.265, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588572, 
+        "ne_latitude": 37.394, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2399648, 
+        "sw_latitude": 37.377, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 37.386, 
         "sw_longitude": -83.272, 
-        "fullname": "Eastern Kentucky Regional Airport, Engle, Kentucky, Perry, United States", 
-        "sw_latitude": 37.377
+        "fullname": "Eastern Kentucky Regional Airport, Engle, Kentucky, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519576
     }

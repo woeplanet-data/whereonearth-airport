@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514777, 
-        "name": "Nioro Airport", 
         "alias_ENG_V": [
           "NIX"
         ], 
-        "ne_latitude": 15.244, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Nioro Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=56000008", 
+          "woe:state=2346182", 
+          "woe:country=23424891", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514777, 
         "ne_longitude": -9.572, 
         "longitude": -9.577, 
-        "placetype": "Airport", 
+        "parent_woeid": 56000008, 
+        "ne_latitude": 15.244, 
         "iso": "ML", 
-        "date_indexed": "2010-12-02T08:58:41Z", 
-        "parent_woeid": 1374717, 
+        "sw_latitude": 15.235, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 15.239, 
         "sw_longitude": -9.582, 
-        "fullname": "Nioro Airport, Nioro du Sahel, Kayes, Nioro du Sahel, Mali", 
-        "sw_latitude": 15.235
+        "fullname": "Nioro Airport, Nioro du Sahel, Kayes, Mali", 
+        "date_indexed": "2010-12-02T08:58:41Z"
       }, 
       "id": 12514777
     }

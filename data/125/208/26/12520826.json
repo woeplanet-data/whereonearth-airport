@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520826, 
-        "name": "Martin Municipal Airport", 
         "alias_ENG_V": [
           "9v6"
         ], 
-        "ne_latitude": 43.172, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Martin Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589848", 
+          "woe:state=2347600", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520826, 
         "ne_longitude": -101.704, 
         "longitude": -101.720, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589848, 
+        "ne_latitude": 43.172, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2446280, 
+        "sw_latitude": 43.158, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.172, 
         "sw_longitude": -101.722, 
-        "fullname": "Martin Municipal Airport, Martin, South Dakota, Bennett, United States", 
-        "sw_latitude": 43.158
+        "fullname": "Martin Municipal Airport, Martin, South Dakota, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520826
     }

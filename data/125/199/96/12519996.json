@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519996, 
+        "placetype": "airport", 
         "name": "Greene County Airpark", 
-        "ne_latitude": 33.604, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12587935", 
+          "woe:state=2347569", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519996, 
         "ne_longitude": -83.131, 
         "longitude": -83.137, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587935, 
+        "ne_latitude": 33.604, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2414468, 
+        "sw_latitude": 33.595, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 33.599, 
         "sw_longitude": -83.142, 
-        "fullname": "Greene County Airpark, Greensboro, Georgia, Greene, United States", 
-        "sw_latitude": 33.595
+        "fullname": "Greene County Airpark, Greensboro, Georgia, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12519996
     }

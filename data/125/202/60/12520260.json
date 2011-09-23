@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520260, 
-        "name": "Huntington Municipal Airport", 
         "alias_ENG_V": [
           "Hhg"
         ], 
-        "ne_latitude": 40.856, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Huntington Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588214", 
+          "woe:state=2347573", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520260, 
         "ne_longitude": -85.452, 
         "longitude": -85.469, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588214, 
+        "ne_latitude": 40.856, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2425830, 
+        "sw_latitude": 40.852, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.855, 
         "sw_longitude": -85.469, 
-        "fullname": "Huntington Municipal Airport, Huntington, Indiana, Huntington, United States", 
-        "sw_latitude": 40.852
+        "fullname": "Huntington Municipal Airport, Huntington, Indiana, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520260
     }

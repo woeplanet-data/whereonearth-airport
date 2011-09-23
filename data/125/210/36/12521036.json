@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521036, 
-        "name": "Moultonboro Airport", 
         "alias_ENG_V": [
           "Moultonborough Airport"
         ], 
-        "ne_latitude": 43.775, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Moultonboro Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589249", 
+          "woe:state=2347588", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521036, 
         "ne_longitude": -71.383, 
         "longitude": -71.387, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589249, 
+        "ne_latitude": 43.775, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2454673, 
+        "sw_latitude": 43.761, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.768, 
         "sw_longitude": -71.390, 
-        "fullname": "Moultonboro Airport, Moultonborough, New Hampshire, Carroll, United States", 
-        "sw_latitude": 43.761
+        "fullname": "Moultonboro Airport, Moultonborough, New Hampshire, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12521036
     }

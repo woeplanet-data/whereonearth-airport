@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522319, 
-        "name": "Wallops Flight Facility Airport", 
         "alias_ENG_V": [
           "WAL"
         ], 
-        "ne_latitude": 37.946, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Wallops Flight Facility Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590304", 
+          "woe:state=2347605", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522319, 
         "ne_longitude": -75.457, 
         "longitude": -75.463, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590304, 
+        "ne_latitude": 37.946, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2424481, 
+        "sw_latitude": 37.937, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 37.942, 
         "sw_longitude": -75.468, 
-        "fullname": "Wallops Flight Facility Airport, Horntown, Virginia, Accomack, United States", 
-        "sw_latitude": 37.937
+        "fullname": "Wallops Flight Facility Airport, Horntown, Virginia, United States", 
+        "iata_code": "WAL", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12522319
     }

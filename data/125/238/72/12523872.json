@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523872, 
-        "name": "Spetsai Airport", 
         "alias_ENG_V": [
           "JSS"
         ], 
-        "ne_latitude": 37.270, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Spetsai Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=24544103", 
+          "woe:county=24543544", 
+          "woe:state=12577879", 
+          "woe:country=23424833", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523872, 
         "ne_longitude": 23.159, 
         "longitude": 23.153, 
-        "placetype": "Airport", 
+        "parent_woeid": 24544103, 
+        "ne_latitude": 37.270, 
         "iso": "GR", 
-        "date_indexed": "2010-12-02T16:52:21Z", 
-        "parent_woeid": 962715, 
+        "sw_latitude": 37.261, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 37.266, 
         "sw_longitude": 23.147, 
-        "fullname": "Spetsai Airport, Kranidi, Peloponnisos, Argolida, Greece", 
-        "sw_latitude": 37.261
+        "fullname": "Spetsai Airport, Kranidi, Peloponnisos, Greece", 
+        "iata_code": "JSS", 
+        "date_indexed": "2010-12-02T16:52:21Z"
       }, 
       "id": 12523872
     }

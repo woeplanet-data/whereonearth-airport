@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511921, 
-        "name": "Yarmouth Airport", 
         "alias_ENG_V": [
           "YQI Airport"
         ], 
-        "ne_latitude": 43.839, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Yarmouth Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375091", 
+          "woe:state=2344921", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511921, 
         "ne_longitude": -66.073, 
         "longitude": -66.088, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375091, 
+        "ne_latitude": 43.839, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:24:00Z", 
-        "parent_woeid": 29374656, 
+        "sw_latitude": 43.809, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.831, 
         "sw_longitude": -66.101, 
-        "fullname": "Yarmouth Airport, Yarmouth 33, Nova Scotia, Yarmouth, Canada", 
-        "sw_latitude": 43.809
+        "fullname": "Yarmouth Airport, Yarmouth 33, Nova Scotia, Canada", 
+        "date_indexed": "2010-12-02T10:24:00Z"
       }, 
       "id": 12511921
     }

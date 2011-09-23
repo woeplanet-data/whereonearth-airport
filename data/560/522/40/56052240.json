@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 56052240, 
+        "placetype": "airport", 
         "name": "North Shore Aerodrome", 
-        "ne_latitude": -36.653, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55875887", 
+          "woe:state=15021756", 
+          "woe:country=23424916", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56052240, 
         "ne_longitude": 174.660, 
         "longitude": 174.656, 
-        "placetype": "Airport", 
+        "parent_woeid": 55875887, 
+        "ne_latitude": -36.653, 
         "iso": "NZ", 
-        "date_indexed": "2010-12-02T17:02:39Z", 
-        "parent_woeid": 2348408, 
+        "sw_latitude": -36.660, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -36.657, 
         "sw_longitude": 174.652, 
-        "fullname": "North Shore Aerodrome, North Shore, Auckland, North Shore City, New Zealand", 
-        "sw_latitude": -36.660
+        "fullname": "North Shore Aerodrome, North Shore, Auckland, New Zealand", 
+        "date_indexed": "2010-12-02T17:02:39Z"
       }, 
       "id": 56052240
     }

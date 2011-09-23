@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515355, 
+        "placetype": "airport", 
         "name": "Mokre Airport", 
-        "ne_latitude": 50.702, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12617500", 
+          "woe:county=12591233", 
+          "woe:state=12577938", 
+          "woe:country=23424923", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515355, 
         "ne_longitude": 23.221, 
         "longitude": 23.214, 
-        "placetype": "Airport", 
+        "parent_woeid": 12617500, 
+        "ne_latitude": 50.702, 
         "iso": "PL", 
-        "date_indexed": "2010-12-02T12:12:45Z", 
-        "parent_woeid": 24941275, 
+        "sw_latitude": 50.693, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.698, 
         "sw_longitude": 23.207, 
         "fullname": "Mokre Airport, Lublin, Zamosc County, Poland", 
-        "sw_latitude": 50.693
+        "date_indexed": "2010-12-02T12:12:45Z"
       }, 
       "id": 12515355
     }

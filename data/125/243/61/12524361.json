@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524361, 
-        "name": "Limon Airport", 
         "alias_ENG_V": [
           "LMH"
         ], 
-        "ne_latitude": 15.871, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Limon Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26813709", 
+          "woe:state=2345625", 
+          "woe:country=23424841", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524361, 
         "ne_longitude": -85.545, 
         "longitude": -85.550, 
-        "placetype": "Airport", 
+        "parent_woeid": 26813709, 
+        "ne_latitude": 15.871, 
         "iso": "HN", 
-        "date_indexed": "2010-12-02T19:21:06Z", 
-        "parent_woeid": 104363, 
+        "sw_latitude": 15.862, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 15.867, 
         "sw_longitude": -85.555, 
-        "fullname": "Limon Airport, Lim\u00f3n, Col\u00f3n, Lim\u00f3n, Honduras", 
-        "sw_latitude": 15.862
+        "fullname": "Limon Airport, Lim\u00f3n, Col\u00f3n, Honduras", 
+        "iata_code": "LMH", 
+        "date_indexed": "2010-12-02T19:21:06Z"
       }, 
       "id": 12524361
     }

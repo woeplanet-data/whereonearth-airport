@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515516, 
-        "name": "Cataloi Airport", 
         "alias_ENG_V": [
           "TCE"
         ], 
-        "ne_latitude": 45.070, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Cataloi Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2346650", 
+          "woe:country=23424933", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515516, 
         "ne_longitude": 28.730, 
         "longitude": 28.723, 
-        "placetype": "Airport", 
+        "parent_woeid": 2346650, 
+        "ne_latitude": 45.070, 
         "iso": "RO", 
-        "date_indexed": "2010-12-02T16:37:48Z", 
-        "parent_woeid": 875721, 
+        "sw_latitude": 45.061, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.065, 
         "sw_longitude": 28.717, 
         "fullname": "Cataloi Airport, Tulcea, Romania", 
-        "sw_latitude": 45.061
+        "iata_code": "TCE", 
+        "date_indexed": "2010-12-02T16:37:48Z"
       }, 
       "id": 12515516
     }

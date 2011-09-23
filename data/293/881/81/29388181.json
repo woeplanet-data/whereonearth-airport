@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388181, 
-        "name": "Haddock Field", 
         "alias_ENG_V": [
           "Haddock Field Airport"
         ], 
-        "ne_latitude": 35.205, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Haddock Field", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589619", 
+          "woe:state=2347595", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388181, 
         "ne_longitude": -99.880, 
         "longitude": -99.881, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589619, 
+        "ne_latitude": 35.205, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2400028, 
+        "sw_latitude": 35.197, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.205, 
         "sw_longitude": -99.881, 
-        "fullname": "Haddock Field, Erick, Oklahoma, Beckham, United States", 
-        "sw_latitude": 35.197
+        "fullname": "Haddock Field, Erick, Oklahoma, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388181
     }

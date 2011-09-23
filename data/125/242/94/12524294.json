@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524294, 
-        "name": "Jenpeg Airport", 
         "alias_ENG_V": [
           "ZJG Airport"
         ], 
-        "ne_latitude": 54.517, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Jenpeg Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375231", 
+          "woe:state=2344917", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524294, 
         "ne_longitude": -98.053, 
         "longitude": -98.061, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375231, 
+        "ne_latitude": 54.517, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 2601, 
+        "sw_latitude": 54.508, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 54.512, 
         "sw_longitude": -98.069, 
-        "fullname": "Jenpeg Airport, Jenpeg, Manitoba, Manitoba, Canada", 
-        "sw_latitude": 54.508
+        "fullname": "Jenpeg Airport, Jenpeg, Manitoba, Canada", 
+        "iata_code": "ZJG", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12524294
     }

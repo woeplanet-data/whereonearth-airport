@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "CZE", 
-        "woeid": 56049704, 
+        "placetype": "airport", 
         "name": "Letiste Letovice", 
-        "ne_latitude": 49.553, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12605147", 
+          "woe:county=12582545", 
+          "woe:state=20070503", 
+          "woe:country=23424810", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56049704, 
         "ne_longitude": 16.610, 
         "longitude": 16.601, 
-        "placetype": "Airport", 
+        "parent_woeid": 12605147, 
+        "ne_latitude": 49.553, 
         "iso": "CZ", 
-        "date_indexed": "2010-12-02T08:56:52Z", 
-        "parent_woeid": 792604, 
+        "sw_latitude": 49.541, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.547, 
         "sw_longitude": 16.591, 
-        "fullname": "Letiste Letovice, Letovice, Jihomoravsk\u00fd, Blansko, Czech Republic", 
-        "sw_latitude": 49.541
+        "fullname": "Letiste Letovice, Letovice, Jihomoravsk\u00fd, Czech Republic", 
+        "date_indexed": "2010-12-02T08:56:52Z"
       }, 
       "id": 56049704
     }

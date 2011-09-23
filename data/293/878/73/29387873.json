@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29387873, 
-        "name": "Gardiner Airport", 
         "alias_ENG_V": [
           "29s"
         ], 
-        "ne_latitude": 45.050, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Gardiner Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589114", 
+          "woe:state=2347585", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29387873, 
         "ne_longitude": -110.737, 
         "longitude": -110.745, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589114, 
+        "ne_latitude": 45.050, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2408860, 
+        "sw_latitude": 45.046, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.048, 
         "sw_longitude": -110.749, 
-        "fullname": "Gardiner Airport, Gardiner, Montana, Park, United States", 
-        "sw_latitude": 45.046
+        "fullname": "Gardiner Airport, Gardiner, Montana, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29387873
     }

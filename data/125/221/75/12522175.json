@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522175, 
+        "placetype": "airport", 
         "name": "Trans Research Center of Ohio Airport", 
-        "ne_latitude": 40.313, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12589606", 
+          "woe:state=2347594", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522175, 
         "ne_longitude": -83.536, 
         "longitude": -83.542, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589606, 
+        "ne_latitude": 40.313, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2475969, 
+        "sw_latitude": 40.304, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.308, 
         "sw_longitude": -83.548, 
-        "fullname": "Trans Research Center of Ohio Airport, Pottersburg, Ohio, Union, United States", 
-        "sw_latitude": 40.304
+        "fullname": "Trans Research Center of Ohio Airport, Pottersburg, Ohio, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12522175
     }

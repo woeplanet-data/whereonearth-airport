@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512479, 
+        "placetype": "airport", 
         "name": "Pinar del Rio Norte Airport", 
-        "ne_latitude": 22.425, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345106", 
+          "woe:country=23424793", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512479, 
         "ne_longitude": -83.673, 
         "longitude": -83.678, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345106, 
+        "ne_latitude": 22.425, 
         "iso": "CU", 
-        "date_indexed": "2010-12-02T08:58:58Z", 
-        "parent_woeid": 66142, 
+        "sw_latitude": 22.416, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 22.421, 
         "sw_longitude": -83.683, 
         "fullname": "Pinar del Rio Norte Airport, Pinar del R\u00edo, Pinar del Rio, Cuba", 
-        "sw_latitude": 22.416
+        "date_indexed": "2010-12-02T08:58:58Z"
       }, 
       "id": 12512479
     }

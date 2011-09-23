@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 56052135, 
+        "placetype": "airport", 
         "name": "Flugplatz Dessau", 
-        "ne_latitude": 51.835, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12625862", 
+          "woe:county=12596999", 
+          "woe:state=2345494", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56052135, 
         "ne_longitude": 12.198, 
         "longitude": 12.183, 
-        "placetype": "Airport", 
+        "parent_woeid": 12625862, 
+        "ne_latitude": 51.835, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 644249, 
+        "sw_latitude": 51.824, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.834, 
         "sw_longitude": 12.169, 
-        "fullname": "Flugplatz Dessau, Dessau, Saxony-Anhalt, Stadtkreis Dessau, Germany", 
-        "sw_latitude": 51.824
+        "fullname": "Flugplatz Dessau, Dessau, Saxony-Anhalt, Germany", 
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 56052135
     }

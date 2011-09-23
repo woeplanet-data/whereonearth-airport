@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 56049496, 
-        "name": "Canandaigua Airport", 
         "alias_ENG_V": [
           "D38"
         ], 
-        "ne_latitude": 42.914, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Canandaigua Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589346", 
+          "woe:state=2347591", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56049496, 
         "ne_longitude": -77.314, 
         "longitude": -77.319, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589346, 
+        "ne_latitude": 42.914, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2374201, 
+        "sw_latitude": 42.904, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.908, 
         "sw_longitude": -77.330, 
-        "fullname": "Canandaigua Airport, Canandaigua, New York, Ontario, United States", 
-        "sw_latitude": 42.904
+        "fullname": "Canandaigua Airport, Canandaigua, New York, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 56049496
     }

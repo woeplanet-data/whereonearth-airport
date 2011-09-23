@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511733, 
+        "placetype": "airport", 
         "name": "Liverpool Airport", 
-        "ne_latitude": 44.243, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=29375167", 
+          "woe:state=2344921", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511733, 
         "ne_longitude": -64.844, 
         "longitude": -64.851, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375167, 
+        "ne_latitude": 44.243, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 23391961, 
+        "sw_latitude": 44.234, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.239, 
         "sw_longitude": -64.857, 
-        "fullname": "Liverpool Airport, Greenfield, Nova Scotia, Queens, Canada", 
-        "sw_latitude": 44.234
+        "fullname": "Liverpool Airport, Greenfield, Nova Scotia, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12511733
     }

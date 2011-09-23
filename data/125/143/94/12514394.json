@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514394, 
+        "placetype": "airport", 
         "name": "Kumkent Airport", 
-        "ne_latitude": 43.767, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345982", 
+          "woe:country=23424871", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514394, 
         "ne_longitude": 69.551, 
         "longitude": 69.545, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345982, 
+        "ne_latitude": 43.767, 
         "iso": "KZ", 
-        "date_indexed": "2010-12-02T08:54:13Z", 
-        "parent_woeid": 2264602, 
+        "sw_latitude": 43.758, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.762, 
         "sw_longitude": 69.539, 
         "fullname": "Kumkent Airport, Ongtustik Qazaqstan, Kazakhstan", 
-        "sw_latitude": 43.758
+        "date_indexed": "2010-12-02T08:54:13Z"
       }, 
       "id": 12514394
     }

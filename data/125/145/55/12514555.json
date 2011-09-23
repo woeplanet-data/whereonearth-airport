@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514555, 
+        "placetype": "airport", 
         "name": "Sam Neua Airport", 
-        "ne_latitude": 20.412, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2346001", 
+          "woe:country=23424872", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514555, 
         "ne_longitude": 104.070, 
         "longitude": 104.066, 
-        "placetype": "Airport", 
+        "parent_woeid": 2346001, 
+        "ne_latitude": 20.412, 
         "iso": "LA", 
-        "date_indexed": "2010-12-02T16:42:51Z", 
-        "parent_woeid": 1140607, 
+        "sw_latitude": 20.403, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 20.408, 
         "sw_longitude": 104.061, 
         "fullname": "Sam Neua Airport, Xam Nua, Houaphan, Laos", 
-        "sw_latitude": 20.403
+        "date_indexed": "2010-12-02T16:42:51Z"
       }, 
       "id": 12514555
     }

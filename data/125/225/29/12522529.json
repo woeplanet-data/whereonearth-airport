@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522529, 
+        "placetype": "airport", 
         "name": "Yazoo County Airport", 
-        "ne_latitude": 32.892, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12588965", 
+          "woe:state=2347583", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522529, 
         "ne_longitude": -90.460, 
         "longitude": -90.463, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588965, 
+        "ne_latitude": 32.892, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2524629, 
+        "sw_latitude": 32.875, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 32.883, 
         "sw_longitude": -90.466, 
-        "fullname": "Yazoo County Airport, Yazoo City, Mississippi, Yazoo, United States", 
-        "sw_latitude": 32.875
+        "fullname": "Yazoo County Airport, Yazoo City, Mississippi, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522529
     }

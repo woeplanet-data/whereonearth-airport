@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513123, 
+        "placetype": "airport", 
         "name": "Harthausen Highway Strip Airport", 
-        "ne_latitude": 48.260, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12623436", 
+          "woe:county=12596919", 
+          "woe:state=2345481", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513123, 
         "ne_longitude": 8.652, 
         "longitude": 8.645, 
-        "placetype": "Airport", 
+        "parent_woeid": 12623436, 
+        "ne_latitude": 48.260, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:24Z", 
-        "parent_woeid": 639949, 
+        "sw_latitude": 48.251, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.255, 
         "sw_longitude": 8.638, 
-        "fullname": "Harthausen Highway Strip Airport, B\u00f6hringen, Baden-Wurttemberg, Landkreis Rottweil, Germany", 
+        "fullname": "Harthausen Highway Strip Airport, B\u00f6hringen, Baden-Wurttemberg, Germany", 
         "alias_GER_Q": [
           "Flughafen Harthausen Highway Strip"
         ], 
-        "sw_latitude": 48.251
+        "date_indexed": "2010-12-02T09:50:24Z"
       }, 
       "id": 12513123
     }

@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523685, 
-        "name": "Puerto Varas Airport", 
         "alias_ENG_V": [
           "Pto Varas Airport"
         ], 
-        "ne_latitude": -41.319, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Puerto Varas Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=26794167", 
+          "woe:county=26794001", 
+          "woe:state=2345026", 
+          "woe:country=23424782", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523685, 
         "ne_longitude": -72.978, 
         "longitude": -72.984, 
-        "placetype": "Airport", 
+        "parent_woeid": 26794167, 
+        "ne_latitude": -41.319, 
         "iso": "CL", 
-        "date_indexed": "2010-12-02T12:15:39Z", 
-        "parent_woeid": 349946, 
+        "sw_latitude": -41.328, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -41.323, 
         "sw_longitude": -72.990, 
-        "fullname": "Puerto Varas Airport, Puerto Varas, Los Lagos Region, Llanquihue Province, Chile", 
-        "sw_latitude": -41.328
+        "fullname": "Puerto Varas Airport, Puerto Varas, Los Lagos Region, Chile", 
+        "iata_code": "PUX", 
+        "date_indexed": "2010-12-02T12:15:39Z"
       }, 
       "id": 12523685
     }

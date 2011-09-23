@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388390, 
-        "name": "Richmond Airport", 
         "alias_ENG_V": [
           "08r"
         ], 
-        "ne_latitude": 41.493, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Richmond Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589799", 
+          "woe:state=2347598", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388390, 
         "ne_longitude": -71.616, 
         "longitude": -71.617, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589799, 
+        "ne_latitude": 41.493, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2480889, 
+        "sw_latitude": 41.489, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.491, 
         "sw_longitude": -71.624, 
-        "fullname": "Richmond Airport, Richmond, Rhode Island, Washington, United States", 
-        "sw_latitude": 41.489
+        "fullname": "Richmond Airport, Richmond, Rhode Island, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388390
     }

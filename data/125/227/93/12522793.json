@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522793, 
+        "placetype": "airport", 
         "name": "Hato Los Mamones Airport", 
-        "ne_latitude": 9.338, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=26805389", 
+          "woe:county=26804588", 
+          "woe:state=2347688", 
+          "woe:country=23424982", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522793, 
         "ne_longitude": -67.912, 
         "longitude": -67.917, 
-        "placetype": "Airport", 
+        "parent_woeid": 26805389, 
+        "ne_latitude": 9.338, 
         "iso": "VE", 
-        "date_indexed": "2010-12-02T16:11:43Z", 
-        "parent_woeid": 385676, 
+        "sw_latitude": 9.329, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 9.333, 
         "sw_longitude": -67.921, 
         "fullname": "Hato Los Mamones Airport, Guarico, Ortiz, Venezuela", 
-        "sw_latitude": 9.329
+        "date_indexed": "2010-12-02T16:11:43Z"
       }, 
       "id": 12522793
     }

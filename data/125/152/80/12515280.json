@@ -3,28 +3,50 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              19.763, 
-              50.062
-            ], 
-            [
-              19.763, 
-              50.085
-            ], 
-            [
-              19.808, 
-              50.085
-            ], 
-            [
-              19.808, 
-              50.062
-            ], 
-            [
-              19.763, 
-              50.062
+              [
+                19.799, 
+                50.075
+              ], 
+              [
+                19.799, 
+                50.076
+              ], 
+              [
+                19.802, 
+                50.080
+              ], 
+              [
+                19.801, 
+                50.075
+              ], 
+              [
+                19.802, 
+                50.075
+              ], 
+              [
+                19.806, 
+                50.073
+              ], 
+              [
+                19.801, 
+                50.072
+              ], 
+              [
+                19.800, 
+                50.069
+              ], 
+              [
+                19.798, 
+                50.073
+              ], 
+              [
+                19.799, 
+                50.075
+              ]
             ]
           ]
         ]
@@ -40,11 +62,16 @@
         "alias_POL_Q": [
           "KRK Lotnisko"
         ], 
-        "ne_latitude": 50.085, 
-        "alias_UNK_V": [
-          "Medzinarodne Letisko Krakov"
+        "hierarchy": [
+          "woe:localadmin=12616711", 
+          "woe:county=12591254", 
+          "woe:state=12577940", 
+          "woe:country=23424923", 
+          "woe:planet=1"
         ], 
-        "placetype": "Airport", 
+        "ne_latitude": 50.080, 
+        "ne_longitude": 19.806, 
+        "placetype": "airport", 
         "alias_POR_V": [
           "Aeroporto Intern. Crac\u00f3via-Balice"
         ], 
@@ -52,14 +79,14 @@
           "Aerop. Intern. Cracovia-Balice"
         ], 
         "woeid": 12515280, 
-        "sw_longitude": 19.763, 
+        "sw_longitude": 19.798, 
         "alias_FIN_V": [
           "Krakova-Balicen Kansainv. Lentoas."
         ], 
         "alias_SPA_V": [
           "Aerop. Intl. de Cracovia-Balice"
         ], 
-        "latitude": 50.073, 
+        "latitude": 50.074, 
         "alias_NOR_V": [
           "Krakow-Balice Flyplass"
         ], 
@@ -76,11 +103,13 @@
         ], 
         "lang": "ENG", 
         "name": "Balice Airport", 
-        "parent_woeid": 485464, 
-        "ne_longitude": 19.808, 
-        "longitude": 19.806, 
+        "parent_woeid": 12616711, 
+        "alias_UNK_V": [
+          "Medzinarodne Letisko Krakov"
+        ], 
+        "longitude": 19.801, 
         "iso": "PL", 
-        "sw_latitude": 50.062, 
+        "sw_latitude": 50.069, 
         "alias_FRE_V": [
           "A\u00e9roport Ii de Cracovie-Balice"
         ], 

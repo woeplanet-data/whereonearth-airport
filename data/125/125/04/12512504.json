@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512504, 
+        "placetype": "airport", 
         "name": "Bechyne Airport", 
-        "ne_latitude": 49.282, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12604744", 
+          "woe:county=12582544", 
+          "woe:state=20070502", 
+          "woe:country=23424810", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512504, 
         "ne_longitude": 14.502, 
         "longitude": 14.495, 
-        "placetype": "Airport", 
+        "parent_woeid": 12604744, 
+        "ne_latitude": 49.282, 
         "iso": "CZ", 
-        "date_indexed": "2010-12-02T08:56:52Z", 
-        "parent_woeid": 789503, 
+        "sw_latitude": 49.273, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.278, 
         "sw_longitude": 14.488, 
-        "fullname": "Bechyne Airport, Hodonice, Jiho\u010desk\u00fd, T\u00e1bor, Czech Republic", 
-        "sw_latitude": 49.273
+        "fullname": "Bechyne Airport, Hodonice, Jiho\u010desk\u00fd, Czech Republic", 
+        "date_indexed": "2010-12-02T08:56:52Z"
       }, 
       "id": 12512504
     }

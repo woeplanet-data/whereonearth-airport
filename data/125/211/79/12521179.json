@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521179, 
-        "name": "Oakdale Airport", 
         "alias_ENG_V": [
           "Oakdale Municipal Airport"
         ], 
-        "ne_latitude": 37.760, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Oakdale Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587719", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521179, 
         "ne_longitude": -120.796, 
         "longitude": -120.799, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587719, 
+        "ne_latitude": 37.760, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2463400, 
+        "sw_latitude": 37.755, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 37.758, 
         "sw_longitude": -120.802, 
-        "fullname": "Oakdale Airport, Oakdale, California, Stanislaus, United States", 
-        "sw_latitude": 37.755
+        "fullname": "Oakdale Airport, Oakdale, California, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521179
     }

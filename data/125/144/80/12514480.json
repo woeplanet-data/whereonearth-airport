@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514480, 
+        "placetype": "airport", 
         "name": "Takhr Kul Airport", 
-        "ne_latitude": 42.231, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345982", 
+          "woe:country=23424871", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514480, 
         "ne_longitude": 68.229, 
         "longitude": 68.223, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345982, 
+        "ne_latitude": 42.231, 
         "iso": "KZ", 
-        "date_indexed": "2010-12-02T08:54:13Z", 
-        "parent_woeid": 2264907, 
+        "sw_latitude": 42.222, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.226, 
         "sw_longitude": 68.217, 
         "fullname": "Takhr Kul Airport, Ongtustik Qazaqstan, Kazakhstan", 
-        "sw_latitude": 42.222
+        "date_indexed": "2010-12-02T08:54:13Z"
       }, 
       "id": 12514480
     }

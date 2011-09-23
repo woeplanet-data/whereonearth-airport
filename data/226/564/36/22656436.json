@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 22656436, 
+        "placetype": "airport", 
         "name": "Fliegerhorst Aigen im Ennstal Airport", 
-        "ne_latitude": 47.540, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12674811", 
+          "woe:county=12591723", 
+          "woe:state=2344713", 
+          "woe:country=23424750", 
+          "woe:planet=1"
+        ], 
+        "woeid": 22656436, 
         "ne_longitude": 14.139, 
         "longitude": 14.132, 
-        "placetype": "Airport", 
+        "parent_woeid": 12674811, 
+        "ne_latitude": 47.540, 
         "iso": "AT", 
-        "date_indexed": "2010-12-02T16:35:40Z", 
-        "parent_woeid": 548739, 
+        "sw_latitude": 47.531, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.536, 
         "sw_longitude": 14.126, 
-        "fullname": "Fliegerhorst Aigen im Ennstal Airport, Hohenberg, Styria, Liezen, Austria", 
-        "sw_latitude": 47.531
+        "fullname": "Fliegerhorst Aigen im Ennstal Airport, Hohenberg, Styria, Austria", 
+        "date_indexed": "2010-12-02T16:35:40Z"
       }, 
       "id": 22656436
     }

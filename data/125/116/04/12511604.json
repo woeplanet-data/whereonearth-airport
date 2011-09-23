@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511604, 
-        "name": "Huron Airpark", 
         "alias_ENG_V": [
           "YCE Airport"
         ], 
-        "ne_latitude": 43.291, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Huron Airpark", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375057", 
+          "woe:state=2344922", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511604, 
         "ne_longitude": -81.503, 
         "longitude": -81.509, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375057, 
+        "ne_latitude": 43.291, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 23397173, 
+        "sw_latitude": 43.282, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.287, 
         "sw_longitude": -81.515, 
-        "fullname": "Huron Airpark, Huron Park, Ontario, Huron, Canada", 
-        "sw_latitude": 43.282
+        "fullname": "Huron Airpark, Huron Park, Ontario, Canada", 
+        "iata_code": "YCE", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12511604
     }

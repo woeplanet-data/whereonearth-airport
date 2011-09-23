@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 28677652, 
+        "placetype": "airport", 
         "name": "Roseberth Aerodrome", 
-        "ne_latitude": -25.822, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55863925", 
+          "woe:state=2344702", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 28677652, 
         "ne_longitude": 139.633, 
         "longitude": 139.628, 
-        "placetype": "Airport", 
+        "parent_woeid": 55863925, 
+        "ne_latitude": -25.822, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1100388, 
+        "sw_latitude": -25.831, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -25.827, 
         "sw_longitude": 139.623, 
-        "fullname": "Roseberth Aerodrome, Birdsville, Queensland, Diamantina, Australia", 
-        "sw_latitude": -25.831
+        "fullname": "Roseberth Aerodrome, Birdsville, Queensland, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 28677652
     }

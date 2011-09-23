@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511556, 
-        "name": "Jambol Airport", 
         "alias_ENG_V": [
           "JAM"
         ], 
-        "ne_latitude": 42.518, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Jambol Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55873892", 
+          "woe:state=20070074", 
+          "woe:country=23424771", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511556, 
         "ne_longitude": 26.502, 
         "longitude": 26.495, 
-        "placetype": "Airport", 
+        "parent_woeid": 55873892, 
+        "ne_latitude": 42.518, 
         "iso": "BG", 
-        "date_indexed": "2010-12-02T16:14:37Z", 
-        "parent_woeid": 836844, 
+        "sw_latitude": 42.509, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.514, 
         "sw_longitude": 26.489, 
         "fullname": "Jambol Airport, Yambol, Yambol, Bulgaria", 
-        "sw_latitude": 42.509
+        "iata_code": "JAM", 
+        "date_indexed": "2010-12-02T16:14:37Z"
       }, 
       "id": 12511556
     }

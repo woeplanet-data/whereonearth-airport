@@ -3,28 +3,38 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -5.353, 
-              36.148
-            ], 
-            [
-              -5.353, 
-              36.157
-            ], 
-            [
-              -5.342, 
-              36.157
-            ], 
-            [
-              -5.342, 
-              36.148
-            ], 
-            [
-              -5.353, 
-              36.148
+              [
+                -5.347, 
+                36.151
+              ], 
+              [
+                -5.348, 
+                36.152
+              ], 
+              [
+                -5.347, 
+                36.153
+              ], 
+              [
+                -5.346, 
+                36.153
+              ], 
+              [
+                -5.343, 
+                36.151
+              ], 
+              [
+                -5.347, 
+                36.146
+              ], 
+              [
+                -5.347, 
+                36.151
+              ]
             ]
           ]
         ]
@@ -32,23 +42,28 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513027, 
-        "name": "Gibraltar Airport", 
         "alias_ENG_V": [
           "GIB"
         ], 
-        "ne_latitude": 36.157, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -5.342, 
-        "longitude": -5.347, 
-        "placetype": "Airport", 
+        "name": "Gibraltar Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:country=23424825", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513027, 
+        "ne_longitude": -5.343, 
+        "longitude": -5.346, 
+        "parent_woeid": 23424825, 
+        "ne_latitude": 36.153, 
         "iso": "GI", 
-        "date_indexed": "2010-12-02T17:52:39Z", 
-        "parent_woeid": 472800, 
-        "latitude": 36.152, 
-        "sw_longitude": -5.353, 
+        "sw_latitude": 36.146, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 36.150, 
+        "sw_longitude": -5.348, 
         "fullname": "Gibraltar Airport, Gibraltar, Gibraltar", 
-        "sw_latitude": 36.148
+        "iata_code": "GIB", 
+        "date_indexed": "2010-12-02T17:52:39Z"
       }, 
       "id": 12513027
     }

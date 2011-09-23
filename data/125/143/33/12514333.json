@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514333, 
+        "placetype": "airport", 
         "name": "Ekibastuz Southwest Airport", 
-        "ne_latitude": 51.604, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345993", 
+          "woe:country=23424871", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514333, 
         "ne_longitude": 75.230, 
         "longitude": 75.223, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345993, 
+        "ne_latitude": 51.604, 
         "iso": "KZ", 
-        "date_indexed": "2010-12-02T08:54:13Z", 
-        "parent_woeid": 2264365, 
+        "sw_latitude": 51.595, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.599, 
         "sw_longitude": 75.215, 
         "fullname": "Ekibastuz Southwest Airport, Ekibastuz, Pavlodar, Kazakhstan", 
-        "sw_latitude": 51.595
+        "date_indexed": "2010-12-02T08:54:13Z"
       }, 
       "id": 12514333
     }

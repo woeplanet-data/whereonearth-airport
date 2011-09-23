@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518675, 
-        "name": "Ashland Lineville Airport", 
         "alias_ENG_V": [
           "26a"
         ], 
-        "ne_latitude": 33.286, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Ashland Lineville Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587500", 
+          "woe:state=2347559", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518675, 
         "ne_longitude": -85.800, 
         "longitude": -85.811, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587500, 
+        "ne_latitude": 33.286, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2356626, 
+        "sw_latitude": 33.284, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 33.285, 
         "sw_longitude": -85.816, 
-        "fullname": "Ashland Lineville Airport, Ashland, Alabama, Clay, United States", 
-        "sw_latitude": 33.284
+        "fullname": "Ashland Lineville Airport, Ashland, Alabama, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518675
     }

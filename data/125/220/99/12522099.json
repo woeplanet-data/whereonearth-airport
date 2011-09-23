@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522099, 
+        "placetype": "airport", 
         "name": "Tensas Parish Airport", 
-        "ne_latitude": 31.979, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12588649", 
+          "woe:state=2347577", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522099, 
         "ne_longitude": -91.234, 
         "longitude": -91.238, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588649, 
+        "ne_latitude": 31.979, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2466556, 
+        "sw_latitude": 31.967, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 31.973, 
         "sw_longitude": -91.242, 
-        "fullname": "Tensas Parish Airport, Osceola, Louisiana, Tensas Parish, United States", 
-        "sw_latitude": 31.967
+        "fullname": "Tensas Parish Airport, Osceola, Louisiana, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522099
     }

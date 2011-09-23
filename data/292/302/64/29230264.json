@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29230264, 
+        "placetype": "airport", 
         "name": "Gangtok Airport", 
-        "ne_latitude": 27.340, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12586813", 
+          "woe:state=2345762", 
+          "woe:country=23424848", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29230264, 
         "ne_longitude": 88.618, 
         "longitude": 88.613, 
-        "placetype": "Airport", 
+        "parent_woeid": 12586813, 
+        "ne_latitude": 27.340, 
         "iso": "IN", 
-        "date_indexed": "2010-12-02T09:26:27Z", 
-        "parent_woeid": 29074267, 
+        "sw_latitude": 27.331, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 27.336, 
         "sw_longitude": 88.607, 
-        "fullname": "Gangtok Airport, Luing, Sikkim, East Sikkim, India", 
-        "sw_latitude": 27.331
+        "fullname": "Gangtok Airport, Luing, Sikkim, India", 
+        "date_indexed": "2010-12-02T09:26:27Z"
       }, 
       "id": 29230264
     }

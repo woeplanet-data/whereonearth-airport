@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516382, 
+        "placetype": "airport", 
         "name": "Magnitogorsk Airport", 
-        "ne_latitude": 53.374, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598109", 
+          "woe:state=2346893", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516382, 
         "ne_longitude": 59.171, 
         "longitude": 59.164, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598109, 
+        "ne_latitude": 53.374, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2119942, 
+        "sw_latitude": 53.365, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.369, 
         "sw_longitude": 59.156, 
-        "fullname": "Magnitogorsk Airport, Agapovka, Chelyabinskaya Oblast, Agapovsky, Russia", 
-        "sw_latitude": 53.365
+        "fullname": "Magnitogorsk Airport, Agapovka, Chelyabinskaya Oblast, Russia", 
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516382
     }

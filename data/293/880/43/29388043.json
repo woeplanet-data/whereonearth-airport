@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388043, 
-        "name": "Chariton Municipal Airport", 
         "alias_ENG_V": [
           "Cnc"
         ], 
-        "ne_latitude": 41.025, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Chariton Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588330", 
+          "woe:state=2347574", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388043, 
         "ne_longitude": -93.348, 
         "longitude": -93.362, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588330, 
+        "ne_latitude": 41.025, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2427078, 
+        "sw_latitude": 41.014, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.016, 
         "sw_longitude": -93.366, 
-        "fullname": "Chariton Municipal Airport, Indianola Junction, Iowa, Lucas, United States", 
-        "sw_latitude": 41.014
+        "fullname": "Chariton Municipal Airport, Indianola Junction, Iowa, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388043
     }

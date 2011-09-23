@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521415, 
-        "name": "Plattsmouth Municipal Airport", 
         "alias_ENG_V": [
           "Pmv"
         ], 
-        "ne_latitude": 40.956, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Plattsmouth Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589150", 
+          "woe:state=2347586", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521415, 
         "ne_longitude": -95.915, 
         "longitude": -95.917, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589150, 
+        "ne_latitude": 40.956, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2456711, 
+        "sw_latitude": 40.945, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.954, 
         "sw_longitude": -95.920, 
-        "fullname": "Plattsmouth Municipal Airport, Mynard, Nebraska, Cass, United States", 
-        "sw_latitude": 40.945
+        "fullname": "Plattsmouth Municipal Airport, Mynard, Nebraska, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521415
     }

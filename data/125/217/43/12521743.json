@@ -3,28 +3,58 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -120.482, 
-              34.879
-            ], 
-            [
-              -120.482, 
-              34.915
-            ], 
-            [
-              -120.437, 
-              34.915
-            ], 
-            [
-              -120.437, 
-              34.879
-            ], 
-            [
-              -120.482, 
-              34.879
+              [
+                -120.448, 
+                34.897
+              ], 
+              [
+                -120.448, 
+                34.898
+              ], 
+              [
+                -120.445, 
+                34.901
+              ], 
+              [
+                -120.441, 
+                34.901
+              ], 
+              [
+                -120.438, 
+                34.903
+              ], 
+              [
+                -120.437, 
+                34.903
+              ], 
+              [
+                -120.437, 
+                34.898
+              ], 
+              [
+                -120.441, 
+                34.901
+              ], 
+              [
+                -120.446, 
+                34.898
+              ], 
+              [
+                -120.446, 
+                34.897
+              ], 
+              [
+                -120.450, 
+                34.894
+              ], 
+              [
+                -120.448, 
+                34.897
+              ]
             ]
           ]
         ]
@@ -32,23 +62,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521743, 
-        "name": "Santa Maria Public Airport", 
         "alias_ENG_V": [
           "Santa Maria Public"
         ], 
-        "ne_latitude": 34.915, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Santa Maria Public Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587711", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521743, 
         "ne_longitude": -120.437, 
-        "longitude": -120.437, 
-        "placetype": "Airport", 
+        "longitude": -120.443, 
+        "parent_woeid": 12587711, 
+        "ne_latitude": 34.903, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2488888, 
-        "latitude": 34.889, 
-        "sw_longitude": -120.482, 
-        "fullname": "Santa Maria Public Airport, Santa Maria, California, Santa Barbara, United States", 
-        "sw_latitude": 34.879
+        "sw_latitude": 34.894, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 34.899, 
+        "sw_longitude": -120.450, 
+        "fullname": "Santa Maria Public Airport, Santa Maria, California, United States", 
+        "iata_code": "SMX", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521743
     }

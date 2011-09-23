@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515851, 
+        "placetype": "airport", 
         "name": "Borisovskiy Airport", 
-        "ne_latitude": 57.652, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598348", 
+          "woe:state=2346898", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515851, 
         "ne_longitude": 34.111, 
         "longitude": 34.102, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598348, 
+        "ne_latitude": 57.652, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 1993836, 
+        "sw_latitude": 57.643, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 57.648, 
         "sw_longitude": 34.094, 
         "fullname": "Borisovskiy Airport, Tverskaya Oblast, Bologovsky, Russia", 
-        "sw_latitude": 57.643
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12515851
     }

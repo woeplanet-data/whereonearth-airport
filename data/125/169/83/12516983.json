@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516983, 
+        "placetype": "airport", 
         "name": "Tarnogskiy Gorodok Airport", 
-        "ne_latitude": 60.513, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599608", 
+          "woe:state=2346934", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516983, 
         "ne_longitude": 43.621, 
         "longitude": 43.612, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599608, 
+        "ne_latitude": 60.513, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2123838, 
+        "sw_latitude": 60.504, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 60.508, 
         "sw_longitude": 43.603, 
-        "fullname": "Tarnogskiy Gorodok Airport, Tarnogskiy Gorodok, Vologodskaya Oblast, Tarnogsky, Russia", 
-        "sw_latitude": 60.504
+        "fullname": "Tarnogskiy Gorodok Airport, Tarnogskiy Gorodok, Vologodskaya Oblast, Russia", 
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516983
     }

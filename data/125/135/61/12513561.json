@@ -3,28 +3,58 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              88.433, 
-              22.636
-            ], 
-            [
-              88.433, 
-              22.680
-            ], 
-            [
-              88.457, 
-              22.680
-            ], 
-            [
-              88.457, 
-              22.636
-            ], 
-            [
-              88.433, 
-              22.636
+              [
+                88.439, 
+                22.645
+              ], 
+              [
+                88.438, 
+                22.647
+              ], 
+              [
+                88.440, 
+                22.649
+              ], 
+              [
+                88.440, 
+                22.649
+              ], 
+              [
+                88.441, 
+                22.645
+              ], 
+              [
+                88.442, 
+                22.643
+              ], 
+              [
+                88.439, 
+                22.642
+              ], 
+              [
+                88.434, 
+                22.641
+              ], 
+              [
+                88.434, 
+                22.640
+              ], 
+              [
+                88.435, 
+                22.640
+              ], 
+              [
+                88.439, 
+                22.642
+              ], 
+              [
+                88.439, 
+                22.645
+              ]
             ]
           ]
         ]
@@ -32,23 +62,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513561, 
-        "name": "Netaji Subhash Chandra Bose International Airport", 
         "alias_ENG_V": [
           "Kolkata International Airport"
         ], 
-        "ne_latitude": 22.680, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": 88.457, 
-        "longitude": 88.439, 
-        "placetype": "Airport", 
+        "name": "Netaji Subhash Chandra Bose International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12586808", 
+          "woe:state=2345761", 
+          "woe:country=23424848", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513561, 
+        "ne_longitude": 88.442, 
+        "longitude": 88.442, 
+        "parent_woeid": 12586808, 
+        "ne_latitude": 22.649, 
         "iso": "IN", 
-        "date_indexed": "2010-12-02T09:26:27Z", 
-        "parent_woeid": 29016940, 
-        "latitude": 22.653, 
-        "sw_longitude": 88.433, 
-        "fullname": "Netaji Subhash Chandra Bose International Airport, Domnagar, West Bengal, North Twenty Four Parganas, India", 
-        "sw_latitude": 22.636
+        "sw_latitude": 22.640, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 22.647, 
+        "sw_longitude": 88.434, 
+        "fullname": "Netaji Subhash Chandra Bose International Airport, Domnagar, West Bengal, India", 
+        "iata_code": "CCU", 
+        "date_indexed": "2010-12-02T09:26:27Z"
       }, 
       "id": 12513561
     }

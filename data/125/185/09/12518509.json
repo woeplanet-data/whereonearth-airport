@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518509, 
-        "name": "AL Mangham Jr. Regional Airport", 
         "alias_ENG_V": [
           "AL Mangham Jr. Airport"
         ], 
-        "ne_latitude": 31.588, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "AL Mangham Jr. Regional Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590180", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518509, 
         "ne_longitude": -94.698, 
         "longitude": -94.702, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590180, 
+        "ne_latitude": 31.588, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2456828, 
+        "sw_latitude": 31.568, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 31.578, 
         "sw_longitude": -94.719, 
-        "fullname": "AL Mangham Jr. Regional Airport, Nacogdoches, Texas, Nacogdoches, United States", 
-        "sw_latitude": 31.568
+        "fullname": "AL Mangham Jr. Regional Airport, Nacogdoches, Texas, United States", 
+        "iata_code": "OCH", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518509
     }

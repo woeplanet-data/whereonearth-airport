@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511398, 
+        "placetype": "airport", 
         "name": "Bregovo Airport", 
-        "ne_latitude": 44.129, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55873950", 
+          "woe:state=20070055", 
+          "woe:country=23424771", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511398, 
         "ne_longitude": 22.657, 
         "longitude": 22.651, 
-        "placetype": "Airport", 
+        "parent_woeid": 55873950, 
+        "ne_latitude": 44.129, 
         "iso": "BG", 
-        "date_indexed": "2010-12-02T16:14:37Z", 
-        "parent_woeid": 839122, 
+        "sw_latitude": 44.120, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.125, 
         "sw_longitude": 22.645, 
         "fullname": "Bregovo Airport, Vidin, Bregovo, Bulgaria", 
-        "sw_latitude": 44.120
+        "date_indexed": "2010-12-02T16:14:37Z"
       }, 
       "id": 12511398
     }

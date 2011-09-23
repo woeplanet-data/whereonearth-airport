@@ -3,28 +3,90 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -88.938, 
-              40.466
-            ], 
-            [
-              -88.938, 
-              40.488
-            ], 
-            [
-              -88.898, 
-              40.488
-            ], 
-            [
-              -88.898, 
-              40.466
-            ], 
-            [
-              -88.938, 
-              40.466
+              [
+                -88.932, 
+                40.468
+              ], 
+              [
+                -88.932, 
+                40.468
+              ], 
+              [
+                -88.935, 
+                40.466
+              ], 
+              [
+                -88.935, 
+                40.479
+              ], 
+              [
+                -88.930, 
+                40.482
+              ], 
+              [
+                -88.928, 
+                40.485
+              ], 
+              [
+                -88.925, 
+                40.487
+              ], 
+              [
+                -88.916, 
+                40.484
+              ], 
+              [
+                -88.913, 
+                40.485
+              ], 
+              [
+                -88.909, 
+                40.487
+              ], 
+              [
+                -88.902, 
+                40.489
+              ], 
+              [
+                -88.899, 
+                40.490
+              ], 
+              [
+                -88.900, 
+                40.490
+              ], 
+              [
+                -88.901, 
+                40.489
+              ], 
+              [
+                -88.901, 
+                40.489
+              ], 
+              [
+                -88.910, 
+                40.484
+              ], 
+              [
+                -88.913, 
+                40.483
+              ], 
+              [
+                -88.915, 
+                40.483
+              ], 
+              [
+                -88.922, 
+                40.471
+              ], 
+              [
+                -88.932, 
+                40.468
+              ]
             ]
           ]
         ]
@@ -32,23 +94,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518861, 
-        "name": "Bloomington Normal Airport", 
         "alias_ENG_V": [
           "BMI Airport"
         ], 
-        "ne_latitude": 40.488, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -88.898, 
-        "longitude": -88.913, 
-        "placetype": "Airport", 
+        "name": "Bloomington Normal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588141", 
+          "woe:state=2347572", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518861, 
+        "ne_longitude": -88.899, 
+        "longitude": -88.925, 
+        "parent_woeid": 12588141, 
+        "ne_latitude": 40.490, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2365646, 
-        "latitude": 40.484, 
-        "sw_longitude": -88.938, 
-        "fullname": "Bloomington Normal Airport, Bloomington, Illinois, Mclean, United States", 
-        "sw_latitude": 40.466
+        "sw_latitude": 40.466, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 40.478, 
+        "sw_longitude": -88.935, 
+        "fullname": "Bloomington Normal Airport, Bloomington, Illinois, United States", 
+        "iata_code": "BMI", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518861
     }

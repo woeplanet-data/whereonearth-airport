@@ -3,28 +3,58 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -5.248, 
-              50.001
-            ], 
-            [
-              -5.248, 
-              50.010
-            ], 
-            [
-              -5.234, 
-              50.010
-            ], 
-            [
-              -5.234, 
-              50.001
-            ], 
-            [
-              -5.248, 
-              50.001
+              [
+                -5.238, 
+                49.994
+              ], 
+              [
+                -5.238, 
+                49.995
+              ], 
+              [
+                -5.235, 
+                49.995
+              ], 
+              [
+                -5.234, 
+                49.994
+              ], 
+              [
+                -5.234, 
+                49.993
+              ], 
+              [
+                -5.234, 
+                49.993
+              ], 
+              [
+                -5.235, 
+                49.992
+              ], 
+              [
+                -5.236, 
+                49.992
+              ], 
+              [
+                -5.238, 
+                49.993
+              ], 
+              [
+                -5.240, 
+                49.993
+              ], 
+              [
+                -5.240, 
+                49.994
+              ], 
+              [
+                -5.238, 
+                49.994
+              ]
             ]
           ]
         ]
@@ -32,20 +62,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 22656538, 
+        "placetype": "airport", 
         "name": "Royal Navy Air Station Predannack Airfield", 
-        "ne_latitude": 50.010, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12695895", 
+          "woe:county=12602181", 
+          "woe:state=24554868", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 22656538, 
         "ne_longitude": -5.234, 
-        "longitude": -5.241, 
-        "placetype": "Airport", 
+        "longitude": -5.236, 
+        "parent_woeid": 12695895, 
+        "ne_latitude": 49.995, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:21:01Z", 
-        "parent_woeid": 29550, 
-        "latitude": 50.006, 
-        "sw_longitude": -5.248, 
-        "fullname": "Royal Navy Air Station Predannack Airfield, Mullion Cove, England, Cornwall and Isles of Scilly, United Kingdom", 
-        "sw_latitude": 50.001
+        "sw_latitude": 49.992, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 49.994, 
+        "sw_longitude": -5.240, 
+        "fullname": "Royal Navy Air Station Predannack Airfield, Mullion Cove, England, United Kingdom", 
+        "date_indexed": "2010-12-02T12:21:01Z"
       }, 
       "id": 22656538
     }

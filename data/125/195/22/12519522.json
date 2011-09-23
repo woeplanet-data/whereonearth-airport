@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519522, 
-        "name": "Douglas Municipal Airport", 
         "alias_ENG_V": [
           "Dqh"
         ], 
-        "ne_latitude": 31.486, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Douglas Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587903", 
+          "woe:state=2347569", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519522, 
         "ne_longitude": -82.851, 
         "longitude": -82.851, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587903, 
+        "ne_latitude": 31.486, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2393259, 
+        "sw_latitude": 31.471, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 31.479, 
         "sw_longitude": -82.866, 
-        "fullname": "Douglas Municipal Airport, Douglas, Georgia, Coffee, United States", 
-        "sw_latitude": 31.471
+        "fullname": "Douglas Municipal Airport, Douglas, Georgia, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519522
     }

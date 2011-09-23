@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513888, 
+        "placetype": "airport", 
         "name": "As Salman North Airport", 
-        "ne_latitude": 30.657, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55999909", 
+          "woe:state=2345835", 
+          "woe:country=23424855", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513888, 
         "ne_longitude": 44.574, 
         "longitude": 44.569, 
-        "placetype": "Airport", 
+        "parent_woeid": 55999909, 
+        "ne_latitude": 30.657, 
         "iso": "IQ", 
-        "date_indexed": "2010-12-02T16:42:58Z", 
-        "parent_woeid": 1971704, 
+        "sw_latitude": 30.648, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 30.652, 
         "sw_longitude": 44.564, 
         "fullname": "As Salman North Airport, Al Muthanna, Al Salman, Iraq", 
-        "sw_latitude": 30.648
+        "date_indexed": "2010-12-02T16:42:58Z"
       }, 
       "id": 12513888
     }

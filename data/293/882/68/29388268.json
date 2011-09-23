@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388268, 
-        "name": "Torchport Airport", 
         "alias_ENG_V": [
           "59m"
         ], 
-        "ne_latitude": 45.060, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Torchport Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588718", 
+          "woe:state=2347581", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388268, 
         "ne_longitude": -85.345, 
         "longitude": -85.350, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588718, 
+        "ne_latitude": 45.060, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2507235, 
+        "sw_latitude": 45.052, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.056, 
         "sw_longitude": -85.356, 
-        "fullname": "Torchport Airport, Torch Lake, Michigan, Antrim, United States", 
-        "sw_latitude": 45.052
+        "fullname": "Torchport Airport, Torch Lake, Michigan, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 29388268
     }

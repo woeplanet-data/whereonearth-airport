@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29387843, 
-        "name": "Pinehurst State Airport", 
         "alias_ENG_V": [
           "24s"
         ], 
-        "ne_latitude": 42.115, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Pinehurst State Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589706", 
+          "woe:state=2347596", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29387843, 
         "ne_longitude": -122.375, 
         "longitude": -122.384, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589706, 
+        "ne_latitude": 42.115, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2439481, 
+        "sw_latitude": 42.106, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.111, 
         "sw_longitude": -122.391, 
-        "fullname": "Pinehurst State Airport, Lincoln, Oregon, Jackson, United States", 
-        "sw_latitude": 42.106
+        "fullname": "Pinehurst State Airport, Lincoln, Oregon, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29387843
     }

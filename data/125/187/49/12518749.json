@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518749, 
-        "name": "Bartow Municipal Airport", 
         "alias_ENG_V": [
           "BOW"
         ], 
-        "ne_latitude": 27.957, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Bartow Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587855", 
+          "woe:state=2347568", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518749, 
         "ne_longitude": -81.760, 
         "longitude": -81.782, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587855, 
+        "ne_latitude": 27.957, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2412310, 
+        "sw_latitude": 27.927, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 27.949, 
         "sw_longitude": -81.796, 
-        "fullname": "Bartow Municipal Airport, Gordonville, Florida, Polk, United States", 
-        "sw_latitude": 27.927
+        "fullname": "Bartow Municipal Airport, Gordonville, Florida, United States", 
+        "iata_code": "BOW", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518749
     }

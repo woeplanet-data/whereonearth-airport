@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522163, 
+        "placetype": "airport", 
         "name": "Tooele Municipal Airport", 
-        "ne_latitude": 40.527, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12590283", 
+          "woe:state=2347603", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522163, 
         "ne_longitude": -112.320, 
         "longitude": -112.326, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590283, 
+        "ne_latitude": 40.527, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2507114, 
+        "sw_latitude": 40.518, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.522, 
         "sw_longitude": -112.332, 
-        "fullname": "Tooele Municipal Airport, Tooele, Utah, Tooele, United States", 
-        "sw_latitude": 40.518
+        "fullname": "Tooele Municipal Airport, Tooele, Utah, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12522163
     }

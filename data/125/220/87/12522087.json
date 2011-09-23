@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522087, 
-        "name": "Taylor Municipal Airport", 
         "alias_ENG_V": [
           "T74"
         ], 
-        "ne_latitude": 30.577, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Taylor Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590252", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522087, 
         "ne_longitude": -97.438, 
         "longitude": -97.440, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590252, 
+        "ne_latitude": 30.577, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2504318, 
+        "sw_latitude": 30.565, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 30.571, 
         "sw_longitude": -97.445, 
-        "fullname": "Taylor Municipal Airport, Taylor, Texas, Williamson, United States", 
-        "sw_latitude": 30.565
+        "fullname": "Taylor Municipal Airport, Taylor, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522087
     }

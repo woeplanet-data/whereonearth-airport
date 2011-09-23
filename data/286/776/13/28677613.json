@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 28677613, 
+        "placetype": "airport", 
         "name": "Legune Aerodrome", 
-        "ne_latitude": -15.211, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=56072990", 
+          "woe:state=2344701", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 28677613, 
         "ne_longitude": 129.453, 
         "longitude": 129.448, 
-        "placetype": "Airport", 
+        "parent_woeid": 56072990, 
+        "ne_latitude": -15.211, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 55864456, 
+        "sw_latitude": -15.220, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -15.215, 
         "sw_longitude": 129.443, 
         "fullname": "Legune Aerodrome, Baines, Northern Territory, Australia", 
-        "sw_latitude": -15.220
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 28677613
     }

@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515307, 
+        "placetype": "airport", 
         "name": "Grojec Airport", 
-        "ne_latitude": 51.894, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12617204", 
+          "woe:county=12591275", 
+          "woe:state=12577941", 
+          "woe:country=23424923", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515307, 
         "ne_longitude": 20.965, 
         "longitude": 20.957, 
-        "placetype": "Airport", 
+        "parent_woeid": 12617204, 
+        "ne_latitude": 51.894, 
         "iso": "PL", 
-        "date_indexed": "2010-12-02T12:12:45Z", 
-        "parent_woeid": 529440, 
+        "sw_latitude": 51.885, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.890, 
         "sw_longitude": 20.950, 
         "fullname": "Grojec Airport, Masovian, Grojec County, Poland", 
-        "sw_latitude": 51.885
+        "date_indexed": "2010-12-02T12:12:45Z"
       }, 
       "id": 12515307
     }

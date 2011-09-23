@@ -3,28 +3,86 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -77.531, 
-              38.706
-            ], 
-            [
-              -77.531, 
-              38.733
-            ], 
-            [
-              -77.502, 
-              38.733
-            ], 
-            [
-              -77.502, 
-              38.706
-            ], 
-            [
-              -77.531, 
-              38.706
+              [
+                -77.499, 
+                38.733
+              ], 
+              [
+                -77.499, 
+                38.733
+              ], 
+              [
+                -77.498, 
+                38.733
+              ], 
+              [
+                -77.498, 
+                38.732
+              ], 
+              [
+                -77.498, 
+                38.730
+              ], 
+              [
+                -77.507, 
+                38.732
+              ], 
+              [
+                -77.509, 
+                38.724
+              ], 
+              [
+                -77.510, 
+                38.720
+              ], 
+              [
+                -77.517, 
+                38.717
+              ], 
+              [
+                -77.520, 
+                38.722
+              ], 
+              [
+                -77.525, 
+                38.730
+              ], 
+              [
+                -77.518, 
+                38.734
+              ], 
+              [
+                -77.518, 
+                38.734
+              ], 
+              [
+                -77.516, 
+                38.732
+              ], 
+              [
+                -77.509, 
+                38.734
+              ], 
+              [
+                -77.508, 
+                38.733
+              ], 
+              [
+                -77.499, 
+                38.732
+              ], 
+              [
+                -77.499, 
+                38.733
+              ], 
+              [
+                -77.499, 
+                38.733
+              ]
             ]
           ]
         ]
@@ -32,23 +90,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520771, 
-        "name": "Manassas Regional Airport-Harry P Davis Field", 
         "alias_ENG_V": [
           "HEF"
         ], 
-        "ne_latitude": 38.733, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -77.502, 
-        "longitude": -77.511, 
-        "placetype": "Airport", 
+        "name": "Manassas Regional Airport-Harry P Davis Field", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590381", 
+          "woe:state=2347605", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520771, 
+        "ne_longitude": -77.498, 
+        "longitude": -77.514, 
+        "parent_woeid": 12590381, 
+        "ne_latitude": 38.734, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2444625, 
-        "latitude": 38.726, 
-        "sw_longitude": -77.531, 
-        "fullname": "Manassas Regional Airport-Harry P Davis Field, Manassas, Virginia, Manassas City, United States", 
-        "sw_latitude": 38.706
+        "sw_latitude": 38.717, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 38.727, 
+        "sw_longitude": -77.525, 
+        "fullname": "Manassas Regional Airport-Harry P Davis Field, Manassas, Virginia, United States", 
+        "iata_code": "HEF", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520771
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516151, 
+        "placetype": "airport", 
         "name": "Khorin Airport", 
-        "ne_latitude": 44.503, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597800", 
+          "woe:state=2346884", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516151, 
         "ne_longitude": 41.291, 
         "longitude": 41.284, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597800, 
+        "ne_latitude": 44.503, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2071329, 
+        "sw_latitude": 44.494, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.498, 
         "sw_longitude": 41.278, 
         "fullname": "Khorin Airport, Krasnodarskiy Kray, Otradnensky, Russia", 
-        "sw_latitude": 44.494
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516151
     }

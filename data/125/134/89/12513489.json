@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513489, 
-        "name": "Padangkemiling Airport", 
         "alias_ENG_V": [
           "BKS"
         ], 
-        "ne_latitude": -3.859, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Padangkemiling Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=56000402", 
+          "woe:state=2345712", 
+          "woe:country=23424846", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513489, 
         "ne_longitude": 102.344, 
         "longitude": 102.339, 
-        "placetype": "Airport", 
+        "parent_woeid": 56000402, 
+        "ne_latitude": -3.859, 
         "iso": "ID", 
-        "date_indexed": "2010-12-02T16:54:32Z", 
-        "parent_woeid": 1031110, 
+        "sw_latitude": -3.868, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -3.863, 
         "sw_longitude": 102.335, 
         "fullname": "Padangkemiling Airport, Bengkulu, Kota Bengkulu, Indonesia", 
-        "sw_latitude": -3.868
+        "iata_code": "BKS", 
+        "date_indexed": "2010-12-02T16:54:32Z"
       }, 
       "id": 12513489
     }

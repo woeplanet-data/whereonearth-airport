@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388493, 
-        "name": "Oasis Ranger Station Airport", 
         "alias_ENG_V": [
           "9fl7"
         ], 
-        "ne_latitude": 25.865, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Oasis Ranger Station Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587813", 
+          "woe:state=2347568", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388493, 
         "ne_longitude": -81.032, 
         "longitude": -81.033, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587813, 
+        "ne_latitude": 25.865, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2507614, 
+        "sw_latitude": 25.854, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 25.857, 
         "sw_longitude": -81.035, 
-        "fullname": "Oasis Ranger Station Airport, Trailtown, Florida, Collier, United States", 
-        "sw_latitude": 25.854
+        "fullname": "Oasis Ranger Station Airport, Trailtown, Florida, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388493
     }

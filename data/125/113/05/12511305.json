@@ -32,29 +32,35 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511305, 
-        "name": "Aeroporto Santa Maria", 
-        "alias_ENG_P": [
-          "Santa Maria Airport"
-        ], 
-        "ne_latitude": -10.980, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "AJU"
         ], 
+        "name": "Aeroporto Santa Maria", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Santa Maria Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12582386", 
+          "woe:state=2344869", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511305, 
         "ne_longitude": -37.069, 
         "longitude": -37.073, 
-        "placetype": "Airport", 
+        "parent_woeid": 12582386, 
+        "ne_latitude": -10.980, 
         "alias_POR_V": [
           "Aeroporto AJU"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 461123, 
+        "sw_latitude": -10.990, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -10.985, 
         "sw_longitude": -37.078, 
-        "fullname": "Aeroporto Santa Maria, S\u00e3o Jos\u00e9, Sergipe, Aracaju, Brazil", 
-        "sw_latitude": -10.990
+        "fullname": "Aeroporto Santa Maria, S\u00e3o Jos\u00e9, Sergipe, Brazil", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511305
     }

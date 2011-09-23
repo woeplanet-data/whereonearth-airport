@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 56052114, 
+        "placetype": "airport", 
         "name": "Flugplatz Oldenburg-hatten", 
-        "ne_latitude": 53.071, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12629995", 
+          "woe:county=12596786", 
+          "woe:state=2345486", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56052114, 
         "ne_longitude": 8.323, 
         "longitude": 8.312, 
-        "placetype": "Airport", 
+        "parent_woeid": 12629995, 
+        "ne_latitude": 53.071, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 657814, 
+        "sw_latitude": 53.063, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.067, 
         "sw_longitude": 8.306, 
-        "fullname": "Flugplatz Oldenburg-hatten, Hatten, Lower Saxony, Landkreis Oldenburg, Germany", 
-        "sw_latitude": 53.063
+        "fullname": "Flugplatz Oldenburg-hatten, Hatten, Lower Saxony, Germany", 
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 56052114
     }

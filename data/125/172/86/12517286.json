@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517286, 
+        "placetype": "airport", 
         "name": "Zazerskiy Airport", 
-        "ne_latitude": 48.019, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599144", 
+          "woe:state=2346921", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517286, 
         "ne_longitude": 41.518, 
         "longitude": 41.511, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599144, 
+        "ne_latitude": 48.019, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2117162, 
+        "sw_latitude": 48.010, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.015, 
         "sw_longitude": 41.504, 
         "fullname": "Zazerskiy Airport, Rostovskaya Oblast, Tatsynsky, Russia", 
-        "sw_latitude": 48.010
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12517286
     }

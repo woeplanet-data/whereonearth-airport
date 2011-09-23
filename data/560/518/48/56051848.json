@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "FRE", 
-        "woeid": 56051848, 
+        "placetype": "airport", 
         "name": "A\u00e9rodrome de Montendre-marcillac", 
-        "ne_latitude": 45.277, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12651201", 
+          "woe:county=12597132", 
+          "woe:state=7153309", 
+          "woe:country=23424819", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56051848, 
         "ne_longitude": -0.451, 
         "longitude": -0.457, 
-        "placetype": "Airport", 
+        "parent_woeid": 12651201, 
+        "ne_latitude": 45.277, 
         "iso": "FR", 
-        "date_indexed": "2010-12-02T12:04:01Z", 
-        "parent_woeid": 619050, 
+        "sw_latitude": 45.270, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.276, 
         "sw_longitude": -0.457, 
-        "fullname": "A\u00e9rodrome de Montendre-marcillac, Reignac, Aquitaine, Gironde, France", 
+        "fullname": "A\u00e9rodrome de Montendre-marcillac, Reignac, Aquitaine, France", 
         "alias_FRE_S": [
           "Aerodrome de Montendre-marcillac"
         ], 
-        "sw_latitude": 45.270
+        "date_indexed": "2010-12-02T12:04:01Z"
       }, 
       "id": 56051848
     }

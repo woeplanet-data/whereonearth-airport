@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520802, 
-        "name": "Marion County Airport-Brown Field", 
         "alias_ENG_V": [
           "Marion County-Brown Field"
         ], 
-        "ne_latitude": 35.061, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Marion County Airport-Brown Field", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589967", 
+          "woe:state=2347601", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520802, 
         "ne_longitude": -85.580, 
         "longitude": -85.583, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589967, 
+        "ne_latitude": 35.061, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2395706, 
+        "sw_latitude": 35.056, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.058, 
         "sw_longitude": -85.586, 
-        "fullname": "Marion County Airport-Brown Field, East Hill, Tennessee, Marion, United States", 
-        "sw_latitude": 35.056
+        "fullname": "Marion County Airport-Brown Field, East Hill, Tennessee, United States", 
+        "iata_code": "APT", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12520802
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388428, 
-        "name": "Argyle Airport", 
         "alias_ENG_V": [
           "1c3"
         ], 
-        "ne_latitude": 43.258, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Argyle Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589369", 
+          "woe:state=2347591", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388428, 
         "ne_longitude": -73.465, 
         "longitude": -73.473, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589369, 
+        "ne_latitude": 43.258, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2355783, 
+        "sw_latitude": 43.252, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.256, 
         "sw_longitude": -73.473, 
-        "fullname": "Argyle Airport, Argyle, New York, Washington, United States", 
-        "sw_latitude": 43.252
+        "fullname": "Argyle Airport, Argyle, New York, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388428
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516167, 
+        "placetype": "airport", 
         "name": "Kirov South Airport", 
-        "ne_latitude": 54.059, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598399", 
+          "woe:state=2346899", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516167, 
         "ne_longitude": 34.328, 
         "longitude": 34.320, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598399, 
+        "ne_latitude": 54.059, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2121383, 
+        "sw_latitude": 54.050, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 54.054, 
         "sw_longitude": 34.312, 
-        "fullname": "Kirov South Airport, Kirov, Kaluzhskaya Oblast, Kirov, Russia", 
-        "sw_latitude": 54.050
+        "fullname": "Kirov South Airport, Kirov, Kaluzhskaya Oblast, Russia", 
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516167
     }

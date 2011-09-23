@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514866, 
+        "placetype": "airport", 
         "name": "El Fuerte Airport", 
-        "ne_latitude": 26.401, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12601534", 
+          "woe:state=2346288", 
+          "woe:country=23424900", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514866, 
         "ne_longitude": -108.606, 
         "longitude": -108.611, 
-        "placetype": "Airport", 
+        "parent_woeid": 12601534, 
+        "ne_latitude": 26.401, 
         "iso": "MX", 
-        "date_indexed": "2010-12-02T16:57:55Z", 
-        "parent_woeid": 120306, 
+        "sw_latitude": 26.392, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 26.397, 
         "sw_longitude": -108.616, 
-        "fullname": "El Fuerte Airport, El Fuerte, Sinaloa, El Fuerte, Mexico", 
-        "sw_latitude": 26.392
+        "fullname": "El Fuerte Airport, El Fuerte, Sinaloa, Mexico", 
+        "date_indexed": "2010-12-02T16:57:55Z"
       }, 
       "id": 12514866
     }

@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 56052184, 
+        "placetype": "airport", 
         "name": "Landeplatz Bad Ditzenbach", 
-        "ne_latitude": 48.566, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12624060", 
+          "woe:county=12596800", 
+          "woe:state=2345481", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56052184, 
         "ne_longitude": 9.731, 
         "longitude": 9.724, 
-        "placetype": "Airport", 
+        "parent_woeid": 12624060, 
+        "ne_latitude": 48.566, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 636407, 
+        "sw_latitude": 48.560, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.564, 
         "sw_longitude": 9.724, 
-        "fullname": "Landeplatz Bad Ditzenbach, Bad Ditzenbach, Baden-Wurttemberg, Landkreis G\u00f6ppingen, Germany", 
-        "sw_latitude": 48.560
+        "fullname": "Landeplatz Bad Ditzenbach, Bad Ditzenbach, Baden-Wurttemberg, Germany", 
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 56052184
     }

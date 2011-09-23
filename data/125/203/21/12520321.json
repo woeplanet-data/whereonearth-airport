@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520321, 
+        "placetype": "airport", 
         "name": "Jaars Townsend Airport", 
-        "ne_latitude": 34.868, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12589463", 
+          "woe:state=2347592", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520321, 
         "ne_longitude": -80.743, 
         "longitude": -80.748, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589463, 
+        "ne_latitude": 34.868, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 23417837, 
+        "sw_latitude": 34.859, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 34.864, 
         "sw_longitude": -80.754, 
-        "fullname": "Jaars Townsend Airport, Jaars, North Carolina, Union, United States", 
-        "sw_latitude": 34.859
+        "fullname": "Jaars Townsend Airport, Jaars, North Carolina, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12520321
     }

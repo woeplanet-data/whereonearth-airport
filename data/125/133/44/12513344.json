@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513344, 
+        "placetype": "airport", 
         "name": "Fria Airport", 
-        "ne_latitude": 10.355, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=56060969", 
+          "woe:county=2345584", 
+          "woe:state=56059373", 
+          "woe:country=23424835", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513344, 
         "ne_longitude": -13.568, 
         "longitude": -13.572, 
-        "placetype": "Airport", 
+        "parent_woeid": 56060969, 
+        "ne_latitude": 10.355, 
         "iso": "GN", 
-        "date_indexed": "2010-12-02T16:11:57Z", 
-        "parent_woeid": 1339138, 
+        "sw_latitude": 10.345, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 10.350, 
         "sw_longitude": -13.577, 
         "fullname": "Fria Airport, Bok\u00e9, Fria, Guinea", 
-        "sw_latitude": 10.345
+        "date_indexed": "2010-12-02T16:11:57Z"
       }, 
       "id": 12513344
     }

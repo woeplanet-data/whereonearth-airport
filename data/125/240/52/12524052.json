@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524052, 
-        "name": "Powell Lake Airport", 
         "alias_ENG_V": [
           "WPL Airport"
         ], 
-        "ne_latitude": 50.180, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Powell Lake Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375154", 
+          "woe:state=2344916", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524052, 
         "ne_longitude": -124.401, 
         "longitude": -124.408, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375154, 
+        "ne_latitude": 50.180, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 9645, 
+        "sw_latitude": 50.170, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.175, 
         "sw_longitude": -124.415, 
-        "fullname": "Powell Lake Airport, Homfray Creek, British Columbia, Powell River, Canada", 
-        "sw_latitude": 50.170
+        "fullname": "Powell Lake Airport, Homfray Creek, British Columbia, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12524052
     }

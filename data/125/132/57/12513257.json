@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513257, 
+        "placetype": "airport", 
         "name": "Welzow Airport", 
-        "ne_latitude": 51.585, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=24547161", 
+          "woe:county=12596972", 
+          "woe:state=2345491", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513257, 
         "ne_longitude": 14.147, 
         "longitude": 14.139, 
-        "placetype": "Airport", 
+        "parent_woeid": 24547161, 
+        "ne_latitude": 51.585, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 671981, 
+        "sw_latitude": 51.576, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.581, 
         "sw_longitude": 14.132, 
-        "fullname": "Welzow Airport, Lindenfeld, Brandenburg, Oberspreewald-Lausitz, Germany", 
+        "fullname": "Welzow Airport, Lindenfeld, Brandenburg, Germany", 
         "alias_GER_Q": [
           "Flughafen Welzow"
         ], 
-        "sw_latitude": 51.576
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 12513257
     }

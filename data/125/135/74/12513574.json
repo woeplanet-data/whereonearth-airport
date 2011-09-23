@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513574, 
-        "name": "Daman Airport", 
         "alias_ENG_V": [
           "NMB"
         ], 
-        "ne_latitude": 20.421, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Daman Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12586436", 
+          "woe:state=2345743", 
+          "woe:country=23424848", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513574, 
         "ne_longitude": 72.856, 
         "longitude": 72.851, 
-        "placetype": "Airport", 
+        "parent_woeid": 12586436, 
+        "ne_latitude": 20.421, 
         "iso": "IN", 
-        "date_indexed": "2010-12-02T09:26:27Z", 
-        "parent_woeid": 29181008, 
+        "sw_latitude": 20.412, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 20.416, 
         "sw_longitude": 72.846, 
-        "fullname": "Daman Airport, Vatar, Gujarat, Valsad, India", 
-        "sw_latitude": 20.412
+        "fullname": "Daman Airport, Vatar, Gujarat, India", 
+        "date_indexed": "2010-12-02T09:26:27Z"
       }, 
       "id": 12513574
     }

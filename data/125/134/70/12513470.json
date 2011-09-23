@@ -3,28 +3,34 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              119.539, 
-              -5.081
-            ], 
-            [
-              119.539, 
-              -5.058
-            ], 
-            [
-              119.561, 
-              -5.058
-            ], 
-            [
-              119.561, 
-              -5.081
-            ], 
-            [
-              119.539, 
-              -5.081
+              [
+                119.547, 
+                -5.059
+              ], 
+              [
+                119.543, 
+                -5.060
+              ], 
+              [
+                119.546, 
+                -5.058
+              ], 
+              [
+                119.547, 
+                -5.058
+              ], 
+              [
+                119.547, 
+                -5.059
+              ], 
+              [
+                119.547, 
+                -5.059
+              ]
             ]
           ]
         ]
@@ -32,23 +38,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513470, 
-        "name": "Hasanuddin Airport", 
         "alias_ENG_V": [
           "Hasanuddin"
         ], 
+        "name": "Hasanuddin Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=56000147", 
+          "woe:state=2345729", 
+          "woe:country=23424846", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513470, 
+        "ne_longitude": 119.547, 
+        "longitude": 119.546, 
+        "parent_woeid": 56000147, 
         "ne_latitude": -5.058, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": 119.561, 
-        "longitude": 119.550, 
-        "placetype": "Airport", 
         "iso": "ID", 
-        "date_indexed": "2010-12-02T16:54:32Z", 
-        "parent_woeid": 1037846, 
-        "latitude": -5.069, 
-        "sw_longitude": 119.539, 
+        "sw_latitude": -5.060, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": -5.059, 
+        "sw_longitude": 119.543, 
         "fullname": "Hasanuddin Airport, South Sulawesi, Maros, Indonesia", 
-        "sw_latitude": -5.081
+        "date_indexed": "2010-12-02T16:54:32Z"
       }, 
       "id": 12513470
     }

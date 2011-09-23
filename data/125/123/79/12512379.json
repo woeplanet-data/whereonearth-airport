@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512379, 
-        "name": "Guapi Airport", 
         "alias_ENG_V": [
           "GPI"
         ], 
-        "ne_latitude": 2.585, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Guapi Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26796972", 
+          "woe:state=2345055", 
+          "woe:country=23424787", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512379, 
         "ne_longitude": -77.904, 
         "longitude": -77.908, 
-        "placetype": "Airport", 
+        "parent_woeid": 26796972, 
+        "ne_latitude": 2.585, 
         "iso": "CO", 
-        "date_indexed": "2010-12-02T17:57:37Z", 
-        "parent_woeid": 368505, 
+        "sw_latitude": 2.576, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 2.581, 
         "sw_longitude": -77.913, 
-        "fullname": "Guapi Airport, Guap\u00ed, Cauca, Guapi, Colombia", 
-        "sw_latitude": 2.576
+        "fullname": "Guapi Airport, Guap\u00ed, Cauca, Colombia", 
+        "date_indexed": "2010-12-02T17:57:37Z"
       }, 
       "id": 12512379
     }

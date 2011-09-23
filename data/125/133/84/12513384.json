@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513384, 
+        "placetype": "airport", 
         "name": "Borgond Airport", 
-        "ne_latitude": 47.137, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12593850", 
+          "woe:state=56043622", 
+          "woe:country=23424844", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513384, 
         "ne_longitude": 18.511, 
         "longitude": 18.505, 
-        "placetype": "Airport", 
+        "parent_woeid": 12593850, 
+        "ne_latitude": 47.137, 
         "iso": "HU", 
-        "date_indexed": "2010-12-02T09:56:22Z", 
-        "parent_woeid": 804208, 
+        "sw_latitude": 47.128, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.133, 
         "sw_longitude": 18.498, 
         "fullname": "Borgond Airport, Sz\u00e9kesfeh\u00e9rv\u00e1r, Sz\u00e9kesfeh\u00e9rv\u00e1r, Hungary", 
-        "sw_latitude": 47.128
+        "date_indexed": "2010-12-02T09:56:22Z"
       }, 
       "id": 12513384
     }

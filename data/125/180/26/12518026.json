@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518026, 
-        "name": "Soroti Airport", 
         "alias_ENG_V": [
           "SRT"
         ], 
-        "ne_latitude": 1.733, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Soroti Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=56190365", 
+          "woe:state=20070447", 
+          "woe:country=23424974", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518026, 
         "ne_longitude": 33.625, 
         "longitude": 33.621, 
-        "placetype": "Airport", 
+        "parent_woeid": 56190365, 
+        "ne_latitude": 1.733, 
         "iso": "UG", 
-        "date_indexed": "2010-12-02T10:22:43Z", 
-        "parent_woeid": 1455352, 
+        "sw_latitude": 1.724, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 1.729, 
         "sw_longitude": 33.616, 
         "fullname": "Soroti Airport, Soroti, Soroti, Uganda", 
-        "sw_latitude": 1.724
+        "iata_code": "SRT", 
+        "date_indexed": "2010-12-02T10:22:43Z"
       }, 
       "id": 12518026
     }

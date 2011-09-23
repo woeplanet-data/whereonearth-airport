@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512857, 
+        "placetype": "airport", 
         "name": "Boucali Airport", 
-        "ne_latitude": 43.571, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12653540", 
+          "woe:county=12597149", 
+          "woe:state=7153309", 
+          "woe:country=23424819", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512857, 
         "ne_longitude": -1.487, 
         "longitude": -1.493, 
-        "placetype": "Airport", 
+        "parent_woeid": 12653540, 
+        "ne_latitude": 43.571, 
         "iso": "FR", 
-        "date_indexed": "2010-12-02T12:04:01Z", 
-        "parent_woeid": 628078, 
+        "sw_latitude": 43.562, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.566, 
         "sw_longitude": -1.500, 
-        "fullname": "Boucali Airport, Tarnos, Aquitaine, Landes, France", 
-        "sw_latitude": 43.562
+        "fullname": "Boucali Airport, Tarnos, Aquitaine, France", 
+        "date_indexed": "2010-12-02T12:04:01Z"
       }, 
       "id": 12512857
     }

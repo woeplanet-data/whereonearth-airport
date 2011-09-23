@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510644, 
-        "name": "Corowa Airport", 
         "alias_ENG_V": [
           "COW"
         ], 
-        "ne_latitude": -35.982, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Corowa Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55863836", 
+          "woe:state=2344700", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510644, 
         "ne_longitude": 146.364, 
         "longitude": 146.358, 
-        "placetype": "Airport", 
+        "parent_woeid": 55863836, 
+        "ne_latitude": -35.982, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1101397, 
+        "sw_latitude": -36.003, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -35.988, 
         "sw_longitude": 146.342, 
-        "fullname": "Corowa Airport, Corowa, New South Wales, Corowa, Australia", 
-        "sw_latitude": -36.003
+        "fullname": "Corowa Airport, Corowa, New South Wales, Australia", 
+        "iata_code": "COW", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 12510644
     }

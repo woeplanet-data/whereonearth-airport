@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514624, 
+        "placetype": "airport", 
         "name": "Raznany Airport", 
-        "ne_latitude": 49.080, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=29399824", 
+          "woe:county=29399304", 
+          "woe:state=20070496", 
+          "woe:country=23424877", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514624, 
         "ne_longitude": 21.099, 
         "longitude": 21.092, 
-        "placetype": "Airport", 
+        "parent_woeid": 29399824, 
+        "ne_latitude": 49.080, 
         "iso": "SK", 
-        "date_indexed": "2010-12-02T08:50:42Z", 
-        "parent_woeid": 821925, 
+        "sw_latitude": 49.071, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.075, 
         "sw_longitude": 21.085, 
         "fullname": "Raznany Airport, Presovsky, Sabinov, Slovakia", 
-        "sw_latitude": 49.071
+        "date_indexed": "2010-12-02T08:50:42Z"
       }, 
       "id": 12514624
     }

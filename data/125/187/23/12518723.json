@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518723, 
-        "name": "Bacon County Airport", 
         "alias_ENG_V": [
           "AMG"
         ], 
-        "ne_latitude": 31.548, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Bacon County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587872", 
+          "woe:state=2347569", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518723, 
         "ne_longitude": -82.508, 
         "longitude": -82.512, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587872, 
+        "ne_latitude": 31.548, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:15Z", 
-        "parent_woeid": 2353557, 
+        "sw_latitude": 31.540, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 31.544, 
         "sw_longitude": -82.516, 
-        "fullname": "Bacon County Airport, Alma, Georgia, Bacon, United States", 
-        "sw_latitude": 31.540
+        "fullname": "Bacon County Airport, Alma, Georgia, United States", 
+        "iata_code": "AMG", 
+        "date_indexed": "2010-12-02T18:39:15Z"
       }, 
       "id": 12518723
     }

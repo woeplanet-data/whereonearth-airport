@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515294, 
+        "placetype": "airport", 
         "name": "Ciechanow Airport", 
-        "ne_latitude": 52.844, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=24548293", 
+          "woe:county=12591271", 
+          "woe:state=12577941", 
+          "woe:country=23424923", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515294, 
         "ne_longitude": 20.641, 
         "longitude": 20.633, 
-        "placetype": "Airport", 
+        "parent_woeid": 24548293, 
+        "ne_latitude": 52.844, 
         "iso": "PL", 
-        "date_indexed": "2010-12-02T12:12:45Z", 
-        "parent_woeid": 507436, 
+        "sw_latitude": 52.834, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 52.839, 
         "sw_longitude": 20.626, 
         "fullname": "Ciechanow Airport, Masovian, Ciechanow County, Poland", 
-        "sw_latitude": 52.834
+        "date_indexed": "2010-12-02T12:12:45Z"
       }, 
       "id": 12515294
     }

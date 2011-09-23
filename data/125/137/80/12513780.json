@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513780, 
+        "placetype": "airport", 
         "name": "Hatzor Airport", 
-        "ne_latitude": 31.768, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345791", 
+          "woe:country=23424852", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513780, 
         "ne_longitude": 34.732, 
         "longitude": 34.727, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345791, 
+        "ne_latitude": 31.768, 
         "iso": "IL", 
-        "date_indexed": "2010-12-02T08:53:06Z", 
-        "parent_woeid": 1967448, 
+        "sw_latitude": 31.759, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 31.763, 
         "sw_longitude": 34.721, 
         "fullname": "Hatzor Airport, HaDarom, Israel", 
-        "sw_latitude": 31.759
+        "date_indexed": "2010-12-02T08:53:06Z"
       }, 
       "id": 12513780
     }

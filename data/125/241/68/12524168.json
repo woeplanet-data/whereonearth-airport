@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524168, 
-        "name": "Alert Airport", 
         "alias_ENG_V": [
           "YLT Airport"
         ], 
-        "ne_latitude": 82.511, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Alert Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375230", 
+          "woe:state=20069920", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524168, 
         "ne_longitude": -62.338, 
         "longitude": -62.372, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375230, 
+        "ne_latitude": 82.511, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 4316, 
+        "sw_latitude": 82.502, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 82.507, 
         "sw_longitude": -62.407, 
-        "fullname": "Alert Airport, Alert, Nunavut, Nunavut, Canada", 
-        "sw_latitude": 82.502
+        "fullname": "Alert Airport, Alert, Nunavut, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12524168
     }

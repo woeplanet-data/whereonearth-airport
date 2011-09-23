@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524116, 
-        "name": "Kaschechewan Airport", 
         "alias_ENG_V": [
           "ZKE Airport"
         ], 
-        "ne_latitude": 52.316, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Kaschechewan Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375238", 
+          "woe:state=2344922", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524116, 
         "ne_longitude": -81.600, 
         "longitude": -81.608, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375238, 
+        "ne_latitude": 52.316, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 23397816, 
+        "sw_latitude": 52.307, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 52.312, 
         "sw_longitude": -81.615, 
-        "fullname": "Kaschechewan Airport, Kashechewan, Ontario, Kenora, Canada", 
-        "sw_latitude": 52.307
+        "fullname": "Kaschechewan Airport, Kashechewan, Ontario, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12524116
     }

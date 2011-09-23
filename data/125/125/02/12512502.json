@@ -3,28 +3,46 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              32.471, 
-              34.708
-            ], 
-            [
-              32.471, 
-              34.731
-            ], 
-            [
-              32.499, 
-              34.731
-            ], 
-            [
-              32.499, 
-              34.708
-            ], 
-            [
-              32.471, 
-              34.708
+              [
+                32.483, 
+                34.714
+              ], 
+              [
+                32.484, 
+                34.718
+              ], 
+              [
+                32.486, 
+                34.719
+              ], 
+              [
+                32.489, 
+                34.715
+              ], 
+              [
+                32.488, 
+                34.710
+              ], 
+              [
+                32.486, 
+                34.712
+              ], 
+              [
+                32.484, 
+                34.712
+              ], 
+              [
+                32.483, 
+                34.713
+              ], 
+              [
+                32.483, 
+                34.714
+              ]
             ]
           ]
         ]
@@ -32,23 +50,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512502, 
-        "name": "Paphos International Airport", 
         "alias_ENG_V": [
           "Paphos International"
         ], 
-        "ne_latitude": 34.731, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": 32.499, 
-        "longitude": 32.485, 
-        "placetype": "Airport", 
+        "name": "Paphos International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=12577966", 
+          "woe:country=26812346", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512502, 
+        "ne_longitude": 32.489, 
+        "longitude": 32.486, 
+        "parent_woeid": 12577966, 
+        "ne_latitude": 34.719, 
         "iso": "CY", 
-        "date_indexed": "2010-12-02T09:35:25Z", 
-        "parent_woeid": 841105, 
-        "latitude": 34.719, 
-        "sw_longitude": 32.471, 
+        "sw_latitude": 34.710, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 34.715, 
+        "sw_longitude": 32.483, 
         "fullname": "Paphos International Airport, Paphos District, Cyprus", 
-        "sw_latitude": 34.708
+        "iata_code": "PFO", 
+        "date_indexed": "2010-12-02T09:35:25Z"
       }, 
       "id": 12512502
     }

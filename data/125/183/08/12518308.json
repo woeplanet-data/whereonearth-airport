@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518308, 
+        "placetype": "airport", 
         "name": "Kosov Airport", 
-        "ne_latitude": 48.307, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2347539", 
+          "woe:country=23424976", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518308, 
         "ne_longitude": 25.150, 
         "longitude": 25.143, 
-        "placetype": "Airport", 
+        "parent_woeid": 2347539, 
+        "ne_latitude": 48.307, 
         "iso": "UA", 
-        "date_indexed": "2010-12-02T08:52:33Z", 
-        "parent_woeid": 923726, 
+        "sw_latitude": 48.298, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.303, 
         "sw_longitude": 25.137, 
         "fullname": "Kosov Airport, Ivano-Frankivsk Oblast, Ukraine", 
-        "sw_latitude": 48.298
+        "date_indexed": "2010-12-02T08:52:33Z"
       }, 
       "id": 12518308
     }

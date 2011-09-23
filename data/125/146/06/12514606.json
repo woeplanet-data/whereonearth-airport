@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514606, 
+        "placetype": "airport", 
         "name": "Boleraz Airport", 
-        "ne_latitude": 48.457, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=29401161", 
+          "woe:county=29399336", 
+          "woe:state=20070504", 
+          "woe:country=23424877", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514606, 
         "ne_longitude": 17.559, 
         "longitude": 17.552, 
-        "placetype": "Airport", 
+        "parent_woeid": 29401161, 
+        "ne_latitude": 48.457, 
         "iso": "SK", 
-        "date_indexed": "2010-12-02T08:50:42Z", 
-        "parent_woeid": 818669, 
+        "sw_latitude": 48.448, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.452, 
         "sw_longitude": 17.545, 
         "fullname": "Boleraz Airport, Trnavsky, Trnava, Slovakia", 
-        "sw_latitude": 48.448
+        "date_indexed": "2010-12-02T08:50:42Z"
       }, 
       "id": 12514606
     }

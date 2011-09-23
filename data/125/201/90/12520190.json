@@ -3,28 +3,134 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -155.064, 
-              19.711
-            ], 
-            [
-              -155.064, 
-              19.728
-            ], 
-            [
-              -155.012, 
-              19.728
-            ], 
-            [
-              -155.012, 
-              19.711
-            ], 
-            [
-              -155.064, 
-              19.711
+              [
+                -155.043, 
+                19.715
+              ], 
+              [
+                -155.047, 
+                19.718
+              ], 
+              [
+                -155.048, 
+                19.718
+              ], 
+              [
+                -155.050, 
+                19.719
+              ], 
+              [
+                -155.052, 
+                19.720
+              ], 
+              [
+                -155.058, 
+                19.717
+              ], 
+              [
+                -155.061, 
+                19.718
+              ], 
+              [
+                -155.062, 
+                19.717
+              ], 
+              [
+                -155.068, 
+                19.713
+              ], 
+              [
+                -155.069, 
+                19.712
+              ], 
+              [
+                -155.065, 
+                19.708
+              ], 
+              [
+                -155.064, 
+                19.709
+              ], 
+              [
+                -155.062, 
+                19.717
+              ], 
+              [
+                -155.063, 
+                19.723
+              ], 
+              [
+                -155.064, 
+                19.724
+              ], 
+              [
+                -155.064, 
+                19.725
+              ], 
+              [
+                -155.063, 
+                19.727
+              ], 
+              [
+                -155.057, 
+                19.726
+              ], 
+              [
+                -155.057, 
+                19.725
+              ], 
+              [
+                -155.052, 
+                19.720
+              ], 
+              [
+                -155.050, 
+                19.720
+              ], 
+              [
+                -155.047, 
+                19.719
+              ], 
+              [
+                -155.044, 
+                19.719
+              ], 
+              [
+                -155.042, 
+                19.720
+              ], 
+              [
+                -155.040, 
+                19.720
+              ], 
+              [
+                -155.033, 
+                19.720
+              ], 
+              [
+                -155.032, 
+                19.718
+              ], 
+              [
+                -155.034, 
+                19.716
+              ], 
+              [
+                -155.039, 
+                19.710
+              ], 
+              [
+                -155.042, 
+                19.713
+              ], 
+              [
+                -155.043, 
+                19.715
+              ]
             ]
           ]
         ]
@@ -32,23 +138,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520190, 
-        "name": "Hilo International Airport", 
         "alias_ENG_V": [
           "ITO"
         ], 
-        "ne_latitude": 19.728, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -155.012, 
-        "longitude": -155.042, 
-        "placetype": "Airport", 
+        "name": "Hilo International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588029", 
+          "woe:state=2347570", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520190, 
+        "ne_longitude": -155.032, 
+        "longitude": -155.045, 
+        "parent_woeid": 12588029, 
+        "ne_latitude": 19.727, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2430965, 
-        "latitude": 19.713, 
-        "sw_longitude": -155.064, 
-        "fullname": "Hilo International Airport, Keaukaha, Hawaii, Hawaii, United States", 
-        "sw_latitude": 19.711
+        "sw_latitude": 19.708, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 19.720, 
+        "sw_longitude": -155.069, 
+        "fullname": "Hilo International Airport, Keaukaha, Hawaii, United States", 
+        "iata_code": "ITO", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520190
     }

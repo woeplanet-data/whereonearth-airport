@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520217, 
-        "name": "Hood Army Air Field", 
         "alias_ENG_V": [
           "HLR Airport"
         ], 
-        "ne_latitude": 31.142, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Hood Army Air Field", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590020", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520217, 
         "ne_longitude": -97.709, 
         "longitude": -97.714, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590020, 
+        "ne_latitude": 31.142, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2432286, 
+        "sw_latitude": 31.133, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 31.138, 
         "sw_longitude": -97.719, 
-        "fullname": "Hood Army Air Field, Killeen, Texas, Bell, United States", 
-        "sw_latitude": 31.133
+        "fullname": "Hood Army Air Field, Killeen, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12520217
     }

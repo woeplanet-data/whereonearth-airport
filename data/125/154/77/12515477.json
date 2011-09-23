@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515477, 
-        "name": "Port Moresby International Airport", 
         "alias_ENG_V": [
           "Pt Moresby Airport"
         ], 
-        "ne_latitude": -9.438, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Port Moresby International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2346600", 
+          "woe:country=23424926", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515477, 
         "ne_longitude": 147.224, 
         "longitude": 147.219, 
-        "placetype": "Airport", 
+        "parent_woeid": 2346600, 
+        "ne_latitude": -9.438, 
         "iso": "PG", 
-        "date_indexed": "2010-12-02T09:57:28Z", 
-        "parent_woeid": 1062005, 
+        "sw_latitude": -9.447, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -9.443, 
         "sw_longitude": 147.215, 
         "fullname": "Port Moresby International Airport, Port Moresby, National Capital, Papua New Guinea", 
-        "sw_latitude": -9.447
+        "iata_code": "POM", 
+        "date_indexed": "2010-12-02T09:57:28Z"
       }, 
       "id": 12515477
     }

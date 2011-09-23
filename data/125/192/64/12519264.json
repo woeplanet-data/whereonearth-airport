@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519264, 
-        "name": "Coeur d'Alene Air Term Airport", 
         "alias_ENG_V": [
           "COE"
         ], 
-        "ne_latitude": 47.782, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Coeur d'Alene Air Term Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588061", 
+          "woe:state=2347571", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519264, 
         "ne_longitude": -116.808, 
         "longitude": -116.812, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588061, 
+        "ne_latitude": 47.782, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2418989, 
+        "sw_latitude": 47.765, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.773, 
         "sw_longitude": -116.849, 
-        "fullname": "Coeur d'Alene Air Term Airport, Hayden, Idaho, Kootenai, United States", 
-        "sw_latitude": 47.765
+        "fullname": "Coeur d'Alene Air Term Airport, Hayden, Idaho, United States", 
+        "iata_code": "COE", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519264
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519929, 
+        "placetype": "airport", 
         "name": "Goldstone Gts Airport", 
-        "ne_latitude": 35.355, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12587705", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519929, 
         "ne_longitude": -116.882, 
         "longitude": -116.887, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587705, 
+        "ne_latitude": 35.355, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2411885, 
+        "sw_latitude": 35.346, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.351, 
         "sw_longitude": -116.893, 
-        "fullname": "Goldstone Gts Airport, Goldstone, California, San Bernardino, United States", 
-        "sw_latitude": 35.346
+        "fullname": "Goldstone Gts Airport, Goldstone, California, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12519929
     }

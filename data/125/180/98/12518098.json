@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518098, 
-        "name": "Hatfield Aerodrome", 
         "alias_ENG_V": [
           "HTF"
         ], 
-        "ne_latitude": 51.770, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Hatfield Aerodrome", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=12695984", 
+          "woe:county=12602170", 
+          "woe:state=24554868", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518098, 
         "ne_longitude": -0.241, 
         "longitude": -0.248, 
-        "placetype": "Airport", 
+        "parent_woeid": 12695984, 
+        "ne_latitude": 51.770, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:20:54Z", 
-        "parent_woeid": 22630, 
+        "sw_latitude": 51.761, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.766, 
         "sw_longitude": -0.256, 
-        "fullname": "Hatfield Aerodrome, Hatfield, England, Hertfordshire, United Kingdom", 
-        "sw_latitude": 51.761
+        "fullname": "Hatfield Aerodrome, Hatfield, England, United Kingdom", 
+        "iata_code": "HTF", 
+        "date_indexed": "2010-12-02T12:20:54Z"
       }, 
       "id": 12518098
     }

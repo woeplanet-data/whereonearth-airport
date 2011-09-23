@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "CZE", 
-        "woeid": 56049723, 
+        "placetype": "airport", 
         "name": "Letiste Melnik", 
-        "ne_latitude": 50.350, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12607820", 
+          "woe:county=12582586", 
+          "woe:state=20070468", 
+          "woe:country=23424810", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56049723, 
         "ne_longitude": 14.451, 
         "longitude": 14.441, 
-        "placetype": "Airport", 
+        "parent_woeid": 12607820, 
+        "ne_latitude": 50.350, 
         "iso": "CZ", 
-        "date_indexed": "2010-12-02T08:56:52Z", 
-        "parent_woeid": 793739, 
+        "sw_latitude": 50.337, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.343, 
         "sw_longitude": 14.431, 
-        "fullname": "Letiste Melnik, M\u011bln\u00edk, St\u0159edo\u010desk\u00fd, M\u011bln\u00edk, Czech Republic", 
-        "sw_latitude": 50.337
+        "fullname": "Letiste Melnik, M\u011bln\u00edk, St\u0159edo\u010desk\u00fd, Czech Republic", 
+        "date_indexed": "2010-12-02T08:56:52Z"
       }, 
       "id": 56049723
     }

@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522858, 
-        "name": "Zim Valencia Airport", 
         "alias_ENG_V": [
           "VLN"
         ], 
-        "ne_latitude": 10.167, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Zim Valencia Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=26805529", 
+          "woe:county=26804591", 
+          "woe:state=2347683", 
+          "woe:country=23424982", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522858, 
         "ne_longitude": -67.920, 
         "longitude": -67.932, 
-        "placetype": "Airport", 
+        "parent_woeid": 26805529, 
+        "ne_latitude": 10.167, 
         "iso": "VE", 
-        "date_indexed": "2010-12-02T16:11:43Z", 
-        "parent_woeid": 392220, 
+        "sw_latitude": 10.144, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 10.156, 
         "sw_longitude": -67.943, 
         "fullname": "Zim Valencia Airport, Carabobo, Valencia, Venezuela", 
-        "sw_latitude": 10.144
+        "iata_code": "VLN", 
+        "date_indexed": "2010-12-02T16:11:43Z"
       }, 
       "id": 12522858
     }

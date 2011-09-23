@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519586, 
-        "name": "Ebensburg Airport", 
         "alias_ENG_V": [
           "9g8"
         ], 
-        "ne_latitude": 40.465, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Ebensburg Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589738", 
+          "woe:state=2347597", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519586, 
         "ne_longitude": -78.767, 
         "longitude": -78.775, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589738, 
+        "ne_latitude": 40.465, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 28744593, 
+        "sw_latitude": 40.456, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.459, 
         "sw_longitude": -78.782, 
-        "fullname": "Ebensburg Airport, Cambria, Pennsylvania, Cambria, United States", 
-        "sw_latitude": 40.456
+        "fullname": "Ebensburg Airport, Cambria, Pennsylvania, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519586
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513080, 
+        "placetype": "airport", 
         "name": "Drebkau Airport", 
-        "ne_latitude": 51.683, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=24547307", 
+          "woe:county=12596841", 
+          "woe:state=2345491", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513080, 
         "ne_longitude": 14.136, 
         "longitude": 14.129, 
-        "placetype": "Airport", 
+        "parent_woeid": 24547307, 
+        "ne_latitude": 51.683, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:24Z", 
-        "parent_woeid": 643077, 
+        "sw_latitude": 51.674, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.678, 
         "sw_longitude": 14.121, 
-        "fullname": "Drebkau Airport, Kasel, Brandenburg, Spree-Nei\u00dfe, Germany", 
+        "fullname": "Drebkau Airport, Kasel, Brandenburg, Germany", 
         "alias_GER_Q": [
           "Flughafen Drebkau"
         ], 
-        "sw_latitude": 51.674
+        "date_indexed": "2010-12-02T09:50:24Z"
       }, 
       "id": 12513080
     }

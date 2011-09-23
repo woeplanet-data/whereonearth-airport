@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "FRE", 
-        "woeid": 56051830, 
+        "placetype": "airport", 
         "name": "A\u00e9rodrome de Flers-saint-paul", 
-        "ne_latitude": 48.754, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12643839", 
+          "woe:county=12597150", 
+          "woe:state=7153311", 
+          "woe:country=23424819", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56051830, 
         "ne_longitude": -0.585, 
         "longitude": -0.588, 
-        "placetype": "Airport", 
+        "parent_woeid": 12643839, 
+        "ne_latitude": 48.754, 
         "iso": "FR", 
-        "date_indexed": "2010-12-02T12:04:01Z", 
-        "parent_woeid": 591102, 
+        "sw_latitude": 48.746, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.750, 
         "sw_longitude": -0.600, 
-        "fullname": "A\u00e9rodrome de Flers-saint-paul, Flers, Basse-Normandie, Orne, France", 
+        "fullname": "A\u00e9rodrome de Flers-saint-paul, Flers, Basse-Normandie, France", 
         "alias_FRE_S": [
           "Aerodrome de Flers-saint-paul"
         ], 
-        "sw_latitude": 48.746
+        "date_indexed": "2010-12-02T12:04:01Z"
       }, 
       "id": 56051830
     }

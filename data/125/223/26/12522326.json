@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522326, 
-        "name": "Warren Field Airport", 
         "alias_ENG_V": [
           "Warren Airport"
         ], 
-        "ne_latitude": 35.580, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Warren Field Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589380", 
+          "woe:state=2347592", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522326, 
         "ne_longitude": -77.038, 
         "longitude": -77.041, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589380, 
+        "ne_latitude": 35.580, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2514606, 
+        "sw_latitude": 35.564, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.569, 
         "sw_longitude": -77.058, 
-        "fullname": "Warren Field Airport, Washington, North Carolina, Beaufort, United States", 
-        "sw_latitude": 35.564
+        "fullname": "Warren Field Airport, Washington, North Carolina, United States", 
+        "iata_code": "OCW", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522326
     }

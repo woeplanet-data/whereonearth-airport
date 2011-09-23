@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521498, 
-        "name": "Purdue University Airport", 
         "alias_ENG_V": [
           "LAF"
         ], 
-        "ne_latitude": 40.418, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Purdue University Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588258", 
+          "woe:state=2347573", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521498, 
         "ne_longitude": -86.925, 
         "longitude": -86.931, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588258, 
+        "ne_latitude": 40.418, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2517274, 
+        "sw_latitude": 40.407, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.417, 
         "sw_longitude": -86.952, 
-        "fullname": "Purdue University Airport, West Lafayette, Indiana, Tippecanoe, United States", 
-        "sw_latitude": 40.407
+        "fullname": "Purdue University Airport, West Lafayette, Indiana, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521498
     }

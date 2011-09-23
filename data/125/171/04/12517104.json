@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517104, 
+        "placetype": "airport", 
         "name": "Ust Ilych Airport", 
-        "ne_latitude": 62.530, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597457", 
+          "woe:state=2346874", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517104, 
         "ne_longitude": 56.742, 
         "longitude": 56.732, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597457, 
+        "ne_latitude": 62.530, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2101416, 
+        "sw_latitude": 62.521, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 62.526, 
         "sw_longitude": 56.722, 
         "fullname": "Ust Ilych Airport, Komi, Troitsko-Pechorsky, Russia", 
-        "sw_latitude": 62.521
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12517104
     }

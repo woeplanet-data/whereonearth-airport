@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "FRE", 
-        "woeid": 56051826, 
+        "placetype": "airport", 
         "name": "A\u00e9rodrome D'alen\u00e7on", 
-        "ne_latitude": 48.449, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12636888", 
+          "woe:county=12597150", 
+          "woe:state=7153311", 
+          "woe:country=23424819", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56051826, 
         "ne_longitude": 0.115, 
         "longitude": 0.110, 
-        "placetype": "Airport", 
+        "parent_woeid": 12636888, 
+        "ne_latitude": 48.449, 
         "iso": "FR", 
-        "date_indexed": "2010-12-02T12:04:01Z", 
-        "parent_woeid": 575695, 
+        "sw_latitude": 48.441, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.444, 
         "sw_longitude": 0.101, 
-        "fullname": "A\u00e9rodrome D'alen\u00e7on, Alen\u00e7on, Basse-Normandie, Orne, France", 
+        "fullname": "A\u00e9rodrome D'alen\u00e7on, Alen\u00e7on, Basse-Normandie, France", 
         "alias_FRE_S": [
           "Aerodrome D'alencon"
         ], 
-        "sw_latitude": 48.441
+        "date_indexed": "2010-12-02T12:04:01Z"
       }, 
       "id": 56051826
     }

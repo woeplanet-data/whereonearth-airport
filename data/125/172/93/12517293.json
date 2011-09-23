@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517293, 
+        "placetype": "airport", 
         "name": "Zheshart North Airport", 
-        "ne_latitude": 62.099, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597464", 
+          "woe:state=2346874", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517293, 
         "ne_longitude": 49.595, 
         "longitude": 49.585, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597464, 
+        "ne_latitude": 62.099, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2118138, 
+        "sw_latitude": 62.090, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 62.095, 
         "sw_longitude": 49.576, 
-        "fullname": "Zheshart North Airport, Zhershart, Komi, Ust-Vymsky, Russia", 
-        "sw_latitude": 62.090
+        "fullname": "Zheshart North Airport, Zhershart, Komi, Russia", 
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12517293
     }

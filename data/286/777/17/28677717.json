@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 28677717, 
+        "placetype": "airport", 
         "name": "Robinvale Aerodrome", 
-        "ne_latitude": -34.638, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55863967", 
+          "woe:state=2344705", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 28677717, 
         "ne_longitude": 142.777, 
         "longitude": 142.771, 
-        "placetype": "Airport", 
+        "parent_woeid": 55863967, 
+        "ne_latitude": -34.638, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 28587608, 
+        "sw_latitude": -34.647, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -34.643, 
         "sw_longitude": 142.766, 
-        "fullname": "Robinvale Aerodrome, Tol Tol, Victoria, Swan Hill, Australia", 
-        "sw_latitude": -34.647
+        "fullname": "Robinvale Aerodrome, Tol Tol, Victoria, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 28677717
     }

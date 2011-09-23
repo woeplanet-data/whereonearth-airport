@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510368, 
+        "placetype": "airport", 
         "name": "Dallyar Airport", 
-        "ne_latitude": 40.892, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=20070244", 
+          "woe:country=23424741", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510368, 
         "ne_longitude": 45.962, 
         "longitude": 45.956, 
-        "placetype": "Airport", 
+        "parent_woeid": 20070244, 
+        "ne_latitude": 40.892, 
         "iso": "AZ", 
-        "date_indexed": "2010-12-02T08:58:35Z", 
-        "parent_woeid": 1951892, 
+        "sw_latitude": 40.883, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.887, 
         "sw_longitude": 45.950, 
         "fullname": "Dallyar Airport, Dzegam, Samkir, Azerbaijan", 
-        "sw_latitude": 40.883
+        "date_indexed": "2010-12-02T08:58:35Z"
       }, 
       "id": 12510368
     }

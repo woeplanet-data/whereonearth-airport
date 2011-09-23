@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515625, 
-        "name": "Lahug Airport", 
         "alias_ENG_V": [
           "CEB"
         ], 
-        "ne_latitude": 10.364, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Lahug Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=2346676", 
+          "woe:state=23424721", 
+          "woe:country=23424934", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515625, 
         "ne_longitude": 123.842, 
         "longitude": 123.837, 
-        "placetype": "Airport", 
+        "parent_woeid": 2346676, 
+        "ne_latitude": 10.364, 
         "iso": "PH", 
-        "date_indexed": "2010-12-02T09:56:58Z", 
-        "parent_woeid": 1199079, 
+        "sw_latitude": 10.355, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 10.360, 
         "sw_longitude": 123.833, 
-        "fullname": "Lahug Airport, Cebu, Central Visayas, Cebu, Philippines", 
-        "sw_latitude": 10.355
+        "fullname": "Lahug Airport, Cebu, Central Visayas, Philippines", 
+        "iata_code": "CEB", 
+        "date_indexed": "2010-12-02T09:56:58Z"
       }, 
       "id": 12515625
     }

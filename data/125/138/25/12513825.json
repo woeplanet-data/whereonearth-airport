@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513825, 
+        "placetype": "airport", 
         "name": "Grazzanise Airport", 
-        "ne_latitude": 41.064, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12679674", 
+          "woe:county=12591875", 
+          "woe:state=7153333", 
+          "woe:country=23424853", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513825, 
         "ne_longitude": 14.088, 
         "longitude": 14.082, 
-        "placetype": "Airport", 
+        "parent_woeid": 12679674, 
+        "ne_latitude": 41.064, 
         "iso": "IT", 
-        "date_indexed": "2010-12-02T16:30:51Z", 
-        "parent_woeid": 716370, 
+        "sw_latitude": 41.055, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.060, 
         "sw_longitude": 14.076, 
-        "fullname": "Grazzanise Airport, Grazzanise, Campania, Caserta, Italy", 
-        "sw_latitude": 41.055
+        "fullname": "Grazzanise Airport, Grazzanise, Campania, Italy", 
+        "date_indexed": "2010-12-02T16:30:51Z"
       }, 
       "id": 12513825
     }

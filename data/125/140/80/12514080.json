@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514080, 
-        "name": "Nyeri Airport", 
         "alias_ENG_V": [
           "NYE"
         ], 
-        "ne_latitude": -0.360, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Nyeri Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2345937", 
+          "woe:country=23424863", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514080, 
         "ne_longitude": 36.982, 
         "longitude": 36.978, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345937, 
+        "ne_latitude": -0.360, 
         "iso": "KE", 
-        "date_indexed": "2010-12-02T08:53:57Z", 
-        "parent_woeid": 1529233, 
+        "sw_latitude": -0.370, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -0.365, 
         "sw_longitude": 36.973, 
         "fullname": "Nyeri Airport, Central, Kenya", 
-        "sw_latitude": -0.370
+        "iata_code": "NYE", 
+        "date_indexed": "2010-12-02T08:53:57Z"
       }, 
       "id": 12514080
     }

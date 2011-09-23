@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523200, 
-        "name": "Point Barrow Airport", 
         "alias_ENG_V": [
           "PBA"
         ], 
-        "ne_latitude": 71.336, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Point Barrow Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587570", 
+          "woe:state=2347560", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523200, 
         "ne_longitude": -156.629, 
         "longitude": -156.643, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587570, 
+        "ne_latitude": 71.336, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2359601, 
+        "sw_latitude": 71.326, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 71.331, 
         "sw_longitude": -156.657, 
-        "fullname": "Point Barrow Airport, Barrow, Alaska, North Slope Borough, United States", 
-        "sw_latitude": 71.326
+        "fullname": "Point Barrow Airport, Barrow, Alaska, United States", 
+        "iata_code": "PBA", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12523200
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511450, 
+        "placetype": "airport", 
         "name": "Kovachitsa Airport", 
-        "ne_latitude": 43.802, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55873703", 
+          "woe:state=20070056", 
+          "woe:country=23424771", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511450, 
         "ne_longitude": 23.417, 
         "longitude": 23.411, 
-        "placetype": "Airport", 
+        "parent_woeid": 55873703, 
+        "ne_latitude": 43.802, 
         "iso": "BG", 
-        "date_indexed": "2010-12-02T16:14:37Z", 
-        "parent_woeid": 837361, 
+        "sw_latitude": 43.793, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.797, 
         "sw_longitude": 23.405, 
         "fullname": "Kovachitsa Airport, Montana, Lom, Bulgaria", 
-        "sw_latitude": 43.793
+        "date_indexed": "2010-12-02T16:14:37Z"
       }, 
       "id": 12511450
     }

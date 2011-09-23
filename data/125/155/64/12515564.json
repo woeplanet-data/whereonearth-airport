@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515564, 
+        "placetype": "airport", 
         "name": "Rimnicu Sarat Airport", 
-        "ne_latitude": 45.385, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2346625", 
+          "woe:country=23424933", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515564, 
         "ne_longitude": 27.089, 
         "longitude": 27.082, 
-        "placetype": "Airport", 
+        "parent_woeid": 2346625, 
+        "ne_latitude": 45.385, 
         "iso": "RO", 
-        "date_indexed": "2010-12-02T16:37:48Z", 
-        "parent_woeid": 879083, 
+        "sw_latitude": 45.376, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.380, 
         "sw_longitude": 27.076, 
         "fullname": "Rimnicu Sarat Airport, R\u00eemnicu S\u00e6rat, Buzau, Romania", 
-        "sw_latitude": 45.376
+        "date_indexed": "2010-12-02T16:37:48Z"
       }, 
       "id": 12515564
     }

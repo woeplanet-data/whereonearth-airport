@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512168, 
+        "placetype": "airport", 
         "name": "Qingyang Airport", 
-        "ne_latitude": 24.798, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12685738", 
+          "woe:county=26198338", 
+          "woe:state=12577997", 
+          "woe:country=23424781", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512168, 
         "ne_longitude": 118.591, 
         "longitude": 118.586, 
-        "placetype": "Airport", 
+        "parent_woeid": 12685738, 
+        "ne_latitude": 24.798, 
         "iso": "CN", 
-        "date_indexed": "2010-12-02T08:51:48Z", 
-        "parent_woeid": 2139497, 
+        "sw_latitude": 24.789, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 24.794, 
         "sw_longitude": 118.580, 
-        "fullname": "Qingyang Airport, Jinjiang, Fujian, Quanzhou, China", 
-        "sw_latitude": 24.789
+        "fullname": "Qingyang Airport, Jinjiang, Fujian, China", 
+        "date_indexed": "2010-12-02T08:51:48Z"
       }, 
       "id": 12512168
     }

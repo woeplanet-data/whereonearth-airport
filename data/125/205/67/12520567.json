@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520567, 
-        "name": "Langlade County Airport", 
         "alias_ENG_V": [
           "AIG"
         ], 
-        "ne_latitude": 45.162, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Langlade County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590567", 
+          "woe:state=2347608", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520567, 
         "ne_longitude": -89.106, 
         "longitude": -89.116, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590567, 
+        "ne_latitude": 45.162, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2355047, 
+        "sw_latitude": 45.149, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.161, 
         "sw_longitude": -89.120, 
-        "fullname": "Langlade County Airport, Antigo, Wisconsin, Langlade, United States", 
-        "sw_latitude": 45.149
+        "fullname": "Langlade County Airport, Antigo, Wisconsin, United States", 
+        "iata_code": "IGG", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520567
     }

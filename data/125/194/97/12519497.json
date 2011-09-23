@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519497, 
-        "name": "Dillon County Airport", 
         "alias_ENG_V": [
           "Dlc"
         ], 
-        "ne_latitude": 34.452, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Dillon County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589816", 
+          "woe:state=2347599", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519497, 
         "ne_longitude": -79.363, 
         "longitude": -79.376, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589816, 
+        "ne_latitude": 34.452, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2392110, 
+        "sw_latitude": 34.446, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 34.447, 
         "sw_longitude": -79.376, 
-        "fullname": "Dillon County Airport, Dillon, South Carolina, Dillon, United States", 
-        "sw_latitude": 34.446
+        "fullname": "Dillon County Airport, Dillon, South Carolina, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519497
     }

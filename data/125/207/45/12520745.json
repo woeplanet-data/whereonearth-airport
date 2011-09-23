@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520745, 
-        "name": "Madera Municipal Airport", 
         "alias_ENG_V": [
           "MAE"
         ], 
-        "ne_latitude": 36.993, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Madera Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587689", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520745, 
         "ne_longitude": -120.104, 
         "longitude": -120.109, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587689, 
+        "ne_latitude": 36.993, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2443915, 
+        "sw_latitude": 36.983, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.989, 
         "sw_longitude": -120.120, 
-        "fullname": "Madera Municipal Airport, Madera, California, Madera, United States", 
-        "sw_latitude": 36.983
+        "fullname": "Madera Municipal Airport, Madera, California, United States", 
+        "iata_code": "MAE", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520745
     }

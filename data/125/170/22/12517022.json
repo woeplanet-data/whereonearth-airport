@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517022, 
+        "placetype": "airport", 
         "name": "Torgalyg Airport", 
-        "ne_latitude": 50.812, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597583", 
+          "woe:state=2346879", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517022, 
         "ne_longitude": 92.686, 
         "longitude": 92.679, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597583, 
+        "ne_latitude": 50.812, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 1984318, 
+        "sw_latitude": 50.803, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.808, 
         "sw_longitude": 92.671, 
         "fullname": "Torgalyg Airport, Tyva, Ovyursky, Russia", 
-        "sw_latitude": 50.803
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12517022
     }

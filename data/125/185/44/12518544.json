@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518544, 
-        "name": "Aitkin Municipal Airport", 
         "alias_ENG_V": [
           "AIT"
         ], 
-        "ne_latitude": 46.556, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Aitkin Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588797", 
+          "woe:state=2347582", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518544, 
         "ne_longitude": -93.670, 
         "longitude": -93.683, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588797, 
+        "ne_latitude": 46.556, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2352426, 
+        "sw_latitude": 46.544, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.544, 
         "sw_longitude": -93.686, 
-        "fullname": "Aitkin Municipal Airport, Aitkin, Minnesota, Aitkin, United States", 
-        "sw_latitude": 46.544
+        "fullname": "Aitkin Municipal Airport, Aitkin, Minnesota, United States", 
+        "iata_code": "AIT", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518544
     }

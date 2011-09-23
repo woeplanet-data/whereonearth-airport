@@ -3,28 +3,62 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              151.205, 
-              -33.886
-            ], 
-            [
-              151.205, 
-              -33.877
-            ], 
-            [
-              151.216, 
-              -33.877
-            ], 
-            [
-              151.216, 
-              -33.886
-            ], 
-            [
-              151.205, 
-              -33.886
+              [
+                151.191, 
+                -33.884
+              ], 
+              [
+                151.191, 
+                -33.884
+              ], 
+              [
+                151.193, 
+                -33.884
+              ], 
+              [
+                151.198, 
+                -33.884
+              ], 
+              [
+                151.198, 
+                -33.884
+              ], 
+              [
+                151.199, 
+                -33.883
+              ], 
+              [
+                151.200, 
+                -33.884
+              ], 
+              [
+                151.198, 
+                -33.885
+              ], 
+              [
+                151.193, 
+                -33.884
+              ], 
+              [
+                151.193, 
+                -33.884
+              ], 
+              [
+                151.192, 
+                -33.883
+              ], 
+              [
+                151.191, 
+                -33.883
+              ], 
+              [
+                151.191, 
+                -33.884
+              ]
             ]
           ]
         ]
@@ -32,23 +66,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523448, 
-        "name": "Sydney West Airport", 
         "alias_ENG_V": [
           "SWZ Airport"
         ], 
-        "ne_latitude": -33.877, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": 151.216, 
-        "longitude": 151.211, 
-        "placetype": "Airport", 
-        "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
+        "name": "Sydney West Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:suburb=7225653", 
+          "woe:state=2344700", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523448, 
+        "ne_longitude": 151.200, 
+        "longitude": 151.199, 
         "parent_woeid": 7225653, 
-        "latitude": -33.882, 
-        "sw_longitude": 151.205, 
+        "ne_latitude": -33.883, 
+        "iso": "AU", 
+        "sw_latitude": -33.885, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": -33.885, 
+        "sw_longitude": 151.191, 
         "fullname": "Sydney West Airport, Sydney, New South Wales, Australia", 
-        "sw_latitude": -33.886
+        "iata_code": "SWZ", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 12523448
     }

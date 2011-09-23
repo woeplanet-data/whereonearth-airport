@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517442, 
-        "name": "Margate Airport", 
         "alias_ENG_V": [
           "MGH"
         ], 
-        "ne_latitude": -30.853, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Margate Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=56189467", 
+          "woe:county=56189430", 
+          "woe:state=2346982", 
+          "woe:country=23424942", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517442, 
         "ne_longitude": 30.345, 
         "longitude": 30.344, 
-        "placetype": "Airport", 
+        "parent_woeid": 56189467, 
+        "ne_latitude": -30.853, 
         "iso": "ZA", 
-        "date_indexed": "2010-12-02T08:57:52Z", 
-        "parent_woeid": 1584571, 
+        "sw_latitude": -30.865, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -30.860, 
         "sw_longitude": 30.341, 
-        "fullname": "Margate Airport, Margate, Kwazulu Natal, Margate, South Africa", 
-        "sw_latitude": -30.865
+        "fullname": "Margate Airport, Margate, Kwazulu Natal, South Africa", 
+        "date_indexed": "2010-12-02T08:57:52Z"
       }, 
       "id": 12517442
     }

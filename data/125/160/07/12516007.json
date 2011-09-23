@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516007, 
+        "placetype": "airport", 
         "name": "Gorokhovka Airport", 
-        "ne_latitude": 57.303, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599081", 
+          "woe:state=2346920", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516007, 
         "ne_longitude": 28.441, 
         "longitude": 28.432, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599081, 
+        "ne_latitude": 57.303, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2008986, 
+        "sw_latitude": 57.294, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 57.298, 
         "sw_longitude": 28.424, 
         "fullname": "Gorokhovka Airport, Pskovskaya Oblast, Ostrovsky, Russia", 
-        "sw_latitude": 57.294
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516007
     }

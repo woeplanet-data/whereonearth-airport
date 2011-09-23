@@ -3,28 +3,38 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              12.899, 
-              50.197
-            ], 
-            [
-              12.899, 
-              50.209
-            ], 
-            [
-              12.932, 
-              50.209
-            ], 
-            [
-              12.932, 
-              50.197
-            ], 
-            [
-              12.899, 
-              50.197
+              [
+                12.913, 
+                50.201
+              ], 
+              [
+                12.915, 
+                50.200
+              ], 
+              [
+                12.913, 
+                50.201
+              ], 
+              [
+                12.909, 
+                50.203
+              ], 
+              [
+                12.909, 
+                50.203
+              ], 
+              [
+                12.913, 
+                50.204
+              ], 
+              [
+                12.913, 
+                50.201
+              ]
             ]
           ]
         ]
@@ -32,26 +42,33 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512532, 
-        "alias_UNK_V": [
-          "Letiste Karlovy Vary"
-        ], 
-        "name": "Karlovy Vary Airport", 
         "alias_ENG_V": [
           "KLV"
         ], 
-        "ne_latitude": 50.209, 
-        "ne_longitude": 12.932, 
-        "longitude": 12.912, 
-        "parent_woeid": 791523, 
-        "placetype": "Airport", 
-        "iso": "CZ", 
-        "date_indexed": "2010-12-02T08:56:52Z", 
+        "name": "Karlovy Vary Airport", 
+        "parent_woeid": 12610265, 
+        "woeid": 12512532, 
         "provider": "geoplanet 7.6.0", 
-        "latitude": 50.201, 
-        "sw_longitude": 12.899, 
-        "fullname": "Karlovy Vary Airport, Kolov\u00e1, Karlovarsk\u00fd, Carlsbad, Czech Republic", 
-        "sw_latitude": 50.197
+        "alias_UNK_V": [
+          "Letiste Karlovy Vary"
+        ], 
+        "longitude": 12.912, 
+        "ne_longitude": 12.915, 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=12610265", 
+          "woe:county=12582606", 
+          "woe:state=20070500", 
+          "woe:country=23424810", 
+          "woe:planet=1"
+        ], 
+        "iso": "CZ", 
+        "sw_latitude": 50.200, 
+        "ne_latitude": 50.204, 
+        "latitude": 50.202, 
+        "sw_longitude": 12.909, 
+        "fullname": "Karlovy Vary Airport, Kolov\u00e1, Karlovarsk\u00fd, Czech Republic", 
+        "date_indexed": "2010-12-02T08:56:52Z"
       }, 
       "id": 12512532
     }

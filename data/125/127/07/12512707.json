@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512707, 
+        "placetype": "airport", 
         "name": "Ras Shukhayr New Airport", 
-        "ne_latitude": 28.198, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345224", 
+          "woe:country=23424802", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512707, 
         "ne_longitude": 33.211, 
         "longitude": 33.206, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345224, 
+        "ne_latitude": 28.198, 
         "iso": "EG", 
-        "date_indexed": "2010-12-02T12:16:51Z", 
-        "parent_woeid": 1526075, 
+        "sw_latitude": 28.189, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 28.193, 
         "sw_longitude": 33.200, 
         "fullname": "Ras Shukhayr New Airport, Al Bahr al Ahmar, Egypt", 
-        "sw_latitude": 28.189
+        "date_indexed": "2010-12-02T12:16:51Z"
       }, 
       "id": 12512707
     }

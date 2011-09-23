@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519709, 
+        "placetype": "airport", 
         "name": "Farias Ranch Airport", 
-        "ne_latitude": 28.632, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12590165", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519709, 
         "ne_longitude": -100.153, 
         "longitude": -100.159, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590165, 
+        "ne_latitude": 28.632, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:16Z", 
-        "parent_woeid": 23418135, 
+        "sw_latitude": 28.623, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 28.628, 
         "sw_longitude": -100.164, 
-        "fullname": "Farias Ranch Airport, Rosita South, Texas, Maverick, United States", 
-        "sw_latitude": 28.623
+        "fullname": "Farias Ranch Airport, Rosita South, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:16Z"
       }, 
       "id": 12519709
     }

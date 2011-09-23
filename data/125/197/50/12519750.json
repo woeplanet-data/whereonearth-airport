@@ -3,28 +3,118 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -93.476, 
-              44.820
-            ], 
-            [
-              -93.476, 
-              44.837
-            ], 
-            [
-              -93.440, 
-              44.837
-            ], 
-            [
-              -93.440, 
-              44.820
-            ], 
-            [
-              -93.476, 
-              44.820
+              [
+                -93.452, 
+                44.824
+              ], 
+              [
+                -93.456, 
+                44.820
+              ], 
+              [
+                -93.454, 
+                44.818
+              ], 
+              [
+                -93.458, 
+                44.819
+              ], 
+              [
+                -93.462, 
+                44.819
+              ], 
+              [
+                -93.464, 
+                44.819
+              ], 
+              [
+                -93.463, 
+                44.824
+              ], 
+              [
+                -93.466, 
+                44.827
+              ], 
+              [
+                -93.468, 
+                44.830
+              ], 
+              [
+                -93.469, 
+                44.830
+              ], 
+              [
+                -93.469, 
+                44.831
+              ], 
+              [
+                -93.471, 
+                44.831
+              ], 
+              [
+                -93.468, 
+                44.833
+              ], 
+              [
+                -93.467, 
+                44.833
+              ], 
+              [
+                -93.464, 
+                44.829
+              ], 
+              [
+                -93.461, 
+                44.829
+              ], 
+              [
+                -93.457, 
+                44.829
+              ], 
+              [
+                -93.453, 
+                44.827
+              ], 
+              [
+                -93.450, 
+                44.828
+              ], 
+              [
+                -93.450, 
+                44.830
+              ], 
+              [
+                -93.447, 
+                44.833
+              ], 
+              [
+                -93.447, 
+                44.831
+              ], 
+              [
+                -93.444, 
+                44.828
+              ], 
+              [
+                -93.449, 
+                44.828
+              ], 
+              [
+                -93.451, 
+                44.826
+              ], 
+              [
+                -93.451, 
+                44.824
+              ], 
+              [
+                -93.452, 
+                44.824
+              ]
             ]
           ]
         ]
@@ -32,23 +122,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519750, 
-        "name": "Flying Cloud Airport", 
         "alias_ENG_V": [
           "FCM"
         ], 
-        "ne_latitude": 44.837, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -93.440, 
-        "longitude": -93.455, 
-        "placetype": "Airport", 
+        "name": "Flying Cloud Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588823", 
+          "woe:state=2347582", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519750, 
+        "ne_longitude": -93.444, 
+        "longitude": -93.458, 
+        "parent_woeid": 12588823, 
+        "ne_latitude": 44.833, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2397024, 
-        "latitude": 44.821, 
-        "sw_longitude": -93.476, 
-        "fullname": "Flying Cloud Airport, Eden Prairie, Minnesota, Hennepin, United States", 
-        "sw_latitude": 44.820
+        "sw_latitude": 44.818, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 44.826, 
+        "sw_longitude": -93.471, 
+        "fullname": "Flying Cloud Airport, Eden Prairie, Minnesota, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12519750
     }

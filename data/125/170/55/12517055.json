@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517055, 
+        "placetype": "airport", 
         "name": "Tuyla Southeast Airport", 
-        "ne_latitude": 56.584, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598445", 
+          "woe:state=2346901", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517055, 
         "ne_longitude": 87.361, 
         "longitude": 87.352, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598445, 
+        "ne_latitude": 56.584, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2023987, 
+        "sw_latitude": 56.575, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 56.580, 
         "sw_longitude": 87.344, 
         "fullname": "Tuyla Southeast Airport, Kemerovskaya Oblast, Mariinsky, Russia", 
-        "sw_latitude": 56.575
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12517055
     }

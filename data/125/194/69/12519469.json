@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519469, 
-        "name": "Department of Corrections Field Airport", 
         "alias_ENG_V": [
           "Fl03"
         ], 
-        "ne_latitude": 29.999, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Department of Corrections Field Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587865", 
+          "woe:state=2347568", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519469, 
         "ne_longitude": -82.353, 
         "longitude": -82.364, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587865, 
+        "ne_latitude": 29.999, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2389312, 
+        "sw_latitude": 29.979, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 29.993, 
         "sw_longitude": -82.366, 
-        "fullname": "Department of Corrections Field Airport, Danville, Florida, Union, United States", 
-        "sw_latitude": 29.979
+        "fullname": "Department of Corrections Field Airport, Danville, Florida, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519469
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515711, 
+        "placetype": "airport", 
         "name": "Angara Airport", 
-        "ne_latitude": 58.550, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597839", 
+          "woe:state=20070524", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515711, 
         "ne_longitude": 95.853, 
         "longitude": 95.844, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597839, 
+        "ne_latitude": 58.550, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2121154, 
+        "sw_latitude": 58.541, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 58.545, 
         "sw_longitude": 95.835, 
-        "fullname": "Angara Airport, Kamenka, Krasnoyarskiy Kray, Boguchansky, Russia", 
-        "sw_latitude": 58.541
+        "fullname": "Angara Airport, Kamenka, Krasnoyarskiy Kray, Russia", 
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12515711
     }

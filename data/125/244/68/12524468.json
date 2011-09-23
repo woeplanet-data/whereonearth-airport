@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524468, 
-        "name": "Currillo Airport", 
         "alias_ENG_V": [
           "CUI"
         ], 
-        "ne_latitude": 4.671, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Currillo Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26797618", 
+          "woe:state=2345077", 
+          "woe:country=23424787", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524468, 
         "ne_longitude": -71.995, 
         "longitude": -72.000, 
-        "placetype": "Airport", 
+        "parent_woeid": 26797618, 
+        "ne_latitude": 4.671, 
         "iso": "CO", 
-        "date_indexed": "2010-12-02T17:57:37Z", 
-        "parent_woeid": 420021, 
+        "sw_latitude": 4.662, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 4.667, 
         "sw_longitude": -72.005, 
         "fullname": "Currillo Airport, Casanare, Mani, Colombia", 
-        "sw_latitude": 4.662
+        "iata_code": "CUI", 
+        "date_indexed": "2010-12-02T17:57:37Z"
       }, 
       "id": 12524468
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29387799, 
-        "name": "Center Island Airport", 
         "alias_ENG_V": [
           "Cws"
         ], 
-        "ne_latitude": 48.493, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Center Island Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590467", 
+          "woe:state=2347606", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29387799, 
         "ne_longitude": -122.830, 
         "longitude": -122.832, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590467, 
+        "ne_latitude": 48.493, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2480729, 
+        "sw_latitude": 48.488, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.488, 
         "sw_longitude": -122.833, 
-        "fullname": "Center Island Airport, Richardson, Washington, San Juan, United States", 
-        "sw_latitude": 48.488
+        "fullname": "Center Island Airport, Richardson, Washington, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 29387799
     }

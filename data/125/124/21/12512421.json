@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512421, 
+        "placetype": "airport", 
         "name": "Tolemaida Airport", 
-        "ne_latitude": 4.251, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=26797544", 
+          "woe:state=2345073", 
+          "woe:country=23424787", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512421, 
         "ne_longitude": -74.649, 
         "longitude": -74.653, 
-        "placetype": "Airport", 
+        "parent_woeid": 26797544, 
+        "ne_latitude": 4.251, 
         "iso": "CO", 
-        "date_indexed": "2010-12-02T17:57:37Z", 
-        "parent_woeid": 369129, 
+        "sw_latitude": 4.242, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 4.247, 
         "sw_longitude": -74.658, 
-        "fullname": "Tolemaida Airport, Melgar, Tolima, Melgar, Colombia", 
-        "sw_latitude": 4.242
+        "fullname": "Tolemaida Airport, Melgar, Tolima, Colombia", 
+        "date_indexed": "2010-12-02T17:57:37Z"
       }, 
       "id": 12512421
     }

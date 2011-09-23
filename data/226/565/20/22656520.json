@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 22656520, 
+        "placetype": "airport", 
         "name": "Flugplatz Schanis", 
-        "ne_latitude": 47.175, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12684313", 
+          "woe:county=12593155", 
+          "woe:state=2347097", 
+          "woe:country=23424957", 
+          "woe:planet=1"
+        ], 
+        "woeid": 22656520, 
         "ne_longitude": 9.044, 
         "longitude": 9.042, 
-        "placetype": "Airport", 
+        "parent_woeid": 12684313, 
+        "ne_latitude": 47.175, 
         "iso": "CH", 
-        "date_indexed": "2010-12-02T18:20:52Z", 
-        "parent_woeid": 784071, 
+        "sw_latitude": 47.169, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.171, 
         "sw_longitude": 9.037, 
-        "fullname": "Flugplatz Schanis, Sch\u00e4nis, Canton of St. Gallen, Gaster, Switzerland", 
+        "fullname": "Flugplatz Schanis, Sch\u00e4nis, Canton of St. Gallen, Switzerland", 
         "alias_GER_Q": [
           "Flugplatz Sch\u00e4nis"
         ], 
-        "sw_latitude": 47.169
+        "date_indexed": "2010-12-02T18:20:52Z"
       }, 
       "id": 22656520
     }

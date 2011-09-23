@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511558, 
+        "placetype": "airport", 
         "name": "Zavet Airport", 
-        "ne_latitude": 43.745, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55873804", 
+          "woe:state=20070071", 
+          "woe:country=23424771", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511558, 
         "ne_longitude": 26.666, 
         "longitude": 26.659, 
-        "placetype": "Airport", 
+        "parent_woeid": 55873804, 
+        "ne_latitude": 43.745, 
         "iso": "BG", 
-        "date_indexed": "2010-12-02T16:14:37Z", 
-        "parent_woeid": 840902, 
+        "sw_latitude": 43.736, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.741, 
         "sw_longitude": 26.653, 
-        "fullname": "Zavet Airport, Zavet, Razgrad, Zavet, Bulgaria", 
-        "sw_latitude": 43.736
+        "fullname": "Zavet Airport, Zavet, Razgrad, Bulgaria", 
+        "date_indexed": "2010-12-02T16:14:37Z"
       }, 
       "id": 12511558
     }

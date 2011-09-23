@@ -3,28 +3,82 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -97.265, 
-              49.888
-            ], 
-            [
-              -97.265, 
-              49.931
-            ], 
-            [
-              -97.209, 
-              49.931
-            ], 
-            [
-              -97.209, 
-              49.888
-            ], 
-            [
-              -97.265, 
-              49.888
+              [
+                -97.225, 
+                49.905
+              ], 
+              [
+                -97.219, 
+                49.902
+              ], 
+              [
+                -97.214, 
+                49.907
+              ], 
+              [
+                -97.218, 
+                49.902
+              ], 
+              [
+                -97.218, 
+                49.896
+              ], 
+              [
+                -97.223, 
+                49.890
+              ], 
+              [
+                -97.223, 
+                49.896
+              ], 
+              [
+                -97.226, 
+                49.898
+              ], 
+              [
+                -97.231, 
+                49.898
+              ], 
+              [
+                -97.233, 
+                49.899
+              ], 
+              [
+                -97.239, 
+                49.904
+              ], 
+              [
+                -97.242, 
+                49.908
+              ], 
+              [
+                -97.239, 
+                49.911
+              ], 
+              [
+                -97.238, 
+                49.906
+              ], 
+              [
+                -97.233, 
+                49.905
+              ], 
+              [
+                -97.228, 
+                49.908
+              ], 
+              [
+                -97.225, 
+                49.905
+              ], 
+              [
+                -97.225, 
+                49.905
+              ]
             ]
           ]
         ]
@@ -32,29 +86,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511918, 
-        "name": "Winnipeg International Airport", 
         "alias_ENG_V": [
           "YWG Airport"
         ], 
-        "ne_latitude": 49.931, 
-        "ne_longitude": -97.209, 
-        "longitude": -97.226, 
+        "name": "Winnipeg International Airport", 
+        "hierarchy": [
+          "woe:suburb=55856066", 
+          "woe:county=29375231", 
+          "woe:state=2344917", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511918, 
+        "provider": "geoplanet 7.6.0", 
+        "ne_longitude": -97.214, 
+        "longitude": -97.228, 
         "parent_woeid": 55856066, 
-        "placetype": "Airport", 
+        "placetype": "airport", 
+        "latitude": 49.901, 
+        "iso": "CA", 
+        "sw_latitude": 49.890, 
+        "ne_latitude": 49.911, 
         "alias_FRE_V": [
           "A\u00e9roport Int'l James-A-Richardson"
         ], 
-        "iso": "CA", 
-        "date_indexed": "2010-12-02T10:24:00Z", 
-        "provider": "geoplanet 7.6.0", 
-        "latitude": 49.903, 
-        "sw_longitude": -97.265, 
-        "fullname": "Winnipeg International Airport, Winnipeg, Manitoba, Manitoba, Canada", 
+        "sw_longitude": -97.242, 
+        "fullname": "Winnipeg International Airport, Winnipeg, Manitoba, Canada", 
         "alias_FRE_S": [
           "Aeroport Int'l James-A-Richardson"
         ], 
-        "sw_latitude": 49.888, 
+        "date_indexed": "2010-12-02T10:24:00Z", 
         "alias_FRE_Q": [
           "A\u00e9roport International de Winnipeg"
         ]

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513517, 
-        "name": "Tarakan Airport", 
         "alias_ENG_V": [
           "TRK"
         ], 
-        "ne_latitude": 3.330, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Tarakan Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=56000111", 
+          "woe:state=2345723", 
+          "woe:country=23424846", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513517, 
         "ne_longitude": 117.571, 
         "longitude": 117.567, 
-        "placetype": "Airport", 
+        "parent_woeid": 56000111, 
+        "ne_latitude": 3.330, 
         "iso": "ID", 
-        "date_indexed": "2010-12-02T16:54:32Z", 
-        "parent_woeid": 1047778, 
+        "sw_latitude": 3.321, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 3.326, 
         "sw_longitude": 117.562, 
         "fullname": "Tarakan Airport, East Kalimantan, Tarakan, Indonesia", 
-        "sw_latitude": 3.321
+        "iata_code": "TRK", 
+        "date_indexed": "2010-12-02T16:54:32Z"
       }, 
       "id": 12513517
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524195, 
-        "name": "Portage Creek Airport", 
         "alias_ENG_V": [
           "PCA"
         ], 
-        "ne_latitude": 58.860, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Portage Creek Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587560", 
+          "woe:state=2347560", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524195, 
         "ne_longitude": -157.629, 
         "longitude": -157.638, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587560, 
+        "ne_latitude": 58.860, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 23417019, 
+        "sw_latitude": 58.851, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 58.856, 
         "sw_longitude": -157.647, 
-        "fullname": "Portage Creek Airport, Portage Creek, Alaska, Dillingham Census Area, United States", 
-        "sw_latitude": 58.851
+        "fullname": "Portage Creek Airport, Portage Creek, Alaska, United States", 
+        "iata_code": "PCA", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12524195
     }

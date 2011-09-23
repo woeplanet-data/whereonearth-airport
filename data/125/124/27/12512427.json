@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512427, 
+        "placetype": "airport", 
         "name": "Cabo Velas Airport", 
-        "ne_latitude": 10.360, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=26808909", 
+          "woe:county=26808851", 
+          "woe:state=2345084", 
+          "woe:country=23424791", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512427, 
         "ne_longitude": -85.849, 
         "longitude": -85.853, 
-        "placetype": "Airport", 
+        "parent_woeid": 26808909, 
+        "ne_latitude": 10.360, 
         "iso": "CR", 
-        "date_indexed": "2010-12-02T12:16:27Z", 
-        "parent_woeid": 58177, 
+        "sw_latitude": 10.351, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 10.356, 
         "sw_longitude": -85.858, 
         "fullname": "Cabo Velas Airport, Guanacaste, Santa Cruz, Costa Rica", 
-        "sw_latitude": 10.351
+        "date_indexed": "2010-12-02T12:16:27Z"
       }, 
       "id": 12512427
     }

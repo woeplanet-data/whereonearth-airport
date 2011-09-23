@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521383, 
+        "placetype": "airport", 
         "name": "Pine Grove Airport", 
-        "ne_latitude": 41.570, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12589238", 
+          "woe:state=2347587", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521383, 
         "ne_longitude": -117.802, 
         "longitude": -117.808, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589238, 
+        "ne_latitude": 41.570, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2466369, 
+        "sw_latitude": 41.561, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.566, 
         "sw_longitude": -117.814, 
-        "fullname": "Pine Grove Airport, Orovada, Nevada, Humboldt, United States", 
-        "sw_latitude": 41.561
+        "fullname": "Pine Grove Airport, Orovada, Nevada, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521383
     }

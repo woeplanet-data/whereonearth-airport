@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510361, 
+        "placetype": "airport", 
         "name": "Baku-Bina Airport", 
-        "ne_latitude": 40.474, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=20070218", 
+          "woe:country=23424741", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510361, 
         "ne_longitude": 50.041, 
         "longitude": 50.035, 
-        "placetype": "Airport", 
+        "parent_woeid": 20070218, 
+        "ne_latitude": 40.474, 
         "iso": "AZ", 
-        "date_indexed": "2010-12-02T08:58:35Z", 
-        "parent_woeid": 1952022, 
+        "sw_latitude": 40.465, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.470, 
         "sw_longitude": 50.030, 
         "fullname": "Baku-Bina Airport, Surakhany, Baki, Azerbaijan", 
-        "sw_latitude": 40.465
+        "date_indexed": "2010-12-02T08:58:35Z"
       }, 
       "id": 12510361
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523724, 
-        "name": "Sierra Grande Airport", 
         "alias_ENG_V": [
           "SGV"
         ], 
-        "ne_latitude": -41.495, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Sierra Grande Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=20070732", 
+          "woe:state=2344690", 
+          "woe:country=23424747", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523724, 
         "ne_longitude": -65.344, 
         "longitude": -65.350, 
-        "placetype": "Airport", 
+        "parent_woeid": 20070732, 
+        "ne_latitude": -41.495, 
         "iso": "AR", 
-        "date_indexed": "2010-12-02T17:41:29Z", 
-        "parent_woeid": 332583, 
+        "sw_latitude": -41.505, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -41.500, 
         "sw_longitude": -65.356, 
-        "fullname": "Sierra Grande Airport, Herrada, Rio Negro, San Antonio, Argentina", 
-        "sw_latitude": -41.505
+        "fullname": "Sierra Grande Airport, Herrada, Rio Negro, Argentina", 
+        "iata_code": "SGV", 
+        "date_indexed": "2010-12-02T17:41:29Z"
       }, 
       "id": 12523724
     }

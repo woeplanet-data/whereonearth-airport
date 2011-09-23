@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "FRE", 
-        "woeid": 56051730, 
+        "placetype": "airport", 
         "name": "A\u00e9rodrome D'yverdon-les-bains", 
-        "ne_latitude": 46.766, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=20075643", 
+          "woe:county=12593235", 
+          "woe:state=2347105", 
+          "woe:country=23424957", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56051730, 
         "ne_longitude": 6.618, 
         "longitude": 6.617, 
-        "placetype": "Airport", 
+        "parent_woeid": 20075643, 
+        "ne_latitude": 46.766, 
         "iso": "CH", 
-        "date_indexed": "2010-12-02T18:20:52Z", 
-        "parent_woeid": 20101293, 
+        "sw_latitude": 46.759, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.766, 
         "sw_longitude": 6.608, 
-        "fullname": "A\u00e9rodrome D'yverdon-les-bains, Cheseaux-Nor\u00e9az, Canton of Vaud, Yverdon, Switzerland", 
+        "fullname": "A\u00e9rodrome D'yverdon-les-bains, Cheseaux-Nor\u00e9az, Canton of Vaud, Switzerland", 
         "alias_FRE_S": [
           "Aerodrome D'yverdon-les-bains"
         ], 
-        "sw_latitude": 46.759
+        "date_indexed": "2010-12-02T18:20:52Z"
       }, 
       "id": 56051730
     }

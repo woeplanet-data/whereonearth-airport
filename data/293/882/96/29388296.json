@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388296, 
-        "name": "Reid-Eash Airport", 
         "alias_ENG_V": [
           "25in"
         ], 
-        "ne_latitude": 41.701, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Reid-Eash Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588224", 
+          "woe:state=2347573", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388296, 
         "ne_longitude": -85.416, 
         "longitude": -85.418, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588224, 
+        "ne_latitude": 41.701, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2425005, 
+        "sw_latitude": 41.698, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.700, 
         "sw_longitude": -85.420, 
-        "fullname": "Reid-Eash Airport, Howe, Indiana, Lagrange, United States", 
-        "sw_latitude": 41.698
+        "fullname": "Reid-Eash Airport, Howe, Indiana, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 29388296
     }

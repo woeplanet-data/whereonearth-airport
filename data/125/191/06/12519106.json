@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519106, 
-        "name": "Causey Airport", 
         "alias_ENG_V": [
           "2a5"
         ], 
-        "ne_latitude": 35.919, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Causey Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589414", 
+          "woe:state=2347592", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519106, 
         "ne_longitude": -79.613, 
         "longitude": -79.616, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589414, 
+        "ne_latitude": 35.919, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2430208, 
+        "sw_latitude": 35.908, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.914, 
         "sw_longitude": -79.621, 
-        "fullname": "Causey Airport, Julian, North Carolina, Guilford, United States", 
-        "sw_latitude": 35.908
+        "fullname": "Causey Airport, Julian, North Carolina, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519106
     }

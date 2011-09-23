@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516366, 
+        "placetype": "airport", 
         "name": "Luchki Airport", 
-        "ne_latitude": 44.214, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597912", 
+          "woe:state=2346886", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516366, 
         "ne_longitude": 132.218, 
         "longitude": 132.212, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597912, 
+        "ne_latitude": 44.214, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2109042, 
+        "sw_latitude": 44.205, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.209, 
         "sw_longitude": 132.205, 
         "fullname": "Luchki Airport, Primorskiy Kray, Khorolsky, Russia", 
-        "sw_latitude": 44.205
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516366
     }

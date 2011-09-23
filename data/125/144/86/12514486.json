@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514486, 
+        "placetype": "airport", 
         "name": "Tauchik Airport", 
-        "ne_latitude": 44.301, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345991", 
+          "woe:country=23424871", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514486, 
         "ne_longitude": 51.354, 
         "longitude": 51.347, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345991, 
+        "ne_latitude": 44.301, 
         "iso": "KZ", 
-        "date_indexed": "2010-12-02T08:54:13Z", 
-        "parent_woeid": 2264928, 
+        "sw_latitude": 44.292, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.296, 
         "sw_longitude": 51.341, 
         "fullname": "Tauchik Airport, Tauchik, Mangghystau, Kazakhstan", 
-        "sw_latitude": 44.292
+        "date_indexed": "2010-12-02T08:54:13Z"
       }, 
       "id": 12514486
     }

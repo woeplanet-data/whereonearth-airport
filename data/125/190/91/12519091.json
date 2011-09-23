@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519091, 
-        "name": "Cascade Airport", 
         "alias_ENG_V": [
           "U70"
         ], 
-        "ne_latitude": 44.496, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Cascade Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588076", 
+          "woe:state=2347571", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519091, 
         "ne_longitude": -116.009, 
         "longitude": -116.012, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588076, 
+        "ne_latitude": 44.496, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:15Z", 
-        "parent_woeid": 2375875, 
+        "sw_latitude": 44.490, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.493, 
         "sw_longitude": -116.016, 
-        "fullname": "Cascade Airport, Cascade, Idaho, Valley, United States", 
-        "sw_latitude": 44.490
+        "fullname": "Cascade Airport, Cascade, Idaho, United States", 
+        "date_indexed": "2010-12-02T18:39:15Z"
       }, 
       "id": 12519091
     }

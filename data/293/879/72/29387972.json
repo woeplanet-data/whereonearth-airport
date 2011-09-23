@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29387972, 
-        "name": "Skyport Airport", 
         "alias_ENG_V": [
           "Wi27"
         ], 
-        "ne_latitude": 44.922, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Skyport Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590550", 
+          "woe:state=2347608", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29387972, 
         "ne_longitude": -91.971, 
         "longitude": -91.975, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590550, 
+        "ne_latitude": 44.922, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2449453, 
+        "sw_latitude": 44.917, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.922, 
         "sw_longitude": -91.976, 
-        "fullname": "Skyport Airport, Menomonie, Wisconsin, Dunn, United States", 
-        "sw_latitude": 44.917
+        "fullname": "Skyport Airport, Menomonie, Wisconsin, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29387972
     }

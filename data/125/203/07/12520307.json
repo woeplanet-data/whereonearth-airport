@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520307, 
-        "name": "Inyokern Airport", 
         "alias_ENG_V": [
           "IYK"
         ], 
-        "ne_latitude": 35.670, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Inyokern Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587684", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520307, 
         "ne_longitude": -117.814, 
         "longitude": -117.824, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587684, 
+        "ne_latitude": 35.670, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2427376, 
+        "sw_latitude": 35.645, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.645, 
         "sw_longitude": -117.840, 
-        "fullname": "Inyokern Airport, Inyokern, California, Kern, United States", 
-        "sw_latitude": 35.645
+        "fullname": "Inyokern Airport, Inyokern, California, United States", 
+        "iata_code": "IYK", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520307
     }

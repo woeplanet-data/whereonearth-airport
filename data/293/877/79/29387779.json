@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29387779, 
-        "name": "Ocotillo Airport", 
         "alias_ENG_V": [
           "L90"
         ], 
-        "ne_latitude": 33.148, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Ocotillo Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587706", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29387779, 
         "ne_longitude": -116.128, 
         "longitude": -116.132, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587706, 
+        "ne_latitude": 33.148, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2464187, 
+        "sw_latitude": 33.140, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 33.144, 
         "sw_longitude": -116.137, 
-        "fullname": "Ocotillo Airport, Ocotillo Wells, California, San Diego, United States", 
-        "sw_latitude": 33.140
+        "fullname": "Ocotillo Airport, Ocotillo Wells, California, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 29387779
     }

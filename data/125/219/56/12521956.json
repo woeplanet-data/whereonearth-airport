@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521956, 
-        "name": "St Clair County Airport", 
         "alias_ENG_V": [
           "PLR"
         ], 
-        "ne_latitude": 33.566, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "St Clair County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587545", 
+          "woe:state=2347559", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521956, 
         "ne_longitude": -86.244, 
         "longitude": -86.251, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587545, 
+        "ne_latitude": 33.566, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2470039, 
+        "sw_latitude": 33.551, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 33.553, 
         "sw_longitude": -86.253, 
-        "fullname": "St Clair County Airport, Pell City, Alabama, St. Clair, United States", 
-        "sw_latitude": 33.551
+        "fullname": "St Clair County Airport, Pell City, Alabama, United States", 
+        "iata_code": "PLR", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521956
     }

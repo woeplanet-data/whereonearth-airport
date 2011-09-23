@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29387897, 
-        "name": "Camas County Airport", 
         "alias_ENG_V": [
           "U86"
         ], 
-        "ne_latitude": 43.342, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Camas County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588046", 
+          "woe:state=2347571", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29387897, 
         "ne_longitude": -114.792, 
         "longitude": -114.792, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588046, 
+        "ne_latitude": 43.342, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2401420, 
+        "sw_latitude": 43.341, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.342, 
         "sw_longitude": -114.804, 
-        "fullname": "Camas County Airport, Fairfield, Idaho, Camas, United States", 
-        "sw_latitude": 43.341
+        "fullname": "Camas County Airport, Fairfield, Idaho, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29387897
     }

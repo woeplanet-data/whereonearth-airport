@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515555, 
+        "placetype": "airport", 
         "name": "Mureseni Airport", 
-        "ne_latitude": 46.542, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2346640", 
+          "woe:country=23424933", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515555, 
         "ne_longitude": 24.530, 
         "longitude": 24.524, 
-        "placetype": "Airport", 
+        "parent_woeid": 2346640, 
+        "ne_latitude": 46.542, 
         "iso": "RO", 
-        "date_indexed": "2010-12-02T16:37:48Z", 
-        "parent_woeid": 876277, 
+        "sw_latitude": 46.533, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.537, 
         "sw_longitude": 24.517, 
         "fullname": "Mureseni Airport, Mures, Romania", 
-        "sw_latitude": 46.533
+        "date_indexed": "2010-12-02T16:37:48Z"
       }, 
       "id": 12515555
     }

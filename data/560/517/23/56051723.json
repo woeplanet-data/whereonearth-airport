@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 56051723, 
+        "placetype": "airport", 
         "name": "Flugplatz Raron", 
-        "ne_latitude": 46.307, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12684341", 
+          "woe:county=12593185", 
+          "woe:state=2347104", 
+          "woe:country=23424957", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56051723, 
         "ne_longitude": 7.841, 
         "longitude": 7.822, 
-        "placetype": "Airport", 
+        "parent_woeid": 12684341, 
+        "ne_latitude": 46.307, 
         "iso": "CH", 
-        "date_indexed": "2010-12-02T18:20:52Z", 
-        "parent_woeid": 784029, 
+        "sw_latitude": 46.301, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.304, 
         "sw_longitude": 7.808, 
-        "fullname": "Flugplatz Raron, St. German, Canton of Valais, Raron, Switzerland", 
-        "sw_latitude": 46.301
+        "fullname": "Flugplatz Raron, St. German, Canton of Valais, Switzerland", 
+        "date_indexed": "2010-12-02T18:20:52Z"
       }, 
       "id": 56051723
     }

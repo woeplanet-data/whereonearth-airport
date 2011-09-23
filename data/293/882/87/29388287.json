@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388287, 
-        "name": "Wawasee Airport", 
         "alias_ENG_V": [
           "4in9"
         ], 
-        "ne_latitude": 41.421, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Wawasee Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588222", 
+          "woe:state=2347573", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388287, 
         "ne_longitude": -85.685, 
         "longitude": -85.688, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588222, 
+        "ne_latitude": 41.421, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2430573, 
+        "sw_latitude": 41.417, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.419, 
         "sw_longitude": -85.690, 
-        "fullname": "Wawasee Airport, Kanata Manayunk, Indiana, Kosciusko, United States", 
-        "sw_latitude": 41.417
+        "fullname": "Wawasee Airport, Kanata Manayunk, Indiana, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 29388287
     }

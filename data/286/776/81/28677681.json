@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 28677681, 
+        "placetype": "airport", 
         "name": "Tara Aerodrome", 
-        "ne_latitude": -27.161, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=56072966", 
+          "woe:state=2344702", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 28677681, 
         "ne_longitude": 150.482, 
         "longitude": 150.477, 
-        "placetype": "Airport", 
+        "parent_woeid": 56072966, 
+        "ne_latitude": -27.161, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1105847, 
+        "sw_latitude": -27.170, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -27.165, 
         "sw_longitude": 150.472, 
-        "fullname": "Tara Aerodrome, Tara, Queensland, Tara, Australia", 
-        "sw_latitude": -27.170
+        "fullname": "Tara Aerodrome, Tara, Queensland, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 28677681
     }

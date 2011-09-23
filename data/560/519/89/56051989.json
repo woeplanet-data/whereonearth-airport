@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 56051989, 
+        "placetype": "airport", 
         "name": "Sportflugplatz Neustadt/aisch", 
-        "ne_latitude": 49.589, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12634521", 
+          "woe:county=12596757", 
+          "woe:state=2345482", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56051989, 
         "ne_longitude": 10.584, 
         "longitude": 10.578, 
-        "placetype": "Airport", 
+        "parent_woeid": 12634521, 
+        "ne_latitude": 49.589, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 679057, 
+        "sw_latitude": 49.587, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.588, 
         "sw_longitude": 10.572, 
-        "fullname": "Sportflugplatz Neustadt/aisch, Neustadt an der Aisch, Bavaria, Neustadt an der Aisch-Bad Windsheim, Germany", 
-        "sw_latitude": 49.587
+        "fullname": "Sportflugplatz Neustadt/aisch, Neustadt an der Aisch, Bavaria, Germany", 
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 56051989
     }

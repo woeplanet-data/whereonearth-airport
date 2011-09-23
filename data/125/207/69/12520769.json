@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520769, 
+        "placetype": "airport", 
         "name": "Mamou Municipal Airport", 
-        "ne_latitude": 30.704, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12588615", 
+          "woe:state=2347577", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520769, 
         "ne_longitude": -92.412, 
         "longitude": -92.412, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588615, 
+        "ne_latitude": 30.704, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2512156, 
+        "sw_latitude": 30.693, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 30.694, 
         "sw_longitude": -92.415, 
-        "fullname": "Mamou Municipal Airport, Vidrine, Louisiana, Evangeline Parish, United States", 
-        "sw_latitude": 30.693
+        "fullname": "Mamou Municipal Airport, Vidrine, Louisiana, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520769
     }

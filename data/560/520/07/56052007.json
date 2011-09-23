@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 56052007, 
+        "placetype": "airport", 
         "name": "Segelflugplatz Wessobrunn", 
-        "ne_latitude": 47.848, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12634718", 
+          "woe:county=12596765", 
+          "woe:state=2345482", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56052007, 
         "ne_longitude": 11.063, 
         "longitude": 11.059, 
-        "placetype": "Airport", 
+        "parent_woeid": 12634718, 
+        "ne_latitude": 47.848, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 705641, 
+        "sw_latitude": 47.843, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.844, 
         "sw_longitude": 11.058, 
-        "fullname": "Segelflugplatz Wessobrunn, Wessobrunn, Bavaria, Weilheim-Schongau, Germany", 
-        "sw_latitude": 47.843
+        "fullname": "Segelflugplatz Wessobrunn, Wessobrunn, Bavaria, Germany", 
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 56052007
     }

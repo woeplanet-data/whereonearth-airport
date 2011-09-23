@@ -3,28 +3,94 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -90.676, 
-              38.655
-            ], 
-            [
-              -90.676, 
-              38.673
-            ], 
-            [
-              -90.632, 
-              38.673
-            ], 
-            [
-              -90.632, 
-              38.655
-            ], 
-            [
-              -90.676, 
-              38.655
+              [
+                -90.644, 
+                38.663
+              ], 
+              [
+                -90.646, 
+                38.660
+              ], 
+              [
+                -90.648, 
+                38.659
+              ], 
+              [
+                -90.652, 
+                38.661
+              ], 
+              [
+                -90.655, 
+                38.659
+              ], 
+              [
+                -90.655, 
+                38.660
+              ], 
+              [
+                -90.655, 
+                38.661
+              ], 
+              [
+                -90.658, 
+                38.664
+              ], 
+              [
+                -90.656, 
+                38.664
+              ], 
+              [
+                -90.655, 
+                38.666
+              ], 
+              [
+                -90.651, 
+                38.664
+              ], 
+              [
+                -90.648, 
+                38.664
+              ], 
+              [
+                -90.647, 
+                38.669
+              ], 
+              [
+                -90.649, 
+                38.670
+              ], 
+              [
+                -90.644, 
+                38.671
+              ], 
+              [
+                -90.647, 
+                38.669
+              ], 
+              [
+                -90.645, 
+                38.665
+              ], 
+              [
+                -90.645, 
+                38.664
+              ], 
+              [
+                -90.645, 
+                38.663
+              ], 
+              [
+                -90.644, 
+                38.663
+              ], 
+              [
+                -90.644, 
+                38.663
+              ]
             ]
           ]
         ]
@@ -32,23 +98,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521936, 
-        "name": "Spirit of St Louis Airport", 
         "alias_ENG_V": [
           "SUS"
         ], 
-        "ne_latitude": 38.673, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -90.632, 
-        "longitude": -90.646, 
-        "placetype": "Airport", 
+        "name": "Spirit of St Louis Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589066", 
+          "woe:state=2347584", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521936, 
+        "ne_longitude": -90.644, 
+        "longitude": -90.650, 
+        "parent_woeid": 12589066, 
+        "ne_latitude": 38.671, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2379335, 
-        "latitude": 38.664, 
-        "sw_longitude": -90.676, 
-        "fullname": "Spirit of St Louis Airport, Chesterfield, Missouri, St. Louis, United States", 
-        "sw_latitude": 38.655
+        "sw_latitude": 38.659, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 38.663, 
+        "sw_longitude": -90.658, 
+        "fullname": "Spirit of St Louis Airport, Chesterfield, Missouri, United States", 
+        "iata_code": "SUS", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521936
     }

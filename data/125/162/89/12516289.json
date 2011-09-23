@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516289, 
+        "placetype": "airport", 
         "name": "Kubanskiy South Airport", 
-        "ne_latitude": 45.811, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597815", 
+          "woe:state=2346884", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516289, 
         "ne_longitude": 40.543, 
         "longitude": 40.536, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597815, 
+        "ne_latitude": 45.811, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2113260, 
+        "sw_latitude": 45.802, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.807, 
         "sw_longitude": 40.530, 
         "fullname": "Kubanskiy South Airport, Krasnodarskiy Kray, Novopokrovsky, Russia", 
-        "sw_latitude": 45.802
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516289
     }

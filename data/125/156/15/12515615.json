@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515615, 
-        "name": "Fort Magsaysay Airport", 
         "alias_ENG_V": [
           "Ft Magsaysay Airport"
         ], 
-        "ne_latitude": 15.440, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Fort Magsaysay Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=2346701", 
+          "woe:state=23424722", 
+          "woe:country=23424934", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515615, 
         "ne_longitude": 121.093, 
         "longitude": 121.089, 
-        "placetype": "Airport", 
+        "parent_woeid": 2346701, 
+        "ne_latitude": 15.440, 
         "iso": "PH", 
-        "date_indexed": "2010-12-02T09:56:58Z", 
-        "parent_woeid": 1198995, 
+        "sw_latitude": 15.430, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 15.435, 
         "sw_longitude": 121.084, 
         "fullname": "Fort Magsaysay Airport, Central Luzon, Nueva Ecija, Philippines", 
-        "sw_latitude": 15.430
+        "date_indexed": "2010-12-02T09:56:58Z"
       }, 
       "id": 12515615
     }

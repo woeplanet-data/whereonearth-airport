@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521424, 
-        "name": "Pocono Mountains Municipal Airport", 
         "alias_ENG_V": [
           "MPO"
         ], 
-        "ne_latitude": 41.145, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Pocono Mountains Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589772", 
+          "woe:state=2347597", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521424, 
         "ne_longitude": -75.368, 
         "longitude": -75.373, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589772, 
+        "ne_latitude": 41.145, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2384546, 
+        "sw_latitude": 41.137, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.141, 
         "sw_longitude": -75.378, 
-        "fullname": "Pocono Mountains Municipal Airport, Coolbaugh, Pennsylvania, Monroe, United States", 
-        "sw_latitude": 41.137
+        "fullname": "Pocono Mountains Municipal Airport, Coolbaugh, Pennsylvania, United States", 
+        "iata_code": "MPO", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521424
     }

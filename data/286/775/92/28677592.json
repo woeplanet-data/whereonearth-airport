@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 28677592, 
+        "placetype": "airport", 
         "name": "Argadargada Aerodrome", 
-        "ne_latitude": -21.672, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=56072980", 
+          "woe:state=2344701", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 28677592, 
         "ne_longitude": 136.684, 
         "longitude": 136.679, 
-        "placetype": "Airport", 
+        "parent_woeid": 56072980, 
+        "ne_latitude": -21.672, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 55864476, 
+        "sw_latitude": -21.681, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -21.676, 
         "sw_longitude": 136.674, 
         "fullname": "Argadargada Aerodrome, Costello, Northern Territory, Australia", 
-        "sw_latitude": -21.681
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 28677592
     }

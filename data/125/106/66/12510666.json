@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510666, 
-        "name": "Esperance Aerodrome", 
         "alias_ENG_V": [
           "Esperance Airport"
         ], 
-        "ne_latitude": -33.679, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Esperance Aerodrome", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55864164", 
+          "woe:state=2344706", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510666, 
         "ne_longitude": 121.833, 
         "longitude": 121.831, 
-        "placetype": "Airport", 
+        "parent_woeid": 55864164, 
+        "ne_latitude": -33.679, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1102200, 
+        "sw_latitude": -33.690, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -33.683, 
         "sw_longitude": 121.815, 
-        "fullname": "Esperance Aerodrome, Gibson, Western Australia, Esperance, Australia", 
-        "sw_latitude": -33.690
+        "fullname": "Esperance Aerodrome, Gibson, Western Australia, Australia", 
+        "iata_code": "EPR", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 12510666
     }

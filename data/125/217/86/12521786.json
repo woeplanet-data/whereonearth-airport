@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521786, 
-        "name": "Sebastian Municipal Airport", 
         "alias_ENG_V": [
           "X26"
         ], 
-        "ne_latitude": 27.820, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Sebastian Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587833", 
+          "woe:state=2347568", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521786, 
         "ne_longitude": -80.489, 
         "longitude": -80.502, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587833, 
+        "ne_latitude": 27.820, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2490414, 
+        "sw_latitude": 27.806, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 27.816, 
         "sw_longitude": -80.502, 
-        "fullname": "Sebastian Municipal Airport, Sebastian, Florida, Indian River, United States", 
-        "sw_latitude": 27.806
+        "fullname": "Sebastian Municipal Airport, Sebastian, Florida, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521786
     }

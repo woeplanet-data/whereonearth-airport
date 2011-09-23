@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521771, 
+        "placetype": "airport", 
         "name": "Scobey Airport", 
-        "ne_latitude": 48.808, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12589090", 
+          "woe:state=2347585", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521771, 
         "ne_longitude": -105.440, 
         "longitude": -105.447, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589090, 
+        "ne_latitude": 48.808, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2489854, 
+        "sw_latitude": 48.799, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.803, 
         "sw_longitude": -105.454, 
-        "fullname": "Scobey Airport, Scobey, Montana, Daniels, United States", 
-        "sw_latitude": 48.799
+        "fullname": "Scobey Airport, Scobey, Montana, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521771
     }

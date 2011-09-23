@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520298, 
-        "name": "Indianola Municipal Airport", 
         "alias_ENG_V": [
           "IDL"
         ], 
-        "ne_latitude": 33.499, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Indianola Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588950", 
+          "woe:state=2347583", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520298, 
         "ne_longitude": -90.673, 
         "longitude": -90.674, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588950, 
+        "ne_latitude": 33.499, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2427072, 
+        "sw_latitude": 33.475, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 33.482, 
         "sw_longitude": -90.685, 
-        "fullname": "Indianola Municipal Airport, Indianola, Mississippi, Sunflower, United States", 
-        "sw_latitude": 33.475
+        "fullname": "Indianola Municipal Airport, Indianola, Mississippi, United States", 
+        "iata_code": "IDL", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520298
     }

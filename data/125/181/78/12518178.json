@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518178, 
-        "name": "Wittering Airport", 
         "alias_ENG_V": [
           "GXT"
         ], 
-        "ne_latitude": 52.617, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Wittering Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=12696170", 
+          "woe:county=12602140", 
+          "woe:state=24554868", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518178, 
         "ne_longitude": -0.468, 
         "longitude": -0.475, 
-        "placetype": "Airport", 
+        "parent_woeid": 12696170, 
+        "ne_latitude": 52.617, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:21:01Z", 
-        "parent_woeid": 40810, 
+        "sw_latitude": 52.608, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 52.612, 
         "sw_longitude": -0.482, 
-        "fullname": "Wittering Airport, Wittering, England, Cambridgeshire, United Kingdom", 
-        "sw_latitude": 52.608
+        "fullname": "Wittering Airport, Wittering, England, United Kingdom", 
+        "iata_code": "GXT", 
+        "date_indexed": "2010-12-02T12:21:01Z"
       }, 
       "id": 12518178
     }

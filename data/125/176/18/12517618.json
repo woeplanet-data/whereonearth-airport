@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "SWE", 
-        "woeid": 12517618, 
+        "placetype": "airport", 
         "name": "Dala Jarna Flygplats", 
         "alias_ENG_P": [
           "Dala Jarna Airport"
         ], 
-        "ne_latitude": 60.564, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12587300", 
+          "woe:state=2347053", 
+          "woe:country=23424954", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517618, 
         "ne_longitude": 14.394, 
         "longitude": 14.385, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587300, 
+        "ne_latitude": 60.564, 
         "iso": "SE", 
-        "date_indexed": "2010-12-02T16:45:55Z", 
-        "parent_woeid": 888154, 
+        "sw_latitude": 60.555, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 60.560, 
         "sw_longitude": 14.375, 
-        "fullname": "Dala Jarna Flygplats, Dala-J\u00e4rna, Dalarna, Vansbro, Sweden", 
-        "sw_latitude": 60.555
+        "fullname": "Dala Jarna Flygplats, Dala-J\u00e4rna, Dalarna, Sweden", 
+        "date_indexed": "2010-12-02T16:45:55Z"
       }, 
       "id": 12517618
     }

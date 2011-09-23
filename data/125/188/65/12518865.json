@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518865, 
-        "name": "Blue Canyon-Nyack Airport", 
         "alias_ENG_V": [
           "BLU"
         ], 
-        "ne_latitude": 39.281, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Blue Canyon-Nyack Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587700", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518865, 
         "ne_longitude": -120.707, 
         "longitude": -120.708, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587700, 
+        "ne_latitude": 39.281, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2365754, 
+        "sw_latitude": 39.270, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 39.276, 
         "sw_longitude": -120.714, 
-        "fullname": "Blue Canyon-Nyack Airport, Blue Canyon, California, Placer, United States", 
-        "sw_latitude": 39.270
+        "fullname": "Blue Canyon-Nyack Airport, Blue Canyon, California, United States", 
+        "iata_code": "BLU", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518865
     }

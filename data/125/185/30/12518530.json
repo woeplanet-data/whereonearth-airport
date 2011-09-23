@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518530, 
+        "placetype": "airport", 
         "name": "Adobe Ranch Airport", 
-        "ne_latitude": 33.581, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12589280", 
+          "woe:state=2347590", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518530, 
         "ne_longitude": -107.894, 
         "longitude": -107.899, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589280, 
+        "ne_latitude": 33.581, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:15Z", 
-        "parent_woeid": 2415778, 
+        "sw_latitude": 33.572, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 33.576, 
         "sw_longitude": -107.905, 
-        "fullname": "Adobe Ranch Airport, Fullerton, New Mexico, Catron, United States", 
-        "sw_latitude": 33.572
+        "fullname": "Adobe Ranch Airport, Fullerton, New Mexico, United States", 
+        "date_indexed": "2010-12-02T18:39:15Z"
       }, 
       "id": 12518530
     }

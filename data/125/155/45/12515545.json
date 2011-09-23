@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515545, 
+        "placetype": "airport", 
         "name": "Ida Dorolea Airport", 
-        "ne_latitude": 47.164, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2346620", 
+          "woe:country=23424933", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515545, 
         "ne_longitude": 24.630, 
         "longitude": 24.624, 
-        "placetype": "Airport", 
+        "parent_woeid": 2346620, 
+        "ne_latitude": 47.164, 
         "iso": "RO", 
-        "date_indexed": "2010-12-02T16:37:48Z", 
-        "parent_woeid": 883035, 
+        "sw_latitude": 47.155, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.160, 
         "sw_longitude": 24.617, 
         "fullname": "Ida Dorolea Airport, Bistrita-Nasaud, Romania", 
-        "sw_latitude": 47.155
+        "date_indexed": "2010-12-02T16:37:48Z"
       }, 
       "id": 12515545
     }

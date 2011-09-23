@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512949, 
+        "placetype": "airport", 
         "name": "Peronne St Quentin Airport", 
-        "ne_latitude": 49.874, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12666577", 
+          "woe:county=12597178", 
+          "woe:state=7153326", 
+          "woe:country=23424819", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512949, 
         "ne_longitude": 3.049, 
         "longitude": 3.029, 
-        "placetype": "Airport", 
+        "parent_woeid": 12666577, 
+        "ne_latitude": 49.874, 
         "iso": "FR", 
-        "date_indexed": "2010-12-02T12:04:01Z", 
-        "parent_woeid": 611083, 
+        "sw_latitude": 49.863, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.870, 
         "sw_longitude": 3.010, 
-        "fullname": "Peronne St Quentin Airport, M\u00e9r\u00e9aucourt, Picardie, Somme, France", 
-        "sw_latitude": 49.863
+        "fullname": "Peronne St Quentin Airport, M\u00e9r\u00e9aucourt, Picardie, France", 
+        "date_indexed": "2010-12-02T12:04:01Z"
       }, 
       "id": 12512949
     }

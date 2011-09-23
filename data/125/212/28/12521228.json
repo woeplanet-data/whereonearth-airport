@@ -3,28 +3,122 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -117.632, 
-              34.046
-            ], 
-            [
-              -117.632, 
-              34.063
-            ], 
-            [
-              -117.576, 
-              34.063
-            ], 
-            [
-              -117.576, 
-              34.046
-            ], 
-            [
-              -117.632, 
-              34.046
+              [
+                -117.598, 
+                34.063
+              ], 
+              [
+                -117.597, 
+                34.063
+              ], 
+              [
+                -117.596, 
+                34.063
+              ], 
+              [
+                -117.596, 
+                34.062
+              ], 
+              [
+                -117.594, 
+                34.062
+              ], 
+              [
+                -117.590, 
+                34.062
+              ], 
+              [
+                -117.587, 
+                34.064
+              ], 
+              [
+                -117.584, 
+                34.066
+              ], 
+              [
+                -117.582, 
+                34.065
+              ], 
+              [
+                -117.577, 
+                34.070
+              ], 
+              [
+                -117.578, 
+                34.065
+              ], 
+              [
+                -117.582, 
+                34.062
+              ], 
+              [
+                -117.584, 
+                34.060
+              ], 
+              [
+                -117.584, 
+                34.056
+              ], 
+              [
+                -117.588, 
+                34.056
+              ], 
+              [
+                -117.590, 
+                34.054
+              ], 
+              [
+                -117.591, 
+                34.058
+              ], 
+              [
+                -117.595, 
+                34.059
+              ], 
+              [
+                -117.598, 
+                34.060
+              ], 
+              [
+                -117.600, 
+                34.060
+              ], 
+              [
+                -117.600, 
+                34.061
+              ], 
+              [
+                -117.605, 
+                34.063
+              ], 
+              [
+                -117.607, 
+                34.066
+              ], 
+              [
+                -117.606, 
+                34.066
+              ], 
+              [
+                -117.602, 
+                34.069
+              ], 
+              [
+                -117.601, 
+                34.069
+              ], 
+              [
+                -117.601, 
+                34.068
+              ], 
+              [
+                -117.598, 
+                34.063
+              ]
             ]
           ]
         ]
@@ -32,23 +126,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521228, 
-        "name": "Ontario International Airport", 
         "alias_ENG_V": [
           "Ontario Airport"
         ], 
-        "ne_latitude": 34.063, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -117.576, 
-        "longitude": -117.594, 
-        "placetype": "Airport", 
+        "name": "Ontario International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587705", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521228, 
+        "ne_longitude": -117.577, 
+        "longitude": -117.592, 
+        "parent_woeid": 12587705, 
+        "ne_latitude": 34.070, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2415429, 
+        "sw_latitude": 34.054, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 34.062, 
-        "sw_longitude": -117.632, 
-        "fullname": "Ontario International Airport, Guasti, California, San Bernardino, United States", 
-        "sw_latitude": 34.046
+        "sw_longitude": -117.607, 
+        "fullname": "Ontario International Airport, Guasti, California, United States", 
+        "iata_code": "ONT", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521228
     }

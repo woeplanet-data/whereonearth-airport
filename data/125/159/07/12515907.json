@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515907, 
+        "placetype": "airport", 
         "name": "Chernyshevskiy Airport", 
-        "ne_latitude": 63.025, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597635", 
+          "woe:state=2346881", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515907, 
         "ne_longitude": 112.454, 
         "longitude": 112.444, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597635, 
+        "ne_latitude": 63.025, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 1998426, 
+        "sw_latitude": 63.016, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 63.020, 
         "sw_longitude": 112.434, 
         "fullname": "Chernyshevskiy Airport, Sakha, Mirninsky, Russia", 
-        "sw_latitude": 63.016
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12515907
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517126, 
+        "placetype": "airport", 
         "name": "Ust-Tsilma Airport", 
-        "ne_latitude": 65.444, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597463", 
+          "woe:state=2346874", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517126, 
         "ne_longitude": 52.191, 
         "longitude": 52.180, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597463, 
+        "ne_latitude": 65.444, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2124551, 
+        "sw_latitude": 65.435, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 65.439, 
         "sw_longitude": 52.169, 
         "fullname": "Ust-Tsilma Airport, Komi, Ust-Tsilemsky, Russia", 
-        "sw_latitude": 65.435
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12517126
     }

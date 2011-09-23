@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515846, 
+        "placetype": "airport", 
         "name": "Bolshoy Karlygan Airport", 
-        "ne_latitude": 56.571, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597471", 
+          "woe:state=2346875", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515846, 
         "ne_longitude": 50.096, 
         "longitude": 50.087, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597471, 
+        "ne_latitude": 56.571, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 1992310, 
+        "sw_latitude": 56.562, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 56.566, 
         "sw_longitude": 50.079, 
         "fullname": "Bolshoy Karlygan Airport, Mariy-El, Mari-Tureksky, Russia", 
-        "sw_latitude": 56.562
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12515846
     }

@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511000, 
+        "placetype": "airport", 
         "name": "Yanovichi Airport", 
-        "ne_latitude": 55.345, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2344835", 
+          "woe:country=23424765", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511000, 
         "ne_longitude": 30.715, 
         "longitude": 30.707, 
-        "placetype": "Airport", 
+        "parent_woeid": 2344835, 
+        "ne_latitude": 55.345, 
         "iso": "BY", 
-        "date_indexed": "2010-12-02T16:32:57Z", 
-        "parent_woeid": 833407, 
+        "sw_latitude": 55.336, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 55.340, 
         "sw_longitude": 30.699, 
         "fullname": "Yanovichi Airport, Vitsyebskaya Voblasts', Belarus", 
-        "sw_latitude": 55.336
+        "date_indexed": "2010-12-02T16:32:57Z"
       }, 
       "id": 12511000
     }

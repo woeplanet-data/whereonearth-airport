@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521916, 
-        "name": "Southeast Greensboro Airport", 
         "alias_ENG_V": [
           "SE Greensboro Airport"
         ], 
-        "ne_latitude": 35.947, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Southeast Greensboro Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589414", 
+          "woe:state=2347592", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521916, 
         "ne_longitude": -79.681, 
         "longitude": -79.682, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589414, 
+        "ne_latitude": 35.947, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2473683, 
+        "sw_latitude": 35.937, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.938, 
         "sw_longitude": -79.689, 
-        "fullname": "Southeast Greensboro Airport, Pleasant Garden, North Carolina, Guilford, United States", 
-        "sw_latitude": 35.937
+        "fullname": "Southeast Greensboro Airport, Pleasant Garden, North Carolina, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521916
     }

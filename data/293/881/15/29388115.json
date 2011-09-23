@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388115, 
-        "name": "Houston Memorial Airport", 
         "alias_ENG_V": [
           "M48"
         ], 
-        "ne_latitude": 37.333, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Houston Memorial Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589073", 
+          "woe:state=2347584", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388115, 
         "ne_longitude": -91.971, 
         "longitude": -91.971, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589073, 
+        "ne_latitude": 37.333, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2424767, 
+        "sw_latitude": 37.324, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 37.325, 
         "sw_longitude": -91.976, 
-        "fullname": "Houston Memorial Airport, Houston, Missouri, Texas, United States", 
-        "sw_latitude": 37.324
+        "fullname": "Houston Memorial Airport, Houston, Missouri, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388115
     }

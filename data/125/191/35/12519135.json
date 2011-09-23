@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519135, 
+        "placetype": "airport", 
         "name": "Chaparrosa Ranch Airport", 
-        "ne_latitude": 28.884, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12590260", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519135, 
         "ne_longitude": -99.985, 
         "longitude": -99.990, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590260, 
+        "ne_latitude": 28.884, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:15Z", 
-        "parent_woeid": 2434321, 
+        "sw_latitude": 28.875, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 28.879, 
         "sw_longitude": -99.995, 
-        "fullname": "Chaparrosa Ranch Airport, La Pryor, Texas, Zavala, United States", 
-        "sw_latitude": 28.875
+        "fullname": "Chaparrosa Ranch Airport, La Pryor, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:15Z"
       }, 
       "id": 12519135
     }

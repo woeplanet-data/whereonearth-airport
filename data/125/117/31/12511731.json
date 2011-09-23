@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511731, 
+        "placetype": "airport", 
         "name": "Lillooet Airport", 
-        "ne_latitude": 50.679, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=29375187", 
+          "woe:state=2344916", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511731, 
         "ne_longitude": -121.887, 
         "longitude": -121.888, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375187, 
+        "ne_latitude": 50.679, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:24:00Z", 
-        "parent_woeid": 29373632, 
+        "sw_latitude": 50.668, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.669, 
         "sw_longitude": -121.899, 
-        "fullname": "Lillooet Airport, Mccartney's Flat Indian Reserve 4, British Columbia, Squamish-Lillooet, Canada", 
-        "sw_latitude": 50.668
+        "fullname": "Lillooet Airport, Mccartney's Flat Indian Reserve 4, British Columbia, Canada", 
+        "date_indexed": "2010-12-02T10:24:00Z"
       }, 
       "id": 12511731
     }

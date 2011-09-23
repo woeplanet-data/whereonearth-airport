@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 28677653, 
+        "placetype": "airport", 
         "name": "Davenport Downs Aerodrome", 
-        "ne_latitude": -24.142, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55863925", 
+          "woe:state=2344702", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 28677653, 
         "ne_longitude": 141.116, 
         "longitude": 141.111, 
-        "placetype": "Airport", 
+        "parent_woeid": 55863925, 
+        "ne_latitude": -24.142, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1101672, 
+        "sw_latitude": -24.151, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -24.147, 
         "sw_longitude": 141.106, 
-        "fullname": "Davenport Downs Aerodrome, Diamantina Lakes, Queensland, Diamantina, Australia", 
-        "sw_latitude": -24.151
+        "fullname": "Davenport Downs Aerodrome, Diamantina Lakes, Queensland, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 28677653
     }

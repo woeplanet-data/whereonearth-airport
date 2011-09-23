@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514462, 
+        "placetype": "airport", 
         "name": "Severnyy Airport", 
-        "ne_latitude": 51.065, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345980", 
+          "woe:country=23424871", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514462, 
         "ne_longitude": 61.645, 
         "longitude": 61.637, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345980, 
+        "ne_latitude": 51.065, 
         "iso": "KZ", 
-        "date_indexed": "2010-12-02T08:54:13Z", 
-        "parent_woeid": 2264795, 
+        "sw_latitude": 51.056, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.060, 
         "sw_longitude": 61.630, 
         "fullname": "Severnyy Airport, Aqtobe, Kazakhstan", 
-        "sw_latitude": 51.056
+        "date_indexed": "2010-12-02T08:54:13Z"
       }, 
       "id": 12514462
     }

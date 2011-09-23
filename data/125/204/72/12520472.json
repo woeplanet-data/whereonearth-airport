@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520472, 
-        "name": "Kingston Ulster Airport", 
         "alias_ENG_V": [
           "20n"
         ], 
-        "ne_latitude": 41.988, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Kingston Ulster Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589367", 
+          "woe:state=2347591", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520472, 
         "ne_longitude": -73.961, 
         "longitude": -73.968, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589367, 
+        "ne_latitude": 41.988, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 28745008, 
+        "sw_latitude": 41.981, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.986, 
         "sw_longitude": -73.969, 
-        "fullname": "Kingston Ulster Airport, Ulster, New York, Ulster, United States", 
-        "sw_latitude": 41.981
+        "fullname": "Kingston Ulster Airport, Ulster, New York, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520472
     }

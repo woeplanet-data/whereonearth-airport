@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522535, 
-        "name": "Yoakum Municipal Airport", 
         "alias_ENG_V": [
           "T85"
         ], 
-        "ne_latitude": 29.318, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Yoakum Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590149", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522535, 
         "ne_longitude": -97.132, 
         "longitude": -97.138, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590149, 
+        "ne_latitude": 29.318, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2524767, 
+        "sw_latitude": 29.307, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 29.311, 
         "sw_longitude": -97.144, 
-        "fullname": "Yoakum Municipal Airport, Yoakum, Texas, Lavaca, United States", 
-        "sw_latitude": 29.307
+        "fullname": "Yoakum Municipal Airport, Yoakum, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522535
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516418, 
+        "placetype": "airport", 
         "name": "Medyn Airport", 
-        "ne_latitude": 54.944, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598405", 
+          "woe:state=2346899", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516418, 
         "ne_longitude": 35.875, 
         "longitude": 35.867, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598405, 
+        "ne_latitude": 54.944, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2044638, 
+        "sw_latitude": 54.935, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 54.940, 
         "sw_longitude": 35.859, 
-        "fullname": "Medyn Airport, Medyn', Kaluzhskaya Oblast, Medynsky, Russia", 
-        "sw_latitude": 54.935
+        "fullname": "Medyn Airport, Medyn', Kaluzhskaya Oblast, Russia", 
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516418
     }

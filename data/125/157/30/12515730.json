@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515730, 
+        "placetype": "airport", 
         "name": "Arpelsk Airport", 
-        "ne_latitude": 58.193, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598254", 
+          "woe:state=2346896", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515730, 
         "ne_longitude": 114.567, 
         "longitude": 114.559, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598254, 
+        "ne_latitude": 58.193, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2124752, 
+        "sw_latitude": 58.184, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 58.189, 
         "sw_longitude": 114.550, 
         "fullname": "Arpelsk Airport, Irkutskaya Oblast, Bodaybinsky, Russia", 
-        "sw_latitude": 58.184
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12515730
     }

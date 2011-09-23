@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515657, 
-        "name": "Culebra Airport", 
         "alias_ENG_V": [
           "CPX"
         ], 
-        "ne_latitude": 18.325, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Culebra Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26806250", 
+          "woe:state=2346821", 
+          "woe:country=23424935", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515657, 
         "ne_longitude": -65.288, 
         "longitude": -65.293, 
-        "placetype": "Airport", 
+        "parent_woeid": 26806250, 
+        "ne_latitude": 18.325, 
         "iso": "PR", 
-        "date_indexed": "2010-12-02T17:42:25Z", 
-        "parent_woeid": 160870, 
+        "sw_latitude": 18.316, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 18.320, 
         "sw_longitude": -65.298, 
-        "fullname": "Culebra Airport, Culebra, Culebra, Culebra, Puerto Rico", 
-        "sw_latitude": 18.316
+        "fullname": "Culebra Airport, Culebra, Culebra, Puerto Rico", 
+        "iata_code": "CPX", 
+        "date_indexed": "2010-12-02T17:42:25Z"
       }, 
       "id": 12515657
     }

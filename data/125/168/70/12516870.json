@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516870, 
+        "placetype": "airport", 
         "name": "Shugur Airport", 
-        "ne_latitude": 60.230, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599453", 
+          "woe:state=20070526", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516870, 
         "ne_longitude": 66.492, 
         "longitude": 66.483, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599453, 
+        "ne_latitude": 60.230, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2123466, 
+        "sw_latitude": 60.221, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 60.226, 
         "sw_longitude": 66.473, 
         "fullname": "Shugur Airport, Khanty-Mansiyskiy Avtonomnyy Okrug, Kondinsky, Russia", 
-        "sw_latitude": 60.221
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516870
     }

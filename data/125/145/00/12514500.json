@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514500, 
+        "placetype": "airport", 
         "name": "Uch Aral Northwest Airport", 
-        "ne_latitude": 46.336, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=20070180", 
+          "woe:country=23424871", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514500, 
         "ne_longitude": 80.746, 
         "longitude": 80.740, 
-        "placetype": "Airport", 
+        "parent_woeid": 20070180, 
+        "ne_latitude": 46.336, 
         "iso": "KZ", 
-        "date_indexed": "2010-12-02T08:54:13Z", 
-        "parent_woeid": 2264413, 
+        "sw_latitude": 46.327, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.331, 
         "sw_longitude": 80.733, 
         "fullname": "Uch Aral Northwest Airport, Almaty, Kazakhstan", 
-        "sw_latitude": 46.327
+        "date_indexed": "2010-12-02T08:54:13Z"
       }, 
       "id": 12514500
     }

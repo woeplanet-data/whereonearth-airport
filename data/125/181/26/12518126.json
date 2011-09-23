@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518126, 
-        "name": "Lyneham Airport", 
         "alias_ENG_V": [
           "LYE"
         ], 
-        "ne_latitude": 51.513, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Lyneham Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=12696111", 
+          "woe:county=12602186", 
+          "woe:state=24554868", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518126, 
         "ne_longitude": -1.981, 
         "longitude": -1.988, 
-        "placetype": "Airport", 
+        "parent_woeid": 12696111, 
+        "ne_latitude": 51.513, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:21:01Z", 
-        "parent_woeid": 13516, 
+        "sw_latitude": 51.504, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.508, 
         "sw_longitude": -1.996, 
-        "fullname": "Lyneham Airport, Bradenstoke, England, Wiltshire, United Kingdom", 
-        "sw_latitude": 51.504
+        "fullname": "Lyneham Airport, Bradenstoke, England, United Kingdom", 
+        "iata_code": "LYE", 
+        "date_indexed": "2010-12-02T12:21:01Z"
       }, 
       "id": 12518126
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388135, 
+        "placetype": "airport", 
         "name": "Scandia-Belleville Airport", 
-        "ne_latitude": 39.806, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12588449", 
+          "woe:state=2347575", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388135, 
         "ne_longitude": -97.770, 
         "longitude": -97.773, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588449, 
+        "ne_latitude": 39.806, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2489521, 
+        "sw_latitude": 39.799, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 39.806, 
         "sw_longitude": -97.774, 
-        "fullname": "Scandia-Belleville Airport, Scandia, Kansas, Republic, United States", 
-        "sw_latitude": 39.799
+        "fullname": "Scandia-Belleville Airport, Scandia, Kansas, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388135
     }

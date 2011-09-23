@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518153, 
+        "placetype": "airport", 
         "name": "St Athan Airport", 
-        "ne_latitude": 51.410, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12696121", 
+          "woe:county=12602231", 
+          "woe:state=12578049", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518153, 
         "ne_longitude": -3.425, 
         "longitude": -3.432, 
-        "placetype": "Airport", 
+        "parent_woeid": 12696121, 
+        "ne_latitude": 51.410, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:21:01Z", 
-        "parent_woeid": 31987, 
+        "sw_latitude": 51.400, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.405, 
         "sw_longitude": -3.439, 
-        "fullname": "St Athan Airport, Picketston, Wales, Vale of Glamorgan, United Kingdom", 
-        "sw_latitude": 51.400
+        "fullname": "St Athan Airport, Picketston, Wales, United Kingdom", 
+        "date_indexed": "2010-12-02T12:21:01Z"
       }, 
       "id": 12518153
     }

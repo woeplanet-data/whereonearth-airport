@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516786, 
+        "placetype": "airport", 
         "name": "Rossoshino Airport", 
-        "ne_latitude": 54.289, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598160", 
+          "woe:state=2346867", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516786, 
         "ne_longitude": 114.273, 
         "longitude": 114.266, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598160, 
+        "ne_latitude": 54.289, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2073712, 
+        "sw_latitude": 54.280, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 54.285, 
         "sw_longitude": 114.258, 
-        "fullname": "Rossoshino Airport, Rassoshino, Buryatiya, Bauntovsky Evensky, Russia", 
-        "sw_latitude": 54.280
+        "fullname": "Rossoshino Airport, Rassoshino, Buryatiya, Russia", 
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516786
     }

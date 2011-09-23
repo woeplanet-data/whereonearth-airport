@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512568, 
+        "placetype": "airport", 
         "name": "Stod Airport", 
-        "ne_latitude": 49.640, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12610405", 
+          "woe:county=12582608", 
+          "woe:state=20070501", 
+          "woe:country=23424810", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512568, 
         "ne_longitude": 13.183, 
         "longitude": 13.176, 
-        "placetype": "Airport", 
+        "parent_woeid": 12610405, 
+        "ne_latitude": 49.640, 
         "iso": "CZ", 
-        "date_indexed": "2010-12-02T08:56:52Z", 
-        "parent_woeid": 798906, 
+        "sw_latitude": 49.631, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.636, 
         "sw_longitude": 13.169, 
-        "fullname": "Stod Airport, Stod, Plze\u0148sk\u00fd, Pilsen-South, Czech Republic", 
-        "sw_latitude": 49.631
+        "fullname": "Stod Airport, Stod, Plze\u0148sk\u00fd, Czech Republic", 
+        "date_indexed": "2010-12-02T08:56:52Z"
       }, 
       "id": 12512568
     }

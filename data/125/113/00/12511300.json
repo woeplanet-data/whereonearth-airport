@@ -32,29 +32,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511300, 
-        "name": "Aeroporto Santa Cruz do Sul", 
-        "alias_ENG_P": [
-          "Santa Cruz do Sul Airport"
-        ], 
-        "ne_latitude": -29.679, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "CSU"
         ], 
+        "name": "Aeroporto Santa Cruz do Sul", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Santa Cruz do Sul Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12581473", 
+          "woe:state=2344864", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511300, 
         "ne_longitude": -52.406, 
         "longitude": -52.412, 
-        "placetype": "Airport", 
+        "parent_woeid": 12581473, 
+        "ne_latitude": -29.679, 
         "alias_POR_V": [
           "Aeroporto CSU"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 26804342, 
+        "sw_latitude": -29.688, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -29.683, 
         "sw_longitude": -52.417, 
-        "fullname": "Aeroporto Santa Cruz do Sul, Boa Vista, Rio Grande do Sul, Santa Cruz do Sul, Brazil", 
-        "sw_latitude": -29.688
+        "fullname": "Aeroporto Santa Cruz do Sul, Boa Vista, Rio Grande do Sul, Brazil", 
+        "iata_code": "CSU", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511300
     }

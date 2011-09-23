@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521392, 
+        "placetype": "airport", 
         "name": "Piney Point Airport", 
-        "ne_latitude": 38.153, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12588695", 
+          "woe:state=2347579", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521392, 
         "ne_longitude": -76.516, 
         "longitude": -76.522, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588695, 
+        "ne_latitude": 38.153, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2472845, 
+        "sw_latitude": 38.144, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.148, 
         "sw_longitude": -76.528, 
-        "fullname": "Piney Point Airport, Piney Point, Maryland, St. Mary's, United States", 
-        "sw_latitude": 38.144
+        "fullname": "Piney Point Airport, Piney Point, Maryland, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521392
     }

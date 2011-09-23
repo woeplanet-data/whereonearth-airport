@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513248, 
+        "placetype": "airport", 
         "name": "Templin 2 Airport", 
-        "ne_latitude": 53.146, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=24547324", 
+          "woe:county=12596890", 
+          "woe:state=2345491", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513248, 
         "ne_longitude": 13.298, 
         "longitude": 13.290, 
-        "placetype": "Airport", 
+        "parent_woeid": 24547324, 
+        "ne_latitude": 53.146, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 698553, 
+        "sw_latitude": 53.137, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.141, 
         "sw_longitude": 13.283, 
-        "fullname": "Templin 2 Airport, Tangersdorf, Brandenburg, Uckermark, Germany", 
+        "fullname": "Templin 2 Airport, Tangersdorf, Brandenburg, Germany", 
         "alias_GER_Q": [
           "Flughafen Templin 2"
         ], 
-        "sw_latitude": 53.137
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 12513248
     }

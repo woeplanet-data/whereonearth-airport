@@ -3,28 +3,30 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -85.913, 
-              39.252
-            ], 
-            [
-              -85.913, 
-              39.275
-            ], 
-            [
-              -85.880, 
-              39.275
-            ], 
-            [
-              -85.880, 
-              39.252
-            ], 
-            [
-              -85.913, 
-              39.252
+              [
+                -85.896, 
+                39.256
+              ], 
+              [
+                -85.896, 
+                39.257
+              ], 
+              [
+                -85.896, 
+                39.256
+              ], 
+              [
+                -85.896, 
+                39.255
+              ], 
+              [
+                -85.896, 
+                39.256
+              ]
             ]
           ]
         ]
@@ -32,23 +34,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519293, 
-        "name": "Columbus Municipal Airport", 
         "alias_ENG_V": [
           "Columbus Bakalar Municipal Airport"
         ], 
-        "ne_latitude": 39.275, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -85.880, 
-        "longitude": -85.908, 
-        "placetype": "Airport", 
+        "name": "Columbus Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588182", 
+          "woe:state=2347573", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519293, 
+        "ne_longitude": -85.896, 
+        "longitude": -85.896, 
+        "parent_woeid": 12588182, 
+        "ne_latitude": 39.257, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2383652, 
-        "latitude": 39.262, 
-        "sw_longitude": -85.913, 
-        "fullname": "Columbus Municipal Airport, Columbus, Indiana, Bartholomew, United States", 
-        "sw_latitude": 39.252
+        "sw_latitude": 39.255, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 39.256, 
+        "sw_longitude": -85.896, 
+        "fullname": "Columbus Municipal Airport, Columbus, Indiana, United States", 
+        "iata_code": "CLU", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519293
     }

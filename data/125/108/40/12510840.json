@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510840, 
+        "placetype": "airport", 
         "name": "Sherwood North Airport", 
-        "ne_latitude": -22.912, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2344741", 
+          "woe:country=23424755", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510840, 
         "ne_longitude": 27.961, 
         "longitude": 27.956, 
-        "placetype": "Airport", 
+        "parent_woeid": 2344741, 
+        "ne_latitude": -22.912, 
         "iso": "BW", 
-        "date_indexed": "2010-12-02T10:22:50Z", 
-        "parent_woeid": 1265899, 
+        "sw_latitude": -22.921, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -22.917, 
         "sw_longitude": 27.951, 
         "fullname": "Sherwood North Airport, Central, Botswana", 
-        "sw_latitude": -22.921
+        "date_indexed": "2010-12-02T10:22:50Z"
       }, 
       "id": 12510840
     }

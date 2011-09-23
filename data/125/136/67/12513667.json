@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513667, 
+        "placetype": "airport", 
         "name": "Sarsawa Airport", 
-        "ne_latitude": 29.998, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12586781", 
+          "woe:state=2345760", 
+          "woe:country=23424848", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513667, 
         "ne_longitude": 77.434, 
         "longitude": 77.429, 
-        "placetype": "Airport", 
+        "parent_woeid": 12586781, 
+        "ne_latitude": 29.998, 
         "iso": "IN", 
-        "date_indexed": "2010-12-02T09:26:27Z", 
-        "parent_woeid": 29086100, 
+        "sw_latitude": 29.989, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 29.994, 
         "sw_longitude": 77.424, 
-        "fullname": "Sarsawa Airport, Sarso Heri, Uttar Pradesh, Saharanpur, India", 
-        "sw_latitude": 29.989
+        "fullname": "Sarsawa Airport, Sarso Heri, Uttar Pradesh, India", 
+        "date_indexed": "2010-12-02T09:26:27Z"
       }, 
       "id": 12513667
     }

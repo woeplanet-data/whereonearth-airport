@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520477, 
-        "name": "Kirk Field Airport", 
         "alias_ENG_V": [
           "PGR"
         ], 
-        "ne_latitude": 36.067, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Kirk Field Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587622", 
+          "woe:state=2347562", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520477, 
         "ne_longitude": -90.503, 
         "longitude": -90.514, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587622, 
+        "ne_latitude": 36.067, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2468214, 
+        "sw_latitude": 36.058, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.058, 
         "sw_longitude": -90.517, 
-        "fullname": "Kirk Field Airport, Paragould, Arkansas, Greene, United States", 
-        "sw_latitude": 36.058
+        "fullname": "Kirk Field Airport, Paragould, Arkansas, United States", 
+        "iata_code": "PGR", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520477
     }

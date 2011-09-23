@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515402, 
+        "placetype": "airport", 
         "name": "Wloclawek Airport", 
-        "ne_latitude": 52.590, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12616583", 
+          "woe:county=12591186", 
+          "woe:state=12577936", 
+          "woe:country=23424923", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515402, 
         "ne_longitude": 19.026, 
         "longitude": 19.019, 
-        "placetype": "Airport", 
+        "parent_woeid": 12616583, 
+        "ne_latitude": 52.590, 
         "iso": "PL", 
-        "date_indexed": "2010-12-02T12:12:45Z", 
-        "parent_woeid": 24933024, 
+        "sw_latitude": 52.581, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 52.585, 
         "sw_longitude": 19.011, 
         "fullname": "Wloclawek Airport, Kuiavia-Pomerania, Wloclawek County, Poland", 
-        "sw_latitude": 52.581
+        "date_indexed": "2010-12-02T12:12:45Z"
       }, 
       "id": 12515402
     }

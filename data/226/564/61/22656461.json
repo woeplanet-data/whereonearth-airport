@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 22656461, 
+        "placetype": "airport", 
         "name": "Gera-Leumnitz Airport", 
-        "ne_latitude": 50.883, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12624636", 
+          "woe:county=12597089", 
+          "woe:state=2345495", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 22656461, 
         "ne_longitude": 12.140, 
         "longitude": 12.131, 
-        "placetype": "Airport", 
+        "parent_woeid": 12624636, 
+        "ne_latitude": 50.883, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 652153, 
+        "sw_latitude": 50.878, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.882, 
         "sw_longitude": 12.128, 
-        "fullname": "Gera-Leumnitz Airport, Gera, Thuringia, Stadtkreis Gera, Germany", 
+        "fullname": "Gera-Leumnitz Airport, Gera, Thuringia, Germany", 
         "alias_GER_V": [
           "Flughafen Gera-Leumnitz"
         ], 
-        "sw_latitude": 50.878
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 22656461
     }

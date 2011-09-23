@@ -3,28 +3,46 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              5.506, 
-              52.448
-            ], 
-            [
-              5.506, 
-              52.463
-            ], 
-            [
-              5.532, 
-              52.463
-            ], 
-            [
-              5.532, 
-              52.448
-            ], 
-            [
-              5.506, 
-              52.448
+              [
+                5.530, 
+                52.458
+              ], 
+              [
+                5.530, 
+                52.457
+              ], 
+              [
+                5.527, 
+                52.457
+              ], 
+              [
+                5.523, 
+                52.455
+              ], 
+              [
+                5.521, 
+                52.453
+              ], 
+              [
+                5.522, 
+                52.456
+              ], 
+              [
+                5.527, 
+                52.460
+              ], 
+              [
+                5.532, 
+                52.461
+              ], 
+              [
+                5.530, 
+                52.458
+              ]
             ]
           ]
         ]
@@ -32,23 +50,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 22656486, 
+        "placetype": "airport", 
         "name": "Nv Luchthaven Lelystad Airport", 
-        "ne_latitude": 52.463, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:suburb=20064003", 
+          "woe:county=12592254", 
+          "woe:state=2346384", 
+          "woe:country=23424909", 
+          "woe:planet=1"
+        ], 
+        "woeid": 22656486, 
         "ne_longitude": 5.532, 
-        "longitude": 5.521, 
-        "placetype": "Airport", 
+        "longitude": 5.527, 
+        "parent_woeid": 20064003, 
+        "ne_latitude": 52.461, 
         "alias_DUT_Q": [
           "Nv Luchthaven Lelystad"
         ], 
         "iso": "NL", 
-        "date_indexed": "2010-12-02T18:17:47Z", 
-        "parent_woeid": 20064003, 
-        "latitude": 52.457, 
-        "sw_longitude": 5.506, 
-        "fullname": "Nv Luchthaven Lelystad Airport, Lelystad-Haven, Flevoland, Lelystad, Netherlands", 
-        "sw_latitude": 52.448
+        "sw_latitude": 52.453, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 52.458, 
+        "sw_longitude": 5.521, 
+        "fullname": "Nv Luchthaven Lelystad Airport, Lelystad-Haven, Flevoland, Netherlands", 
+        "date_indexed": "2010-12-02T18:17:47Z"
       }, 
       "id": 22656486
     }

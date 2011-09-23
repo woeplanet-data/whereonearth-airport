@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 56051736, 
+        "placetype": "airport", 
         "name": "Flugplatz Amlikon", 
-        "ne_latitude": 47.575, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12682985", 
+          "woe:county=12593204", 
+          "woe:state=2347101", 
+          "woe:country=23424957", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56051736, 
         "ne_longitude": 9.054, 
         "longitude": 9.041, 
-        "placetype": "Airport", 
+        "parent_woeid": 12682985, 
+        "ne_latitude": 47.575, 
         "iso": "CH", 
-        "date_indexed": "2010-12-02T18:20:52Z", 
-        "parent_woeid": 20101973, 
+        "sw_latitude": 47.572, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.574, 
         "sw_longitude": 9.040, 
-        "fullname": "Flugplatz Amlikon, Griesenberg, Canton of Thurgau, Weinfelden, Switzerland", 
-        "sw_latitude": 47.572
+        "fullname": "Flugplatz Amlikon, Griesenberg, Canton of Thurgau, Switzerland", 
+        "date_indexed": "2010-12-02T18:20:52Z"
       }, 
       "id": 56051736
     }

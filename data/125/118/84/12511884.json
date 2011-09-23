@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511884, 
+        "placetype": "airport", 
         "name": "Trail Airport", 
-        "ne_latitude": 49.064, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=29375116", 
+          "woe:state=2344916", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511884, 
         "ne_longitude": -117.603, 
         "longitude": -117.610, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375116, 
+        "ne_latitude": 49.064, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 9930, 
+        "sw_latitude": 49.055, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.059, 
         "sw_longitude": -117.617, 
-        "fullname": "Trail Airport, Montrose, British Columbia, Kootenay Boundary, Canada", 
-        "sw_latitude": 49.055
+        "fullname": "Trail Airport, Montrose, British Columbia, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12511884
     }

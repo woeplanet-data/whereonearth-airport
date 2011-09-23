@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522196, 
-        "name": "Tri County Airport", 
         "alias_ENG_V": [
           "Tri-County Regional Airport"
         ], 
-        "ne_latitude": 43.217, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Tri County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590589", 
+          "woe:state=2347608", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522196, 
         "ne_longitude": -90.185, 
         "longitude": -90.185, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590589, 
+        "ne_latitude": 43.217, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2497876, 
+        "sw_latitude": 43.210, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.214, 
         "sw_longitude": -90.193, 
-        "fullname": "Tri County Airport, Spring Green, Wisconsin, Sauk, United States", 
-        "sw_latitude": 43.210
+        "fullname": "Tri County Airport, Spring Green, Wisconsin, United States", 
+        "iata_code": "LNR", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12522196
     }

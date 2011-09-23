@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521641, 
-        "name": "Rolla Downtown Airport", 
         "alias_ENG_V": [
           "K07"
         ], 
-        "ne_latitude": 37.937, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Rolla Downtown Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589046", 
+          "woe:state=2347584", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521641, 
         "ne_longitude": -91.808, 
         "longitude": -91.813, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589046, 
+        "ne_latitude": 37.937, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2484032, 
+        "sw_latitude": 37.935, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 37.936, 
         "sw_longitude": -91.819, 
-        "fullname": "Rolla Downtown Airport, Rolla, Missouri, Phelps, United States", 
-        "sw_latitude": 37.935
+        "fullname": "Rolla Downtown Airport, Rolla, Missouri, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521641
     }

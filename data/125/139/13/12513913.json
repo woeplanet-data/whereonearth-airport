@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513913, 
+        "placetype": "airport", 
         "name": "Nejef New Airport", 
-        "ne_latitude": 31.996, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55999971", 
+          "woe:state=2345849", 
+          "woe:country=23424855", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513913, 
         "ne_longitude": 44.416, 
         "longitude": 44.411, 
-        "placetype": "Airport", 
+        "parent_woeid": 55999971, 
+        "ne_latitude": 31.996, 
         "iso": "IQ", 
-        "date_indexed": "2010-12-02T16:42:58Z", 
-        "parent_woeid": 1979402, 
+        "sw_latitude": 31.987, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 31.992, 
         "sw_longitude": 44.406, 
-        "fullname": "Nejef New Airport, Al Kofa, An Najaf, Kufa, Iraq", 
-        "sw_latitude": 31.987
+        "fullname": "Nejef New Airport, Al Kofa, An Najaf, Iraq", 
+        "date_indexed": "2010-12-02T16:42:58Z"
       }, 
       "id": 12513913
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524555, 
-        "name": "Akhiok Airport", 
         "alias_ENG_V": [
           "AKK"
         ], 
-        "ne_latitude": 56.955, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Akhiok Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587566", 
+          "woe:state=2347560", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524555, 
         "ne_longitude": -154.159, 
         "longitude": -154.167, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587566, 
+        "ne_latitude": 56.955, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2352458, 
+        "sw_latitude": 56.945, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 56.950, 
         "sw_longitude": -154.175, 
-        "fullname": "Akhiok Airport, Akhiok, Alaska, Kodiak Island Borough, United States", 
-        "sw_latitude": 56.945
+        "fullname": "Akhiok Airport, Akhiok, Alaska, United States", 
+        "iata_code": "AKK", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12524555
     }

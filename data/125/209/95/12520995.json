@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520995, 
-        "name": "Monroe Municipal Airport", 
         "alias_ENG_V": [
           "Eft"
         ], 
-        "ne_latitude": 42.621, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Monroe Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590556", 
+          "woe:state=2347608", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520995, 
         "ne_longitude": -89.580, 
         "longitude": -89.594, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590556, 
+        "ne_latitude": 42.621, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2453016, 
+        "sw_latitude": 42.609, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.621, 
         "sw_longitude": -89.597, 
-        "fullname": "Monroe Municipal Airport, Monroe, Wisconsin, Green, United States", 
-        "sw_latitude": 42.609
+        "fullname": "Monroe Municipal Airport, Monroe, Wisconsin, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520995
     }

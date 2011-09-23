@@ -3,28 +3,66 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -87.326, 
-              30.348
-            ], 
-            [
-              -87.326, 
-              30.357
-            ], 
-            [
-              -87.315, 
-              30.357
-            ], 
-            [
-              -87.315, 
-              30.348
-            ], 
-            [
-              -87.326, 
-              30.348
+              [
+                -87.306, 
+                30.354
+              ], 
+              [
+                -87.306, 
+                30.354
+              ], 
+              [
+                -87.303, 
+                30.354
+              ], 
+              [
+                -87.299, 
+                30.353
+              ], 
+              [
+                -87.299, 
+                30.348
+              ], 
+              [
+                -87.304, 
+                30.349
+              ], 
+              [
+                -87.308, 
+                30.346
+              ], 
+              [
+                -87.308, 
+                30.346
+              ], 
+              [
+                -87.310, 
+                30.344
+              ], 
+              [
+                -87.309, 
+                30.346
+              ], 
+              [
+                -87.308, 
+                30.346
+              ], 
+              [
+                -87.304, 
+                30.349
+              ], 
+              [
+                -87.306, 
+                30.353
+              ], 
+              [
+                -87.306, 
+                30.354
+              ]
             ]
           ]
         ]
@@ -32,23 +70,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521334, 
-        "name": "Pensacola Naval Air Station-Forrest Sherman Field", 
         "alias_ENG_V": [
           "Pensacola Naval Station-Forrest Sherman Field"
         ], 
-        "ne_latitude": 30.357, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -87.315, 
-        "longitude": -87.320, 
-        "placetype": "Airport", 
+        "name": "Pensacola Naval Air Station-Forrest Sherman Field", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587819", 
+          "woe:state=2347568", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521334, 
+        "ne_longitude": -87.299, 
+        "longitude": -87.303, 
+        "parent_woeid": 12587819, 
+        "ne_latitude": 30.354, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2405919, 
-        "latitude": 30.353, 
-        "sw_longitude": -87.326, 
-        "fullname": "Pensacola Naval Air Station-Forrest Sherman Field, Fort Redoubt, Florida, Escambia, United States", 
-        "sw_latitude": 30.348
+        "sw_latitude": 30.344, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 30.351, 
+        "sw_longitude": -87.310, 
+        "fullname": "Pensacola Naval Air Station-Forrest Sherman Field, Fort Redoubt, Florida, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521334
     }

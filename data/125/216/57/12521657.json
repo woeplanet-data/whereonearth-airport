@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521657, 
-        "name": "Roseburg Regional Airport", 
         "alias_ENG_V": [
           "Roseburg Municipal Airport"
         ], 
-        "ne_latitude": 43.246, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Roseburg Regional Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589701", 
+          "woe:state=2347596", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521657, 
         "ne_longitude": -123.353, 
         "longitude": -123.359, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589701, 
+        "ne_latitude": 43.246, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2484630, 
+        "sw_latitude": 43.231, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.236, 
         "sw_longitude": -123.360, 
-        "fullname": "Roseburg Regional Airport, Roseburg, Oregon, Douglas, United States", 
-        "sw_latitude": 43.231
+        "fullname": "Roseburg Regional Airport, Roseburg, Oregon, United States", 
+        "iata_code": "RBG", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521657
     }

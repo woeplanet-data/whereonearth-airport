@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511892, 
+        "placetype": "airport", 
         "name": "Valcourt Airport", 
-        "ne_latitude": 45.488, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=29375182", 
+          "woe:state=2344924", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511892, 
         "ne_longitude": -72.300, 
         "longitude": -72.307, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375182, 
+        "ne_latitude": 45.488, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 29374336, 
+        "sw_latitude": 45.479, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.484, 
         "sw_longitude": -72.313, 
-        "fullname": "Valcourt Airport, Valcourt Canton, Quebec, Le Val-St-Fran\u00e7ois, Canada", 
-        "sw_latitude": 45.479
+        "fullname": "Valcourt Airport, Valcourt Canton, Quebec, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12511892
     }

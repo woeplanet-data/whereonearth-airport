@@ -3,28 +3,34 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              152.310, 
-              -24.910
-            ], 
-            [
-              152.310, 
-              -24.892
-            ], 
-            [
-              152.328, 
-              -24.892
-            ], 
-            [
-              152.328, 
-              -24.910
-            ], 
-            [
-              152.310, 
-              -24.910
+              [
+                152.320, 
+                -24.902
+              ], 
+              [
+                152.320, 
+                -24.900
+              ], 
+              [
+                152.320, 
+                -24.898
+              ], 
+              [
+                152.322, 
+                -24.901
+              ], 
+              [
+                152.322, 
+                -24.903
+              ], 
+              [
+                152.320, 
+                -24.902
+              ]
             ]
           ]
         ]
@@ -32,23 +38,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510621, 
-        "name": "Bundaberg Airport", 
         "alias_ENG_V": [
           "BDB Airport"
         ], 
-        "ne_latitude": -24.892, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": 152.328, 
-        "longitude": 152.322, 
-        "placetype": "Airport", 
-        "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
+        "name": "Bundaberg Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:suburb=28585633", 
+          "woe:county=56072976", 
+          "woe:state=2344702", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510621, 
+        "ne_longitude": 152.322, 
+        "longitude": 152.321, 
         "parent_woeid": 28585633, 
-        "latitude": -24.898, 
-        "sw_longitude": 152.310, 
-        "fullname": "Bundaberg Airport, Bundaberg, Queensland, City of Bundaberg, Australia", 
-        "sw_latitude": -24.910
+        "ne_latitude": -24.898, 
+        "iso": "AU", 
+        "sw_latitude": -24.903, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": -24.901, 
+        "sw_longitude": 152.320, 
+        "fullname": "Bundaberg Airport, Bundaberg, Queensland, Australia", 
+        "iata_code": "BDB", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 12510621
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517326, 
+        "placetype": "airport", 
         "name": "Al Kharj East Airport", 
-        "ne_latitude": 24.056, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=56120177", 
+          "woe:state=2346951", 
+          "woe:country=23424938", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517326, 
         "ne_longitude": 47.660, 
         "longitude": 47.655, 
-        "placetype": "Airport", 
+        "parent_woeid": 56120177, 
+        "ne_latitude": 24.056, 
         "iso": "SA", 
-        "date_indexed": "2010-12-02T09:34:42Z", 
-        "parent_woeid": 1938274, 
+        "sw_latitude": 24.047, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 24.051, 
         "sw_longitude": 47.650, 
-        "fullname": "Al Kharj East Airport, As Sahba', Ar Riyad, Al Kharj, Saudi Arabia", 
-        "sw_latitude": 24.047
+        "fullname": "Al Kharj East Airport, As Sahba', Ar Riyad, Saudi Arabia", 
+        "date_indexed": "2010-12-02T09:34:42Z"
       }, 
       "id": 12517326
     }

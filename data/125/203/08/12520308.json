@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520308, 
+        "placetype": "airport", 
         "name": "Ione Municipal Airport", 
-        "ne_latitude": 48.717, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12590465", 
+          "woe:state=2347606", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520308, 
         "ne_longitude": -117.410, 
         "longitude": -117.417, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590465, 
+        "ne_latitude": 48.717, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2427406, 
+        "sw_latitude": 48.708, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.713, 
         "sw_longitude": -117.424, 
-        "fullname": "Ione Municipal Airport, Ione, Washington, Pend Oreille, United States", 
-        "sw_latitude": 48.708
+        "fullname": "Ione Municipal Airport, Ione, Washington, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12520308
     }

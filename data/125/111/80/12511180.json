@@ -32,29 +32,35 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511180, 
-        "name": "Aeroporto Ipiau", 
-        "alias_ENG_P": [
-          "Ipiau Airport"
-        ], 
-        "ne_latitude": -14.168, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "IPU"
         ], 
+        "name": "Aeroporto Ipiau", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Ipiau Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12578410", 
+          "woe:state=2344848", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511180, 
         "ne_longitude": -39.680, 
         "longitude": -39.685, 
-        "placetype": "Airport", 
+        "parent_woeid": 12578410, 
+        "ne_latitude": -14.168, 
         "alias_POR_V": [
           "Aeroporto IPU"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 436560, 
+        "sw_latitude": -14.177, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -14.172, 
         "sw_longitude": -39.689, 
-        "fullname": "Aeroporto Ipiau, Japomirim, Bahia, Itagib\u00e1, Brazil", 
-        "sw_latitude": -14.177
+        "fullname": "Aeroporto Ipiau, Japomirim, Bahia, Brazil", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511180
     }

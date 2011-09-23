@@ -3,28 +3,74 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -75.984, 
-              40.369
-            ], 
-            [
-              -75.984, 
-              40.386
-            ], 
-            [
-              -75.953, 
-              40.386
-            ], 
-            [
-              -75.953, 
-              40.369
-            ], 
-            [
-              -75.984, 
-              40.369
+              [
+                -75.975, 
+                40.369
+              ], 
+              [
+                -75.976, 
+                40.367
+              ], 
+              [
+                -75.979, 
+                40.369
+              ], 
+              [
+                -75.976, 
+                40.370
+              ], 
+              [
+                -75.969, 
+                40.378
+              ], 
+              [
+                -75.969, 
+                40.380
+              ], 
+              [
+                -75.969, 
+                40.381
+              ], 
+              [
+                -75.968, 
+                40.382
+              ], 
+              [
+                -75.967, 
+                40.383
+              ], 
+              [
+                -75.966, 
+                40.383
+              ], 
+              [
+                -75.959, 
+                40.381
+              ], 
+              [
+                -75.953, 
+                40.381
+              ], 
+              [
+                -75.960, 
+                40.378
+              ], 
+              [
+                -75.964, 
+                40.372
+              ], 
+              [
+                -75.968, 
+                40.373
+              ], 
+              [
+                -75.975, 
+                40.369
+              ]
             ]
           ]
         ]
@@ -32,23 +78,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521537, 
-        "name": "Reading Regional Airport", 
         "alias_ENG_V": [
           "Reading Airport"
         ], 
-        "ne_latitude": 40.386, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Reading Regional Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589733", 
+          "woe:state=2347597", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521537, 
         "ne_longitude": -75.953, 
-        "longitude": -75.964, 
-        "placetype": "Airport", 
+        "longitude": -75.966, 
+        "parent_woeid": 12589733, 
+        "ne_latitude": 40.383, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 28745509, 
-        "latitude": 40.374, 
-        "sw_longitude": -75.984, 
-        "fullname": "Reading Regional Airport, Bern, Pennsylvania, Berks, United States", 
-        "sw_latitude": 40.369
+        "sw_latitude": 40.367, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 40.377, 
+        "sw_longitude": -75.979, 
+        "fullname": "Reading Regional Airport, Bern, Pennsylvania, United States", 
+        "iata_code": "RDG", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521537
     }

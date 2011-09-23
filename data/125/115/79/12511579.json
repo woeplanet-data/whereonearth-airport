@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511579, 
+        "placetype": "airport", 
         "name": "Blue River Airport", 
-        "ne_latitude": 52.121, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=29375074", 
+          "woe:state=2344916", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511579, 
         "ne_longitude": -119.276, 
         "longitude": -119.283, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375074, 
+        "ne_latitude": 52.121, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 9663, 
+        "sw_latitude": 52.112, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 52.117, 
         "sw_longitude": -119.291, 
-        "fullname": "Blue River Airport, Blue River, British Columbia, Thompson-Nicola, Canada", 
-        "sw_latitude": 52.112
+        "fullname": "Blue River Airport, Blue River, British Columbia, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12511579
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521351, 
-        "name": "Person County Airport", 
         "alias_ENG_V": [
           "TDF"
         ], 
-        "ne_latitude": 36.292, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Person County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589446", 
+          "woe:state=2347592", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521351, 
         "ne_longitude": -78.973, 
         "longitude": -78.983, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589446, 
+        "ne_latitude": 36.292, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2376271, 
+        "sw_latitude": 36.279, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.289, 
         "sw_longitude": -78.993, 
-        "fullname": "Person County Airport, Cates, North Carolina, Person, United States", 
-        "sw_latitude": 36.279
+        "fullname": "Person County Airport, Cates, North Carolina, United States", 
+        "iata_code": "TDF", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521351
     }

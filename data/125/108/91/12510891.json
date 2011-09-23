@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510891, 
-        "name": "Jessore Airport", 
         "alias_ENG_V": [
           "JSR"
         ], 
-        "ne_latitude": 23.188, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Jessore Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=23706417", 
+          "woe:state=2344792", 
+          "woe:country=23424759", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510891, 
         "ne_longitude": 89.169, 
         "longitude": 89.164, 
-        "placetype": "Airport", 
+        "parent_woeid": 23706417, 
+        "ne_latitude": 23.188, 
         "iso": "BD", 
-        "date_indexed": "2010-12-02T12:16:33Z", 
-        "parent_woeid": 1895360, 
+        "sw_latitude": 23.179, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 23.183, 
         "sw_longitude": 89.159, 
         "fullname": "Jessore Airport, Khulna, Jessore, Bangladesh", 
-        "sw_latitude": 23.179
+        "date_indexed": "2010-12-02T12:16:33Z"
       }, 
       "id": 12510891
     }

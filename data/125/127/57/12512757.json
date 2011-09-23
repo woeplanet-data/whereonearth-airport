@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512757, 
+        "placetype": "airport", 
         "name": "Addis Ababa Liddetta Airport", 
-        "ne_latitude": 9.009, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=56017369", 
+          "woe:state=56013543", 
+          "woe:country=23424808", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512757, 
         "ne_longitude": 38.726, 
         "longitude": 38.722, 
-        "placetype": "Airport", 
+        "parent_woeid": 56017369, 
+        "ne_latitude": 9.009, 
         "iso": "ET", 
-        "date_indexed": "2010-12-02T08:52:18Z", 
-        "parent_woeid": 1313321, 
+        "sw_latitude": 9.000, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 9.004, 
         "sw_longitude": 38.717, 
-        "fullname": "Addis Ababa Liddetta Airport, Alem Gena, Addis Ababa, Addis Ababa Zone 2, Ethiopia", 
-        "sw_latitude": 9.000
+        "fullname": "Addis Ababa Liddetta Airport, Alem Gena, Addis Ababa, Ethiopia", 
+        "date_indexed": "2010-12-02T08:52:18Z"
       }, 
       "id": 12512757
     }

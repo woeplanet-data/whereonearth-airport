@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513105, 
+        "placetype": "airport", 
         "name": "Gboschwitz Airport", 
-        "ne_latitude": 50.737, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12636406", 
+          "woe:county=12596965", 
+          "woe:state=2345495", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513105, 
         "ne_longitude": 11.277, 
         "longitude": 11.270, 
-        "placetype": "Airport", 
+        "parent_woeid": 12636406, 
+        "ne_latitude": 50.737, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:24Z", 
-        "parent_woeid": 671555, 
+        "sw_latitude": 50.728, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.732, 
         "sw_longitude": 11.262, 
-        "fullname": "Gboschwitz Airport, Lichstedt, Thuringia, Saalfeld-Rudolstadt, Germany", 
+        "fullname": "Gboschwitz Airport, Lichstedt, Thuringia, Germany", 
         "alias_GER_Q": [
           "Flughafen Gboschwitz"
         ], 
-        "sw_latitude": 50.728
+        "date_indexed": "2010-12-02T09:50:24Z"
       }, 
       "id": 12513105
     }

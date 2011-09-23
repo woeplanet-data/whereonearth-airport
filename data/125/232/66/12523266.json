@@ -3,28 +3,110 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              118.104, 
-              24.522
-            ], 
-            [
-              118.104, 
-              24.545
-            ], 
-            [
-              118.129, 
-              24.545
-            ], 
-            [
-              118.129, 
-              24.522
-            ], 
-            [
-              118.104, 
-              24.522
+              [
+                118.120, 
+                24.501
+              ], 
+              [
+                118.120, 
+                24.502
+              ], 
+              [
+                118.130, 
+                24.511
+              ], 
+              [
+                118.125, 
+                24.525
+              ], 
+              [
+                118.117, 
+                24.533
+              ], 
+              [
+                118.116, 
+                24.536
+              ], 
+              [
+                118.114, 
+                24.546
+              ], 
+              [
+                118.126, 
+                24.544
+              ], 
+              [
+                118.128, 
+                24.544
+              ], 
+              [
+                118.136, 
+                24.559
+              ], 
+              [
+                118.145, 
+                24.541
+              ], 
+              [
+                118.152, 
+                24.531
+              ], 
+              [
+                118.147, 
+                24.529
+              ], 
+              [
+                118.136, 
+                24.532
+              ], 
+              [
+                118.131, 
+                24.528
+              ], 
+              [
+                118.130, 
+                24.511
+              ], 
+              [
+                118.115, 
+                24.505
+              ], 
+              [
+                118.110, 
+                24.508
+              ], 
+              [
+                118.106, 
+                24.503
+              ], 
+              [
+                118.089, 
+                24.503
+              ], 
+              [
+                118.089, 
+                24.503
+              ], 
+              [
+                118.088, 
+                24.502
+              ], 
+              [
+                118.103, 
+                24.499
+              ], 
+              [
+                118.116, 
+                24.499
+              ], 
+              [
+                118.120, 
+                24.501
+              ]
             ]
           ]
         ]
@@ -32,23 +114,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523266, 
-        "name": "Xiamen Airport", 
         "alias_ENG_V": [
           "XMN"
         ], 
-        "ne_latitude": 24.545, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": 118.129, 
-        "longitude": 118.117, 
-        "placetype": "Airport", 
+        "name": "Xiamen Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=12685770", 
+          "woe:county=26198335", 
+          "woe:state=12577997", 
+          "woe:country=23424781", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523266, 
+        "ne_longitude": 118.152, 
+        "longitude": 118.141, 
+        "parent_woeid": 12685770, 
+        "ne_latitude": 24.559, 
         "iso": "CN", 
-        "date_indexed": "2010-12-02T08:51:54Z", 
-        "parent_woeid": 2140006, 
-        "latitude": 24.533, 
-        "sw_longitude": 118.104, 
-        "fullname": "Xiamen Airport, Dianqian, Fujian, Xiamen, China", 
-        "sw_latitude": 24.522
+        "sw_latitude": 24.499, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 24.551, 
+        "sw_longitude": 118.088, 
+        "fullname": "Xiamen Airport, Dianqian, Fujian, China", 
+        "iata_code": "XMN", 
+        "date_indexed": "2010-12-02T08:51:54Z"
       }, 
       "id": 12523266
     }

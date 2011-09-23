@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524342, 
-        "name": "Huehuetenango Airport", 
         "alias_ENG_V": [
           "HUG"
         ], 
-        "ne_latitude": 15.338, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Huehuetenango Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26807028", 
+          "woe:state=2345559", 
+          "woe:country=23424834", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524342, 
         "ne_longitude": -91.462, 
         "longitude": -91.467, 
-        "placetype": "Airport", 
+        "parent_woeid": 26807028, 
+        "ne_latitude": 15.338, 
         "iso": "GT", 
-        "date_indexed": "2010-12-02T16:55:27Z", 
-        "parent_woeid": 83172, 
+        "sw_latitude": 15.329, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 15.333, 
         "sw_longitude": -91.471, 
-        "fullname": "Huehuetenango Airport, Huehuetenango, Huehuetenango, Huehuetenango, Guatemala", 
-        "sw_latitude": 15.329
+        "fullname": "Huehuetenango Airport, Huehuetenango, Huehuetenango, Guatemala", 
+        "iata_code": "HUG", 
+        "date_indexed": "2010-12-02T16:55:27Z"
       }, 
       "id": 12524342
     }

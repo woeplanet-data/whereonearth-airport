@@ -3,28 +3,66 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -116.997, 
-              32.568
-            ], 
-            [
-              -116.997, 
-              32.583
-            ], 
-            [
-              -116.962, 
-              32.583
-            ], 
-            [
-              -116.962, 
-              32.568
-            ], 
-            [
-              -116.997, 
-              32.568
+              [
+                -116.977, 
+                32.570
+              ], 
+              [
+                -116.973, 
+                32.570
+              ], 
+              [
+                -116.976, 
+                32.569
+              ], 
+              [
+                -116.977, 
+                32.569
+              ], 
+              [
+                -116.978, 
+                32.569
+              ], 
+              [
+                -116.978, 
+                32.569
+              ], 
+              [
+                -116.983, 
+                32.571
+              ], 
+              [
+                -116.985, 
+                32.570
+              ], 
+              [
+                -116.985, 
+                32.570
+              ], 
+              [
+                -116.984, 
+                32.569
+              ], 
+              [
+                -116.983, 
+                32.571
+              ], 
+              [
+                -116.981, 
+                32.574
+              ], 
+              [
+                -116.979, 
+                32.572
+              ], 
+              [
+                -116.977, 
+                32.570
+              ]
             ]
           ]
         ]
@@ -32,23 +70,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518950, 
-        "name": "Brown Field Municipal Airport", 
         "alias_ENG_V": [
           "SDM"
         ], 
-        "ne_latitude": 32.583, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -116.962, 
-        "longitude": -116.984, 
-        "placetype": "Airport", 
-        "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
+        "name": "Brown Field Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:suburb=29389030", 
+          "woe:county=12587706", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518950, 
+        "ne_longitude": -116.973, 
+        "longitude": -116.979, 
         "parent_woeid": 29389030, 
-        "latitude": 32.569, 
-        "sw_longitude": -116.997, 
-        "fullname": "Brown Field Municipal Airport, San Diego, California, San Diego, United States", 
-        "sw_latitude": 32.568
+        "ne_latitude": 32.574, 
+        "iso": "US", 
+        "sw_latitude": 32.569, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 32.571, 
+        "sw_longitude": -116.985, 
+        "fullname": "Brown Field Municipal Airport, San Diego, California, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518950
     }

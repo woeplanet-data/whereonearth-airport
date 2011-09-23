@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514501, 
+        "placetype": "airport", 
         "name": "Uil Airport", 
-        "ne_latitude": 49.083, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345980", 
+          "woe:country=23424871", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514501, 
         "ne_longitude": 54.642, 
         "longitude": 54.635, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345980, 
+        "ne_latitude": 49.083, 
         "iso": "KZ", 
-        "date_indexed": "2010-12-02T08:54:13Z", 
-        "parent_woeid": 2260871, 
+        "sw_latitude": 49.074, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.079, 
         "sw_longitude": 54.628, 
         "fullname": "Uil Airport, Aqtobe, Kazakhstan", 
-        "sw_latitude": 49.074
+        "date_indexed": "2010-12-02T08:54:13Z"
       }, 
       "id": 12514501
     }

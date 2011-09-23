@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388362, 
-        "name": "Greenville Municipal Airport", 
         "alias_ENG_V": [
           "4g1"
         ], 
-        "ne_latitude": 41.451, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Greenville Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589770", 
+          "woe:state=2347597", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388362, 
         "ne_longitude": -80.387, 
         "longitude": -80.394, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589770, 
+        "ne_latitude": 41.451, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 28744642, 
+        "sw_latitude": 41.443, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.446, 
         "sw_longitude": -80.396, 
-        "fullname": "Greenville Municipal Airport, Greene, Pennsylvania, Mercer, United States", 
-        "sw_latitude": 41.443
+        "fullname": "Greenville Municipal Airport, Greene, Pennsylvania, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388362
     }

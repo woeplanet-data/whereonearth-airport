@@ -3,28 +3,46 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              22.966, 
-              40.516
-            ], 
-            [
-              22.966, 
-              40.525
-            ], 
-            [
-              22.978, 
-              40.525
-            ], 
-            [
-              22.978, 
-              40.516
-            ], 
-            [
-              22.966, 
-              40.516
+              [
+                22.975, 
+                40.524
+              ], 
+              [
+                22.977, 
+                40.528
+              ], 
+              [
+                22.980, 
+                40.527
+              ], 
+              [
+                22.976, 
+                40.523
+              ], 
+              [
+                22.975, 
+                40.522
+              ], 
+              [
+                22.974, 
+                40.521
+              ], 
+              [
+                22.973, 
+                40.522
+              ], 
+              [
+                22.974, 
+                40.523
+              ], 
+              [
+                22.975, 
+                40.524
+              ]
             ]
           ]
         ]
@@ -34,11 +52,16 @@
         "alias_ENG_V": [
           "SKG"
         ], 
-        "ne_latitude": 40.525, 
-        "alias_UNK_V": [
-          "Thessaloniki Gelis"
+        "hierarchy": [
+          "woe:localadmin=24543566", 
+          "woe:county=12591109", 
+          "woe:state=12577884", 
+          "woe:country=23424833", 
+          "woe:planet=1"
         ], 
-        "placetype": "Airport", 
+        "ne_latitude": 40.528, 
+        "ne_longitude": 22.980, 
+        "placetype": "airport", 
         "alias_POR_V": [
           "Thessaloniki-Chegadas"
         ], 
@@ -46,14 +69,15 @@
           "Tessalonica-Arrivi"
         ], 
         "woeid": 12513329, 
-        "sw_longitude": 22.966, 
+        "iata_code": "SKG", 
+        "sw_longitude": 22.973, 
         "alias_FIN_V": [
           "Thessaloniki-Saapuva"
         ], 
         "alias_SPA_V": [
           "Thessaloniki-Llegadas"
         ], 
-        "latitude": 40.524, 
+        "latitude": 40.525, 
         "date_indexed": "2010-12-02T16:52:14Z", 
         "provider": "geoplanet 7.6.0", 
         "alias_DUT_V": [
@@ -67,15 +91,17 @@
         ], 
         "lang": "ENG", 
         "name": "Thessaloniki Airport", 
-        "parent_woeid": 963280, 
-        "ne_longitude": 22.978, 
+        "parent_woeid": 24543566, 
+        "alias_UNK_V": [
+          "Thessaloniki Gelis"
+        ], 
         "longitude": 22.977, 
         "iso": "GR", 
-        "sw_latitude": 40.516, 
+        "sw_latitude": 40.521, 
         "alias_FRE_V": [
           "Thessaloniki-Arriv\u00e9e"
         ], 
-        "fullname": "Thessaloniki Airport, Sedes, Kentriki Makedonia, Thessaloniki, Greece"
+        "fullname": "Thessaloniki Airport, Sedes, Kentriki Makedonia, Greece"
       }, 
       "id": 12513329
     }

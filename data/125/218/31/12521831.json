@@ -3,28 +3,106 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -98.516, 
-              33.937
-            ], 
-            [
-              -98.516, 
-              33.975
-            ], 
-            [
-              -98.471, 
-              33.975
-            ], 
-            [
-              -98.471, 
-              33.937
-            ], 
-            [
-              -98.516, 
-              33.937
+              [
+                -98.512, 
+                33.969
+              ], 
+              [
+                -98.520, 
+                33.972
+              ], 
+              [
+                -98.511, 
+                33.976
+              ], 
+              [
+                -98.505, 
+                33.980
+              ], 
+              [
+                -98.504, 
+                33.981
+              ], 
+              [
+                -98.501, 
+                33.985
+              ], 
+              [
+                -98.506, 
+                33.981
+              ], 
+              [
+                -98.512, 
+                33.982
+              ], 
+              [
+                -98.511, 
+                33.977
+              ], 
+              [
+                -98.511, 
+                33.976
+              ], 
+              [
+                -98.511, 
+                33.969
+              ], 
+              [
+                -98.512, 
+                33.969
+              ], 
+              [
+                -98.513, 
+                33.963
+              ], 
+              [
+                -98.514, 
+                33.961
+              ], 
+              [
+                -98.514, 
+                33.959
+              ], 
+              [
+                -98.515, 
+                33.954
+              ], 
+              [
+                -98.514, 
+                33.949
+              ], 
+              [
+                -98.516, 
+                33.952
+              ], 
+              [
+                -98.515, 
+                33.954
+              ], 
+              [
+                -98.514, 
+                33.959
+              ], 
+              [
+                -98.514, 
+                33.961
+              ], 
+              [
+                -98.513, 
+                33.962
+              ], 
+              [
+                -98.513, 
+                33.963
+              ], 
+              [
+                -98.512, 
+                33.969
+              ]
             ]
           ]
         ]
@@ -32,23 +110,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521831, 
-        "name": "Sheppard Air Force Base", 
         "alias_ENG_V": [
           "Sheppard AFB"
         ], 
-        "ne_latitude": 33.975, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -98.471, 
-        "longitude": -98.493, 
-        "placetype": "Airport", 
+        "name": "Sheppard Air Force Base", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590249", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521831, 
+        "ne_longitude": -98.501, 
+        "longitude": -98.523, 
+        "parent_woeid": 12590249, 
+        "ne_latitude": 33.985, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2520100, 
+        "sw_latitude": 33.949, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 33.956, 
-        "sw_longitude": -98.516, 
-        "fullname": "Sheppard Air Force Base, Wichita Falls, Texas, Wichita, United States", 
-        "sw_latitude": 33.937
+        "sw_longitude": -98.520, 
+        "fullname": "Sheppard Air Force Base, Wichita Falls, Texas, United States", 
+        "iata_code": "SPS", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521831
     }

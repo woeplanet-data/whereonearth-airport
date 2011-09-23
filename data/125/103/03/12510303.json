@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510303, 
-        "name": "Faizabad Airport", 
         "alias_ENG_V": [
           "FBD"
         ], 
-        "ne_latitude": 37.122, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Faizabad Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=56000474", 
+          "woe:state=2344549", 
+          "woe:country=23424739", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510303, 
         "ne_longitude": 70.528, 
         "longitude": 70.523, 
-        "placetype": "Airport", 
+        "parent_woeid": 56000474, 
+        "ne_latitude": 37.122, 
         "iso": "AF", 
-        "date_indexed": "2010-12-02T18:03:37Z", 
-        "parent_woeid": 1920545, 
+        "sw_latitude": 37.113, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 37.117, 
         "sw_longitude": 70.517, 
-        "fullname": "Faizabad Airport, Feyzabad, Badakhshan, Fayz Abad, Afghanistan", 
-        "sw_latitude": 37.113
+        "fullname": "Faizabad Airport, Feyzabad, Badakhshan, Afghanistan", 
+        "date_indexed": "2010-12-02T18:03:37Z"
       }, 
       "id": 12510303
     }

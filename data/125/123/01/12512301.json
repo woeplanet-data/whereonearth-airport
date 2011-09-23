@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512301, 
+        "placetype": "airport", 
         "name": "Zhuoxian Airport", 
-        "ne_latitude": 39.459, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12686143", 
+          "woe:county=26198364", 
+          "woe:state=12578000", 
+          "woe:country=23424781", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512301, 
         "ne_longitude": 115.997, 
         "longitude": 115.991, 
-        "placetype": "Airport", 
+        "parent_woeid": 12686143, 
+        "ne_latitude": 39.459, 
         "iso": "CN", 
-        "date_indexed": "2010-12-02T08:51:54Z", 
-        "parent_woeid": 2171277, 
+        "sw_latitude": 39.450, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 39.454, 
         "sw_longitude": 115.985, 
-        "fullname": "Zhuoxian Airport, Zhuoxian, Hebei, Baoding, China", 
-        "sw_latitude": 39.450
+        "fullname": "Zhuoxian Airport, Zhuoxian, Hebei, China", 
+        "date_indexed": "2010-12-02T08:51:54Z"
       }, 
       "id": 12512301
     }

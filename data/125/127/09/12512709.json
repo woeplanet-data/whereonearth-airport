@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512709, 
+        "placetype": "airport", 
         "name": "Sidi Barrani Airport", 
-        "ne_latitude": 31.469, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345244", 
+          "woe:country=23424802", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512709, 
         "ne_longitude": 25.870, 
         "longitude": 25.864, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345244, 
+        "ne_latitude": 31.469, 
         "iso": "EG", 
-        "date_indexed": "2010-12-02T12:16:51Z", 
-        "parent_woeid": 1526357, 
+        "sw_latitude": 31.460, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 31.465, 
         "sw_longitude": 25.859, 
         "fullname": "Sidi Barrani Airport, Sidi Barrani, Matruh, Egypt", 
-        "sw_latitude": 31.460
+        "date_indexed": "2010-12-02T12:16:51Z"
       }, 
       "id": 12512709
     }

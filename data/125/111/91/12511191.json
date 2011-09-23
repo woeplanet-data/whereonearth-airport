@@ -32,29 +32,35 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511191, 
-        "name": "Aeroporto Jacobina", 
-        "alias_ENG_P": [
-          "Jacobina Airport"
-        ], 
-        "ne_latitude": -11.162, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "JCM"
         ], 
+        "name": "Aeroporto Jacobina", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Jacobina Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12578437", 
+          "woe:state=2344848", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511191, 
         "ne_longitude": -40.512, 
         "longitude": -40.517, 
-        "placetype": "Airport", 
+        "parent_woeid": 12578437, 
+        "ne_latitude": -11.162, 
         "alias_POR_V": [
           "Aeroporto JCM"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 436372, 
+        "sw_latitude": -11.171, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -11.167, 
         "sw_longitude": -40.521, 
-        "fullname": "Aeroporto Jacobina, Jacobina, Bahia, Jacobina, Brazil", 
-        "sw_latitude": -11.171
+        "fullname": "Aeroporto Jacobina, Jacobina, Bahia, Brazil", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511191
     }

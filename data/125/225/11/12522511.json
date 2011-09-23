@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522511, 
-        "name": "Woodruff County Airport", 
         "alias_ENG_V": [
           "M60"
         ], 
-        "ne_latitude": 35.273, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Woodruff County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587668", 
+          "woe:state=2347562", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522511, 
         "ne_longitude": -91.261, 
         "longitude": -91.270, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587668, 
+        "ne_latitude": 35.273, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2376455, 
+        "sw_latitude": 35.270, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.270, 
         "sw_longitude": -91.278, 
-        "fullname": "Woodruff County Airport, Cavell, Arkansas, Woodruff, United States", 
-        "sw_latitude": 35.270
+        "fullname": "Woodruff County Airport, Cavell, Arkansas, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522511
     }

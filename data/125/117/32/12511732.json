@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511732, 
+        "placetype": "airport", 
         "name": "Lindsay Airport", 
-        "ne_latitude": 44.368, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=29375206", 
+          "woe:state=2344922", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511732, 
         "ne_longitude": -78.775, 
         "longitude": -78.782, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375206, 
+        "ne_latitude": 44.368, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 23398942, 
+        "sw_latitude": 44.359, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.363, 
         "sw_longitude": -78.788, 
-        "fullname": "Lindsay Airport, Ops, Ontario, Kawartha Lakes, Canada", 
-        "sw_latitude": 44.359
+        "fullname": "Lindsay Airport, Ops, Ontario, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12511732
     }

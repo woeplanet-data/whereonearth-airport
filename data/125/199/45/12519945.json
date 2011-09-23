@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519945, 
-        "name": "Graham Municipal Airport", 
         "alias_ENG_V": [
           "Rph"
         ], 
-        "ne_latitude": 33.116, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Graham Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590258", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519945, 
         "ne_longitude": -98.550, 
         "longitude": -98.557, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590258, 
+        "ne_latitude": 33.116, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2412675, 
+        "sw_latitude": 33.103, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 33.113, 
         "sw_longitude": -98.564, 
-        "fullname": "Graham Municipal Airport, Graham, Texas, Young, United States", 
-        "sw_latitude": 33.103
+        "fullname": "Graham Municipal Airport, Graham, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12519945
     }

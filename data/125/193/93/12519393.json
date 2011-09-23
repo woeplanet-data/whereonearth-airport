@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519393, 
-        "name": "Cuthbert Randolph Airport", 
         "alias_ENG_V": [
           "25j"
         ], 
-        "ne_latitude": 31.708, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Cuthbert Randolph Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587989", 
+          "woe:state=2347569", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519393, 
         "ne_longitude": -84.825, 
         "longitude": -84.825, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587989, 
+        "ne_latitude": 31.708, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2382856, 
+        "sw_latitude": 31.697, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 31.702, 
         "sw_longitude": -84.828, 
-        "fullname": "Cuthbert Randolph Airport, Grubb, Georgia, Randolph, United States", 
-        "sw_latitude": 31.697
+        "fullname": "Cuthbert Randolph Airport, Grubb, Georgia, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519393
     }

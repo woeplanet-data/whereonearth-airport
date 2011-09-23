@@ -3,28 +3,34 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -89.022, 
-              37.745
-            ], 
-            [
-              -89.022, 
-              37.765
-            ], 
-            [
-              -88.993, 
-              37.765
-            ], 
-            [
-              -88.993, 
-              37.745
-            ], 
-            [
-              -89.022, 
-              37.745
+              [
+                -89.015, 
+                37.749
+              ], 
+              [
+                -89.015, 
+                37.751
+              ], 
+              [
+                -89.014, 
+                37.750
+              ], 
+              [
+                -89.011, 
+                37.747
+              ], 
+              [
+                -89.014, 
+                37.748
+              ], 
+              [
+                -89.015, 
+                37.749
+              ]
             ]
           ]
         ]
@@ -32,23 +38,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522462, 
-        "name": "Williamson County Regional Airport", 
         "alias_ENG_V": [
           "Williamson Regional Airport"
         ], 
-        "ne_latitude": 37.765, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -88.993, 
-        "longitude": -89.010, 
-        "placetype": "Airport", 
+        "name": "Williamson County Regional Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588177", 
+          "woe:state=2347572", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522462, 
+        "ne_longitude": -89.011, 
+        "longitude": -89.014, 
+        "parent_woeid": 12588177, 
+        "ne_latitude": 37.751, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2445764, 
-        "latitude": 37.747, 
-        "sw_longitude": -89.022, 
-        "fullname": "Williamson County Regional Airport, Marion, Illinois, Williamson, United States", 
-        "sw_latitude": 37.745
+        "sw_latitude": 37.747, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 37.749, 
+        "sw_longitude": -89.015, 
+        "fullname": "Williamson County Regional Airport, Marion, Illinois, United States", 
+        "iata_code": "MWA", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522462
     }

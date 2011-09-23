@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514967, 
+        "placetype": "airport", 
         "name": "Ta Lo de Soto Airport", 
-        "ne_latitude": 16.471, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12600059", 
+          "woe:state=2346275", 
+          "woe:country=23424900", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514967, 
         "ne_longitude": -98.391, 
         "longitude": -98.396, 
-        "placetype": "Airport", 
+        "parent_woeid": 12600059, 
+        "ne_latitude": 16.471, 
         "iso": "MX", 
-        "date_indexed": "2010-12-02T16:57:55Z", 
-        "parent_woeid": 117722, 
+        "sw_latitude": 16.462, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 16.466, 
         "sw_longitude": -98.401, 
-        "fullname": "Ta Lo de Soto Airport, Cuajinicuilapa, Guerrero, Cuajinicuilapa, Mexico", 
-        "sw_latitude": 16.462
+        "fullname": "Ta Lo de Soto Airport, Cuajinicuilapa, Guerrero, Mexico", 
+        "date_indexed": "2010-12-02T16:57:55Z"
       }, 
       "id": 12514967
     }

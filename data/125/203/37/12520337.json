@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520337, 
-        "name": "Jackson Municipal Airport", 
         "alias_ENG_V": [
           "Mjq"
         ], 
-        "ne_latitude": 43.657, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Jackson Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588828", 
+          "woe:state=2347582", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520337, 
         "ne_longitude": -94.980, 
         "longitude": -94.995, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588828, 
+        "ne_latitude": 43.657, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2428180, 
+        "sw_latitude": 43.645, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.654, 
         "sw_longitude": -94.995, 
-        "fullname": "Jackson Municipal Airport, Jackson, Minnesota, Jackson, United States", 
-        "sw_latitude": 43.645
+        "fullname": "Jackson Municipal Airport, Jackson, Minnesota, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520337
     }

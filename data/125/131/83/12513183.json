@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513183, 
+        "placetype": "airport", 
         "name": "Mockau Airport", 
-        "ne_latitude": 51.389, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12596753", 
+          "woe:state=2345493", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513183, 
         "ne_longitude": 12.395, 
         "longitude": 12.387, 
-        "placetype": "Airport", 
+        "parent_woeid": 12596753, 
+        "ne_latitude": 51.389, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 671072, 
+        "sw_latitude": 51.379, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.384, 
         "sw_longitude": 12.380, 
-        "fullname": "Mockau Airport, Leipzig, Saxony, Stadtkreis Leipzig, Germany", 
+        "fullname": "Mockau Airport, Leipzig, Saxony, Germany", 
         "alias_GER_Q": [
           "Flughafen Mockau"
         ], 
-        "sw_latitude": 51.379
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 12513183
     }

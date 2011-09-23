@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521124, 
-        "name": "New Ulm Municipal Airport", 
         "alias_ENG_V": [
           "ULM"
         ], 
-        "ne_latitude": 44.326, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "New Ulm Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588804", 
+          "woe:state=2347582", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521124, 
         "ne_longitude": -94.494, 
         "longitude": -94.497, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588804, 
+        "ne_latitude": 44.326, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2459050, 
+        "sw_latitude": 44.312, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.326, 
         "sw_longitude": -94.511, 
-        "fullname": "New Ulm Municipal Airport, New Ulm, Minnesota, Brown, United States", 
-        "sw_latitude": 44.312
+        "fullname": "New Ulm Municipal Airport, New Ulm, Minnesota, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12521124
     }

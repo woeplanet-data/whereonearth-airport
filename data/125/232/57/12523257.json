@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523257, 
-        "name": "Britt (mars) Airport", 
         "alias_ENG_V": [
           "WBI Airport"
         ], 
-        "ne_latitude": 45.805, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Britt (mars) Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375111", 
+          "woe:state=2344922", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523257, 
         "ne_longitude": -80.527, 
         "longitude": -80.533, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375111, 
+        "ne_latitude": 45.805, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 166, 
+        "sw_latitude": 45.795, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.800, 
         "sw_longitude": -80.540, 
-        "fullname": "Britt (mars) Airport, Britt, Ontario, Parry Sound, Canada", 
-        "sw_latitude": 45.795
+        "fullname": "Britt (mars) Airport, Britt, Ontario, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12523257
     }

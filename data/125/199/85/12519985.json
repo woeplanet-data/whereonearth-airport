@@ -3,28 +3,62 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -77.683, 
-              43.121
-            ], 
-            [
-              -77.683, 
-              43.141
-            ], 
-            [
-              -77.656, 
-              43.141
-            ], 
-            [
-              -77.656, 
-              43.121
-            ], 
-            [
-              -77.683, 
-              43.121
+              [
+                -77.666, 
+                43.140
+              ], 
+              [
+                -77.665, 
+                43.141
+              ], 
+              [
+                -77.664, 
+                43.141
+              ], 
+              [
+                -77.664, 
+                43.141
+              ], 
+              [
+                -77.659, 
+                43.136
+              ], 
+              [
+                -77.657, 
+                43.133
+              ], 
+              [
+                -77.659, 
+                43.126
+              ], 
+              [
+                -77.664, 
+                43.123
+              ], 
+              [
+                -77.669, 
+                43.118
+              ], 
+              [
+                -77.684, 
+                43.110
+              ], 
+              [
+                -77.680, 
+                43.128
+              ], 
+              [
+                -77.679, 
+                43.140
+              ], 
+              [
+                -77.666, 
+                43.140
+              ]
             ]
           ]
         ]
@@ -32,23 +66,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519985, 
-        "name": "Greater Rochester International Airport", 
         "alias_ENG_V": [
           "Monroe County International Airport"
         ], 
+        "name": "Greater Rochester International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589339", 
+          "woe:state=2347591", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519985, 
+        "ne_longitude": -77.657, 
+        "longitude": -77.671, 
+        "parent_woeid": 12589339, 
         "ne_latitude": 43.141, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -77.656, 
-        "longitude": -77.670, 
-        "placetype": "Airport", 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2409250, 
-        "latitude": 43.131, 
-        "sw_longitude": -77.683, 
-        "fullname": "Greater Rochester International Airport, Gates, New York, Monroe, United States", 
-        "sw_latitude": 43.121
+        "sw_latitude": 43.110, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 43.128, 
+        "sw_longitude": -77.684, 
+        "fullname": "Greater Rochester International Airport, Gates, New York, United States", 
+        "iata_code": "ROC", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12519985
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521251, 
+        "placetype": "airport", 
         "name": "Osceola Municipal Airport", 
-        "ne_latitude": 41.057, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12588291", 
+          "woe:state=2347574", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521251, 
         "ne_longitude": -93.683, 
         "longitude": -93.689, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588291, 
+        "ne_latitude": 41.057, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2466572, 
+        "sw_latitude": 41.048, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.052, 
         "sw_longitude": -93.695, 
-        "fullname": "Osceola Municipal Airport, Osceola, Iowa, Clarke, United States", 
-        "sw_latitude": 41.048
+        "fullname": "Osceola Municipal Airport, Osceola, Iowa, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521251
     }

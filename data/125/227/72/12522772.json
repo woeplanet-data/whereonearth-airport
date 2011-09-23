@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522772, 
-        "name": "Del Caribe International Airport", 
         "alias_ENG_V": [
           "PMV"
         ], 
-        "ne_latitude": 10.921, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Del Caribe International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=26805118", 
+          "woe:county=26804675", 
+          "woe:state=2347693", 
+          "woe:country=23424982", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522772, 
         "ne_longitude": -63.975, 
         "longitude": -63.980, 
-        "placetype": "Airport", 
+        "parent_woeid": 26805118, 
+        "ne_latitude": 10.921, 
         "iso": "VE", 
-        "date_indexed": "2010-12-02T16:11:43Z", 
-        "parent_woeid": 468264, 
+        "sw_latitude": 10.912, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 10.917, 
         "sw_longitude": -63.985, 
-        "fullname": "Del Caribe International Airport, Los Bagres, Nueva Esparta, Diaz, Venezuela", 
-        "sw_latitude": 10.912
+        "fullname": "Del Caribe International Airport, Los Bagres, Nueva Esparta, Venezuela", 
+        "iata_code": "PMV", 
+        "date_indexed": "2010-12-02T16:11:43Z"
       }, 
       "id": 12522772
     }

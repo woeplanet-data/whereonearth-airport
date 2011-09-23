@@ -32,29 +32,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511057, 
-        "name": "Aeroporto Botucatu", 
-        "alias_ENG_P": [
-          "Botucatu Airport"
-        ], 
-        "ne_latitude": -22.932, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "QCJ"
         ], 
+        "name": "Aeroporto Botucatu", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Botucatu Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12581888", 
+          "woe:state=2344868", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511057, 
         "ne_longitude": -48.462, 
         "longitude": -48.467, 
-        "placetype": "Airport", 
+        "parent_woeid": 12581888, 
+        "ne_latitude": -22.932, 
         "alias_POR_V": [
           "Aeroporto QCJ"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 425859, 
+        "sw_latitude": -22.941, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -22.936, 
         "sw_longitude": -48.472, 
-        "fullname": "Aeroporto Botucatu, Botucatu, Sao Paulo, Botucatu, Brazil", 
-        "sw_latitude": -22.941
+        "fullname": "Aeroporto Botucatu, Botucatu, Sao Paulo, Brazil", 
+        "iata_code": "QCJ", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511057
     }

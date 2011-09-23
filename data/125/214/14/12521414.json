@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521414, 
-        "name": "Plattsburgh Air Force Base", 
         "alias_ENG_V": [
           "PBG Airport"
         ], 
-        "ne_latitude": 44.672, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Plattsburgh Air Force Base", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589321", 
+          "woe:state=2347591", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521414, 
         "ne_longitude": -73.454, 
         "longitude": -73.472, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589321, 
+        "ne_latitude": 44.672, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2473609, 
+        "sw_latitude": 44.633, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.669, 
         "sw_longitude": -73.478, 
-        "fullname": "Plattsburgh Air Force Base, Plattsburgh, New York, Clinton, United States", 
-        "sw_latitude": 44.633
+        "fullname": "Plattsburgh Air Force Base, Plattsburgh, New York, United States", 
+        "iata_code": "PBG", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521414
     }

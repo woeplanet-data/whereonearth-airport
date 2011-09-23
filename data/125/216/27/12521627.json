@@ -3,28 +3,66 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -89.059, 
-              42.608
-            ], 
-            [
-              -89.059, 
-              42.629
-            ], 
-            [
-              -89.029, 
-              42.629
-            ], 
-            [
-              -89.029, 
-              42.608
-            ], 
-            [
-              -89.059, 
-              42.608
+              [
+                -89.046, 
+                42.614
+              ], 
+              [
+                -89.046, 
+                42.615
+              ], 
+              [
+                -89.046, 
+                42.618
+              ], 
+              [
+                -89.043, 
+                42.621
+              ], 
+              [
+                -89.037, 
+                42.621
+              ], 
+              [
+                -89.035, 
+                42.622
+              ], 
+              [
+                -89.035, 
+                42.621
+              ], 
+              [
+                -89.039, 
+                42.618
+              ], 
+              [
+                -89.040, 
+                42.618
+              ], 
+              [
+                -89.037, 
+                42.613
+              ], 
+              [
+                -89.044, 
+                42.613
+              ], 
+              [
+                -89.044, 
+                42.613
+              ], 
+              [
+                -89.045, 
+                42.613
+              ], 
+              [
+                -89.046, 
+                42.614
+              ]
             ]
           ]
         ]
@@ -32,23 +70,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521627, 
-        "name": "Rock County Airport", 
         "alias_ENG_V": [
           "Southern Wisconsin Regional Airport"
         ], 
-        "ne_latitude": 42.629, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -89.029, 
-        "longitude": -89.041, 
-        "placetype": "Airport", 
+        "name": "Rock County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590587", 
+          "woe:state=2347608", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521627, 
+        "ne_longitude": -89.035, 
+        "longitude": -89.042, 
+        "parent_woeid": 12590587, 
+        "ne_latitude": 42.622, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 28744422, 
-        "latitude": 42.614, 
-        "sw_longitude": -89.059, 
-        "fullname": "Rock County Airport, Rock, Wisconsin, Rock, United States", 
-        "sw_latitude": 42.608
+        "sw_latitude": 42.613, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 42.617, 
+        "sw_longitude": -89.046, 
+        "fullname": "Rock County Airport, Rock, Wisconsin, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521627
     }

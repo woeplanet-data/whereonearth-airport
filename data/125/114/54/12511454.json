@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511454, 
+        "placetype": "airport", 
         "name": "Krushovene Airport", 
-        "ne_latitude": 43.629, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55873776", 
+          "woe:state=20070065", 
+          "woe:country=23424771", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511454, 
         "ne_longitude": 24.373, 
         "longitude": 24.367, 
-        "placetype": "Airport", 
+        "parent_woeid": 55873776, 
+        "ne_latitude": 43.629, 
         "iso": "BG", 
-        "date_indexed": "2010-12-02T16:14:37Z", 
-        "parent_woeid": 837521, 
+        "sw_latitude": 43.620, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.624, 
         "sw_longitude": 24.361, 
         "fullname": "Krushovene Airport, Pleven, Dolna Mitropoliya, Bulgaria", 
-        "sw_latitude": 43.620
+        "date_indexed": "2010-12-02T16:14:37Z"
       }, 
       "id": 12511454
     }

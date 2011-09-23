@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388295, 
+        "placetype": "airport", 
         "name": "Speedway Airport", 
-        "ne_latitude": 39.801, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12588211", 
+          "woe:state=2347573", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388295, 
         "ne_longitude": -86.359, 
         "longitude": -86.363, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588211, 
+        "ne_latitude": 39.801, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2370500, 
+        "sw_latitude": 39.796, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 39.799, 
         "sw_longitude": -86.366, 
-        "fullname": "Speedway Airport, Brownsburg, Indiana, Hendricks, United States", 
-        "sw_latitude": 39.796
+        "fullname": "Speedway Airport, Brownsburg, Indiana, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 29388295
     }

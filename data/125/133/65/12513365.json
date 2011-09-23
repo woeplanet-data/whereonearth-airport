@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513365, 
-        "name": "Capiro Airport", 
         "alias_ENG_V": [
           "TJI"
         ], 
-        "ne_latitude": 15.928, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Capiro Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26813862", 
+          "woe:state=2345625", 
+          "woe:country=23424841", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513365, 
         "ne_longitude": -85.929, 
         "longitude": -85.934, 
-        "placetype": "Airport", 
+        "parent_woeid": 26813862, 
+        "ne_latitude": 15.928, 
         "iso": "HN", 
-        "date_indexed": "2010-12-02T19:21:06Z", 
-        "parent_woeid": 107901, 
+        "sw_latitude": 15.919, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 15.924, 
         "sw_longitude": -85.939, 
-        "fullname": "Capiro Airport, Trujillo, Col\u00f3n, Trujillo, Honduras", 
-        "sw_latitude": 15.919
+        "fullname": "Capiro Airport, Trujillo, Col\u00f3n, Honduras", 
+        "date_indexed": "2010-12-02T19:21:06Z"
       }, 
       "id": 12513365
     }

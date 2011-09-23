@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513886, 
+        "placetype": "airport", 
         "name": "An Numaniyah Airport", 
-        "ne_latitude": 32.509, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55999965", 
+          "woe:state=2345848", 
+          "woe:country=23424855", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513886, 
         "ne_longitude": 45.339, 
         "longitude": 45.333, 
-        "placetype": "Airport", 
+        "parent_woeid": 55999965, 
+        "ne_latitude": 32.509, 
         "iso": "IQ", 
-        "date_indexed": "2010-12-02T16:42:58Z", 
-        "parent_woeid": 1971479, 
+        "sw_latitude": 32.500, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 32.504, 
         "sw_longitude": 45.328, 
         "fullname": "An Numaniyah Airport, Wasit, Al Na'maniya, Iraq", 
-        "sw_latitude": 32.500
+        "date_indexed": "2010-12-02T16:42:58Z"
       }, 
       "id": 12513886
     }

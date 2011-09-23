@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524282, 
-        "name": "York Landing Airport", 
         "alias_ENG_V": [
           "ZAC Airport"
         ], 
-        "ne_latitude": 56.081, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "York Landing Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375231", 
+          "woe:state=2344917", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524282, 
         "ne_longitude": -96.082, 
         "longitude": -96.090, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375231, 
+        "ne_latitude": 56.081, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 2016, 
+        "sw_latitude": 56.072, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 56.076, 
         "sw_longitude": -96.098, 
-        "fullname": "York Landing Airport, York Landing, Manitoba, Manitoba, Canada", 
-        "sw_latitude": 56.072
+        "fullname": "York Landing Airport, York Landing, Manitoba, Canada", 
+        "iata_code": "ZAC", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12524282
     }

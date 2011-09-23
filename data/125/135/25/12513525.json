@@ -3,28 +3,42 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -4.640, 
-              54.078
-            ], 
-            [
-              -4.640, 
-              54.092
-            ], 
-            [
-              -4.614, 
-              54.092
-            ], 
-            [
-              -4.614, 
-              54.078
-            ], 
-            [
-              -4.640, 
-              54.078
+              [
+                -4.633, 
+                54.087
+              ], 
+              [
+                -4.629, 
+                54.087
+              ], 
+              [
+                -4.633, 
+                54.085
+              ], 
+              [
+                -4.637, 
+                54.084
+              ], 
+              [
+                -4.636, 
+                54.087
+              ], 
+              [
+                -4.636, 
+                54.089
+              ], 
+              [
+                -4.634, 
+                54.088
+              ], 
+              [
+                -4.633, 
+                54.087
+              ]
             ]
           ]
         ]
@@ -32,23 +46,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513525, 
-        "name": "Ronaldsway Airport", 
         "alias_ENG_V": [
           "IOM Airport"
         ], 
-        "ne_latitude": 54.092, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -4.614, 
-        "longitude": -4.635, 
-        "placetype": "Airport", 
+        "name": "Ronaldsway Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=23701007", 
+          "woe:state=23424847", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513525, 
+        "ne_longitude": -4.629, 
+        "longitude": -4.634, 
+        "parent_woeid": 23701007, 
+        "ne_latitude": 54.089, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:21:01Z", 
-        "parent_woeid": 23701074, 
-        "latitude": 54.087, 
-        "sw_longitude": -4.640, 
-        "fullname": "Ronaldsway Airport, Derbyhaven, Isle of Man, Malew, United Kingdom", 
-        "sw_latitude": 54.078
+        "sw_latitude": 54.084, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 54.086, 
+        "sw_longitude": -4.637, 
+        "fullname": "Ronaldsway Airport, Derbyhaven, Isle of Man, United Kingdom", 
+        "iata_code": "IOM", 
+        "date_indexed": "2010-12-02T12:21:01Z"
       }, 
       "id": 12513525
     }

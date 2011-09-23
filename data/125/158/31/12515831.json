@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515831, 
+        "placetype": "airport", 
         "name": "Bogorodskoye Airport", 
-        "ne_latitude": 52.378, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597760", 
+          "woe:state=2346883", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515831, 
         "ne_longitude": 140.443, 
         "longitude": 140.436, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597760, 
+        "ne_latitude": 52.378, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2120341, 
+        "sw_latitude": 52.369, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 52.373, 
         "sw_longitude": 140.428, 
-        "fullname": "Bogorodskoye Airport, Bogorodskoye, Khabarovskiy Kray, Ulchsky, Russia", 
-        "sw_latitude": 52.369
+        "fullname": "Bogorodskoye Airport, Bogorodskoye, Khabarovskiy Kray, Russia", 
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12515831
     }

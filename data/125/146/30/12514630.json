@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514630, 
+        "placetype": "airport", 
         "name": "Topolcany Airport", 
-        "ne_latitude": 48.506, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=29401050", 
+          "woe:county=29399330", 
+          "woe:state=20070492", 
+          "woe:country=23424877", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514630, 
         "ne_longitude": 18.028, 
         "longitude": 18.021, 
-        "placetype": "Airport", 
+        "parent_woeid": 29401050, 
+        "ne_latitude": 48.506, 
         "iso": "SK", 
-        "date_indexed": "2010-12-02T08:50:42Z", 
-        "parent_woeid": 821352, 
+        "sw_latitude": 48.496, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.501, 
         "sw_longitude": 18.014, 
         "fullname": "Topolcany Airport, Nitriansky, Topolcany, Slovakia", 
-        "sw_latitude": 48.496
+        "date_indexed": "2010-12-02T08:50:42Z"
       }, 
       "id": 12514630
     }

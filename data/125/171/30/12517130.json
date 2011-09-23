@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517130, 
+        "placetype": "airport", 
         "name": "Uyega Airport", 
-        "ne_latitude": 60.737, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597752", 
+          "woe:state=2346883", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517130, 
         "ne_longitude": 142.741, 
         "longitude": 142.731, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597752, 
+        "ne_latitude": 60.737, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 1983910, 
+        "sw_latitude": 60.728, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 60.733, 
         "sw_longitude": 142.722, 
         "fullname": "Uyega Airport, Khabarovskiy Kray, Okhotsky, Russia", 
-        "sw_latitude": 60.728
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12517130
     }

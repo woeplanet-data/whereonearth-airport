@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519145, 
-        "name": "Charlevoix Municipal Airport", 
         "alias_ENG_V": [
           "CVX"
         ], 
-        "ne_latitude": 45.308, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Charlevoix Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588728", 
+          "woe:state=2347581", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519145, 
         "ne_longitude": -85.264, 
         "longitude": -85.265, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588728, 
+        "ne_latitude": 45.308, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2378404, 
+        "sw_latitude": 45.301, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.303, 
         "sw_longitude": -85.286, 
-        "fullname": "Charlevoix Municipal Airport, Charlevoix, Michigan, Charlevoix, United States", 
-        "sw_latitude": 45.301
+        "fullname": "Charlevoix Municipal Airport, Charlevoix, Michigan, United States", 
+        "iata_code": "CVX", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519145
     }

@@ -3,28 +3,98 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              33.785, 
-              27.174
-            ], 
-            [
-              33.785, 
-              27.197
-            ], 
-            [
-              33.811, 
-              27.197
-            ], 
-            [
-              33.811, 
-              27.174
-            ], 
-            [
-              33.785, 
-              27.174
+              [
+                33.834, 
+                27.183
+              ], 
+              [
+                33.830, 
+                27.179
+              ], 
+              [
+                33.827, 
+                27.175
+              ], 
+              [
+                33.826, 
+                27.175
+              ], 
+              [
+                33.825, 
+                27.175
+              ], 
+              [
+                33.823, 
+                27.175
+              ], 
+              [
+                33.823, 
+                27.175
+              ], 
+              [
+                33.822, 
+                27.177
+              ], 
+              [
+                33.817, 
+                27.183
+              ], 
+              [
+                33.806, 
+                27.188
+              ], 
+              [
+                33.806, 
+                27.188
+              ], 
+              [
+                33.803, 
+                27.188
+              ], 
+              [
+                33.800, 
+                27.188
+              ], 
+              [
+                33.797, 
+                27.194
+              ], 
+              [
+                33.810, 
+                27.197
+              ], 
+              [
+                33.822, 
+                27.193
+              ], 
+              [
+                33.831, 
+                27.194
+              ], 
+              [
+                33.835, 
+                27.199
+              ], 
+              [
+                33.840, 
+                27.194
+              ], 
+              [
+                33.837, 
+                27.191
+              ], 
+              [
+                33.834, 
+                27.185
+              ], 
+              [
+                33.834, 
+                27.183
+              ]
             ]
           ]
         ]
@@ -32,23 +102,28 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512692, 
-        "name": "Hurghada Airport", 
         "alias_ENG_V": [
           "HRG"
         ], 
-        "ne_latitude": 27.197, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": 33.811, 
-        "longitude": 33.798, 
-        "placetype": "Airport", 
+        "name": "Hurghada Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2345224", 
+          "woe:country=23424802", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512692, 
+        "ne_longitude": 33.840, 
+        "longitude": 33.820, 
+        "parent_woeid": 2345224, 
+        "ne_latitude": 27.199, 
         "iso": "EG", 
-        "date_indexed": "2010-12-02T12:16:51Z", 
-        "parent_woeid": 1521440, 
-        "latitude": 27.186, 
-        "sw_longitude": 33.785, 
+        "sw_latitude": 27.175, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 27.189, 
+        "sw_longitude": 33.797, 
         "fullname": "Hurghada Airport, Hurghada, Al Bahr al Ahmar, Egypt", 
-        "sw_latitude": 27.174
+        "date_indexed": "2010-12-02T12:16:51Z"
       }, 
       "id": 12512692
     }

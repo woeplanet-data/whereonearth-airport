@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510510, 
-        "name": "Junin Airport", 
         "alias_ENG_V": [
           "JNI"
         ], 
-        "ne_latitude": -34.543, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Junin Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=20070946", 
+          "woe:state=2344675", 
+          "woe:country=23424747", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510510, 
         "ne_longitude": -60.924, 
         "longitude": -60.929, 
-        "placetype": "Airport", 
+        "parent_woeid": 20070946, 
+        "ne_latitude": -34.543, 
         "iso": "AR", 
-        "date_indexed": "2010-12-02T17:41:29Z", 
-        "parent_woeid": 466877, 
+        "sw_latitude": -34.552, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -34.548, 
         "sw_longitude": -60.935, 
-        "fullname": "Junin Airport, Jun\u00edn, Buenos Aires, Junin, Argentina", 
-        "sw_latitude": -34.552
+        "fullname": "Junin Airport, Jun\u00edn, Buenos Aires, Argentina", 
+        "iata_code": "JNI", 
+        "date_indexed": "2010-12-02T17:41:29Z"
       }, 
       "id": 12510510
     }

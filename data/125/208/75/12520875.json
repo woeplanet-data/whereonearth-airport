@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520875, 
-        "name": "Mckinney Municipal Airport", 
         "alias_ENG_V": [
           "Tki"
         ], 
-        "ne_latitude": 33.192, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Mckinney Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590049", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520875, 
         "ne_longitude": -96.586, 
         "longitude": -96.592, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590049, 
+        "ne_latitude": 33.192, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2448187, 
+        "sw_latitude": 33.165, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 33.177, 
         "sw_longitude": -96.596, 
-        "fullname": "Mckinney Municipal Airport, Mckinney, Texas, Collin, United States", 
-        "sw_latitude": 33.165
+        "fullname": "Mckinney Municipal Airport, Mckinney, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520875
     }

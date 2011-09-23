@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 22656559, 
+        "placetype": "airport", 
         "name": "Yeovil Airfield", 
-        "ne_latitude": 50.942, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12696069", 
+          "woe:county=12602185", 
+          "woe:state=24554868", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 22656559, 
         "ne_longitude": -2.654, 
         "longitude": -2.662, 
-        "placetype": "Airport", 
+        "parent_woeid": 12696069, 
+        "ne_latitude": 50.942, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:21:01Z", 
-        "parent_woeid": 14307, 
+        "sw_latitude": 50.933, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.938, 
         "sw_longitude": -2.669, 
-        "fullname": "Yeovil Airfield, Brympton, England, Somerset, United Kingdom", 
-        "sw_latitude": 50.933
+        "fullname": "Yeovil Airfield, Brympton, England, United Kingdom", 
+        "date_indexed": "2010-12-02T12:21:01Z"
       }, 
       "id": 22656559
     }

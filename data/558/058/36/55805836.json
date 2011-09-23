@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 55805836, 
-        "name": "Hanover Airport", 
         "alias_ENG_V": [
           "6w6"
         ], 
-        "ne_latitude": 39.800, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Hanover Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589728", 
+          "woe:state=2347597", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 55805836, 
         "ne_longitude": -77.020, 
         "longitude": -77.026, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589728, 
+        "ne_latitude": 39.800, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 28745176, 
+        "sw_latitude": 39.791, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 39.795, 
         "sw_longitude": -77.032, 
-        "fullname": "Hanover Airport, Conewago, Pennsylvania, Adams, United States", 
-        "sw_latitude": 39.791
+        "fullname": "Hanover Airport, Conewago, Pennsylvania, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 55805836
     }

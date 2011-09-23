@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 56043501, 
+        "placetype": "airport", 
         "name": "Busselton Airport", 
-        "ne_latitude": -33.678, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55864423", 
+          "woe:state=2344706", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56043501, 
         "ne_longitude": 115.408, 
         "longitude": 115.398, 
-        "placetype": "Airport", 
+        "parent_woeid": 55864423, 
+        "ne_latitude": -33.678, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 28588184, 
+        "sw_latitude": -33.697, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -33.686, 
         "sw_longitude": 115.396, 
-        "fullname": "Busselton Airport, Yalyalup, Western Australia, Busselton, Australia", 
-        "sw_latitude": -33.697
+        "fullname": "Busselton Airport, Yalyalup, Western Australia, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 56043501
     }

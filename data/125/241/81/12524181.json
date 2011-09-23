@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524181, 
-        "name": "Nootka Sound Airport", 
         "alias_ENG_V": [
           "YNK Airport"
         ], 
-        "ne_latitude": 49.645, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Nootka Sound Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375117", 
+          "woe:state=2344916", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524181, 
         "ne_longitude": -126.626, 
         "longitude": -126.633, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375117, 
+        "ne_latitude": 49.645, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 9736, 
+        "sw_latitude": 49.636, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.641, 
         "sw_longitude": -126.640, 
-        "fullname": "Nootka Sound Airport, Nootka, British Columbia, Comox-Strathcona, Canada", 
-        "sw_latitude": 49.636
+        "fullname": "Nootka Sound Airport, Nootka, British Columbia, Canada", 
+        "iata_code": "YNK", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12524181
     }

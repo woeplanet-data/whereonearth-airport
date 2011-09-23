@@ -3,28 +3,58 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -111.211, 
-              47.489
-            ], 
-            [
-              -111.211, 
-              47.521
-            ], 
-            [
-              -111.163, 
-              47.521
-            ], 
-            [
-              -111.163, 
-              47.489
-            ], 
-            [
-              -111.211, 
-              47.489
+              [
+                -111.190, 
+                47.509
+              ], 
+              [
+                -111.188, 
+                47.515
+              ], 
+              [
+                -111.186, 
+                47.516
+              ], 
+              [
+                -111.182, 
+                47.518
+              ], 
+              [
+                -111.181, 
+                47.517
+              ], 
+              [
+                -111.186, 
+                47.514
+              ], 
+              [
+                -111.185, 
+                47.504
+              ], 
+              [
+                -111.191, 
+                47.504
+              ], 
+              [
+                -111.196, 
+                47.508
+              ], 
+              [
+                -111.201, 
+                47.507
+              ], 
+              [
+                -111.198, 
+                47.512
+              ], 
+              [
+                -111.190, 
+                47.509
+              ]
             ]
           ]
         ]
@@ -32,23 +62,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520764, 
-        "name": "Malmstrom Air Force Base", 
         "alias_ENG_V": [
           "GFA"
         ], 
-        "ne_latitude": 47.521, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -111.163, 
-        "longitude": -111.187, 
-        "placetype": "Airport", 
+        "name": "Malmstrom Air Force Base", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589087", 
+          "woe:state=2347585", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520764, 
+        "ne_longitude": -111.181, 
+        "longitude": -111.191, 
+        "parent_woeid": 12589087, 
+        "ne_latitude": 47.518, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2413588, 
-        "latitude": 47.505, 
-        "sw_longitude": -111.211, 
-        "fullname": "Malmstrom Air Force Base, Great Falls, Montana, Cascade, United States", 
-        "sw_latitude": 47.489
+        "sw_latitude": 47.504, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 47.509, 
+        "sw_longitude": -111.201, 
+        "fullname": "Malmstrom Air Force Base, Great Falls, Montana, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12520764
     }

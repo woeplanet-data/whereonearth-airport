@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517601, 
-        "name": "Khartoum Airport", 
         "alias_ENG_V": [
           "KRT"
         ], 
-        "ne_latitude": 15.596, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Khartoum Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=20069819", 
+          "woe:country=23424952", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517601, 
         "ne_longitude": 32.558, 
         "longitude": 32.553, 
-        "placetype": "Airport", 
+        "parent_woeid": 20069819, 
+        "ne_latitude": 15.596, 
         "iso": "SD", 
-        "date_indexed": "2010-12-02T08:50:55Z", 
-        "parent_woeid": 1433559, 
+        "sw_latitude": 15.587, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 15.592, 
         "sw_longitude": 32.549, 
         "fullname": "Khartoum Airport, Khartoum, Al Khartum, Sudan", 
-        "sw_latitude": 15.587
+        "iata_code": "KRT", 
+        "date_indexed": "2010-12-02T08:50:55Z"
       }, 
       "id": 12517601
     }

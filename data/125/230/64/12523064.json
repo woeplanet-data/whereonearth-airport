@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523064, 
-        "name": "Lee Airport", 
         "alias_ENG_V": [
           "ANP"
         ], 
-        "ne_latitude": 38.947, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Lee Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588677", 
+          "woe:state=2347579", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523064, 
         "ne_longitude": -76.563, 
         "longitude": -76.569, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588677, 
+        "ne_latitude": 38.947, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2397230, 
+        "sw_latitude": 38.938, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.943, 
         "sw_longitude": -76.574, 
-        "fullname": "Lee Airport, Edgewater Beach, Maryland, Anne Arundel, United States", 
-        "sw_latitude": 38.938
+        "fullname": "Lee Airport, Edgewater Beach, Maryland, United States", 
+        "iata_code": "ANP", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12523064
     }

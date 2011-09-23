@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511770, 
+        "placetype": "airport", 
         "name": "Nelson Airport", 
-        "ne_latitude": 49.496, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=29375076", 
+          "woe:state=2344916", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511770, 
         "ne_longitude": -117.296, 
         "longitude": -117.303, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375076, 
+        "ne_latitude": 49.496, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 9890, 
+        "sw_latitude": 49.487, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.492, 
         "sw_longitude": -117.310, 
-        "fullname": "Nelson Airport, Nelson, British Columbia, Central Kootenay, Canada", 
-        "sw_latitude": 49.487
+        "fullname": "Nelson Airport, Nelson, British Columbia, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12511770
     }

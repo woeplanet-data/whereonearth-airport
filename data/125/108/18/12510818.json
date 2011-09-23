@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510818, 
-        "name": "Wudinna Aerodrome", 
         "alias_ENG_V": [
           "Wudinna Airport"
         ], 
-        "ne_latitude": -33.034, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Wudinna Aerodrome", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55864120", 
+          "woe:state=2344703", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510818, 
         "ne_longitude": 135.455, 
         "longitude": 135.453, 
-        "placetype": "Airport", 
+        "parent_woeid": 55864120, 
+        "ne_latitude": -33.034, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1106888, 
+        "sw_latitude": -33.046, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -33.045, 
         "sw_longitude": 135.439, 
-        "fullname": "Wudinna Aerodrome, Wudinna, South Australia, Le Hunte, Australia", 
-        "sw_latitude": -33.046
+        "fullname": "Wudinna Aerodrome, Wudinna, South Australia, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 12510818
     }

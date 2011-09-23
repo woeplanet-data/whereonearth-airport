@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523752, 
-        "name": "Valcheta Airport", 
         "alias_ENG_V": [
           "VCF"
         ], 
-        "ne_latitude": -40.695, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Valcheta Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=20070731", 
+          "woe:state=2344690", 
+          "woe:country=23424747", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523752, 
         "ne_longitude": -66.144, 
         "longitude": -66.150, 
-        "placetype": "Airport", 
+        "parent_woeid": 20070731, 
+        "ne_latitude": -40.695, 
         "iso": "AR", 
-        "date_indexed": "2010-12-02T17:41:29Z", 
-        "parent_woeid": 467447, 
+        "sw_latitude": -40.705, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -40.700, 
         "sw_longitude": -66.156, 
-        "fullname": "Valcheta Airport, Valcheta, Rio Negro, Valcheta, Argentina", 
-        "sw_latitude": -40.705
+        "fullname": "Valcheta Airport, Valcheta, Rio Negro, Argentina", 
+        "date_indexed": "2010-12-02T17:41:29Z"
       }, 
       "id": 12523752
     }

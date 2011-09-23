@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513475, 
-        "name": "Japura Airport", 
         "alias_ENG_V": [
           "RGT"
         ], 
-        "ne_latitude": -0.348, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Japura Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=56000396", 
+          "woe:state=2345728", 
+          "woe:country=23424846", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513475, 
         "ne_longitude": 102.338, 
         "longitude": 102.333, 
-        "placetype": "Airport", 
+        "parent_woeid": 56000396, 
+        "ne_latitude": -0.348, 
         "iso": "ID", 
-        "date_indexed": "2010-12-02T16:54:32Z", 
-        "parent_woeid": 1028756, 
+        "sw_latitude": -0.357, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -0.352, 
         "sw_longitude": 102.329, 
         "fullname": "Japura Airport, Riau, Indragiri Hulu, Indonesia", 
-        "sw_latitude": -0.357
+        "iata_code": "RGT", 
+        "date_indexed": "2010-12-02T16:54:32Z"
       }, 
       "id": 12513475
     }

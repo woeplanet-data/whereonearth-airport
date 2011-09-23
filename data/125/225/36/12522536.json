@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522536, 
-        "name": "Yolo County Airport", 
         "alias_ENG_V": [
           "2q3"
         ], 
-        "ne_latitude": 38.590, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Yolo County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587726", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522536, 
         "ne_longitude": -121.850, 
         "longitude": -121.852, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587726, 
+        "ne_latitude": 38.590, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2473343, 
+        "sw_latitude": 38.570, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.584, 
         "sw_longitude": -121.859, 
-        "fullname": "Yolo County Airport, Plainfield, California, Yolo, United States", 
-        "sw_latitude": 38.570
+        "fullname": "Yolo County Airport, Plainfield, California, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522536
     }

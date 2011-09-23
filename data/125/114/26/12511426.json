@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511426, 
+        "placetype": "airport", 
         "name": "Gita Airport", 
-        "ne_latitude": 42.194, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55873785", 
+          "woe:state=20070054", 
+          "woe:country=23424771", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511426, 
         "ne_longitude": 25.443, 
         "longitude": 25.437, 
-        "placetype": "Airport", 
+        "parent_woeid": 55873785, 
+        "ne_latitude": 42.194, 
         "iso": "BG", 
-        "date_indexed": "2010-12-02T16:14:37Z", 
-        "parent_woeid": 836337, 
+        "sw_latitude": 42.185, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.189, 
         "sw_longitude": 25.431, 
         "fullname": "Gita Airport, Stara Zagora, Chirpan, Bulgaria", 
-        "sw_latitude": 42.185
+        "date_indexed": "2010-12-02T16:14:37Z"
       }, 
       "id": 12511426
     }

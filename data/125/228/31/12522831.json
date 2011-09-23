@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522831, 
-        "name": "Pedernales Airport", 
         "alias_ENG_V": [
           "PDZ"
         ], 
-        "ne_latitude": 9.975, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Pedernales Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=26805769", 
+          "woe:county=26804452", 
+          "woe:state=2347685", 
+          "woe:country=23424982", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522831, 
         "ne_longitude": -62.234, 
         "longitude": -62.238, 
-        "placetype": "Airport", 
+        "parent_woeid": 26805769, 
+        "ne_latitude": 9.975, 
         "iso": "VE", 
-        "date_indexed": "2010-12-02T16:11:43Z", 
-        "parent_woeid": 468303, 
+        "sw_latitude": 9.966, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 9.971, 
         "sw_longitude": -62.243, 
-        "fullname": "Pedernales Airport, Pedernales, Delta Amacuro, Pedernales, Venezuela", 
-        "sw_latitude": 9.966
+        "fullname": "Pedernales Airport, Pedernales, Delta Amacuro, Venezuela", 
+        "iata_code": "PDZ", 
+        "date_indexed": "2010-12-02T16:11:43Z"
       }, 
       "id": 12522831
     }

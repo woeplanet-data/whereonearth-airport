@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517089, 
+        "placetype": "airport", 
         "name": "Urengoy Airport", 
-        "ne_latitude": 65.959, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599473", 
+          "woe:state=20070525", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517089, 
         "ne_longitude": 78.407, 
         "longitude": 78.395, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599473, 
+        "ne_latitude": 65.959, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2100597, 
+        "sw_latitude": 65.950, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 65.955, 
         "sw_longitude": 78.384, 
         "fullname": "Urengoy Airport, Yamalo-Nenetskiy Avtonomnyy Okrug, Purovsky, Russia", 
-        "sw_latitude": 65.950
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12517089
     }

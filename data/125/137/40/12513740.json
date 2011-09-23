@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513740, 
+        "placetype": "airport", 
         "name": "Lar Airport", 
-        "ne_latitude": 27.678, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345772", 
+          "woe:country=23424851", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513740, 
         "ne_longitude": 54.385, 
         "longitude": 54.380, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345772, 
+        "ne_latitude": 27.678, 
         "iso": "IR", 
-        "date_indexed": "2010-12-02T08:53:52Z", 
-        "parent_woeid": 2254872, 
+        "sw_latitude": 27.669, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 27.674, 
         "sw_longitude": 54.375, 
         "fullname": "Lar Airport, Latifi, Fars, Iran", 
-        "sw_latitude": 27.669
+        "date_indexed": "2010-12-02T08:53:52Z"
       }, 
       "id": 12513740
     }

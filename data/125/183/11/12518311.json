@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518311, 
+        "placetype": "airport", 
         "name": "Kozel Shchina Airport", 
-        "ne_latitude": 49.205, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2347550", 
+          "woe:country=23424976", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518311, 
         "ne_longitude": 33.867, 
         "longitude": 33.860, 
-        "placetype": "Airport", 
+        "parent_woeid": 2347550, 
+        "ne_latitude": 49.205, 
         "iso": "UA", 
-        "date_indexed": "2010-12-02T08:52:33Z", 
-        "parent_woeid": 923911, 
+        "sw_latitude": 49.196, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.200, 
         "sw_longitude": 33.853, 
         "fullname": "Kozel Shchina Airport, Kozel'shchina, Poltava Oblast, Ukraine", 
-        "sw_latitude": 49.196
+        "date_indexed": "2010-12-02T08:52:33Z"
       }, 
       "id": 12518311
     }

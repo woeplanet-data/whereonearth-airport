@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29387830, 
-        "name": "Sekiu Airport", 
         "alias_ENG_V": [
           "11s"
         ], 
-        "ne_latitude": 48.268, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Sekiu Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590444", 
+          "woe:state=2347606", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29387830, 
         "ne_longitude": -124.308, 
         "longitude": -124.308, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590444, 
+        "ne_latitude": 48.268, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2490623, 
+        "sw_latitude": 48.265, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.266, 
         "sw_longitude": -124.321, 
-        "fullname": "Sekiu Airport, Sekiu, Washington, Clallam, United States", 
-        "sw_latitude": 48.265
+        "fullname": "Sekiu Airport, Sekiu, Washington, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 29387830
     }

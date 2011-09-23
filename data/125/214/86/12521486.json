@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521486, 
+        "placetype": "airport", 
         "name": "Propwash Airport", 
-        "ne_latitude": 33.085, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12590067", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521486, 
         "ne_longitude": -97.351, 
         "longitude": -97.357, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590067, 
+        "ne_latitude": 33.085, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2430384, 
+        "sw_latitude": 33.076, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 33.081, 
         "sw_longitude": -97.362, 
-        "fullname": "Propwash Airport, Justin, Texas, Denton, United States", 
-        "sw_latitude": 33.076
+        "fullname": "Propwash Airport, Justin, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521486
     }

@@ -3,28 +3,30 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              1.733, 
-              47.979
-            ], 
-            [
-              1.733, 
-              48.003
-            ], 
-            [
-              1.784, 
-              48.003
-            ], 
-            [
-              1.784, 
-              47.979
-            ], 
-            [
-              1.733, 
-              47.979
+              [
+                1.770, 
+                47.988
+              ], 
+              [
+                1.771, 
+                47.986
+              ], 
+              [
+                1.767, 
+                47.986
+              ], 
+              [
+                1.768, 
+                47.987
+              ], 
+              [
+                1.770, 
+                47.988
+              ]
             ]
           ]
         ]
@@ -32,29 +34,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512863, 
-        "name": "Bricy Airport", 
         "alias_ENG_V": [
           "ORE"
         ], 
-        "ne_latitude": 48.003, 
-        "ne_longitude": 1.784, 
-        "longitude": 1.763, 
-        "parent_woeid": 581930, 
-        "placetype": "Airport", 
+        "name": "Bricy Airport", 
+        "hierarchy": [
+          "woe:localadmin=12639940", 
+          "woe:county=12597141", 
+          "woe:state=7153314", 
+          "woe:country=23424819", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512863, 
+        "provider": "geoplanet 7.6.0", 
+        "ne_longitude": 1.771, 
+        "longitude": 1.769, 
+        "parent_woeid": 12639940, 
+        "placetype": "airport", 
+        "latitude": 47.987, 
+        "iso": "FR", 
+        "sw_latitude": 47.986, 
+        "ne_latitude": 47.988, 
         "alias_FRE_V": [
           "ORE A\u00e9roport"
         ], 
-        "iso": "FR", 
-        "date_indexed": "2010-12-02T12:04:01Z", 
-        "provider": "geoplanet 7.6.0", 
-        "latitude": 47.988, 
-        "sw_longitude": 1.733, 
-        "fullname": "Bricy Airport, Bricy, Centre, Loiret, France", 
+        "sw_longitude": 1.767, 
+        "fullname": "Bricy Airport, Bricy, Centre, France", 
         "alias_FRE_S": [
           "Aeroport ORE"
         ], 
-        "sw_latitude": 47.979
+        "date_indexed": "2010-12-02T12:04:01Z"
       }, 
       "id": 12512863
     }

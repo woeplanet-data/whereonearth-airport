@@ -32,29 +32,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12523762, 
-        "name": "Aeroporto Votuporanga", 
-        "alias_ENG_P": [
-          "Votuporanga Airport"
-        ], 
-        "ne_latitude": -20.395, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "VOT"
         ], 
+        "name": "Aeroporto Votuporanga", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Votuporanga Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12582383", 
+          "woe:state=2344868", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523762, 
         "ne_longitude": -49.978, 
         "longitude": -49.983, 
-        "placetype": "Airport", 
+        "parent_woeid": 12582383, 
+        "ne_latitude": -20.395, 
         "alias_POR_V": [
           "Aeroporto VOT"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:28Z", 
-        "parent_woeid": 458284, 
+        "sw_latitude": -20.405, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -20.400, 
         "sw_longitude": -49.988, 
-        "fullname": "Aeroporto Votuporanga, Votuporanga, Sao Paulo, Votuporanga, Brazil", 
-        "sw_latitude": -20.405
+        "fullname": "Aeroporto Votuporanga, Votuporanga, Sao Paulo, Brazil", 
+        "iata_code": "VOT", 
+        "date_indexed": "2010-12-02T18:01:28Z"
       }, 
       "id": 12523762
     }

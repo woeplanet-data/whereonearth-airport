@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 28677634, 
+        "placetype": "airport", 
         "name": "Dunbar Aerodrome", 
-        "ne_latitude": -16.009, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55864340", 
+          "woe:state=2344702", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 28677634, 
         "ne_longitude": 142.399, 
         "longitude": 142.394, 
-        "placetype": "Airport", 
+        "parent_woeid": 55864340, 
+        "ne_latitude": -16.009, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 28586010, 
+        "sw_latitude": -16.018, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -16.014, 
         "sw_longitude": 142.389, 
-        "fullname": "Dunbar Aerodrome, Maramie, Queensland, Carpentaria Shire, Australia", 
-        "sw_latitude": -16.018
+        "fullname": "Dunbar Aerodrome, Maramie, Queensland, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 28677634
     }

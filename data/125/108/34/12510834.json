@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510834, 
+        "placetype": "airport", 
         "name": "Arizona Farm Airport", 
-        "ne_latitude": -22.599, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2344741", 
+          "woe:country=23424755", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510834, 
         "ne_longitude": 28.296, 
         "longitude": 28.291, 
-        "placetype": "Airport", 
+        "parent_woeid": 2344741, 
+        "ne_latitude": -22.599, 
         "iso": "BW", 
-        "date_indexed": "2010-12-02T10:22:50Z", 
-        "parent_woeid": 1265963, 
+        "sw_latitude": -22.608, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -22.604, 
         "sw_longitude": 28.286, 
         "fullname": "Arizona Farm Airport, Central, Botswana", 
-        "sw_latitude": -22.608
+        "date_indexed": "2010-12-02T10:22:50Z"
       }, 
       "id": 12510834
     }

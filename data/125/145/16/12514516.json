@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514516, 
+        "placetype": "airport", 
         "name": "Yeltay Airport", 
-        "ne_latitude": 45.648, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=20070180", 
+          "woe:country=23424871", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514516, 
         "ne_longitude": 79.894, 
         "longitude": 79.888, 
-        "placetype": "Airport", 
+        "parent_woeid": 20070180, 
+        "ne_latitude": 45.648, 
         "iso": "KZ", 
-        "date_indexed": "2010-12-02T08:54:13Z", 
-        "parent_woeid": 2261491, 
+        "sw_latitude": 45.639, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.644, 
         "sw_longitude": 79.881, 
         "fullname": "Yeltay Airport, Almaty, Kazakhstan", 
-        "sw_latitude": 45.639
+        "date_indexed": "2010-12-02T08:54:13Z"
       }, 
       "id": 12514516
     }

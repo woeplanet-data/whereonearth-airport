@@ -3,28 +3,30 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -74.148, 
-              4.694
-            ], 
-            [
-              -74.148, 
-              4.704
-            ], 
-            [
-              -74.139, 
-              4.704
-            ], 
-            [
-              -74.139, 
-              4.694
-            ], 
-            [
-              -74.148, 
-              4.694
+              [
+                -74.145, 
+                4.700
+              ], 
+              [
+                -74.143, 
+                4.700
+              ], 
+              [
+                -74.144, 
+                4.699
+              ], 
+              [
+                -74.145, 
+                4.699
+              ], 
+              [
+                -74.145, 
+                4.700
+              ]
             ]
           ]
         ]
@@ -32,23 +34,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512375, 
-        "name": "Eldorado International Airport", 
         "alias_ENG_V": [
           "BOG"
         ], 
-        "ne_latitude": 4.704, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -74.139, 
+        "name": "Eldorado International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26796754", 
+          "woe:state=2345079", 
+          "woe:country=23424787", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512375, 
+        "ne_longitude": -74.143, 
         "longitude": -74.144, 
-        "placetype": "Airport", 
+        "parent_woeid": 26796754, 
+        "ne_latitude": 4.700, 
         "iso": "CO", 
-        "date_indexed": "2010-12-02T17:57:37Z", 
-        "parent_woeid": 368203, 
-        "latitude": 4.699, 
-        "sw_longitude": -74.148, 
-        "fullname": "Eldorado International Airport, Fontib\u00f3n, Distrito Especial, Santafe de Bogota D.c., Colombia", 
-        "sw_latitude": 4.694
+        "sw_latitude": 4.699, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 4.700, 
+        "sw_longitude": -74.145, 
+        "fullname": "Eldorado International Airport, Fontib\u00f3n, Distrito Especial, Colombia", 
+        "iata_code": "BOG", 
+        "date_indexed": "2010-12-02T17:57:37Z"
       }, 
       "id": 12512375
     }

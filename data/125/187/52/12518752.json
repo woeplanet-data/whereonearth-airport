@@ -3,28 +3,46 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -88.259, 
-              30.676
-            ], 
-            [
-              -88.259, 
-              30.709
-            ], 
-            [
-              -88.230, 
-              30.709
-            ], 
-            [
-              -88.230, 
-              30.676
-            ], 
-            [
-              -88.259, 
-              30.676
+              [
+                -88.245, 
+                30.682
+              ], 
+              [
+                -88.246, 
+                30.683
+              ], 
+              [
+                -88.246, 
+                30.683
+              ], 
+              [
+                -88.246, 
+                30.683
+              ], 
+              [
+                -88.245, 
+                30.683
+              ], 
+              [
+                -88.245, 
+                30.683
+              ], 
+              [
+                -88.244, 
+                30.681
+              ], 
+              [
+                -88.245, 
+                30.681
+              ], 
+              [
+                -88.245, 
+                30.682
+              ]
             ]
           ]
         ]
@@ -32,23 +50,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518752, 
-        "name": "Mobile Regional Airport", 
         "alias_ENG_V": [
           "Mobile Regional"
         ], 
-        "ne_latitude": 30.709, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -88.230, 
-        "longitude": -88.243, 
-        "placetype": "Airport", 
-        "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
+        "name": "Mobile Regional Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:suburb=55860166", 
+          "woe:county=12587535", 
+          "woe:state=2347559", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518752, 
+        "ne_longitude": -88.244, 
+        "longitude": -88.245, 
         "parent_woeid": 55860166, 
-        "latitude": 30.677, 
-        "sw_longitude": -88.259, 
-        "fullname": "Mobile Regional Airport, Mobile, Alabama, Mobile, United States", 
-        "sw_latitude": 30.676
+        "ne_latitude": 30.683, 
+        "iso": "US", 
+        "sw_latitude": 30.681, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 30.682, 
+        "sw_longitude": -88.246, 
+        "fullname": "Mobile Regional Airport, Mobile, Alabama, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518752
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523364, 
-        "name": "Paihia Airport", 
         "alias_ENG_V": [
           "PIJ Airport"
         ], 
-        "ne_latitude": -35.280, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Paihia Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55875844", 
+          "woe:state=15021755", 
+          "woe:country=23424916", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523364, 
         "ne_longitude": 174.088, 
         "longitude": 174.082, 
-        "placetype": "Airport", 
+        "parent_woeid": 55875844, 
+        "ne_latitude": -35.280, 
         "iso": "NZ", 
-        "date_indexed": "2010-12-02T17:02:39Z", 
-        "parent_woeid": 2350008, 
+        "sw_latitude": -35.289, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -35.285, 
         "sw_longitude": 174.077, 
-        "fullname": "Paihia Airport, Paihia, Northland, Far North District, New Zealand", 
-        "sw_latitude": -35.289
+        "fullname": "Paihia Airport, Paihia, Northland, New Zealand", 
+        "iata_code": "PIJ", 
+        "date_indexed": "2010-12-02T17:02:39Z"
       }, 
       "id": 12523364
     }

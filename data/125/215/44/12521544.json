@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521544, 
-        "name": "Red Oak Municipal Airport", 
         "alias_ENG_V": [
           "RDK"
         ], 
-        "ne_latitude": 41.016, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Red Oak Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588340", 
+          "woe:state=2347574", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521544, 
         "ne_longitude": -95.252, 
         "longitude": -95.257, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588340, 
+        "ne_latitude": 41.016, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2479423, 
+        "sw_latitude": 41.005, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.016, 
         "sw_longitude": -95.268, 
-        "fullname": "Red Oak Municipal Airport, Red Oak, Iowa, Montgomery, United States", 
-        "sw_latitude": 41.005
+        "fullname": "Red Oak Municipal Airport, Red Oak, Iowa, United States", 
+        "iata_code": "RDK", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521544
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511239, 
+        "placetype": "airport", 
         "name": "Aeroporto Mostardas", 
         "alias_ENG_P": [
           "Mostardas Airport"
         ], 
-        "ne_latitude": -31.100, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12581409", 
+          "woe:state=2344864", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511239, 
         "ne_longitude": -50.907, 
         "longitude": -50.912, 
-        "placetype": "Airport", 
+        "parent_woeid": 12581409, 
+        "ne_latitude": -31.100, 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 457632, 
+        "sw_latitude": -31.109, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -31.104, 
         "sw_longitude": -50.917, 
-        "fullname": "Aeroporto Mostardas, Mostardas, Rio Grande do Sul, Mostardas, Brazil", 
-        "sw_latitude": -31.109
+        "fullname": "Aeroporto Mostardas, Mostardas, Rio Grande do Sul, Brazil", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511239
     }

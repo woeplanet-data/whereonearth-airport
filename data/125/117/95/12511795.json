@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511795, 
-        "name": "Port Hardy Airport", 
         "alias_ENG_V": [
           "YZT Airport"
         ], 
-        "ne_latitude": 50.688, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Port Hardy Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375223", 
+          "woe:state=2344916", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511795, 
         "ne_longitude": -127.354, 
         "longitude": -127.377, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375223, 
+        "ne_latitude": 50.688, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 29373472, 
+        "sw_latitude": 50.670, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.684, 
         "sw_longitude": -127.385, 
-        "fullname": "Port Hardy Airport, Thomas Point Indian Reserve 5, British Columbia, Mt Waddington, Canada", 
-        "sw_latitude": 50.670
+        "fullname": "Port Hardy Airport, Thomas Point Indian Reserve 5, British Columbia, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12511795
     }

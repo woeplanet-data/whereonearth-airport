@@ -32,29 +32,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511076, 
-        "name": "Aeroporto Canoas", 
-        "alias_ENG_P": [
-          "Canoas Airport"
-        ], 
-        "ne_latitude": -29.937, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "QNS"
         ], 
+        "name": "Aeroporto Canoas", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Canoas Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12581290", 
+          "woe:state=2344864", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511076, 
         "ne_longitude": -51.144, 
         "longitude": -51.149, 
-        "placetype": "Airport", 
+        "parent_woeid": 12581290, 
+        "ne_latitude": -29.937, 
         "alias_POR_V": [
           "Aeroporto QNS"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 455851, 
+        "sw_latitude": -29.946, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -29.942, 
         "sw_longitude": -51.154, 
-        "fullname": "Aeroporto Canoas, Canoas, Rio Grande do Sul, Canoas, Brazil", 
-        "sw_latitude": -29.946
+        "fullname": "Aeroporto Canoas, Canoas, Rio Grande do Sul, Brazil", 
+        "iata_code": "QNS", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511076
     }

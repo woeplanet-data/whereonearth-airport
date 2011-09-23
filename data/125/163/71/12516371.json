@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516371, 
+        "placetype": "airport", 
         "name": "Lyambir Airport", 
-        "ne_latitude": 54.297, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597499", 
+          "woe:state=2346876", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516371, 
         "ne_longitude": 45.180, 
         "longitude": 45.173, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597499, 
+        "ne_latitude": 54.297, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2088831, 
+        "sw_latitude": 54.288, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 54.292, 
         "sw_longitude": 45.165, 
         "fullname": "Lyambir Airport, Mordoviya, Romodanovsky, Russia", 
-        "sw_latitude": 54.288
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516371
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511438, 
+        "placetype": "airport", 
         "name": "Ivanovo Airport", 
-        "ne_latitude": 41.842, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55873723", 
+          "woe:state=20070073", 
+          "woe:country=23424771", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511438, 
         "ne_longitude": 25.882, 
         "longitude": 25.876, 
-        "placetype": "Airport", 
+        "parent_woeid": 55873723, 
+        "ne_latitude": 41.842, 
         "iso": "BG", 
-        "date_indexed": "2010-12-02T16:14:37Z", 
-        "parent_woeid": 836800, 
+        "sw_latitude": 41.833, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.838, 
         "sw_longitude": 25.870, 
         "fullname": "Ivanovo Airport, Khaskovo, Harmanli, Bulgaria", 
-        "sw_latitude": 41.833
+        "date_indexed": "2010-12-02T16:14:37Z"
       }, 
       "id": 12511438
     }

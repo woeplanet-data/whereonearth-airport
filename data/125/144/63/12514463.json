@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514463, 
+        "placetype": "airport", 
         "name": "Shagyr Airport", 
-        "ne_latitude": 42.177, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345982", 
+          "woe:country=23424871", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514463, 
         "ne_longitude": 68.846, 
         "longitude": 68.840, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345982, 
+        "ne_latitude": 42.177, 
         "iso": "KZ", 
-        "date_indexed": "2010-12-02T08:54:13Z", 
-        "parent_woeid": 2264697, 
+        "sw_latitude": 42.168, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.173, 
         "sw_longitude": 68.834, 
         "fullname": "Shagyr Airport, Ongtustik Qazaqstan, Kazakhstan", 
-        "sw_latitude": 42.168
+        "date_indexed": "2010-12-02T08:54:13Z"
       }, 
       "id": 12514463
     }

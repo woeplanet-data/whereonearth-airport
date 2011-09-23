@@ -32,29 +32,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511163, 
-        "name": "Aeroporto Guanambi", 
-        "alias_ENG_P": [
-          "Guanambi Airport"
-        ], 
-        "ne_latitude": -14.198, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "GNM"
         ], 
+        "name": "Aeroporto Guanambi", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Guanambi Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12578372", 
+          "woe:state=2344848", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511163, 
         "ne_longitude": -42.737, 
         "longitude": -42.742, 
-        "placetype": "Airport", 
+        "parent_woeid": 12578372, 
+        "ne_latitude": -14.198, 
         "alias_POR_V": [
           "Aeroporto GNM"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 457236, 
+        "sw_latitude": -14.207, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -14.203, 
         "sw_longitude": -42.746, 
-        "fullname": "Aeroporto Guanambi, Guanambi, Bahia, Guanambi, Brazil", 
-        "sw_latitude": -14.207
+        "fullname": "Aeroporto Guanambi, Guanambi, Bahia, Brazil", 
+        "iata_code": "GNM", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511163
     }

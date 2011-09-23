@@ -3,28 +3,30 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -71.775, 
-              42.545
-            ], 
-            [
-              -71.775, 
-              42.564
-            ], 
-            [
-              -71.749, 
-              42.564
-            ], 
-            [
-              -71.749, 
-              42.545
-            ], 
-            [
-              -71.775, 
-              42.545
+              [
+                -71.761, 
+                42.549
+              ], 
+              [
+                -71.757, 
+                42.547
+              ], 
+              [
+                -71.759, 
+                42.547
+              ], 
+              [
+                -71.762, 
+                42.548
+              ], 
+              [
+                -71.761, 
+                42.549
+              ]
             ]
           ]
         ]
@@ -32,23 +34,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519735, 
-        "name": "Fitchburg Municipal Airport", 
         "alias_ENG_V": [
           "FIT"
         ], 
-        "ne_latitude": 42.564, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -71.749, 
-        "longitude": -71.754, 
-        "placetype": "Airport", 
+        "name": "Fitchburg Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588713", 
+          "woe:state=2347580", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519735, 
+        "ne_longitude": -71.757, 
+        "longitude": -71.760, 
+        "parent_woeid": 12588713, 
+        "ne_latitude": 42.549, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2403708, 
-        "latitude": 42.555, 
-        "sw_longitude": -71.775, 
-        "fullname": "Fitchburg Municipal Airport, Fitchburg, Massachusetts, Worcester, United States", 
-        "sw_latitude": 42.545
+        "sw_latitude": 42.547, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 42.548, 
+        "sw_longitude": -71.762, 
+        "fullname": "Fitchburg Municipal Airport, Fitchburg, Massachusetts, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12519735
     }

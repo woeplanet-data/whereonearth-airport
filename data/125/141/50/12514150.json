@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514150, 
+        "placetype": "airport", 
         "name": "Kwail Airport", 
-        "ne_latitude": 38.376, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345952", 
+          "woe:country=23424865", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514150, 
         "ne_longitude": 125.049, 
         "longitude": 125.043, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345952, 
+        "ne_latitude": 38.376, 
         "iso": "KP", 
-        "date_indexed": "2010-12-02T10:22:43Z", 
-        "parent_woeid": 1093855, 
+        "sw_latitude": 38.367, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.371, 
         "sw_longitude": 125.037, 
         "fullname": "Kwail Airport, Changyon, Hwanghae-namdo, North Korea", 
-        "sw_latitude": 38.367
+        "date_indexed": "2010-12-02T10:22:43Z"
       }, 
       "id": 12514150
     }

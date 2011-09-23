@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515048, 
-        "name": "Tahoua Airport", 
         "alias_ENG_V": [
           "THZ"
         ], 
-        "ne_latitude": 14.878, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Tahoua Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=56055518", 
+          "woe:state=2346329", 
+          "woe:country=23424906", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515048, 
         "ne_longitude": 5.268, 
         "longitude": 5.263, 
-        "placetype": "Airport", 
+        "parent_woeid": 56055518, 
+        "ne_latitude": 14.878, 
         "iso": "NE", 
-        "date_indexed": "2010-12-02T17:43:23Z", 
-        "parent_woeid": 1382584, 
+        "sw_latitude": 14.869, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 14.874, 
         "sw_longitude": 5.258, 
-        "fullname": "Tahoua Airport, Tahoua, Tahoua, Tahoua, Niger", 
-        "sw_latitude": 14.869
+        "fullname": "Tahoua Airport, Tahoua, Tahoua, Niger", 
+        "iata_code": "THZ", 
+        "date_indexed": "2010-12-02T17:43:23Z"
       }, 
       "id": 12515048
     }

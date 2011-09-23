@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524314, 
-        "name": "Las Canas Airport", 
         "alias_ENG_V": [
           "LCS"
         ], 
-        "ne_latitude": 10.421, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Las Canas Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=26808916", 
+          "woe:county=26808796", 
+          "woe:state=2345084", 
+          "woe:country=23424791", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524314, 
         "ne_longitude": -85.129, 
         "longitude": -85.133, 
-        "placetype": "Airport", 
+        "parent_woeid": 26808916, 
+        "ne_latitude": 10.421, 
         "iso": "CR", 
-        "date_indexed": "2010-12-02T12:16:27Z", 
-        "parent_woeid": 58151, 
+        "sw_latitude": 10.412, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 10.417, 
         "sw_longitude": -85.138, 
         "fullname": "Las Canas Airport, Guanacaste, Ca\u00f1as, Costa Rica", 
-        "sw_latitude": 10.412
+        "date_indexed": "2010-12-02T12:16:27Z"
       }, 
       "id": 12524314
     }

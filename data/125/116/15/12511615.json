@@ -3,28 +3,30 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -94.084, 
-              58.719
-            ], 
-            [
-              -94.084, 
-              58.764
-            ], 
-            [
-              -94.049, 
-              58.764
-            ], 
-            [
-              -94.049, 
-              58.719
-            ], 
-            [
-              -94.084, 
-              58.719
+              [
+                -94.078, 
+                58.759
+              ], 
+              [
+                -94.077, 
+                58.758
+              ], 
+              [
+                -94.079, 
+                58.756
+              ], 
+              [
+                -94.080, 
+                58.755
+              ], 
+              [
+                -94.078, 
+                58.759
+              ]
             ]
           ]
         ]
@@ -32,23 +34,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511615, 
-        "name": "Churchill Airport", 
         "alias_ENG_V": [
           "YYQ Airport"
         ], 
-        "ne_latitude": 58.764, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -94.049, 
-        "longitude": -94.068, 
-        "placetype": "Airport", 
+        "name": "Churchill Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375231", 
+          "woe:state=2344917", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511615, 
+        "ne_longitude": -94.077, 
+        "longitude": -94.078, 
+        "parent_woeid": 29375231, 
+        "ne_latitude": 58.759, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 2022, 
-        "latitude": 58.756, 
-        "sw_longitude": -94.084, 
-        "fullname": "Churchill Airport, Churchill, Manitoba, Manitoba, Canada", 
-        "sw_latitude": 58.719
+        "sw_latitude": 58.755, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 58.757, 
+        "sw_longitude": -94.080, 
+        "fullname": "Churchill Airport, Churchill, Manitoba, Canada", 
+        "iata_code": "YYQ", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12511615
     }

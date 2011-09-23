@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518791, 
-        "name": "Beloit Municipal Airport", 
         "alias_ENG_V": [
           "K61"
         ], 
-        "ne_latitude": 39.481, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Beloit Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588432", 
+          "woe:state=2347575", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518791, 
         "ne_longitude": -98.125, 
         "longitude": -98.128, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588432, 
+        "ne_latitude": 39.481, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2362311, 
+        "sw_latitude": 39.466, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 39.467, 
         "sw_longitude": -98.135, 
-        "fullname": "Beloit Municipal Airport, Beloit, Kansas, Mitchell, United States", 
-        "sw_latitude": 39.466
+        "fullname": "Beloit Municipal Airport, Beloit, Kansas, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518791
     }

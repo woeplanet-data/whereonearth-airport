@@ -3,28 +3,90 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -73.116, 
-              40.782
-            ], 
-            [
-              -73.116, 
-              40.810
-            ], 
-            [
-              -73.085, 
-              40.810
-            ], 
-            [
-              -73.085, 
-              40.782
-            ], 
-            [
-              -73.116, 
-              40.782
+              [
+                -73.107, 
+                40.791
+              ], 
+              [
+                -73.105, 
+                40.791
+              ], 
+              [
+                -73.101, 
+                40.791
+              ], 
+              [
+                -73.099, 
+                40.795
+              ], 
+              [
+                -73.096, 
+                40.793
+              ], 
+              [
+                -73.095, 
+                40.790
+              ], 
+              [
+                -73.095, 
+                40.790
+              ], 
+              [
+                -73.097, 
+                40.789
+              ], 
+              [
+                -73.099, 
+                40.787
+              ], 
+              [
+                -73.103, 
+                40.788
+              ], 
+              [
+                -73.105, 
+                40.788
+              ], 
+              [
+                -73.109, 
+                40.785
+              ], 
+              [
+                -73.111, 
+                40.782
+              ], 
+              [
+                -73.110, 
+                40.785
+              ], 
+              [
+                -73.110, 
+                40.785
+              ], 
+              [
+                -73.110, 
+                40.785
+              ], 
+              [
+                -73.111, 
+                40.788
+              ], 
+              [
+                -73.110, 
+                40.788
+              ], 
+              [
+                -73.107, 
+                40.790
+              ], 
+              [
+                -73.107, 
+                40.791
+              ]
             ]
           ]
         ]
@@ -32,23 +94,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520697, 
-        "name": "Long Island Macarthur Airport", 
         "alias_ENG_V": [
           "ISP"
         ], 
-        "ne_latitude": 40.810, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -73.085, 
-        "longitude": -73.098, 
-        "placetype": "Airport", 
+        "name": "Long Island Macarthur Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589363", 
+          "woe:state=2347591", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520697, 
+        "ne_longitude": -73.095, 
+        "longitude": -73.103, 
+        "parent_woeid": 12589363, 
+        "ne_latitude": 40.795, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2427900, 
+        "sw_latitude": 40.782, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.789, 
-        "sw_longitude": -73.116, 
-        "fullname": "Long Island Macarthur Airport, Islip, New York, Suffolk, United States", 
-        "sw_latitude": 40.782
+        "sw_longitude": -73.111, 
+        "fullname": "Long Island Macarthur Airport, Islip, New York, United States", 
+        "iata_code": "ISP", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520697
     }

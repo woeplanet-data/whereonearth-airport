@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510672, 
-        "name": "Georgetown Aerodrome", 
         "alias_ENG_V": [
           "Georgetown Airport"
         ], 
-        "ne_latitude": -18.299, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Georgetown Aerodrome", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55863919", 
+          "woe:state=2344702", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510672, 
         "ne_longitude": 143.535, 
         "longitude": 143.531, 
-        "placetype": "Airport", 
+        "parent_woeid": 55863919, 
+        "ne_latitude": -18.299, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1102182, 
+        "sw_latitude": -18.308, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -18.303, 
         "sw_longitude": 143.526, 
-        "fullname": "Georgetown Aerodrome, Georgetown, Queensland, Etheridge Shire, Australia", 
-        "sw_latitude": -18.308
+        "fullname": "Georgetown Aerodrome, Georgetown, Queensland, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 12510672
     }

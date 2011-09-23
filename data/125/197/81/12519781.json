@@ -3,28 +3,38 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -94.387, 
-              35.331
-            ], 
-            [
-              -94.387, 
-              35.346
-            ], 
-            [
-              -94.350, 
-              35.346
-            ], 
-            [
-              -94.350, 
-              35.331
-            ], 
-            [
-              -94.387, 
-              35.331
+              [
+                -94.367, 
+                35.338
+              ], 
+              [
+                -94.367, 
+                35.333
+              ], 
+              [
+                -94.367, 
+                35.338
+              ], 
+              [
+                -94.366, 
+                35.341
+              ], 
+              [
+                -94.365, 
+                35.340
+              ], 
+              [
+                -94.366, 
+                35.338
+              ], 
+              [
+                -94.367, 
+                35.338
+              ]
             ]
           ]
         ]
@@ -32,23 +42,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519781, 
-        "name": "Fort Smith Regional Airport", 
         "alias_ENG_V": [
           "Ft Smith Regional Airport"
         ], 
-        "ne_latitude": 35.346, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -94.350, 
-        "longitude": -94.361, 
-        "placetype": "Airport", 
+        "name": "Fort Smith Regional Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587659", 
+          "woe:state=2347562", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519781, 
+        "ne_longitude": -94.365, 
+        "longitude": -94.367, 
+        "parent_woeid": 12587659, 
+        "ne_latitude": 35.341, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2405956, 
-        "latitude": 35.342, 
-        "sw_longitude": -94.387, 
-        "fullname": "Fort Smith Regional Airport, Fort Smith, Arkansas, Sebastian, United States", 
-        "sw_latitude": 35.331
+        "sw_latitude": 35.333, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 35.338, 
+        "sw_longitude": -94.367, 
+        "fullname": "Fort Smith Regional Airport, Fort Smith, Arkansas, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12519781
     }

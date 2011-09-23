@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513163, 
+        "placetype": "airport", 
         "name": "Leck Airport", 
-        "ne_latitude": 54.798, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12632213", 
+          "woe:county=12596738", 
+          "woe:state=2345490", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513163, 
         "ne_longitude": 8.958, 
         "longitude": 8.950, 
-        "placetype": "Airport", 
+        "parent_woeid": 12632213, 
+        "ne_latitude": 54.798, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 29351407, 
+        "sw_latitude": 54.789, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 54.794, 
         "sw_longitude": 8.942, 
-        "fullname": "Leck Airport, R\u00fcndel, Schleswig-Holstein, Nordfriesland, Germany", 
+        "fullname": "Leck Airport, R\u00fcndel, Schleswig-Holstein, Germany", 
         "alias_GER_Q": [
           "Flughafen Leck"
         ], 
-        "sw_latitude": 54.789
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 12513163
     }

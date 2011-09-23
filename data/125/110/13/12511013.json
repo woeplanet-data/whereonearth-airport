@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511013, 
+        "placetype": "airport", 
         "name": "Aeroporto Afonsos", 
         "alias_ENG_P": [
           "Afonsos Airport"
         ], 
-        "ne_latitude": -22.870, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12581062", 
+          "woe:state=2344862", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511013, 
         "ne_longitude": -43.379, 
         "longitude": -43.384, 
-        "placetype": "Airport", 
+        "parent_woeid": 12581062, 
+        "ne_latitude": -22.870, 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 450868, 
+        "sw_latitude": -22.880, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -22.875, 
         "sw_longitude": -43.389, 
-        "fullname": "Aeroporto Afonsos, S\u00e3o Mateus, Rio de Janeiro, Rio de Janeiro, Brazil", 
-        "sw_latitude": -22.880
+        "fullname": "Aeroporto Afonsos, S\u00e3o Mateus, Rio de Janeiro, Brazil", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511013
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515702, 
+        "placetype": "airport", 
         "name": "Amga Airport", 
-        "ne_latitude": 60.917, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597624", 
+          "woe:state=2346881", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515702, 
         "ne_longitude": 132.152, 
         "longitude": 132.142, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597624, 
+        "ne_latitude": 60.917, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 1989357, 
+        "sw_latitude": 60.908, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 60.913, 
         "sw_longitude": 132.133, 
         "fullname": "Amga Airport, Sakha, Amginsky, Russia", 
-        "sw_latitude": 60.908
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12515702
     }

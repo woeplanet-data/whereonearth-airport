@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512112, 
+        "placetype": "airport", 
         "name": "Kuqaxian Airport", 
-        "ne_latitude": 41.723, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12686367", 
+          "woe:county=26198313", 
+          "woe:state=12578003", 
+          "woe:country=23424781", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512112, 
         "ne_longitude": 82.992, 
         "longitude": 82.986, 
-        "placetype": "Airport", 
+        "parent_woeid": 12686367, 
+        "ne_latitude": 41.723, 
         "iso": "CN", 
-        "date_indexed": "2010-12-02T08:51:48Z", 
-        "parent_woeid": 2143706, 
+        "sw_latitude": 41.714, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.718, 
         "sw_longitude": 82.980, 
-        "fullname": "Kuqaxian Airport, Kuqa, Xinjiang, Akesu, China", 
-        "sw_latitude": 41.714
+        "fullname": "Kuqaxian Airport, Kuqa, Xinjiang, China", 
+        "date_indexed": "2010-12-02T08:51:48Z"
       }, 
       "id": 12512112
     }

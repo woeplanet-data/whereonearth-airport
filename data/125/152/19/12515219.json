@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515219, 
-        "name": "San Juan de Marcona Airport", 
         "alias_ENG_V": [
           "SJA"
         ], 
-        "ne_latitude": -15.346, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "San Juan de Marcona Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26805895", 
+          "woe:state=2346478", 
+          "woe:country=23424919", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515219, 
         "ne_longitude": -75.128, 
         "longitude": -75.133, 
-        "placetype": "Airport", 
+        "parent_woeid": 26805895, 
+        "ne_latitude": -15.346, 
         "iso": "PE", 
-        "date_indexed": "2010-12-02T16:12:16Z", 
-        "parent_woeid": 419240, 
+        "sw_latitude": -15.355, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -15.350, 
         "sw_longitude": -75.138, 
         "fullname": "San Juan de Marcona Airport, Ica, Nazca, Peru", 
-        "sw_latitude": -15.355
+        "iata_code": "SJA", 
+        "date_indexed": "2010-12-02T16:12:16Z"
       }, 
       "id": 12515219
     }

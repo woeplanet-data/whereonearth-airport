@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513787, 
+        "placetype": "airport", 
         "name": "Nizzana West Airport", 
-        "ne_latitude": 30.865, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345791", 
+          "woe:country=23424852", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513787, 
         "ne_longitude": 34.449, 
         "longitude": 34.444, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345791, 
+        "ne_latitude": 30.865, 
         "iso": "IL", 
-        "date_indexed": "2010-12-02T08:53:06Z", 
-        "parent_woeid": 1968197, 
+        "sw_latitude": 30.855, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 30.860, 
         "sw_longitude": 34.439, 
         "fullname": "Nizzana West Airport, HaDarom, Israel", 
-        "sw_latitude": 30.855
+        "date_indexed": "2010-12-02T08:53:06Z"
       }, 
       "id": 12513787
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521467, 
+        "placetype": "airport", 
         "name": "Prairie Airfield", 
-        "ne_latitude": 29.360, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12590085", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521467, 
         "ne_longitude": -95.658, 
         "longitude": -95.664, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590085, 
+        "ne_latitude": 29.360, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2415784, 
+        "sw_latitude": 29.351, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 29.355, 
         "sw_longitude": -95.669, 
-        "fullname": "Prairie Airfield, Guy, Texas, Fort Bend, United States", 
-        "sw_latitude": 29.351
+        "fullname": "Prairie Airfield, Guy, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521467
     }

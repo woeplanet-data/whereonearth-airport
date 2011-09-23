@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521665, 
-        "name": "Rountree Field Airport", 
         "alias_ENG_V": [
           "5m0"
         ], 
-        "ne_latitude": 34.414, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Rountree Field Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587538", 
+          "woe:state=2347559", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521665, 
         "ne_longitude": -86.930, 
         "longitude": -86.931, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587538, 
+        "ne_latitude": 34.414, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2418362, 
+        "sw_latitude": 34.400, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 34.410, 
         "sw_longitude": -86.934, 
-        "fullname": "Rountree Field Airport, Hartselle, Alabama, Morgan, United States", 
-        "sw_latitude": 34.400
+        "fullname": "Rountree Field Airport, Hartselle, Alabama, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521665
     }

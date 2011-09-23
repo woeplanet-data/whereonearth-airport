@@ -3,28 +3,50 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              79.874, 
-              7.169
-            ], 
-            [
-              79.874, 
-              7.192
-            ], 
-            [
-              79.897, 
-              7.192
-            ], 
-            [
-              79.897, 
-              7.169
-            ], 
-            [
-              79.874, 
-              7.169
+              [
+                79.885, 
+                7.175
+              ], 
+              [
+                79.885, 
+                7.176
+              ], 
+              [
+                79.883, 
+                7.178
+              ], 
+              [
+                79.884, 
+                7.181
+              ], 
+              [
+                79.885, 
+                7.183
+              ], 
+              [
+                79.887, 
+                7.182
+              ], 
+              [
+                79.885, 
+                7.179
+              ], 
+              [
+                79.888, 
+                7.175
+              ], 
+              [
+                79.885, 
+                7.174
+              ], 
+              [
+                79.885, 
+                7.175
+              ]
             ]
           ]
         ]
@@ -32,23 +54,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511941, 
-        "name": "Katunayake International Airport", 
         "alias_ENG_V": [
           "Katunayake Airport"
         ], 
-        "ne_latitude": 7.192, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": 79.897, 
-        "longitude": 79.886, 
-        "placetype": "Airport", 
+        "name": "Katunayake International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=23706491", 
+          "woe:state=2344966", 
+          "woe:country=23424778", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511941, 
+        "ne_longitude": 79.888, 
+        "longitude": 79.885, 
+        "parent_woeid": 23706491, 
+        "ne_latitude": 7.183, 
         "iso": "LK", 
-        "date_indexed": "2010-12-02T17:56:32Z", 
-        "parent_woeid": 2179637, 
-        "latitude": 7.181, 
-        "sw_longitude": 79.874, 
-        "fullname": "Katunayake International Airport, Katunayaka, Western, Gampaha, Sri Lanka", 
-        "sw_latitude": 7.169
+        "sw_latitude": 7.174, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 7.178, 
+        "sw_longitude": 79.883, 
+        "fullname": "Katunayake International Airport, Katunayaka, Western, Sri Lanka", 
+        "iata_code": "CMB", 
+        "date_indexed": "2010-12-02T17:56:32Z"
       }, 
       "id": 12511941
     }

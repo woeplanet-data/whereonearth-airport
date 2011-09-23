@@ -3,28 +3,46 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -63.141, 
-              46.275
-            ], 
-            [
-              -63.141, 
-              46.306
-            ], 
-            [
-              -63.103, 
-              46.306
-            ], 
-            [
-              -63.103, 
-              46.275
-            ], 
-            [
-              -63.141, 
-              46.275
+              [
+                -63.131, 
+                46.289
+              ], 
+              [
+                -63.131, 
+                46.289
+              ], 
+              [
+                -63.129, 
+                46.286
+              ], 
+              [
+                -63.127, 
+                46.285
+              ], 
+              [
+                -63.131, 
+                46.284
+              ], 
+              [
+                -63.132, 
+                46.286
+              ], 
+              [
+                -63.131, 
+                46.289
+              ], 
+              [
+                -63.131, 
+                46.289
+              ], 
+              [
+                -63.131, 
+                46.289
+              ]
             ]
           ]
         ]
@@ -32,23 +50,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511608, 
-        "name": "Charlottetown Airport", 
         "alias_ENG_V": [
           "YYG Airport"
         ], 
-        "ne_latitude": 46.306, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -63.103, 
-        "longitude": -63.132, 
-        "placetype": "Airport", 
+        "name": "Charlottetown Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375085", 
+          "woe:state=2344923", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511608, 
+        "ne_longitude": -63.127, 
+        "longitude": -63.130, 
+        "parent_woeid": 29375085, 
+        "ne_latitude": 46.289, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:24:00Z", 
-        "parent_woeid": 23389605, 
+        "sw_latitude": 46.284, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.286, 
-        "sw_longitude": -63.141, 
-        "fullname": "Charlottetown Airport, Brackley, Prince Edward Island, Queens, Canada", 
-        "sw_latitude": 46.275
+        "sw_longitude": -63.132, 
+        "fullname": "Charlottetown Airport, Brackley, Prince Edward Island, Canada", 
+        "date_indexed": "2010-12-02T10:24:00Z"
       }, 
       "id": 12511608
     }

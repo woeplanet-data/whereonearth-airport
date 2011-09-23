@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521670, 
-        "name": "Rugby Municipal Airport", 
         "alias_ENG_V": [
           "RUG"
         ], 
-        "ne_latitude": 48.394, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Rugby Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589508", 
+          "woe:state=2347593", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521670, 
         "ne_longitude": -100.017, 
         "longitude": -100.028, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589508, 
+        "ne_latitude": 48.394, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2485691, 
+        "sw_latitude": 48.386, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.388, 
         "sw_longitude": -100.032, 
-        "fullname": "Rugby Municipal Airport, Rugby, North Dakota, Pierce, United States", 
-        "sw_latitude": 48.386
+        "fullname": "Rugby Municipal Airport, Rugby, North Dakota, United States", 
+        "iata_code": "RUG", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521670
     }

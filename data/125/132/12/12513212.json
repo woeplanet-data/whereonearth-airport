@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513212, 
+        "placetype": "airport", 
         "name": "Plauen Airport", 
-        "ne_latitude": 50.535, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12636500", 
+          "woe:county=12597094", 
+          "woe:state=2345493", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513212, 
         "ne_longitude": 12.096, 
         "longitude": 12.089, 
-        "placetype": "Airport", 
+        "parent_woeid": 12636500, 
+        "ne_latitude": 50.535, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 665277, 
+        "sw_latitude": 50.525, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.530, 
         "sw_longitude": 12.082, 
-        "fullname": "Plauen Airport, Kauschwitz, Saxony, Stadtkreis Plauen, Germany", 
+        "fullname": "Plauen Airport, Kauschwitz, Saxony, Germany", 
         "alias_GER_Q": [
           "Flughafen Plauen"
         ], 
-        "sw_latitude": 50.525
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 12513212
     }

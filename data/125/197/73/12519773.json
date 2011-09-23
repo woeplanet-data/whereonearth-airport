@@ -3,28 +3,42 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -105.020, 
-              40.436
-            ], 
-            [
-              -105.020, 
-              40.463
-            ], 
-            [
-              -105.001, 
-              40.463
-            ], 
-            [
-              -105.001, 
-              40.436
-            ], 
-            [
-              -105.020, 
-              40.436
+              [
+                -105.008, 
+                40.451
+              ], 
+              [
+                -105.007, 
+                40.450
+              ], 
+              [
+                -105.008, 
+                40.449
+              ], 
+              [
+                -105.008, 
+                40.449
+              ], 
+              [
+                -105.009, 
+                40.450
+              ], 
+              [
+                -105.008, 
+                40.451
+              ], 
+              [
+                -105.008, 
+                40.451
+              ], 
+              [
+                -105.008, 
+                40.451
+              ]
             ]
           ]
         ]
@@ -32,23 +46,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519773, 
-        "name": "Fort Collins Loveland Municipal Airport", 
         "alias_ENG_V": [
           "Ft Collins Loveland Municipal Airport"
         ], 
-        "ne_latitude": 40.463, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -105.001, 
+        "name": "Fort Collins Loveland Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587762", 
+          "woe:state=2347564", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519773, 
+        "ne_longitude": -105.007, 
         "longitude": -105.008, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587762, 
+        "ne_latitude": 40.451, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2442436, 
-        "latitude": 40.451, 
-        "sw_longitude": -105.020, 
-        "fullname": "Fort Collins Loveland Municipal Airport, Loveland, Colorado, Larimer, United States", 
-        "sw_latitude": 40.436
+        "sw_latitude": 40.449, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 40.450, 
+        "sw_longitude": -105.009, 
+        "fullname": "Fort Collins Loveland Municipal Airport, Loveland, Colorado, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12519773
     }

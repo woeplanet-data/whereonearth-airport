@@ -3,28 +3,54 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -95.565, 
-              30.052
-            ], 
-            [
-              -95.565, 
-              30.075
-            ], 
-            [
-              -95.543, 
-              30.075
-            ], 
-            [
-              -95.543, 
-              30.052
-            ], 
-            [
-              -95.565, 
-              30.052
+              [
+                -95.551, 
+                30.069
+              ], 
+              [
+                -95.551, 
+                30.065
+              ], 
+              [
+                -95.549, 
+                30.063
+              ], 
+              [
+                -95.551, 
+                30.063
+              ], 
+              [
+                -95.553, 
+                30.066
+              ], 
+              [
+                -95.553, 
+                30.066
+              ], 
+              [
+                -95.554, 
+                30.070
+              ], 
+              [
+                -95.556, 
+                30.076
+              ], 
+              [
+                -95.553, 
+                30.073
+              ], 
+              [
+                -95.551, 
+                30.072
+              ], 
+              [
+                -95.551, 
+                30.069
+              ]
             ]
           ]
         ]
@@ -32,23 +58,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519421, 
-        "name": "David Wayne Hooks Memorial Airport", 
         "alias_ENG_V": [
           "David Wayne Hooks Memorial"
         ], 
-        "ne_latitude": 30.075, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -95.543, 
-        "longitude": -95.551, 
-        "placetype": "Airport", 
+        "name": "David Wayne Hooks Memorial Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590107", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519421, 
+        "ne_longitude": -95.549, 
+        "longitude": -95.552, 
+        "parent_woeid": 12590107, 
+        "ne_latitude": 30.076, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2433298, 
+        "sw_latitude": 30.063, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 30.070, 
-        "sw_longitude": -95.565, 
-        "fullname": "David Wayne Hooks Memorial Airport, Klein, Texas, Harris, United States", 
-        "sw_latitude": 30.052
+        "sw_longitude": -95.556, 
+        "fullname": "David Wayne Hooks Memorial Airport, Klein, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519421
     }

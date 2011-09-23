@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519355, 
+        "placetype": "airport", 
         "name": "Crawford Airport", 
-        "ne_latitude": 38.709, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12587742", 
+          "woe:state=2347564", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519355, 
         "ne_longitude": -107.638, 
         "longitude": -107.644, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587742, 
+        "ne_latitude": 38.709, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:15Z", 
-        "parent_woeid": 2386762, 
+        "sw_latitude": 38.700, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.704, 
         "sw_longitude": -107.649, 
-        "fullname": "Crawford Airport, Crawford, Colorado, Delta, United States", 
-        "sw_latitude": 38.700
+        "fullname": "Crawford Airport, Crawford, Colorado, United States", 
+        "date_indexed": "2010-12-02T18:39:15Z"
       }, 
       "id": 12519355
     }

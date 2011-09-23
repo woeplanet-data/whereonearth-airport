@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524147, 
-        "name": "Pond Inlet Airport", 
         "alias_ENG_V": [
           "YIO Airport"
         ], 
-        "ne_latitude": 72.685, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Pond Inlet Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375230", 
+          "woe:state=20069920", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524147, 
         "ne_longitude": -77.983, 
         "longitude": -77.998, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375230, 
+        "ne_latitude": 72.685, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 4328, 
+        "sw_latitude": 72.676, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 72.681, 
         "sw_longitude": -78.013, 
-        "fullname": "Pond Inlet Airport, Pond Inlet, Nunavut, Nunavut, Canada", 
-        "sw_latitude": 72.676
+        "fullname": "Pond Inlet Airport, Pond Inlet, Nunavut, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12524147
     }

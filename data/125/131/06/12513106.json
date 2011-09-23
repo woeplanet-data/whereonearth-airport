@@ -3,28 +3,38 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              6.036, 
-              50.957
-            ], 
-            [
-              6.036, 
-              50.966
-            ], 
-            [
-              6.051, 
-              50.966
-            ], 
-            [
-              6.051, 
-              50.957
-            ], 
-            [
-              6.036, 
-              50.957
+              [
+                6.044, 
+                50.962
+              ], 
+              [
+                6.048, 
+                50.959
+              ], 
+              [
+                6.046, 
+                50.958
+              ], 
+              [
+                6.044, 
+                50.961
+              ], 
+              [
+                6.038, 
+                50.958
+              ], 
+              [
+                6.043, 
+                50.962
+              ], 
+              [
+                6.044, 
+                50.962
+              ]
             ]
           ]
         ]
@@ -32,29 +42,37 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513106, 
-        "name": "Geilenkirchen Airport", 
         "alias_ENG_V": [
           "GKE Airport"
         ], 
-        "ne_latitude": 50.966, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": 6.051, 
+        "name": "Geilenkirchen Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=12624627", 
+          "woe:county=12597030", 
+          "woe:state=2345487", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513106, 
+        "ne_longitude": 6.048, 
         "longitude": 6.044, 
-        "placetype": "Airport", 
+        "parent_woeid": 12624627, 
+        "ne_latitude": 50.962, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:24Z", 
-        "parent_woeid": 639711, 
-        "latitude": 50.961, 
-        "sw_longitude": 6.036, 
-        "fullname": "Geilenkirchen Airport, Bocket, North Rhine-Westphalia, Landkreis Heinsberg, Germany", 
+        "sw_latitude": 50.958, 
+        "iata_code": "GKE", 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 50.960, 
+        "sw_longitude": 6.038, 
+        "fullname": "Geilenkirchen Airport, Bocket, North Rhine-Westphalia, Germany", 
         "alias_GER_V": [
           "GKE Flughafen"
         ], 
         "alias_GER_Q": [
           "Flughafen Geilenkirchen"
         ], 
-        "sw_latitude": 50.957
+        "date_indexed": "2010-12-02T09:50:24Z"
       }, 
       "id": 12513106
     }

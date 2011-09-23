@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523660, 
-        "name": "Perito Moreno Airport", 
         "alias_ENG_V": [
           "PMQ"
         ], 
-        "ne_latitude": -46.530, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Perito Moreno Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=20071070", 
+          "woe:state=2344694", 
+          "woe:country=23424747", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523660, 
         "ne_longitude": -70.977, 
         "longitude": -70.983, 
-        "placetype": "Airport", 
+        "parent_woeid": 20071070, 
+        "ne_latitude": -46.530, 
         "iso": "AR", 
-        "date_indexed": "2010-12-02T17:41:29Z", 
-        "parent_woeid": 467026, 
+        "sw_latitude": -46.540, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -46.535, 
         "sw_longitude": -70.990, 
-        "fullname": "Perito Moreno Airport, Lago Buenos Aires, Santa Cruz, Lago Buenos Aires, Argentina", 
-        "sw_latitude": -46.540
+        "fullname": "Perito Moreno Airport, Lago Buenos Aires, Santa Cruz, Argentina", 
+        "iata_code": "PMQ", 
+        "date_indexed": "2010-12-02T17:41:29Z"
       }, 
       "id": 12523660
     }

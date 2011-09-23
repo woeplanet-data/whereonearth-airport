@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29387851, 
+        "placetype": "airport", 
         "name": "Star Nelson Airport", 
-        "ne_latitude": 38.742, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12587742", 
+          "woe:state=2347564", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29387851, 
         "ne_longitude": -107.990, 
         "longitude": -107.997, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587742, 
+        "ne_latitude": 38.742, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2489262, 
+        "sw_latitude": 38.732, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.742, 
         "sw_longitude": -108.008, 
-        "fullname": "Star Nelson Airport, Saunders, Colorado, Delta, United States", 
-        "sw_latitude": 38.732
+        "fullname": "Star Nelson Airport, Saunders, Colorado, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29387851
     }

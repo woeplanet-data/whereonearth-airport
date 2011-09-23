@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510693, 
+        "placetype": "airport", 
         "name": "Horsham Airport", 
-        "ne_latitude": -36.667, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55863995", 
+          "woe:state=2344705", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510693, 
         "ne_longitude": 142.177, 
         "longitude": 142.169, 
-        "placetype": "Airport", 
+        "parent_woeid": 55863995, 
+        "ne_latitude": -36.667, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1101710, 
+        "sw_latitude": -36.676, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -36.672, 
         "sw_longitude": 142.166, 
-        "fullname": "Horsham Airport, Dooen, Victoria, Horsham, Australia", 
-        "sw_latitude": -36.676
+        "fullname": "Horsham Airport, Dooen, Victoria, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 12510693
     }

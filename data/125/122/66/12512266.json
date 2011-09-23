@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512266, 
+        "placetype": "airport", 
         "name": "Yanglin Airport", 
-        "ne_latitude": 25.234, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12687553", 
+          "woe:county=26198186", 
+          "woe:state=12578018", 
+          "woe:country=23424781", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512266, 
         "ne_longitude": 103.080, 
         "longitude": 103.075, 
-        "placetype": "Airport", 
+        "parent_woeid": 12687553, 
+        "ne_latitude": 25.234, 
         "iso": "CN", 
-        "date_indexed": "2010-12-02T08:51:54Z", 
-        "parent_woeid": 2161037, 
+        "sw_latitude": 25.225, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 25.229, 
         "sw_longitude": 103.070, 
-        "fullname": "Yanglin Airport, Yanglin, Yunnan, Kunming, China", 
-        "sw_latitude": 25.225
+        "fullname": "Yanglin Airport, Yanglin, Yunnan, China", 
+        "date_indexed": "2010-12-02T08:51:54Z"
       }, 
       "id": 12512266
     }

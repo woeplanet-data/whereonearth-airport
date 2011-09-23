@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521947, 
-        "name": "Springfield Municipal Airport", 
         "alias_ENG_V": [
           "Y03"
         ], 
-        "ne_latitude": 42.887, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Springfield Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589849", 
+          "woe:state=2347600", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521947, 
         "ne_longitude": -97.897, 
         "longitude": -97.901, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589849, 
+        "ne_latitude": 42.887, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2498310, 
+        "sw_latitude": 42.876, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.877, 
         "sw_longitude": -97.906, 
-        "fullname": "Springfield Municipal Airport, Springfield, South Dakota, Bon Homme, United States", 
-        "sw_latitude": 42.876
+        "fullname": "Springfield Municipal Airport, Springfield, South Dakota, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521947
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524568, 
-        "name": "Zahns Airport", 
         "alias_ENG_V": [
           "AYZ"
         ], 
-        "ne_latitude": 40.671, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Zahns Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589363", 
+          "woe:state=2347591", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524568, 
         "ne_longitude": -73.411, 
         "longitude": -73.417, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589363, 
+        "ne_latitude": 40.671, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2354351, 
+        "sw_latitude": 40.662, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.667, 
         "sw_longitude": -73.423, 
-        "fullname": "Zahns Airport, Amityville, New York, Suffolk, United States", 
-        "sw_latitude": 40.662
+        "fullname": "Zahns Airport, Amityville, New York, United States", 
+        "iata_code": "AYZ", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12524568
     }

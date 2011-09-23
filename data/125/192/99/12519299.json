@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519299, 
-        "name": "Commerce Municipal Airport", 
         "alias_ENG_V": [
           "2f7"
         ], 
-        "ne_latitude": 33.300, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Commerce Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590122", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519299, 
         "ne_longitude": -95.896, 
         "longitude": -95.897, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590122, 
+        "ne_latitude": 33.300, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2383804, 
+        "sw_latitude": 33.287, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 33.291, 
         "sw_longitude": -95.899, 
-        "fullname": "Commerce Municipal Airport, Commerce, Texas, Hunt, United States", 
-        "sw_latitude": 33.287
+        "fullname": "Commerce Municipal Airport, Commerce, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519299
     }

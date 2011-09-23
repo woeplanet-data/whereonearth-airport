@@ -3,28 +3,86 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -111.688, 
-              33.295
-            ], 
-            [
-              -111.688, 
-              33.325
-            ], 
-            [
-              -111.652, 
-              33.325
-            ], 
-            [
-              -111.652, 
-              33.295
-            ], 
-            [
-              -111.688, 
-              33.295
+              [
+                -111.669, 
+                33.311
+              ], 
+              [
+                -111.669, 
+                33.312
+              ], 
+              [
+                -111.665, 
+                33.311
+              ], 
+              [
+                -111.666, 
+                33.310
+              ], 
+              [
+                -111.662, 
+                33.304
+              ], 
+              [
+                -111.662, 
+                33.303
+              ], 
+              [
+                -111.661, 
+                33.302
+              ], 
+              [
+                -111.666, 
+                33.303
+              ], 
+              [
+                -111.671, 
+                33.302
+              ], 
+              [
+                -111.672, 
+                33.302
+              ], 
+              [
+                -111.676, 
+                33.307
+              ], 
+              [
+                -111.680, 
+                33.305
+              ], 
+              [
+                -111.683, 
+                33.306
+              ], 
+              [
+                -111.683, 
+                33.307
+              ], 
+              [
+                -111.681, 
+                33.308
+              ], 
+              [
+                -111.676, 
+                33.310
+              ], 
+              [
+                -111.673, 
+                33.310
+              ], 
+              [
+                -111.671, 
+                33.310
+              ], 
+              [
+                -111.669, 
+                33.311
+              ]
             ]
           ]
         ]
@@ -32,23 +90,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522456, 
-        "name": "Williams Gateway Airport", 
         "alias_ENG_V": [
           "IWA"
         ], 
-        "ne_latitude": 33.325, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -111.652, 
-        "longitude": -111.670, 
-        "placetype": "Airport", 
+        "name": "Williams Gateway Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587587", 
+          "woe:state=2347561", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522456, 
+        "ne_longitude": -111.661, 
+        "longitude": -111.671, 
+        "parent_woeid": 12587587, 
+        "ne_latitude": 33.312, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2410128, 
-        "latitude": 33.310, 
-        "sw_longitude": -111.688, 
-        "fullname": "Williams Gateway Airport, Gilbert, Arizona, Maricopa, United States", 
-        "sw_latitude": 33.295
+        "sw_latitude": 33.302, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 33.307, 
+        "sw_longitude": -111.683, 
+        "fullname": "Williams Gateway Airport, Gilbert, Arizona, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12522456
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523843, 
-        "name": "Holsteinsborg Airport", 
         "alias_ENG_V": [
           "JHS"
         ], 
-        "ne_latitude": 66.932, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Holsteinsborg Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=20069858", 
+          "woe:country=23424828", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523843, 
         "ne_longitude": -53.664, 
         "longitude": -53.675, 
-        "placetype": "Airport", 
+        "parent_woeid": 20069858, 
+        "ne_latitude": 66.932, 
         "iso": "GL", 
-        "date_indexed": "2010-12-02T17:40:29Z", 
-        "parent_woeid": 472859, 
+        "sw_latitude": 66.923, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 66.927, 
         "sw_longitude": -53.687, 
         "fullname": "Holsteinsborg Airport, Holstensborg, Vestgronland, Greenland", 
-        "sw_latitude": 66.923
+        "iata_code": "JHS", 
+        "date_indexed": "2010-12-02T17:40:29Z"
       }, 
       "id": 12523843
     }

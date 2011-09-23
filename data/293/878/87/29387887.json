@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29387887, 
-        "name": "Hazelton Municipal Airport", 
         "alias_ENG_V": [
           "U94"
         ], 
-        "ne_latitude": 42.578, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Hazelton Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588060", 
+          "woe:state=2347571", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29387887, 
         "ne_longitude": -114.129, 
         "longitude": -114.136, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588060, 
+        "ne_latitude": 42.578, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2419263, 
+        "sw_latitude": 42.575, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.576, 
         "sw_longitude": -114.141, 
-        "fullname": "Hazelton Municipal Airport, Hazelton, Idaho, Jerome, United States", 
-        "sw_latitude": 42.575
+        "fullname": "Hazelton Municipal Airport, Hazelton, Idaho, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29387887
     }

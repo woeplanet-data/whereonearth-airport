@@ -3,28 +3,54 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -97.226, 
-              37.738
-            ], 
-            [
-              -97.226, 
-              37.763
-            ], 
-            [
-              -97.217, 
-              37.763
-            ], 
-            [
-              -97.217, 
-              37.738
-            ], 
-            [
-              -97.226, 
-              37.738
+              [
+                -97.223, 
+                37.748
+              ], 
+              [
+                -97.223, 
+                37.747
+              ], 
+              [
+                -97.224, 
+                37.746
+              ], 
+              [
+                -97.231, 
+                37.738
+              ], 
+              [
+                -97.231, 
+                37.738
+              ], 
+              [
+                -97.237, 
+                37.738
+              ], 
+              [
+                -97.236, 
+                37.738
+              ], 
+              [
+                -97.234, 
+                37.741
+              ], 
+              [
+                -97.224, 
+                37.748
+              ], 
+              [
+                -97.224, 
+                37.748
+              ], 
+              [
+                -97.223, 
+                37.748
+              ]
             ]
           ]
         ]
@@ -32,23 +58,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519273, 
-        "name": "Colonel James Jabara Airport", 
         "alias_ENG_V": [
           "Aao"
         ], 
-        "ne_latitude": 37.763, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -97.217, 
-        "longitude": -97.225, 
-        "placetype": "Airport", 
-        "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
+        "name": "Colonel James Jabara Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:suburb=55806514", 
+          "woe:county=12588457", 
+          "woe:state=2347575", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519273, 
+        "ne_longitude": -97.223, 
+        "longitude": -97.229, 
         "parent_woeid": 55806514, 
-        "latitude": 37.747, 
-        "sw_longitude": -97.226, 
-        "fullname": "Colonel James Jabara Airport, Wichita, Kansas, Sedgwick, United States", 
-        "sw_latitude": 37.738
+        "ne_latitude": 37.748, 
+        "iso": "US", 
+        "sw_latitude": 37.738, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 37.742, 
+        "sw_longitude": -97.237, 
+        "fullname": "Colonel James Jabara Airport, Wichita, Kansas, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519273
     }

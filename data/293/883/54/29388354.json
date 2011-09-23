@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388354, 
-        "name": "Perry-Warsaw Airport", 
         "alias_ENG_V": [
           "01g"
         ], 
-        "ne_latitude": 42.744, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Perry-Warsaw Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589372", 
+          "woe:state=2347591", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388354, 
         "ne_longitude": -78.043, 
         "longitude": -78.050, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589372, 
+        "ne_latitude": 42.744, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2470694, 
+        "sw_latitude": 42.739, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.743, 
         "sw_longitude": -78.059, 
-        "fullname": "Perry-Warsaw Airport, Perry, New York, Wyoming, United States", 
-        "sw_latitude": 42.739
+        "fullname": "Perry-Warsaw Airport, Perry, New York, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388354
     }

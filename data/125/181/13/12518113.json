@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518113, 
-        "name": "Lasham Airport", 
         "alias_ENG_V": [
           "QLA"
         ], 
-        "ne_latitude": 51.190, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Lasham Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=12695959", 
+          "woe:county=12602169", 
+          "woe:state=24554868", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518113, 
         "ne_longitude": -1.025, 
         "longitude": -1.032, 
-        "placetype": "Airport", 
+        "parent_woeid": 12695959, 
+        "ne_latitude": 51.190, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:21:01Z", 
-        "parent_woeid": 25858, 
+        "sw_latitude": 51.181, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.185, 
         "sw_longitude": -1.039, 
-        "fullname": "Lasham Airport, Lasham Airfield, England, Hampshire, United Kingdom", 
-        "sw_latitude": 51.181
+        "fullname": "Lasham Airport, Lasham Airfield, England, United Kingdom", 
+        "iata_code": "QLA", 
+        "date_indexed": "2010-12-02T12:21:01Z"
       }, 
       "id": 12518113
     }

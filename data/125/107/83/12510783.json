@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510783, 
-        "name": "Stanthorpe Airfield", 
         "alias_ENG_V": [
           "Stanthorpe Airport"
         ], 
-        "ne_latitude": -28.616, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Stanthorpe Airfield", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=56072992", 
+          "woe:state=2344702", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510783, 
         "ne_longitude": 151.984, 
         "longitude": 151.979, 
-        "placetype": "Airport", 
+        "parent_woeid": 56072992, 
+        "ne_latitude": -28.616, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1094088, 
+        "sw_latitude": -28.625, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -28.620, 
         "sw_longitude": 151.974, 
-        "fullname": "Stanthorpe Airfield, Applethorpe, Queensland, Stanthorpe, Australia", 
-        "sw_latitude": -28.625
+        "fullname": "Stanthorpe Airfield, Applethorpe, Queensland, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 12510783
     }

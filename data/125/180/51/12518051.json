@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518051, 
+        "placetype": "airport", 
         "name": "Caernarfon Airport", 
-        "ne_latitude": 53.106, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12696126", 
+          "woe:county=12602221", 
+          "woe:state=12578049", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518051, 
         "ne_longitude": -4.331, 
         "longitude": -4.338, 
-        "placetype": "Airport", 
+        "parent_woeid": 12696126, 
+        "ne_latitude": 53.106, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:20:54Z", 
-        "parent_woeid": 18193, 
+        "sw_latitude": 53.097, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.101, 
         "sw_longitude": -4.346, 
-        "fullname": "Caernarfon Airport, Dinas Dinlle, Wales, Gwynedd, United Kingdom", 
-        "sw_latitude": 53.097
+        "fullname": "Caernarfon Airport, Dinas Dinlle, Wales, United Kingdom", 
+        "date_indexed": "2010-12-02T12:20:54Z"
       }, 
       "id": 12518051
     }

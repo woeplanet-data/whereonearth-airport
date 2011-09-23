@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516611, 
+        "placetype": "airport", 
         "name": "Onor Airport", 
-        "ne_latitude": 50.195, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599205", 
+          "woe:state=2346937", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516611, 
         "ne_longitude": 142.746, 
         "longitude": 142.739, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599205, 
+        "ne_latitude": 50.195, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2122645, 
+        "sw_latitude": 50.186, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.190, 
         "sw_longitude": 142.732, 
-        "fullname": "Onor Airport, Onor, Sakhalinskaya Oblast, Smirnykhovsky, Russia", 
-        "sw_latitude": 50.186
+        "fullname": "Onor Airport, Onor, Sakhalinskaya Oblast, Russia", 
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516611
     }

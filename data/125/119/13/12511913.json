@@ -3,28 +3,78 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -135.082, 
-              60.695
-            ], 
-            [
-              -135.082, 
-              60.722
-            ], 
-            [
-              -135.054, 
-              60.722
-            ], 
-            [
-              -135.054, 
-              60.695
-            ], 
-            [
-              -135.082, 
-              60.695
+              [
+                -135.081, 
+                60.712
+              ], 
+              [
+                -135.083, 
+                60.713
+              ], 
+              [
+                -135.083, 
+                60.714
+              ], 
+              [
+                -135.081, 
+                60.715
+              ], 
+              [
+                -135.080, 
+                60.716
+              ], 
+              [
+                -135.079, 
+                60.717
+              ], 
+              [
+                -135.075, 
+                60.716
+              ], 
+              [
+                -135.074, 
+                60.720
+              ], 
+              [
+                -135.072, 
+                60.721
+              ], 
+              [
+                -135.068, 
+                60.720
+              ], 
+              [
+                -135.071, 
+                60.715
+              ], 
+              [
+                -135.069, 
+                60.712
+              ], 
+              [
+                -135.071, 
+                60.709
+              ], 
+              [
+                -135.072, 
+                60.707
+              ], 
+              [
+                -135.076, 
+                60.712
+              ], 
+              [
+                -135.079, 
+                60.709
+              ], 
+              [
+                -135.081, 
+                60.712
+              ]
             ]
           ]
         ]
@@ -32,23 +82,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511913, 
-        "name": "Whitehorse International Airport", 
         "alias_ENG_V": [
           "YXY Airport"
         ], 
-        "ne_latitude": 60.722, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -135.054, 
-        "longitude": -135.076, 
-        "placetype": "Airport", 
+        "name": "Whitehorse International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375157", 
+          "woe:state=2344926", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511913, 
+        "ne_longitude": -135.068, 
+        "longitude": -135.075, 
+        "parent_woeid": 29375157, 
+        "ne_latitude": 60.721, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 4225, 
+        "sw_latitude": 60.707, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 60.714, 
-        "sw_longitude": -135.082, 
-        "fullname": "Whitehorse International Airport, Whitehorse, Yukon Territory, Yukon Territory, Canada", 
-        "sw_latitude": 60.695
+        "sw_longitude": -135.083, 
+        "fullname": "Whitehorse International Airport, Whitehorse, Yukon Territory, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12511913
     }

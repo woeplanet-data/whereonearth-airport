@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516314, 
+        "placetype": "airport", 
         "name": "Kurya Airport", 
-        "ne_latitude": 51.591, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597681", 
+          "woe:state=20070529", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516314, 
         "ne_longitude": 82.310, 
         "longitude": 82.303, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597681, 
+        "ne_latitude": 51.591, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2032779, 
+        "sw_latitude": 51.582, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.587, 
         "sw_longitude": 82.295, 
-        "fullname": "Kurya Airport, Kur'inskoye, Altayskiy Kray, Kuryinsky, Russia", 
-        "sw_latitude": 51.582
+        "fullname": "Kurya Airport, Kur'inskoye, Altayskiy Kray, Russia", 
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516314
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511636, 
-        "name": "Digby Municipal Airport", 
         "alias_ENG_V": [
           "YDG Airport"
         ], 
-        "ne_latitude": 44.552, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Digby Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375049", 
+          "woe:state=2344921", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511636, 
         "ne_longitude": -65.777, 
         "longitude": -65.787, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375049, 
+        "ne_latitude": 44.552, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:24:00Z", 
-        "parent_woeid": 29374626, 
+        "sw_latitude": 44.540, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.550, 
         "sw_longitude": -65.797, 
-        "fullname": "Digby Municipal Airport, Digby Municipal District, Nova Scotia, Digby, Canada", 
-        "sw_latitude": 44.540
+        "fullname": "Digby Municipal Airport, Digby Municipal District, Nova Scotia, Canada", 
+        "iata_code": "YDG", 
+        "date_indexed": "2010-12-02T10:24:00Z"
       }, 
       "id": 12511636
     }

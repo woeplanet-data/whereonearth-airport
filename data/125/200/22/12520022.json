@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520022, 
-        "name": "Griffith Airport", 
         "alias_ENG_V": [
           "Griffith-Merriville Airport"
         ], 
-        "ne_latitude": 41.523, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Griffith Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588225", 
+          "woe:state=2347573", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520022, 
         "ne_longitude": -87.394, 
         "longitude": -87.399, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588225, 
+        "ne_latitude": 41.523, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2415039, 
+        "sw_latitude": 41.519, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.522, 
         "sw_longitude": -87.409, 
-        "fullname": "Griffith Airport, Griffith, Indiana, Lake, United States", 
-        "sw_latitude": 41.519
+        "fullname": "Griffith Airport, Griffith, Indiana, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520022
     }

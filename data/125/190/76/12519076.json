@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519076, 
+        "placetype": "airport", 
         "name": "Caro Municipal Airport", 
-        "ne_latitude": 43.463, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12588792", 
+          "woe:state=2347581", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519076, 
         "ne_longitude": -83.437, 
         "longitude": -83.441, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588792, 
+        "ne_latitude": 43.463, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2513111, 
+        "sw_latitude": 43.454, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.458, 
         "sw_longitude": -83.454, 
-        "fullname": "Caro Municipal Airport, Wahjamega, Michigan, Tuscola, United States", 
-        "sw_latitude": 43.454
+        "fullname": "Caro Municipal Airport, Wahjamega, Michigan, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519076
     }

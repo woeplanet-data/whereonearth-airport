@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519510, 
-        "name": "Door County Cherryland Airport", 
         "alias_ENG_V": [
           "Door Cherryland Airport"
         ], 
-        "ne_latitude": 44.839, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Door County Cherryland Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590548", 
+          "woe:state=2347608", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519510, 
         "ne_longitude": -87.422, 
         "longitude": -87.426, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590548, 
+        "ne_latitude": 44.839, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:15Z", 
-        "parent_woeid": 2501123, 
+        "sw_latitude": 44.832, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.836, 
         "sw_longitude": -87.431, 
-        "fullname": "Door County Cherryland Airport, Sturgeon Bay, Wisconsin, Door, United States", 
-        "sw_latitude": 44.832
+        "fullname": "Door County Cherryland Airport, Sturgeon Bay, Wisconsin, United States", 
+        "iata_code": "SUE", 
+        "date_indexed": "2010-12-02T18:39:15Z"
       }, 
       "id": 12519510
     }

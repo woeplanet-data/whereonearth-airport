@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514461, 
+        "placetype": "airport", 
         "name": "Semiyarka Airport", 
-        "ne_latitude": 50.735, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345993", 
+          "woe:country=23424871", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514461, 
         "ne_longitude": 78.539, 
         "longitude": 78.532, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345993, 
+        "ne_latitude": 50.735, 
         "iso": "KZ", 
-        "date_indexed": "2010-12-02T08:54:13Z", 
-        "parent_woeid": 2260293, 
+        "sw_latitude": 50.726, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.730, 
         "sw_longitude": 78.525, 
         "fullname": "Semiyarka Airport, Pavlodar, Kazakhstan", 
-        "sw_latitude": 50.726
+        "date_indexed": "2010-12-02T08:54:13Z"
       }, 
       "id": 12514461
     }

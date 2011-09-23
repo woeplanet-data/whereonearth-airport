@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523006, 
-        "name": "Taiz Ganed Airport", 
         "alias_ENG_V": [
           "TAI Airport"
         ], 
-        "ne_latitude": 13.693, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Taiz Ganed Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=56190180", 
+          "woe:state=20070041", 
+          "woe:country=23425002", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523006, 
         "ne_longitude": 44.142, 
         "longitude": 44.138, 
-        "placetype": "Airport", 
+        "parent_woeid": 56190180, 
+        "ne_latitude": 13.693, 
         "iso": "YE", 
-        "date_indexed": "2010-12-02T16:39:41Z", 
-        "parent_woeid": 1958979, 
+        "sw_latitude": 13.684, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 13.689, 
         "sw_longitude": 44.133, 
         "fullname": "Taiz Ganed Airport, Al-Ganad, Ta`izz, Yemen", 
-        "sw_latitude": 13.684
+        "iata_code": "TAI", 
+        "date_indexed": "2010-12-02T16:39:41Z"
       }, 
       "id": 12523006
     }

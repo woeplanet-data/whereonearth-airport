@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523777, 
-        "name": "Pleven Airport", 
         "alias_ENG_V": [
           "PVN"
         ], 
-        "ne_latitude": 42.005, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Pleven Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55873771", 
+          "woe:state=20070068", 
+          "woe:country=23424771", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523777, 
         "ne_longitude": 24.506, 
         "longitude": 24.500, 
-        "placetype": "Airport", 
+        "parent_woeid": 55873771, 
+        "ne_latitude": 42.005, 
         "iso": "BG", 
-        "date_indexed": "2010-12-02T16:14:37Z", 
-        "parent_woeid": 839605, 
+        "sw_latitude": 41.995, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.000, 
         "sw_longitude": 24.494, 
         "fullname": "Pleven Airport, Plovdiv, Rodopi, Bulgaria", 
-        "sw_latitude": 41.995
+        "iata_code": "PVN", 
+        "date_indexed": "2010-12-02T16:14:37Z"
       }, 
       "id": 12523777
     }

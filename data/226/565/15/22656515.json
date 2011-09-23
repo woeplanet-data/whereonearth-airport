@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 22656515, 
+        "placetype": "airport", 
         "name": "Flugplatz Luzern-Beromunster", 
-        "ne_latitude": 47.195, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12682949", 
+          "woe:county=12593207", 
+          "woe:state=2347093", 
+          "woe:country=23424957", 
+          "woe:planet=1"
+        ], 
+        "woeid": 22656515, 
         "ne_longitude": 8.208, 
         "longitude": 8.205, 
-        "placetype": "Airport", 
+        "parent_woeid": 12682949, 
+        "ne_latitude": 47.195, 
         "iso": "CH", 
-        "date_indexed": "2010-12-02T18:20:52Z", 
-        "parent_woeid": 20104847, 
+        "sw_latitude": 47.184, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.192, 
         "sw_longitude": 8.201, 
-        "fullname": "Flugplatz Luzern-Beromunster, Wili, Canton of Lucerne, Sursee, Switzerland", 
+        "fullname": "Flugplatz Luzern-Beromunster, Wili, Canton of Lucerne, Switzerland", 
         "alias_GER_Q": [
           "Flugplatz Luzern-Berom\u00fcnster"
         ], 
-        "sw_latitude": 47.184
+        "date_indexed": "2010-12-02T18:20:52Z"
       }, 
       "id": 22656515
     }

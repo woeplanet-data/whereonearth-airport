@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519862, 
-        "name": "Garden County Airport", 
         "alias_ENG_V": [
           "Garden Airport"
         ], 
-        "ne_latitude": 41.402, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Garden County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589172", 
+          "woe:state=2347586", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519862, 
         "ne_longitude": -102.342, 
         "longitude": -102.348, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589172, 
+        "ne_latitude": 41.402, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2466598, 
+        "sw_latitude": 41.394, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.398, 
         "sw_longitude": -102.353, 
-        "fullname": "Garden County Airport, Oshkosh, Nebraska, Garden, United States", 
-        "sw_latitude": 41.394
+        "fullname": "Garden County Airport, Oshkosh, Nebraska, United States", 
+        "iata_code": "OKS", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12519862
     }

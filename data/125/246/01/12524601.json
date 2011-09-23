@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524601, 
-        "name": "Corner Bay Airport", 
         "alias_ENG_V": [
           "CBA"
         ], 
-        "ne_latitude": 57.721, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Corner Bay Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587573", 
+          "woe:state=2347560", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524601, 
         "ne_longitude": -135.179, 
         "longitude": -135.187, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587573, 
+        "ne_latitude": 57.721, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2494184, 
+        "sw_latitude": 57.712, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 57.717, 
         "sw_longitude": -135.196, 
         "fullname": "Corner Bay Airport, Alaska, City and Borough of Sitka, United States", 
-        "sw_latitude": 57.712
+        "iata_code": "CBA", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12524601
     }

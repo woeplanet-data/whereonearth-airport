@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "CZE", 
-        "woeid": 56049670, 
+        "placetype": "airport", 
         "name": "Letiste Hranice-Lkhn", 
-        "ne_latitude": 49.549, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12607340", 
+          "woe:county=12582578", 
+          "woe:state=20070470", 
+          "woe:country=23424810", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56049670, 
         "ne_longitude": 17.711, 
         "longitude": 17.704, 
-        "placetype": "Airport", 
+        "parent_woeid": 12607340, 
+        "ne_latitude": 49.549, 
         "iso": "CZ", 
-        "date_indexed": "2010-12-02T08:56:52Z", 
-        "parent_woeid": 790199, 
+        "sw_latitude": 49.542, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.549, 
         "sw_longitude": 17.699, 
-        "fullname": "Letiste Hranice-Lkhn, Hranice, Olomouck\u00fd, P\u0159erov, Czech Republic", 
-        "sw_latitude": 49.542
+        "fullname": "Letiste Hranice-Lkhn, Hranice, Olomouck\u00fd, Czech Republic", 
+        "date_indexed": "2010-12-02T08:56:52Z"
       }, 
       "id": 56049670
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523775, 
-        "name": "Haskovo Airport", 
         "alias_ENG_V": [
           "HKV"
         ], 
-        "ne_latitude": 41.971, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Haskovo Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55873784", 
+          "woe:state=20070073", 
+          "woe:country=23424771", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523775, 
         "ne_longitude": 25.506, 
         "longitude": 25.500, 
-        "placetype": "Airport", 
+        "parent_woeid": 55873784, 
+        "ne_latitude": 41.971, 
         "iso": "BG", 
-        "date_indexed": "2010-12-02T16:14:37Z", 
-        "parent_woeid": 837173, 
+        "sw_latitude": 41.962, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.967, 
         "sw_longitude": 25.494, 
         "fullname": "Haskovo Airport, Khaskovo, Haskovo, Bulgaria", 
-        "sw_latitude": 41.962
+        "date_indexed": "2010-12-02T16:14:37Z"
       }, 
       "id": 12523775
     }

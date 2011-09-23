@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518871, 
-        "name": "Blytheville Municipal Airport", 
         "alias_ENG_V": [
           "HKA"
         ], 
-        "ne_latitude": 35.948, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Blytheville Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587641", 
+          "woe:state=2347562", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518871, 
         "ne_longitude": -89.829, 
         "longitude": -89.833, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587641, 
+        "ne_latitude": 35.948, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2366136, 
+        "sw_latitude": 35.929, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.937, 
         "sw_longitude": -89.834, 
-        "fullname": "Blytheville Municipal Airport, Blytheville, Arkansas, Mississippi, United States", 
-        "sw_latitude": 35.929
+        "fullname": "Blytheville Municipal Airport, Blytheville, Arkansas, United States", 
+        "iata_code": "HKA", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518871
     }

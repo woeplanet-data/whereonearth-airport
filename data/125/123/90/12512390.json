@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512390, 
-        "name": "Las Brujas Airport", 
         "alias_ENG_V": [
           "CZU"
         ], 
-        "ne_latitude": 9.342, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Las Brujas Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26797505", 
+          "woe:state=2345072", 
+          "woe:country=23424787", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512390, 
         "ne_longitude": -75.278, 
         "longitude": -75.283, 
-        "placetype": "Airport", 
+        "parent_woeid": 26797505, 
+        "ne_latitude": 9.342, 
         "iso": "CO", 
-        "date_indexed": "2010-12-02T17:57:37Z", 
-        "parent_woeid": 362756, 
+        "sw_latitude": 9.333, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 9.338, 
         "sw_longitude": -75.287, 
-        "fullname": "Las Brujas Airport, Morroa, Sucre, Morroa, Colombia", 
-        "sw_latitude": 9.333
+        "fullname": "Las Brujas Airport, Morroa, Sucre, Colombia", 
+        "iata_code": "CZU", 
+        "date_indexed": "2010-12-02T17:57:37Z"
       }, 
       "id": 12512390
     }

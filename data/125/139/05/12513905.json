@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513905, 
+        "placetype": "airport", 
         "name": "Habbaniyah Airport", 
-        "ne_latitude": 33.380, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55999897", 
+          "woe:state=2345833", 
+          "woe:country=23424855", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513905, 
         "ne_longitude": 43.566, 
         "longitude": 43.560, 
-        "placetype": "Airport", 
+        "parent_woeid": 55999897, 
+        "ne_latitude": 33.380, 
         "iso": "IQ", 
-        "date_indexed": "2010-12-02T16:42:58Z", 
-        "parent_woeid": 1970824, 
+        "sw_latitude": 33.371, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 33.376, 
         "sw_longitude": 43.555, 
-        "fullname": "Habbaniyah Airport, Al Habbaniyah, Al Anbar, Ramadi, Iraq", 
-        "sw_latitude": 33.371
+        "fullname": "Habbaniyah Airport, Al Habbaniyah, Al Anbar, Iraq", 
+        "date_indexed": "2010-12-02T16:42:58Z"
       }, 
       "id": 12513905
     }

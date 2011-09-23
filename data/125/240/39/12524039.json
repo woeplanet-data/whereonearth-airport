@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524039, 
-        "name": "Akulivik Airport", 
         "alias_ENG_V": [
           "AKV Airport"
         ], 
-        "ne_latitude": 60.819, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Akulivik Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375254", 
+          "woe:state=2344924", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524039, 
         "ne_longitude": -78.142, 
         "longitude": -78.151, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375254, 
+        "ne_latitude": 60.819, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 23394714, 
+        "sw_latitude": 60.810, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 60.814, 
         "sw_longitude": -78.160, 
-        "fullname": "Akulivik Airport, Akulivik, Quebec, Kativik, Canada", 
-        "sw_latitude": 60.810
+        "fullname": "Akulivik Airport, Akulivik, Quebec, Canada", 
+        "iata_code": "AKV", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12524039
     }

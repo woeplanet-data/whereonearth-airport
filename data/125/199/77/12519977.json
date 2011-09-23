@@ -3,28 +3,130 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -78.745, 
-              42.929
-            ], 
-            [
-              -78.745, 
-              42.951
-            ], 
-            [
-              -78.714, 
-              42.951
-            ], 
-            [
-              -78.714, 
-              42.929
-            ], 
-            [
-              -78.745, 
-              42.929
+              [
+                -78.728, 
+                42.932
+              ], 
+              [
+                -78.730, 
+                42.932
+              ], 
+              [
+                -78.733, 
+                42.931
+              ], 
+              [
+                -78.737, 
+                42.930
+              ], 
+              [
+                -78.742, 
+                42.927
+              ], 
+              [
+                -78.746, 
+                42.928
+              ], 
+              [
+                -78.750, 
+                42.925
+              ], 
+              [
+                -78.750, 
+                42.927
+              ], 
+              [
+                -78.747, 
+                42.929
+              ], 
+              [
+                -78.744, 
+                42.935
+              ], 
+              [
+                -78.740, 
+                42.940
+              ], 
+              [
+                -78.739, 
+                42.942
+              ], 
+              [
+                -78.732, 
+                42.942
+              ], 
+              [
+                -78.730, 
+                42.944
+              ], 
+              [
+                -78.725, 
+                42.944
+              ], 
+              [
+                -78.723, 
+                42.942
+              ], 
+              [
+                -78.721, 
+                42.941
+              ], 
+              [
+                -78.716, 
+                42.941
+              ], 
+              [
+                -78.713, 
+                42.949
+              ], 
+              [
+                -78.714, 
+                42.952
+              ], 
+              [
+                -78.714, 
+                42.953
+              ], 
+              [
+                -78.714, 
+                42.953
+              ], 
+              [
+                -78.716, 
+                42.953
+              ], 
+              [
+                -78.718, 
+                42.951
+              ], 
+              [
+                -78.713, 
+                42.949
+              ], 
+              [
+                -78.714, 
+                42.941
+              ], 
+              [
+                -78.715, 
+                42.936
+              ], 
+              [
+                -78.722, 
+                42.935
+              ], 
+              [
+                -78.725, 
+                42.932
+              ], 
+              [
+                -78.728, 
+                42.932
+              ]
             ]
           ]
         ]
@@ -32,23 +134,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519977, 
-        "name": "Greater Buffalo International Airport", 
         "alias_ENG_V": [
           "Greater Buffalo"
         ], 
-        "ne_latitude": 42.951, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -78.714, 
-        "longitude": -78.738, 
-        "placetype": "Airport", 
+        "name": "Greater Buffalo International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589326", 
+          "woe:state=2347591", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519977, 
+        "ne_longitude": -78.713, 
+        "longitude": -78.732, 
+        "parent_woeid": 12589326, 
+        "ne_latitude": 42.953, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2378781, 
-        "latitude": 42.931, 
-        "sw_longitude": -78.745, 
-        "fullname": "Greater Buffalo International Airport, Cheektowaga, New York, Erie, United States", 
-        "sw_latitude": 42.929
+        "sw_latitude": 42.925, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 42.936, 
+        "sw_longitude": -78.750, 
+        "fullname": "Greater Buffalo International Airport, Cheektowaga, New York, United States", 
+        "iata_code": "BUF", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12519977
     }

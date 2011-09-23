@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512269, 
+        "placetype": "airport", 
         "name": "Yantai South Airport", 
-        "ne_latitude": 37.368, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12687143", 
+          "woe:county=26198080", 
+          "woe:state=12578014", 
+          "woe:country=23424781", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512269, 
         "ne_longitude": 121.394, 
         "longitude": 121.388, 
-        "placetype": "Airport", 
+        "parent_woeid": 12687143, 
+        "ne_latitude": 37.368, 
         "iso": "CN", 
-        "date_indexed": "2010-12-02T08:51:54Z", 
-        "parent_woeid": 2167305, 
+        "sw_latitude": 37.359, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 37.364, 
         "sw_longitude": 121.383, 
-        "fullname": "Yantai South Airport, Chujia, Shandong, Yantai, China", 
-        "sw_latitude": 37.359
+        "fullname": "Yantai South Airport, Chujia, Shandong, China", 
+        "date_indexed": "2010-12-02T08:51:54Z"
       }, 
       "id": 12512269
     }

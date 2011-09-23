@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516409, 
+        "placetype": "airport", 
         "name": "Maryanovka Airport", 
-        "ne_latitude": 54.974, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598890", 
+          "woe:state=2346915", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516409, 
         "ne_longitude": 72.685, 
         "longitude": 72.677, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598890, 
+        "ne_latitude": 54.974, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 1981732, 
+        "sw_latitude": 54.965, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 54.969, 
         "sw_longitude": 72.669, 
         "fullname": "Maryanovka Airport, Omskaya Oblast, Maryanovsky, Russia", 
-        "sw_latitude": 54.965
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516409
     }

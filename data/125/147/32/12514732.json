@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514732, 
+        "placetype": "airport", 
         "name": "Arvayheer Airport", 
-        "ne_latitude": 46.257, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2346169", 
+          "woe:country=23424887", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514732, 
         "ne_longitude": 102.806, 
         "longitude": 102.799, 
-        "placetype": "Airport", 
+        "parent_woeid": 2346169, 
+        "ne_latitude": 46.257, 
         "iso": "MN", 
-        "date_indexed": "2010-12-02T08:53:23Z", 
-        "parent_woeid": 2266536, 
+        "sw_latitude": 46.248, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.252, 
         "sw_longitude": 102.793, 
         "fullname": "Arvayheer Airport, Arvaikher, Ovorhangay, Mongolia", 
-        "sw_latitude": 46.248
+        "date_indexed": "2010-12-02T08:53:23Z"
       }, 
       "id": 12514732
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522378, 
-        "name": "Weiser Municipal Airport", 
         "alias_ENG_V": [
           "S87"
         ], 
-        "ne_latitude": 44.210, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Weiser Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588077", 
+          "woe:state=2347571", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522378, 
         "ne_longitude": -116.954, 
         "longitude": -116.957, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588077, 
+        "ne_latitude": 44.210, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2402871, 
+        "sw_latitude": 44.200, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.201, 
         "sw_longitude": -116.967, 
-        "fullname": "Weiser Municipal Airport, Feltham, Idaho, Washington, United States", 
-        "sw_latitude": 44.200
+        "fullname": "Weiser Municipal Airport, Feltham, Idaho, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522378
     }

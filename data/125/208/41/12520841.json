@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520841, 
-        "name": "Maury County Airport", 
         "alias_ENG_V": [
           "Maury Airport"
         ], 
-        "ne_latitude": 35.563, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Maury County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589969", 
+          "woe:state=2347601", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520841, 
         "ne_longitude": -87.167, 
         "longitude": -87.183, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589969, 
+        "ne_latitude": 35.563, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2455356, 
+        "sw_latitude": 35.546, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.556, 
         "sw_longitude": -87.191, 
-        "fullname": "Maury County Airport, Mount Pleasant, Tennessee, Maury, United States", 
-        "sw_latitude": 35.546
+        "fullname": "Maury County Airport, Mount Pleasant, Tennessee, United States", 
+        "iata_code": "MRC", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520841
     }

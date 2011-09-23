@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521255, 
+        "placetype": "airport", 
         "name": "Othello Municipal Airport", 
-        "ne_latitude": 46.800, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12590440", 
+          "woe:state=2347606", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521255, 
         "ne_longitude": -119.066, 
         "longitude": -119.072, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590440, 
+        "ne_latitude": 46.800, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2433820, 
+        "sw_latitude": 46.791, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.796, 
         "sw_longitude": -119.079, 
-        "fullname": "Othello Municipal Airport, Koren, Washington, Adams, United States", 
-        "sw_latitude": 46.791
+        "fullname": "Othello Municipal Airport, Koren, Washington, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521255
     }

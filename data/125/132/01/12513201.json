@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513201, 
+        "placetype": "airport", 
         "name": "Oldenburg Airport", 
-        "ne_latitude": 53.186, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12629831", 
+          "woe:county=12597016", 
+          "woe:state=2345486", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513201, 
         "ne_longitude": 8.168, 
         "longitude": 8.160, 
-        "placetype": "Airport", 
+        "parent_woeid": 12629831, 
+        "ne_latitude": 53.186, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 675013, 
+        "sw_latitude": 53.177, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.181, 
         "sw_longitude": 8.152, 
-        "fullname": "Oldenburg Airport, Metjendorf, Lower Saxony, Ammerland, Germany", 
+        "fullname": "Oldenburg Airport, Metjendorf, Lower Saxony, Germany", 
         "alias_GER_Q": [
           "Flughafen Oldenburg"
         ], 
-        "sw_latitude": 53.177
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 12513201
     }

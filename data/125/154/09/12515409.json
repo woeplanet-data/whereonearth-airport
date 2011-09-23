@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515409, 
+        "placetype": "airport", 
         "name": "Zielona Gora Airport", 
-        "ne_latitude": 51.979, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12617207", 
+          "woe:county=12591247", 
+          "woe:state=12577939", 
+          "woe:country=23424923", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515409, 
         "ne_longitude": 15.463, 
         "longitude": 15.456, 
-        "placetype": "Airport", 
+        "parent_woeid": 12617207, 
+        "ne_latitude": 51.979, 
         "iso": "PL", 
-        "date_indexed": "2010-12-02T12:12:45Z", 
-        "parent_woeid": 514622, 
+        "sw_latitude": 51.970, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.975, 
         "sw_longitude": 15.449, 
         "fullname": "Zielona Gora Airport, Lubusz, Zielona Gora County, Poland", 
-        "sw_latitude": 51.970
+        "date_indexed": "2010-12-02T12:12:45Z"
       }, 
       "id": 12515409
     }

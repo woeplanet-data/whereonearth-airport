@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515596, 
-        "name": "Baguio Airport", 
         "alias_ENG_V": [
           "BAG"
         ], 
-        "ne_latitude": 16.381, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Baguio Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=2346665", 
+          "woe:state=23424716", 
+          "woe:country=23424934", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515596, 
         "ne_longitude": 120.624, 
         "longitude": 120.619, 
-        "placetype": "Airport", 
+        "parent_woeid": 2346665, 
+        "ne_latitude": 16.381, 
         "iso": "PH", 
-        "date_indexed": "2010-12-02T09:56:58Z", 
-        "parent_woeid": 1198830, 
+        "sw_latitude": 16.372, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 16.376, 
         "sw_longitude": 120.615, 
-        "fullname": "Baguio Airport, Baguio City, Cordillera Administrative Region, Benguet, Philippines", 
-        "sw_latitude": 16.372
+        "fullname": "Baguio Airport, Baguio City, Cordillera Administrative Region, Philippines", 
+        "iata_code": "BAG", 
+        "date_indexed": "2010-12-02T09:56:58Z"
       }, 
       "id": 12515596
     }

@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 56052116, 
+        "placetype": "airport", 
         "name": "Flugplatz Peine-eddesse", 
-        "ne_latitude": 52.404, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12630419", 
+          "woe:county=12596714", 
+          "woe:state=2345486", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56052116, 
         "ne_longitude": 10.239, 
         "longitude": 10.227, 
-        "placetype": "Airport", 
+        "parent_woeid": 12630419, 
+        "ne_latitude": 52.404, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 646498, 
+        "sw_latitude": 52.400, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 52.401, 
         "sw_longitude": 10.220, 
-        "fullname": "Flugplatz Peine-eddesse, Edemissen, Lower Saxony, Landkreis Peine, Germany", 
-        "sw_latitude": 52.400
+        "fullname": "Flugplatz Peine-eddesse, Edemissen, Lower Saxony, Germany", 
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 56052116
     }

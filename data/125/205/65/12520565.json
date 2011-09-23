@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520565, 
+        "placetype": "airport", 
         "name": "Landings Condominium Airport", 
-        "ne_latitude": 42.148, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12588140", 
+          "woe:state=2347572", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520565, 
         "ne_longitude": -88.397, 
         "longitude": -88.403, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588140, 
+        "ne_latitude": 42.148, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2425938, 
+        "sw_latitude": 42.139, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.143, 
         "sw_longitude": -88.409, 
-        "fullname": "Landings Condominium Airport, Huntley, Illinois, Mchenry, United States", 
-        "sw_latitude": 42.139
+        "fullname": "Landings Condominium Airport, Huntley, Illinois, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12520565
     }

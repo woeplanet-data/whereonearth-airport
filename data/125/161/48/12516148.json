@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516148, 
+        "placetype": "airport", 
         "name": "Kholbolakh Airport", 
-        "ne_latitude": 63.163, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597654", 
+          "woe:state=2346881", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516148, 
         "ne_longitude": 124.013, 
         "longitude": 124.003, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597654, 
+        "ne_latitude": 63.163, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2011905, 
+        "sw_latitude": 63.154, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 63.159, 
         "sw_longitude": 123.993, 
         "fullname": "Kholbolakh Airport, Sakha, Vilyuysky, Russia", 
-        "sw_latitude": 63.154
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516148
     }

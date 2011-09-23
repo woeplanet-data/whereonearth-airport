@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521458, 
+        "placetype": "airport", 
         "name": "Poso Kern County Airport", 
-        "ne_latitude": 35.601, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12587684", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521458, 
         "ne_longitude": -119.121, 
         "longitude": -119.127, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587684, 
+        "ne_latitude": 35.601, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2416258, 
+        "sw_latitude": 35.592, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.597, 
         "sw_longitude": -119.132, 
-        "fullname": "Poso Kern County Airport, Halfway House, California, Kern, United States", 
-        "sw_latitude": 35.592
+        "fullname": "Poso Kern County Airport, Halfway House, California, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521458
     }

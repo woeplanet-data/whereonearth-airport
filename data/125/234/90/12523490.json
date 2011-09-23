@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523490, 
-        "name": "Baramita Airport", 
         "alias_ENG_V": [
           "BMJ"
         ], 
-        "ne_latitude": 7.355, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Baramita Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2345603", 
+          "woe:country=23424836", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523490, 
         "ne_longitude": -60.479, 
         "longitude": -60.483, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345603, 
+        "ne_latitude": 7.355, 
         "iso": "GY", 
-        "date_indexed": "2010-12-02T16:33:25Z", 
-        "parent_woeid": 376801, 
+        "sw_latitude": 7.345, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 7.350, 
         "sw_longitude": -60.488, 
         "fullname": "Baramita Airport, Barima-Waini, Guyana", 
-        "sw_latitude": 7.345
+        "iata_code": "BMJ", 
+        "date_indexed": "2010-12-02T16:33:25Z"
       }, 
       "id": 12523490
     }

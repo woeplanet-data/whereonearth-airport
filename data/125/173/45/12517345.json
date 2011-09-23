@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517345, 
+        "placetype": "airport", 
         "name": "King Abdul Aziz Naval Base Airport", 
-        "ne_latitude": 26.947, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=56120210", 
+          "woe:state=2346954", 
+          "woe:country=23424938", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517345, 
         "ne_longitude": 49.709, 
         "longitude": 49.704, 
-        "placetype": "Airport", 
+        "parent_woeid": 56120210, 
+        "ne_latitude": 26.947, 
         "iso": "SA", 
-        "date_indexed": "2010-12-02T09:34:42Z", 
-        "parent_woeid": 1939707, 
+        "sw_latitude": 26.938, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 26.943, 
         "sw_longitude": 49.699, 
-        "fullname": "King Abdul Aziz Naval Base Airport, Al Jubayl, Ash Sharqiyah, Al Jubayl, Saudi Arabia", 
-        "sw_latitude": 26.938
+        "fullname": "King Abdul Aziz Naval Base Airport, Al Jubayl, Ash Sharqiyah, Saudi Arabia", 
+        "date_indexed": "2010-12-02T09:34:42Z"
       }, 
       "id": 12517345
     }

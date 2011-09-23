@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522808, 
+        "placetype": "airport", 
         "name": "Lara Airport", 
-        "ne_latitude": 10.255, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=26805323", 
+          "woe:county=26804465", 
+          "woe:state=2347689", 
+          "woe:country=23424982", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522808, 
         "ne_longitude": -70.495, 
         "longitude": -70.500, 
-        "placetype": "Airport", 
+        "parent_woeid": 26805323, 
+        "ne_latitude": 10.255, 
         "iso": "VE", 
-        "date_indexed": "2010-12-02T16:11:43Z", 
-        "parent_woeid": 395721, 
+        "sw_latitude": 10.245, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 10.250, 
         "sw_longitude": -70.505, 
         "fullname": "Lara Airport, Lara, Torres, Venezuela", 
-        "sw_latitude": 10.245
+        "date_indexed": "2010-12-02T16:11:43Z"
       }, 
       "id": 12522808
     }

@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517526, 
+        "placetype": "airport", 
         "name": "Tengah Airport", 
-        "ne_latitude": 1.392, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=24703043", 
+          "woe:country=23424948", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517526, 
         "ne_longitude": 103.715, 
         "longitude": 103.710, 
-        "placetype": "Airport", 
+        "parent_woeid": 24703043, 
+        "ne_latitude": 1.392, 
         "iso": "SG", 
-        "date_indexed": "2010-12-02T08:53:28Z", 
-        "parent_woeid": 24703040, 
+        "sw_latitude": 1.383, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 1.388, 
         "sw_longitude": 103.705, 
         "fullname": "Tengah Airport, South West, Singapore", 
-        "sw_latitude": 1.383
+        "date_indexed": "2010-12-02T08:53:28Z"
       }, 
       "id": 12517526
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518992, 
-        "name": "Butte Valley Airport", 
         "alias_ENG_V": [
           "A32"
         ], 
-        "ne_latitude": 41.893, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Butte Valley Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587716", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518992, 
         "ne_longitude": -121.974, 
         "longitude": -121.975, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587716, 
+        "ne_latitude": 41.893, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2495673, 
+        "sw_latitude": 41.881, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.887, 
         "sw_longitude": -121.976, 
-        "fullname": "Butte Valley Airport, Somerset, California, Siskiyou, United States", 
-        "sw_latitude": 41.881
+        "fullname": "Butte Valley Airport, Somerset, California, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518992
     }

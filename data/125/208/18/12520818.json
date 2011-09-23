@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520818, 
-        "name": "Marshall Memorial Municipal Airport", 
         "alias_ENG_V": [
           "Marshall Mem"
         ], 
-        "ne_latitude": 39.105, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Marshall Memorial Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589057", 
+          "woe:state=2347584", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520818, 
         "ne_longitude": -93.198, 
         "longitude": -93.214, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589057, 
+        "ne_latitude": 39.105, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2446109, 
+        "sw_latitude": 39.090, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 39.096, 
         "sw_longitude": -93.214, 
-        "fullname": "Marshall Memorial Municipal Airport, Marshall, Missouri, Saline, United States", 
-        "sw_latitude": 39.090
+        "fullname": "Marshall Memorial Municipal Airport, Marshall, Missouri, United States", 
+        "iata_code": "MHL", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520818
     }

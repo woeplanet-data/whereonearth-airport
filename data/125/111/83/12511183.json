@@ -32,29 +32,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511183, 
-        "name": "Aeroporto Itabuna", 
-        "alias_ENG_P": [
-          "Itabuna Airport"
-        ], 
-        "ne_latitude": -14.805, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "ITN"
         ], 
+        "name": "Aeroporto Itabuna", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Itabuna Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12578406", 
+          "woe:state=2344848", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511183, 
         "ne_longitude": -39.287, 
         "longitude": -39.291, 
-        "placetype": "Airport", 
+        "parent_woeid": 12578406, 
+        "ne_latitude": -14.805, 
         "alias_POR_V": [
           "Aeroporto ITN"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 455869, 
+        "sw_latitude": -14.814, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -14.810, 
         "sw_longitude": -39.296, 
-        "fullname": "Aeroporto Itabuna, Itabuna, Bahia, Itabuna, Brazil", 
-        "sw_latitude": -14.814
+        "fullname": "Aeroporto Itabuna, Itabuna, Bahia, Brazil", 
+        "iata_code": "ITN", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511183
     }

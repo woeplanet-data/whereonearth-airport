@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "FRE", 
-        "woeid": 56051900, 
+        "placetype": "airport", 
         "name": "A\u00e9rodrome D'avallon", 
-        "ne_latitude": 47.506, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=20075258", 
+          "woe:county=12597133", 
+          "woe:state=7153312", 
+          "woe:country=23424819", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56051900, 
         "ne_longitude": 3.909, 
         "longitude": 3.899, 
-        "placetype": "Airport", 
+        "parent_woeid": 20075258, 
+        "ne_latitude": 47.506, 
         "iso": "FR", 
-        "date_indexed": "2010-12-02T12:04:01Z", 
-        "parent_woeid": 577540, 
+        "sw_latitude": 47.499, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.500, 
         "sw_longitude": 3.896, 
-        "fullname": "A\u00e9rodrome D'avallon, Avallon, Burgundy, Yonne, France", 
+        "fullname": "A\u00e9rodrome D'avallon, Avallon, Burgundy, France", 
         "alias_FRE_S": [
           "Aerodrome D'avallon"
         ], 
-        "sw_latitude": 47.499
+        "date_indexed": "2010-12-02T12:04:01Z"
       }, 
       "id": 56051900
     }

@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518100, 
-        "name": "Hawarden Airport", 
         "alias_ENG_V": [
           "CEG"
         ], 
-        "ne_latitude": 53.175, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Hawarden Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=12696124", 
+          "woe:county=12602220", 
+          "woe:state=12578049", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518100, 
         "ne_longitude": -2.974, 
         "longitude": -2.981, 
-        "placetype": "Airport", 
+        "parent_woeid": 12696124, 
+        "ne_latitude": 53.175, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:21:01Z", 
-        "parent_woeid": 14220, 
+        "sw_latitude": 53.166, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.171, 
         "sw_longitude": -2.989, 
-        "fullname": "Hawarden Airport, Broughton, Wales, Flintshire County, United Kingdom", 
-        "sw_latitude": 53.166
+        "fullname": "Hawarden Airport, Broughton, Wales, United Kingdom", 
+        "iata_code": "CEG", 
+        "date_indexed": "2010-12-02T12:21:01Z"
       }, 
       "id": 12518100
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523182, 
-        "name": "Namlea Airport", 
         "alias_ENG_V": [
           "NAM"
         ], 
-        "ne_latitude": -3.245, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Namlea Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=56000181", 
+          "woe:state=20069997", 
+          "woe:country=23424846", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523182, 
         "ne_longitude": 127.088, 
         "longitude": 127.083, 
-        "placetype": "Airport", 
+        "parent_woeid": 56000181, 
+        "ne_latitude": -3.245, 
         "iso": "ID", 
-        "date_indexed": "2010-12-02T16:54:32Z", 
-        "parent_woeid": 1038997, 
+        "sw_latitude": -3.255, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -3.250, 
         "sw_longitude": 127.079, 
         "fullname": "Namlea Airport, Maluku, Buru, Indonesia", 
-        "sw_latitude": -3.255
+        "iata_code": "NAM", 
+        "date_indexed": "2010-12-02T16:54:32Z"
       }, 
       "id": 12523182
     }

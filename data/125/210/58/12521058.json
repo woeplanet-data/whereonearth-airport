@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521058, 
-        "name": "Mt Sterling-Montgomery County Airport", 
         "alias_ENG_V": [
           "IOB"
         ], 
-        "ne_latitude": 38.065, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Mt Sterling-Montgomery County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588562", 
+          "woe:state=2347576", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521058, 
         "ne_longitude": -83.974, 
         "longitude": -83.984, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588562, 
+        "ne_latitude": 38.065, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2433355, 
+        "sw_latitude": 38.051, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.054, 
         "sw_longitude": -83.987, 
-        "fullname": "Mt Sterling-Montgomery County Airport, Klondike, Kentucky, Montgomery, United States", 
-        "sw_latitude": 38.051
+        "fullname": "Mt Sterling-Montgomery County Airport, Klondike, Kentucky, United States", 
+        "iata_code": "IOB", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12521058
     }

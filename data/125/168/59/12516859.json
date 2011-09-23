@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516859, 
+        "placetype": "airport", 
         "name": "Shenkursk Airport", 
-        "ne_latitude": 62.123, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598031", 
+          "woe:state=20070508", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516859, 
         "ne_longitude": 42.902, 
         "longitude": 42.892, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598031, 
+        "ne_latitude": 62.123, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2082356, 
+        "sw_latitude": 62.114, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 62.118, 
         "sw_longitude": 42.883, 
-        "fullname": "Shenkursk Airport, Shenkursk, Arkhangelrskaya Oblast, Shenkursky, Russia", 
-        "sw_latitude": 62.114
+        "fullname": "Shenkursk Airport, Shenkursk, Arkhangelrskaya Oblast, Russia", 
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516859
     }

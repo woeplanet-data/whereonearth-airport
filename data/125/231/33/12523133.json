@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523133, 
-        "name": "Saint Mary's Airport", 
         "alias_ENG_V": [
           "ISC"
         ], 
-        "ne_latitude": 49.921, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Saint Mary's Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=12695899", 
+          "woe:county=12602181", 
+          "woe:state=24554868", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523133, 
         "ne_longitude": -6.293, 
         "longitude": -6.300, 
-        "placetype": "Airport", 
+        "parent_woeid": 12695899, 
+        "ne_latitude": 49.921, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:21:01Z", 
-        "parent_woeid": 32894, 
+        "sw_latitude": 49.912, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.917, 
         "sw_longitude": -6.307, 
-        "fullname": "Saint Mary's Airport, Rams Valley, England, Cornwall and Isles of Scilly, United Kingdom", 
-        "sw_latitude": 49.912
+        "fullname": "Saint Mary's Airport, Rams Valley, England, United Kingdom", 
+        "iata_code": "ISC", 
+        "date_indexed": "2010-12-02T12:21:01Z"
       }, 
       "id": 12523133
     }

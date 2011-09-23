@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514613, 
+        "placetype": "airport", 
         "name": "Kamenica Nad Cirochou Airport", 
-        "ne_latitude": 48.948, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=29400012", 
+          "woe:county=29399300", 
+          "woe:state=20070496", 
+          "woe:country=23424877", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514613, 
         "ne_longitude": 21.995, 
         "longitude": 21.988, 
-        "placetype": "Airport", 
+        "parent_woeid": 29400012, 
+        "ne_latitude": 48.948, 
         "iso": "SK", 
-        "date_indexed": "2010-12-02T08:50:42Z", 
-        "parent_woeid": 820110, 
+        "sw_latitude": 48.939, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.944, 
         "sw_longitude": 21.981, 
         "fullname": "Kamenica Nad Cirochou Airport, Presovsky, Humenne, Slovakia", 
-        "sw_latitude": 48.939
+        "date_indexed": "2010-12-02T08:50:42Z"
       }, 
       "id": 12514613
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524559, 
-        "name": "Anvik Airport", 
         "alias_ENG_V": [
           "ANV"
         ], 
-        "ne_latitude": 62.655, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Anvik Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587579", 
+          "woe:state=2347560", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524559, 
         "ne_longitude": -160.207, 
         "longitude": -160.217, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587579, 
+        "ne_latitude": 62.655, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2355178, 
+        "sw_latitude": 62.645, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 62.650, 
         "sw_longitude": -160.227, 
-        "fullname": "Anvik Airport, Anvik, Alaska, Yukon-Koyukuk Census Area, United States", 
-        "sw_latitude": 62.645
+        "fullname": "Anvik Airport, Anvik, Alaska, United States", 
+        "iata_code": "ANV", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12524559
     }

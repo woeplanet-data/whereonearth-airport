@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 28677761, 
+        "placetype": "airport", 
         "name": "Bedford Downs Aerodrome", 
-        "ne_latitude": -17.282, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55864073", 
+          "woe:state=2344706", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 28677761, 
         "ne_longitude": 127.472, 
         "longitude": 127.467, 
-        "placetype": "Airport", 
+        "parent_woeid": 55864073, 
+        "ne_latitude": -17.282, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1104838, 
+        "sw_latitude": -17.291, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -17.286, 
         "sw_longitude": 127.462, 
-        "fullname": "Bedford Downs Aerodrome, Ord River, Western Australia, Halls Creek, Australia", 
-        "sw_latitude": -17.291
+        "fullname": "Bedford Downs Aerodrome, Ord River, Western Australia, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 28677761
     }

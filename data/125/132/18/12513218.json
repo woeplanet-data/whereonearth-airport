@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513218, 
+        "placetype": "airport", 
         "name": "Retzow Airport", 
-        "ne_latitude": 53.368, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=28350230", 
+          "woe:county=12596899", 
+          "woe:state=2345492", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513218, 
         "ne_longitude": 12.214, 
         "longitude": 12.207, 
-        "placetype": "Airport", 
+        "parent_woeid": 28350230, 
+        "ne_latitude": 53.368, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 688144, 
+        "sw_latitude": 53.359, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.363, 
         "sw_longitude": 12.199, 
-        "fullname": "Retzow Airport, Retzow, Mecklenburg-Vorpommern, Landkreis Parchim, Germany", 
+        "fullname": "Retzow Airport, Retzow, Mecklenburg-Vorpommern, Germany", 
         "alias_GER_Q": [
           "Flughafen Retzow"
         ], 
-        "sw_latitude": 53.359
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 12513218
     }

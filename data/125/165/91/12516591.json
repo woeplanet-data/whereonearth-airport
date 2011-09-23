@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516591, 
+        "placetype": "airport", 
         "name": "Okha Southwest Airport", 
-        "ne_latitude": 53.508, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599200", 
+          "woe:state=2346937", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516591, 
         "ne_longitude": 142.872, 
         "longitude": 142.864, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599200, 
+        "ne_latitude": 53.508, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2058935, 
+        "sw_latitude": 53.499, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.504, 
         "sw_longitude": 142.857, 
-        "fullname": "Okha Southwest Airport, Okha, Sakhalinskaya Oblast, Okha, Russia", 
-        "sw_latitude": 53.499
+        "fullname": "Okha Southwest Airport, Okha, Sakhalinskaya Oblast, Russia", 
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516591
     }

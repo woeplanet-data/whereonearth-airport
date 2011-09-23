@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512646, 
+        "placetype": "airport", 
         "name": "Quevedo North Airport", 
-        "ne_latitude": -0.995, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=26810337", 
+          "woe:county=26809641", 
+          "woe:state=2345214", 
+          "woe:country=23424801", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512646, 
         "ne_longitude": -79.412, 
         "longitude": -79.417, 
-        "placetype": "Airport", 
+        "parent_woeid": 26810337, 
+        "ne_latitude": -0.995, 
         "iso": "EC", 
-        "date_indexed": "2010-12-02T17:51:45Z", 
-        "parent_woeid": 375743, 
+        "sw_latitude": -1.005, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -1.000, 
         "sw_longitude": -79.421, 
-        "fullname": "Quevedo North Airport, Valencia, Los Rios, Valencia, Ecuador", 
-        "sw_latitude": -1.005
+        "fullname": "Quevedo North Airport, Valencia, Los Rios, Ecuador", 
+        "date_indexed": "2010-12-02T17:51:45Z"
       }, 
       "id": 12512646
     }

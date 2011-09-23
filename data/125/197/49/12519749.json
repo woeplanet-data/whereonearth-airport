@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519749, 
+        "placetype": "airport", 
         "name": "Flying Bull Ranch Airport", 
-        "ne_latitude": 29.821, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12590199", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519749, 
         "ne_longitude": -99.991, 
         "longitude": -99.996, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590199, 
+        "ne_latitude": 29.821, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2511236, 
+        "sw_latitude": 29.812, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 29.817, 
         "sw_longitude": -100.001, 
-        "fullname": "Flying Bull Ranch Airport, Vance, Texas, Real, United States", 
-        "sw_latitude": 29.812
+        "fullname": "Flying Bull Ranch Airport, Vance, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12519749
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522981, 
+        "placetype": "airport", 
         "name": "Mariental Airport", 
-        "ne_latitude": -24.602, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55921203", 
+          "woe:state=20069844", 
+          "woe:country=23424987", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522981, 
         "ne_longitude": 17.930, 
         "longitude": 17.925, 
-        "placetype": "Airport", 
+        "parent_woeid": 55921203, 
+        "ne_latitude": -24.602, 
         "iso": "NA", 
-        "date_indexed": "2010-12-02T07:50:17Z", 
-        "parent_woeid": 1465348, 
+        "sw_latitude": -24.611, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -24.606, 
         "sw_longitude": 17.920, 
-        "fullname": "Mariental Airport, Mariental, Hardap, Mariental Urban, Namibia", 
-        "sw_latitude": -24.611
+        "fullname": "Mariental Airport, Mariental, Hardap, Namibia", 
+        "date_indexed": "2010-12-02T07:50:17Z"
       }, 
       "id": 12522981
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517303, 
+        "placetype": "airport", 
         "name": "Zima Airport", 
-        "ne_latitude": 53.962, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598294", 
+          "woe:state=2346896", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517303, 
         "ne_longitude": 102.017, 
         "longitude": 102.009, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598294, 
+        "ne_latitude": 53.962, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2101052, 
+        "sw_latitude": 53.952, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.957, 
         "sw_longitude": 102.001, 
         "fullname": "Zima Airport, Irkutskaya Oblast, Ziminsky, Russia", 
-        "sw_latitude": 53.952
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12517303
     }

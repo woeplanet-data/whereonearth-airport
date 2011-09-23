@@ -3,28 +3,34 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              9.132, 
-              47.678
-            ], 
-            [
-              9.132, 
-              47.685
-            ], 
-            [
-              9.147, 
-              47.685
-            ], 
-            [
-              9.147, 
-              47.678
-            ], 
-            [
-              9.132, 
-              47.678
+              [
+                9.198, 
+                47.682
+              ], 
+              [
+                9.198, 
+                47.682
+              ], 
+              [
+                9.198, 
+                47.682
+              ], 
+              [
+                9.198, 
+                47.682
+              ], 
+              [
+                9.198, 
+                47.682
+              ], 
+              [
+                9.198, 
+                47.682
+              ]
             ]
           ]
         ]
@@ -32,23 +38,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 22656466, 
+        "placetype": "airport", 
         "name": "Konstanz Airport", 
-        "ne_latitude": 47.685, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": 9.147, 
-        "longitude": 9.136, 
-        "placetype": "Airport", 
+        "hierarchy": [
+          "woe:localadmin=12623522", 
+          "woe:county=12596692", 
+          "woe:state=2345481", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 22656466, 
+        "ne_longitude": 9.198, 
+        "longitude": 9.198, 
+        "parent_woeid": 12623522, 
+        "ne_latitude": 47.682, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 668213, 
+        "sw_latitude": 47.682, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.682, 
-        "sw_longitude": 9.132, 
-        "fullname": "Konstanz Airport, Konstanz, Baden-Wurttemberg, Constance, Germany", 
+        "sw_longitude": 9.198, 
+        "fullname": "Konstanz Airport, Konstanz, Baden-Wurttemberg, Germany", 
         "alias_GER_Q": [
           "Flughafen Konstanz"
         ], 
-        "sw_latitude": 47.678
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 22656466
     }

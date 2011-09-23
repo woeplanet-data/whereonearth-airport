@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 56043494, 
+        "placetype": "airport", 
         "name": "Barwon Heads Airport", 
-        "ne_latitude": -38.255, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55864254", 
+          "woe:state=2344705", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56043494, 
         "ne_longitude": 144.430, 
         "longitude": 144.425, 
-        "placetype": "Airport", 
+        "parent_woeid": 55864254, 
+        "ne_latitude": -38.255, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1095181, 
+        "sw_latitude": -38.264, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -38.259, 
         "sw_longitude": 144.419, 
-        "fullname": "Barwon Heads Airport, Connewarre, Victoria, Greater Geelong, Australia", 
-        "sw_latitude": -38.264
+        "fullname": "Barwon Heads Airport, Connewarre, Victoria, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 56043494
     }

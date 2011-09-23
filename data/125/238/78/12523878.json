@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523878, 
-        "name": "Borgarfjordur Eystri Airport", 
         "alias_ENG_V": [
           "BGJ"
         ], 
-        "ne_latitude": 64.471, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Borgarfjordur Eystri Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2345691", 
+          "woe:country=23424845", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523878, 
         "ne_longitude": -21.973, 
         "longitude": -21.983, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345691, 
+        "ne_latitude": 64.471, 
         "iso": "IS", 
-        "date_indexed": "2010-12-02T09:55:32Z", 
-        "parent_woeid": 980217, 
+        "sw_latitude": 64.462, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 64.467, 
         "sw_longitude": -21.994, 
         "fullname": "Borgarfjordur Eystri Airport, Borgarfjardarsysla, Iceland", 
-        "sw_latitude": 64.462
+        "iata_code": "BGJ", 
+        "date_indexed": "2010-12-02T09:55:32Z"
       }, 
       "id": 12523878
     }

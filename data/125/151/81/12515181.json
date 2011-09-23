@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515181, 
-        "name": "Bleheim Airport", 
         "alias_ENG_V": [
           "BHE Airport"
         ], 
-        "ne_latitude": -41.507, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Bleheim Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55875875", 
+          "woe:state=15021759", 
+          "woe:country=23424916", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515181, 
         "ne_longitude": 173.879, 
         "longitude": 173.872, 
-        "placetype": "Airport", 
+        "parent_woeid": 55875875, 
+        "ne_latitude": -41.507, 
         "iso": "NZ", 
-        "date_indexed": "2010-12-02T17:02:39Z", 
-        "parent_woeid": 2351441, 
+        "sw_latitude": -41.518, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -41.512, 
         "sw_longitude": 173.865, 
-        "fullname": "Bleheim Airport, Woodbourne, Marlborough, Marlborough District, New Zealand", 
-        "sw_latitude": -41.518
+        "fullname": "Bleheim Airport, Woodbourne, Marlborough, New Zealand", 
+        "iata_code": "BHE", 
+        "date_indexed": "2010-12-02T17:02:39Z"
       }, 
       "id": 12515181
     }

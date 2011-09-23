@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522130, 
+        "placetype": "airport", 
         "name": "Thompson Drag Raceway Airport", 
-        "ne_latitude": 41.651, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12589554", 
+          "woe:state=2347594", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522130, 
         "ne_longitude": -81.003, 
         "longitude": -81.009, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589554, 
+        "ne_latitude": 41.651, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2505767, 
+        "sw_latitude": 41.642, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.647, 
         "sw_longitude": -81.015, 
-        "fullname": "Thompson Drag Raceway Airport, Calm, Ohio, Geauga, United States", 
-        "sw_latitude": 41.642
+        "fullname": "Thompson Drag Raceway Airport, Calm, Ohio, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12522130
     }

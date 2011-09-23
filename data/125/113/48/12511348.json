@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511348, 
+        "placetype": "airport", 
         "name": "Aeroporto Tres Barras", 
         "alias_ENG_P": [
           "Tres Barras Airport"
         ], 
-        "ne_latitude": -26.128, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12581794", 
+          "woe:state=2344867", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511348, 
         "ne_longitude": -50.304, 
         "longitude": -50.309, 
-        "placetype": "Airport", 
+        "parent_woeid": 12581794, 
+        "ne_latitude": -26.128, 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:28Z", 
-        "parent_woeid": 461443, 
+        "sw_latitude": -26.137, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -26.132, 
         "sw_longitude": -50.314, 
-        "fullname": "Aeroporto Tres Barras, Tr\u00eas Barras, Santa Catarina, Tr\u00eas Barras, Brazil", 
-        "sw_latitude": -26.137
+        "fullname": "Aeroporto Tres Barras, Tr\u00eas Barras, Santa Catarina, Brazil", 
+        "date_indexed": "2010-12-02T18:01:28Z"
       }, 
       "id": 12511348
     }

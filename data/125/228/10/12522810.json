@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522810, 
+        "placetype": "airport", 
         "name": "Los Pijiguaos Airport", 
-        "ne_latitude": 6.588, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=26805687", 
+          "woe:county=26804741", 
+          "woe:state=2347679", 
+          "woe:country=23424982", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522810, 
         "ne_longitude": -66.751, 
         "longitude": -66.756, 
-        "placetype": "Airport", 
+        "parent_woeid": 26805687, 
+        "ne_latitude": 6.588, 
         "iso": "VE", 
-        "date_indexed": "2010-12-02T16:11:43Z", 
-        "parent_woeid": 395808, 
+        "sw_latitude": 6.579, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 6.583, 
         "sw_longitude": -66.760, 
         "fullname": "Los Pijiguaos Airport, Bolivar, Cede\u00f1o, Venezuela", 
-        "sw_latitude": 6.579
+        "date_indexed": "2010-12-02T16:11:43Z"
       }, 
       "id": 12522810
     }

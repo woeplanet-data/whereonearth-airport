@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520379, 
+        "placetype": "airport", 
         "name": "John Degerman Field Airport", 
-        "ne_latitude": 46.421, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12590549", 
+          "woe:state=2347608", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520379, 
         "ne_longitude": -91.646, 
         "longitude": -91.653, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590549, 
+        "ne_latitude": 46.421, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2435045, 
+        "sw_latitude": 46.412, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.417, 
         "sw_longitude": -91.659, 
-        "fullname": "John Degerman Field Airport, Lake Nebagamon, Wisconsin, Douglas, United States", 
-        "sw_latitude": 46.412
+        "fullname": "John Degerman Field Airport, Lake Nebagamon, Wisconsin, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12520379
     }

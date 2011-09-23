@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516845, 
+        "placetype": "airport", 
         "name": "Severo Yeniseyskiy Airport", 
-        "ne_latitude": 60.383, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597880", 
+          "woe:state=20070524", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516845, 
         "ne_longitude": 93.022, 
         "longitude": 93.013, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597880, 
+        "ne_latitude": 60.383, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2123374, 
+        "sw_latitude": 60.374, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 60.379, 
         "sw_longitude": 93.003, 
-        "fullname": "Severo Yeniseyskiy Airport, Severo-Yeniseyskiy, Krasnoyarskiy Kray, Severo-Yeniseysky, Russia", 
-        "sw_latitude": 60.374
+        "fullname": "Severo Yeniseyskiy Airport, Severo-Yeniseyskiy, Krasnoyarskiy Kray, Russia", 
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516845
     }

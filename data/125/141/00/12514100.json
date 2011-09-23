@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514100, 
+        "placetype": "airport", 
         "name": "Kant Airport", 
-        "ne_latitude": 42.855, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=20070195", 
+          "woe:country=23424864", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514100, 
         "ne_longitude": 74.836, 
         "longitude": 74.830, 
-        "placetype": "Airport", 
+        "parent_woeid": 20070195, 
+        "ne_latitude": 42.855, 
         "iso": "KG", 
-        "date_indexed": "2010-12-02T08:58:47Z", 
-        "parent_woeid": 1969915, 
+        "sw_latitude": 42.846, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.851, 
         "sw_longitude": 74.823, 
         "fullname": "Kant Airport, Kant, Chuy, Kyrgyzstan", 
-        "sw_latitude": 42.846
+        "date_indexed": "2010-12-02T08:58:47Z"
       }, 
       "id": 12514100
     }

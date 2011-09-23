@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 28677829, 
+        "placetype": "airport", 
         "name": "Kaikohe Aerodrome", 
-        "ne_latitude": -35.449, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55875844", 
+          "woe:state=15021755", 
+          "woe:country=23424916", 
+          "woe:planet=1"
+        ], 
+        "woeid": 28677829, 
         "ne_longitude": 173.821, 
         "longitude": 173.815, 
-        "placetype": "Airport", 
+        "parent_woeid": 55875844, 
+        "ne_latitude": -35.449, 
         "iso": "NZ", 
-        "date_indexed": "2010-12-02T17:02:39Z", 
-        "parent_woeid": 2348923, 
+        "sw_latitude": -35.458, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -35.454, 
         "sw_longitude": 173.809, 
-        "fullname": "Kaikohe Aerodrome, Kaikohe, Northland, Far North District, New Zealand", 
-        "sw_latitude": -35.458
+        "fullname": "Kaikohe Aerodrome, Kaikohe, Northland, New Zealand", 
+        "date_indexed": "2010-12-02T17:02:39Z"
       }, 
       "id": 28677829
     }

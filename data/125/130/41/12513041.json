@@ -32,29 +32,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513041, 
-        "name": "Arnsberg Airport", 
         "alias_ENG_V": [
           "Arnsberg-Menden Airfield"
         ], 
-        "ne_latitude": 51.487, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Arnsberg Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=12624244", 
+          "woe:county=12596916", 
+          "woe:state=2345487", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513041, 
         "ne_longitude": 7.904, 
         "longitude": 7.900, 
-        "placetype": "Airport", 
+        "parent_woeid": 12624244, 
+        "ne_latitude": 51.487, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 661629, 
+        "sw_latitude": 51.480, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.484, 
         "sw_longitude": 7.892, 
-        "fullname": "Arnsberg Airport, H\u00f6llinghofen, North Rhine-Westphalia, Hochsauerlandkreis, Germany", 
+        "fullname": "Arnsberg Airport, H\u00f6llinghofen, North Rhine-Westphalia, Germany", 
         "alias_GER_V": [
           "Flughafen Arnsberg-Menden"
         ], 
         "alias_GER_Q": [
           "Flughafen Arnsberg"
         ], 
-        "sw_latitude": 51.480
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 12513041
     }

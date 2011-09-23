@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "FRE", 
-        "woeid": 56051818, 
+        "placetype": "airport", 
         "name": "A\u00e9rodrome de Quiberon", 
-        "ne_latitude": 47.482, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12645717", 
+          "woe:county=12591798", 
+          "woe:state=7153313", 
+          "woe:country=23424819", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56051818, 
         "ne_longitude": -3.094, 
         "longitude": -3.101, 
-        "placetype": "Airport", 
+        "parent_woeid": 12645717, 
+        "ne_latitude": 47.482, 
         "iso": "FR", 
-        "date_indexed": "2010-12-02T12:04:01Z", 
-        "parent_woeid": 618593, 
+        "sw_latitude": 47.479, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.480, 
         "sw_longitude": -3.104, 
-        "fullname": "A\u00e9rodrome de Quiberon, Quiberon, Brittany, Morbihan, France", 
+        "fullname": "A\u00e9rodrome de Quiberon, Quiberon, Brittany, France", 
         "alias_FRE_S": [
           "Aerodrome de Quiberon"
         ], 
-        "sw_latitude": 47.479
+        "date_indexed": "2010-12-02T12:04:01Z"
       }, 
       "id": 56051818
     }

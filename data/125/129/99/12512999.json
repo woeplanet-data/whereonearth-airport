@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512999, 
-        "name": "Oyem Airport", 
         "alias_ENG_V": [
           "OYE"
         ], 
-        "ne_latitude": 1.540, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Oyem Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55998488", 
+          "woe:state=2345457", 
+          "woe:country=23424822", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512999, 
         "ne_longitude": 11.585, 
         "longitude": 11.580, 
-        "placetype": "Airport", 
+        "parent_woeid": 55998488, 
+        "ne_latitude": 1.540, 
         "iso": "GA", 
-        "date_indexed": "2010-12-02T08:50:01Z", 
-        "parent_woeid": 1484117, 
+        "sw_latitude": 1.531, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 1.535, 
         "sw_longitude": 11.576, 
-        "fullname": "Oyem Airport, Oyem, Woleu-Ntem, Woleu, Gabon", 
-        "sw_latitude": 1.531
+        "fullname": "Oyem Airport, Oyem, Woleu-Ntem, Gabon", 
+        "iata_code": "OYE", 
+        "date_indexed": "2010-12-02T08:50:01Z"
       }, 
       "id": 12512999
     }

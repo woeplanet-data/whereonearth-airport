@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514251, 
+        "placetype": "airport", 
         "name": "Aksuat Airport", 
-        "ne_latitude": 51.509, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=20070176", 
+          "woe:country=23424871", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514251, 
         "ne_longitude": 64.542, 
         "longitude": 64.535, 
-        "placetype": "Airport", 
+        "parent_woeid": 20070176, 
+        "ne_latitude": 51.509, 
         "iso": "KZ", 
-        "date_indexed": "2010-12-02T08:54:13Z", 
-        "parent_woeid": 2260423, 
+        "sw_latitude": 51.500, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.504, 
         "sw_longitude": 64.527, 
         "fullname": "Aksuat Airport, Qostanay, Kazakhstan", 
-        "sw_latitude": 51.500
+        "date_indexed": "2010-12-02T08:54:13Z"
       }, 
       "id": 12514251
     }

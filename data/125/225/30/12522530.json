@@ -3,28 +3,106 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -81.604, 
-              38.361
-            ], 
-            [
-              -81.604, 
-              38.383
-            ], 
-            [
-              -81.584, 
-              38.383
-            ], 
-            [
-              -81.584, 
-              38.361
-            ], 
-            [
-              -81.604, 
-              38.361
+              [
+                -81.585, 
+                38.381
+              ], 
+              [
+                -81.580, 
+                38.386
+              ], 
+              [
+                -81.582, 
+                38.385
+              ], 
+              [
+                -81.582, 
+                38.385
+              ], 
+              [
+                -81.586, 
+                38.381
+              ], 
+              [
+                -81.587, 
+                38.380
+              ], 
+              [
+                -81.593, 
+                38.373
+              ], 
+              [
+                -81.590, 
+                38.365
+              ], 
+              [
+                -81.592, 
+                38.361
+              ], 
+              [
+                -81.597, 
+                38.362
+              ], 
+              [
+                -81.600, 
+                38.363
+              ], 
+              [
+                -81.601, 
+                38.363
+              ], 
+              [
+                -81.603, 
+                38.365
+              ], 
+              [
+                -81.603, 
+                38.368
+              ], 
+              [
+                -81.602, 
+                38.369
+              ], 
+              [
+                -81.598, 
+                38.373
+              ], 
+              [
+                -81.596, 
+                38.376
+              ], 
+              [
+                -81.591, 
+                38.378
+              ], 
+              [
+                -81.587, 
+                38.380
+              ], 
+              [
+                -81.586, 
+                38.381
+              ], 
+              [
+                -81.582, 
+                38.385
+              ], 
+              [
+                -81.582, 
+                38.385
+              ], 
+              [
+                -81.580, 
+                38.386
+              ], 
+              [
+                -81.585, 
+                38.381
+              ]
             ]
           ]
         ]
@@ -32,23 +110,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522530, 
-        "name": "Yeager Airport", 
         "alias_ENG_V": [
           "CRW"
         ], 
-        "ne_latitude": 38.383, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -81.584, 
-        "longitude": -81.595, 
-        "placetype": "Airport", 
+        "name": "Yeager Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590498", 
+          "woe:state=2347607", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522530, 
+        "ne_longitude": -81.580, 
+        "longitude": -81.596, 
+        "parent_woeid": 12590498, 
+        "ne_latitude": 38.386, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2400471, 
-        "latitude": 38.370, 
-        "sw_longitude": -81.604, 
-        "fullname": "Yeager Airport, Etowah, West Virginia, Kanawha, United States", 
-        "sw_latitude": 38.361
+        "sw_latitude": 38.361, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 38.369, 
+        "sw_longitude": -81.603, 
+        "fullname": "Yeager Airport, Etowah, West Virginia, United States", 
+        "iata_code": "CRW", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522530
     }

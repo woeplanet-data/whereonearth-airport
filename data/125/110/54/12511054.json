@@ -3,28 +3,74 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -60.703, 
-              2.830
-            ], 
-            [
-              -60.703, 
-              2.853
-            ], 
-            [
-              -60.680, 
-              2.853
-            ], 
-            [
-              -60.680, 
-              2.830
-            ], 
-            [
-              -60.703, 
-              2.830
+              [
+                -60.687, 
+                2.835
+              ], 
+              [
+                -60.680, 
+                2.839
+              ], 
+              [
+                -60.677, 
+                2.841
+              ], 
+              [
+                -60.679, 
+                2.839
+              ], 
+              [
+                -60.684, 
+                2.831
+              ], 
+              [
+                -60.692, 
+                2.825
+              ], 
+              [
+                -60.699, 
+                2.831
+              ], 
+              [
+                -60.692, 
+                2.833
+              ], 
+              [
+                -60.690, 
+                2.836
+              ], 
+              [
+                -60.694, 
+                2.845
+              ], 
+              [
+                -60.694, 
+                2.846
+              ], 
+              [
+                -60.695, 
+                2.849
+              ], 
+              [
+                -60.699, 
+                2.847
+              ], 
+              [
+                -60.695, 
+                2.845
+              ], 
+              [
+                -60.690, 
+                2.836
+              ], 
+              [
+                -60.687, 
+                2.835
+              ]
             ]
           ]
         ]
@@ -32,29 +78,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511054, 
-        "name": "Aeroporto Internacional Boa Vista", 
-        "alias_ENG_P": [
-          "Boa Vista International Airport"
-        ], 
-        "ne_latitude": 2.853, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "Boa Vista Airport"
         ], 
-        "ne_longitude": -60.680, 
-        "longitude": -60.692, 
-        "placetype": "Airport", 
+        "name": "Aeroporto Internacional Boa Vista", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Boa Vista International Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12581589", 
+          "woe:state=2344866", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511054, 
+        "ne_longitude": -60.677, 
+        "longitude": -60.687, 
+        "parent_woeid": 12581589, 
+        "ne_latitude": 2.849, 
         "alias_POR_V": [
           "Aeroporto BVB"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 455936, 
-        "latitude": 2.842, 
-        "sw_longitude": -60.703, 
-        "fullname": "Aeroporto Internacional Boa Vista, Boa Vista, Roraima, Boa Vista, Brazil", 
-        "sw_latitude": 2.830
+        "sw_latitude": 2.825, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 2.829, 
+        "sw_longitude": -60.699, 
+        "fullname": "Aeroporto Internacional Boa Vista, Boa Vista, Roraima, Brazil", 
+        "iata_code": "BVB", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511054
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511871, 
-        "name": "The Pas Airport", 
         "alias_ENG_V": [
           "YQD Airport"
         ], 
-        "ne_latitude": 53.981, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "The Pas Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375231", 
+          "woe:state=2344917", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511871, 
         "ne_longitude": -101.074, 
         "longitude": -101.089, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375231, 
+        "ne_latitude": 53.981, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 29373457, 
+        "sw_latitude": 53.961, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.975, 
         "sw_longitude": -101.105, 
-        "fullname": "The Pas Airport, Opaskwayak Cree Nation Ir 21b, Manitoba, Manitoba, Canada", 
-        "sw_latitude": 53.961
+        "fullname": "The Pas Airport, Opaskwayak Cree Nation Ir 21b, Manitoba, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12511871
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511511, 
+        "placetype": "airport", 
         "name": "Slivnitsa Airport", 
-        "ne_latitude": 42.842, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55873796", 
+          "woe:state=20070061", 
+          "woe:country=23424771", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511511, 
         "ne_longitude": 23.003, 
         "longitude": 22.997, 
-        "placetype": "Airport", 
+        "parent_woeid": 55873796, 
+        "ne_latitude": 42.842, 
         "iso": "BG", 
-        "date_indexed": "2010-12-02T16:14:37Z", 
-        "parent_woeid": 834643, 
+        "sw_latitude": 42.833, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.838, 
         "sw_longitude": 22.991, 
         "fullname": "Slivnitsa Airport, Sofiya, Slivnitsa, Bulgaria", 
-        "sw_latitude": 42.833
+        "date_indexed": "2010-12-02T16:14:37Z"
       }, 
       "id": 12511511
     }

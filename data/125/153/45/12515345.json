@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515345, 
+        "placetype": "airport", 
         "name": "Lysiny Airport", 
-        "ne_latitude": 51.846, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=24547387", 
+          "woe:county=24931027", 
+          "woe:state=12577939", 
+          "woe:country=23424923", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515345, 
         "ne_longitude": 16.254, 
         "longitude": 16.247, 
-        "placetype": "Airport", 
+        "parent_woeid": 24547387, 
+        "ne_latitude": 51.846, 
         "iso": "PL", 
-        "date_indexed": "2010-12-02T12:12:45Z", 
-        "parent_woeid": 24934334, 
+        "sw_latitude": 51.837, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.841, 
         "sw_longitude": 16.240, 
         "fullname": "Lysiny Airport, Lubusz, Wschowa County, Poland", 
-        "sw_latitude": 51.837
+        "date_indexed": "2010-12-02T12:12:45Z"
       }, 
       "id": 12515345
     }

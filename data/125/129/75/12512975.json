@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512975, 
+        "placetype": "airport", 
         "name": "St Sauveur Airport", 
-        "ne_latitude": 47.789, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12638242", 
+          "woe:county=12597119", 
+          "woe:state=7153317", 
+          "woe:country=23424819", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512975, 
         "ne_longitude": 6.369, 
         "longitude": 6.362, 
-        "placetype": "Airport", 
+        "parent_woeid": 12638242, 
+        "ne_latitude": 47.789, 
         "iso": "FR", 
-        "date_indexed": "2010-12-02T12:04:01Z", 
-        "parent_woeid": 578422, 
+        "sw_latitude": 47.780, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.785, 
         "sw_longitude": 6.356, 
-        "fullname": "St Sauveur Airport, Baudoncourt, Franche-Comte, Haute-Saone, France", 
-        "sw_latitude": 47.780
+        "fullname": "St Sauveur Airport, Baudoncourt, Franche-Comte, France", 
+        "date_indexed": "2010-12-02T12:04:01Z"
       }, 
       "id": 12512975
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519513, 
+        "placetype": "airport", 
         "name": "Dos Arroyos Ranch Airport", 
-        "ne_latitude": 30.158, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12590092", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519513, 
         "ne_longitude": -99.292, 
         "longitude": -99.298, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590092, 
+        "ne_latitude": 30.158, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:15Z", 
-        "parent_woeid": 2417856, 
+        "sw_latitude": 30.149, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 30.154, 
         "sw_longitude": -99.303, 
-        "fullname": "Dos Arroyos Ranch Airport, Harper, Texas, Gillespie, United States", 
-        "sw_latitude": 30.149
+        "fullname": "Dos Arroyos Ranch Airport, Harper, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:15Z"
       }, 
       "id": 12519513
     }

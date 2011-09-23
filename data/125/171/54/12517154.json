@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517154, 
+        "placetype": "airport", 
         "name": "Verkhne-Nazarov Airport", 
-        "ne_latitude": 45.004, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597786", 
+          "woe:state=20070520", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517154, 
         "ne_longitude": 39.714, 
         "longitude": 39.707, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597786, 
+        "ne_latitude": 45.004, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2077273, 
+        "sw_latitude": 44.995, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.000, 
         "sw_longitude": 39.701, 
         "fullname": "Verkhne-Nazarov Airport, Krasnodarskiy Kray, Belorechensk, Russia", 
-        "sw_latitude": 44.995
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12517154
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517111, 
+        "placetype": "airport", 
         "name": "Ust Khayryuzovo Airport", 
-        "ne_latitude": 57.107, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598426", 
+          "woe:state=20070515", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517111, 
         "ne_longitude": 156.755, 
         "longitude": 156.746, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598426, 
+        "ne_latitude": 57.107, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2101483, 
+        "sw_latitude": 57.098, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 57.102, 
         "sw_longitude": 156.738, 
         "fullname": "Ust Khayryuzovo Airport, Koryakskiy Avtonomnyy Okrug, Tigilsky, Russia", 
-        "sw_latitude": 57.098
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12517111
     }

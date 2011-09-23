@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513087, 
+        "placetype": "airport", 
         "name": "Erding Airport", 
-        "ne_latitude": 48.328, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12635143", 
+          "woe:county=12596835", 
+          "woe:state=2345482", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513087, 
         "ne_longitude": 11.957, 
         "longitude": 11.950, 
-        "placetype": "Airport", 
+        "parent_woeid": 12635143, 
+        "ne_latitude": 48.328, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:24Z", 
-        "parent_woeid": 648323, 
+        "sw_latitude": 48.319, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.323, 
         "sw_longitude": 11.943, 
-        "fullname": "Erding Airport, Erding, Bavaria, Landkreis Erding, Germany", 
+        "fullname": "Erding Airport, Erding, Bavaria, Germany", 
         "alias_GER_Q": [
           "Flughafen Erding"
         ], 
-        "sw_latitude": 48.319
+        "date_indexed": "2010-12-02T09:50:24Z"
       }, 
       "id": 12513087
     }

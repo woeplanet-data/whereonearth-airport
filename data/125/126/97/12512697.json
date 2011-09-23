@@ -3,28 +3,54 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              32.695, 
-              25.664
-            ], 
-            [
-              32.695, 
-              25.686
-            ], 
-            [
-              32.720, 
-              25.686
-            ], 
-            [
-              32.720, 
-              25.664
-            ], 
-            [
-              32.695, 
-              25.664
+              [
+                32.704, 
+                25.674
+              ], 
+              [
+                32.701, 
+                25.673
+              ], 
+              [
+                32.699, 
+                25.671
+              ], 
+              [
+                32.700, 
+                25.674
+              ], 
+              [
+                32.699, 
+                25.674
+              ], 
+              [
+                32.702, 
+                25.675
+              ], 
+              [
+                32.704, 
+                25.675
+              ], 
+              [
+                32.705, 
+                25.674
+              ], 
+              [
+                32.708, 
+                25.672
+              ], 
+              [
+                32.707, 
+                25.672
+              ], 
+              [
+                32.704, 
+                25.674
+              ]
             ]
           ]
         ]
@@ -32,23 +58,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512697, 
-        "name": "Luxor Airport", 
         "alias_ENG_V": [
           "LXR"
         ], 
-        "ne_latitude": 25.686, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": 32.720, 
-        "longitude": 32.708, 
-        "placetype": "Airport", 
-        "iso": "EG", 
-        "date_indexed": "2010-12-02T12:16:51Z", 
+        "name": "Luxor Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=56120896", 
+          "woe:country=23424802", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512697, 
+        "ne_longitude": 32.708, 
+        "longitude": 32.702, 
         "parent_woeid": 56120896, 
-        "latitude": 25.675, 
-        "sw_longitude": 32.695, 
+        "ne_latitude": 25.675, 
+        "iso": "EG", 
+        "sw_latitude": 25.671, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 25.674, 
+        "sw_longitude": 32.699, 
         "fullname": "Luxor Airport, Al Uqsur, Qina, Egypt", 
-        "sw_latitude": 25.664
+        "iata_code": "LXR", 
+        "date_indexed": "2010-12-02T12:16:51Z"
       }, 
       "id": 12512697
     }

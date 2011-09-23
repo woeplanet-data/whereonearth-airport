@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510346, 
+        "placetype": "airport", 
         "name": "Sidi Bel Abbes Airport", 
-        "ne_latitude": 35.177, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2344601", 
+          "woe:country=23424740", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510346, 
         "ne_longitude": -0.584, 
         "longitude": -0.590, 
-        "placetype": "Airport", 
+        "parent_woeid": 2344601, 
+        "ne_latitude": 35.177, 
         "iso": "DZ", 
-        "date_indexed": "2010-12-02T17:07:16Z", 
-        "parent_woeid": 1257296, 
+        "sw_latitude": 35.168, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.172, 
         "sw_longitude": -0.596, 
         "fullname": "Sidi Bel Abbes Airport, Sidi Bel Abbes, Sidi Bel Abbes, Algeria", 
-        "sw_latitude": 35.168
+        "date_indexed": "2010-12-02T17:07:16Z"
       }, 
       "id": 12510346
     }

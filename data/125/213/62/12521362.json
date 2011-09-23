@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521362, 
-        "name": "Philip Airport", 
         "alias_ENG_V": [
           "PHP Airport"
         ], 
-        "ne_latitude": 44.053, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Philip Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589872", 
+          "woe:state=2347600", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521362, 
         "ne_longitude": -101.588, 
         "longitude": -101.601, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589872, 
+        "ne_latitude": 44.053, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2471263, 
+        "sw_latitude": 44.044, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.052, 
         "sw_longitude": -101.607, 
-        "fullname": "Philip Airport, Philip, South Dakota, Haakon, United States", 
-        "sw_latitude": 44.044
+        "fullname": "Philip Airport, Philip, South Dakota, United States", 
+        "iata_code": "PHP", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521362
     }

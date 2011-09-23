@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516413, 
+        "placetype": "airport", 
         "name": "Maykhe Airport", 
-        "ne_latitude": 43.433, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597927", 
+          "woe:state=2346886", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516413, 
         "ne_longitude": 132.423, 
         "longitude": 132.417, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597927, 
+        "ne_latitude": 43.433, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2083708, 
+        "sw_latitude": 43.424, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.429, 
         "sw_longitude": 132.411, 
         "fullname": "Maykhe Airport, Primorskiy Kray, Shkotovsky, Russia", 
-        "sw_latitude": 43.424
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516413
     }

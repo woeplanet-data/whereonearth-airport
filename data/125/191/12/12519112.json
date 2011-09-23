@@ -3,28 +3,122 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -104.855, 
-              39.558
-            ], 
-            [
-              -104.855, 
-              39.589
-            ], 
-            [
-              -104.831, 
-              39.589
-            ], 
-            [
-              -104.831, 
-              39.558
-            ], 
-            [
-              -104.855, 
-              39.558
+              [
+                -104.847, 
+                39.583
+              ], 
+              [
+                -104.840, 
+                39.581
+              ], 
+              [
+                -104.844, 
+                39.576
+              ], 
+              [
+                -104.838, 
+                39.573
+              ], 
+              [
+                -104.835, 
+                39.572
+              ], 
+              [
+                -104.833, 
+                39.567
+              ], 
+              [
+                -104.832, 
+                39.570
+              ], 
+              [
+                -104.832, 
+                39.571
+              ], 
+              [
+                -104.835, 
+                39.574
+              ], 
+              [
+                -104.838, 
+                39.573
+              ], 
+              [
+                -104.844, 
+                39.574
+              ], 
+              [
+                -104.845, 
+                39.571
+              ], 
+              [
+                -104.844, 
+                39.568
+              ], 
+              [
+                -104.844, 
+                39.566
+              ], 
+              [
+                -104.849, 
+                39.566
+              ], 
+              [
+                -104.853, 
+                39.565
+              ], 
+              [
+                -104.855, 
+                39.560
+              ], 
+              [
+                -104.855, 
+                39.560
+              ], 
+              [
+                -104.853, 
+                39.565
+              ], 
+              [
+                -104.853, 
+                39.568
+              ], 
+              [
+                -104.860, 
+                39.569
+              ], 
+              [
+                -104.853, 
+                39.570
+              ], 
+              [
+                -104.850, 
+                39.575
+              ], 
+              [
+                -104.856, 
+                39.580
+              ], 
+              [
+                -104.857, 
+                39.584
+              ], 
+              [
+                -104.852, 
+                39.588
+              ], 
+              [
+                -104.850, 
+                39.587
+              ], 
+              [
+                -104.847, 
+                39.583
+              ]
             ]
           ]
         ]
@@ -32,23 +126,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519112, 
-        "name": "Centennial Airport", 
         "alias_ENG_V": [
           "APA"
         ], 
-        "ne_latitude": 39.589, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -104.831, 
-        "longitude": -104.845, 
-        "placetype": "Airport", 
+        "name": "Centennial Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587730", 
+          "woe:state=2347564", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519112, 
+        "ne_longitude": -104.832, 
+        "longitude": -104.850, 
+        "parent_woeid": 12587730, 
+        "ne_latitude": 39.588, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 23510682, 
-        "latitude": 39.575, 
-        "sw_longitude": -104.855, 
-        "fullname": "Centennial Airport, Centennial, Colorado, Arapahoe, United States", 
-        "sw_latitude": 39.558
+        "sw_latitude": 39.560, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 39.577, 
+        "sw_longitude": -104.860, 
+        "fullname": "Centennial Airport, Centennial, Colorado, United States", 
+        "iata_code": "APA", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519112
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522254, 
+        "placetype": "airport", 
         "name": "Uno Mas Ranch Airport", 
-        "ne_latitude": 28.210, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12590145", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522254, 
         "ne_longitude": -99.129, 
         "longitude": -99.134, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590145, 
+        "ne_latitude": 28.210, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2356310, 
+        "sw_latitude": 28.201, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 28.206, 
         "sw_longitude": -99.139, 
-        "fullname": "Uno Mas Ranch Airport, Artesia Wells, Texas, La Salle, United States", 
-        "sw_latitude": 28.201
+        "fullname": "Uno Mas Ranch Airport, Artesia Wells, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12522254
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513682, 
-        "name": "Tezpur Airport", 
         "alias_ENG_V": [
           "TEZ"
         ], 
-        "ne_latitude": 26.715, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Tezpur Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12586371", 
+          "woe:state=2345741", 
+          "woe:country=23424848", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513682, 
         "ne_longitude": 92.801, 
         "longitude": 92.796, 
-        "placetype": "Airport", 
+        "parent_woeid": 12586371, 
+        "ne_latitude": 26.715, 
         "iso": "IN", 
-        "date_indexed": "2010-12-02T09:26:27Z", 
-        "parent_woeid": 29152158, 
+        "sw_latitude": 26.706, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 26.711, 
         "sw_longitude": 92.791, 
-        "fullname": "Tezpur Airport, Rupkuria Gaon, Assam, Sonitpur, India", 
-        "sw_latitude": 26.706
+        "fullname": "Tezpur Airport, Rupkuria Gaon, Assam, India", 
+        "date_indexed": "2010-12-02T09:26:27Z"
       }, 
       "id": 12513682
     }

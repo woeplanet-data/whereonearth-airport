@@ -3,28 +3,46 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -58.764, 
-              -34.678
-            ], 
-            [
-              -58.764, 
-              -34.655
-            ], 
-            [
-              -58.736, 
-              -34.655
-            ], 
-            [
-              -58.736, 
-              -34.678
-            ], 
-            [
-              -58.764, 
-              -34.678
+              [
+                -58.714, 
+                -34.663
+              ], 
+              [
+                -58.719, 
+                -34.666
+              ], 
+              [
+                -58.719, 
+                -34.670
+              ], 
+              [
+                -58.723, 
+                -34.666
+              ], 
+              [
+                -58.719, 
+                -34.666
+              ], 
+              [
+                -58.717, 
+                -34.663
+              ], 
+              [
+                -58.715, 
+                -34.662
+              ], 
+              [
+                -58.712, 
+                -34.658
+              ], 
+              [
+                -58.714, 
+                -34.663
+              ]
             ]
           ]
         ]
@@ -32,23 +50,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 24554863, 
-        "name": "Merlo International", 
         "alias_ENG_V": [
           "RLO"
         ], 
-        "ne_latitude": -34.655, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -58.736, 
-        "longitude": -58.750, 
-        "placetype": "Airport", 
+        "name": "Merlo International", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=20070608", 
+          "woe:state=2344675", 
+          "woe:country=23424747", 
+          "woe:planet=1"
+        ], 
+        "woeid": 24554863, 
+        "ne_longitude": -58.712, 
+        "longitude": -58.717, 
+        "parent_woeid": 20070608, 
+        "ne_latitude": -34.658, 
         "iso": "AR", 
-        "date_indexed": "2010-12-02T17:41:29Z", 
-        "parent_woeid": 467312, 
-        "latitude": -34.667, 
-        "sw_longitude": -58.764, 
-        "fullname": "Merlo International, Mariano Acosta, Buenos Aires, Merlo, Argentina", 
-        "sw_latitude": -34.678
+        "sw_latitude": -34.670, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": -34.665, 
+        "sw_longitude": -58.723, 
+        "fullname": "Merlo International, Mariano Acosta, Buenos Aires, Argentina", 
+        "iata_code": "RLO", 
+        "date_indexed": "2010-12-02T17:41:29Z"
       }, 
       "id": 24554863
     }

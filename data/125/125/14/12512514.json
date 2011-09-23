@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512514, 
+        "placetype": "airport", 
         "name": "Ceskalipa Airport", 
-        "ne_latitude": 50.703, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12606594", 
+          "woe:county=12582560", 
+          "woe:state=20070498", 
+          "woe:country=23424810", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512514, 
         "ne_longitude": 14.554, 
         "longitude": 14.546, 
-        "placetype": "Airport", 
+        "parent_woeid": 12606594, 
+        "ne_latitude": 50.703, 
         "iso": "CZ", 
-        "date_indexed": "2010-12-02T08:56:52Z", 
-        "parent_woeid": 796055, 
+        "sw_latitude": 50.694, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.698, 
         "sw_longitude": 14.539, 
         "fullname": "Ceskalipa Airport, Libereck\u00fd, \u010cesk\u00e1 L\u00edpa, Czech Republic", 
-        "sw_latitude": 50.694
+        "date_indexed": "2010-12-02T08:56:52Z"
       }, 
       "id": 12512514
     }

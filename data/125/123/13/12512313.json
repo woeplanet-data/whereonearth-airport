@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512313, 
-        "name": "Chacalluta Airport", 
         "alias_ENG_V": [
           "ARI"
         ], 
-        "ne_latitude": -18.341, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Chacalluta Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=26794315", 
+          "woe:county=26793977", 
+          "woe:state=56043702", 
+          "woe:country=23424782", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512313, 
         "ne_longitude": -70.331, 
         "longitude": -70.336, 
-        "placetype": "Airport", 
+        "parent_woeid": 26794315, 
+        "ne_latitude": -18.341, 
         "iso": "CL", 
-        "date_indexed": "2010-12-02T12:15:39Z", 
-        "parent_woeid": 349874, 
+        "sw_latitude": -18.350, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -18.346, 
         "sw_longitude": -70.341, 
-        "fullname": "Chacalluta Airport, Arica, Arica and Parinacota Region, Arica Province, Chile", 
-        "sw_latitude": -18.350
+        "fullname": "Chacalluta Airport, Arica, Arica and Parinacota Region, Chile", 
+        "iata_code": "ARI", 
+        "date_indexed": "2010-12-02T12:15:39Z"
       }, 
       "id": 12512313
     }

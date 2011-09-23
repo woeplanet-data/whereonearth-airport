@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521417, 
-        "name": "Pleasanton Municipal Airport", 
         "alias_ENG_V": [
           "PEZ"
         ], 
-        "ne_latitude": 28.959, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Pleasanton Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590013", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521417, 
         "ne_longitude": -98.515, 
         "longitude": -98.520, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590013, 
+        "ne_latitude": 28.959, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2474211, 
+        "sw_latitude": 28.950, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 28.954, 
         "sw_longitude": -98.525, 
-        "fullname": "Pleasanton Municipal Airport, Pleasanton, Texas, Atascosa, United States", 
-        "sw_latitude": 28.950
+        "fullname": "Pleasanton Municipal Airport, Pleasanton, Texas, United States", 
+        "iata_code": "PEZ", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521417
     }

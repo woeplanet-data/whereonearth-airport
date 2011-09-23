@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "CZE", 
-        "woeid": 56049721, 
+        "placetype": "airport", 
         "name": "Letiste Trebic", 
-        "ne_latitude": 49.206, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12605313", 
+          "woe:county=12582553", 
+          "woe:state=20070467", 
+          "woe:country=23424810", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56049721, 
         "ne_longitude": 15.911, 
         "longitude": 15.901, 
-        "placetype": "Airport", 
+        "parent_woeid": 12605313, 
+        "ne_latitude": 49.206, 
         "iso": "CZ", 
-        "date_indexed": "2010-12-02T08:56:52Z", 
-        "parent_woeid": 799766, 
+        "sw_latitude": 49.193, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.200, 
         "sw_longitude": 15.891, 
-        "fullname": "Letiste Trebic, T\u0159eb\u00ed\u010d, Vyso\u010dina, T\u0159eb\u00ed\u010d, Czech Republic", 
-        "sw_latitude": 49.193
+        "fullname": "Letiste Trebic, T\u0159eb\u00ed\u010d, Vyso\u010dina, Czech Republic", 
+        "date_indexed": "2010-12-02T08:56:52Z"
       }, 
       "id": 56049721
     }

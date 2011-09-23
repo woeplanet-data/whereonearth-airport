@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511460, 
+        "placetype": "airport", 
         "name": "Mali Izvor Airport", 
-        "ne_latitude": 43.818, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55873726", 
+          "woe:state=20070050", 
+          "woe:country=23424771", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511460, 
         "ne_longitude": 27.444, 
         "longitude": 27.438, 
-        "placetype": "Airport", 
+        "parent_woeid": 55873726, 
+        "ne_latitude": 43.818, 
         "iso": "BG", 
-        "date_indexed": "2010-12-02T16:14:37Z", 
-        "parent_woeid": 836729, 
+        "sw_latitude": 43.809, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.813, 
         "sw_longitude": 27.431, 
         "fullname": "Mali Izvor Airport, Dobrich, Tervel, Bulgaria", 
-        "sw_latitude": 43.809
+        "date_indexed": "2010-12-02T16:14:37Z"
       }, 
       "id": 12511460
     }

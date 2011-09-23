@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523535, 
-        "name": "Charata Airport", 
         "alias_ENG_V": [
           "CNT"
         ], 
-        "ne_latitude": -27.212, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Charata Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=20070649", 
+          "woe:state=2344677", 
+          "woe:country=23424747", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523535, 
         "ne_longitude": -61.212, 
         "longitude": -61.217, 
-        "placetype": "Airport", 
+        "parent_woeid": 20070649, 
+        "ne_latitude": -27.212, 
         "iso": "AR", 
-        "date_indexed": "2010-12-02T17:41:29Z", 
-        "parent_woeid": 467172, 
+        "sw_latitude": -27.221, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -27.217, 
         "sw_longitude": -61.222, 
-        "fullname": "Charata Airport, Charata, Chaco, Chacabuco, Argentina", 
-        "sw_latitude": -27.221
+        "fullname": "Charata Airport, Charata, Chaco, Argentina", 
+        "iata_code": "CNT", 
+        "date_indexed": "2010-12-02T17:41:29Z"
       }, 
       "id": 12523535
     }

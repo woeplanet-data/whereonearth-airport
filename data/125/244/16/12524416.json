@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524416, 
-        "name": "Santa Fe Airport", 
         "alias_ENG_V": [
           "SFW"
         ], 
-        "ne_latitude": 8.535, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Santa Fe Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=26793588", 
+          "woe:county=26793142", 
+          "woe:state=2346560", 
+          "woe:country=23424924", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524416, 
         "ne_longitude": -81.081, 
         "longitude": -81.086, 
-        "placetype": "Airport", 
+        "parent_woeid": 26793588, 
+        "ne_latitude": 8.535, 
         "iso": "PA", 
-        "date_indexed": "2010-12-02T17:52:32Z", 
-        "parent_woeid": 156595, 
+        "sw_latitude": 8.526, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 8.530, 
         "sw_longitude": -81.090, 
         "fullname": "Santa Fe Airport, Veraguas, Santa F\u00e9, Panama", 
-        "sw_latitude": 8.526
+        "iata_code": "SFW", 
+        "date_indexed": "2010-12-02T17:52:32Z"
       }, 
       "id": 12524416
     }

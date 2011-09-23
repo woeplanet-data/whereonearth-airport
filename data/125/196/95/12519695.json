@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519695, 
-        "name": "Faith Municipal Airport", 
         "alias_ENG_V": [
           "D07"
         ], 
-        "ne_latitude": 45.041, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Faith Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589891", 
+          "woe:state=2347600", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519695, 
         "ne_longitude": -102.014, 
         "longitude": -102.018, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589891, 
+        "ne_latitude": 45.041, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2402024, 
+        "sw_latitude": 45.029, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.031, 
         "sw_longitude": -102.027, 
-        "fullname": "Faith Municipal Airport, Faith, South Dakota, Meade, United States", 
-        "sw_latitude": 45.029
+        "fullname": "Faith Municipal Airport, Faith, South Dakota, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12519695
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518796, 
-        "name": "Bend Municipal Airport", 
         "alias_ENG_V": [
           "Bdn"
         ], 
-        "ne_latitude": 44.098, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Bend Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589700", 
+          "woe:state=2347596", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518796, 
         "ne_longitude": -121.193, 
         "longitude": -121.203, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589700, 
+        "ne_latitude": 44.098, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2449506, 
+        "sw_latitude": 44.087, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.093, 
         "sw_longitude": -121.203, 
-        "fullname": "Bend Municipal Airport, Mercer, Oregon, Deschutes, United States", 
-        "sw_latitude": 44.087
+        "fullname": "Bend Municipal Airport, Mercer, Oregon, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518796
     }

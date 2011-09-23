@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512700, 
-        "name": "New Valley Airport", 
         "alias_ENG_V": [
           "UVL"
         ], 
-        "ne_latitude": 25.480, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "New Valley Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2345235", 
+          "woe:country=23424802", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512700, 
         "ne_longitude": 30.597, 
         "longitude": 30.592, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345235, 
+        "ne_latitude": 25.480, 
         "iso": "EG", 
-        "date_indexed": "2010-12-02T12:16:51Z", 
-        "parent_woeid": 1521695, 
+        "sw_latitude": 25.470, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 25.475, 
         "sw_longitude": 30.587, 
         "fullname": "New Valley Airport, El Kharga, Al Wadi al Jadid, Egypt", 
-        "sw_latitude": 25.470
+        "iata_code": "UVL", 
+        "date_indexed": "2010-12-02T12:16:51Z"
       }, 
       "id": 12512700
     }

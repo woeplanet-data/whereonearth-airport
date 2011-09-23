@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522472, 
-        "name": "Willow Run Airport", 
         "alias_ENG_V": [
           "Wayne County Willow Run"
         ], 
-        "ne_latitude": 42.249, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Willow Run Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588794", 
+          "woe:state=2347581", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522472, 
         "ne_longitude": -83.504, 
         "longitude": -83.546, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588794, 
+        "ne_latitude": 42.249, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2525093, 
+        "sw_latitude": 42.223, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.237, 
         "sw_longitude": -83.547, 
-        "fullname": "Willow Run Airport, Ypsilanti, Michigan, Washtenaw, United States", 
-        "sw_latitude": 42.223
+        "fullname": "Willow Run Airport, Ypsilanti, Michigan, United States", 
+        "iata_code": "YIP", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522472
     }

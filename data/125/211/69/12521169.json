@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521169, 
-        "name": "Norton Municipal Airport", 
         "alias_ENG_V": [
           "Nrn"
         ], 
-        "ne_latitude": 39.857, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Norton Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588439", 
+          "woe:state=2347575", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521169, 
         "ne_longitude": -99.889, 
         "longitude": -99.889, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588439, 
+        "ne_latitude": 39.857, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2462205, 
+        "sw_latitude": 39.844, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 39.846, 
         "sw_longitude": -99.898, 
-        "fullname": "Norton Municipal Airport, Norton, Kansas, Norton, United States", 
-        "sw_latitude": 39.844
+        "fullname": "Norton Municipal Airport, Norton, Kansas, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521169
     }

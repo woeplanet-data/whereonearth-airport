@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523769, 
-        "name": "Yavarate Airport", 
         "alias_ENG_V": [
           "VAB"
         ], 
-        "ne_latitude": 0.619, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Yavarate Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26797669", 
+          "woe:state=2345075", 
+          "woe:country=23424787", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523769, 
         "ne_longitude": -69.206, 
         "longitude": -69.210, 
-        "placetype": "Airport", 
+        "parent_woeid": 26797669, 
+        "ne_latitude": 0.619, 
         "iso": "CO", 
-        "date_indexed": "2010-12-02T17:57:37Z", 
-        "parent_woeid": 369533, 
+        "sw_latitude": 0.610, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 0.615, 
         "sw_longitude": -69.215, 
-        "fullname": "Yavarate Airport, Yavarat\u00e9, Vaupes, Yavarate, Colombia", 
-        "sw_latitude": 0.610
+        "fullname": "Yavarate Airport, Yavarat\u00e9, Vaupes, Colombia", 
+        "iata_code": "VAB", 
+        "date_indexed": "2010-12-02T17:57:37Z"
       }, 
       "id": 12523769
     }

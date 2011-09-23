@@ -32,29 +32,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511090, 
-        "name": "Aeroporto Chapeco", 
-        "alias_ENG_P": [
-          "Chapeco Airport"
-        ], 
-        "ne_latitude": -27.128, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "XAP"
         ], 
+        "name": "Aeroporto Chapeco", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Chapeco Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12581640", 
+          "woe:state=2344867", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511090, 
         "ne_longitude": -52.656, 
         "longitude": -52.661, 
-        "placetype": "Airport", 
+        "parent_woeid": 12581640, 
+        "ne_latitude": -27.128, 
         "alias_POR_V": [
           "Aeroporto XAP"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 455854, 
+        "sw_latitude": -27.137, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -27.133, 
         "sw_longitude": -52.666, 
-        "fullname": "Aeroporto Chapeco, Chapeco, Santa Catarina, Chapec\u00f3, Brazil", 
-        "sw_latitude": -27.137
+        "fullname": "Aeroporto Chapeco, Chapeco, Santa Catarina, Brazil", 
+        "iata_code": "XAP", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511090
     }

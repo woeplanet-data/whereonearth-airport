@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519964, 
-        "name": "Grants-Milan Municipal Airport", 
         "alias_ENG_V": [
           "GNT Airport"
         ], 
-        "ne_latitude": 35.175, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Grants-Milan Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589282", 
+          "woe:state=2347590", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519964, 
         "ne_longitude": -107.894, 
         "longitude": -107.900, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589282, 
+        "ne_latitude": 35.175, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2413156, 
+        "sw_latitude": 35.161, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.168, 
         "sw_longitude": -107.908, 
-        "fullname": "Grants-Milan Municipal Airport, Grants, New Mexico, Cibola, United States", 
-        "sw_latitude": 35.161
+        "fullname": "Grants-Milan Municipal Airport, Grants, New Mexico, United States", 
+        "iata_code": "GNT", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12519964
     }

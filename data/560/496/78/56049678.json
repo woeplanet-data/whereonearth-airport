@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "CZE", 
-        "woeid": 56049678, 
+        "placetype": "airport", 
         "name": "Letiste Brezno", 
-        "ne_latitude": 50.416, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12606823", 
+          "woe:county=12582561", 
+          "woe:state=20070499", 
+          "woe:country=23424810", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56049678, 
         "ne_longitude": 13.455, 
         "longitude": 13.445, 
-        "placetype": "Airport", 
+        "parent_woeid": 12606823, 
+        "ne_latitude": 50.416, 
         "iso": "CZ", 
-        "date_indexed": "2010-12-02T08:56:52Z", 
-        "parent_woeid": 788854, 
+        "sw_latitude": 50.403, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.409, 
         "sw_longitude": 13.435, 
-        "fullname": "Letiste Brezno, Drou\u017ekovice, \u00dasteck\u00fd, Chomutov, Czech Republic", 
-        "sw_latitude": 50.403
+        "fullname": "Letiste Brezno, Drou\u017ekovice, \u00dasteck\u00fd, Czech Republic", 
+        "date_indexed": "2010-12-02T08:56:52Z"
       }, 
       "id": 56049678
     }

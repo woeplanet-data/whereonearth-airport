@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524334, 
-        "name": "Baillif Airport", 
         "alias_ENG_V": [
           "BBR"
         ], 
-        "ne_latitude": 16.025, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Baillif Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26813292", 
+          "woe:state=24549706", 
+          "woe:country=23424831", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524334, 
         "ne_longitude": -61.725, 
         "longitude": -61.730, 
-        "placetype": "Airport", 
+        "parent_woeid": 26813292, 
+        "ne_latitude": 16.025, 
         "iso": "GP", 
-        "date_indexed": "2010-12-02T08:50:01Z", 
-        "parent_woeid": 80494, 
+        "sw_latitude": 16.016, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 16.021, 
         "sw_longitude": -61.735, 
         "fullname": "Baillif Airport, Basse-Terre, Baillif, Guadeloupe", 
-        "sw_latitude": 16.016
+        "iata_code": "BBR", 
+        "date_indexed": "2010-12-02T08:50:01Z"
       }, 
       "id": 12524334
     }

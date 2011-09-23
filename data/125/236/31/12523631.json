@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523631, 
-        "name": "Medina Airport", 
         "alias_ENG_V": [
           "MND"
         ], 
-        "ne_latitude": 4.521, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Medina Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26797102", 
+          "woe:state=2345078", 
+          "woe:country=23424787", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523631, 
         "ne_longitude": -73.279, 
         "longitude": -73.283, 
-        "placetype": "Airport", 
+        "parent_woeid": 26797102, 
+        "ne_latitude": 4.521, 
         "iso": "CO", 
-        "date_indexed": "2010-12-02T17:57:37Z", 
-        "parent_woeid": 368533, 
+        "sw_latitude": 4.512, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 4.517, 
         "sw_longitude": -73.288, 
-        "fullname": "Medina Airport, Medina, Cundinamarca, Medina, Colombia", 
-        "sw_latitude": 4.512
+        "fullname": "Medina Airport, Medina, Cundinamarca, Colombia", 
+        "iata_code": "MND", 
+        "date_indexed": "2010-12-02T17:57:37Z"
       }, 
       "id": 12523631
     }

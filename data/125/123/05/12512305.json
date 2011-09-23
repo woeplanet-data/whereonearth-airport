@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512305, 
-        "name": "Balmaceda Airport", 
         "alias_ENG_V": [
           "BBA"
         ], 
-        "ne_latitude": -45.914, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Balmaceda Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=26794029", 
+          "woe:county=26793988", 
+          "woe:state=2345019", 
+          "woe:country=23424782", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512305, 
         "ne_longitude": -71.691, 
         "longitude": -71.697, 
-        "placetype": "Airport", 
+        "parent_woeid": 26794029, 
+        "ne_latitude": -45.914, 
         "iso": "CL", 
-        "date_indexed": "2010-12-02T12:15:39Z", 
-        "parent_woeid": 346849, 
+        "sw_latitude": -45.923, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -45.919, 
         "sw_longitude": -71.704, 
-        "fullname": "Balmaceda Airport, Balmaceda, Aisen Region, Coihaique Province, Chile", 
-        "sw_latitude": -45.923
+        "fullname": "Balmaceda Airport, Balmaceda, Aisen Region, Chile", 
+        "iata_code": "BBA", 
+        "date_indexed": "2010-12-02T12:15:39Z"
       }, 
       "id": 12512305
     }

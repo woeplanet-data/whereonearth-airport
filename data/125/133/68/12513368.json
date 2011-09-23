@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513368, 
-        "name": "Osijek Airport", 
         "alias_ENG_V": [
           "OSI"
         ], 
-        "ne_latitude": 45.468, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Osijek Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=15022267", 
+          "woe:state=12577980", 
+          "woe:country=23424843", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513368, 
         "ne_longitude": 18.815, 
         "longitude": 18.808, 
-        "placetype": "Airport", 
+        "parent_woeid": 15022267, 
+        "ne_latitude": 45.468, 
         "iso": "HR", 
-        "date_indexed": "2010-12-02T17:07:03Z", 
-        "parent_woeid": 848422, 
+        "sw_latitude": 45.459, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.464, 
         "sw_longitude": 18.802, 
         "fullname": "Osijek Airport, Osje\u010dko-baranjska, Osijek, Croatia", 
-        "sw_latitude": 45.459
+        "iata_code": "OSI", 
+        "date_indexed": "2010-12-02T17:07:03Z"
       }, 
       "id": 12513368
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29387800, 
-        "name": "Toledo State Airport", 
         "alias_ENG_V": [
           "5s4"
         ], 
-        "ne_latitude": 44.603, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Toledo State Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589712", 
+          "woe:state=2347596", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29387800, 
         "ne_longitude": -123.937, 
         "longitude": -123.938, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589712, 
+        "ne_latitude": 44.603, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2467241, 
+        "sw_latitude": 44.598, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.601, 
         "sw_longitude": -123.941, 
-        "fullname": "Toledo State Airport, Oysterville, Oregon, Lincoln, United States", 
-        "sw_latitude": 44.598
+        "fullname": "Toledo State Airport, Oysterville, Oregon, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 29387800
     }

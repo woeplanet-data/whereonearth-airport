@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510539, 
-        "name": "Reconquista Airport", 
         "alias_ENG_V": [
           "RCQ"
         ], 
-        "ne_latitude": -29.199, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Reconquista Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=20070835", 
+          "woe:state=2344695", 
+          "woe:country=23424747", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510539, 
         "ne_longitude": -59.678, 
         "longitude": -59.691, 
-        "placetype": "Airport", 
+        "parent_woeid": 20070835, 
+        "ne_latitude": -29.199, 
         "iso": "AR", 
-        "date_indexed": "2010-12-02T17:41:29Z", 
-        "parent_woeid": 22529779, 
+        "sw_latitude": -29.222, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -29.210, 
         "sw_longitude": -59.704, 
         "fullname": "Reconquista Airport, Santa Fe, Gral Obligado, Argentina", 
-        "sw_latitude": -29.222
+        "iata_code": "RCQ", 
+        "date_indexed": "2010-12-02T17:41:29Z"
       }, 
       "id": 12510539
     }

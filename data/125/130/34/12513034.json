@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513034, 
+        "placetype": "airport", 
         "name": "Aalen Heidenheim Elchingen Airport", 
-        "ne_latitude": 48.781, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12624225", 
+          "woe:county=12596698", 
+          "woe:state=2345481", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513034, 
         "ne_longitude": 10.273, 
         "longitude": 10.266, 
-        "placetype": "Airport", 
+        "parent_woeid": 12624225, 
+        "ne_latitude": 48.781, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 647493, 
+        "sw_latitude": 48.776, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.779, 
         "sw_longitude": 10.257, 
-        "fullname": "Aalen Heidenheim Elchingen Airport, Elchingen auf dem H\u00e4rtsfeld, Baden-Wurttemberg, Ostalbkreis, Germany", 
+        "fullname": "Aalen Heidenheim Elchingen Airport, Elchingen auf dem H\u00e4rtsfeld, Baden-Wurttemberg, Germany", 
         "alias_GER_Q": [
           "Flughafen Aalen Heidenheim Elchingen"
         ], 
-        "sw_latitude": 48.776
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 12513034
     }

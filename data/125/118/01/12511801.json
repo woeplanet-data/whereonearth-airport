@@ -3,28 +3,34 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -122.706, 
-              53.875
-            ], 
-            [
-              -122.706, 
-              53.902
-            ], 
-            [
-              -122.657, 
-              53.902
-            ], 
-            [
-              -122.657, 
-              53.875
-            ], 
-            [
-              -122.706, 
-              53.875
+              [
+                -122.675, 
+                53.884
+              ], 
+              [
+                -122.676, 
+                53.884
+              ], 
+              [
+                -122.677, 
+                53.887
+              ], 
+              [
+                -122.675, 
+                53.886
+              ], 
+              [
+                -122.673, 
+                53.884
+              ], 
+              [
+                -122.675, 
+                53.884
+              ]
             ]
           ]
         ]
@@ -32,23 +38,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511801, 
-        "name": "Prince George Airport", 
         "alias_ENG_V": [
           "YXS Airport"
         ], 
-        "ne_latitude": 53.902, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -122.657, 
-        "longitude": -122.674, 
-        "placetype": "Airport", 
+        "name": "Prince George Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375235", 
+          "woe:state=2344916", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511801, 
+        "ne_longitude": -122.673, 
+        "longitude": -122.675, 
+        "parent_woeid": 29375235, 
+        "ne_latitude": 53.887, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 9537, 
-        "latitude": 53.884, 
-        "sw_longitude": -122.706, 
-        "fullname": "Prince George Airport, Prince George, British Columbia, Fraser-Fort George, Canada", 
-        "sw_latitude": 53.875
+        "sw_latitude": 53.884, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 53.885, 
+        "sw_longitude": -122.677, 
+        "fullname": "Prince George Airport, Prince George, British Columbia, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12511801
     }

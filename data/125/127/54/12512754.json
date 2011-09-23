@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512754, 
+        "placetype": "airport", 
         "name": "Rio Sucio Highway Strip Airport", 
-        "ne_latitude": 13.775, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=26808602", 
+          "woe:state=2345296", 
+          "woe:country=23424807", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512754, 
         "ne_longitude": -89.368, 
         "longitude": -89.372, 
-        "placetype": "Airport", 
+        "parent_woeid": 26808602, 
+        "ne_latitude": 13.775, 
         "iso": "SV", 
-        "date_indexed": "2010-12-02T17:05:52Z", 
-        "parent_woeid": 79988, 
+        "sw_latitude": 13.766, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 13.771, 
         "sw_longitude": -89.377, 
         "fullname": "Rio Sucio Highway Strip Airport, La Libertad, Opico, El Salvador", 
-        "sw_latitude": 13.766
+        "date_indexed": "2010-12-02T17:05:52Z"
       }, 
       "id": 12512754
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388299, 
+        "placetype": "airport", 
         "name": "Aero Park Airport", 
-        "ne_latitude": 43.112, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12590601", 
+          "woe:state=2347608", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388299, 
         "ne_longitude": -88.162, 
         "longitude": -88.165, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590601, 
+        "ne_latitude": 43.112, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2449452, 
+        "sw_latitude": 43.107, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.109, 
         "sw_longitude": -88.168, 
-        "fullname": "Aero Park Airport, Menomonee Falls, Wisconsin, Waukesha, United States", 
-        "sw_latitude": 43.107
+        "fullname": "Aero Park Airport, Menomonee Falls, Wisconsin, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 29388299
     }

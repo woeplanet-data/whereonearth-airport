@@ -3,28 +3,46 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -0.301, 
-              50.829
-            ], 
-            [
-              -0.301, 
-              50.838
-            ], 
-            [
-              -0.286, 
-              50.838
-            ], 
-            [
-              -0.286, 
-              50.829
-            ], 
-            [
-              -0.301, 
-              50.829
+              [
+                -0.291, 
+                50.833
+              ], 
+              [
+                -0.293, 
+                50.833
+              ], 
+              [
+                -0.296, 
+                50.834
+              ], 
+              [
+                -0.293, 
+                50.834
+              ], 
+              [
+                -0.292, 
+                50.835
+              ], 
+              [
+                -0.291, 
+                50.835
+              ], 
+              [
+                -0.288, 
+                50.834
+              ], 
+              [
+                -0.289, 
+                50.833
+              ], 
+              [
+                -0.291, 
+                50.833
+              ]
             ]
           ]
         ]
@@ -32,23 +50,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 23388366, 
-        "name": "Shoreham Airport", 
         "alias_ENG_V": [
           "ESH"
         ], 
-        "ne_latitude": 50.838, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -0.286, 
-        "longitude": -0.289, 
-        "placetype": "Airport", 
+        "name": "Shoreham Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=12696103", 
+          "woe:county=12602177", 
+          "woe:state=24554868", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 23388366, 
+        "ne_longitude": -0.288, 
+        "longitude": -0.291, 
+        "parent_woeid": 12696103, 
+        "ne_latitude": 50.835, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:21:01Z", 
-        "parent_woeid": 34711, 
-        "latitude": 50.833, 
-        "sw_longitude": -0.301, 
-        "fullname": "Shoreham Airport, Shoreham-by-Sea, England, West Sussex, United Kingdom", 
-        "sw_latitude": 50.829
+        "sw_latitude": 50.833, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 50.834, 
+        "sw_longitude": -0.296, 
+        "fullname": "Shoreham Airport, Shoreham-by-Sea, England, United Kingdom", 
+        "iata_code": "ESH", 
+        "date_indexed": "2010-12-02T12:21:01Z"
       }, 
       "id": 23388366
     }

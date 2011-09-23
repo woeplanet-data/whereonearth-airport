@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "FRE", 
-        "woeid": 56051888, 
+        "placetype": "airport", 
         "name": "A\u00e9rodrome de Soulac-sur-mer", 
-        "ne_latitude": 45.497, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12637050", 
+          "woe:county=12597132", 
+          "woe:state=7153309", 
+          "woe:country=23424819", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56051888, 
         "ne_longitude": -1.079, 
         "longitude": -1.083, 
-        "placetype": "Airport", 
+        "parent_woeid": 12637050, 
+        "ne_latitude": 45.497, 
         "iso": "FR", 
-        "date_indexed": "2010-12-02T12:04:01Z", 
-        "parent_woeid": 622544, 
+        "sw_latitude": 45.491, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.495, 
         "sw_longitude": -1.089, 
-        "fullname": "A\u00e9rodrome de Soulac-sur-mer, Soulac-sur-Mer, Aquitaine, Gironde, France", 
+        "fullname": "A\u00e9rodrome de Soulac-sur-mer, Soulac-sur-Mer, Aquitaine, France", 
         "alias_FRE_S": [
           "Aerodrome de Soulac-sur-mer"
         ], 
-        "sw_latitude": 45.491
+        "date_indexed": "2010-12-02T12:04:01Z"
       }, 
       "id": 56051888
     }

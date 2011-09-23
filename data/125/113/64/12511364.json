@@ -32,29 +32,35 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511364, 
-        "name": "Aeroporto Usiminas", 
-        "alias_ENG_P": [
-          "Usiminas Airport"
-        ], 
-        "ne_latitude": -19.465, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "IPN"
         ], 
+        "name": "Aeroporto Usiminas", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Usiminas Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12579716", 
+          "woe:state=2344856", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511364, 
         "ne_longitude": -42.483, 
         "longitude": -42.487, 
-        "placetype": "Airport", 
+        "parent_woeid": 12579716, 
+        "ne_latitude": -19.465, 
         "alias_POR_V": [
           "Aeroporto IPN"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:28Z", 
-        "parent_woeid": 455956, 
+        "sw_latitude": -19.475, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -19.470, 
         "sw_longitude": -42.492, 
-        "fullname": "Aeroporto Usiminas, Ipatinga, Minas Gerais, Ipatinga, Brazil", 
-        "sw_latitude": -19.475
+        "fullname": "Aeroporto Usiminas, Ipatinga, Minas Gerais, Brazil", 
+        "date_indexed": "2010-12-02T18:01:28Z"
       }, 
       "id": 12511364
     }

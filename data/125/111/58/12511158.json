@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511158, 
+        "placetype": "airport", 
         "name": "Aeroporto General Leite de Castro", 
         "alias_ENG_P": [
           "General Leite de Castro Airport"
         ], 
-        "ne_latitude": -17.835, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12579063", 
+          "woe:state=2344852", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511158, 
         "ne_longitude": -50.927, 
         "longitude": -50.932, 
-        "placetype": "Airport", 
+        "parent_woeid": 12579063, 
+        "ne_latitude": -17.835, 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 457952, 
+        "sw_latitude": -17.845, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -17.840, 
         "sw_longitude": -50.936, 
-        "fullname": "Aeroporto General Leite de Castro, Rio Verde, Goias, Rio Verde, Brazil", 
-        "sw_latitude": -17.845
+        "fullname": "Aeroporto General Leite de Castro, Rio Verde, Goias, Brazil", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511158
     }

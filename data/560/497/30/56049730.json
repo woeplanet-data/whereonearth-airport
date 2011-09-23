@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "CZE", 
-        "woeid": 56049730, 
+        "placetype": "airport", 
         "name": "Letiste Baska", 
-        "ne_latitude": 49.648, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12607150", 
+          "woe:county=12582571", 
+          "woe:state=20070471", 
+          "woe:country=23424810", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56049730, 
         "ne_longitude": 18.361, 
         "longitude": 18.351, 
-        "placetype": "Airport", 
+        "parent_woeid": 12607150, 
+        "ne_latitude": 49.648, 
         "iso": "CZ", 
-        "date_indexed": "2010-12-02T08:56:52Z", 
-        "parent_woeid": 785957, 
+        "sw_latitude": 49.635, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.642, 
         "sw_longitude": 18.341, 
-        "fullname": "Letiste Baska, Ba\u0161ka, Moravskoslezsk\u00fd, Fr\u00fddek-M\u00edstek, Czech Republic", 
-        "sw_latitude": 49.635
+        "fullname": "Letiste Baska, Ba\u0161ka, Moravskoslezsk\u00fd, Czech Republic", 
+        "date_indexed": "2010-12-02T08:56:52Z"
       }, 
       "id": 56049730
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518718, 
-        "name": "Avon Stolport Airport", 
         "alias_ENG_V": [
           "WHR"
         ], 
-        "ne_latitude": 39.633, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Avon Stolport Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587746", 
+          "woe:state=2347564", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518718, 
         "ne_longitude": -106.499, 
         "longitude": -106.505, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587746, 
+        "ne_latitude": 39.633, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:15Z", 
-        "parent_woeid": 2357842, 
+        "sw_latitude": 39.624, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 39.628, 
         "sw_longitude": -106.511, 
-        "fullname": "Avon Stolport Airport, Avon, Colorado, Eagle, United States", 
-        "sw_latitude": 39.624
+        "fullname": "Avon Stolport Airport, Avon, Colorado, United States", 
+        "iata_code": "WHR", 
+        "date_indexed": "2010-12-02T18:39:15Z"
       }, 
       "id": 12518718
     }

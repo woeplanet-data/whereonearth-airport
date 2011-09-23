@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519423, 
-        "name": "Daviess County Airport", 
         "alias_ENG_V": [
           "DCY"
         ], 
-        "ne_latitude": 38.708, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Daviess County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588193", 
+          "woe:state=2347573", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519423, 
         "ne_longitude": -87.129, 
         "longitude": -87.132, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588193, 
+        "ne_latitude": 38.708, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2514613, 
+        "sw_latitude": 38.691, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.694, 
         "sw_longitude": -87.132, 
-        "fullname": "Daviess County Airport, Washington, Indiana, Daviess, United States", 
-        "sw_latitude": 38.691
+        "fullname": "Daviess County Airport, Washington, Indiana, United States", 
+        "iata_code": "DCY", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519423
     }

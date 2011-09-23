@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520831, 
-        "name": "Maryville Memorial Airport", 
         "alias_ENG_V": [
           "EVU"
         ], 
-        "ne_latitude": 40.360, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Maryville Memorial Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589039", 
+          "woe:state=2347584", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520831, 
         "ne_longitude": -94.909, 
         "longitude": -94.910, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589039, 
+        "ne_latitude": 40.360, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2446593, 
+        "sw_latitude": 40.346, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.349, 
         "sw_longitude": -94.923, 
-        "fullname": "Maryville Memorial Airport, Maryville, Missouri, Nodaway, United States", 
-        "sw_latitude": 40.346
+        "fullname": "Maryville Memorial Airport, Maryville, Missouri, United States", 
+        "iata_code": "EVU", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520831
     }

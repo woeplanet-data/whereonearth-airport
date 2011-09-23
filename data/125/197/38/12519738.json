@@ -3,28 +3,50 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -81.219, 
-              29.454
-            ], 
-            [
-              -81.219, 
-              29.474
-            ], 
-            [
-              -81.194, 
-              29.474
-            ], 
-            [
-              -81.194, 
-              29.454
-            ], 
-            [
-              -81.219, 
-              29.454
+              [
+                -81.208, 
+                29.471
+              ], 
+              [
+                -81.210, 
+                29.472
+              ], 
+              [
+                -81.211, 
+                29.472
+              ], 
+              [
+                -81.211, 
+                29.473
+              ], 
+              [
+                -81.211, 
+                29.475
+              ], 
+              [
+                -81.210, 
+                29.476
+              ], 
+              [
+                -81.208, 
+                29.471
+              ], 
+              [
+                -81.205, 
+                29.471
+              ], 
+              [
+                -81.207, 
+                29.471
+              ], 
+              [
+                -81.208, 
+                29.471
+              ]
             ]
           ]
         ]
@@ -32,23 +54,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519738, 
-        "name": "Flagler County Airport", 
         "alias_ENG_V": [
           "X47"
         ], 
-        "ne_latitude": 29.474, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -81.194, 
-        "longitude": -81.208, 
-        "placetype": "Airport", 
+        "name": "Flagler County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587820", 
+          "woe:state=2347568", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519738, 
+        "ne_longitude": -81.205, 
+        "longitude": -81.210, 
+        "parent_woeid": 12587820, 
+        "ne_latitude": 29.476, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2467673, 
+        "sw_latitude": 29.471, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 29.473, 
-        "sw_longitude": -81.219, 
-        "fullname": "Flagler County Airport, Palm Coast, Florida, Flagler, United States", 
-        "sw_latitude": 29.454
+        "sw_longitude": -81.211, 
+        "fullname": "Flagler County Airport, Palm Coast, Florida, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12519738
     }

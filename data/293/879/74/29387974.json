@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29387974, 
-        "name": "Sauk Centre Municipal Airport", 
         "alias_ENG_V": [
           "D39"
         ], 
-        "ne_latitude": 45.709, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Sauk Centre Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588869", 
+          "woe:state=2347582", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29387974, 
         "ne_longitude": -94.929, 
         "longitude": -94.930, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588869, 
+        "ne_latitude": 45.709, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2489231, 
+        "sw_latitude": 45.700, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.706, 
         "sw_longitude": -94.937, 
-        "fullname": "Sauk Centre Municipal Airport, Sauk Centre, Minnesota, Stearns, United States", 
-        "sw_latitude": 45.700
+        "fullname": "Sauk Centre Municipal Airport, Sauk Centre, Minnesota, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29387974
     }

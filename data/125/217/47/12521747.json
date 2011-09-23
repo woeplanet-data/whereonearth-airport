@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521747, 
+        "placetype": "airport", 
         "name": "Santa Rosa Outlying Landing Field", 
-        "ne_latitude": 30.615, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12587857", 
+          "woe:state=2347568", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521747, 
         "ne_longitude": -86.935, 
         "longitude": -86.940, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587857, 
+        "ne_latitude": 30.615, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2370634, 
+        "sw_latitude": 30.606, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 30.611, 
         "sw_longitude": -86.945, 
-        "fullname": "Santa Rosa Outlying Landing Field, Broxson, Florida, Santa Rosa, United States", 
-        "sw_latitude": 30.606
+        "fullname": "Santa Rosa Outlying Landing Field, Broxson, Florida, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521747
     }

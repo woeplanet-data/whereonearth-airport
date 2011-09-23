@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512742, 
+        "placetype": "airport", 
         "name": "Ojasaare Airport", 
-        "ne_latitude": 57.935, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=29389787", 
+          "woe:state=2345284", 
+          "woe:country=23424805", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512742, 
         "ne_longitude": 26.993, 
         "longitude": 26.985, 
-        "placetype": "Airport", 
+        "parent_woeid": 29389787, 
+        "ne_latitude": 57.935, 
         "iso": "EE", 
-        "date_indexed": "2010-12-02T16:43:34Z", 
-        "parent_woeid": 845675, 
+        "sw_latitude": 57.926, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 57.930, 
         "sw_longitude": 26.976, 
-        "fullname": "Ojasaare Airport, Suurkula, Polva County, Laheda Parish, Estonia", 
-        "sw_latitude": 57.926
+        "fullname": "Ojasaare Airport, Suurkula, Polva County, Estonia", 
+        "date_indexed": "2010-12-02T16:43:34Z"
       }, 
       "id": 12512742
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523305, 
-        "name": "Hobbs Industrial Airpark", 
         "alias_ENG_V": [
           "HBB"
         ], 
-        "ne_latitude": -18.995, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Hobbs Industrial Airpark", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55864340", 
+          "woe:state=2344702", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523305, 
         "ne_longitude": 142.005, 
         "longitude": 142.000, 
-        "placetype": "Airport", 
+        "parent_woeid": 55864340, 
+        "ne_latitude": -18.995, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 28587149, 
+        "sw_latitude": -19.004, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -19.000, 
         "sw_longitude": 141.995, 
-        "fullname": "Hobbs Industrial Airpark, Savannah, Queensland, Carpentaria Shire, Australia", 
-        "sw_latitude": -19.004
+        "fullname": "Hobbs Industrial Airpark, Savannah, Queensland, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 12523305
     }

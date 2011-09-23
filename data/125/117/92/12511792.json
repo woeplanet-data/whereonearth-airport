@@ -3,28 +3,70 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -122.723, 
-              49.207
-            ], 
-            [
-              -122.723, 
-              49.222
-            ], 
-            [
-              -122.701, 
-              49.222
-            ], 
-            [
-              -122.701, 
-              49.207
-            ], 
-            [
-              -122.723, 
-              49.207
+              [
+                -122.715, 
+                49.217
+              ], 
+              [
+                -122.715, 
+                49.218
+              ], 
+              [
+                -122.716, 
+                49.219
+              ], 
+              [
+                -122.714, 
+                49.218
+              ], 
+              [
+                -122.712, 
+                49.217
+              ], 
+              [
+                -122.708, 
+                49.214
+              ], 
+              [
+                -122.705, 
+                49.213
+              ], 
+              [
+                -122.702, 
+                49.212
+              ], 
+              [
+                -122.701, 
+                49.208
+              ], 
+              [
+                -122.696, 
+                49.206
+              ], 
+              [
+                -122.701, 
+                49.207
+              ], 
+              [
+                -122.705, 
+                49.208
+              ], 
+              [
+                -122.713, 
+                49.207
+              ], 
+              [
+                -122.709, 
+                49.213
+              ], 
+              [
+                -122.715, 
+                49.217
+              ]
             ]
           ]
         ]
@@ -32,23 +74,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511792, 
-        "name": "Pitt Meadows Airport", 
         "alias_ENG_V": [
           "YPK"
         ], 
-        "ne_latitude": 49.222, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -122.701, 
+        "name": "Pitt Meadows Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375222", 
+          "woe:state=2344916", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511792, 
+        "ne_longitude": -122.696, 
         "longitude": -122.707, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375222, 
+        "ne_latitude": 49.219, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:24:00Z", 
-        "parent_woeid": 9222, 
+        "sw_latitude": 49.206, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.211, 
-        "sw_longitude": -122.723, 
-        "fullname": "Pitt Meadows Airport, Pitt Meadows, British Columbia, Greater Vancouver, Canada", 
-        "sw_latitude": 49.207
+        "sw_longitude": -122.716, 
+        "fullname": "Pitt Meadows Airport, Pitt Meadows, British Columbia, Canada", 
+        "date_indexed": "2010-12-02T10:24:00Z"
       }, 
       "id": 12511792
     }

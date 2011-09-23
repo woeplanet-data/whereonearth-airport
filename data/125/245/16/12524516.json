@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524516, 
-        "name": "Santana Ramos Airport", 
         "alias_ENG_V": [
           "SRO"
         ], 
-        "ne_latitude": 2.221, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Santana Ramos Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26797186", 
+          "woe:state=2345061", 
+          "woe:country=23424787", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524516, 
         "ne_longitude": -75.245, 
         "longitude": -75.250, 
-        "placetype": "Airport", 
+        "parent_woeid": 26797186, 
+        "ne_latitude": 2.221, 
         "iso": "CO", 
-        "date_indexed": "2010-12-02T17:57:37Z", 
-        "parent_woeid": 369583, 
+        "sw_latitude": 2.212, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 2.217, 
         "sw_longitude": -75.255, 
         "fullname": "Santana Ramos Airport, Caqueta, Puerto Rico, Colombia", 
-        "sw_latitude": 2.212
+        "iata_code": "SRO", 
+        "date_indexed": "2010-12-02T17:57:37Z"
       }, 
       "id": 12524516
     }

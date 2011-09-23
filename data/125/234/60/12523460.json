@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523460, 
-        "name": "Acaricuara Airport", 
         "alias_ENG_V": [
           "ARF"
         ], 
-        "ne_latitude": 0.705, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Acaricuara Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26797665", 
+          "woe:state=2345075", 
+          "woe:country=23424787", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523460, 
         "ne_longitude": -70.229, 
         "longitude": -70.233, 
-        "placetype": "Airport", 
+        "parent_woeid": 26797665, 
+        "ne_latitude": 0.705, 
         "iso": "CO", 
-        "date_indexed": "2010-12-02T17:57:37Z", 
-        "parent_woeid": 350435, 
+        "sw_latitude": 0.695, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 0.700, 
         "sw_longitude": -70.238, 
         "fullname": "Acaricuara Airport, Vaupes, Mitu, Colombia", 
-        "sw_latitude": 0.695
+        "iata_code": "ARF", 
+        "date_indexed": "2010-12-02T17:57:37Z"
       }, 
       "id": 12523460
     }

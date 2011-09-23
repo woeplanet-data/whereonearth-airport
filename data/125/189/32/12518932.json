@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518932, 
-        "name": "Brigham City Airport", 
         "alias_ENG_V": [
           "BMC"
         ], 
-        "ne_latitude": 41.558, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Brigham City Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590262", 
+          "woe:state=2347603", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518932, 
         "ne_longitude": -112.055, 
         "longitude": -112.065, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590262, 
+        "ne_latitude": 41.558, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2369113, 
+        "sw_latitude": 41.539, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.543, 
         "sw_longitude": -112.069, 
-        "fullname": "Brigham City Airport, Brigham City, Utah, Box Elder, United States", 
-        "sw_latitude": 41.539
+        "fullname": "Brigham City Airport, Brigham City, Utah, United States", 
+        "iata_code": "BMC", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518932
     }

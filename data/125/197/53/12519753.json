@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519753, 
+        "placetype": "airport", 
         "name": "Flying V Airport", 
-        "ne_latitude": 40.874, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12589217", 
+          "woe:state=2347586", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519753, 
         "ne_longitude": -97.345, 
         "longitude": -97.351, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589217, 
+        "ne_latitude": 40.874, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2510516, 
+        "sw_latitude": 40.865, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.869, 
         "sw_longitude": -97.357, 
-        "fullname": "Flying V Airport, Utica, Nebraska, Seward, United States", 
-        "sw_latitude": 40.865
+        "fullname": "Flying V Airport, Utica, Nebraska, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12519753
     }

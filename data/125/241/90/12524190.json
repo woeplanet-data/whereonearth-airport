@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524190, 
-        "name": "Oxford House Airport", 
         "alias_ENG_V": [
           "YOH Airport"
         ], 
-        "ne_latitude": 54.940, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Oxford House Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375231", 
+          "woe:state=2344917", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524190, 
         "ne_longitude": -95.268, 
         "longitude": -95.276, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375231, 
+        "ne_latitude": 54.940, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 29373341, 
+        "sw_latitude": 54.931, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 54.936, 
         "sw_longitude": -95.284, 
-        "fullname": "Oxford House Airport, Oxford House Indian Reserve 24, Manitoba, Manitoba, Canada", 
-        "sw_latitude": 54.931
+        "fullname": "Oxford House Airport, Oxford House Indian Reserve 24, Manitoba, Canada", 
+        "iata_code": "YOH", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12524190
     }

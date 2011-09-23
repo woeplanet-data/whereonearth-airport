@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521600, 
+        "placetype": "airport", 
         "name": "River Ranch Resort Airport", 
-        "ne_latitude": 27.786, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12587855", 
+          "woe:state=2347568", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521600, 
         "ne_longitude": -81.200, 
         "longitude": -81.206, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587855, 
+        "ne_latitude": 27.786, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2481904, 
+        "sw_latitude": 27.777, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 27.782, 
         "sw_longitude": -81.211, 
-        "fullname": "River Ranch Resort Airport, Cacema Town, Florida, Polk, United States", 
-        "sw_latitude": 27.777
+        "fullname": "River Ranch Resort Airport, Cacema Town, Florida, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521600
     }

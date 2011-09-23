@@ -3,28 +3,98 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -71.429, 
-              41.587
-            ], 
-            [
-              -71.429, 
-              41.613
-            ], 
-            [
-              -71.404, 
-              41.613
-            ], 
-            [
-              -71.404, 
-              41.587
-            ], 
-            [
-              -71.429, 
-              41.587
+              [
+                -71.407, 
+                41.592
+              ], 
+              [
+                -71.405, 
+                41.589
+              ], 
+              [
+                -71.410, 
+                41.586
+              ], 
+              [
+                -71.413, 
+                41.587
+              ], 
+              [
+                -71.415, 
+                41.587
+              ], 
+              [
+                -71.416, 
+                41.587
+              ], 
+              [
+                -71.419, 
+                41.588
+              ], 
+              [
+                -71.422, 
+                41.590
+              ], 
+              [
+                -71.417, 
+                41.590
+              ], 
+              [
+                -71.415, 
+                41.592
+              ], 
+              [
+                -71.416, 
+                41.595
+              ], 
+              [
+                -71.420, 
+                41.596
+              ], 
+              [
+                -71.422, 
+                41.590
+              ], 
+              [
+                -71.425, 
+                41.592
+              ], 
+              [
+                -71.422, 
+                41.596
+              ], 
+              [
+                -71.419, 
+                41.599
+              ], 
+              [
+                -71.419, 
+                41.605
+              ], 
+              [
+                -71.415, 
+                41.601
+              ], 
+              [
+                -71.411, 
+                41.600
+              ], 
+              [
+                -71.409, 
+                41.599
+              ], 
+              [
+                -71.406, 
+                41.597
+              ], 
+              [
+                -71.407, 
+                41.592
+              ]
             ]
           ]
         ]
@@ -32,23 +102,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521514, 
-        "name": "Quonset State Airport", 
         "alias_ENG_V": [
           "OQU"
         ], 
-        "ne_latitude": 41.613, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -71.404, 
+        "name": "Quonset State Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589799", 
+          "woe:state=2347598", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521514, 
+        "ne_longitude": -71.405, 
         "longitude": -71.414, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589799, 
+        "ne_latitude": 41.605, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2461225, 
-        "latitude": 41.593, 
-        "sw_longitude": -71.429, 
-        "fullname": "Quonset State Airport, North Kingstown, Rhode Island, Washington, United States", 
-        "sw_latitude": 41.587
+        "sw_latitude": 41.586, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 41.594, 
+        "sw_longitude": -71.425, 
+        "fullname": "Quonset State Airport, North Kingstown, Rhode Island, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521514
     }

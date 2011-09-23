@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521674, 
-        "name": "Rush County Airport", 
         "alias_ENG_V": [
           "K94"
         ], 
-        "ne_latitude": 38.553, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Rush County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588453", 
+          "woe:state=2347575", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521674, 
         "ne_longitude": -99.289, 
         "longitude": -99.291, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588453, 
+        "ne_latitude": 38.553, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2434168, 
+        "sw_latitude": 38.539, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.550, 
         "sw_longitude": -99.292, 
-        "fullname": "Rush County Airport, La Crosse, Kansas, Rush, United States", 
-        "sw_latitude": 38.539
+        "fullname": "Rush County Airport, La Crosse, Kansas, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521674
     }

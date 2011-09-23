@@ -3,28 +3,34 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -121.359, 
-              38.897
-            ], 
-            [
-              -121.359, 
-              38.919
-            ], 
-            [
-              -121.338, 
-              38.919
-            ], 
-            [
-              -121.338, 
-              38.897
-            ], 
-            [
-              -121.359, 
-              38.897
+              [
+                -121.344, 
+                38.904
+              ], 
+              [
+                -121.345, 
+                38.906
+              ], 
+              [
+                -121.350, 
+                38.905
+              ], 
+              [
+                -121.345, 
+                38.908
+              ], 
+              [
+                -121.340, 
+                38.909
+              ], 
+              [
+                -121.344, 
+                38.904
+              ]
             ]
           ]
         ]
@@ -32,23 +38,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520658, 
-        "name": "Lincoln Regional Airport-Karl Harder Field", 
         "alias_ENG_V": [
           "Lincoln Regional Airport"
         ], 
-        "ne_latitude": 38.919, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -121.338, 
-        "longitude": -121.340, 
-        "placetype": "Airport", 
+        "name": "Lincoln Regional Airport-Karl Harder Field", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587700", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520658, 
+        "ne_longitude": -121.340, 
+        "longitude": -121.344, 
+        "parent_woeid": 12587700, 
+        "ne_latitude": 38.909, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2439475, 
-        "latitude": 38.901, 
-        "sw_longitude": -121.359, 
-        "fullname": "Lincoln Regional Airport-Karl Harder Field, Lincoln, California, Placer, United States", 
-        "sw_latitude": 38.897
+        "sw_latitude": 38.904, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 38.906, 
+        "sw_longitude": -121.350, 
+        "fullname": "Lincoln Regional Airport-Karl Harder Field, Lincoln, California, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520658
     }

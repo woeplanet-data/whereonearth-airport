@@ -3,28 +3,46 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -103.617, 
-              41.861
-            ], 
-            [
-              -103.617, 
-              41.892
-            ], 
-            [
-              -103.578, 
-              41.892
-            ], 
-            [
-              -103.578, 
-              41.861
-            ], 
-            [
-              -103.617, 
-              41.861
+              [
+                -103.594, 
+                41.871
+              ], 
+              [
+                -103.594, 
+                41.869
+              ], 
+              [
+                -103.595, 
+                41.868
+              ], 
+              [
+                -103.598, 
+                41.867
+              ], 
+              [
+                -103.598, 
+                41.868
+              ], 
+              [
+                -103.596, 
+                41.870
+              ], 
+              [
+                -103.595, 
+                41.870
+              ], 
+              [
+                -103.595, 
+                41.871
+              ], 
+              [
+                -103.594, 
+                41.871
+              ]
             ]
           ]
         ]
@@ -32,23 +50,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522448, 
-        "name": "William B Heilig Field Airport", 
         "alias_ENG_V": [
           "BFF Airport"
         ], 
-        "ne_latitude": 41.892, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -103.578, 
-        "longitude": -103.594, 
-        "placetype": "Airport", 
+        "name": "William B Heilig Field Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589216", 
+          "woe:state=2347586", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522448, 
+        "ne_longitude": -103.594, 
+        "longitude": -103.596, 
+        "parent_woeid": 12589216, 
+        "ne_latitude": 41.871, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2421977, 
-        "latitude": 41.870, 
-        "sw_longitude": -103.617, 
-        "fullname": "William B Heilig Field Airport, Hillerage, Nebraska, Scotts Bluff, United States", 
-        "sw_latitude": 41.861
+        "sw_latitude": 41.867, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 41.869, 
+        "sw_longitude": -103.598, 
+        "fullname": "William B Heilig Field Airport, Hillerage, Nebraska, United States", 
+        "iata_code": "BFF", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522448
     }

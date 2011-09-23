@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522037, 
-        "name": "Sullivan County Airport", 
         "alias_ENG_V": [
           "SIV"
         ], 
-        "ne_latitude": 39.114, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Sullivan County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588256", 
+          "woe:state=2347573", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522037, 
         "ne_longitude": -87.444, 
         "longitude": -87.447, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588256, 
+        "ne_latitude": 39.114, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2501440, 
+        "sw_latitude": 39.110, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 39.112, 
         "sw_longitude": -87.449, 
-        "fullname": "Sullivan County Airport, Sullivan, Indiana, Sullivan, United States", 
-        "sw_latitude": 39.110
+        "fullname": "Sullivan County Airport, Sullivan, Indiana, United States", 
+        "iata_code": "SIV", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12522037
     }

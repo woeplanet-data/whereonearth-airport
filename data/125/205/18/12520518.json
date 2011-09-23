@@ -3,28 +3,94 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -92.001, 
-              30.191
-            ], 
-            [
-              -92.001, 
-              30.215
-            ], 
-            [
-              -91.977, 
-              30.215
-            ], 
-            [
-              -91.977, 
-              30.191
-            ], 
-            [
-              -92.001, 
-              30.191
+              [
+                -91.996, 
+                30.215
+              ], 
+              [
+                -91.994, 
+                30.216
+              ], 
+              [
+                -91.993, 
+                30.215
+              ], 
+              [
+                -91.994, 
+                30.214
+              ], 
+              [
+                -91.993, 
+                30.209
+              ], 
+              [
+                -91.992, 
+                30.208
+              ], 
+              [
+                -91.989, 
+                30.208
+              ], 
+              [
+                -91.989, 
+                30.202
+              ], 
+              [
+                -91.992, 
+                30.208
+              ], 
+              [
+                -91.993, 
+                30.208
+              ], 
+              [
+                -91.993, 
+                30.208
+              ], 
+              [
+                -91.999, 
+                30.205
+              ], 
+              [
+                -92.000, 
+                30.200
+              ], 
+              [
+                -92.003, 
+                30.198
+              ], 
+              [
+                -92.003, 
+                30.198
+              ], 
+              [
+                -92.004, 
+                30.198
+              ], 
+              [
+                -92.001, 
+                30.200
+              ], 
+              [
+                -92.001, 
+                30.206
+              ], 
+              [
+                -92.001, 
+                30.212
+              ], 
+              [
+                -92.001, 
+                30.216
+              ], 
+              [
+                -91.996, 
+                30.215
+              ]
             ]
           ]
         ]
@@ -32,23 +98,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520518, 
-        "name": "Lafayette Regional Airport", 
         "alias_ENG_V": [
           "LFT"
         ], 
-        "ne_latitude": 30.215, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -91.977, 
-        "longitude": -91.993, 
-        "placetype": "Airport", 
+        "name": "Lafayette Regional Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588624", 
+          "woe:state=2347577", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520518, 
+        "ne_longitude": -91.989, 
+        "longitude": -91.997, 
+        "parent_woeid": 12588624, 
+        "ne_latitude": 30.216, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2434560, 
-        "latitude": 30.208, 
-        "sw_longitude": -92.001, 
-        "fullname": "Lafayette Regional Airport, Lafayette, Louisiana, Lafayette Parish, United States", 
-        "sw_latitude": 30.191
+        "sw_latitude": 30.198, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 30.210, 
+        "sw_longitude": -92.004, 
+        "fullname": "Lafayette Regional Airport, Lafayette, Louisiana, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520518
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523610, 
-        "name": "Lago Agrio Airport", 
         "alias_ENG_V": [
           "LGQ"
         ], 
-        "ne_latitude": 0.105, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Lago Agrio Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=26810222", 
+          "woe:county=26809574", 
+          "woe:state=2345222", 
+          "woe:country=23424801", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523610, 
         "ne_longitude": -76.879, 
         "longitude": -76.883, 
-        "placetype": "Airport", 
+        "parent_woeid": 26810222, 
+        "ne_latitude": 0.105, 
         "iso": "EC", 
-        "date_indexed": "2010-12-02T17:51:45Z", 
-        "parent_woeid": 373274, 
+        "sw_latitude": 0.095, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 0.100, 
         "sw_longitude": -76.888, 
-        "fullname": "Lago Agrio Airport, Lago Agrio, Sucumbios, Lago Agrio, Ecuador", 
-        "sw_latitude": 0.095
+        "fullname": "Lago Agrio Airport, Lago Agrio, Sucumbios, Ecuador", 
+        "date_indexed": "2010-12-02T17:51:45Z"
       }, 
       "id": 12523610
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517299, 
+        "placetype": "airport", 
         "name": "Zhupanovskiy Airport", 
-        "ne_latitude": 54.085, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598421", 
+          "woe:state=20070514", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517299, 
         "ne_longitude": 159.985, 
         "longitude": 159.977, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598421, 
+        "ne_latitude": 54.085, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2124806, 
+        "sw_latitude": 54.076, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 54.081, 
         "sw_longitude": 159.969, 
         "fullname": "Zhupanovskiy Airport, Kamchatskaya Oblast, Vilyuchinsk, Russia", 
-        "sw_latitude": 54.076
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12517299
     }

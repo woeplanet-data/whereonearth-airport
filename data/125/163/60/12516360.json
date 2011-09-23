@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516360, 
+        "placetype": "airport", 
         "name": "Loginovo Airport", 
-        "ne_latitude": 56.658, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599303", 
+          "woe:state=2346926", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516360, 
         "ne_longitude": 61.366, 
         "longitude": 61.358, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599303, 
+        "ne_latitude": 56.658, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2037495, 
+        "sw_latitude": 56.649, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 56.654, 
         "sw_longitude": 61.350, 
         "fullname": "Loginovo Airport, Sverdlovskaya Oblast, Beloyarsky, Russia", 
-        "sw_latitude": 56.649
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516360
     }

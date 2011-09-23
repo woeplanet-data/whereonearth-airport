@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514410, 
+        "placetype": "airport", 
         "name": "Maklakkol Airport", 
-        "ne_latitude": 44.868, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345990", 
+          "woe:country=23424871", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514410, 
         "ne_longitude": 64.401, 
         "longitude": 64.395, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345990, 
+        "ne_latitude": 44.868, 
         "iso": "KZ", 
-        "date_indexed": "2010-12-02T08:54:13Z", 
-        "parent_woeid": 2263788, 
+        "sw_latitude": 44.859, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.863, 
         "sw_longitude": 64.389, 
         "fullname": "Maklakkol Airport, Qyzylorda, Kazakhstan", 
-        "sw_latitude": 44.859
+        "date_indexed": "2010-12-02T08:54:13Z"
       }, 
       "id": 12514410
     }

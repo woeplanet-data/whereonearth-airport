@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520951, 
+        "placetype": "airport", 
         "name": "Miller Airfield", 
-        "ne_latitude": 36.096, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12590062", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520951, 
         "ne_longitude": -102.410, 
         "longitude": -102.415, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590062, 
+        "ne_latitude": 36.096, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2377881, 
+        "sw_latitude": 36.087, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.092, 
         "sw_longitude": -102.421, 
-        "fullname": "Miller Airfield, Chamberlin, Texas, Dallam, United States", 
-        "sw_latitude": 36.087
+        "fullname": "Miller Airfield, Chamberlin, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12520951
     }

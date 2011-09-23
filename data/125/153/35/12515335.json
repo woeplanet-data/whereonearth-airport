@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515335, 
+        "placetype": "airport", 
         "name": "Leszno Airport", 
-        "ne_latitude": 51.840, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12591468", 
+          "woe:state=12577949", 
+          "woe:country=23424923", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515335, 
         "ne_longitude": 16.536, 
         "longitude": 16.529, 
-        "placetype": "Airport", 
+        "parent_woeid": 12591468, 
+        "ne_latitude": 51.840, 
         "iso": "PL", 
-        "date_indexed": "2010-12-02T12:12:45Z", 
-        "parent_woeid": 504488, 
+        "sw_latitude": 51.831, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.836, 
         "sw_longitude": 16.522, 
-        "fullname": "Leszno Airport, Leszno, Greater Poland, Leszno City, Poland", 
-        "sw_latitude": 51.831
+        "fullname": "Leszno Airport, Leszno, Greater Poland, Poland", 
+        "date_indexed": "2010-12-02T12:12:45Z"
       }, 
       "id": 12515335
     }

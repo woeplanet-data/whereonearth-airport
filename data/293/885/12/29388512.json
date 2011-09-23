@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388512, 
-        "name": "Lower Creek Airport", 
         "alias_ENG_V": [
           "Nc27"
         ], 
-        "ne_latitude": 35.943, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Lower Creek Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589387", 
+          "woe:state=2347592", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388512, 
         "ne_longitude": -81.492, 
         "longitude": -81.493, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589387, 
+        "ne_latitude": 35.943, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2438292, 
+        "sw_latitude": 35.941, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.942, 
         "sw_longitude": -81.494, 
-        "fullname": "Lower Creek Airport, Lenoir, North Carolina, Caldwell, United States", 
-        "sw_latitude": 35.941
+        "fullname": "Lower Creek Airport, Lenoir, North Carolina, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 29388512
     }

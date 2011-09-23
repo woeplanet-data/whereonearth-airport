@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520362, 
-        "name": "Jennings Airport", 
         "alias_ENG_V": [
           "3r7"
         ], 
-        "ne_latitude": 30.244, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Jennings Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588622", 
+          "woe:state=2347577", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520362, 
         "ne_longitude": -92.667, 
         "longitude": -92.673, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588622, 
+        "ne_latitude": 30.244, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2429049, 
+        "sw_latitude": 30.234, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 30.239, 
         "sw_longitude": -92.678, 
-        "fullname": "Jennings Airport, Jennings, Louisiana, Jefferson Davis Parish, United States", 
-        "sw_latitude": 30.234
+        "fullname": "Jennings Airport, Jennings, Louisiana, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12520362
     }

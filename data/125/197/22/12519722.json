@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519722, 
-        "name": "Fergus Falls Municipal Airport", 
         "alias_ENG_V": [
           "Fergus Falls Municipal/Einar Mickelson Field Airport"
         ], 
-        "ne_latitude": 46.293, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Fergus Falls Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588852", 
+          "woe:state=2347582", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519722, 
         "ne_longitude": -96.143, 
         "longitude": -96.158, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588852, 
+        "ne_latitude": 46.293, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2402974, 
+        "sw_latitude": 46.277, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.292, 
         "sw_longitude": -96.163, 
-        "fullname": "Fergus Falls Municipal Airport, Fergus Falls, Minnesota, Otter Tail, United States", 
-        "sw_latitude": 46.277
+        "fullname": "Fergus Falls Municipal Airport, Fergus Falls, Minnesota, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12519722
     }

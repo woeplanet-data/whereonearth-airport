@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523054, 
-        "name": "Pago Pago International Airport", 
         "alias_ENG_V": [
           "Pago Pago International"
         ], 
-        "ne_latitude": -14.320, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Pago Pago International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=24551266", 
+          "woe:state=24549646", 
+          "woe:country=23424746", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523054, 
         "ne_longitude": -170.701, 
         "longitude": -170.706, 
-        "placetype": "Airport", 
+        "parent_woeid": 24551266, 
+        "ne_latitude": -14.320, 
         "iso": "AS", 
-        "date_indexed": "2010-12-02T17:40:22Z", 
-        "parent_woeid": 24602699, 
+        "sw_latitude": -14.329, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -14.324, 
         "sw_longitude": -170.711, 
         "fullname": "Pago Pago International Airport, Eastern, Ituau, American Samoa", 
-        "sw_latitude": -14.329
+        "iata_code": "PPG", 
+        "date_indexed": "2010-12-02T17:40:22Z"
       }, 
       "id": 12523054
     }

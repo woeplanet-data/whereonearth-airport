@@ -32,26 +32,33 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523926, 
-        "name": "Wonsdrecht Airport", 
         "alias_ENG_V": [
           "BZM Airport"
         ], 
-        "ne_latitude": 51.505, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Wonsdrecht Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:suburb=731930", 
+          "woe:county=12592067", 
+          "woe:state=2346378", 
+          "woe:country=23424909", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523926, 
         "ne_longitude": 4.291, 
         "longitude": 4.283, 
-        "placetype": "Airport", 
+        "parent_woeid": 731930, 
+        "ne_latitude": 51.505, 
         "alias_DUT_Q": [
           "BZM Luchthaven"
         ], 
         "iso": "NL", 
-        "date_indexed": "2010-12-02T18:17:47Z", 
-        "parent_woeid": 731930, 
+        "sw_latitude": 51.495, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.500, 
         "sw_longitude": 4.276, 
-        "fullname": "Wonsdrecht Airport, Bergen op Zoom, North Brabant, Bergen op Zoom, Netherlands", 
-        "sw_latitude": 51.495
+        "fullname": "Wonsdrecht Airport, Bergen op Zoom, North Brabant, Netherlands", 
+        "date_indexed": "2010-12-02T18:17:47Z"
       }, 
       "id": 12523926
     }

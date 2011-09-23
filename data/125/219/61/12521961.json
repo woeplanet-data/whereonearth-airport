@@ -3,28 +3,34 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -94.071, 
-              45.536
-            ], 
-            [
-              -94.071, 
-              45.555
-            ], 
-            [
-              -94.045, 
-              45.555
-            ], 
-            [
-              -94.045, 
-              45.536
-            ], 
-            [
-              -94.071, 
-              45.536
+              [
+                -94.063, 
+                45.549
+              ], 
+              [
+                -94.058, 
+                45.546
+              ], 
+              [
+                -94.064, 
+                45.548
+              ], 
+              [
+                -94.065, 
+                45.548
+              ], 
+              [
+                -94.065, 
+                45.549
+              ], 
+              [
+                -94.063, 
+                45.549
+              ]
             ]
           ]
         ]
@@ -32,23 +38,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521961, 
-        "name": "St Cloud Regional Airport", 
         "alias_ENG_V": [
           "St Cloud Municipal Airport"
         ], 
-        "ne_latitude": 45.555, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -94.045, 
-        "longitude": -94.066, 
-        "placetype": "Airport", 
+        "name": "St Cloud Regional Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588869", 
+          "woe:state=2347582", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521961, 
+        "ne_longitude": -94.058, 
+        "longitude": -94.063, 
+        "parent_woeid": 12588869, 
+        "ne_latitude": 45.549, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2486726, 
-        "latitude": 45.546, 
-        "sw_longitude": -94.071, 
-        "fullname": "St Cloud Regional Airport, St. Cloud, Minnesota, Stearns, United States", 
-        "sw_latitude": 45.536
+        "sw_latitude": 45.546, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 45.548, 
+        "sw_longitude": -94.065, 
+        "fullname": "St Cloud Regional Airport, St. Cloud, Minnesota, United States", 
+        "iata_code": "STC", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521961
     }

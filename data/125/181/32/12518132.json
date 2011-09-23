@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518132, 
+        "placetype": "airport", 
         "name": "Mona Airport", 
-        "ne_latitude": 53.263, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12696117", 
+          "woe:county=12602211", 
+          "woe:state=12578049", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518132, 
         "ne_longitude": -4.365, 
         "longitude": -4.372, 
-        "placetype": "Airport", 
+        "parent_woeid": 12696117, 
+        "ne_latitude": 53.263, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:21:01Z", 
-        "parent_woeid": 13133, 
+        "sw_latitude": 53.254, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.259, 
         "sw_longitude": -4.380, 
-        "fullname": "Mona Airport, Bodffordd, Wales, Anglesey County, United Kingdom", 
-        "sw_latitude": 53.254
+        "fullname": "Mona Airport, Bodffordd, Wales, United Kingdom", 
+        "date_indexed": "2010-12-02T12:21:01Z"
       }, 
       "id": 12518132
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519799, 
-        "name": "Frankfort Municipal Airport", 
         "alias_ENG_V": [
           "FKR"
         ], 
-        "ne_latitude": 40.279, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Frankfort Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588191", 
+          "woe:state=2347573", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519799, 
         "ne_longitude": -86.554, 
         "longitude": -86.569, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588191, 
+        "ne_latitude": 40.279, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2428826, 
+        "sw_latitude": 40.272, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.277, 
         "sw_longitude": -86.572, 
-        "fullname": "Frankfort Municipal Airport, Jefferson, Indiana, Clinton, United States", 
-        "sw_latitude": 40.272
+        "fullname": "Frankfort Municipal Airport, Jefferson, Indiana, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12519799
     }

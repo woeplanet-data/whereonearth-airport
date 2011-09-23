@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510613, 
-        "name": "Boulia Aerodrome", 
         "alias_ENG_V": [
           "Boulia Airport"
         ], 
-        "ne_latitude": -22.908, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Boulia Aerodrome", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55863939", 
+          "woe:state=2344702", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510613, 
         "ne_longitude": 139.902, 
         "longitude": 139.897, 
-        "placetype": "Airport", 
+        "parent_woeid": 55863939, 
+        "ne_latitude": -22.908, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1100577, 
+        "sw_latitude": -22.917, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -22.912, 
         "sw_longitude": 139.892, 
-        "fullname": "Boulia Aerodrome, Boulia, Queensland, Boulia, Australia", 
-        "sw_latitude": -22.917
+        "fullname": "Boulia Aerodrome, Boulia, Queensland, Australia", 
+        "iata_code": "BQL", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 12510613
     }

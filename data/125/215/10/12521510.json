@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521510, 
+        "placetype": "airport", 
         "name": "Quincy Municipal Airport", 
-        "ne_latitude": 47.216, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12590452", 
+          "woe:state=2347606", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521510, 
         "ne_longitude": -119.834, 
         "longitude": -119.840, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590452, 
+        "ne_latitude": 47.216, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2477867, 
+        "sw_latitude": 47.207, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.212, 
         "sw_longitude": -119.847, 
-        "fullname": "Quincy Municipal Airport, Quincy, Washington, Grant, United States", 
-        "sw_latitude": 47.207
+        "fullname": "Quincy Municipal Airport, Quincy, Washington, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521510
     }

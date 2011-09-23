@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522280, 
+        "placetype": "airport", 
         "name": "Viburnum Airport", 
-        "ne_latitude": 37.723, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12589012", 
+          "woe:state=2347584", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522280, 
         "ne_longitude": -91.123, 
         "longitude": -91.129, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589012, 
+        "ne_latitude": 37.723, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2511991, 
+        "sw_latitude": 37.714, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 37.719, 
         "sw_longitude": -91.134, 
-        "fullname": "Viburnum Airport, Viburnum, Missouri, Iron, United States", 
-        "sw_latitude": 37.714
+        "fullname": "Viburnum Airport, Viburnum, Missouri, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12522280
     }

@@ -3,28 +3,74 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -93.843, 
-              32.433
-            ], 
-            [
-              -93.843, 
-              32.457
-            ], 
-            [
-              -93.810, 
-              32.457
-            ], 
-            [
-              -93.810, 
-              32.433
-            ], 
-            [
-              -93.843, 
-              32.433
+              [
+                -93.824, 
+                32.466
+              ], 
+              [
+                -93.824, 
+                32.466
+              ], 
+              [
+                -93.824, 
+                32.466
+              ], 
+              [
+                -93.818, 
+                32.465
+              ], 
+              [
+                -93.818, 
+                32.460
+              ], 
+              [
+                -93.825, 
+                32.463
+              ], 
+              [
+                -93.825, 
+                32.455
+              ], 
+              [
+                -93.827, 
+                32.452
+              ], 
+              [
+                -93.830, 
+                32.454
+              ], 
+              [
+                -93.831, 
+                32.454
+              ], 
+              [
+                -93.831, 
+                32.454
+              ], 
+              [
+                -93.833, 
+                32.460
+              ], 
+              [
+                -93.829, 
+                32.461
+              ], 
+              [
+                -93.827, 
+                32.462
+              ], 
+              [
+                -93.825, 
+                32.466
+              ], 
+              [
+                -93.824, 
+                32.466
+              ]
             ]
           ]
         ]
@@ -32,23 +78,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521845, 
-        "name": "Shreveport Regional Airport", 
         "alias_ENG_V": [
           "SHV"
         ], 
-        "ne_latitude": 32.457, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -93.810, 
-        "longitude": -93.828, 
-        "placetype": "Airport", 
-        "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
+        "name": "Shreveport Regional Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:suburb=55861905", 
+          "woe:county=12588604", 
+          "woe:state=2347577", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521845, 
+        "ne_longitude": -93.818, 
+        "longitude": -93.826, 
         "parent_woeid": 55861905, 
-        "latitude": 32.455, 
-        "sw_longitude": -93.843, 
-        "fullname": "Shreveport Regional Airport, Shreveport, Louisiana, Caddo Parish, United States", 
-        "sw_latitude": 32.433
+        "ne_latitude": 32.466, 
+        "iso": "US", 
+        "sw_latitude": 32.452, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 32.460, 
+        "sw_longitude": -93.833, 
+        "fullname": "Shreveport Regional Airport, Shreveport, Louisiana, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521845
     }

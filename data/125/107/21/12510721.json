@@ -3,28 +3,54 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              144.266, 
-              -23.440
-            ], 
-            [
-              144.266, 
-              -23.422
-            ], 
-            [
-              144.291, 
-              -23.422
-            ], 
-            [
-              144.291, 
-              -23.440
-            ], 
-            [
-              144.266, 
-              -23.440
+              [
+                144.272, 
+                -23.440
+              ], 
+              [
+                144.272, 
+                -23.440
+              ], 
+              [
+                144.272, 
+                -23.440
+              ], 
+              [
+                144.272, 
+                -23.440
+              ], 
+              [
+                144.272, 
+                -23.440
+              ], 
+              [
+                144.270, 
+                -23.441
+              ], 
+              [
+                144.267, 
+                -23.438
+              ], 
+              [
+                144.271, 
+                -23.439
+              ], 
+              [
+                144.271, 
+                -23.439
+              ], 
+              [
+                144.272, 
+                -23.439
+              ], 
+              [
+                144.272, 
+                -23.440
+              ]
             ]
           ]
         ]
@@ -32,23 +58,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510721, 
-        "name": "Longreach Aerodrome", 
         "alias_ENG_V": [
           "Longreach Airport"
         ], 
-        "ne_latitude": -23.422, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": 144.291, 
-        "longitude": 144.272, 
-        "placetype": "Airport", 
+        "name": "Longreach Aerodrome", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=56072974", 
+          "woe:state=2344702", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510721, 
+        "ne_longitude": 144.272, 
+        "longitude": 144.270, 
+        "parent_woeid": 56072974, 
+        "ne_latitude": -23.438, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1103507, 
-        "latitude": -23.439, 
-        "sw_longitude": 144.266, 
-        "fullname": "Longreach Aerodrome, Longreach, Queensland, Longreach, Australia", 
-        "sw_latitude": -23.440
+        "sw_latitude": -23.441, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": -23.440, 
+        "sw_longitude": 144.267, 
+        "fullname": "Longreach Aerodrome, Longreach, Queensland, Australia", 
+        "iata_code": "LRE", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 12510721
     }

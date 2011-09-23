@@ -3,28 +3,34 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              4.747, 
-              51.261
-            ], 
-            [
-              4.747, 
-              51.270
-            ], 
-            [
-              4.762, 
-              51.270
-            ], 
-            [
-              4.762, 
-              51.261
-            ], 
-            [
-              4.747, 
-              51.261
+              [
+                4.760, 
+                51.270
+              ], 
+              [
+                4.760, 
+                51.270
+              ], 
+              [
+                4.760, 
+                51.270
+              ], 
+              [
+                4.760, 
+                51.270
+              ], 
+              [
+                4.762, 
+                51.271
+              ], 
+              [
+                4.760, 
+                51.270
+              ]
             ]
           ]
         ]
@@ -32,20 +38,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510857, 
+        "placetype": "airport", 
         "name": "Zoersel Airport", 
-        "ne_latitude": 51.270, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12602338", 
+          "woe:county=12591772", 
+          "woe:state=7153308", 
+          "woe:country=23424757", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510857, 
         "ne_longitude": 4.762, 
-        "longitude": 4.755, 
-        "placetype": "Airport", 
+        "longitude": 4.760, 
+        "parent_woeid": 12602338, 
+        "ne_latitude": 51.271, 
         "iso": "BE", 
-        "date_indexed": "2010-12-02T16:32:27Z", 
-        "parent_woeid": 978745, 
-        "latitude": 51.266, 
-        "sw_longitude": 4.747, 
-        "fullname": "Zoersel Airport, Wechelderzande, Antwerp, Turnhout, Belgium", 
-        "sw_latitude": 51.261
+        "sw_latitude": 51.270, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 51.270, 
+        "sw_longitude": 4.760, 
+        "fullname": "Zoersel Airport, Wechelderzande, Antwerp, Belgium", 
+        "date_indexed": "2010-12-02T16:32:27Z"
       }, 
       "id": 12510857
     }

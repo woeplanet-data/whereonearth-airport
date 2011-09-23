@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 56049780, 
+        "placetype": "airport", 
         "name": "Amir Slman Bin Abdul Azizi Airport", 
-        "ne_latitude": 24.447, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=56120182", 
+          "woe:state=2346951", 
+          "woe:country=23424938", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56049780, 
         "ne_longitude": 44.141, 
         "longitude": 44.136, 
-        "placetype": "Airport", 
+        "parent_woeid": 56120182, 
+        "ne_latitude": 24.447, 
         "iso": "SA", 
-        "date_indexed": "2010-12-02T09:34:42Z", 
-        "parent_woeid": 1937754, 
+        "sw_latitude": 24.438, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 24.442, 
         "sw_longitude": 44.131, 
-        "fullname": "Amir Slman Bin Abdul Azizi Airport, Al Khufayfah, Ar Riyad, Riyadh, Saudi Arabia", 
-        "sw_latitude": 24.438
+        "fullname": "Amir Slman Bin Abdul Azizi Airport, Al Khufayfah, Ar Riyad, Saudi Arabia", 
+        "date_indexed": "2010-12-02T09:34:42Z"
       }, 
       "id": 56049780
     }

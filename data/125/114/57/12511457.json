@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511457, 
+        "placetype": "airport", 
         "name": "Livada Airport", 
-        "ne_latitude": 42.457, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55873942", 
+          "woe:state=20070075", 
+          "woe:country=23424771", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511457, 
         "ne_longitude": 27.201, 
         "longitude": 27.195, 
-        "placetype": "Airport", 
+        "parent_woeid": 55873942, 
+        "ne_latitude": 42.457, 
         "iso": "BG", 
-        "date_indexed": "2010-12-02T16:14:37Z", 
-        "parent_woeid": 837720, 
+        "sw_latitude": 42.448, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.452, 
         "sw_longitude": 27.189, 
         "fullname": "Livada Airport, Burgas, Kameno, Bulgaria", 
-        "sw_latitude": 42.448
+        "date_indexed": "2010-12-02T16:14:37Z"
       }, 
       "id": 12511457
     }

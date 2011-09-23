@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511651, 
-        "name": "Edson Airport", 
         "alias_ENG_V": [
           "YET Airport"
         ], 
-        "ne_latitude": 53.583, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Edson Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375228", 
+          "woe:state=2344915", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511651, 
         "ne_longitude": -116.457, 
         "longitude": -116.465, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375228, 
+        "ne_latitude": 53.583, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 8438, 
+        "sw_latitude": 53.574, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.579, 
         "sw_longitude": -116.473, 
-        "fullname": "Edson Airport, Edson, Alberta, Alberta, Canada", 
-        "sw_latitude": 53.574
+        "fullname": "Edson Airport, Edson, Alberta, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12511651
     }

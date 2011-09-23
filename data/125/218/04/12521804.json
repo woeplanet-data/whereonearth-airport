@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521804, 
-        "name": "Seward Airport", 
         "alias_ENG_V": [
           "SWD"
         ], 
-        "ne_latitude": 60.138, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Seward Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587564", 
+          "woe:state=2347560", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521804, 
         "ne_longitude": -149.409, 
         "longitude": -149.418, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587564, 
+        "ne_latitude": 60.138, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2491103, 
+        "sw_latitude": 60.129, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 60.133, 
         "sw_longitude": -149.427, 
-        "fullname": "Seward Airport, Seward, Alaska, Kenai Peninsula Borough, United States", 
-        "sw_latitude": 60.129
+        "fullname": "Seward Airport, Seward, Alaska, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521804
     }

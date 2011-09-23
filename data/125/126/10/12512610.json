@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512610, 
+        "placetype": "airport", 
         "name": "Angelina Cotui Airport", 
-        "ne_latitude": 19.135, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345190", 
+          "woe:country=23424800", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512610, 
         "ne_longitude": -70.215, 
         "longitude": -70.220, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345190, 
+        "ne_latitude": 19.135, 
         "iso": "DO", 
-        "date_indexed": "2010-12-02T16:32:46Z", 
-        "parent_woeid": 70200, 
+        "sw_latitude": 19.126, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 19.131, 
         "sw_longitude": -70.225, 
         "fullname": "Angelina Cotui Airport, Cotu\u00ed, S\u00e1nchez Ramirez, Dominican Republic", 
-        "sw_latitude": 19.126
+        "date_indexed": "2010-12-02T16:32:46Z"
       }, 
       "id": 12512610
     }

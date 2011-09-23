@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 28677632, 
+        "placetype": "airport", 
         "name": "Lawn Hill Aerodrome", 
-        "ne_latitude": -18.571, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55864351", 
+          "woe:state=2344702", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 28677632, 
         "ne_longitude": 138.592, 
         "longitude": 138.587, 
-        "placetype": "Airport", 
+        "parent_woeid": 55864351, 
+        "ne_latitude": -18.571, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1103384, 
+        "sw_latitude": -18.580, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -18.575, 
         "sw_longitude": 138.583, 
-        "fullname": "Lawn Hill Aerodrome, Lawn Hill, Queensland, Burke, Australia", 
-        "sw_latitude": -18.580
+        "fullname": "Lawn Hill Aerodrome, Lawn Hill, Queensland, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 28677632
     }

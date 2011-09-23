@@ -3,28 +3,82 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -122.180, 
-              48.152
-            ], 
-            [
-              -122.180, 
-              48.174
-            ], 
-            [
-              -122.151, 
-              48.174
-            ], 
-            [
-              -122.151, 
-              48.152
-            ], 
-            [
-              -122.180, 
-              48.152
+              [
+                -122.161, 
+                48.167
+              ], 
+              [
+                -122.158, 
+                48.166
+              ], 
+              [
+                -122.157, 
+                48.162
+              ], 
+              [
+                -122.157, 
+                48.156
+              ], 
+              [
+                -122.159, 
+                48.153
+              ], 
+              [
+                -122.156, 
+                48.155
+              ], 
+              [
+                -122.154, 
+                48.156
+              ], 
+              [
+                -122.157, 
+                48.156
+              ], 
+              [
+                -122.160, 
+                48.160
+              ], 
+              [
+                -122.162, 
+                48.162
+              ], 
+              [
+                -122.164, 
+                48.162
+              ], 
+              [
+                -122.164, 
+                48.163
+              ], 
+              [
+                -122.167, 
+                48.163
+              ], 
+              [
+                -122.168, 
+                48.162
+              ], 
+              [
+                -122.169, 
+                48.162
+              ], 
+              [
+                -122.169, 
+                48.166
+              ], 
+              [
+                -122.164, 
+                48.166
+              ], 
+              [
+                -122.161, 
+                48.167
+              ]
             ]
           ]
         ]
@@ -32,23 +86,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518659, 
-        "name": "Arlington Municipal Airport", 
         "alias_ENG_V": [
           "Awo"
         ], 
-        "ne_latitude": 48.174, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -122.151, 
-        "longitude": -122.152, 
-        "placetype": "Airport", 
+        "name": "Arlington Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590470", 
+          "woe:state=2347606", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518659, 
+        "ne_longitude": -122.154, 
+        "longitude": -122.162, 
+        "parent_woeid": 12590470, 
+        "ne_latitude": 48.167, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2355928, 
-        "latitude": 48.161, 
-        "sw_longitude": -122.180, 
-        "fullname": "Arlington Municipal Airport, Arlington, Washington, Snohomish, United States", 
-        "sw_latitude": 48.152
+        "sw_latitude": 48.153, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 48.164, 
+        "sw_longitude": -122.169, 
+        "fullname": "Arlington Municipal Airport, Arlington, Washington, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518659
     }

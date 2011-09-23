@@ -3,28 +3,46 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -31.142, 
-              39.446
-            ], 
-            [
-              -31.142, 
-              39.468
-            ], 
-            [
-              -31.112, 
-              39.468
-            ], 
-            [
-              -31.112, 
-              39.446
-            ], 
-            [
-              -31.142, 
-              39.446
+              [
+                -31.137, 
+                39.451
+              ], 
+              [
+                -31.138, 
+                39.451
+              ], 
+              [
+                -31.137, 
+                39.451
+              ], 
+              [
+                -31.136, 
+                39.451
+              ], 
+              [
+                -31.136, 
+                39.451
+              ], 
+              [
+                -31.136, 
+                39.451
+              ], 
+              [
+                -31.136, 
+                39.451
+              ], 
+              [
+                -31.136, 
+                39.451
+              ], 
+              [
+                -31.137, 
+                39.451
+              ]
             ]
           ]
         ]
@@ -32,26 +50,32 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515443, 
-        "name": "Flores Airport", 
         "alias_ENG_V": [
           "FLW"
         ], 
-        "ne_latitude": 39.468, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -31.112, 
-        "longitude": -31.127, 
-        "placetype": "Airport", 
+        "name": "Flores Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=56071122", 
+          "woe:state=15021776", 
+          "woe:country=23424925", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515443, 
+        "ne_longitude": -31.136, 
+        "longitude": -31.139, 
+        "parent_woeid": 56071122, 
+        "ne_latitude": 39.451, 
         "alias_POR_V": [
           "FLW Aeroport"
         ], 
         "iso": "PT", 
-        "date_indexed": "2010-12-02T10:00:50Z", 
-        "parent_woeid": 538328, 
-        "latitude": 39.457, 
-        "sw_longitude": -31.142, 
-        "fullname": "Flores Airport, Santa Cruz das Flores, Azores, Santa Cruz das Flores, Portugal", 
-        "sw_latitude": 39.446
+        "sw_latitude": 39.451, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 39.451, 
+        "sw_longitude": -31.138, 
+        "fullname": "Flores Airport, Santa Cruz das Flores, Azores, Portugal", 
+        "date_indexed": "2010-12-02T10:00:50Z"
       }, 
       "id": 12515443
     }

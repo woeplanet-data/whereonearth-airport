@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388475, 
-        "name": "Twin Towers Airport", 
         "alias_ENG_V": [
           "Va25"
         ], 
-        "ne_latitude": 36.765, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Twin Towers Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590385", 
+          "woe:state=2347605", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388475, 
         "ne_longitude": -78.358, 
         "longitude": -78.359, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590385, 
+        "ne_latitude": 36.765, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2414862, 
+        "sw_latitude": 36.763, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.764, 
         "sw_longitude": -78.360, 
-        "fullname": "Twin Towers Airport, Gregory Corner, Virginia, Mecklenburg, United States", 
-        "sw_latitude": 36.763
+        "fullname": "Twin Towers Airport, Gregory Corner, Virginia, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 29388475
     }

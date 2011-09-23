@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511694, 
-        "name": "High Level Airport", 
         "alias_ENG_V": [
           "YOJ Airport"
         ], 
-        "ne_latitude": 58.631, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "High Level Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375228", 
+          "woe:state=2344915", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511694, 
         "ne_longitude": -117.153, 
         "longitude": -117.163, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375228, 
+        "ne_latitude": 58.631, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:24:00Z", 
-        "parent_woeid": 29373983, 
+        "sw_latitude": 58.611, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 58.614, 
         "sw_longitude": -117.174, 
-        "fullname": "High Level Airport, Mackenzie No 23, Alberta, Alberta, Canada", 
-        "sw_latitude": 58.611
+        "fullname": "High Level Airport, Mackenzie No 23, Alberta, Canada", 
+        "date_indexed": "2010-12-02T10:24:00Z"
       }, 
       "id": 12511694
     }

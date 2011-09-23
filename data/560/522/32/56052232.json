@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 56052232, 
+        "placetype": "airport", 
         "name": "Flugsportverein Gotha", 
-        "ne_latitude": 50.974, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12625003", 
+          "woe:county=12597003", 
+          "woe:state=2345495", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56052232, 
         "ne_longitude": 10.735, 
         "longitude": 10.731, 
-        "placetype": "Airport", 
+        "parent_woeid": 12625003, 
+        "ne_latitude": 50.974, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 653514, 
+        "sw_latitude": 50.969, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.970, 
         "sw_longitude": 10.722, 
-        "fullname": "Flugsportverein Gotha, Gotha, Thuringia, Landkreis Gotha, Germany", 
-        "sw_latitude": 50.969
+        "fullname": "Flugsportverein Gotha, Gotha, Thuringia, Germany", 
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 56052232
     }

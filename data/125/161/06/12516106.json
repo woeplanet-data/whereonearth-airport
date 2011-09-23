@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516106, 
+        "placetype": "airport", 
         "name": "Kasplya Airport", 
-        "ne_latitude": 54.947, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599284", 
+          "woe:state=2346925", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516106, 
         "ne_longitude": 31.741, 
         "longitude": 31.733, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599284, 
+        "ne_latitude": 54.947, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2105877, 
+        "sw_latitude": 54.938, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 54.943, 
         "sw_longitude": 31.725, 
         "fullname": "Kasplya Airport, Smolenskaya Oblast, Smolensky, Russia", 
-        "sw_latitude": 54.938
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516106
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513045, 
+        "placetype": "airport", 
         "name": "Baden Baden Oos Airport", 
-        "ne_latitude": 48.798, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12623866", 
+          "woe:county=12597073", 
+          "woe:state=2345481", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513045, 
         "ne_longitude": 8.193, 
         "longitude": 8.188, 
-        "placetype": "Airport", 
+        "parent_woeid": 12623866, 
+        "ne_latitude": 48.798, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 636549, 
+        "sw_latitude": 48.786, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.793, 
         "sw_longitude": 8.177, 
-        "fullname": "Baden Baden Oos Airport, Baden, Baden-Wurttemberg, Stadtkreis Baden-Baden, Germany", 
+        "fullname": "Baden Baden Oos Airport, Baden, Baden-Wurttemberg, Germany", 
         "alias_GER_Q": [
           "Flughafen Baden Baden Oos"
         ], 
-        "sw_latitude": 48.786
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 12513045
     }

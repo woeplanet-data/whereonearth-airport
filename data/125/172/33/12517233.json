@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517233, 
+        "placetype": "airport", 
         "name": "Yaransk Airport", 
-        "ne_latitude": 57.205, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598508", 
+          "woe:state=2346902", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517233, 
         "ne_longitude": 47.835, 
         "longitude": 47.826, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598508, 
+        "ne_latitude": 57.205, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2119106, 
+        "sw_latitude": 57.196, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 57.200, 
         "sw_longitude": 47.818, 
         "fullname": "Yaransk Airport, Kirovskaya Oblast, Yaransky, Russia", 
-        "sw_latitude": 57.196
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12517233
     }

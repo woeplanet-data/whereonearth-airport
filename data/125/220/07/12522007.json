@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522007, 
-        "name": "Sterling Municipal Airport", 
         "alias_ENG_V": [
           "Crosson Field"
         ], 
-        "ne_latitude": 40.624, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Sterling Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587765", 
+          "woe:state=2347564", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522007, 
         "ne_longitude": -103.258, 
         "longitude": -103.259, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587765, 
+        "ne_latitude": 40.624, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2499641, 
+        "sw_latitude": 40.610, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.613, 
         "sw_longitude": -103.269, 
-        "fullname": "Sterling Municipal Airport, Sterling, Colorado, Logan, United States", 
-        "sw_latitude": 40.610
+        "fullname": "Sterling Municipal Airport, Sterling, Colorado, United States", 
+        "iata_code": "STK", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522007
     }

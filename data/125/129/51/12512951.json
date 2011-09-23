@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512951, 
+        "placetype": "airport", 
         "name": "Plan de Dieu Airport", 
-        "ne_latitude": 44.185, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=22757780", 
+          "woe:county=12597203", 
+          "woe:state=7153328", 
+          "woe:country=23424819", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512951, 
         "ne_longitude": 4.927, 
         "longitude": 4.920, 
-        "placetype": "Airport", 
+        "parent_woeid": 22757780, 
+        "ne_latitude": 44.185, 
         "iso": "FR", 
-        "date_indexed": "2010-12-02T12:04:01Z", 
-        "parent_woeid": 629091, 
+        "sw_latitude": 44.176, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.180, 
         "sw_longitude": 4.914, 
-        "fullname": "Plan de Dieu Airport, Travaillan, Provence-Alpes-Cote d'Azur, Vaucluse, France", 
-        "sw_latitude": 44.176
+        "fullname": "Plan de Dieu Airport, Travaillan, Provence-Alpes-Cote d'Azur, France", 
+        "date_indexed": "2010-12-02T12:04:01Z"
       }, 
       "id": 12512951
     }

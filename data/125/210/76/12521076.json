@@ -3,28 +3,50 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -70.078, 
-              41.245
-            ], 
-            [
-              -70.078, 
-              41.261
-            ], 
-            [
-              -70.047, 
-              41.261
-            ], 
-            [
-              -70.047, 
-              41.245
-            ], 
-            [
-              -70.078, 
-              41.245
+              [
+                -70.067, 
+                41.259
+              ], 
+              [
+                -70.069, 
+                41.260
+              ], 
+              [
+                -70.066, 
+                41.259
+              ], 
+              [
+                -70.066, 
+                41.259
+              ], 
+              [
+                -70.063, 
+                41.258
+              ], 
+              [
+                -70.061, 
+                41.253
+              ], 
+              [
+                -70.062, 
+                41.251
+              ], 
+              [
+                -70.063, 
+                41.255
+              ], 
+              [
+                -70.065, 
+                41.257
+              ], 
+              [
+                -70.067, 
+                41.259
+              ]
             ]
           ]
         ]
@@ -32,23 +54,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521076, 
-        "name": "Nantucket Memorial Airport", 
         "alias_ENG_V": [
           "ACK"
         ], 
-        "ne_latitude": 41.261, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -70.047, 
-        "longitude": -70.065, 
-        "placetype": "Airport", 
+        "name": "Nantucket Memorial Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588709", 
+          "woe:state=2347580", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521076, 
+        "ne_longitude": -70.061, 
+        "longitude": -70.063, 
+        "parent_woeid": 12588709, 
+        "ne_latitude": 41.260, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2456968, 
-        "latitude": 41.257, 
-        "sw_longitude": -70.078, 
-        "fullname": "Nantucket Memorial Airport, Nantucket, Massachusetts, Nantucket, United States", 
-        "sw_latitude": 41.245
+        "sw_latitude": 41.251, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 41.256, 
+        "sw_longitude": -70.069, 
+        "fullname": "Nantucket Memorial Airport, Nantucket, Massachusetts, United States", 
+        "iata_code": "ACK", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12521076
     }

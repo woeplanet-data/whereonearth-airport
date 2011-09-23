@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514356, 
+        "placetype": "airport", 
         "name": "Karabutak Airport", 
-        "ne_latitude": 49.956, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345980", 
+          "woe:country=23424871", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514356, 
         "ne_longitude": 60.209, 
         "longitude": 60.202, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345980, 
+        "ne_latitude": 49.956, 
         "iso": "KZ", 
-        "date_indexed": "2010-12-02T08:54:13Z", 
-        "parent_woeid": 2261213, 
+        "sw_latitude": 49.947, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.952, 
         "sw_longitude": 60.195, 
         "fullname": "Karabutak Airport, Qarabutaq, Aqtobe, Kazakhstan", 
-        "sw_latitude": 49.947
+        "date_indexed": "2010-12-02T08:54:13Z"
       }, 
       "id": 12514356
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517029, 
+        "placetype": "airport", 
         "name": "Trud Airport", 
-        "ne_latitude": 52.160, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598619", 
+          "woe:state=2346906", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517029, 
         "ne_longitude": 49.850, 
         "longitude": 49.843, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598619, 
+        "ne_latitude": 52.160, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2037694, 
+        "sw_latitude": 52.151, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 52.155, 
         "sw_longitude": 49.835, 
         "fullname": "Trud Airport, Saratovskaya Oblast, Perelyubsky, Russia", 
-        "sw_latitude": 52.151
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12517029
     }

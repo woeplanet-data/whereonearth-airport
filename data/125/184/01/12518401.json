@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518401, 
+        "placetype": "airport", 
         "name": "Razdolnoye Airport", 
-        "ne_latitude": 45.771, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2347544", 
+          "woe:country=23424976", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518401, 
         "ne_longitude": 33.496, 
         "longitude": 33.489, 
-        "placetype": "Airport", 
+        "parent_woeid": 2347544, 
+        "ne_latitude": 45.771, 
         "iso": "UA", 
-        "date_indexed": "2010-12-02T08:52:39Z", 
-        "parent_woeid": 915462, 
+        "sw_latitude": 45.761, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.766, 
         "sw_longitude": 33.483, 
         "fullname": "Razdolnoye Airport, Ak-Sheikh, Crimea, Ukraine", 
-        "sw_latitude": 45.761
+        "date_indexed": "2010-12-02T08:52:39Z"
       }, 
       "id": 12518401
     }

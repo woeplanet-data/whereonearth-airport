@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513494, 
+        "placetype": "airport", 
         "name": "Pinang Kampai Airport", 
-        "ne_latitude": 1.611, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=56000253", 
+          "woe:state=2345728", 
+          "woe:country=23424846", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513494, 
         "ne_longitude": 101.441, 
         "longitude": 101.437, 
-        "placetype": "Airport", 
+        "parent_woeid": 56000253, 
+        "ne_latitude": 1.611, 
         "iso": "ID", 
-        "date_indexed": "2010-12-02T16:54:32Z", 
-        "parent_woeid": 1047401, 
+        "sw_latitude": 1.602, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 1.606, 
         "sw_longitude": 101.432, 
-        "fullname": "Pinang Kampai Airport, Dumai, Riau, Kota Dumai, Indonesia", 
-        "sw_latitude": 1.602
+        "fullname": "Pinang Kampai Airport, Dumai, Riau, Indonesia", 
+        "date_indexed": "2010-12-02T16:54:32Z"
       }, 
       "id": 12513494
     }

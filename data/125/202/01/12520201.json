@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520201, 
+        "placetype": "airport", 
         "name": "Holley Outlying Landing Field", 
-        "ne_latitude": 30.430, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12587857", 
+          "woe:state=2347568", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520201, 
         "ne_longitude": -86.889, 
         "longitude": -86.894, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587857, 
+        "ne_latitude": 30.430, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2417845, 
+        "sw_latitude": 30.420, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 30.425, 
         "sw_longitude": -86.899, 
-        "fullname": "Holley Outlying Landing Field, Harper, Florida, Santa Rosa, United States", 
-        "sw_latitude": 30.420
+        "fullname": "Holley Outlying Landing Field, Harper, Florida, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12520201
     }

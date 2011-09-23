@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521841, 
-        "name": "Shively Field Airport", 
         "alias_ENG_V": [
           "Shively Airport"
         ], 
-        "ne_latitude": 41.451, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Shively Field Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590609", 
+          "woe:state=2347609", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521841, 
         "ne_longitude": -106.807, 
         "longitude": -106.808, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590609, 
+        "ne_latitude": 41.451, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2489046, 
+        "sw_latitude": 41.438, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.449, 
         "sw_longitude": -106.841, 
-        "fullname": "Shively Field Airport, Saratoga, Wyoming, Carbon, United States", 
-        "sw_latitude": 41.438
+        "fullname": "Shively Field Airport, Saratoga, Wyoming, United States", 
+        "iata_code": "SAA", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521841
     }

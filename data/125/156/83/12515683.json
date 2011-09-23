@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515683, 
+        "placetype": "airport", 
         "name": "Akhty Airport", 
-        "ne_latitude": 41.491, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597350", 
+          "woe:state=2346870", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515683, 
         "ne_longitude": 47.711, 
         "longitude": 47.705, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597350, 
+        "ne_latitude": 41.491, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2038804, 
+        "sw_latitude": 41.481, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.486, 
         "sw_longitude": 47.699, 
         "fullname": "Akhty Airport, Dagestan, Akhtynsky, Russia", 
-        "sw_latitude": 41.481
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12515683
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516001, 
+        "placetype": "airport", 
         "name": "Gorbachika Northwest Airport", 
-        "ne_latitude": 61.252, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598035", 
+          "woe:state=20070508", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516001, 
         "ne_longitude": 47.779, 
         "longitude": 47.769, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598035, 
+        "ne_latitude": 61.252, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2051610, 
+        "sw_latitude": 61.242, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 61.247, 
         "sw_longitude": 47.760, 
         "fullname": "Gorbachika Northwest Airport, Arkhangelrskaya Oblast, Vilegodsky, Russia", 
-        "sw_latitude": 61.242
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516001
     }

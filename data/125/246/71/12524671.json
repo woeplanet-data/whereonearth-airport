@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524671, 
-        "name": "Browns Airport", 
         "alias_ENG_V": [
           "EPG"
         ], 
-        "ne_latitude": 40.871, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Browns Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589150", 
+          "woe:state=2347586", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524671, 
         "ne_longitude": -96.107, 
         "longitude": -96.111, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589150, 
+        "ne_latitude": 40.871, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2516022, 
+        "sw_latitude": 40.865, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.871, 
         "sw_longitude": -96.112, 
-        "fullname": "Browns Airport, Weeping Water, Nebraska, Cass, United States", 
-        "sw_latitude": 40.865
+        "fullname": "Browns Airport, Weeping Water, Nebraska, United States", 
+        "iata_code": "EPG", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12524671
     }

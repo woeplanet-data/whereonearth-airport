@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522990, 
+        "placetype": "airport", 
         "name": "Ruacana Airport", 
-        "ne_latitude": -17.414, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55921200", 
+          "woe:state=20069842", 
+          "woe:country=23424987", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522990, 
         "ne_longitude": 14.377, 
         "longitude": 14.372, 
-        "placetype": "Airport", 
+        "parent_woeid": 55921200, 
+        "ne_latitude": -17.414, 
         "iso": "NA", 
-        "date_indexed": "2010-12-02T07:50:17Z", 
-        "parent_woeid": 1466395, 
+        "sw_latitude": -17.423, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -17.418, 
         "sw_longitude": 14.367, 
-        "fullname": "Ruacana Airport, Ruacana, Omusati, Ruacana, Namibia", 
-        "sw_latitude": -17.423
+        "fullname": "Ruacana Airport, Ruacana, Omusati, Namibia", 
+        "date_indexed": "2010-12-02T07:50:17Z"
       }, 
       "id": 12522990
     }

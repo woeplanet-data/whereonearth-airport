@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512759, 
-        "name": "Maripasoula Airport", 
         "alias_ENG_V": [
           "MPY"
         ], 
-        "ne_latitude": 3.662, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Maripasoula Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55998435", 
+          "woe:state=2345322", 
+          "woe:country=23424811", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512759, 
         "ne_longitude": -54.033, 
         "longitude": -54.037, 
-        "placetype": "Airport", 
+        "parent_woeid": 55998435, 
+        "ne_latitude": 3.662, 
         "iso": "GF", 
-        "date_indexed": "2010-12-02T08:59:14Z", 
-        "parent_woeid": 379668, 
+        "sw_latitude": 3.653, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 3.658, 
         "sw_longitude": -54.042, 
-        "fullname": "Maripasoula Airport, Maripasoula, St. Laurent du Maroni, Maripasoula, French Guiana", 
-        "sw_latitude": 3.653
+        "fullname": "Maripasoula Airport, Maripasoula, St. Laurent du Maroni, French Guiana", 
+        "iata_code": "MPY", 
+        "date_indexed": "2010-12-02T08:59:14Z"
       }, 
       "id": 12512759
     }

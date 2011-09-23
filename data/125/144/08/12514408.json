@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514408, 
+        "placetype": "airport", 
         "name": "Lepsy East Airport", 
-        "ne_latitude": 46.164, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=20070180", 
+          "woe:country=23424871", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514408, 
         "ne_longitude": 79.301, 
         "longitude": 79.294, 
-        "placetype": "Airport", 
+        "parent_woeid": 20070180, 
+        "ne_latitude": 46.164, 
         "iso": "KZ", 
-        "date_indexed": "2010-12-02T08:54:13Z", 
-        "parent_woeid": 2264652, 
+        "sw_latitude": 46.154, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.159, 
         "sw_longitude": 79.287, 
         "fullname": "Lepsy East Airport, Almaty, Kazakhstan", 
-        "sw_latitude": 46.154
+        "date_indexed": "2010-12-02T08:54:13Z"
       }, 
       "id": 12514408
     }

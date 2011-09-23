@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514049, 
+        "placetype": "airport", 
         "name": "Al Qatranah Highway Strip Airport", 
-        "ne_latitude": 31.253, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345929", 
+          "woe:country=23424860", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514049, 
         "ne_longitude": 36.241, 
         "longitude": 36.236, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345929, 
+        "ne_latitude": 31.253, 
         "iso": "JO", 
-        "date_indexed": "2010-12-02T12:08:12Z", 
-        "parent_woeid": 1968384, 
+        "sw_latitude": 31.244, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 31.249, 
         "sw_longitude": 36.230, 
         "fullname": "Al Qatranah Highway Strip Airport, Ma'an, Jordan", 
-        "sw_latitude": 31.244
+        "date_indexed": "2010-12-02T12:08:12Z"
       }, 
       "id": 12514049
     }

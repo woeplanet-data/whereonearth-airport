@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511003, 
+        "placetype": "airport", 
         "name": "Zheludok Airport", 
-        "ne_latitude": 53.597, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2344832", 
+          "woe:country=23424765", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511003, 
         "ne_longitude": 24.990, 
         "longitude": 24.983, 
-        "placetype": "Airport", 
+        "parent_woeid": 2344832, 
+        "ne_latitude": 53.597, 
         "iso": "BY", 
-        "date_indexed": "2010-12-02T16:32:57Z", 
-        "parent_woeid": 834216, 
+        "sw_latitude": 53.588, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.593, 
         "sw_longitude": 24.975, 
         "fullname": "Zheludok Airport, Haradzyenskaya Voblasts', Belarus", 
-        "sw_latitude": 53.588
+        "date_indexed": "2010-12-02T16:32:57Z"
       }, 
       "id": 12511003
     }

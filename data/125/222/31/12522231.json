@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522231, 
-        "name": "Twin City Airport", 
         "alias_ENG_V": [
           "5j9"
         ], 
-        "ne_latitude": 34.089, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Twin City Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589825", 
+          "woe:state=2347599", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522231, 
         "ne_longitude": -78.864, 
         "longitude": -78.867, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589825, 
+        "ne_latitude": 34.089, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2442015, 
+        "sw_latitude": 34.086, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 34.088, 
         "sw_longitude": -78.869, 
-        "fullname": "Twin City Airport, Loris, South Carolina, Horry, United States", 
-        "sw_latitude": 34.086
+        "fullname": "Twin City Airport, Loris, South Carolina, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12522231
     }

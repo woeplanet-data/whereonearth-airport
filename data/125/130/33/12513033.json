@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513033, 
-        "name": "Thule Air Base", 
         "alias_ENG_V": [
           "THU"
         ], 
-        "ne_latitude": 76.537, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Thule Air Base", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=20069857", 
+          "woe:country=23424828", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513033, 
         "ne_longitude": -68.684, 
         "longitude": -68.703, 
-        "placetype": "Airport", 
+        "parent_woeid": 20069857, 
+        "ne_latitude": 76.537, 
         "iso": "GL", 
-        "date_indexed": "2010-12-02T17:40:29Z", 
-        "parent_woeid": 473058, 
+        "sw_latitude": 76.528, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 76.532, 
         "sw_longitude": -68.723, 
         "fullname": "Thule Air Base, Nordgronland, Greenland", 
-        "sw_latitude": 76.528
+        "iata_code": "THU", 
+        "date_indexed": "2010-12-02T17:40:29Z"
       }, 
       "id": 12513033
     }

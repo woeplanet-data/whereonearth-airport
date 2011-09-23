@@ -3,28 +3,62 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -102.227, 
-              31.926
-            ], 
-            [
-              -102.227, 
-              31.960
-            ], 
-            [
-              -102.188, 
-              31.960
-            ], 
-            [
-              -102.188, 
-              31.926
-            ], 
-            [
-              -102.227, 
-              31.926
+              [
+                -102.210, 
+                31.944
+              ], 
+              [
+                -102.206, 
+                31.941
+              ], 
+              [
+                -102.206, 
+                31.936
+              ], 
+              [
+                -102.206, 
+                31.934
+              ], 
+              [
+                -102.207, 
+                31.937
+              ], 
+              [
+                -102.210, 
+                31.938
+              ], 
+              [
+                -102.214, 
+                31.941
+              ], 
+              [
+                -102.215, 
+                31.941
+              ], 
+              [
+                -102.217, 
+                31.943
+              ], 
+              [
+                -102.215, 
+                31.945
+              ], 
+              [
+                -102.212, 
+                31.945
+              ], 
+              [
+                -102.210, 
+                31.944
+              ], 
+              [
+                -102.210, 
+                31.944
+              ]
             ]
           ]
         ]
@@ -32,23 +66,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520944, 
-        "name": "Midland International Airport", 
         "alias_ENG_V": [
           "Midland Airport"
         ], 
-        "ne_latitude": 31.960, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -102.188, 
+        "name": "Midland International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590171", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520944, 
+        "ne_longitude": -102.206, 
         "longitude": -102.211, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590171, 
+        "ne_latitude": 31.945, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2450465, 
-        "latitude": 31.927, 
-        "sw_longitude": -102.227, 
-        "fullname": "Midland International Airport, Midland, Texas, Midland, United States", 
-        "sw_latitude": 31.926
+        "sw_latitude": 31.934, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 31.941, 
+        "sw_longitude": -102.217, 
+        "fullname": "Midland International Airport, Midland, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520944
     }

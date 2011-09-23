@@ -3,28 +3,66 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              23.682, 
-              46.779
-            ], 
-            [
-              23.682, 
-              46.802
-            ], 
-            [
-              23.715, 
-              46.802
-            ], 
-            [
-              23.715, 
-              46.779
-            ], 
-            [
-              23.682, 
-              46.779
+              [
+                23.690, 
+                46.783
+              ], 
+              [
+                23.688, 
+                46.782
+              ], 
+              [
+                23.687, 
+                46.782
+              ], 
+              [
+                23.678, 
+                46.783
+              ], 
+              [
+                23.676, 
+                46.781
+              ], 
+              [
+                23.673, 
+                46.776
+              ], 
+              [
+                23.671, 
+                46.782
+              ], 
+              [
+                23.676, 
+                46.783
+              ], 
+              [
+                23.678, 
+                46.783
+              ], 
+              [
+                23.688, 
+                46.784
+              ], 
+              [
+                23.695, 
+                46.786
+              ], 
+              [
+                23.703, 
+                46.788
+              ], 
+              [
+                23.699, 
+                46.782
+              ], 
+              [
+                23.690, 
+                46.783
+              ]
             ]
           ]
         ]
@@ -32,23 +70,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515577, 
-        "name": "Someseni Airport", 
         "alias_ENG_V": [
           "CLJ"
         ], 
-        "ne_latitude": 46.802, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": 23.715, 
-        "longitude": 23.698, 
-        "placetype": "Airport", 
+        "name": "Someseni Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2346627", 
+          "woe:country=23424933", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515577, 
+        "ne_longitude": 23.703, 
+        "longitude": 23.688, 
+        "parent_woeid": 2346627, 
+        "ne_latitude": 46.788, 
         "iso": "RO", 
-        "date_indexed": "2010-12-02T16:37:48Z", 
-        "parent_woeid": 880436, 
-        "latitude": 46.790, 
-        "sw_longitude": 23.682, 
+        "sw_latitude": 46.776, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 46.783, 
+        "sw_longitude": 23.671, 
         "fullname": "Someseni Airport, Cluj, Romania", 
-        "sw_latitude": 46.779
+        "iata_code": "CLJ", 
+        "date_indexed": "2010-12-02T16:37:48Z"
       }, 
       "id": 12515577
     }

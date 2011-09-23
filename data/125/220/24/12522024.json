@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522024, 
+        "placetype": "airport", 
         "name": "Stovepipe Wells Airport", 
-        "ne_latitude": 36.609, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12587683", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522024, 
         "ne_longitude": -117.153, 
         "longitude": -117.158, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587683, 
+        "ne_latitude": 36.609, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 28337769, 
+        "sw_latitude": 36.600, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.604, 
         "sw_longitude": -117.164, 
-        "fullname": "Stovepipe Wells Airport, Stove Pipe Wells, California, Inyo, United States", 
-        "sw_latitude": 36.600
+        "fullname": "Stovepipe Wells Airport, Stove Pipe Wells, California, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12522024
     }

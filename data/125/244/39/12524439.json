@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524439, 
-        "name": "Reyes Airport", 
         "alias_ENG_V": [
           "REY"
         ], 
-        "ne_latitude": -14.312, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Reyes Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=55967924", 
+          "woe:county=55967773", 
+          "woe:state=2344803", 
+          "woe:country=23424762", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524439, 
         "ne_longitude": -67.262, 
         "longitude": -67.267, 
-        "placetype": "Airport", 
+        "parent_woeid": 55967924, 
+        "ne_latitude": -14.312, 
         "iso": "BO", 
-        "date_indexed": "2010-12-02T17:57:50Z", 
-        "parent_woeid": 346367, 
+        "sw_latitude": -14.321, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -14.317, 
         "sw_longitude": -67.271, 
         "fullname": "Reyes Airport, El Beni, Jos\u00e9 Ballivi\u00e1n, Bolivia", 
-        "sw_latitude": -14.321
+        "iata_code": "REY", 
+        "date_indexed": "2010-12-02T17:57:50Z"
       }, 
       "id": 12524439
     }

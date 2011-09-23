@@ -32,29 +32,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "JPN", 
-        "woeid": 28360543, 
-        "name": "\u5357\u5927\u6771\u7a7a\u6e2f", 
         "alias_ENG_V": [
           "New Minamidaito Airport"
         ], 
+        "name": "\u5357\u5927\u6771\u7a7a\u6e2f", 
         "alias_ENG_P": [
           "Minami-Daito Airport"
         ], 
-        "ne_latitude": 25.852, 
+        "parent_woeid": 24857540, 
+        "woeid": 28360543, 
+        "provider": "geoplanet 7.6.0", 
         "alias_JPN_V": [
           "\u65b0\u5357\u5927\u6771\u7a7a\u6e2f"
         ], 
-        "ne_longitude": 131.269, 
         "longitude": 131.264, 
-        "parent_woeid": 1117719, 
-        "placetype": "Airport", 
+        "ne_longitude": 131.269, 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=24857540", 
+          "woe:state=2345896", 
+          "woe:country=23424856", 
+          "woe:planet=1"
+        ], 
         "iso": "JP", 
-        "date_indexed": "2010-12-02T08:09:09Z", 
-        "provider": "geoplanet 7.6.0", 
+        "sw_latitude": 25.842, 
+        "ne_latitude": 25.852, 
         "latitude": 25.847, 
         "sw_longitude": 131.259, 
-        "fullname": "\u5357\u5927\u6771\u7a7a\u6e2f, Minamidaitou-son, Okinawa Prefecture, Shimajiri-gun, Japan", 
-        "sw_latitude": 25.842
+        "fullname": "\u5357\u5927\u6771\u7a7a\u6e2f, Minamidaitou-son, Okinawa Prefecture, Japan", 
+        "iata_code": "MMD", 
+        "date_indexed": "2010-12-02T08:09:09Z"
       }, 
       "id": 28360543
     }

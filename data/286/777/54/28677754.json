@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 28677754, 
+        "placetype": "airport", 
         "name": "Margaret River Aerodrome", 
-        "ne_latitude": -18.615, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55864073", 
+          "woe:state=2344706", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 28677754, 
         "ne_longitude": 126.887, 
         "longitude": 126.882, 
-        "placetype": "Airport", 
+        "parent_woeid": 55864073, 
+        "ne_latitude": -18.615, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 28596085, 
+        "sw_latitude": -18.625, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -18.620, 
         "sw_longitude": 126.877, 
-        "fullname": "Margaret River Aerodrome, Mueller Ranges, Western Australia, Halls Creek, Australia", 
-        "sw_latitude": -18.625
+        "fullname": "Margaret River Aerodrome, Mueller Ranges, Western Australia, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 28677754
     }

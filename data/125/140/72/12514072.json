@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514072, 
+        "placetype": "airport", 
         "name": "Masinga Airport", 
-        "ne_latitude": -0.876, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345939", 
+          "woe:country=23424863", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514072, 
         "ne_longitude": 37.627, 
         "longitude": 37.622, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345939, 
+        "ne_latitude": -0.876, 
         "iso": "KE", 
-        "date_indexed": "2010-12-02T08:53:57Z", 
-        "parent_woeid": 10644788, 
+        "sw_latitude": -0.885, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -0.881, 
         "sw_longitude": 37.618, 
         "fullname": "Masinga Airport, Eastern, Kenya", 
-        "sw_latitude": -0.885
+        "date_indexed": "2010-12-02T08:53:57Z"
       }, 
       "id": 12514072
     }

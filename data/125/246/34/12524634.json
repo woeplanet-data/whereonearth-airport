@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524634, 
-        "name": "Chefornak Airport", 
         "alias_ENG_V": [
           "CYF"
         ], 
-        "ne_latitude": 60.160, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Chefornak Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587557", 
+          "woe:state=2347560", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524634, 
         "ne_longitude": -164.264, 
         "longitude": -164.273, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587557, 
+        "ne_latitude": 60.160, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2378789, 
+        "sw_latitude": 60.151, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 60.156, 
         "sw_longitude": -164.283, 
-        "fullname": "Chefornak Airport, Chefornak, Alaska, Bethel Census Area, United States", 
-        "sw_latitude": 60.151
+        "fullname": "Chefornak Airport, Chefornak, Alaska, United States", 
+        "iata_code": "CYF", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12524634
     }

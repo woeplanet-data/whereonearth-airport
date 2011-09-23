@@ -3,28 +3,42 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              146.746, 
-              -19.264
-            ], 
-            [
-              146.746, 
-              -19.229
-            ], 
-            [
-              146.780, 
-              -19.229
-            ], 
-            [
-              146.780, 
-              -19.264
-            ], 
-            [
-              146.746, 
-              -19.264
+              [
+                146.765, 
+                -19.231
+              ], 
+              [
+                146.765, 
+                -19.232
+              ], 
+              [
+                146.763, 
+                -19.232
+              ], 
+              [
+                146.763, 
+                -19.232
+              ], 
+              [
+                146.761, 
+                -19.229
+              ], 
+              [
+                146.761, 
+                -19.226
+              ], 
+              [
+                146.763, 
+                -19.229
+              ], 
+              [
+                146.765, 
+                -19.231
+              ]
             ]
           ]
         ]
@@ -32,23 +46,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510800, 
-        "name": "Townsville Airport", 
         "alias_ENG_V": [
           "TSV"
         ], 
-        "ne_latitude": -19.229, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": 146.780, 
-        "longitude": 146.771, 
-        "placetype": "Airport", 
-        "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
+        "name": "Townsville Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:suburb=28585140", 
+          "woe:county=56072971", 
+          "woe:state=2344702", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510800, 
+        "ne_longitude": 146.765, 
+        "longitude": 146.762, 
         "parent_woeid": 28585140, 
-        "latitude": -19.257, 
-        "sw_longitude": 146.746, 
-        "fullname": "Townsville Airport, Townsville, Queensland, Townsville, Australia", 
-        "sw_latitude": -19.264
+        "ne_latitude": -19.226, 
+        "iso": "AU", 
+        "sw_latitude": -19.232, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": -19.230, 
+        "sw_longitude": 146.761, 
+        "fullname": "Townsville Airport, Townsville, Queensland, Australia", 
+        "iata_code": "TSV", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 12510800
     }

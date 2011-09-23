@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524241, 
-        "name": "Repulse Bay Airport", 
         "alias_ENG_V": [
           "YUT Airport"
         ], 
-        "ne_latitude": 66.538, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Repulse Bay Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375230", 
+          "woe:state=20069920", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524241, 
         "ne_longitude": -86.239, 
         "longitude": -86.250, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375230, 
+        "ne_latitude": 66.538, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 4318, 
+        "sw_latitude": 66.529, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 66.533, 
         "sw_longitude": -86.261, 
-        "fullname": "Repulse Bay Airport, Repulse Bay, Nunavut, Nunavut, Canada", 
-        "sw_latitude": 66.529
+        "fullname": "Repulse Bay Airport, Repulse Bay, Nunavut, Canada", 
+        "iata_code": "YUT", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12524241
     }

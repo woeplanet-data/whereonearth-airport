@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520602, 
-        "name": "Leach Airport", 
         "alias_ENG_V": [
           "1v8"
         ], 
-        "ne_latitude": 37.784, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Leach Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587782", 
+          "woe:state=2347564", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520602, 
         "ne_longitude": -106.035, 
         "longitude": -106.038, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587782, 
+        "ne_latitude": 37.784, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2377222, 
+        "sw_latitude": 37.778, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 37.781, 
         "sw_longitude": -106.042, 
-        "fullname": "Leach Airport, Center, Colorado, Saguache, United States", 
-        "sw_latitude": 37.778
+        "fullname": "Leach Airport, Center, Colorado, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12520602
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522213, 
+        "placetype": "airport", 
         "name": "Tuba City Airport", 
-        "ne_latitude": 36.140, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12587582", 
+          "woe:state=2347561", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522213, 
         "ne_longitude": -111.228, 
         "longitude": -111.233, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587582, 
+        "ne_latitude": 36.140, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2508352, 
+        "sw_latitude": 36.131, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.135, 
         "sw_longitude": -111.239, 
-        "fullname": "Tuba City Airport, Tuba City, Arizona, Coconino, United States", 
-        "sw_latitude": 36.131
+        "fullname": "Tuba City Airport, Tuba City, Arizona, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12522213
     }

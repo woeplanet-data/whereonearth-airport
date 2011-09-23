@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514341, 
+        "placetype": "airport", 
         "name": "Iliysk South Airport", 
-        "ne_latitude": 43.742, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=20070180", 
+          "woe:country=23424871", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514341, 
         "ne_longitude": 77.131, 
         "longitude": 77.124, 
-        "placetype": "Airport", 
+        "parent_woeid": 20070180, 
+        "ne_latitude": 43.742, 
         "iso": "KZ", 
-        "date_indexed": "2010-12-02T08:54:13Z", 
-        "parent_woeid": 2264717, 
+        "sw_latitude": 43.733, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.737, 
         "sw_longitude": 77.118, 
         "fullname": "Iliysk South Airport, Almaty, Kazakhstan", 
-        "sw_latitude": 43.733
+        "date_indexed": "2010-12-02T08:54:13Z"
       }, 
       "id": 12514341
     }

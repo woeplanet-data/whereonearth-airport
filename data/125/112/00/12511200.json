@@ -32,29 +32,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511200, 
-        "name": "Aeroporto Joacaba", 
-        "alias_ENG_P": [
-          "Joacaba Airport"
-        ], 
-        "ne_latitude": -27.168, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "JCB"
         ], 
+        "name": "Aeroporto Joacaba", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Joacaba Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12581668", 
+          "woe:state=2344867", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511200, 
         "ne_longitude": -51.546, 
         "longitude": -51.551, 
-        "placetype": "Airport", 
+        "parent_woeid": 12581668, 
+        "ne_latitude": -27.168, 
         "alias_POR_V": [
           "Aeroporto JCB"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 435173, 
+        "sw_latitude": -27.177, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -27.172, 
         "sw_longitude": -51.556, 
-        "fullname": "Aeroporto Joacaba, Herval, Santa Catarina, Herval d'Oeste, Brazil", 
-        "sw_latitude": -27.177
+        "fullname": "Aeroporto Joacaba, Herval, Santa Catarina, Brazil", 
+        "iata_code": "JCB", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511200
     }

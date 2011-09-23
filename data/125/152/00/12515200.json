@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515200, 
-        "name": "Collique Airport", 
         "alias_ENG_V": [
           "Aeropuerto Collique"
         ], 
-        "ne_latitude": -11.925, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Collique Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26805880", 
+          "woe:state=28358302", 
+          "woe:country=23424919", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515200, 
         "ne_longitude": -77.057, 
         "longitude": -77.062, 
-        "placetype": "Airport", 
+        "parent_woeid": 26805880, 
+        "ne_latitude": -11.925, 
         "iso": "PE", 
-        "date_indexed": "2010-12-02T16:12:16Z", 
-        "parent_woeid": 22723464, 
+        "sw_latitude": -11.934, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -11.929, 
         "sw_longitude": -77.066, 
         "fullname": "Collique Airport, Lima Metropolitan Area, Lima, Peru", 
-        "sw_latitude": -11.934
+        "date_indexed": "2010-12-02T16:12:16Z"
       }, 
       "id": 12515200
     }

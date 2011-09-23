@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520386, 
+        "placetype": "airport", 
         "name": "Johnson City Stolport Airport", 
-        "ne_latitude": 36.367, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12590001", 
+          "woe:state=2347601", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520386, 
         "ne_longitude": -82.304, 
         "longitude": -82.310, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590001, 
+        "ne_latitude": 36.367, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2429523, 
+        "sw_latitude": 36.358, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.363, 
         "sw_longitude": -82.315, 
-        "fullname": "Johnson City Stolport Airport, Johnson City, Tennessee, Washington, United States", 
-        "sw_latitude": 36.358
+        "fullname": "Johnson City Stolport Airport, Johnson City, Tennessee, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12520386
     }

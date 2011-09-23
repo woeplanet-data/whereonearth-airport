@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513308, 
+        "placetype": "airport", 
         "name": "Marathon Airport", 
-        "ne_latitude": 38.151, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=24544001", 
+          "woe:county=24543543", 
+          "woe:state=12577879", 
+          "woe:country=23424833", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513308, 
         "ne_longitude": 24.020, 
         "longitude": 24.014, 
-        "placetype": "Airport", 
+        "parent_woeid": 24544001, 
+        "ne_latitude": 38.151, 
         "iso": "GR", 
-        "date_indexed": "2010-12-02T16:52:14Z", 
-        "parent_woeid": 959107, 
+        "sw_latitude": 38.142, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.146, 
         "sw_longitude": 24.009, 
-        "fullname": "Marathon Airport, Panayia Mesosporitissa, Attiki, Anatoliki Attiki, Greece", 
-        "sw_latitude": 38.142
+        "fullname": "Marathon Airport, Panayia Mesosporitissa, Attiki, Greece", 
+        "date_indexed": "2010-12-02T16:52:14Z"
       }, 
       "id": 12513308
     }

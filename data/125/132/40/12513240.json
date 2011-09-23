@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513240, 
+        "placetype": "airport", 
         "name": "Sperenberg Airport", 
-        "ne_latitude": 52.141, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12634063", 
+          "woe:county=12596900", 
+          "woe:state=2345491", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513240, 
         "ne_longitude": 13.307, 
         "longitude": 13.299, 
-        "placetype": "Airport", 
+        "parent_woeid": 12634063, 
+        "ne_latitude": 52.141, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 693021, 
+        "sw_latitude": 52.132, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 52.136, 
         "sw_longitude": 13.292, 
-        "fullname": "Sperenberg Airport, Sch\u00f6neweide, Brandenburg, Teltow-Fl\u00e4ming, Germany", 
+        "fullname": "Sperenberg Airport, Sch\u00f6neweide, Brandenburg, Germany", 
         "alias_GER_Q": [
           "Flughafen Sperenberg"
         ], 
-        "sw_latitude": 52.132
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 12513240
     }

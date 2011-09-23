@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523671, 
-        "name": "Port Stanley Airport", 
         "alias_ENG_V": [
           "Pt Stanley Airport"
         ], 
-        "ne_latitude": -51.696, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Port Stanley Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=24549688", 
+          "woe:country=23424814", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523671, 
         "ne_longitude": -57.842, 
         "longitude": -57.849, 
-        "placetype": "Airport", 
+        "parent_woeid": 24549688, 
+        "ne_latitude": -51.696, 
         "iso": "FK", 
-        "date_indexed": "2010-12-02T16:12:16Z", 
-        "parent_woeid": 379330, 
+        "sw_latitude": -51.706, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -51.701, 
         "sw_longitude": -57.857, 
         "fullname": "Port Stanley Airport, Stanley, East Falkland, Falkland Islands", 
-        "sw_latitude": -51.706
+        "iata_code": "PSY", 
+        "date_indexed": "2010-12-02T16:12:16Z"
       }, 
       "id": 12523671
     }

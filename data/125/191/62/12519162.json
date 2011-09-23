@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519162, 
-        "name": "Cherokee County Airport", 
         "alias_ENG_V": [
           "JSO"
         ], 
-        "ne_latitude": 31.873, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Cherokee County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590043", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519162, 
         "ne_longitude": -95.216, 
         "longitude": -95.219, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590043, 
+        "ne_latitude": 31.873, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:15Z", 
-        "parent_woeid": 2391846, 
+        "sw_latitude": 31.867, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 31.870, 
         "sw_longitude": -95.223, 
-        "fullname": "Cherokee County Airport, Dialville, Texas, Cherokee, United States", 
-        "sw_latitude": 31.867
+        "fullname": "Cherokee County Airport, Dialville, Texas, United States", 
+        "iata_code": "JSO", 
+        "date_indexed": "2010-12-02T18:39:15Z"
       }, 
       "id": 12519162
     }

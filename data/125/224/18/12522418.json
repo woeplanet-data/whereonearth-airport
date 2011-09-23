@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522418, 
+        "placetype": "airport", 
         "name": "Wheelless Airport", 
-        "ne_latitude": 31.231, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12587521", 
+          "woe:state=2347559", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522418, 
         "ne_longitude": -85.484, 
         "longitude": -85.489, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587521, 
+        "ne_latitude": 31.231, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2393127, 
+        "sw_latitude": 31.222, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 31.227, 
         "sw_longitude": -85.494, 
-        "fullname": "Wheelless Airport, Dothan, Alabama, Houston, United States", 
-        "sw_latitude": 31.222
+        "fullname": "Wheelless Airport, Dothan, Alabama, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12522418
     }

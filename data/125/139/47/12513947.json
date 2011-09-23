@@ -32,29 +32,34 @@
       "type": "Feature", 
       "properties": {
         "lang": "JPN", 
-        "woeid": 12513947, 
-        "name": "\u8abf\u5e03\u7a7a\u6e2f", 
         "alias_ENG_V": [
           "Cyofu Air Station"
         ], 
+        "name": "\u8abf\u5e03\u7a7a\u6e2f", 
         "alias_ENG_P": [
           "Chofu Airport"
         ], 
-        "ne_latitude": 35.675, 
+        "parent_woeid": 2345889, 
+        "woeid": 12513947, 
+        "provider": "geoplanet 7.6.0", 
         "alias_JPN_V": [
           "\u8abf\u5e03\u98db\u884c\u5834"
         ], 
-        "ne_longitude": 139.535, 
         "longitude": 139.529, 
-        "parent_woeid": 1107816, 
-        "placetype": "Airport", 
+        "ne_longitude": 139.535, 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2345889", 
+          "woe:country=23424856", 
+          "woe:planet=1"
+        ], 
         "iso": "JP", 
-        "date_indexed": "2010-12-02T08:09:08Z", 
-        "provider": "geoplanet 7.6.0", 
+        "sw_latitude": 35.666, 
+        "ne_latitude": 35.675, 
         "latitude": 35.671, 
         "sw_longitude": 139.524, 
         "fullname": "\u8abf\u5e03\u7a7a\u6e2f, Chofu-shi, Tokyo Prefecture, Japan", 
-        "sw_latitude": 35.666
+        "date_indexed": "2010-12-02T08:09:08Z"
       }, 
       "id": 12513947
     }

@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511987, 
-        "name": "Baotou Airport", 
         "alias_ENG_V": [
           "BAV"
         ], 
-        "ne_latitude": 40.572, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Baotou Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=12686817", 
+          "woe:county=26198284", 
+          "woe:state=12578009", 
+          "woe:country=23424781", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511987, 
         "ne_longitude": 110.004, 
         "longitude": 109.998, 
-        "placetype": "Airport", 
+        "parent_woeid": 12686817, 
+        "ne_latitude": 40.572, 
         "iso": "CN", 
-        "date_indexed": "2010-12-02T08:51:48Z", 
-        "parent_woeid": 2149761, 
+        "sw_latitude": 40.563, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.568, 
         "sw_longitude": 109.992, 
-        "fullname": "Baotou Airport, Donghe, Nei Mongol, Baotou, China", 
-        "sw_latitude": 40.563
+        "fullname": "Baotou Airport, Donghe, Nei Mongol, China", 
+        "iata_code": "BAV", 
+        "date_indexed": "2010-12-02T08:51:48Z"
       }, 
       "id": 12511987
     }

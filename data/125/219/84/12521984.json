@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521984, 
-        "name": "Standing Rock Airport", 
         "alias_ENG_V": [
           "Y27"
         ], 
-        "ne_latitude": 46.072, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Standing Rock Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589516", 
+          "woe:state=2347593", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521984, 
         "ne_longitude": -100.629, 
         "longitude": -100.637, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589516, 
+        "ne_latitude": 46.072, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2406083, 
+        "sw_latitude": 46.062, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.067, 
         "sw_longitude": -100.638, 
-        "fullname": "Standing Rock Airport, Fort Yates, North Dakota, Sioux, United States", 
-        "sw_latitude": 46.062
+        "fullname": "Standing Rock Airport, Fort Yates, North Dakota, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521984
     }

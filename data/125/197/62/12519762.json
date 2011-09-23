@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519762, 
+        "placetype": "airport", 
         "name": "Ford Arabian Ranch Airport", 
-        "ne_latitude": 30.015, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12590022", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519762, 
         "ne_longitude": -98.420, 
         "longitude": -98.425, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590022, 
+        "ne_latitude": 30.015, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2365324, 
+        "sw_latitude": 30.006, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 30.010, 
         "sw_longitude": -98.430, 
-        "fullname": "Ford Arabian Ranch Airport, Blanco, Texas, Blanco, United States", 
-        "sw_latitude": 30.006
+        "fullname": "Ford Arabian Ranch Airport, Blanco, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12519762
     }

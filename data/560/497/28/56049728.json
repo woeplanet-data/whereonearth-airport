@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "CZE", 
-        "woeid": 56049728, 
+        "placetype": "airport", 
         "name": "Letiste Krnov", 
-        "ne_latitude": 50.084, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12607269", 
+          "woe:county=12582570", 
+          "woe:state=20070471", 
+          "woe:country=23424810", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56049728, 
         "ne_longitude": 17.701, 
         "longitude": 17.691, 
-        "placetype": "Airport", 
+        "parent_woeid": 12607269, 
+        "ne_latitude": 50.084, 
         "iso": "CZ", 
-        "date_indexed": "2010-12-02T08:56:52Z", 
-        "parent_woeid": 792136, 
+        "sw_latitude": 50.071, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.078, 
         "sw_longitude": 17.681, 
-        "fullname": "Letiste Krnov, Krnov, Moravskoslezsk\u00fd, Brunt\u00e1l, Czech Republic", 
-        "sw_latitude": 50.071
+        "fullname": "Letiste Krnov, Krnov, Moravskoslezsk\u00fd, Czech Republic", 
+        "date_indexed": "2010-12-02T08:56:52Z"
       }, 
       "id": 56049728
     }

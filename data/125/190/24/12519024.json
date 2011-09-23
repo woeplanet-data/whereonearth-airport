@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519024, 
-        "name": "Cambridge Dorchester Airport", 
         "alias_ENG_V": [
           "CGE Airport"
         ], 
-        "ne_latitude": 38.544, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Cambridge Dorchester Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588685", 
+          "woe:state=2347579", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519024, 
         "ne_longitude": -76.024, 
         "longitude": -76.036, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588685, 
+        "ne_latitude": 38.544, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2428383, 
+        "sw_latitude": 38.533, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.542, 
         "sw_longitude": -76.037, 
-        "fullname": "Cambridge Dorchester Airport, Jacktown, Maryland, Dorchester, United States", 
-        "sw_latitude": 38.533
+        "fullname": "Cambridge Dorchester Airport, Jacktown, Maryland, United States", 
+        "iata_code": "CGE", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519024
     }

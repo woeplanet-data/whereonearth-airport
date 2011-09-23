@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388018, 
-        "name": "Forest Lake Airport", 
         "alias_ENG_V": [
           "25d"
         ], 
-        "ne_latitude": 45.254, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Forest Lake Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588878", 
+          "woe:state=2347582", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388018, 
         "ne_longitude": -92.990, 
         "longitude": -92.997, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588878, 
+        "ne_latitude": 45.254, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2405279, 
+        "sw_latitude": 45.245, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.254, 
         "sw_longitude": -92.999, 
-        "fullname": "Forest Lake Airport, Forest Lake, Minnesota, Washington, United States", 
-        "sw_latitude": 45.245
+        "fullname": "Forest Lake Airport, Forest Lake, Minnesota, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388018
     }

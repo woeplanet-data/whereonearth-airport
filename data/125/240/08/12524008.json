@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524008, 
-        "name": "Westray Airport", 
         "alias_ENG_V": [
           "WRY"
         ], 
-        "ne_latitude": 59.360, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Westray Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=12696205", 
+          "woe:county=12602205", 
+          "woe:state=12578048", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524008, 
         "ne_longitude": -2.951, 
         "longitude": -2.960, 
-        "placetype": "Airport", 
+        "parent_woeid": 12696205, 
+        "ne_latitude": 59.360, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:21:01Z", 
-        "parent_woeid": 10461, 
+        "sw_latitude": 59.351, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 59.355, 
         "sw_longitude": -2.969, 
-        "fullname": "Westray Airport, Aikerness, Scotland, Orkney, United Kingdom", 
-        "sw_latitude": 59.351
+        "fullname": "Westray Airport, Aikerness, Scotland, United Kingdom", 
+        "iata_code": "WRY", 
+        "date_indexed": "2010-12-02T12:21:01Z"
       }, 
       "id": 12524008
     }

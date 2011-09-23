@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388455, 
+        "placetype": "airport", 
         "name": "Milton Airfield", 
-        "ne_latitude": 41.005, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12589776", 
+          "woe:state=2347597", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388455, 
         "ne_longitude": -76.852, 
         "longitude": -76.856, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589776, 
+        "ne_latitude": 41.005, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2451794, 
+        "sw_latitude": 40.999, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.002, 
         "sw_longitude": -76.859, 
-        "fullname": "Milton Airfield, Milton, Pennsylvania, Northumberland, United States", 
-        "sw_latitude": 40.999
+        "fullname": "Milton Airfield, Milton, Pennsylvania, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 29388455
     }

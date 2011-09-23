@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520743, 
-        "name": "Macon Municipal Airport", 
         "alias_ENG_V": [
           "20m"
         ], 
-        "ne_latitude": 33.139, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Macon Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588935", 
+          "woe:state=2347583", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520743, 
         "ne_longitude": -88.535, 
         "longitude": -88.538, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588935, 
+        "ne_latitude": 33.139, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2443843, 
+        "sw_latitude": 33.126, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 33.131, 
         "sw_longitude": -88.540, 
-        "fullname": "Macon Municipal Airport, Macon, Mississippi, Noxubee, United States", 
-        "sw_latitude": 33.126
+        "fullname": "Macon Municipal Airport, Macon, Mississippi, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520743
     }

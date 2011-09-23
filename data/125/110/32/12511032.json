@@ -32,29 +32,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511032, 
-        "name": "Aeroporto Arapoti", 
-        "alias_ENG_P": [
-          "Arapoti Airport"
-        ], 
-        "ne_latitude": -24.099, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "AAG"
         ], 
+        "name": "Aeroporto Arapoti", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Arapoti Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12580419", 
+          "woe:state=2344859", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511032, 
         "ne_longitude": -49.785, 
         "longitude": -49.790, 
-        "placetype": "Airport", 
+        "parent_woeid": 12580419, 
+        "ne_latitude": -24.099, 
         "alias_POR_V": [
           "Aeroporto AAG"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 458492, 
+        "sw_latitude": -24.108, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -24.104, 
         "sw_longitude": -49.795, 
-        "fullname": "Aeroporto Arapoti, Arapoti, Parana, Arapoti, Brazil", 
-        "sw_latitude": -24.108
+        "fullname": "Aeroporto Arapoti, Arapoti, Parana, Brazil", 
+        "iata_code": "AAG", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511032
     }

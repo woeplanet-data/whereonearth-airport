@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524488, 
-        "name": "Lopez de Micay Airport", 
         "alias_ENG_V": [
           "LMX"
         ], 
-        "ne_latitude": 3.046, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Lopez de Micay Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26796977", 
+          "woe:state=2345055", 
+          "woe:country=23424787", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524488, 
         "ne_longitude": -77.540, 
         "longitude": -77.544, 
-        "placetype": "Airport", 
+        "parent_woeid": 26796977, 
+        "ne_latitude": 3.046, 
         "iso": "CO", 
-        "date_indexed": "2010-12-02T17:57:37Z", 
-        "parent_woeid": 356174, 
+        "sw_latitude": 3.037, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 3.041, 
         "sw_longitude": -77.549, 
         "fullname": "Lopez de Micay Airport, Cauca, Lopez, Colombia", 
-        "sw_latitude": 3.037
+        "date_indexed": "2010-12-02T17:57:37Z"
       }, 
       "id": 12524488
     }

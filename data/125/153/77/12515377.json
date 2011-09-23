@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515377, 
+        "placetype": "airport", 
         "name": "Powidz Airport", 
-        "ne_latitude": 52.395, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12617012", 
+          "woe:county=12591479", 
+          "woe:state=12577949", 
+          "woe:country=23424923", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515377, 
         "ne_longitude": 17.863, 
         "longitude": 17.855, 
-        "placetype": "Airport", 
+        "parent_woeid": 12617012, 
+        "ne_latitude": 52.395, 
         "iso": "PL", 
-        "date_indexed": "2010-12-02T12:12:45Z", 
-        "parent_woeid": 24934649, 
+        "sw_latitude": 52.386, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 52.390, 
         "sw_longitude": 17.848, 
         "fullname": "Powidz Airport, Greater Poland, Slupca County, Poland", 
-        "sw_latitude": 52.386
+        "date_indexed": "2010-12-02T12:12:45Z"
       }, 
       "id": 12515377
     }

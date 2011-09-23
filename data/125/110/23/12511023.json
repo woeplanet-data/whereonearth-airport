@@ -32,29 +32,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511023, 
-        "name": "Aeroporto Anapolis", 
-        "alias_ENG_P": [
-          "Anapolis Airport"
-        ], 
-        "ne_latitude": -16.357, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "APS"
         ], 
+        "name": "Aeroporto Anapolis", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Anapolis Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12578903", 
+          "woe:state=2344852", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511023, 
         "ne_longitude": -48.923, 
         "longitude": -48.928, 
-        "placetype": "Airport", 
+        "parent_woeid": 12578903, 
+        "ne_latitude": -16.357, 
         "alias_POR_V": [
           "Aeroporto APS"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 455838, 
+        "sw_latitude": -16.366, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -16.362, 
         "sw_longitude": -48.932, 
-        "fullname": "Aeroporto Anapolis, Anapolis, Goias, An\u00e1polis, Brazil", 
-        "sw_latitude": -16.366
+        "fullname": "Aeroporto Anapolis, Anapolis, Goias, Brazil", 
+        "iata_code": "APS", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511023
     }

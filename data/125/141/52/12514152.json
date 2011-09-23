@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514152, 
+        "placetype": "airport", 
         "name": "Kyongsong Airport", 
-        "ne_latitude": 41.556, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345958", 
+          "woe:country=23424865", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514152, 
         "ne_longitude": 129.641, 
         "longitude": 129.635, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345958, 
+        "ne_latitude": 41.556, 
         "iso": "KP", 
-        "date_indexed": "2010-12-02T10:22:43Z", 
-        "parent_woeid": 1093905, 
+        "sw_latitude": 41.547, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.551, 
         "sw_longitude": 129.629, 
         "fullname": "Kyongsong Airport, Kyongsong, Hamgyong-bukto, North Korea", 
-        "sw_latitude": 41.547
+        "date_indexed": "2010-12-02T10:22:43Z"
       }, 
       "id": 12514152
     }

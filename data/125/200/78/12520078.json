@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520078, 
-        "name": "Hannibal Municipal Airport", 
         "alias_ENG_V": [
           "HAE"
         ], 
-        "ne_latitude": 39.730, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Hannibal Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589028", 
+          "woe:state=2347584", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520078, 
         "ne_longitude": -91.439, 
         "longitude": -91.448, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589028, 
+        "ne_latitude": 39.730, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2417091, 
+        "sw_latitude": 39.718, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 39.726, 
         "sw_longitude": -91.448, 
-        "fullname": "Hannibal Municipal Airport, Hannibal, Missouri, Marion, United States", 
-        "sw_latitude": 39.718
+        "fullname": "Hannibal Municipal Airport, Hannibal, Missouri, United States", 
+        "iata_code": "HAE", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520078
     }

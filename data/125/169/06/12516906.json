@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516906, 
+        "placetype": "airport", 
         "name": "Sotnur Airport", 
-        "ne_latitude": 56.156, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597480", 
+          "woe:state=2346875", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516906, 
         "ne_longitude": 48.787, 
         "longitude": 48.779, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597480, 
+        "ne_latitude": 56.156, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2087694, 
+        "sw_latitude": 56.147, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 56.151, 
         "sw_longitude": 48.771, 
         "fullname": "Sotnur Airport, Mariy-El, Volzhsky, Russia", 
-        "sw_latitude": 56.147
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516906
     }

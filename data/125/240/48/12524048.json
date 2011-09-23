@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524048, 
-        "name": "Pikwitonei Airport", 
         "alias_ENG_V": [
           "PIW Airport"
         ], 
-        "ne_latitude": 55.588, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Pikwitonei Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375231", 
+          "woe:state=2344917", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524048, 
         "ne_longitude": -97.142, 
         "longitude": -97.150, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375231, 
+        "ne_latitude": 55.588, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 2012, 
+        "sw_latitude": 55.579, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 55.583, 
         "sw_longitude": -97.158, 
-        "fullname": "Pikwitonei Airport, Pikwitonei, Manitoba, Manitoba, Canada", 
-        "sw_latitude": 55.579
+        "fullname": "Pikwitonei Airport, Pikwitonei, Manitoba, Canada", 
+        "iata_code": "PIW", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12524048
     }

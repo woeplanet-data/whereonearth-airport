@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521256, 
-        "name": "Otis Air National Guard Base", 
         "alias_ENG_V": [
           "FMH"
         ], 
-        "ne_latitude": 41.663, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Otis Air National Guard Base", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588700", 
+          "woe:state=2347580", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521256, 
         "ne_longitude": -70.516, 
         "longitude": -70.522, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588700, 
+        "ne_latitude": 41.663, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2488541, 
+        "sw_latitude": 41.654, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.658, 
         "sw_longitude": -70.528, 
-        "fullname": "Otis Air National Guard Base, Sandwich, Massachusetts, Barnstable, United States", 
-        "sw_latitude": 41.654
+        "fullname": "Otis Air National Guard Base, Sandwich, Massachusetts, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521256
     }

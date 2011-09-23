@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516401, 
+        "placetype": "airport", 
         "name": "Mari Sola Airport", 
-        "ne_latitude": 57.079, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597477", 
+          "woe:state=2346875", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516401, 
         "ne_longitude": 49.105, 
         "longitude": 49.097, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597477, 
+        "ne_latitude": 57.079, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2043208, 
+        "sw_latitude": 57.069, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 57.074, 
         "sw_longitude": 49.089, 
         "fullname": "Mari Sola Airport, Mariy-El, Sernursky, Russia", 
-        "sw_latitude": 57.069
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516401
     }

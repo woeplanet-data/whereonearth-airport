@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29387815, 
-        "name": "Mulino Airfield", 
         "alias_ENG_V": [
           "4s9"
         ], 
-        "ne_latitude": 45.222, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Mulino Airfield", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589694", 
+          "woe:state=2347596", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29387815, 
         "ne_longitude": -122.585, 
         "longitude": -122.589, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589694, 
+        "ne_latitude": 45.222, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2456240, 
+        "sw_latitude": 45.211, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.220, 
         "sw_longitude": -122.593, 
-        "fullname": "Mulino Airfield, Mulino, Oregon, Clackamas, United States", 
-        "sw_latitude": 45.211
+        "fullname": "Mulino Airfield, Mulino, Oregon, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 29387815
     }

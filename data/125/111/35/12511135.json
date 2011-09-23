@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511135, 
+        "placetype": "airport", 
         "name": "Aeroporto Fazenda Itaiquara", 
         "alias_ENG_P": [
           "Fazenda Itaiquara Airport"
         ], 
-        "ne_latitude": -21.459, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12582347", 
+          "woe:state=2344868", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511135, 
         "ne_longitude": -46.773, 
         "longitude": -46.778, 
-        "placetype": "Airport", 
+        "parent_woeid": 12582347, 
+        "ne_latitude": -21.459, 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 456558, 
+        "sw_latitude": -21.468, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -21.463, 
         "sw_longitude": -46.782, 
-        "fullname": "Aeroporto Fazenda Itaiquara, Tapiratiba, Sao Paulo, Tapiratiba, Brazil", 
-        "sw_latitude": -21.468
+        "fullname": "Aeroporto Fazenda Itaiquara, Tapiratiba, Sao Paulo, Brazil", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511135
     }

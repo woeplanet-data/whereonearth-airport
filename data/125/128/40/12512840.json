@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512840, 
+        "placetype": "airport", 
         "name": "Aix les Milles Airport", 
-        "ne_latitude": 43.513, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12654994", 
+          "woe:county=12597199", 
+          "woe:state=7153328", 
+          "woe:country=23424819", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512840, 
         "ne_longitude": 5.374, 
         "longitude": 5.366, 
-        "placetype": "Airport", 
+        "parent_woeid": 12654994, 
+        "ne_latitude": 43.513, 
         "iso": "FR", 
-        "date_indexed": "2010-12-02T12:04:01Z", 
-        "parent_woeid": 606898, 
+        "sw_latitude": 43.499, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.506, 
         "sw_longitude": 5.357, 
-        "fullname": "Aix les Milles Airport, Les Milles, Provence-Alpes-Cote d'Azur, Bouches-du-Rhone, France", 
-        "sw_latitude": 43.499, 
+        "fullname": "Aix les Milles Airport, Les Milles, Provence-Alpes-Cote d'Azur, France", 
+        "date_indexed": "2010-12-02T12:04:01Z", 
         "alias_FRE_Q": [
           "Aerodrome d'Aix-les-Milles"
         ]

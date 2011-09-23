@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518569, 
-        "name": "Alexander Salamon Airport", 
         "alias_ENG_V": [
           "AMT"
         ], 
-        "ne_latitude": 38.856, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Alexander Salamon Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589527", 
+          "woe:state=2347594", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518569, 
         "ne_longitude": -83.561, 
         "longitude": -83.564, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589527, 
+        "ne_latitude": 38.856, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2518854, 
+        "sw_latitude": 38.847, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.855, 
         "sw_longitude": -83.572, 
-        "fullname": "Alexander Salamon Airport, Wheat Ridge, Ohio, Adams, United States", 
-        "sw_latitude": 38.847
+        "fullname": "Alexander Salamon Airport, Wheat Ridge, Ohio, United States", 
+        "iata_code": "AMT", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518569
     }

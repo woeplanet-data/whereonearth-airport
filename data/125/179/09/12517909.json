@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517909, 
-        "name": "Mus Airport", 
         "alias_ENG_V": [
           "MSR"
         ], 
-        "ne_latitude": 38.752, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Mus Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29390607", 
+          "woe:state=2347302", 
+          "woe:country=23424969", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517909, 
         "ne_longitude": 41.665, 
         "longitude": 41.659, 
-        "placetype": "Airport", 
+        "parent_woeid": 29390607, 
+        "ne_latitude": 38.752, 
         "iso": "TR", 
-        "date_indexed": "2010-12-02T16:23:11Z", 
-        "parent_woeid": 2338004, 
+        "sw_latitude": 38.743, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.747, 
         "sw_longitude": 41.653, 
         "fullname": "Mus Airport, Mu\u015f, Merkez, Turkey", 
-        "sw_latitude": 38.743
+        "iata_code": "MSR", 
+        "date_indexed": "2010-12-02T16:23:11Z"
       }, 
       "id": 12517909
     }

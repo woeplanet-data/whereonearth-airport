@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512531, 
+        "placetype": "airport", 
         "name": "Karle Airport", 
-        "ne_latitude": 49.780, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12609874", 
+          "woe:county=12582601", 
+          "woe:state=20070465", 
+          "woe:country=23424810", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512531, 
         "ne_longitude": 16.356, 
         "longitude": 16.349, 
-        "placetype": "Airport", 
+        "parent_woeid": 12609874, 
+        "ne_latitude": 49.780, 
         "iso": "CZ", 
-        "date_indexed": "2010-12-02T08:56:52Z", 
-        "parent_woeid": 799920, 
+        "sw_latitude": 49.771, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.775, 
         "sw_longitude": 16.342, 
-        "fullname": "Karle Airport, Trst\u011bnice, Pardubick\u00fd, Svitavy, Czech Republic", 
-        "sw_latitude": 49.771
+        "fullname": "Karle Airport, Trst\u011bnice, Pardubick\u00fd, Czech Republic", 
+        "date_indexed": "2010-12-02T08:56:52Z"
       }, 
       "id": 12512531
     }

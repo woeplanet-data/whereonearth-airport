@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 56052244, 
+        "placetype": "airport", 
         "name": "Mandeville Airstrip", 
-        "ne_latitude": -45.989, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55875855", 
+          "woe:state=15021750", 
+          "woe:country=23424916", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56052244, 
         "ne_longitude": 168.821, 
         "longitude": 168.815, 
-        "placetype": "Airport", 
+        "parent_woeid": 55875855, 
+        "ne_latitude": -45.989, 
         "iso": "NZ", 
-        "date_indexed": "2010-12-02T17:02:39Z", 
-        "parent_woeid": 2349333, 
+        "sw_latitude": -45.995, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -45.992, 
         "sw_longitude": 168.810, 
-        "fullname": "Mandeville Airstrip, Gore, Southland, Gore District, New Zealand", 
-        "sw_latitude": -45.995
+        "fullname": "Mandeville Airstrip, Gore, Southland, New Zealand", 
+        "date_indexed": "2010-12-02T17:02:39Z"
       }, 
       "id": 56052244
     }

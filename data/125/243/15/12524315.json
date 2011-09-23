@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524315, 
-        "name": "Guanacaste Airport", 
         "alias_ENG_V": [
           "NCT"
         ], 
-        "ne_latitude": 10.172, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Guanacaste Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=26809072", 
+          "woe:county=26808830", 
+          "woe:state=2345084", 
+          "woe:country=23424791", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524315, 
         "ne_longitude": -85.463, 
         "longitude": -85.468, 
-        "placetype": "Airport", 
+        "parent_woeid": 26809072, 
+        "ne_latitude": 10.172, 
         "iso": "CR", 
-        "date_indexed": "2010-12-02T12:16:27Z", 
-        "parent_woeid": 59288, 
+        "sw_latitude": 10.163, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 10.168, 
         "sw_longitude": -85.472, 
         "fullname": "Guanacaste Airport, Guanacaste, Nicoya, Costa Rica", 
-        "sw_latitude": 10.163
+        "date_indexed": "2010-12-02T12:16:27Z"
       }, 
       "id": 12524315
     }

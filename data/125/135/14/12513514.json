@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513514, 
-        "name": "Syamsuddin Noor Airport", 
         "alias_ENG_V": [
           "BDJ Airport"
         ], 
-        "ne_latitude": -3.431, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Syamsuddin Noor Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=56000105", 
+          "woe:state=2345721", 
+          "woe:country=23424846", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513514, 
         "ne_longitude": 114.769, 
         "longitude": 114.757, 
-        "placetype": "Airport", 
+        "parent_woeid": 56000105, 
+        "ne_latitude": -3.431, 
         "iso": "ID", 
-        "date_indexed": "2010-12-02T16:54:32Z", 
-        "parent_woeid": 1029630, 
+        "sw_latitude": -3.454, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -3.442, 
         "sw_longitude": 114.746, 
         "fullname": "Syamsuddin Noor Airport, South Kalimantan, Banjar, Indonesia", 
-        "sw_latitude": -3.454
+        "iata_code": "BDJ", 
+        "date_indexed": "2010-12-02T16:54:32Z"
       }, 
       "id": 12513514
     }

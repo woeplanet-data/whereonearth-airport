@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519403, 
-        "name": "Dallas North Airport", 
         "alias_ENG_V": [
           "Dallas North"
         ], 
-        "ne_latitude": 33.083, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Dallas North Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590049", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519403, 
         "ne_longitude": -96.733, 
         "longitude": -96.738, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590049, 
+        "ne_latitude": 33.083, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:15Z", 
-        "parent_woeid": 2353276, 
+        "sw_latitude": 33.074, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 33.079, 
         "sw_longitude": -96.744, 
-        "fullname": "Dallas North Airport, Allen, Texas, Collin, United States", 
-        "sw_latitude": 33.074
+        "fullname": "Dallas North Airport, Allen, Texas, United States", 
+        "iata_code": "DNE", 
+        "date_indexed": "2010-12-02T18:39:15Z"
       }, 
       "id": 12519403
     }

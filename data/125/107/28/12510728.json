@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510728, 
-        "name": "Mareeba Aerodrome", 
         "alias_ENG_V": [
           "Mareeba Airport"
         ], 
-        "ne_latitude": -17.066, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Mareeba Aerodrome", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=56072998", 
+          "woe:state=2344702", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510728, 
         "ne_longitude": 145.434, 
         "longitude": 145.432, 
-        "placetype": "Airport", 
+        "parent_woeid": 56072998, 
+        "ne_latitude": -17.066, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1103693, 
+        "sw_latitude": -17.075, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -17.070, 
         "sw_longitude": 145.415, 
-        "fullname": "Mareeba Aerodrome, Mareeba, Queensland, Mareeba, Australia", 
-        "sw_latitude": -17.075
+        "fullname": "Mareeba Aerodrome, Mareeba, Queensland, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 12510728
     }

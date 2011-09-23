@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520748, 
-        "name": "Madison County Airport", 
         "alias_ENG_V": [
           "UYF"
         ], 
-        "ne_latitude": 39.935, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Madison County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589575", 
+          "woe:state=2347594", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520748, 
         "ne_longitude": -83.454, 
         "longitude": -83.464, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589575, 
+        "ne_latitude": 39.935, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2441292, 
+        "sw_latitude": 39.932, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 39.935, 
         "sw_longitude": -83.470, 
-        "fullname": "Madison County Airport, London, Ohio, Madison, United States", 
-        "sw_latitude": 39.932
+        "fullname": "Madison County Airport, London, Ohio, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520748
     }

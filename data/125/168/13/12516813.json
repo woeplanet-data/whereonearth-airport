@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516813, 
+        "placetype": "airport", 
         "name": "Saltymakovo Airport", 
-        "ne_latitude": 54.844, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598441", 
+          "woe:state=2346901", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516813, 
         "ne_longitude": 87.052, 
         "longitude": 87.044, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598441, 
+        "ne_latitude": 54.844, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2029178, 
+        "sw_latitude": 54.835, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 54.840, 
         "sw_longitude": 87.036, 
         "fullname": "Saltymakovo Airport, Kemerovskaya Oblast, Krapivinsky, Russia", 
-        "sw_latitude": 54.835
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516813
     }

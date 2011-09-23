@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511850, 
+        "placetype": "airport", 
         "name": "St Paul Airport", 
-        "ne_latitude": 53.998, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=29375228", 
+          "woe:state=2344915", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511850, 
         "ne_longitude": -111.372, 
         "longitude": -111.379, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375228, 
+        "ne_latitude": 53.998, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 29372984, 
+        "sw_latitude": 53.989, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.993, 
         "sw_longitude": -111.387, 
-        "fullname": "St Paul Airport, St Paul County No 19, Alberta, Alberta, Canada", 
-        "sw_latitude": 53.989
+        "fullname": "St Paul Airport, St Paul County No 19, Alberta, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12511850
     }

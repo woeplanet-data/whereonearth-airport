@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511867, 
+        "placetype": "airport", 
         "name": "Tatamagouche Airport", 
-        "ne_latitude": 45.739, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=29375102", 
+          "woe:state=2344921", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511867, 
         "ne_longitude": -63.320, 
         "longitude": -63.327, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375102, 
+        "ne_latitude": 45.739, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 3802, 
+        "sw_latitude": 45.730, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.735, 
         "sw_longitude": -63.333, 
-        "fullname": "Tatamagouche Airport, Tatamagouche, Nova Scotia, Colchester, Canada", 
-        "sw_latitude": 45.730
+        "fullname": "Tatamagouche Airport, Tatamagouche, Nova Scotia, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12511867
     }

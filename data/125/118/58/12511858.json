@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511858, 
-        "name": "Stratford Municipal Airport", 
         "alias_ENG_V": [
           "YFD"
         ], 
-        "ne_latitude": 43.421, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Stratford Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375152", 
+          "woe:state=2344922", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511858, 
         "ne_longitude": -80.929, 
         "longitude": -80.941, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375152, 
+        "ne_latitude": 43.421, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:24:00Z", 
-        "parent_woeid": 29374577, 
+        "sw_latitude": 43.407, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.408, 
         "sw_longitude": -80.944, 
-        "fullname": "Stratford Municipal Airport, Perth East, Ontario, Perth, Canada", 
-        "sw_latitude": 43.407
+        "fullname": "Stratford Municipal Airport, Perth East, Ontario, Canada", 
+        "date_indexed": "2010-12-02T10:24:00Z"
       }, 
       "id": 12511858
     }

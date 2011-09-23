@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514465, 
+        "placetype": "airport", 
         "name": "Shcherbakovskiy Airport", 
-        "ne_latitude": 50.463, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345980", 
+          "woe:country=23424871", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514465, 
         "ne_longitude": 60.362, 
         "longitude": 60.355, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345980, 
+        "ne_latitude": 50.463, 
         "iso": "KZ", 
-        "date_indexed": "2010-12-02T08:54:13Z", 
-        "parent_woeid": 2259013, 
+        "sw_latitude": 50.454, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.458, 
         "sw_longitude": 60.348, 
         "fullname": "Shcherbakovskiy Airport, Aqtobe, Kazakhstan", 
-        "sw_latitude": 50.454
+        "date_indexed": "2010-12-02T08:54:13Z"
       }, 
       "id": 12514465
     }

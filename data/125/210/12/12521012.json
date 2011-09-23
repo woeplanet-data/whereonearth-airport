@@ -3,28 +3,54 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -107.908, 
-              38.489
-            ], 
-            [
-              -107.908, 
-              38.540
-            ], 
-            [
-              -107.885, 
-              38.540
-            ], 
-            [
-              -107.885, 
-              38.489
-            ], 
-            [
-              -107.908, 
-              38.489
+              [
+                -107.900, 
+                38.500
+              ], 
+              [
+                -107.902, 
+                38.501
+              ], 
+              [
+                -107.904, 
+                38.502
+              ], 
+              [
+                -107.905, 
+                38.503
+              ], 
+              [
+                -107.901, 
+                38.502
+              ], 
+              [
+                -107.896, 
+                38.501
+              ], 
+              [
+                -107.895, 
+                38.498
+              ], 
+              [
+                -107.894, 
+                38.494
+              ], 
+              [
+                -107.898, 
+                38.497
+              ], 
+              [
+                -107.899, 
+                38.499
+              ], 
+              [
+                -107.900, 
+                38.500
+              ]
             ]
           ]
         ]
@@ -32,23 +58,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521012, 
-        "name": "Montrose Regional Airport", 
         "alias_ENG_V": [
           "MTJ"
         ], 
-        "ne_latitude": 38.540, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -107.885, 
-        "longitude": -107.899, 
-        "placetype": "Airport", 
+        "name": "Montrose Regional Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587770", 
+          "woe:state=2347564", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521012, 
+        "ne_longitude": -107.894, 
+        "longitude": -107.898, 
+        "parent_woeid": 12587770, 
+        "ne_latitude": 38.503, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2453565, 
-        "latitude": 38.500, 
-        "sw_longitude": -107.908, 
-        "fullname": "Montrose Regional Airport, Montrose, Colorado, Montrose, United States", 
-        "sw_latitude": 38.489
+        "sw_latitude": 38.494, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 38.499, 
+        "sw_longitude": -107.905, 
+        "fullname": "Montrose Regional Airport, Montrose, Colorado, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12521012
     }

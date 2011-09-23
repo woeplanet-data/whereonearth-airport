@@ -3,28 +3,50 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -122.053, 
-              37.411
-            ], 
-            [
-              -122.053, 
-              37.420
-            ], 
-            [
-              -122.041, 
-              37.420
-            ], 
-            [
-              -122.041, 
-              37.411
-            ], 
-            [
-              -122.053, 
-              37.411
+              [
+                -122.051, 
+                37.409
+              ], 
+              [
+                -122.050, 
+                37.404
+              ], 
+              [
+                -122.052, 
+                37.409
+              ], 
+              [
+                -122.054, 
+                37.411
+              ], 
+              [
+                -122.058, 
+                37.414
+              ], 
+              [
+                -122.057, 
+                37.416
+              ], 
+              [
+                -122.057, 
+                37.417
+              ], 
+              [
+                -122.053, 
+                37.414
+              ], 
+              [
+                -122.049, 
+                37.411
+              ], 
+              [
+                -122.051, 
+                37.409
+              ]
             ]
           ]
         ]
@@ -32,23 +54,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520980, 
-        "name": "Moffett Federal Airfield", 
         "alias_ENG_V": [
           "Moffett Field"
         ], 
-        "ne_latitude": 37.420, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -122.041, 
-        "longitude": -122.047, 
-        "placetype": "Airport", 
+        "name": "Moffett Federal Airfield", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587712", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520980, 
+        "ne_longitude": -122.049, 
+        "longitude": -122.053, 
+        "parent_woeid": 12587712, 
+        "ne_latitude": 37.417, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2455920, 
-        "latitude": 37.415, 
-        "sw_longitude": -122.053, 
-        "fullname": "Moffett Federal Airfield, Mountain View, California, Santa Clara, United States", 
-        "sw_latitude": 37.411
+        "sw_latitude": 37.404, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 37.412, 
+        "sw_longitude": -122.058, 
+        "fullname": "Moffett Federal Airfield, Mountain View, California, United States", 
+        "iata_code": "NUQ", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12520980
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513658, 
-        "name": "Raipur Airport", 
         "alias_ENG_V": [
           "RPR"
         ], 
-        "ne_latitude": 21.172, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Raipur Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12586506", 
+          "woe:state=20070464", 
+          "woe:country=23424848", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513658, 
         "ne_longitude": 81.752, 
         "longitude": 81.747, 
-        "placetype": "Airport", 
+        "parent_woeid": 12586506, 
+        "ne_latitude": 21.172, 
         "iso": "IN", 
-        "date_indexed": "2010-12-02T09:26:27Z", 
-        "parent_woeid": 29179143, 
+        "sw_latitude": 21.163, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 21.167, 
         "sw_longitude": 81.742, 
-        "fullname": "Raipur Airport, Tuta, Chhattisgarh, Raipur, India", 
-        "sw_latitude": 21.163
+        "fullname": "Raipur Airport, Tuta, Chhattisgarh, India", 
+        "iata_code": "RPR", 
+        "date_indexed": "2010-12-02T09:26:27Z"
       }, 
       "id": 12513658
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516823, 
+        "placetype": "airport", 
         "name": "Saratovskiy Airport", 
-        "ne_latitude": 45.214, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597821", 
+          "woe:state=2346884", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516823, 
         "ne_longitude": 39.960, 
         "longitude": 39.954, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597821, 
+        "ne_latitude": 45.214, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 1993265, 
+        "sw_latitude": 45.205, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.210, 
         "sw_longitude": 39.947, 
         "fullname": "Saratovskiy Airport, Krasnodarskiy Kray, Ust-Labinsky, Russia", 
-        "sw_latitude": 45.205
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516823
     }

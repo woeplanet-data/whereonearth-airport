@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515020, 
+        "placetype": "airport", 
         "name": "Lumbo Airport", 
-        "ne_latitude": -15.021, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2346316", 
+          "woe:country=23424902", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515020, 
         "ne_longitude": 40.676, 
         "longitude": 40.671, 
-        "placetype": "Airport", 
+        "parent_woeid": 2346316, 
+        "ne_latitude": -15.021, 
         "iso": "MZ", 
-        "date_indexed": "2010-12-02T07:50:33Z", 
-        "parent_woeid": 1548985, 
+        "sw_latitude": -15.030, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -15.026, 
         "sw_longitude": 40.667, 
         "fullname": "Lumbo Airport, Lumbo, Nampula, Mozambique", 
-        "sw_latitude": -15.030
+        "date_indexed": "2010-12-02T07:50:33Z"
       }, 
       "id": 12515020
     }

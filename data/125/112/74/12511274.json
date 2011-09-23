@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511274, 
+        "placetype": "airport", 
         "name": "Aeroporto Pires do Rio", 
         "alias_ENG_P": [
           "Pires do Rio Airport"
         ], 
-        "ne_latitude": -17.314, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12579053", 
+          "woe:state=2344852", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511274, 
         "ne_longitude": -48.329, 
         "longitude": -48.334, 
-        "placetype": "Airport", 
+        "parent_woeid": 12579053, 
+        "ne_latitude": -17.314, 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 457826, 
+        "sw_latitude": -17.323, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -17.319, 
         "sw_longitude": -48.339, 
-        "fullname": "Aeroporto Pires do Rio, Pires do Rio, Goias, Pires do Rio, Brazil", 
-        "sw_latitude": -17.323
+        "fullname": "Aeroporto Pires do Rio, Pires do Rio, Goias, Brazil", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511274
     }

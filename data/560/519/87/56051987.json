@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 56051987, 
+        "placetype": "airport", 
         "name": "Segelflugplatz Peissenberg", 
-        "ne_latitude": 47.832, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12634704", 
+          "woe:county=12596765", 
+          "woe:state=2345482", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56051987, 
         "ne_longitude": 11.067, 
         "longitude": 11.065, 
-        "placetype": "Airport", 
+        "parent_woeid": 12634704, 
+        "ne_latitude": 47.832, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 684449, 
+        "sw_latitude": 47.829, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.830, 
         "sw_longitude": 11.064, 
-        "fullname": "Segelflugplatz Peissenberg, Pei\u00dfenberg, Bavaria, Weilheim-Schongau, Germany", 
-        "sw_latitude": 47.829
+        "fullname": "Segelflugplatz Peissenberg, Pei\u00dfenberg, Bavaria, Germany", 
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 56051987
     }

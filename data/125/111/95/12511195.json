@@ -32,29 +32,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511195, 
-        "name": "Aeroporto Jequie", 
-        "alias_ENG_P": [
-          "Jequie Airport"
-        ], 
-        "ne_latitude": -13.872, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "JEQ"
         ], 
+        "name": "Aeroporto Jequie", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Jequie Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12578442", 
+          "woe:state=2344848", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511195, 
         "ne_longitude": -40.067, 
         "longitude": -40.071, 
-        "placetype": "Airport", 
+        "parent_woeid": 12578442, 
+        "ne_latitude": -13.872, 
         "alias_POR_V": [
           "Aeroporto JEQ"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 455966, 
+        "sw_latitude": -13.881, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -13.877, 
         "sw_longitude": -40.076, 
-        "fullname": "Aeroporto Jequie, Jequi\u00e9, Bahia, Jequi\u00e9, Brazil", 
-        "sw_latitude": -13.881
+        "fullname": "Aeroporto Jequie, Jequi\u00e9, Bahia, Brazil", 
+        "iata_code": "JEQ", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511195
     }

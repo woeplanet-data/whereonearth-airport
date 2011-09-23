@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516463, 
+        "placetype": "airport", 
         "name": "Mys Chelyuskin Airport", 
-        "ne_latitude": 77.724, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597859", 
+          "woe:state=20070524", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516463, 
         "ne_longitude": 104.265, 
         "longitude": 104.244, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597859, 
+        "ne_latitude": 77.724, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2117811, 
+        "sw_latitude": 77.715, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 77.720, 
         "sw_longitude": 104.223, 
         "fullname": "Mys Chelyuskin Airport, Krasnoyarskiy Kray, Diksonsky, Russia", 
-        "sw_latitude": 77.715
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516463
     }

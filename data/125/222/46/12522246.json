@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522246, 
-        "name": "Union County Airport-Troy Shelton Field", 
         "alias_ENG_V": [
           "Union County Airport"
         ], 
-        "ne_latitude": 34.690, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Union County Airport-Troy Shelton Field", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589843", 
+          "woe:state=2347599", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522246, 
         "ne_longitude": -81.637, 
         "longitude": -81.641, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589843, 
+        "ne_latitude": 34.690, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2509732, 
+        "sw_latitude": 34.683, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 34.684, 
         "sw_longitude": -81.646, 
-        "fullname": "Union County Airport-Troy Shelton Field, Union, South Carolina, Union, United States", 
-        "sw_latitude": 34.683
+        "fullname": "Union County Airport-Troy Shelton Field, Union, South Carolina, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522246
     }

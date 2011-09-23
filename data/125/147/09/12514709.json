@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514709, 
-        "name": "Tolagnaro Airport", 
         "alias_ENG_V": [
           "FTU"
         ], 
-        "ne_latitude": -25.034, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Tolagnaro Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=23706580", 
+          "woe:state=2346151", 
+          "woe:country=23424883", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514709, 
         "ne_longitude": 46.961, 
         "longitude": 46.956, 
-        "placetype": "Airport", 
+        "parent_woeid": 23706580, 
+        "ne_latitude": -25.034, 
         "iso": "MG", 
-        "date_indexed": "2010-12-02T16:43:54Z", 
-        "parent_woeid": 1364699, 
+        "sw_latitude": -25.043, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -25.038, 
         "sw_longitude": 46.951, 
-        "fullname": "Tolagnaro Airport, Faradofay, Toliara, Tolagnaro, Madagascar", 
-        "sw_latitude": -25.043
+        "fullname": "Tolagnaro Airport, Faradofay, Toliara, Madagascar", 
+        "date_indexed": "2010-12-02T16:43:54Z"
       }, 
       "id": 12514709
     }

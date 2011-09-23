@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519140, 
+        "placetype": "airport", 
         "name": "Charles R Johnson Airport", 
-        "ne_latitude": 26.567, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12590251", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519140, 
         "ne_longitude": -97.432, 
         "longitude": -97.438, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590251, 
+        "ne_latitude": 26.567, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:15Z", 
-        "parent_woeid": 2475430, 
+        "sw_latitude": 26.558, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 26.562, 
         "sw_longitude": -97.443, 
-        "fullname": "Charles R Johnson Airport, Port Mansfield, Texas, Willacy, United States", 
-        "sw_latitude": 26.558
+        "fullname": "Charles R Johnson Airport, Port Mansfield, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:15Z"
       }, 
       "id": 12519140
     }

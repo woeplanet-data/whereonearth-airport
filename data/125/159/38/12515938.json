@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515938, 
+        "placetype": "airport", 
         "name": "Dneprovskaya Airport", 
-        "ne_latitude": 45.639, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597817", 
+          "woe:state=2346884", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515938, 
         "ne_longitude": 38.836, 
         "longitude": 38.830, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597817, 
+        "ne_latitude": 45.639, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2001623, 
+        "sw_latitude": 45.630, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.634, 
         "sw_longitude": 38.823, 
         "fullname": "Dneprovskaya Airport, Krasnodarskiy Kray, Timashevsky, Russia", 
-        "sw_latitude": 45.630
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12515938
     }

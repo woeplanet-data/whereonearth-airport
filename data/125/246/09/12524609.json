@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524609, 
-        "name": "Coffee Point Airport", 
         "alias_ENG_V": [
           "CFA"
         ], 
-        "ne_latitude": 58.220, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Coffee Point Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587567", 
+          "woe:state=2347560", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524609, 
         "ne_longitude": -157.424, 
         "longitude": -157.432, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587567, 
+        "ne_latitude": 58.220, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2397599, 
+        "sw_latitude": 58.211, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 58.216, 
         "sw_longitude": -157.441, 
-        "fullname": "Coffee Point Airport, Egegik, Alaska, Lake and Peninsula Borough, United States", 
-        "sw_latitude": 58.211
+        "fullname": "Coffee Point Airport, Egegik, Alaska, United States", 
+        "iata_code": "CFA", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12524609
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511501, 
-        "name": "Rousse Airport", 
         "alias_ENG_V": [
           "ROU"
         ], 
-        "ne_latitude": 43.881, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Rousse Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55873777", 
+          "woe:state=20070069", 
+          "woe:country=23424771", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511501, 
         "ne_longitude": 26.054, 
         "longitude": 26.047, 
-        "placetype": "Airport", 
+        "parent_woeid": 55873777, 
+        "ne_latitude": 43.881, 
         "iso": "BG", 
-        "date_indexed": "2010-12-02T16:14:37Z", 
-        "parent_woeid": 839334, 
+        "sw_latitude": 43.872, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.877, 
         "sw_longitude": 26.041, 
-        "fullname": "Rousse Airport, Ruse, Ruse, Ruse, Bulgaria", 
-        "sw_latitude": 43.872
+        "fullname": "Rousse Airport, Ruse, Ruse, Bulgaria", 
+        "iata_code": "ROU", 
+        "date_indexed": "2010-12-02T16:14:37Z"
       }, 
       "id": 12511501
     }

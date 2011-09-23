@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514819, 
+        "placetype": "airport", 
         "name": "Agua Prieta South Airport", 
-        "ne_latitude": 31.263, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12601546", 
+          "woe:state=2346289", 
+          "woe:country=23424900", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514819, 
         "ne_longitude": -109.597, 
         "longitude": -109.603, 
-        "placetype": "Airport", 
+        "parent_woeid": 12601546, 
+        "ne_latitude": 31.263, 
         "iso": "MX", 
-        "date_indexed": "2010-12-02T16:57:55Z", 
-        "parent_woeid": 116982, 
+        "sw_latitude": 31.254, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 31.258, 
         "sw_longitude": -109.608, 
-        "fullname": "Agua Prieta South Airport, Colonia Progreso, Sonora, Agua Prieta, Mexico", 
-        "sw_latitude": 31.254
+        "fullname": "Agua Prieta South Airport, Colonia Progreso, Sonora, Mexico", 
+        "date_indexed": "2010-12-02T16:57:55Z"
       }, 
       "id": 12514819
     }

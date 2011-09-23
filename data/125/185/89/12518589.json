@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518589, 
-        "name": "Alpine-Casparis Municipal Airport", 
         "alias_ENG_V": [
           "ALE Airport"
         ], 
-        "ne_latitude": 30.390, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Alpine-Casparis Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590028", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518589, 
         "ne_longitude": -103.675, 
         "longitude": -103.676, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590028, 
+        "ne_latitude": 30.390, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2353734, 
+        "sw_latitude": 30.377, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 30.388, 
         "sw_longitude": -103.692, 
-        "fullname": "Alpine-Casparis Municipal Airport, Alpine, Texas, Brewster, United States", 
-        "sw_latitude": 30.377
+        "fullname": "Alpine-Casparis Municipal Airport, Alpine, Texas, United States", 
+        "iata_code": "ALE", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518589
     }

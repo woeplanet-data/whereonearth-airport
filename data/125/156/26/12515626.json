@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515626, 
-        "name": "Laoag International Airport", 
         "alias_ENG_V": [
           "LAO"
         ], 
-        "ne_latitude": 18.184, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Laoag International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=2346683", 
+          "woe:state=23424724", 
+          "woe:country=23424934", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515626, 
         "ne_longitude": 120.534, 
         "longitude": 120.529, 
-        "placetype": "Airport", 
+        "parent_woeid": 2346683, 
+        "ne_latitude": 18.184, 
         "iso": "PH", 
-        "date_indexed": "2010-12-02T09:56:58Z", 
-        "parent_woeid": 1200031, 
+        "sw_latitude": 18.175, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 18.180, 
         "sw_longitude": 120.525, 
-        "fullname": "Laoag International Airport, Laoag C, Ilocos Region, Ilocos Norte, Philippines", 
-        "sw_latitude": 18.175
+        "fullname": "Laoag International Airport, Laoag C, Ilocos Region, Philippines", 
+        "date_indexed": "2010-12-02T09:56:58Z"
       }, 
       "id": 12515626
     }

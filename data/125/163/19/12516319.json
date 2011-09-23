@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516319, 
+        "placetype": "airport", 
         "name": "Kyker Airport", 
-        "ne_latitude": 53.178, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598189", 
+          "woe:state=2346894", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516319, 
         "ne_longitude": 115.831, 
         "longitude": 115.824, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598189, 
+        "ne_latitude": 53.178, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2034428, 
+        "sw_latitude": 53.168, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.173, 
         "sw_longitude": 115.816, 
         "fullname": "Kyker Airport, Chitinskaya Oblast, Tungokochensky, Russia", 
-        "sw_latitude": 53.168
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516319
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512704, 
-        "name": "Ras El Nakab Airport", 
         "alias_ENG_V": [
           "RAF"
         ], 
-        "ne_latitude": 29.602, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Ras El Nakab Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2345248", 
+          "woe:country=23424802", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512704, 
         "ne_longitude": 34.789, 
         "longitude": 34.784, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345248, 
+        "ne_latitude": 29.602, 
         "iso": "EG", 
-        "date_indexed": "2010-12-02T12:16:51Z", 
-        "parent_woeid": 1526082, 
+        "sw_latitude": 29.593, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 29.597, 
         "sw_longitude": 34.779, 
         "fullname": "Ras El Nakab Airport, Shamal Sina', Egypt", 
-        "sw_latitude": 29.593
+        "iata_code": "RAF", 
+        "date_indexed": "2010-12-02T12:16:51Z"
       }, 
       "id": 12512704
     }

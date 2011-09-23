@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511668, 
-        "name": "Fort Smith Airport", 
         "alias_ENG_V": [
           "YSM Airport"
         ], 
-        "ne_latitude": 60.025, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Fort Smith Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375229", 
+          "woe:state=2344920", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511668, 
         "ne_longitude": -111.953, 
         "longitude": -111.963, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375229, 
+        "ne_latitude": 60.025, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 4297, 
+        "sw_latitude": 60.016, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 60.021, 
         "sw_longitude": -111.972, 
-        "fullname": "Fort Smith Airport, Fort Smith, Northwest Territories, Northwest Territories, Canada", 
-        "sw_latitude": 60.016
+        "fullname": "Fort Smith Airport, Fort Smith, Northwest Territories, Canada", 
+        "iata_code": "YSM", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12511668
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517333, 
-        "name": "Dhahran International Airport", 
         "alias_ENG_V": [
           "DHA"
         ], 
-        "ne_latitude": 26.268, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Dhahran International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=56120200", 
+          "woe:state=2346954", 
+          "woe:country=23424938", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517333, 
         "ne_longitude": 50.163, 
         "longitude": 50.158, 
-        "placetype": "Airport", 
+        "parent_woeid": 56120200, 
+        "ne_latitude": 26.268, 
         "iso": "SA", 
-        "date_indexed": "2010-12-02T09:34:42Z", 
-        "parent_woeid": 1939801, 
+        "sw_latitude": 26.259, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 26.264, 
         "sw_longitude": 50.153, 
-        "fullname": "Dhahran International Airport, Az Zahran, Ash Sharqiyah, Dhahran, Saudi Arabia", 
-        "sw_latitude": 26.259
+        "fullname": "Dhahran International Airport, Az Zahran, Ash Sharqiyah, Saudi Arabia", 
+        "iata_code": "DHA", 
+        "date_indexed": "2010-12-02T09:34:42Z"
       }, 
       "id": 12517333
     }

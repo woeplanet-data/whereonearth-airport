@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512494, 
-        "name": "Boa Vista Airport", 
         "alias_ENG_V": [
           "BVC"
         ], 
-        "ne_latitude": 16.101, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Boa Vista Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2345121", 
+          "woe:country=23424794", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512494, 
         "ne_longitude": -22.812, 
         "longitude": -22.817, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345121, 
+        "ne_latitude": 16.101, 
         "iso": "CV", 
-        "date_indexed": "2010-12-02T12:16:16Z", 
-        "parent_woeid": 1310690, 
+        "sw_latitude": 16.092, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 16.096, 
         "sw_longitude": -22.822, 
         "fullname": "Boa Vista Airport, Boa Vista, Cape Verde", 
-        "sw_latitude": 16.092
+        "iata_code": "BVC", 
+        "date_indexed": "2010-12-02T12:16:16Z"
       }, 
       "id": 12512494
     }

@@ -32,29 +32,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511079, 
-        "name": "Aeroporto Caravelas", 
-        "alias_ENG_P": [
-          "Caravelas Airport"
-        ], 
-        "ne_latitude": -17.645, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "CRQ"
         ], 
+        "name": "Aeroporto Caravelas", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Caravelas Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12578315", 
+          "woe:state=2344848", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511079, 
         "ne_longitude": -39.249, 
         "longitude": -39.254, 
-        "placetype": "Airport", 
+        "parent_woeid": 12578315, 
+        "ne_latitude": -17.645, 
         "alias_POR_V": [
           "Aeroporto CRQ"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 444870, 
+        "sw_latitude": -17.655, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -17.650, 
         "sw_longitude": -39.259, 
-        "fullname": "Aeroporto Caravelas, Ponta da Areia, Bahia, Caravelas, Brazil", 
-        "sw_latitude": -17.655
+        "fullname": "Aeroporto Caravelas, Ponta da Areia, Bahia, Brazil", 
+        "iata_code": "CRQ", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511079
     }

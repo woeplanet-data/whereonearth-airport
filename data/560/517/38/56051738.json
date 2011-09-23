@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 56051738, 
+        "placetype": "airport", 
         "name": "Flugplatz Thun", 
-        "ne_latitude": 46.760, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12682752", 
+          "woe:county=12593111", 
+          "woe:state=2347087", 
+          "woe:country=23424957", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56051738, 
         "ne_longitude": 7.603, 
         "longitude": 7.597, 
-        "placetype": "Airport", 
+        "parent_woeid": 12682752, 
+        "ne_latitude": 46.760, 
         "iso": "CH", 
-        "date_indexed": "2010-12-02T18:20:52Z", 
-        "parent_woeid": 784401, 
+        "sw_latitude": 46.753, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.760, 
         "sw_longitude": 7.596, 
-        "fullname": "Flugplatz Thun, Thun, Canton of Berne, Thun, Switzerland", 
-        "sw_latitude": 46.753
+        "fullname": "Flugplatz Thun, Thun, Canton of Berne, Switzerland", 
+        "date_indexed": "2010-12-02T18:20:52Z"
       }, 
       "id": 56051738
     }

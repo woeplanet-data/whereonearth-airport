@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510488, 
+        "placetype": "airport", 
         "name": "Don Torcuato Airport", 
-        "ne_latitude": -34.492, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=20070759", 
+          "woe:state=2344675", 
+          "woe:country=23424747", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510488, 
         "ne_longitude": -58.601, 
         "longitude": -58.607, 
-        "placetype": "Airport", 
+        "parent_woeid": 20070759, 
+        "ne_latitude": -34.492, 
         "iso": "AR", 
-        "date_indexed": "2010-12-02T17:41:29Z", 
-        "parent_woeid": 465311, 
+        "sw_latitude": -34.501, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -34.497, 
         "sw_longitude": -58.612, 
-        "fullname": "Don Torcuato Airport, Don Torcuato, Buenos Aires, Tigre, Argentina", 
-        "sw_latitude": -34.501
+        "fullname": "Don Torcuato Airport, Don Torcuato, Buenos Aires, Argentina", 
+        "date_indexed": "2010-12-02T17:41:29Z"
       }, 
       "id": 12510488
     }

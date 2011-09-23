@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521381, 
-        "name": "Pine Belt Regional Airport", 
         "alias_ENG_V": [
           "PIB Airport"
         ], 
-        "ne_latitude": 31.481, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Pine Belt Regional Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588917", 
+          "woe:state=2347583", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521381, 
         "ne_longitude": -89.329, 
         "longitude": -89.333, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588917, 
+        "ne_latitude": 31.481, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2492252, 
+        "sw_latitude": 31.449, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 31.467, 
         "sw_longitude": -89.339, 
-        "fullname": "Pine Belt Regional Airport, Shelton, Mississippi, Jones, United States", 
-        "sw_latitude": 31.449
+        "fullname": "Pine Belt Regional Airport, Shelton, Mississippi, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521381
     }

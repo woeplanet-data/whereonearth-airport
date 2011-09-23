@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516358, 
+        "placetype": "airport", 
         "name": "Log Airport", 
-        "ne_latitude": 49.498, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599558", 
+          "woe:state=2346933", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516358, 
         "ne_longitude": 43.935, 
         "longitude": 43.928, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599558, 
+        "ne_latitude": 49.498, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2121959, 
+        "sw_latitude": 49.489, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.494, 
         "sw_longitude": 43.921, 
-        "fullname": "Log Airport, Log, Volgogradskaya Oblast, Ilovlinsky, Russia", 
-        "sw_latitude": 49.489
+        "fullname": "Log Airport, Log, Volgogradskaya Oblast, Russia", 
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516358
     }

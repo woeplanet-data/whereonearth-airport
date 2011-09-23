@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512942, 
+        "placetype": "airport", 
         "name": "Montbeugny Airport", 
-        "ne_latitude": 46.539, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12646475", 
+          "woe:county=12597131", 
+          "woe:state=7153310", 
+          "woe:country=23424819", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512942, 
         "ne_longitude": 3.437, 
         "longitude": 3.424, 
-        "placetype": "Airport", 
+        "parent_woeid": 12646475, 
+        "ne_latitude": 46.539, 
         "iso": "FR", 
-        "date_indexed": "2010-12-02T12:04:01Z", 
-        "parent_woeid": 628881, 
+        "sw_latitude": 46.530, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.534, 
         "sw_longitude": 3.400, 
-        "fullname": "Montbeugny Airport, Toulon, Auvergne, Allier, France", 
-        "sw_latitude": 46.530
+        "fullname": "Montbeugny Airport, Toulon, Auvergne, France", 
+        "date_indexed": "2010-12-02T12:04:01Z"
       }, 
       "id": 12512942
     }

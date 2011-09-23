@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517219, 
+        "placetype": "airport", 
         "name": "Vyazma West Airport", 
-        "ne_latitude": 55.202, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599289", 
+          "woe:state=2346925", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517219, 
         "ne_longitude": 34.267, 
         "longitude": 34.259, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599289, 
+        "ne_latitude": 55.202, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2109591, 
+        "sw_latitude": 55.193, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 55.197, 
         "sw_longitude": 34.251, 
-        "fullname": "Vyazma West Airport, Vyaz'ma, Smolenskaya Oblast, Vyazemsky, Russia", 
-        "sw_latitude": 55.193
+        "fullname": "Vyazma West Airport, Vyaz'ma, Smolenskaya Oblast, Russia", 
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12517219
     }

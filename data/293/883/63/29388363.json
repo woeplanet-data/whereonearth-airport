@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388363, 
+        "placetype": "airport", 
         "name": "Mcville Airport", 
-        "ne_latitude": 40.738, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12589730", 
+          "woe:state=2347597", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388363, 
         "ne_longitude": -79.594, 
         "longitude": -79.599, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589730, 
+        "ne_latitude": 40.738, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 28744493, 
+        "sw_latitude": 40.731, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.736, 
         "sw_longitude": -79.600, 
-        "fullname": "Mcville Airport, South Buffalo, Pennsylvania, Armstrong, United States", 
-        "sw_latitude": 40.731
+        "fullname": "Mcville Airport, South Buffalo, Pennsylvania, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388363
     }

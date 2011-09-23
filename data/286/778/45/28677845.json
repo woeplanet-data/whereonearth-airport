@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 28677845, 
+        "placetype": "airport", 
         "name": "Wardell Airstrip", 
-        "ne_latitude": -44.502, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55875857", 
+          "woe:country=23424916", 
+          "woe:planet=1"
+        ], 
+        "woeid": 28677845, 
         "ne_longitude": 169.935, 
         "longitude": 169.929, 
-        "placetype": "Airport", 
+        "parent_woeid": 55875857, 
+        "ne_latitude": -44.502, 
         "iso": "NZ", 
-        "date_indexed": "2010-12-02T17:02:39Z", 
-        "parent_woeid": 2349835, 
+        "sw_latitude": -44.511, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -44.507, 
         "sw_longitude": 169.922, 
-        "fullname": "Wardell Airstrip, Omarama, Canterbury, Waitaki District, New Zealand", 
-        "sw_latitude": -44.511
+        "fullname": "Wardell Airstrip, Omarama, Canterbury, New Zealand", 
+        "date_indexed": "2010-12-02T17:02:39Z"
       }, 
       "id": 28677845
     }

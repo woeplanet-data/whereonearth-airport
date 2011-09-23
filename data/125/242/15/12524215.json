@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524215, 
-        "name": "Rankin Inlet Airport", 
         "alias_ENG_V": [
           "YRT Airport"
         ], 
-        "ne_latitude": 62.816, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Rankin Inlet Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375230", 
+          "woe:state=20069920", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524215, 
         "ne_longitude": -92.094, 
         "longitude": -92.103, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375230, 
+        "ne_latitude": 62.816, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:24:00Z", 
-        "parent_woeid": 4309, 
+        "sw_latitude": 62.802, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 62.804, 
         "sw_longitude": -92.127, 
-        "fullname": "Rankin Inlet Airport, Rankin Inlet, Nunavut, Nunavut, Canada", 
-        "sw_latitude": 62.802
+        "fullname": "Rankin Inlet Airport, Rankin Inlet, Nunavut, Canada", 
+        "iata_code": "YRT", 
+        "date_indexed": "2010-12-02T10:24:00Z"
       }, 
       "id": 12524215
     }

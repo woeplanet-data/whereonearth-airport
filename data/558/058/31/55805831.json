@@ -3,28 +3,66 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -88.156, 
-              40.286
-            ], 
-            [
-              -88.156, 
-              40.305
-            ], 
-            [
-              -88.127, 
-              40.305
-            ], 
-            [
-              -88.127, 
-              40.286
-            ], 
-            [
-              -88.156, 
-              40.286
+              [
+                -88.147, 
+                40.298
+              ], 
+              [
+                -88.144, 
+                40.292
+              ], 
+              [
+                -88.148, 
+                40.292
+              ], 
+              [
+                -88.155, 
+                40.291
+              ], 
+              [
+                -88.156, 
+                40.298
+              ], 
+              [
+                -88.158, 
+                40.298
+              ], 
+              [
+                -88.159, 
+                40.297
+              ], 
+              [
+                -88.159, 
+                40.297
+              ], 
+              [
+                -88.156, 
+                40.298
+              ], 
+              [
+                -88.155, 
+                40.298
+              ], 
+              [
+                -88.152, 
+                40.301
+              ], 
+              [
+                -88.151, 
+                40.301
+              ], 
+              [
+                -88.147, 
+                40.299
+              ], 
+              [
+                -88.147, 
+                40.298
+              ]
             ]
           ]
         ]
@@ -32,23 +70,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 55805831, 
-        "name": "Rantoul National Aviation Center Airpiort-Frank Elliott Field", 
         "alias_ENG_V": [
           "Tip"
         ], 
-        "ne_latitude": 40.305, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -88.127, 
-        "longitude": -88.149, 
-        "placetype": "Airport", 
+        "name": "Rantoul National Aviation Center Airpiort-Frank Elliott Field", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588087", 
+          "woe:state=2347572", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 55805831, 
+        "ne_longitude": -88.144, 
+        "longitude": -88.150, 
+        "parent_woeid": 12588087, 
+        "ne_latitude": 40.301, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2478725, 
-        "latitude": 40.295, 
-        "sw_longitude": -88.156, 
-        "fullname": "Rantoul National Aviation Center Airpiort-Frank Elliott Field, Rantoul, Illinois, Champaign, United States", 
-        "sw_latitude": 40.286
+        "sw_latitude": 40.291, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 40.296, 
+        "sw_longitude": -88.159, 
+        "fullname": "Rantoul National Aviation Center Airpiort-Frank Elliott Field, Rantoul, Illinois, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 55805831
     }

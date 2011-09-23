@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 56052180, 
+        "placetype": "airport", 
         "name": "Landeplatz Tannheim", 
-        "ne_latitude": 48.011, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12623769", 
+          "woe:county=12596779", 
+          "woe:state=2345481", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56052180, 
         "ne_longitude": 10.108, 
         "longitude": 10.104, 
-        "placetype": "Airport", 
+        "parent_woeid": 12623769, 
+        "ne_latitude": 48.011, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 698608, 
+        "sw_latitude": 48.008, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.008, 
         "sw_longitude": 10.093, 
-        "fullname": "Landeplatz Tannheim, Tannheim, Baden-Wurttemberg, Landkreis Biberach, Germany", 
-        "sw_latitude": 48.008
+        "fullname": "Landeplatz Tannheim, Tannheim, Baden-Wurttemberg, Germany", 
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 56052180
     }

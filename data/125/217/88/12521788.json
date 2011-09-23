@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521788, 
-        "name": "Sedalia Memorial Airport", 
         "alias_ENG_V": [
           "DMO"
         ], 
-        "ne_latitude": 38.717, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Sedalia Memorial Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589045", 
+          "woe:state=2347584", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521788, 
         "ne_longitude": -93.171, 
         "longitude": -93.185, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589045, 
+        "ne_latitude": 38.717, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2490493, 
+        "sw_latitude": 38.699, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.700, 
         "sw_longitude": -93.188, 
-        "fullname": "Sedalia Memorial Airport, Sedalia, Missouri, Pettis, United States", 
-        "sw_latitude": 38.699
+        "fullname": "Sedalia Memorial Airport, Sedalia, Missouri, United States", 
+        "iata_code": "DMO", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521788
     }

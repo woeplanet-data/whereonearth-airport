@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511320, 
+        "placetype": "airport", 
         "name": "Aeroporto Sao Manoel", 
         "alias_ENG_P": [
           "Sao Manoel Airport"
         ], 
-        "ne_latitude": -22.691, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12582312", 
+          "woe:state=2344868", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511320, 
         "ne_longitude": -48.571, 
         "longitude": -48.576, 
-        "placetype": "Airport", 
+        "parent_woeid": 12582312, 
+        "ne_latitude": -22.691, 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 450830, 
+        "sw_latitude": -22.700, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -22.696, 
         "sw_longitude": -48.581, 
-        "fullname": "Aeroporto Sao Manoel, S\u00e3o Manoel do Paraizo, Sao Paulo, S\u00e3o Manuel, Brazil", 
-        "sw_latitude": -22.700
+        "fullname": "Aeroporto Sao Manoel, S\u00e3o Manoel do Paraizo, Sao Paulo, Brazil", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511320
     }

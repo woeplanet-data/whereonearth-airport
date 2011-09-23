@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516895, 
+        "placetype": "airport", 
         "name": "Soliletsk Airport", 
-        "ne_latitude": 51.145, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598951", 
+          "woe:state=2346916", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516895, 
         "ne_longitude": 55.089, 
         "longitude": 55.082, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598951, 
+        "ne_latitude": 51.145, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2093708, 
+        "sw_latitude": 51.136, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.140, 
         "sw_longitude": 55.075, 
         "fullname": "Soliletsk Airport, Orenburgskaya Oblast, Sol-Iletsky, Russia", 
-        "sw_latitude": 51.136
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516895
     }

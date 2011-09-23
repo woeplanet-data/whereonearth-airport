@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511773, 
-        "name": "North Battleford Airport", 
         "alias_ENG_V": [
           "YQW Airport"
         ], 
-        "ne_latitude": 52.782, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "North Battleford Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375232", 
+          "woe:state=2344925", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511773, 
         "ne_longitude": -108.229, 
         "longitude": -108.258, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375232, 
+        "ne_latitude": 52.782, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 2136, 
+        "sw_latitude": 52.762, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 52.769, 
         "sw_longitude": -108.262, 
-        "fullname": "North Battleford Airport, North Battleford, Saskatchewan, Saskatchewan, Canada", 
-        "sw_latitude": 52.762
+        "fullname": "North Battleford Airport, North Battleford, Saskatchewan, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12511773
     }

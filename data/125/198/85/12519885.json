@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519885, 
-        "name": "George Downer Airport", 
         "alias_ENG_V": [
           "AIV"
         ], 
-        "ne_latitude": 33.109, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "George Downer Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587540", 
+          "woe:state=2347559", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519885, 
         "ne_longitude": -88.190, 
         "longitude": -88.193, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587540, 
+        "ne_latitude": 33.109, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2353160, 
+        "sw_latitude": 33.105, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 33.107, 
         "sw_longitude": -88.195, 
-        "fullname": "George Downer Airport, Aliceville, Alabama, Pickens, United States", 
-        "sw_latitude": 33.105
+        "fullname": "George Downer Airport, Aliceville, Alabama, United States", 
+        "iata_code": "AIV", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12519885
     }

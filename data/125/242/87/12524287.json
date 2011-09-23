@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524287, 
-        "name": "Fond-du-Lac Airport", 
         "alias_ENG_V": [
           "ZFD Airport"
         ], 
-        "ne_latitude": 59.327, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Fond-du-Lac Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375232", 
+          "woe:state=2344925", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524287, 
         "ne_longitude": -107.156, 
         "longitude": -107.165, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375232, 
+        "ne_latitude": 59.327, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 29373990, 
+        "sw_latitude": 59.318, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 59.322, 
         "sw_longitude": -107.174, 
-        "fullname": "Fond-du-Lac Airport, Fond du Lac 227, Saskatchewan, Saskatchewan, Canada", 
-        "sw_latitude": 59.318
+        "fullname": "Fond-du-Lac Airport, Fond du Lac 227, Saskatchewan, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12524287
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 55805825, 
-        "name": "West Plains Minicipal Airport", 
         "alias_ENG_V": [
           "Uno"
         ], 
-        "ne_latitude": 36.749, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "West Plains Minicipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589011", 
+          "woe:state=2347584", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 55805825, 
         "ne_longitude": -91.860, 
         "longitude": -91.867, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589011, 
+        "ne_latitude": 36.749, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2517574, 
+        "sw_latitude": 36.741, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.749, 
         "sw_longitude": -91.868, 
-        "fullname": "West Plains Minicipal Airport, West Plains, Missouri, Howell, United States", 
-        "sw_latitude": 36.741
+        "fullname": "West Plains Minicipal Airport, West Plains, Missouri, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 55805825
     }

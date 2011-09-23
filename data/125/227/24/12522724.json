@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522724, 
+        "placetype": "airport", 
         "name": "Tashkent Airport", 
-        "ne_latitude": 41.325, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2347670", 
+          "woe:country=23424980", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522724, 
         "ne_longitude": 69.410, 
         "longitude": 69.404, 
-        "placetype": "Airport", 
+        "parent_woeid": 2347670, 
+        "ne_latitude": 41.325, 
         "iso": "UZ", 
-        "date_indexed": "2010-12-02T18:18:54Z", 
-        "parent_woeid": 2271573, 
+        "sw_latitude": 41.316, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.320, 
         "sw_longitude": 69.398, 
         "fullname": "Tashkent Airport, Toshkent, Uzbekistan", 
-        "sw_latitude": 41.316
+        "date_indexed": "2010-12-02T18:18:54Z"
       }, 
       "id": 12522724
     }

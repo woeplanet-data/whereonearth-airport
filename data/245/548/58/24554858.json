@@ -3,28 +3,74 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              8.737, 
-              36.946
-            ], 
-            [
-              8.737, 
-              36.969
-            ], 
-            [
-              8.765, 
-              36.969
-            ], 
-            [
-              8.765, 
-              36.946
-            ], 
-            [
-              8.737, 
-              36.946
+              [
+                8.740, 
+                36.960
+              ], 
+              [
+                8.739, 
+                36.959
+              ], 
+              [
+                8.738, 
+                36.960
+              ], 
+              [
+                8.739, 
+                36.963
+              ], 
+              [
+                8.750, 
+                36.964
+              ], 
+              [
+                8.759, 
+                36.965
+              ], 
+              [
+                8.762, 
+                36.967
+              ], 
+              [
+                8.764, 
+                36.962
+              ], 
+              [
+                8.768, 
+                36.953
+              ], 
+              [
+                8.778, 
+                36.948
+              ], 
+              [
+                8.777, 
+                36.953
+              ], 
+              [
+                8.768, 
+                36.953
+              ], 
+              [
+                8.764, 
+                36.953
+              ], 
+              [
+                8.758, 
+                36.951
+              ], 
+              [
+                8.751, 
+                36.957
+              ], 
+              [
+                8.740, 
+                36.960
+              ]
             ]
           ]
         ]
@@ -32,23 +78,28 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 24554858, 
-        "name": "7 Novembre", 
         "alias_ENG_V": [
           "TBJ"
         ], 
-        "ne_latitude": 36.969, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": 8.765, 
-        "longitude": 8.751, 
-        "placetype": "Airport", 
+        "name": "7 Novembre", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2347237", 
+          "woe:country=23424967", 
+          "woe:planet=1"
+        ], 
+        "woeid": 24554858, 
+        "ne_longitude": 8.778, 
+        "longitude": 8.753, 
+        "parent_woeid": 2347237, 
+        "ne_latitude": 36.967, 
         "iso": "TN", 
-        "date_indexed": "2010-12-02T18:19:01Z", 
-        "parent_woeid": 1442703, 
-        "latitude": 36.957, 
-        "sw_longitude": 8.737, 
+        "sw_latitude": 36.948, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 36.960, 
+        "sw_longitude": 8.738, 
         "fullname": "7 Novembre, Jundubah, Tunisia", 
-        "sw_latitude": 36.946
+        "date_indexed": "2010-12-02T18:19:01Z"
       }, 
       "id": 24554858
     }

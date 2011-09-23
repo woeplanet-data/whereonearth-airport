@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521040, 
-        "name": "Mount Pleasant Airport", 
         "alias_ENG_V": [
           "MSD"
         ], 
-        "ne_latitude": 39.532, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Mount Pleasant Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590280", 
+          "woe:state=2347603", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521040, 
         "ne_longitude": -111.464, 
         "longitude": -111.468, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590280, 
+        "ne_latitude": 39.532, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2455358, 
+        "sw_latitude": 39.521, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 39.529, 
         "sw_longitude": -111.482, 
-        "fullname": "Mount Pleasant Airport, Mount Pleasant, Utah, Sanpete, United States", 
-        "sw_latitude": 39.521
+        "fullname": "Mount Pleasant Airport, Mount Pleasant, Utah, United States", 
+        "iata_code": "MSD", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12521040
     }

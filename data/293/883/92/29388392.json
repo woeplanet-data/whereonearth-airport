@@ -3,28 +3,70 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -74.748, 
-              40.575
-            ], 
-            [
-              -74.748, 
-              40.592
-            ], 
-            [
-              -74.728, 
-              40.592
-            ], 
-            [
-              -74.728, 
-              40.575
-            ], 
-            [
-              -74.748, 
-              40.575
+              [
+                -74.739, 
+                40.581
+              ], 
+              [
+                -74.742, 
+                40.584
+              ], 
+              [
+                -74.741, 
+                40.584
+              ], 
+              [
+                -74.739, 
+                40.583
+              ], 
+              [
+                -74.735, 
+                40.582
+              ], 
+              [
+                -74.735, 
+                40.582
+              ], 
+              [
+                -74.738, 
+                40.578
+              ], 
+              [
+                -74.738, 
+                40.578
+              ], 
+              [
+                -74.738, 
+                40.578
+              ], 
+              [
+                -74.739, 
+                40.578
+              ], 
+              [
+                -74.739, 
+                40.580
+              ], 
+              [
+                -74.739, 
+                40.580
+              ], 
+              [
+                -74.739, 
+                40.581
+              ], 
+              [
+                -74.739, 
+                40.581
+              ], 
+              [
+                -74.739, 
+                40.581
+              ]
             ]
           ]
         ]
@@ -32,23 +74,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388392, 
-        "name": "Solberg Airport", 
         "alias_ENG_V": [
           "Solberg-Hunterdon Airport"
         ], 
-        "ne_latitude": 40.592, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -74.728, 
-        "longitude": -74.734, 
-        "placetype": "Airport", 
+        "name": "Solberg Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589267", 
+          "woe:state=2347589", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388392, 
+        "ne_longitude": -74.735, 
+        "longitude": -74.738, 
+        "parent_woeid": 12589267, 
+        "ne_latitude": 40.584, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2479104, 
-        "latitude": 40.579, 
-        "sw_longitude": -74.748, 
-        "fullname": "Solberg Airport, Readington, New Jersey, Hunterdon, United States", 
-        "sw_latitude": 40.575
+        "sw_latitude": 40.578, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 40.582, 
+        "sw_longitude": -74.742, 
+        "fullname": "Solberg Airport, Readington, New Jersey, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388392
     }

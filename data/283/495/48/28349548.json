@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 28349548, 
-        "name": "Westover Air Force Base", 
         "alias_ENG_V": [
           "Westover AFB"
         ], 
-        "ne_latitude": 42.200, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Westover Air Force Base", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588706", 
+          "woe:state=2347580", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 28349548, 
         "ne_longitude": -72.548, 
         "longitude": -72.554, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588706, 
+        "ne_latitude": 42.200, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2379691, 
+        "sw_latitude": 42.191, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.196, 
         "sw_longitude": -72.560, 
-        "fullname": "Westover Air Force Base, Chicopee, Massachusetts, Hampden, United States", 
-        "sw_latitude": 42.191
+        "fullname": "Westover Air Force Base, Chicopee, Massachusetts, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 28349548
     }

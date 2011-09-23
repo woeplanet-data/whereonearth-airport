@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517177, 
+        "placetype": "airport", 
         "name": "Vladivostok Airport", 
-        "ne_latitude": 43.211, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597932", 
+          "woe:state=2346886", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517177, 
         "ne_longitude": 131.944, 
         "longitude": 131.938, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597932, 
+        "ne_latitude": 43.211, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2124288, 
+        "sw_latitude": 43.201, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.206, 
         "sw_longitude": 131.931, 
-        "fullname": "Vladivostok Airport, Vladivostok, Primorskiy Kray, Vladivostok, Russia", 
-        "sw_latitude": 43.201
+        "fullname": "Vladivostok Airport, Vladivostok, Primorskiy Kray, Russia", 
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12517177
     }

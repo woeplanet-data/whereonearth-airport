@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515862, 
+        "placetype": "airport", 
         "name": "Brokhovo Airport", 
-        "ne_latitude": 59.628, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598700", 
+          "woe:state=20070512", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515862, 
         "ne_longitude": 154.318, 
         "longitude": 154.309, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598700, 
+        "ne_latitude": 59.628, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2111149, 
+        "sw_latitude": 59.619, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 59.624, 
         "sw_longitude": 154.300, 
         "fullname": "Brokhovo Airport, Magadanskaya Oblast, Olsky, Russia", 
-        "sw_latitude": 59.619
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12515862
     }

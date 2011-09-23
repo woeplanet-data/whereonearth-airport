@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516617, 
+        "placetype": "airport", 
         "name": "Orel Northwest Airport", 
-        "ne_latitude": 53.009, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598976", 
+          "woe:state=2346917", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516617, 
         "ne_longitude": 36.052, 
         "longitude": 36.044, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598976, 
+        "ne_latitude": 53.009, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2050463, 
+        "sw_latitude": 53.000, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.005, 
         "sw_longitude": 36.037, 
         "fullname": "Orel Northwest Airport, Orlovskaya Oblast, Orlovsky, Russia", 
-        "sw_latitude": 53.000
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516617
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515235, 
-        "name": "Gilgit Airport", 
         "alias_ENG_V": [
           "GIL"
         ], 
-        "ne_latitude": 35.924, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Gilgit Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2346501", 
+          "woe:country=23424922", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515235, 
         "ne_longitude": 74.341, 
         "longitude": 74.336, 
-        "placetype": "Airport", 
+        "parent_woeid": 2346501, 
+        "ne_latitude": 35.924, 
         "iso": "PK", 
-        "date_indexed": "2010-12-02T17:56:57Z", 
-        "parent_woeid": 2210970, 
+        "sw_latitude": 35.915, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.919, 
         "sw_longitude": 74.330, 
         "fullname": "Gilgit Airport, Gilgit, Northern Areas, Pakistan", 
-        "sw_latitude": 35.915
+        "iata_code": "GIL", 
+        "date_indexed": "2010-12-02T17:56:57Z"
       }, 
       "id": 12515235
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517146, 
+        "placetype": "airport", 
         "name": "Velikiy Ustyug Airport", 
-        "ne_latitude": 60.786, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599614", 
+          "woe:state=2346934", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517146, 
         "ne_longitude": 46.236, 
         "longitude": 46.227, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599614, 
+        "ne_latitude": 60.786, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2053830, 
+        "sw_latitude": 60.777, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 60.782, 
         "sw_longitude": 46.218, 
         "fullname": "Velikiy Ustyug Airport, Vologodskaya Oblast, Velikoustyugsky, Russia", 
-        "sw_latitude": 60.777
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12517146
     }

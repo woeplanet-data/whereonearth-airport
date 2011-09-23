@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29387949, 
-        "name": "Appleton Municipal Airport", 
         "alias_ENG_V": [
           "Aqp"
         ], 
-        "ne_latitude": 45.232, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Appleton Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588872", 
+          "woe:state=2347582", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29387949, 
         "ne_longitude": -96.000, 
         "longitude": -96.000, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588872, 
+        "ne_latitude": 45.232, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2355325, 
+        "sw_latitude": 45.224, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.228, 
         "sw_longitude": -96.011, 
-        "fullname": "Appleton Municipal Airport, Appleton, Minnesota, Swift, United States", 
-        "sw_latitude": 45.224
+        "fullname": "Appleton Municipal Airport, Appleton, Minnesota, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29387949
     }

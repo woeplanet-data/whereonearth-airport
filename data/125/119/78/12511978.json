@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511978, 
+        "placetype": "airport", 
         "name": "An Hsi Airport", 
-        "ne_latitude": 40.563, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12686496", 
+          "woe:county=26198132", 
+          "woe:state=12578005", 
+          "woe:country=23424781", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511978, 
         "ne_longitude": 95.809, 
         "longitude": 95.803, 
-        "placetype": "Airport", 
+        "parent_woeid": 12686496, 
+        "ne_latitude": 40.563, 
         "iso": "CN", 
-        "date_indexed": "2010-12-02T08:51:48Z", 
-        "parent_woeid": 2145655, 
+        "sw_latitude": 40.554, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.559, 
         "sw_longitude": 95.797, 
-        "fullname": "An Hsi Airport, Anxi, Gansu, Jiuquan, China", 
-        "sw_latitude": 40.554
+        "fullname": "An Hsi Airport, Anxi, Gansu, China", 
+        "date_indexed": "2010-12-02T08:51:48Z"
       }, 
       "id": 12511978
     }

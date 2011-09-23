@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515756, 
+        "placetype": "airport", 
         "name": "Bada North Airport", 
-        "ne_latitude": 51.412, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598171", 
+          "woe:state=2346894", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515756, 
         "ne_longitude": 109.909, 
         "longitude": 109.901, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598171, 
+        "ne_latitude": 51.412, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 1985367, 
+        "sw_latitude": 51.403, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.407, 
         "sw_longitude": 109.894, 
         "fullname": "Bada North Airport, Chitinskaya Oblast, Khiloksky, Russia", 
-        "sw_latitude": 51.403
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12515756
     }

@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 23388288, 
+        "placetype": "airport", 
         "name": "Reykjavikurflugvollur Domestik Air Terminal", 
-        "ne_latitude": 64.136, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=20070109", 
+          "woe:country=23424845", 
+          "woe:planet=1"
+        ], 
+        "woeid": 23388288, 
         "ne_longitude": -21.938, 
         "longitude": -21.948, 
-        "placetype": "Airport", 
+        "parent_woeid": 20070109, 
+        "ne_latitude": 64.136, 
         "iso": "IS", 
-        "date_indexed": "2010-12-02T09:55:32Z", 
-        "parent_woeid": 980389, 
+        "sw_latitude": 64.127, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 64.132, 
         "sw_longitude": -21.959, 
         "fullname": "Reykjavikurflugvollur Domestik Air Terminal, Reykjavik, Reykjavik, Iceland", 
-        "sw_latitude": 64.127
+        "date_indexed": "2010-12-02T09:55:32Z"
       }, 
       "id": 23388288
     }

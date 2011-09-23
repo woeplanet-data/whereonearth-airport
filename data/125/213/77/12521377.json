@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521377, 
-        "name": "Pike County Airport", 
         "alias_ENG_V": [
           "Eop"
         ], 
-        "ne_latitude": 39.171, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Pike County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589592", 
+          "woe:state=2347594", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521377, 
         "ne_longitude": -82.920, 
         "longitude": -82.937, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589592, 
+        "ne_latitude": 39.171, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2465574, 
+        "sw_latitude": 39.162, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 39.162, 
         "sw_longitude": -82.937, 
-        "fullname": "Pike County Airport, Omega, Ohio, Pike, United States", 
-        "sw_latitude": 39.162
+        "fullname": "Pike County Airport, Omega, Ohio, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521377
     }

@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512461, 
+        "placetype": "airport", 
         "name": "Florida Airport", 
-        "ne_latitude": 21.503, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345110", 
+          "woe:country=23424793", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512461, 
         "ne_longitude": -78.198, 
         "longitude": -78.203, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345110, 
+        "ne_latitude": 21.503, 
         "iso": "CU", 
-        "date_indexed": "2010-12-02T08:58:58Z", 
-        "parent_woeid": 62619, 
+        "sw_latitude": 21.494, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 21.499, 
         "sw_longitude": -78.208, 
         "fullname": "Florida Airport, Florida, Camaguey, Cuba", 
-        "sw_latitude": 21.494
+        "date_indexed": "2010-12-02T08:58:58Z"
       }, 
       "id": 12512461
     }

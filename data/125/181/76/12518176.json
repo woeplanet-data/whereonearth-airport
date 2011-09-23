@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518176, 
+        "placetype": "airport", 
         "name": "Wethersfield Airport", 
-        "ne_latitude": 51.973, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12695941", 
+          "woe:county=12602168", 
+          "woe:state=24554868", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518176, 
         "ne_longitude": 0.497, 
         "longitude": 0.490, 
-        "placetype": "Airport", 
+        "parent_woeid": 12695941, 
+        "ne_latitude": 51.973, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:21:01Z", 
-        "parent_woeid": 40054, 
+        "sw_latitude": 51.964, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.969, 
         "sw_longitude": 0.482, 
-        "fullname": "Wethersfield Airport, Wethersfield, England, Essex, United Kingdom", 
-        "sw_latitude": 51.964
+        "fullname": "Wethersfield Airport, Wethersfield, England, United Kingdom", 
+        "date_indexed": "2010-12-02T12:21:01Z"
       }, 
       "id": 12518176
     }

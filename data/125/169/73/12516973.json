@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516973, 
+        "placetype": "airport", 
         "name": "Talovaya Airport", 
-        "ne_latitude": 51.058, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599652", 
+          "woe:state=2346935", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516973, 
         "ne_longitude": 40.842, 
         "longitude": 40.835, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599652, 
+        "ne_latitude": 51.058, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2102125, 
+        "sw_latitude": 51.049, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.053, 
         "sw_longitude": 40.828, 
         "fullname": "Talovaya Airport, Voronezhskaya Oblast, Talovsky, Russia", 
-        "sw_latitude": 51.049
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516973
     }

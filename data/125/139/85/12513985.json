@@ -32,29 +32,35 @@
       "type": "Feature", 
       "properties": {
         "lang": "JPN", 
-        "woeid": 12513985, 
-        "name": "\u677e\u5c71\u7a7a\u6e2f", 
         "alias_ENG_V": [
           "MYJ Airport"
         ], 
+        "name": "\u677e\u5c71\u7a7a\u6e2f", 
         "alias_ENG_P": [
           "Matsuyama Airport"
         ], 
-        "ne_latitude": 33.832, 
+        "parent_woeid": 2345855, 
+        "woeid": 12513985, 
+        "provider": "geoplanet 7.6.0", 
         "alias_JPN_V": [
           "\u30de\u30c4\u30e4\u30de\u30af\u30a6\u30b3\u30a6"
         ], 
-        "ne_longitude": 132.706, 
         "longitude": 132.700, 
-        "parent_woeid": 1117690, 
-        "placetype": "Airport", 
+        "ne_longitude": 132.706, 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2345855", 
+          "woe:country=23424856", 
+          "woe:planet=1"
+        ], 
         "iso": "JP", 
-        "date_indexed": "2010-12-02T08:09:08Z", 
-        "provider": "geoplanet 7.6.0", 
+        "sw_latitude": 33.823, 
+        "ne_latitude": 33.832, 
         "latitude": 33.828, 
         "sw_longitude": 132.695, 
         "fullname": "\u677e\u5c71\u7a7a\u6e2f, Matsuyama-shi, Ehime Prefecture, Japan", 
-        "sw_latitude": 33.823
+        "iata_code": "MYJ", 
+        "date_indexed": "2010-12-02T08:09:08Z"
       }, 
       "id": 12513985
     }

@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514721, 
+        "placetype": "airport", 
         "name": "Komrat Airport", 
-        "ne_latitude": 46.285, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=20069881", 
+          "woe:country=23424885", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514721, 
         "ne_longitude": 28.648, 
         "longitude": 28.641, 
-        "placetype": "Airport", 
+        "parent_woeid": 20069881, 
+        "ne_latitude": 46.285, 
         "iso": "MD", 
-        "date_indexed": "2010-12-02T17:58:04Z", 
-        "parent_woeid": 480370, 
+        "sw_latitude": 46.276, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.280, 
         "sw_longitude": 28.634, 
         "fullname": "Komrat Airport, Komrad, Gagauzia, Moldova", 
-        "sw_latitude": 46.276
+        "date_indexed": "2010-12-02T17:58:04Z"
       }, 
       "id": 12514721
     }

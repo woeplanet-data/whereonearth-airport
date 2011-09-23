@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516161, 
+        "placetype": "airport", 
         "name": "Kilemary Airport", 
-        "ne_latitude": 56.788, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598473", 
+          "woe:state=2346875", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516161, 
         "ne_longitude": 46.869, 
         "longitude": 46.861, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598473, 
+        "ne_latitude": 56.788, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2121366, 
+        "sw_latitude": 56.779, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 56.784, 
         "sw_longitude": 46.852, 
-        "fullname": "Kilemary Airport, Kilemary, Mariy-El, Kilemarsky, Russia", 
-        "sw_latitude": 56.779
+        "fullname": "Kilemary Airport, Kilemary, Mariy-El, Russia", 
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516161
     }

@@ -32,26 +32,32 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513104, 
-        "name": "Gatow Airport", 
         "alias_ENG_V": [
           "Flugplatz Gatow"
         ], 
-        "ne_latitude": 52.478, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Gatow Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12596838", 
+          "woe:state=2345496", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513104, 
         "ne_longitude": 13.154, 
         "longitude": 13.146, 
-        "placetype": "Airport", 
+        "parent_woeid": 12596838, 
+        "ne_latitude": 52.478, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:24Z", 
-        "parent_woeid": 638242, 
+        "sw_latitude": 52.469, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 52.473, 
         "sw_longitude": 13.139, 
-        "fullname": "Gatow Airport, Berlin, Berlin, Stadtkreis Berlin, Germany", 
+        "fullname": "Gatow Airport, Berlin, Berlin, Germany", 
         "alias_GER_Q": [
           "Flughafen Gatow"
         ], 
-        "sw_latitude": 52.469
+        "date_indexed": "2010-12-02T09:50:24Z"
       }, 
       "id": 12513104
     }

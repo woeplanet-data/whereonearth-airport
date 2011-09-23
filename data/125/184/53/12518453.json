@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518453, 
+        "placetype": "airport", 
         "name": "Trakt Airport", 
-        "ne_latitude": 48.319, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2347543", 
+          "woe:country=23424976", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518453, 
         "ne_longitude": 30.046, 
         "longitude": 30.039, 
-        "placetype": "Airport", 
+        "parent_woeid": 2347543, 
+        "ne_latitude": 48.319, 
         "iso": "UA", 
-        "date_indexed": "2010-12-02T08:52:39Z", 
-        "parent_woeid": 935859, 
+        "sw_latitude": 48.310, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.315, 
         "sw_longitude": 30.032, 
         "fullname": "Trakt Airport, Kirovohrad Oblast, Ukraine", 
-        "sw_latitude": 48.310
+        "date_indexed": "2010-12-02T08:52:39Z"
       }, 
       "id": 12518453
     }

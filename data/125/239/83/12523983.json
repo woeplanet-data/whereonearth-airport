@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523983, 
-        "name": "Fetlar Airport", 
         "alias_ENG_V": [
           "FEA"
         ], 
-        "ne_latitude": 60.610, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Fetlar Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=12696208", 
+          "woe:county=12602206", 
+          "woe:state=12578048", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523983, 
         "ne_longitude": -0.864, 
         "longitude": -0.873, 
-        "placetype": "Airport", 
+        "parent_woeid": 12696208, 
+        "ne_latitude": 60.610, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:21:01Z", 
-        "parent_woeid": 28835575, 
+        "sw_latitude": 60.601, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 60.606, 
         "sw_longitude": -0.882, 
-        "fullname": "Fetlar Airport, Fetlar, Scotland, Shetland Islands, United Kingdom", 
-        "sw_latitude": 60.601
+        "fullname": "Fetlar Airport, Fetlar, Scotland, United Kingdom", 
+        "date_indexed": "2010-12-02T12:21:01Z"
       }, 
       "id": 12523983
     }

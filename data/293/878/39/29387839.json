@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29387839, 
-        "name": "Woodland State Airport", 
         "alias_ENG_V": [
           "W27"
         ], 
-        "ne_latitude": 45.905, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Woodland State Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590447", 
+          "woe:state=2347606", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29387839, 
         "ne_longitude": -122.740, 
         "longitude": -122.741, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590447, 
+        "ne_latitude": 45.905, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2523185, 
+        "sw_latitude": 45.904, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.905, 
         "sw_longitude": -122.742, 
-        "fullname": "Woodland State Airport, Woodland, Washington, Cowlitz, United States", 
-        "sw_latitude": 45.904
+        "fullname": "Woodland State Airport, Woodland, Washington, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 29387839
     }

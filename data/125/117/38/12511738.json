@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511738, 
+        "placetype": "airport", 
         "name": "Mackenzie Airport", 
-        "ne_latitude": 55.309, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=29375235", 
+          "woe:state=2344916", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511738, 
         "ne_longitude": -123.123, 
         "longitude": -123.131, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375235, 
+        "ne_latitude": 55.309, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 9389, 
+        "sw_latitude": 55.300, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 55.304, 
         "sw_longitude": -123.139, 
-        "fullname": "Mackenzie Airport, Mackenzie, British Columbia, Fraser-Fort George, Canada", 
-        "sw_latitude": 55.300
+        "fullname": "Mackenzie Airport, Mackenzie, British Columbia, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12511738
     }

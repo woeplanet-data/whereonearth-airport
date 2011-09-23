@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514961, 
+        "placetype": "airport", 
         "name": "San Pedro Tabasco Airport", 
-        "ne_latitude": 17.797, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12601615", 
+          "woe:state=2346290", 
+          "woe:country=23424900", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514961, 
         "ne_longitude": -91.153, 
         "longitude": -91.158, 
-        "placetype": "Airport", 
+        "parent_woeid": 12601615, 
+        "ne_latitude": 17.797, 
         "iso": "MX", 
-        "date_indexed": "2010-12-02T16:57:55Z", 
-        "parent_woeid": 145001, 
+        "sw_latitude": 17.788, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 17.793, 
         "sw_longitude": -91.162, 
-        "fullname": "San Pedro Tabasco Airport, San Pedro, Tabasco, Balancan, Mexico", 
-        "sw_latitude": 17.788
+        "fullname": "San Pedro Tabasco Airport, San Pedro, Tabasco, Mexico", 
+        "date_indexed": "2010-12-02T16:57:55Z"
       }, 
       "id": 12514961
     }

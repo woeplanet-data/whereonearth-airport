@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520806, 
-        "name": "Mark Anton Airport", 
         "alias_ENG_V": [
           "2a0"
         ], 
-        "ne_latitude": 35.494, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Mark Anton Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589983", 
+          "woe:state=2347601", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520806, 
         "ne_longitude": -84.925, 
         "longitude": -84.937, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589983, 
+        "ne_latitude": 35.494, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2389878, 
+        "sw_latitude": 35.479, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.481, 
         "sw_longitude": -84.938, 
-        "fullname": "Mark Anton Airport, Dayton, Tennessee, Rhea, United States", 
-        "sw_latitude": 35.479
+        "fullname": "Mark Anton Airport, Dayton, Tennessee, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520806
     }

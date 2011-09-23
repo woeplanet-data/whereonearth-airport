@@ -3,28 +3,90 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -113.531, 
-              53.563
-            ], 
-            [
-              -113.531, 
-              53.582
-            ], 
-            [
-              -113.506, 
-              53.582
-            ], 
-            [
-              -113.506, 
-              53.563
-            ], 
-            [
-              -113.531, 
-              53.563
+              [
+                -113.522, 
+                53.566
+              ], 
+              [
+                -113.522, 
+                53.566
+              ], 
+              [
+                -113.525, 
+                53.566
+              ], 
+              [
+                -113.529, 
+                53.567
+              ], 
+              [
+                -113.531, 
+                53.566
+              ], 
+              [
+                -113.529, 
+                53.568
+              ], 
+              [
+                -113.526, 
+                53.569
+              ], 
+              [
+                -113.526, 
+                53.571
+              ], 
+              [
+                -113.525, 
+                53.574
+              ], 
+              [
+                -113.524, 
+                53.577
+              ], 
+              [
+                -113.521, 
+                53.581
+              ], 
+              [
+                -113.523, 
+                53.576
+              ], 
+              [
+                -113.521, 
+                53.575
+              ], 
+              [
+                -113.517, 
+                53.578
+              ], 
+              [
+                -113.516, 
+                53.573
+              ], 
+              [
+                -113.518, 
+                53.569
+              ], 
+              [
+                -113.516, 
+                53.566
+              ], 
+              [
+                -113.516, 
+                53.566
+              ], 
+              [
+                -113.518, 
+                53.566
+              ], 
+              [
+                -113.522, 
+                53.566
+              ]
             ]
           ]
         ]
@@ -32,23 +94,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511647, 
-        "name": "Edmonton City Centre Airport", 
         "alias_ENG_V": [
           "YXD Airport"
         ], 
-        "ne_latitude": 53.582, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -113.506, 
-        "longitude": -113.521, 
-        "placetype": "Airport", 
+        "name": "Edmonton City Centre Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375228", 
+          "woe:state=2344915", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511647, 
+        "ne_longitude": -113.516, 
+        "longitude": -113.522, 
+        "parent_woeid": 29375228, 
+        "ne_latitude": 53.581, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 8676, 
-        "latitude": 53.569, 
+        "sw_latitude": 53.566, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 53.571, 
         "sw_longitude": -113.531, 
-        "fullname": "Edmonton City Centre Airport, Edmonton, Alberta, Alberta, Canada", 
-        "sw_latitude": 53.563
+        "fullname": "Edmonton City Centre Airport, Edmonton, Alberta, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12511647
     }

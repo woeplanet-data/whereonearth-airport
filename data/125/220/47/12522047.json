@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522047, 
+        "placetype": "airport", 
         "name": "Sun City Center Airpark", 
-        "ne_latitude": 27.696, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12587831", 
+          "woe:state=2347568", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522047, 
         "ne_longitude": -82.374, 
         "longitude": -82.379, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587831, 
+        "ne_latitude": 27.696, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2501881, 
+        "sw_latitude": 27.687, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 27.692, 
         "sw_longitude": -82.384, 
-        "fullname": "Sun City Center Airpark, Sun City Center, Florida, Hillsborough, United States", 
-        "sw_latitude": 27.687
+        "fullname": "Sun City Center Airpark, Sun City Center, Florida, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12522047
     }

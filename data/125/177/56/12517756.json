@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517756, 
+        "placetype": "airport", 
         "name": "Khon Kaen New Airport", 
-        "ne_latitude": 16.469, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=28341119", 
+          "woe:state=2347147", 
+          "woe:country=23424960", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517756, 
         "ne_longitude": 102.861, 
         "longitude": 102.856, 
-        "placetype": "Airport", 
+        "parent_woeid": 28341119, 
+        "ne_latitude": 16.469, 
         "iso": "TH", 
-        "date_indexed": "2010-12-02T17:05:34Z", 
-        "parent_woeid": 55946531, 
+        "sw_latitude": 16.460, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 16.464, 
         "sw_longitude": 102.851, 
-        "fullname": "Khon Kaen New Airport, Sila, Khon Kaen, Mueang Khon Kaen, Thailand", 
-        "sw_latitude": 16.460
+        "fullname": "Khon Kaen New Airport, Sila, Khon Kaen, Thailand", 
+        "date_indexed": "2010-12-02T17:05:34Z"
       }, 
       "id": 12517756
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511122, 
+        "placetype": "airport", 
         "name": "Aeroporto Estirao do Equador", 
         "alias_ENG_P": [
           "Estirao do Equador Airport"
         ], 
-        "ne_latitude": -4.524, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12578174", 
+          "woe:state=2344847", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511122, 
         "ne_longitude": -71.560, 
         "longitude": -71.565, 
-        "placetype": "Airport", 
+        "parent_woeid": 12578174, 
+        "ne_latitude": -4.524, 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 457164, 
+        "sw_latitude": -4.533, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -4.528, 
         "sw_longitude": -71.570, 
-        "fullname": "Aeroporto Estirao do Equador, Estirao do Equador, Amazonas, Atalaia do Norte, Brazil", 
-        "sw_latitude": -4.533
+        "fullname": "Aeroporto Estirao do Equador, Estirao do Equador, Amazonas, Brazil", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511122
     }

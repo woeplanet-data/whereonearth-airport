@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29387932, 
-        "name": "Christison Airport", 
         "alias_ENG_V": [
           "85mn"
         ], 
-        "ne_latitude": 44.155, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Christison Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588875", 
+          "woe:state=2347582", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29387932, 
         "ne_longitude": -92.202, 
         "longitude": -92.209, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588875, 
+        "ne_latitude": 44.155, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2473422, 
+        "sw_latitude": 44.154, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.154, 
         "sw_longitude": -92.209, 
-        "fullname": "Christison Airport, Plainview, Minnesota, Wabasha, United States", 
-        "sw_latitude": 44.154
+        "fullname": "Christison Airport, Plainview, Minnesota, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29387932
     }

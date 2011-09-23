@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523786, 
-        "name": "Uherske Hradiste Airport", 
         "alias_ENG_V": [
           "UHE"
         ], 
-        "ne_latitude": 49.046, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Uherske Hradiste Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=12605419", 
+          "woe:county=12582554", 
+          "woe:state=20070469", 
+          "woe:country=23424810", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523786, 
         "ne_longitude": 17.457, 
         "longitude": 17.450, 
-        "placetype": "Airport", 
+        "parent_woeid": 12605419, 
+        "ne_latitude": 49.046, 
         "iso": "CZ", 
-        "date_indexed": "2010-12-02T08:56:52Z", 
-        "parent_woeid": 792271, 
+        "sw_latitude": 49.037, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.042, 
         "sw_longitude": 17.443, 
-        "fullname": "Uherske Hradiste Airport, Kunovice, Zl\u00ednsk\u00fd, Uhersk\u00e9 Hradi\u0161t\u011b, Czech Republic", 
-        "sw_latitude": 49.037
+        "fullname": "Uherske Hradiste Airport, Kunovice, Zl\u00ednsk\u00fd, Czech Republic", 
+        "iata_code": "UHE", 
+        "date_indexed": "2010-12-02T08:56:52Z"
       }, 
       "id": 12523786
     }

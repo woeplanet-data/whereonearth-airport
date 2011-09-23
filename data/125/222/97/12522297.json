@@ -3,28 +3,86 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -85.273, 
-              42.291
-            ], 
-            [
-              -85.273, 
-              42.319
-            ], 
-            [
-              -85.236, 
-              42.319
-            ], 
-            [
-              -85.236, 
-              42.291
-            ], 
-            [
-              -85.273, 
-              42.291
+              [
+                -85.239, 
+                42.313
+              ], 
+              [
+                -85.236, 
+                42.317
+              ], 
+              [
+                -85.237, 
+                42.311
+              ], 
+              [
+                -85.239, 
+                42.309
+              ], 
+              [
+                -85.239, 
+                42.305
+              ], 
+              [
+                -85.237, 
+                42.302
+              ], 
+              [
+                -85.240, 
+                42.299
+              ], 
+              [
+                -85.240, 
+                42.295
+              ], 
+              [
+                -85.241, 
+                42.299
+              ], 
+              [
+                -85.246, 
+                42.298
+              ], 
+              [
+                -85.251, 
+                42.298
+              ], 
+              [
+                -85.255, 
+                42.301
+              ], 
+              [
+                -85.257, 
+                42.305
+              ], 
+              [
+                -85.252, 
+                42.309
+              ], 
+              [
+                -85.251, 
+                42.309
+              ], 
+              [
+                -85.249, 
+                42.312
+              ], 
+              [
+                -85.243, 
+                42.314
+              ], 
+              [
+                -85.242, 
+                42.313
+              ], 
+              [
+                -85.239, 
+                42.313
+              ]
             ]
           ]
         ]
@@ -32,23 +90,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522297, 
-        "name": "W K Kellogg Airport", 
         "alias_ENG_V": [
           "BTL"
         ], 
-        "ne_latitude": 42.319, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "W K Kellogg Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588726", 
+          "woe:state=2347581", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522297, 
         "ne_longitude": -85.236, 
-        "longitude": -85.245, 
-        "placetype": "Airport", 
+        "longitude": -85.246, 
+        "parent_woeid": 12588726, 
+        "ne_latitude": 42.317, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2360052, 
+        "sw_latitude": 42.295, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.305, 
-        "sw_longitude": -85.273, 
-        "fullname": "W K Kellogg Airport, Battle Creek, Michigan, Calhoun, United States", 
-        "sw_latitude": 42.291
+        "sw_longitude": -85.257, 
+        "fullname": "W K Kellogg Airport, Battle Creek, Michigan, United States", 
+        "iata_code": "BTL", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522297
     }

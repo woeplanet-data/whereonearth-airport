@@ -32,29 +32,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511026, 
-        "name": "Aeroporto Aracatuba", 
-        "alias_ENG_P": [
-          "Aracatuba Airport"
-        ], 
-        "ne_latitude": -21.129, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "ARU"
         ], 
+        "name": "Aeroporto Aracatuba", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Aracatuba Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12581841", 
+          "woe:state=2344868", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511026, 
         "ne_longitude": -50.417, 
         "longitude": -50.426, 
-        "placetype": "Airport", 
+        "parent_woeid": 12581841, 
+        "ne_latitude": -21.129, 
         "alias_POR_V": [
           "Aeroporto ARU"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:28Z", 
-        "parent_woeid": 455840, 
+        "sw_latitude": -21.152, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -21.144, 
         "sw_longitude": -50.433, 
-        "fullname": "Aeroporto Aracatuba, Ara\u00e7atuba, Sao Paulo, Ara\u00e7atuba, Brazil", 
-        "sw_latitude": -21.152
+        "fullname": "Aeroporto Aracatuba, Ara\u00e7atuba, Sao Paulo, Brazil", 
+        "iata_code": "ARU", 
+        "date_indexed": "2010-12-02T18:01:28Z"
       }, 
       "id": 12511026
     }

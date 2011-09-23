@@ -3,28 +3,34 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -114.563, 
-              35.162
-            ], 
-            [
-              -114.563, 
-              35.169
-            ], 
-            [
-              -114.552, 
-              35.169
-            ], 
-            [
-              -114.552, 
-              35.162
-            ], 
-            [
-              -114.563, 
-              35.162
+              [
+                -114.554, 
+                35.164
+              ], 
+              [
+                -114.556, 
+                35.164
+              ], 
+              [
+                -114.558, 
+                35.166
+              ], 
+              [
+                -114.556, 
+                35.166
+              ], 
+              [
+                -114.553, 
+                35.169
+              ], 
+              [
+                -114.554, 
+                35.164
+              ]
             ]
           ]
         ]
@@ -32,23 +38,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518972, 
-        "name": "Laughlin/bullhead Int'l Airport", 
         "alias_ENG_V": [
           "IFP"
         ], 
+        "name": "Laughlin/bullhead Int'l Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587588", 
+          "woe:state=2347561", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518972, 
+        "ne_longitude": -114.553, 
+        "longitude": -114.555, 
+        "parent_woeid": 12587588, 
         "ne_latitude": 35.169, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -114.552, 
-        "longitude": -114.557, 
-        "placetype": "Airport", 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:15Z", 
-        "parent_woeid": 2371675, 
+        "sw_latitude": 35.164, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.166, 
-        "sw_longitude": -114.563, 
-        "fullname": "Laughlin/bullhead Int'l Airport, Bullhead City, Arizona, Mohave, United States", 
-        "sw_latitude": 35.162
+        "sw_longitude": -114.558, 
+        "fullname": "Laughlin/bullhead Int'l Airport, Bullhead City, Arizona, United States", 
+        "iata_code": "IFP", 
+        "date_indexed": "2010-12-02T18:39:15Z"
       }, 
       "id": 12518972
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516307, 
+        "placetype": "airport", 
         "name": "Kurolino Airport", 
-        "ne_latitude": 58.721, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599404", 
+          "woe:state=2346928", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516307, 
         "ne_longitude": 84.476, 
         "longitude": 84.468, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599404, 
+        "ne_latitude": 58.721, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2062408, 
+        "sw_latitude": 58.712, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 58.717, 
         "sw_longitude": 84.459, 
         "fullname": "Kurolino Airport, Tomskaya Oblast, Verkhneketsky, Russia", 
-        "sw_latitude": 58.712
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516307
     }

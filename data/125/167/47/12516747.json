@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516747, 
+        "placetype": "airport", 
         "name": "Promyslovka Airport", 
-        "ne_latitude": 42.989, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=24505184", 
+          "woe:state=2346886", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516747, 
         "ne_longitude": 132.408, 
         "longitude": 132.402, 
-        "placetype": "Airport", 
+        "parent_woeid": 24505184, 
+        "ne_latitude": 42.989, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2095666, 
+        "sw_latitude": 42.980, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.984, 
         "sw_longitude": 132.395, 
-        "fullname": "Promyslovka Airport, Tikhookeanskij, Primorskiy Kray, Fokino, Russia", 
-        "sw_latitude": 42.980
+        "fullname": "Promyslovka Airport, Tikhookeanskij, Primorskiy Kray, Russia", 
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516747
     }

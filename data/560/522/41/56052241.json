@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 56052241, 
+        "placetype": "airport", 
         "name": "Koromiko Aerodrome", 
-        "ne_latitude": -41.344, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55875875", 
+          "woe:state=15021759", 
+          "woe:country=23424916", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56052241, 
         "ne_longitude": 173.959, 
         "longitude": 173.956, 
-        "placetype": "Airport", 
+        "parent_woeid": 55875875, 
+        "ne_latitude": -41.344, 
         "iso": "NZ", 
-        "date_indexed": "2010-12-02T17:02:39Z", 
-        "parent_woeid": 2349126, 
+        "sw_latitude": -41.350, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -41.347, 
         "sw_longitude": 173.954, 
-        "fullname": "Koromiko Aerodrome, Blenheim, Marlborough, Marlborough District, New Zealand", 
-        "sw_latitude": -41.350
+        "fullname": "Koromiko Aerodrome, Blenheim, Marlborough, New Zealand", 
+        "date_indexed": "2010-12-02T17:02:39Z"
       }, 
       "id": 56052241
     }

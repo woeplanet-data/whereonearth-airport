@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "SWE", 
-        "woeid": 22656499, 
+        "placetype": "airport", 
         "name": "Idre Flygplats", 
         "alias_ENG_P": [
           "Idre Airport"
         ], 
-        "ne_latitude": 61.874, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12587286", 
+          "woe:state=2347053", 
+          "woe:country=23424954", 
+          "woe:planet=1"
+        ], 
+        "woeid": 22656499, 
         "ne_longitude": 12.697, 
         "longitude": 12.688, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587286, 
+        "ne_latitude": 61.874, 
         "iso": "SE", 
-        "date_indexed": "2010-12-02T16:45:55Z", 
-        "parent_woeid": 894059, 
+        "sw_latitude": 61.865, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 61.870, 
         "sw_longitude": 12.678, 
-        "fullname": "Idre Flygplats, Idre, Dalarna, \u00c4lvdalen, Sweden", 
-        "sw_latitude": 61.865
+        "fullname": "Idre Flygplats, Idre, Dalarna, Sweden", 
+        "date_indexed": "2010-12-02T16:45:55Z"
       }, 
       "id": 22656499
     }

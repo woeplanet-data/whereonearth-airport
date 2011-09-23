@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524046, 
-        "name": "Aklavik Airport", 
         "alias_ENG_V": [
           "LAK Airport"
         ], 
-        "ne_latitude": 68.238, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Aklavik Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375229", 
+          "woe:state=2344920", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524046, 
         "ne_longitude": -134.948, 
         "longitude": -134.960, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375229, 
+        "ne_latitude": 68.238, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 4252, 
+        "sw_latitude": 68.229, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 68.233, 
         "sw_longitude": -134.972, 
-        "fullname": "Aklavik Airport, Aklavik, Northwest Territories, Northwest Territories, Canada", 
-        "sw_latitude": 68.229
+        "fullname": "Aklavik Airport, Aklavik, Northwest Territories, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12524046
     }

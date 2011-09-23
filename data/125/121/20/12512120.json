@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512120, 
+        "placetype": "airport", 
         "name": "Lianxian Airport", 
-        "ne_latitude": 24.797, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12687634", 
+          "woe:county=26198167", 
+          "woe:state=12578019", 
+          "woe:country=23424781", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512120, 
         "ne_longitude": 112.340, 
         "longitude": 112.335, 
-        "placetype": "Airport", 
+        "parent_woeid": 12687634, 
+        "ne_latitude": 24.797, 
         "iso": "CN", 
-        "date_indexed": "2010-12-02T08:51:48Z", 
-        "parent_woeid": 2161476, 
+        "sw_latitude": 24.788, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 24.793, 
         "sw_longitude": 112.330, 
-        "fullname": "Lianxian Airport, Lianzhou, Guangdong, Qingyuan, China", 
-        "sw_latitude": 24.788
+        "fullname": "Lianxian Airport, Lianzhou, Guangdong, China", 
+        "date_indexed": "2010-12-02T08:51:48Z"
       }, 
       "id": 12512120
     }

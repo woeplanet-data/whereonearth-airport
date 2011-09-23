@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520082, 
+        "placetype": "airport", 
         "name": "Hardin County Airport", 
-        "ne_latitude": 40.615, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12589559", 
+          "woe:state=2347594", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520082, 
         "ne_longitude": -83.638, 
         "longitude": -83.644, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589559, 
+        "ne_latitude": 40.615, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2431714, 
+        "sw_latitude": 40.606, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.611, 
         "sw_longitude": -83.650, 
-        "fullname": "Hardin County Airport, Kenton, Ohio, Hardin, United States", 
-        "sw_latitude": 40.606
+        "fullname": "Hardin County Airport, Kenton, Ohio, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12520082
     }

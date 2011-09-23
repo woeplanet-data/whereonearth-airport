@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 28677567, 
+        "placetype": "airport", 
         "name": "Finke Landing Ground", 
-        "ne_latitude": -25.589, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=56072989", 
+          "woe:state=2344701", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 28677567, 
         "ne_longitude": 134.590, 
         "longitude": 134.585, 
-        "placetype": "Airport", 
+        "parent_woeid": 56072989, 
+        "ne_latitude": -25.589, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1102051, 
+        "sw_latitude": -25.598, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -25.594, 
         "sw_longitude": 134.580, 
         "fullname": "Finke Landing Ground, Finke, Northern Territory, Australia", 
-        "sw_latitude": -25.598
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 28677567
     }

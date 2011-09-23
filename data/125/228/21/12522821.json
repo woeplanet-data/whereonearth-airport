@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522821, 
+        "placetype": "airport", 
         "name": "Metropolitano Airport", 
-        "ne_latitude": 10.142, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=26805224", 
+          "woe:county=26804603", 
+          "woe:state=2347691", 
+          "woe:country=23424982", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522821, 
         "ne_longitude": -66.781, 
         "longitude": -66.786, 
-        "placetype": "Airport", 
+        "parent_woeid": 26805224, 
+        "ne_latitude": 10.142, 
         "iso": "VE", 
-        "date_indexed": "2010-12-02T16:11:43Z", 
-        "parent_woeid": 468484, 
+        "sw_latitude": 10.133, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 10.137, 
         "sw_longitude": -66.791, 
-        "fullname": "Metropolitano Airport, Ocumare del Tuy, Miranda, Lander, Venezuela", 
-        "sw_latitude": 10.133
+        "fullname": "Metropolitano Airport, Ocumare del Tuy, Miranda, Venezuela", 
+        "date_indexed": "2010-12-02T16:11:43Z"
       }, 
       "id": 12522821
     }

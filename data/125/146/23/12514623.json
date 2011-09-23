@@ -3,28 +3,38 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              18.587, 
-              48.764
-            ], 
-            [
-              18.587, 
-              48.773
-            ], 
-            [
-              18.600, 
-              48.773
-            ], 
-            [
-              18.600, 
-              48.764
-            ], 
-            [
-              18.587, 
-              48.764
+              [
+                18.592, 
+                48.769
+              ], 
+              [
+                18.593, 
+                48.768
+              ], 
+              [
+                18.592, 
+                48.768
+              ], 
+              [
+                18.591, 
+                48.771
+              ], 
+              [
+                18.591, 
+                48.772
+              ], 
+              [
+                18.591, 
+                48.771
+              ], 
+              [
+                18.592, 
+                48.769
+              ]
             ]
           ]
         ]
@@ -32,23 +42,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
+        "name": "Prievidza Airport", 
+        "parent_woeid": 29402094, 
         "woeid": 12514623, 
+        "provider": "geoplanet 7.6.0", 
+        "ne_longitude": 18.593, 
+        "longitude": 18.591, 
         "alias_UNK_V": [
           "Letisko Prievidza"
         ], 
-        "name": "Prievidza Airport", 
-        "ne_latitude": 48.773, 
-        "ne_longitude": 18.600, 
-        "longitude": 18.593, 
-        "parent_woeid": 821801, 
-        "placetype": "Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=29402094", 
+          "woe:county=29399320", 
+          "woe:state=20070493", 
+          "woe:country=23424877", 
+          "woe:planet=1"
+        ], 
         "iso": "SK", 
-        "date_indexed": "2010-12-02T08:50:42Z", 
-        "provider": "geoplanet 7.6.0", 
-        "latitude": 48.769, 
-        "sw_longitude": 18.587, 
-        "fullname": "Prievidza Airport, Prievidza, Trenciansky, Prievidza, Slovakia", 
-        "sw_latitude": 48.764
+        "sw_latitude": 48.768, 
+        "ne_latitude": 48.772, 
+        "latitude": 48.770, 
+        "sw_longitude": 18.591, 
+        "fullname": "Prievidza Airport, Prievidza, Trenciansky, Slovakia", 
+        "date_indexed": "2010-12-02T08:50:42Z"
       }, 
       "id": 12514623
     }

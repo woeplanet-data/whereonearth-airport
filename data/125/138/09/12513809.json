@@ -3,28 +3,38 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              8.664, 
-              45.527
-            ], 
-            [
-              8.664, 
-              45.536
-            ], 
-            [
-              8.676, 
-              45.536
-            ], 
-            [
-              8.676, 
-              45.527
-            ], 
-            [
-              8.664, 
-              45.527
+              [
+                8.699, 
+                45.531
+              ], 
+              [
+                8.700, 
+                45.533
+              ], 
+              [
+                8.702, 
+                45.537
+              ], 
+              [
+                8.702, 
+                45.531
+              ], 
+              [
+                8.702, 
+                45.527
+              ], 
+              [
+                8.700, 
+                45.530
+              ], 
+              [
+                8.699, 
+                45.531
+              ]
             ]
           ]
         ]
@@ -32,20 +42,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513809, 
+        "placetype": "airport", 
         "name": "Cameri Airport", 
-        "ne_latitude": 45.536, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": 8.676, 
-        "longitude": 8.670, 
-        "placetype": "Airport", 
+        "hierarchy": [
+          "woe:localadmin=12677375", 
+          "woe:county=12591859", 
+          "woe:state=7153341", 
+          "woe:country=23424853", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513809, 
+        "ne_longitude": 8.702, 
+        "longitude": 8.701, 
+        "parent_woeid": 12677375, 
+        "ne_latitude": 45.537, 
         "iso": "IT", 
-        "date_indexed": "2010-12-02T16:30:51Z", 
-        "parent_woeid": 711799, 
+        "sw_latitude": 45.527, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.532, 
-        "sw_longitude": 8.664, 
-        "fullname": "Cameri Airport, Cameri, Piedmont, Novara, Italy", 
-        "sw_latitude": 45.527
+        "sw_longitude": 8.699, 
+        "fullname": "Cameri Airport, Cameri, Piedmont, Italy", 
+        "date_indexed": "2010-12-02T16:30:51Z"
       }, 
       "id": 12513809
     }

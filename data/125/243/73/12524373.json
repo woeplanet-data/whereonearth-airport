@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524373, 
-        "name": "Negril Airport", 
         "alias_ENG_V": [
           "NEG"
         ], 
-        "ne_latitude": 18.365, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Negril Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2345913", 
+          "woe:country=23424858", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524373, 
         "ne_longitude": -78.325, 
         "longitude": -78.330, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345913, 
+        "ne_latitude": 18.365, 
         "iso": "JM", 
-        "date_indexed": "2010-12-02T08:59:07Z", 
-        "parent_woeid": 109609, 
+        "sw_latitude": 18.356, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 18.361, 
         "sw_longitude": -78.335, 
         "fullname": "Negril Airport, Hanover, Jamaica", 
-        "sw_latitude": 18.356
+        "iata_code": "NEG", 
+        "date_indexed": "2010-12-02T08:59:07Z"
       }, 
       "id": 12524373
     }

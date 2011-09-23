@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519808, 
+        "placetype": "airport", 
         "name": "Franklin Wilkins Airport", 
-        "ne_latitude": 35.657, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12589950", 
+          "woe:state=2347601", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519808, 
         "ne_longitude": -88.372, 
         "longitude": -88.382, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589950, 
+        "ne_latitude": 35.657, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2438833, 
+        "sw_latitude": 35.644, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.654, 
         "sw_longitude": -88.384, 
-        "fullname": "Franklin Wilkins Airport, Lexington, Tennessee, Henderson, United States", 
-        "sw_latitude": 35.644
+        "fullname": "Franklin Wilkins Airport, Lexington, Tennessee, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12519808
     }

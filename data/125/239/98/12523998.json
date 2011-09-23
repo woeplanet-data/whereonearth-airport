@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523998, 
-        "name": "Outer Skerries Airport", 
         "alias_ENG_V": [
           "OUK Airport"
         ], 
-        "ne_latitude": 60.425, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Outer Skerries Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=12696208", 
+          "woe:county=12602206", 
+          "woe:state=12578048", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523998, 
         "ne_longitude": -0.768, 
         "longitude": -0.777, 
-        "placetype": "Airport", 
+        "parent_woeid": 12696208, 
+        "ne_latitude": 60.425, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:21:01Z", 
-        "parent_woeid": 39694, 
+        "sw_latitude": 60.416, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 60.420, 
         "sw_longitude": -0.786, 
-        "fullname": "Outer Skerries Airport, West Isle, Scotland, Shetland Islands, United Kingdom", 
-        "sw_latitude": 60.416
+        "fullname": "Outer Skerries Airport, West Isle, Scotland, United Kingdom", 
+        "iata_code": "OUK", 
+        "date_indexed": "2010-12-02T12:21:01Z"
       }, 
       "id": 12523998
     }

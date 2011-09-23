@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514951, 
+        "placetype": "airport", 
         "name": "Salina Cruz Airport", 
-        "ne_latitude": 16.216, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12600737", 
+          "woe:state=2346283", 
+          "woe:country=23424900", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514951, 
         "ne_longitude": -95.194, 
         "longitude": -95.199, 
-        "placetype": "Airport", 
+        "parent_woeid": 12600737, 
+        "ne_latitude": 16.216, 
         "iso": "MX", 
-        "date_indexed": "2010-12-02T16:57:55Z", 
-        "parent_woeid": 141169, 
+        "sw_latitude": 16.207, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 16.212, 
         "sw_longitude": -95.203, 
-        "fullname": "Salina Cruz Airport, Salina Cruz, Oaxaca, Salina Cruz, Mexico", 
-        "sw_latitude": 16.207
+        "fullname": "Salina Cruz Airport, Salina Cruz, Oaxaca, Mexico", 
+        "date_indexed": "2010-12-02T16:57:55Z"
       }, 
       "id": 12514951
     }

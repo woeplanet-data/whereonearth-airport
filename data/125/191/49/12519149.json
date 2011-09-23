@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519149, 
-        "name": "Charlottesville Albemarle Airport", 
         "alias_ENG_V": [
           "Charlottesville Albemarle"
         ], 
-        "ne_latitude": 38.147, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Charlottesville Albemarle Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590305", 
+          "woe:state=2347605", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519149, 
         "ne_longitude": -78.446, 
         "longitude": -78.449, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590305, 
+        "ne_latitude": 38.147, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2423419, 
+        "sw_latitude": 38.130, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.140, 
         "sw_longitude": -78.458, 
-        "fullname": "Charlottesville Albemarle Airport, Hollymead, Virginia, Albemarle, United States", 
-        "sw_latitude": 38.130
+        "fullname": "Charlottesville Albemarle Airport, Hollymead, Virginia, United States", 
+        "iata_code": "CHO", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519149
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516616, 
+        "placetype": "airport", 
         "name": "Orekhov Airport", 
-        "ne_latitude": 44.992, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597805", 
+          "woe:state=20070520", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516616, 
         "ne_longitude": 39.978, 
         "longitude": 39.971, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597805, 
+        "ne_latitude": 44.992, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2095629, 
+        "sw_latitude": 44.983, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.988, 
         "sw_longitude": 39.965, 
         "fullname": "Orekhov Airport, Adygeya, Shovgenovsky, Russia", 
-        "sw_latitude": 44.983
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516616
     }

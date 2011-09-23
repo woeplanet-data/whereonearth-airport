@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524068, 
-        "name": "Ross River Airport", 
         "alias_ENG_V": [
           "XRR Airport"
         ], 
-        "ne_latitude": 61.977, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Ross River Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375157", 
+          "woe:state=2344926", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524068, 
         "ne_longitude": -132.416, 
         "longitude": -132.426, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375157, 
+        "ne_latitude": 61.977, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 4234, 
+        "sw_latitude": 61.968, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 61.973, 
         "sw_longitude": -132.436, 
-        "fullname": "Ross River Airport, Ross River, Yukon Territory, Yukon Territory, Canada", 
-        "sw_latitude": 61.968
+        "fullname": "Ross River Airport, Ross River, Yukon Territory, Canada", 
+        "iata_code": "XRR", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12524068
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522137, 
+        "placetype": "airport", 
         "name": "Three M Airport", 
-        "ne_latitude": 40.135, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12589736", 
+          "woe:state=2347597", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522137, 
         "ne_longitude": -74.842, 
         "longitude": -74.848, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589736, 
+        "ne_latitude": 40.135, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2369347, 
+        "sw_latitude": 40.125, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.130, 
         "sw_longitude": -74.853, 
-        "fullname": "Three M Airport, Bristol, Pennsylvania, Bucks, United States", 
-        "sw_latitude": 40.125
+        "fullname": "Three M Airport, Bristol, Pennsylvania, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12522137
     }

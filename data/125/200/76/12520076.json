@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520076, 
-        "name": "Hanford Municipal Airport", 
         "alias_ENG_V": [
           "Hjo"
         ], 
-        "ne_latitude": 36.324, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Hanford Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587685", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520076, 
         "ne_longitude": -119.621, 
         "longitude": -119.628, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587685, 
+        "ne_latitude": 36.324, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2417011, 
+        "sw_latitude": 36.308, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.314, 
         "sw_longitude": -119.635, 
-        "fullname": "Hanford Municipal Airport, Hanford, California, Kings, United States", 
-        "sw_latitude": 36.308
+        "fullname": "Hanford Municipal Airport, Hanford, California, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520076
     }

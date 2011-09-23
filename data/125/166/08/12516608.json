@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516608, 
+        "placetype": "airport", 
         "name": "Omsk East Airport", 
-        "ne_latitude": 54.973, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598899", 
+          "woe:state=2346915", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516608, 
         "ne_longitude": 73.566, 
         "longitude": 73.558, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598899, 
+        "ne_latitude": 54.973, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2075421, 
+        "sw_latitude": 54.964, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 54.969, 
         "sw_longitude": 73.550, 
         "fullname": "Omsk East Airport, Omskaya Oblast, Omsky, Russia", 
-        "sw_latitude": 54.964
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516608
     }

@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 56052004, 
+        "placetype": "airport", 
         "name": "Segelflugplatz Agathazell", 
-        "ne_latitude": 47.559, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12636067", 
+          "woe:county=12596693", 
+          "woe:state=2345482", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56052004, 
         "ne_longitude": 10.275, 
         "longitude": 10.272, 
-        "placetype": "Airport", 
+        "parent_woeid": 12636067, 
+        "ne_latitude": 47.559, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 642517, 
+        "sw_latitude": 47.551, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.554, 
         "sw_longitude": 10.272, 
-        "fullname": "Segelflugplatz Agathazell, Burgberg, Bavaria, Oberallg\u00e4u, Germany", 
-        "sw_latitude": 47.551
+        "fullname": "Segelflugplatz Agathazell, Burgberg, Bavaria, Germany", 
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 56052004
     }

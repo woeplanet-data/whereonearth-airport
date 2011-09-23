@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517416, 
+        "placetype": "airport", 
         "name": "Heidelberg Airport", 
-        "ne_latitude": -26.512, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=56189470", 
+          "woe:county=56189408", 
+          "woe:state=2346981", 
+          "woe:country=23424942", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517416, 
         "ne_longitude": 28.372, 
         "longitude": 28.367, 
-        "placetype": "Airport", 
+        "parent_woeid": 56189470, 
+        "ne_latitude": -26.512, 
         "iso": "ZA", 
-        "date_indexed": "2010-12-02T08:57:46Z", 
-        "parent_woeid": 1582168, 
+        "sw_latitude": -26.521, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -26.517, 
         "sw_longitude": 28.362, 
-        "fullname": "Heidelberg Airport, Heidelberg, Gauteng, Heidelberg, South Africa", 
-        "sw_latitude": -26.521
+        "fullname": "Heidelberg Airport, Heidelberg, Gauteng, South Africa", 
+        "date_indexed": "2010-12-02T08:57:46Z"
       }, 
       "id": 12517416
     }

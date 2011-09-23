@@ -3,28 +3,78 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -158.087, 
-              21.299
-            ], 
-            [
-              -158.087, 
-              21.324
-            ], 
-            [
-              -158.055, 
-              21.324
-            ], 
-            [
-              -158.055, 
-              21.299
-            ], 
-            [
-              -158.087, 
-              21.299
+              [
+                -158.071, 
+                21.314
+              ], 
+              [
+                -158.067, 
+                21.321
+              ], 
+              [
+                -158.064, 
+                21.315
+              ], 
+              [
+                -158.068, 
+                21.312
+              ], 
+              [
+                -158.071, 
+                21.305
+              ], 
+              [
+                -158.066, 
+                21.300
+              ], 
+              [
+                -158.060, 
+                21.301
+              ], 
+              [
+                -158.066, 
+                21.300
+              ], 
+              [
+                -158.069, 
+                21.300
+              ], 
+              [
+                -158.069, 
+                21.299
+              ], 
+              [
+                -158.070, 
+                21.299
+              ], 
+              [
+                -158.071, 
+                21.302
+              ], 
+              [
+                -158.072, 
+                21.304
+              ], 
+              [
+                -158.075, 
+                21.312
+              ], 
+              [
+                -158.077, 
+                21.311
+              ], 
+              [
+                -158.076, 
+                21.315
+              ], 
+              [
+                -158.071, 
+                21.314
+              ]
             ]
           ]
         ]
@@ -32,23 +82,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518737, 
-        "name": "Kalaeloa Airport", 
         "alias_ENG_V": [
           "Barbers Point Naval Air Station"
         ], 
-        "ne_latitude": 21.324, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -158.055, 
-        "longitude": -158.068, 
-        "placetype": "Airport", 
-        "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
+        "name": "Kalaeloa Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:suburb=23417504", 
+          "woe:suburb=55985381", 
+          "woe:county=12588030", 
+          "woe:state=2347570", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518737, 
+        "ne_longitude": -158.060, 
+        "longitude": -158.070, 
         "parent_woeid": 23417504, 
-        "latitude": 21.313, 
-        "sw_longitude": -158.087, 
-        "fullname": "Kalaeloa Airport, Ewa Beach, Hawaii, Honolulu, United States", 
-        "sw_latitude": 21.299
+        "ne_latitude": 21.321, 
+        "iso": "US", 
+        "sw_latitude": 21.299, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 21.311, 
+        "sw_longitude": -158.077, 
+        "fullname": "Kalaeloa Airport, Ewa Beach, Hawaii, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518737
     }

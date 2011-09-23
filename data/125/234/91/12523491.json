@@ -32,29 +32,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12523491, 
-        "name": "Aeroporto Barra do Corda", 
-        "alias_ENG_P": [
-          "Barra do Corda Airport"
-        ], 
-        "ne_latitude": -5.504, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "BDC"
         ], 
+        "name": "Aeroporto Barra do Corda", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Barra do Corda Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12579191", 
+          "woe:state=2344854", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523491, 
         "ne_longitude": -45.252, 
         "longitude": -45.257, 
-        "placetype": "Airport", 
+        "parent_woeid": 12579191, 
+        "ne_latitude": -5.504, 
         "alias_POR_V": [
           "Aeroporto BDC"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:28Z", 
-        "parent_woeid": 456070, 
+        "sw_latitude": -5.513, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -5.508, 
         "sw_longitude": -45.261, 
-        "fullname": "Aeroporto Barra do Corda, Barra do Corda, Maranhao, Barra do Corda, Brazil", 
-        "sw_latitude": -5.513
+        "fullname": "Aeroporto Barra do Corda, Barra do Corda, Maranhao, Brazil", 
+        "iata_code": "BDC", 
+        "date_indexed": "2010-12-02T18:01:28Z"
       }, 
       "id": 12523491
     }

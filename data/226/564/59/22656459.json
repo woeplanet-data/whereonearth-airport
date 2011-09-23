@@ -3,28 +3,50 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              8.636, 
-              49.959
-            ], 
-            [
-              8.636, 
-              49.964
-            ], 
-            [
-              8.652, 
-              49.964
-            ], 
-            [
-              8.652, 
-              49.959
-            ], 
-            [
-              8.636, 
-              49.959
+              [
+                8.642, 
+                49.963
+              ], 
+              [
+                8.641, 
+                49.966
+              ], 
+              [
+                8.644, 
+                49.963
+              ], 
+              [
+                8.644, 
+                49.962
+              ], 
+              [
+                8.650, 
+                49.962
+              ], 
+              [
+                8.644, 
+                49.962
+              ], 
+              [
+                8.644, 
+                49.960
+              ], 
+              [
+                8.642, 
+                49.962
+              ], 
+              [
+                8.637, 
+                49.961
+              ], 
+              [
+                8.642, 
+                49.963
+              ]
             ]
           ]
         ]
@@ -32,23 +54,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 22656459, 
+        "placetype": "airport", 
         "name": "Egelsbach Airport", 
-        "ne_latitude": 49.964, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": 8.652, 
-        "longitude": 8.642, 
-        "placetype": "Airport", 
+        "hierarchy": [
+          "woe:localadmin=12632628", 
+          "woe:county=12597040", 
+          "woe:state=2345485", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 22656459, 
+        "ne_longitude": 8.650, 
+        "longitude": 8.643, 
+        "parent_woeid": 12632628, 
+        "ne_latitude": 49.966, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 646592, 
+        "sw_latitude": 49.960, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.963, 
-        "sw_longitude": 8.636, 
-        "fullname": "Egelsbach Airport, Egelsbach, Hesse, Offenbach, Germany", 
+        "sw_longitude": 8.637, 
+        "fullname": "Egelsbach Airport, Egelsbach, Hesse, Germany", 
         "alias_GER_Q": [
           "Flughafen Egelsbach"
         ], 
-        "sw_latitude": 49.959
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 22656459
     }

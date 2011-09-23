@@ -3,28 +3,34 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -112.005, 
-              46.599
-            ], 
-            [
-              -112.005, 
-              46.614
-            ], 
-            [
-              -111.952, 
-              46.614
-            ], 
-            [
-              -111.952, 
-              46.599
-            ], 
-            [
-              -112.005, 
-              46.599
+              [
+                -111.998, 
+                46.602
+              ], 
+              [
+                -112.000, 
+                46.603
+              ], 
+              [
+                -111.998, 
+                46.603
+              ], 
+              [
+                -111.997, 
+                46.603
+              ], 
+              [
+                -111.998, 
+                46.603
+              ], 
+              [
+                -111.998, 
+                46.602
+              ]
             ]
           ]
         ]
@@ -32,23 +38,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520154, 
-        "name": "Helena Regional Airport", 
         "alias_ENG_V": [
           "HLN"
         ], 
-        "ne_latitude": 46.614, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -111.952, 
-        "longitude": -111.990, 
-        "placetype": "Airport", 
+        "name": "Helena Regional Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589105", 
+          "woe:state=2347585", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520154, 
+        "ne_longitude": -111.997, 
+        "longitude": -111.998, 
+        "parent_woeid": 12589105, 
+        "ne_latitude": 46.603, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2419761, 
-        "latitude": 46.610, 
-        "sw_longitude": -112.005, 
-        "fullname": "Helena Regional Airport, Helena, Montana, Lewis and Clark, United States", 
-        "sw_latitude": 46.599
+        "sw_latitude": 46.602, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 46.603, 
+        "sw_longitude": -112.000, 
+        "fullname": "Helena Regional Airport, Helena, Montana, United States", 
+        "iata_code": "HLN", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520154
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518888, 
+        "placetype": "airport", 
         "name": "Booker Airport", 
-        "ne_latitude": 36.446, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12590154", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518888, 
         "ne_longitude": -100.528, 
         "longitude": -100.533, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590154, 
+        "ne_latitude": 36.446, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:15Z", 
-        "parent_woeid": 2366822, 
+        "sw_latitude": 36.437, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.441, 
         "sw_longitude": -100.539, 
-        "fullname": "Booker Airport, Booker, Texas, Lipscomb, United States", 
-        "sw_latitude": 36.437
+        "fullname": "Booker Airport, Booker, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:15Z"
       }, 
       "id": 12518888
     }

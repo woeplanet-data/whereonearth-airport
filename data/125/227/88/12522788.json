@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522788, 
-        "name": "Vare Maria Airport", 
         "alias_ENG_V": [
           "GDO Airport"
         ], 
-        "ne_latitude": 7.216, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Vare Maria Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=26805680", 
+          "woe:county=26804529", 
+          "woe:state=2347679", 
+          "woe:country=23424982", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522788, 
         "ne_longitude": -70.754, 
         "longitude": -70.758, 
-        "placetype": "Airport", 
+        "parent_woeid": 26805680, 
+        "ne_latitude": 7.216, 
         "iso": "VE", 
-        "date_indexed": "2010-12-02T16:11:43Z", 
-        "parent_woeid": 385951, 
+        "sw_latitude": 7.207, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 7.211, 
         "sw_longitude": -70.763, 
         "fullname": "Vare Maria Airport, Apure, Paez, Venezuela", 
-        "sw_latitude": 7.207
+        "iata_code": "GDO", 
+        "date_indexed": "2010-12-02T16:11:43Z"
       }, 
       "id": 12522788
     }

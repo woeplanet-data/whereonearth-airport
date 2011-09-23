@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511354, 
+        "placetype": "airport", 
         "name": "Aeroporto Tupa", 
         "alias_ENG_P": [
           "Tupa Airport"
         ], 
-        "ne_latitude": -21.883, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12582361", 
+          "woe:state=2344868", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511354, 
         "ne_longitude": -50.501, 
         "longitude": -50.506, 
-        "placetype": "Airport", 
+        "parent_woeid": 12582361, 
+        "ne_latitude": -21.883, 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:28Z", 
-        "parent_woeid": 458211, 
+        "sw_latitude": -21.892, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -21.888, 
         "sw_longitude": -50.511, 
-        "fullname": "Aeroporto Tupa, Tup\u00e3, Sao Paulo, Tup\u00e3, Brazil", 
-        "sw_latitude": -21.892
+        "fullname": "Aeroporto Tupa, Tup\u00e3, Sao Paulo, Brazil", 
+        "date_indexed": "2010-12-02T18:01:28Z"
       }, 
       "id": 12511354
     }

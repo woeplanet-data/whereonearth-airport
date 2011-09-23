@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522874, 
+        "placetype": "airport", 
         "name": "Binh Thuy Airport", 
-        "ne_latitude": 10.091, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2347732", 
+          "woe:country=23424984", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522874, 
         "ne_longitude": 105.718, 
         "longitude": 105.713, 
-        "placetype": "Airport", 
+        "parent_woeid": 2347732, 
+        "ne_latitude": 10.091, 
         "iso": "VN", 
-        "date_indexed": "2010-12-02T08:52:49Z", 
-        "parent_woeid": 1252351, 
+        "sw_latitude": 10.082, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 10.086, 
         "sw_longitude": 105.709, 
         "fullname": "Binh Thuy Airport, Can Tho, Can Tho, Vietnam", 
-        "sw_latitude": 10.082
+        "date_indexed": "2010-12-02T08:52:49Z"
       }, 
       "id": 12522874
     }

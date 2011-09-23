@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518575, 
-        "name": "Allegheny County Airport", 
         "alias_ENG_V": [
           "AGC"
         ], 
-        "ne_latitude": 40.358, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Allegheny County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589729", 
+          "woe:state=2347597", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518575, 
         "ne_longitude": -79.916, 
         "longitude": -79.927, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589729, 
+        "ne_latitude": 40.358, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2517418, 
+        "sw_latitude": 40.349, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.352, 
         "sw_longitude": -79.943, 
-        "fullname": "Allegheny County Airport, West Mifflin, Pennsylvania, Allegheny, United States", 
-        "sw_latitude": 40.349
+        "fullname": "Allegheny County Airport, West Mifflin, Pennsylvania, United States", 
+        "iata_code": "AGC", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518575
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511652, 
-        "name": "Elliot Lake Municipal Airport", 
         "alias_ENG_V": [
           "YEL Airport"
         ], 
-        "ne_latitude": 46.357, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Elliot Lake Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375191", 
+          "woe:state=2344922", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511652, 
         "ne_longitude": -82.550, 
         "longitude": -82.555, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375191, 
+        "ne_latitude": 46.357, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 3206, 
+        "sw_latitude": 46.346, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.353, 
         "sw_longitude": -82.569, 
-        "fullname": "Elliot Lake Municipal Airport, Elliot Lake, Ontario, Algoma, Canada", 
-        "sw_latitude": 46.346
+        "fullname": "Elliot Lake Municipal Airport, Elliot Lake, Ontario, Canada", 
+        "iata_code": "YEL", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12511652
     }

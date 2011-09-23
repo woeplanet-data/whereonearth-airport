@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511106, 
+        "placetype": "airport", 
         "name": "Aeroporto Cucui", 
         "alias_ENG_P": [
           "Cucui Airport"
         ], 
-        "ne_latitude": 1.200, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12578220", 
+          "woe:state=2344847", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511106, 
         "ne_longitude": -66.833, 
         "longitude": -66.838, 
-        "placetype": "Airport", 
+        "parent_woeid": 12578220, 
+        "ne_latitude": 1.200, 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 456165, 
+        "sw_latitude": 1.190, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 1.195, 
         "sw_longitude": -66.842, 
-        "fullname": "Aeroporto Cucui, Cucu\u00ed, Amazonas, S\u00e3o Gabriel da Cachoeira, Brazil", 
-        "sw_latitude": 1.190
+        "fullname": "Aeroporto Cucui, Cucu\u00ed, Amazonas, Brazil", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511106
     }

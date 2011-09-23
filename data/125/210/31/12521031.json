@@ -3,28 +3,30 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -74.433, 
-              40.791
-            ], 
-            [
-              -74.433, 
-              40.815
-            ], 
-            [
-              -74.395, 
-              40.815
-            ], 
-            [
-              -74.395, 
-              40.791
-            ], 
-            [
-              -74.433, 
-              40.791
+              [
+                -74.423, 
+                40.795
+              ], 
+              [
+                -74.423, 
+                40.795
+              ], 
+              [
+                -74.423, 
+                40.799
+              ], 
+              [
+                -74.419, 
+                40.797
+              ], 
+              [
+                -74.423, 
+                40.795
+              ]
             ]
           ]
         ]
@@ -32,23 +34,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521031, 
-        "name": "Morristown Municipal Airport", 
         "alias_ENG_V": [
           "Mmu"
         ], 
-        "ne_latitude": 40.815, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -74.395, 
-        "longitude": -74.426, 
-        "placetype": "Airport", 
+        "name": "Morristown Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589271", 
+          "woe:state=2347589", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521031, 
+        "ne_longitude": -74.419, 
+        "longitude": -74.422, 
+        "parent_woeid": 12589271, 
+        "ne_latitude": 40.799, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 23417725, 
-        "latitude": 40.796, 
-        "sw_longitude": -74.433, 
-        "fullname": "Morristown Municipal Airport, Hanover, New Jersey, Morris, United States", 
-        "sw_latitude": 40.791
+        "sw_latitude": 40.795, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 40.797, 
+        "sw_longitude": -74.423, 
+        "fullname": "Morristown Municipal Airport, Hanover, New Jersey, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12521031
     }

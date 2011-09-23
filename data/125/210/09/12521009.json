@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521009, 
-        "name": "Monticello Municipal Airport", 
         "alias_ENG_V": [
           "MXO"
         ], 
-        "ne_latitude": 42.230, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Monticello Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588324", 
+          "woe:state=2347574", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521009, 
         "ne_longitude": -91.159, 
         "longitude": -91.164, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588324, 
+        "ne_latitude": 42.230, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2453450, 
+        "sw_latitude": 42.215, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.227, 
         "sw_longitude": -91.170, 
-        "fullname": "Monticello Municipal Airport, Monticello, Iowa, Jones, United States", 
-        "sw_latitude": 42.215
+        "fullname": "Monticello Municipal Airport, Monticello, Iowa, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12521009
     }

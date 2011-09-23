@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516496, 
+        "placetype": "airport", 
         "name": "Nikishino Airport", 
-        "ne_latitude": 56.994, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597835", 
+          "woe:state=20070524", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516496, 
         "ne_longitude": 91.424, 
         "longitude": 91.416, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597835, 
+        "ne_latitude": 56.994, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2092154, 
+        "sw_latitude": 56.985, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 56.989, 
         "sw_longitude": 91.407, 
         "fullname": "Nikishino Airport, Krasnoyarskiy Kray, Birilyussky, Russia", 
-        "sw_latitude": 56.985
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516496
     }

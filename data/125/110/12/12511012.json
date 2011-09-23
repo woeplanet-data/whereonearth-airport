@@ -3,28 +3,90 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -49.186, 
-              -25.539
-            ], 
-            [
-              -49.186, 
-              -25.516
-            ], 
-            [
-              -49.161, 
-              -25.516
-            ], 
-            [
-              -49.161, 
-              -25.539
-            ], 
-            [
-              -49.186, 
-              -25.539
+              [
+                -49.177, 
+                -25.563
+              ], 
+              [
+                -49.179, 
+                -25.565
+              ], 
+              [
+                -49.179, 
+                -25.565
+              ], 
+              [
+                -49.181, 
+                -25.566
+              ], 
+              [
+                -49.190, 
+                -25.559
+              ], 
+              [
+                -49.191, 
+                -25.558
+              ], 
+              [
+                -49.201, 
+                -25.537
+              ], 
+              [
+                -49.207, 
+                -25.535
+              ], 
+              [
+                -49.203, 
+                -25.528
+              ], 
+              [
+                -49.185, 
+                -25.520
+              ], 
+              [
+                -49.166, 
+                -25.506
+              ], 
+              [
+                -49.166, 
+                -25.506
+              ], 
+              [
+                -49.173, 
+                -25.527
+              ], 
+              [
+                -49.159, 
+                -25.534
+              ], 
+              [
+                -49.169, 
+                -25.534
+              ], 
+              [
+                -49.174, 
+                -25.538
+              ], 
+              [
+                -49.178, 
+                -25.558
+              ], 
+              [
+                -49.177, 
+                -25.562
+              ], 
+              [
+                -49.177, 
+                -25.563
+              ], 
+              [
+                -49.177, 
+                -25.563
+              ]
             ]
           ]
         ]
@@ -32,29 +94,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511012, 
-        "name": "Aeroporto Internacional Afonso Pena", 
-        "alias_ENG_P": [
-          "Afonso Pena International Airport"
-        ], 
-        "ne_latitude": -25.516, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "CWB Airport"
         ], 
-        "ne_longitude": -49.161, 
-        "longitude": -49.173, 
-        "placetype": "Airport", 
+        "name": "Aeroporto Internacional Afonso Pena", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Afonso Pena International Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12580686", 
+          "woe:state=2344859", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511012, 
+        "ne_longitude": -49.159, 
+        "longitude": -49.184, 
+        "parent_woeid": 12580686, 
+        "ne_latitude": -25.506, 
         "alias_POR_V": [
           "Aeroporto CWB"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 458051, 
-        "latitude": -25.527, 
-        "sw_longitude": -49.186, 
-        "fullname": "Aeroporto Internacional Afonso Pena, Sao Jose dos Pinhais, Parana, S\u00e3o Jos\u00e9 dos Pinhais, Brazil", 
-        "sw_latitude": -25.539
+        "sw_latitude": -25.566, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": -25.536, 
+        "sw_longitude": -49.207, 
+        "fullname": "Aeroporto Internacional Afonso Pena, Sao Jose dos Pinhais, Parana, Brazil", 
+        "iata_code": "CWB", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511012
     }

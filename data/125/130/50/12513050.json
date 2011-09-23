@@ -3,28 +3,66 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              6.540, 
-              49.934
-            ], 
-            [
-              6.540, 
-              49.956
-            ], 
-            [
-              6.586, 
-              49.956
-            ], 
-            [
-              6.586, 
-              49.934
-            ], 
-            [
-              6.540, 
-              49.934
+              [
+                6.564, 
+                49.948
+              ], 
+              [
+                6.565, 
+                49.949
+              ], 
+              [
+                6.565, 
+                49.949
+              ], 
+              [
+                6.568, 
+                49.948
+              ], 
+              [
+                6.565, 
+                49.947
+              ], 
+              [
+                6.564, 
+                49.942
+              ], 
+              [
+                6.561, 
+                49.941
+              ], 
+              [
+                6.558, 
+                49.941
+              ], 
+              [
+                6.557, 
+                49.941
+              ], 
+              [
+                6.558, 
+                49.946
+              ], 
+              [
+                6.558, 
+                49.947
+              ], 
+              [
+                6.559, 
+                49.946
+              ], 
+              [
+                6.563, 
+                49.948
+              ], 
+              [
+                6.564, 
+                49.948
+              ]
             ]
           ]
         ]
@@ -32,20 +70,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513050, 
+        "placetype": "airport", 
         "name": "Bitburg Air Base", 
-        "ne_latitude": 49.956, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": 6.586, 
-        "longitude": 6.564, 
-        "placetype": "Airport", 
+        "hierarchy": [
+          "woe:localadmin=12629103", 
+          "woe:county=12596867", 
+          "woe:state=2345488", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513050, 
+        "ne_longitude": 6.568, 
+        "longitude": 6.562, 
+        "parent_woeid": 12629103, 
+        "ne_latitude": 49.949, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 689240, 
-        "latitude": 49.946, 
-        "sw_longitude": 6.540, 
-        "fullname": "Bitburg Air Base, R\u00f6hl, Rhineland-Palatinate, Bitburg-Pr\u00fcm, Germany", 
-        "sw_latitude": 49.934
+        "sw_latitude": 49.941, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 49.945, 
+        "sw_longitude": 6.557, 
+        "fullname": "Bitburg Air Base, R\u00f6hl, Rhineland-Palatinate, Germany", 
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 12513050
     }

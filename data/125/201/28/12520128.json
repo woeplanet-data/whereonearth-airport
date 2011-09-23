@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520128, 
-        "name": "Hawkins County Airport", 
         "alias_ENG_V": [
           "Rvn"
         ], 
-        "ne_latitude": 36.460, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Hawkins County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589948", 
+          "woe:state=2347601", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520128, 
         "ne_longitude": -82.879, 
         "longitude": -82.885, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589948, 
+        "ne_latitude": 36.460, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2502659, 
+        "sw_latitude": 36.455, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.456, 
         "sw_longitude": -82.891, 
-        "fullname": "Hawkins County Airport, Surgoinsville, Tennessee, Hawkins, United States", 
-        "sw_latitude": 36.455
+        "fullname": "Hawkins County Airport, Surgoinsville, Tennessee, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520128
     }

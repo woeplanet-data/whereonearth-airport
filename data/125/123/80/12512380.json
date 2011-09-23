@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512380, 
+        "placetype": "airport", 
         "name": "Guaymaral Airport", 
-        "ne_latitude": 4.820, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=26797067", 
+          "woe:state=2345078", 
+          "woe:country=23424787", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512380, 
         "ne_longitude": -74.059, 
         "longitude": -74.064, 
-        "placetype": "Airport", 
+        "parent_woeid": 26797067, 
+        "ne_latitude": 4.820, 
         "iso": "CO", 
-        "date_indexed": "2010-12-02T17:57:37Z", 
-        "parent_woeid": 353401, 
+        "sw_latitude": 4.811, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 4.816, 
         "sw_longitude": -74.068, 
-        "fullname": "Guaymaral Airport, Cota, Cundinamarca, Cota, Colombia", 
-        "sw_latitude": 4.811
+        "fullname": "Guaymaral Airport, Cota, Cundinamarca, Colombia", 
+        "date_indexed": "2010-12-02T17:57:37Z"
       }, 
       "id": 12512380
     }

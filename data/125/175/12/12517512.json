@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517512, 
+        "placetype": "airport", 
         "name": "Cerklje Airport", 
-        "ne_latitude": 45.905, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12591516", 
+          "woe:state=55848342", 
+          "woe:country=23424945", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517512, 
         "ne_longitude": 15.538, 
         "longitude": 15.532, 
-        "placetype": "Airport", 
+        "parent_woeid": 12591516, 
+        "ne_latitude": 45.905, 
         "iso": "SI", 
-        "date_indexed": "2010-12-02T09:58:07Z", 
-        "parent_woeid": 55851846, 
+        "sw_latitude": 45.896, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.900, 
         "sw_longitude": 15.525, 
         "fullname": "Cerklje Airport, Brezice, Bre\u017eice, Slovenia", 
-        "sw_latitude": 45.896
+        "date_indexed": "2010-12-02T09:58:07Z"
       }, 
       "id": 12517512
     }

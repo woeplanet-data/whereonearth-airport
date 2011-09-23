@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512747, 
+        "placetype": "airport", 
         "name": "Vasalemma Airport", 
-        "ne_latitude": 59.271, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=29389909", 
+          "woe:state=2345276", 
+          "woe:country=23424805", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512747, 
         "ne_longitude": 24.223, 
         "longitude": 24.214, 
-        "placetype": "Airport", 
+        "parent_woeid": 29389909, 
+        "ne_latitude": 59.271, 
         "iso": "EE", 
-        "date_indexed": "2010-12-02T16:43:34Z", 
-        "parent_woeid": 841928, 
+        "sw_latitude": 59.262, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 59.267, 
         "sw_longitude": 24.205, 
         "fullname": "Vasalemma Airport, Harju County, Vasalemma Parish, Estonia", 
-        "sw_latitude": 59.262
+        "date_indexed": "2010-12-02T16:43:34Z"
       }, 
       "id": 12512747
     }

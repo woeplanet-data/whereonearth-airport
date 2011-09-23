@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515215, 
-        "name": "Pisco Airport", 
         "alias_ENG_V": [
           "PIO"
         ], 
-        "ne_latitude": -13.737, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Pisco Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26805913", 
+          "woe:state=2346478", 
+          "woe:country=23424919", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515215, 
         "ne_longitude": -76.213, 
         "longitude": -76.218, 
-        "placetype": "Airport", 
+        "parent_woeid": 26805913, 
+        "ne_latitude": -13.737, 
         "iso": "PE", 
-        "date_indexed": "2010-12-02T16:12:16Z", 
-        "parent_woeid": 419221, 
+        "sw_latitude": -13.746, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -13.742, 
         "sw_longitude": -76.223, 
-        "fullname": "Pisco Airport, San Andr\u00e9s, Ica, Pisco, Peru", 
-        "sw_latitude": -13.746
+        "fullname": "Pisco Airport, San Andr\u00e9s, Ica, Peru", 
+        "iata_code": "PIO", 
+        "date_indexed": "2010-12-02T16:12:16Z"
       }, 
       "id": 12515215
     }

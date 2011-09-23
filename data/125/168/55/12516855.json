@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516855, 
+        "placetype": "airport", 
         "name": "Shcelyayur Airport", 
-        "ne_latitude": 65.356, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597445", 
+          "woe:state=2346874", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516855, 
         "ne_longitude": 53.444, 
         "longitude": 53.433, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597445, 
+        "ne_latitude": 65.356, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2081832, 
+        "sw_latitude": 65.347, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 65.352, 
         "sw_longitude": 53.422, 
-        "fullname": "Shcelyayur Airport, Shchel'yayur, Komi, Izhemsky, Russia", 
-        "sw_latitude": 65.347
+        "fullname": "Shcelyayur Airport, Shchel'yayur, Komi, Russia", 
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516855
     }

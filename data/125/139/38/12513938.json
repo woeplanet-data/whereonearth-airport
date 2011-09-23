@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513938, 
+        "placetype": "airport", 
         "name": "Umm Qasr Airport", 
-        "ne_latitude": 30.030, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55999902", 
+          "woe:state=2345834", 
+          "woe:country=23424855", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513938, 
         "ne_longitude": 47.930, 
         "longitude": 47.925, 
-        "placetype": "Airport", 
+        "parent_woeid": 55999902, 
+        "ne_latitude": 30.030, 
         "iso": "IQ", 
-        "date_indexed": "2010-12-02T16:42:58Z", 
-        "parent_woeid": 1976259, 
+        "sw_latitude": 30.021, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 30.025, 
         "sw_longitude": 47.920, 
         "fullname": "Umm Qasr Airport, Al Basrah, Al Faw, Iraq", 
-        "sw_latitude": 30.021
+        "date_indexed": "2010-12-02T16:42:58Z"
       }, 
       "id": 12513938
     }

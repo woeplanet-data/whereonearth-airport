@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "CZE", 
-        "woeid": 56049692, 
+        "placetype": "airport", 
         "name": "Mezinarodni Letiste Olomouc", 
-        "ne_latitude": 49.596, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12607265", 
+          "woe:county=12582575", 
+          "woe:state=20070470", 
+          "woe:country=23424810", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56049692, 
         "ne_longitude": 17.217, 
         "longitude": 17.210, 
-        "placetype": "Airport", 
+        "parent_woeid": 12607265, 
+        "ne_latitude": 49.596, 
         "iso": "CZ", 
-        "date_indexed": "2010-12-02T08:56:52Z", 
-        "parent_woeid": 795429, 
+        "sw_latitude": 49.584, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.593, 
         "sw_longitude": 17.200, 
-        "fullname": "Mezinarodni Letiste Olomouc, Olomouc, Olomouck\u00fd, Olomouc, Czech Republic", 
-        "sw_latitude": 49.584
+        "fullname": "Mezinarodni Letiste Olomouc, Olomouc, Olomouck\u00fd, Czech Republic", 
+        "date_indexed": "2010-12-02T08:56:52Z"
       }, 
       "id": 56049692
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515827, 
+        "placetype": "airport", 
         "name": "Bodaybo Airport", 
-        "ne_latitude": 57.867, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598255", 
+          "woe:state=2346896", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515827, 
         "ne_longitude": 114.236, 
         "longitude": 114.227, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598255, 
+        "ne_latitude": 57.867, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 1990361, 
+        "sw_latitude": 57.858, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 57.863, 
         "sw_longitude": 114.219, 
-        "fullname": "Bodaybo Airport, Bodaybo, Irkutskaya Oblast, Bodaybo, Russia", 
-        "sw_latitude": 57.858
+        "fullname": "Bodaybo Airport, Bodaybo, Irkutskaya Oblast, Russia", 
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12515827
     }

@@ -3,67 +3,88 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -103.331, 
-              20.512
-            ], 
-            [
-              -103.331, 
-              20.539
-            ], 
-            [
-              -103.288, 
-              20.539
-            ], 
-            [
-              -103.288, 
-              20.512
-            ], 
-            [
-              -103.331, 
-              20.512
+              [
+                -103.304, 
+                20.526
+              ], 
+              [
+                -103.301, 
+                20.529
+              ], 
+              [
+                -103.298, 
+                20.528
+              ], 
+              [
+                -103.301, 
+                20.525
+              ], 
+              [
+                -103.301, 
+                20.522
+              ], 
+              [
+                -103.303, 
+                20.524
+              ], 
+              [
+                -103.305, 
+                20.526
+              ], 
+              [
+                -103.304, 
+                20.526
+              ]
             ]
           ]
         ]
       }, 
       "type": "Feature", 
       "properties": {
-        "lang": "ENG", 
-        "ne_latitude": 20.539, 
-        "name": "Don Miguel Hidalgo International Airport", 
         "alias_ENG_V": [
           "GDL"
         ], 
+        "hierarchy": [
+          "woe:county=12600231", 
+          "woe:state=2346277", 
+          "woe:country=23424900", 
+          "woe:planet=1"
+        ], 
+        "ne_latitude": 20.529, 
+        "placetype": "airport", 
+        "alias_ITA_V": [
+          "Aeroporto Int'l Di Guadalajara"
+        ], 
         "woeid": 12514863, 
+        "iata_code": "GDL", 
+        "sw_longitude": -103.305, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 20.526, 
+        "sw_latitude": 20.522, 
         "alias_SPA_V": [
           "Aerop Intl Miguel Hidalgo I C"
         ], 
-        "ne_longitude": -103.288, 
-        "longitude": -103.301, 
-        "parent_woeid": 130833, 
-        "placetype": "Airport", 
-        "alias_FRE_V": [
-          "A\u00e9roport Int'l de Guadalajara"
-        ], 
-        "iso": "MX", 
-        "date_indexed": "2010-12-02T16:57:55Z", 
         "alias_DUT_V": [
           "Int'l Luchthaven Guadalajara"
         ], 
-        "provider": "geoplanet 7.6.0", 
-        "latitude": 20.526, 
-        "sw_longitude": -103.331, 
-        "fullname": "Don Miguel Hidalgo International Airport, Las Pintas de Arriba, Jalisco, El Salto, Mexico", 
         "alias_GER_V": [
           "Flughafen Guadalajara"
         ], 
-        "sw_latitude": 20.512, 
-        "alias_ITA_V": [
-          "Aeroporto Int'l Di Guadalajara"
-        ]
+        "lang": "ENG", 
+        "name": "Don Miguel Hidalgo International Airport", 
+        "parent_woeid": 12600231, 
+        "ne_longitude": -103.298, 
+        "longitude": -103.302, 
+        "iso": "MX", 
+        "date_indexed": "2010-12-02T16:57:55Z", 
+        "alias_FRE_V": [
+          "A\u00e9roport Int'l de Guadalajara"
+        ], 
+        "fullname": "Don Miguel Hidalgo International Airport, Las Pintas de Arriba, Jalisco, Mexico"
       }, 
       "id": 12514863
     }

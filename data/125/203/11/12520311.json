@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520311, 
-        "name": "Iowa City Municipal Airport", 
         "alias_ENG_V": [
           "Iowa City Airport"
         ], 
-        "ne_latitude": 41.644, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Iowa City Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588323", 
+          "woe:state=2347574", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520311, 
         "ne_longitude": -91.539, 
         "longitude": -91.539, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588323, 
+        "ne_latitude": 41.644, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2427422, 
+        "sw_latitude": 41.631, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.640, 
         "sw_longitude": -91.560, 
-        "fullname": "Iowa City Municipal Airport, Iowa City, Iowa, Johnson, United States", 
-        "sw_latitude": 41.631
+        "fullname": "Iowa City Municipal Airport, Iowa City, Iowa, United States", 
+        "iata_code": "IOW", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520311
     }

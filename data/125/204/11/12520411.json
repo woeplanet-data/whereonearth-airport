@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520411, 
-        "name": "Sawyer International Airport", 
         "alias_ENG_V": [
           "K I Sawyer Air Force Base"
         ], 
-        "ne_latitude": 46.376, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Sawyer International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588765", 
+          "woe:state=2347581", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520411, 
         "ne_longitude": -87.377, 
         "longitude": -87.387, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588765, 
+        "ne_latitude": 46.376, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2473370, 
+        "sw_latitude": 46.327, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.350, 
         "sw_longitude": -87.414, 
-        "fullname": "Sawyer International Airport, Plains, Michigan, Marquette, United States", 
-        "sw_latitude": 46.327
+        "fullname": "Sawyer International Airport, Plains, Michigan, United States", 
+        "iata_code": "MQT", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520411
     }

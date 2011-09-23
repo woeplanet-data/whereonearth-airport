@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514099, 
+        "placetype": "airport", 
         "name": "Kalacha Southwest Airport", 
-        "ne_latitude": 40.093, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=20070196", 
+          "woe:country=23424864", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514099, 
         "ne_longitude": 69.642, 
         "longitude": 69.636, 
-        "placetype": "Airport", 
+        "parent_woeid": 20070196, 
+        "ne_latitude": 40.093, 
         "iso": "KG", 
-        "date_indexed": "2010-12-02T08:58:47Z", 
-        "parent_woeid": 1969731, 
+        "sw_latitude": 40.084, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.089, 
         "sw_longitude": 69.630, 
         "fullname": "Kalacha Southwest Airport, Suluktu, Batken, Kyrgyzstan", 
-        "sw_latitude": 40.084
+        "date_indexed": "2010-12-02T08:58:47Z"
       }, 
       "id": 12514099
     }

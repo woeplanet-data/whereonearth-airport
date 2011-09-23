@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 56051996, 
+        "placetype": "airport", 
         "name": "Flugplatz Weiden", 
-        "ne_latitude": 49.682, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12634221", 
+          "woe:county=12597110", 
+          "woe:state=2345482", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56051996, 
         "ne_longitude": 12.120, 
         "longitude": 12.114, 
-        "placetype": "Airport", 
+        "parent_woeid": 12634221, 
+        "ne_latitude": 49.682, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 704499, 
+        "sw_latitude": 49.676, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.681, 
         "sw_longitude": 12.112, 
-        "fullname": "Flugplatz Weiden, Weiden, Bavaria, Stadtkreis Weiden in der Oberpfalz, Germany", 
-        "sw_latitude": 49.676
+        "fullname": "Flugplatz Weiden, Weiden, Bavaria, Germany", 
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 56051996
     }

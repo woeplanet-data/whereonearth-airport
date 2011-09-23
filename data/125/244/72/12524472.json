@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524472, 
-        "name": "El Encanto Airport", 
         "alias_ENG_V": [
           "ECO"
         ], 
-        "ne_latitude": -1.612, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "El Encanto Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26797646", 
+          "woe:state=2345047", 
+          "woe:country=23424787", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524472, 
         "ne_longitude": -73.229, 
         "longitude": -73.233, 
-        "placetype": "Airport", 
+        "parent_woeid": 26797646, 
+        "ne_latitude": -1.612, 
         "iso": "CO", 
-        "date_indexed": "2010-12-02T17:57:37Z", 
-        "parent_woeid": 369414, 
+        "sw_latitude": -1.621, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -1.617, 
         "sw_longitude": -73.238, 
         "fullname": "El Encanto Airport, Amazonas, El Encanto, Colombia", 
-        "sw_latitude": -1.621
+        "iata_code": "ECO", 
+        "date_indexed": "2010-12-02T17:57:37Z"
       }, 
       "id": 12524472
     }

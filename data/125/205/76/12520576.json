@@ -3,28 +3,46 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -105.163, 
-              35.641
-            ], 
-            [
-              -105.163, 
-              35.666
-            ], 
-            [
-              -105.132, 
-              35.666
-            ], 
-            [
-              -105.132, 
-              35.641
-            ], 
-            [
-              -105.163, 
-              35.641
+              [
+                -105.148, 
+                35.654
+              ], 
+              [
+                -105.150, 
+                35.659
+              ], 
+              [
+                -105.147, 
+                35.658
+              ], 
+              [
+                -105.145, 
+                35.656
+              ], 
+              [
+                -105.145, 
+                35.651
+              ], 
+              [
+                -105.144, 
+                35.649
+              ], 
+              [
+                -105.148, 
+                35.652
+              ], 
+              [
+                -105.149, 
+                35.653
+              ], 
+              [
+                -105.148, 
+                35.654
+              ]
             ]
           ]
         ]
@@ -32,23 +50,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520576, 
-        "name": "Las Vegas Municipal Airport", 
         "alias_ENG_V": [
           "LVS"
         ], 
-        "ne_latitude": 35.666, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -105.132, 
-        "longitude": -105.148, 
-        "placetype": "Airport", 
+        "name": "Las Vegas Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589303", 
+          "woe:state=2347590", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520576, 
+        "ne_longitude": -105.144, 
+        "longitude": -105.147, 
+        "parent_woeid": 12589303, 
+        "ne_latitude": 35.659, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2358045, 
-        "latitude": 35.652, 
-        "sw_longitude": -105.163, 
-        "fullname": "Las Vegas Municipal Airport, Azui, New Mexico, San Miguel, United States", 
-        "sw_latitude": 35.641
+        "sw_latitude": 35.649, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 35.654, 
+        "sw_longitude": -105.150, 
+        "fullname": "Las Vegas Municipal Airport, Azui, New Mexico, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520576
     }

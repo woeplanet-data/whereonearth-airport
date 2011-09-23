@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523729, 
-        "name": "Taisha Airport", 
         "alias_ENG_V": [
           "TSC"
         ], 
-        "ne_latitude": -2.412, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Taisha Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=26810664", 
+          "woe:county=26809683", 
+          "woe:state=2345216", 
+          "woe:country=23424801", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523729, 
         "ne_longitude": -77.462, 
         "longitude": -77.467, 
-        "placetype": "Airport", 
+        "parent_woeid": 26810664, 
+        "ne_latitude": -2.412, 
         "iso": "EC", 
-        "date_indexed": "2010-12-02T17:51:45Z", 
-        "parent_woeid": 375291, 
+        "sw_latitude": -2.421, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -2.417, 
         "sw_longitude": -77.471, 
-        "fullname": "Taisha Airport, Taisha, Morona-Santiago, Taisha, Ecuador", 
-        "sw_latitude": -2.421
+        "fullname": "Taisha Airport, Taisha, Morona-Santiago, Ecuador", 
+        "iata_code": "TSC", 
+        "date_indexed": "2010-12-02T17:51:45Z"
       }, 
       "id": 12523729
     }

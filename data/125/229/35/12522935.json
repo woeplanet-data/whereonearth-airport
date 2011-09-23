@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522935, 
+        "placetype": "airport", 
         "name": "Nam Can Airport", 
-        "ne_latitude": 8.759, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=20070082", 
+          "woe:country=23424984", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522935, 
         "ne_longitude": 104.988, 
         "longitude": 104.983, 
-        "placetype": "Airport", 
+        "parent_woeid": 20070082, 
+        "ne_latitude": 8.759, 
         "iso": "VN", 
-        "date_indexed": "2010-12-02T08:52:49Z", 
-        "parent_woeid": 1252707, 
+        "sw_latitude": 8.750, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 8.755, 
         "sw_longitude": 104.979, 
         "fullname": "Nam Can Airport, Ca Mau, Vietnam", 
-        "sw_latitude": 8.750
+        "date_indexed": "2010-12-02T08:52:49Z"
       }, 
       "id": 12522935
     }

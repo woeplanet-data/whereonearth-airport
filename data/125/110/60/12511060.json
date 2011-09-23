@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511060, 
+        "placetype": "airport", 
         "name": "Aeroporto Brotas de Macaubas", 
         "alias_ENG_P": [
           "Brotas de Macaubas Airport"
         ], 
-        "ne_latitude": -11.996, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12578284", 
+          "woe:state=2344848", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511060, 
         "ne_longitude": -42.628, 
         "longitude": -42.633, 
-        "placetype": "Airport", 
+        "parent_woeid": 12578284, 
+        "ne_latitude": -11.996, 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 456875, 
+        "sw_latitude": -12.005, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -12.000, 
         "sw_longitude": -42.637, 
-        "fullname": "Aeroporto Brotas de Macaubas, Brotas de Maca\u00fabas, Bahia, Brotas de Maca\u00fabas, Brazil", 
-        "sw_latitude": -12.005
+        "fullname": "Aeroporto Brotas de Macaubas, Brotas de Maca\u00fabas, Bahia, Brazil", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511060
     }

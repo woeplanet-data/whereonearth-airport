@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518730, 
-        "name": "Bakersfield Municipal Airport", 
         "alias_ENG_V": [
           "L45"
         ], 
-        "ne_latitude": 35.332, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Bakersfield Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587684", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518730, 
         "ne_longitude": -118.994, 
         "longitude": -119.003, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587684, 
+        "ne_latitude": 35.332, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2430890, 
+        "sw_latitude": 35.318, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.332, 
         "sw_longitude": -119.003, 
-        "fullname": "Bakersfield Municipal Airport, Kayandee, California, Kern, United States", 
-        "sw_latitude": 35.318
+        "fullname": "Bakersfield Municipal Airport, Kayandee, California, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518730
     }

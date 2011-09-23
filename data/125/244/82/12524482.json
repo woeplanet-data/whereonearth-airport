@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524482, 
-        "name": "Herrera Airport", 
         "alias_ENG_V": [
           "HRR"
         ], 
-        "ne_latitude": 3.221, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Herrera Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26797549", 
+          "woe:state=2345073", 
+          "woe:country=23424787", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524482, 
         "ne_longitude": -75.845, 
         "longitude": -75.850, 
-        "placetype": "Airport", 
+        "parent_woeid": 26797549, 
+        "ne_latitude": 3.221, 
         "iso": "CO", 
-        "date_indexed": "2010-12-02T17:57:37Z", 
-        "parent_woeid": 356568, 
+        "sw_latitude": 3.212, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 3.217, 
         "sw_longitude": -75.855, 
-        "fullname": "Herrera Airport, Gaitania, Tolima, Planadas, Colombia", 
-        "sw_latitude": 3.212
+        "fullname": "Herrera Airport, Gaitania, Tolima, Colombia", 
+        "date_indexed": "2010-12-02T17:57:37Z"
       }, 
       "id": 12524482
     }

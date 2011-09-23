@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515701, 
-        "name": "Amderma Airport", 
         "alias_ENG_V": [
           "AMV"
         ], 
-        "ne_latitude": 69.768, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Amderma Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12598022", 
+          "woe:state=20070509", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515701, 
         "ne_longitude": 61.572, 
         "longitude": 61.559, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598022, 
+        "ne_latitude": 69.768, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2120010, 
+        "sw_latitude": 69.759, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 69.764, 
         "sw_longitude": 61.545, 
-        "fullname": "Amderma Airport, Amderma, Nenetskiy Avtonomnyy Okrug, Amderma, Russia", 
-        "sw_latitude": 69.759
+        "fullname": "Amderma Airport, Amderma, Nenetskiy Avtonomnyy Okrug, Russia", 
+        "iata_code": "AMV", 
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12515701
     }

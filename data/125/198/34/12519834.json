@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519834, 
+        "placetype": "airport", 
         "name": "Fry Airport", 
-        "ne_latitude": 40.193, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12589581", 
+          "woe:state=2347594", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519834, 
         "ne_longitude": -84.250, 
         "longitude": -84.256, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589581, 
+        "ne_latitude": 40.193, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2473075, 
+        "sw_latitude": 40.184, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.188, 
         "sw_longitude": -84.262, 
-        "fullname": "Fry Airport, Piqua, Ohio, Miami, United States", 
-        "sw_latitude": 40.184
+        "fullname": "Fry Airport, Piqua, Ohio, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12519834
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514839, 
+        "placetype": "airport", 
         "name": "Cementos Mexicanos Airport", 
-        "ne_latitude": 21.990, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12601483", 
+          "woe:state=2346287", 
+          "woe:country=23424900", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514839, 
         "ne_longitude": -98.956, 
         "longitude": -98.961, 
-        "placetype": "Airport", 
+        "parent_woeid": 12601483, 
+        "ne_latitude": 21.990, 
         "iso": "MX", 
-        "date_indexed": "2010-12-02T16:57:55Z", 
-        "parent_woeid": 142333, 
+        "sw_latitude": 21.980, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 21.985, 
         "sw_longitude": -98.966, 
-        "fullname": "Cementos Mexicanos Airport, San Felipe, San Luis Potosi, Ciudad Valles, Mexico", 
-        "sw_latitude": 21.980
+        "fullname": "Cementos Mexicanos Airport, San Felipe, San Luis Potosi, Mexico", 
+        "date_indexed": "2010-12-02T16:57:55Z"
       }, 
       "id": 12514839
     }

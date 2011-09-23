@@ -3,28 +3,30 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -97.876, 
-              38.058
-            ], 
-            [
-              -97.876, 
-              38.079
-            ], 
-            [
-              -97.846, 
-              38.079
-            ], 
-            [
-              -97.846, 
-              38.058
-            ], 
-            [
-              -97.876, 
-              38.058
+              [
+                -97.873, 
+                38.050
+              ], 
+              [
+                -97.873, 
+                38.049
+              ], 
+              [
+                -97.874, 
+                38.050
+              ], 
+              [
+                -97.872, 
+                38.053
+              ], 
+              [
+                -97.873, 
+                38.050
+              ]
             ]
           ]
         ]
@@ -32,23 +34,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520272, 
-        "name": "Hutchinson Municipal Airport", 
         "alias_ENG_V": [
           "Hutchinson Airport"
         ], 
-        "ne_latitude": 38.079, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -97.846, 
-        "longitude": -97.866, 
-        "placetype": "Airport", 
+        "name": "Hutchinson Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588448", 
+          "woe:state=2347575", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520272, 
+        "ne_longitude": -97.872, 
+        "longitude": -97.873, 
+        "parent_woeid": 12588448, 
+        "ne_latitude": 38.053, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2426209, 
-        "latitude": 38.061, 
-        "sw_longitude": -97.876, 
-        "fullname": "Hutchinson Municipal Airport, Hutchinson, Kansas, Reno, United States", 
-        "sw_latitude": 38.058
+        "sw_latitude": 38.049, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 38.051, 
+        "sw_longitude": -97.874, 
+        "fullname": "Hutchinson Municipal Airport, Hutchinson, Kansas, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520272
     }

@@ -3,28 +3,46 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -112.432, 
-              34.641
-            ], 
-            [
-              -112.432, 
-              34.664
-            ], 
-            [
-              -112.409, 
-              34.664
-            ], 
-            [
-              -112.409, 
-              34.641
-            ], 
-            [
-              -112.432, 
-              34.641
+              [
+                -112.424, 
+                34.646
+              ], 
+              [
+                -112.425, 
+                34.646
+              ], 
+              [
+                -112.426, 
+                34.648
+              ], 
+              [
+                -112.428, 
+                34.649
+              ], 
+              [
+                -112.428, 
+                34.649
+              ], 
+              [
+                -112.424, 
+                34.650
+              ], 
+              [
+                -112.422, 
+                34.652
+              ], 
+              [
+                -112.423, 
+                34.647
+              ], 
+              [
+                -112.424, 
+                34.646
+              ]
             ]
           ]
         ]
@@ -32,23 +50,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519656, 
-        "name": "Ernest A Love Field Airport", 
         "alias_ENG_V": [
           "Ernest A Love Airport"
         ], 
-        "ne_latitude": 34.664, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -112.409, 
-        "longitude": -112.428, 
-        "placetype": "Airport", 
+        "name": "Ernest A Love Field Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587593", 
+          "woe:state=2347561", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519656, 
+        "ne_longitude": -112.422, 
+        "longitude": -112.425, 
+        "parent_woeid": 12587593, 
+        "ne_latitude": 34.652, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2476440, 
+        "sw_latitude": 34.646, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 34.649, 
-        "sw_longitude": -112.432, 
-        "fullname": "Ernest A Love Field Airport, Prescott, Arizona, Yavapai, United States", 
-        "sw_latitude": 34.641
+        "sw_longitude": -112.428, 
+        "fullname": "Ernest A Love Field Airport, Prescott, Arizona, United States", 
+        "iata_code": "PRC", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12519656
     }

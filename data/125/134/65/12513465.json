@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513465, 
-        "name": "Frans Kaisiepo Airport", 
         "alias_ENG_V": [
           "BIK Airport"
         ], 
-        "ne_latitude": -1.199, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Frans Kaisiepo Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=56000217", 
+          "woe:state=2345718", 
+          "woe:country=23424846", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513465, 
         "ne_longitude": 136.118, 
         "longitude": 136.114, 
-        "placetype": "Airport", 
+        "parent_woeid": 56000217, 
+        "ne_latitude": -1.199, 
         "iso": "ID", 
-        "date_indexed": "2010-12-02T16:54:32Z", 
-        "parent_woeid": 1047938, 
+        "sw_latitude": -1.208, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -1.203, 
         "sw_longitude": 136.109, 
         "fullname": "Frans Kaisiepo Airport, Papua, Biak Numfor, Indonesia", 
-        "sw_latitude": -1.208
+        "iata_code": "BIK", 
+        "date_indexed": "2010-12-02T16:54:32Z"
       }, 
       "id": 12513465
     }

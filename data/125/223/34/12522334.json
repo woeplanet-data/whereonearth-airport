@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522334, 
-        "name": "Wasco State Airport", 
         "alias_ENG_V": [
           "35s"
         ], 
-        "ne_latitude": 45.592, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Wasco State Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589719", 
+          "woe:state=2347596", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522334, 
         "ne_longitude": -120.667, 
         "longitude": -120.667, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589719, 
+        "ne_latitude": 45.592, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2514559, 
+        "sw_latitude": 45.589, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.590, 
         "sw_longitude": -120.692, 
-        "fullname": "Wasco State Airport, Wasco, Oregon, Sherman, United States", 
-        "sw_latitude": 45.589
+        "fullname": "Wasco State Airport, Wasco, Oregon, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522334
     }

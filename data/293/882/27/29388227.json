@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388227, 
-        "name": "Jones Field Airport", 
         "alias_ENG_V": [
           "F00"
         ], 
-        "ne_latitude": 33.623, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Jones Field Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590080", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388227, 
         "ne_longitude": -96.174, 
         "longitude": -96.177, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590080, 
+        "ne_latitude": 33.623, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2366659, 
+        "sw_latitude": 33.606, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 33.613, 
         "sw_longitude": -96.186, 
-        "fullname": "Jones Field Airport, Bonham, Texas, Fannin, United States", 
-        "sw_latitude": 33.606
+        "fullname": "Jones Field Airport, Bonham, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388227
     }

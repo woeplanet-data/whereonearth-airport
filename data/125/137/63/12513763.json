@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513763, 
+        "placetype": "airport", 
         "name": "Shahrud Airport", 
-        "ne_latitude": 36.425, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345784", 
+          "woe:country=23424851", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513763, 
         "ne_longitude": 55.106, 
         "longitude": 55.101, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345784, 
+        "ne_latitude": 36.425, 
         "iso": "IR", 
-        "date_indexed": "2010-12-02T08:53:52Z", 
-        "parent_woeid": 2226204, 
+        "sw_latitude": 36.416, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.421, 
         "sw_longitude": 55.095, 
         "fullname": "Shahrud Airport, Emamshahr, Semnan, Iran", 
-        "sw_latitude": 36.416
+        "date_indexed": "2010-12-02T08:53:52Z"
       }, 
       "id": 12513763
     }

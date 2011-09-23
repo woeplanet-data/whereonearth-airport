@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388056, 
-        "name": "Missouri Valley Airport", 
         "alias_ENG_V": [
           "90ia"
         ], 
-        "ne_latitude": 41.543, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Missouri Valley Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588314", 
+          "woe:state=2347574", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388056, 
         "ne_longitude": -95.886, 
         "longitude": -95.888, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588314, 
+        "ne_latitude": 41.543, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2452380, 
+        "sw_latitude": 41.536, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.541, 
         "sw_longitude": -95.890, 
-        "fullname": "Missouri Valley Airport, Missouri Valley, Iowa, Harrison, United States", 
-        "sw_latitude": 41.536
+        "fullname": "Missouri Valley Airport, Missouri Valley, Iowa, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388056
     }

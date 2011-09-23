@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514120, 
+        "placetype": "airport", 
         "name": "Talass Airport", 
-        "ne_latitude": 42.643, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=20070192", 
+          "woe:country=23424864", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514120, 
         "ne_longitude": 71.582, 
         "longitude": 71.576, 
-        "placetype": "Airport", 
+        "parent_woeid": 20070192, 
+        "ne_latitude": 42.643, 
         "iso": "KG", 
-        "date_indexed": "2010-12-02T08:58:47Z", 
-        "parent_woeid": 1969930, 
+        "sw_latitude": 42.634, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.638, 
         "sw_longitude": 71.570, 
         "fullname": "Talass Airport, Talas, Kyrgyzstan", 
-        "sw_latitude": 42.634
+        "date_indexed": "2010-12-02T08:58:47Z"
       }, 
       "id": 12514120
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388461, 
-        "name": "Eagle Crest Aerodrome", 
         "alias_ENG_V": [
           "De25"
         ], 
-        "ne_latitude": 38.781, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Eagle Crest Aerodrome", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587801", 
+          "woe:state=2347566", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388461, 
         "ne_longitude": -75.226, 
         "longitude": -75.228, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587801, 
+        "ne_latitude": 38.781, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2466908, 
+        "sw_latitude": 38.769, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.776, 
         "sw_longitude": -75.239, 
-        "fullname": "Eagle Crest Aerodrome, Overbrook, Delaware, Sussex, United States", 
-        "sw_latitude": 38.769
+        "fullname": "Eagle Crest Aerodrome, Overbrook, Delaware, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388461
     }

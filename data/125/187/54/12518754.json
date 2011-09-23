@@ -3,28 +3,82 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -91.163, 
-              30.524
-            ], 
-            [
-              -91.163, 
-              30.543
-            ], 
-            [
-              -91.139, 
-              30.543
-            ], 
-            [
-              -91.139, 
-              30.524
-            ], 
-            [
-              -91.163, 
-              30.524
+              [
+                -91.150, 
+                30.527
+              ], 
+              [
+                -91.150, 
+                30.526
+              ], 
+              [
+                -91.151, 
+                30.526
+              ], 
+              [
+                -91.154, 
+                30.525
+              ], 
+              [
+                -91.154, 
+                30.524
+              ], 
+              [
+                -91.154, 
+                30.524
+              ], 
+              [
+                -91.150, 
+                30.525
+              ], 
+              [
+                -91.148, 
+                30.527
+              ], 
+              [
+                -91.149, 
+                30.527
+              ], 
+              [
+                -91.149, 
+                30.527
+              ], 
+              [
+                -91.151, 
+                30.533
+              ], 
+              [
+                -91.156, 
+                30.531
+              ], 
+              [
+                -91.159, 
+                30.533
+              ], 
+              [
+                -91.159, 
+                30.534
+              ], 
+              [
+                -91.157, 
+                30.533
+              ], 
+              [
+                -91.156, 
+                30.533
+              ], 
+              [
+                -91.151, 
+                30.533
+              ], 
+              [
+                -91.150, 
+                30.527
+              ]
             ]
           ]
         ]
@@ -32,23 +86,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518754, 
-        "name": "Baton Rouge Metro Airport", 
         "alias_ENG_V": [
           "Baton Rouge Metropolitan Airport"
         ], 
-        "ne_latitude": 30.543, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -91.139, 
-        "longitude": -91.157, 
-        "placetype": "Airport", 
-        "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
+        "name": "Baton Rouge Metro Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:suburb=55857916", 
+          "woe:county=12588612", 
+          "woe:state=2347577", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518754, 
+        "ne_longitude": -91.148, 
+        "longitude": -91.624, 
         "parent_woeid": 55857916, 
-        "latitude": 30.533, 
-        "sw_longitude": -91.163, 
-        "fullname": "Baton Rouge Metro Airport, Baton Rouge, Louisiana, East Baton Rouge Parish, United States", 
-        "sw_latitude": 30.524
+        "ne_latitude": 30.534, 
+        "iso": "US", 
+        "sw_latitude": 30.524, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 31.158, 
+        "sw_longitude": -91.159, 
+        "fullname": "Baton Rouge Metro Airport, Baton Rouge, Louisiana, United States", 
+        "iata_code": "BTR", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518754
     }

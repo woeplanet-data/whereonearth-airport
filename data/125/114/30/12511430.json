@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511430, 
+        "placetype": "airport", 
         "name": "Gorna Lipnitsa Airport", 
-        "ne_latitude": 43.313, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55873802", 
+          "woe:state=20070063", 
+          "woe:country=23424771", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511430, 
         "ne_longitude": 25.391, 
         "longitude": 25.385, 
-        "placetype": "Airport", 
+        "parent_woeid": 55873802, 
+        "ne_latitude": 43.313, 
         "iso": "BG", 
-        "date_indexed": "2010-12-02T16:14:37Z", 
-        "parent_woeid": 836485, 
+        "sw_latitude": 43.304, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.308, 
         "sw_longitude": 25.379, 
         "fullname": "Gorna Lipnitsa Airport, Veliko Turnovo, Pavlikeni, Bulgaria", 
-        "sw_latitude": 43.304
+        "date_indexed": "2010-12-02T16:14:37Z"
       }, 
       "id": 12511430
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514056, 
-        "name": "King Faisal Airport", 
         "alias_ENG_V": [
           "JFR"
         ], 
-        "ne_latitude": 30.349, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "King Faisal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2345928", 
+          "woe:country=23424860", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514056, 
         "ne_longitude": 36.151, 
         "longitude": 36.146, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345928, 
+        "ne_latitude": 30.349, 
         "iso": "JO", 
-        "date_indexed": "2010-12-02T12:08:12Z", 
-        "parent_woeid": 1968308, 
+        "sw_latitude": 30.340, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 30.345, 
         "sw_longitude": 36.141, 
         "fullname": "King Faisal Airport, Ma'an, Jordan", 
-        "sw_latitude": 30.340
+        "iata_code": "JFR", 
+        "date_indexed": "2010-12-02T12:08:12Z"
       }, 
       "id": 12514056
     }

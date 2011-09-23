@@ -3,28 +3,78 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              100.259, 
-              5.279
-            ], 
-            [
-              100.259, 
-              5.315
-            ], 
-            [
-              100.293, 
-              5.315
-            ], 
-            [
-              100.293, 
-              5.279
-            ], 
-            [
-              100.259, 
-              5.279
+              [
+                100.267, 
+                5.293
+              ], 
+              [
+                100.266, 
+                5.293
+              ], 
+              [
+                100.266, 
+                5.293
+              ], 
+              [
+                100.265, 
+                5.295
+              ], 
+              [
+                100.265, 
+                5.298
+              ], 
+              [
+                100.269, 
+                5.299
+              ], 
+              [
+                100.269, 
+                5.303
+              ], 
+              [
+                100.274, 
+                5.303
+              ], 
+              [
+                100.277, 
+                5.302
+              ], 
+              [
+                100.277, 
+                5.297
+              ], 
+              [
+                100.274, 
+                5.299
+              ], 
+              [
+                100.274, 
+                5.299
+              ], 
+              [
+                100.269, 
+                5.299
+              ], 
+              [
+                100.267, 
+                5.293
+              ], 
+              [
+                100.272, 
+                5.293
+              ], 
+              [
+                100.269, 
+                5.289
+              ], 
+              [
+                100.267, 
+                5.293
+              ]
             ]
           ]
         ]
@@ -32,23 +82,32 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515004, 
-        "name": "Penang International Airport", 
         "alias_ENG_V": [
           "Penang Airport"
         ], 
-        "ne_latitude": 5.315, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": 100.293, 
-        "longitude": 100.266, 
-        "placetype": "Airport", 
-        "iso": "MY", 
-        "date_indexed": "2010-12-02T18:04:56Z", 
+        "name": "Penang International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:suburb=1140841", 
+          "woe:localadmin=56013984", 
+          "woe:county=56013581", 
+          "woe:state=2346304", 
+          "woe:country=23424901", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515004, 
+        "ne_longitude": 100.277, 
+        "longitude": 100.271, 
         "parent_woeid": 1140841, 
-        "latitude": 5.293, 
-        "sw_longitude": 100.259, 
-        "fullname": "Penang International Airport, Kampong Sungai Gelugor, Pulau Pinang, Timur Laut, Malaysia", 
-        "sw_latitude": 5.279
+        "ne_latitude": 5.303, 
+        "iso": "MY", 
+        "sw_latitude": 5.289, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 5.298, 
+        "sw_longitude": 100.265, 
+        "fullname": "Penang International Airport, Kampong Sungai Gelugor, Pulau Pinang, Malaysia", 
+        "iata_code": "PEN", 
+        "date_indexed": "2010-12-02T18:04:56Z"
       }, 
       "id": 12515004
     }

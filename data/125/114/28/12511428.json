@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511428, 
+        "placetype": "airport", 
         "name": "Golesh Airport", 
-        "ne_latitude": 43.955, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55873850", 
+          "woe:state=20070070", 
+          "woe:country=23424771", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511428, 
         "ne_longitude": 27.600, 
         "longitude": 27.593, 
-        "placetype": "Airport", 
+        "parent_woeid": 55873850, 
+        "ne_latitude": 43.955, 
         "iso": "BG", 
-        "date_indexed": "2010-12-02T16:14:37Z", 
-        "parent_woeid": 836403, 
+        "sw_latitude": 43.946, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.950, 
         "sw_longitude": 27.587, 
         "fullname": "Golesh Airport, Silistra, Kaynardzha, Bulgaria", 
-        "sw_latitude": 43.946
+        "date_indexed": "2010-12-02T16:14:37Z"
       }, 
       "id": 12511428
     }

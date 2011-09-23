@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520385, 
-        "name": "Johnson City Airport", 
         "alias_ENG_V": [
           "JCY"
         ], 
-        "ne_latitude": 30.256, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Johnson City Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590092", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520385, 
         "ne_longitude": -98.617, 
         "longitude": -98.622, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590092, 
+        "ne_latitude": 30.256, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2500389, 
+        "sw_latitude": 30.247, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 30.252, 
         "sw_longitude": -98.627, 
-        "fullname": "Johnson City Airport, Stonewall, Texas, Gillespie, United States", 
-        "sw_latitude": 30.247
+        "fullname": "Johnson City Airport, Stonewall, Texas, United States", 
+        "iata_code": "JCY", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12520385
     }

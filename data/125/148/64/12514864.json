@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514864, 
-        "name": "Durango Airport", 
         "alias_ENG_V": [
           "DGO"
         ], 
-        "ne_latitude": 24.133, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Durango Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12599954", 
+          "woe:state=2346273", 
+          "woe:country=23424900", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514864, 
         "ne_longitude": -104.523, 
         "longitude": -104.527, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599954, 
+        "ne_latitude": 24.133, 
         "iso": "MX", 
-        "date_indexed": "2010-12-02T16:57:55Z", 
-        "parent_woeid": 129695, 
+        "sw_latitude": 24.124, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 24.128, 
         "sw_longitude": -104.532, 
-        "fullname": "Durango Airport, Labor de Guadaloupe, Durango, Durango, Mexico", 
-        "sw_latitude": 24.124
+        "fullname": "Durango Airport, Labor de Guadaloupe, Durango, Mexico", 
+        "iata_code": "DGO", 
+        "date_indexed": "2010-12-02T16:57:55Z"
       }, 
       "id": 12514864
     }

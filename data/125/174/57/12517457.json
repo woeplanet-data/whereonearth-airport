@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517457, 
+        "placetype": "airport", 
         "name": "Parys Airport", 
-        "ne_latitude": -26.882, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=56189566", 
+          "woe:county=56189420", 
+          "woe:state=2346980", 
+          "woe:country=23424942", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517457, 
         "ne_longitude": 27.512, 
         "longitude": 27.507, 
-        "placetype": "Airport", 
+        "parent_woeid": 56189566, 
+        "ne_latitude": -26.882, 
         "iso": "ZA", 
-        "date_indexed": "2010-12-02T08:57:52Z", 
-        "parent_woeid": 1588314, 
+        "sw_latitude": -26.891, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -26.887, 
         "sw_longitude": 27.502, 
-        "fullname": "Parys Airport, Tumahole, Free State, Parys, South Africa", 
-        "sw_latitude": -26.891
+        "fullname": "Parys Airport, Tumahole, Free State, South Africa", 
+        "date_indexed": "2010-12-02T08:57:52Z"
       }, 
       "id": 12517457
     }

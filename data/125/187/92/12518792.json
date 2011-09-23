@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518792, 
+        "placetype": "airport", 
         "name": "Belridge Strip Airport", 
-        "ne_latitude": 35.473, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12587684", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518792, 
         "ne_longitude": -119.716, 
         "longitude": -119.721, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587684, 
+        "ne_latitude": 35.473, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:15Z", 
-        "parent_woeid": 2452379, 
+        "sw_latitude": 35.464, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.468, 
         "sw_longitude": -119.727, 
-        "fullname": "Belridge Strip Airport, Missouri Triangle, California, Kern, United States", 
-        "sw_latitude": 35.464
+        "fullname": "Belridge Strip Airport, Missouri Triangle, California, United States", 
+        "date_indexed": "2010-12-02T18:39:15Z"
       }, 
       "id": 12518792
     }

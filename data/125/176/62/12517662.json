@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "SWE", 
-        "woeid": 12517662, 
+        "placetype": "airport", 
         "name": "Moholm Flygplats", 
         "alias_ENG_P": [
           "Moholm Airport"
         ], 
-        "ne_latitude": 58.603, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12587396", 
+          "woe:state=20070562", 
+          "woe:country=23424954", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517662, 
         "ne_longitude": 14.122, 
         "longitude": 14.114, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587396, 
+        "ne_latitude": 58.603, 
         "iso": "SE", 
-        "date_indexed": "2010-12-02T16:45:55Z", 
-        "parent_woeid": 898617, 
+        "sw_latitude": 58.594, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 58.598, 
         "sw_longitude": 14.105, 
-        "fullname": "Moholm Flygplats, Lagerfors, Vastra Gotaland, T\u00f6reboda, Sweden", 
-        "sw_latitude": 58.594
+        "fullname": "Moholm Flygplats, Lagerfors, Vastra Gotaland, Sweden", 
+        "date_indexed": "2010-12-02T16:45:55Z"
       }, 
       "id": 12517662
     }

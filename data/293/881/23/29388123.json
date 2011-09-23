@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388123, 
+        "placetype": "airport", 
         "name": "Victoria Pratt Airport", 
-        "ne_latitude": 38.911, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12588396", 
+          "woe:state=2347575", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388123, 
         "ne_longitude": -99.081, 
         "longitude": -99.098, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588396, 
+        "ne_latitude": 38.911, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2513473, 
+        "sw_latitude": 38.875, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.882, 
         "sw_longitude": -99.114, 
-        "fullname": "Victoria Pratt Airport, Walker, Kansas, Ellis, United States", 
-        "sw_latitude": 38.875
+        "fullname": "Victoria Pratt Airport, Walker, Kansas, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388123
     }

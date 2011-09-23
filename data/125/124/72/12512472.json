@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512472, 
+        "placetype": "airport", 
         "name": "Managua Airport", 
-        "ne_latitude": 22.973, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345107", 
+          "woe:country=23424793", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512472, 
         "ne_longitude": -82.253, 
         "longitude": -82.258, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345107, 
+        "ne_latitude": 22.973, 
         "iso": "CU", 
-        "date_indexed": "2010-12-02T08:58:58Z", 
-        "parent_woeid": 65221, 
+        "sw_latitude": 22.964, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 22.968, 
         "sw_longitude": -82.263, 
         "fullname": "Managua Airport, Managua, Ciudad de la Habana, Cuba", 
-        "sw_latitude": 22.964
+        "date_indexed": "2010-12-02T08:58:58Z"
       }, 
       "id": 12512472
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 28677672, 
+        "placetype": "airport", 
         "name": "Wrotham Park Aerodrome", 
-        "ne_latitude": -16.654, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=56072998", 
+          "woe:state=2344702", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 28677672, 
         "ne_longitude": 144.005, 
         "longitude": 144.000, 
-        "placetype": "Airport", 
+        "parent_woeid": 56072998, 
+        "ne_latitude": -16.654, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 28588154, 
+        "sw_latitude": -16.663, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -16.658, 
         "sw_longitude": 143.995, 
-        "fullname": "Wrotham Park Aerodrome, Wrotham, Queensland, Mareeba, Australia", 
-        "sw_latitude": -16.663
+        "fullname": "Wrotham Park Aerodrome, Wrotham, Queensland, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 28677672
     }

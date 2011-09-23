@@ -32,29 +32,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511031, 
-        "name": "Aeroporto Arapongas", 
-        "alias_ENG_P": [
-          "Arapongas Airport"
-        ], 
-        "ne_latitude": -23.358, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "APX"
         ], 
+        "name": "Aeroporto Arapongas", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Arapongas Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12580418", 
+          "woe:state=2344859", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511031, 
         "ne_longitude": -51.474, 
         "longitude": -51.479, 
-        "placetype": "Airport", 
+        "parent_woeid": 12580418, 
+        "ne_latitude": -23.358, 
         "alias_POR_V": [
           "Aeroporto APX"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 444387, 
+        "sw_latitude": -23.367, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -23.362, 
         "sw_longitude": -51.484, 
-        "fullname": "Aeroporto Arapongas, Pirap\u00f3, Parana, Arapongas, Brazil", 
-        "sw_latitude": -23.367
+        "fullname": "Aeroporto Arapongas, Pirap\u00f3, Parana, Brazil", 
+        "iata_code": "APX", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511031
     }

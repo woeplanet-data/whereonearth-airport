@@ -3,28 +3,34 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              29.309, 
-              -3.343
-            ], 
-            [
-              29.309, 
-              -3.320
-            ], 
-            [
-              29.332, 
-              -3.320
-            ], 
-            [
-              29.332, 
-              -3.343
-            ], 
-            [
-              29.309, 
-              -3.343
+              [
+                29.324, 
+                -3.355
+              ], 
+              [
+                29.321, 
+                -3.354
+              ], 
+              [
+                29.318, 
+                -3.353
+              ], 
+              [
+                29.319, 
+                -3.353
+              ], 
+              [
+                29.323, 
+                -3.353
+              ], 
+              [
+                29.324, 
+                -3.355
+              ]
             ]
           ]
         ]
@@ -32,23 +38,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511564, 
-        "name": "Bujumbura Airport", 
         "alias_ENG_V": [
           "BJM"
         ], 
-        "ne_latitude": -3.320, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": 29.332, 
+        "name": "Bujumbura Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=56017554", 
+          "woe:state=56017453", 
+          "woe:country=23424774", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511564, 
+        "ne_longitude": 29.324, 
         "longitude": 29.321, 
-        "placetype": "Airport", 
+        "parent_woeid": 56017554, 
+        "ne_latitude": -3.353, 
         "iso": "BI", 
-        "date_indexed": "2010-12-02T08:58:52Z", 
-        "parent_woeid": 1270285, 
-        "latitude": -3.332, 
-        "sw_longitude": 29.309, 
+        "sw_latitude": -3.355, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": -3.354, 
+        "sw_longitude": 29.318, 
         "fullname": "Bujumbura Airport, Bujumbura Rural, Mutimbuzi, Burundi", 
-        "sw_latitude": -3.343
+        "iata_code": "BJM", 
+        "date_indexed": "2010-12-02T08:58:52Z"
       }, 
       "id": 12511564
     }

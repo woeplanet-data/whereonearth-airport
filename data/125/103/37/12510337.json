@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510337, 
+        "placetype": "airport", 
         "name": "Mostaganem Airport", 
-        "ne_latitude": 35.914, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2344583", 
+          "woe:country=23424740", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510337, 
         "ne_longitude": 0.156, 
         "longitude": 0.151, 
-        "placetype": "Airport", 
+        "parent_woeid": 2344583, 
+        "ne_latitude": 35.914, 
         "iso": "DZ", 
-        "date_indexed": "2010-12-02T17:07:16Z", 
-        "parent_woeid": 1257212, 
+        "sw_latitude": 35.905, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.910, 
         "sw_longitude": 0.145, 
         "fullname": "Mostaganem Airport, Mostaganem, Algeria", 
-        "sw_latitude": 35.905
+        "date_indexed": "2010-12-02T17:07:16Z"
       }, 
       "id": 12510337
     }

@@ -3,28 +3,74 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              103.946, 
-              10.212
-            ], 
-            [
-              103.946, 
-              10.235
-            ], 
-            [
-              103.970, 
-              10.235
-            ], 
-            [
-              103.970, 
-              10.212
-            ], 
-            [
-              103.946, 
-              10.212
+              [
+                103.963, 
+                10.224
+              ], 
+              [
+                103.963, 
+                10.224
+              ], 
+              [
+                103.960, 
+                10.219
+              ], 
+              [
+                103.960, 
+                10.218
+              ], 
+              [
+                103.960, 
+                10.217
+              ], 
+              [
+                103.958, 
+                10.217
+              ], 
+              [
+                103.956, 
+                10.218
+              ], 
+              [
+                103.957, 
+                10.220
+              ], 
+              [
+                103.957, 
+                10.221
+              ], 
+              [
+                103.956, 
+                10.225
+              ], 
+              [
+                103.954, 
+                10.226
+              ], 
+              [
+                103.959, 
+                10.226
+              ], 
+              [
+                103.963, 
+                10.229
+              ], 
+              [
+                103.964, 
+                10.230
+              ], 
+              [
+                103.964, 
+                10.226
+              ], 
+              [
+                103.963, 
+                10.224
+              ]
             ]
           ]
         ]
@@ -32,23 +78,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522907, 
-        "name": "Duong Dong Airport", 
         "alias_ENG_V": [
           "PQC"
         ], 
-        "ne_latitude": 10.235, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": 103.970, 
-        "longitude": 103.958, 
-        "placetype": "Airport", 
+        "name": "Duong Dong Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2347723", 
+          "woe:country=23424984", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522907, 
+        "ne_longitude": 103.964, 
+        "longitude": 103.960, 
+        "parent_woeid": 2347723, 
+        "ne_latitude": 10.230, 
         "iso": "VN", 
-        "date_indexed": "2010-12-02T08:52:49Z", 
-        "parent_woeid": 1244351, 
+        "sw_latitude": 10.217, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 10.223, 
-        "sw_longitude": 103.946, 
+        "sw_longitude": 103.954, 
         "fullname": "Duong Dong Airport, Phu Quoc, Kien Giang, Vietnam", 
-        "sw_latitude": 10.212
+        "iata_code": "PQC", 
+        "date_indexed": "2010-12-02T08:52:49Z"
       }, 
       "id": 12522907
     }

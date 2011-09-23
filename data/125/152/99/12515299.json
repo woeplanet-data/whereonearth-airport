@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515299, 
+        "placetype": "airport", 
         "name": "Elblag Airport", 
-        "ne_latitude": 54.149, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=24547831", 
+          "woe:county=12591438", 
+          "woe:state=12577948", 
+          "woe:country=23424923", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515299, 
         "ne_longitude": 19.412, 
         "longitude": 19.404, 
-        "placetype": "Airport", 
+        "parent_woeid": 24547831, 
+        "ne_latitude": 54.149, 
         "iso": "PL", 
-        "date_indexed": "2010-12-02T12:12:45Z", 
-        "parent_woeid": 24938508, 
+        "sw_latitude": 54.140, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 54.144, 
         "sw_longitude": 19.396, 
         "fullname": "Elblag Airport, Warmian-Masurian, Elblag, Poland", 
-        "sw_latitude": 54.140
+        "date_indexed": "2010-12-02T12:12:45Z"
       }, 
       "id": 12515299
     }

@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514735, 
+        "placetype": "airport", 
         "name": "Bayan Suma Airport", 
-        "ne_latitude": 47.375, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2346172", 
+          "woe:country=23424887", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514735, 
         "ne_longitude": 107.464, 
         "longitude": 107.457, 
-        "placetype": "Airport", 
+        "parent_woeid": 2346172, 
+        "ne_latitude": 47.375, 
         "iso": "MN", 
-        "date_indexed": "2010-12-02T08:53:23Z", 
-        "parent_woeid": 2265999, 
+        "sw_latitude": 47.366, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.370, 
         "sw_longitude": 107.451, 
         "fullname": "Bayan Suma Airport, Tov, Mongolia", 
-        "sw_latitude": 47.366
+        "date_indexed": "2010-12-02T08:53:23Z"
       }, 
       "id": 12514735
     }

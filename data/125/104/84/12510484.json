@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510484, 
-        "name": "Corrientes Airport", 
         "alias_ENG_V": [
           "CNQ"
         ], 
-        "ne_latitude": -27.445, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Corrientes Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=20070796", 
+          "woe:state=2344680", 
+          "woe:country=23424747", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510484, 
         "ne_longitude": -58.757, 
         "longitude": -58.762, 
-        "placetype": "Airport", 
+        "parent_woeid": 20070796, 
+        "ne_latitude": -27.445, 
         "iso": "AR", 
-        "date_indexed": "2010-12-02T17:41:29Z", 
-        "parent_woeid": 465650, 
+        "sw_latitude": -27.454, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -27.450, 
         "sw_longitude": -58.767, 
-        "fullname": "Corrientes Airport, Laguna Brava, Corrientes, Corrientes, Argentina", 
-        "sw_latitude": -27.454
+        "fullname": "Corrientes Airport, Laguna Brava, Corrientes, Argentina", 
+        "iata_code": "CNQ", 
+        "date_indexed": "2010-12-02T17:41:29Z"
       }, 
       "id": 12510484
     }

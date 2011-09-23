@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517791, 
-        "name": "Ubon Airport", 
         "alias_ENG_V": [
           "UBP"
         ], 
-        "ne_latitude": 15.253, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Ubon Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=28341238", 
+          "woe:state=2347199", 
+          "woe:country=23424960", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517791, 
         "ne_longitude": 104.878, 
         "longitude": 104.869, 
-        "placetype": "Airport", 
+        "parent_woeid": 28341238, 
+        "ne_latitude": 15.253, 
         "iso": "TH", 
-        "date_indexed": "2010-12-02T17:05:34Z", 
-        "parent_woeid": 55945624, 
+        "sw_latitude": 15.244, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 15.247, 
         "sw_longitude": 104.868, 
-        "fullname": "Ubon Airport, Pathum, Ubon Ratchathani, Mueang Ubon Ratchathani, Thailand", 
-        "sw_latitude": 15.244
+        "fullname": "Ubon Airport, Pathum, Ubon Ratchathani, Thailand", 
+        "iata_code": "UBP", 
+        "date_indexed": "2010-12-02T17:05:34Z"
       }, 
       "id": 12517791
     }

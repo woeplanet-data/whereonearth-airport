@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510470, 
-        "name": "Catamarca Airport", 
         "alias_ENG_V": [
           "CTC"
         ], 
-        "ne_latitude": -28.583, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Catamarca Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=20070762", 
+          "woe:state=2344676", 
+          "woe:country=23424747", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510470, 
         "ne_longitude": -65.741, 
         "longitude": -65.754, 
-        "placetype": "Airport", 
+        "parent_woeid": 20070762, 
+        "ne_latitude": -28.583, 
         "iso": "AR", 
-        "date_indexed": "2010-12-02T17:41:29Z", 
-        "parent_woeid": 468932, 
+        "sw_latitude": -28.605, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -28.594, 
         "sw_longitude": -65.767, 
-        "fullname": "Catamarca Airport, Las Tejas de Abajo, Catamarca, Valle Viejo, Argentina", 
-        "sw_latitude": -28.605
+        "fullname": "Catamarca Airport, Las Tejas de Abajo, Catamarca, Argentina", 
+        "iata_code": "CTC", 
+        "date_indexed": "2010-12-02T17:41:29Z"
       }, 
       "id": 12510470
     }

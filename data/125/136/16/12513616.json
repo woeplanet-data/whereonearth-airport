@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513616, 
-        "name": "Kandla Airport", 
         "alias_ENG_V": [
           "IXY"
         ], 
-        "ne_latitude": 23.116, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Kandla Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12586426", 
+          "woe:state=2345743", 
+          "woe:country=23424848", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513616, 
         "ne_longitude": 70.106, 
         "longitude": 70.101, 
-        "placetype": "Airport", 
+        "parent_woeid": 12586426, 
+        "ne_latitude": 23.116, 
         "iso": "IN", 
-        "date_indexed": "2010-12-02T09:26:27Z", 
-        "parent_woeid": 29181407, 
+        "sw_latitude": 23.107, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 23.112, 
         "sw_longitude": 70.096, 
-        "fullname": "Kandla Airport, Galpadar, Gujarat, Kachchh, India", 
-        "sw_latitude": 23.107
+        "fullname": "Kandla Airport, Galpadar, Gujarat, India", 
+        "date_indexed": "2010-12-02T09:26:27Z"
       }, 
       "id": 12513616
     }

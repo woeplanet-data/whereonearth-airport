@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523230, 
-        "name": "Strahan Aerodome", 
         "alias_ENG_V": [
           "Strahan Airport"
         ], 
-        "ne_latitude": -42.148, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Strahan Aerodome", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55864277", 
+          "woe:state=2344704", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523230, 
         "ne_longitude": 145.298, 
         "longitude": 145.292, 
-        "placetype": "Airport", 
+        "parent_woeid": 55864277, 
+        "ne_latitude": -42.148, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1105710, 
+        "sw_latitude": -42.157, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -42.152, 
         "sw_longitude": 145.286, 
-        "fullname": "Strahan Aerodome, Strahan, Tasmania, West Coast, Australia", 
-        "sw_latitude": -42.157
+        "fullname": "Strahan Aerodome, Strahan, Tasmania, Australia", 
+        "iata_code": "SRN", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 12523230
     }

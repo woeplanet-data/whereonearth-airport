@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516650, 
+        "placetype": "airport", 
         "name": "Pakhacha Airport", 
-        "ne_latitude": 60.571, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598422", 
+          "woe:state=20070515", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516650, 
         "ne_longitude": 169.117, 
         "longitude": 169.108, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598422, 
+        "ne_latitude": 60.571, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2062204, 
+        "sw_latitude": 60.562, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 60.567, 
         "sw_longitude": 169.099, 
         "fullname": "Pakhacha Airport, Koryakskiy Avtonomnyy Okrug, Olyutorsky, Russia", 
-        "sw_latitude": 60.562
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516650
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511518, 
+        "placetype": "airport", 
         "name": "Stezherovo Airport", 
-        "ne_latitude": 43.515, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55873960", 
+          "woe:state=20070065", 
+          "woe:country=23424771", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511518, 
         "ne_longitude": 25.150, 
         "longitude": 25.144, 
-        "placetype": "Airport", 
+        "parent_woeid": 55873960, 
+        "ne_latitude": 43.515, 
         "iso": "BG", 
-        "date_indexed": "2010-12-02T16:14:37Z", 
-        "parent_woeid": 839890, 
+        "sw_latitude": 43.506, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.510, 
         "sw_longitude": 25.138, 
         "fullname": "Stezherovo Airport, Pleven, Levski, Bulgaria", 
-        "sw_latitude": 43.506
+        "date_indexed": "2010-12-02T16:14:37Z"
       }, 
       "id": 12511518
     }

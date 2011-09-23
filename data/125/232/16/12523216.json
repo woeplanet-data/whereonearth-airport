@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523216, 
-        "name": "Santa Catalina Airport", 
         "alias_ENG_V": [
           "SCA"
         ], 
-        "ne_latitude": 8.571, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Santa Catalina Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26796620", 
+          "woe:state=2345048", 
+          "woe:country=23424787", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523216, 
         "ne_longitude": -76.312, 
         "longitude": -76.317, 
-        "placetype": "Airport", 
+        "parent_woeid": 26796620, 
+        "ne_latitude": 8.571, 
         "iso": "CO", 
-        "date_indexed": "2010-12-02T17:57:37Z", 
-        "parent_woeid": 368880, 
+        "sw_latitude": 8.562, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 8.567, 
         "sw_longitude": -76.321, 
         "fullname": "Santa Catalina Airport, Antioquia, Arboletes, Colombia", 
-        "sw_latitude": 8.562
+        "iata_code": "SCA", 
+        "date_indexed": "2010-12-02T17:57:37Z"
       }, 
       "id": 12523216
     }

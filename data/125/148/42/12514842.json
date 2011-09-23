@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514842, 
-        "name": "Chichen Itza Airport", 
         "alias_ENG_V": [
           "CZA"
         ], 
-        "ne_latitude": 20.700, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Chichen Itza Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12602016", 
+          "woe:state=2346294", 
+          "woe:country=23424900", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514842, 
         "ne_longitude": -88.561, 
         "longitude": -88.566, 
-        "placetype": "Airport", 
+        "parent_woeid": 12602016, 
+        "ne_latitude": 20.700, 
         "iso": "MX", 
-        "date_indexed": "2010-12-02T16:57:55Z", 
-        "parent_woeid": 136846, 
+        "sw_latitude": 20.690, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 20.695, 
         "sw_longitude": -88.570, 
-        "fullname": "Chichen Itza Airport, Pist\u00e9, Yucatan, Tinum, Mexico", 
-        "sw_latitude": 20.690
+        "fullname": "Chichen Itza Airport, Pist\u00e9, Yucatan, Mexico", 
+        "iata_code": "CZA", 
+        "date_indexed": "2010-12-02T16:57:55Z"
       }, 
       "id": 12514842
     }

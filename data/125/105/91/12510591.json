@@ -3,28 +3,34 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              144.467, 
-              -38.031
-            ], 
-            [
-              144.467, 
-              -38.022
-            ], 
-            [
-              144.479, 
-              -38.022
-            ], 
-            [
-              144.479, 
-              -38.031
-            ], 
-            [
-              144.467, 
-              -38.031
+              [
+                144.468, 
+                -38.041
+              ], 
+              [
+                144.468, 
+                -38.040
+              ], 
+              [
+                144.471, 
+                -38.035
+              ], 
+              [
+                144.469, 
+                -38.042
+              ], 
+              [
+                144.469, 
+                -38.049
+              ], 
+              [
+                144.468, 
+                -38.041
+              ]
             ]
           ]
         ]
@@ -32,23 +38,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510591, 
-        "name": "Avalon Airport", 
         "alias_ENG_V": [
           "AVV"
         ], 
-        "ne_latitude": -38.022, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": 144.479, 
-        "longitude": 144.473, 
-        "placetype": "Airport", 
+        "name": "Avalon Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55864254", 
+          "woe:state=2344705", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510591, 
+        "ne_longitude": 144.471, 
+        "longitude": 144.469, 
+        "parent_woeid": 55864254, 
+        "ne_latitude": -38.035, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 22721814, 
-        "latitude": -38.026, 
-        "sw_longitude": 144.467, 
-        "fullname": "Avalon Airport, Avalon, Victoria, Greater Geelong, Australia", 
-        "sw_latitude": -38.031
+        "sw_latitude": -38.049, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": -38.041, 
+        "sw_longitude": 144.468, 
+        "fullname": "Avalon Airport, Avalon, Victoria, Australia", 
+        "iata_code": "AVV", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 12510591
     }

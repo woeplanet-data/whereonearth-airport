@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523334, 
-        "name": "Ulei Airport", 
         "alias_ENG_V": [
           "ULB"
         ], 
-        "ne_latitude": -16.329, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Ulei Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=20069886", 
+          "woe:country=23424907", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523334, 
         "ne_longitude": 168.299, 
         "longitude": 168.294, 
-        "placetype": "Airport", 
+        "parent_woeid": 20069886, 
+        "ne_latitude": -16.329, 
         "iso": "VU", 
-        "date_indexed": "2010-12-02T17:52:20Z", 
-        "parent_woeid": 1050905, 
+        "sw_latitude": -16.338, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -16.333, 
         "sw_longitude": 168.289, 
         "fullname": "Ulei Airport, Port-Vato, Malampa, Vanuatu", 
-        "sw_latitude": -16.338
+        "iata_code": "ULB", 
+        "date_indexed": "2010-12-02T17:52:20Z"
       }, 
       "id": 12523334
     }

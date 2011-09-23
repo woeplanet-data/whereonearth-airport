@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516603, 
+        "placetype": "airport", 
         "name": "Olenek Airport", 
-        "ne_latitude": 68.521, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597642", 
+          "woe:state=2346881", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516603, 
         "ne_longitude": 112.520, 
         "longitude": 112.508, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597642, 
+        "ne_latitude": 68.521, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2124760, 
+        "sw_latitude": 68.512, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 68.516, 
         "sw_longitude": 112.495, 
-        "fullname": "Olenek Airport, Olenek, Sakha, Oleneksky, Russia", 
-        "sw_latitude": 68.512
+        "fullname": "Olenek Airport, Olenek, Sakha, Russia", 
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516603
     }

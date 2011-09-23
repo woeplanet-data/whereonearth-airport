@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511660, 
+        "placetype": "airport", 
         "name": "Foremost Airport", 
-        "ne_latitude": 49.488, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=29375228", 
+          "woe:state=2344915", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511660, 
         "ne_longitude": -111.487, 
         "longitude": -111.494, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375228, 
+        "ne_latitude": 49.488, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 8191, 
+        "sw_latitude": 49.479, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.483, 
         "sw_longitude": -111.501, 
-        "fullname": "Foremost Airport, Foremost, Alberta, Alberta, Canada", 
-        "sw_latitude": 49.479
+        "fullname": "Foremost Airport, Foremost, Alberta, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12511660
     }

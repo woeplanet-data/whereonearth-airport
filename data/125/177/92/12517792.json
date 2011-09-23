@@ -3,28 +3,30 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              102.769, 
-              17.377
-            ], 
-            [
-              102.769, 
-              17.395
-            ], 
-            [
-              102.807, 
-              17.395
-            ], 
-            [
-              102.807, 
-              17.377
-            ], 
-            [
-              102.769, 
-              17.377
+              [
+                102.775, 
+                17.387
+              ], 
+              [
+                102.774, 
+                17.387
+              ], 
+              [
+                102.776, 
+                17.388
+              ], 
+              [
+                102.776, 
+                17.387
+              ], 
+              [
+                102.775, 
+                17.387
+              ]
             ]
           ]
         ]
@@ -32,23 +34,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517792, 
-        "name": "Udon Airport", 
         "alias_ENG_V": [
           "UTH"
         ], 
-        "ne_latitude": 17.395, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": 102.807, 
-        "longitude": 102.770, 
-        "placetype": "Airport", 
+        "name": "Udon Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=28341024", 
+          "woe:state=2347200", 
+          "woe:country=23424960", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517792, 
+        "ne_longitude": 102.776, 
+        "longitude": 102.775, 
+        "parent_woeid": 28341024, 
+        "ne_latitude": 17.388, 
         "iso": "TH", 
-        "date_indexed": "2010-12-02T17:05:34Z", 
-        "parent_woeid": 55944765, 
-        "latitude": 17.390, 
-        "sw_longitude": 102.769, 
-        "fullname": "Udon Airport, Nong Bua, Udon Thani, Mueang Udon Thani, Thailand", 
-        "sw_latitude": 17.377
+        "sw_latitude": 17.387, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 17.387, 
+        "sw_longitude": 102.774, 
+        "fullname": "Udon Airport, Nong Bua, Udon Thani, Thailand", 
+        "date_indexed": "2010-12-02T17:05:34Z"
       }, 
       "id": 12517792
     }

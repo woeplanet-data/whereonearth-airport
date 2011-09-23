@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516619, 
+        "placetype": "airport", 
         "name": "Orenburg Civil Airport", 
-        "ne_latitude": 51.782, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598942", 
+          "woe:state=2346916", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516619, 
         "ne_longitude": 55.335, 
         "longitude": 55.327, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598942, 
+        "ne_latitude": 51.782, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2050974, 
+        "sw_latitude": 51.773, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.778, 
         "sw_longitude": 55.320, 
         "fullname": "Orenburg Civil Airport, Orenburgskaya Oblast, Orenburgsky, Russia", 
-        "sw_latitude": 51.773
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516619
     }

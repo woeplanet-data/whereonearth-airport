@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 56052096, 
+        "placetype": "airport", 
         "name": "Flugplatz Verden-scharnhorst", 
-        "ne_latitude": 52.967, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12630274", 
+          "woe:county=12596772", 
+          "woe:state=2345486", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56052096, 
         "ne_longitude": 9.287, 
         "longitude": 9.285, 
-        "placetype": "Airport", 
+        "parent_woeid": 12630274, 
+        "ne_latitude": 52.967, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 702192, 
+        "sw_latitude": 52.961, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 52.965, 
         "sw_longitude": 9.278, 
-        "fullname": "Flugplatz Verden-scharnhorst, Verden, Lower Saxony, Landkreis Verden, Germany", 
-        "sw_latitude": 52.961
+        "fullname": "Flugplatz Verden-scharnhorst, Verden, Lower Saxony, Germany", 
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 56052096
     }

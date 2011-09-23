@@ -3,28 +3,30 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              0.532, 
-              52.386
-            ], 
-            [
-              0.532, 
-              52.395
-            ], 
-            [
-              0.547, 
-              52.395
-            ], 
-            [
-              0.547, 
-              52.386
-            ], 
-            [
-              0.532, 
-              52.386
+              [
+                0.577, 
+                52.416
+              ], 
+              [
+                0.581, 
+                52.416
+              ], 
+              [
+                0.577, 
+                52.413
+              ], 
+              [
+                0.577, 
+                52.416
+              ], 
+              [
+                0.577, 
+                52.416
+              ]
             ]
           ]
         ]
@@ -32,20 +34,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518112, 
+        "placetype": "airport", 
         "name": "Lakenheath Airport", 
-        "ne_latitude": 52.395, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": 0.547, 
-        "longitude": 0.540, 
-        "placetype": "Airport", 
+        "hierarchy": [
+          "woe:localadmin=12696081", 
+          "woe:county=12602142", 
+          "woe:state=24554868", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518112, 
+        "ne_longitude": 0.581, 
+        "longitude": 0.578, 
+        "parent_woeid": 12696081, 
+        "ne_latitude": 52.416, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:21:01Z", 
-        "parent_woeid": 32852, 
-        "latitude": 52.390, 
-        "sw_longitude": 0.532, 
-        "fullname": "Lakenheath Airport, RAF Lakenheath, England, Suffolk, United Kingdom", 
-        "sw_latitude": 52.386
+        "sw_latitude": 52.413, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 52.415, 
+        "sw_longitude": 0.577, 
+        "fullname": "Lakenheath Airport, RAF Lakenheath, England, United Kingdom", 
+        "date_indexed": "2010-12-02T12:21:01Z"
       }, 
       "id": 12518112
     }

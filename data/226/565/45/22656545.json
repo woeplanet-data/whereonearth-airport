@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 22656545, 
+        "placetype": "airport", 
         "name": "Rednal Airfield", 
-        "ne_latitude": 52.848, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12696064", 
+          "woe:county=12602188", 
+          "woe:state=24554868", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 22656545, 
         "ne_longitude": -2.927, 
         "longitude": -2.934, 
-        "placetype": "Airport", 
+        "parent_woeid": 12696064, 
+        "ne_latitude": 52.848, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:21:01Z", 
-        "parent_woeid": 22674, 
+        "sw_latitude": 52.839, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 52.844, 
         "sw_longitude": -2.942, 
-        "fullname": "Rednal Airfield, Haughton, England, Shropshire, United Kingdom", 
-        "sw_latitude": 52.839
+        "fullname": "Rednal Airfield, Haughton, England, United Kingdom", 
+        "date_indexed": "2010-12-02T12:21:01Z"
       }, 
       "id": 22656545
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523454, 
-        "name": "Port Douglas Airport", 
         "alias_ENG_V": [
           "Pt Douglas Airport"
         ], 
-        "ne_latitude": -16.479, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Port Douglas Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=56072975", 
+          "woe:state=2344702", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523454, 
         "ne_longitude": 145.456, 
         "longitude": 145.451, 
-        "placetype": "Airport", 
+        "parent_woeid": 56072975, 
+        "ne_latitude": -16.479, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 28585659, 
+        "sw_latitude": -16.488, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -16.484, 
         "sw_longitude": 145.446, 
-        "fullname": "Port Douglas Airport, Killaloe, Queensland, Douglas, Australia", 
-        "sw_latitude": -16.488
+        "fullname": "Port Douglas Airport, Killaloe, Queensland, Australia", 
+        "iata_code": "PTI", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 12523454
     }

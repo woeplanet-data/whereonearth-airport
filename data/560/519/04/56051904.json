@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "FRE", 
-        "woeid": 56051904, 
+        "placetype": "airport", 
         "name": "A\u00e9rodrome de Clamecy", 
-        "ne_latitude": 47.444, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12641775", 
+          "woe:county=12597128", 
+          "woe:state=7153312", 
+          "woe:country=23424819", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56051904, 
         "ne_longitude": 3.509, 
         "longitude": 3.509, 
-        "placetype": "Airport", 
+        "parent_woeid": 12641775, 
+        "ne_latitude": 47.444, 
         "iso": "FR", 
-        "date_indexed": "2010-12-02T12:04:01Z", 
-        "parent_woeid": 586124, 
+        "sw_latitude": 47.432, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.444, 
         "sw_longitude": 3.502, 
-        "fullname": "A\u00e9rodrome de Clamecy, Clamecy, Burgundy, Nievre, France", 
+        "fullname": "A\u00e9rodrome de Clamecy, Clamecy, Burgundy, France", 
         "alias_FRE_S": [
           "Aerodrome de Clamecy"
         ], 
-        "sw_latitude": 47.432
+        "date_indexed": "2010-12-02T12:04:01Z"
       }, 
       "id": 56051904
     }

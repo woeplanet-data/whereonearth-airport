@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520845, 
-        "name": "Mayfield Graves County Airport", 
         "alias_ENG_V": [
           "M25"
         ], 
-        "ne_latitude": 36.778, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Mayfield Graves County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588517", 
+          "woe:state=2347576", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520845, 
         "ne_longitude": -88.582, 
         "longitude": -88.583, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588517, 
+        "ne_latitude": 36.778, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2447230, 
+        "sw_latitude": 36.762, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.763, 
         "sw_longitude": -88.587, 
-        "fullname": "Mayfield Graves County Airport, Mayfield, Kentucky, Graves, United States", 
-        "sw_latitude": 36.762
+        "fullname": "Mayfield Graves County Airport, Mayfield, Kentucky, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520845
     }

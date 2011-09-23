@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514464, 
+        "placetype": "airport", 
         "name": "Shalday Airport", 
-        "ne_latitude": 51.923, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345993", 
+          "woe:country=23424871", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514464, 
         "ne_longitude": 78.796, 
         "longitude": 78.789, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345993, 
+        "ne_latitude": 51.923, 
         "iso": "KZ", 
-        "date_indexed": "2010-12-02T08:54:13Z", 
-        "parent_woeid": 2264855, 
+        "sw_latitude": 51.913, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.918, 
         "sw_longitude": 78.782, 
         "fullname": "Shalday Airport, Pavlodar, Kazakhstan", 
-        "sw_latitude": 51.913
+        "date_indexed": "2010-12-02T08:54:13Z"
       }, 
       "id": 12514464
     }

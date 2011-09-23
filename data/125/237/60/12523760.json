@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523760, 
-        "name": "Villagarzon Airport", 
         "alias_ENG_V": [
           "VGZ"
         ], 
-        "ne_latitude": 1.071, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Villagarzon Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26797642", 
+          "woe:state=2345067", 
+          "woe:country=23424787", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523760, 
         "ne_longitude": -76.712, 
         "longitude": -76.717, 
-        "placetype": "Airport", 
+        "parent_woeid": 26797642, 
+        "ne_latitude": 1.071, 
         "iso": "CO", 
-        "date_indexed": "2010-12-02T17:57:37Z", 
-        "parent_woeid": 369386, 
+        "sw_latitude": 1.062, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 1.067, 
         "sw_longitude": -76.721, 
         "fullname": "Villagarzon Airport, Putumayo, Mocoa, Colombia", 
-        "sw_latitude": 1.062
+        "date_indexed": "2010-12-02T17:57:37Z"
       }, 
       "id": 12523760
     }

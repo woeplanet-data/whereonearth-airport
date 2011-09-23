@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516586, 
+        "placetype": "airport", 
         "name": "Nyurba Airport", 
-        "ne_latitude": 63.302, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=24505191", 
+          "woe:state=2346881", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516586, 
         "ne_longitude": 118.348, 
         "longitude": 118.338, 
-        "placetype": "Airport", 
+        "parent_woeid": 24505191, 
+        "ne_latitude": 63.302, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2058427, 
+        "sw_latitude": 63.293, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 63.298, 
         "sw_longitude": 118.327, 
-        "fullname": "Nyurba Airport, Nyurba, Sakha, Nyurba, Russia", 
-        "sw_latitude": 63.293
+        "fullname": "Nyurba Airport, Nyurba, Sakha, Russia", 
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516586
     }

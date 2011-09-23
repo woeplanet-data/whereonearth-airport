@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510906, 
-        "name": "El Alto International Airport", 
         "alias_ENG_V": [
           "LPB"
         ], 
-        "ne_latitude": -16.505, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "El Alto International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=55968149", 
+          "woe:county=55967857", 
+          "woe:state=2344804", 
+          "woe:country=23424762", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510906, 
         "ne_longitude": -68.186, 
         "longitude": -68.191, 
-        "placetype": "Airport", 
+        "parent_woeid": 55968149, 
+        "ne_latitude": -16.505, 
         "iso": "BO", 
-        "date_indexed": "2010-12-02T17:57:50Z", 
-        "parent_woeid": 346057, 
+        "sw_latitude": -16.514, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -16.509, 
         "sw_longitude": -68.195, 
-        "fullname": "El Alto International Airport, La Paz, La Paz, Pedro Domingo Murillo, Bolivia", 
-        "sw_latitude": -16.514
+        "fullname": "El Alto International Airport, La Paz, La Paz, Bolivia", 
+        "iata_code": "LPB", 
+        "date_indexed": "2010-12-02T17:57:50Z"
       }, 
       "id": 12510906
     }

@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512107, 
+        "placetype": "airport", 
         "name": "Karamay Airport", 
-        "ne_latitude": 45.577, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12686362", 
+          "woe:county=26198041", 
+          "woe:state=12578003", 
+          "woe:country=23424781", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512107, 
         "ne_longitude": 84.896, 
         "longitude": 84.889, 
-        "placetype": "Airport", 
+        "parent_woeid": 12686362, 
+        "ne_latitude": 45.577, 
         "iso": "CN", 
-        "date_indexed": "2010-12-02T08:51:48Z", 
-        "parent_woeid": 2144016, 
+        "sw_latitude": 45.568, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.573, 
         "sw_longitude": 84.883, 
-        "fullname": "Karamay Airport, Karamay, Xinjiang, Kelamayi, China", 
-        "sw_latitude": 45.568
+        "fullname": "Karamay Airport, Karamay, Xinjiang, China", 
+        "date_indexed": "2010-12-02T08:51:48Z"
       }, 
       "id": 12512107
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524179, 
-        "name": "Norway House Airport", 
         "alias_ENG_V": [
           "YNE Airport"
         ], 
-        "ne_latitude": 53.988, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Norway House Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375231", 
+          "woe:state=2344917", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524179, 
         "ne_longitude": -97.792, 
         "longitude": -97.800, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375231, 
+        "ne_latitude": 53.988, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 29373805, 
+        "sw_latitude": 53.979, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.983, 
         "sw_longitude": -97.808, 
-        "fullname": "Norway House Airport, Norway House Indian Reserve 17, Manitoba, Manitoba, Canada", 
-        "sw_latitude": 53.979
+        "fullname": "Norway House Airport, Norway House Indian Reserve 17, Manitoba, Canada", 
+        "iata_code": "YNE", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12524179
     }

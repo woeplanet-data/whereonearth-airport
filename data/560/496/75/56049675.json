@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "CZE", 
-        "woeid": 56049675, 
+        "placetype": "airport", 
         "name": "Letiste Luhacovice", 
-        "ne_latitude": 49.094, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=56071111", 
+          "woe:county=12582557", 
+          "woe:state=20070469", 
+          "woe:country=23424810", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56049675, 
         "ne_longitude": 17.729, 
         "longitude": 17.719, 
-        "placetype": "Airport", 
+        "parent_woeid": 56071111, 
+        "ne_latitude": 49.094, 
         "iso": "CZ", 
-        "date_indexed": "2010-12-02T08:56:52Z", 
-        "parent_woeid": 786246, 
+        "sw_latitude": 49.081, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.088, 
         "sw_longitude": 17.710, 
         "fullname": "Letiste Luhacovice, Zl\u00ednsk\u00fd, Zl\u00edn, Czech Republic", 
-        "sw_latitude": 49.081
+        "date_indexed": "2010-12-02T08:56:52Z"
       }, 
       "id": 56049675
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516212, 
+        "placetype": "airport", 
         "name": "Komsomolsk Airport", 
-        "ne_latitude": 50.611, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597745", 
+          "woe:state=2346883", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516212, 
         "ne_longitude": 137.097, 
         "longitude": 137.090, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597745, 
+        "ne_latitude": 50.611, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2004100, 
+        "sw_latitude": 50.602, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.606, 
         "sw_longitude": 137.083, 
-        "fullname": "Komsomolsk Airport, Dzemgi, Khabarovskiy Kray, Komsomolsky, Russia", 
-        "sw_latitude": 50.602
+        "fullname": "Komsomolsk Airport, Dzemgi, Khabarovskiy Kray, Russia", 
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516212
     }

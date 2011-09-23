@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519563, 
-        "name": "Eagle Pass Municipal Airport", 
         "alias_ENG_V": [
           "EGP"
         ], 
-        "ne_latitude": 28.707, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Eagle Pass Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590165", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519563, 
         "ne_longitude": -100.478, 
         "longitude": -100.481, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590165, 
+        "ne_latitude": 28.707, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:15Z", 
-        "parent_woeid": 2395069, 
+        "sw_latitude": 28.702, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 28.704, 
         "sw_longitude": -100.484, 
-        "fullname": "Eagle Pass Municipal Airport, Eagle Pass, Texas, Maverick, United States", 
-        "sw_latitude": 28.702
+        "fullname": "Eagle Pass Municipal Airport, Eagle Pass, Texas, United States", 
+        "iata_code": "EGP", 
+        "date_indexed": "2010-12-02T18:39:15Z"
       }, 
       "id": 12519563
     }

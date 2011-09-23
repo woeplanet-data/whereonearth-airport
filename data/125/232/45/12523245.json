@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523245, 
-        "name": "Tom Price Airport", 
         "alias_ENG_V": [
           "TPR"
         ], 
-        "ne_latitude": -22.738, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Tom Price Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55864374", 
+          "woe:state=2344706", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523245, 
         "ne_longitude": 117.674, 
         "longitude": 117.669, 
-        "placetype": "Airport", 
+        "parent_woeid": 55864374, 
+        "ne_latitude": -22.738, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 28586397, 
+        "sw_latitude": -22.747, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -22.742, 
         "sw_longitude": 117.664, 
-        "fullname": "Tom Price Airport, Mount Sheila, Western Australia, Ashburton, Australia", 
-        "sw_latitude": -22.747
+        "fullname": "Tom Price Airport, Mount Sheila, Western Australia, Australia", 
+        "iata_code": "TPR", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 12523245
     }

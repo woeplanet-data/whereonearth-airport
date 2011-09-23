@@ -3,28 +3,102 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -95.179, 
-              29.591
-            ], 
-            [
-              -95.179, 
-              29.623
-            ], 
-            [
-              -95.141, 
-              29.623
-            ], 
-            [
-              -95.141, 
-              29.591
-            ], 
-            [
-              -95.179, 
-              29.591
+              [
+                -95.167, 
+                29.600
+              ], 
+              [
+                -95.167, 
+                29.600
+              ], 
+              [
+                -95.167, 
+                29.600
+              ], 
+              [
+                -95.168, 
+                29.600
+              ], 
+              [
+                -95.177, 
+                29.601
+              ], 
+              [
+                -95.178, 
+                29.602
+              ], 
+              [
+                -95.178, 
+                29.602
+              ], 
+              [
+                -95.176, 
+                29.603
+              ], 
+              [
+                -95.172, 
+                29.606
+              ], 
+              [
+                -95.169, 
+                29.609
+              ], 
+              [
+                -95.169, 
+                29.610
+              ], 
+              [
+                -95.167, 
+                29.611
+              ], 
+              [
+                -95.164, 
+                29.609
+              ], 
+              [
+                -95.156, 
+                29.606
+              ], 
+              [
+                -95.144, 
+                29.606
+              ], 
+              [
+                -95.144, 
+                29.606
+              ], 
+              [
+                -95.143, 
+                29.607
+              ], 
+              [
+                -95.143, 
+                29.608
+              ], 
+              [
+                -95.144, 
+                29.607
+              ], 
+              [
+                -95.156, 
+                29.606
+              ], 
+              [
+                -95.157, 
+                29.602
+              ], 
+              [
+                -95.165, 
+                29.600
+              ], 
+              [
+                -95.167, 
+                29.600
+              ]
             ]
           ]
         ]
@@ -32,23 +106,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519629, 
-        "name": "Ellington Field Airport", 
         "alias_ENG_V": [
           "EFD"
         ], 
-        "ne_latitude": 29.623, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -95.141, 
-        "longitude": -95.177, 
-        "placetype": "Airport", 
-        "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
+        "name": "Ellington Field Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:suburb=28751231", 
+          "woe:county=12590107", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519629, 
+        "ne_longitude": -95.143, 
+        "longitude": -95.167, 
         "parent_woeid": 28751231, 
-        "latitude": 29.601, 
-        "sw_longitude": -95.179, 
-        "fullname": "Ellington Field Airport, Houston, Texas, Harris, United States", 
-        "sw_latitude": 29.591
+        "ne_latitude": 29.611, 
+        "iso": "US", 
+        "sw_latitude": 29.600, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 29.604, 
+        "sw_longitude": -95.178, 
+        "fullname": "Ellington Field Airport, Houston, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519629
     }

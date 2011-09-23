@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516465, 
+        "placetype": "airport", 
         "name": "Myski Northeast Airport", 
-        "ne_latitude": 53.744, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598448", 
+          "woe:state=2346901", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516465, 
         "ne_longitude": 87.915, 
         "longitude": 87.908, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598448, 
+        "ne_latitude": 53.744, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2124722, 
+        "sw_latitude": 53.734, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.739, 
         "sw_longitude": 87.900, 
-        "fullname": "Myski Northeast Airport, Myski, Kemerovskaya Oblast, Myski, Russia", 
-        "sw_latitude": 53.734
+        "fullname": "Myski Northeast Airport, Myski, Kemerovskaya Oblast, Russia", 
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516465
     }

@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523541, 
-        "name": "E. Beltram Airport", 
         "alias_ENG_V": [
           "CIJ Airport"
         ], 
-        "ne_latitude": -11.013, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "E. Beltram Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=55968021", 
+          "woe:county=55967810", 
+          "woe:state=2344806", 
+          "woe:country=23424762", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523541, 
         "ne_longitude": -68.754, 
         "longitude": -68.759, 
-        "placetype": "Airport", 
+        "parent_woeid": 55968021, 
+        "ne_latitude": -11.013, 
         "iso": "BO", 
-        "date_indexed": "2010-12-02T17:57:50Z", 
-        "parent_woeid": 346072, 
+        "sw_latitude": -11.022, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -11.018, 
         "sw_longitude": -68.764, 
-        "fullname": "E. Beltram Airport, Cobija, Pando, Nicol\u00e1s Su\u00e1rez, Bolivia", 
-        "sw_latitude": -11.022
+        "fullname": "E. Beltram Airport, Cobija, Pando, Bolivia", 
+        "iata_code": "CIJ", 
+        "date_indexed": "2010-12-02T17:57:50Z"
       }, 
       "id": 12523541
     }

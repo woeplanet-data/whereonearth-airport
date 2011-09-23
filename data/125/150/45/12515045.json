@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515045, 
+        "placetype": "airport", 
         "name": "Dirkou Airport", 
-        "ne_latitude": 18.975, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=56055521", 
+          "woe:state=2346324", 
+          "woe:country=23424906", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515045, 
         "ne_longitude": 12.875, 
         "longitude": 12.870, 
-        "placetype": "Airport", 
+        "parent_woeid": 56055521, 
+        "ne_latitude": 18.975, 
         "iso": "NE", 
-        "date_indexed": "2010-12-02T17:43:23Z", 
-        "parent_woeid": 1379010, 
+        "sw_latitude": 18.966, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 18.970, 
         "sw_longitude": 12.865, 
         "fullname": "Dirkou Airport, Agadez, Bilma, Niger", 
-        "sw_latitude": 18.966
+        "date_indexed": "2010-12-02T17:43:23Z"
       }, 
       "id": 12515045
     }

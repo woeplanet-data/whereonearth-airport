@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514509, 
+        "placetype": "airport", 
         "name": "Ust-Kamenogorsk East Airport", 
-        "ne_latitude": 49.971, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=20070175", 
+          "woe:country=23424871", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514509, 
         "ne_longitude": 82.687, 
         "longitude": 82.680, 
-        "placetype": "Airport", 
+        "parent_woeid": 20070175, 
+        "ne_latitude": 49.971, 
         "iso": "KZ", 
-        "date_indexed": "2010-12-02T08:54:13Z", 
-        "parent_woeid": 2260839, 
+        "sw_latitude": 49.962, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.966, 
         "sw_longitude": 82.673, 
         "fullname": "Ust-Kamenogorsk East Airport, Oskemen, Shyghys Qazaqstan, Kazakhstan", 
-        "sw_latitude": 49.962
+        "date_indexed": "2010-12-02T08:54:13Z"
       }, 
       "id": 12514509
     }

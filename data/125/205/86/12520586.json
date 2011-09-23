@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520586, 
-        "name": "Lawrence Municipal Airport", 
         "alias_ENG_V": [
           "LWM"
         ], 
-        "ne_latitude": 42.717, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Lawrence Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588704", 
+          "woe:state=2347580", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520586, 
         "ne_longitude": -71.113, 
         "longitude": -71.120, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588704, 
+        "ne_latitude": 42.717, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2460580, 
+        "sw_latitude": 42.707, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.712, 
         "sw_longitude": -71.126, 
-        "fullname": "Lawrence Municipal Airport, North Andover, Massachusetts, Essex, United States", 
-        "sw_latitude": 42.707
+        "fullname": "Lawrence Municipal Airport, North Andover, Massachusetts, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12520586
     }

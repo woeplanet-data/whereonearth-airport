@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516662, 
+        "placetype": "airport", 
         "name": "Pavlovsk Airport", 
-        "ne_latitude": 50.429, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599644", 
+          "woe:state=2346935", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516662, 
         "ne_longitude": 40.150, 
         "longitude": 40.143, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599644, 
+        "ne_latitude": 50.429, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2122773, 
+        "sw_latitude": 50.419, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.424, 
         "sw_longitude": 40.136, 
-        "fullname": "Pavlovsk Airport, Pavlovsk, Voronezhskaya Oblast, Pavlovsky, Russia", 
-        "sw_latitude": 50.419
+        "fullname": "Pavlovsk Airport, Pavlovsk, Voronezhskaya Oblast, Russia", 
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516662
     }

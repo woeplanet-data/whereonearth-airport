@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516843, 
-        "name": "Seshcha Airport", 
         "alias_ENG_V": [
           "UWD"
         ], 
-        "ne_latitude": 53.718, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Seshcha Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12598080", 
+          "woe:state=2346892", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516843, 
         "ne_longitude": 33.368, 
         "longitude": 33.361, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598080, 
+        "ne_latitude": 53.718, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2080630, 
+        "sw_latitude": 53.709, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.714, 
         "sw_longitude": 33.353, 
         "fullname": "Seshcha Airport, Bryanskaya Oblast, Dubrovsky, Russia", 
-        "sw_latitude": 53.709
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516843
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 22472442, 
-        "name": "Fair Isle Airport", 
         "alias_ENG_V": [
           "FIE"
         ], 
-        "ne_latitude": 59.539, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Fair Isle Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=12696208", 
+          "woe:county=12602206", 
+          "woe:state=12578048", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 22472442, 
         "ne_longitude": -1.620, 
         "longitude": -1.628, 
-        "placetype": "Airport", 
+        "parent_woeid": 12696208, 
+        "ne_latitude": 59.539, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:21:01Z", 
-        "parent_woeid": 32777, 
+        "sw_latitude": 59.530, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 59.534, 
         "sw_longitude": -1.638, 
-        "fullname": "Fair Isle Airport, Quendale, Scotland, Shetland Islands, United Kingdom", 
-        "sw_latitude": 59.530
+        "fullname": "Fair Isle Airport, Quendale, Scotland, United Kingdom", 
+        "date_indexed": "2010-12-02T12:21:01Z"
       }, 
       "id": 22472442
     }

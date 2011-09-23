@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510339, 
+        "placetype": "airport", 
         "name": "Ouakda Airport", 
-        "ne_latitude": 31.648, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2344608", 
+          "woe:country=23424740", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510339, 
         "ne_longitude": -2.176, 
         "longitude": -2.181, 
-        "placetype": "Airport", 
+        "parent_woeid": 2344608, 
+        "ne_latitude": 31.648, 
         "iso": "DZ", 
-        "date_indexed": "2010-12-02T17:07:16Z", 
-        "parent_woeid": 1256567, 
+        "sw_latitude": 31.639, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 31.643, 
         "sw_longitude": -2.186, 
         "fullname": "Ouakda Airport, Bechar, Algeria", 
-        "sw_latitude": 31.639
+        "date_indexed": "2010-12-02T17:07:16Z"
       }, 
       "id": 12510339
     }

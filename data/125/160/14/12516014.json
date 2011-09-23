@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516014, 
+        "placetype": "airport", 
         "name": "Gromovo Airport", 
-        "ne_latitude": 60.722, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598653", 
+          "woe:state=2346907", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516014, 
         "ne_longitude": 30.129, 
         "longitude": 30.119, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598653, 
+        "ne_latitude": 60.722, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2010322, 
+        "sw_latitude": 60.713, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 60.717, 
         "sw_longitude": 30.110, 
         "fullname": "Gromovo Airport, Leningradskaya Oblast, Priozersky, Russia", 
-        "sw_latitude": 60.713
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516014
     }

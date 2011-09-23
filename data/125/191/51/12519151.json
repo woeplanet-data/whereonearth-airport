@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519151, 
-        "name": "Chase Field Naval Air Station", 
         "alias_ENG_V": [
           "Chase Field NAS"
         ], 
-        "ne_latitude": 28.364, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Chase Field Naval Air Station", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590019", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519151, 
         "ne_longitude": -97.655, 
         "longitude": -97.661, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590019, 
+        "ne_latitude": 28.364, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:15Z", 
-        "parent_woeid": 2361467, 
+        "sw_latitude": 28.355, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 28.359, 
         "sw_longitude": -97.666, 
-        "fullname": "Chase Field Naval Air Station, Beeville, Texas, Bee, United States", 
-        "sw_latitude": 28.355
+        "fullname": "Chase Field Naval Air Station, Beeville, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:15Z"
       }, 
       "id": 12519151
     }

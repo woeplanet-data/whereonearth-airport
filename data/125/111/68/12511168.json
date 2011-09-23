@@ -32,29 +32,35 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511168, 
-        "name": "Aeroporto Guaratingueta", 
-        "alias_ENG_P": [
-          "Guaratingueta Airport"
-        ], 
-        "ne_latitude": -22.787, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "GUJ"
         ], 
+        "name": "Aeroporto Guaratingueta", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Guaratingueta Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12581998", 
+          "woe:state=2344868", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511168, 
         "ne_longitude": -45.199, 
         "longitude": -45.204, 
-        "placetype": "Airport", 
+        "parent_woeid": 12581998, 
+        "ne_latitude": -22.787, 
         "alias_POR_V": [
           "Aeroporto GUJ"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 434984, 
+        "sw_latitude": -22.796, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -22.791, 
         "sw_longitude": -45.209, 
-        "fullname": "Aeroporto Guaratingueta, Guaratingueta, Sao Paulo, Guaratinguet\u00e1, Brazil", 
-        "sw_latitude": -22.796
+        "fullname": "Aeroporto Guaratingueta, Guaratingueta, Sao Paulo, Brazil", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511168
     }

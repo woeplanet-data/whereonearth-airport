@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388368, 
-        "name": "Rainelle Airport", 
         "alias_ENG_V": [
           "Wv30"
         ], 
-        "ne_latitude": 37.953, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Rainelle Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590491", 
+          "woe:state=2347607", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388368, 
         "ne_longitude": -80.714, 
         "longitude": -80.718, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590491, 
+        "ne_latitude": 37.953, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2485802, 
+        "sw_latitude": 37.943, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 37.948, 
         "sw_longitude": -80.719, 
-        "fullname": "Rainelle Airport, Rupert, West Virginia, Greenbrier, United States", 
-        "sw_latitude": 37.943
+        "fullname": "Rainelle Airport, Rupert, West Virginia, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388368
     }

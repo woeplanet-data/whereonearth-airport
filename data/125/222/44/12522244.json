@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522244, 
-        "name": "Unalaska Airport", 
         "alias_ENG_V": [
           "DUT"
         ], 
-        "ne_latitude": 53.906, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Unalaska Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587555", 
+          "woe:state=2347560", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522244, 
         "ne_longitude": -166.534, 
         "longitude": -166.535, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587555, 
+        "ne_latitude": 53.906, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2394801, 
+        "sw_latitude": 53.895, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.896, 
         "sw_longitude": -166.549, 
         "fullname": "Unalaska Airport, Alaska, Aleutians West Census Area, United States", 
-        "sw_latitude": 53.895
+        "iata_code": "DUT", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522244
     }

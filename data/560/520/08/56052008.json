@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 56052008, 
+        "placetype": "airport", 
         "name": "Landeplatz Oppenheim", 
-        "ne_latitude": 49.847, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12627668", 
+          "woe:county=12597054", 
+          "woe:state=2345488", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56052008, 
         "ne_longitude": 8.381, 
         "longitude": 8.377, 
-        "placetype": "Airport", 
+        "parent_woeid": 12627668, 
+        "ne_latitude": 49.847, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 683326, 
+        "sw_latitude": 49.833, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.846, 
         "sw_longitude": 8.373, 
-        "fullname": "Landeplatz Oppenheim, Oppenheim, Rhineland-Palatinate, Mainz-Bingen, Germany", 
-        "sw_latitude": 49.833
+        "fullname": "Landeplatz Oppenheim, Oppenheim, Rhineland-Palatinate, Germany", 
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 56052008
     }

@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514146, 
+        "placetype": "airport", 
         "name": "Koksan Airport", 
-        "ne_latitude": 38.622, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345953", 
+          "woe:country=23424865", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514146, 
         "ne_longitude": 126.635, 
         "longitude": 126.629, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345953, 
+        "ne_latitude": 38.622, 
         "iso": "KP", 
-        "date_indexed": "2010-12-02T10:22:43Z", 
-        "parent_woeid": 1083907, 
+        "sw_latitude": 38.613, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.617, 
         "sw_longitude": 126.623, 
         "fullname": "Koksan Airport, Hwanghae-bukto, North Korea", 
-        "sw_latitude": 38.613
+        "date_indexed": "2010-12-02T10:22:43Z"
       }, 
       "id": 12514146
     }

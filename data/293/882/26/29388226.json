@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388226, 
+        "placetype": "airport", 
         "name": "Powderly Airport", 
-        "ne_latitude": 33.798, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12590146", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388226, 
         "ne_longitude": -95.526, 
         "longitude": -95.529, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590146, 
+        "ne_latitude": 33.798, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2476056, 
+        "sw_latitude": 33.790, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 33.797, 
         "sw_longitude": -95.531, 
-        "fullname": "Powderly Airport, Powderly, Texas, Lamar, United States", 
-        "sw_latitude": 33.790
+        "fullname": "Powderly Airport, Powderly, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388226
     }

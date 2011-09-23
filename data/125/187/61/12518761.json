@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518761, 
-        "name": "Baytown Airport", 
         "alias_ENG_V": [
           "HPY"
         ], 
-        "ne_latitude": 29.791, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Baytown Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590107", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518761, 
         "ne_longitude": -94.947, 
         "longitude": -94.958, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590107, 
+        "ne_latitude": 29.791, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2360438, 
+        "sw_latitude": 29.781, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 29.788, 
         "sw_longitude": -94.959, 
-        "fullname": "Baytown Airport, Baytown, Texas, Harris, United States", 
-        "sw_latitude": 29.781
+        "fullname": "Baytown Airport, Baytown, Texas, United States", 
+        "iata_code": "HPY", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518761
     }

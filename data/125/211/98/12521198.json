@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521198, 
-        "name": "Ogden Hinckley Airport", 
         "alias_ENG_V": [
           "OGD"
         ], 
-        "ne_latitude": 41.205, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Ogden Hinckley Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590289", 
+          "woe:state=2347603", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521198, 
         "ne_longitude": -111.998, 
         "longitude": -112.008, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590289, 
+        "ne_latitude": 41.205, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2464337, 
+        "sw_latitude": 41.183, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.191, 
         "sw_longitude": -112.026, 
-        "fullname": "Ogden Hinckley Airport, Ogden, Utah, Weber, United States", 
-        "sw_latitude": 41.183
+        "fullname": "Ogden Hinckley Airport, Ogden, Utah, United States", 
+        "iata_code": "OGD", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521198
     }

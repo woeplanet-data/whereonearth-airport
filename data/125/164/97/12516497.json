@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516497, 
+        "placetype": "airport", 
         "name": "Nikolayersk Airport", 
-        "ne_latitude": 53.148, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597749", 
+          "woe:state=2346883", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516497, 
         "ne_longitude": 140.644, 
         "longitude": 140.637, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597749, 
+        "ne_latitude": 53.148, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2051942, 
+        "sw_latitude": 53.139, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.144, 
         "sw_longitude": 140.629, 
-        "fullname": "Nikolayersk Airport, Nikolayevsk-na-Amure, Khabarovskiy Kray, Nikolayevsk-Na-Amure, Russia", 
-        "sw_latitude": 53.139
+        "fullname": "Nikolayersk Airport, Nikolayevsk-na-Amure, Khabarovskiy Kray, Russia", 
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516497
     }

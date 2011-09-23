@@ -32,26 +32,33 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520926, 
-        "name": "Miami University Airport", 
         "alias_ENG_V": [
           "OXD Airport"
         ], 
-        "ne_latitude": 39.508, 
+        "name": "Miami University Airport", 
+        "hierarchy": [
+          "woe:county=12589535", 
+          "woe:state=2347594", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520926, 
         "alias_JPN_Q": [
           "\u30de\u30a4\u30a2\u30df\u5927\u5b66\u7a7a\u6e2f"
         ], 
         "provider": "geoplanet 7.6.0", 
         "ne_longitude": -84.779, 
         "longitude": -84.783, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589535, 
+        "placetype": "airport", 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2467173, 
+        "sw_latitude": 39.498, 
+        "ne_latitude": 39.508, 
         "latitude": 39.508, 
         "sw_longitude": -84.790, 
-        "fullname": "Miami University Airport, Oxford, Ohio, Butler, United States", 
-        "sw_latitude": 39.498
+        "fullname": "Miami University Airport, Oxford, Ohio, United States", 
+        "iata_code": "OXD", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520926
     }

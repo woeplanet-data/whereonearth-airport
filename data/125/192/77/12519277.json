@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519277, 
+        "placetype": "airport", 
         "name": "Colstrip Airport", 
-        "ne_latitude": 45.871, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12589124", 
+          "woe:state=2347585", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519277, 
         "ne_longitude": -106.636, 
         "longitude": -106.643, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589124, 
+        "ne_latitude": 45.871, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:15Z", 
-        "parent_woeid": 2383501, 
+        "sw_latitude": 45.862, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.867, 
         "sw_longitude": -106.649, 
-        "fullname": "Colstrip Airport, Colstrip, Montana, Rosebud, United States", 
-        "sw_latitude": 45.862
+        "fullname": "Colstrip Airport, Colstrip, Montana, United States", 
+        "date_indexed": "2010-12-02T18:39:15Z"
       }, 
       "id": 12519277
     }

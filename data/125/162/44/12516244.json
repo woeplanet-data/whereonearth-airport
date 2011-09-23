@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516244, 
+        "placetype": "airport", 
         "name": "Kozyrevskoye Airport", 
-        "ne_latitude": 50.736, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599204", 
+          "woe:state=2346937", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516244, 
         "ne_longitude": 156.226, 
         "longitude": 156.218, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599204, 
+        "ne_latitude": 50.736, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2124810, 
+        "sw_latitude": 50.727, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.731, 
         "sw_longitude": 156.211, 
-        "fullname": "Kozyrevskoye Airport, Severo-Kuril'sk, Sakhalinskaya Oblast, Severo-Kurilsky, Russia", 
-        "sw_latitude": 50.727
+        "fullname": "Kozyrevskoye Airport, Severo-Kuril'sk, Sakhalinskaya Oblast, Russia", 
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516244
     }

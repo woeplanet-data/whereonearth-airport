@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513380, 
+        "placetype": "airport", 
         "name": "Banreve Airport", 
-        "ne_latitude": 48.291, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12594246", 
+          "woe:state=12577914", 
+          "woe:country=23424844", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513380, 
         "ne_longitude": 20.379, 
         "longitude": 20.372, 
-        "placetype": "Airport", 
+        "parent_woeid": 12594246, 
+        "ne_latitude": 48.291, 
         "iso": "HU", 
-        "date_indexed": "2010-12-02T09:56:22Z", 
-        "parent_woeid": 813924, 
+        "sw_latitude": 48.282, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.286, 
         "sw_longitude": 20.365, 
         "fullname": "Banreve Airport, Borsod-Aba\u00faj-Zempl\u00e9n, Ser\u00e9nyfalva, Hungary", 
-        "sw_latitude": 48.282
+        "date_indexed": "2010-12-02T09:56:22Z"
       }, 
       "id": 12513380
     }

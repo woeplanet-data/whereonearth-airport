@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520864, 
+        "placetype": "airport", 
         "name": "Mckinney Ranch Airport", 
-        "ne_latitude": 36.771, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12589671", 
+          "woe:state=2347595", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520864, 
         "ne_longitude": -96.544, 
         "longitude": -96.550, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589671, 
+        "ne_latitude": 36.771, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2492698, 
+        "sw_latitude": 36.762, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.767, 
         "sw_longitude": -96.556, 
-        "fullname": "Mckinney Ranch Airport, Shidler, Oklahoma, Osage, United States", 
-        "sw_latitude": 36.762
+        "fullname": "Mckinney Ranch Airport, Shidler, Oklahoma, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12520864
     }

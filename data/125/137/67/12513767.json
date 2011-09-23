@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513767, 
-        "name": "Tabriz Airport", 
         "alias_ENG_V": [
           "TBZ"
         ], 
-        "ne_latitude": 38.137, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Tabriz Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2345768", 
+          "woe:country=23424851", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513767, 
         "ne_longitude": 46.249, 
         "longitude": 46.243, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345768, 
+        "ne_latitude": 38.137, 
         "iso": "IR", 
-        "date_indexed": "2010-12-02T08:53:52Z", 
-        "parent_woeid": 2255239, 
+        "sw_latitude": 38.128, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.132, 
         "sw_longitude": 46.237, 
         "fullname": "Tabriz Airport, Tabriz, Azarbayjan-e Sharqi, Iran", 
-        "sw_latitude": 38.128
+        "iata_code": "TBZ", 
+        "date_indexed": "2010-12-02T08:53:52Z"
       }, 
       "id": 12513767
     }

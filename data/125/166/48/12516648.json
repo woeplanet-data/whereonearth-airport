@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516648, 
+        "placetype": "airport", 
         "name": "Ozhrnegoro Airport", 
-        "ne_latitude": 59.550, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598504", 
+          "woe:state=2346902", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516648, 
         "ne_longitude": 52.800, 
         "longitude": 52.791, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598504, 
+        "ne_latitude": 59.550, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2062068, 
+        "sw_latitude": 59.541, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 59.546, 
         "sw_longitude": 52.783, 
         "fullname": "Ozhrnegoro Airport, Kirovskaya Oblast, Verkhnekamsky, Russia", 
-        "sw_latitude": 59.541
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516648
     }

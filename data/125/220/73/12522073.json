@@ -3,28 +3,30 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -86.059, 
-              33.561
-            ], 
-            [
-              -86.059, 
-              33.579
-            ], 
-            [
-              -86.041, 
-              33.579
-            ], 
-            [
-              -86.041, 
-              33.561
-            ], 
-            [
-              -86.059, 
-              33.561
+              [
+                -86.071, 
+                33.572
+              ], 
+              [
+                -86.070, 
+                33.571
+              ], 
+              [
+                -86.071, 
+                33.571
+              ], 
+              [
+                -86.072, 
+                33.571
+              ], 
+              [
+                -86.071, 
+                33.572
+              ]
             ]
           ]
         ]
@@ -32,23 +34,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522073, 
-        "name": "Talladega Municipal Airport", 
         "alias_ENG_V": [
           "Talladega Airport"
         ], 
-        "ne_latitude": 33.579, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -86.041, 
-        "longitude": -86.053, 
-        "placetype": "Airport", 
+        "name": "Talladega Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587547", 
+          "woe:state=2347559", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522073, 
+        "ne_longitude": -86.070, 
+        "longitude": -86.071, 
+        "parent_woeid": 12587547, 
+        "ne_latitude": 33.572, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2439439, 
-        "latitude": 33.572, 
-        "sw_longitude": -86.059, 
-        "fullname": "Talladega Municipal Airport, Lincoln, Alabama, Talladega, United States", 
-        "sw_latitude": 33.561
+        "sw_latitude": 33.571, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 33.571, 
+        "sw_longitude": -86.072, 
+        "fullname": "Talladega Municipal Airport, Lincoln, Alabama, United States", 
+        "iata_code": "ASN", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522073
     }

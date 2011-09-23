@@ -3,28 +3,46 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -121.505, 
-              38.503
-            ], 
-            [
-              -121.505, 
-              38.521
-            ], 
-            [
-              -121.483, 
-              38.521
-            ], 
-            [
-              -121.483, 
-              38.503
-            ], 
-            [
-              -121.505, 
-              38.503
+              [
+                -121.498, 
+                38.514
+              ], 
+              [
+                -121.499, 
+                38.512
+              ], 
+              [
+                -121.499, 
+                38.513
+              ], 
+              [
+                -121.500, 
+                38.515
+              ], 
+              [
+                -121.492, 
+                38.520
+              ], 
+              [
+                -121.491, 
+                38.520
+              ], 
+              [
+                -121.489, 
+                38.519
+              ], 
+              [
+                -121.490, 
+                38.517
+              ], 
+              [
+                -121.498, 
+                38.514
+              ]
             ]
           ]
         ]
@@ -32,23 +50,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521691, 
-        "name": "Sacramento Executive Airport", 
         "alias_ENG_V": [
           "SAC"
         ], 
-        "ne_latitude": 38.521, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -121.483, 
-        "longitude": -121.499, 
-        "placetype": "Airport", 
-        "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
+        "name": "Sacramento Executive Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:suburb=55806131", 
+          "woe:county=12587703", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521691, 
+        "ne_longitude": -121.489, 
+        "longitude": -121.494, 
         "parent_woeid": 55806131, 
-        "latitude": 38.514, 
-        "sw_longitude": -121.505, 
-        "fullname": "Sacramento Executive Airport, Sacramento, California, Sacramento, United States", 
-        "sw_latitude": 38.503
+        "ne_latitude": 38.520, 
+        "iso": "US", 
+        "sw_latitude": 38.512, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 38.517, 
+        "sw_longitude": -121.500, 
+        "fullname": "Sacramento Executive Airport, Sacramento, California, United States", 
+        "iata_code": "SAC", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521691
     }

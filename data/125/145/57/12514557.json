@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514557, 
+        "placetype": "airport", 
         "name": "Seno Airport", 
-        "ne_latitude": 16.674, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2346008", 
+          "woe:country=23424872", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514557, 
         "ne_longitude": 105.020, 
         "longitude": 105.015, 
-        "placetype": "Airport", 
+        "parent_woeid": 2346008, 
+        "ne_latitude": 16.674, 
         "iso": "LA", 
-        "date_indexed": "2010-12-02T16:42:51Z", 
-        "parent_woeid": 1139237, 
+        "sw_latitude": 16.665, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 16.669, 
         "sw_longitude": 105.011, 
         "fullname": "Seno Airport, Savannahkhet, Laos", 
-        "sw_latitude": 16.665
+        "date_indexed": "2010-12-02T16:42:51Z"
       }, 
       "id": 12514557
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520788, 
-        "name": "Marathon Airport", 
         "alias_ENG_V": [
           "MTH"
         ], 
-        "ne_latitude": 24.732, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Marathon Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587846", 
+          "woe:state=2347568", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520788, 
         "ne_longitude": -81.039, 
         "longitude": -81.049, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587846, 
+        "ne_latitude": 24.732, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2445445, 
+        "sw_latitude": 24.720, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 24.725, 
         "sw_longitude": -81.063, 
-        "fullname": "Marathon Airport, Marathon, Florida, Monroe, United States", 
-        "sw_latitude": 24.720
+        "fullname": "Marathon Airport, Marathon, Florida, United States", 
+        "iata_code": "MTH", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520788
     }

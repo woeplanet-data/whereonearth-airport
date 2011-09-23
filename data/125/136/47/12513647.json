@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513647, 
-        "name": "Pantnagar Airport", 
         "alias_ENG_V": [
           "PGH"
         ], 
-        "ne_latitude": 29.036, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Pantnagar Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12586791", 
+          "woe:state=20070462", 
+          "woe:country=23424848", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513647, 
         "ne_longitude": 79.479, 
         "longitude": 79.474, 
-        "placetype": "Airport", 
+        "parent_woeid": 12586791, 
+        "ne_latitude": 29.036, 
         "iso": "IN", 
-        "date_indexed": "2010-12-02T09:26:27Z", 
-        "parent_woeid": 29131947, 
+        "sw_latitude": 29.027, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 29.032, 
         "sw_longitude": 79.468, 
-        "fullname": "Pantnagar Airport, Phoolbag, Uttarakhand, Udham Singh Nagar, India", 
-        "sw_latitude": 29.027
+        "fullname": "Pantnagar Airport, Phoolbag, Uttarakhand, India", 
+        "iata_code": "PGH", 
+        "date_indexed": "2010-12-02T09:26:27Z"
       }, 
       "id": 12513647
     }

@@ -3,28 +3,78 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -122.551, 
-              48.779
-            ], 
-            [
-              -122.551, 
-              48.804
-            ], 
-            [
-              -122.530, 
-              48.804
-            ], 
-            [
-              -122.530, 
-              48.779
-            ], 
-            [
-              -122.551, 
-              48.779
+              [
+                -122.534, 
+                48.790
+              ], 
+              [
+                -122.536, 
+                48.791
+              ], 
+              [
+                -122.535, 
+                48.793
+              ], 
+              [
+                -122.534, 
+                48.796
+              ], 
+              [
+                -122.533, 
+                48.801
+              ], 
+              [
+                -122.532, 
+                48.797
+              ], 
+              [
+                -122.528, 
+                48.796
+              ], 
+              [
+                -122.528, 
+                48.796
+              ], 
+              [
+                -122.531, 
+                48.793
+              ], 
+              [
+                -122.531, 
+                48.792
+              ], 
+              [
+                -122.531, 
+                48.791
+              ], 
+              [
+                -122.529, 
+                48.788
+              ], 
+              [
+                -122.532, 
+                48.785
+              ], 
+              [
+                -122.532, 
+                48.784
+              ], 
+              [
+                -122.532, 
+                48.784
+              ], 
+              [
+                -122.534, 
+                48.784
+              ], 
+              [
+                -122.534, 
+                48.790
+              ]
             ]
           ]
         ]
@@ -32,23 +82,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518790, 
-        "name": "Bellingham International Airport", 
         "alias_ENG_V": [
           "BLI"
         ], 
-        "ne_latitude": 48.804, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -122.530, 
+        "name": "Bellingham International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:suburb=55857998", 
+          "woe:county=12590476", 
+          "woe:state=2347606", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518790, 
+        "ne_longitude": -122.528, 
         "longitude": -122.532, 
-        "placetype": "Airport", 
-        "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
         "parent_woeid": 55857998, 
-        "latitude": 48.795, 
-        "sw_longitude": -122.551, 
-        "fullname": "Bellingham International Airport, Bellingham, Washington, Whatcom, United States", 
-        "sw_latitude": 48.779
+        "ne_latitude": 48.801, 
+        "iso": "US", 
+        "sw_latitude": 48.784, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 48.792, 
+        "sw_longitude": -122.536, 
+        "fullname": "Bellingham International Airport, Bellingham, Washington, United States", 
+        "iata_code": "BLI", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518790
     }

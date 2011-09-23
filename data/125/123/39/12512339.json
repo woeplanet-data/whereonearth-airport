@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512339, 
-        "name": "Vallenar Airport", 
         "alias_ENG_V": [
           "VLR"
         ], 
-        "ne_latitude": -28.587, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Vallenar Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=26794082", 
+          "woe:county=26793997", 
+          "woe:state=2345022", 
+          "woe:country=23424782", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512339, 
         "ne_longitude": -70.757, 
         "longitude": -70.762, 
-        "placetype": "Airport", 
+        "parent_woeid": 26794082, 
+        "ne_latitude": -28.587, 
         "iso": "CL", 
-        "date_indexed": "2010-12-02T12:15:39Z", 
-        "parent_woeid": 349969, 
+        "sw_latitude": -28.596, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -28.592, 
         "sw_longitude": -70.767, 
-        "fullname": "Vallenar Airport, Vallenar, Atacama Region, Huasco Province, Chile", 
-        "sw_latitude": -28.596
+        "fullname": "Vallenar Airport, Vallenar, Atacama Region, Chile", 
+        "iata_code": "VLR", 
+        "date_indexed": "2010-12-02T12:15:39Z"
       }, 
       "id": 12512339
     }

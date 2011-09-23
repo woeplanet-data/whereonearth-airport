@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517071, 
+        "placetype": "airport", 
         "name": "Ukraina Airport", 
-        "ne_latitude": 51.169, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597997", 
+          "woe:state=2346888", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517071, 
         "ne_longitude": 128.450, 
         "longitude": 128.443, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597997, 
+        "ne_latitude": 51.169, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2099846, 
+        "sw_latitude": 51.160, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.165, 
         "sw_longitude": 128.435, 
         "fullname": "Ukraina Airport, Amurskaya Oblast, Seryshevsky, Russia", 
-        "sw_latitude": 51.160
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12517071
     }

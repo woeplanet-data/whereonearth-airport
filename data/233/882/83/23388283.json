@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 23388283, 
+        "placetype": "airport", 
         "name": "Flughafen Neu-Riem", 
-        "ne_latitude": 48.140, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=26823090", 
+          "woe:county=20071093", 
+          "woe:state=2345482", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 23388283, 
         "ne_longitude": 11.703, 
         "longitude": 11.696, 
-        "placetype": "Airport", 
+        "parent_woeid": 26823090, 
+        "ne_latitude": 48.140, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 29345884, 
+        "sw_latitude": 48.131, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.135, 
         "sw_longitude": 11.689, 
-        "fullname": "Flughafen Neu-Riem, Munich, Bavaria, Munich, Germany", 
-        "sw_latitude": 48.131
+        "fullname": "Flughafen Neu-Riem, Munich, Bavaria, Germany", 
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 23388283
     }

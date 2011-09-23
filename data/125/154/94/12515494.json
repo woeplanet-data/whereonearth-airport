@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515494, 
-        "name": "Marshall Islands International Airport", 
         "alias_ENG_V": [
           "Marshall Islands Airport"
         ], 
-        "ne_latitude": 7.065, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Marshall Islands International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=24549850", 
+          "woe:country=23424932", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515494, 
         "ne_longitude": 171.280, 
         "longitude": 171.275, 
-        "placetype": "Airport", 
+        "parent_woeid": 24549850, 
+        "ne_latitude": 7.065, 
         "iso": "MH", 
-        "date_indexed": "2010-12-02T09:35:31Z", 
-        "parent_woeid": 1064287, 
+        "sw_latitude": 7.056, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 7.061, 
         "sw_longitude": 171.271, 
         "fullname": "Marshall Islands International Airport, Majuro, Majuro, Marshall Islands", 
-        "sw_latitude": 7.056
+        "iata_code": "MAJ", 
+        "date_indexed": "2010-12-02T09:35:31Z"
       }, 
       "id": 12515494
     }

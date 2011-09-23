@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388507, 
-        "name": "Davis Field", 
         "alias_ENG_V": [
           "Davis Field Airport"
         ], 
-        "ne_latitude": 34.153, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Davis Field", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589800", 
+          "woe:state=2347599", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388507, 
         "ne_longitude": -82.349, 
         "longitude": -82.357, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589800, 
+        "ne_latitude": 34.153, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2351489, 
+        "sw_latitude": 34.150, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 34.151, 
         "sw_longitude": -82.358, 
-        "fullname": "Davis Field, Abbeville, South Carolina, Abbeville, United States", 
-        "sw_latitude": 34.150
+        "fullname": "Davis Field, Abbeville, South Carolina, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388507
     }

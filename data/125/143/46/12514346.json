@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514346, 
+        "placetype": "airport", 
         "name": "Irtysh Airport", 
-        "ne_latitude": 49.007, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=20070175", 
+          "woe:country=23424871", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514346, 
         "ne_longitude": 83.381, 
         "longitude": 83.374, 
-        "placetype": "Airport", 
+        "parent_woeid": 20070175, 
+        "ne_latitude": 49.007, 
         "iso": "KZ", 
-        "date_indexed": "2010-12-02T08:54:13Z", 
-        "parent_woeid": 2264818, 
+        "sw_latitude": 48.998, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.003, 
         "sw_longitude": 83.367, 
         "fullname": "Irtysh Airport, Shyghys Qazaqstan, Kazakhstan", 
-        "sw_latitude": 48.998
+        "date_indexed": "2010-12-02T08:54:13Z"
       }, 
       "id": 12514346
     }

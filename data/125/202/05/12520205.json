@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520205, 
+        "placetype": "airport", 
         "name": "Holly Springs Marshall County Airport", 
-        "ne_latitude": 34.809, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12588930", 
+          "woe:state=2347583", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520205, 
         "ne_longitude": -89.516, 
         "longitude": -89.521, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588930, 
+        "ne_latitude": 34.809, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2423393, 
+        "sw_latitude": 34.800, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 34.804, 
         "sw_longitude": -89.527, 
-        "fullname": "Holly Springs Marshall County Airport, Holly Springs, Mississippi, Marshall, United States", 
-        "sw_latitude": 34.800
+        "fullname": "Holly Springs Marshall County Airport, Holly Springs, Mississippi, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12520205
     }

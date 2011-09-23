@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521920, 
-        "name": "Southland Field Airport", 
         "alias_ENG_V": [
           "Uxl"
         ], 
-        "ne_latitude": 30.140, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Southland Field Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588605", 
+          "woe:state=2347577", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521920, 
         "ne_longitude": -93.371, 
         "longitude": -93.373, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588605, 
+        "ne_latitude": 30.140, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2454584, 
+        "sw_latitude": 30.125, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 30.129, 
         "sw_longitude": -93.383, 
-        "fullname": "Southland Field Airport, Moss Lake, Louisiana, Calcasieu Parish, United States", 
-        "sw_latitude": 30.125
+        "fullname": "Southland Field Airport, Moss Lake, Louisiana, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521920
     }

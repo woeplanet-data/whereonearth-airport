@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524574, 
-        "name": "Bandon State Airport", 
         "alias_ENG_V": [
           "Bandon State"
         ], 
-        "ne_latitude": 43.093, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Bandon State Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589697", 
+          "woe:state=2347596", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524574, 
         "ne_longitude": -124.407, 
         "longitude": -124.411, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589697, 
+        "ne_latitude": 43.093, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2358911, 
+        "sw_latitude": 43.080, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.084, 
         "sw_longitude": -124.413, 
-        "fullname": "Bandon State Airport, Bandon, Oregon, Coos, United States", 
-        "sw_latitude": 43.080
+        "fullname": "Bandon State Airport, Bandon, Oregon, United States", 
+        "iata_code": "BDY", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12524574
     }

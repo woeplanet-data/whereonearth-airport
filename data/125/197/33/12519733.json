@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519733, 
-        "name": "Fisher County Airport", 
         "alias_ENG_V": [
           "56f"
         ], 
-        "ne_latitude": 32.830, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Fisher County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590082", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519733, 
         "ne_longitude": -100.411, 
         "longitude": -100.411, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590082, 
+        "ne_latitude": 32.830, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2461563, 
+        "sw_latitude": 32.818, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 32.819, 
         "sw_longitude": -100.424, 
-        "fullname": "Fisher County Airport, North Roby, Texas, Fisher, United States", 
-        "sw_latitude": 32.818
+        "fullname": "Fisher County Airport, North Roby, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12519733
     }

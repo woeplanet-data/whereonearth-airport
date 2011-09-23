@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513124, 
+        "placetype": "airport", 
         "name": "Hassfurt Airport", 
-        "ne_latitude": 50.024, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12635549", 
+          "woe:county=12596914", 
+          "woe:state=2345482", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513124, 
         "ne_longitude": 10.538, 
         "longitude": 10.531, 
-        "placetype": "Airport", 
+        "parent_woeid": 12635549, 
+        "ne_latitude": 50.024, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:24Z", 
-        "parent_woeid": 657777, 
+        "sw_latitude": 50.015, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.019, 
         "sw_longitude": 10.524, 
-        "fullname": "Hassfurt Airport, Ha\u00dffurt, Bavaria, Ha\u00dfberge, Germany", 
+        "fullname": "Hassfurt Airport, Ha\u00dffurt, Bavaria, Germany", 
         "alias_GER_Q": [
           "Flughafen Hassfurt"
         ], 
-        "sw_latitude": 50.015
+        "date_indexed": "2010-12-02T09:50:24Z"
       }, 
       "id": 12513124
     }

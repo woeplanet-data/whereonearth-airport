@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 56051713, 
+        "placetype": "airport", 
         "name": "Flugfeld Trieben", 
-        "ne_latitude": 47.496, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12674960", 
+          "woe:county=12591723", 
+          "woe:state=2344713", 
+          "woe:country=23424750", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56051713, 
         "ne_longitude": 14.501, 
         "longitude": 14.493, 
-        "placetype": "Airport", 
+        "parent_woeid": 12674960, 
+        "ne_latitude": 47.496, 
         "iso": "AT", 
-        "date_indexed": "2010-12-02T16:35:40Z", 
-        "parent_woeid": 550102, 
+        "sw_latitude": 47.492, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.492, 
         "sw_longitude": 14.491, 
-        "fullname": "Flugfeld Trieben, Trieben, Styria, Liezen, Austria", 
-        "sw_latitude": 47.492
+        "fullname": "Flugfeld Trieben, Trieben, Styria, Austria", 
+        "date_indexed": "2010-12-02T16:35:40Z"
       }, 
       "id": 56051713
     }

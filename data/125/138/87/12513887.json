@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513887, 
+        "placetype": "airport", 
         "name": "Ar Rumaylah Southwest Airport", 
-        "ne_latitude": 30.359, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55999901", 
+          "woe:state=2345834", 
+          "woe:country=23424855", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513887, 
         "ne_longitude": 47.110, 
         "longitude": 47.104, 
-        "placetype": "Airport", 
+        "parent_woeid": 55999901, 
+        "ne_latitude": 30.359, 
         "iso": "IQ", 
-        "date_indexed": "2010-12-02T16:42:58Z", 
-        "parent_woeid": 1979543, 
+        "sw_latitude": 30.350, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 30.354, 
         "sw_longitude": 47.099, 
         "fullname": "Ar Rumaylah Southwest Airport, Al Basrah, Al Zubair, Iraq", 
-        "sw_latitude": 30.350
+        "date_indexed": "2010-12-02T16:42:58Z"
       }, 
       "id": 12513887
     }

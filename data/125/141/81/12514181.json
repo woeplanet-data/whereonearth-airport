@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514181, 
+        "placetype": "airport", 
         "name": "Toksan Airport", 
-        "ne_latitude": 39.925, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345951", 
+          "woe:country=23424865", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514181, 
         "ne_longitude": 127.649, 
         "longitude": 127.643, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345951, 
+        "ne_latitude": 39.925, 
         "iso": "KP", 
-        "date_indexed": "2010-12-02T10:22:43Z", 
-        "parent_woeid": 1070422, 
+        "sw_latitude": 39.916, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 39.920, 
         "sw_longitude": 127.637, 
         "fullname": "Toksan Airport, Hamgyong-namdo, North Korea", 
-        "sw_latitude": 39.916
+        "date_indexed": "2010-12-02T10:22:43Z"
       }, 
       "id": 12514181
     }

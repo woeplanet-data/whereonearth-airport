@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512103, 
+        "placetype": "airport", 
         "name": "Jinzhou North Airport", 
-        "ne_latitude": 41.192, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12686778", 
+          "woe:county=26198074", 
+          "woe:state=12578008", 
+          "woe:country=23424781", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512103, 
         "ne_longitude": 121.174, 
         "longitude": 121.168, 
-        "placetype": "Airport", 
+        "parent_woeid": 12686778, 
+        "ne_latitude": 41.192, 
         "iso": "CN", 
-        "date_indexed": "2010-12-02T08:51:48Z", 
-        "parent_woeid": 2148065, 
+        "sw_latitude": 41.182, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.187, 
         "sw_longitude": 121.162, 
-        "fullname": "Jinzhou North Airport, Xuejia, Liaoning, Jinzhou, China", 
-        "sw_latitude": 41.182
+        "fullname": "Jinzhou North Airport, Xuejia, Liaoning, China", 
+        "date_indexed": "2010-12-02T08:51:48Z"
       }, 
       "id": 12512103
     }

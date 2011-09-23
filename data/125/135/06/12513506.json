@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513506, 
-        "name": "Sepinggan Airport", 
         "alias_ENG_V": [
           "BPN"
         ], 
-        "ne_latitude": -1.264, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Sepinggan Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=56000106", 
+          "woe:state=2345723", 
+          "woe:country=23424846", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513506, 
         "ne_longitude": 116.902, 
         "longitude": 116.897, 
-        "placetype": "Airport", 
+        "parent_woeid": 56000106, 
+        "ne_latitude": -1.264, 
         "iso": "ID", 
-        "date_indexed": "2010-12-02T16:54:32Z", 
-        "parent_woeid": 1047171, 
+        "sw_latitude": -1.273, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -1.268, 
         "sw_longitude": 116.893, 
-        "fullname": "Sepinggan Airport, Balikpapan, East Kalimantan, Balikpapan, Indonesia", 
-        "sw_latitude": -1.273
+        "fullname": "Sepinggan Airport, Balikpapan, East Kalimantan, Indonesia", 
+        "iata_code": "BPN", 
+        "date_indexed": "2010-12-02T16:54:32Z"
       }, 
       "id": 12513506
     }

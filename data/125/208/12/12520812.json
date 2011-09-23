@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520812, 
+        "placetype": "airport", 
         "name": "Marlin Airport", 
-        "ne_latitude": 31.345, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12590079", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520812, 
         "ne_longitude": -96.846, 
         "longitude": -96.852, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590079, 
+        "ne_latitude": 31.345, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2447581, 
+        "sw_latitude": 31.336, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 31.341, 
         "sw_longitude": -96.857, 
-        "fullname": "Marlin Airport, Mcclanahan, Texas, Falls, United States", 
-        "sw_latitude": 31.336
+        "fullname": "Marlin Airport, Mcclanahan, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12520812
     }

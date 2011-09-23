@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520104, 
+        "placetype": "airport", 
         "name": "Harrison Ranch Sonora Airport", 
-        "ne_latitude": 30.273, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12590075", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520104, 
         "ne_longitude": -100.445, 
         "longitude": -100.451, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590075, 
+        "ne_latitude": 30.273, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2483490, 
+        "sw_latitude": 30.264, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 30.269, 
         "sw_longitude": -100.456, 
-        "fullname": "Harrison Ranch Sonora Airport, Rocksprings, Texas, Edwards, United States", 
-        "sw_latitude": 30.264
+        "fullname": "Harrison Ranch Sonora Airport, Rocksprings, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12520104
     }

@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512650, 
-        "name": "San Cristobal Airport", 
         "alias_ENG_V": [
           "SCY"
         ], 
-        "ne_latitude": -0.905, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "San Cristobal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=28358253", 
+          "woe:county=28358245", 
+          "woe:state=2345202", 
+          "woe:country=23424801", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512650, 
         "ne_longitude": -89.602, 
         "longitude": -89.607, 
-        "placetype": "Airport", 
+        "parent_woeid": 28358253, 
+        "ne_latitude": -0.905, 
         "iso": "EC", 
-        "date_indexed": "2010-12-02T17:51:45Z", 
-        "parent_woeid": 375887, 
+        "sw_latitude": -0.915, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -0.910, 
         "sw_longitude": -89.611, 
-        "fullname": "San Cristobal Airport, Puerto Baquerizo Moreno, Galapagos, San Crist\u00f3bal, Ecuador", 
-        "sw_latitude": -0.915
+        "fullname": "San Cristobal Airport, Puerto Baquerizo Moreno, Galapagos, Ecuador", 
+        "iata_code": "SCY", 
+        "date_indexed": "2010-12-02T17:51:45Z"
       }, 
       "id": 12512650
     }

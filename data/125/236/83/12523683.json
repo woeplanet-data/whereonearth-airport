@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523683, 
-        "name": "Puerto Ordaz Airport", 
         "alias_ENG_V": [
           "Pto Ordaz Airport"
         ], 
-        "ne_latitude": 8.305, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Puerto Ordaz Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=26805585", 
+          "woe:county=26804581", 
+          "woe:state=2347682", 
+          "woe:country=23424982", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523683, 
         "ne_longitude": -62.729, 
         "longitude": -62.733, 
-        "placetype": "Airport", 
+        "parent_woeid": 26805585, 
+        "ne_latitude": 8.305, 
         "iso": "VE", 
-        "date_indexed": "2010-12-02T16:11:43Z", 
-        "parent_woeid": 468399, 
+        "sw_latitude": 8.295, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 8.300, 
         "sw_longitude": -62.738, 
-        "fullname": "Puerto Ordaz Airport, Puerto Ordaz, Bolivar, Caroni, Venezuela", 
-        "sw_latitude": 8.295
+        "fullname": "Puerto Ordaz Airport, Puerto Ordaz, Bolivar, Venezuela", 
+        "iata_code": "PZO", 
+        "date_indexed": "2010-12-02T16:11:43Z"
       }, 
       "id": 12523683
     }

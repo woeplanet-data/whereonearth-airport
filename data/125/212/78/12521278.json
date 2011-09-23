@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521278, 
-        "name": "Pageland Airport", 
         "alias_ENG_V": [
           "PYG"
         ], 
-        "ne_latitude": 34.747, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Pageland Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589812", 
+          "woe:state=2347599", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521278, 
         "ne_longitude": -80.338, 
         "longitude": -80.339, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589812, 
+        "ne_latitude": 34.747, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 55960524, 
+        "sw_latitude": 34.737, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 34.746, 
         "sw_longitude": -80.351, 
-        "fullname": "Pageland Airport, Mangums, South Carolina, Chesterfield, United States", 
-        "sw_latitude": 34.737
+        "fullname": "Pageland Airport, Mangums, South Carolina, United States", 
+        "iata_code": "PYG", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521278
     }

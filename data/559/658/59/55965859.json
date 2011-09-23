@@ -3,28 +3,34 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -122.637, 
-              49.096
-            ], 
-            [
-              -122.637, 
-              49.105
-            ], 
-            [
-              -122.625, 
-              49.105
-            ], 
-            [
-              -122.625, 
-              49.096
-            ], 
-            [
-              -122.637, 
-              49.096
+              [
+                -122.626, 
+                49.099
+              ], 
+              [
+                -122.632, 
+                49.098
+              ], 
+              [
+                -122.626, 
+                49.099
+              ], 
+              [
+                -122.625, 
+                49.101
+              ], 
+              [
+                -122.625, 
+                49.101
+              ], 
+              [
+                -122.626, 
+                49.099
+              ]
             ]
           ]
         ]
@@ -32,23 +38,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 55965859, 
-        "name": "Langley Municipal Airport", 
         "alias_ENG_V": [
           "YNJ"
         ], 
-        "ne_latitude": 49.105, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Langley Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375222", 
+          "woe:state=2344916", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 55965859, 
         "ne_longitude": -122.625, 
-        "longitude": -122.625, 
-        "placetype": "Airport", 
+        "longitude": -122.627, 
+        "parent_woeid": 29375222, 
+        "ne_latitude": 49.101, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 29372901, 
-        "latitude": 49.102, 
-        "sw_longitude": -122.637, 
-        "fullname": "Langley Municipal Airport, Langley Twp, British Columbia, Greater Vancouver, Canada", 
-        "sw_latitude": 49.096
+        "sw_latitude": 49.098, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 49.099, 
+        "sw_longitude": -122.632, 
+        "fullname": "Langley Municipal Airport, Langley Twp, British Columbia, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 55965859
     }

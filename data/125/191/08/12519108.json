@@ -3,28 +3,46 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -81.900, 
-              30.191
-            ], 
-            [
-              -81.900, 
-              30.247
-            ], 
-            [
-              -81.844, 
-              30.247
-            ], 
-            [
-              -81.844, 
-              30.191
-            ], 
-            [
-              -81.900, 
-              30.191
+              [
+                -81.879, 
+                30.229
+              ], 
+              [
+                -81.879, 
+                30.223
+              ], 
+              [
+                -81.880, 
+                30.221
+              ], 
+              [
+                -81.880, 
+                30.222
+              ], 
+              [
+                -81.886, 
+                30.225
+              ], 
+              [
+                -81.885, 
+                30.226
+              ], 
+              [
+                -81.883, 
+                30.230
+              ], 
+              [
+                -81.881, 
+                30.231
+              ], 
+              [
+                -81.879, 
+                30.229
+              ]
             ]
           ]
         ]
@@ -32,23 +50,32 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519108, 
-        "name": "Cecil Field Airport", 
         "alias_ENG_V": [
           "Cecil Field Naval Air Station"
         ], 
-        "ne_latitude": 30.247, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -81.844, 
-        "longitude": -81.884, 
-        "placetype": "Airport", 
-        "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
+        "name": "Cecil Field Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:suburb=29229982", 
+          "woe:suburb=28288735", 
+          "woe:county=12587818", 
+          "woe:state=2347568", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519108, 
+        "ne_longitude": -81.879, 
+        "longitude": -81.882, 
         "parent_woeid": 29229982, 
-        "latitude": 30.223, 
-        "sw_longitude": -81.900, 
-        "fullname": "Cecil Field Airport, Jacksonville, Florida, Duval, United States", 
-        "sw_latitude": 30.191
+        "ne_latitude": 30.231, 
+        "iso": "US", 
+        "sw_latitude": 30.221, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 30.226, 
+        "sw_longitude": -81.886, 
+        "fullname": "Cecil Field Airport, Jacksonville, Florida, United States", 
+        "iata_code": "NZC", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519108
     }

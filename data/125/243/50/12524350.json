@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524350, 
-        "name": "Port-De-Paix Airport", 
         "alias_ENG_V": [
           "Pt-Paix"
         ], 
-        "ne_latitude": 19.938, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Port-De-Paix Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2345614", 
+          "woe:country=23424839", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524350, 
         "ne_longitude": -72.837, 
         "longitude": -72.842, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345614, 
+        "ne_latitude": 19.938, 
         "iso": "HT", 
-        "date_indexed": "2010-12-02T17:52:09Z", 
-        "parent_woeid": 96111, 
+        "sw_latitude": 19.929, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 19.933, 
         "sw_longitude": -72.847, 
         "fullname": "Port-De-Paix Airport, Port-de-Paix, Nord-Ouest, Haiti", 
-        "sw_latitude": 19.929
+        "iata_code": "PAX", 
+        "date_indexed": "2010-12-02T17:52:09Z"
       }, 
       "id": 12524350
     }

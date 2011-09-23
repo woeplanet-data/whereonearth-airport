@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520767, 
-        "name": "Malvern Municipal Airport", 
         "alias_ENG_V": [
           "M78"
         ], 
-        "ne_latitude": 34.337, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Malvern Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587624", 
+          "woe:state=2347562", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520767, 
         "ne_longitude": -92.757, 
         "longitude": -92.762, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587624, 
+        "ne_latitude": 34.337, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2417844, 
+        "sw_latitude": 34.330, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 34.336, 
         "sw_longitude": -92.765, 
-        "fullname": "Malvern Municipal Airport, Harp, Arkansas, Hot Spring, United States", 
-        "sw_latitude": 34.330
+        "fullname": "Malvern Municipal Airport, Harp, Arkansas, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520767
     }

@@ -3,28 +3,30 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              118.602, 
-              -20.394
-            ], 
-            [
-              118.602, 
-              -20.357
-            ], 
-            [
-              118.648, 
-              -20.357
-            ], 
-            [
-              118.648, 
-              -20.394
-            ], 
-            [
-              118.602, 
-              -20.394
+              [
+                118.634, 
+                -20.376
+              ], 
+              [
+                118.632, 
+                -20.378
+              ], 
+              [
+                118.634, 
+                -20.375
+              ], 
+              [
+                118.635, 
+                -20.375
+              ], 
+              [
+                118.634, 
+                -20.376
+              ]
             ]
           ]
         ]
@@ -32,23 +34,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510764, 
-        "name": "Port Hedland Airport", 
         "alias_ENG_V": [
           "Pt Hedland Airport"
         ], 
-        "ne_latitude": -20.357, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": 118.648, 
-        "longitude": 118.632, 
-        "placetype": "Airport", 
-        "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
+        "name": "Port Hedland Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:suburb=28676661", 
+          "woe:county=55864371", 
+          "woe:state=2344706", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510764, 
+        "ne_longitude": 118.635, 
+        "longitude": 118.633, 
         "parent_woeid": 28676661, 
-        "latitude": -20.378, 
-        "sw_longitude": 118.602, 
-        "fullname": "Port Hedland Airport, Port Hedland, Western Australia, Port Hedland, Australia", 
-        "sw_latitude": -20.394
+        "ne_latitude": -20.375, 
+        "iso": "AU", 
+        "sw_latitude": -20.378, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": -20.376, 
+        "sw_longitude": 118.632, 
+        "fullname": "Port Hedland Airport, Port Hedland, Western Australia, Australia", 
+        "iata_code": "PHE", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 12510764
     }

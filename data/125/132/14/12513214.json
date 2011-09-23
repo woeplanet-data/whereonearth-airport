@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513214, 
+        "placetype": "airport", 
         "name": "Preshchen Airport", 
-        "ne_latitude": 51.650, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=24547186", 
+          "woe:county=12596841", 
+          "woe:state=2345491", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513214, 
         "ne_longitude": 14.666, 
         "longitude": 14.658, 
-        "placetype": "Airport", 
+        "parent_woeid": 24547186, 
+        "ne_latitude": 51.650, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 685920, 
+        "sw_latitude": 51.641, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.646, 
         "sw_longitude": 14.651, 
-        "fullname": "Preshchen Airport, Preschen, Brandenburg, Spree-Nei\u00dfe, Germany", 
+        "fullname": "Preshchen Airport, Preschen, Brandenburg, Germany", 
         "alias_GER_Q": [
           "Flughafen Preshchen"
         ], 
-        "sw_latitude": 51.641
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 12513214
     }

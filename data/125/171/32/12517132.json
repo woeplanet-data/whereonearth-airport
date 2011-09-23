@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517132, 
+        "placetype": "airport", 
         "name": "Vad Airport", 
-        "ne_latitude": 55.502, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598241", 
+          "woe:state=2346895", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517132, 
         "ne_longitude": 44.304, 
         "longitude": 44.296, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598241, 
+        "ne_latitude": 55.502, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2100300, 
+        "sw_latitude": 55.493, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 55.497, 
         "sw_longitude": 44.288, 
         "fullname": "Vad Airport, Nizhegorodskaya Oblast, Vadsky, Russia", 
-        "sw_latitude": 55.493
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12517132
     }

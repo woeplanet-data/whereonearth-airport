@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513179, 
+        "placetype": "airport", 
         "name": "Merseburg Airport", 
-        "ne_latitude": 51.341, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12626299", 
+          "woe:county=12596936", 
+          "woe:state=2345494", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513179, 
         "ne_longitude": 11.969, 
         "longitude": 11.962, 
-        "placetype": "Airport", 
+        "parent_woeid": 12626299, 
+        "ne_latitude": 51.341, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 709208, 
+        "sw_latitude": 51.332, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.336, 
         "sw_longitude": 11.955, 
-        "fullname": "Merseburg Airport, Zscherben, Saxony-Anhalt, Merseburg, Germany", 
+        "fullname": "Merseburg Airport, Zscherben, Saxony-Anhalt, Germany", 
         "alias_GER_Q": [
           "Flughafen Merseburg"
         ], 
-        "sw_latitude": 51.332
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 12513179
     }

@@ -3,28 +3,42 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              16.102, 
-              69.276
-            ], 
-            [
-              16.102, 
-              69.312
-            ], 
-            [
-              16.177, 
-              69.312
-            ], 
-            [
-              16.177, 
-              69.276
-            ], 
-            [
-              16.102, 
-              69.276
+              [
+                16.131, 
+                69.305
+              ], 
+              [
+                16.128, 
+                69.305
+              ], 
+              [
+                16.130, 
+                69.306
+              ], 
+              [
+                16.132, 
+                69.307
+              ], 
+              [
+                16.137, 
+                69.307
+              ], 
+              [
+                16.139, 
+                69.304
+              ], 
+              [
+                16.135, 
+                69.300
+              ], 
+              [
+                16.131, 
+                69.305
+              ]
             ]
           ]
         ]
@@ -32,29 +46,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "NOR", 
-        "woeid": 12515100, 
+        "alias_ENG_V": [
+          "ANX Airport"
+        ], 
         "name": "And\u00f8ya Flyplass Andenes", 
         "alias_ENG_P": [
           "Andoya Airport"
         ], 
-        "ne_latitude": 69.312, 
-        "alias_ENG_V": [
-          "ANX Airport"
+        "hierarchy": [
+          "woe:county=12592648", 
+          "woe:state=2346392", 
+          "woe:country=23424910", 
+          "woe:planet=1"
         ], 
-        "ne_longitude": 16.177, 
-        "longitude": 16.123, 
-        "parent_woeid": 856638, 
-        "placetype": "Airport", 
-        "sw_longitude": 16.102, 
-        "date_indexed": "2010-12-02T10:20:58Z", 
+        "woeid": 12515100, 
         "provider": "geoplanet 7.6.0", 
-        "latitude": 69.311, 
+        "ne_longitude": 16.139, 
+        "longitude": 16.135, 
+        "parent_woeid": 12592648, 
+        "placetype": "airport", 
+        "sw_longitude": 16.128, 
+        "sw_latitude": 69.300, 
+        "ne_latitude": 69.307, 
+        "latitude": 69.304, 
         "iso": "NO", 
-        "fullname": "And\u00f8ya Flyplass Andenes, Andenes, Nordland Fylke, And\u00f8y Kommune, Norway", 
+        "fullname": "And\u00f8ya Flyplass Andenes, Andenes, Nordland Fylke, Norway", 
+        "iata_code": "ANX", 
         "alias_NOR_V": [
           "ANX Lufthavn"
         ], 
-        "sw_latitude": 69.276, 
+        "date_indexed": "2010-12-02T10:20:58Z", 
         "alias_NOR_S": [
           "Andoya Flyplass"
         ]

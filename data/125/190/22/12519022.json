@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519022, 
+        "placetype": "airport", 
         "name": "Calvin Campbell Municipal Airport", 
-        "ne_latitude": 45.413, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12588729", 
+          "woe:state=2347581", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519022, 
         "ne_longitude": -84.594, 
         "longitude": -84.600, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588729, 
+        "ne_latitude": 45.413, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:15Z", 
-        "parent_woeid": 2379915, 
+        "sw_latitude": 45.404, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.408, 
         "sw_longitude": -84.606, 
-        "fullname": "Calvin Campbell Municipal Airport, Chippewa Beach, Michigan, Cheboygan, United States", 
-        "sw_latitude": 45.404
+        "fullname": "Calvin Campbell Municipal Airport, Chippewa Beach, Michigan, United States", 
+        "date_indexed": "2010-12-02T18:39:15Z"
       }, 
       "id": 12519022
     }

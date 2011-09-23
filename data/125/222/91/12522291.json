@@ -3,28 +3,46 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -119.403, 
-              36.305
-            ], 
-            [
-              -119.403, 
-              36.327
-            ], 
-            [
-              -119.378, 
-              36.327
-            ], 
-            [
-              -119.378, 
-              36.305
-            ], 
-            [
-              -119.403, 
-              36.305
+              [
+                -119.389, 
+                36.324
+              ], 
+              [
+                -119.389, 
+                36.323
+              ], 
+              [
+                -119.392, 
+                36.318
+              ], 
+              [
+                -119.391, 
+                36.324
+              ], 
+              [
+                -119.391, 
+                36.326
+              ], 
+              [
+                -119.389, 
+                36.327
+              ], 
+              [
+                -119.387, 
+                36.327
+              ], 
+              [
+                -119.386, 
+                36.327
+              ], 
+              [
+                -119.389, 
+                36.324
+              ]
             ]
           ]
         ]
@@ -32,23 +50,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522291, 
-        "name": "Visalia Municipal Airport", 
         "alias_ENG_V": [
           "Visalia Airport"
         ], 
+        "name": "Visalia Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587723", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522291, 
+        "ne_longitude": -119.386, 
+        "longitude": -119.390, 
+        "parent_woeid": 12587723, 
         "ne_latitude": 36.327, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -119.378, 
-        "longitude": -119.398, 
-        "placetype": "Airport", 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2512682, 
-        "latitude": 36.327, 
-        "sw_longitude": -119.403, 
-        "fullname": "Visalia Municipal Airport, Visalia, California, Tulare, United States", 
-        "sw_latitude": 36.305
+        "sw_latitude": 36.318, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 36.324, 
+        "sw_longitude": -119.392, 
+        "fullname": "Visalia Municipal Airport, Visalia, California, United States", 
+        "iata_code": "VIS", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522291
     }

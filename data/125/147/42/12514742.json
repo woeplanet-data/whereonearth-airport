@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514742, 
+        "placetype": "airport", 
         "name": "Darhan Southeast Airport", 
-        "ne_latitude": 49.464, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=20070014", 
+          "woe:country=23424887", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514742, 
         "ne_longitude": 106.024, 
         "longitude": 106.017, 
-        "placetype": "Airport", 
+        "parent_woeid": 20070014, 
+        "ne_latitude": 49.464, 
         "iso": "MN", 
-        "date_indexed": "2010-12-02T08:53:23Z", 
-        "parent_woeid": 2266539, 
+        "sw_latitude": 49.455, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.459, 
         "sw_longitude": 106.010, 
         "fullname": "Darhan Southeast Airport, Darhan, Darhan, Mongolia", 
-        "sw_latitude": 49.455
+        "date_indexed": "2010-12-02T08:53:23Z"
       }, 
       "id": 12514742
     }

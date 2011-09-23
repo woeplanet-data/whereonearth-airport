@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512838, 
+        "placetype": "airport", 
         "name": "Aire sur L Adour Airport", 
-        "ne_latitude": 43.712, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12656241", 
+          "woe:county=12597194", 
+          "woe:state=7153323", 
+          "woe:country=23424819", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512838, 
         "ne_longitude": -0.239, 
         "longitude": -0.248, 
-        "placetype": "Airport", 
+        "parent_woeid": 12656241, 
+        "ne_latitude": 43.712, 
         "iso": "FR", 
-        "date_indexed": "2010-12-02T12:04:01Z", 
-        "parent_woeid": 578128, 
+        "sw_latitude": 43.706, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.709, 
         "sw_longitude": -0.255, 
-        "fullname": "Aire sur L Adour Airport, Barcelonne, Midi-Pyrenees, Gers, France", 
-        "sw_latitude": 43.706
+        "fullname": "Aire sur L Adour Airport, Barcelonne, Midi-Pyrenees, France", 
+        "date_indexed": "2010-12-02T12:04:01Z"
       }, 
       "id": 12512838
     }

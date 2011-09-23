@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521490, 
-        "name": "Provincetown Municipal Airport", 
         "alias_ENG_V": [
           "PVC"
         ], 
-        "ne_latitude": 42.079, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Provincetown Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588700", 
+          "woe:state=2347580", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521490, 
         "ne_longitude": -70.214, 
         "longitude": -70.217, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588700, 
+        "ne_latitude": 42.079, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2477078, 
+        "sw_latitude": 42.075, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.076, 
         "sw_longitude": -70.220, 
-        "fullname": "Provincetown Municipal Airport, Provincetown, Massachusetts, Barnstable, United States", 
-        "sw_latitude": 42.075
+        "fullname": "Provincetown Municipal Airport, Provincetown, Massachusetts, United States", 
+        "iata_code": "PVC", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521490
     }

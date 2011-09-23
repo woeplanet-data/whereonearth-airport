@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519991, 
+        "placetype": "airport", 
         "name": "Green Lake Ranch Airport", 
-        "ne_latitude": 28.588, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12590035", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519991, 
         "ne_longitude": -96.849, 
         "longitude": -96.854, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590035, 
+        "ne_latitude": 28.588, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2420593, 
+        "sw_latitude": 28.579, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 28.583, 
         "sw_longitude": -96.859, 
-        "fullname": "Green Lake Ranch Airport, Heyser, Texas, Calhoun, United States", 
-        "sw_latitude": 28.579
+        "fullname": "Green Lake Ranch Airport, Heyser, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12519991
     }

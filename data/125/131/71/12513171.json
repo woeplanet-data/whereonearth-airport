@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513171, 
+        "placetype": "airport", 
         "name": "Ludwigslust East Airport", 
-        "ne_latitude": 53.310, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12630733", 
+          "woe:county=12596989", 
+          "woe:state=2345492", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513171, 
         "ne_longitude": 11.545, 
         "longitude": 11.538, 
-        "placetype": "Airport", 
+        "parent_woeid": 12630733, 
+        "ne_latitude": 53.310, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 20165709, 
+        "sw_latitude": 53.301, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.306, 
         "sw_longitude": 11.530, 
-        "fullname": "Ludwigslust East Airport, Heidehof, Mecklenburg-Vorpommern, Landkreis Ludwigslust, Germany", 
+        "fullname": "Ludwigslust East Airport, Heidehof, Mecklenburg-Vorpommern, Germany", 
         "alias_GER_Q": [
           "Flughafen Ludwigslust East"
         ], 
-        "sw_latitude": 53.301
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 12513171
     }

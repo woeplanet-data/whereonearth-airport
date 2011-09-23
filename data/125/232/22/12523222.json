@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523222, 
-        "name": "San Jose Airport", 
         "alias_ENG_V": [
           "SJS"
         ], 
-        "ne_latitude": -17.812, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "San Jose Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=55968088", 
+          "woe:county=55967835", 
+          "woe:state=2344808", 
+          "woe:country=23424762", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523222, 
         "ne_longitude": -60.745, 
         "longitude": -60.750, 
-        "placetype": "Airport", 
+        "parent_woeid": 55968088, 
+        "ne_latitude": -17.812, 
         "iso": "BO", 
-        "date_indexed": "2010-12-02T17:57:50Z", 
-        "parent_woeid": 346100, 
+        "sw_latitude": -17.821, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -17.817, 
         "sw_longitude": -60.755, 
-        "fullname": "San Jose Airport, San Jos\u00e9 de Chiquitos, Santa Cruz, Chiquitos, Bolivia", 
-        "sw_latitude": -17.821
+        "fullname": "San Jose Airport, San Jos\u00e9 de Chiquitos, Santa Cruz, Bolivia", 
+        "date_indexed": "2010-12-02T17:57:50Z"
       }, 
       "id": 12523222
     }

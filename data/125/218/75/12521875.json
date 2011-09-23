@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521875, 
-        "name": "Sky King Airport", 
         "alias_ENG_V": [
           "3i3"
         ], 
-        "ne_latitude": 39.550, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Sky King Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588263", 
+          "woe:state=2347573", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521875, 
         "ne_longitude": -87.370, 
         "longitude": -87.371, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588263, 
+        "ne_latitude": 39.550, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2445855, 
+        "sw_latitude": 39.543, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 39.550, 
         "sw_longitude": -87.383, 
-        "fullname": "Sky King Airport, Markles, Indiana, Vigo, United States", 
-        "sw_latitude": 39.543
+        "fullname": "Sky King Airport, Markles, Indiana, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521875
     }

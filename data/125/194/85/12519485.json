@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519485, 
-        "name": "Dexter Municipal Airport", 
         "alias_ENG_V": [
           "DXE"
         ], 
-        "ne_latitude": 36.785, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Dexter Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589069", 
+          "woe:state=2347584", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519485, 
         "ne_longitude": -89.935, 
         "longitude": -89.939, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589069, 
+        "ne_latitude": 36.785, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2391820, 
+        "sw_latitude": 36.771, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.777, 
         "sw_longitude": -89.946, 
-        "fullname": "Dexter Municipal Airport, Dexter, Missouri, Stoddard, United States", 
-        "sw_latitude": 36.771
+        "fullname": "Dexter Municipal Airport, Dexter, Missouri, United States", 
+        "iata_code": "DXE", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519485
     }

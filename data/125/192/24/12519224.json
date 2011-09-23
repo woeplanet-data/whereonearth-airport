@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519224, 
-        "name": "Clay Center Municipal Airport", 
         "alias_ENG_V": [
           "CYW"
         ], 
-        "ne_latitude": 39.394, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Clay Center Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588384", 
+          "woe:state=2347575", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519224, 
         "ne_longitude": -97.155, 
         "longitude": -97.165, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588384, 
+        "ne_latitude": 39.394, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2380990, 
+        "sw_latitude": 39.380, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 39.387, 
         "sw_longitude": -97.165, 
-        "fullname": "Clay Center Municipal Airport, Clay Center, Kansas, Clay, United States", 
-        "sw_latitude": 39.380
+        "fullname": "Clay Center Municipal Airport, Clay Center, Kansas, United States", 
+        "iata_code": "CYW", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519224
     }

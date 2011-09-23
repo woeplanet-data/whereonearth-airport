@@ -3,28 +3,90 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -52.781, 
-              47.606
-            ], 
-            [
-              -52.781, 
-              47.631
-            ], 
-            [
-              -52.723, 
-              47.631
-            ], 
-            [
-              -52.723, 
-              47.606
-            ], 
-            [
-              -52.781, 
-              47.606
+              [
+                -52.745, 
+                47.606
+              ], 
+              [
+                -52.746, 
+                47.604
+              ], 
+              [
+                -52.746, 
+                47.603
+              ], 
+              [
+                -52.749, 
+                47.605
+              ], 
+              [
+                -52.753, 
+                47.607
+              ], 
+              [
+                -52.756, 
+                47.608
+              ], 
+              [
+                -52.753, 
+                47.618
+              ], 
+              [
+                -52.746, 
+                47.622
+              ], 
+              [
+                -52.745, 
+                47.628
+              ], 
+              [
+                -52.738, 
+                47.624
+              ], 
+              [
+                -52.734, 
+                47.623
+              ], 
+              [
+                -52.734, 
+                47.623
+              ], 
+              [
+                -52.725, 
+                47.618
+              ], 
+              [
+                -52.724, 
+                47.617
+              ], 
+              [
+                -52.724, 
+                47.607
+              ], 
+              [
+                -52.725, 
+                47.617
+              ], 
+              [
+                -52.735, 
+                47.620
+              ], 
+              [
+                -52.739, 
+                47.615
+              ], 
+              [
+                -52.741, 
+                47.610
+              ], 
+              [
+                -52.745, 
+                47.606
+              ]
             ]
           ]
         ]
@@ -32,26 +94,33 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511848, 
-        "name": "St John's International Airport", 
         "alias_ENG_V": [
           "YYT Airport"
         ], 
-        "ne_latitude": 47.631, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -52.723, 
-        "longitude": -52.743, 
-        "placetype": "Airport", 
+        "name": "St John's International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375216", 
+          "woe:state=2344919", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511848, 
+        "ne_longitude": -52.724, 
+        "longitude": -52.744, 
+        "parent_woeid": 29375216, 
+        "ne_latitude": 47.628, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:24:00Z", 
-        "parent_woeid": 3991, 
-        "latitude": 47.613, 
-        "sw_longitude": -52.781, 
-        "fullname": "St John's International Airport, Torbay, Newfoundland and Labrador, Newfoundland and Labrador, Canada", 
+        "sw_latitude": 47.603, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 47.616, 
+        "sw_longitude": -52.756, 
+        "fullname": "St John's International Airport, Torbay, Newfoundland and Labrador, Canada", 
+        "iata_code": "YYT", 
         "alias_FRE_S": [
           "Aeroport International de St John's"
         ], 
-        "sw_latitude": 47.606, 
+        "date_indexed": "2010-12-02T10:24:00Z", 
         "alias_FRE_Q": [
           "A\u00e9roport International de St John's"
         ]

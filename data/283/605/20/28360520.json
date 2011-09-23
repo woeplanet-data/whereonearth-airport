@@ -32,26 +32,32 @@
       "type": "Feature", 
       "properties": {
         "lang": "JPN", 
-        "woeid": 28360520, 
         "name": "\u5f1f\u5b50\u5c48\u98db\u884c\u5834", 
         "alias_ENG_P": [
           "Teshikaga Airport"
         ], 
-        "ne_latitude": 43.484, 
+        "parent_woeid": 24853927, 
+        "woeid": 28360520, 
+        "provider": "geoplanet 7.6.0", 
         "alias_JPN_V": [
           "\u30c6\u30b7\u30ab\u30ac\u30d2\u30b3\u30a6\u30b8\u30e7\u30a6"
         ], 
-        "ne_longitude": 144.441, 
         "longitude": 144.434, 
-        "parent_woeid": 1118343, 
-        "placetype": "Airport", 
+        "ne_longitude": 144.441, 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=24853927", 
+          "woe:state=7153351", 
+          "woe:country=23424856", 
+          "woe:planet=1"
+        ], 
         "iso": "JP", 
-        "date_indexed": "2010-12-02T08:09:09Z", 
-        "provider": "geoplanet 7.6.0", 
+        "sw_latitude": 43.475, 
+        "ne_latitude": 43.484, 
         "latitude": 43.480, 
         "sw_longitude": 144.428, 
-        "fullname": "\u5f1f\u5b50\u5c48\u98db\u884c\u5834, Teshikaga-cho, Hokkaido Prefecture, Kawakami-gun, Japan", 
-        "sw_latitude": 43.475
+        "fullname": "\u5f1f\u5b50\u5c48\u98db\u884c\u5834, Teshikaga-cho, Hokkaido Prefecture, Japan", 
+        "date_indexed": "2010-12-02T08:09:09Z"
       }, 
       "id": 28360520
     }

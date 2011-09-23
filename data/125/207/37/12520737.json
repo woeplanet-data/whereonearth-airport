@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520737, 
-        "name": "Mackall Army Air Field", 
         "alias_ENG_V": [
           "HFF Airport"
         ], 
-        "ne_latitude": 35.047, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Mackall Army Air Field", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589450", 
+          "woe:state=2347592", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520737, 
         "ne_longitude": -79.489, 
         "longitude": -79.495, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589450, 
+        "ne_latitude": 35.047, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2422780, 
+        "sw_latitude": 35.027, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.047, 
         "sw_longitude": -79.507, 
-        "fullname": "Mackall Army Air Field, Hoffman, North Carolina, Richmond, United States", 
-        "sw_latitude": 35.027
+        "fullname": "Mackall Army Air Field, Hoffman, North Carolina, United States", 
+        "iata_code": "HFF", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520737
     }

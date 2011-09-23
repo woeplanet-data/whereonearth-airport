@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520091, 
-        "name": "Harper Municipal Airport", 
         "alias_ENG_V": [
           "8k2"
         ], 
-        "ne_latitude": 37.283, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Harper Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588409", 
+          "woe:state=2347575", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520091, 
         "ne_longitude": -98.039, 
         "longitude": -98.041, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588409, 
+        "ne_latitude": 37.283, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2417861, 
+        "sw_latitude": 37.272, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 37.280, 
         "sw_longitude": -98.049, 
-        "fullname": "Harper Municipal Airport, Harper, Kansas, Harper, United States", 
-        "sw_latitude": 37.272
+        "fullname": "Harper Municipal Airport, Harper, Kansas, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520091
     }

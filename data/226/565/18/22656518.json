@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 22656518, 
+        "placetype": "airport", 
         "alias_ITA_Q": [
           "Aeroporto Cantonale di Locarno"
         ], 
         "name": "Aeroporto Cantonale Locarno-Magadino", 
-        "ne_latitude": 46.167, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12682808", 
+          "woe:county=12593143", 
+          "woe:state=2347102", 
+          "woe:country=23424957", 
+          "woe:planet=1"
+        ], 
+        "woeid": 22656518, 
         "ne_longitude": 8.885, 
         "longitude": 8.880, 
-        "placetype": "Airport", 
+        "parent_woeid": 12682808, 
+        "ne_latitude": 46.167, 
         "iso": "CH", 
-        "date_indexed": "2010-12-02T18:20:52Z", 
-        "parent_woeid": 20103153, 
+        "sw_latitude": 46.158, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.162, 
         "sw_longitude": 8.871, 
-        "fullname": "Aeroporto Cantonale Locarno-Magadino, Montedato, Canton of Ticino, Locarno, Switzerland", 
-        "sw_latitude": 46.158
+        "fullname": "Aeroporto Cantonale Locarno-Magadino, Montedato, Canton of Ticino, Switzerland", 
+        "date_indexed": "2010-12-02T18:20:52Z"
       }, 
       "id": 22656518
     }

@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510856, 
+        "placetype": "airport", 
         "name": "Weelde Airport", 
-        "ne_latitude": 51.400, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12602509", 
+          "woe:county=12591772", 
+          "woe:state=7153308", 
+          "woe:country=23424757", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510856, 
         "ne_longitude": 4.968, 
         "longitude": 4.961, 
-        "placetype": "Airport", 
+        "parent_woeid": 12602509, 
+        "ne_latitude": 51.400, 
         "iso": "BE", 
-        "date_indexed": "2010-12-02T16:32:27Z", 
-        "parent_woeid": 29374927, 
+        "sw_latitude": 51.390, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.395, 
         "sw_longitude": 4.953, 
-        "fullname": "Weelde Airport, Weelde-station, Antwerp, Turnhout, Belgium", 
-        "sw_latitude": 51.390
+        "fullname": "Weelde Airport, Weelde-station, Antwerp, Belgium", 
+        "date_indexed": "2010-12-02T16:32:27Z"
       }, 
       "id": 12510856
     }

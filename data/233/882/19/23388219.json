@@ -3,28 +3,106 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -80.401, 
-              43.450
-            ], 
-            [
-              -80.401, 
-              43.467
-            ], 
-            [
-              -80.370, 
-              43.467
-            ], 
-            [
-              -80.370, 
-              43.450
-            ], 
-            [
-              -80.401, 
-              43.450
+              [
+                -80.386, 
+                43.455
+              ], 
+              [
+                -80.393, 
+                43.451
+              ], 
+              [
+                -80.395, 
+                43.446
+              ], 
+              [
+                -80.395, 
+                43.446
+              ], 
+              [
+                -80.393, 
+                43.447
+              ], 
+              [
+                -80.393, 
+                43.451
+              ], 
+              [
+                -80.394, 
+                43.455
+              ], 
+              [
+                -80.394, 
+                43.457
+              ], 
+              [
+                -80.395, 
+                43.458
+              ], 
+              [
+                -80.395, 
+                43.460
+              ], 
+              [
+                -80.386, 
+                43.459
+              ], 
+              [
+                -80.383, 
+                43.460
+              ], 
+              [
+                -80.376, 
+                43.461
+              ], 
+              [
+                -80.375, 
+                43.466
+              ], 
+              [
+                -80.372, 
+                43.466
+              ], 
+              [
+                -80.372, 
+                43.461
+              ], 
+              [
+                -80.371, 
+                43.452
+              ], 
+              [
+                -80.370, 
+                43.450
+              ], 
+              [
+                -80.371, 
+                43.451
+              ], 
+              [
+                -80.371, 
+                43.452
+              ], 
+              [
+                -80.376, 
+                43.461
+              ], 
+              [
+                -80.381, 
+                43.456
+              ], 
+              [
+                -80.384, 
+                43.454
+              ], 
+              [
+                -80.386, 
+                43.455
+              ]
             ]
           ]
         ]
@@ -32,23 +110,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 23388219, 
-        "name": "Region of Waterloo International Airport", 
         "alias_ENG_V": [
           "YKF Airport"
         ], 
-        "ne_latitude": 43.467, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Region of Waterloo International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375060", 
+          "woe:state=2344922", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 23388219, 
         "ne_longitude": -80.370, 
-        "longitude": -80.386, 
-        "placetype": "Airport", 
+        "longitude": -80.383, 
+        "parent_woeid": 29375060, 
+        "ne_latitude": 43.466, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:24:00Z", 
-        "parent_woeid": 23399899, 
-        "latitude": 43.456, 
-        "sw_longitude": -80.401, 
-        "fullname": "Region of Waterloo International Airport, Breslau, Ontario, Waterloo, Canada", 
-        "sw_latitude": 43.450
+        "sw_latitude": 43.446, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 43.458, 
+        "sw_longitude": -80.395, 
+        "fullname": "Region of Waterloo International Airport, Breslau, Ontario, Canada", 
+        "date_indexed": "2010-12-02T10:24:00Z"
       }, 
       "id": 23388219
     }

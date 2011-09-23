@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388562, 
-        "name": "Costal Airport", 
         "alias_ENG_V": [
           "83j"
         ], 
-        "ne_latitude": 30.536, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Costal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587819", 
+          "woe:state=2347568", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388562, 
         "ne_longitude": -87.385, 
         "longitude": -87.387, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587819, 
+        "ne_latitude": 30.536, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2363648, 
+        "sw_latitude": 30.528, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 30.535, 
         "sw_longitude": -87.387, 
-        "fullname": "Costal Airport, Beulah, Florida, Escambia, United States", 
-        "sw_latitude": 30.528
+        "fullname": "Costal Airport, Beulah, Florida, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388562
     }

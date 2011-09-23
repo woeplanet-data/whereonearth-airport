@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514775, 
-        "name": "Kayes Airport", 
         "alias_ENG_V": [
           "KYS"
         ], 
-        "ne_latitude": 14.436, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Kayes Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=56000005", 
+          "woe:state=2346182", 
+          "woe:country=23424891", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514775, 
         "ne_longitude": -11.435, 
         "longitude": -11.440, 
-        "placetype": "Airport", 
+        "parent_woeid": 56000005, 
+        "ne_latitude": 14.436, 
         "iso": "ML", 
-        "date_indexed": "2010-12-02T08:58:41Z", 
-        "parent_woeid": 1372774, 
+        "sw_latitude": 14.427, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 14.432, 
         "sw_longitude": -11.444, 
-        "fullname": "Kayes Airport, Kayes, Kayes, Kayes, Mali", 
-        "sw_latitude": 14.427
+        "fullname": "Kayes Airport, Kayes, Kayes, Mali", 
+        "date_indexed": "2010-12-02T08:58:41Z"
       }, 
       "id": 12514775
     }

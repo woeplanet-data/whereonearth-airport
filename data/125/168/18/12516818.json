@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516818, 
+        "placetype": "airport", 
         "name": "Saransk South Airport", 
-        "ne_latitude": 54.129, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597502", 
+          "woe:state=2346876", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516818, 
         "ne_longitude": 45.215, 
         "longitude": 45.207, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597502, 
+        "ne_latitude": 54.129, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2038516, 
+        "sw_latitude": 54.119, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 54.124, 
         "sw_longitude": 45.199, 
         "fullname": "Saransk South Airport, Mordoviya, Saransk, Russia", 
-        "sw_latitude": 54.119
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516818
     }

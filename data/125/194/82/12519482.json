@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519482, 
-        "name": "Devils Lake Municipal Airport", 
         "alias_ENG_V": [
           "DVL"
         ], 
-        "ne_latitude": 48.122, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Devils Lake Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589509", 
+          "woe:state=2347593", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519482, 
         "ne_longitude": -98.898, 
         "longitude": -98.904, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589509, 
+        "ne_latitude": 48.122, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2391682, 
+        "sw_latitude": 48.108, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.109, 
         "sw_longitude": -98.919, 
-        "fullname": "Devils Lake Municipal Airport, Devils Lake, North Dakota, Ramsey, United States", 
-        "sw_latitude": 48.108
+        "fullname": "Devils Lake Municipal Airport, Devils Lake, North Dakota, United States", 
+        "iata_code": "DVL", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519482
     }

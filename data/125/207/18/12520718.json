@@ -3,28 +3,42 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -101.835, 
-              33.643
-            ], 
-            [
-              -101.835, 
-              33.687
-            ], 
-            [
-              -101.799, 
-              33.687
-            ], 
-            [
-              -101.799, 
-              33.643
-            ], 
-            [
-              -101.835, 
-              33.643
+              [
+                -101.822, 
+                33.656
+              ], 
+              [
+                -101.826, 
+                33.652
+              ], 
+              [
+                -101.823, 
+                33.657
+              ], 
+              [
+                -101.822, 
+                33.659
+              ], 
+              [
+                -101.822, 
+                33.657
+              ], 
+              [
+                -101.818, 
+                33.655
+              ], 
+              [
+                -101.822, 
+                33.656
+              ], 
+              [
+                -101.822, 
+                33.656
+              ]
             ]
           ]
         ]
@@ -32,23 +46,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520718, 
-        "name": "Lubbock International Airport", 
         "alias_ENG_V": [
           "Lubbock Airport"
         ], 
-        "ne_latitude": 33.687, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -101.799, 
-        "longitude": -101.821, 
-        "placetype": "Airport", 
-        "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
+        "name": "Lubbock International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:suburb=55860066", 
+          "woe:county=12590158", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520718, 
+        "ne_longitude": -101.818, 
+        "longitude": -101.823, 
         "parent_woeid": 55860066, 
-        "latitude": 33.657, 
-        "sw_longitude": -101.835, 
-        "fullname": "Lubbock International Airport, Lubbock, Texas, Lubbock, United States", 
-        "sw_latitude": 33.643
+        "ne_latitude": 33.659, 
+        "iso": "US", 
+        "sw_latitude": 33.652, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 33.656, 
+        "sw_longitude": -101.826, 
+        "fullname": "Lubbock International Airport, Lubbock, Texas, United States", 
+        "iata_code": "LBB", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520718
     }

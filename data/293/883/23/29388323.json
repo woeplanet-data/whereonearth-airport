@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388323, 
-        "name": "Riverside Airport", 
         "alias_ENG_V": [
           "Oh36"
         ], 
-        "ne_latitude": 39.990, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Riverside Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589586", 
+          "woe:state=2347594", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388323, 
         "ne_longitude": -81.979, 
         "longitude": -81.985, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589586, 
+        "ne_latitude": 39.990, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2482392, 
+        "sw_latitude": 39.980, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 39.982, 
         "sw_longitude": -81.987, 
-        "fullname": "Riverside Airport, Riverview, Ohio, Muskingum, United States", 
-        "sw_latitude": 39.980
+        "fullname": "Riverside Airport, Riverview, Ohio, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388323
     }

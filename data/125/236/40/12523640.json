@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523640, 
-        "name": "Necocli Airport", 
         "alias_ENG_V": [
           "NCI"
         ], 
-        "ne_latitude": 8.455, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Necocli Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26796679", 
+          "woe:state=2345048", 
+          "woe:country=23424787", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523640, 
         "ne_longitude": -76.779, 
         "longitude": -76.783, 
-        "placetype": "Airport", 
+        "parent_woeid": 26796679, 
+        "ne_latitude": 8.455, 
         "iso": "CO", 
-        "date_indexed": "2010-12-02T17:57:37Z", 
-        "parent_woeid": 369174, 
+        "sw_latitude": 8.445, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 8.450, 
         "sw_longitude": -76.788, 
-        "fullname": "Necocli Airport, Necocl\u00ed, Antioquia, Necocli, Colombia", 
-        "sw_latitude": 8.445
+        "fullname": "Necocli Airport, Necocl\u00ed, Antioquia, Colombia", 
+        "iata_code": "NCI", 
+        "date_indexed": "2010-12-02T17:57:37Z"
       }, 
       "id": 12523640
     }

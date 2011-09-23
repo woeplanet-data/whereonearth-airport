@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517255, 
+        "placetype": "airport", 
         "name": "Yerofey Pavlovich Airport", 
-        "ne_latitude": 53.943, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598000", 
+          "woe:state=2346888", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517255, 
         "ne_longitude": 121.986, 
         "longitude": 121.978, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598000, 
+        "ne_latitude": 53.943, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2124497, 
+        "sw_latitude": 53.933, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.938, 
         "sw_longitude": 121.971, 
         "fullname": "Yerofey Pavlovich Airport, Amurskaya Oblast, Skovorodinsky, Russia", 
-        "sw_latitude": 53.933
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12517255
     }

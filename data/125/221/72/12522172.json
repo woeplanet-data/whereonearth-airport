@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522172, 
-        "name": "Tracy Municipal Airport", 
         "alias_ENG_V": [
           "Tcy"
         ], 
-        "ne_latitude": 37.692, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Tracy Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587708", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522172, 
         "ne_longitude": -121.434, 
         "longitude": -121.435, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587708, 
+        "ne_latitude": 37.692, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2507550, 
+        "sw_latitude": 37.679, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 37.690, 
         "sw_longitude": -121.451, 
-        "fullname": "Tracy Municipal Airport, Tracy, California, San Joaquin, United States", 
-        "sw_latitude": 37.679
+        "fullname": "Tracy Municipal Airport, Tracy, California, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522172
     }

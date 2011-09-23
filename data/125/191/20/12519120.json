@@ -3,28 +3,30 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -89.680, 
-              44.757
-            ], 
-            [
-              -89.680, 
-              44.787
-            ], 
-            [
-              -89.639, 
-              44.787
-            ], 
-            [
-              -89.639, 
-              44.757
-            ], 
-            [
-              -89.680, 
-              44.757
+              [
+                -89.671, 
+                44.784
+              ], 
+              [
+                -89.670, 
+                44.784
+              ], 
+              [
+                -89.667, 
+                44.784
+              ], 
+              [
+                -89.670, 
+                44.784
+              ], 
+              [
+                -89.671, 
+                44.784
+              ]
             ]
           ]
         ]
@@ -32,23 +34,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519120, 
-        "name": "Central Wisconsin Airport", 
         "alias_ENG_V": [
           "Central Wisconsin"
         ], 
-        "ne_latitude": 44.787, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -89.639, 
-        "longitude": -89.671, 
-        "placetype": "Airport", 
+        "name": "Central Wisconsin Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590570", 
+          "woe:state=2347608", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519120, 
+        "ne_longitude": -89.667, 
+        "longitude": -89.669, 
+        "parent_woeid": 12590570, 
+        "ne_latitude": 44.784, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2454545, 
+        "sw_latitude": 44.784, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.784, 
-        "sw_longitude": -89.680, 
-        "fullname": "Central Wisconsin Airport, Mosinee, Wisconsin, Marathon, United States", 
-        "sw_latitude": 44.757
+        "sw_longitude": -89.671, 
+        "fullname": "Central Wisconsin Airport, Mosinee, Wisconsin, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519120
     }

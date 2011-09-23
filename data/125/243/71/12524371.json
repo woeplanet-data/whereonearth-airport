@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524371, 
-        "name": "Victoria Airport", 
         "alias_ENG_V": [
           "VTA"
         ], 
-        "ne_latitude": 14.936, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Victoria Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26813869", 
+          "woe:state=2345640", 
+          "woe:country=23424841", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524371, 
         "ne_longitude": -87.400, 
         "longitude": -87.405, 
-        "placetype": "Airport", 
+        "parent_woeid": 26813869, 
+        "ne_latitude": 14.936, 
         "iso": "HN", 
-        "date_indexed": "2010-12-02T19:21:06Z", 
-        "parent_woeid": 108030, 
+        "sw_latitude": 14.927, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 14.932, 
         "sw_longitude": -87.409, 
-        "fullname": "Victoria Airport, Victoria, Yoro, Victoria, Honduras", 
-        "sw_latitude": 14.927
+        "fullname": "Victoria Airport, Victoria, Yoro, Honduras", 
+        "iata_code": "VTA", 
+        "date_indexed": "2010-12-02T19:21:06Z"
       }, 
       "id": 12524371
     }

@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512713, 
+        "placetype": "airport", 
         "name": "Wadi Abu Rish Airport", 
-        "ne_latitude": 28.982, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345240", 
+          "woe:country=23424802", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512713, 
         "ne_longitude": 31.703, 
         "longitude": 31.698, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345240, 
+        "ne_latitude": 28.982, 
         "iso": "EG", 
-        "date_indexed": "2010-12-02T12:16:51Z", 
-        "parent_woeid": 1521842, 
+        "sw_latitude": 28.973, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 28.977, 
         "sw_longitude": 31.693, 
         "fullname": "Wadi Abu Rish Airport, Al Qahirah, Egypt", 
-        "sw_latitude": 28.973
+        "date_indexed": "2010-12-02T12:16:51Z"
       }, 
       "id": 12512713
     }

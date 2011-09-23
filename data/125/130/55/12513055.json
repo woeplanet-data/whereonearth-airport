@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513055, 
+        "placetype": "airport", 
         "name": "Brand Airport", 
-        "ne_latitude": 52.055, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12632990", 
+          "woe:county=12596993", 
+          "woe:state=2345491", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513055, 
         "ne_longitude": 13.736, 
         "longitude": 13.728, 
-        "placetype": "Airport", 
+        "parent_woeid": 12632990, 
+        "ne_latitude": 52.055, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:24Z", 
-        "parent_woeid": 641286, 
+        "sw_latitude": 52.046, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 52.051, 
         "sw_longitude": 13.721, 
-        "fullname": "Brand Airport, Briesen, Brandenburg, Dahme-Spreewald, Germany", 
+        "fullname": "Brand Airport, Briesen, Brandenburg, Germany", 
         "alias_GER_Q": [
           "Flughafen Brand"
         ], 
-        "sw_latitude": 52.046
+        "date_indexed": "2010-12-02T09:50:24Z"
       }, 
       "id": 12513055
     }

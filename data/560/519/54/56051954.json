@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 56051954, 
+        "placetype": "airport", 
         "name": "Sportflugplatz Ebern-sendelbach", 
-        "ne_latitude": 50.042, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12635247", 
+          "woe:county=12596756", 
+          "woe:state=2345482", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56051954, 
         "ne_longitude": 10.827, 
         "longitude": 10.820, 
-        "placetype": "Airport", 
+        "parent_woeid": 12635247, 
+        "ne_latitude": 50.042, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 687220, 
+        "sw_latitude": 50.036, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.040, 
         "sw_longitude": 10.819, 
-        "fullname": "Sportflugplatz Ebern-sendelbach, Reckendorf, Bavaria, Landkreis Bamberg, Germany", 
-        "sw_latitude": 50.036
+        "fullname": "Sportflugplatz Ebern-sendelbach, Reckendorf, Bavaria, Germany", 
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 56051954
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519004, 
-        "name": "Cairns Army Air Field", 
         "alias_ENG_V": [
           "Cairns Army Air"
         ], 
-        "ne_latitude": 31.281, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Cairns Army Air Field", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587509", 
+          "woe:state=2347559", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519004, 
         "ne_longitude": -85.705, 
         "longitude": -85.710, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587509, 
+        "ne_latitude": 31.281, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:15Z", 
-        "parent_woeid": 2388901, 
+        "sw_latitude": 31.272, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 31.277, 
         "sw_longitude": -85.715, 
-        "fullname": "Cairns Army Air Field, Daleville, Alabama, Dale, United States", 
-        "sw_latitude": 31.272
+        "fullname": "Cairns Army Air Field, Daleville, Alabama, United States", 
+        "iata_code": "OZR", 
+        "date_indexed": "2010-12-02T18:39:15Z"
       }, 
       "id": 12519004
     }

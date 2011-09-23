@@ -3,28 +3,30 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -76.909, 
-              42.150
-            ], 
-            [
-              -76.909, 
-              42.177
-            ], 
-            [
-              -76.877, 
-              42.177
-            ], 
-            [
-              -76.877, 
-              42.150
-            ], 
-            [
-              -76.909, 
-              42.150
+              [
+                -76.897, 
+                42.166
+              ], 
+              [
+                -76.895, 
+                42.163
+              ], 
+              [
+                -76.894, 
+                42.158
+              ], 
+              [
+                -76.896, 
+                42.163
+              ], 
+              [
+                -76.897, 
+                42.166
+              ]
             ]
           ]
         ]
@@ -32,23 +34,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519635, 
-        "name": "Elmira Corning Regional Airport", 
         "alias_ENG_V": [
           "ELM Airport"
         ], 
-        "ne_latitude": 42.177, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -76.877, 
-        "longitude": -76.896, 
-        "placetype": "Airport", 
+        "name": "Elmira Corning Regional Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589319", 
+          "woe:state=2347591", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519635, 
+        "ne_longitude": -76.894, 
+        "longitude": -76.895, 
+        "parent_woeid": 12589319, 
+        "ne_latitude": 42.166, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2363994, 
-        "latitude": 42.163, 
-        "sw_longitude": -76.909, 
-        "fullname": "Elmira Corning Regional Airport, Big Flats, New York, Chemung, United States", 
-        "sw_latitude": 42.150
+        "sw_latitude": 42.158, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 42.162, 
+        "sw_longitude": -76.897, 
+        "fullname": "Elmira Corning Regional Airport, Big Flats, New York, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519635
     }

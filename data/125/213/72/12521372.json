@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521372, 
-        "name": "Piedmont Municipal Airport", 
         "alias_ENG_V": [
           "Pyn"
         ], 
-        "ne_latitude": 37.132, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Piedmont Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589077", 
+          "woe:state=2347584", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521372, 
         "ne_longitude": -90.709, 
         "longitude": -90.712, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589077, 
+        "ne_latitude": 37.132, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2471579, 
+        "sw_latitude": 37.120, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 37.126, 
         "sw_longitude": -90.718, 
-        "fullname": "Piedmont Municipal Airport, Piedmont, Missouri, Wayne, United States", 
-        "sw_latitude": 37.120
+        "fullname": "Piedmont Municipal Airport, Piedmont, Missouri, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521372
     }

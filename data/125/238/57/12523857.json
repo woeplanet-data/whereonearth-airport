@@ -32,29 +32,37 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523857, 
-        "name": "Cottbus Airport", 
         "alias_ENG_V": [
           "CBU Airport"
         ], 
-        "ne_latitude": 51.771, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Cottbus Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=12632871", 
+          "woe:county=12597095", 
+          "woe:state=2345491", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523857, 
         "ne_longitude": 14.291, 
         "longitude": 14.283, 
-        "placetype": "Airport", 
+        "parent_woeid": 12632871, 
+        "ne_latitude": 51.771, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 643312, 
+        "sw_latitude": 51.762, 
+        "iata_code": "CBU", 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.767, 
         "sw_longitude": 14.276, 
-        "fullname": "Cottbus Airport, Cottbus, Brandenburg, Stadtkreis Cottbus, Germany", 
+        "fullname": "Cottbus Airport, Cottbus, Brandenburg, Germany", 
         "alias_GER_V": [
           "CBU Flughafen"
         ], 
         "alias_GER_Q": [
           "Flughafen Cottbus"
         ], 
-        "sw_latitude": 51.762
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 12523857
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517620, 
-        "name": "Ekeby Airport", 
         "alias_ENG_V": [
           "EKT Airport"
         ], 
-        "ne_latitude": 59.357, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Ekeby Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587398", 
+          "woe:state=2347061", 
+          "woe:country=23424954", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517620, 
         "ne_longitude": 16.721, 
         "longitude": 16.712, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587398, 
+        "ne_latitude": 59.357, 
         "iso": "SE", 
-        "date_indexed": "2010-12-02T16:45:55Z", 
-        "parent_woeid": 895341, 
+        "sw_latitude": 59.348, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 59.353, 
         "sw_longitude": 16.703, 
-        "fullname": "Ekeby Airport, Ribbingelund, Sodermanland, Eskilstuna, Sweden", 
-        "sw_latitude": 59.348, 
+        "fullname": "Ekeby Airport, Ribbingelund, Sodermanland, Sweden", 
+        "iata_code": "EKT", 
+        "date_indexed": "2010-12-02T16:45:55Z", 
         "alias_SWE_Q": [
           "EKT Flygplats"
         ]

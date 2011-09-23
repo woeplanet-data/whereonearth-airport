@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514887, 
+        "placetype": "airport", 
         "name": "Guamuchil Airport", 
-        "ne_latitude": 25.441, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12601542", 
+          "woe:state=2346288", 
+          "woe:country=23424900", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514887, 
         "ne_longitude": -108.090, 
         "longitude": -108.095, 
-        "placetype": "Airport", 
+        "parent_woeid": 12601542, 
+        "ne_latitude": 25.441, 
         "iso": "MX", 
-        "date_indexed": "2010-12-02T16:57:55Z", 
-        "parent_woeid": 124415, 
+        "sw_latitude": 25.432, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 25.437, 
         "sw_longitude": -108.100, 
-        "fullname": "Guamuchil Airport, Guam\u00fachil, Sinaloa, Salvador Alvarado, Mexico", 
-        "sw_latitude": 25.432
+        "fullname": "Guamuchil Airport, Guam\u00fachil, Sinaloa, Mexico", 
+        "date_indexed": "2010-12-02T16:57:55Z"
       }, 
       "id": 12514887
     }

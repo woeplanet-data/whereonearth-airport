@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512995, 
+        "placetype": "airport", 
         "name": "Makokou Airport", 
-        "ne_latitude": 0.584, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55998477", 
+          "woe:state=2345454", 
+          "woe:country=23424822", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512995, 
         "ne_longitude": 12.897, 
         "longitude": 12.892, 
-        "placetype": "Airport", 
+        "parent_woeid": 55998477, 
+        "ne_latitude": 0.584, 
         "iso": "GA", 
-        "date_indexed": "2010-12-02T08:50:01Z", 
-        "parent_woeid": 1324338, 
+        "sw_latitude": 0.575, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 0.579, 
         "sw_longitude": 12.888, 
-        "fullname": "Makokou Airport, Makokou, Ogooue-Ivindo, Ivindo, Gabon", 
-        "sw_latitude": 0.575
+        "fullname": "Makokou Airport, Makokou, Ogooue-Ivindo, Gabon", 
+        "iata_code": "MKU", 
+        "date_indexed": "2010-12-02T08:50:01Z"
       }, 
       "id": 12512995
     }

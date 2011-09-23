@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518878, 
-        "name": "Boerne Stage Field Airport", 
         "alias_ENG_V": [
           "Boerne Stage Airport"
         ], 
-        "ne_latitude": 29.731, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Boerne Stage Field Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590021", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518878, 
         "ne_longitude": -98.693, 
         "longitude": -98.695, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590021, 
+        "ne_latitude": 29.731, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 23418061, 
+        "sw_latitude": 29.716, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 29.727, 
         "sw_longitude": -98.697, 
-        "fullname": "Boerne Stage Field Airport, Scenic Oaks, Texas, Bexar, United States", 
-        "sw_latitude": 29.716
+        "fullname": "Boerne Stage Field Airport, Scenic Oaks, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518878
     }

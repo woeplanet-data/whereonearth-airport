@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "FRE", 
-        "woeid": 56051843, 
+        "placetype": "airport", 
         "name": "A\u00e9rodrome de Bernay", 
-        "ne_latitude": 49.106, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12638685", 
+          "woe:county=12597139", 
+          "woe:state=7153318", 
+          "woe:country=23424819", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56051843, 
         "ne_longitude": 0.576, 
         "longitude": 0.559, 
-        "placetype": "Airport", 
+        "parent_woeid": 12638685, 
+        "ne_latitude": 49.106, 
         "iso": "FR", 
-        "date_indexed": "2010-12-02T12:04:01Z", 
-        "parent_woeid": 579409, 
+        "sw_latitude": 49.100, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.100, 
         "sw_longitude": 0.554, 
-        "fullname": "A\u00e9rodrome de Bernay, Bernay, Haute-Normandie, Eure, France", 
+        "fullname": "A\u00e9rodrome de Bernay, Bernay, Haute-Normandie, France", 
         "alias_FRE_S": [
           "Aerodrome de Bernay"
         ], 
-        "sw_latitude": 49.100
+        "date_indexed": "2010-12-02T12:04:01Z"
       }, 
       "id": 56051843
     }

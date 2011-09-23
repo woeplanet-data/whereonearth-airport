@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512636, 
+        "placetype": "airport", 
         "name": "La Carolina Airport", 
-        "ne_latitude": -2.429, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=26810108", 
+          "woe:county=26809573", 
+          "woe:state=2345205", 
+          "woe:country=23424801", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512636, 
         "ne_longitude": -79.291, 
         "longitude": -79.296, 
-        "placetype": "Airport", 
+        "parent_woeid": 26810108, 
+        "ne_latitude": -2.429, 
         "iso": "EC", 
-        "date_indexed": "2010-12-02T17:51:45Z", 
-        "parent_woeid": 373225, 
+        "sw_latitude": -2.438, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -2.433, 
         "sw_longitude": -79.300, 
-        "fullname": "La Carolina Airport, La Troncal, Canar, La Troncal, Ecuador", 
-        "sw_latitude": -2.438
+        "fullname": "La Carolina Airport, La Troncal, Canar, Ecuador", 
+        "date_indexed": "2010-12-02T17:51:45Z"
       }, 
       "id": 12512636
     }

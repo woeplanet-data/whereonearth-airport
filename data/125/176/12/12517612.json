@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "SWE", 
-        "woeid": 12517612, 
+        "placetype": "airport", 
         "name": "Barkarby Flygplats", 
         "alias_ENG_P": [
           "Barkarby Airport"
         ], 
-        "ne_latitude": 59.418, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12587467", 
+          "woe:state=2347067", 
+          "woe:country=23424954", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517612, 
         "ne_longitude": 17.887, 
         "longitude": 17.878, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587467, 
+        "ne_latitude": 59.418, 
         "iso": "SE", 
-        "date_indexed": "2010-12-02T16:45:55Z", 
-        "parent_woeid": 885900, 
+        "sw_latitude": 59.409, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 59.413, 
         "sw_longitude": 17.869, 
-        "fullname": "Barkarby Flygplats, Barkarby, Stockholm, J\u00e4rf\u00e4lla, Sweden", 
-        "sw_latitude": 59.409
+        "fullname": "Barkarby Flygplats, Barkarby, Stockholm, Sweden", 
+        "date_indexed": "2010-12-02T16:45:55Z"
       }, 
       "id": 12517612
     }

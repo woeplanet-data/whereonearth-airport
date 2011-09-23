@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518756, 
-        "name": "Baudette International Airport", 
         "alias_ENG_V": [
           "BDE"
         ], 
-        "ne_latitude": 48.733, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Baudette International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588835", 
+          "woe:state=2347582", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518756, 
         "ne_longitude": -94.601, 
         "longitude": -94.603, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588835, 
+        "ne_latitude": 48.733, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2360097, 
+        "sw_latitude": 48.720, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.722, 
         "sw_longitude": -94.623, 
-        "fullname": "Baudette International Airport, Baudette, Minnesota, Lake of the Woods, United States", 
-        "sw_latitude": 48.720
+        "fullname": "Baudette International Airport, Baudette, Minnesota, United States", 
+        "iata_code": "BDE", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518756
     }

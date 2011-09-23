@@ -3,28 +3,90 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -43.984, 
-              -19.636
-            ], 
-            [
-              -43.984, 
-              -19.613
-            ], 
-            [
-              -43.960, 
-              -19.613
-            ], 
-            [
-              -43.960, 
-              -19.636
-            ], 
-            [
-              -43.984, 
-              -19.636
+              [
+                -43.963, 
+                -19.633
+              ], 
+              [
+                -43.963, 
+                -19.633
+              ], 
+              [
+                -43.957, 
+                -19.638
+              ], 
+              [
+                -43.957, 
+                -19.638
+              ], 
+              [
+                -43.960, 
+                -19.640
+              ], 
+              [
+                -43.964, 
+                -19.637
+              ], 
+              [
+                -43.969, 
+                -19.637
+              ], 
+              [
+                -43.974, 
+                -19.638
+              ], 
+              [
+                -43.978, 
+                -19.638
+              ], 
+              [
+                -43.978, 
+                -19.638
+              ], 
+              [
+                -43.979, 
+                -19.638
+              ], 
+              [
+                -43.979, 
+                -19.638
+              ], 
+              [
+                -43.977, 
+                -19.635
+              ], 
+              [
+                -43.971, 
+                -19.631
+              ], 
+              [
+                -43.974, 
+                -19.628
+              ], 
+              [
+                -43.972, 
+                -19.626
+              ], 
+              [
+                -43.966, 
+                -19.630
+              ], 
+              [
+                -43.964, 
+                -19.631
+              ], 
+              [
+                -43.964, 
+                -19.631
+              ], 
+              [
+                -43.963, 
+                -19.633
+              ]
             ]
           ]
         ]
@@ -32,29 +94,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511339, 
-        "name": "Aeroporto Internacional Tancredo Neves", 
-        "alias_ENG_P": [
-          "Tancredo Neves International Airport"
-        ], 
-        "ne_latitude": -19.613, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "CNF"
         ], 
-        "ne_longitude": -43.960, 
-        "longitude": -43.972, 
-        "placetype": "Airport", 
+        "name": "Aeroporto Internacional Tancredo Neves", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Tancredo Neves International Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=26794729", 
+          "woe:state=2344856", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511339, 
+        "ne_longitude": -43.957, 
+        "longitude": -43.969, 
+        "parent_woeid": 26794729, 
+        "ne_latitude": -19.626, 
         "alias_POR_V": [
           "Aeroporto CNF"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:28Z", 
-        "parent_woeid": 430131, 
-        "latitude": -19.624, 
-        "sw_longitude": -43.984, 
-        "fullname": "Aeroporto Internacional Tancredo Neves, Confins, Minas Gerais, Confins, Brazil", 
-        "sw_latitude": -19.636
+        "sw_latitude": -19.640, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": -19.634, 
+        "sw_longitude": -43.979, 
+        "fullname": "Aeroporto Internacional Tancredo Neves, Confins, Minas Gerais, Brazil", 
+        "iata_code": "CNF", 
+        "date_indexed": "2010-12-02T18:01:28Z"
       }, 
       "id": 12511339
     }

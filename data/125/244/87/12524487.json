@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524487, 
-        "name": "Lamacarena Airport", 
         "alias_ENG_V": [
           "LMC"
         ], 
-        "ne_latitude": 3.321, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Lamacarena Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26797275", 
+          "woe:state=2345064", 
+          "woe:country=23424787", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524487, 
         "ne_longitude": -73.895, 
         "longitude": -73.900, 
-        "placetype": "Airport", 
+        "parent_woeid": 26797275, 
+        "ne_latitude": 3.321, 
         "iso": "CO", 
-        "date_indexed": "2010-12-02T17:57:37Z", 
-        "parent_woeid": 369399, 
+        "sw_latitude": 3.312, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 3.317, 
         "sw_longitude": -73.905, 
-        "fullname": "Lamacarena Airport, San Juan de Arama, Meta, San Juan de Arama, Colombia", 
-        "sw_latitude": 3.312
+        "fullname": "Lamacarena Airport, San Juan de Arama, Meta, Colombia", 
+        "date_indexed": "2010-12-02T17:57:37Z"
       }, 
       "id": 12524487
     }

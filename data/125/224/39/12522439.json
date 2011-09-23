@@ -3,28 +3,46 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -97.654, 
-              35.522
-            ], 
-            [
-              -97.654, 
-              35.548
-            ], 
-            [
-              -97.637, 
-              35.548
-            ], 
-            [
-              -97.637, 
-              35.522
-            ], 
-            [
-              -97.654, 
-              35.522
+              [
+                -97.642, 
+                35.532
+              ], 
+              [
+                -97.638, 
+                35.529
+              ], 
+              [
+                -97.643, 
+                35.530
+              ], 
+              [
+                -97.647, 
+                35.534
+              ], 
+              [
+                -97.644, 
+                35.534
+              ], 
+              [
+                -97.643, 
+                35.535
+              ], 
+              [
+                -97.642, 
+                35.537
+              ], 
+              [
+                -97.638, 
+                35.535
+              ], 
+              [
+                -97.642, 
+                35.532
+              ]
             ]
           ]
         ]
@@ -32,23 +50,32 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522439, 
-        "name": "Wiley Post Airport", 
         "alias_ENG_V": [
           "PWA Airport"
         ], 
-        "ne_latitude": 35.548, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -97.637, 
-        "longitude": -97.641, 
-        "placetype": "Airport", 
-        "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
+        "name": "Wiley Post Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:suburb=2363342", 
+          "woe:suburb=55805855", 
+          "woe:county=12589669", 
+          "woe:state=2347595", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522439, 
+        "ne_longitude": -97.638, 
+        "longitude": -97.642, 
         "parent_woeid": 2363342, 
-        "latitude": 35.530, 
-        "sw_longitude": -97.654, 
-        "fullname": "Wiley Post Airport, Oklahoma City, Oklahoma, Oklahoma, United States", 
-        "sw_latitude": 35.522
+        "ne_latitude": 35.537, 
+        "iso": "US", 
+        "sw_latitude": 35.529, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 35.533, 
+        "sw_longitude": -97.647, 
+        "fullname": "Wiley Post Airport, Oklahoma City, Oklahoma, United States", 
+        "iata_code": "PWA", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522439
     }

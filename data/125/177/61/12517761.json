@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517761, 
-        "name": "Loei Airport", 
         "alias_ENG_V": [
           "LOE"
         ], 
-        "ne_latitude": 17.454, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Loei Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=28341005", 
+          "woe:state=2347145", 
+          "woe:country=23424960", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517761, 
         "ne_longitude": 101.730, 
         "longitude": 101.728, 
-        "placetype": "Airport", 
+        "parent_woeid": 28341005, 
+        "ne_latitude": 17.454, 
         "iso": "TH", 
-        "date_indexed": "2010-12-02T17:05:34Z", 
-        "parent_woeid": 55945649, 
+        "sw_latitude": 17.426, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 17.445, 
         "sw_longitude": 101.708, 
-        "fullname": "Loei Airport, Na Pong, Loei, Mueang Loei, Thailand", 
-        "sw_latitude": 17.426
+        "fullname": "Loei Airport, Na Pong, Loei, Thailand", 
+        "iata_code": "LOE", 
+        "date_indexed": "2010-12-02T17:05:34Z"
       }, 
       "id": 12517761
     }

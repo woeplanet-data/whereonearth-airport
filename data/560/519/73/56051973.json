@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 56051973, 
+        "placetype": "airport", 
         "name": "Flugplatz Lauf-lillinghof", 
-        "ne_latitude": 49.607, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12634367", 
+          "woe:county=12596857", 
+          "woe:state=2345482", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56051973, 
         "ne_longitude": 11.287, 
         "longitude": 11.287, 
-        "placetype": "Airport", 
+        "parent_woeid": 12634367, 
+        "ne_latitude": 49.607, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 663248, 
+        "sw_latitude": 49.603, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.605, 
         "sw_longitude": 11.280, 
-        "fullname": "Flugplatz Lauf-lillinghof, Igensdorf, Bavaria, Landkreis Forchheim, Germany", 
+        "fullname": "Flugplatz Lauf-lillinghof, Igensdorf, Bavaria, Germany", 
         "alias_GER_V": [
           "Segelflugplatz Lauf-Lillinghof"
         ], 
-        "sw_latitude": 49.603
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 56051973
     }

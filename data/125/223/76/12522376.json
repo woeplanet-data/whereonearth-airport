@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522376, 
-        "name": "Weide Army Air Field", 
         "alias_ENG_V": [
           "EDG Airport"
         ], 
-        "ne_latitude": 39.396, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Weide Army Air Field", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588688", 
+          "woe:state=2347579", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522376, 
         "ne_longitude": -76.286, 
         "longitude": -76.291, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588688, 
+        "ne_latitude": 39.396, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 23689681, 
+        "sw_latitude": 39.387, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 39.392, 
         "sw_longitude": -76.297, 
-        "fullname": "Weide Army Air Field, Edgewood Arsenal, Maryland, Harford, United States", 
-        "sw_latitude": 39.387
+        "fullname": "Weide Army Air Field, Edgewood Arsenal, Maryland, United States", 
+        "iata_code": "EDG", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12522376
     }

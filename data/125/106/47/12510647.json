@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510647, 
-        "name": "Cunnamulla Aerodrome", 
         "alias_ENG_V": [
           "Cunnamulla Airport"
         ], 
-        "ne_latitude": -28.026, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Cunnamulla Aerodrome", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55863888", 
+          "woe:state=2344702", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510647, 
         "ne_longitude": 145.630, 
         "longitude": 145.625, 
-        "placetype": "Airport", 
+        "parent_woeid": 55863888, 
+        "ne_latitude": -28.026, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1101499, 
+        "sw_latitude": -28.035, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -28.030, 
         "sw_longitude": 145.620, 
-        "fullname": "Cunnamulla Aerodrome, Cunnamulla, Queensland, Paroo, Australia", 
-        "sw_latitude": -28.035
+        "fullname": "Cunnamulla Aerodrome, Cunnamulla, Queensland, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 12510647
     }

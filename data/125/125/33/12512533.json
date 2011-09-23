@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512533, 
+        "placetype": "airport", 
         "name": "Kbely Airport", 
-        "ne_latitude": 50.125, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12607749", 
+          "woe:county=12582589", 
+          "woe:state=20070472", 
+          "woe:country=23424810", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512533, 
         "ne_longitude": 14.521, 
         "longitude": 14.514, 
-        "placetype": "Airport", 
+        "parent_woeid": 12607749, 
+        "ne_latitude": 50.125, 
         "iso": "CZ", 
-        "date_indexed": "2010-12-02T08:56:52Z", 
-        "parent_woeid": 796597, 
+        "sw_latitude": 50.116, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.120, 
         "sw_longitude": 14.507, 
-        "fullname": "Kbely Airport, Prague, Hlavni mesto Praha, Prague, Czech Republic", 
-        "sw_latitude": 50.116
+        "fullname": "Kbely Airport, Prague, Hlavni mesto Praha, Czech Republic", 
+        "date_indexed": "2010-12-02T08:56:52Z"
       }, 
       "id": 12512533
     }

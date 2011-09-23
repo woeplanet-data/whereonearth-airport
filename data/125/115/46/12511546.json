@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511546, 
+        "placetype": "airport", 
         "name": "Voditsa Airport", 
-        "ne_latitude": 43.390, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55873783", 
+          "woe:state=20070051", 
+          "woe:country=23424771", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511546, 
         "ne_longitude": 27.733, 
         "longitude": 27.727, 
-        "placetype": "Airport", 
+        "parent_woeid": 55873783, 
+        "ne_latitude": 43.390, 
         "iso": "BG", 
-        "date_indexed": "2010-12-02T16:14:37Z", 
-        "parent_woeid": 840612, 
+        "sw_latitude": 43.381, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.386, 
         "sw_longitude": 27.721, 
         "fullname": "Voditsa Airport, Varna, Aksakovo, Bulgaria", 
-        "sw_latitude": 43.381
+        "date_indexed": "2010-12-02T16:14:37Z"
       }, 
       "id": 12511546
     }

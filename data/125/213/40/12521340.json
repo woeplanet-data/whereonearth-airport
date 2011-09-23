@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521340, 
-        "name": "Perry County Airport", 
         "alias_ENG_V": [
           "I86"
         ], 
-        "ne_latitude": 39.693, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Perry County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589590", 
+          "woe:state=2347594", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521340, 
         "ne_longitude": -82.203, 
         "longitude": -82.205, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589590, 
+        "ne_latitude": 39.693, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2458642, 
+        "sw_latitude": 39.688, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 39.691, 
         "sw_longitude": -82.209, 
-        "fullname": "Perry County Airport, New Lexington, Ohio, Perry, United States", 
-        "sw_latitude": 39.688
+        "fullname": "Perry County Airport, New Lexington, Ohio, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521340
     }

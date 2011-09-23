@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512583, 
+        "placetype": "airport", 
         "name": "Zabreh Airport", 
-        "ne_latitude": 49.933, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12607738", 
+          "woe:county=12582576", 
+          "woe:state=20070471", 
+          "woe:country=23424810", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512583, 
         "ne_longitude": 18.096, 
         "longitude": 18.089, 
-        "placetype": "Airport", 
+        "parent_woeid": 12607738, 
+        "ne_latitude": 49.933, 
         "iso": "CZ", 
-        "date_indexed": "2010-12-02T08:56:52Z", 
-        "parent_woeid": 801507, 
+        "sw_latitude": 49.924, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.928, 
         "sw_longitude": 18.082, 
-        "fullname": "Zabreh Airport, Z\u00e1b\u0159eh, Moravskoslezsk\u00fd, Opava, Czech Republic", 
-        "sw_latitude": 49.924
+        "fullname": "Zabreh Airport, Z\u00e1b\u0159eh, Moravskoslezsk\u00fd, Czech Republic", 
+        "date_indexed": "2010-12-02T08:56:52Z"
       }, 
       "id": 12512583
     }

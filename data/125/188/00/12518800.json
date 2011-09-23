@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518800, 
+        "placetype": "airport", 
         "name": "Benson Airstrip", 
-        "ne_latitude": 29.234, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12590238", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518800, 
         "ne_longitude": -99.818, 
         "longitude": -99.824, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590238, 
+        "ne_latitude": 29.234, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:15Z", 
-        "parent_woeid": 2510571, 
+        "sw_latitude": 29.225, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 29.229, 
         "sw_longitude": -99.829, 
-        "fullname": "Benson Airstrip, Uvalde, Texas, Uvalde, United States", 
-        "sw_latitude": 29.225
+        "fullname": "Benson Airstrip, Uvalde, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:15Z"
       }, 
       "id": 12518800
     }

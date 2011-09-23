@@ -3,28 +3,106 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -81.875, 
-              41.395
-            ], 
-            [
-              -81.875, 
-              41.420
-            ], 
-            [
-              -81.830, 
-              41.420
-            ], 
-            [
-              -81.830, 
-              41.395
-            ], 
-            [
-              -81.875, 
-              41.395
+              [
+                -81.832, 
+                41.411
+              ], 
+              [
+                -81.828, 
+                41.403
+              ], 
+              [
+                -81.823, 
+                41.397
+              ], 
+              [
+                -81.818, 
+                41.400
+              ], 
+              [
+                -81.819, 
+                41.402
+              ], 
+              [
+                -81.820, 
+                41.402
+              ], 
+              [
+                -81.822, 
+                41.403
+              ], 
+              [
+                -81.822, 
+                41.403
+              ], 
+              [
+                -81.828, 
+                41.403
+              ], 
+              [
+                -81.829, 
+                41.404
+              ], 
+              [
+                -81.833, 
+                41.401
+              ], 
+              [
+                -81.839, 
+                41.401
+              ], 
+              [
+                -81.841, 
+                41.400
+              ], 
+              [
+                -81.842, 
+                41.404
+              ], 
+              [
+                -81.842, 
+                41.408
+              ], 
+              [
+                -81.841, 
+                41.409
+              ], 
+              [
+                -81.839, 
+                41.413
+              ], 
+              [
+                -81.839, 
+                41.415
+              ], 
+              [
+                -81.838, 
+                41.416
+              ], 
+              [
+                -81.837, 
+                41.419
+              ], 
+              [
+                -81.835, 
+                41.423
+              ], 
+              [
+                -81.833, 
+                41.417
+              ], 
+              [
+                -81.826, 
+                41.416
+              ], 
+              [
+                -81.832, 
+                41.411
+              ]
             ]
           ]
         ]
@@ -32,23 +110,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520226, 
-        "name": "Hopkins International Airport", 
         "alias_ENG_V": [
           "Hopkins"
         ], 
-        "ne_latitude": 41.420, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -81.830, 
-        "longitude": -81.835, 
-        "placetype": "Airport", 
-        "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
+        "name": "Hopkins International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:suburb=55805913", 
+          "woe:county=12589544", 
+          "woe:state=2347594", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520226, 
+        "ne_longitude": -81.818, 
+        "longitude": -81.837, 
         "parent_woeid": 55805913, 
-        "latitude": 41.412, 
-        "sw_longitude": -81.875, 
-        "fullname": "Hopkins International Airport, Cleveland, Ohio, Cuyahoga, United States", 
-        "sw_latitude": 41.395
+        "ne_latitude": 41.423, 
+        "iso": "US", 
+        "sw_latitude": 41.397, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 41.411, 
+        "sw_longitude": -81.842, 
+        "fullname": "Hopkins International Airport, Cleveland, Ohio, United States", 
+        "iata_code": "CLE", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520226
     }

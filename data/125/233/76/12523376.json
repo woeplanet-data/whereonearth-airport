@@ -3,28 +3,86 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -84.085, 
-              39.793
-            ], 
-            [
-              -84.085, 
-              39.842
-            ], 
-            [
-              -84.020, 
-              39.842
-            ], 
-            [
-              -84.020, 
-              39.793
-            ], 
-            [
-              -84.085, 
-              39.793
+              [
+                -84.061, 
+                39.804
+              ], 
+              [
+                -84.075, 
+                39.798
+              ], 
+              [
+                -84.083, 
+                39.795
+              ], 
+              [
+                -84.095, 
+                39.777
+              ], 
+              [
+                -84.113, 
+                39.777
+              ], 
+              [
+                -84.110, 
+                39.781
+              ], 
+              [
+                -84.108, 
+                39.785
+              ], 
+              [
+                -84.102, 
+                39.788
+              ], 
+              [
+                -84.083, 
+                39.795
+              ], 
+              [
+                -84.081, 
+                39.806
+              ], 
+              [
+                -84.075, 
+                39.819
+              ], 
+              [
+                -84.061, 
+                39.833
+              ], 
+              [
+                -84.044, 
+                39.828
+              ], 
+              [
+                -84.023, 
+                39.830
+              ], 
+              [
+                -84.020, 
+                39.821
+              ], 
+              [
+                -84.027, 
+                39.820
+              ], 
+              [
+                -84.044, 
+                39.798
+              ], 
+              [
+                -84.048, 
+                39.797
+              ], 
+              [
+                -84.061, 
+                39.804
+              ]
             ]
           ]
         ]
@@ -32,23 +90,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523376, 
-        "name": "Wright Patterson Air Force Base", 
         "alias_ENG_V": [
           "Wright Patterson Base"
         ], 
-        "ne_latitude": 39.842, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Wright Patterson Air Force Base", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589555", 
+          "woe:state=2347594", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523376, 
         "ne_longitude": -84.020, 
-        "longitude": -84.053, 
-        "placetype": "Airport", 
+        "longitude": -84.060, 
+        "parent_woeid": 12589555, 
+        "ne_latitude": 39.833, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2401290, 
-        "latitude": 39.817, 
-        "sw_longitude": -84.085, 
-        "fullname": "Wright Patterson Air Force Base, Huffeysville, Ohio, Greene, United States", 
-        "sw_latitude": 39.793
+        "sw_latitude": 39.777, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 39.810, 
+        "sw_longitude": -84.113, 
+        "fullname": "Wright Patterson Air Force Base, Huffeysville, Ohio, United States", 
+        "iata_code": "FFO", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12523376
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517786, 
-        "name": "Surat Thani Airport", 
         "alias_ENG_V": [
           "URT"
         ], 
-        "ne_latitude": 9.162, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Surat Thani Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=28341597", 
+          "woe:state=2347184", 
+          "woe:country=23424960", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517786, 
         "ne_longitude": 99.160, 
         "longitude": 99.154, 
-        "placetype": "Airport", 
+        "parent_woeid": 28341597, 
+        "ne_latitude": 9.162, 
         "iso": "TH", 
-        "date_indexed": "2010-12-02T17:05:34Z", 
-        "parent_woeid": 1222308, 
+        "sw_latitude": 9.115, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 9.135, 
         "sw_longitude": 99.105, 
-        "fullname": "Surat Thani Airport, Ban Tha Se, Surat Thani, Phunphin, Thailand", 
-        "sw_latitude": 9.115
+        "fullname": "Surat Thani Airport, Ban Tha Se, Surat Thani, Thailand", 
+        "iata_code": "URT", 
+        "date_indexed": "2010-12-02T17:05:34Z"
       }, 
       "id": 12517786
     }

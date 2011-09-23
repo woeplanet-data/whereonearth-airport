@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522780, 
+        "placetype": "airport", 
         "name": "El Mango Northwest Airport", 
-        "ne_latitude": 10.288, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=26805319", 
+          "woe:county=26804447", 
+          "woe:state=2347699", 
+          "woe:country=23424982", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522780, 
         "ne_longitude": -72.470, 
         "longitude": -72.475, 
-        "placetype": "Airport", 
+        "parent_woeid": 26805319, 
+        "ne_latitude": 10.288, 
         "iso": "VE", 
-        "date_indexed": "2010-12-02T16:11:43Z", 
-        "parent_woeid": 395521, 
+        "sw_latitude": 10.279, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 10.283, 
         "sw_longitude": -72.480, 
         "fullname": "El Mango Northwest Airport, Zulia, Rosario de Perija, Venezuela", 
-        "sw_latitude": 10.279
+        "date_indexed": "2010-12-02T16:11:43Z"
       }, 
       "id": 12522780
     }

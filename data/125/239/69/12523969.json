@@ -3,28 +3,46 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -17.898, 
-              27.803
-            ], 
-            [
-              -17.898, 
-              27.826
-            ], 
-            [
-              -17.872, 
-              27.826
-            ], 
-            [
-              -17.872, 
-              27.803
-            ], 
-            [
-              -17.898, 
-              27.803
+              [
+                -17.884, 
+                27.814
+              ], 
+              [
+                -17.885, 
+                27.815
+              ], 
+              [
+                -17.886, 
+                27.814
+              ], 
+              [
+                -17.887, 
+                27.809
+              ], 
+              [
+                -17.885, 
+                27.804
+              ], 
+              [
+                -17.888, 
+                27.804
+              ], 
+              [
+                -17.887, 
+                27.809
+              ], 
+              [
+                -17.884, 
+                27.814
+              ], 
+              [
+                -17.884, 
+                27.814
+              ]
             ]
           ]
         ]
@@ -32,29 +50,37 @@
       "type": "Feature", 
       "properties": {
         "lang": "SPA", 
-        "woeid": 12523969, 
-        "name": "Aeropuerto de El Hierro", 
-        "alias_ENG_P": [
-          "El Hierro Airport"
-        ], 
-        "ne_latitude": 27.826, 
-        "alias_SPA_V": [
-          "Aeropuerto El Hierro"
-        ], 
         "alias_ENG_V": [
           "Valverde Airport"
         ], 
-        "ne_longitude": -17.872, 
-        "longitude": -17.885, 
-        "parent_woeid": 775152, 
-        "placetype": "Airport", 
-        "sw_longitude": -17.898, 
-        "date_indexed": "2010-12-02T17:38:37Z", 
+        "name": "Aeropuerto de El Hierro", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "El Hierro Airport"
+        ], 
+        "hierarchy": [
+          "woe:localadmin=12690208", 
+          "woe:county=12602109", 
+          "woe:state=12578031", 
+          "woe:country=23424950", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523969, 
         "provider": "geoplanet 7.6.0", 
-        "latitude": 27.814, 
+        "ne_longitude": -17.884, 
+        "longitude": -17.887, 
+        "parent_woeid": 12690208, 
+        "ne_latitude": 27.815, 
+        "sw_longitude": -17.888, 
+        "sw_latitude": 27.804, 
+        "alias_SPA_V": [
+          "Aeropuerto El Hierro"
+        ], 
+        "latitude": 27.798, 
         "iso": "ES", 
-        "fullname": "Aeropuerto de El Hierro, Tamaduste, Canary Islands, Santa Cruz de Tenerife, Spain", 
-        "sw_latitude": 27.803
+        "fullname": "Aeropuerto de El Hierro, Tamaduste, Canary Islands, Spain", 
+        "iata_code": "VDE", 
+        "date_indexed": "2010-12-02T17:38:37Z"
       }, 
       "id": 12523969
     }

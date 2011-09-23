@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520206, 
-        "name": "Holmes County Airport", 
         "alias_ENG_V": [
           "10g"
         ], 
-        "ne_latitude": 40.539, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Holmes County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589564", 
+          "woe:state=2347594", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520206, 
         "ne_longitude": -81.946, 
         "longitude": -81.955, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589564, 
+        "ne_latitude": 40.539, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2451402, 
+        "sw_latitude": 40.536, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.539, 
         "sw_longitude": -81.962, 
-        "fullname": "Holmes County Airport, Millersburg, Ohio, Holmes, United States", 
-        "sw_latitude": 40.536
+        "fullname": "Holmes County Airport, Millersburg, Ohio, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520206
     }

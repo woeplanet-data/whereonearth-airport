@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 28677658, 
+        "placetype": "airport", 
         "name": "Ewan Aerodrome", 
-        "ne_latitude": -19.120, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=56072971", 
+          "woe:state=2344702", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 28677658, 
         "ne_longitude": 145.841, 
         "longitude": 145.836, 
-        "placetype": "Airport", 
+        "parent_woeid": 56072971, 
+        "ne_latitude": -19.120, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 28586794, 
+        "sw_latitude": -19.129, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -19.124, 
         "sw_longitude": 145.831, 
-        "fullname": "Ewan Aerodrome, Paluma, Queensland, Thuringowa, Australia", 
-        "sw_latitude": -19.129
+        "fullname": "Ewan Aerodrome, Paluma, Queensland, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 28677658
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 28677611, 
+        "placetype": "airport", 
         "name": "Ramingining Aerodrome", 
-        "ne_latitude": -12.332, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=56072961", 
+          "woe:state=2344701", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 28677611, 
         "ne_longitude": 134.898, 
         "longitude": 134.894, 
-        "placetype": "Airport", 
+        "parent_woeid": 56072961, 
+        "ne_latitude": -12.332, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 55864480, 
+        "sw_latitude": -12.341, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -12.337, 
         "sw_longitude": 134.889, 
         "fullname": "Ramingining Aerodrome, East Arnhem, Northern Territory, Australia", 
-        "sw_latitude": -12.341
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 28677611
     }

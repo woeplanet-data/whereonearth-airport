@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513784, 
+        "placetype": "airport", 
         "name": "Mahanaim I Ben Yaakov Airport", 
-        "ne_latitude": 32.985, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345793", 
+          "woe:country=23424852", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513784, 
         "ne_longitude": 35.578, 
         "longitude": 35.572, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345793, 
+        "ne_latitude": 32.985, 
         "iso": "IL", 
-        "date_indexed": "2010-12-02T08:53:06Z", 
-        "parent_woeid": 1967624, 
+        "sw_latitude": 32.975, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 32.980, 
         "sw_longitude": 35.567, 
         "fullname": "Mahanaim I Ben Yaakov Airport, Hazafon, Israel", 
-        "sw_latitude": 32.975
+        "date_indexed": "2010-12-02T08:53:06Z"
       }, 
       "id": 12513784
     }

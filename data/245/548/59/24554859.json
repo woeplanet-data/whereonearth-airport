@@ -3,28 +3,50 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              126.643, 
-              37.442
-            ], 
-            [
-              126.643, 
-              37.465
-            ], 
-            [
-              126.671, 
-              37.465
-            ], 
-            [
-              126.671, 
-              37.442
-            ], 
-            [
-              126.643, 
-              37.442
+              [
+                126.656, 
+                37.450
+              ], 
+              [
+                126.657, 
+                37.451
+              ], 
+              [
+                126.657, 
+                37.453
+              ], 
+              [
+                126.661, 
+                37.458
+              ], 
+              [
+                126.662, 
+                37.458
+              ], 
+              [
+                126.667, 
+                37.455
+              ], 
+              [
+                126.668, 
+                37.454
+              ], 
+              [
+                126.666, 
+                37.454
+              ], 
+              [
+                126.662, 
+                37.450
+              ], 
+              [
+                126.656, 
+                37.450
+              ]
             ]
           ]
         ]
@@ -32,29 +54,37 @@
       "type": "Feature", 
       "properties": {
         "lang": "KOR", 
-        "woeid": 24554859, 
-        "name": "\uc778\ucc9c\uacf5\ud56d", 
-        "alias_ENG_P": [
-          "New Incheon International Airport"
-        ], 
-        "ne_latitude": 37.465, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "New Inchon"
         ], 
-        "ne_longitude": 126.671, 
-        "longitude": 126.657, 
-        "placetype": "Airport", 
+        "name": "\uc778\ucc9c\uacf5\ud56d", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "New Incheon International Airport"
+        ], 
+        "hierarchy": [
+          "woe:localadmin=28806328", 
+          "woe:suburb=28835262", 
+          "woe:county=28289255", 
+          "woe:state=20069922", 
+          "woe:country=23424868", 
+          "woe:planet=1"
+        ], 
+        "woeid": 24554859, 
+        "ne_longitude": 126.668, 
+        "longitude": 126.662, 
+        "parent_woeid": 28806328, 
+        "ne_latitude": 37.458, 
         "alias_KOR_V": [
           "\uc778\ucc9c\uad6d\uc81c\uacf5\ud56d"
         ], 
         "iso": "KR", 
-        "date_indexed": "2010-12-02T17:53:06Z", 
-        "parent_woeid": 28806328, 
-        "latitude": 37.453, 
-        "sw_longitude": 126.643, 
-        "fullname": "\uc778\ucc9c\uacf5\ud56d, Incheon, Incheon, Nam-Gu, South Korea", 
-        "sw_latitude": 37.442
+        "sw_latitude": 37.450, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 37.454, 
+        "sw_longitude": 126.656, 
+        "fullname": "\uc778\ucc9c\uacf5\ud56d, Incheon, Incheon, South Korea", 
+        "date_indexed": "2010-12-02T17:53:06Z"
       }, 
       "id": 24554859
     }

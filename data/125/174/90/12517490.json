@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517490, 
+        "placetype": "airport", 
         "name": "Vanderbijlpark Airport", 
-        "ne_latitude": -26.688, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=56189548", 
+          "woe:county=56189408", 
+          "woe:state=2346981", 
+          "woe:country=23424942", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517490, 
         "ne_longitude": 27.783, 
         "longitude": 27.778, 
-        "placetype": "Airport", 
+        "parent_woeid": 56189548, 
+        "ne_latitude": -26.688, 
         "iso": "ZA", 
-        "date_indexed": "2010-12-02T08:57:52Z", 
-        "parent_woeid": 1588541, 
+        "sw_latitude": -26.697, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -26.692, 
         "sw_longitude": 27.773, 
-        "fullname": "Vanderbijlpark Airport, Vanderbijlpark, Gauteng, Vanderbijlpark, South Africa", 
-        "sw_latitude": -26.697
+        "fullname": "Vanderbijlpark Airport, Vanderbijlpark, Gauteng, South Africa", 
+        "date_indexed": "2010-12-02T08:57:52Z"
       }, 
       "id": 12517490
     }

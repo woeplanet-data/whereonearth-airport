@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518926, 
-        "name": "Brenham Municipal Airport", 
         "alias_ENG_V": [
           "11r"
         ], 
-        "ne_latitude": 30.230, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Brenham Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590245", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518926, 
         "ne_longitude": -96.369, 
         "longitude": -96.372, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590245, 
+        "ne_latitude": 30.230, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2476268, 
+        "sw_latitude": 30.208, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 30.217, 
         "sw_longitude": -96.377, 
-        "fullname": "Brenham Municipal Airport, Prairie Hill, Texas, Washington, United States", 
-        "sw_latitude": 30.208
+        "fullname": "Brenham Municipal Airport, Prairie Hill, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518926
     }

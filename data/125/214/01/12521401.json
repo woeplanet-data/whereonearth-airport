@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521401, 
+        "placetype": "airport", 
         "name": "Pittsburgh Metro Airport", 
-        "ne_latitude": 40.359, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12589729", 
+          "woe:state=2347597", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521401, 
         "ne_longitude": -80.182, 
         "longitude": -80.188, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589729, 
+        "ne_latitude": 40.359, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 28744935, 
+        "sw_latitude": 40.350, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.354, 
         "sw_longitude": -80.194, 
-        "fullname": "Pittsburgh Metro Airport, South Fayette, Pennsylvania, Allegheny, United States", 
-        "sw_latitude": 40.350
+        "fullname": "Pittsburgh Metro Airport, South Fayette, Pennsylvania, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521401
     }

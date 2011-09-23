@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514905, 
+        "placetype": "airport", 
         "name": "La Pesca Airport", 
-        "ne_latitude": 23.807, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12601668", 
+          "woe:state=2346291", 
+          "woe:country=23424900", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514905, 
         "ne_longitude": -97.768, 
         "longitude": -97.773, 
-        "placetype": "Airport", 
+        "parent_woeid": 12601668, 
+        "ne_latitude": 23.807, 
         "iso": "MX", 
-        "date_indexed": "2010-12-02T16:57:55Z", 
-        "parent_woeid": 128743, 
+        "sw_latitude": 23.798, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 23.802, 
         "sw_longitude": -97.778, 
-        "fullname": "La Pesca Airport, La Pesca, Tamaulipas, Soto la Marina, Mexico", 
-        "sw_latitude": 23.798
+        "fullname": "La Pesca Airport, La Pesca, Tamaulipas, Mexico", 
+        "date_indexed": "2010-12-02T16:57:55Z"
       }, 
       "id": 12514905
     }

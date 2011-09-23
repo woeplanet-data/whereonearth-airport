@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524266, 
-        "name": "Snake River Airport", 
         "alias_ENG_V": [
           "YXF Airport"
         ], 
-        "ne_latitude": 65.971, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Snake River Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375229", 
+          "woe:state=2344920", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524266, 
         "ne_longitude": -134.156, 
         "longitude": -134.167, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375229, 
+        "ne_latitude": 65.971, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 29374008, 
+        "sw_latitude": 65.962, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 65.967, 
         "sw_longitude": -134.178, 
-        "fullname": "Snake River Airport, Tsiigehtchic, Northwest Territories, Northwest Territories, Canada", 
-        "sw_latitude": 65.962
+        "fullname": "Snake River Airport, Tsiigehtchic, Northwest Territories, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12524266
     }

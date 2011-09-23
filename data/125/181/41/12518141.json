@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518141, 
+        "placetype": "airport", 
         "name": "Pocklington Airport", 
-        "ne_latitude": 53.930, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12696138", 
+          "woe:county=12602193", 
+          "woe:state=24554868", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518141, 
         "ne_longitude": -0.787, 
         "longitude": -0.794, 
-        "placetype": "Airport", 
+        "parent_woeid": 12696138, 
+        "ne_latitude": 53.930, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:21:01Z", 
-        "parent_woeid": 10631, 
+        "sw_latitude": 53.920, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.925, 
         "sw_longitude": -0.802, 
-        "fullname": "Pocklington Airport, Allerthorpe, England, East Riding of Yorkshire, United Kingdom", 
-        "sw_latitude": 53.920
+        "fullname": "Pocklington Airport, Allerthorpe, England, United Kingdom", 
+        "date_indexed": "2010-12-02T12:21:01Z"
       }, 
       "id": 12518141
     }

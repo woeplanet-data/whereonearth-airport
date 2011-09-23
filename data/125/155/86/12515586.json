@@ -3,28 +3,30 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              21.313, 
-              45.803
-            ], 
-            [
-              21.313, 
-              45.816
-            ], 
-            [
-              21.360, 
-              45.816
-            ], 
-            [
-              21.360, 
-              45.803
-            ], 
-            [
-              21.313, 
-              45.803
+              [
+                21.320, 
+                45.811
+              ], 
+              [
+                21.323, 
+                45.810
+              ], 
+              [
+                21.320, 
+                45.809
+              ], 
+              [
+                21.320, 
+                45.810
+              ], 
+              [
+                21.320, 
+                45.811
+              ]
             ]
           ]
         ]
@@ -32,23 +34,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515586, 
-        "name": "Timisoara Northeast Airport", 
         "alias_ENG_V": [
           "Timisoara Northeast"
         ], 
-        "ne_latitude": 45.816, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": 21.360, 
-        "longitude": 21.338, 
-        "placetype": "Airport", 
+        "name": "Timisoara Northeast Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2346649", 
+          "woe:country=23424933", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515586, 
+        "ne_longitude": 21.323, 
+        "longitude": 21.321, 
+        "parent_woeid": 2346649, 
+        "ne_latitude": 45.811, 
         "iso": "RO", 
-        "date_indexed": "2010-12-02T16:37:48Z", 
-        "parent_woeid": 879011, 
-        "latitude": 45.805, 
-        "sw_longitude": 21.313, 
+        "sw_latitude": 45.809, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 45.810, 
+        "sw_longitude": 21.320, 
         "fullname": "Timisoara Northeast Airport, Timis, Romania", 
-        "sw_latitude": 45.803
+        "iata_code": "TSR", 
+        "date_indexed": "2010-12-02T16:37:48Z"
       }, 
       "id": 12515586
     }

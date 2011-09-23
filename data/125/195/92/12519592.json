@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519592, 
-        "name": "Edward F Knapp State Airport", 
         "alias_ENG_V": [
           "MPV Airport"
         ], 
-        "ne_latitude": 44.215, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Edward F Knapp State Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590301", 
+          "woe:state=2347604", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519592, 
         "ne_longitude": -72.555, 
         "longitude": -72.559, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590301, 
+        "ne_latitude": 44.215, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2363035, 
+        "sw_latitude": 44.193, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.198, 
         "sw_longitude": -72.569, 
-        "fullname": "Edward F Knapp State Airport, Berlin, Vermont, Washington, United States", 
-        "sw_latitude": 44.193
+        "fullname": "Edward F Knapp State Airport, Berlin, Vermont, United States", 
+        "iata_code": "MPV", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519592
     }

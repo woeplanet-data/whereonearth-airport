@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515604, 
+        "placetype": "airport", 
         "name": "Camiguin Airport", 
-        "ne_latitude": 9.259, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=2346672", 
+          "woe:state=23424730", 
+          "woe:country=23424934", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515604, 
         "ne_longitude": 124.713, 
         "longitude": 124.708, 
-        "placetype": "Airport", 
+        "parent_woeid": 2346672, 
+        "ne_latitude": 9.259, 
         "iso": "PH", 
-        "date_indexed": "2010-12-02T09:56:58Z", 
-        "parent_woeid": 1199458, 
+        "sw_latitude": 9.250, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 9.254, 
         "sw_longitude": 124.703, 
-        "fullname": "Camiguin Airport, Mambajao, Northern Mindanao, Camiguin, Philippines", 
-        "sw_latitude": 9.250
+        "fullname": "Camiguin Airport, Mambajao, Northern Mindanao, Philippines", 
+        "date_indexed": "2010-12-02T09:56:58Z"
       }, 
       "id": 12515604
     }

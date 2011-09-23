@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511855, 
+        "placetype": "airport", 
         "name": "Steinbach South Airport", 
-        "ne_latitude": 49.499, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=29375231", 
+          "woe:state=2344917", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511855, 
         "ne_longitude": -96.690, 
         "longitude": -96.698, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375231, 
+        "ne_latitude": 49.499, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 2990, 
+        "sw_latitude": 49.490, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.494, 
         "sw_longitude": -96.704, 
-        "fullname": "Steinbach South Airport, Steinbach, Manitoba, Manitoba, Canada", 
-        "sw_latitude": 49.490
+        "fullname": "Steinbach South Airport, Steinbach, Manitoba, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12511855
     }

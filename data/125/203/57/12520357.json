@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520357, 
-        "name": "Jefferson County Airport", 
         "alias_ENG_V": [
           "BPT Airport"
         ], 
-        "ne_latitude": 29.968, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Jefferson County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590129", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520357, 
         "ne_longitude": -94.001, 
         "longitude": -94.019, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590129, 
+        "ne_latitude": 29.968, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2475321, 
+        "sw_latitude": 29.939, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 29.955, 
         "sw_longitude": -94.033, 
-        "fullname": "Jefferson County Airport, Port Arthur, Texas, Jefferson, United States", 
-        "sw_latitude": 29.939
+        "fullname": "Jefferson County Airport, Port Arthur, Texas, United States", 
+        "iata_code": "BPT", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520357
     }

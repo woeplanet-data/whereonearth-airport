@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513620, 
+        "placetype": "airport", 
         "name": "Karnal Airport", 
-        "ne_latitude": 29.718, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12586445", 
+          "woe:state=2345744", 
+          "woe:country=23424848", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513620, 
         "ne_longitude": 77.047, 
         "longitude": 77.042, 
-        "placetype": "Airport", 
+        "parent_woeid": 12586445, 
+        "ne_latitude": 29.718, 
         "iso": "IN", 
-        "date_indexed": "2010-12-02T09:26:27Z", 
-        "parent_woeid": 29191080, 
+        "sw_latitude": 29.709, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 29.714, 
         "sw_longitude": 77.036, 
-        "fullname": "Karnal Airport, Niawal, Haryana, Karnal, India", 
-        "sw_latitude": 29.709
+        "fullname": "Karnal Airport, Niawal, Haryana, India", 
+        "date_indexed": "2010-12-02T09:26:27Z"
       }, 
       "id": 12513620
     }

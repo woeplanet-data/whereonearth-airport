@@ -3,28 +3,46 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -123.011, 
-              44.895
-            ], 
-            [
-              -123.011, 
-              44.923
-            ], 
-            [
-              -122.990, 
-              44.923
-            ], 
-            [
-              -122.990, 
-              44.895
-            ], 
-            [
-              -123.011, 
-              44.895
+              [
+                -122.996, 
+                44.919
+              ], 
+              [
+                -122.997, 
+                44.918
+              ], 
+              [
+                -123.001, 
+                44.914
+              ], 
+              [
+                -123.002, 
+                44.912
+              ], 
+              [
+                -123.004, 
+                44.915
+              ], 
+              [
+                -123.002, 
+                44.915
+              ], 
+              [
+                -123.001, 
+                44.914
+              ], 
+              [
+                -122.997, 
+                44.918
+              ], 
+              [
+                -122.996, 
+                44.919
+              ]
             ]
           ]
         ]
@@ -32,23 +50,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520877, 
-        "name": "Mcnary Field Airport", 
         "alias_ENG_V": [
           "SLE"
         ], 
-        "ne_latitude": 44.923, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -122.990, 
-        "longitude": -123.008, 
-        "placetype": "Airport", 
-        "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
+        "name": "Mcnary Field Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:suburb=55861612", 
+          "woe:county=12589715", 
+          "woe:state=2347596", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520877, 
+        "ne_longitude": -122.996, 
+        "longitude": -123.000, 
         "parent_woeid": 55861612, 
-        "latitude": 44.910, 
-        "sw_longitude": -123.011, 
-        "fullname": "Mcnary Field Airport, Salem, Oregon, Marion, United States", 
-        "sw_latitude": 44.895
+        "ne_latitude": 44.919, 
+        "iso": "US", 
+        "sw_latitude": 44.912, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 44.915, 
+        "sw_longitude": -123.004, 
+        "fullname": "Mcnary Field Airport, Salem, Oregon, United States", 
+        "iata_code": "SLE", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520877
     }

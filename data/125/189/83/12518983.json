@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518983, 
-        "name": "Burlington-Alamance Regional Airport", 
         "alias_ENG_V": [
           "BUY"
         ], 
-        "ne_latitude": 36.051, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Burlington-Alamance Regional Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589374", 
+          "woe:state=2347592", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518983, 
         "ne_longitude": -79.471, 
         "longitude": -79.481, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589374, 
+        "ne_latitude": 36.051, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2372069, 
+        "sw_latitude": 36.044, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.049, 
         "sw_longitude": -79.482, 
-        "fullname": "Burlington-Alamance Regional Airport, Burlington, North Carolina, Alamance, United States", 
-        "sw_latitude": 36.044
+        "fullname": "Burlington-Alamance Regional Airport, Burlington, North Carolina, United States", 
+        "iata_code": "BUY", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518983
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518899, 
-        "name": "Bottineau Municipal Airport", 
         "alias_ENG_V": [
           "D09"
         ], 
-        "ne_latitude": 48.835, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Bottineau Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589478", 
+          "woe:state=2347593", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518899, 
         "ne_longitude": -100.409, 
         "longitude": -100.424, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589478, 
+        "ne_latitude": 48.835, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2367199, 
+        "sw_latitude": 48.825, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.833, 
         "sw_longitude": -100.424, 
-        "fullname": "Bottineau Municipal Airport, Bottineau, North Dakota, Bottineau, United States", 
-        "sw_latitude": 48.825
+        "fullname": "Bottineau Municipal Airport, Bottineau, North Dakota, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518899
     }

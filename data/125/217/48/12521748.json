@@ -3,28 +3,30 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -106.729, 
-              31.865
-            ], 
-            [
-              -106.729, 
-              31.891
-            ], 
-            [
-              -106.680, 
-              31.891
-            ], 
-            [
-              -106.680, 
-              31.865
-            ], 
-            [
-              -106.729, 
-              31.865
+              [
+                -106.701, 
+                31.875
+              ], 
+              [
+                -106.701, 
+                31.876
+              ], 
+              [
+                -106.701, 
+                31.877
+              ], 
+              [
+                -106.698, 
+                31.875
+              ], 
+              [
+                -106.701, 
+                31.875
+              ]
             ]
           ]
         ]
@@ -32,23 +34,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521748, 
-        "name": "Santa Teresa Airport", 
         "alias_ENG_V": [
           "5t6"
         ], 
-        "ne_latitude": 31.891, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -106.680, 
-        "longitude": -106.706, 
-        "placetype": "Airport", 
+        "name": "Santa Teresa Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589286", 
+          "woe:state=2347590", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521748, 
+        "ne_longitude": -106.698, 
+        "longitude": -106.700, 
+        "parent_woeid": 12589286, 
+        "ne_latitude": 31.877, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2500805, 
-        "latitude": 31.878, 
-        "sw_longitude": -106.729, 
-        "fullname": "Santa Teresa Airport, Strauss, New Mexico, Dona Ana, United States", 
-        "sw_latitude": 31.865
+        "sw_latitude": 31.875, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 31.876, 
+        "sw_longitude": -106.701, 
+        "fullname": "Santa Teresa Airport, Strauss, New Mexico, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521748
     }

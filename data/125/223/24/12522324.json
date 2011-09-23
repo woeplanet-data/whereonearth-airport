@@ -3,28 +3,54 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -73.620, 
-              43.326
-            ], 
-            [
-              -73.620, 
-              43.353
-            ], 
-            [
-              -73.601, 
-              43.353
-            ], 
-            [
-              -73.601, 
-              43.326
-            ], 
-            [
-              -73.620, 
-              43.326
+              [
+                -73.606, 
+                43.339
+              ], 
+              [
+                -73.609, 
+                43.338
+              ], 
+              [
+                -73.609, 
+                43.336
+              ], 
+              [
+                -73.612, 
+                43.335
+              ], 
+              [
+                -73.614, 
+                43.338
+              ], 
+              [
+                -73.611, 
+                43.342
+              ], 
+              [
+                -73.609, 
+                43.347
+              ], 
+              [
+                -73.608, 
+                43.345
+              ], 
+              [
+                -73.606, 
+                43.342
+              ], 
+              [
+                -73.606, 
+                43.340
+              ], 
+              [
+                -73.606, 
+                43.339
+              ]
             ]
           ]
         ]
@@ -32,23 +58,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522324, 
-        "name": "Warren County Airport", 
         "alias_ENG_V": [
           "Warren Airport"
         ], 
-        "ne_latitude": 43.353, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -73.601, 
-        "longitude": -73.602, 
-        "placetype": "Airport", 
+        "name": "Warren County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589368", 
+          "woe:state=2347591", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522324, 
+        "ne_longitude": -73.606, 
+        "longitude": -73.610, 
+        "parent_woeid": 12589368, 
+        "ne_latitude": 43.347, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2477769, 
-        "latitude": 43.342, 
-        "sw_longitude": -73.620, 
-        "fullname": "Warren County Airport, Queensbury, New York, Warren, United States", 
-        "sw_latitude": 43.326
+        "sw_latitude": 43.335, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 43.340, 
+        "sw_longitude": -73.614, 
+        "fullname": "Warren County Airport, Queensbury, New York, United States", 
+        "iata_code": "GFL", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522324
     }

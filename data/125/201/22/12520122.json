@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520122, 
-        "name": "Hassell Field Airport", 
         "alias_ENG_V": [
           "M29"
         ], 
-        "ne_latitude": 35.391, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Hassell Field Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590002", 
+          "woe:state=2347601", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520122, 
         "ne_longitude": -87.965, 
         "longitude": -87.967, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590002, 
+        "ne_latitude": 35.391, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2381641, 
+        "sw_latitude": 35.376, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.391, 
         "sw_longitude": -87.971, 
-        "fullname": "Hassell Field Airport, Clifton, Tennessee, Wayne, United States", 
-        "sw_latitude": 35.376
+        "fullname": "Hassell Field Airport, Clifton, Tennessee, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520122
     }

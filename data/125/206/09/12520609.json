@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520609, 
-        "name": "Lee Bird Field Airport", 
         "alias_ENG_V": [
           "LBF Airport"
         ], 
-        "ne_latitude": 41.133, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Lee Bird Field Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589193", 
+          "woe:state=2347586", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520609, 
         "ne_longitude": -100.666, 
         "longitude": -100.705, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589193, 
+        "ne_latitude": 41.133, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2361092, 
+        "sw_latitude": 41.118, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.133, 
         "sw_longitude": -100.709, 
-        "fullname": "Lee Bird Field Airport, Beck, Nebraska, Lincoln, United States", 
-        "sw_latitude": 41.118
+        "fullname": "Lee Bird Field Airport, Beck, Nebraska, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520609
     }

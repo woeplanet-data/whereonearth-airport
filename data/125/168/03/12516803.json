@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516803, 
+        "placetype": "airport", 
         "name": "Rybinsk Airport", 
-        "ne_latitude": 58.002, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599673", 
+          "woe:state=2346936", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516803, 
         "ne_longitude": 38.846, 
         "longitude": 38.837, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599673, 
+        "ne_latitude": 58.002, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2123221, 
+        "sw_latitude": 57.993, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 57.997, 
         "sw_longitude": 38.829, 
-        "fullname": "Rybinsk Airport, Rybinsk, Yaroslavskaya Oblast, Rybinsk, Russia", 
-        "sw_latitude": 57.993
+        "fullname": "Rybinsk Airport, Rybinsk, Yaroslavskaya Oblast, Russia", 
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516803
     }

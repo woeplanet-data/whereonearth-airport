@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515205, 
+        "placetype": "airport", 
         "name": "Iquitos Airport", 
-        "ne_latitude": -3.745, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=26805890", 
+          "woe:state=2346483", 
+          "woe:country=23424919", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515205, 
         "ne_longitude": -73.263, 
         "longitude": -73.268, 
-        "placetype": "Airport", 
+        "parent_woeid": 26805890, 
+        "ne_latitude": -3.745, 
         "iso": "PE", 
-        "date_indexed": "2010-12-02T16:12:16Z", 
-        "parent_woeid": 418445, 
+        "sw_latitude": -3.754, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -3.749, 
         "sw_longitude": -73.272, 
-        "fullname": "Iquitos Airport, Iquitos, Loreto, Maynas, Peru", 
-        "sw_latitude": -3.754
+        "fullname": "Iquitos Airport, Iquitos, Loreto, Peru", 
+        "date_indexed": "2010-12-02T16:12:16Z"
       }, 
       "id": 12515205
     }

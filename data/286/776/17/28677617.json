@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 28677617, 
+        "placetype": "airport", 
         "name": "Hughes Airfield", 
-        "ne_latitude": -12.683, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55864362", 
+          "woe:state=2344701", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 28677617, 
         "ne_longitude": 131.093, 
         "longitude": 131.089, 
-        "placetype": "Airport", 
+        "parent_woeid": 55864362, 
+        "ne_latitude": -12.683, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 28585463, 
+        "sw_latitude": -12.693, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -12.688, 
         "sw_longitude": 131.084, 
-        "fullname": "Hughes Airfield, Hughes, Northern Territory, Litchfield, Australia", 
-        "sw_latitude": -12.693
+        "fullname": "Hughes Airfield, Hughes, Northern Territory, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 28677617
     }

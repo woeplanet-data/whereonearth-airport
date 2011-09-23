@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522967, 
+        "placetype": "airport", 
         "name": "Vinh Airport", 
-        "ne_latitude": 18.754, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2347742", 
+          "woe:country=23424984", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522967, 
         "ne_longitude": 105.687, 
         "longitude": 105.675, 
-        "placetype": "Airport", 
+        "parent_woeid": 2347742, 
+        "ne_latitude": 18.754, 
         "iso": "VN", 
-        "date_indexed": "2010-12-02T08:52:49Z", 
-        "parent_woeid": 1252662, 
+        "sw_latitude": 18.732, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 18.743, 
         "sw_longitude": 105.663, 
         "fullname": "Vinh Airport, Vinh, Nghe An, Vietnam", 
-        "sw_latitude": 18.732
+        "date_indexed": "2010-12-02T08:52:49Z"
       }, 
       "id": 12522967
     }

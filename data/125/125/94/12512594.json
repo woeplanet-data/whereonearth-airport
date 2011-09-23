@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "DAN", 
-        "woeid": 12512594, 
+        "placetype": "airport", 
         "name": "Holstebro Lufthavn", 
         "alias_ENG_P": [
           "Lindtorp Airport"
         ], 
-        "ne_latitude": 56.404, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12582770", 
+          "woe:state=28362580", 
+          "woe:country=23424796", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512594, 
         "ne_longitude": 8.455, 
         "longitude": 8.447, 
-        "placetype": "Airport", 
+        "parent_woeid": 12582770, 
+        "ne_latitude": 56.404, 
         "iso": "DK", 
-        "date_indexed": "2010-12-02T16:13:18Z", 
-        "parent_woeid": 20099132, 
+        "sw_latitude": 56.395, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 56.400, 
         "sw_longitude": 8.438, 
-        "fullname": "Holstebro Lufthavn, Lindek\u00e6r, Midtjylland, Struer, Denmark", 
-        "sw_latitude": 56.395
+        "fullname": "Holstebro Lufthavn, Lindek\u00e6r, Midtjylland, Denmark", 
+        "date_indexed": "2010-12-02T16:13:18Z"
       }, 
       "id": 12512594
     }

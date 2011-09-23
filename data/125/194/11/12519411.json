@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519411, 
-        "name": "Danville Regional Airport", 
         "alias_ENG_V": [
           "Danville Airport"
         ], 
-        "ne_latitude": 36.581, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Danville Regional Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590338", 
+          "woe:state=2347605", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519411, 
         "ne_longitude": -79.322, 
         "longitude": -79.340, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590338, 
+        "ne_latitude": 36.581, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2389335, 
+        "sw_latitude": 36.561, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.575, 
         "sw_longitude": -79.349, 
-        "fullname": "Danville Regional Airport, Danville, Virginia, Danville City, United States", 
-        "sw_latitude": 36.561
+        "fullname": "Danville Regional Airport, Danville, Virginia, United States", 
+        "iata_code": "DAN", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519411
     }

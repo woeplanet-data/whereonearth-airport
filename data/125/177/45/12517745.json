@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517745, 
+        "placetype": "airport", 
         "name": "Waller Airport", 
-        "ne_latitude": 10.618, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=56189833", 
+          "woe:country=23424958", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517745, 
         "ne_longitude": -61.211, 
         "longitude": -61.215, 
-        "placetype": "Airport", 
+        "parent_woeid": 56189833, 
+        "ne_latitude": 10.618, 
         "iso": "TT", 
-        "date_indexed": "2010-12-02T18:05:31Z", 
-        "parent_woeid": 380006, 
+        "sw_latitude": 10.609, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 10.613, 
         "sw_longitude": -61.220, 
         "fullname": "Waller Airport, Cumuto, St. Andrew, Trinidad and Tobago", 
-        "sw_latitude": 10.609
+        "date_indexed": "2010-12-02T18:05:31Z"
       }, 
       "id": 12517745
     }

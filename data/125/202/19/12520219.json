@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520219, 
-        "name": "Hook Field Municipal Airport", 
         "alias_ENG_V": [
           "Miami Valley Airport"
         ], 
-        "ne_latitude": 39.538, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Hook Field Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589535", 
+          "woe:state=2347594", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520219, 
         "ne_longitude": -84.384, 
         "longitude": -84.393, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589535, 
+        "ne_latitude": 39.538, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2450391, 
+        "sw_latitude": 39.524, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 39.529, 
         "sw_longitude": -84.405, 
-        "fullname": "Hook Field Municipal Airport, Middletown, Ohio, Butler, United States", 
-        "sw_latitude": 39.524
+        "fullname": "Hook Field Municipal Airport, Middletown, Ohio, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520219
     }

@@ -32,29 +32,35 @@
       "type": "Feature", 
       "properties": {
         "lang": "JPN", 
-        "woeid": 12513942, 
-        "name": "\u5944\u7f8e\u7a7a\u6e2f", 
         "alias_ENG_V": [
           "Amamioshima Airport"
         ], 
+        "name": "\u5944\u7f8e\u7a7a\u6e2f", 
         "alias_ENG_P": [
           "Amami Airport"
         ], 
-        "ne_latitude": 28.436, 
+        "parent_woeid": 2345867, 
+        "woeid": 12513942, 
+        "provider": "geoplanet 7.6.0", 
         "alias_JPN_V": [
           "\u30a2\u30de\u30df\u30af\u30a6\u30b3\u30a6"
         ], 
-        "ne_longitude": 129.717, 
         "longitude": 129.712, 
-        "parent_woeid": 28379324, 
-        "placetype": "Airport", 
+        "ne_longitude": 129.717, 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2345867", 
+          "woe:country=23424856", 
+          "woe:planet=1"
+        ], 
         "iso": "JP", 
-        "date_indexed": "2010-12-02T08:09:08Z", 
-        "provider": "geoplanet 7.6.0", 
+        "sw_latitude": 28.426, 
+        "ne_latitude": 28.436, 
         "latitude": 28.431, 
         "sw_longitude": 129.707, 
         "fullname": "\u5944\u7f8e\u7a7a\u6e2f, Amami-shi, Kagoshima Prefecture, Japan", 
-        "sw_latitude": 28.426
+        "iata_code": "ASJ", 
+        "date_indexed": "2010-12-02T08:09:08Z"
       }, 
       "id": 12513942
     }

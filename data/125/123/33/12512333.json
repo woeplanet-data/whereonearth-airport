@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512333, 
+        "placetype": "airport", 
         "name": "Oficina Victoria Airport", 
-        "ne_latitude": -20.725, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=26794322", 
+          "woe:county=56043704", 
+          "woe:state=2345030", 
+          "woe:country=23424782", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512333, 
         "ne_longitude": -69.619, 
         "longitude": -69.624, 
-        "placetype": "Airport", 
+        "parent_woeid": 26794322, 
+        "ne_latitude": -20.725, 
         "iso": "CL", 
-        "date_indexed": "2010-12-02T12:15:39Z", 
-        "parent_woeid": 348770, 
+        "sw_latitude": -20.734, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -20.729, 
         "sw_longitude": -69.628, 
         "fullname": "Oficina Victoria Airport, Tarapaca Region, Tamarugal Province, Chile", 
-        "sw_latitude": -20.734
+        "date_indexed": "2010-12-02T12:15:39Z"
       }, 
       "id": 12512333
     }

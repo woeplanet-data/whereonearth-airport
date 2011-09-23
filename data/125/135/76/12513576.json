@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513576, 
+        "placetype": "airport", 
         "name": "Darbhanga Airport", 
-        "ne_latitude": 26.198, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12586378", 
+          "woe:state=2345742", 
+          "woe:country=23424848", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513576, 
         "ne_longitude": 85.924, 
         "longitude": 85.919, 
-        "placetype": "Airport", 
+        "parent_woeid": 12586378, 
+        "ne_latitude": 26.198, 
         "iso": "IN", 
-        "date_indexed": "2010-12-02T09:26:27Z", 
-        "parent_woeid": 29161419, 
+        "sw_latitude": 26.189, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 26.194, 
         "sw_longitude": 85.914, 
-        "fullname": "Darbhanga Airport, Bihatwara, Bihar, Darbhanga, India", 
-        "sw_latitude": 26.189
+        "fullname": "Darbhanga Airport, Bihatwara, Bihar, India", 
+        "date_indexed": "2010-12-02T09:26:27Z"
       }, 
       "id": 12513576
     }

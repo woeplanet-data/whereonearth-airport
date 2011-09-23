@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518181, 
+        "placetype": "airport", 
         "name": "Woodvale Airport", 
-        "ne_latitude": 53.585, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12695852", 
+          "woe:county=12602161", 
+          "woe:state=24554868", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518181, 
         "ne_longitude": -3.047, 
         "longitude": -3.054, 
-        "placetype": "Airport", 
+        "parent_woeid": 12695852, 
+        "ne_latitude": 53.585, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:21:01Z", 
-        "parent_woeid": 20091958, 
+        "sw_latitude": 53.576, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.581, 
         "sw_longitude": -3.062, 
-        "fullname": "Woodvale Airport, Freshfield, England, Merseyside, United Kingdom", 
-        "sw_latitude": 53.576
+        "fullname": "Woodvale Airport, Freshfield, England, United Kingdom", 
+        "date_indexed": "2010-12-02T12:21:01Z"
       }, 
       "id": 12518181
     }

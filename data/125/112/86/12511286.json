@@ -32,29 +32,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511286, 
-        "name": "Aeroporto Pouso Alegre", 
-        "alias_ENG_P": [
-          "Pouso Alegre Airport"
-        ], 
-        "ne_latitude": -22.284, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "PPY"
         ], 
+        "name": "Aeroporto Pouso Alegre", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Pouso Alegre Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12579929", 
+          "woe:state=2344856", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511286, 
         "ne_longitude": -45.914, 
         "longitude": -45.919, 
-        "placetype": "Airport", 
+        "parent_woeid": 12579929, 
+        "ne_latitude": -22.284, 
         "alias_POR_V": [
           "Aeroporto PPY"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 455986, 
+        "sw_latitude": -22.293, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -22.288, 
         "sw_longitude": -45.924, 
-        "fullname": "Aeroporto Pouso Alegre, Pouso Alegre, Minas Gerais, Pouso Alegre, Brazil", 
-        "sw_latitude": -22.293
+        "fullname": "Aeroporto Pouso Alegre, Pouso Alegre, Minas Gerais, Brazil", 
+        "iata_code": "PPY", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511286
     }

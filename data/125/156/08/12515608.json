@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515608, 
-        "name": "Cotabato Airport", 
         "alias_ENG_V": [
           "CBO"
         ], 
-        "ne_latitude": 7.170, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Cotabato Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29389346", 
+          "woe:state=23424729", 
+          "woe:country=23424934", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515608, 
         "ne_longitude": 124.213, 
         "longitude": 124.208, 
-        "placetype": "Airport", 
+        "parent_woeid": 29389346, 
+        "ne_latitude": 7.170, 
         "iso": "PH", 
-        "date_indexed": "2010-12-02T09:56:58Z", 
-        "parent_woeid": 1170341, 
+        "sw_latitude": 7.160, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 7.165, 
         "sw_longitude": 124.204, 
-        "fullname": "Cotabato Airport, Cotabato, Autonomous Region in Muslim Mindanao, Shariff Kabunsuan, Philippines", 
-        "sw_latitude": 7.160
+        "fullname": "Cotabato Airport, Cotabato, Autonomous Region in Muslim Mindanao, Philippines", 
+        "iata_code": "CBO", 
+        "date_indexed": "2010-12-02T09:56:58Z"
       }, 
       "id": 12515608
     }

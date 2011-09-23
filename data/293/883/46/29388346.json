@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388346, 
-        "name": "Russell County Airport", 
         "alias_ENG_V": [
           "K24"
         ], 
-        "ne_latitude": 37.021, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Russell County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588579", 
+          "woe:state=2347576", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388346, 
         "ne_longitude": -85.099, 
         "longitude": -85.100, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588579, 
+        "ne_latitude": 37.021, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2428547, 
+        "sw_latitude": 36.999, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 37.007, 
         "sw_longitude": -85.106, 
-        "fullname": "Russell County Airport, Jamestown, Kentucky, Russell, United States", 
-        "sw_latitude": 36.999
+        "fullname": "Russell County Airport, Jamestown, Kentucky, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388346
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516343, 
+        "placetype": "airport", 
         "name": "Lenino Airport", 
-        "ne_latitude": 52.915, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598427", 
+          "woe:state=20070514", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516343, 
         "ne_longitude": 156.891, 
         "longitude": 156.884, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598427, 
+        "ne_latitude": 52.915, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 1983559, 
+        "sw_latitude": 52.906, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 52.910, 
         "sw_longitude": 156.876, 
         "fullname": "Lenino Airport, Kamchatskaya Oblast, Ust-Bolsheretsky, Russia", 
-        "sw_latitude": 52.906
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516343
     }

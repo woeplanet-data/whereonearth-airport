@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520583, 
-        "name": "Lawrence County Airpark", 
         "alias_ENG_V": [
           "HTW"
         ], 
-        "ne_latitude": 38.422, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Lawrence County Airpark", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589570", 
+          "woe:state=2347594", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520583, 
         "ne_longitude": -82.489, 
         "longitude": -82.498, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589570, 
+        "ne_latitude": 38.422, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2503222, 
+        "sw_latitude": 38.418, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.420, 
         "sw_longitude": -82.500, 
-        "fullname": "Lawrence County Airpark, Sybene, Ohio, Lawrence, United States", 
-        "sw_latitude": 38.418
+        "fullname": "Lawrence County Airpark, Sybene, Ohio, United States", 
+        "iata_code": "HTW", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520583
     }

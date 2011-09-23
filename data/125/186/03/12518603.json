@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518603, 
-        "name": "Amelia Earhart Airport", 
         "alias_ENG_V": [
           "K59"
         ], 
-        "ne_latitude": 39.575, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Amelia Earhart Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588373", 
+          "woe:state=2347575", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518603, 
         "ne_longitude": -95.177, 
         "longitude": -95.178, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588373, 
+        "ne_latitude": 39.575, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2356895, 
+        "sw_latitude": 39.566, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 39.568, 
         "sw_longitude": -95.182, 
-        "fullname": "Amelia Earhart Airport, Atchison, Kansas, Atchison, United States", 
-        "sw_latitude": 39.566
+        "fullname": "Amelia Earhart Airport, Atchison, Kansas, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518603
     }

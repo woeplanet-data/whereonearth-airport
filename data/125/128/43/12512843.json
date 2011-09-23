@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512843, 
+        "placetype": "airport", 
         "name": "Annemasse Airport", 
-        "ne_latitude": 46.197, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12672308", 
+          "woe:county=12597182", 
+          "woe:state=7153329", 
+          "woe:country=23424819", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512843, 
         "ne_longitude": 6.277, 
         "longitude": 6.269, 
-        "placetype": "Airport", 
+        "parent_woeid": 12672308, 
+        "ne_latitude": 46.197, 
         "iso": "FR", 
-        "date_indexed": "2010-12-02T12:04:01Z", 
-        "parent_woeid": 29330568, 
+        "sw_latitude": 46.189, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.194, 
         "sw_longitude": 6.259, 
-        "fullname": "Annemasse Airport, Bas Monthoux, Rhone-Alpes, Haute-Savoie, France", 
-        "sw_latitude": 46.189
+        "fullname": "Annemasse Airport, Bas Monthoux, Rhone-Alpes, France", 
+        "date_indexed": "2010-12-02T12:04:01Z"
       }, 
       "id": 12512843
     }

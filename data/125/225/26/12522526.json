@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522526, 
-        "name": "Yakima Air Terminal", 
         "alias_ENG_V": [
           "YKM Airport"
         ], 
-        "ne_latitude": 46.575, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Yakima Air Terminal", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590478", 
+          "woe:state=2347606", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522526, 
         "ne_longitude": -120.520, 
         "longitude": -120.540, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590478, 
+        "ne_latitude": 46.575, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2509796, 
+        "sw_latitude": 46.559, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.570, 
         "sw_longitude": -120.562, 
-        "fullname": "Yakima Air Terminal, Union Gap, Washington, Yakima, United States", 
-        "sw_latitude": 46.559
+        "fullname": "Yakima Air Terminal, Union Gap, Washington, United States", 
+        "iata_code": "YKM", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522526
     }

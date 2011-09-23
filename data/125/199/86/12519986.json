@@ -3,28 +3,98 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -89.125, 
-              42.181
-            ], 
-            [
-              -89.125, 
-              42.212
-            ], 
-            [
-              -89.083, 
-              42.212
-            ], 
-            [
-              -89.083, 
-              42.181
-            ], 
-            [
-              -89.125, 
-              42.181
+              [
+                -89.094, 
+                42.202
+              ], 
+              [
+                -89.092, 
+                42.202
+              ], 
+              [
+                -89.091, 
+                42.201
+              ], 
+              [
+                -89.088, 
+                42.200
+              ], 
+              [
+                -89.085, 
+                42.198
+              ], 
+              [
+                -89.086, 
+                42.193
+              ], 
+              [
+                -89.089, 
+                42.197
+              ], 
+              [
+                -89.093, 
+                42.198
+              ], 
+              [
+                -89.094, 
+                42.193
+              ], 
+              [
+                -89.099, 
+                42.194
+              ], 
+              [
+                -89.102, 
+                42.196
+              ], 
+              [
+                -89.106, 
+                42.195
+              ], 
+              [
+                -89.107, 
+                42.195
+              ], 
+              [
+                -89.109, 
+                42.194
+              ], 
+              [
+                -89.107, 
+                42.196
+              ], 
+              [
+                -89.106, 
+                42.199
+              ], 
+              [
+                -89.106, 
+                42.201
+              ], 
+              [
+                -89.104, 
+                42.201
+              ], 
+              [
+                -89.101, 
+                42.201
+              ], 
+              [
+                -89.097, 
+                42.203
+              ], 
+              [
+                -89.095, 
+                42.202
+              ], 
+              [
+                -89.094, 
+                42.202
+              ]
             ]
           ]
         ]
@@ -32,23 +102,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519986, 
-        "name": "Greater Rockford Airport", 
         "alias_ENG_V": [
           "Greater Rockford"
         ], 
-        "ne_latitude": 42.212, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -89.083, 
-        "longitude": -89.095, 
-        "placetype": "Airport", 
-        "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
+        "name": "Greater Rockford Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:suburb=55861507", 
+          "woe:county=12588178", 
+          "woe:state=2347572", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519986, 
+        "ne_longitude": -89.085, 
+        "longitude": -89.097, 
         "parent_woeid": 55861507, 
-        "latitude": 42.202, 
-        "sw_longitude": -89.125, 
-        "fullname": "Greater Rockford Airport, Rockford, Illinois, Winnebago, United States", 
-        "sw_latitude": 42.181
+        "ne_latitude": 42.203, 
+        "iso": "US", 
+        "sw_latitude": 42.193, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 42.198, 
+        "sw_longitude": -89.109, 
+        "fullname": "Greater Rockford Airport, Rockford, Illinois, United States", 
+        "iata_code": "RFD", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12519986
     }

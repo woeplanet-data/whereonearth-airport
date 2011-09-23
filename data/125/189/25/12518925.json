@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518925, 
-        "name": "Bremerton National Airport", 
         "alias_ENG_V": [
           "Bremerton National"
         ], 
-        "ne_latitude": 47.499, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Bremerton National Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590457", 
+          "woe:state=2347606", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518925, 
         "ne_longitude": -122.754, 
         "longitude": -122.766, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590457, 
+        "ne_latitude": 47.499, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2368481, 
+        "sw_latitude": 47.485, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.493, 
         "sw_longitude": -122.772, 
-        "fullname": "Bremerton National Airport, Bremerton, Washington, Kitsap, United States", 
-        "sw_latitude": 47.485
+        "fullname": "Bremerton National Airport, Bremerton, Washington, United States", 
+        "iata_code": "PWT", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518925
     }

@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 56051688, 
+        "placetype": "airport", 
         "name": "Flugfeld Hofkirchen", 
-        "ne_latitude": 48.140, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12674593", 
+          "woe:county=12591702", 
+          "woe:state=2344711", 
+          "woe:country=23424750", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56051688, 
         "ne_longitude": 14.339, 
         "longitude": 14.333, 
-        "placetype": "Airport", 
+        "parent_woeid": 12674593, 
+        "ne_latitude": 48.140, 
         "iso": "AT", 
-        "date_indexed": "2010-12-02T16:35:40Z", 
-        "parent_woeid": 545458, 
+        "sw_latitude": 48.138, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.139, 
         "sw_longitude": 14.332, 
-        "fullname": "Flugfeld Hofkirchen, Hofkirchen, Upper Austria, Linz-Land, Austria", 
-        "sw_latitude": 48.138
+        "fullname": "Flugfeld Hofkirchen, Hofkirchen, Upper Austria, Austria", 
+        "date_indexed": "2010-12-02T16:35:40Z"
       }, 
       "id": 56051688
     }

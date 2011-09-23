@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 56052231, 
+        "placetype": "airport", 
         "name": "Flugplatz Greiz-obergrochlitz", 
-        "ne_latitude": 50.647, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12625486", 
+          "woe:county=12596933", 
+          "woe:state=2345495", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56052231, 
         "ne_longitude": 12.180, 
         "longitude": 12.178, 
-        "placetype": "Airport", 
+        "parent_woeid": 12625486, 
+        "ne_latitude": 50.647, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 654063, 
+        "sw_latitude": 50.641, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.646, 
         "sw_longitude": 12.169, 
-        "fullname": "Flugplatz Greiz-obergrochlitz, Greiz, Thuringia, Landkreis Greiz, Germany", 
-        "sw_latitude": 50.641
+        "fullname": "Flugplatz Greiz-obergrochlitz, Greiz, Thuringia, Germany", 
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 56052231
     }

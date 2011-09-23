@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515633, 
-        "name": "Marinduque Airport", 
         "alias_ENG_V": [
           "MRQ"
         ], 
-        "ne_latitude": 13.368, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Marinduque Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=2346693", 
+          "woe:state=23424719", 
+          "woe:country=23424934", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515633, 
         "ne_longitude": 121.828, 
         "longitude": 121.824, 
-        "placetype": "Airport", 
+        "parent_woeid": 2346693, 
+        "ne_latitude": 13.368, 
         "iso": "PH", 
-        "date_indexed": "2010-12-02T09:56:58Z", 
-        "parent_woeid": 1199178, 
+        "sw_latitude": 13.359, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 13.363, 
         "sw_longitude": 121.819, 
-        "fullname": "Marinduque Airport, Gasan, Mimaropa, Marinduque, Philippines", 
-        "sw_latitude": 13.359
+        "fullname": "Marinduque Airport, Gasan, Mimaropa, Philippines", 
+        "date_indexed": "2010-12-02T09:56:58Z"
       }, 
       "id": 12515633
     }

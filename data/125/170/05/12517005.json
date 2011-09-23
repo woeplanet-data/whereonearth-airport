@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517005, 
+        "placetype": "airport", 
         "name": "Tikhvin Airport", 
-        "ne_latitude": 59.653, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598659", 
+          "woe:state=2346907", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517005, 
         "ne_longitude": 33.591, 
         "longitude": 33.582, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598659, 
+        "ne_latitude": 59.653, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 1988713, 
+        "sw_latitude": 59.643, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 59.648, 
         "sw_longitude": 33.573, 
         "fullname": "Tikhvin Airport, Leningradskaya Oblast, Tikhvinsky, Russia", 
-        "sw_latitude": 59.643
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12517005
     }

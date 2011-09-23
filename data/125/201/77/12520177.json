@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520177, 
-        "name": "Hester Memorial Airport", 
         "alias_ENG_V": [
           "0a2"
         ], 
-        "ne_latitude": 34.092, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Hester Memorial Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589800", 
+          "woe:state=2347599", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520177, 
         "ne_longitude": -82.559, 
         "longitude": -82.572, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589800, 
+        "ne_latitude": 34.092, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2373253, 
+        "sw_latitude": 34.090, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 34.092, 
         "sw_longitude": -82.572, 
-        "fullname": "Hester Memorial Airport, Calhoun Falls, South Carolina, Abbeville, United States", 
-        "sw_latitude": 34.090
+        "fullname": "Hester Memorial Airport, Calhoun Falls, South Carolina, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520177
     }

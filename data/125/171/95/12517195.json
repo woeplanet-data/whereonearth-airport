@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517195, 
+        "placetype": "airport", 
         "name": "Voronezh East Airport", 
-        "ne_latitude": 51.654, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599658", 
+          "woe:state=2346935", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517195, 
         "ne_longitude": 39.263, 
         "longitude": 39.256, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599658, 
+        "ne_latitude": 51.654, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2108210, 
+        "sw_latitude": 51.645, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.650, 
         "sw_longitude": 39.249, 
-        "fullname": "Voronezh East Airport, Voronezh, Voronezhskaya Oblast, Voronezh, Russia", 
-        "sw_latitude": 51.645
+        "fullname": "Voronezh East Airport, Voronezh, Voronezhskaya Oblast, Russia", 
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12517195
     }

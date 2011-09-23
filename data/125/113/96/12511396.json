@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511396, 
+        "placetype": "airport", 
         "name": "Borts Airport", 
-        "ne_latitude": 43.597, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55873856", 
+          "woe:state=20070052", 
+          "woe:country=23424771", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511396, 
         "ne_longitude": 26.948, 
         "longitude": 26.942, 
-        "placetype": "Airport", 
+        "parent_woeid": 55873856, 
+        "ne_latitude": 43.597, 
         "iso": "BG", 
-        "date_indexed": "2010-12-02T16:14:37Z", 
-        "parent_woeid": 835334, 
+        "sw_latitude": 43.588, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.593, 
         "sw_longitude": 26.936, 
         "fullname": "Borts Airport, Shumen, Venets, Bulgaria", 
-        "sw_latitude": 43.588
+        "date_indexed": "2010-12-02T16:14:37Z"
       }, 
       "id": 12511396
     }

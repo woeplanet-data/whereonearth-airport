@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510709, 
+        "placetype": "airport", 
         "name": "Kingston Southeast Airport", 
-        "ne_latitude": -36.817, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55864233", 
+          "woe:state=2344703", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510709, 
         "ne_longitude": 139.884, 
         "longitude": 139.878, 
-        "placetype": "Airport", 
+        "parent_woeid": 55864233, 
+        "ne_latitude": -36.817, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1096649, 
+        "sw_latitude": -36.826, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -36.822, 
         "sw_longitude": 139.873, 
-        "fullname": "Kingston Southeast Airport, Kingston Se, South Australia, Kingston, Australia", 
-        "sw_latitude": -36.826
+        "fullname": "Kingston Southeast Airport, Kingston Se, South Australia, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 12510709
     }

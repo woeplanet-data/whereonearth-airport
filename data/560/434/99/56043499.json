@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 56043499, 
+        "placetype": "airport", 
         "name": "Nhill Airport", 
-        "ne_latitude": -36.303, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55863996", 
+          "woe:state=2344705", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56043499, 
         "ne_longitude": 141.654, 
         "longitude": 141.648, 
-        "placetype": "Airport", 
+        "parent_woeid": 55863996, 
+        "ne_latitude": -36.303, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1104603, 
+        "sw_latitude": -36.312, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -36.308, 
         "sw_longitude": 141.643, 
-        "fullname": "Nhill Airport, Nhill, Victoria, Hindmarsh, Australia", 
-        "sw_latitude": -36.312
+        "fullname": "Nhill Airport, Nhill, Victoria, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 56043499
     }

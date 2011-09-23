@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521586, 
-        "name": "Richlands Municipal Airport", 
         "alias_ENG_V": [
           "Tazewell County Airport"
         ], 
-        "ne_latitude": 37.092, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Richlands Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590429", 
+          "woe:state=2347605", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521586, 
         "ne_longitude": -81.832, 
         "longitude": -81.834, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590429, 
+        "ne_latitude": 37.092, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2392968, 
+        "sw_latitude": 37.089, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 37.090, 
         "sw_longitude": -81.836, 
-        "fullname": "Richlands Municipal Airport, Doran, Virginia, Tazewell, United States", 
-        "sw_latitude": 37.089
+        "fullname": "Richlands Municipal Airport, Doran, Virginia, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521586
     }

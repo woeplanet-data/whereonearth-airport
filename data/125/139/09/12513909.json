@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513909, 
+        "placetype": "airport", 
         "name": "Kirkuk Airport", 
-        "ne_latitude": 35.473, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55999948", 
+          "woe:state=2345845", 
+          "woe:country=23424855", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513909, 
         "ne_longitude": 44.359, 
         "longitude": 44.354, 
-        "placetype": "Airport", 
+        "parent_woeid": 55999948, 
+        "ne_latitude": 35.473, 
         "iso": "IQ", 
-        "date_indexed": "2010-12-02T16:42:58Z", 
-        "parent_woeid": 1979505, 
+        "sw_latitude": 35.464, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.468, 
         "sw_longitude": 44.348, 
-        "fullname": "Kirkuk Airport, Kirkok, At Ta'mim, Kirkuk, Iraq", 
-        "sw_latitude": 35.464
+        "fullname": "Kirkuk Airport, Kirkok, At Ta'mim, Iraq", 
+        "date_indexed": "2010-12-02T16:42:58Z"
       }, 
       "id": 12513909
     }

@@ -3,28 +3,50 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              7.603, 
-              48.527
-            ], 
-            [
-              7.603, 
-              48.550
-            ], 
-            [
-              7.649, 
-              48.550
-            ], 
-            [
-              7.649, 
-              48.527
-            ], 
-            [
-              7.603, 
-              48.527
+              [
+                7.623, 
+                48.540
+              ], 
+              [
+                7.623, 
+                48.540
+              ], 
+              [
+                7.625, 
+                48.542
+              ], 
+              [
+                7.628, 
+                48.544
+              ], 
+              [
+                7.628, 
+                48.545
+              ], 
+              [
+                7.633, 
+                48.549
+              ], 
+              [
+                7.630, 
+                48.545
+              ], 
+              [
+                7.630, 
+                48.542
+              ], 
+              [
+                7.625, 
+                48.540
+              ], 
+              [
+                7.623, 
+                48.540
+              ]
             ]
           ]
         ]
@@ -40,11 +62,16 @@
         "alias_ENG_P": [
           "Strasbourg Airport"
         ], 
-        "ne_latitude": 48.550, 
-        "alias_UNK_V": [
-          "Medzinarodne Letisko Strasburg"
+        "hierarchy": [
+          "woe:localadmin=12643326", 
+          "woe:county=12597135", 
+          "woe:state=7153330", 
+          "woe:country=23424819", 
+          "woe:planet=1"
         ], 
-        "placetype": "Airport", 
+        "ne_latitude": 48.549, 
+        "ne_longitude": 7.633, 
+        "placetype": "airport", 
         "alias_POR_V": [
           "Aeroporto Inter de Estrasburgo"
         ], 
@@ -55,12 +82,13 @@
           "Aeroporto Inter Di Strasburgo"
         ], 
         "woeid": 12512892, 
-        "sw_longitude": 7.603, 
+        "iata_code": "SXB", 
+        "sw_longitude": 7.623, 
         "alias_FIN_V": [
           "Strasbourgin Lentokentt\u00e5"
         ], 
         "provider": "geoplanet 7.6.0", 
-        "latitude": 48.545, 
+        "latitude": 48.544, 
         "alias_NOR_V": [
           "Strasbourg Internasjonale Lufthavn"
         ], 
@@ -82,15 +110,17 @@
         ], 
         "lang": "FRE", 
         "name": "A\u00e9roport International Strasbourg", 
-        "parent_woeid": 589717, 
-        "ne_longitude": 7.649, 
+        "parent_woeid": 12643326, 
+        "alias_UNK_V": [
+          "Medzinarodne Letisko Strasburg"
+        ], 
         "longitude": 7.628, 
         "iso": "FR", 
-        "sw_latitude": 48.527, 
+        "sw_latitude": 48.540, 
         "alias_FRE_V": [
           "A\u00e9roport Strasbourg Entzheim"
         ], 
-        "fullname": "A\u00e9roport International Strasbourg, Entzheim, Alsace, Bas-Rhin, France", 
+        "fullname": "A\u00e9roport International Strasbourg, Entzheim, Alsace, France", 
         "alias_FRE_S": [
           "Aeroport de Strasbourg Entzheim"
         ]

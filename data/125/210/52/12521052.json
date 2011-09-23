@@ -3,28 +3,70 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -85.916, 
-              39.835
-            ], 
-            [
-              -85.916, 
-              39.856
-            ], 
-            [
-              -85.888, 
-              39.856
-            ], 
-            [
-              -85.888, 
-              39.835
-            ], 
-            [
-              -85.916, 
-              39.835
+              [
+                -85.902, 
+                39.839
+              ], 
+              [
+                -85.904, 
+                39.837
+              ], 
+              [
+                -85.905, 
+                39.838
+              ], 
+              [
+                -85.907, 
+                39.839
+              ], 
+              [
+                -85.910, 
+                39.838
+              ], 
+              [
+                -85.909, 
+                39.843
+              ], 
+              [
+                -85.911, 
+                39.845
+              ], 
+              [
+                -85.906, 
+                39.848
+              ], 
+              [
+                -85.904, 
+                39.847
+              ], 
+              [
+                -85.899, 
+                39.846
+              ], 
+              [
+                -85.897, 
+                39.843
+              ], 
+              [
+                -85.897, 
+                39.843
+              ], 
+              [
+                -85.900, 
+                39.839
+              ], 
+              [
+                -85.901, 
+                39.839
+              ], 
+              [
+                -85.902, 
+                39.839
+              ]
             ]
           ]
         ]
@@ -32,23 +74,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521052, 
-        "name": "Mount Comfort Airport", 
         "alias_ENG_V": [
           "Mt Comfort Airport"
         ], 
-        "ne_latitude": 39.856, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -85.888, 
-        "longitude": -85.910, 
-        "placetype": "Airport", 
+        "name": "Mount Comfort Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588209", 
+          "woe:state=2347573", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521052, 
+        "ne_longitude": -85.897, 
+        "longitude": -85.904, 
+        "parent_woeid": 12588209, 
+        "ne_latitude": 39.848, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2454880, 
-        "latitude": 39.845, 
-        "sw_longitude": -85.916, 
-        "fullname": "Mount Comfort Airport, Mount Comfort, Indiana, Hancock, United States", 
-        "sw_latitude": 39.835
+        "sw_latitude": 39.837, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 39.843, 
+        "sw_longitude": -85.911, 
+        "fullname": "Mount Comfort Airport, Mount Comfort, Indiana, United States", 
+        "iata_code": "MQJ", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12521052
     }

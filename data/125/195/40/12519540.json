@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519540, 
-        "name": "Dubuque Regional Airport", 
         "alias_ENG_V": [
           "Dubuque Airport"
         ], 
-        "ne_latitude": 42.419, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Dubuque Regional Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588302", 
+          "woe:state=2347574", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519540, 
         "ne_longitude": -90.694, 
         "longitude": -90.704, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588302, 
+        "ne_latitude": 42.419, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2358779, 
+        "sw_latitude": 42.382, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.405, 
         "sw_longitude": -90.737, 
-        "fullname": "Dubuque Regional Airport, Ballyclough, Iowa, Dubuque, United States", 
-        "sw_latitude": 42.382
+        "fullname": "Dubuque Regional Airport, Ballyclough, Iowa, United States", 
+        "iata_code": "DBQ", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519540
     }

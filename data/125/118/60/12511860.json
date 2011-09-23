@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511860, 
-        "name": "Suffield Airport", 
         "alias_ENG_V": [
           "YSD Airport"
         ], 
-        "ne_latitude": 50.272, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Suffield Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375228", 
+          "woe:state=2344915", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511860, 
         "ne_longitude": -111.176, 
         "longitude": -111.183, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375228, 
+        "ne_latitude": 50.272, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 8616, 
+        "sw_latitude": 50.263, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.268, 
         "sw_longitude": -111.190, 
-        "fullname": "Suffield Airport, Ralston, Alberta, Alberta, Canada", 
-        "sw_latitude": 50.263
+        "fullname": "Suffield Airport, Ralston, Alberta, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12511860
     }

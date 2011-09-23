@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524004, 
-        "name": "Broadford Airport", 
         "alias_ENG_V": [
           "SKL"
         ], 
-        "ne_latitude": 57.241, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Broadford Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=12696199", 
+          "woe:county=12602203", 
+          "woe:state=12578048", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524004, 
         "ne_longitude": -5.804, 
         "longitude": -5.812, 
-        "placetype": "Airport", 
+        "parent_woeid": 12696199, 
+        "ne_latitude": 57.241, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:21:01Z", 
-        "parent_woeid": 11114, 
+        "sw_latitude": 57.232, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 57.236, 
         "sw_longitude": -5.821, 
-        "fullname": "Broadford Airport, Ashaig, Scotland, Highland, United Kingdom", 
-        "sw_latitude": 57.232
+        "fullname": "Broadford Airport, Ashaig, Scotland, United Kingdom", 
+        "iata_code": "SKL", 
+        "date_indexed": "2010-12-02T12:21:01Z"
       }, 
       "id": 12524004
     }

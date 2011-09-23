@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511723, 
+        "placetype": "airport", 
         "name": "La Sarre Airport", 
-        "ne_latitude": 48.925, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=29375241", 
+          "woe:state=2344924", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511723, 
         "ne_longitude": -79.173, 
         "longitude": -79.180, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375241, 
+        "ne_latitude": 48.925, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 23395599, 
+        "sw_latitude": 48.915, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.920, 
         "sw_longitude": -79.187, 
-        "fullname": "La Sarre Airport, Clermont, Quebec, Abitibi-Ouest, Canada", 
-        "sw_latitude": 48.915
+        "fullname": "La Sarre Airport, Clermont, Quebec, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12511723
     }

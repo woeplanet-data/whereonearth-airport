@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522051, 
-        "name": "Sunnyside Municipal Airport", 
         "alias_ENG_V": [
           "1s5"
         ], 
-        "ne_latitude": 46.328, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Sunnyside Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590478", 
+          "woe:state=2347606", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522051, 
         "ne_longitude": -119.963, 
         "longitude": -119.969, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590478, 
+        "ne_latitude": 46.328, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2502246, 
+        "sw_latitude": 46.324, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.326, 
         "sw_longitude": -119.979, 
-        "fullname": "Sunnyside Municipal Airport, Sunnyside, Washington, Yakima, United States", 
-        "sw_latitude": 46.324
+        "fullname": "Sunnyside Municipal Airport, Sunnyside, Washington, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522051
     }

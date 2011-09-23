@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516223, 
+        "placetype": "airport", 
         "name": "Korkino Airport", 
-        "ne_latitude": 54.952, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598152", 
+          "woe:state=2346893", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516223, 
         "ne_longitude": 61.499, 
         "longitude": 61.491, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598152, 
+        "ne_latitude": 54.952, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2014718, 
+        "sw_latitude": 54.943, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 54.947, 
         "sw_longitude": 61.483, 
         "fullname": "Korkino Airport, Chelyabinskaya Oblast, Yetkulsky, Russia", 
-        "sw_latitude": 54.943
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516223
     }

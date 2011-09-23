@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514070, 
-        "name": "Malindi Airport", 
         "alias_ENG_V": [
           "MYD"
         ], 
-        "ne_latitude": -3.222, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Malindi Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2345938", 
+          "woe:country=23424863", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514070, 
         "ne_longitude": 40.105, 
         "longitude": 40.101, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345938, 
+        "ne_latitude": -3.222, 
         "iso": "KE", 
-        "date_indexed": "2010-12-02T08:53:57Z", 
-        "parent_woeid": 1529283, 
+        "sw_latitude": -3.231, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -3.226, 
         "sw_longitude": 40.096, 
         "fullname": "Malindi Airport, Coast, Kenya", 
-        "sw_latitude": -3.231
+        "iata_code": "MYD", 
+        "date_indexed": "2010-12-02T08:53:57Z"
       }, 
       "id": 12514070
     }

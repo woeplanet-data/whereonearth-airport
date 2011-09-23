@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 56049648, 
+        "placetype": "airport", 
         "name": "Nakhon Sawan Airport", 
-        "ne_latitude": 15.675, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=28340984", 
+          "woe:state=2347143", 
+          "woe:country=23424960", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56049648, 
         "ne_longitude": 100.136, 
         "longitude": 100.132, 
-        "placetype": "Airport", 
+        "parent_woeid": 28340984, 
+        "ne_latitude": 15.675, 
         "iso": "TH", 
-        "date_indexed": "2010-12-02T17:05:34Z", 
-        "parent_woeid": 1226059, 
+        "sw_latitude": 15.666, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 15.671, 
         "sw_longitude": 100.127, 
-        "fullname": "Nakhon Sawan Airport, Nakhon Sawan, Nakhon Sawan, Mueang Nakhon Sawan, Thailand", 
-        "sw_latitude": 15.666
+        "fullname": "Nakhon Sawan Airport, Nakhon Sawan, Nakhon Sawan, Thailand", 
+        "date_indexed": "2010-12-02T17:05:34Z"
       }, 
       "id": 56049648
     }

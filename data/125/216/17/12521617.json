@@ -3,28 +3,86 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -121.168, 
-              44.246
-            ], 
-            [
-              -121.168, 
-              44.264
-            ], 
-            [
-              -121.130, 
-              44.264
-            ], 
-            [
-              -121.130, 
-              44.246
-            ], 
-            [
-              -121.168, 
-              44.246
+              [
+                -121.156, 
+                44.260
+              ], 
+              [
+                -121.160, 
+                44.257
+              ], 
+              [
+                -121.160, 
+                44.253
+              ], 
+              [
+                -121.160, 
+                44.253
+              ], 
+              [
+                -121.161, 
+                44.253
+              ], 
+              [
+                -121.161, 
+                44.253
+              ], 
+              [
+                -121.164, 
+                44.255
+              ], 
+              [
+                -121.160, 
+                44.257
+              ], 
+              [
+                -121.157, 
+                44.261
+              ], 
+              [
+                -121.157, 
+                44.261
+              ], 
+              [
+                -121.154, 
+                44.260
+              ], 
+              [
+                -121.151, 
+                44.262
+              ], 
+              [
+                -121.151, 
+                44.262
+              ], 
+              [
+                -121.148, 
+                44.262
+              ], 
+              [
+                -121.150, 
+                44.261
+              ], 
+              [
+                -121.150, 
+                44.261
+              ], 
+              [
+                -121.154, 
+                44.260
+              ], 
+              [
+                -121.156, 
+                44.260
+              ], 
+              [
+                -121.156, 
+                44.260
+              ]
             ]
           ]
         ]
@@ -32,23 +90,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521617, 
-        "name": "Roberts Field Airport", 
         "alias_ENG_V": [
           "Roberts Airport"
         ], 
-        "ne_latitude": 44.264, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -121.130, 
-        "longitude": -121.162, 
-        "placetype": "Airport", 
+        "name": "Roberts Field Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589700", 
+          "woe:state=2347596", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521617, 
+        "ne_longitude": -121.148, 
+        "longitude": -121.158, 
+        "parent_woeid": 12589700, 
+        "ne_latitude": 44.262, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2479652, 
-        "latitude": 44.253, 
-        "sw_longitude": -121.168, 
-        "fullname": "Roberts Field Airport, Redmond, Oregon, Deschutes, United States", 
-        "sw_latitude": 44.246
+        "sw_latitude": 44.253, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 44.258, 
+        "sw_longitude": -121.164, 
+        "fullname": "Roberts Field Airport, Redmond, Oregon, United States", 
+        "iata_code": "RDM", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521617
     }

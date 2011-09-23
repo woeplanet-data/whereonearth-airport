@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524173, 
-        "name": "Mary's Harbour Airport", 
         "alias_ENG_V": [
           "YMH Airport"
         ], 
-        "ne_latitude": 52.305, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Mary's Harbour Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375216", 
+          "woe:state=2344919", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524173, 
         "ne_longitude": -55.826, 
         "longitude": -55.833, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375216, 
+        "ne_latitude": 52.305, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 941, 
+        "sw_latitude": 52.295, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 52.300, 
         "sw_longitude": -55.841, 
-        "fullname": "Mary's Harbour Airport, Mary's Harbour, Newfoundland and Labrador, Newfoundland and Labrador, Canada", 
-        "sw_latitude": 52.295
+        "fullname": "Mary's Harbour Airport, Mary's Harbour, Newfoundland and Labrador, Canada", 
+        "iata_code": "YMH", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12524173
     }

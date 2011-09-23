@@ -3,28 +3,138 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -89.892, 
-              38.532
-            ], 
-            [
-              -89.892, 
-              38.565
-            ], 
-            [
-              -89.851, 
-              38.565
-            ], 
-            [
-              -89.851, 
-              38.532
-            ], 
-            [
-              -89.892, 
-              38.532
+              [
+                -89.868, 
+                38.548
+              ], 
+              [
+                -89.871, 
+                38.548
+              ], 
+              [
+                -89.869, 
+                38.549
+              ], 
+              [
+                -89.867, 
+                38.550
+              ], 
+              [
+                -89.863, 
+                38.551
+              ], 
+              [
+                -89.857, 
+                38.554
+              ], 
+              [
+                -89.860, 
+                38.548
+              ], 
+              [
+                -89.853, 
+                38.548
+              ], 
+              [
+                -89.848, 
+                38.544
+              ], 
+              [
+                -89.842, 
+                38.541
+              ], 
+              [
+                -89.845, 
+                38.537
+              ], 
+              [
+                -89.839, 
+                38.540
+              ], 
+              [
+                -89.835, 
+                38.543
+              ], 
+              [
+                -89.841, 
+                38.542
+              ], 
+              [
+                -89.841, 
+                38.546
+              ], 
+              [
+                -89.842, 
+                38.553
+              ], 
+              [
+                -89.847, 
+                38.556
+              ], 
+              [
+                -89.842, 
+                38.555
+              ], 
+              [
+                -89.842, 
+                38.553
+              ], 
+              [
+                -89.841, 
+                38.546
+              ], 
+              [
+                -89.842, 
+                38.542
+              ], 
+              [
+                -89.848, 
+                38.544
+              ], 
+              [
+                -89.850, 
+                38.541
+              ], 
+              [
+                -89.852, 
+                38.540
+              ], 
+              [
+                -89.853, 
+                38.533
+              ], 
+              [
+                -89.853, 
+                38.534
+              ], 
+              [
+                -89.858, 
+                38.536
+              ], 
+              [
+                -89.861, 
+                38.534
+              ], 
+              [
+                -89.867, 
+                38.534
+              ], 
+              [
+                -89.866, 
+                38.538
+              ], 
+              [
+                -89.867, 
+                38.542
+              ], 
+              [
+                -89.868, 
+                38.548
+              ]
             ]
           ]
         ]
@@ -32,23 +142,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521774, 
-        "name": "Scott Air Force Base", 
         "alias_ENG_V": [
           "BLV Airport"
         ], 
-        "ne_latitude": 38.565, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -89.851, 
-        "longitude": -89.871, 
-        "placetype": "Airport", 
+        "name": "Scott Air Force Base", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588164", 
+          "woe:state=2347572", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521774, 
+        "ne_longitude": -89.835, 
+        "longitude": -89.861, 
+        "parent_woeid": 12588164, 
+        "ne_latitude": 38.556, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2446614, 
-        "latitude": 38.548, 
-        "sw_longitude": -89.892, 
-        "fullname": "Scott Air Force Base, Mascoutah, Illinois, St. Clair, United States", 
-        "sw_latitude": 38.532
+        "sw_latitude": 38.533, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 38.543, 
+        "sw_longitude": -89.871, 
+        "fullname": "Scott Air Force Base, Mascoutah, Illinois, United States", 
+        "iata_code": "BLV", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521774
     }

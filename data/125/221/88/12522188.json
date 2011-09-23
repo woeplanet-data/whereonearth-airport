@@ -3,28 +3,30 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -119.142, 
-              46.252
-            ], 
-            [
-              -119.142, 
-              46.285
-            ], 
-            [
-              -119.101, 
-              46.285
-            ], 
-            [
-              -119.101, 
-              46.252
-            ], 
-            [
-              -119.142, 
-              46.252
+              [
+                -119.116, 
+                46.250
+              ], 
+              [
+                -119.117, 
+                46.250
+              ], 
+              [
+                -119.116, 
+                46.250
+              ], 
+              [
+                -119.113, 
+                46.251
+              ], 
+              [
+                -119.116, 
+                46.250
+              ]
             ]
           ]
         ]
@@ -32,23 +34,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522188, 
-        "name": "Tri Cities Airport", 
         "alias_ENG_V": [
           "PSC"
         ], 
-        "ne_latitude": 46.285, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -119.101, 
-        "longitude": -119.117, 
-        "placetype": "Airport", 
+        "name": "Tri Cities Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590450", 
+          "woe:state=2347606", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522188, 
+        "ne_longitude": -119.113, 
+        "longitude": -119.115, 
+        "parent_woeid": 12590450, 
+        "ne_latitude": 46.251, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2469017, 
-        "latitude": 46.259, 
-        "sw_longitude": -119.142, 
-        "fullname": "Tri Cities Airport, Pasco, Washington, Franklin, United States", 
-        "sw_latitude": 46.252
+        "sw_latitude": 46.250, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 46.250, 
+        "sw_longitude": -119.117, 
+        "fullname": "Tri Cities Airport, Pasco, Washington, United States", 
+        "iata_code": "PSC", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522188
     }

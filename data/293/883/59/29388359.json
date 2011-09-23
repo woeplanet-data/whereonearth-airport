@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388359, 
+        "placetype": "airport", 
         "name": "Conneaut Lake Airport", 
-        "ne_latitude": 41.587, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12589747", 
+          "woe:state=2347597", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388359, 
         "ne_longitude": -80.328, 
         "longitude": -80.330, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589747, 
+        "ne_latitude": 41.587, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 28744710, 
+        "sw_latitude": 41.585, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.586, 
         "sw_longitude": -80.332, 
-        "fullname": "Conneaut Lake Airport, Sadsbury, Pennsylvania, Crawford, United States", 
-        "sw_latitude": 41.585
+        "fullname": "Conneaut Lake Airport, Sadsbury, Pennsylvania, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 29388359
     }

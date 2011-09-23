@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513139, 
+        "placetype": "airport", 
         "name": "Kahrstedt Airport", 
-        "ne_latitude": 52.726, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12627078", 
+          "woe:county=12596709", 
+          "woe:state=2345494", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513139, 
         "ne_longitude": 11.453, 
         "longitude": 11.446, 
-        "placetype": "Airport", 
+        "parent_woeid": 12627078, 
+        "ne_latitude": 52.726, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:24Z", 
-        "parent_woeid": 645058, 
+        "sw_latitude": 52.717, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 52.722, 
         "sw_longitude": 11.438, 
-        "fullname": "Kahrstedt Airport, Dolchau, Saxony-Anhalt, Altmarkkreis Salzwedel, Germany", 
+        "fullname": "Kahrstedt Airport, Dolchau, Saxony-Anhalt, Germany", 
         "alias_GER_Q": [
           "Flughafen Kahrstedt"
         ], 
-        "sw_latitude": 52.717
+        "date_indexed": "2010-12-02T09:50:24Z"
       }, 
       "id": 12513139
     }

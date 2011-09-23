@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519235, 
-        "name": "Cleveland Municipal Airport", 
         "alias_ENG_V": [
           "95f"
         ], 
-        "ne_latitude": 36.290, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Cleveland Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589673", 
+          "woe:state=2347595", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519235, 
         "ne_longitude": -96.461, 
         "longitude": -96.461, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589673, 
+        "ne_latitude": 36.290, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2381469, 
+        "sw_latitude": 36.278, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.282, 
         "sw_longitude": -96.465, 
-        "fullname": "Cleveland Municipal Airport, Cleveland, Oklahoma, Pawnee, United States", 
-        "sw_latitude": 36.278
+        "fullname": "Cleveland Municipal Airport, Cleveland, Oklahoma, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519235
     }

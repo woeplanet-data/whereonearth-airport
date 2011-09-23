@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 28349709, 
-        "name": "Creech Air Force Base", 
         "alias_ENG_V": [
           "Creech AFB"
         ], 
-        "ne_latitude": 36.249, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Creech Air Force Base", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589233", 
+          "woe:state=2347587", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 28349709, 
         "ne_longitude": -115.004, 
         "longitude": -115.010, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589233, 
+        "ne_latitude": 36.249, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2392054, 
+        "sw_latitude": 36.239, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.244, 
         "sw_longitude": -115.016, 
-        "fullname": "Creech Air Force Base, Dike, Nevada, Clark, United States", 
-        "sw_latitude": 36.239
+        "fullname": "Creech Air Force Base, Dike, Nevada, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 28349709
     }

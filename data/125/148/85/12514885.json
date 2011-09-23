@@ -3,28 +3,34 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -106.285, 
-              23.157
-            ], 
-            [
-              -106.285, 
-              23.167
-            ], 
-            [
-              -106.256, 
-              23.167
-            ], 
-            [
-              -106.256, 
-              23.157
-            ], 
-            [
-              -106.285, 
-              23.157
+              [
+                -106.270, 
+                23.167
+              ], 
+              [
+                -106.269, 
+                23.165
+              ], 
+              [
+                -106.271, 
+                23.164
+              ], 
+              [
+                -106.271, 
+                23.166
+              ], 
+              [
+                -106.271, 
+                23.167
+              ], 
+              [
+                -106.270, 
+                23.167
+              ]
             ]
           ]
         ]
@@ -32,26 +38,32 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "ne_latitude": 23.167, 
+        "woeid": 12514885, 
         "name": "General Rafael Buelna International Airport", 
         "alias_ENG_V": [
           "MZT"
         ], 
-        "woeid": 12514885, 
+        "hierarchy": [
+          "woe:county=12601538", 
+          "woe:state=2346288", 
+          "woe:country=23424900", 
+          "woe:planet=1"
+        ], 
+        "ne_latitude": 23.167, 
+        "provider": "geoplanet 7.6.0", 
+        "ne_longitude": -106.269, 
+        "longitude": -106.271, 
+        "parent_woeid": 12601538, 
+        "placetype": "airport", 
+        "iso": "MX", 
+        "sw_latitude": 23.164, 
         "alias_SPA_V": [
           "Aerop Intl Gral Rafael Buelna"
         ], 
-        "ne_longitude": -106.256, 
-        "longitude": -106.271, 
-        "parent_woeid": 121708, 
-        "placetype": "Airport", 
-        "iso": "MX", 
-        "date_indexed": "2010-12-02T16:57:55Z", 
-        "provider": "geoplanet 7.6.0", 
-        "latitude": 23.167, 
-        "sw_longitude": -106.285, 
-        "fullname": "General Rafael Buelna International Airport, El Pozole, Sinaloa, Mazatlan, Mexico", 
-        "sw_latitude": 23.157
+        "latitude": 23.166, 
+        "sw_longitude": -106.271, 
+        "fullname": "General Rafael Buelna International Airport, El Pozole, Sinaloa, Mexico", 
+        "date_indexed": "2010-12-02T16:57:55Z"
       }, 
       "id": 12514885
     }

@@ -3,28 +3,34 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -5.527, 
-              50.124
-            ], 
-            [
-              -5.527, 
-              50.133
-            ], 
-            [
-              -5.512, 
-              50.133
-            ], 
-            [
-              -5.512, 
-              50.124
-            ], 
-            [
-              -5.527, 
-              50.124
+              [
+                -5.521, 
+                50.128
+              ], 
+              [
+                -5.519, 
+                50.129
+              ], 
+              [
+                -5.518, 
+                50.129
+              ], 
+              [
+                -5.519, 
+                50.127
+              ], 
+              [
+                -5.520, 
+                50.127
+              ], 
+              [
+                -5.521, 
+                50.128
+              ]
             ]
           ]
         ]
@@ -32,23 +38,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 22482999, 
-        "name": "Penzance Heliport", 
         "alias_ENG_V": [
           "Penzance Airport"
         ], 
-        "ne_latitude": 50.133, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -5.512, 
+        "name": "Penzance Heliport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=12695897", 
+          "woe:county=12602181", 
+          "woe:state=24554868", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 22482999, 
+        "ne_longitude": -5.518, 
         "longitude": -5.519, 
-        "placetype": "Airport", 
+        "parent_woeid": 12695897, 
+        "ne_latitude": 50.129, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:21:01Z", 
-        "parent_woeid": 22002, 
-        "latitude": 50.129, 
-        "sw_longitude": -5.527, 
-        "fullname": "Penzance Heliport, Gulval, England, Cornwall and Isles of Scilly, United Kingdom", 
-        "sw_latitude": 50.124
+        "sw_latitude": 50.127, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 50.128, 
+        "sw_longitude": -5.521, 
+        "fullname": "Penzance Heliport, Gulval, England, United Kingdom", 
+        "iata_code": "PZE", 
+        "date_indexed": "2010-12-02T12:21:01Z"
       }, 
       "id": 22482999
     }

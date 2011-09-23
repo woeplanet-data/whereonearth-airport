@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517907, 
+        "placetype": "airport", 
         "name": "Malatya Airport", 
-        "ne_latitude": 38.358, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=29390597", 
+          "woe:state=2347298", 
+          "woe:country=23424969", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517907, 
         "ne_longitude": 38.259, 
         "longitude": 38.253, 
-        "placetype": "Airport", 
+        "parent_woeid": 29390597, 
+        "ne_latitude": 38.358, 
         "iso": "TR", 
-        "date_indexed": "2010-12-02T16:23:11Z", 
-        "parent_woeid": 2344246, 
+        "sw_latitude": 38.349, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.354, 
         "sw_longitude": 38.247, 
-        "fullname": "Malatya Airport, Malatya, Malatya, Merkez, Turkey", 
-        "sw_latitude": 38.349
+        "fullname": "Malatya Airport, Malatya, Malatya, Turkey", 
+        "date_indexed": "2010-12-02T16:23:11Z"
       }, 
       "id": 12517907
     }

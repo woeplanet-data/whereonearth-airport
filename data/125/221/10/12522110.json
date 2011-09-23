@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522110, 
-        "name": "Texhoma Municipal Airport", 
         "alias_ENG_V": [
           "K49"
         ], 
-        "ne_latitude": 36.508, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Texhoma Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589684", 
+          "woe:state=2347595", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522110, 
         "ne_longitude": -101.808, 
         "longitude": -101.812, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589684, 
+        "ne_latitude": 36.508, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2505037, 
+        "sw_latitude": 36.501, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.501, 
         "sw_longitude": -101.817, 
-        "fullname": "Texhoma Municipal Airport, Texhoma, Oklahoma, Texas, United States", 
-        "sw_latitude": 36.501
+        "fullname": "Texhoma Municipal Airport, Texhoma, Oklahoma, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522110
     }

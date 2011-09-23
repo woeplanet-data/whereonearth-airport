@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512970, 
+        "placetype": "airport", 
         "name": "St Denis de L Hotel Airport", 
-        "ne_latitude": 47.903, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12652384", 
+          "woe:county=12597141", 
+          "woe:state=7153314", 
+          "woe:country=23424819", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512970, 
         "ne_longitude": 2.177, 
         "longitude": 2.164, 
-        "placetype": "Airport", 
+        "parent_woeid": 12652384, 
+        "ne_latitude": 47.903, 
         "iso": "FR", 
-        "date_indexed": "2010-12-02T12:04:01Z", 
-        "parent_woeid": 623704, 
+        "sw_latitude": 47.890, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.897, 
         "sw_longitude": 2.152, 
-        "fullname": "St Denis de L Hotel Airport, St-Denis, Centre, Loiret, France", 
-        "sw_latitude": 47.890
+        "fullname": "St Denis de L Hotel Airport, St-Denis, Centre, France", 
+        "date_indexed": "2010-12-02T12:04:01Z"
       }, 
       "id": 12512970
     }

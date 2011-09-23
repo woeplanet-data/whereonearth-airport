@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518807, 
-        "name": "Berlin Municipal Airport", 
         "alias_ENG_V": [
           "BML"
         ], 
-        "ne_latitude": 44.580, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Berlin Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589251", 
+          "woe:state=2347588", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518807, 
         "ne_longitude": -71.170, 
         "longitude": -71.176, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589251, 
+        "ne_latitude": 44.580, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:15Z", 
-        "parent_woeid": 2450853, 
+        "sw_latitude": 44.570, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.575, 
         "sw_longitude": -71.182, 
-        "fullname": "Berlin Municipal Airport, Milan, New Hampshire, Coos, United States", 
-        "sw_latitude": 44.570
+        "fullname": "Berlin Municipal Airport, Milan, New Hampshire, United States", 
+        "iata_code": "BML", 
+        "date_indexed": "2010-12-02T18:39:15Z"
       }, 
       "id": 12518807
     }

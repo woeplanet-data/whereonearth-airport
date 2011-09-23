@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512515, 
+        "placetype": "airport", 
         "name": "Chaloupky Airport", 
-        "ne_latitude": 49.413, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12610578", 
+          "woe:county=12582607", 
+          "woe:state=20070501", 
+          "woe:country=23424810", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512515, 
         "ne_longitude": 13.313, 
         "longitude": 13.306, 
-        "placetype": "Airport", 
+        "parent_woeid": 12610578, 
+        "ne_latitude": 49.413, 
         "iso": "CZ", 
-        "date_indexed": "2010-12-02T08:56:52Z", 
-        "parent_woeid": 791263, 
+        "sw_latitude": 49.404, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.408, 
         "sw_longitude": 13.299, 
-        "fullname": "Chaloupky Airport, Klatovy, Plze\u0148sk\u00fd, Klatovy, Czech Republic", 
-        "sw_latitude": 49.404
+        "fullname": "Chaloupky Airport, Klatovy, Plze\u0148sk\u00fd, Czech Republic", 
+        "date_indexed": "2010-12-02T08:56:52Z"
       }, 
       "id": 12512515
     }

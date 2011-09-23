@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516486, 
+        "placetype": "airport", 
         "name": "Nekreskovskaya Airport", 
-        "ne_latitude": 45.134, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597786", 
+          "woe:state=20070520", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516486, 
         "ne_longitude": 39.914, 
         "longitude": 39.908, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597786, 
+        "ne_latitude": 45.134, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2122508, 
+        "sw_latitude": 45.125, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.129, 
         "sw_longitude": 39.901, 
         "fullname": "Nekreskovskaya Airport, Adygeya, Krasnogvardeysky, Russia", 
-        "sw_latitude": 45.125
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516486
     }

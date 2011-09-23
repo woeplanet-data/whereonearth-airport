@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510589, 
-        "name": "Argyle Airport", 
         "alias_ENG_V": [
           "GYL"
         ], 
-        "ne_latitude": -16.624, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Argyle Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55864368", 
+          "woe:state=2344706", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510589, 
         "ne_longitude": 128.456, 
         "longitude": 128.445, 
-        "placetype": "Airport", 
+        "parent_woeid": 55864368, 
+        "ne_latitude": -16.624, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 28645171, 
+        "sw_latitude": -16.646, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -16.645, 
         "sw_longitude": 128.444, 
-        "fullname": "Argyle Airport, Lake Argyle, Western Australia, Wyndham-east Kimberley, Australia", 
-        "sw_latitude": -16.646
+        "fullname": "Argyle Airport, Lake Argyle, Western Australia, Australia", 
+        "iata_code": "GYL", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 12510589
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521018, 
-        "name": "Moore-Murrell Airport", 
         "alias_ENG_V": [
           "Moore-Murrell"
         ], 
-        "ne_latitude": 36.186, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Moore-Murrell Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589943", 
+          "woe:state=2347601", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521018, 
         "ne_longitude": -83.365, 
         "longitude": -83.377, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589943, 
+        "ne_latitude": 36.186, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2454336, 
+        "sw_latitude": 36.171, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.181, 
         "sw_longitude": -83.389, 
-        "fullname": "Moore-Murrell Airport, Morristown, Tennessee, Hamblen, United States", 
-        "sw_latitude": 36.171
+        "fullname": "Moore-Murrell Airport, Morristown, Tennessee, United States", 
+        "iata_code": "MOR", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12521018
     }

@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522882, 
+        "placetype": "airport", 
         "name": "Cam-Ly Airport", 
-        "ne_latitude": 11.955, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2347709", 
+          "woe:country=23424984", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522882, 
         "ne_longitude": 108.414, 
         "longitude": 108.409, 
-        "placetype": "Airport", 
+        "parent_woeid": 2347709, 
+        "ne_latitude": 11.955, 
         "iso": "VN", 
-        "date_indexed": "2010-12-02T08:52:49Z", 
-        "parent_woeid": 1252375, 
+        "sw_latitude": 11.945, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 11.950, 
         "sw_longitude": 108.405, 
         "fullname": "Cam-Ly Airport, Da Lat, Lam Dong, Vietnam", 
-        "sw_latitude": 11.945
+        "date_indexed": "2010-12-02T08:52:49Z"
       }, 
       "id": 12522882
     }

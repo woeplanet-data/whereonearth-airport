@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522486, 
-        "name": "Winkler County Airport", 
         "alias_ENG_V": [
           "INK"
         ], 
-        "ne_latitude": 31.790, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Winkler County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590254", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522486, 
         "ne_longitude": -103.188, 
         "longitude": -103.195, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590254, 
+        "ne_latitude": 31.790, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2522113, 
+        "sw_latitude": 31.770, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 31.784, 
         "sw_longitude": -103.217, 
-        "fullname": "Winkler County Airport, Wink, Texas, Winkler, United States", 
-        "sw_latitude": 31.770
+        "fullname": "Winkler County Airport, Wink, Texas, United States", 
+        "iata_code": "INK", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522486
     }

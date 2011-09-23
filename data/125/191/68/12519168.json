@@ -3,28 +3,66 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -76.903, 
-              34.881
-            ], 
-            [
-              -76.903, 
-              34.926
-            ], 
-            [
-              -76.855, 
-              34.926
-            ], 
-            [
-              -76.855, 
-              34.881
-            ], 
-            [
-              -76.903, 
-              34.881
+              [
+                -76.892, 
+                34.908
+              ], 
+              [
+                -76.892, 
+                34.908
+              ], 
+              [
+                -76.890, 
+                34.910
+              ], 
+              [
+                -76.887, 
+                34.908
+              ], 
+              [
+                -76.885, 
+                34.907
+              ], 
+              [
+                -76.882, 
+                34.905
+              ], 
+              [
+                -76.882, 
+                34.904
+              ], 
+              [
+                -76.885, 
+                34.901
+              ], 
+              [
+                -76.887, 
+                34.902
+              ], 
+              [
+                -76.890, 
+                34.900
+              ], 
+              [
+                -76.892, 
+                34.904
+              ], 
+              [
+                -76.895, 
+                34.904
+              ], 
+              [
+                -76.892, 
+                34.908
+              ], 
+              [
+                -76.892, 
+                34.908
+              ]
             ]
           ]
         ]
@@ -32,23 +70,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519168, 
-        "name": "Cherry Point Marine Corps Air Station", 
         "alias_ENG_V": [
           "MCAS Cherry Point"
         ], 
-        "ne_latitude": 34.926, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -76.855, 
-        "longitude": -76.879, 
-        "placetype": "Airport", 
+        "name": "Cherry Point Marine Corps Air Station", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589398", 
+          "woe:state=2347592", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519168, 
+        "ne_longitude": -76.882, 
+        "longitude": -76.888, 
+        "parent_woeid": 12589398, 
+        "ne_latitude": 34.910, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2379106, 
-        "latitude": 34.903, 
-        "sw_longitude": -76.903, 
-        "fullname": "Cherry Point Marine Corps Air Station, Cherry Point, North Carolina, Craven, United States", 
-        "sw_latitude": 34.881
+        "sw_latitude": 34.900, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 34.905, 
+        "sw_longitude": -76.895, 
+        "fullname": "Cherry Point Marine Corps Air Station, Cherry Point, North Carolina, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519168
     }

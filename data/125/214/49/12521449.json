@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521449, 
-        "name": "Porter County Municipal Airport", 
         "alias_ENG_V": [
           "VPZ Airport"
         ], 
-        "ne_latitude": 41.470, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Porter County Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588243", 
+          "woe:state=2347573", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521449, 
         "ne_longitude": -86.993, 
         "longitude": -87.013, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588243, 
+        "ne_latitude": 41.470, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2511078, 
+        "sw_latitude": 41.449, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.449, 
         "sw_longitude": -87.019, 
-        "fullname": "Porter County Municipal Airport, Valparaiso, Indiana, Porter, United States", 
-        "sw_latitude": 41.449
+        "fullname": "Porter County Municipal Airport, Valparaiso, Indiana, United States", 
+        "iata_code": "VPZ", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521449
     }

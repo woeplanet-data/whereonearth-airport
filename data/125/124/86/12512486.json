@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512486, 
+        "placetype": "airport", 
         "name": "San Pedro Airport", 
-        "ne_latitude": 21.744, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345118", 
+          "woe:country=23424793", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512486, 
         "ne_longitude": -79.775, 
         "longitude": -79.780, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345118, 
+        "ne_latitude": 21.744, 
         "iso": "CU", 
-        "date_indexed": "2010-12-02T08:58:58Z", 
-        "parent_woeid": 67564, 
+        "sw_latitude": 21.735, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 21.740, 
         "sw_longitude": -79.785, 
         "fullname": "San Pedro Airport, Sancti Spiritus, Cuba", 
-        "sw_latitude": 21.735
+        "date_indexed": "2010-12-02T08:58:58Z"
       }, 
       "id": 12512486
     }

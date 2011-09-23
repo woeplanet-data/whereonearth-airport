@@ -3,28 +3,70 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -76.508, 
-              37.121
-            ], 
-            [
-              -76.508, 
-              37.145
-            ], 
-            [
-              -76.468, 
-              37.145
-            ], 
-            [
-              -76.468, 
-              37.121
-            ], 
-            [
-              -76.508, 
-              37.121
+              [
+                -76.510, 
+                37.124
+              ], 
+              [
+                -76.511, 
+                37.127
+              ], 
+              [
+                -76.511, 
+                37.127
+              ], 
+              [
+                -76.512, 
+                37.128
+              ], 
+              [
+                -76.510, 
+                37.129
+              ], 
+              [
+                -76.505, 
+                37.130
+              ], 
+              [
+                -76.505, 
+                37.133
+              ], 
+              [
+                -76.503, 
+                37.133
+              ], 
+              [
+                -76.500, 
+                37.135
+              ], 
+              [
+                -76.501, 
+                37.129
+              ], 
+              [
+                -76.501, 
+                37.127
+              ], 
+              [
+                -76.506, 
+                37.127
+              ], 
+              [
+                -76.508, 
+                37.123
+              ], 
+              [
+                -76.509, 
+                37.123
+              ], 
+              [
+                -76.510, 
+                37.124
+              ]
             ]
           ]
         ]
@@ -32,23 +74,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521311, 
-        "name": "Newport News-Williamsburg International Airport", 
         "alias_ENG_V": [
           "PHF"
         ], 
-        "ne_latitude": 37.145, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -76.468, 
-        "longitude": -76.502, 
-        "placetype": "Airport", 
-        "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
+        "name": "Newport News-Williamsburg International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:suburb=55860523", 
+          "woe:county=12590390", 
+          "woe:state=2347605", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521311, 
+        "ne_longitude": -76.500, 
+        "longitude": -76.505, 
         "parent_woeid": 55860523, 
-        "latitude": 37.131, 
-        "sw_longitude": -76.508, 
-        "fullname": "Newport News-Williamsburg International Airport, Newport News, Virginia, Newport News City, United States", 
-        "sw_latitude": 37.121
+        "ne_latitude": 37.135, 
+        "iso": "US", 
+        "sw_latitude": 37.123, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 37.129, 
+        "sw_longitude": -76.512, 
+        "fullname": "Newport News-Williamsburg International Airport, Newport News, Virginia, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521311
     }

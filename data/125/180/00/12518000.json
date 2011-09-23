@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518000, 
+        "placetype": "airport", 
         "name": "Olum Airport", 
-        "ne_latitude": 39.268, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2347348", 
+          "woe:country=23424972", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518000, 
         "ne_longitude": 63.114, 
         "longitude": 63.108, 
-        "placetype": "Airport", 
+        "parent_woeid": 2347348, 
+        "ne_latitude": 39.268, 
         "iso": "TM", 
-        "date_indexed": "2010-12-02T18:19:07Z", 
-        "parent_woeid": 1936532, 
+        "sw_latitude": 39.259, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 39.264, 
         "sw_longitude": 63.102, 
         "fullname": "Olum Airport, Chardzhou, Turkmenistan", 
-        "sw_latitude": 39.259
+        "date_indexed": "2010-12-02T18:19:07Z"
       }, 
       "id": 12518000
     }

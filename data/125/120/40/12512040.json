@@ -32,20 +32,28 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512040, 
+        "placetype": "airport", 
         "name": "Dongsheng Airport", 
-        "ne_latitude": 39.834, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12686824", 
+          "woe:county=26198286", 
+          "woe:state=12578009", 
+          "woe:country=23424781", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512040, 
         "ne_longitude": 109.982, 
         "longitude": 109.976, 
-        "placetype": "Airport", 
+        "parent_woeid": 12686824, 
+        "ne_latitude": 39.834, 
         "iso": "CN", 
-        "date_indexed": "2010-12-02T08:51:48Z", 
-        "parent_woeid": 2149774, 
+        "sw_latitude": 39.825, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 39.829, 
         "sw_longitude": 109.970, 
-        "fullname": "Dongsheng Airport, Dongsheng, Nei Mongol, Erdos, China", 
-        "sw_latitude": 39.825
+        "fullname": "Dongsheng Airport, Dongsheng, Nei Mongol, China", 
+        "iata_code": "DSN", 
+        "date_indexed": "2010-12-02T08:51:48Z"
       }, 
       "id": 12512040
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518573, 
+        "placetype": "airport", 
         "name": "Alkali Lake State Airport", 
-        "ne_latitude": 43.093, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12589710", 
+          "woe:state=2347596", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518573, 
         "ne_longitude": -119.969, 
         "longitude": -119.975, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589710, 
+        "ne_latitude": 43.093, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:15Z", 
-        "parent_woeid": 2372637, 
+        "sw_latitude": 43.084, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.089, 
         "sw_longitude": -119.981, 
-        "fullname": "Alkali Lake State Airport, Butte, Oregon, Lake, United States", 
-        "sw_latitude": 43.084
+        "fullname": "Alkali Lake State Airport, Butte, Oregon, United States", 
+        "date_indexed": "2010-12-02T18:39:15Z"
       }, 
       "id": 12518573
     }

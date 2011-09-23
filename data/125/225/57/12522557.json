@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522557, 
-        "name": "Artigas Airport", 
         "alias_ENG_V": [
           "ATI"
         ], 
-        "ne_latitude": -30.395, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Artigas Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2347640", 
+          "woe:country=23424979", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522557, 
         "ne_longitude": -56.503, 
         "longitude": -56.508, 
-        "placetype": "Airport", 
+        "parent_woeid": 2347640, 
+        "ne_latitude": -30.395, 
         "iso": "UY", 
-        "date_indexed": "2010-12-02T17:58:27Z", 
-        "parent_woeid": 380894, 
+        "sw_latitude": -30.405, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -30.400, 
         "sw_longitude": -56.514, 
         "fullname": "Artigas Airport, Artigas, Artigas, Uruguay", 
-        "sw_latitude": -30.405
+        "iata_code": "ATI", 
+        "date_indexed": "2010-12-02T17:58:27Z"
       }, 
       "id": 12522557
     }

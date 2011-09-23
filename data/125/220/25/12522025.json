@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522025, 
+        "placetype": "airport", 
         "name": "Stratford Field Airport", 
-        "ne_latitude": 36.350, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12590217", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522025, 
         "ne_longitude": -102.042, 
         "longitude": -102.047, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590217, 
+        "ne_latitude": 36.350, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2500742, 
+        "sw_latitude": 36.341, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.346, 
         "sw_longitude": -102.053, 
-        "fullname": "Stratford Field Airport, Stratford, Texas, Sherman, United States", 
-        "sw_latitude": 36.341
+        "fullname": "Stratford Field Airport, Stratford, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12522025
     }

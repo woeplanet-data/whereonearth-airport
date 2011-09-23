@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516394, 
+        "placetype": "airport", 
         "name": "Malyshevka Airport", 
-        "ne_latitude": 53.746, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598290", 
+          "woe:state=2346896", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516394, 
         "ne_longitude": 103.408, 
         "longitude": 103.400, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598290, 
+        "ne_latitude": 53.746, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2041810, 
+        "sw_latitude": 53.737, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.741, 
         "sw_longitude": 103.393, 
         "fullname": "Malyshevka Airport, Irkutskaya Oblast, Ust-Udinsky, Russia", 
-        "sw_latitude": 53.737
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516394
     }

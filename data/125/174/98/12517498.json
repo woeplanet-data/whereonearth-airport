@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517498, 
+        "placetype": "airport", 
         "name": "Wesselsbron Airport", 
-        "ne_latitude": -27.842, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=56189478", 
+          "woe:county=56189433", 
+          "woe:state=2346980", 
+          "woe:country=23424942", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517498, 
         "ne_longitude": 26.355, 
         "longitude": 26.349, 
-        "placetype": "Airport", 
+        "parent_woeid": 56189478, 
+        "ne_latitude": -27.842, 
         "iso": "ZA", 
-        "date_indexed": "2010-12-02T08:57:52Z", 
-        "parent_woeid": 1588833, 
+        "sw_latitude": -27.851, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -27.846, 
         "sw_longitude": 26.344, 
-        "fullname": "Wesselsbron Airport, Wesselsbron, Free State, Wesselsbron, South Africa", 
-        "sw_latitude": -27.851
+        "fullname": "Wesselsbron Airport, Wesselsbron, Free State, South Africa", 
+        "date_indexed": "2010-12-02T08:57:52Z"
       }, 
       "id": 12517498
     }

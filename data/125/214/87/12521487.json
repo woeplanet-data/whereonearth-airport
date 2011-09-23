@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521487, 
-        "name": "Prospect State Airport", 
         "alias_ENG_V": [
           "64s"
         ], 
-        "ne_latitude": 42.750, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Prospect State Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589706", 
+          "woe:state=2347596", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521487, 
         "ne_longitude": -122.480, 
         "longitude": -122.482, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589706, 
+        "ne_latitude": 42.750, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2476919, 
+        "sw_latitude": 42.747, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.749, 
         "sw_longitude": -122.484, 
-        "fullname": "Prospect State Airport, Prospect, Oregon, Jackson, United States", 
-        "sw_latitude": 42.747
+        "fullname": "Prospect State Airport, Prospect, Oregon, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521487
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518721, 
+        "placetype": "airport", 
         "name": "B I R Airport", 
-        "ne_latitude": 46.424, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12588814", 
+          "woe:state=2347582", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518721, 
         "ne_longitude": -94.268, 
         "longitude": -94.275, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588814, 
+        "ne_latitude": 46.424, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:15Z", 
-        "parent_woeid": 2460099, 
+        "sw_latitude": 46.415, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.420, 
         "sw_longitude": -94.282, 
-        "fullname": "B I R Airport, Nisswa, Minnesota, Crow Wing, United States", 
-        "sw_latitude": 46.415
+        "fullname": "B I R Airport, Nisswa, Minnesota, United States", 
+        "date_indexed": "2010-12-02T18:39:15Z"
       }, 
       "id": 12518721
     }

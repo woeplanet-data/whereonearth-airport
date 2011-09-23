@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519312, 
-        "name": "Cook County Airport", 
         "alias_ENG_V": [
           "15j"
         ], 
-        "ne_latitude": 31.146, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Cook County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587906", 
+          "woe:state=2347569", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519312, 
         "ne_longitude": -83.447, 
         "longitude": -83.448, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587906, 
+        "ne_latitude": 31.146, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2352039, 
+        "sw_latitude": 31.132, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 31.141, 
         "sw_longitude": -83.460, 
-        "fullname": "Cook County Airport, Adel, Georgia, Cook, United States", 
-        "sw_latitude": 31.132
+        "fullname": "Cook County Airport, Adel, Georgia, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519312
     }

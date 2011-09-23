@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523264, 
-        "name": "Wau Airport", 
         "alias_ENG_V": [
           "WUG"
         ], 
-        "ne_latitude": -7.329, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Wau Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2346594", 
+          "woe:country=23424926", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523264, 
         "ne_longitude": 146.721, 
         "longitude": 146.717, 
-        "placetype": "Airport", 
+        "parent_woeid": 2346594, 
+        "ne_latitude": -7.329, 
         "iso": "PG", 
-        "date_indexed": "2010-12-02T09:57:28Z", 
-        "parent_woeid": 1062185, 
+        "sw_latitude": -7.338, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -7.333, 
         "sw_longitude": 146.712, 
         "fullname": "Wau Airport, Wau, Morobe, Papua New Guinea", 
-        "sw_latitude": -7.338
+        "iata_code": "WUG", 
+        "date_indexed": "2010-12-02T09:57:28Z"
       }, 
       "id": 12523264
     }

@@ -32,29 +32,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12523675, 
-        "name": "Aeroporto Prado", 
-        "alias_ENG_P": [
-          "Prado Airport"
-        ], 
-        "ne_latitude": -17.345, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "PDF"
         ], 
+        "name": "Aeroporto Prado", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Prado Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12578541", 
+          "woe:state=2344848", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523675, 
         "ne_longitude": -39.212, 
         "longitude": -39.217, 
-        "placetype": "Airport", 
+        "parent_woeid": 12578541, 
+        "ne_latitude": -17.345, 
         "alias_POR_V": [
           "Aeroporto PDF"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:28Z", 
-        "parent_woeid": 456448, 
+        "sw_latitude": -17.355, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -17.350, 
         "sw_longitude": -39.221, 
-        "fullname": "Aeroporto Prado, Prado, Bahia, Prado, Brazil", 
-        "sw_latitude": -17.355
+        "fullname": "Aeroporto Prado, Prado, Bahia, Brazil", 
+        "iata_code": "PDF", 
+        "date_indexed": "2010-12-02T18:01:28Z"
       }, 
       "id": 12523675
     }

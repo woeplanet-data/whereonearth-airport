@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512320, 
-        "name": "El Loa Airport", 
         "alias_ENG_V": [
           "CJC Airport"
         ], 
-        "ne_latitude": -22.490, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "El Loa Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=26794037", 
+          "woe:county=26793994", 
+          "woe:state=2345020", 
+          "woe:country=23424782", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512320, 
         "ne_longitude": -68.897, 
         "longitude": -68.902, 
-        "placetype": "Airport", 
+        "parent_woeid": 26794037, 
+        "ne_latitude": -22.490, 
         "iso": "CL", 
-        "date_indexed": "2010-12-02T12:15:39Z", 
-        "parent_woeid": 349875, 
+        "sw_latitude": -22.499, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -22.494, 
         "sw_longitude": -68.907, 
-        "fullname": "El Loa Airport, Calama, Antofagasta Region, El Loa Province, Chile", 
-        "sw_latitude": -22.499
+        "fullname": "El Loa Airport, Calama, Antofagasta Region, Chile", 
+        "iata_code": "CJC", 
+        "date_indexed": "2010-12-02T12:15:39Z"
       }, 
       "id": 12512320
     }

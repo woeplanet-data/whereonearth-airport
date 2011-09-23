@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 56052060, 
+        "placetype": "airport", 
         "name": "Agrarflug Beese", 
-        "ne_latitude": 51.784, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12624325", 
+          "woe:county=12596793", 
+          "woe:state=2345487", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56052060, 
         "ne_longitude": 7.912, 
         "longitude": 7.905, 
-        "placetype": "Airport", 
+        "parent_woeid": 12624325, 
+        "ne_latitude": 51.784, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 633530, 
+        "sw_latitude": 51.780, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.781, 
         "sw_longitude": 7.905, 
-        "fullname": "Agrarflug Beese, Ahlen, North Rhine-Westphalia, Landkreis Warendorf, Germany", 
-        "sw_latitude": 51.780
+        "fullname": "Agrarflug Beese, Ahlen, North Rhine-Westphalia, Germany", 
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 56052060
     }

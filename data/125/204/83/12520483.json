@@ -3,28 +3,34 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -121.757, 
-              42.141
-            ], 
-            [
-              -121.757, 
-              42.174
-            ], 
-            [
-              -121.723, 
-              42.174
-            ], 
-            [
-              -121.723, 
-              42.141
-            ], 
-            [
-              -121.757, 
-              42.141
+              [
+                -121.743, 
+                42.166
+              ], 
+              [
+                -121.740, 
+                42.169
+              ], 
+              [
+                -121.738, 
+                42.164
+              ], 
+              [
+                -121.740, 
+                42.165
+              ], 
+              [
+                -121.745, 
+                42.164
+              ], 
+              [
+                -121.743, 
+                42.166
+              ]
             ]
           ]
         ]
@@ -32,23 +38,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520483, 
-        "name": "Kingsley Field", 
         "alias_ENG_V": [
           "LMT"
         ], 
-        "ne_latitude": 42.174, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -121.723, 
-        "longitude": -121.745, 
-        "placetype": "Airport", 
+        "name": "Kingsley Field", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589709", 
+          "woe:state=2347596", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520483, 
+        "ne_longitude": -121.738, 
+        "longitude": -121.741, 
+        "parent_woeid": 12589709, 
+        "ne_latitude": 42.169, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2433280, 
-        "latitude": 42.164, 
-        "sw_longitude": -121.757, 
-        "fullname": "Kingsley Field, Klamath Falls, Oregon, Klamath, United States", 
-        "sw_latitude": 42.141
+        "sw_latitude": 42.164, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 42.166, 
+        "sw_longitude": -121.745, 
+        "fullname": "Kingsley Field, Klamath Falls, Oregon, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12520483
     }

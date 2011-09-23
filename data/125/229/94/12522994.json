@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522994, 
-        "name": "Windhoek Airport", 
         "alias_ENG_V": [
           "WDH"
         ], 
-        "ne_latitude": -22.468, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Windhoek Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55921140", 
+          "woe:state=20069845", 
+          "woe:country=23424987", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522994, 
         "ne_longitude": 17.485, 
         "longitude": 17.472, 
-        "placetype": "Airport", 
+        "parent_woeid": 55921140, 
+        "ne_latitude": -22.468, 
         "iso": "NA", 
-        "date_indexed": "2010-12-02T07:50:17Z", 
-        "parent_woeid": 55921229, 
+        "sw_latitude": -22.491, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -22.479, 
         "sw_longitude": 17.460, 
         "fullname": "Windhoek Airport, Khomas, Namibia", 
-        "sw_latitude": -22.491
+        "iata_code": "WDH", 
+        "date_indexed": "2010-12-02T07:50:17Z"
       }, 
       "id": 12522994
     }

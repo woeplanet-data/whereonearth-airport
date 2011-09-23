@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520615, 
-        "name": "Leeds Municipal Airport", 
         "alias_ENG_V": [
           "D31"
         ], 
-        "ne_latitude": 48.286, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Leeds Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589476", 
+          "woe:state=2347593", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520615, 
         "ne_longitude": -99.395, 
         "longitude": -99.395, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589476, 
+        "ne_latitude": 48.286, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2437844, 
+        "sw_latitude": 48.283, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.283, 
         "sw_longitude": -99.411, 
-        "fullname": "Leeds Municipal Airport, Leeds, North Dakota, Benson, United States", 
-        "sw_latitude": 48.283
+        "fullname": "Leeds Municipal Airport, Leeds, North Dakota, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520615
     }

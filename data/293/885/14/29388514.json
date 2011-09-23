@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388514, 
-        "name": "Fairview Airport", 
         "alias_ENG_V": [
           "33a"
         ], 
-        "ne_latitude": 35.160, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Fairview Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589841", 
+          "woe:state=2347599", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388514, 
         "ne_longitude": -82.120, 
         "longitude": -82.127, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589841, 
+        "ne_latitude": 35.160, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2461408, 
+        "sw_latitude": 35.154, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.160, 
         "sw_longitude": -82.127, 
-        "fullname": "Fairview Airport, Obed, South Carolina, Spartanburg, United States", 
-        "sw_latitude": 35.154
+        "fullname": "Fairview Airport, Obed, South Carolina, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388514
     }

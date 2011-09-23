@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523684, 
-        "name": "Puerto Paez Airport", 
         "alias_ENG_V": [
           "Pto Paez Airport"
         ], 
-        "ne_latitude": 6.205, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Puerto Paez Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=26805764", 
+          "woe:county=26804728", 
+          "woe:state=2347677", 
+          "woe:country=23424982", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523684, 
         "ne_longitude": -67.445, 
         "longitude": -67.450, 
-        "placetype": "Airport", 
+        "parent_woeid": 26805764, 
+        "ne_latitude": 6.205, 
         "iso": "VE", 
-        "date_indexed": "2010-12-02T16:11:43Z", 
-        "parent_woeid": 395718, 
+        "sw_latitude": 6.195, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 6.200, 
         "sw_longitude": -67.455, 
         "fullname": "Puerto Paez Airport, Amazonas, Atures, Venezuela", 
-        "sw_latitude": 6.195
+        "iata_code": "PPZ", 
+        "date_indexed": "2010-12-02T16:11:43Z"
       }, 
       "id": 12523684
     }

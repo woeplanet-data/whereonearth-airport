@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29387857, 
+        "placetype": "airport", 
         "name": "Otis Airport", 
-        "ne_latitude": 40.158, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12587788", 
+          "woe:state=2347564", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29387857, 
         "ne_longitude": -102.964, 
         "longitude": -102.965, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587788, 
+        "ne_latitude": 40.158, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2466725, 
+        "sw_latitude": 40.155, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.157, 
         "sw_longitude": -102.966, 
-        "fullname": "Otis Airport, Otis, Colorado, Washington, United States", 
-        "sw_latitude": 40.155
+        "fullname": "Otis Airport, Otis, Colorado, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 29387857
     }

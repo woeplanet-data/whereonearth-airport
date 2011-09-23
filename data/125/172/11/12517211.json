@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517211, 
+        "placetype": "airport", 
         "name": "Vozovizhenskaya Airport", 
-        "ne_latitude": 45.154, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597811", 
+          "woe:state=2346884", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517211, 
         "ne_longitude": 40.170, 
         "longitude": 40.163, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597811, 
+        "ne_latitude": 45.154, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 1981574, 
+        "sw_latitude": 45.145, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.149, 
         "sw_longitude": 40.157, 
         "fullname": "Vozovizhenskaya Airport, Adygeya, Shovgenovsky, Russia", 
-        "sw_latitude": 45.145
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12517211
     }

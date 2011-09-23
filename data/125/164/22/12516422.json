@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516422, 
+        "placetype": "airport", 
         "name": "Mengon Airport", 
-        "ne_latitude": 49.987, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597736", 
+          "woe:state=2346883", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516422, 
         "ne_longitude": 136.287, 
         "longitude": 136.280, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597736, 
+        "ne_latitude": 49.987, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2004260, 
+        "sw_latitude": 49.978, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.983, 
         "sw_longitude": 136.273, 
         "fullname": "Mengon Airport, Khabarovskiy Kray, Amursky, Russia", 
-        "sw_latitude": 49.978
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516422
     }

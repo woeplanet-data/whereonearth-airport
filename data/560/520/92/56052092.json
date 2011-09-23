@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 56052092, 
+        "placetype": "airport", 
         "name": "Flugplatz Northeim", 
-        "ne_latitude": 51.708, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12630401", 
+          "woe:county=12596705", 
+          "woe:state=2345486", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56052092, 
         "ne_longitude": 10.042, 
         "longitude": 10.035, 
-        "placetype": "Airport", 
+        "parent_woeid": 12630401, 
+        "ne_latitude": 51.708, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 680466, 
+        "sw_latitude": 51.705, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.708, 
         "sw_longitude": 10.032, 
-        "fullname": "Flugplatz Northeim, Northeim, Lower Saxony, Landkreis Northeim, Germany", 
-        "sw_latitude": 51.705
+        "fullname": "Flugplatz Northeim, Northeim, Lower Saxony, Germany", 
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 56052092
     }

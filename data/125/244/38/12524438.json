@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524438, 
-        "name": "Puerto Rico Airport", 
         "alias_ENG_V": [
           "Pto Rico Airport"
         ], 
-        "ne_latitude": -11.112, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Puerto Rico Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=55968013", 
+          "woe:county=55967807", 
+          "woe:state=2344806", 
+          "woe:country=23424762", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524438, 
         "ne_longitude": -67.495, 
         "longitude": -67.500, 
-        "placetype": "Airport", 
+        "parent_woeid": 55968013, 
+        "ne_latitude": -11.112, 
         "iso": "BO", 
-        "date_indexed": "2010-12-02T17:57:50Z", 
-        "parent_woeid": 346215, 
+        "sw_latitude": -11.121, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -11.117, 
         "sw_longitude": -67.505, 
-        "fullname": "Puerto Rico Airport, Puerto Rico, Pando, Manuripi, Bolivia", 
-        "sw_latitude": -11.121
+        "fullname": "Puerto Rico Airport, Puerto Rico, Pando, Bolivia", 
+        "iata_code": "PUR", 
+        "date_indexed": "2010-12-02T17:57:50Z"
       }, 
       "id": 12524438
     }

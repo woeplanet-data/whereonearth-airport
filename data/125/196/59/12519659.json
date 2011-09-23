@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519659, 
-        "name": "Espanola Municipal Airport", 
         "alias_ENG_V": [
           "Eso"
         ], 
-        "ne_latitude": 36.041, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Espanola Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589300", 
+          "woe:state=2347590", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519659, 
         "ne_longitude": -106.032, 
         "longitude": -106.047, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589300, 
+        "ne_latitude": 36.041, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2400223, 
+        "sw_latitude": 36.018, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.025, 
         "sw_longitude": -106.064, 
-        "fullname": "Espanola Municipal Airport, Espanola, New Mexico, Rio Arriba, United States", 
-        "sw_latitude": 36.018
+        "fullname": "Espanola Municipal Airport, Espanola, New Mexico, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12519659
     }

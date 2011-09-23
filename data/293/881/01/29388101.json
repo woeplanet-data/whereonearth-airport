@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388101, 
-        "name": "Caldwell Municipal Airport", 
         "alias_ENG_V": [
           "01k"
         ], 
-        "ne_latitude": 37.040, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Caldwell Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588466", 
+          "woe:state=2347575", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388101, 
         "ne_longitude": -97.582, 
         "longitude": -97.583, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588466, 
+        "ne_latitude": 37.040, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2373171, 
+        "sw_latitude": 37.033, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 37.035, 
         "sw_longitude": -97.589, 
-        "fullname": "Caldwell Municipal Airport, Caldwell, Kansas, Sumner, United States", 
-        "sw_latitude": 37.033
+        "fullname": "Caldwell Municipal Airport, Caldwell, Kansas, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388101
     }

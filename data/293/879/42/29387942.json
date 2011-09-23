@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29387942, 
-        "name": "Paynesville Municipal Airport", 
         "alias_ENG_V": [
           "Pex"
         ], 
-        "ne_latitude": 45.377, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Paynesville Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588869", 
+          "woe:state=2347582", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29387942, 
         "ne_longitude": -94.729, 
         "longitude": -94.729, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588869, 
+        "ne_latitude": 45.377, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2469499, 
+        "sw_latitude": 45.369, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.375, 
         "sw_longitude": -94.738, 
-        "fullname": "Paynesville Municipal Airport, Paynesville, Minnesota, Stearns, United States", 
-        "sw_latitude": 45.369
+        "fullname": "Paynesville Municipal Airport, Paynesville, Minnesota, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29387942
     }

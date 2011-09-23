@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515761, 
+        "placetype": "airport", 
         "name": "Bakal Airport", 
-        "ne_latitude": 55.267, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598141", 
+          "woe:state=2346893", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515761, 
         "ne_longitude": 61.304, 
         "longitude": 61.296, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598141, 
+        "ne_latitude": 55.267, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2029191, 
+        "sw_latitude": 55.258, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 55.263, 
         "sw_longitude": 61.288, 
         "fullname": "Bakal Airport, Chelyabinskaya Oblast, Chelyabinsk, Russia", 
-        "sw_latitude": 55.258
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12515761
     }

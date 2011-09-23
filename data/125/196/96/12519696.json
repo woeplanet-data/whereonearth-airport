@@ -3,28 +3,74 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -111.736, 
-              33.452
-            ], 
-            [
-              -111.736, 
-              33.466
-            ], 
-            [
-              -111.719, 
-              33.466
-            ], 
-            [
-              -111.719, 
-              33.452
-            ], 
-            [
-              -111.736, 
-              33.452
+              [
+                -111.736, 
+                33.452
+              ], 
+              [
+                -111.736, 
+                33.453
+              ], 
+              [
+                -111.735, 
+                33.455
+              ], 
+              [
+                -111.732, 
+                33.457
+              ], 
+              [
+                -111.729, 
+                33.459
+              ], 
+              [
+                -111.728, 
+                33.460
+              ], 
+              [
+                -111.725, 
+                33.463
+              ], 
+              [
+                -111.725, 
+                33.459
+              ], 
+              [
+                -111.722, 
+                33.454
+              ], 
+              [
+                -111.723, 
+                33.452
+              ], 
+              [
+                -111.728, 
+                33.452
+              ], 
+              [
+                -111.732, 
+                33.452
+              ], 
+              [
+                -111.733, 
+                33.451
+              ], 
+              [
+                -111.737, 
+                33.449
+              ], 
+              [
+                -111.736, 
+                33.452
+              ], 
+              [
+                -111.736, 
+                33.452
+              ]
             ]
           ]
         ]
@@ -32,23 +78,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519696, 
-        "name": "Falcon Field Municipal Airport", 
         "alias_ENG_V": [
           "Falcon Field"
         ], 
-        "ne_latitude": 33.466, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -111.719, 
-        "longitude": -111.728, 
-        "placetype": "Airport", 
-        "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:16Z", 
+        "name": "Falcon Field Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:suburb=2380487", 
+          "woe:county=12587587", 
+          "woe:state=2347561", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519696, 
+        "ne_longitude": -111.722, 
+        "longitude": -111.729, 
         "parent_woeid": 2380487, 
-        "latitude": 33.456, 
-        "sw_longitude": -111.736, 
-        "fullname": "Falcon Field Municipal Airport, Mesa, Arizona, Maricopa, United States", 
-        "sw_latitude": 33.452
+        "ne_latitude": 33.463, 
+        "iso": "US", 
+        "sw_latitude": 33.449, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 33.455, 
+        "sw_longitude": -111.737, 
+        "fullname": "Falcon Field Municipal Airport, Mesa, Arizona, United States", 
+        "date_indexed": "2010-12-02T18:39:16Z"
       }, 
       "id": 12519696
     }

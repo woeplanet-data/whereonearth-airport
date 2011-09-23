@@ -3,28 +3,30 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              0.040, 
-              51.502
-            ], 
-            [
-              0.040, 
-              51.507
-            ], 
-            [
-              0.068, 
-              51.507
-            ], 
-            [
-              0.068, 
-              51.502
-            ], 
-            [
-              0.040, 
-              51.502
+              [
+                0.046, 
+                51.508
+              ], 
+              [
+                0.048, 
+                51.505
+              ], 
+              [
+                0.047, 
+                51.505
+              ], 
+              [
+                0.045, 
+                51.504
+              ], 
+              [
+                0.046, 
+                51.508
+              ]
             ]
           ]
         ]
@@ -37,11 +39,20 @@
         "alias_SWE_Q": [
           "London City Flygplats"
         ], 
-        "ne_latitude": 51.507, 
-        "placetype": "Airport", 
+        "hierarchy": [
+          "woe:suburb=11853", 
+          "woe:localadmin=12695820", 
+          "woe:county=23416974", 
+          "woe:state=24554868", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "ne_latitude": 51.508, 
+        "placetype": "airport", 
         "alias_POR_Q": [
           "Aeroporto de Londres"
         ], 
+        "iata_code": "XET", 
         "alias_ITA_Q": [
           "Aeroporto London City"
         ], 
@@ -52,12 +63,12 @@
         "alias_FIN_Q": [
           "London City Lentokentt\u00e4"
         ], 
-        "sw_longitude": 0.040, 
+        "sw_longitude": 0.045, 
         "alias_FIN_V": [
           "London City Lentokentta"
         ], 
         "provider": "geoplanet 7.6.0", 
-        "latitude": 51.503, 
+        "latitude": 51.506, 
         "date_indexed": "2010-12-02T12:21:01Z", 
         "alias_DUT_Q": [
           "Luchthaven Londen City"
@@ -71,14 +82,14 @@
         "lang": "ENG", 
         "name": "London City Airport", 
         "parent_woeid": 11853, 
-        "ne_longitude": 0.068, 
-        "longitude": 0.050, 
+        "ne_longitude": 0.048, 
+        "longitude": 0.046, 
         "iso": "GB", 
-        "sw_latitude": 51.502, 
+        "sw_latitude": 51.504, 
         "alias_FRE_V": [
           "Aeroport de Londres"
         ], 
-        "fullname": "London City Airport, London, England, Greater London, United Kingdom", 
+        "fullname": "London City Airport, London, England, United Kingdom", 
         "alias_FRE_Q": [
           "A\u00e9roport de Londres"
         ]

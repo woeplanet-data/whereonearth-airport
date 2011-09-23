@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516994, 
+        "placetype": "airport", 
         "name": "Temryuk Airport", 
-        "ne_latitude": 45.295, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597813", 
+          "woe:state=2346884", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516994, 
         "ne_longitude": 37.335, 
         "longitude": 37.328, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597813, 
+        "ne_latitude": 45.295, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2123865, 
+        "sw_latitude": 45.286, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.290, 
         "sw_longitude": 37.322, 
-        "fullname": "Temryuk Airport, Temryuk, Krasnodarskiy Kray, Temryuksky, Russia", 
-        "sw_latitude": 45.286
+        "fullname": "Temryuk Airport, Temryuk, Krasnodarskiy Kray, Russia", 
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516994
     }

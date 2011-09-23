@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517110, 
+        "placetype": "airport", 
         "name": "Ust Karsk Airport", 
-        "ne_latitude": 52.698, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598187", 
+          "woe:state=2346894", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517110, 
         "ne_longitude": 118.791, 
         "longitude": 118.784, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598187, 
+        "ne_latitude": 52.698, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2101463, 
+        "sw_latitude": 52.689, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 52.694, 
         "sw_longitude": 118.776, 
-        "fullname": "Ust Karsk Airport, Ust'-Karsk, Chitinskaya Oblast, Sretensky, Russia", 
-        "sw_latitude": 52.689
+        "fullname": "Ust Karsk Airport, Ust'-Karsk, Chitinskaya Oblast, Russia", 
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12517110
     }

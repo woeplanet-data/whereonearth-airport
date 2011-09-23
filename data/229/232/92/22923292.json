@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 22923292, 
+        "placetype": "airport", 
         "name": "Lufthansa Cargo Center", 
-        "ne_latitude": 48.355, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12635168", 
+          "woe:county=12596727", 
+          "woe:state=2345482", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 22923292, 
         "ne_longitude": 11.773, 
         "longitude": 11.766, 
-        "placetype": "Airport", 
+        "parent_woeid": 12635168, 
+        "ne_latitude": 48.355, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 635781, 
+        "sw_latitude": 48.346, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.351, 
         "sw_longitude": 11.759, 
-        "fullname": "Lufthansa Cargo Center, Attaching, Bavaria, Landkreis Freising, Germany", 
+        "fullname": "Lufthansa Cargo Center, Attaching, Bavaria, Germany", 
         "alias_GER_V": [
           "Flughafen Lufthansa Cargo Center"
         ], 
-        "sw_latitude": 48.346
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 22923292
     }

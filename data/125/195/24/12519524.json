@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519524, 
+        "placetype": "airport", 
         "name": "Downey Hyde Memorial Airport", 
-        "ne_latitude": 42.433, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12588036", 
+          "woe:state=2347571", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519524, 
         "ne_longitude": -112.099, 
         "longitude": -112.106, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588036, 
+        "ne_latitude": 42.433, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:15Z", 
-        "parent_woeid": 2393443, 
+        "sw_latitude": 42.424, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.428, 
         "sw_longitude": -112.112, 
-        "fullname": "Downey Hyde Memorial Airport, Downey, Idaho, Bannock, United States", 
-        "sw_latitude": 42.424
+        "fullname": "Downey Hyde Memorial Airport, Downey, Idaho, United States", 
+        "date_indexed": "2010-12-02T18:39:15Z"
       }, 
       "id": 12519524
     }

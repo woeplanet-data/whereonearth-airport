@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518088, 
+        "placetype": "airport", 
         "name": "Fearn Airport", 
-        "ne_latitude": 57.763, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12696199", 
+          "woe:county=12602203", 
+          "woe:state=12578048", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518088, 
         "ne_longitude": -3.933, 
         "longitude": -3.942, 
-        "placetype": "Airport", 
+        "parent_woeid": 12696199, 
+        "ne_latitude": 57.763, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:20:54Z", 
-        "parent_woeid": 34435, 
+        "sw_latitude": 57.754, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 57.758, 
         "sw_longitude": -3.950, 
-        "fullname": "Fearn Airport, Shandwick, Scotland, Highland, United Kingdom", 
-        "sw_latitude": 57.754
+        "fullname": "Fearn Airport, Shandwick, Scotland, United Kingdom", 
+        "date_indexed": "2010-12-02T12:20:54Z"
       }, 
       "id": 12518088
     }

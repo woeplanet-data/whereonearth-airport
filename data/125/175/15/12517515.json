@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517515, 
-        "name": "Portoroz Airport", 
         "alias_ENG_V": [
           "POW"
         ], 
-        "ne_latitude": 45.475, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Portoroz Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12591597", 
+          "woe:state=55848375", 
+          "woe:country=23424945", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517515, 
         "ne_longitude": 13.624, 
         "longitude": 13.617, 
-        "placetype": "Airport", 
+        "parent_woeid": 12591597, 
+        "ne_latitude": 45.475, 
         "iso": "SI", 
-        "date_indexed": "2010-12-02T09:58:07Z", 
-        "parent_woeid": 531454, 
+        "sw_latitude": 45.465, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.470, 
         "sw_longitude": 13.611, 
         "fullname": "Portoroz Airport, Piran, Piran, Slovenia", 
-        "sw_latitude": 45.465
+        "iata_code": "POW", 
+        "date_indexed": "2010-12-02T09:58:07Z"
       }, 
       "id": 12517515
     }

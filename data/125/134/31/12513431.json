@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513431, 
+        "placetype": "airport", 
         "name": "Szombathely Airport", 
-        "ne_latitude": 47.286, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12595258", 
+          "woe:state=12577928", 
+          "woe:country=23424844", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513431, 
         "ne_longitude": 16.635, 
         "longitude": 16.628, 
-        "placetype": "Airport", 
+        "parent_woeid": 12595258, 
+        "ne_latitude": 47.286, 
         "iso": "HU", 
-        "date_indexed": "2010-12-02T09:56:22Z", 
-        "parent_woeid": 807033, 
+        "sw_latitude": 47.277, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.282, 
         "sw_longitude": 16.622, 
-        "fullname": "Szombathely Airport, Gencsap\u00e1ti, Vas, Gencsap\u00e1ti, Hungary", 
-        "sw_latitude": 47.277
+        "fullname": "Szombathely Airport, Gencsap\u00e1ti, Vas, Hungary", 
+        "date_indexed": "2010-12-02T09:56:22Z"
       }, 
       "id": 12513431
     }

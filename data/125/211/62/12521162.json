@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521162, 
-        "name": "Edenton Municipal Airport", 
         "alias_ENG_V": [
           "EDE Airport"
         ], 
-        "ne_latitude": 36.042, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Edenton Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589394", 
+          "woe:state=2347592", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521162, 
         "ne_longitude": -76.549, 
         "longitude": -76.567, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589394, 
+        "ne_latitude": 36.042, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2486887, 
+        "sw_latitude": 36.017, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.018, 
         "sw_longitude": -76.575, 
-        "fullname": "Edenton Municipal Airport, St. Johns, North Carolina, Chowan, United States", 
-        "sw_latitude": 36.017
+        "fullname": "Edenton Municipal Airport, St. Johns, North Carolina, United States", 
+        "iata_code": "EDE", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521162
     }

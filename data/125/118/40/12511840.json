@@ -3,28 +3,58 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -70.718, 
-              46.093
-            ], 
-            [
-              -70.718, 
-              46.102
-            ], 
-            [
-              -70.703, 
-              46.102
-            ], 
-            [
-              -70.703, 
-              46.093
-            ], 
-            [
-              -70.718, 
-              46.093
+              [
+                -70.709, 
+                46.099
+              ], 
+              [
+                -70.709, 
+                46.099
+              ], 
+              [
+                -70.714, 
+                46.097
+              ], 
+              [
+                -70.709, 
+                46.099
+              ], 
+              [
+                -70.710, 
+                46.104
+              ], 
+              [
+                -70.707, 
+                46.104
+              ], 
+              [
+                -70.703, 
+                46.104
+              ], 
+              [
+                -70.705, 
+                46.102
+              ], 
+              [
+                -70.706, 
+                46.100
+              ], 
+              [
+                -70.707, 
+                46.100
+              ], 
+              [
+                -70.708, 
+                46.099
+              ], 
+              [
+                -70.709, 
+                46.099
+              ]
             ]
           ]
         ]
@@ -32,26 +62,32 @@
       "type": "Feature", 
       "properties": {
         "lang": "FRE", 
-        "woeid": 12511840, 
         "name": "A\u00e9roport St-Georges", 
-        "ne_latitude": 46.102, 
+        "hierarchy": [
+          "woe:county=29375138", 
+          "woe:state=2344924", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511840, 
+        "provider": "geoplanet 7.6.0", 
         "ne_longitude": -70.703, 
-        "longitude": -70.713, 
-        "parent_woeid": 23396622, 
-        "placetype": "Airport", 
+        "longitude": -70.707, 
+        "parent_woeid": 29375138, 
+        "placetype": "airport", 
+        "latitude": 46.102, 
+        "iso": "CA", 
+        "sw_latitude": 46.097, 
+        "ne_latitude": 46.104, 
         "alias_FRE_V": [
           "YSG"
         ], 
-        "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "provider": "geoplanet 7.6.0", 
-        "latitude": 46.098, 
-        "sw_longitude": -70.718, 
-        "fullname": "A\u00e9roport St-Georges, Aubert-Gallion, Quebec, Beauce-Sartigan, Canada", 
+        "sw_longitude": -70.714, 
+        "fullname": "A\u00e9roport St-Georges, Aubert-Gallion, Quebec, Canada", 
         "alias_FRE_S": [
           "Aeroport St-Georges"
         ], 
-        "sw_latitude": 46.093
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12511840
     }

@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515017, 
+        "placetype": "airport", 
         "name": "Estima Airport", 
-        "ne_latitude": -15.729, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2346318", 
+          "woe:country=23424902", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515017, 
         "ne_longitude": 32.761, 
         "longitude": 32.756, 
-        "placetype": "Airport", 
+        "parent_woeid": 2346318, 
+        "ne_latitude": -15.729, 
         "iso": "MZ", 
-        "date_indexed": "2010-12-02T07:50:33Z", 
-        "parent_woeid": 1547655, 
+        "sw_latitude": -15.738, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -15.734, 
         "sw_longitude": 32.751, 
         "fullname": "Estima Airport, Estima, Tete, Mozambique", 
-        "sw_latitude": -15.738
+        "date_indexed": "2010-12-02T07:50:33Z"
       }, 
       "id": 12515017
     }

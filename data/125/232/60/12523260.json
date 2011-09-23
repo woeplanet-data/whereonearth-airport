@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523260, 
-        "name": "Waiho Airport", 
         "alias_ENG_V": [
           "WHO Airport"
         ], 
-        "ne_latitude": -43.379, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Waiho Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55875900", 
+          "woe:state=15021752", 
+          "woe:country=23424916", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523260, 
         "ne_longitude": 170.190, 
         "longitude": 170.183, 
-        "placetype": "Airport", 
+        "parent_woeid": 55875900, 
+        "ne_latitude": -43.379, 
         "iso": "NZ", 
-        "date_indexed": "2010-12-02T17:02:39Z", 
-        "parent_woeid": 2348562, 
+        "sw_latitude": -43.388, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -43.383, 
         "sw_longitude": 170.177, 
-        "fullname": "Waiho Airport, Franz Josef, West Coast, Westland District, New Zealand", 
-        "sw_latitude": -43.388
+        "fullname": "Waiho Airport, Franz Josef, West Coast, New Zealand", 
+        "iata_code": "WHO", 
+        "date_indexed": "2010-12-02T17:02:39Z"
       }, 
       "id": 12523260
     }

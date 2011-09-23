@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519097, 
-        "name": "Cass County Memorial Airport", 
         "alias_ENG_V": [
           "Dowagiac Municipal Airport"
         ], 
-        "ne_latitude": 41.994, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Cass County Memorial Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588727", 
+          "woe:state=2347581", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519097, 
         "ne_longitude": -86.117, 
         "longitude": -86.120, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588727, 
+        "ne_latitude": 41.994, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2393409, 
+        "sw_latitude": 41.987, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.992, 
         "sw_longitude": -86.141, 
-        "fullname": "Cass County Memorial Airport, Dowagiac, Michigan, Cass, United States", 
-        "sw_latitude": 41.987
+        "fullname": "Cass County Memorial Airport, Dowagiac, Michigan, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519097
     }

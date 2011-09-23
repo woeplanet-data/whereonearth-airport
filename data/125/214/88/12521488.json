@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521488, 
-        "name": "Prosser Airport", 
         "alias_ENG_V": [
           "S40"
         ], 
-        "ne_latitude": 46.215, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Prosser Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590442", 
+          "woe:state=2347606", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521488, 
         "ne_longitude": -119.780, 
         "longitude": -119.788, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590442, 
+        "ne_latitude": 46.215, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2476986, 
+        "sw_latitude": 46.211, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.212, 
         "sw_longitude": -119.800, 
-        "fullname": "Prosser Airport, Prosser, Washington, Benton, United States", 
-        "sw_latitude": 46.211
+        "fullname": "Prosser Airport, Prosser, Washington, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521488
     }

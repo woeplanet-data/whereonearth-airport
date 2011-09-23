@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518168, 
+        "placetype": "airport", 
         "name": "Upper Heyford Airport", 
-        "ne_latitude": 51.933, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12696057", 
+          "woe:county=12602175", 
+          "woe:state=24554868", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518168, 
         "ne_longitude": -1.246, 
         "longitude": -1.253, 
-        "placetype": "Airport", 
+        "parent_woeid": 12696057, 
+        "ne_latitude": 51.933, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:21:01Z", 
-        "parent_woeid": 38677, 
+        "sw_latitude": 51.924, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.928, 
         "sw_longitude": -1.260, 
-        "fullname": "Upper Heyford Airport, Upper Heyford, England, Oxfordshire, United Kingdom", 
-        "sw_latitude": 51.924
+        "fullname": "Upper Heyford Airport, Upper Heyford, England, United Kingdom", 
+        "date_indexed": "2010-12-02T12:21:01Z"
       }, 
       "id": 12518168
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515378, 
+        "placetype": "airport", 
         "name": "Pruszcz Airport", 
-        "ne_latitude": 54.256, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12591369", 
+          "woe:state=12577945", 
+          "woe:country=23424923", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515378, 
         "ne_longitude": 18.662, 
         "longitude": 18.655, 
-        "placetype": "Airport", 
+        "parent_woeid": 12591369, 
+        "ne_latitude": 54.256, 
         "iso": "PL", 
-        "date_indexed": "2010-12-02T12:12:45Z", 
-        "parent_woeid": 514254, 
+        "sw_latitude": 54.247, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 54.251, 
         "sw_longitude": 18.647, 
-        "fullname": "Pruszcz Airport, Pruszcz Gda\u0144ski, Pomeranian, Gdansk County, Poland", 
-        "sw_latitude": 54.247
+        "fullname": "Pruszcz Airport, Pruszcz Gda\u0144ski, Pomeranian, Poland", 
+        "date_indexed": "2010-12-02T12:12:45Z"
       }, 
       "id": 12515378
     }

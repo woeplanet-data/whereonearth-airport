@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521240, 
-        "name": "Orangeburg Municipal Airport", 
         "alias_ENG_V": [
           "Orangeburg Airport"
         ], 
-        "ne_latitude": 33.467, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Orangeburg Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589837", 
+          "woe:state=2347599", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521240, 
         "ne_longitude": -80.851, 
         "longitude": -80.856, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589837, 
+        "ne_latitude": 33.467, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2465941, 
+        "sw_latitude": 33.455, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 33.466, 
         "sw_longitude": -80.865, 
-        "fullname": "Orangeburg Municipal Airport, Orangeburg, South Carolina, Orangeburg, United States", 
-        "sw_latitude": 33.455
+        "fullname": "Orangeburg Municipal Airport, Orangeburg, South Carolina, United States", 
+        "iata_code": "OGB", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521240
     }

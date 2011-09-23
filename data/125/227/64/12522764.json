@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522764, 
-        "name": "Canaima Airport", 
         "alias_ENG_V": [
           "CAJ"
         ], 
-        "ne_latitude": 6.240, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Canaima Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=26805588", 
+          "woe:county=26804568", 
+          "woe:state=2347682", 
+          "woe:country=23424982", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522764, 
         "ne_longitude": -62.849, 
         "longitude": -62.854, 
-        "placetype": "Airport", 
+        "parent_woeid": 26805588, 
+        "ne_latitude": 6.240, 
         "iso": "VE", 
-        "date_indexed": "2010-12-02T16:11:43Z", 
-        "parent_woeid": 395408, 
+        "sw_latitude": 6.231, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 6.235, 
         "sw_longitude": -62.858, 
         "fullname": "Canaima Airport, Bolivar, Gran Sabana, Venezuela", 
-        "sw_latitude": 6.231
+        "iata_code": "CAJ", 
+        "date_indexed": "2010-12-02T16:11:43Z"
       }, 
       "id": 12522764
     }

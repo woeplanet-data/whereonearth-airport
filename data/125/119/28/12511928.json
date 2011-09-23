@@ -3,28 +3,110 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              104.838, 
-              11.534
-            ], 
-            [
-              104.838, 
-              11.557
-            ], 
-            [
-              104.861, 
-              11.557
-            ], 
-            [
-              104.861, 
-              11.534
-            ], 
-            [
-              104.838, 
-              11.534
+              [
+                104.844, 
+                11.554
+              ], 
+              [
+                104.845, 
+                11.554
+              ], 
+              [
+                104.849, 
+                11.558
+              ], 
+              [
+                104.850, 
+                11.561
+              ], 
+              [
+                104.850, 
+                11.567
+              ], 
+              [
+                104.854, 
+                11.565
+              ], 
+              [
+                104.865, 
+                11.572
+              ], 
+              [
+                104.872, 
+                11.568
+              ], 
+              [
+                104.875, 
+                11.563
+              ], 
+              [
+                104.879, 
+                11.562
+              ], 
+              [
+                104.874, 
+                11.556
+              ], 
+              [
+                104.869, 
+                11.553
+              ], 
+              [
+                104.872, 
+                11.560
+              ], 
+              [
+                104.862, 
+                11.564
+              ], 
+              [
+                104.858, 
+                11.564
+              ], 
+              [
+                104.855, 
+                11.562
+              ], 
+              [
+                104.854, 
+                11.562
+              ], 
+              [
+                104.851, 
+                11.559
+              ], 
+              [
+                104.849, 
+                11.554
+              ], 
+              [
+                104.854, 
+                11.548
+              ], 
+              [
+                104.846, 
+                11.549
+              ], 
+              [
+                104.845, 
+                11.548
+              ], 
+              [
+                104.843, 
+                11.550
+              ], 
+              [
+                104.842, 
+                11.553
+              ], 
+              [
+                104.844, 
+                11.554
+              ]
             ]
           ]
         ]
@@ -32,23 +114,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511928, 
-        "name": "Pochentong Airport", 
         "alias_ENG_V": [
           "PNH"
         ], 
-        "ne_latitude": 11.557, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": 104.861, 
-        "longitude": 104.849, 
-        "placetype": "Airport", 
+        "name": "Pochentong Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=56063387", 
+          "woe:state=20070095", 
+          "woe:country=23424776", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511928, 
+        "ne_longitude": 104.879, 
+        "longitude": 104.861, 
+        "parent_woeid": 56063387, 
+        "ne_latitude": 11.572, 
         "iso": "KH", 
-        "date_indexed": "2010-12-02T16:11:23Z", 
-        "parent_woeid": 1020985, 
-        "latitude": 11.546, 
-        "sw_longitude": 104.838, 
-        "fullname": "Pochentong Airport, Phnom Penh, Phnum Penh, Phnom Penh, Cambodia", 
-        "sw_latitude": 11.534
+        "sw_latitude": 11.548, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 11.561, 
+        "sw_longitude": 104.842, 
+        "fullname": "Pochentong Airport, Phnom Penh, Phnum Penh, Cambodia", 
+        "iata_code": "PNH", 
+        "date_indexed": "2010-12-02T16:11:23Z"
       }, 
       "id": 12511928
     }

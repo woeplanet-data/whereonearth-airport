@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515783, 
+        "placetype": "airport", 
         "name": "Bedoba Airport", 
-        "ne_latitude": 58.787, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597839", 
+          "woe:state=20070524", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515783, 
         "ne_longitude": 97.222, 
         "longitude": 97.214, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597839, 
+        "ne_latitude": 58.787, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2124743, 
+        "sw_latitude": 58.778, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 58.783, 
         "sw_longitude": 97.205, 
         "fullname": "Bedoba Airport, Krasnoyarskiy Kray, Boguchansky, Russia", 
-        "sw_latitude": 58.778
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12515783
     }

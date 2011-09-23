@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519171, 
-        "name": "Chester Airport", 
         "alias_ENG_V": [
           "O05"
         ], 
-        "ne_latitude": 40.293, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Chester Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587701", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519171, 
         "ne_longitude": -121.227, 
         "longitude": -121.232, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587701, 
+        "ne_latitude": 40.293, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2379289, 
+        "sw_latitude": 40.273, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.291, 
         "sw_longitude": -121.248, 
-        "fullname": "Chester Airport, Chester, California, Plumas, United States", 
-        "sw_latitude": 40.273
+        "fullname": "Chester Airport, Chester, California, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519171
     }

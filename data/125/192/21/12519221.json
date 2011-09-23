@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519221, 
-        "name": "Clarksville Municipal Airport", 
         "alias_ENG_V": [
           "H35"
         ], 
-        "ne_latitude": 35.471, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Clarksville Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587630", 
+          "woe:state=2347562", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519221, 
         "ne_longitude": -93.418, 
         "longitude": -93.432, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587630, 
+        "ne_latitude": 35.471, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2380891, 
+        "sw_latitude": 35.468, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.469, 
         "sw_longitude": -93.437, 
-        "fullname": "Clarksville Municipal Airport, Clarksville, Arkansas, Johnson, United States", 
-        "sw_latitude": 35.468
+        "fullname": "Clarksville Municipal Airport, Clarksville, Arkansas, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519221
     }

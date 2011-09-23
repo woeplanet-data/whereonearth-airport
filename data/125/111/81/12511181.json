@@ -32,29 +32,35 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511181, 
-        "name": "Aeroporto Irece", 
-        "alias_ENG_P": [
-          "Irece Airport"
-        ], 
-        "ne_latitude": -11.334, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "IRE"
         ], 
+        "name": "Aeroporto Irece", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Irece Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12578403", 
+          "woe:state=2344848", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511181, 
         "ne_longitude": -41.845, 
         "longitude": -41.849, 
-        "placetype": "Airport", 
+        "parent_woeid": 12578403, 
+        "ne_latitude": -11.334, 
         "alias_POR_V": [
           "Aeroporto IRE"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 456247, 
+        "sw_latitude": -11.343, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -11.339, 
         "sw_longitude": -41.854, 
-        "fullname": "Aeroporto Irece, Irec\u00ea, Bahia, Irec\u00ea, Brazil", 
-        "sw_latitude": -11.343
+        "fullname": "Aeroporto Irece, Irec\u00ea, Bahia, Brazil", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511181
     }

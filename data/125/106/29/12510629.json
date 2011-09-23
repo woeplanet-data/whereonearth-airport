@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510629, 
-        "name": "Charleville Aerodrome", 
         "alias_ENG_V": [
           "Charleville Airport"
         ], 
-        "ne_latitude": -26.406, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Charleville Aerodrome", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55863891", 
+          "woe:state=2344702", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510629, 
         "ne_longitude": 146.279, 
         "longitude": 146.252, 
-        "placetype": "Airport", 
+        "parent_woeid": 55863891, 
+        "ne_latitude": -26.406, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1101106, 
+        "sw_latitude": -26.429, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -26.417, 
         "sw_longitude": 146.249, 
-        "fullname": "Charleville Aerodrome, Charleville, Queensland, Murweh, Australia", 
-        "sw_latitude": -26.429
+        "fullname": "Charleville Aerodrome, Charleville, Queensland, Australia", 
+        "iata_code": "CTL", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 12510629
     }

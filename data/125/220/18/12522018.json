@@ -3,28 +3,42 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -121.255, 
-              37.884
-            ], 
-            [
-              -121.255, 
-              37.904
-            ], 
-            [
-              -121.221, 
-              37.904
-            ], 
-            [
-              -121.221, 
-              37.884
-            ], 
-            [
-              -121.255, 
-              37.884
+              [
+                -121.251, 
+                37.897
+              ], 
+              [
+                -121.252, 
+                37.897
+              ], 
+              [
+                -121.254, 
+                37.902
+              ], 
+              [
+                -121.251, 
+                37.898
+              ], 
+              [
+                -121.250, 
+                37.897
+              ], 
+              [
+                -121.248, 
+                37.895
+              ], 
+              [
+                -121.249, 
+                37.894
+              ], 
+              [
+                -121.251, 
+                37.897
+              ]
             ]
           ]
         ]
@@ -32,23 +46,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522018, 
-        "name": "Stockton Metro Airport", 
         "alias_ENG_V": [
           "Stockton Metropolitan Airport"
         ], 
-        "ne_latitude": 37.904, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -121.221, 
-        "longitude": -121.252, 
-        "placetype": "Airport", 
-        "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
+        "name": "Stockton Metro Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:suburb=2466422", 
+          "woe:county=12587708", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522018, 
+        "ne_longitude": -121.248, 
+        "longitude": -121.251, 
         "parent_woeid": 2466422, 
-        "latitude": 37.896, 
-        "sw_longitude": -121.255, 
-        "fullname": "Stockton Metro Airport, Stockton, California, San Joaquin, United States", 
-        "sw_latitude": 37.884
+        "ne_latitude": 37.902, 
+        "iso": "US", 
+        "sw_latitude": 37.894, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 37.897, 
+        "sw_longitude": -121.254, 
+        "fullname": "Stockton Metro Airport, Stockton, California, United States", 
+        "iata_code": "SCK", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522018
     }

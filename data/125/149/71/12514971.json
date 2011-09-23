@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514971, 
-        "name": "Tapachula International Airport", 
         "alias_ENG_V": [
           "Tapachula Airport"
         ], 
-        "ne_latitude": 14.804, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Tapachula International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12599798", 
+          "woe:state=2346268", 
+          "woe:country=23424900", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514971, 
         "ne_longitude": -92.358, 
         "longitude": -92.370, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599798, 
+        "ne_latitude": 14.804, 
         "iso": "MX", 
-        "date_indexed": "2010-12-02T16:57:55Z", 
-        "parent_woeid": 143797, 
+        "sw_latitude": 14.782, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 14.793, 
         "sw_longitude": -92.382, 
-        "fullname": "Tapachula International Airport, San Juan, Chiapas, Tapachula, Mexico", 
-        "sw_latitude": 14.782
+        "fullname": "Tapachula International Airport, San Juan, Chiapas, Mexico", 
+        "iata_code": "TAP", 
+        "date_indexed": "2010-12-02T16:57:55Z"
       }, 
       "id": 12514971
     }

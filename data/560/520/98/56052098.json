@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 56052098, 
+        "placetype": "airport", 
         "name": "Flugplatz Bordelum", 
-        "ne_latitude": 54.633, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12632169", 
+          "woe:county=12596738", 
+          "woe:state=2345490", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56052098, 
         "ne_longitude": 8.943, 
         "longitude": 8.931, 
-        "placetype": "Airport", 
+        "parent_woeid": 12632169, 
+        "ne_latitude": 54.633, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 20165050, 
+        "sw_latitude": 54.623, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 54.628, 
         "sw_longitude": 8.927, 
-        "fullname": "Flugplatz Bordelum, Bordelum, Schleswig-Holstein, Nordfriesland, Germany", 
-        "sw_latitude": 54.623
+        "fullname": "Flugplatz Bordelum, Bordelum, Schleswig-Holstein, Germany", 
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 56052098
     }

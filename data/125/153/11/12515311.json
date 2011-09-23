@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515311, 
+        "placetype": "airport", 
         "name": "Jablonowo Airport", 
-        "ne_latitude": 53.369, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=24547429", 
+          "woe:county=12591166", 
+          "woe:state=12577936", 
+          "woe:country=23424923", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515311, 
         "ne_longitude": 19.156, 
         "longitude": 19.149, 
-        "placetype": "Airport", 
+        "parent_woeid": 24547429, 
+        "ne_latitude": 53.369, 
         "iso": "PL", 
-        "date_indexed": "2010-12-02T12:12:45Z", 
-        "parent_woeid": 24934531, 
+        "sw_latitude": 53.360, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.364, 
         "sw_longitude": 19.141, 
         "fullname": "Jablonowo Airport, Kuiavia-Pomerania, Brodnica County, Poland", 
-        "sw_latitude": 53.360
+        "date_indexed": "2010-12-02T12:12:45Z"
       }, 
       "id": 12515311
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519829, 
-        "name": "Friedman Memorial Airport", 
         "alias_ENG_V": [
           "Friedman Memorial"
         ], 
-        "ne_latitude": 43.513, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Friedman Memorial Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588040", 
+          "woe:state=2347571", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519829, 
         "ne_longitude": -114.282, 
         "longitude": -114.301, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588040, 
+        "ne_latitude": 43.513, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2416079, 
+        "sw_latitude": 43.491, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.506, 
         "sw_longitude": -114.306, 
-        "fullname": "Friedman Memorial Airport, Hailey, Idaho, Blaine, United States", 
-        "sw_latitude": 43.491
+        "fullname": "Friedman Memorial Airport, Hailey, Idaho, United States", 
+        "iata_code": "SUN", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12519829
     }

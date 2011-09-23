@@ -32,29 +32,37 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523860, 
-        "name": "Heidelberg Airport", 
         "alias_ENG_V": [
           "HDB Airport"
         ], 
-        "ne_latitude": 49.421, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Heidelberg Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=12623922", 
+          "woe:county=12597109", 
+          "woe:state=2345481", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523860, 
         "ne_longitude": 8.724, 
         "longitude": 8.717, 
-        "placetype": "Airport", 
+        "parent_woeid": 12623922, 
+        "ne_latitude": 49.421, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 658421, 
+        "sw_latitude": 49.412, 
+        "iata_code": "HDB", 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.417, 
         "sw_longitude": 8.710, 
-        "fullname": "Heidelberg Airport, Heidelberg, Baden-Wurttemberg, Stadtkreis Heidelberg, Germany", 
+        "fullname": "Heidelberg Airport, Heidelberg, Baden-Wurttemberg, Germany", 
         "alias_GER_V": [
           "HDB Flughafen"
         ], 
         "alias_GER_Q": [
           "Flughafen Heidelberg"
         ], 
-        "sw_latitude": 49.412
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 12523860
     }

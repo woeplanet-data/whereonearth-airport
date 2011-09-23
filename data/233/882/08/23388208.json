@@ -3,28 +3,66 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              50.611, 
-              26.262
-            ], 
-            [
-              50.611, 
-              26.285
-            ], 
-            [
-              50.636, 
-              26.285
-            ], 
-            [
-              50.636, 
-              26.262
-            ], 
-            [
-              50.611, 
-              26.262
+              [
+                50.626, 
+                26.269
+              ], 
+              [
+                50.622, 
+                26.270
+              ], 
+              [
+                50.621, 
+                26.272
+              ], 
+              [
+                50.624, 
+                26.272
+              ], 
+              [
+                50.625, 
+                26.277
+              ], 
+              [
+                50.629, 
+                26.274
+              ], 
+              [
+                50.633, 
+                26.272
+              ], 
+              [
+                50.633, 
+                26.269
+              ], 
+              [
+                50.632, 
+                26.269
+              ], 
+              [
+                50.631, 
+                26.270
+              ], 
+              [
+                50.627, 
+                26.268
+              ], 
+              [
+                50.626, 
+                26.267
+              ], 
+              [
+                50.626, 
+                26.266
+              ], 
+              [
+                50.626, 
+                26.269
+              ]
             ]
           ]
         ]
@@ -32,23 +70,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 23388208, 
-        "name": "Bahrain International Airport", 
         "alias_ENG_V": [
           "Bahrain Airport"
         ], 
-        "ne_latitude": 26.285, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": 50.636, 
-        "longitude": 50.626, 
-        "placetype": "Airport", 
+        "name": "Bahrain International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2344720", 
+          "woe:country=23424753", 
+          "woe:planet=1"
+        ], 
+        "woeid": 23388208, 
+        "ne_longitude": 50.633, 
+        "longitude": 50.627, 
+        "parent_woeid": 2344720, 
+        "ne_latitude": 26.277, 
         "iso": "BH", 
-        "date_indexed": "2010-12-02T16:11:57Z", 
-        "parent_woeid": 1967057, 
-        "latitude": 26.267, 
-        "sw_longitude": 50.611, 
+        "sw_latitude": 26.266, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 26.272, 
+        "sw_longitude": 50.621, 
         "fullname": "Bahrain International Airport, Manama, Capital, Bahrain", 
-        "sw_latitude": 26.262
+        "iata_code": "BAH", 
+        "date_indexed": "2010-12-02T16:11:57Z"
       }, 
       "id": 23388208
     }

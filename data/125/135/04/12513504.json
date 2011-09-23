@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513504, 
-        "name": "Selaparang Airport", 
         "alias_ENG_V": [
           "AMI Airport"
         ], 
-        "ne_latitude": -8.557, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Selaparang Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=56000049", 
+          "woe:state=2345726", 
+          "woe:country=23424846", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513504, 
         "ne_longitude": 116.101, 
         "longitude": 116.097, 
-        "placetype": "Airport", 
+        "parent_woeid": 56000049, 
+        "ne_latitude": -8.557, 
         "iso": "ID", 
-        "date_indexed": "2010-12-02T16:54:32Z", 
-        "parent_woeid": 1048854, 
+        "sw_latitude": -8.566, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -8.561, 
         "sw_longitude": 116.092, 
         "fullname": "Selaparang Airport, West Nusa Tenggara, Lombok Barat, Indonesia", 
-        "sw_latitude": -8.566
+        "iata_code": "AMI", 
+        "date_indexed": "2010-12-02T16:54:32Z"
       }, 
       "id": 12513504
     }

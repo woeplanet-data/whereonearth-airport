@@ -3,28 +3,34 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              138.616, 
-              -34.809
-            ], 
-            [
-              138.616, 
-              -34.782
-            ], 
-            [
-              138.647, 
-              -34.782
-            ], 
-            [
-              138.647, 
-              -34.809
-            ], 
-            [
-              138.616, 
-              -34.809
+              [
+                138.634, 
+                -34.789
+              ], 
+              [
+                138.636, 
+                -34.788
+              ], 
+              [
+                138.639, 
+                -34.792
+              ], 
+              [
+                138.637, 
+                -34.792
+              ], 
+              [
+                138.633, 
+                -34.790
+              ], 
+              [
+                138.634, 
+                -34.789
+              ]
             ]
           ]
         ]
@@ -32,23 +38,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510581, 
-        "name": "Parafield Airport", 
         "alias_ENG_V": [
           "Adelaide Parafield Airport"
         ], 
-        "ne_latitude": -34.782, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": 138.647, 
-        "longitude": 138.634, 
-        "placetype": "Airport", 
-        "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
+        "name": "Parafield Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:suburb=22721762", 
+          "woe:state=2344703", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510581, 
+        "ne_longitude": 138.639, 
+        "longitude": 138.636, 
         "parent_woeid": 22721762, 
-        "latitude": -34.789, 
-        "sw_longitude": 138.616, 
+        "ne_latitude": -34.788, 
+        "iso": "AU", 
+        "sw_latitude": -34.792, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": -34.790, 
+        "sw_longitude": 138.633, 
         "fullname": "Parafield Airport, Adelaide, South Australia, Australia", 
-        "sw_latitude": -34.809
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 12510581
     }

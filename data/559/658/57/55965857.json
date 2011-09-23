@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 55965857, 
-        "name": "Strathcona Airport", 
         "alias_ENG_V": [
           "YST"
         ], 
-        "ne_latitude": 53.731, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Strathcona Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375228", 
+          "woe:state=2344915", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 55965857, 
         "ne_longitude": -113.075, 
         "longitude": -113.076, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375228, 
+        "ne_latitude": 53.731, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 8668, 
+        "sw_latitude": 53.725, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.729, 
         "sw_longitude": -113.100, 
-        "fullname": "Strathcona Airport, Fort Saskatchewan, Alberta, Alberta, Canada", 
-        "sw_latitude": 53.725
+        "fullname": "Strathcona Airport, Fort Saskatchewan, Alberta, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 55965857
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516734, 
+        "placetype": "airport", 
         "name": "Prelazovskiy Airport", 
-        "ne_latitude": 49.140, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599563", 
+          "woe:state=2346933", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516734, 
         "ne_longitude": 42.608, 
         "longitude": 42.601, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599563, 
+        "ne_latitude": 49.140, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2122802, 
+        "sw_latitude": 49.131, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.135, 
         "sw_longitude": 42.594, 
         "fullname": "Prelazovskiy Airport, Volgogradskaya Oblast, Kletsky, Russia", 
-        "sw_latitude": 49.131
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516734
     }

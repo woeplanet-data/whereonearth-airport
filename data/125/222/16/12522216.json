@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522216, 
-        "name": "Tulelake Municipal Airport", 
         "alias_ENG_V": [
           "O81"
         ], 
-        "ne_latitude": 41.896, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Tulelake Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587694", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522216, 
         "ne_longitude": -121.352, 
         "longitude": -121.366, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587694, 
+        "ne_latitude": 41.896, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2459409, 
+        "sw_latitude": 41.882, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.892, 
         "sw_longitude": -121.370, 
-        "fullname": "Tulelake Municipal Airport, Newell, California, Modoc, United States", 
-        "sw_latitude": 41.882
+        "fullname": "Tulelake Municipal Airport, Newell, California, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522216
     }

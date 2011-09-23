@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388454, 
-        "name": "Jersey Shore Airport", 
         "alias_ENG_V": [
           "P96"
         ], 
-        "ne_latitude": 41.208, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Jersey Shore Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589768", 
+          "woe:state=2347597", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388454, 
         "ne_longitude": -77.220, 
         "longitude": -77.229, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589768, 
+        "ne_latitude": 41.208, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2355012, 
+        "sw_latitude": 41.205, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.206, 
         "sw_longitude": -77.230, 
-        "fullname": "Jersey Shore Airport, Antes Fort, Pennsylvania, Lycoming, United States", 
-        "sw_latitude": 41.205
+        "fullname": "Jersey Shore Airport, Antes Fort, Pennsylvania, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388454
     }

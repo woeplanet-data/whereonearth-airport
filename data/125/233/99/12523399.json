@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523399, 
-        "name": "Wilkes-Barre-Scranton Municipal Airport", 
         "alias_ENG_V": [
           "SCR Airport"
         ], 
-        "ne_latitude": 41.427, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Wilkes-Barre-Scranton Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589762", 
+          "woe:state=2347597", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523399, 
         "ne_longitude": -75.646, 
         "longitude": -75.652, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589762, 
+        "ne_latitude": 41.427, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2490116, 
+        "sw_latitude": 41.418, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.423, 
         "sw_longitude": -75.658, 
-        "fullname": "Wilkes-Barre-Scranton Municipal Airport, Scranton, Pennsylvania, Lackawanna, United States", 
-        "sw_latitude": 41.418
+        "fullname": "Wilkes-Barre-Scranton Municipal Airport, Scranton, Pennsylvania, United States", 
+        "iata_code": "SCR", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12523399
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520977, 
-        "name": "Mobridge Municipal Airport", 
         "alias_ENG_V": [
           "Mobridge Airport"
         ], 
-        "ne_latitude": 45.551, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Mobridge Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589909", 
+          "woe:state=2347600", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520977, 
         "ne_longitude": -100.400, 
         "longitude": -100.406, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589909, 
+        "ne_latitude": 45.551, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 28340308, 
+        "sw_latitude": 45.541, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.543, 
         "sw_longitude": -100.417, 
-        "fullname": "Mobridge Municipal Airport, Gopher, South Dakota, Walworth, United States", 
-        "sw_latitude": 45.541
+        "fullname": "Mobridge Municipal Airport, Gopher, South Dakota, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520977
     }

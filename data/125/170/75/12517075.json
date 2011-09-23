@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517075, 
+        "placetype": "airport", 
         "name": "Ulanovka Airport", 
-        "ne_latitude": 56.415, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598463", 
+          "woe:state=2346901", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517075, 
         "ne_longitude": 86.090, 
         "longitude": 86.081, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598463, 
+        "ne_latitude": 56.415, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2100116, 
+        "sw_latitude": 56.406, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 56.410, 
         "sw_longitude": 86.073, 
         "fullname": "Ulanovka Airport, Kemerovskaya Oblast, Yaysky, Russia", 
-        "sw_latitude": 56.406
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12517075
     }

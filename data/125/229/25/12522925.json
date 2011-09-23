@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522925, 
+        "placetype": "airport", 
         "name": "Loc Ninh Airport", 
-        "ne_latitude": 11.835, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=20070086", 
+          "woe:country=23424984", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522925, 
         "ne_longitude": 106.591, 
         "longitude": 106.586, 
-        "placetype": "Airport", 
+        "parent_woeid": 20070086, 
+        "ne_latitude": 11.835, 
         "iso": "VN", 
-        "date_indexed": "2010-12-02T08:52:49Z", 
-        "parent_woeid": 1227707, 
+        "sw_latitude": 11.826, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 11.830, 
         "sw_longitude": 106.581, 
         "fullname": "Loc Ninh Airport, Bin Phuoc, Vietnam", 
-        "sw_latitude": 11.826
+        "date_indexed": "2010-12-02T08:52:49Z"
       }, 
       "id": 12522925
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519422, 
-        "name": "Davidson County Airport", 
         "alias_ENG_V": [
           "EXX Airport"
         ], 
-        "ne_latitude": 35.781, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Davidson County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589402", 
+          "woe:state=2347592", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519422, 
         "ne_longitude": -80.300, 
         "longitude": -80.302, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589402, 
+        "ne_latitude": 35.781, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:15Z", 
-        "parent_woeid": 2448751, 
+        "sw_latitude": 35.777, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.779, 
         "sw_longitude": -80.304, 
-        "fullname": "Davidson County Airport, Meadowview, North Carolina, Davidson, United States", 
-        "sw_latitude": 35.777
+        "fullname": "Davidson County Airport, Meadowview, North Carolina, United States", 
+        "date_indexed": "2010-12-02T18:39:15Z"
       }, 
       "id": 12519422
     }

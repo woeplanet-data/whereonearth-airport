@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522364, 
-        "name": "Waycross Ware County Airport", 
         "alias_ENG_V": [
           "AYS Airport"
         ], 
-        "ne_latitude": 31.256, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Waycross Ware County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588017", 
+          "woe:state=2347569", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522364, 
         "ne_longitude": -82.387, 
         "longitude": -82.401, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588017, 
+        "ne_latitude": 31.256, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2419512, 
+        "sw_latitude": 31.241, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 31.255, 
         "sw_longitude": -82.403, 
-        "fullname": "Waycross Ware County Airport, Hebardville, Georgia, Ware, United States", 
-        "sw_latitude": 31.241
+        "fullname": "Waycross Ware County Airport, Hebardville, Georgia, United States", 
+        "iata_code": "AYS", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522364
     }

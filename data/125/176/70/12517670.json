@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "SWE", 
-        "woeid": 12517670, 
+        "placetype": "airport", 
         "name": "Rada Flygplats", 
         "alias_ENG_P": [
           "Rada Airport"
         ], 
-        "ne_latitude": 58.503, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12587389", 
+          "woe:state=20070562", 
+          "woe:country=23424954", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517670, 
         "ne_longitude": 13.066, 
         "longitude": 13.057, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587389, 
+        "ne_latitude": 58.503, 
         "iso": "SE", 
-        "date_indexed": "2010-12-02T16:45:55Z", 
-        "parent_woeid": 902004, 
+        "sw_latitude": 58.494, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 58.499, 
         "sw_longitude": 13.049, 
-        "fullname": "Rada Flygplats, R\u00e5da, Vastra Gotaland, Lidk\u00f6ping, Sweden", 
-        "sw_latitude": 58.494
+        "fullname": "Rada Flygplats, R\u00e5da, Vastra Gotaland, Sweden", 
+        "date_indexed": "2010-12-02T16:45:55Z"
       }, 
       "id": 12517670
     }

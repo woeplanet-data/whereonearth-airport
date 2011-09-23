@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29387930, 
+        "placetype": "airport", 
         "name": "Pine City Municipal Airport", 
-        "ne_latitude": 45.853, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12588854", 
+          "woe:state=2347582", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29387930, 
         "ne_longitude": -92.955, 
         "longitude": -92.955, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588854, 
+        "ne_latitude": 45.853, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2471972, 
+        "sw_latitude": 45.843, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.845, 
         "sw_longitude": -92.957, 
-        "fullname": "Pine City Municipal Airport, Pine City, Minnesota, Pine, United States", 
-        "sw_latitude": 45.843
+        "fullname": "Pine City Municipal Airport, Pine City, Minnesota, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29387930
     }

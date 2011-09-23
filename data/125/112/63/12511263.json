@@ -32,29 +32,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511263, 
-        "name": "Aeroporto Municipal de Pato Branco", 
-        "alias_ENG_P": [
-          "Pato Branco Municipal Airport"
-        ], 
-        "ne_latitude": -26.213, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "Pato Branco Airport"
         ], 
+        "name": "Aeroporto Municipal de Pato Branco", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Pato Branco Municipal Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12580610", 
+          "woe:state=2344859", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511263, 
         "ne_longitude": -52.689, 
         "longitude": -52.694, 
-        "placetype": "Airport", 
+        "parent_woeid": 12580610, 
+        "ne_latitude": -26.213, 
         "alias_POR_V": [
           "Aeroporto PTO"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 457765, 
+        "sw_latitude": -26.222, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -26.217, 
         "sw_longitude": -52.699, 
-        "fullname": "Aeroporto Municipal de Pato Branco, Pato Branco, Parana, Pato Branco, Brazil", 
-        "sw_latitude": -26.222
+        "fullname": "Aeroporto Municipal de Pato Branco, Pato Branco, Parana, Brazil", 
+        "iata_code": "PTO", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511263
     }

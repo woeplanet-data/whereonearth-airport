@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513751, 
+        "placetype": "airport", 
         "name": "Ramsar Airport", 
-        "ne_latitude": 36.915, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345780", 
+          "woe:country=23424851", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513751, 
         "ne_longitude": 50.686, 
         "longitude": 50.681, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345780, 
+        "ne_latitude": 36.915, 
         "iso": "IR", 
-        "date_indexed": "2010-12-02T08:53:52Z", 
-        "parent_woeid": 2246750, 
+        "sw_latitude": 36.906, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.911, 
         "sw_longitude": 50.675, 
         "fullname": "Ramsar Airport, Sakht Sar, Mazandaran, Iran", 
-        "sw_latitude": 36.906
+        "iata_code": "RZR", 
+        "date_indexed": "2010-12-02T08:53:52Z"
       }, 
       "id": 12513751
     }

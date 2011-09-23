@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522428, 
-        "name": "Whiteriver Airport", 
         "alias_ENG_V": [
           "E24"
         ], 
-        "ne_latitude": 33.821, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Whiteriver Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587589", 
+          "woe:state=2347561", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522428, 
         "ne_longitude": -109.980, 
         "longitude": -109.990, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587589, 
+        "ne_latitude": 33.821, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2519749, 
+        "sw_latitude": 33.803, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 33.808, 
         "sw_longitude": -109.993, 
-        "fullname": "Whiteriver Airport, Whiteriver, Arizona, Navajo, United States", 
-        "sw_latitude": 33.803
+        "fullname": "Whiteriver Airport, Whiteriver, Arizona, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522428
     }

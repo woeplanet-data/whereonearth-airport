@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516815, 
+        "placetype": "airport", 
         "name": "Samburg Airport", 
-        "ne_latitude": 67.004, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599473", 
+          "woe:state=20070525", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516815, 
         "ne_longitude": 78.253, 
         "longitude": 78.241, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599473, 
+        "ne_latitude": 67.004, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2077811, 
+        "sw_latitude": 66.995, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 66.999, 
         "sw_longitude": 78.230, 
         "fullname": "Samburg Airport, Yamalo-Nenetskiy Avtonomnyy Okrug, Purovsky, Russia", 
-        "sw_latitude": 66.995
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516815
     }

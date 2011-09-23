@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29387838, 
-        "name": "Seaside Municipal Airport", 
         "alias_ENG_V": [
           "56s"
         ], 
-        "ne_latitude": 46.018, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Seaside Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589695", 
+          "woe:state=2347596", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29387838, 
         "ne_longitude": -123.908, 
         "longitude": -123.911, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589695, 
+        "ne_latitude": 46.018, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2409391, 
+        "sw_latitude": 46.015, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.016, 
         "sw_longitude": -123.913, 
-        "fullname": "Seaside Municipal Airport, Gearhart, Oregon, Clatsop, United States", 
-        "sw_latitude": 46.015
+        "fullname": "Seaside Municipal Airport, Gearhart, Oregon, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 29387838
     }

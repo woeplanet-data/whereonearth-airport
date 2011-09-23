@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521737, 
+        "placetype": "airport", 
         "name": "Sandusky City Airport", 
-        "ne_latitude": 43.459, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12588787", 
+          "woe:state=2347581", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521737, 
         "ne_longitude": -82.843, 
         "longitude": -82.849, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588787, 
+        "ne_latitude": 43.459, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2488532, 
+        "sw_latitude": 43.450, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.454, 
         "sw_longitude": -82.856, 
-        "fullname": "Sandusky City Airport, Sandusky, Michigan, Sanilac, United States", 
-        "sw_latitude": 43.450
+        "fullname": "Sandusky City Airport, Sandusky, Michigan, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521737
     }

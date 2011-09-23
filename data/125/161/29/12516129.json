@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516129, 
+        "placetype": "airport", 
         "name": "Kezhma Airport", 
-        "ne_latitude": 58.974, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597858", 
+          "woe:state=20070524", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516129, 
         "ne_longitude": 101.154, 
         "longitude": 101.145, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597858, 
+        "ne_latitude": 58.974, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2121297, 
+        "sw_latitude": 58.965, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 58.970, 
         "sw_longitude": 101.136, 
-        "fullname": "Kezhma Airport, Kezhma, Krasnoyarskiy Kray, Kezhemsky, Russia", 
-        "sw_latitude": 58.965
+        "fullname": "Kezhma Airport, Kezhma, Krasnoyarskiy Kray, Russia", 
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516129
     }

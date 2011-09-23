@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514567, 
+        "placetype": "airport", 
         "name": "Cesis Airport", 
-        "ne_latitude": 57.330, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55844407", 
+          "woe:state=56190584", 
+          "woe:country=23424874", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514567, 
         "ne_longitude": 25.347, 
         "longitude": 25.338, 
-        "placetype": "Airport", 
+        "parent_woeid": 55844407, 
+        "ne_latitude": 57.330, 
         "iso": "LV", 
-        "date_indexed": "2010-12-02T08:49:48Z", 
-        "parent_woeid": 854621, 
+        "sw_latitude": 57.321, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 57.326, 
         "sw_longitude": 25.330, 
         "fullname": "Cesis Airport, Cesu Rajons, Priekuau Pagasts, Latvia", 
-        "sw_latitude": 57.321
+        "date_indexed": "2010-12-02T08:49:48Z"
       }, 
       "id": 12514567
     }

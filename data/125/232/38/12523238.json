@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523238, 
-        "name": "Santa Cruz Island Airport", 
         "alias_ENG_V": [
           "Santa Cruz Island"
         ], 
-        "ne_latitude": 34.021, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Santa Cruz Island Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587711", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523238, 
         "ne_longitude": -119.745, 
         "longitude": -119.750, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587711, 
+        "ne_latitude": 34.021, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2488828, 
+        "sw_latitude": 34.012, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 34.017, 
         "sw_longitude": -119.755, 
-        "fullname": "Santa Cruz Island Airport, Santa Barbara, California, Santa Barbara, United States", 
-        "sw_latitude": 34.012
+        "fullname": "Santa Cruz Island Airport, Santa Barbara, California, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12523238
     }

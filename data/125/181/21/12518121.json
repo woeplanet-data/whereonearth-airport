@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518121, 
+        "placetype": "airport", 
         "name": "Llanbedr Airport", 
-        "ne_latitude": 52.816, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12696126", 
+          "woe:county=12602221", 
+          "woe:state=12578049", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518121, 
         "ne_longitude": -4.117, 
         "longitude": -4.125, 
-        "placetype": "Airport", 
+        "parent_woeid": 12696126, 
+        "ne_latitude": 52.816, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:21:01Z", 
-        "parent_woeid": 26771, 
+        "sw_latitude": 52.807, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 52.812, 
         "sw_longitude": -4.132, 
-        "fullname": "Llanbedr Airport, Llanbedr, Wales, Gwynedd, United Kingdom", 
-        "sw_latitude": 52.807
+        "fullname": "Llanbedr Airport, Llanbedr, Wales, United Kingdom", 
+        "date_indexed": "2010-12-02T12:21:01Z"
       }, 
       "id": 12518121
     }

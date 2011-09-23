@@ -3,28 +3,42 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -56.129, 
-              -15.661
-            ], 
-            [
-              -56.129, 
-              -15.638
-            ], 
-            [
-              -56.105, 
-              -15.638
-            ], 
-            [
-              -56.105, 
-              -15.661
-            ], 
-            [
-              -56.129, 
-              -15.661
+              [
+                -56.120, 
+                -15.652
+              ], 
+              [
+                -56.120, 
+                -15.650
+              ], 
+              [
+                -56.119, 
+                -15.651
+              ], 
+              [
+                -56.118, 
+                -15.651
+              ], 
+              [
+                -56.116, 
+                -15.653
+              ], 
+              [
+                -56.118, 
+                -15.656
+              ], 
+              [
+                -56.118, 
+                -15.654
+              ], 
+              [
+                -56.120, 
+                -15.652
+              ]
             ]
           ]
         ]
@@ -32,29 +46,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511228, 
-        "name": "Aeroporto Internacional Marechal Rondon", 
-        "alias_ENG_P": [
-          "Marechal Rondon International Airport"
-        ], 
-        "ne_latitude": -15.638, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "CGB"
         ], 
-        "ne_longitude": -56.105, 
-        "longitude": -56.117, 
-        "placetype": "Airport", 
+        "name": "Aeroporto Internacional Marechal Rondon", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Marechal Rondon International Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12579400", 
+          "woe:state=2344855", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511228, 
+        "ne_longitude": -56.116, 
+        "longitude": -56.118, 
+        "parent_woeid": 12579400, 
+        "ne_latitude": -15.650, 
         "alias_POR_V": [
           "Aeroporto CGB"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 455920, 
-        "latitude": -15.650, 
-        "sw_longitude": -56.129, 
-        "fullname": "Aeroporto Internacional Marechal Rondon, V\u00e1rzea Grande, Mato Grosso, V\u00e1rzea Grande, Brazil", 
-        "sw_latitude": -15.661
+        "sw_latitude": -15.656, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": -15.653, 
+        "sw_longitude": -56.120, 
+        "fullname": "Aeroporto Internacional Marechal Rondon, V\u00e1rzea Grande, Mato Grosso, Brazil", 
+        "iata_code": "CGB", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511228
     }

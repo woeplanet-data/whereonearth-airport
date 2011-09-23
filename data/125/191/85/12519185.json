@@ -3,28 +3,90 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -117.651, 
-              33.968
-            ], 
-            [
-              -117.651, 
-              33.983
-            ], 
-            [
-              -117.622, 
-              33.983
-            ], 
-            [
-              -117.622, 
-              33.968
-            ], 
-            [
-              -117.651, 
-              33.968
+              [
+                -117.641, 
+                33.982
+              ], 
+              [
+                -117.640, 
+                33.983
+              ], 
+              [
+                -117.639, 
+                33.983
+              ], 
+              [
+                -117.638, 
+                33.984
+              ], 
+              [
+                -117.635, 
+                33.982
+              ], 
+              [
+                -117.630, 
+                33.984
+              ], 
+              [
+                -117.631, 
+                33.981
+              ], 
+              [
+                -117.630, 
+                33.976
+              ], 
+              [
+                -117.633, 
+                33.974
+              ], 
+              [
+                -117.634, 
+                33.974
+              ], 
+              [
+                -117.638, 
+                33.971
+              ], 
+              [
+                -117.638, 
+                33.972
+              ], 
+              [
+                -117.639, 
+                33.974
+              ], 
+              [
+                -117.642, 
+                33.975
+              ], 
+              [
+                -117.644, 
+                33.973
+              ], 
+              [
+                -117.649, 
+                33.976
+              ], 
+              [
+                -117.647, 
+                33.980
+              ], 
+              [
+                -117.647, 
+                33.981
+              ], 
+              [
+                -117.645, 
+                33.983
+              ], 
+              [
+                -117.641, 
+                33.982
+              ]
             ]
           ]
         ]
@@ -32,23 +94,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519185, 
-        "name": "Chino Airport", 
         "alias_ENG_V": [
           "CNO"
         ], 
-        "ne_latitude": 33.983, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -117.622, 
+        "name": "Chino Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587705", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519185, 
+        "ne_longitude": -117.630, 
         "longitude": -117.639, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587705, 
+        "ne_latitude": 33.984, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2379876, 
-        "latitude": 33.982, 
-        "sw_longitude": -117.651, 
-        "fullname": "Chino Airport, Chino, California, San Bernardino, United States", 
-        "sw_latitude": 33.968
+        "sw_latitude": 33.971, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 33.978, 
+        "sw_longitude": -117.649, 
+        "fullname": "Chino Airport, Chino, California, United States", 
+        "iata_code": "CNO", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519185
     }

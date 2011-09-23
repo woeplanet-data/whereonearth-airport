@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523151, 
-        "name": "Kaikoura Airport", 
         "alias_ENG_V": [
           "KBZ Airport"
         ], 
-        "ne_latitude": -42.412, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Kaikoura Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55875884", 
+          "woe:state=15021751", 
+          "woe:country=23424916", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523151, 
         "ne_longitude": 173.706, 
         "longitude": 173.700, 
-        "placetype": "Airport", 
+        "parent_woeid": 55875884, 
+        "ne_latitude": -42.412, 
         "iso": "NZ", 
-        "date_indexed": "2010-12-02T17:02:39Z", 
-        "parent_woeid": 2348927, 
+        "sw_latitude": -42.421, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -42.417, 
         "sw_longitude": 173.694, 
-        "fullname": "Kaikoura Airport, Kaikoura, Canterbury, Kaikoura District, New Zealand", 
-        "sw_latitude": -42.421
+        "fullname": "Kaikoura Airport, Kaikoura, Canterbury, New Zealand", 
+        "date_indexed": "2010-12-02T17:02:39Z"
       }, 
       "id": 12523151
     }

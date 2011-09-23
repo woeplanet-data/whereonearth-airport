@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513304, 
-        "name": "Larisa Airport", 
         "alias_ENG_V": [
           "LRA"
         ], 
-        "ne_latitude": 39.655, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Larisa Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=24543909", 
+          "woe:county=12591131", 
+          "woe:state=12577889", 
+          "woe:country=23424833", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513304, 
         "ne_longitude": 22.470, 
         "longitude": 22.464, 
-        "placetype": "Airport", 
+        "parent_woeid": 24543909, 
+        "ne_latitude": 39.655, 
         "iso": "GR", 
-        "date_indexed": "2010-12-02T16:52:14Z", 
-        "parent_woeid": 955058, 
+        "sw_latitude": 39.646, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 39.651, 
         "sw_longitude": 22.458, 
-        "fullname": "Larisa Airport, Larisa, Thessalia, Larissa, Greece", 
-        "sw_latitude": 39.646
+        "fullname": "Larisa Airport, Larisa, Thessalia, Greece", 
+        "iata_code": "LRA", 
+        "date_indexed": "2010-12-02T16:52:14Z"
       }, 
       "id": 12513304
     }

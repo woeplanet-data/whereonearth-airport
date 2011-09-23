@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522614, 
+        "placetype": "airport", 
         "name": "Fergana Southwest Airport", 
-        "ne_latitude": 40.310, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2347662", 
+          "woe:country=23424980", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522614, 
         "ne_longitude": 71.722, 
         "longitude": 71.716, 
-        "placetype": "Airport", 
+        "parent_woeid": 2347662, 
+        "ne_latitude": 40.310, 
         "iso": "UZ", 
-        "date_indexed": "2010-12-02T18:18:54Z", 
-        "parent_woeid": 2270088, 
+        "sw_latitude": 40.300, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.305, 
         "sw_longitude": 71.710, 
         "fullname": "Fergana Southwest Airport, Farghona, Farghona, Uzbekistan", 
-        "sw_latitude": 40.300
+        "date_indexed": "2010-12-02T18:18:54Z"
       }, 
       "id": 12522614
     }

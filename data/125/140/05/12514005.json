@@ -32,29 +32,35 @@
       "type": "Feature", 
       "properties": {
         "lang": "JPN", 
-        "woeid": 12514005, 
-        "name": "\u5ca1\u5c71\u7a7a\u6e2f", 
         "alias_ENG_V": [
           "OKJ Airport"
         ], 
+        "name": "\u5ca1\u5c71\u7a7a\u6e2f", 
         "alias_ENG_P": [
           "Okayama Airport"
         ], 
-        "ne_latitude": 34.762, 
+        "parent_woeid": 2345880, 
+        "woeid": 12514005, 
+        "provider": "geoplanet 7.6.0", 
         "alias_JPN_V": [
           "\u30aa\u30ab\u30e4\u30de\u30af\u30a6\u30b3\u30a6"
         ], 
-        "ne_longitude": 133.860, 
         "longitude": 133.855, 
-        "parent_woeid": 90036018, 
-        "placetype": "Airport", 
+        "ne_longitude": 133.860, 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2345880", 
+          "woe:country=23424856", 
+          "woe:planet=1"
+        ], 
         "iso": "JP", 
-        "date_indexed": "2010-12-02T08:09:08Z", 
-        "provider": "geoplanet 7.6.0", 
+        "sw_latitude": 34.753, 
+        "ne_latitude": 34.762, 
         "latitude": 34.758, 
         "sw_longitude": 133.849, 
         "fullname": "\u5ca1\u5c71\u7a7a\u6e2f, Okayama-shi, Okayama Prefecture, Japan", 
-        "sw_latitude": 34.753
+        "iata_code": "OKJ", 
+        "date_indexed": "2010-12-02T08:09:08Z"
       }, 
       "id": 12514005
     }

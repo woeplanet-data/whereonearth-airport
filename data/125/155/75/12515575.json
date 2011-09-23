@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515575, 
+        "placetype": "airport", 
         "name": "Siret Airport", 
-        "ne_latitude": 47.948, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2346647", 
+          "woe:country=23424933", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515575, 
         "ne_longitude": 26.113, 
         "longitude": 26.107, 
-        "placetype": "Airport", 
+        "parent_woeid": 2346647, 
+        "ne_latitude": 47.948, 
         "iso": "RO", 
-        "date_indexed": "2010-12-02T16:37:48Z", 
-        "parent_woeid": 877056, 
+        "sw_latitude": 47.939, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.943, 
         "sw_longitude": 26.100, 
         "fullname": "Siret Airport, Suceava, Romania", 
-        "sw_latitude": 47.939
+        "date_indexed": "2010-12-02T16:37:48Z"
       }, 
       "id": 12515575
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515721, 
+        "placetype": "airport", 
         "name": "Aramil Airport", 
-        "ne_latitude": 56.708, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599342", 
+          "woe:state=2346926", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515721, 
         "ne_longitude": 60.798, 
         "longitude": 60.790, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599342, 
+        "ne_latitude": 56.708, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2063205, 
+        "sw_latitude": 56.699, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 56.703, 
         "sw_longitude": 60.782, 
         "fullname": "Aramil Airport, Sverdlovskaya Oblast, Sysertsky, Russia", 
-        "sw_latitude": 56.699
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12515721
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516200, 
+        "placetype": "airport", 
         "name": "Kodachi Airport", 
-        "ne_latitude": 62.449, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597438", 
+          "woe:state=2346873", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516200, 
         "ne_longitude": 35.863, 
         "longitude": 35.853, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597438, 
+        "ne_latitude": 62.449, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2072899, 
+        "sw_latitude": 62.439, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 62.444, 
         "sw_longitude": 35.843, 
         "fullname": "Kodachi Airport, Kareliya, Pudozhsky, Russia", 
-        "sw_latitude": 62.439
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516200
     }

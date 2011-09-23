@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388289, 
-        "name": "Miller Airport", 
         "alias_ENG_V": [
           "C40"
         ], 
-        "ne_latitude": 40.720, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Miller Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588269", 
+          "woe:state=2347573", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388289, 
         "ne_longitude": -85.241, 
         "longitude": -85.251, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588269, 
+        "ne_latitude": 40.720, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2439018, 
+        "sw_latitude": 40.712, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.713, 
         "sw_longitude": -85.251, 
-        "fullname": "Miller Airport, Liberty Center, Indiana, Wells, United States", 
-        "sw_latitude": 40.712
+        "fullname": "Miller Airport, Liberty Center, Indiana, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388289
     }

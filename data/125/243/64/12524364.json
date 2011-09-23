@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524364, 
-        "name": "Yoro Airport", 
         "alias_ENG_V": [
           "ORO"
         ], 
-        "ne_latitude": 15.130, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Yoro Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26813881", 
+          "woe:state=2345640", 
+          "woe:country=23424841", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524364, 
         "ne_longitude": -87.137, 
         "longitude": -87.142, 
-        "placetype": "Airport", 
+        "parent_woeid": 26813881, 
+        "ne_latitude": 15.130, 
         "iso": "HN", 
-        "date_indexed": "2010-12-02T19:21:06Z", 
-        "parent_woeid": 108123, 
+        "sw_latitude": 15.120, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 15.125, 
         "sw_longitude": -87.146, 
-        "fullname": "Yoro Airport, Yoro, Yoro, Yoro, Honduras", 
-        "sw_latitude": 15.120
+        "fullname": "Yoro Airport, Yoro, Yoro, Honduras", 
+        "iata_code": "ORO", 
+        "date_indexed": "2010-12-02T19:21:06Z"
       }, 
       "id": 12524364
     }

@@ -32,7 +32,9 @@
       "type": "Feature", 
       "properties": {
         "lang": "SWE", 
-        "woeid": 12517648, 
+        "alias_ENG_V": [
+          "KSK"
+        ], 
         "alias_SWE_V": [
           "KSK Flygplats"
         ], 
@@ -40,21 +42,25 @@
         "alias_ENG_P": [
           "Karlskoga Airport"
         ], 
-        "ne_latitude": 59.358, 
-        "provider": "geoplanet 7.6.0", 
-        "alias_ENG_V": [
-          "KSK"
+        "hierarchy": [
+          "woe:county=12587360", 
+          "woe:state=2347058", 
+          "woe:country=23424954", 
+          "woe:planet=1"
         ], 
+        "woeid": 12517648, 
+        "provider": "geoplanet 7.6.0", 
         "ne_longitude": 14.514, 
         "longitude": 14.494, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587360, 
+        "placetype": "airport", 
         "iso": "SE", 
-        "date_indexed": "2010-12-02T16:45:55Z", 
-        "parent_woeid": 894951, 
+        "sw_latitude": 59.337, 
+        "ne_latitude": 59.358, 
         "latitude": 59.341, 
         "sw_longitude": 14.479, 
-        "fullname": "Karlskoga Flygplats, Breg\u00e5rds\u00e4ngarna, Orebro, Karlskoga, Sweden", 
-        "sw_latitude": 59.337
+        "fullname": "Karlskoga Flygplats, Breg\u00e5rds\u00e4ngarna, Orebro, Sweden", 
+        "date_indexed": "2010-12-02T16:45:55Z"
       }, 
       "id": 12517648
     }

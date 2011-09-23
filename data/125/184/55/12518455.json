@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518455, 
+        "placetype": "airport", 
         "name": "Ulyanovka Airport", 
-        "ne_latitude": 48.335, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2347543", 
+          "woe:country=23424976", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518455, 
         "ne_longitude": 30.237, 
         "longitude": 30.230, 
-        "placetype": "Airport", 
+        "parent_woeid": 2347543, 
+        "ne_latitude": 48.335, 
         "iso": "UA", 
-        "date_indexed": "2010-12-02T08:52:39Z", 
-        "parent_woeid": 936766, 
+        "sw_latitude": 48.326, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.330, 
         "sw_longitude": 30.223, 
         "fullname": "Ulyanovka Airport, Kirovohrad Oblast, Ukraine", 
-        "sw_latitude": 48.326
+        "date_indexed": "2010-12-02T08:52:39Z"
       }, 
       "id": 12518455
     }

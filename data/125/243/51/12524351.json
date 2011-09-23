@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524351, 
-        "name": "Ahuas Airport", 
         "alias_ENG_V": [
           "AHS"
         ], 
-        "ne_latitude": 15.458, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Ahuas Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26813585", 
+          "woe:state=2345631", 
+          "woe:country=23424841", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524351, 
         "ne_longitude": -84.399, 
         "longitude": -84.404, 
-        "placetype": "Airport", 
+        "parent_woeid": 26813585, 
+        "ne_latitude": 15.458, 
         "iso": "HN", 
-        "date_indexed": "2010-12-02T19:21:06Z", 
-        "parent_woeid": 98140, 
+        "sw_latitude": 15.449, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 15.453, 
         "sw_longitude": -84.409, 
-        "fullname": "Ahuas Airport, Auas, Gracias a Dios, Ahuas, Honduras", 
-        "sw_latitude": 15.449
+        "fullname": "Ahuas Airport, Auas, Gracias a Dios, Honduras", 
+        "iata_code": "AHS", 
+        "date_indexed": "2010-12-02T19:21:06Z"
       }, 
       "id": 12524351
     }

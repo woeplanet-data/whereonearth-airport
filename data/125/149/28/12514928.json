@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514928, 
+        "placetype": "airport", 
         "name": "Ojito Airport", 
-        "ne_latitude": 26.736, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599968", 
+          "woe:state=2346273", 
+          "woe:country=23424900", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514928, 
         "ne_longitude": -106.044, 
         "longitude": -106.049, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599968, 
+        "ne_latitude": 26.736, 
         "iso": "MX", 
-        "date_indexed": "2010-12-02T16:57:55Z", 
-        "parent_woeid": 121181, 
+        "sw_latitude": 26.727, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 26.732, 
         "sw_longitude": -106.054, 
-        "fullname": "Ojito Airport, El Ojito, Durango, Ocampo, Mexico", 
-        "sw_latitude": 26.727
+        "fullname": "Ojito Airport, El Ojito, Durango, Mexico", 
+        "date_indexed": "2010-12-02T16:57:55Z"
       }, 
       "id": 12514928
     }

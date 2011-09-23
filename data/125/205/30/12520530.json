@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520530, 
-        "name": "Lake in the Hills Airport", 
         "alias_ENG_V": [
           "Lk in the Hills Airport"
         ], 
-        "ne_latitude": 42.210, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Lake in the Hills Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588140", 
+          "woe:state=2347572", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520530, 
         "ne_longitude": -88.315, 
         "longitude": -88.316, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588140, 
+        "ne_latitude": 42.210, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2434969, 
+        "sw_latitude": 42.204, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.207, 
         "sw_longitude": -88.332, 
-        "fullname": "Lake in the Hills Airport, Lake in the Hills, Illinois, Mchenry, United States", 
-        "sw_latitude": 42.204
+        "fullname": "Lake in the Hills Airport, Lake in the Hills, Illinois, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520530
     }

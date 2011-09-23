@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523277, 
-        "name": "Green Lake Water Aerodrome", 
         "alias_ENG_V": [
           "YWS Airport"
         ], 
-        "ne_latitude": 50.138, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Green Lake Water Aerodrome", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375187", 
+          "woe:state=2344916", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523277, 
         "ne_longitude": -122.943, 
         "longitude": -122.950, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375187, 
+        "ne_latitude": 50.138, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 23405148, 
+        "sw_latitude": 50.129, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.133, 
         "sw_longitude": -122.957, 
-        "fullname": "Green Lake Water Aerodrome, Whistler, British Columbia, Squamish-Lillooet, Canada", 
-        "sw_latitude": 50.129
+        "fullname": "Green Lake Water Aerodrome, Whistler, British Columbia, Canada", 
+        "iata_code": "YWS", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12523277
     }

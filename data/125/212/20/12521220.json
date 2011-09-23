@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521220, 
-        "name": "Olney-Noble Airport", 
         "alias_ENG_V": [
           "Olney-Noble"
         ], 
-        "ne_latitude": 38.719, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Olney-Noble Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588157", 
+          "woe:state=2347572", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521220, 
         "ne_longitude": -88.171, 
         "longitude": -88.175, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588157, 
+        "ne_latitude": 38.719, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2460168, 
+        "sw_latitude": 38.713, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.716, 
         "sw_longitude": -88.179, 
-        "fullname": "Olney-Noble Airport, Noble, Illinois, Richland, United States", 
-        "sw_latitude": 38.713
+        "fullname": "Olney-Noble Airport, Noble, Illinois, United States", 
+        "iata_code": "OLY", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521220
     }

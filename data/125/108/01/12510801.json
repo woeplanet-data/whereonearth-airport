@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510801, 
-        "name": "Tumut Aerodrome", 
         "alias_ENG_V": [
           "Tumut Airport"
         ], 
-        "ne_latitude": -35.263, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Tumut Aerodrome", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55863784", 
+          "woe:state=2344700", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510801, 
         "ne_longitude": 148.242, 
         "longitude": 148.239, 
-        "placetype": "Airport", 
+        "parent_woeid": 55863784, 
+        "ne_latitude": -35.263, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 28584155, 
+        "sw_latitude": -35.273, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -35.266, 
         "sw_longitude": 148.238, 
-        "fullname": "Tumut Aerodrome, Bombowlee, New South Wales, Tumut, Australia", 
-        "sw_latitude": -35.273
+        "fullname": "Tumut Aerodrome, Bombowlee, New South Wales, Australia", 
+        "iata_code": "TUM", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 12510801
     }

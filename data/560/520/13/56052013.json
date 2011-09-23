@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 56052013, 
+        "placetype": "airport", 
         "name": "Flugplatz Schweighofen", 
-        "ne_latitude": 49.033, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12627577", 
+          "woe:county=12596937", 
+          "woe:state=2345488", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56052013, 
         "ne_longitude": 7.998, 
         "longitude": 7.997, 
-        "placetype": "Airport", 
+        "parent_woeid": 12627577, 
+        "ne_latitude": 49.033, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 667382, 
+        "sw_latitude": 49.030, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.032, 
         "sw_longitude": 7.986, 
-        "fullname": "Flugplatz Schweighofen, Klingenm\u00fcnster, Rhineland-Palatinate, S\u00fcdliche Weinstra\u00dfe, Germany", 
-        "sw_latitude": 49.030
+        "fullname": "Flugplatz Schweighofen, Klingenm\u00fcnster, Rhineland-Palatinate, Germany", 
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 56052013
     }

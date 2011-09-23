@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29387998, 
-        "name": "Fordville Airport", 
         "alias_ENG_V": [
           "Nd14"
         ], 
-        "ne_latitude": 48.238, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Fordville Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589523", 
+          "woe:state=2347593", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29387998, 
         "ne_longitude": -97.795, 
         "longitude": -97.796, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589523, 
+        "ne_latitude": 48.238, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2404982, 
+        "sw_latitude": 48.231, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.237, 
         "sw_longitude": -97.806, 
-        "fullname": "Fordville Airport, Fordville, North Dakota, Walsh, United States", 
-        "sw_latitude": 48.231
+        "fullname": "Fordville Airport, Fordville, North Dakota, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29387998
     }

@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517488, 
+        "placetype": "airport", 
         "name": "Tzaneen Airport", 
-        "ne_latitude": -23.815, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=56189559", 
+          "woe:county=56189406", 
+          "woe:state=2346986", 
+          "woe:country=23424942", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517488, 
         "ne_longitude": 30.333, 
         "longitude": 30.328, 
-        "placetype": "Airport", 
+        "parent_woeid": 56189559, 
+        "ne_latitude": -23.815, 
         "iso": "ZA", 
-        "date_indexed": "2010-12-02T08:57:52Z", 
-        "parent_woeid": 1585946, 
+        "sw_latitude": -23.825, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -23.820, 
         "sw_longitude": 30.323, 
         "fullname": "Tzaneen Airport, Limpopo, Limpopo Rural, South Africa", 
-        "sw_latitude": -23.825
+        "date_indexed": "2010-12-02T08:57:52Z"
       }, 
       "id": 12517488
     }

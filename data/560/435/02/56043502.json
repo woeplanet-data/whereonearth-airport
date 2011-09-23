@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 56043502, 
+        "placetype": "airport", 
         "name": "Mount Keith Airport", 
-        "ne_latitude": -27.280, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55864022", 
+          "woe:state=2344706", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56043502, 
         "ne_longitude": 120.563, 
         "longitude": 120.549, 
-        "placetype": "Airport", 
+        "parent_woeid": 55864022, 
+        "ne_latitude": -27.280, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1106702, 
+        "sw_latitude": -27.291, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -27.283, 
         "sw_longitude": 120.544, 
-        "fullname": "Mount Keith Airport, Wiluna, Western Australia, Wiluna, Australia", 
-        "sw_latitude": -27.291
+        "fullname": "Mount Keith Airport, Wiluna, Western Australia, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 56043502
     }

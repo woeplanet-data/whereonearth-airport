@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 56051686, 
+        "placetype": "airport", 
         "name": "Flugplatz Leoben-timmersdorf", 
-        "ne_latitude": 47.382, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12675231", 
+          "woe:county=12591737", 
+          "woe:state=2344713", 
+          "woe:country=23424750", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56051686, 
         "ne_longitude": 14.970, 
         "longitude": 14.967, 
-        "placetype": "Airport", 
+        "parent_woeid": 12675231, 
+        "ne_latitude": 47.382, 
         "iso": "AT", 
-        "date_indexed": "2010-12-02T16:35:40Z", 
-        "parent_woeid": 550077, 
+        "sw_latitude": 47.378, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.378, 
         "sw_longitude": 14.959, 
-        "fullname": "Flugplatz Leoben-timmersdorf, Timmersdorf, Styria, Leoben, Austria", 
-        "sw_latitude": 47.378
+        "fullname": "Flugplatz Leoben-timmersdorf, Timmersdorf, Styria, Austria", 
+        "date_indexed": "2010-12-02T16:35:40Z"
       }, 
       "id": 56051686
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510898, 
+        "placetype": "airport", 
         "name": "Bihac Airport", 
-        "ne_latitude": 44.850, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=24551286", 
+          "woe:state=24549661", 
+          "woe:country=23424761", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510898, 
         "ne_longitude": 15.791, 
         "longitude": 15.785, 
-        "placetype": "Airport", 
+        "parent_woeid": 24551286, 
+        "ne_latitude": 44.850, 
         "iso": "BA", 
-        "date_indexed": "2010-12-02T12:15:52Z", 
-        "parent_woeid": 942108, 
+        "sw_latitude": 44.840, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.845, 
         "sw_longitude": 15.778, 
         "fullname": "Bihac Airport, Bosnia and Herzegovina", 
-        "sw_latitude": 44.840
+        "date_indexed": "2010-12-02T12:15:52Z"
       }, 
       "id": 12510898
     }

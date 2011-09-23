@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521172, 
-        "name": "Nrao Green Bank Airport", 
         "alias_ENG_V": [
           "Wv52"
         ], 
-        "ne_latitude": 38.434, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Nrao Green Bank Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590516", 
+          "woe:state=2347607", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521172, 
         "ne_longitude": -79.818, 
         "longitude": -79.819, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590516, 
+        "ne_latitude": 38.434, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2413743, 
+        "sw_latitude": 38.428, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.428, 
         "sw_longitude": -79.832, 
-        "fullname": "Nrao Green Bank Airport, Green Bank, West Virginia, Pocahontas, United States", 
-        "sw_latitude": 38.428
+        "fullname": "Nrao Green Bank Airport, Green Bank, West Virginia, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521172
     }

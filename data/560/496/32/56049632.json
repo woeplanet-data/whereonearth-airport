@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 56049632, 
+        "placetype": "airport", 
         "name": "Aeroporto Di Calcinate Del Pesce", 
-        "ne_latitude": 45.811, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12677586", 
+          "woe:county=12591884", 
+          "woe:state=7153338", 
+          "woe:country=23424853", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56049632, 
         "ne_longitude": 8.775, 
         "longitude": 8.772, 
-        "placetype": "Airport", 
+        "parent_woeid": 12677586, 
+        "ne_latitude": 45.811, 
         "iso": "IT", 
-        "date_indexed": "2010-12-02T16:30:51Z", 
-        "parent_woeid": 20114252, 
+        "sw_latitude": 45.808, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.810, 
         "sw_longitude": 8.768, 
-        "fullname": "Aeroporto Di Calcinate Del Pesce, Calcinate del Pesce, Lombardy, Varese, Italy", 
-        "sw_latitude": 45.808
+        "fullname": "Aeroporto Di Calcinate Del Pesce, Calcinate del Pesce, Lombardy, Italy", 
+        "date_indexed": "2010-12-02T16:30:51Z"
       }, 
       "id": 56049632
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515905, 
+        "placetype": "airport", 
         "name": "Chernyakhovsk South Airport", 
-        "ne_latitude": 54.486, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598336", 
+          "woe:state=2346938", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515905, 
         "ne_longitude": 21.811, 
         "longitude": 21.803, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598336, 
+        "ne_latitude": 54.486, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2125451, 
+        "sw_latitude": 54.477, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 54.481, 
         "sw_longitude": 21.796, 
         "fullname": "Chernyakhovsk South Airport, Kaliningradskaya Oblast, Ozersky, Russia", 
-        "sw_latitude": 54.477
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12515905
     }

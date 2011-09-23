@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 22458271, 
-        "name": "Campbeltown Airport", 
         "alias_ENG_V": [
           "CAL Airport"
         ], 
-        "ne_latitude": 55.442, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Campbeltown Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=12696185", 
+          "woe:county=12602207", 
+          "woe:state=12578048", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 22458271, 
         "ne_longitude": -5.655, 
         "longitude": -5.663, 
-        "placetype": "Airport", 
+        "parent_woeid": 12696185, 
+        "ne_latitude": 55.442, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:21:01Z", 
-        "parent_woeid": 18531, 
+        "sw_latitude": 55.433, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 55.437, 
         "sw_longitude": -5.671, 
-        "fullname": "Campbeltown Airport, Drumlemble, Scotland, Strathclyde, United Kingdom", 
-        "sw_latitude": 55.433
+        "fullname": "Campbeltown Airport, Drumlemble, Scotland, United Kingdom", 
+        "iata_code": "CAL", 
+        "date_indexed": "2010-12-02T12:21:01Z"
       }, 
       "id": 22458271
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520572, 
-        "name": "Larned-Pawnee County Airport", 
         "alias_ENG_V": [
           "LQR"
         ], 
-        "ne_latitude": 38.216, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Larned-Pawnee County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588443", 
+          "woe:state=2347575", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520572, 
         "ne_longitude": -99.082, 
         "longitude": -99.090, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588443, 
+        "ne_latitude": 38.216, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2436618, 
+        "sw_latitude": 38.203, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.206, 
         "sw_longitude": -99.091, 
-        "fullname": "Larned-Pawnee County Airport, Larned, Kansas, Pawnee, United States", 
-        "sw_latitude": 38.203
+        "fullname": "Larned-Pawnee County Airport, Larned, Kansas, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520572
     }

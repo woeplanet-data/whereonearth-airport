@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513079, 
+        "placetype": "airport", 
         "name": "Donaueschingen Villingen Airport", 
-        "ne_latitude": 47.981, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12623460", 
+          "woe:county=12596702", 
+          "woe:state=2345481", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513079, 
         "ne_longitude": 8.524, 
         "longitude": 8.515, 
-        "placetype": "Airport", 
+        "parent_woeid": 12623460, 
+        "ne_latitude": 47.981, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 645134, 
+        "sw_latitude": 47.967, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.975, 
         "sw_longitude": 8.514, 
-        "fullname": "Donaueschingen Villingen Airport, Donaueschingen, Baden-Wurttemberg, Schwarzwald-Baar-Kreis, Germany", 
+        "fullname": "Donaueschingen Villingen Airport, Donaueschingen, Baden-Wurttemberg, Germany", 
         "alias_GER_V": [
           "Flughafen Donaueschingen-Villingen"
         ], 
-        "sw_latitude": 47.967
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 12513079
     }

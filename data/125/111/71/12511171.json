@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511171, 
+        "placetype": "airport", 
         "name": "Aeroporto Gurgueia", 
         "alias_ENG_P": [
           "Gurgueia Airport"
         ], 
-        "ne_latitude": -9.025, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12580913", 
+          "woe:state=2344861", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511171, 
         "ne_longitude": -44.347, 
         "longitude": -44.352, 
-        "placetype": "Airport", 
+        "parent_woeid": 12580913, 
+        "ne_latitude": -9.025, 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 456838, 
+        "sw_latitude": -9.034, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -9.029, 
         "sw_longitude": -44.356, 
-        "fullname": "Aeroporto Gurgueia, Bom Jesus, Piaui, Bom Jesus, Brazil", 
-        "sw_latitude": -9.034
+        "fullname": "Aeroporto Gurgueia, Bom Jesus, Piaui, Brazil", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511171
     }

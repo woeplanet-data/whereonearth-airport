@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519061, 
-        "name": "Frankfort Airport", 
         "alias_ENG_V": [
           "Frankfort Capital City Airport"
         ], 
-        "ne_latitude": 38.191, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Frankfort Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588512", 
+          "woe:state=2347576", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519061, 
         "ne_longitude": -84.894, 
         "longitude": -84.900, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588512, 
+        "ne_latitude": 38.191, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2406903, 
+        "sw_latitude": 38.173, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.180, 
         "sw_longitude": -84.919, 
-        "fullname": "Frankfort Airport, Frankfort, Kentucky, Franklin, United States", 
-        "sw_latitude": 38.173
+        "fullname": "Frankfort Airport, Frankfort, Kentucky, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519061
     }

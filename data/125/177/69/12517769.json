@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517769, 
+        "placetype": "airport", 
         "name": "Nam Phong Airport", 
-        "ne_latitude": 16.653, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=28341114", 
+          "woe:state=2347147", 
+          "woe:country=23424960", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517769, 
         "ne_longitude": 102.976, 
         "longitude": 102.971, 
-        "placetype": "Airport", 
+        "parent_woeid": 28341114, 
+        "ne_latitude": 16.653, 
         "iso": "TH", 
-        "date_indexed": "2010-12-02T17:05:34Z", 
-        "parent_woeid": 55947951, 
+        "sw_latitude": 16.644, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 16.649, 
         "sw_longitude": 102.966, 
-        "fullname": "Nam Phong Airport, Bua Ngoen, Khon Kaen, Nam Phong, Thailand", 
-        "sw_latitude": 16.644
+        "fullname": "Nam Phong Airport, Bua Ngoen, Khon Kaen, Thailand", 
+        "date_indexed": "2010-12-02T17:05:34Z"
       }, 
       "id": 12517769
     }

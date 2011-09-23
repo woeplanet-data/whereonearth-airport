@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524078, 
-        "name": "Attawapiskat Airport", 
         "alias_ENG_V": [
           "YAT Airport"
         ], 
-        "ne_latitude": 52.938, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Attawapiskat Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375238", 
+          "woe:state=2344922", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524078, 
         "ne_longitude": -82.384, 
         "longitude": -82.392, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375238, 
+        "ne_latitude": 52.938, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 32, 
+        "sw_latitude": 52.929, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 52.934, 
         "sw_longitude": -82.400, 
-        "fullname": "Attawapiskat Airport, Attawapiskat, Ontario, Kenora, Canada", 
-        "sw_latitude": 52.929
+        "fullname": "Attawapiskat Airport, Attawapiskat, Ontario, Canada", 
+        "iata_code": "YAT", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12524078
     }

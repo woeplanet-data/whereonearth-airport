@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513789, 
+        "placetype": "airport", 
         "name": "Palmahim Air Base", 
-        "ne_latitude": 31.908, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345792", 
+          "woe:country=23424852", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513789, 
         "ne_longitude": 34.701, 
         "longitude": 34.696, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345792, 
+        "ne_latitude": 31.908, 
         "iso": "IL", 
-        "date_indexed": "2010-12-02T08:53:06Z", 
-        "parent_woeid": 1967810, 
+        "sw_latitude": 31.899, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 31.904, 
         "sw_longitude": 34.690, 
         "fullname": "Palmahim Air Base, HaMerkaz, Israel", 
-        "sw_latitude": 31.899
+        "date_indexed": "2010-12-02T08:53:06Z"
       }, 
       "id": 12513789
     }

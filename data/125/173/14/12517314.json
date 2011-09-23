@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517314, 
+        "placetype": "airport", 
         "name": "Zyungar Airport", 
-        "ne_latitude": 47.157, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599155", 
+          "woe:state=2346921", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517314, 
         "ne_longitude": 42.107, 
         "longitude": 42.100, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599155, 
+        "ne_latitude": 47.157, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2121006, 
+        "sw_latitude": 47.148, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.153, 
         "sw_longitude": 42.094, 
         "fullname": "Zyungar Airport, Rostovskaya Oblast, Zimovnikovsky, Russia", 
-        "sw_latitude": 47.148
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12517314
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514957, 
+        "placetype": "airport", 
         "name": "San Francisco Airport", 
-        "ne_latitude": 29.541, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599871", 
+          "woe:state=2346269", 
+          "woe:country=23424900", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514957, 
         "ne_longitude": -104.400, 
         "longitude": -104.406, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599871, 
+        "ne_latitude": 29.541, 
         "iso": "MX", 
-        "date_indexed": "2010-12-02T16:57:55Z", 
-        "parent_woeid": 135008, 
+        "sw_latitude": 29.532, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 29.536, 
         "sw_longitude": -104.411, 
-        "fullname": "San Francisco Airport, Ojinaga, Chihuahua, Ojinaga, Mexico", 
-        "sw_latitude": 29.532
+        "fullname": "San Francisco Airport, Ojinaga, Chihuahua, Mexico", 
+        "date_indexed": "2010-12-02T16:57:55Z"
       }, 
       "id": 12514957
     }

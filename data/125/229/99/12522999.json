@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522999, 
+        "placetype": "airport", 
         "name": "Al Anad Airport", 
-        "ne_latitude": 13.180, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=56190099", 
+          "woe:state=20070040", 
+          "woe:country=23425002", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522999, 
         "ne_longitude": 44.775, 
         "longitude": 44.770, 
-        "placetype": "Airport", 
+        "parent_woeid": 56190099, 
+        "ne_latitude": 13.180, 
         "iso": "YE", 
-        "date_indexed": "2010-12-02T16:39:41Z", 
-        "parent_woeid": 1952361, 
+        "sw_latitude": 13.170, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 13.175, 
         "sw_longitude": 44.765, 
         "fullname": "Al Anad Airport, Al Anad, Lahij, Yemen", 
-        "sw_latitude": 13.170
+        "date_indexed": "2010-12-02T16:39:41Z"
       }, 
       "id": 12522999
     }

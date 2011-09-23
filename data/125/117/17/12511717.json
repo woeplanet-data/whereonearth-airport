@@ -3,28 +3,46 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -76.607, 
-              44.216
-            ], 
-            [
-              -76.607, 
-              44.239
-            ], 
-            [
-              -76.586, 
-              44.239
-            ], 
-            [
-              -76.586, 
-              44.216
-            ], 
-            [
-              -76.607, 
-              44.216
+              [
+                -76.600, 
+                44.218
+              ], 
+              [
+                -76.599, 
+                44.221
+              ], 
+              [
+                -76.595, 
+                44.222
+              ], 
+              [
+                -76.594, 
+                44.220
+              ], 
+              [
+                -76.592, 
+                44.218
+              ], 
+              [
+                -76.595, 
+                44.217
+              ], 
+              [
+                -76.597, 
+                44.216
+              ], 
+              [
+                -76.601, 
+                44.216
+              ], 
+              [
+                -76.600, 
+                44.218
+              ]
             ]
           ]
         ]
@@ -32,23 +50,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511717, 
-        "name": "Kingston Airport", 
         "alias_ENG_V": [
           "YGK Airport"
         ], 
-        "ne_latitude": 44.239, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -76.586, 
+        "name": "Kingston Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375131", 
+          "woe:state=2344922", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511717, 
+        "ne_longitude": -76.592, 
         "longitude": -76.597, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375131, 
+        "ne_latitude": 44.222, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:24:00Z", 
-        "parent_woeid": 23399925, 
+        "sw_latitude": 44.216, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.219, 
-        "sw_longitude": -76.607, 
-        "fullname": "Kingston Airport, Westbrook Heights, Ontario, Frontenac, Canada", 
-        "sw_latitude": 44.216
+        "sw_longitude": -76.601, 
+        "fullname": "Kingston Airport, Westbrook Heights, Ontario, Canada", 
+        "date_indexed": "2010-12-02T10:24:00Z"
       }, 
       "id": 12511717
     }

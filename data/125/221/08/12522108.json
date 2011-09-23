@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522108, 
+        "placetype": "airport", 
         "name": "Texas A M Flight Test Station", 
-        "ne_latitude": 30.638, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12590027", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522108, 
         "ne_longitude": -96.478, 
         "longitude": -96.483, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590027, 
+        "ne_latitude": 30.638, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2370857, 
+        "sw_latitude": 30.629, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 30.633, 
         "sw_longitude": -96.489, 
-        "fullname": "Texas A M Flight Test Station, Bryan, Texas, Brazos, United States", 
-        "sw_latitude": 30.629
+        "fullname": "Texas A M Flight Test Station, Bryan, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12522108
     }

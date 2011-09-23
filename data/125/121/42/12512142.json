@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512142, 
+        "placetype": "airport", 
         "name": "Menghsu Airport", 
-        "ne_latitude": 23.342, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12686602", 
+          "woe:county=26198247", 
+          "woe:state=12578006", 
+          "woe:country=23424781", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512142, 
         "ne_longitude": 110.016, 
         "longitude": 110.011, 
-        "placetype": "Airport", 
+        "parent_woeid": 12686602, 
+        "ne_latitude": 23.342, 
         "iso": "CN", 
-        "date_indexed": "2010-12-02T08:51:48Z", 
-        "parent_woeid": 2166488, 
+        "sw_latitude": 23.333, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 23.338, 
         "sw_longitude": 110.006, 
-        "fullname": "Menghsu Airport, Guiping, Guangxi, Guigang, China", 
-        "sw_latitude": 23.333
+        "fullname": "Menghsu Airport, Guiping, Guangxi, China", 
+        "date_indexed": "2010-12-02T08:51:48Z"
       }, 
       "id": 12512142
     }

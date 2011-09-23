@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513786, 
+        "placetype": "airport", 
         "name": "Nevatim Air Base", 
-        "ne_latitude": 31.216, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345791", 
+          "woe:country=23424852", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513786, 
         "ne_longitude": 35.016, 
         "longitude": 35.011, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345791, 
+        "ne_latitude": 31.216, 
         "iso": "IL", 
-        "date_indexed": "2010-12-02T08:53:06Z", 
-        "parent_woeid": 22722766, 
+        "sw_latitude": 31.207, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 31.212, 
         "sw_longitude": 35.005, 
         "fullname": "Nevatim Air Base, HaDarom, Israel", 
-        "sw_latitude": 31.207
+        "date_indexed": "2010-12-02T08:53:06Z"
       }, 
       "id": 12513786
     }

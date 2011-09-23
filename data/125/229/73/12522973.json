@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522973, 
-        "name": "Arandis Airport", 
         "alias_ENG_V": [
           "ADI"
         ], 
-        "ne_latitude": -22.462, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Arandis Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55921195", 
+          "woe:state=20069837", 
+          "woe:country=23424987", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522973, 
         "ne_longitude": 14.988, 
         "longitude": 14.983, 
-        "placetype": "Airport", 
+        "parent_woeid": 55921195, 
+        "ne_latitude": -22.462, 
         "iso": "NA", 
-        "date_indexed": "2010-12-02T07:50:17Z", 
-        "parent_woeid": 1464662, 
+        "sw_latitude": -22.471, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -22.467, 
         "sw_longitude": 14.978, 
         "fullname": "Arandis Airport, Erongo, Namibia", 
-        "sw_latitude": -22.471
+        "iata_code": "ADI", 
+        "date_indexed": "2010-12-02T07:50:17Z"
       }, 
       "id": 12522973
     }

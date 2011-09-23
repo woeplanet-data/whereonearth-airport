@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517793, 
+        "placetype": "airport", 
         "name": "Uttaradit Airport", 
-        "ne_latitude": 17.674, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=28340925", 
+          "woe:state=2347137", 
+          "woe:country=23424960", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517793, 
         "ne_longitude": 100.249, 
         "longitude": 100.244, 
-        "placetype": "Airport", 
+        "parent_woeid": 28340925, 
+        "ne_latitude": 17.674, 
         "iso": "TH", 
-        "date_indexed": "2010-12-02T17:05:34Z", 
-        "parent_woeid": 1217360, 
+        "sw_latitude": 17.665, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 17.669, 
         "sw_longitude": 100.239, 
-        "fullname": "Uttaradit Airport, Ban Pha Chuk, Uttaradit, Mueang Uttaradit, Thailand", 
-        "sw_latitude": 17.665
+        "fullname": "Uttaradit Airport, Ban Pha Chuk, Uttaradit, Thailand", 
+        "date_indexed": "2010-12-02T17:05:34Z"
       }, 
       "id": 12517793
     }

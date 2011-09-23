@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520103, 
+        "placetype": "airport", 
         "name": "Harrison Piloncillo Ranch Airport", 
-        "ne_latitude": 28.259, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12590070", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520103, 
         "ne_longitude": -99.594, 
         "longitude": -99.599, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590070, 
+        "ne_latitude": 28.259, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2376235, 
+        "sw_latitude": 28.250, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 28.254, 
         "sw_longitude": -99.604, 
-        "fullname": "Harrison Piloncillo Ranch Airport, Catarina, Texas, Dimmit, United States", 
-        "sw_latitude": 28.250
+        "fullname": "Harrison Piloncillo Ranch Airport, Catarina, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12520103
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521476, 
-        "name": "Price County Airport", 
         "alias_ENG_V": [
           "Pbh"
         ], 
-        "ne_latitude": 45.719, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Price County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590584", 
+          "woe:state=2347608", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521476, 
         "ne_longitude": -90.395, 
         "longitude": -90.411, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590584, 
+        "ne_latitude": 45.719, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2471296, 
+        "sw_latitude": 45.701, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.701, 
         "sw_longitude": -90.413, 
-        "fullname": "Price County Airport, Phillips, Wisconsin, Price, United States", 
-        "sw_latitude": 45.701
+        "fullname": "Price County Airport, Phillips, Wisconsin, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521476
     }

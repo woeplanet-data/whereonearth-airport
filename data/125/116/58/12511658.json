@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511658, 
+        "placetype": "airport", 
         "name": "Florenceville Airport", 
-        "ne_latitude": 46.430, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=29375083", 
+          "woe:state=2344918", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511658, 
         "ne_longitude": -67.622, 
         "longitude": -67.628, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375083, 
+        "ne_latitude": 46.430, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 29374430, 
+        "sw_latitude": 46.421, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.426, 
         "sw_longitude": -67.635, 
-        "fullname": "Florenceville Airport, Simonds Carleton, New Brunswick, Carleton, Canada", 
-        "sw_latitude": 46.421
+        "fullname": "Florenceville Airport, Simonds Carleton, New Brunswick, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12511658
     }

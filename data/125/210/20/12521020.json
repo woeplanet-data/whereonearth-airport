@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521020, 
-        "name": "Moose Lake Carlton County Airport", 
         "alias_ENG_V": [
           "MZH"
         ], 
-        "ne_latitude": 46.422, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Moose Lake Carlton County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588805", 
+          "woe:state=2347582", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521020, 
         "ne_longitude": -92.799, 
         "longitude": -92.801, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588805, 
+        "ne_latitude": 46.422, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2453867, 
+        "sw_latitude": 46.414, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.420, 
         "sw_longitude": -92.811, 
-        "fullname": "Moose Lake Carlton County Airport, Moose Lake, Minnesota, Carlton, United States", 
-        "sw_latitude": 46.414
+        "fullname": "Moose Lake Carlton County Airport, Moose Lake, Minnesota, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12521020
     }

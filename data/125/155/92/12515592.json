@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515592, 
+        "placetype": "airport", 
         "name": "Varadia de Mures Airport", 
-        "ne_latitude": 46.030, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2346616", 
+          "woe:country=23424933", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515592, 
         "ne_longitude": 22.167, 
         "longitude": 22.160, 
-        "placetype": "Airport", 
+        "parent_woeid": 2346616, 
+        "ne_latitude": 46.030, 
         "iso": "RO", 
-        "date_indexed": "2010-12-02T16:37:48Z", 
-        "parent_woeid": 879892, 
+        "sw_latitude": 46.021, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.026, 
         "sw_longitude": 22.154, 
         "fullname": "Varadia de Mures Airport, Arad, Romania", 
-        "sw_latitude": 46.021
+        "date_indexed": "2010-12-02T16:37:48Z"
       }, 
       "id": 12515592
     }

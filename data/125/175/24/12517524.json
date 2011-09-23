@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517524, 
+        "placetype": "airport", 
         "name": "Sembawang Airport", 
-        "ne_latitude": 1.430, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=24703045", 
+          "woe:country=23424948", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517524, 
         "ne_longitude": 103.824, 
         "longitude": 103.819, 
-        "placetype": "Airport", 
+        "parent_woeid": 24703045, 
+        "ne_latitude": 1.430, 
         "iso": "SG", 
-        "date_indexed": "2010-12-02T08:53:28Z", 
-        "parent_woeid": 1062388, 
+        "sw_latitude": 1.420, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 1.425, 
         "sw_longitude": 103.815, 
         "fullname": "Sembawang Airport, North West, Singapore", 
-        "sw_latitude": 1.420
+        "date_indexed": "2010-12-02T08:53:28Z"
       }, 
       "id": 12517524
     }

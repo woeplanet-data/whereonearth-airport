@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512637, 
+        "placetype": "airport", 
         "name": "La Clementina Airport", 
-        "ne_latitude": -1.695, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=26810111", 
+          "woe:county=26809498", 
+          "woe:state=2345214", 
+          "woe:country=23424801", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512637, 
         "ne_longitude": -79.362, 
         "longitude": -79.367, 
-        "placetype": "Airport", 
+        "parent_woeid": 26810111, 
+        "ne_latitude": -1.695, 
         "iso": "EC", 
-        "date_indexed": "2010-12-02T17:51:45Z", 
-        "parent_woeid": 376097, 
+        "sw_latitude": -1.705, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -1.700, 
         "sw_longitude": -79.371, 
-        "fullname": "La Clementina Airport, La Uni\u00f3n, Los Rios, Babahoyo, Ecuador", 
-        "sw_latitude": -1.705
+        "fullname": "La Clementina Airport, La Uni\u00f3n, Los Rios, Ecuador", 
+        "date_indexed": "2010-12-02T17:51:45Z"
       }, 
       "id": 12512637
     }

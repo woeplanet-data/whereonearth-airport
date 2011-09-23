@@ -32,29 +32,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511251, 
-        "name": "Aeroporto Oriximina", 
-        "alias_ENG_P": [
-          "Oriximina Airport"
-        ], 
-        "ne_latitude": -1.770, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "ORX"
         ], 
+        "name": "Aeroporto Oriximina", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Oriximina Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12580187", 
+          "woe:state=2344857", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511251, 
         "ne_longitude": -55.870, 
         "longitude": -55.875, 
-        "placetype": "Airport", 
+        "parent_woeid": 12580187, 
+        "ne_latitude": -1.770, 
         "alias_POR_V": [
           "Aeroporto ORX"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 442172, 
+        "sw_latitude": -1.780, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -1.775, 
         "sw_longitude": -55.880, 
-        "fullname": "Aeroporto Oriximina, Oriximin\u00e1, Para, Oriximin\u00e1, Brazil", 
-        "sw_latitude": -1.780
+        "fullname": "Aeroporto Oriximina, Oriximin\u00e1, Para, Brazil", 
+        "iata_code": "ORX", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511251
     }

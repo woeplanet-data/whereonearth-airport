@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523370, 
-        "name": "Sukhothai Airport", 
         "alias_ENG_V": [
           "THS"
         ], 
-        "ne_latitude": 17.221, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Sukhothai Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=28340917", 
+          "woe:state=2347136", 
+          "woe:country=23424960", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523370, 
         "ne_longitude": 99.821, 
         "longitude": 99.817, 
-        "placetype": "Airport", 
+        "parent_woeid": 28340917, 
+        "ne_latitude": 17.221, 
         "iso": "TH", 
-        "date_indexed": "2010-12-02T17:05:34Z", 
-        "parent_woeid": 1222376, 
+        "sw_latitude": 17.212, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 17.217, 
         "sw_longitude": 99.812, 
-        "fullname": "Sukhothai Airport, Ban Tha Thong, Sukhothai, Sawankhalok, Thailand", 
-        "sw_latitude": 17.212
+        "fullname": "Sukhothai Airport, Ban Tha Thong, Sukhothai, Thailand", 
+        "iata_code": "THS", 
+        "date_indexed": "2010-12-02T17:05:34Z"
       }, 
       "id": 12523370
     }

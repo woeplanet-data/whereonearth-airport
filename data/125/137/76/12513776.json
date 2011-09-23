@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513776, 
+        "placetype": "airport", 
         "name": "En Yahav Airport", 
-        "ne_latitude": 30.627, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345791", 
+          "woe:country=23424852", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513776, 
         "ne_longitude": 35.208, 
         "longitude": 35.203, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345791, 
+        "ne_latitude": 30.627, 
         "iso": "IL", 
-        "date_indexed": "2010-12-02T08:53:06Z", 
-        "parent_woeid": 1967922, 
+        "sw_latitude": 30.618, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 30.622, 
         "sw_longitude": 35.198, 
         "fullname": "En Yahav Airport, HaDarom, Israel", 
-        "sw_latitude": 30.618
+        "date_indexed": "2010-12-02T08:53:06Z"
       }, 
       "id": 12513776
     }

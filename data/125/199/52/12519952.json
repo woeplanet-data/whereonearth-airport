@@ -3,28 +3,34 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -86.209, 
-              43.027
-            ], 
-            [
-              -86.209, 
-              43.038
-            ], 
-            [
-              -86.185, 
-              43.038
-            ], 
-            [
-              -86.185, 
-              43.027
-            ], 
-            [
-              -86.209, 
-              43.027
+              [
+                -86.250, 
+                43.057
+              ], 
+              [
+                -86.254, 
+                43.057
+              ], 
+              [
+                -86.252, 
+                43.059
+              ], 
+              [
+                -86.250, 
+                43.058
+              ], 
+              [
+                -86.249, 
+                43.057
+              ], 
+              [
+                -86.250, 
+                43.057
+              ]
             ]
           ]
         ]
@@ -32,23 +38,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519952, 
-        "name": "Grand Haven Memorial Airpark", 
         "alias_ENG_V": [
           "3gm"
         ], 
-        "ne_latitude": 43.038, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -86.185, 
-        "longitude": -86.198, 
-        "placetype": "Airport", 
+        "name": "Grand Haven Memorial Airpark", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588783", 
+          "woe:state=2347581", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519952, 
+        "ne_longitude": -86.249, 
+        "longitude": -86.251, 
+        "parent_woeid": 12588783, 
+        "ne_latitude": 43.059, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2412795, 
-        "latitude": 43.038, 
-        "sw_longitude": -86.209, 
-        "fullname": "Grand Haven Memorial Airpark, Grand Haven, Michigan, Ottawa, United States", 
-        "sw_latitude": 43.027
+        "sw_latitude": 43.057, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 43.058, 
+        "sw_longitude": -86.254, 
+        "fullname": "Grand Haven Memorial Airpark, Grand Haven, Michigan, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12519952
     }

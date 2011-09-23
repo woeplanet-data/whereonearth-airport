@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388334, 
-        "name": "Fulton Airport", 
         "alias_ENG_V": [
           "1m7"
         ], 
-        "ne_latitude": 36.526, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Fulton Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588513", 
+          "woe:state=2347576", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388334, 
         "ne_longitude": -88.909, 
         "longitude": -88.915, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588513, 
+        "ne_latitude": 36.526, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2408139, 
+        "sw_latitude": 36.524, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.525, 
         "sw_longitude": -88.920, 
-        "fullname": "Fulton Airport, Fulton, Kentucky, Fulton, United States", 
-        "sw_latitude": 36.524
+        "fullname": "Fulton Airport, Fulton, Kentucky, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388334
     }

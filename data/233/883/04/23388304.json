@@ -32,29 +32,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "JPN", 
-        "woeid": 23388304, 
-        "name": "\u540d\u53e4\u5c4b\u98db\u884c\u5834", 
         "alias_ENG_V": [
           "NKM Airport"
         ], 
+        "name": "\u540d\u53e4\u5c4b\u98db\u884c\u5834", 
         "alias_ENG_P": [
           "Nagoya Airport"
         ], 
-        "ne_latitude": 35.257, 
+        "parent_woeid": 24857016, 
+        "woeid": 23388304, 
+        "provider": "geoplanet 7.6.0", 
         "alias_JPN_V": [
           "\u5c0f\u7267\u7a7a\u6e2f"
         ], 
-        "ne_longitude": 136.929, 
         "longitude": 136.924, 
-        "parent_woeid": 24726718, 
-        "placetype": "Airport", 
+        "ne_longitude": 136.929, 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=24857016", 
+          "woe:state=2345851", 
+          "woe:country=23424856", 
+          "woe:planet=1"
+        ], 
         "iso": "JP", 
-        "date_indexed": "2010-12-02T08:09:09Z", 
-        "provider": "geoplanet 7.6.0", 
+        "sw_latitude": 35.248, 
+        "ne_latitude": 35.257, 
         "latitude": 35.253, 
         "sw_longitude": 136.918, 
-        "fullname": "\u540d\u53e4\u5c4b\u98db\u884c\u5834, Toyoyama-cho, Aichi Prefecture, Nishikasugai-gun, Japan", 
-        "sw_latitude": 35.248
+        "fullname": "\u540d\u53e4\u5c4b\u98db\u884c\u5834, Toyoyama-cho, Aichi Prefecture, Japan", 
+        "iata_code": "NKM", 
+        "date_indexed": "2010-12-02T08:09:09Z"
       }, 
       "id": 23388304
     }

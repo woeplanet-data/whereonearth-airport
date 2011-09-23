@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521986, 
-        "name": "Stanford Field Airport", 
         "alias_ENG_V": [
           "U12"
         ], 
-        "ne_latitude": 43.955, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Stanford Field Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588055", 
+          "woe:state=2347571", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521986, 
         "ne_longitude": -111.678, 
         "longitude": -111.678, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588055, 
+        "ne_latitude": 43.955, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2486623, 
+        "sw_latitude": 43.946, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.953, 
         "sw_longitude": -111.692, 
-        "fullname": "Stanford Field Airport, St. Anthony, Idaho, Fremont, United States", 
-        "sw_latitude": 43.946
+        "fullname": "Stanford Field Airport, St. Anthony, Idaho, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521986
     }

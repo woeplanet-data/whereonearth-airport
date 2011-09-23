@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519973, 
-        "name": "Great Bend Municipal Airport", 
         "alias_ENG_V": [
           "Great Bend Airport"
         ], 
-        "ne_latitude": 38.362, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Great Bend Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588375", 
+          "woe:state=2347575", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519973, 
         "ne_longitude": -98.848, 
         "longitude": -98.853, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588375, 
+        "ne_latitude": 38.362, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2413575, 
+        "sw_latitude": 38.333, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.352, 
         "sw_longitude": -98.885, 
-        "fullname": "Great Bend Municipal Airport, Great Bend, Kansas, Barton, United States", 
-        "sw_latitude": 38.333
+        "fullname": "Great Bend Municipal Airport, Great Bend, Kansas, United States", 
+        "iata_code": "GBD", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12519973
     }

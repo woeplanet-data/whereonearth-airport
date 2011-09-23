@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524252, 
-        "name": "Cape Parry Airport", 
         "alias_ENG_V": [
           "ZUE Airport"
         ], 
-        "ne_latitude": 70.171, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Cape Parry Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375229", 
+          "woe:state=2344920", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524252, 
         "ne_longitude": -124.665, 
         "longitude": -124.679, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375229, 
+        "ne_latitude": 70.171, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 29374002, 
+        "sw_latitude": 70.162, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 70.166, 
         "sw_longitude": -124.692, 
-        "fullname": "Cape Parry Airport, Paulatuk, Northwest Territories, Northwest Territories, Canada", 
-        "sw_latitude": 70.162
+        "fullname": "Cape Parry Airport, Paulatuk, Northwest Territories, Canada", 
+        "iata_code": "ZUE", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12524252
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518901, 
-        "name": "Boundary County Airport", 
         "alias_ENG_V": [
           "65s"
         ], 
-        "ne_latitude": 48.731, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Boundary County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588044", 
+          "woe:state=2347571", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518901, 
         "ne_longitude": -116.287, 
         "longitude": -116.294, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588044, 
+        "ne_latitude": 48.731, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2506119, 
+        "sw_latitude": 48.718, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.731, 
         "sw_longitude": -116.303, 
-        "fullname": "Boundary County Airport, Threemile Corner, Idaho, Boundary, United States", 
-        "sw_latitude": 48.718
+        "fullname": "Boundary County Airport, Threemile Corner, Idaho, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518901
     }

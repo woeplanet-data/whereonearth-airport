@@ -32,29 +32,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511356, 
-        "name": "Aeroporto Ubatuba", 
-        "alias_ENG_P": [
-          "Ubatuba Airport"
-        ], 
-        "ne_latitude": -23.436, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "UBT"
         ], 
+        "name": "Aeroporto Ubatuba", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Ubatuba Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12582365", 
+          "woe:state=2344868", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511356, 
         "ne_longitude": -45.071, 
         "longitude": -45.076, 
-        "placetype": "Airport", 
+        "parent_woeid": 12582365, 
+        "ne_latitude": -23.436, 
         "alias_POR_V": [
           "Aeroporto UBT"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:28Z", 
-        "parent_woeid": 456586, 
+        "sw_latitude": -23.445, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -23.441, 
         "sw_longitude": -45.081, 
-        "fullname": "Aeroporto Ubatuba, Ubatuba, Sao Paulo, Ubatuba, Brazil", 
-        "sw_latitude": -23.445
+        "fullname": "Aeroporto Ubatuba, Ubatuba, Sao Paulo, Brazil", 
+        "iata_code": "UBT", 
+        "date_indexed": "2010-12-02T18:01:28Z"
       }, 
       "id": 12511356
     }

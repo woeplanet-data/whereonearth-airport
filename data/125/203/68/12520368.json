@@ -3,28 +3,66 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -70.331, 
-              43.641
-            ], 
-            [
-              -70.331, 
-              43.656
-            ], 
-            [
-              -70.296, 
-              43.656
-            ], 
-            [
-              -70.296, 
-              43.641
-            ], 
-            [
-              -70.331, 
-              43.641
+              [
+                -70.330, 
+                43.637
+              ], 
+              [
+                -70.330, 
+                43.637
+              ], 
+              [
+                -70.330, 
+                43.636
+              ], 
+              [
+                -70.333, 
+                43.638
+              ], 
+              [
+                -70.335, 
+                43.638
+              ], 
+              [
+                -70.334, 
+                43.641
+              ], 
+              [
+                -70.332, 
+                43.643
+              ], 
+              [
+                -70.317, 
+                43.652
+              ], 
+              [
+                -70.310, 
+                43.654
+              ], 
+              [
+                -70.310, 
+                43.654
+              ], 
+              [
+                -70.308, 
+                43.647
+              ], 
+              [
+                -70.307, 
+                43.645
+              ], 
+              [
+                -70.312, 
+                43.646
+              ], 
+              [
+                -70.330, 
+                43.637
+              ]
             ]
           ]
         ]
@@ -32,23 +70,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520368, 
-        "name": "Jetport International Airport", 
         "alias_ENG_V": [
           "Jetport Airport"
         ], 
-        "ne_latitude": 43.656, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -70.296, 
-        "longitude": -70.310, 
-        "placetype": "Airport", 
-        "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
+        "name": "Jetport International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:suburb=2501021", 
+          "woe:county=12588662", 
+          "woe:state=2347578", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520368, 
+        "ne_longitude": -70.307, 
+        "longitude": -70.321, 
         "parent_woeid": 2501021, 
-        "latitude": 43.648, 
-        "sw_longitude": -70.331, 
-        "fullname": "Jetport International Airport, Portland, Maine, Cumberland, United States", 
-        "sw_latitude": 43.641
+        "ne_latitude": 43.654, 
+        "iso": "US", 
+        "sw_latitude": 43.636, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 43.645, 
+        "sw_longitude": -70.335, 
+        "fullname": "Jetport International Airport, Portland, Maine, United States", 
+        "iata_code": "PWM", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520368
     }

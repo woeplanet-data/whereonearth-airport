@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29387737, 
-        "name": "Port Allen Airport", 
         "alias_ENG_V": [
           "Pak"
         ], 
-        "ne_latitude": 21.899, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Port Allen Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588032", 
+          "woe:state=2347570", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29387737, 
         "ne_longitude": -159.597, 
         "longitude": -159.602, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588032, 
+        "ne_latitude": 21.899, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2475309, 
+        "sw_latitude": 21.895, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 21.898, 
         "sw_longitude": -159.608, 
-        "fullname": "Port Allen Airport, Port Allen, Hawaii, Kauai, United States", 
-        "sw_latitude": 21.895
+        "fullname": "Port Allen Airport, Port Allen, Hawaii, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 29387737
     }

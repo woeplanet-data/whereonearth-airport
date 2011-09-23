@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522034, 
-        "name": "Suffolk Municipal Airport", 
         "alias_ENG_V": [
           "SFQ"
         ], 
-        "ne_latitude": 36.690, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Suffolk Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590426", 
+          "woe:state=2347605", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522034, 
         "ne_longitude": -76.593, 
         "longitude": -76.610, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590426, 
+        "ne_latitude": 36.690, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2501256, 
+        "sw_latitude": 36.669, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.678, 
         "sw_longitude": -76.611, 
-        "fullname": "Suffolk Municipal Airport, Suffolk, Virginia, Suffolk City, United States", 
-        "sw_latitude": 36.669
+        "fullname": "Suffolk Municipal Airport, Suffolk, Virginia, United States", 
+        "iata_code": "SFQ", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522034
     }

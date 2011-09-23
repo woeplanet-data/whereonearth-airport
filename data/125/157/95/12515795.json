@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515795, 
+        "placetype": "airport", 
         "name": "Belyy Ruchey Airport", 
-        "ne_latitude": 60.928, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599620", 
+          "woe:state=2346934", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515795, 
         "ne_longitude": 36.822, 
         "longitude": 36.813, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599620, 
+        "ne_latitude": 60.928, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2001171, 
+        "sw_latitude": 60.919, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 60.923, 
         "sw_longitude": 36.803, 
         "fullname": "Belyy Ruchey Airport, Vologodskaya Oblast, Vytegorsky, Russia", 
-        "sw_latitude": 60.919
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12515795
     }

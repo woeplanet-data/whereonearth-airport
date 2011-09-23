@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516139, 
+        "placetype": "airport", 
         "name": "Kharantsy Airport", 
-        "ne_latitude": 53.213, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598275", 
+          "woe:state=2346896", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516139, 
         "ne_longitude": 107.399, 
         "longitude": 107.391, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598275, 
+        "ne_latitude": 53.213, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2021175, 
+        "sw_latitude": 53.204, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.209, 
         "sw_longitude": 107.383, 
         "fullname": "Kharantsy Airport, Irkutskaya Oblast, Olkhonsky, Russia", 
-        "sw_latitude": 53.204
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516139
     }

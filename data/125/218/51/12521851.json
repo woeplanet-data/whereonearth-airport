@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521851, 
-        "name": "Sierra Blanca Regional Airport", 
         "alias_ENG_V": [
           "SRR"
         ], 
-        "ne_latitude": 33.481, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Sierra Blanca Regional Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589293", 
+          "woe:state=2347590", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521851, 
         "ne_longitude": -105.501, 
         "longitude": -105.539, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589293, 
+        "ne_latitude": 33.481, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2405970, 
+        "sw_latitude": 33.437, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 33.466, 
         "sw_longitude": -105.562, 
-        "fullname": "Sierra Blanca Regional Airport, Fort Stanton, New Mexico, Lincoln, United States", 
-        "sw_latitude": 33.437
+        "fullname": "Sierra Blanca Regional Airport, Fort Stanton, New Mexico, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521851
     }

@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513737, 
+        "placetype": "airport", 
         "name": "Khorram Abbad Airport", 
-        "ne_latitude": 33.438, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345782", 
+          "woe:country=23424851", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513737, 
         "ne_longitude": 48.296, 
         "longitude": 48.290, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345782, 
+        "ne_latitude": 33.438, 
         "iso": "IR", 
-        "date_indexed": "2010-12-02T08:53:52Z", 
-        "parent_woeid": 2254824, 
+        "sw_latitude": 33.429, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 33.433, 
         "sw_longitude": 48.285, 
         "fullname": "Khorram Abbad Airport, Khur Ramabad, Lorestan, Iran", 
-        "sw_latitude": 33.429
+        "date_indexed": "2010-12-02T08:53:52Z"
       }, 
       "id": 12513737
     }

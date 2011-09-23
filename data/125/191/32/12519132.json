@@ -3,28 +3,78 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -95.408, 
-              45.860
-            ], 
-            [
-              -95.408, 
-              45.874
-            ], 
-            [
-              -95.381, 
-              45.874
-            ], 
-            [
-              -95.381, 
-              45.860
-            ], 
-            [
-              -95.408, 
-              45.860
+              [
+                -95.385, 
+                45.868
+              ], 
+              [
+                -95.384, 
+                45.868
+              ], 
+              [
+                -95.381, 
+                45.867
+              ], 
+              [
+                -95.378, 
+                45.865
+              ], 
+              [
+                -95.377, 
+                45.868
+              ], 
+              [
+                -95.377, 
+                45.871
+              ], 
+              [
+                -95.377, 
+                45.873
+              ], 
+              [
+                -95.382, 
+                45.875
+              ], 
+              [
+                -95.382, 
+                45.877
+              ], 
+              [
+                -95.381, 
+                45.878
+              ], 
+              [
+                -95.377, 
+                45.873
+              ], 
+              [
+                -95.377, 
+                45.871
+              ], 
+              [
+                -95.381, 
+                45.867
+              ], 
+              [
+                -95.385, 
+                45.866
+              ], 
+              [
+                -95.389, 
+                45.861
+              ], 
+              [
+                -95.390, 
+                45.865
+              ], 
+              [
+                -95.385, 
+                45.868
+              ]
             ]
           ]
         ]
@@ -32,23 +82,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519132, 
-        "name": "Chandler Field Airport", 
         "alias_ENG_V": [
           "Chandler Airport"
         ], 
-        "ne_latitude": 45.874, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -95.381, 
-        "longitude": -95.387, 
-        "placetype": "Airport", 
+        "name": "Chandler Field Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588817", 
+          "woe:state=2347582", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519132, 
+        "ne_longitude": -95.377, 
+        "longitude": -95.388, 
+        "parent_woeid": 12588817, 
+        "ne_latitude": 45.878, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2353020, 
-        "latitude": 45.866, 
-        "sw_longitude": -95.408, 
-        "fullname": "Chandler Field Airport, Alexandria, Minnesota, Douglas, United States", 
-        "sw_latitude": 45.860
+        "sw_latitude": 45.861, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 45.869, 
+        "sw_longitude": -95.390, 
+        "fullname": "Chandler Field Airport, Alexandria, Minnesota, United States", 
+        "iata_code": "AXN", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519132
     }

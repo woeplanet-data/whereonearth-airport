@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517097, 
+        "placetype": "airport", 
         "name": "Urzhumka Airport", 
-        "ne_latitude": 55.112, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598154", 
+          "woe:state=2346893", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517097, 
         "ne_longitude": 59.774, 
         "longitude": 59.766, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598154, 
+        "ne_latitude": 55.112, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 1985849, 
+        "sw_latitude": 55.103, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 55.107, 
         "sw_longitude": 59.758, 
         "fullname": "Urzhumka Airport, Chelyabinskaya Oblast, Zlatoust, Russia", 
-        "sw_latitude": 55.103
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12517097
     }

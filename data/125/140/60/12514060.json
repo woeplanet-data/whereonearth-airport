@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514060, 
+        "placetype": "airport", 
         "name": "Ruwayshid Airport", 
-        "ne_latitude": 32.420, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345930", 
+          "woe:country=23424860", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514060, 
         "ne_longitude": 39.151, 
         "longitude": 39.146, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345930, 
+        "ne_latitude": 32.420, 
         "iso": "JO", 
-        "date_indexed": "2010-12-02T12:08:12Z", 
-        "parent_woeid": 22722869, 
+        "sw_latitude": 32.411, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 32.415, 
         "sw_longitude": 39.140, 
         "fullname": "Ruwayshid Airport, Al Mafraq, Jordan", 
-        "sw_latitude": 32.411
+        "date_indexed": "2010-12-02T12:08:12Z"
       }, 
       "id": 12514060
     }

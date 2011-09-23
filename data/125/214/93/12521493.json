@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521493, 
-        "name": "Pryor Field Regional Airport", 
         "alias_ENG_V": [
           "Pryor Regional"
         ], 
-        "ne_latitude": 34.666, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Pryor Field Regional Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587528", 
+          "woe:state=2347559", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521493, 
         "ne_longitude": -86.942, 
         "longitude": -86.948, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587528, 
+        "ne_latitude": 34.666, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2427723, 
+        "sw_latitude": 34.644, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 34.651, 
         "sw_longitude": -86.951, 
-        "fullname": "Pryor Field Regional Airport, Irvington, Alabama, Limestone, United States", 
-        "sw_latitude": 34.644
+        "fullname": "Pryor Field Regional Airport, Irvington, Alabama, United States", 
+        "iata_code": "DCU", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521493
     }

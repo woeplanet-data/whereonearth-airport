@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29387916, 
-        "name": "Jicarilla Apache Nation Airport", 
         "alias_ENG_V": [
           "24n"
         ], 
-        "ne_latitude": 36.824, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Jicarilla Apache Nation Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589300", 
+          "woe:state=2347590", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29387916, 
         "ne_longitude": -106.883, 
         "longitude": -106.889, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589300, 
+        "ne_latitude": 36.824, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2452883, 
+        "sw_latitude": 36.816, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.820, 
         "sw_longitude": -106.894, 
-        "fullname": "Jicarilla Apache Nation Airport, Monero, New Mexico, Rio Arriba, United States", 
-        "sw_latitude": 36.816
+        "fullname": "Jicarilla Apache Nation Airport, Monero, New Mexico, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 29387916
     }

@@ -32,29 +32,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "NOR", 
-        "woeid": 12515103, 
-        "name": "Bardufoss Lufthavn", 
-        "alias_ENG_P": [
-          "Bardufoss Airport"
-        ], 
-        "ne_latitude": 69.062, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "BDU"
         ], 
+        "name": "Bardufoss Lufthavn", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Bardufoss Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12592832", 
+          "woe:state=2346401", 
+          "woe:country=23424910", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515103, 
         "ne_longitude": 18.577, 
         "longitude": 18.540, 
-        "placetype": "Airport", 
+        "parent_woeid": 12592832, 
+        "ne_latitude": 69.062, 
         "iso": "NO", 
-        "date_indexed": "2010-12-02T10:20:58Z", 
-        "parent_woeid": 55871706, 
+        "sw_latitude": 69.050, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 69.059, 
         "sw_longitude": 18.501, 
-        "fullname": "Bardufoss Lufthavn, Rustah\u00f8gda, Troms Fylke, M\u00e5lselv Kommune, Norway", 
+        "fullname": "Bardufoss Lufthavn, Rustah\u00f8gda, Troms Fylke, Norway", 
+        "iata_code": "BDU", 
         "alias_NOR_V": [
           "BDU Lufthavn"
         ], 
-        "sw_latitude": 69.050
+        "date_indexed": "2010-12-02T10:20:58Z"
       }, 
       "id": 12515103
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521900, 
-        "name": "Solon Springs Municipal Airport", 
         "alias_ENG_V": [
           "OLG Airport"
         ], 
-        "ne_latitude": 46.320, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Solon Springs Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590549", 
+          "woe:state=2347608", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521900, 
         "ne_longitude": -91.812, 
         "longitude": -91.813, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590549, 
+        "ne_latitude": 46.320, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2495641, 
+        "sw_latitude": 46.309, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.318, 
         "sw_longitude": -91.819, 
-        "fullname": "Solon Springs Municipal Airport, Solon Springs, Wisconsin, Douglas, United States", 
-        "sw_latitude": 46.309
+        "fullname": "Solon Springs Municipal Airport, Solon Springs, Wisconsin, United States", 
+        "iata_code": "OLG", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521900
     }

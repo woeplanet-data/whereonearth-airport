@@ -32,29 +32,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511104, 
-        "name": "Aeroporto Criciuma", 
-        "alias_ENG_P": [
-          "Criciuma Airport"
-        ], 
-        "ne_latitude": -28.719, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "CCM"
         ], 
+        "name": "Aeroporto Criciuma", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Criciuma Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12581655", 
+          "woe:state=2344867", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511104, 
         "ne_longitude": -49.416, 
         "longitude": -49.421, 
-        "placetype": "Airport", 
+        "parent_woeid": 12581655, 
+        "ne_latitude": -28.719, 
         "alias_POR_V": [
           "Aeroporto CCM"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 433928, 
+        "sw_latitude": -28.728, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -28.724, 
         "sw_longitude": -49.426, 
-        "fullname": "Aeroporto Criciuma, Forquilhinha, Santa Catarina, Forquilhinha, Brazil", 
-        "sw_latitude": -28.728
+        "fullname": "Aeroporto Criciuma, Forquilhinha, Santa Catarina, Brazil", 
+        "iata_code": "CCM", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511104
     }

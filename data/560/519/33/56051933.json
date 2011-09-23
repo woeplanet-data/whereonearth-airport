@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 56051933, 
+        "placetype": "airport", 
         "name": "Flugplatz Herzogenaurach", 
-        "ne_latitude": 49.585, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12634451", 
+          "woe:county=12596816", 
+          "woe:state=2345482", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56051933, 
         "ne_longitude": 10.883, 
         "longitude": 10.883, 
-        "placetype": "Airport", 
+        "parent_woeid": 12634451, 
+        "ne_latitude": 49.585, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 659566, 
+        "sw_latitude": 49.581, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.583, 
         "sw_longitude": 10.871, 
-        "fullname": "Flugplatz Herzogenaurach, Herzogenaurach, Bavaria, Erlangen-H\u00f6chstadt, Germany", 
-        "sw_latitude": 49.581
+        "fullname": "Flugplatz Herzogenaurach, Herzogenaurach, Bavaria, Germany", 
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 56051933
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519728, 
-        "name": "Fillmore Airport", 
         "alias_ENG_V": [
           "Fom"
         ], 
-        "ne_latitude": 38.965, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Fillmore Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590274", 
+          "woe:state=2347603", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519728, 
         "ne_longitude": -112.355, 
         "longitude": -112.356, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590274, 
+        "ne_latitude": 38.965, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2403378, 
+        "sw_latitude": 38.954, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.965, 
         "sw_longitude": -112.371, 
-        "fullname": "Fillmore Airport, Fillmore, Utah, Millard, United States", 
-        "sw_latitude": 38.954
+        "fullname": "Fillmore Airport, Fillmore, Utah, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12519728
     }

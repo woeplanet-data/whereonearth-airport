@@ -3,28 +3,34 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -2.312, 
-              52.636
-            ], 
-            [
-              -2.312, 
-              52.645
-            ], 
-            [
-              -2.297, 
-              52.645
-            ], 
-            [
-              -2.297, 
-              52.636
-            ], 
-            [
-              -2.312, 
-              52.636
+              [
+                -2.300, 
+                52.642
+              ], 
+              [
+                -2.300, 
+                52.643
+              ], 
+              [
+                -2.300, 
+                52.645
+              ], 
+              [
+                -2.300, 
+                52.645
+              ], 
+              [
+                -2.300, 
+                52.642
+              ], 
+              [
+                -2.300, 
+                52.642
+              ]
             ]
           ]
         ]
@@ -32,20 +38,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518065, 
+        "placetype": "airport", 
         "name": "Cosford Airport", 
+        "hierarchy": [
+          "woe:localadmin=12696062", 
+          "woe:county=12602188", 
+          "woe:state=24554868", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518065, 
+        "ne_longitude": -2.300, 
+        "longitude": -2.300, 
+        "parent_woeid": 12696062, 
         "ne_latitude": 52.645, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -2.297, 
-        "longitude": -2.304, 
-        "placetype": "Airport", 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:20:54Z", 
-        "parent_woeid": 23415615, 
-        "latitude": 52.640, 
-        "sw_longitude": -2.312, 
-        "fullname": "Cosford Airport, Donnington, England, Shropshire, United Kingdom", 
-        "sw_latitude": 52.636
+        "sw_latitude": 52.642, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 52.643, 
+        "sw_longitude": -2.300, 
+        "fullname": "Cosford Airport, Donnington, England, United Kingdom", 
+        "date_indexed": "2010-12-02T12:20:54Z"
       }, 
       "id": 12518065
     }

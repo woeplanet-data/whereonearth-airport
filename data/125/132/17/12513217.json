@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513217, 
+        "placetype": "airport", 
         "name": "Rendsburg Schachtholm Airport", 
-        "ne_latitude": 54.225, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12631431", 
+          "woe:county=12596787", 
+          "woe:state=2345490", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513217, 
         "ne_longitude": 9.612, 
         "longitude": 9.604, 
-        "placetype": "Airport", 
+        "parent_woeid": 12631431, 
+        "ne_latitude": 54.225, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 20163979, 
+        "sw_latitude": 54.216, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 54.221, 
         "sw_longitude": 9.596, 
-        "fullname": "Rendsburg Schachtholm Airport, Luhnvie, Schleswig-Holstein, Rendsburg, Germany", 
+        "fullname": "Rendsburg Schachtholm Airport, Luhnvie, Schleswig-Holstein, Germany", 
         "alias_GER_Q": [
           "Flughafen Rendsburg Schachtholm"
         ], 
-        "sw_latitude": 54.216
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 12513217
     }

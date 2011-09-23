@@ -3,28 +3,98 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -73.719, 
-              41.056
-            ], 
-            [
-              -73.719, 
-              41.082
-            ], 
-            [
-              -73.696, 
-              41.082
-            ], 
-            [
-              -73.696, 
-              41.056
-            ], 
-            [
-              -73.719, 
-              41.056
+              [
+                -73.703, 
+                41.068
+              ], 
+              [
+                -73.703, 
+                41.068
+              ], 
+              [
+                -73.705, 
+                41.065
+              ], 
+              [
+                -73.709, 
+                41.063
+              ], 
+              [
+                -73.710, 
+                41.063
+              ], 
+              [
+                -73.711, 
+                41.064
+              ], 
+              [
+                -73.712, 
+                41.064
+              ], 
+              [
+                -73.715, 
+                41.064
+              ], 
+              [
+                -73.716, 
+                41.064
+              ], 
+              [
+                -73.716, 
+                41.065
+              ], 
+              [
+                -73.711, 
+                41.065
+              ], 
+              [
+                -73.710, 
+                41.068
+              ], 
+              [
+                -73.706, 
+                41.071
+              ], 
+              [
+                -73.710, 
+                41.075
+              ], 
+              [
+                -73.711, 
+                41.077
+              ], 
+              [
+                -73.712, 
+                41.078
+              ], 
+              [
+                -73.712, 
+                41.079
+              ], 
+              [
+                -73.713, 
+                41.079
+              ], 
+              [
+                -73.711, 
+                41.078
+              ], 
+              [
+                -73.709, 
+                41.075
+              ], 
+              [
+                -73.704, 
+                41.072
+              ], 
+              [
+                -73.703, 
+                41.068
+              ]
             ]
           ]
         ]
@@ -32,23 +102,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522396, 
-        "name": "Westchester County Airport", 
         "alias_ENG_V": [
           "HPN"
         ], 
-        "ne_latitude": 41.082, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -73.696, 
-        "longitude": -73.704, 
-        "placetype": "Airport", 
+        "name": "Westchester County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589371", 
+          "woe:state=2347591", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522396, 
+        "ne_longitude": -73.703, 
+        "longitude": -73.708, 
+        "parent_woeid": 12589371, 
+        "ne_latitude": 41.079, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2418093, 
-        "latitude": 41.069, 
-        "sw_longitude": -73.719, 
-        "fullname": "Westchester County Airport, Harrison, New York, Westchester, United States", 
-        "sw_latitude": 41.056
+        "sw_latitude": 41.063, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 41.068, 
+        "sw_longitude": -73.716, 
+        "fullname": "Westchester County Airport, Harrison, New York, United States", 
+        "iata_code": "HPN", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522396
     }

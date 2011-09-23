@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517347, 
+        "placetype": "airport", 
         "name": "King Faisal Naval Base", 
-        "ne_latitude": 21.355, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=56120204", 
+          "woe:state=2346959", 
+          "woe:country=23424938", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517347, 
         "ne_longitude": 39.178, 
         "longitude": 39.173, 
-        "placetype": "Airport", 
+        "parent_woeid": 56120204, 
+        "ne_latitude": 21.355, 
         "iso": "SA", 
-        "date_indexed": "2010-12-02T09:34:42Z", 
-        "parent_woeid": 1939873, 
+        "sw_latitude": 21.345, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 21.350, 
         "sw_longitude": 39.168, 
-        "fullname": "King Faisal Naval Base, Jeddah, Makka, Jeddah, Saudi Arabia", 
-        "sw_latitude": 21.345
+        "fullname": "King Faisal Naval Base, Jeddah, Makka, Saudi Arabia", 
+        "date_indexed": "2010-12-02T09:34:42Z"
       }, 
       "id": 12517347
     }

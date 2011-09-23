@@ -3,28 +3,134 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -98.295, 
-              29.512
-            ], 
-            [
-              -98.295, 
-              29.543
-            ], 
-            [
-              -98.260, 
-              29.543
-            ], 
-            [
-              -98.260, 
-              29.512
-            ], 
-            [
-              -98.295, 
-              29.512
+              [
+                -98.282, 
+                29.537
+              ], 
+              [
+                -98.280, 
+                29.537
+              ], 
+              [
+                -98.276, 
+                29.538
+              ], 
+              [
+                -98.274, 
+                29.535
+              ], 
+              [
+                -98.274, 
+                29.535
+              ], 
+              [
+                -98.278, 
+                29.533
+              ], 
+              [
+                -98.278, 
+                29.527
+              ], 
+              [
+                -98.280, 
+                29.532
+              ], 
+              [
+                -98.280, 
+                29.532
+              ], 
+              [
+                -98.285, 
+                29.530
+              ], 
+              [
+                -98.284, 
+                29.525
+              ], 
+              [
+                -98.283, 
+                29.525
+              ], 
+              [
+                -98.279, 
+                29.525
+              ], 
+              [
+                -98.278, 
+                29.527
+              ], 
+              [
+                -98.273, 
+                29.528
+              ], 
+              [
+                -98.270, 
+                29.529
+              ], 
+              [
+                -98.270, 
+                29.528
+              ], 
+              [
+                -98.273, 
+                29.527
+              ], 
+              [
+                -98.274, 
+                29.524
+              ], 
+              [
+                -98.277, 
+                29.523
+              ], 
+              [
+                -98.283, 
+                29.523
+              ], 
+              [
+                -98.287, 
+                29.520
+              ], 
+              [
+                -98.287, 
+                29.523
+              ], 
+              [
+                -98.286, 
+                29.525
+              ], 
+              [
+                -98.288, 
+                29.529
+              ], 
+              [
+                -98.288, 
+                29.533
+              ], 
+              [
+                -98.287, 
+                29.533
+              ], 
+              [
+                -98.287, 
+                29.538
+              ], 
+              [
+                -98.287, 
+                29.541
+              ], 
+              [
+                -98.285, 
+                29.540
+              ], 
+              [
+                -98.282, 
+                29.537
+              ]
             ]
           ]
         ]
@@ -32,23 +138,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521526, 
-        "name": "Randolph Air Force Base", 
         "alias_ENG_V": [
           "Randolph Air Base"
         ], 
-        "ne_latitude": 29.543, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -98.260, 
-        "longitude": -98.283, 
-        "placetype": "Airport", 
+        "name": "Randolph Air Force Base", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590100", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521526, 
+        "ne_longitude": -98.270, 
+        "longitude": -98.282, 
+        "parent_woeid": 12590100, 
+        "ne_latitude": 29.541, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2489644, 
-        "latitude": 29.537, 
-        "sw_longitude": -98.295, 
-        "fullname": "Randolph Air Force Base, Schertz, Texas, Guadalupe, United States", 
-        "sw_latitude": 29.512
+        "sw_latitude": 29.520, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 29.531, 
+        "sw_longitude": -98.288, 
+        "fullname": "Randolph Air Force Base, Schertz, Texas, United States", 
+        "iata_code": "RND", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521526
     }

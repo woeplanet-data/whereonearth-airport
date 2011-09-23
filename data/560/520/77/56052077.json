@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 56052077, 
+        "placetype": "airport", 
         "name": "Segelflugplatz Hoxfeld", 
-        "ne_latitude": 51.856, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12624428", 
+          "woe:county=12596877", 
+          "woe:state=2345487", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56052077, 
         "ne_longitude": 6.821, 
         "longitude": 6.815, 
-        "placetype": "Airport", 
+        "parent_woeid": 12624428, 
+        "ne_latitude": 51.856, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 640281, 
+        "sw_latitude": 51.851, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.852, 
         "sw_longitude": 6.809, 
-        "fullname": "Segelflugplatz Hoxfeld, Borken, North Rhine-Westphalia, Landkreis Borken, Germany", 
-        "sw_latitude": 51.851
+        "fullname": "Segelflugplatz Hoxfeld, Borken, North Rhine-Westphalia, Germany", 
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 56052077
     }

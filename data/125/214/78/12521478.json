@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521478, 
+        "placetype": "airport", 
         "name": "Priest River Municipal Airport", 
-        "ne_latitude": 48.195, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12588042", 
+          "woe:state=2347571", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521478, 
         "ne_longitude": -116.901, 
         "longitude": -116.908, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588042, 
+        "ne_latitude": 48.195, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2476645, 
+        "sw_latitude": 48.186, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.190, 
         "sw_longitude": -116.915, 
-        "fullname": "Priest River Municipal Airport, Priest River, Idaho, Bonner, United States", 
-        "sw_latitude": 48.186
+        "fullname": "Priest River Municipal Airport, Priest River, Idaho, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521478
     }

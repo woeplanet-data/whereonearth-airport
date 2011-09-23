@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516076, 
+        "placetype": "airport", 
         "name": "Kamensk Shakhtinskiy Airport", 
-        "ne_latitude": 48.396, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599110", 
+          "woe:state=2346921", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516076, 
         "ne_longitude": 40.315, 
         "longitude": 40.308, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599110, 
+        "ne_latitude": 48.396, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2116964, 
+        "sw_latitude": 48.386, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.391, 
         "sw_longitude": 40.301, 
         "fullname": "Kamensk Shakhtinskiy Airport, Rostovskaya Oblast, Kamensky, Russia", 
-        "sw_latitude": 48.386
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516076
     }

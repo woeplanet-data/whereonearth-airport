@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510706, 
-        "name": "King Island Airport", 
         "alias_ENG_V": [
           "KNS"
         ], 
-        "ne_latitude": -39.875, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "King Island Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55864258", 
+          "woe:state=2344704", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510706, 
         "ne_longitude": 143.887, 
         "longitude": 143.881, 
-        "placetype": "Airport", 
+        "parent_woeid": 55864258, 
+        "ne_latitude": -39.875, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1096970, 
+        "sw_latitude": -39.884, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -39.880, 
         "sw_longitude": 143.876, 
-        "fullname": "King Island Airport, Loorana, Tasmania, King Island, Australia", 
-        "sw_latitude": -39.884
+        "fullname": "King Island Airport, Loorana, Tasmania, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 12510706
     }

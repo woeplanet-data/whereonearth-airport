@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518144, 
+        "placetype": "airport", 
         "name": "Radlett Aerodrome", 
-        "ne_latitude": 51.720, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12695980", 
+          "woe:county=12602170", 
+          "woe:state=24554868", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518144, 
         "ne_longitude": -0.319, 
         "longitude": -0.327, 
-        "placetype": "Airport", 
+        "parent_woeid": 12695980, 
+        "ne_latitude": 51.720, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:21:01Z", 
-        "parent_woeid": 16655, 
+        "sw_latitude": 51.711, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.716, 
         "sw_longitude": -0.334, 
-        "fullname": "Radlett Aerodrome, Colney Street, England, Hertfordshire, United Kingdom", 
-        "sw_latitude": 51.711
+        "fullname": "Radlett Aerodrome, Colney Street, England, United Kingdom", 
+        "date_indexed": "2010-12-02T12:21:01Z"
       }, 
       "id": 12518144
     }

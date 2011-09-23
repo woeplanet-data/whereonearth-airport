@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523414, 
-        "name": "Downtown Airport", 
         "alias_ENG_V": [
           "EBR"
         ], 
-        "ne_latitude": 30.470, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Downtown Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:suburb=55857915", 
+          "woe:county=12588612", 
+          "woe:state=2347577", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523414, 
         "ne_longitude": -91.148, 
         "longitude": -91.153, 
-        "placetype": "Airport", 
-        "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
         "parent_woeid": 55857915, 
+        "ne_latitude": 30.470, 
+        "iso": "US", 
+        "sw_latitude": 30.461, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 30.465, 
         "sw_longitude": -91.159, 
-        "fullname": "Downtown Airport, Baton Rouge, Louisiana, East Baton Rouge Parish, United States", 
-        "sw_latitude": 30.461
+        "fullname": "Downtown Airport, Baton Rouge, Louisiana, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12523414
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521466, 
-        "name": "Prague Municipal Airport", 
         "alias_ENG_V": [
           "O47"
         ], 
-        "ne_latitude": 35.487, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Prague Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589655", 
+          "woe:state=2347595", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521466, 
         "ne_longitude": -96.718, 
         "longitude": -96.720, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589655, 
+        "ne_latitude": 35.487, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2476220, 
+        "sw_latitude": 35.477, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.483, 
         "sw_longitude": -96.720, 
-        "fullname": "Prague Municipal Airport, Prague, Oklahoma, Lincoln, United States", 
-        "sw_latitude": 35.477
+        "fullname": "Prague Municipal Airport, Prague, Oklahoma, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521466
     }

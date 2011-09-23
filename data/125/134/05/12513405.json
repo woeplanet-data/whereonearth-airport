@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513405, 
+        "placetype": "airport", 
         "name": "Kubekhaza Airport", 
-        "ne_latitude": 46.168, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12595810", 
+          "woe:state=12577916", 
+          "woe:country=23424844", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513405, 
         "ne_longitude": 20.278, 
         "longitude": 20.271, 
-        "placetype": "Airport", 
+        "parent_woeid": 12595810, 
+        "ne_latitude": 46.168, 
         "iso": "HU", 
-        "date_indexed": "2010-12-02T09:56:22Z", 
-        "parent_woeid": 810663, 
+        "sw_latitude": 46.158, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.163, 
         "sw_longitude": 20.265, 
-        "fullname": "Kubekhaza Airport, K\u00fcbekh\u00e1za, Csongr\u00e1d, K\u00fcbekh\u00e1za, Hungary", 
-        "sw_latitude": 46.158
+        "fullname": "Kubekhaza Airport, K\u00fcbekh\u00e1za, Csongr\u00e1d, Hungary", 
+        "date_indexed": "2010-12-02T09:56:22Z"
       }, 
       "id": 12513405
     }

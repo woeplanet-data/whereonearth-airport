@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517305, 
+        "placetype": "airport", 
         "name": "Zimnyatskiy Airport", 
-        "ne_latitude": 49.717, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599579", 
+          "woe:state=2346933", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517305, 
         "ne_longitude": 42.904, 
         "longitude": 42.897, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599579, 
+        "ne_latitude": 49.717, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2118862, 
+        "sw_latitude": 49.708, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.713, 
         "sw_longitude": 42.890, 
         "fullname": "Zimnyatskiy Airport, Volgogradskaya Oblast, Serafimovichsky, Russia", 
-        "sw_latitude": 49.708
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12517305
     }

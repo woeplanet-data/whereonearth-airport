@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513303, 
+        "placetype": "airport", 
         "name": "Lamia Airport", 
-        "ne_latitude": 38.880, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=24544166", 
+          "woe:county=12591126", 
+          "woe:state=12577888", 
+          "woe:country=23424833", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513303, 
         "ne_longitude": 22.441, 
         "longitude": 22.435, 
-        "placetype": "Airport", 
+        "parent_woeid": 24544166, 
+        "ne_latitude": 38.880, 
         "iso": "GR", 
-        "date_indexed": "2010-12-02T16:52:14Z", 
-        "parent_woeid": 954997, 
+        "sw_latitude": 38.871, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.876, 
         "sw_longitude": 22.429, 
-        "fullname": "Lamia Airport, Komma, Sterea Ellada, Fthiotida, Greece", 
-        "sw_latitude": 38.871
+        "fullname": "Lamia Airport, Komma, Sterea Ellada, Greece", 
+        "date_indexed": "2010-12-02T16:52:14Z"
       }, 
       "id": 12513303
     }

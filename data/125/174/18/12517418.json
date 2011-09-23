@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517418, 
+        "placetype": "airport", 
         "name": "Hendrik Potgieter Airport", 
-        "ne_latitude": -27.364, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=56189478", 
+          "woe:county=56189433", 
+          "woe:state=2346980", 
+          "woe:country=23424942", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517418, 
         "ne_longitude": 26.637, 
         "longitude": 26.632, 
-        "placetype": "Airport", 
+        "parent_woeid": 56189478, 
+        "ne_latitude": -27.364, 
         "iso": "ZA", 
-        "date_indexed": "2010-12-02T08:57:46Z", 
-        "parent_woeid": 1580050, 
+        "sw_latitude": -27.373, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -27.368, 
         "sw_longitude": 26.627, 
-        "fullname": "Hendrik Potgieter Airport, Bothaville, Free State, Bothaville, South Africa", 
-        "sw_latitude": -27.373
+        "fullname": "Hendrik Potgieter Airport, Bothaville, Free State, South Africa", 
+        "date_indexed": "2010-12-02T08:57:46Z"
       }, 
       "id": 12517418
     }

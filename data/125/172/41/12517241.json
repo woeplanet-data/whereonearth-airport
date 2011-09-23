@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517241, 
+        "placetype": "airport", 
         "name": "Yefremov Northeast Airport", 
-        "ne_latitude": 53.216, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599435", 
+          "woe:state=2346929", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517241, 
         "ne_longitude": 38.169, 
         "longitude": 38.161, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599435, 
+        "ne_latitude": 53.216, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 1995797, 
+        "sw_latitude": 53.207, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.212, 
         "sw_longitude": 38.154, 
         "fullname": "Yefremov Northeast Airport, Tulrskaya Oblast, Yefremovsky, Russia", 
-        "sw_latitude": 53.207
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12517241
     }

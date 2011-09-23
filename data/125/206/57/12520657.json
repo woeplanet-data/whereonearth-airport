@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520657, 
-        "name": "Lincoln Regional Airport", 
         "alias_ENG_V": [
           "LRG"
         ], 
-        "ne_latitude": 45.367, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Lincoln Regional Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588669", 
+          "woe:state=2347578", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520657, 
         "ne_longitude": -68.530, 
         "longitude": -68.537, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588669, 
+        "ne_latitude": 45.367, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2439478, 
+        "sw_latitude": 45.357, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.366, 
         "sw_longitude": -68.540, 
-        "fullname": "Lincoln Regional Airport, Lincoln, Maine, Penobscot, United States", 
-        "sw_latitude": 45.357
+        "fullname": "Lincoln Regional Airport, Lincoln, Maine, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520657
     }

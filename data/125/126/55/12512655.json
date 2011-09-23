@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512655, 
+        "placetype": "airport", 
         "name": "Abu Rudeis Airport", 
-        "ne_latitude": 28.900, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345247", 
+          "woe:country=23424802", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512655, 
         "ne_longitude": 33.205, 
         "longitude": 33.200, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345247, 
+        "ne_latitude": 28.900, 
         "iso": "EG", 
-        "date_indexed": "2010-12-02T12:16:51Z", 
-        "parent_woeid": 1521125, 
+        "sw_latitude": 28.891, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 28.896, 
         "sw_longitude": 33.195, 
         "fullname": "Abu Rudeis Airport, Abu Zenima, Janub Sina', Egypt", 
-        "sw_latitude": 28.891
+        "date_indexed": "2010-12-02T12:16:51Z"
       }, 
       "id": 12512655
     }

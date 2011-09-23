@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512017, 
+        "placetype": "airport", 
         "name": "Chiu Li Shan Airport", 
-        "ne_latitude": 34.279, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12685619", 
+          "woe:county=26198090", 
+          "woe:state=12577994", 
+          "woe:country=23424781", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512017, 
         "ne_longitude": 117.172, 
         "longitude": 117.166, 
-        "placetype": "Airport", 
+        "parent_woeid": 12685619, 
+        "ne_latitude": 34.279, 
         "iso": "CN", 
-        "date_indexed": "2010-12-02T08:51:48Z", 
-        "parent_woeid": 2137084, 
+        "sw_latitude": 34.270, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 34.274, 
         "sw_longitude": 117.160, 
-        "fullname": "Chiu Li Shan Airport, Xuzhou, Jiangsu, Xuzhou, China", 
-        "sw_latitude": 34.270
+        "fullname": "Chiu Li Shan Airport, Xuzhou, Jiangsu, China", 
+        "date_indexed": "2010-12-02T08:51:48Z"
       }, 
       "id": 12512017
     }

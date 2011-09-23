@@ -3,28 +3,54 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -84.607, 
-              42.770
-            ], 
-            [
-              -84.607, 
-              42.784
-            ], 
-            [
-              -84.557, 
-              42.784
-            ], 
-            [
-              -84.557, 
-              42.770
-            ], 
-            [
-              -84.607, 
-              42.770
+              [
+                -84.591, 
+                42.774
+              ], 
+              [
+                -84.593, 
+                42.774
+              ], 
+              [
+                -84.594, 
+                42.777
+              ], 
+              [
+                -84.591, 
+                42.777
+              ], 
+              [
+                -84.590, 
+                42.778
+              ], 
+              [
+                -84.587, 
+                42.776
+              ], 
+              [
+                -84.586, 
+                42.775
+              ], 
+              [
+                -84.584, 
+                42.775
+              ], 
+              [
+                -84.584, 
+                42.774
+              ], 
+              [
+                -84.588, 
+                42.771
+              ], 
+              [
+                -84.591, 
+                42.774
+              ]
             ]
           ]
         ]
@@ -32,23 +58,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519060, 
-        "name": "Lansing Capital City Airport", 
         "alias_ENG_V": [
           "Lansing Airport"
         ], 
-        "ne_latitude": 42.784, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -84.557, 
+        "name": "Lansing Capital City Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588732", 
+          "woe:state=2347581", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519060, 
+        "ne_longitude": -84.584, 
         "longitude": -84.589, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588732, 
+        "ne_latitude": 42.778, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2390024, 
+        "sw_latitude": 42.771, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.775, 
-        "sw_longitude": -84.607, 
-        "fullname": "Lansing Capital City Airport, De Witt, Michigan, Clinton, United States", 
-        "sw_latitude": 42.770
+        "sw_longitude": -84.594, 
+        "fullname": "Lansing Capital City Airport, De Witt, Michigan, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519060
     }

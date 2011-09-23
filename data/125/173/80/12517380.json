@@ -32,23 +32,28 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517380, 
-        "name": "St Pierre Airport", 
         "alias_ENG_V": [
           "FSP"
         ], 
-        "ne_latitude": 46.775, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "St Pierre Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=24549865", 
+          "woe:country=23424939", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517380, 
         "ne_longitude": -56.160, 
         "longitude": -56.167, 
-        "placetype": "Airport", 
+        "parent_woeid": 24549865, 
+        "ne_latitude": 46.775, 
         "iso": "PM", 
-        "date_indexed": "2010-12-02T12:15:58Z", 
-        "parent_woeid": 161844, 
+        "sw_latitude": 46.766, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.771, 
         "sw_longitude": -56.173, 
         "fullname": "St Pierre Airport, St. Pierre, St.-Pierre, Saint Pierre and Miquelon", 
-        "sw_latitude": 46.766
+        "date_indexed": "2010-12-02T12:15:58Z"
       }, 
       "id": 12517380
     }

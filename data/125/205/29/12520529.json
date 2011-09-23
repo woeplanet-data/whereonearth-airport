@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520529, 
-        "name": "Lake Havasu City Airport", 
         "alias_ENG_V": [
           "HII"
         ], 
-        "ne_latitude": 34.466, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Lake Havasu City Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587588", 
+          "woe:state=2347561", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520529, 
         "ne_longitude": -114.356, 
         "longitude": -114.362, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587588, 
+        "ne_latitude": 34.466, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2434938, 
+        "sw_latitude": 34.457, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 34.461, 
         "sw_longitude": -114.367, 
-        "fullname": "Lake Havasu City Airport, Lake Havasu City, Arizona, Mohave, United States", 
-        "sw_latitude": 34.457
+        "fullname": "Lake Havasu City Airport, Lake Havasu City, Arizona, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12520529
     }

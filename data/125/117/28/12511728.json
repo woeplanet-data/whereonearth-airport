@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511728, 
+        "placetype": "airport", 
         "name": "Lacombe Airport", 
-        "ne_latitude": 52.493, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=29375228", 
+          "woe:state=2344915", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511728, 
         "ne_longitude": -113.704, 
         "longitude": -113.711, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375228, 
+        "ne_latitude": 52.493, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 23403928, 
+        "sw_latitude": 52.484, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 52.488, 
         "sw_longitude": -113.719, 
-        "fullname": "Lacombe Airport, College Heights, Alberta, Alberta, Canada", 
-        "sw_latitude": 52.484
+        "fullname": "Lacombe Airport, College Heights, Alberta, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12511728
     }

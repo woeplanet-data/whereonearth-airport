@@ -32,26 +32,32 @@
       "type": "Feature", 
       "properties": {
         "lang": "JPN", 
-        "woeid": 28360524, 
         "name": "\u963f\u898b\u98db\u884c\u5834", 
         "alias_ENG_P": [
           "Ami Airport"
         ], 
-        "ne_latitude": 36.029, 
+        "parent_woeid": 24847729, 
+        "woeid": 28360524, 
+        "provider": "geoplanet 7.6.0", 
         "alias_JPN_V": [
           "\u30a2\u30df\u30d2\u30b3\u30a6\u30b8\u30e7\u30a6"
         ], 
-        "ne_longitude": 140.272, 
         "longitude": 140.267, 
-        "parent_woeid": 24847633, 
-        "placetype": "Airport", 
+        "ne_longitude": 140.272, 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=24847729", 
+          "woe:state=2345863", 
+          "woe:country=23424856", 
+          "woe:planet=1"
+        ], 
         "iso": "JP", 
-        "date_indexed": "2010-12-02T08:09:09Z", 
-        "provider": "geoplanet 7.6.0", 
+        "sw_latitude": 36.020, 
+        "ne_latitude": 36.029, 
         "latitude": 36.025, 
         "sw_longitude": 140.261, 
-        "fullname": "\u963f\u898b\u98db\u884c\u5834, Ami-machi, Ibaraki Prefecture, Inashiki-gun, Japan", 
-        "sw_latitude": 36.020
+        "fullname": "\u963f\u898b\u98db\u884c\u5834, Ami-machi, Ibaraki Prefecture, Japan", 
+        "date_indexed": "2010-12-02T08:09:09Z"
       }, 
       "id": 28360524
     }

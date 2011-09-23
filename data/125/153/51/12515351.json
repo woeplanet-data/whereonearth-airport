@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515351, 
+        "placetype": "airport", 
         "name": "Miroslawiec Airport", 
-        "ne_latitude": 53.408, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12617325", 
+          "woe:county=12591490", 
+          "woe:state=12577950", 
+          "woe:country=23424923", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515351, 
         "ne_longitude": 16.054, 
         "longitude": 16.047, 
-        "placetype": "Airport", 
+        "parent_woeid": 12617325, 
+        "ne_latitude": 53.408, 
         "iso": "PL", 
-        "date_indexed": "2010-12-02T12:12:45Z", 
-        "parent_woeid": 24944623, 
+        "sw_latitude": 53.399, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.404, 
         "sw_longitude": 16.039, 
         "fullname": "Miroslawiec Airport, West Pomeranian, Drawsko County, Poland", 
-        "sw_latitude": 53.399
+        "date_indexed": "2010-12-02T12:12:45Z"
       }, 
       "id": 12515351
     }

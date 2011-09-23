@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "FRE", 
-        "woeid": 56051905, 
+        "placetype": "airport", 
         "name": "A\u00e9rodrome de Vierzon-m\u00e9reau", 
-        "ne_latitude": 47.197, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12636952", 
+          "woe:county=12597136", 
+          "woe:state=7153314", 
+          "woe:country=23424819", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56051905, 
         "ne_longitude": 2.069, 
         "longitude": 2.066, 
-        "placetype": "Airport", 
+        "parent_woeid": 12636952, 
+        "ne_latitude": 47.197, 
         "iso": "FR", 
-        "date_indexed": "2010-12-02T12:04:01Z", 
-        "parent_woeid": 611081, 
+        "sw_latitude": 47.191, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.197, 
         "sw_longitude": 2.061, 
-        "fullname": "A\u00e9rodrome de Vierzon-m\u00e9reau, M\u00e9reau, Centre, Cher, France", 
+        "fullname": "A\u00e9rodrome de Vierzon-m\u00e9reau, M\u00e9reau, Centre, France", 
         "alias_FRE_S": [
           "Aerodrome de Vierzon-mereau"
         ], 
-        "sw_latitude": 47.191
+        "date_indexed": "2010-12-02T12:04:01Z"
       }, 
       "id": 56051905
     }

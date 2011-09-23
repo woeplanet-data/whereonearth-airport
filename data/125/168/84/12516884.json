@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516884, 
+        "placetype": "airport", 
         "name": "Smolensk Airport", 
-        "ne_latitude": 54.838, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599284", 
+          "woe:state=2346925", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516884, 
         "ne_longitude": 32.038, 
         "longitude": 32.030, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599284, 
+        "ne_latitude": 54.838, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2063703, 
+        "sw_latitude": 54.829, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 54.833, 
         "sw_longitude": 32.022, 
         "fullname": "Smolensk Airport, Smolenskaya Oblast, Smolensky, Russia", 
-        "sw_latitude": 54.829
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516884
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512738, 
+        "placetype": "airport", 
         "name": "Kuusiku Airport", 
-        "ne_latitude": 58.986, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=29389792", 
+          "woe:state=2345285", 
+          "woe:country=23424805", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512738, 
         "ne_longitude": 24.717, 
         "longitude": 24.708, 
-        "placetype": "Airport", 
+        "parent_woeid": 29389792, 
+        "ne_latitude": 58.986, 
         "iso": "EE", 
-        "date_indexed": "2010-12-02T16:43:34Z", 
-        "parent_woeid": 842345, 
+        "sw_latitude": 58.977, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 58.981, 
         "sw_longitude": 24.699, 
         "fullname": "Kuusiku Airport, Rapla County, Rapla Parish, Estonia", 
-        "sw_latitude": 58.977
+        "date_indexed": "2010-12-02T16:43:34Z"
       }, 
       "id": 12512738
     }

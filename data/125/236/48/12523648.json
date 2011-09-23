@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523648, 
-        "name": "Ovalle Airport", 
         "alias_ENG_V": [
           "OVL"
         ], 
-        "ne_latitude": -30.591, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Ovalle Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=26794146", 
+          "woe:county=26793999", 
+          "woe:state=2345024", 
+          "woe:country=23424782", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523648, 
         "ne_longitude": -71.195, 
         "longitude": -71.200, 
-        "placetype": "Airport", 
+        "parent_woeid": 26794146, 
+        "ne_latitude": -30.591, 
         "iso": "CL", 
-        "date_indexed": "2010-12-02T12:15:39Z", 
-        "parent_woeid": 349935, 
+        "sw_latitude": -30.600, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -30.596, 
         "sw_longitude": -71.205, 
-        "fullname": "Ovalle Airport, Ovalle, Coquimbo Region, Limari Province, Chile", 
-        "sw_latitude": -30.600
+        "fullname": "Ovalle Airport, Ovalle, Coquimbo Region, Chile", 
+        "iata_code": "OVL", 
+        "date_indexed": "2010-12-02T12:15:39Z"
       }, 
       "id": 12523648
     }

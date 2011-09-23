@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511580, 
-        "name": "Bonaventure Airport", 
         "alias_ENG_V": [
           "YVB Airport"
         ], 
-        "ne_latitude": 48.076, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Bonaventure Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375051", 
+          "woe:state=2344924", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511580, 
         "ne_longitude": -65.453, 
         "longitude": -65.460, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375051, 
+        "ne_latitude": 48.076, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 3620, 
+        "sw_latitude": 48.067, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.071, 
         "sw_longitude": -65.467, 
-        "fullname": "Bonaventure Airport, Bonaventure, Quebec, Bonaventure, Canada", 
-        "sw_latitude": 48.067
+        "fullname": "Bonaventure Airport, Bonaventure, Quebec, Canada", 
+        "iata_code": "YVB", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12511580
     }

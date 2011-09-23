@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522285, 
-        "name": "Vinton County Airport", 
         "alias_ENG_V": [
           "22i"
         ], 
-        "ne_latitude": 39.329, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Vinton County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589608", 
+          "woe:state=2347594", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522285, 
         "ne_longitude": -82.436, 
         "longitude": -82.439, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589608, 
+        "ne_latitude": 39.329, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2386951, 
+        "sw_latitude": 39.325, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 39.327, 
         "sw_longitude": -82.441, 
-        "fullname": "Vinton County Airport, Creola, Ohio, Vinton, United States", 
-        "sw_latitude": 39.325
+        "fullname": "Vinton County Airport, Creola, Ohio, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12522285
     }

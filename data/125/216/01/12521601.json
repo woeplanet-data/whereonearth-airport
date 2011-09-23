@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521601, 
+        "placetype": "airport", 
         "name": "Riverside Airport", 
-        "ne_latitude": 43.138, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12589344", 
+          "woe:state=2347591", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521601, 
         "ne_longitude": -75.262, 
         "longitude": -75.268, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589344, 
+        "ne_latitude": 43.138, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2445555, 
+        "sw_latitude": 43.129, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.133, 
         "sw_longitude": -75.274, 
-        "fullname": "Riverside Airport, Marcy, New York, Oneida, United States", 
-        "sw_latitude": 43.129
+        "fullname": "Riverside Airport, Marcy, New York, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521601
     }

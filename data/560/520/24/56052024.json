@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 56052024, 
+        "placetype": "airport", 
         "name": "Flugplatz Allendorf (eder)", 
-        "ne_latitude": 51.038, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12632831", 
+          "woe:county=12596852", 
+          "woe:state=2345485", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56052024, 
         "ne_longitude": 8.689, 
         "longitude": 8.677, 
-        "placetype": "Airport", 
+        "parent_woeid": 12632831, 
+        "ne_latitude": 51.038, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 633956, 
+        "sw_latitude": 51.032, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.035, 
         "sw_longitude": 8.671, 
-        "fullname": "Flugplatz Allendorf (eder), Allendorf, Hesse, Waldeck-Frankenberg, Germany", 
+        "fullname": "Flugplatz Allendorf (eder), Allendorf, Hesse, Germany", 
         "alias_GER_V": [
           "Flugplatz Allendorf"
         ], 
-        "sw_latitude": 51.032
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 56052024
     }

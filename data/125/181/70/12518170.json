@@ -3,28 +3,38 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -4.545, 
-              53.244
-            ], 
-            [
-              -4.545, 
-              53.253
-            ], 
-            [
-              -4.529, 
-              53.253
-            ], 
-            [
-              -4.529, 
-              53.244
-            ], 
-            [
-              -4.545, 
-              53.244
+              [
+                -4.535, 
+                53.256
+              ], 
+              [
+                -4.535, 
+                53.256
+              ], 
+              [
+                -4.535, 
+                53.256
+              ], 
+              [
+                -4.537, 
+                53.254
+              ], 
+              [
+                -4.539, 
+                53.255
+              ], 
+              [
+                -4.539, 
+                53.255
+              ], 
+              [
+                -4.535, 
+                53.256
+              ]
             ]
           ]
         ]
@@ -32,20 +42,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518170, 
+        "placetype": "airport", 
         "name": "Valley Airport", 
-        "ne_latitude": 53.253, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -4.529, 
+        "hierarchy": [
+          "woe:localadmin=12696117", 
+          "woe:county=12602211", 
+          "woe:state=12578049", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518170, 
+        "ne_longitude": -4.535, 
         "longitude": -4.537, 
-        "placetype": "Airport", 
+        "parent_woeid": 12696117, 
+        "ne_latitude": 53.256, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:21:01Z", 
-        "parent_woeid": 26904, 
-        "latitude": 53.248, 
-        "sw_longitude": -4.545, 
-        "fullname": "Valley Airport, Llanfair Yn Neubwll, Wales, Anglesey County, United Kingdom", 
-        "sw_latitude": 53.244
+        "sw_latitude": 53.254, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 53.255, 
+        "sw_longitude": -4.539, 
+        "fullname": "Valley Airport, Llanfair Yn Neubwll, Wales, United Kingdom", 
+        "date_indexed": "2010-12-02T12:21:01Z"
       }, 
       "id": 12518170
     }

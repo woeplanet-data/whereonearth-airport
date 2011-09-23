@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519961, 
-        "name": "Grant County Airport", 
         "alias_ENG_V": [
           "W99"
         ], 
-        "ne_latitude": 38.998, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Grant County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590490", 
+          "woe:state=2347607", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519961, 
         "ne_longitude": -79.137, 
         "longitude": -79.145, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590490, 
+        "ne_latitude": 38.998, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2470957, 
+        "sw_latitude": 38.990, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.993, 
         "sw_longitude": -79.152, 
-        "fullname": "Grant County Airport, Petersburg, West Virginia, Grant, United States", 
-        "sw_latitude": 38.990
+        "fullname": "Grant County Airport, Petersburg, West Virginia, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12519961
     }

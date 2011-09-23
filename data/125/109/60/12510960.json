@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510960, 
+        "placetype": "airport", 
         "name": "Lida North Airport", 
-        "ne_latitude": 53.935, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2344832", 
+          "woe:country=23424765", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510960, 
         "ne_longitude": 25.280, 
         "longitude": 25.272, 
-        "placetype": "Airport", 
+        "parent_woeid": 2344832, 
+        "ne_latitude": 53.935, 
         "iso": "BY", 
-        "date_indexed": "2010-12-02T16:32:57Z", 
-        "parent_woeid": 827330, 
+        "sw_latitude": 53.926, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.931, 
         "sw_longitude": 25.264, 
         "fullname": "Lida North Airport, Haradzyenskaya Voblasts', Belarus", 
-        "sw_latitude": 53.926
+        "date_indexed": "2010-12-02T16:32:57Z"
       }, 
       "id": 12510960
     }

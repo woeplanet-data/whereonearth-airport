@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514852, 
+        "placetype": "airport", 
         "name": "Coahuayana Airport", 
-        "ne_latitude": 18.688, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12600462", 
+          "woe:state=2346279", 
+          "woe:country=23424900", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514852, 
         "ne_longitude": -103.671, 
         "longitude": -103.676, 
-        "placetype": "Airport", 
+        "parent_woeid": 12600462, 
+        "ne_latitude": 18.688, 
         "iso": "MX", 
-        "date_indexed": "2010-12-02T16:57:55Z", 
-        "parent_woeid": 121834, 
+        "sw_latitude": 18.679, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 18.684, 
         "sw_longitude": -103.681, 
-        "fullname": "Coahuayana Airport, El Ranchito, Michoacan de Ocampo, Coahuayana, Mexico", 
-        "sw_latitude": 18.679
+        "fullname": "Coahuayana Airport, El Ranchito, Michoacan de Ocampo, Mexico", 
+        "date_indexed": "2010-12-02T16:57:55Z"
       }, 
       "id": 12514852
     }

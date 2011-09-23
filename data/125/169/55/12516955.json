@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516955, 
+        "placetype": "airport", 
         "name": "Supra Airport", 
-        "ne_latitude": 60.878, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599453", 
+          "woe:state=20070526", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516955, 
         "ne_longitude": 64.877, 
         "longitude": 64.868, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599453, 
+        "ne_latitude": 60.878, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2123746, 
+        "sw_latitude": 60.869, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 60.873, 
         "sw_longitude": 64.859, 
         "fullname": "Supra Airport, Khanty-Mansiyskiy Avtonomnyy Okrug, Kondinsky, Russia", 
-        "sw_latitude": 60.869
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516955
     }

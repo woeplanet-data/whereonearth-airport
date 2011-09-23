@@ -32,29 +32,35 @@
       "type": "Feature", 
       "properties": {
         "lang": "JPN", 
-        "woeid": 12513966, 
-        "name": "\u77f3\u57a3\u7a7a\u6e2f", 
         "alias_ENG_V": [
           "ISG Airport"
         ], 
+        "name": "\u77f3\u57a3\u7a7a\u6e2f", 
         "alias_ENG_P": [
           "Ishigaki Airport"
         ], 
-        "ne_latitude": 24.350, 
+        "parent_woeid": 2345896, 
+        "woeid": 12513966, 
+        "provider": "geoplanet 7.6.0", 
         "alias_JPN_V": [
           "\u30a4\u30b7\u30ac\u30ad\u30af\u30a6\u30b3\u30a6"
         ], 
-        "ne_longitude": 124.191, 
         "longitude": 124.186, 
-        "parent_woeid": 1117322, 
-        "placetype": "Airport", 
+        "ne_longitude": 124.191, 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2345896", 
+          "woe:country=23424856", 
+          "woe:planet=1"
+        ], 
         "iso": "JP", 
-        "date_indexed": "2010-12-02T08:09:08Z", 
-        "provider": "geoplanet 7.6.0", 
+        "sw_latitude": 24.341, 
+        "ne_latitude": 24.350, 
         "latitude": 24.346, 
         "sw_longitude": 124.181, 
         "fullname": "\u77f3\u57a3\u7a7a\u6e2f, Ishigaki-shi, Okinawa Prefecture, Japan", 
-        "sw_latitude": 24.341
+        "iata_code": "ISG", 
+        "date_indexed": "2010-12-02T08:09:08Z"
       }, 
       "id": 12513966
     }

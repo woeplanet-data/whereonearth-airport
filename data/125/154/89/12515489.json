@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515489, 
+        "placetype": "airport", 
         "name": "St Pierre Pierrefonds Airport", 
-        "ne_latitude": -21.300, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=24551462", 
+          "woe:state=24549828", 
+          "woe:country=23424931", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515489, 
         "ne_longitude": 55.430, 
         "longitude": 55.425, 
-        "placetype": "Airport", 
+        "parent_woeid": 24551462, 
+        "ne_latitude": -21.300, 
         "iso": "RE", 
-        "date_indexed": "2010-12-02T09:35:31Z", 
-        "parent_woeid": 1410237, 
+        "sw_latitude": -21.309, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -21.304, 
         "sw_longitude": 55.420, 
-        "fullname": "St Pierre Pierrefonds Airport, Saint-Louis, Arrondissement of Saint-Pierre, St.-Louis, Reunion", 
-        "sw_latitude": -21.309
+        "fullname": "St Pierre Pierrefonds Airport, Saint-Louis, Arrondissement of Saint-Pierre, Reunion", 
+        "date_indexed": "2010-12-02T09:35:31Z"
       }, 
       "id": 12515489
     }

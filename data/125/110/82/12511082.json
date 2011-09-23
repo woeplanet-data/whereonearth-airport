@@ -32,29 +32,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511082, 
-        "name": "Aeroporto Carolina", 
-        "alias_ENG_P": [
-          "Carolina Airport"
-        ], 
-        "ne_latitude": -7.329, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "CLN"
         ], 
+        "name": "Aeroporto Carolina", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Carolina Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12579203", 
+          "woe:state=2344854", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511082, 
         "ne_longitude": -47.429, 
         "longitude": -47.433, 
-        "placetype": "Airport", 
+        "parent_woeid": 12579203, 
+        "ne_latitude": -7.329, 
         "alias_POR_V": [
           "Aeroporto CLN"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 456128, 
+        "sw_latitude": -7.338, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -7.333, 
         "sw_longitude": -47.438, 
-        "fullname": "Aeroporto Carolina, Carolina, Maranhao, Carolina, Brazil", 
-        "sw_latitude": -7.338
+        "fullname": "Aeroporto Carolina, Carolina, Maranhao, Brazil", 
+        "iata_code": "CLN", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511082
     }

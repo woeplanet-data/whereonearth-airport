@@ -32,23 +32,28 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523167, 
-        "name": "Lamap Airport", 
         "alias_ENG_V": [
           "LPM"
         ], 
-        "ne_latitude": -16.440, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Lamap Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=20069886", 
+          "woe:country=23424907", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523167, 
         "ne_longitude": 167.824, 
         "longitude": 167.819, 
-        "placetype": "Airport", 
+        "parent_woeid": 20069886, 
+        "ne_latitude": -16.440, 
         "iso": "VU", 
-        "date_indexed": "2010-12-02T17:52:20Z", 
-        "parent_woeid": 1050904, 
+        "sw_latitude": -16.449, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -16.444, 
         "sw_longitude": 167.815, 
         "fullname": "Lamap Airport, Lamap, Malampa, Vanuatu", 
-        "sw_latitude": -16.449
+        "date_indexed": "2010-12-02T17:52:20Z"
       }, 
       "id": 12523167
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515789, 
+        "placetype": "airport", 
         "name": "Belaya Kalitva Airport", 
-        "ne_latitude": 48.234, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599101", 
+          "woe:state=2346921", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515789, 
         "ne_longitude": 40.827, 
         "longitude": 40.820, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599101, 
+        "ne_latitude": 48.234, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2120213, 
+        "sw_latitude": 48.225, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.230, 
         "sw_longitude": 40.813, 
-        "fullname": "Belaya Kalitva Airport, Belaya Kalitva, Rostovskaya Oblast, Belaya Kalitva, Russia", 
-        "sw_latitude": 48.225
+        "fullname": "Belaya Kalitva Airport, Belaya Kalitva, Rostovskaya Oblast, Russia", 
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12515789
     }

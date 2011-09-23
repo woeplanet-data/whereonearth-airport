@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510544, 
-        "name": "Rio Gallegos Airport", 
         "alias_ENG_V": [
           "RGL"
         ], 
-        "ne_latitude": -51.598, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Rio Gallegos Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=20071073", 
+          "woe:state=2344694", 
+          "woe:country=23424747", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510544, 
         "ne_longitude": -69.295, 
         "longitude": -69.313, 
-        "placetype": "Airport", 
+        "parent_woeid": 20071073, 
+        "ne_latitude": -51.598, 
         "iso": "AR", 
-        "date_indexed": "2010-12-02T17:41:29Z", 
-        "parent_woeid": 467042, 
+        "sw_latitude": -51.621, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -51.609, 
         "sw_longitude": -69.331, 
-        "fullname": "Rio Gallegos Airport, R\u00edo Gallegos, Santa Cruz, G\u00fcer Aike, Argentina", 
-        "sw_latitude": -51.621
+        "fullname": "Rio Gallegos Airport, R\u00edo Gallegos, Santa Cruz, Argentina", 
+        "iata_code": "RGL", 
+        "date_indexed": "2010-12-02T17:41:29Z"
       }, 
       "id": 12510544
     }

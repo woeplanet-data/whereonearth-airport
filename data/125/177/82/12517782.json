@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517782, 
-        "name": "Koh Samui Airport", 
         "alias_ENG_V": [
           "Koh Samui"
         ], 
-        "ne_latitude": 9.556, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Koh Samui Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=28341589", 
+          "woe:state=2347184", 
+          "woe:country=23424960", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517782, 
         "ne_longitude": 100.067, 
         "longitude": 100.064, 
-        "placetype": "Airport", 
+        "parent_woeid": 28341589, 
+        "ne_latitude": 9.556, 
         "iso": "TH", 
-        "date_indexed": "2010-12-02T17:05:34Z", 
-        "parent_woeid": 55946719, 
+        "sw_latitude": 9.538, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 9.546, 
         "sw_longitude": 100.060, 
-        "fullname": "Koh Samui Airport, Bo Phut, Surat Thani, Ko Samui, Thailand", 
-        "sw_latitude": 9.538
+        "fullname": "Koh Samui Airport, Bo Phut, Surat Thani, Thailand", 
+        "date_indexed": "2010-12-02T17:05:34Z"
       }, 
       "id": 12517782
     }

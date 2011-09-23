@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520280, 
-        "name": "Illinois Valley Regional Airport", 
         "alias_ENG_V": [
           "Illinois Valley Airport"
         ], 
-        "ne_latitude": 41.364, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Illinois Valley Regional Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588126", 
+          "woe:state=2347572", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520280, 
         "ne_longitude": -89.148, 
         "longitude": -89.149, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588126, 
+        "ne_latitude": 41.364, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2470852, 
+        "sw_latitude": 41.338, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.352, 
         "sw_longitude": -89.155, 
-        "fullname": "Illinois Valley Regional Airport, Peru, Illinois, La Salle, United States", 
-        "sw_latitude": 41.338
+        "fullname": "Illinois Valley Regional Airport, Peru, Illinois, United States", 
+        "iata_code": "VYS", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520280
     }

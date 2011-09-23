@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519406, 
-        "name": "Danbury Municipal Airport", 
         "alias_ENG_V": [
           "DXR"
         ], 
-        "ne_latitude": 41.378, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Danbury Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587791", 
+          "woe:state=2347565", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519406, 
         "ne_longitude": -73.474, 
         "longitude": -73.477, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587791, 
+        "ne_latitude": 41.378, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2389178, 
+        "sw_latitude": 41.367, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.374, 
         "sw_longitude": -73.493, 
-        "fullname": "Danbury Municipal Airport, Danbury, Connecticut, Fairfield, United States", 
-        "sw_latitude": 41.367
+        "fullname": "Danbury Municipal Airport, Danbury, Connecticut, United States", 
+        "iata_code": "DXR", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519406
     }

@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517464, 
+        "placetype": "airport", 
         "name": "Pomfret Airport", 
-        "ne_latitude": -25.840, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=56189668", 
+          "woe:county=56189446", 
+          "woe:state=2346984", 
+          "woe:country=23424942", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517464, 
         "ne_longitude": 23.545, 
         "longitude": 23.540, 
-        "placetype": "Airport", 
+        "parent_woeid": 56189668, 
+        "ne_latitude": -25.840, 
         "iso": "ZA", 
-        "date_indexed": "2010-12-02T08:57:52Z", 
-        "parent_woeid": 1586600, 
+        "sw_latitude": -25.849, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -25.845, 
         "sw_longitude": 23.535, 
         "fullname": "Pomfret Airport, North-west, North-west Rural, South Africa", 
-        "sw_latitude": -25.849
+        "date_indexed": "2010-12-02T08:57:52Z"
       }, 
       "id": 12517464
     }

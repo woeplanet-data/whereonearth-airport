@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518062, 
-        "name": "Coltishall Airport", 
         "alias_ENG_V": [
           "CLF"
         ], 
-        "ne_latitude": 52.759, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Coltishall Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=12696024", 
+          "woe:county=12602141", 
+          "woe:state=24554868", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518062, 
         "ne_longitude": 1.366, 
         "longitude": 1.359, 
-        "placetype": "Airport", 
+        "parent_woeid": 12696024, 
+        "ne_latitude": 52.759, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:20:54Z", 
-        "parent_woeid": 32846, 
+        "sw_latitude": 52.750, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 52.754, 
         "sw_longitude": 1.351, 
-        "fullname": "Coltishall Airport, Coltishall Airfield, England, Norfolk, United Kingdom", 
-        "sw_latitude": 52.750
+        "fullname": "Coltishall Airport, Coltishall Airfield, England, United Kingdom", 
+        "iata_code": "CLF", 
+        "date_indexed": "2010-12-02T12:20:54Z"
       }, 
       "id": 12518062
     }

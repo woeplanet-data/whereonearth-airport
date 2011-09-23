@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524359, 
-        "name": "Justicalpa Airport", 
         "alias_ENG_V": [
           "JUT"
         ], 
-        "ne_latitude": 14.696, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Justicalpa Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26813681", 
+          "woe:state=2345637", 
+          "woe:country=23424841", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524359, 
         "ne_longitude": -86.185, 
         "longitude": -86.189, 
-        "placetype": "Airport", 
+        "parent_woeid": 26813681, 
+        "ne_latitude": 14.696, 
         "iso": "HN", 
-        "date_indexed": "2010-12-02T19:21:06Z", 
-        "parent_woeid": 102436, 
+        "sw_latitude": 14.687, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 14.691, 
         "sw_longitude": -86.194, 
-        "fullname": "Justicalpa Airport, Juticalpa, Olancho, Juticalpa, Honduras", 
-        "sw_latitude": 14.687
+        "fullname": "Justicalpa Airport, Juticalpa, Olancho, Honduras", 
+        "date_indexed": "2010-12-02T19:21:06Z"
       }, 
       "id": 12524359
     }

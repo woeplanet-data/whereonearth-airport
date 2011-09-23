@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511002, 
+        "placetype": "airport", 
         "name": "Zabolotye Airport", 
-        "ne_latitude": 53.022, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2344831", 
+          "woe:country=23424765", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511002, 
         "ne_longitude": 29.904, 
         "longitude": 29.897, 
-        "placetype": "Airport", 
+        "parent_woeid": 2344831, 
+        "ne_latitude": 53.022, 
         "iso": "BY", 
-        "date_indexed": "2010-12-02T16:32:57Z", 
-        "parent_woeid": 830043, 
+        "sw_latitude": 53.013, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.017, 
         "sw_longitude": 29.889, 
         "fullname": "Zabolotye Airport, Homyel'skaya Voblasts', Belarus", 
-        "sw_latitude": 53.013
+        "date_indexed": "2010-12-02T16:32:57Z"
       }, 
       "id": 12511002
     }

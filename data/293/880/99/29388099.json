@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388099, 
+        "placetype": "airport", 
         "name": "Murray Airport", 
-        "ne_latitude": 39.409, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12588467", 
+          "woe:state=2347575", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388099, 
         "ne_longitude": -101.046, 
         "longitude": -101.046, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588467, 
+        "ne_latitude": 39.409, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2382687, 
+        "sw_latitude": 39.402, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 39.405, 
         "sw_longitude": -101.050, 
-        "fullname": "Murray Airport, Colby, Kansas, Thomas, United States", 
-        "sw_latitude": 39.402
+        "fullname": "Murray Airport, Colby, Kansas, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388099
     }

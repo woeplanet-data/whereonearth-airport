@@ -3,28 +3,42 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              101.084, 
-              4.559
-            ], 
-            [
-              101.084, 
-              4.575
-            ], 
-            [
-              101.100, 
-              4.575
-            ], 
-            [
-              101.100, 
-              4.559
-            ], 
-            [
-              101.084, 
-              4.559
+              [
+                101.116, 
+                4.573
+              ], 
+              [
+                101.116, 
+                4.573
+              ], 
+              [
+                101.117, 
+                4.573
+              ], 
+              [
+                101.116, 
+                4.572
+              ], 
+              [
+                101.116, 
+                4.572
+              ], 
+              [
+                101.115, 
+                4.572
+              ], 
+              [
+                101.110, 
+                4.575
+              ], 
+              [
+                101.116, 
+                4.573
+              ]
             ]
           ]
         ]
@@ -32,26 +46,34 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514993, 
-        "alias_UNK_V": [
-          "Lapangan Terbang Sultan Azlan Shah"
-        ], 
-        "name": "Ipoh Airport", 
         "alias_ENG_V": [
           "IPH"
         ], 
-        "ne_latitude": 4.575, 
-        "ne_longitude": 101.100, 
-        "longitude": 101.098, 
-        "parent_woeid": 1154679, 
-        "placetype": "Airport", 
-        "iso": "MY", 
-        "date_indexed": "2010-12-02T18:04:56Z", 
+        "name": "Ipoh Airport", 
+        "parent_woeid": 56014601, 
+        "woeid": 12514993, 
         "provider": "geoplanet 7.6.0", 
-        "latitude": 4.570, 
-        "sw_longitude": 101.084, 
-        "fullname": "Ipoh Airport, Ipoh, Perak, Kinta, Malaysia", 
-        "sw_latitude": 4.559
+        "alias_UNK_V": [
+          "Lapangan Terbang Sultan Azlan Shah"
+        ], 
+        "longitude": 101.115, 
+        "ne_longitude": 101.117, 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=56014601", 
+          "woe:county=56013603", 
+          "woe:state=2346302", 
+          "woe:country=23424901", 
+          "woe:planet=1"
+        ], 
+        "iso": "MY", 
+        "sw_latitude": 4.572, 
+        "ne_latitude": 4.575, 
+        "latitude": 4.573, 
+        "sw_longitude": 101.110, 
+        "fullname": "Ipoh Airport, Ipoh, Perak, Malaysia", 
+        "iata_code": "IPH", 
+        "date_indexed": "2010-12-02T18:04:56Z"
       }, 
       "id": 12514993
     }

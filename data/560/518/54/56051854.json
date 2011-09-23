@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "FRE", 
-        "woeid": 56051854, 
+        "placetype": "airport", 
         "name": "A\u00e9rodrome de Montauban", 
-        "ne_latitude": 44.030, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12666957", 
+          "woe:county=12597168", 
+          "woe:state=7153323", 
+          "woe:country=23424819", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56051854, 
         "ne_longitude": 1.385, 
         "longitude": 1.377, 
-        "placetype": "Airport", 
+        "parent_woeid": 12666957, 
+        "ne_latitude": 44.030, 
         "iso": "FR", 
-        "date_indexed": "2010-12-02T12:04:01Z", 
-        "parent_woeid": 612306, 
+        "sw_latitude": 44.022, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.029, 
         "sw_longitude": 1.372, 
-        "fullname": "A\u00e9rodrome de Montauban, Montauban, Midi-Pyrenees, Tarn-et-Garonne, France", 
+        "fullname": "A\u00e9rodrome de Montauban, Montauban, Midi-Pyrenees, France", 
         "alias_FRE_S": [
           "Aerodrome de Montauban"
         ], 
-        "sw_latitude": 44.022
+        "date_indexed": "2010-12-02T12:04:01Z"
       }, 
       "id": 56051854
     }

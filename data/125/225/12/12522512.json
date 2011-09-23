@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522512, 
-        "name": "Woodward Field Airport", 
         "alias_ENG_V": [
           "Woodward Airport"
         ], 
-        "ne_latitude": 34.286, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Woodward Field Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589827", 
+          "woe:state=2347599", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522512, 
         "ne_longitude": -80.553, 
         "longitude": -80.559, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589827, 
+        "ne_latitude": 34.286, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2467518, 
+        "sw_latitude": 34.277, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 34.281, 
         "sw_longitude": -80.564, 
-        "fullname": "Woodward Field Airport, Spalding, South Carolina, Kershaw, United States", 
-        "sw_latitude": 34.277
+        "fullname": "Woodward Field Airport, Spalding, South Carolina, United States", 
+        "iata_code": "CDN", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12522512
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520914, 
-        "name": "Metcalf Field Airport", 
         "alias_ENG_V": [
           "TDZ"
         ], 
-        "ne_latitude": 41.573, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Metcalf Field Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589613", 
+          "woe:state=2347594", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520914, 
         "ne_longitude": -83.473, 
         "longitude": -83.481, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589613, 
+        "ne_latitude": 41.573, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2452773, 
+        "sw_latitude": 41.559, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.560, 
         "sw_longitude": -83.492, 
-        "fullname": "Metcalf Field Airport, Cummings, Ohio, Wood, United States", 
-        "sw_latitude": 41.559
+        "fullname": "Metcalf Field Airport, Cummings, Ohio, United States", 
+        "iata_code": "TDZ", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520914
     }

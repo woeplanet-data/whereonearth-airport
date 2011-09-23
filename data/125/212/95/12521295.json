@@ -3,28 +3,50 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -120.218, 
-              47.391
-            ], 
-            [
-              -120.218, 
-              47.406
-            ], 
-            [
-              -120.195, 
-              47.406
-            ], 
-            [
-              -120.195, 
-              47.391
-            ], 
-            [
-              -120.218, 
-              47.391
+              [
+                -120.211, 
+                47.405
+              ], 
+              [
+                -120.212, 
+                47.406
+              ], 
+              [
+                -120.210, 
+                47.406
+              ], 
+              [
+                -120.208, 
+                47.405
+              ], 
+              [
+                -120.205, 
+                47.403
+              ], 
+              [
+                -120.205, 
+                47.402
+              ], 
+              [
+                -120.206, 
+                47.402
+              ], 
+              [
+                -120.207, 
+                47.403
+              ], 
+              [
+                -120.209, 
+                47.404
+              ], 
+              [
+                -120.211, 
+                47.405
+              ]
             ]
           ]
         ]
@@ -32,23 +54,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521295, 
-        "name": "Pangborn Memorial Airport", 
         "alias_ENG_V": [
           "EAT"
         ], 
+        "name": "Pangborn Memorial Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590448", 
+          "woe:state=2347606", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521295, 
+        "ne_longitude": -120.205, 
+        "longitude": -120.208, 
+        "parent_woeid": 12590448, 
         "ne_latitude": 47.406, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -120.195, 
-        "longitude": -120.210, 
-        "placetype": "Airport", 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2396321, 
-        "latitude": 47.405, 
-        "sw_longitude": -120.218, 
-        "fullname": "Pangborn Memorial Airport, East Wenatchee, Washington, Douglas, United States", 
-        "sw_latitude": 47.391
+        "sw_latitude": 47.402, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 47.404, 
+        "sw_longitude": -120.212, 
+        "fullname": "Pangborn Memorial Airport, East Wenatchee, Washington, United States", 
+        "iata_code": "EAT", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521295
     }

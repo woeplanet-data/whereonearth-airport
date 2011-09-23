@@ -3,28 +3,130 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -80.305, 
-              40.457
-            ], 
-            [
-              -80.305, 
-              40.520
-            ], 
-            [
-              -80.185, 
-              40.520
-            ], 
-            [
-              -80.185, 
-              40.457
-            ], 
-            [
-              -80.305, 
-              40.457
+              [
+                -80.260, 
+                40.497
+              ], 
+              [
+                -80.260, 
+                40.497
+              ], 
+              [
+                -80.258, 
+                40.497
+              ], 
+              [
+                -80.256, 
+                40.497
+              ], 
+              [
+                -80.256, 
+                40.496
+              ], 
+              [
+                -80.254, 
+                40.496
+              ], 
+              [
+                -80.250, 
+                40.498
+              ], 
+              [
+                -80.249, 
+                40.497
+              ], 
+              [
+                -80.247, 
+                40.497
+              ], 
+              [
+                -80.247, 
+                40.497
+              ], 
+              [
+                -80.246, 
+                40.496
+              ], 
+              [
+                -80.245, 
+                40.495
+              ], 
+              [
+                -80.243, 
+                40.494
+              ], 
+              [
+                -80.243, 
+                40.493
+              ], 
+              [
+                -80.241, 
+                40.489
+              ], 
+              [
+                -80.247, 
+                40.493
+              ], 
+              [
+                -80.249, 
+                40.493
+              ], 
+              [
+                -80.250, 
+                40.494
+              ], 
+              [
+                -80.255, 
+                40.495
+              ], 
+              [
+                -80.257, 
+                40.488
+              ], 
+              [
+                -80.262, 
+                40.490
+              ], 
+              [
+                -80.262, 
+                40.489
+              ], 
+              [
+                -80.263, 
+                40.489
+              ], 
+              [
+                -80.265, 
+                40.489
+              ], 
+              [
+                -80.272, 
+                40.494
+              ], 
+              [
+                -80.273, 
+                40.494
+              ], 
+              [
+                -80.268, 
+                40.495
+              ], 
+              [
+                -80.263, 
+                40.496
+              ], 
+              [
+                -80.262, 
+                40.496
+              ], 
+              [
+                -80.260, 
+                40.497
+              ]
             ]
           ]
         ]
@@ -32,23 +134,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519983, 
-        "name": "Greater Pittsburgh International Airport", 
         "alias_ENG_V": [
           "Pittsburgh International"
         ], 
-        "ne_latitude": 40.520, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -80.185, 
-        "longitude": -80.262, 
-        "placetype": "Airport", 
+        "name": "Greater Pittsburgh International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589729", 
+          "woe:state=2347597", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519983, 
+        "ne_longitude": -80.241, 
+        "longitude": -80.258, 
+        "parent_woeid": 12589729, 
+        "ne_latitude": 40.498, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 28339897, 
-        "latitude": 40.489, 
-        "sw_longitude": -80.305, 
-        "fullname": "Greater Pittsburgh International Airport, Findlay, Pennsylvania, Allegheny, United States", 
-        "sw_latitude": 40.457
+        "sw_latitude": 40.488, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 40.493, 
+        "sw_longitude": -80.273, 
+        "fullname": "Greater Pittsburgh International Airport, Findlay, Pennsylvania, United States", 
+        "iata_code": "PIT", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12519983
     }

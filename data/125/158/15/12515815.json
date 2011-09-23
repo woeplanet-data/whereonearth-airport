@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515815, 
+        "placetype": "airport", 
         "name": "Birobidzhan South Airport", 
-        "ne_latitude": 48.592, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597741", 
+          "woe:state=20070516", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515815, 
         "ne_longitude": 133.052, 
         "longitude": 133.045, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597741, 
+        "ne_latitude": 48.592, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2071765, 
+        "sw_latitude": 48.583, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.588, 
         "sw_longitude": 133.038, 
         "fullname": "Birobidzhan South Airport, Yevreyskaya Avtonomnaya Oblast, Birobidzhansky, Russia", 
-        "sw_latitude": 48.583
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12515815
     }

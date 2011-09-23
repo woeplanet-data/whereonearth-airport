@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523339, 
-        "name": "Toronto Downtown Airport", 
         "alias_ENG_V": [
           "YBZ Airport"
         ], 
-        "ne_latitude": 43.643, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Toronto Downtown Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:suburb=55855853", 
+          "woe:county=29375205", 
+          "woe:state=2344922", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523339, 
         "ne_longitude": -79.340, 
         "longitude": -79.347, 
-        "placetype": "Airport", 
-        "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
         "parent_woeid": 55855853, 
+        "ne_latitude": 43.643, 
+        "iso": "CA", 
+        "sw_latitude": 43.634, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.638, 
         "sw_longitude": -79.353, 
-        "fullname": "Toronto Downtown Airport, Toronto, Ontario, Toronto, Canada", 
-        "sw_latitude": 43.634
+        "fullname": "Toronto Downtown Airport, Toronto, Ontario, Canada", 
+        "iata_code": "YBZ", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12523339
     }

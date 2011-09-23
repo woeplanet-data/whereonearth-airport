@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516828, 
+        "placetype": "airport", 
         "name": "Sasovo Airport", 
-        "ne_latitude": 54.358, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599176", 
+          "woe:state=2346922", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516828, 
         "ne_longitude": 42.003, 
         "longitude": 41.995, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599176, 
+        "ne_latitude": 54.358, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 1988412, 
+        "sw_latitude": 54.349, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 54.354, 
         "sw_longitude": 41.987, 
         "fullname": "Sasovo Airport, Ryazanskaya Oblast, Sasovsky, Russia", 
-        "sw_latitude": 54.349
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516828
     }

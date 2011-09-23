@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522484, 
-        "name": "Window Rock Airport", 
         "alias_ENG_V": [
           "Rqe"
         ], 
-        "ne_latitude": 35.663, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Window Rock Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587580", 
+          "woe:state=2347561", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522484, 
         "ne_longitude": -109.054, 
         "longitude": -109.056, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587580, 
+        "ne_latitude": 35.663, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2521823, 
+        "sw_latitude": 35.643, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.663, 
         "sw_longitude": -109.078, 
-        "fullname": "Window Rock Airport, Window Rock, Arizona, Apache, United States", 
-        "sw_latitude": 35.643
+        "fullname": "Window Rock Airport, Window Rock, Arizona, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522484
     }

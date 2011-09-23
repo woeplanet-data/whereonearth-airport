@@ -3,28 +3,86 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -114.048, 
-              40.720
-            ], 
-            [
-              -114.048, 
-              40.738
-            ], 
-            [
-              -114.023, 
-              40.738
-            ], 
-            [
-              -114.023, 
-              40.720
-            ], 
-            [
-              -114.048, 
-              40.720
+              [
+                -114.036, 
+                40.729
+              ], 
+              [
+                -114.036, 
+                40.729
+              ], 
+              [
+                -114.032, 
+                40.730
+              ], 
+              [
+                -114.030, 
+                40.731
+              ], 
+              [
+                -114.029, 
+                40.736
+              ], 
+              [
+                -114.028, 
+                40.731
+              ], 
+              [
+                -114.025, 
+                40.729
+              ], 
+              [
+                -114.026, 
+                40.729
+              ], 
+              [
+                -114.029, 
+                40.728
+              ], 
+              [
+                -114.030, 
+                40.728
+              ], 
+              [
+                -114.032, 
+                40.727
+              ], 
+              [
+                -114.034, 
+                40.727
+              ], 
+              [
+                -114.035, 
+                40.727
+              ], 
+              [
+                -114.038, 
+                40.728
+              ], 
+              [
+                -114.039, 
+                40.727
+              ], 
+              [
+                -114.042, 
+                40.729
+              ], 
+              [
+                -114.042, 
+                40.729
+              ], 
+              [
+                -114.038, 
+                40.729
+              ], 
+              [
+                -114.036, 
+                40.729
+              ]
             ]
           ]
         ]
@@ -32,23 +90,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522383, 
-        "name": "Wendover Airport", 
         "alias_ENG_V": [
           "ENV"
         ], 
-        "ne_latitude": 40.738, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -114.023, 
-        "longitude": -114.036, 
-        "placetype": "Airport", 
+        "name": "Wendover Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590283", 
+          "woe:state=2347603", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522383, 
+        "ne_longitude": -114.025, 
+        "longitude": -114.032, 
+        "parent_woeid": 12590283, 
+        "ne_latitude": 40.736, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2516433, 
+        "sw_latitude": 40.727, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.729, 
-        "sw_longitude": -114.048, 
-        "fullname": "Wendover Airport, Wendover, Utah, Tooele, United States", 
-        "sw_latitude": 40.720
+        "sw_longitude": -114.042, 
+        "fullname": "Wendover Airport, Wendover, Utah, United States", 
+        "iata_code": "ENV", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12522383
     }

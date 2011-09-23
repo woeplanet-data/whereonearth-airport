@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521133, 
-        "name": "Newport State Airport", 
         "alias_ENG_V": [
           "EFK"
         ], 
-        "ne_latitude": 44.895, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Newport State Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590299", 
+          "woe:state=2347604", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521133, 
         "ne_longitude": -72.223, 
         "longitude": -72.224, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590299, 
+        "ne_latitude": 44.895, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2386193, 
+        "sw_latitude": 44.883, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.889, 
         "sw_longitude": -72.236, 
-        "fullname": "Newport State Airport, Coventry, Vermont, Orleans, United States", 
-        "sw_latitude": 44.883
+        "fullname": "Newport State Airport, Coventry, Vermont, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12521133
     }

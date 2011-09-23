@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521277, 
-        "name": "Page Municipal Airport", 
         "alias_ENG_V": [
           "PGA"
         ], 
-        "ne_latitude": 36.933, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Page Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587582", 
+          "woe:state=2347561", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521277, 
         "ne_longitude": -111.444, 
         "longitude": -111.451, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587582, 
+        "ne_latitude": 36.933, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2467444, 
+        "sw_latitude": 36.916, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.924, 
         "sw_longitude": -111.454, 
-        "fullname": "Page Municipal Airport, Page, Arizona, Coconino, United States", 
-        "sw_latitude": 36.916
+        "fullname": "Page Municipal Airport, Page, Arizona, United States", 
+        "iata_code": "PGA", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521277
     }

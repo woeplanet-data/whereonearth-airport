@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513890, 
-        "name": "Al Muthana Airport", 
         "alias_ENG_V": [
           "Al Muthana"
         ], 
-        "ne_latitude": 33.337, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Al Muthana Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55999983", 
+          "woe:state=2345839", 
+          "woe:country=23424855", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513890, 
         "ne_longitude": 44.369, 
         "longitude": 44.364, 
-        "placetype": "Airport", 
+        "parent_woeid": 55999983, 
+        "ne_latitude": 33.337, 
         "iso": "IQ", 
-        "date_indexed": "2010-12-02T16:42:58Z", 
-        "parent_woeid": 1979455, 
+        "sw_latitude": 33.328, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 33.333, 
         "sw_longitude": 44.358, 
-        "fullname": "Al Muthana Airport, Baghdad, Baghdad, Baghdad, Iraq", 
-        "sw_latitude": 33.328
+        "fullname": "Al Muthana Airport, Baghdad, Baghdad, Iraq", 
+        "iata_code": "BGW", 
+        "date_indexed": "2010-12-02T16:42:58Z"
       }, 
       "id": 12513890
     }

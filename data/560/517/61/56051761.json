@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "FRE", 
-        "woeid": 56051761, 
+        "placetype": "airport", 
         "name": "A\u00e9rodrome de Saint-inglevert", 
-        "ne_latitude": 50.888, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12666306", 
+          "woe:county=12597181", 
+          "woe:state=7153324", 
+          "woe:country=23424819", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56051761, 
         "ne_longitude": 1.743, 
         "longitude": 1.743, 
-        "placetype": "Airport", 
+        "parent_woeid": 12666306, 
+        "ne_latitude": 50.888, 
         "iso": "FR", 
-        "date_indexed": "2010-12-02T12:04:01Z", 
-        "parent_woeid": 610210, 
+        "sw_latitude": 50.877, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.880, 
         "sw_longitude": 1.731, 
-        "fullname": "A\u00e9rodrome de Saint-inglevert, Marquise, Nord-Pas-de-Calais, Pas-de-Calais, France", 
+        "fullname": "A\u00e9rodrome de Saint-inglevert, Marquise, Nord-Pas-de-Calais, France", 
         "alias_FRE_S": [
           "Aerodrome de Saint-inglevert"
         ], 
-        "sw_latitude": 50.877
+        "date_indexed": "2010-12-02T12:04:01Z"
       }, 
       "id": 56051761
     }

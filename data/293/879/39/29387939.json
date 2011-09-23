@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29387939, 
-        "name": "Sky Harbor Residential Airpark", 
         "alias_ENG_V": [
           "1mn8"
         ], 
-        "ne_latitude": 44.529, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Sky Harbor Residential Airpark", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588862", 
+          "woe:state=2347582", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29387939, 
         "ne_longitude": -93.322, 
         "longitude": -93.325, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588862, 
+        "ne_latitude": 44.529, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2515878, 
+        "sw_latitude": 44.523, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.525, 
         "sw_longitude": -93.333, 
-        "fullname": "Sky Harbor Residential Airpark, Webster, Minnesota, Rice, United States", 
-        "sw_latitude": 44.523
+        "fullname": "Sky Harbor Residential Airpark, Webster, Minnesota, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29387939
     }

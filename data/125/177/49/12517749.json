@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517749, 
+        "placetype": "airport", 
         "name": "Chiang Kham Airport", 
-        "ne_latitude": 19.503, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=28341731", 
+          "woe:state=2347166", 
+          "woe:country=23424960", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517749, 
         "ne_longitude": 100.293, 
         "longitude": 100.288, 
-        "placetype": "Airport", 
+        "parent_woeid": 28341731, 
+        "ne_latitude": 19.503, 
         "iso": "TH", 
-        "date_indexed": "2010-12-02T17:05:34Z", 
-        "parent_woeid": 1202068, 
+        "sw_latitude": 19.494, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 19.499, 
         "sw_longitude": 100.283, 
-        "fullname": "Chiang Kham Airport, Ban Chiang Ban, Phayao, Chiang Kham, Thailand", 
-        "sw_latitude": 19.494
+        "fullname": "Chiang Kham Airport, Ban Chiang Ban, Phayao, Thailand", 
+        "date_indexed": "2010-12-02T17:05:34Z"
       }, 
       "id": 12517749
     }

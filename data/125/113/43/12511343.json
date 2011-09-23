@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511343, 
+        "placetype": "airport", 
         "name": "Aeroporto Teodoro Sampaio", 
         "alias_ENG_P": [
           "Teodoro Sampaio Airport"
         ], 
-        "ne_latitude": -22.535, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12582354", 
+          "woe:state=2344868", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511343, 
         "ne_longitude": -52.226, 
         "longitude": -52.231, 
-        "placetype": "Airport", 
+        "parent_woeid": 12582354, 
+        "ne_latitude": -22.535, 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:28Z", 
-        "parent_woeid": 456565, 
+        "sw_latitude": -22.544, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -22.540, 
         "sw_longitude": -52.236, 
-        "fullname": "Aeroporto Teodoro Sampaio, Teodoro Sampaio, Sao Paulo, Teodoro Sampaio, Brazil", 
-        "sw_latitude": -22.544
+        "fullname": "Aeroporto Teodoro Sampaio, Teodoro Sampaio, Sao Paulo, Brazil", 
+        "date_indexed": "2010-12-02T18:01:28Z"
       }, 
       "id": 12511343
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511876, 
+        "placetype": "airport", 
         "name": "Tillsonburg Airport", 
-        "ne_latitude": 42.931, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=29375115", 
+          "woe:state=2344922", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511876, 
         "ne_longitude": -80.735, 
         "longitude": -80.742, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375115, 
+        "ne_latitude": 42.931, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 29374863, 
+        "sw_latitude": 42.922, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.927, 
         "sw_longitude": -80.748, 
-        "fullname": "Tillsonburg Airport, South-West Oxford, Ontario, Oxford, Canada", 
-        "sw_latitude": 42.922
+        "fullname": "Tillsonburg Airport, South-West Oxford, Ontario, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12511876
     }

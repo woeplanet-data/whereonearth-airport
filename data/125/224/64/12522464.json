@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522464, 
-        "name": "Williamsport-Lycoming County Airport", 
         "alias_ENG_V": [
           "IPT Airport"
         ], 
-        "ne_latitude": 41.248, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Williamsport-Lycoming County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589768", 
+          "woe:state=2347597", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522464, 
         "ne_longitude": -76.910, 
         "longitude": -76.928, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589768, 
+        "ne_latitude": 41.248, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2453500, 
+        "sw_latitude": 41.238, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.244, 
         "sw_longitude": -76.935, 
-        "fullname": "Williamsport-Lycoming County Airport, Montoursville, Pennsylvania, Lycoming, United States", 
-        "sw_latitude": 41.238
+        "fullname": "Williamsport-Lycoming County Airport, Montoursville, Pennsylvania, United States", 
+        "iata_code": "IPT", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522464
     }

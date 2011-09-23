@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513423, 
+        "placetype": "airport", 
         "name": "Rakocizujfalu Airport", 
-        "ne_latitude": 47.080, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12595986", 
+          "woe:state=12577926", 
+          "woe:country=23424844", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513423, 
         "ne_longitude": 20.249, 
         "longitude": 20.242, 
-        "placetype": "Airport", 
+        "parent_woeid": 12595986, 
+        "ne_latitude": 47.080, 
         "iso": "HU", 
-        "date_indexed": "2010-12-02T09:56:22Z", 
-        "parent_woeid": 814237, 
+        "sw_latitude": 47.070, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.075, 
         "sw_longitude": 20.236, 
-        "fullname": "Rakocizujfalu Airport, R\u00e1k\u00f3czifalva, J\u00e1sz-Nagykun-Szolnok, R\u00e1k\u00f3czifalva, Hungary", 
-        "sw_latitude": 47.070
+        "fullname": "Rakocizujfalu Airport, R\u00e1k\u00f3czifalva, J\u00e1sz-Nagykun-Szolnok, Hungary", 
+        "date_indexed": "2010-12-02T09:56:22Z"
       }, 
       "id": 12513423
     }

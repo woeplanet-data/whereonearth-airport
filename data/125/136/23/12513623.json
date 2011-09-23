@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513623, 
-        "name": "Kota Airport", 
         "alias_ENG_V": [
           "KTU"
         ], 
-        "ne_latitude": 25.166, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Kota Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12586649", 
+          "woe:state=2345757", 
+          "woe:country=23424848", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513623, 
         "ne_longitude": 75.849, 
         "longitude": 75.844, 
-        "placetype": "Airport", 
+        "parent_woeid": 12586649, 
+        "ne_latitude": 25.166, 
         "iso": "IN", 
-        "date_indexed": "2010-12-02T09:26:27Z", 
-        "parent_woeid": 2295062, 
+        "sw_latitude": 25.157, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 25.162, 
         "sw_longitude": 75.839, 
-        "fullname": "Kota Airport, Kota, Rajasthan, Kota, India", 
-        "sw_latitude": 25.157
+        "fullname": "Kota Airport, Kota, Rajasthan, India", 
+        "date_indexed": "2010-12-02T09:26:27Z"
       }, 
       "id": 12513623
     }

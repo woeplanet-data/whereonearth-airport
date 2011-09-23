@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 56049773, 
+        "placetype": "airport", 
         "name": "Swellendam Airfield", 
-        "ne_latitude": -34.043, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=56189676", 
+          "woe:county=56189456", 
+          "woe:state=2346987", 
+          "woe:country=23424942", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56049773, 
         "ne_longitude": 20.479, 
         "longitude": 20.473, 
-        "placetype": "Airport", 
+        "parent_woeid": 56189676, 
+        "ne_latitude": -34.043, 
         "iso": "ZA", 
-        "date_indexed": "2010-12-02T08:57:52Z", 
-        "parent_woeid": 1587929, 
+        "sw_latitude": -34.052, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -34.048, 
         "sw_longitude": 20.468, 
-        "fullname": "Swellendam Airfield, Swellendam, Western Cape, Swellendam, South Africa", 
-        "sw_latitude": -34.052
+        "fullname": "Swellendam Airfield, Swellendam, Western Cape, South Africa", 
+        "date_indexed": "2010-12-02T08:57:52Z"
       }, 
       "id": 56049773
     }

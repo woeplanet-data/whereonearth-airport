@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388420, 
-        "name": "Spencer Airport", 
         "alias_ENG_V": [
           "60m"
         ], 
-        "ne_latitude": 42.293, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Spencer Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588713", 
+          "woe:state=2347580", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388420, 
         "ne_longitude": -71.962, 
         "longitude": -71.966, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588713, 
+        "ne_latitude": 42.293, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2497502, 
+        "sw_latitude": 42.287, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.290, 
         "sw_longitude": -71.967, 
-        "fullname": "Spencer Airport, Spencer, Massachusetts, Worcester, United States", 
-        "sw_latitude": 42.287
+        "fullname": "Spencer Airport, Spencer, Massachusetts, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388420
     }

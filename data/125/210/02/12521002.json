@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521002, 
-        "name": "Montevideo-Chippewa County Airport", 
         "alias_ENG_V": [
           "Montevideo-Chippewa Airport"
         ], 
-        "ne_latitude": 44.974, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Montevideo-Chippewa County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588808", 
+          "woe:state=2347582", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521002, 
         "ne_longitude": -95.701, 
         "longitude": -95.717, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588808, 
+        "ne_latitude": 44.974, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2453311, 
+        "sw_latitude": 44.963, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.969, 
         "sw_longitude": -95.717, 
-        "fullname": "Montevideo-Chippewa County Airport, Montevideo, Minnesota, Chippewa, United States", 
-        "sw_latitude": 44.963
+        "fullname": "Montevideo-Chippewa County Airport, Montevideo, Minnesota, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12521002
     }

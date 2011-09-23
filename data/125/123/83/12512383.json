@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512383, 
+        "placetype": "airport", 
         "name": "Hacienda Veracruz Airport", 
-        "ne_latitude": 10.580, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=26796745", 
+          "woe:state=2345050", 
+          "woe:country=23424787", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512383, 
         "ne_longitude": -75.056, 
         "longitude": -75.061, 
-        "placetype": "Airport", 
+        "parent_woeid": 26796745, 
+        "ne_latitude": 10.580, 
         "iso": "CO", 
-        "date_indexed": "2010-12-02T17:57:37Z", 
-        "parent_woeid": 369346, 
+        "sw_latitude": 10.570, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 10.575, 
         "sw_longitude": -75.066, 
         "fullname": "Hacienda Veracruz Airport, Atlantico, Luruaco, Colombia", 
-        "sw_latitude": 10.570
+        "date_indexed": "2010-12-02T17:57:37Z"
       }, 
       "id": 12512383
     }

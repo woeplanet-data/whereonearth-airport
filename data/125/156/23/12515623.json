@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515623, 
-        "name": "Jolo Airport", 
         "alias_ENG_V": [
           "JOL"
         ], 
-        "ne_latitude": 6.060, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Jolo Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=2346713", 
+          "woe:state=23424729", 
+          "woe:country=23424934", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515623, 
         "ne_longitude": 121.013, 
         "longitude": 121.009, 
-        "placetype": "Airport", 
+        "parent_woeid": 2346713, 
+        "ne_latitude": 6.060, 
         "iso": "PH", 
-        "date_indexed": "2010-12-02T09:56:58Z", 
-        "parent_woeid": 1199263, 
+        "sw_latitude": 6.051, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 6.055, 
         "sw_longitude": 121.004, 
-        "fullname": "Jolo Airport, Jolo, Autonomous Region in Muslim Mindanao, Sulu, Philippines", 
-        "sw_latitude": 6.051
+        "fullname": "Jolo Airport, Jolo, Autonomous Region in Muslim Mindanao, Philippines", 
+        "iata_code": "JOL", 
+        "date_indexed": "2010-12-02T09:56:58Z"
       }, 
       "id": 12515623
     }

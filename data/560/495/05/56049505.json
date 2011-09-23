@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 56049505, 
-        "name": "Kestrel Airpark", 
         "alias_ENG_V": [
           "1t7"
         ], 
-        "ne_latitude": 29.820, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Kestrel Airpark", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590052", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56049505, 
         "ne_longitude": -98.413, 
         "longitude": -98.423, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590052, 
+        "ne_latitude": 29.820, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2371722, 
+        "sw_latitude": 29.802, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 29.811, 
         "sw_longitude": -98.434, 
-        "fullname": "Kestrel Airpark, Bulverde, Texas, Comal, United States", 
-        "sw_latitude": 29.802
+        "fullname": "Kestrel Airpark, Bulverde, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 56049505
     }

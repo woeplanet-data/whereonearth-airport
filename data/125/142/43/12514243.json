@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514243, 
+        "placetype": "airport", 
         "name": "Aitbuzum East Airport", 
-        "ne_latitude": 41.103, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345982", 
+          "woe:country=23424871", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514243, 
         "ne_longitude": 68.689, 
         "longitude": 68.683, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345982, 
+        "ne_latitude": 41.103, 
         "iso": "KZ", 
-        "date_indexed": "2010-12-02T08:54:13Z", 
-        "parent_woeid": 2257595, 
+        "sw_latitude": 41.094, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.098, 
         "sw_longitude": 68.676, 
         "fullname": "Aitbuzum East Airport, Il'ich, Ongtustik Qazaqstan, Kazakhstan", 
-        "sw_latitude": 41.094
+        "date_indexed": "2010-12-02T08:54:13Z"
       }, 
       "id": 12514243
     }

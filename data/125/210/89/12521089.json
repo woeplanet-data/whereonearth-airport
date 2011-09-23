@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521089, 
-        "name": "Needles Airport", 
         "alias_ENG_V": [
           "EED"
         ], 
-        "ne_latitude": 34.779, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Needles Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587705", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521089, 
         "ne_longitude": -114.609, 
         "longitude": -114.618, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587705, 
+        "ne_latitude": 34.779, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2457519, 
+        "sw_latitude": 34.757, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 34.768, 
         "sw_longitude": -114.644, 
-        "fullname": "Needles Airport, Needles, California, San Bernardino, United States", 
-        "sw_latitude": 34.757
+        "fullname": "Needles Airport, Needles, California, United States", 
+        "iata_code": "EED", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12521089
     }

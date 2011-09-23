@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524515, 
-        "name": "San Luis de Palenque Airport", 
         "alias_ENG_V": [
           "San Luis Palenque Airport"
         ], 
-        "ne_latitude": 5.405, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "San Luis de Palenque Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26797630", 
+          "woe:state=2345077", 
+          "woe:country=23424787", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524515, 
         "ne_longitude": -71.695, 
         "longitude": -71.700, 
-        "placetype": "Airport", 
+        "parent_woeid": 26797630, 
+        "ne_latitude": 5.405, 
         "iso": "CO", 
-        "date_indexed": "2010-12-02T17:57:37Z", 
-        "parent_woeid": 369505, 
+        "sw_latitude": 5.395, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 5.400, 
         "sw_longitude": -71.705, 
-        "fullname": "San Luis de Palenque Airport, Trinidad, Casanare, Trinidad, Colombia", 
-        "sw_latitude": 5.395
+        "fullname": "San Luis de Palenque Airport, Trinidad, Casanare, Colombia", 
+        "date_indexed": "2010-12-02T17:57:37Z"
       }, 
       "id": 12524515
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514570, 
-        "name": "Griva Airport", 
         "alias_ENG_V": [
           "DGP Airport"
         ], 
-        "ne_latitude": 55.893, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Griva Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55844363", 
+          "woe:state=56190593", 
+          "woe:country=23424874", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514570, 
         "ne_longitude": 26.472, 
         "longitude": 26.464, 
-        "placetype": "Airport", 
+        "parent_woeid": 55844363, 
+        "ne_latitude": 55.893, 
         "iso": "LV", 
-        "date_indexed": "2010-12-02T08:49:48Z", 
-        "parent_woeid": 55844763, 
+        "sw_latitude": 55.884, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 55.888, 
         "sw_longitude": 26.456, 
         "fullname": "Griva Airport, Daugavpils Rajons, Kalk\u017enes Pagasts, Latvia", 
-        "sw_latitude": 55.884
+        "date_indexed": "2010-12-02T08:49:48Z"
       }, 
       "id": 12514570
     }

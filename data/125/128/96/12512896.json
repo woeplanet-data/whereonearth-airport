@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512896, 
-        "name": "Francazal Airport", 
         "alias_ENG_V": [
           "Aerodrome Militaire Toulouse-Francazal"
         ], 
-        "ne_latitude": 43.552, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Francazal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=12668442", 
+          "woe:county=12597186", 
+          "woe:state=7153323", 
+          "woe:country=23424819", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512896, 
         "ne_longitude": 1.379, 
         "longitude": 1.372, 
-        "placetype": "Airport", 
+        "parent_woeid": 12668442, 
+        "ne_latitude": 43.552, 
         "iso": "FR", 
-        "date_indexed": "2010-12-02T12:04:01Z", 
-        "parent_woeid": 617591, 
+        "sw_latitude": 43.543, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.548, 
         "sw_longitude": 1.366, 
-        "fullname": "Francazal Airport, Portet-sur-Garonne, Midi-Pyrenees, Haute-Garonne, France", 
-        "sw_latitude": 43.543
+        "fullname": "Francazal Airport, Portet-sur-Garonne, Midi-Pyrenees, France", 
+        "date_indexed": "2010-12-02T12:04:01Z"
       }, 
       "id": 12512896
     }

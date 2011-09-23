@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 56043510, 
+        "placetype": "airport", 
         "name": "Adelaide Sports Airport", 
-        "ne_latitude": -34.599, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55864119", 
+          "woe:state=2344703", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56043510, 
         "ne_longitude": 138.726, 
         "longitude": 138.720, 
-        "placetype": "Airport", 
+        "parent_woeid": 55864119, 
+        "ne_latitude": -34.599, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 22721724, 
+        "sw_latitude": -34.609, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -34.604, 
         "sw_longitude": 138.715, 
-        "fullname": "Adelaide Sports Airport, Buchfelde, South Australia, Light, Australia", 
-        "sw_latitude": -34.609
+        "fullname": "Adelaide Sports Airport, Buchfelde, South Australia, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 56043510
     }

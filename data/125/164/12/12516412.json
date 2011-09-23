@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516412, 
+        "placetype": "airport", 
         "name": "Maygatka Airport", 
-        "ne_latitude": 48.932, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597758", 
+          "woe:state=2346883", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516412, 
         "ne_longitude": 140.046, 
         "longitude": 140.039, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597758, 
+        "ne_latitude": 48.932, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2006397, 
+        "sw_latitude": 48.923, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.928, 
         "sw_longitude": 140.032, 
         "fullname": "Maygatka Airport, Khabarovskiy Kray, Sovetsko-Gavansky, Russia", 
-        "sw_latitude": 48.923
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516412
     }

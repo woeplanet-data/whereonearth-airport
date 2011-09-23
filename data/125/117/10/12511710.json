@@ -3,28 +3,70 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -120.463, 
-              50.697
-            ], 
-            [
-              -120.463, 
-              50.710
-            ], 
-            [
-              -120.427, 
-              50.710
-            ], 
-            [
-              -120.427, 
-              50.697
-            ], 
-            [
-              -120.463, 
-              50.697
+              [
+                -120.441, 
+                50.707
+              ], 
+              [
+                -120.436, 
+                50.705
+              ], 
+              [
+                -120.432, 
+                50.705
+              ], 
+              [
+                -120.432, 
+                50.703
+              ], 
+              [
+                -120.432, 
+                50.699
+              ], 
+              [
+                -120.437, 
+                50.699
+              ], 
+              [
+                -120.433, 
+                50.703
+              ], 
+              [
+                -120.436, 
+                50.705
+              ], 
+              [
+                -120.439, 
+                50.705
+              ], 
+              [
+                -120.444, 
+                50.705
+              ], 
+              [
+                -120.444, 
+                50.705
+              ], 
+              [
+                -120.444, 
+                50.704
+              ], 
+              [
+                -120.444, 
+                50.705
+              ], 
+              [
+                -120.442, 
+                50.706
+              ], 
+              [
+                -120.441, 
+                50.707
+              ]
             ]
           ]
         ]
@@ -32,23 +74,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511710, 
-        "name": "Kamloops Airport", 
         "alias_ENG_V": [
           "YKA Airport"
         ], 
-        "ne_latitude": 50.710, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -120.427, 
-        "longitude": -120.442, 
-        "placetype": "Airport", 
-        "iso": "CA", 
-        "date_indexed": "2010-12-02T10:24:00Z", 
+        "name": "Kamloops Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:suburb=23405142", 
+          "woe:county=29375074", 
+          "woe:state=2344916", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511710, 
+        "ne_longitude": -120.432, 
+        "longitude": -120.436, 
         "parent_woeid": 23405142, 
-        "latitude": 50.705, 
-        "sw_longitude": -120.463, 
-        "fullname": "Kamloops Airport, Kamloops, British Columbia, Thompson-Nicola, Canada", 
-        "sw_latitude": 50.697
+        "ne_latitude": 50.707, 
+        "iso": "CA", 
+        "sw_latitude": 50.699, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 50.702, 
+        "sw_longitude": -120.444, 
+        "fullname": "Kamloops Airport, Kamloops, British Columbia, Canada", 
+        "date_indexed": "2010-12-02T10:24:00Z"
       }, 
       "id": 12511710
     }

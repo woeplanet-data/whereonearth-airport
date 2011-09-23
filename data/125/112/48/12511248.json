@@ -32,29 +32,35 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511248, 
-        "name": "Aeroporto Obidos", 
-        "alias_ENG_P": [
-          "Obidos Airport"
-        ], 
-        "ne_latitude": -1.862, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "OBI"
         ], 
+        "name": "Aeroporto Obidos", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Obidos Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12580185", 
+          "woe:state=2344857", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511248, 
         "ne_longitude": -55.513, 
         "longitude": -55.518, 
-        "placetype": "Airport", 
+        "parent_woeid": 12580185, 
+        "ne_latitude": -1.862, 
         "alias_POR_V": [
           "Aeroporto OBI"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 457692, 
+        "sw_latitude": -1.871, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -1.866, 
         "sw_longitude": -55.522, 
-        "fullname": "Aeroporto Obidos, \u00d3bidos, Para, \u00d3bidos, Brazil", 
-        "sw_latitude": -1.871
+        "fullname": "Aeroporto Obidos, \u00d3bidos, Para, Brazil", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511248
     }

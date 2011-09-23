@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515790, 
-        "name": "Belgorod North Airport", 
         "alias_ENG_V": [
           "Belgorod North"
         ], 
-        "ne_latitude": 50.645, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Belgorod North Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12598052", 
+          "woe:state=2346891", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515790, 
         "ne_longitude": 36.592, 
         "longitude": 36.585, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598052, 
+        "ne_latitude": 50.645, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2080760, 
+        "sw_latitude": 50.636, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.641, 
         "sw_longitude": 36.578, 
         "fullname": "Belgorod North Airport, Belgorodskaya Oblast, Belgorod, Russia", 
-        "sw_latitude": 50.636
+        "iata_code": "EGO", 
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12515790
     }

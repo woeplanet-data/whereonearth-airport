@@ -3,28 +3,46 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -87.936, 
-              15.440
-            ], 
-            [
-              -87.936, 
-              15.463
-            ], 
-            [
-              -87.912, 
-              15.463
-            ], 
-            [
-              -87.912, 
-              15.440
-            ], 
-            [
-              -87.936, 
-              15.440
+              [
+                -87.927, 
+                15.456
+              ], 
+              [
+                -87.928, 
+                15.457
+              ], 
+              [
+                -87.928, 
+                15.460
+              ], 
+              [
+                -87.922, 
+                15.459
+              ], 
+              [
+                -87.926, 
+                15.453
+              ], 
+              [
+                -87.926, 
+                15.452
+              ], 
+              [
+                -87.926, 
+                15.453
+              ], 
+              [
+                -87.927, 
+                15.455
+              ], 
+              [
+                -87.927, 
+                15.456
+              ]
             ]
           ]
         ]
@@ -32,23 +50,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513361, 
-        "name": "La Mesa International Airport", 
         "alias_ENG_V": [
           "La Mesa Airport"
         ], 
-        "ne_latitude": 15.463, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -87.912, 
-        "longitude": -87.924, 
-        "placetype": "Airport", 
+        "name": "La Mesa International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26813690", 
+          "woe:state=2345628", 
+          "woe:country=23424841", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513361, 
+        "ne_longitude": -87.922, 
+        "longitude": -87.926, 
+        "parent_woeid": 26813690, 
+        "ne_latitude": 15.460, 
         "iso": "HN", 
-        "date_indexed": "2010-12-02T19:21:06Z", 
-        "parent_woeid": 103182, 
-        "latitude": 15.451, 
-        "sw_longitude": -87.936, 
-        "fullname": "La Mesa International Airport, La Lima, Cort\u00e9s, La Lima, Honduras", 
-        "sw_latitude": 15.440
+        "sw_latitude": 15.452, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 15.457, 
+        "sw_longitude": -87.928, 
+        "fullname": "La Mesa International Airport, La Lima, Cort\u00e9s, Honduras", 
+        "iata_code": "SAP", 
+        "date_indexed": "2010-12-02T19:21:06Z"
       }, 
       "id": 12513361
     }

@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517469, 
-        "name": "Rand-Geriston Airport", 
         "alias_ENG_V": [
           "QRA Airport"
         ], 
-        "ne_latitude": -26.238, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Rand-Geriston Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=56189689", 
+          "woe:county=56189451", 
+          "woe:state=2346981", 
+          "woe:country=23424942", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517469, 
         "ne_longitude": 28.159, 
         "longitude": 28.152, 
-        "placetype": "Airport", 
+        "parent_woeid": 56189689, 
+        "ne_latitude": -26.238, 
         "iso": "ZA", 
-        "date_indexed": "2010-12-02T08:57:52Z", 
-        "parent_woeid": 55878938, 
+        "sw_latitude": -26.247, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -26.239, 
         "sw_longitude": 28.149, 
-        "fullname": "Rand-Geriston Airport, Germiston, Gauteng, Germiston, South Africa", 
-        "sw_latitude": -26.247
+        "fullname": "Rand-Geriston Airport, Germiston, Gauteng, South Africa", 
+        "iata_code": "QRA", 
+        "date_indexed": "2010-12-02T08:57:52Z"
       }, 
       "id": 12517469
     }

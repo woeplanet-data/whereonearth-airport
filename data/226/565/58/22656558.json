@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 22656558, 
+        "placetype": "airport", 
         "name": "Fairoaks Airport", 
-        "ne_latitude": 51.355, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12696094", 
+          "woe:county=12602176", 
+          "woe:state=24554868", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 22656558, 
         "ne_longitude": -0.554, 
         "longitude": -0.561, 
-        "placetype": "Airport", 
+        "parent_woeid": 12696094, 
+        "ne_latitude": 51.355, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:21:01Z", 
-        "parent_woeid": 20089595, 
+        "sw_latitude": 51.346, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.351, 
         "sw_longitude": -0.569, 
-        "fullname": "Fairoaks Airport, Surrey Heath, England, Surrey, United Kingdom", 
-        "sw_latitude": 51.346
+        "fullname": "Fairoaks Airport, Surrey Heath, England, United Kingdom", 
+        "date_indexed": "2010-12-02T12:21:01Z"
       }, 
       "id": 22656558
     }

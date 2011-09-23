@@ -3,28 +3,30 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -98.419, 
-              34.551
-            ], 
-            [
-              -98.419, 
-              34.580
-            ], 
-            [
-              -98.405, 
-              34.580
-            ], 
-            [
-              -98.405, 
-              34.551
-            ], 
-            [
-              -98.419, 
-              34.551
+              [
+                -98.415, 
+                34.574
+              ], 
+              [
+                -98.414, 
+                34.574
+              ], 
+              [
+                -98.413, 
+                34.574
+              ], 
+              [
+                -98.414, 
+                34.573
+              ], 
+              [
+                -98.415, 
+                34.574
+              ]
             ]
           ]
         ]
@@ -32,23 +34,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520593, 
-        "name": "Lawton Municipal Airport", 
         "alias_ENG_V": [
           "Lawton-Fort Sill Regional Airport"
         ], 
-        "ne_latitude": 34.580, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -98.405, 
-        "longitude": -98.413, 
-        "placetype": "Airport", 
+        "name": "Lawton Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589630", 
+          "woe:state=2347595", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520593, 
+        "ne_longitude": -98.413, 
+        "longitude": -98.414, 
+        "parent_woeid": 12589630, 
+        "ne_latitude": 34.574, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2437373, 
-        "latitude": 34.573, 
-        "sw_longitude": -98.419, 
-        "fullname": "Lawton Municipal Airport, Lawton, Oklahoma, Comanche, United States", 
-        "sw_latitude": 34.551
+        "sw_latitude": 34.573, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 34.574, 
+        "sw_longitude": -98.415, 
+        "fullname": "Lawton Municipal Airport, Lawton, Oklahoma, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520593
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523681, 
-        "name": "Puerto Inirida Airport", 
         "alias_ENG_V": [
           "Pto Inirida Airport"
         ], 
-        "ne_latitude": 3.961, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Puerto Inirida Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=28358180", 
+          "woe:state=2345060", 
+          "woe:country=23424787", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523681, 
         "ne_longitude": -67.779, 
         "longitude": -67.784, 
-        "placetype": "Airport", 
+        "parent_woeid": 28358180, 
+        "ne_latitude": 3.961, 
         "iso": "CO", 
-        "date_indexed": "2010-12-02T17:57:37Z", 
-        "parent_woeid": 356993, 
+        "sw_latitude": 3.952, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 3.956, 
         "sw_longitude": -67.789, 
-        "fullname": "Puerto Inirida Airport, Guaviare, Guainia, Guaviare, Colombia", 
-        "sw_latitude": 3.952
+        "fullname": "Puerto Inirida Airport, Guaviare, Guainia, Colombia", 
+        "iata_code": "PDA", 
+        "date_indexed": "2010-12-02T17:57:37Z"
       }, 
       "id": 12523681
     }

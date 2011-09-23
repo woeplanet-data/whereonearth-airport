@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515379, 
+        "placetype": "airport", 
         "name": "Przasnysz Airport", 
-        "ne_latitude": 53.009, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=24548143", 
+          "woe:county=12591293", 
+          "woe:state=12577941", 
+          "woe:country=23424923", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515379, 
         "ne_longitude": 20.939, 
         "longitude": 20.931, 
-        "placetype": "Airport", 
+        "parent_woeid": 24548143, 
+        "ne_latitude": 53.009, 
         "iso": "PL", 
-        "date_indexed": "2010-12-02T12:12:45Z", 
-        "parent_woeid": 498759, 
+        "sw_latitude": 53.000, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.005, 
         "sw_longitude": 20.924, 
         "fullname": "Przasnysz Airport, Masovian, Przasnysz County, Poland", 
-        "sw_latitude": 53.000
+        "date_indexed": "2010-12-02T12:12:45Z"
       }, 
       "id": 12515379
     }

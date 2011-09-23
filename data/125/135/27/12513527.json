@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513527, 
-        "name": "Agartala Airport", 
         "alias_ENG_V": [
           "IXA"
         ], 
-        "ne_latitude": 23.895, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Agartala Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12586711", 
+          "woe:state=2345759", 
+          "woe:country=23424848", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513527, 
         "ne_longitude": 91.247, 
         "longitude": 91.242, 
-        "placetype": "Airport", 
+        "parent_woeid": 12586711, 
+        "ne_latitude": 23.895, 
         "iso": "IN", 
-        "date_indexed": "2010-12-02T09:26:27Z", 
-        "parent_woeid": 29000395, 
+        "sw_latitude": 23.885, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 23.890, 
         "sw_longitude": 91.237, 
-        "fullname": "Agartala Airport, Narsingarh, Tripura, West Tripura, India", 
-        "sw_latitude": 23.885
+        "fullname": "Agartala Airport, Narsingarh, Tripura, India", 
+        "date_indexed": "2010-12-02T09:26:27Z"
       }, 
       "id": 12513527
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524587, 
-        "name": "Boswell Bay Airport", 
         "alias_ENG_V": [
           "Boswell Bay"
         ], 
-        "ne_latitude": 60.402, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Boswell Bay Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587576", 
+          "woe:state=2347560", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524587, 
         "ne_longitude": -146.126, 
         "longitude": -146.135, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587576, 
+        "ne_latitude": 60.402, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2384989, 
+        "sw_latitude": 60.393, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 60.398, 
         "sw_longitude": -146.144, 
-        "fullname": "Boswell Bay Airport, Cordova, Alaska, Valdez-Cordova Census Area, United States", 
-        "sw_latitude": 60.393
+        "fullname": "Boswell Bay Airport, Cordova, Alaska, United States", 
+        "iata_code": "BSW", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12524587
     }

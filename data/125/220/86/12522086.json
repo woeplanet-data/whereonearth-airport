@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522086, 
-        "name": "Taylor County Airport", 
         "alias_ENG_V": [
           "Aas"
         ], 
-        "ne_latitude": 37.365, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Taylor County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588584", 
+          "woe:state=2347576", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522086, 
         "ne_longitude": -85.300, 
         "longitude": -85.315, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588584, 
+        "ne_latitude": 37.365, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2374060, 
+        "sw_latitude": 37.352, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 37.357, 
         "sw_longitude": -85.318, 
-        "fullname": "Taylor County Airport, Campbellsville, Kentucky, Taylor, United States", 
-        "sw_latitude": 37.352
+        "fullname": "Taylor County Airport, Campbellsville, Kentucky, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522086
     }

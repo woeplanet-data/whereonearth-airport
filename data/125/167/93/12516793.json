@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516793, 
+        "placetype": "airport", 
         "name": "Rudnogorsk Airport", 
-        "ne_latitude": 57.370, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598271", 
+          "woe:state=2346896", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516793, 
         "ne_longitude": 102.783, 
         "longitude": 102.774, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598271, 
+        "ne_latitude": 57.370, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2000019, 
+        "sw_latitude": 57.361, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 57.366, 
         "sw_longitude": 102.766, 
         "fullname": "Rudnogorsk Airport, Irkutskaya Oblast, Nizhneilimsky, Russia", 
-        "sw_latitude": 57.361
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516793
     }

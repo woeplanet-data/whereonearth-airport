@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 56052055, 
+        "placetype": "airport", 
         "name": "Segelflugplatz Eschwege", 
-        "ne_latitude": 51.165, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12632856", 
+          "woe:county=12596751", 
+          "woe:state=2345485", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56052055, 
         "ne_longitude": 10.052, 
         "longitude": 10.050, 
-        "placetype": "Airport", 
+        "parent_woeid": 12632856, 
+        "ne_latitude": 51.165, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 648747, 
+        "sw_latitude": 51.156, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.160, 
         "sw_longitude": 10.044, 
-        "fullname": "Segelflugplatz Eschwege, Eschwege, Hesse, Werra-Mei\u00dfner-Kreis, Germany", 
-        "sw_latitude": 51.156
+        "fullname": "Segelflugplatz Eschwege, Eschwege, Hesse, Germany", 
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 56052055
     }

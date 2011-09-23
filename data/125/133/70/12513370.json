@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513370, 
+        "placetype": "airport", 
         "name": "Rijeka Airport", 
-        "ne_latitude": 45.383, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=15022151", 
+          "woe:state=12577982", 
+          "woe:country=23424843", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513370, 
         "ne_longitude": 14.516, 
         "longitude": 14.510, 
-        "placetype": "Airport", 
+        "parent_woeid": 15022151, 
+        "ne_latitude": 45.383, 
         "iso": "HR", 
-        "date_indexed": "2010-12-02T17:07:03Z", 
-        "parent_woeid": 850322, 
+        "sw_latitude": 45.374, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.379, 
         "sw_longitude": 14.504, 
         "fullname": "Rijeka Airport, Primorsko-Goranska, \u010cavle, Croatia", 
-        "sw_latitude": 45.374
+        "date_indexed": "2010-12-02T17:07:03Z"
       }, 
       "id": 12513370
     }

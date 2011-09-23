@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510776, 
+        "placetype": "airport", 
         "name": "Saint George Airport", 
-        "ne_latitude": -28.042, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55863951", 
+          "woe:state=2344702", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510776, 
         "ne_longitude": 148.609, 
         "longitude": 148.596, 
-        "placetype": "Airport", 
+        "parent_woeid": 55863951, 
+        "ne_latitude": -28.042, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1098628, 
+        "sw_latitude": -28.067, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -28.048, 
         "sw_longitude": 148.582, 
-        "fullname": "Saint George Airport, St George, Queensland, Balonne, Australia", 
-        "sw_latitude": -28.067
+        "fullname": "Saint George Airport, St George, Queensland, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 12510776
     }

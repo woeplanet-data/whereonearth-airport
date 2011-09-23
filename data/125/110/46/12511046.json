@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511046, 
+        "placetype": "airport", 
         "name": "Aeroporto Barreirinha", 
         "alias_ENG_P": [
           "Barreirinha Airport"
         ], 
-        "ne_latitude": -2.791, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12578177", 
+          "woe:state=2344847", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511046, 
         "ne_longitude": -57.051, 
         "longitude": -57.056, 
-        "placetype": "Airport", 
+        "parent_woeid": 12578177, 
+        "ne_latitude": -2.791, 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 456778, 
+        "sw_latitude": -2.800, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -2.796, 
         "sw_longitude": -57.060, 
-        "fullname": "Aeroporto Barreirinha, Barreirinha, Amazonas, Barreirinha, Brazil", 
-        "sw_latitude": -2.800
+        "fullname": "Aeroporto Barreirinha, Barreirinha, Amazonas, Brazil", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511046
     }

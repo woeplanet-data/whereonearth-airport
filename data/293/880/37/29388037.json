@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388037, 
-        "name": "Fuller Airport", 
         "alias_ENG_V": [
           "4d8"
         ], 
-        "ne_latitude": 43.336, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Fuller Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588301", 
+          "woe:state=2347574", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388037, 
         "ne_longitude": -95.151, 
         "longitude": -95.161, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588301, 
+        "ne_latitude": 43.336, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2450974, 
+        "sw_latitude": 43.328, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.328, 
         "sw_longitude": -95.164, 
-        "fullname": "Fuller Airport, Milford, Iowa, Dickinson, United States", 
-        "sw_latitude": 43.328
+        "fullname": "Fuller Airport, Milford, Iowa, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388037
     }

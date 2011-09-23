@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 56051937, 
+        "placetype": "airport", 
         "name": "Segelflugplatz Ingolstadt-etting", 
-        "ne_latitude": 48.811, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597077", 
+          "woe:state=2345482", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56051937, 
         "ne_longitude": 11.427, 
         "longitude": 11.426, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597077, 
+        "ne_latitude": 48.811, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 663545, 
+        "sw_latitude": 48.808, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.810, 
         "sw_longitude": 11.422, 
-        "fullname": "Segelflugplatz Ingolstadt-etting, Ingolstadt, Bavaria, Stadtkreis Ingolstadt, Germany", 
-        "sw_latitude": 48.808
+        "fullname": "Segelflugplatz Ingolstadt-etting, Ingolstadt, Bavaria, Germany", 
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 56051937
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388465, 
+        "placetype": "airport", 
         "name": "New Hanover Airport", 
-        "ne_latitude": 40.303, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12589773", 
+          "woe:state=2347597", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388465, 
         "ne_longitude": -75.586, 
         "longitude": -75.586, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589773, 
+        "ne_latitude": 40.303, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2458362, 
+        "sw_latitude": 40.297, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.300, 
         "sw_longitude": -75.595, 
-        "fullname": "New Hanover Airport, New Hanover, Pennsylvania, Montgomery, United States", 
-        "sw_latitude": 40.297
+        "fullname": "New Hanover Airport, New Hanover, Pennsylvania, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388465
     }

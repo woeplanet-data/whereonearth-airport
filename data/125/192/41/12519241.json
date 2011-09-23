@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519241, 
-        "name": "Clinton County Airport", 
         "alias_ENG_V": [
           "Clinton Airport"
         ], 
-        "ne_latitude": 44.695, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Clinton County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589321", 
+          "woe:state=2347591", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519241, 
         "ne_longitude": -73.507, 
         "longitude": -73.522, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589321, 
+        "ne_latitude": 44.695, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2473609, 
+        "sw_latitude": 44.676, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.692, 
         "sw_longitude": -73.533, 
-        "fullname": "Clinton County Airport, Plattsburgh, New York, Clinton, United States", 
-        "sw_latitude": 44.676
+        "fullname": "Clinton County Airport, Plattsburgh, New York, United States", 
+        "iata_code": "PLB", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519241
     }

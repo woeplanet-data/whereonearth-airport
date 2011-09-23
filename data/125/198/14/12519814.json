@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519814, 
-        "name": "Frederick Municipal Airport", 
         "alias_ENG_V": [
           "Frederick Airport"
         ], 
-        "ne_latitude": 39.425, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Frederick Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588686", 
+          "woe:state=2347579", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519814, 
         "ne_longitude": -77.365, 
         "longitude": -77.380, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588686, 
+        "ne_latitude": 39.425, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2372860, 
+        "sw_latitude": 39.405, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 39.416, 
         "sw_longitude": -77.385, 
-        "fullname": "Frederick Municipal Airport, Frederick, Maryland, Frederick, United States", 
-        "sw_latitude": 39.405
+        "fullname": "Frederick Municipal Airport, Frederick, Maryland, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12519814
     }

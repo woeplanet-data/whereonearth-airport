@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519122, 
-        "name": "Centre Municipal Airport", 
         "alias_ENG_V": [
           "C22"
         ], 
-        "ne_latitude": 34.161, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Centre Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587496", 
+          "woe:state=2347559", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519122, 
         "ne_longitude": -85.628, 
         "longitude": -85.640, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587496, 
+        "ne_latitude": 34.161, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2377654, 
+        "sw_latitude": 34.159, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 34.160, 
         "sw_longitude": -85.641, 
-        "fullname": "Centre Municipal Airport, Centre, Alabama, Cherokee, United States", 
-        "sw_latitude": 34.159
+        "fullname": "Centre Municipal Airport, Centre, Alabama, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519122
     }

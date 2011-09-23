@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517445, 
+        "placetype": "airport", 
         "name": "Middelburg Airport", 
-        "ne_latitude": -25.679, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=56189586", 
+          "woe:county=56189425", 
+          "woe:state=2346983", 
+          "woe:country=23424942", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517445, 
         "ne_longitude": 29.449, 
         "longitude": 29.444, 
-        "placetype": "Airport", 
+        "parent_woeid": 56189586, 
+        "ne_latitude": -25.679, 
         "iso": "ZA", 
-        "date_indexed": "2010-12-02T08:57:52Z", 
-        "parent_woeid": 1585001, 
+        "sw_latitude": -25.688, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -25.684, 
         "sw_longitude": 29.439, 
-        "fullname": "Middelburg Airport, Mhluzi, Mpumalanga, Middelburg, South Africa", 
-        "sw_latitude": -25.688
+        "fullname": "Middelburg Airport, Mhluzi, Mpumalanga, South Africa", 
+        "date_indexed": "2010-12-02T08:57:52Z"
       }, 
       "id": 12517445
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519803, 
-        "name": "Franklin County State Airport", 
         "alias_ENG_V": [
           "FSO"
         ], 
-        "ne_latitude": 44.946, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Franklin County State Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590295", 
+          "woe:state=2347604", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519803, 
         "ne_longitude": -73.093, 
         "longitude": -73.095, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590295, 
+        "ne_latitude": 44.946, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2421316, 
+        "sw_latitude": 44.934, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.938, 
         "sw_longitude": -73.101, 
-        "fullname": "Franklin County State Airport, Highgate Center, Vermont, Franklin, United States", 
-        "sw_latitude": 44.934
+        "fullname": "Franklin County State Airport, Highgate Center, Vermont, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12519803
     }

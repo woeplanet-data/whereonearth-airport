@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524295, 
-        "name": "Kegaska Airport", 
         "alias_ENG_V": [
           "ZKG Airport"
         ], 
-        "ne_latitude": 50.198, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Kegaska Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375258", 
+          "woe:state=2344924", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524295, 
         "ne_longitude": -61.275, 
         "longitude": -61.282, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375258, 
+        "ne_latitude": 50.198, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 2725, 
+        "sw_latitude": 50.189, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.194, 
         "sw_longitude": -61.289, 
-        "fullname": "Kegaska Airport, Kegaska, Quebec, Basse-C\u00f4te-Nord, Canada", 
-        "sw_latitude": 50.189
+        "fullname": "Kegaska Airport, Kegaska, Quebec, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12524295
     }

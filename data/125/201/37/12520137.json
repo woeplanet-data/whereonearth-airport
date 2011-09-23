@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520137, 
+        "placetype": "airport", 
         "name": "Hayfork Airport", 
-        "ne_latitude": 40.552, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12587722", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520137, 
         "ne_longitude": -123.175, 
         "longitude": -123.181, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587722, 
+        "ne_latitude": 40.552, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2419063, 
+        "sw_latitude": 40.543, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.547, 
         "sw_longitude": -123.187, 
-        "fullname": "Hayfork Airport, Hayfork, California, Trinity, United States", 
-        "sw_latitude": 40.543
+        "fullname": "Hayfork Airport, Hayfork, California, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12520137
     }

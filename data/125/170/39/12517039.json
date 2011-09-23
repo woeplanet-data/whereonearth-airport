@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517039, 
+        "placetype": "airport", 
         "name": "Tsvetki Airport", 
-        "ne_latitude": 56.524, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598379", 
+          "woe:state=2346898", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517039, 
         "ne_longitude": 31.631, 
         "longitude": 31.623, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598379, 
+        "ne_latitude": 56.524, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2067558, 
+        "sw_latitude": 56.515, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 56.520, 
         "sw_longitude": 31.615, 
         "fullname": "Tsvetki Airport, Tverskaya Oblast, Toropetsky, Russia", 
-        "sw_latitude": 56.515
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12517039
     }

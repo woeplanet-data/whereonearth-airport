@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519012, 
-        "name": "Calhoun County Airport", 
         "alias_ENG_V": [
           "04m"
         ], 
-        "ne_latitude": 33.940, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Calhoun County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588890", 
+          "woe:state=2347583", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519012, 
         "ne_longitude": -89.345, 
         "longitude": -89.348, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588890, 
+        "ne_latitude": 33.940, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:15Z", 
-        "parent_woeid": 2473199, 
+        "sw_latitude": 33.935, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 33.937, 
         "sw_longitude": -89.351, 
-        "fullname": "Calhoun County Airport, Pittsboro, Mississippi, Calhoun, United States", 
-        "sw_latitude": 33.935
+        "fullname": "Calhoun County Airport, Pittsboro, Mississippi, United States", 
+        "date_indexed": "2010-12-02T18:39:15Z"
       }, 
       "id": 12519012
     }

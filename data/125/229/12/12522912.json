@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522912, 
+        "placetype": "airport", 
         "name": "Ha Tien Airport", 
-        "ne_latitude": 10.404, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2347723", 
+          "woe:country=23424984", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522912, 
         "ne_longitude": 104.466, 
         "longitude": 104.461, 
-        "placetype": "Airport", 
+        "parent_woeid": 2347723, 
+        "ne_latitude": 10.404, 
         "iso": "VN", 
-        "date_indexed": "2010-12-02T08:52:49Z", 
-        "parent_woeid": 1252421, 
+        "sw_latitude": 10.395, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 10.399, 
         "sw_longitude": 104.457, 
         "fullname": "Ha Tien Airport, H\u00e0 Ti\u00ean, Kien Giang, Vietnam", 
-        "sw_latitude": 10.395
+        "date_indexed": "2010-12-02T08:52:49Z"
       }, 
       "id": 12522912
     }

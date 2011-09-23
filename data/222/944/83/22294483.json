@@ -3,28 +3,34 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              8.323, 
-              54.901
-            ], 
-            [
-              8.323, 
-              54.922
-            ], 
-            [
-              8.358, 
-              54.922
-            ], 
-            [
-              8.358, 
-              54.901
-            ], 
-            [
-              8.323, 
-              54.901
+              [
+                8.324, 
+                54.897
+              ], 
+              [
+                8.321, 
+                54.901
+              ], 
+              [
+                8.324, 
+                54.900
+              ], 
+              [
+                8.327, 
+                54.900
+              ], 
+              [
+                8.327, 
+                54.900
+              ], 
+              [
+                8.324, 
+                54.897
+              ]
             ]
           ]
         ]
@@ -37,8 +43,15 @@
         "alias_SWE_V": [
           "Westerland/sylt Flygplats"
         ], 
-        "ne_latitude": 54.922, 
-        "placetype": "Airport", 
+        "hierarchy": [
+          "woe:localadmin=12632257", 
+          "woe:county=12596738", 
+          "woe:state=2345490", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "ne_latitude": 54.901, 
+        "placetype": "airport", 
         "alias_POR_V": [
           "Aeroporto de Westerland/sylt"
         ], 
@@ -46,14 +59,15 @@
           "Aeroporto Westerland/sylt"
         ], 
         "woeid": 22294483, 
-        "sw_longitude": 8.323, 
+        "iata_code": "GWT", 
+        "sw_longitude": 8.321, 
         "alias_FIN_V": [
           "Westerland/sylt Lentokentta"
         ], 
         "alias_SPA_V": [
           "Aeropuerto de Westerland/sylt"
         ], 
-        "latitude": 54.914, 
+        "latitude": 54.899, 
         "date_indexed": "2010-12-02T09:50:31Z", 
         "alias_DAN_V": [
           "Westerland/sylt Lufthavn"
@@ -70,15 +84,15 @@
         ], 
         "lang": "ENG", 
         "name": "Westerland Airport", 
-        "parent_woeid": 699533, 
-        "ne_longitude": 8.358, 
-        "longitude": 8.330, 
+        "parent_woeid": 12632257, 
+        "ne_longitude": 8.327, 
+        "longitude": 8.324, 
         "iso": "DE", 
-        "sw_latitude": 54.901, 
+        "sw_latitude": 54.897, 
         "alias_FRE_V": [
           "Aeroport de Westerland/sylt"
         ], 
-        "fullname": "Westerland Airport, Tinnum, Schleswig-Holstein, Nordfriesland, Germany"
+        "fullname": "Westerland Airport, Tinnum, Schleswig-Holstein, Germany"
       }, 
       "id": 22294483
     }

@@ -3,28 +3,34 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              6.222, 
-              48.965
-            ], 
-            [
-              6.222, 
-              48.997
-            ], 
-            [
-              6.272, 
-              48.997
-            ], 
-            [
-              6.272, 
-              48.965
-            ], 
-            [
-              6.222, 
-              48.965
+              [
+                6.241, 
+                48.983
+              ], 
+              [
+                6.243, 
+                48.981
+              ], 
+              [
+                6.241, 
+                48.981
+              ], 
+              [
+                6.237, 
+                48.979
+              ], 
+              [
+                6.240, 
+                48.982
+              ], 
+              [
+                6.241, 
+                48.983
+              ]
             ]
           ]
         ]
@@ -40,11 +46,16 @@
         "alias_ENG_P": [
           "Lorraine Airport"
         ], 
-        "ne_latitude": 48.997, 
-        "alias_UNK_V": [
-          "Letisko Metz-Nancy-Lorraine"
+        "hierarchy": [
+          "woe:localadmin=12662177", 
+          "woe:county=12597171", 
+          "woe:state=7153322", 
+          "woe:country=23424819", 
+          "woe:planet=1"
         ], 
-        "placetype": "Airport", 
+        "ne_latitude": 48.983, 
+        "ne_longitude": 6.243, 
+        "placetype": "airport", 
         "alias_POR_V": [
           "Aeroporto de Metz-Nancy-Lorena"
         ], 
@@ -52,7 +63,7 @@
           "Aeroporto Di Metz-Nancy-Lorraine"
         ], 
         "woeid": 12523821, 
-        "sw_longitude": 6.222, 
+        "sw_longitude": 6.237, 
         "alias_FIN_V": [
           "Metz-Nancy-Lorrainen Lentokentta"
         ], 
@@ -76,15 +87,17 @@
         ], 
         "lang": "FRE", 
         "name": "A\u00e9roport de Metz-Nancy-Lorraine", 
-        "parent_woeid": 593078, 
-        "ne_longitude": 6.272, 
-        "longitude": 6.243, 
+        "parent_woeid": 12662177, 
+        "alias_UNK_V": [
+          "Letisko Metz-Nancy-Lorraine"
+        ], 
+        "longitude": 6.240, 
         "iso": "FR", 
-        "sw_latitude": 48.965, 
+        "sw_latitude": 48.979, 
         "alias_FRE_V": [
           "ETZ A\u00e9roport"
         ], 
-        "fullname": "A\u00e9roport de Metz-Nancy-Lorraine, Goin, Lorraine, Moselle, France", 
+        "fullname": "A\u00e9roport de Metz-Nancy-Lorraine, Goin, Lorraine, France", 
         "alias_FRE_S": [
           "Aeroport ETZ"
         ]

@@ -32,23 +32,28 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523626, 
-        "name": "Mahdia Airport", 
         "alias_ENG_V": [
           "MHA"
         ], 
-        "ne_latitude": 5.255, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Mahdia Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2345610", 
+          "woe:country=23424836", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523626, 
         "ne_longitude": -59.145, 
         "longitude": -59.150, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345610, 
+        "ne_latitude": 5.255, 
         "iso": "GY", 
-        "date_indexed": "2010-12-02T16:33:25Z", 
-        "parent_woeid": 376797, 
+        "sw_latitude": 5.245, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 5.250, 
         "sw_longitude": -59.155, 
         "fullname": "Mahdia Airport, Tumatumari, Potaro-Siparuni, Guyana", 
-        "sw_latitude": 5.245
+        "date_indexed": "2010-12-02T16:33:25Z"
       }, 
       "id": 12523626
     }

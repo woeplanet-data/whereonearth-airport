@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514078, 
-        "name": "Nairobi Wilson Airport", 
         "alias_ENG_V": [
           "WIL Airport"
         ], 
-        "ne_latitude": -1.314, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Nairobi Wilson Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2345940", 
+          "woe:country=23424863", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514078, 
         "ne_longitude": 36.820, 
         "longitude": 36.816, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345940, 
+        "ne_latitude": -1.314, 
         "iso": "KE", 
-        "date_indexed": "2010-12-02T08:53:57Z", 
-        "parent_woeid": 10644693, 
+        "sw_latitude": -1.323, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -1.319, 
         "sw_longitude": 36.811, 
         "fullname": "Nairobi Wilson Airport, Nairobi Area, Kenya", 
-        "sw_latitude": -1.323
+        "iata_code": "WIL", 
+        "date_indexed": "2010-12-02T08:53:57Z"
       }, 
       "id": 12514078
     }

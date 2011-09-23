@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519955, 
-        "name": "Grand Rapids Airport", 
         "alias_ENG_V": [
           "GPZ Airport"
         ], 
-        "ne_latitude": 47.220, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Grand Rapids Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588827", 
+          "woe:state=2347582", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519955, 
         "ne_longitude": -93.500, 
         "longitude": -93.517, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588827, 
+        "ne_latitude": 47.220, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2412844, 
+        "sw_latitude": 47.195, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.214, 
         "sw_longitude": -93.518, 
-        "fullname": "Grand Rapids Airport, Grand Rapids, Minnesota, Itasca, United States", 
-        "sw_latitude": 47.195
+        "fullname": "Grand Rapids Airport, Grand Rapids, Minnesota, United States", 
+        "iata_code": "GPZ", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12519955
     }

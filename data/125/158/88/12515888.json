@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515888, 
+        "placetype": "airport", 
         "name": "Chazylar Airport", 
-        "ne_latitude": 52.755, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597588", 
+          "woe:state=2346879", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515888, 
         "ne_longitude": 97.416, 
         "longitude": 97.408, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597588, 
+        "ne_latitude": 52.755, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 1997163, 
+        "sw_latitude": 52.746, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 52.751, 
         "sw_longitude": 97.401, 
         "fullname": "Chazylar Airport, Tyva, Todzhinsky, Russia", 
-        "sw_latitude": 52.746
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12515888
     }

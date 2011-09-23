@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 22458071, 
-        "name": "Cambridge Airport", 
         "alias_ENG_V": [
           "CBG"
         ], 
-        "ne_latitude": 52.211, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Cambridge Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=12695886", 
+          "woe:county=12602140", 
+          "woe:state=24554868", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 22458071, 
         "ne_longitude": 0.181, 
         "longitude": 0.174, 
-        "placetype": "Airport", 
+        "parent_woeid": 12695886, 
+        "ne_latitude": 52.211, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:21:01Z", 
-        "parent_woeid": 37136, 
+        "sw_latitude": 52.202, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 52.211, 
         "sw_longitude": 0.166, 
-        "fullname": "Cambridge Airport, Teversham, England, Cambridgeshire, United Kingdom", 
-        "sw_latitude": 52.202
+        "fullname": "Cambridge Airport, Teversham, England, United Kingdom", 
+        "iata_code": "CBG", 
+        "date_indexed": "2010-12-02T12:21:01Z"
       }, 
       "id": 22458071
     }

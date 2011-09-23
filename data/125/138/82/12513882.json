@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513882, 
+        "placetype": "airport", 
         "name": "Al Sahra Airport", 
-        "ne_latitude": 34.681, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55999992", 
+          "woe:state=2345850", 
+          "woe:country=23424855", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513882, 
         "ne_longitude": 43.550, 
         "longitude": 43.544, 
-        "placetype": "Airport", 
+        "parent_woeid": 55999992, 
+        "ne_latitude": 34.681, 
         "iso": "IQ", 
-        "date_indexed": "2010-12-02T16:42:58Z", 
-        "parent_woeid": 1979578, 
+        "sw_latitude": 34.672, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 34.676, 
         "sw_longitude": 43.539, 
-        "fullname": "Al Sahra Airport, Tikrit, S-Alah Ad Din, Tikrit, Iraq", 
-        "sw_latitude": 34.672
+        "fullname": "Al Sahra Airport, Tikrit, S-Alah Ad Din, Iraq", 
+        "date_indexed": "2010-12-02T16:42:58Z"
       }, 
       "id": 12513882
     }

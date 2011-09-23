@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521619, 
-        "name": "Robertson Field Airport", 
         "alias_ENG_V": [
           "Robertson Airport"
         ], 
-        "ne_latitude": 41.695, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Robertson Field Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587792", 
+          "woe:state=2347565", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521619, 
         "ne_longitude": -72.864, 
         "longitude": -72.868, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587792, 
+        "ne_latitude": 41.695, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2473445, 
+        "sw_latitude": 41.684, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.691, 
         "sw_longitude": -72.869, 
-        "fullname": "Robertson Field Airport, Plainville, Connecticut, Hartford, United States", 
-        "sw_latitude": 41.684
+        "fullname": "Robertson Field Airport, Plainville, Connecticut, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521619
     }

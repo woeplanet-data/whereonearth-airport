@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 56052111, 
+        "placetype": "airport", 
         "name": "Flugplatz Sierksdorf/hof Altona", 
-        "ne_latitude": 54.070, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12632311", 
+          "woe:county=12596898", 
+          "woe:state=2345490", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56052111, 
         "ne_longitude": 10.750, 
         "longitude": 10.747, 
-        "placetype": "Airport", 
+        "parent_woeid": 12632311, 
+        "ne_latitude": 54.070, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 679040, 
+        "sw_latitude": 54.062, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 54.068, 
         "sw_longitude": 10.739, 
-        "fullname": "Flugplatz Sierksdorf/hof Altona, Neustadt, Schleswig-Holstein, Ostholstein, Germany", 
-        "sw_latitude": 54.062
+        "fullname": "Flugplatz Sierksdorf/hof Altona, Neustadt, Schleswig-Holstein, Germany", 
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 56052111
     }

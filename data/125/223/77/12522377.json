@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522377, 
-        "name": "Weiser Air Park", 
         "alias_ENG_V": [
           "EYQ Airport"
         ], 
-        "ne_latitude": 29.939, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Weiser Air Park", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590107", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522377, 
         "ne_longitude": -95.634, 
         "longitude": -95.646, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590107, 
+        "ne_latitude": 29.939, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2489192, 
+        "sw_latitude": 29.933, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 29.935, 
         "sw_longitude": -95.647, 
-        "fullname": "Weiser Air Park, Satsuma, Texas, Harris, United States", 
-        "sw_latitude": 29.933
+        "fullname": "Weiser Air Park, Satsuma, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522377
     }

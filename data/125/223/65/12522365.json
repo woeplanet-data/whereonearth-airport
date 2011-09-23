@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522365, 
-        "name": "Wayne County Airport", 
         "alias_ENG_V": [
           "BJJ"
         ], 
-        "ne_latitude": 40.876, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Wayne County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589611", 
+          "woe:state=2347594", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522365, 
         "ne_longitude": -81.878, 
         "longitude": -81.878, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589611, 
+        "ne_latitude": 40.876, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2495111, 
+        "sw_latitude": 40.872, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.873, 
         "sw_longitude": -81.898, 
-        "fullname": "Wayne County Airport, Smithville, Ohio, Wayne, United States", 
-        "sw_latitude": 40.872
+        "fullname": "Wayne County Airport, Smithville, Ohio, United States", 
+        "iata_code": "BJJ", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522365
     }

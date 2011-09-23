@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515871, 
+        "placetype": "airport", 
         "name": "Buguruslan Southeast Airport", 
-        "ne_latitude": 53.575, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598923", 
+          "woe:state=2346916", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515871, 
         "ne_longitude": 52.580, 
         "longitude": 52.572, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598923, 
+        "ne_latitude": 53.575, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2116856, 
+        "sw_latitude": 53.565, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.570, 
         "sw_longitude": 52.565, 
         "fullname": "Buguruslan Southeast Airport, Orenburgskaya Oblast, Buguruslansky, Russia", 
-        "sw_latitude": 53.565
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12515871
     }

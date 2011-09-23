@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517499, 
+        "placetype": "airport", 
         "name": "Witbank Airport", 
-        "ne_latitude": -25.828, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=56189520", 
+          "woe:county=56189425", 
+          "woe:state=2346983", 
+          "woe:country=23424942", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517499, 
         "ne_longitude": 29.198, 
         "longitude": 29.193, 
-        "placetype": "Airport", 
+        "parent_woeid": 56189520, 
+        "ne_latitude": -25.828, 
         "iso": "ZA", 
-        "date_indexed": "2010-12-02T08:57:52Z", 
-        "parent_woeid": 55879890, 
+        "sw_latitude": -25.837, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -25.832, 
         "sw_longitude": 29.188, 
         "fullname": "Witbank Airport, Mpumalanga, Witbank, South Africa", 
-        "sw_latitude": -25.837
+        "date_indexed": "2010-12-02T08:57:52Z"
       }, 
       "id": 12517499
     }

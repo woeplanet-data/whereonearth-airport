@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 28677738, 
+        "placetype": "airport", 
         "name": "Lyndon Aerodrome", 
-        "ne_latitude": -23.639, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55864377", 
+          "woe:state=2344706", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 28677738, 
         "ne_longitude": 115.245, 
         "longitude": 115.240, 
-        "placetype": "Airport", 
+        "parent_woeid": 55864377, 
+        "ne_latitude": -23.639, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1103566, 
+        "sw_latitude": -23.648, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -23.644, 
         "sw_longitude": 115.235, 
-        "fullname": "Lyndon Aerodrome, Lyndon, Western Australia, Carnarvon, Australia", 
-        "sw_latitude": -23.648
+        "fullname": "Lyndon Aerodrome, Lyndon, Western Australia, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 28677738
     }

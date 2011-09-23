@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510311, 
+        "placetype": "airport", 
         "name": "Shindand Airport", 
-        "ne_latitude": 33.395, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=56000576", 
+          "woe:state=2344558", 
+          "woe:country=23424739", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510311, 
         "ne_longitude": 62.261, 
         "longitude": 62.256, 
-        "placetype": "Airport", 
+        "parent_woeid": 56000576, 
+        "ne_latitude": 33.395, 
         "iso": "AF", 
-        "date_indexed": "2010-12-02T18:03:37Z", 
-        "parent_woeid": 1932710, 
+        "sw_latitude": 33.386, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 33.390, 
         "sw_longitude": 62.250, 
-        "fullname": "Shindand Airport, Sindand, Herat, Shindand, Afghanistan", 
-        "sw_latitude": 33.386
+        "fullname": "Shindand Airport, Sindand, Herat, Afghanistan", 
+        "date_indexed": "2010-12-02T18:03:37Z"
       }, 
       "id": 12510311
     }

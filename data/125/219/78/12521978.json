@@ -3,28 +3,58 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -82.700, 
-              27.898
-            ], 
-            [
-              -82.700, 
-              27.933
-            ], 
-            [
-              -82.676, 
-              27.933
-            ], 
-            [
-              -82.676, 
-              27.898
-            ], 
-            [
-              -82.700, 
-              27.898
+              [
+                -82.696, 
+                27.908
+              ], 
+              [
+                -82.699, 
+                27.912
+              ], 
+              [
+                -82.695, 
+                27.915
+              ], 
+              [
+                -82.692, 
+                27.916
+              ], 
+              [
+                -82.694, 
+                27.914
+              ], 
+              [
+                -82.689, 
+                27.910
+              ], 
+              [
+                -82.690, 
+                27.907
+              ], 
+              [
+                -82.690, 
+                27.904
+              ], 
+              [
+                -82.693, 
+                27.898
+              ], 
+              [
+                -82.691, 
+                27.904
+              ], 
+              [
+                -82.696, 
+                27.906
+              ], 
+              [
+                -82.696, 
+                27.908
+              ]
             ]
           ]
         ]
@@ -32,23 +62,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521978, 
-        "name": "St. Petersburg-Clearwater International Airport", 
         "alias_ENG_V": [
           "PIE Airport"
         ], 
-        "ne_latitude": 27.933, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -82.676, 
-        "longitude": -82.693, 
-        "placetype": "Airport", 
+        "name": "St. Petersburg-Clearwater International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587854", 
+          "woe:state=2347568", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521978, 
+        "ne_longitude": -82.689, 
+        "longitude": -82.694, 
+        "parent_woeid": 12587854, 
+        "ne_latitude": 27.916, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2472637, 
-        "latitude": 27.907, 
-        "sw_longitude": -82.700, 
-        "fullname": "St. Petersburg-Clearwater International Airport, Pinellas Park, Florida, Pinellas, United States", 
-        "sw_latitude": 27.898
+        "sw_latitude": 27.898, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 27.909, 
+        "sw_longitude": -82.699, 
+        "fullname": "St. Petersburg-Clearwater International Airport, Pinellas Park, Florida, United States", 
+        "iata_code": "PIE", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521978
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513047, 
+        "placetype": "airport", 
         "name": "Bautzen Litten Airport", 
-        "ne_latitude": 51.200, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12625738", 
+          "woe:county=12596844", 
+          "woe:state=2345493", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513047, 
         "ne_longitude": 14.540, 
         "longitude": 14.502, 
-        "placetype": "Airport", 
+        "parent_woeid": 12625738, 
+        "ne_latitude": 51.200, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 637104, 
+        "sw_latitude": 51.184, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.190, 
         "sw_longitude": 14.499, 
-        "fullname": "Bautzen Litten Airport, Basch\u00fctz, Saxony, Landkreis Bautzen, Germany", 
+        "fullname": "Bautzen Litten Airport, Basch\u00fctz, Saxony, Germany", 
         "alias_GER_Q": [
           "Flughafen Bautzen Litten"
         ], 
-        "sw_latitude": 51.184
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 12513047
     }

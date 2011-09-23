@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523191, 
-        "name": "Nelspruit Airport", 
         "alias_ENG_V": [
           "NLP"
         ], 
-        "ne_latitude": -25.496, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Nelspruit Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=56189673", 
+          "woe:county=56189450", 
+          "woe:state=2346983", 
+          "woe:country=23424942", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523191, 
         "ne_longitude": 30.917, 
         "longitude": 30.910, 
-        "placetype": "Airport", 
+        "parent_woeid": 56189673, 
+        "ne_latitude": -25.496, 
         "iso": "ZA", 
-        "date_indexed": "2010-12-02T08:57:52Z", 
-        "parent_woeid": 55879783, 
+        "sw_latitude": -25.506, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -25.504, 
         "sw_longitude": 30.903, 
         "fullname": "Nelspruit Airport, Mpumalanga, Mpumalanga Rural, South Africa", 
-        "sw_latitude": -25.506
+        "date_indexed": "2010-12-02T08:57:52Z"
       }, 
       "id": 12523191
     }

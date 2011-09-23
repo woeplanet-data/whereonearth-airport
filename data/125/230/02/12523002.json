@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523002, 
-        "name": "Beihan Airport", 
         "alias_ENG_V": [
           "BHN"
         ], 
-        "ne_latitude": 14.785, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Beihan Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=56190160", 
+          "woe:state=20070034", 
+          "woe:country=23425002", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523002, 
         "ne_longitude": 45.723, 
         "longitude": 45.718, 
-        "placetype": "Airport", 
+        "parent_woeid": 56190160, 
+        "ne_latitude": 14.785, 
         "iso": "YE", 
-        "date_indexed": "2010-12-02T16:39:41Z", 
-        "parent_woeid": 1959022, 
+        "sw_latitude": 14.776, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 14.781, 
         "sw_longitude": 45.714, 
         "fullname": "Beihan Airport, Bayhan Al Qisab, Shabwah, Yemen", 
-        "sw_latitude": 14.776
+        "iata_code": "BHN", 
+        "date_indexed": "2010-12-02T16:39:41Z"
       }, 
       "id": 12523002
     }

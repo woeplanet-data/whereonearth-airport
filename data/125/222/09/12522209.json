@@ -3,28 +3,74 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -120.157, 
-              39.308
-            ], 
-            [
-              -120.157, 
-              39.327
-            ], 
-            [
-              -120.125, 
-              39.327
-            ], 
-            [
-              -120.125, 
-              39.308
-            ], 
-            [
-              -120.157, 
-              39.308
+              [
+                -120.141, 
+                39.311
+              ], 
+              [
+                -120.142, 
+                39.312
+              ], 
+              [
+                -120.144, 
+                39.313
+              ], 
+              [
+                -120.155, 
+                39.316
+              ], 
+              [
+                -120.155, 
+                39.318
+              ], 
+              [
+                -120.153, 
+                39.318
+              ], 
+              [
+                -120.152, 
+                39.318
+              ], 
+              [
+                -120.144, 
+                39.313
+              ], 
+              [
+                -120.138, 
+                39.318
+              ], 
+              [
+                -120.133, 
+                39.322
+              ], 
+              [
+                -120.136, 
+                39.323
+              ], 
+              [
+                -120.138, 
+                39.318
+              ], 
+              [
+                -120.135, 
+                39.308
+              ], 
+              [
+                -120.139, 
+                39.310
+              ], 
+              [
+                -120.141, 
+                39.311
+              ], 
+              [
+                -120.141, 
+                39.311
+              ]
             ]
           ]
         ]
@@ -32,23 +78,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522209, 
-        "name": "Truckee Tahoe Airport", 
         "alias_ENG_V": [
           "Tkf"
         ], 
-        "ne_latitude": 39.327, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -120.125, 
+        "name": "Truckee Tahoe Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587698", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522209, 
+        "ne_longitude": -120.133, 
         "longitude": -120.145, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587698, 
+        "ne_latitude": 39.323, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2508245, 
-        "latitude": 39.319, 
-        "sw_longitude": -120.157, 
-        "fullname": "Truckee Tahoe Airport, Truckee, California, Nevada, United States", 
-        "sw_latitude": 39.308
+        "sw_latitude": 39.308, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 39.313, 
+        "sw_longitude": -120.155, 
+        "fullname": "Truckee Tahoe Airport, Truckee, California, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522209
     }

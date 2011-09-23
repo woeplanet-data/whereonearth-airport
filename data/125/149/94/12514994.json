@@ -3,28 +3,42 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              103.419, 
-              4.524
-            ], 
-            [
-              103.419, 
-              4.551
-            ], 
-            [
-              103.441, 
-              4.551
-            ], 
-            [
-              103.441, 
-              4.524
-            ], 
-            [
-              103.419, 
-              4.524
+              [
+                103.428, 
+                4.541
+              ], 
+              [
+                103.427, 
+                4.540
+              ], 
+              [
+                103.429, 
+                4.534
+              ], 
+              [
+                103.426, 
+                4.540
+              ], 
+              [
+                103.426, 
+                4.542
+              ], 
+              [
+                103.428, 
+                4.542
+              ], 
+              [
+                103.428, 
+                4.541
+              ], 
+              [
+                103.428, 
+                4.541
+              ]
             ]
           ]
         ]
@@ -32,26 +46,33 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514994, 
-        "alias_UNK_V": [
-          "Lapangan Terbang Kerteh"
-        ], 
-        "name": "Kerteh Airport", 
         "alias_ENG_V": [
           "KTE"
         ], 
-        "ne_latitude": 4.551, 
-        "ne_longitude": 103.441, 
-        "longitude": 103.429, 
-        "parent_woeid": 1151736, 
-        "placetype": "Airport", 
-        "iso": "MY", 
-        "date_indexed": "2010-12-02T18:04:56Z", 
+        "name": "Kerteh Airport", 
+        "parent_woeid": 56014141, 
+        "woeid": 12514994, 
         "provider": "geoplanet 7.6.0", 
-        "latitude": 4.541, 
-        "sw_longitude": 103.419, 
-        "fullname": "Kerteh Airport, Kertih, Terengganu, Kemaman, Malaysia", 
-        "sw_latitude": 4.524
+        "alias_UNK_V": [
+          "Lapangan Terbang Kerteh"
+        ], 
+        "longitude": 103.427, 
+        "ne_longitude": 103.429, 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=56014141", 
+          "woe:county=56013617", 
+          "woe:state=2346307", 
+          "woe:country=23424901", 
+          "woe:planet=1"
+        ], 
+        "iso": "MY", 
+        "sw_latitude": 4.534, 
+        "ne_latitude": 4.542, 
+        "latitude": 4.539, 
+        "sw_longitude": 103.426, 
+        "fullname": "Kerteh Airport, Kertih, Terengganu, Malaysia", 
+        "date_indexed": "2010-12-02T18:04:56Z"
       }, 
       "id": 12514994
     }

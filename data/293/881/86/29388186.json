@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388186, 
-        "name": "Okarche Airport", 
         "alias_ENG_V": [
           "3ok1"
         ], 
-        "ne_latitude": 35.733, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Okarche Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589651", 
+          "woe:state=2347595", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388186, 
         "ne_longitude": -97.968, 
         "longitude": -97.968, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589651, 
+        "ne_latitude": 35.733, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2464498, 
+        "sw_latitude": 35.726, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.726, 
         "sw_longitude": -97.969, 
-        "fullname": "Okarche Airport, Okarche, Oklahoma, Kingfisher, United States", 
-        "sw_latitude": 35.726
+        "fullname": "Okarche Airport, Okarche, Oklahoma, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388186
     }

@@ -3,28 +3,58 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -156.669, 
-              58.667
-            ], 
-            [
-              -156.669, 
-              58.689
-            ], 
-            [
-              -156.626, 
-              58.689
-            ], 
-            [
-              -156.626, 
-              58.667
-            ], 
-            [
-              -156.669, 
-              58.667
+              [
+                -156.668, 
+                58.683
+              ], 
+              [
+                -156.664, 
+                58.683
+              ], 
+              [
+                -156.664, 
+                58.683
+              ], 
+              [
+                -156.659, 
+                58.673
+              ], 
+              [
+                -156.652, 
+                58.678
+              ], 
+              [
+                -156.649, 
+                58.676
+              ], 
+              [
+                -156.659, 
+                58.671
+              ], 
+              [
+                -156.660, 
+                58.673
+              ], 
+              [
+                -156.668, 
+                58.681
+              ], 
+              [
+                -156.668, 
+                58.683
+              ], 
+              [
+                -156.668, 
+                58.683
+              ], 
+              [
+                -156.668, 
+                58.683
+              ]
             ]
           ]
         ]
@@ -32,23 +62,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520466, 
-        "name": "King Salmon Airport", 
         "alias_ENG_V": [
           "AKN"
         ], 
-        "ne_latitude": 58.689, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -156.626, 
-        "longitude": -156.655, 
-        "placetype": "Airport", 
+        "name": "King Salmon Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587558", 
+          "woe:state=2347560", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520466, 
+        "ne_longitude": -156.649, 
+        "longitude": -156.660, 
+        "parent_woeid": 12587558, 
+        "ne_latitude": 58.683, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2432529, 
+        "sw_latitude": 58.671, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 58.677, 
-        "sw_longitude": -156.669, 
-        "fullname": "King Salmon Airport, King Salmon, Alaska, Bristol Bay Borough, United States", 
-        "sw_latitude": 58.667
+        "sw_longitude": -156.668, 
+        "fullname": "King Salmon Airport, King Salmon, Alaska, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520466
     }

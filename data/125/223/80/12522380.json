@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522380, 
-        "name": "Wellington Municipal Airport", 
         "alias_ENG_V": [
           "EGT"
         ], 
-        "ne_latitude": 37.330, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Wellington Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588466", 
+          "woe:state=2347575", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522380, 
         "ne_longitude": -97.385, 
         "longitude": -97.385, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588466, 
+        "ne_latitude": 37.330, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2516251, 
+        "sw_latitude": 37.319, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 37.324, 
         "sw_longitude": -97.388, 
-        "fullname": "Wellington Municipal Airport, Wellington, Kansas, Sumner, United States", 
-        "sw_latitude": 37.319
+        "fullname": "Wellington Municipal Airport, Wellington, Kansas, United States", 
+        "iata_code": "EGT", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522380
     }

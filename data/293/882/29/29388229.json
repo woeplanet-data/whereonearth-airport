@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388229, 
-        "name": "Lowell City Airport", 
         "alias_ENG_V": [
           "24c"
         ], 
-        "ne_latitude": 42.957, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Lowell City Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588754", 
+          "woe:state=2347581", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388229, 
         "ne_longitude": -85.341, 
         "longitude": -85.351, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588754, 
+        "ne_latitude": 42.957, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2442561, 
+        "sw_latitude": 42.951, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.953, 
         "sw_longitude": -85.354, 
-        "fullname": "Lowell City Airport, Lowell, Michigan, Kent, United States", 
-        "sw_latitude": 42.951
+        "fullname": "Lowell City Airport, Lowell, Michigan, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388229
     }

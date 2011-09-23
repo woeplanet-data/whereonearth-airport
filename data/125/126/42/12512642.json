@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512642, 
-        "name": "Mariscal Lamar Airport", 
         "alias_ENG_V": [
           "CUE"
         ], 
-        "ne_latitude": -2.882, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Mariscal Lamar Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=26809900", 
+          "woe:county=26809530", 
+          "woe:state=2345203", 
+          "woe:country=23424801", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512642, 
         "ne_longitude": -78.979, 
         "longitude": -78.983, 
-        "placetype": "Airport", 
+        "parent_woeid": 26809900, 
+        "ne_latitude": -2.882, 
         "iso": "EC", 
-        "date_indexed": "2010-12-02T17:51:45Z", 
-        "parent_woeid": 375734, 
+        "sw_latitude": -2.891, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -2.887, 
         "sw_longitude": -78.988, 
-        "fullname": "Mariscal Lamar Airport, Cuenca, Azuay, Cuenca, Ecuador", 
-        "sw_latitude": -2.891
+        "fullname": "Mariscal Lamar Airport, Cuenca, Azuay, Ecuador", 
+        "iata_code": "CUE", 
+        "date_indexed": "2010-12-02T17:51:45Z"
       }, 
       "id": 12512642
     }

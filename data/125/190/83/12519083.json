@@ -3,28 +3,78 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -119.747, 
-              39.188
-            ], 
-            [
-              -119.747, 
-              39.202
-            ], 
-            [
-              -119.715, 
-              39.202
-            ], 
-            [
-              -119.715, 
-              39.188
-            ], 
-            [
-              -119.747, 
-              39.188
+              [
+                -119.751, 
+                39.182
+              ], 
+              [
+                -119.751, 
+                39.182
+              ], 
+              [
+                -119.751, 
+                39.183
+              ], 
+              [
+                -119.751, 
+                39.183
+              ], 
+              [
+                -119.748, 
+                39.187
+              ], 
+              [
+                -119.743, 
+                39.190
+              ], 
+              [
+                -119.739, 
+                39.193
+              ], 
+              [
+                -119.739, 
+                39.196
+              ], 
+              [
+                -119.739, 
+                39.198
+              ], 
+              [
+                -119.735, 
+                39.200
+              ], 
+              [
+                -119.728, 
+                39.200
+              ], 
+              [
+                -119.735, 
+                39.198
+              ], 
+              [
+                -119.736, 
+                39.191
+              ], 
+              [
+                -119.738, 
+                39.191
+              ], 
+              [
+                -119.742, 
+                39.187
+              ], 
+              [
+                -119.747, 
+                39.182
+              ], 
+              [
+                -119.751, 
+                39.182
+              ]
             ]
           ]
         ]
@@ -32,23 +82,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519083, 
-        "name": "Carson City Airport", 
         "alias_ENG_V": [
           "CSN"
         ], 
-        "ne_latitude": 39.202, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -119.715, 
-        "longitude": -119.738, 
-        "placetype": "Airport", 
+        "name": "Carson City Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589231", 
+          "woe:state=2347587", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519083, 
+        "ne_longitude": -119.728, 
+        "longitude": -119.741, 
+        "parent_woeid": 12589231, 
+        "ne_latitude": 39.200, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2375607, 
-        "latitude": 39.190, 
-        "sw_longitude": -119.747, 
-        "fullname": "Carson City Airport, Carson City, Nevada, Carson City, United States", 
-        "sw_latitude": 39.188
+        "sw_latitude": 39.182, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 39.191, 
+        "sw_longitude": -119.751, 
+        "fullname": "Carson City Airport, Carson City, Nevada, United States", 
+        "iata_code": "CSN", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519083
     }

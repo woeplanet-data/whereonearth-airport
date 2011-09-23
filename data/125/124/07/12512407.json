@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512407, 
-        "name": "Leguizamo Airport", 
         "alias_ENG_V": [
           "LGZ"
         ], 
-        "ne_latitude": -0.162, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Leguizamo Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26797636", 
+          "woe:state=2345067", 
+          "woe:country=23424787", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512407, 
         "ne_longitude": -74.762, 
         "longitude": -74.767, 
-        "placetype": "Airport", 
+        "parent_woeid": 26797636, 
+        "ne_latitude": -0.162, 
         "iso": "CO", 
-        "date_indexed": "2010-12-02T17:57:37Z", 
-        "parent_woeid": 364411, 
+        "sw_latitude": -0.171, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -0.167, 
         "sw_longitude": -74.771, 
-        "fullname": "Leguizamo Airport, Puerto Legu\u00edzamo, Putumayo, Puerto Leguizamo, Colombia", 
-        "sw_latitude": -0.171
+        "fullname": "Leguizamo Airport, Puerto Legu\u00edzamo, Putumayo, Colombia", 
+        "date_indexed": "2010-12-02T17:57:37Z"
       }, 
       "id": 12512407
     }

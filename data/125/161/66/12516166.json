@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516166, 
-        "name": "Kirov Airport", 
         "alias_ENG_V": [
           "KVX"
         ], 
-        "ne_latitude": 58.604, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Kirov Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12598475", 
+          "woe:state=2346902", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516166, 
         "ne_longitude": 49.767, 
         "longitude": 49.759, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598475, 
+        "ne_latitude": 58.604, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2070041, 
+        "sw_latitude": 58.595, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 58.600, 
         "sw_longitude": 49.750, 
         "fullname": "Kirov Airport, Kirovskaya Oblast, Kirov, Russia", 
-        "sw_latitude": 58.595
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516166
     }

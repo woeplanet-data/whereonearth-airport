@@ -3,28 +3,54 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -112.520, 
-              39.371
-            ], 
-            [
-              -112.520, 
-              39.397
-            ], 
-            [
-              -112.501, 
-              39.397
-            ], 
-            [
-              -112.501, 
-              39.371
-            ], 
-            [
-              -112.520, 
-              39.371
+              [
+                -112.523, 
+                39.379
+              ], 
+              [
+                -112.523, 
+                39.379
+              ], 
+              [
+                -112.523, 
+                39.379
+              ], 
+              [
+                -112.523, 
+                39.379
+              ], 
+              [
+                -112.523, 
+                39.379
+              ], 
+              [
+                -112.523, 
+                39.379
+              ], 
+              [
+                -112.523, 
+                39.379
+              ], 
+              [
+                -112.523, 
+                39.379
+              ], 
+              [
+                -112.523, 
+                39.379
+              ], 
+              [
+                -112.523, 
+                39.379
+              ], 
+              [
+                -112.523, 
+                39.379
+              ]
             ]
           ]
         ]
@@ -32,23 +58,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519462, 
-        "name": "Delta Municipal Airport", 
         "alias_ENG_V": [
           "DTA"
         ], 
-        "ne_latitude": 39.397, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -112.501, 
-        "longitude": -112.511, 
-        "placetype": "Airport", 
+        "name": "Delta Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590274", 
+          "woe:state=2347603", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519462, 
+        "ne_longitude": -112.523, 
+        "longitude": -112.523, 
+        "parent_woeid": 12590274, 
+        "ne_latitude": 39.379, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 28340490, 
-        "latitude": 39.391, 
-        "sw_longitude": -112.520, 
-        "fullname": "Delta Municipal Airport, Topaz, Utah, Millard, United States", 
-        "sw_latitude": 39.371
+        "sw_latitude": 39.379, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 39.379, 
+        "sw_longitude": -112.523, 
+        "fullname": "Delta Municipal Airport, Topaz, Utah, United States", 
+        "iata_code": "DTA", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519462
     }

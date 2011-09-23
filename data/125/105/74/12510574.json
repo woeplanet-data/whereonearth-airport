@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510574, 
-        "name": "Villa Gesell Airport", 
         "alias_ENG_V": [
           "VLG"
         ], 
-        "ne_latitude": -37.230, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Villa Gesell Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=20070630", 
+          "woe:state=2344675", 
+          "woe:country=23424747", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510574, 
         "ne_longitude": -57.024, 
         "longitude": -57.030, 
-        "placetype": "Airport", 
+        "parent_woeid": 20070630, 
+        "ne_latitude": -37.230, 
         "iso": "AR", 
-        "date_indexed": "2010-12-02T17:41:29Z", 
-        "parent_woeid": 467980, 
+        "sw_latitude": -37.239, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -37.235, 
         "sw_longitude": -57.035, 
-        "fullname": "Villa Gesell Airport, Villa Gesell, Buenos Aires, Villa Gesell, Argentina", 
-        "sw_latitude": -37.239
+        "fullname": "Villa Gesell Airport, Villa Gesell, Buenos Aires, Argentina", 
+        "iata_code": "VLG", 
+        "date_indexed": "2010-12-02T17:41:29Z"
       }, 
       "id": 12510574
     }

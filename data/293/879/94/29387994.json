@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29387994, 
+        "placetype": "airport", 
         "name": "Rabenberg Airport", 
-        "ne_latitude": 45.478, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12589909", 
+          "woe:state=2347600", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29387994, 
         "ne_longitude": -100.028, 
         "longitude": -100.038, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589909, 
+        "ne_latitude": 45.478, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2490631, 
+        "sw_latitude": 45.467, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.473, 
         "sw_longitude": -100.038, 
-        "fullname": "Rabenberg Airport, Selby, South Dakota, Walworth, United States", 
-        "sw_latitude": 45.467
+        "fullname": "Rabenberg Airport, Selby, South Dakota, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29387994
     }

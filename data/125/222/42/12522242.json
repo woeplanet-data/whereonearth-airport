@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522242, 
-        "name": "Ulysses Airport", 
         "alias_ENG_V": [
           "ULS"
         ], 
-        "ne_latitude": 37.617, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Ulysses Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588404", 
+          "woe:state=2347575", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522242, 
         "ne_longitude": -101.363, 
         "longitude": -101.363, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588404, 
+        "ne_latitude": 37.617, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2509545, 
+        "sw_latitude": 37.593, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 37.596, 
         "sw_longitude": -101.380, 
-        "fullname": "Ulysses Airport, Ulysses, Kansas, Grant, United States", 
-        "sw_latitude": 37.593
+        "fullname": "Ulysses Airport, Ulysses, Kansas, United States", 
+        "iata_code": "ULS", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522242
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29387761, 
-        "name": "Mesquite Airport", 
         "alias_ENG_V": [
           "67l"
         ], 
-        "ne_latitude": 36.842, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Mesquite Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589233", 
+          "woe:state=2347587", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29387761, 
         "ne_longitude": -114.051, 
         "longitude": -114.059, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589233, 
+        "ne_latitude": 36.842, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2449854, 
+        "sw_latitude": 36.826, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.832, 
         "sw_longitude": -114.062, 
-        "fullname": "Mesquite Airport, Mesquite, Nevada, Clark, United States", 
-        "sw_latitude": 36.826
+        "fullname": "Mesquite Airport, Mesquite, Nevada, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 29387761
     }

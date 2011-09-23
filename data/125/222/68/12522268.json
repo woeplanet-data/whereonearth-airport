@@ -3,28 +3,102 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -118.501, 
-              34.194
-            ], 
-            [
-              -118.501, 
-              34.227
-            ], 
-            [
-              -118.479, 
-              34.227
-            ], 
-            [
-              -118.479, 
-              34.194
-            ], 
-            [
-              -118.501, 
-              34.194
+              [
+                -118.487, 
+                34.203
+              ], 
+              [
+                -118.488, 
+                34.203
+              ], 
+              [
+                -118.490, 
+                34.205
+              ], 
+              [
+                -118.494, 
+                34.202
+              ], 
+              [
+                -118.495, 
+                34.203
+              ], 
+              [
+                -118.494, 
+                34.207
+              ], 
+              [
+                -118.495, 
+                34.210
+              ], 
+              [
+                -118.491, 
+                34.214
+              ], 
+              [
+                -118.495, 
+                34.216
+              ], 
+              [
+                -118.499, 
+                34.218
+              ], 
+              [
+                -118.496, 
+                34.222
+              ], 
+              [
+                -118.494, 
+                34.221
+              ], 
+              [
+                -118.491, 
+                34.219
+              ], 
+              [
+                -118.488, 
+                34.218
+              ], 
+              [
+                -118.487, 
+                34.218
+              ], 
+              [
+                -118.487, 
+                34.215
+              ], 
+              [
+                -118.483, 
+                34.211
+              ], 
+              [
+                -118.483, 
+                34.210
+              ], 
+              [
+                -118.486, 
+                34.208
+              ], 
+              [
+                -118.487, 
+                34.206
+              ], 
+              [
+                -118.487, 
+                34.204
+              ], 
+              [
+                -118.487, 
+                34.203
+              ], 
+              [
+                -118.487, 
+                34.203
+              ]
             ]
           ]
         ]
@@ -32,23 +106,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522268, 
-        "name": "Van Nuys Airport", 
         "alias_ENG_V": [
           "VNY"
         ], 
-        "ne_latitude": 34.227, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -118.479, 
-        "longitude": -118.492, 
-        "placetype": "Airport", 
-        "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
+        "name": "Van Nuys Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:suburb=28751333", 
+          "woe:county=12587688", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522268, 
+        "ne_longitude": -118.483, 
+        "longitude": -118.491, 
         "parent_woeid": 28751333, 
-        "latitude": 34.201, 
-        "sw_longitude": -118.501, 
-        "fullname": "Van Nuys Airport, Los Angeles, California, Los Angeles, United States", 
-        "sw_latitude": 34.194
+        "ne_latitude": 34.222, 
+        "iso": "US", 
+        "sw_latitude": 34.202, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 34.212, 
+        "sw_longitude": -118.499, 
+        "fullname": "Van Nuys Airport, Los Angeles, California, United States", 
+        "iata_code": "VNY", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522268
     }

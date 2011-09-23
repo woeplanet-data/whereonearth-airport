@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521042, 
-        "name": "Mount Vernon Municipal Airport", 
         "alias_ENG_V": [
           "Mt Vernon Municipal Airport"
         ], 
-        "ne_latitude": 37.073, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Mount Vernon Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589020", 
+          "woe:state=2347584", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521042, 
         "ne_longitude": -93.879, 
         "longitude": -93.885, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589020, 
+        "ne_latitude": 37.073, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2422660, 
+        "sw_latitude": 37.064, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 37.068, 
         "sw_longitude": -93.890, 
-        "fullname": "Mount Vernon Municipal Airport, Hoberg, Missouri, Lawrence, United States", 
-        "sw_latitude": 37.064
+        "fullname": "Mount Vernon Municipal Airport, Hoberg, Missouri, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521042
     }

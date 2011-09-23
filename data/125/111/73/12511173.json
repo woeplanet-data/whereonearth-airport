@@ -3,28 +3,58 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -48.557, 
-              -27.679
-            ], 
-            [
-              -48.557, 
-              -27.661
-            ], 
-            [
-              -48.528, 
-              -27.661
-            ], 
-            [
-              -48.528, 
-              -27.679
-            ], 
-            [
-              -48.557, 
-              -27.679
+              [
+                -48.545, 
+                -27.666
+              ], 
+              [
+                -48.547, 
+                -27.668
+              ], 
+              [
+                -48.552, 
+                -27.666
+              ], 
+              [
+                -48.554, 
+                -27.664
+              ], 
+              [
+                -48.549, 
+                -27.663
+              ], 
+              [
+                -48.549, 
+                -27.659
+              ], 
+              [
+                -48.548, 
+                -27.663
+              ], 
+              [
+                -48.545, 
+                -27.664
+              ], 
+              [
+                -48.545, 
+                -27.664
+              ], 
+              [
+                -48.544, 
+                -27.665
+              ], 
+              [
+                -48.541, 
+                -27.669
+              ], 
+              [
+                -48.545, 
+                -27.666
+              ]
             ]
           ]
         ]
@@ -32,32 +62,38 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511173, 
-        "name": "Aeroporto Internacional Herc\u00edlio Luz", 
         "alias_ENG_V": [
           "FLN"
         ], 
+        "name": "Aeroporto Internacional Herc\u00edlio Luz", 
         "alias_ENG_P": [
           "Hercilio Luz International Airport"
         ], 
-        "ne_latitude": -27.661, 
+        "hierarchy": [
+          "woe:county=12581654", 
+          "woe:state=2344867", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511173, 
         "provider": "geoplanet 7.6.0", 
         "alias_POR_S": [
           "Aeroporto Internacional Hercilio Luz"
         ], 
-        "ne_longitude": -48.528, 
-        "longitude": -48.552, 
-        "placetype": "Airport", 
+        "ne_longitude": -48.541, 
+        "longitude": -48.548, 
+        "parent_woeid": 12581654, 
+        "placetype": "airport", 
         "alias_POR_V": [
           "Internacional Herc\u00edlio Luz"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:28Z", 
-        "parent_woeid": 455861, 
-        "latitude": -27.670, 
-        "sw_longitude": -48.557, 
-        "fullname": "Aeroporto Internacional Herc\u00edlio Luz, Florianopolis, Santa Catarina, Florian\u00f3polis, Brazil", 
-        "sw_latitude": -27.679
+        "sw_latitude": -27.669, 
+        "ne_latitude": -27.659, 
+        "latitude": -27.665, 
+        "sw_longitude": -48.554, 
+        "fullname": "Aeroporto Internacional Herc\u00edlio Luz, Florianopolis, Santa Catarina, Brazil", 
+        "date_indexed": "2010-12-02T18:01:28Z"
       }, 
       "id": 12511173
     }

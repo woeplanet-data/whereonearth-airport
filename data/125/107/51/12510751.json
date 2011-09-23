@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510751, 
-        "name": "Newman Airport", 
         "alias_ENG_V": [
           "ZNE"
         ], 
-        "ne_latitude": -23.412, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Newman Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55864370", 
+          "woe:state=2344706", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510751, 
         "ne_longitude": 119.808, 
         "longitude": 119.801, 
-        "placetype": "Airport", 
+        "parent_woeid": 55864370, 
+        "ne_latitude": -23.412, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1104595, 
+        "sw_latitude": -23.421, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -23.415, 
         "sw_longitude": 119.798, 
-        "fullname": "Newman Airport, Newman, Western Australia, East Pilbara, Australia", 
-        "sw_latitude": -23.421
+        "fullname": "Newman Airport, Newman, Western Australia, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 12510751
     }

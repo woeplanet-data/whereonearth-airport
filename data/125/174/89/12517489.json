@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517489, 
-        "name": "Ulundi Airport", 
         "alias_ENG_V": [
           "ULD"
         ], 
-        "ne_latitude": -28.313, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Ulundi Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=56189496", 
+          "woe:county=56189413", 
+          "woe:state=2346982", 
+          "woe:country=23424942", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517489, 
         "ne_longitude": 31.420, 
         "longitude": 31.415, 
-        "placetype": "Airport", 
+        "parent_woeid": 56189496, 
+        "ne_latitude": -28.313, 
         "iso": "ZA", 
-        "date_indexed": "2010-12-02T08:57:52Z", 
-        "parent_woeid": 1591512, 
+        "sw_latitude": -28.322, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -28.317, 
         "sw_longitude": 31.410, 
         "fullname": "Ulundi Airport, Kwazulu Natal, Kwazulu Natal Rural, South Africa", 
-        "sw_latitude": -28.322
+        "iata_code": "ULD", 
+        "date_indexed": "2010-12-02T08:57:52Z"
       }, 
       "id": 12517489
     }

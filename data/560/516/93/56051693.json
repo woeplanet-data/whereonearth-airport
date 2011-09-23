@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 56051693, 
+        "placetype": "airport", 
         "name": "Flugplatz Lienz-nikolsdorf", 
-        "ne_latitude": 46.801, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12675414", 
+          "woe:county=12591741", 
+          "woe:state=2344714", 
+          "woe:country=23424750", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56051693, 
         "ne_longitude": 12.882, 
         "longitude": 12.878, 
-        "placetype": "Airport", 
+        "parent_woeid": 12675414, 
+        "ne_latitude": 46.801, 
         "iso": "AT", 
-        "date_indexed": "2010-12-02T16:35:40Z", 
-        "parent_woeid": 550972, 
+        "sw_latitude": 46.796, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.800, 
         "sw_longitude": 12.874, 
-        "fullname": "Flugplatz Lienz-nikolsdorf, Nikolsdorf, Tyrol, Lienz, Austria", 
-        "sw_latitude": 46.796
+        "fullname": "Flugplatz Lienz-nikolsdorf, Nikolsdorf, Tyrol, Austria", 
+        "date_indexed": "2010-12-02T16:35:40Z"
       }, 
       "id": 56051693
     }

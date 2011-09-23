@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519717, 
-        "name": "Fayetteville Municipal Airport", 
         "alias_ENG_V": [
           "FYM"
         ], 
-        "ne_latitude": 35.068, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Fayetteville Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589963", 
+          "woe:state=2347601", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519717, 
         "ne_longitude": -86.559, 
         "longitude": -86.564, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589963, 
+        "ne_latitude": 35.068, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2361962, 
+        "sw_latitude": 35.049, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.064, 
         "sw_longitude": -86.570, 
-        "fullname": "Fayetteville Municipal Airport, Belleview, Tennessee, Lincoln, United States", 
-        "sw_latitude": 35.049
+        "fullname": "Fayetteville Municipal Airport, Belleview, Tennessee, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12519717
     }

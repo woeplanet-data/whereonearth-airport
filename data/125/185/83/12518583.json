@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518583, 
-        "name": "Alliance Municipal Airport", 
         "alias_ENG_V": [
           "Alliance Airport"
         ], 
-        "ne_latitude": 42.064, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Alliance Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589144", 
+          "woe:state=2347586", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518583, 
         "ne_longitude": -102.789, 
         "longitude": -102.810, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589144, 
+        "ne_latitude": 42.064, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2353456, 
+        "sw_latitude": 42.033, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.062, 
         "sw_longitude": -102.826, 
-        "fullname": "Alliance Municipal Airport, Alliance, Nebraska, Box Butte, United States", 
-        "sw_latitude": 42.033
+        "fullname": "Alliance Municipal Airport, Alliance, Nebraska, United States", 
+        "iata_code": "AIA", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518583
     }

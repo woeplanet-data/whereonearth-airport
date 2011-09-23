@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524139, 
-        "name": "Hopedale Airport", 
         "alias_ENG_V": [
           "YHO Airport"
         ], 
-        "ne_latitude": 55.471, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Hopedale Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375216", 
+          "woe:state=2344919", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524139, 
         "ne_longitude": -60.209, 
         "longitude": -60.217, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375216, 
+        "ne_latitude": 55.471, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 2052, 
+        "sw_latitude": 55.462, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 55.467, 
         "sw_longitude": -60.225, 
-        "fullname": "Hopedale Airport, Hopedale, Newfoundland and Labrador, Newfoundland and Labrador, Canada", 
-        "sw_latitude": 55.462
+        "fullname": "Hopedale Airport, Hopedale, Newfoundland and Labrador, Canada", 
+        "iata_code": "YHO", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12524139
     }

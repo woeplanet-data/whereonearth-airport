@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512739, 
+        "placetype": "airport", 
         "name": "Lasnamae Airport", 
-        "ne_latitude": 59.459, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=29389893", 
+          "woe:state=2345276", 
+          "woe:country=23424805", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512739, 
         "ne_longitude": 24.894, 
         "longitude": 24.885, 
-        "placetype": "Airport", 
+        "parent_woeid": 29389893, 
+        "ne_latitude": 59.459, 
         "iso": "EE", 
-        "date_indexed": "2010-12-02T16:43:34Z", 
-        "parent_woeid": 845743, 
+        "sw_latitude": 59.450, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 59.455, 
         "sw_longitude": 24.876, 
-        "fullname": "Lasnamae Airport, Tallinn, Harju County, Tallinn, Estonia", 
-        "sw_latitude": 59.450
+        "fullname": "Lasnamae Airport, Tallinn, Harju County, Estonia", 
+        "date_indexed": "2010-12-02T16:43:34Z"
       }, 
       "id": 12512739
     }

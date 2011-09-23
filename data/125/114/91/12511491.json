@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511491, 
+        "placetype": "airport", 
         "name": "Pordim Airport", 
-        "ne_latitude": 43.393, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55873744", 
+          "woe:state=20070065", 
+          "woe:country=23424771", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511491, 
         "ne_longitude": 24.866, 
         "longitude": 24.860, 
-        "placetype": "Airport", 
+        "parent_woeid": 55873744, 
+        "ne_latitude": 43.393, 
         "iso": "BG", 
-        "date_indexed": "2010-12-02T16:14:37Z", 
-        "parent_woeid": 838910, 
+        "sw_latitude": 43.384, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.388, 
         "sw_longitude": 24.853, 
-        "fullname": "Pordim Airport, Pordim, Pleven, Pordim, Bulgaria", 
-        "sw_latitude": 43.384
+        "fullname": "Pordim Airport, Pordim, Pleven, Bulgaria", 
+        "date_indexed": "2010-12-02T16:14:37Z"
       }, 
       "id": 12511491
     }

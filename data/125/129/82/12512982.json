@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512982, 
+        "placetype": "airport", 
         "name": "Thalany Airport", 
-        "ne_latitude": 45.539, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12660847", 
+          "woe:county=12597163", 
+          "woe:state=7153321", 
+          "woe:country=23424819", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512982, 
         "ne_longitude": 2.431, 
         "longitude": 2.425, 
-        "placetype": "Airport", 
+        "parent_woeid": 12660847, 
+        "ne_latitude": 45.539, 
         "iso": "FR", 
-        "date_indexed": "2010-12-02T12:04:01Z", 
-        "parent_woeid": 623972, 
+        "sw_latitude": 45.532, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.536, 
         "sw_longitude": 2.414, 
-        "fullname": "Thalany Airport, St.-Exup\u00e9ry-les-Roches, Limousin, Correze, France", 
-        "sw_latitude": 45.532
+        "fullname": "Thalany Airport, St.-Exup\u00e9ry-les-Roches, Limousin, France", 
+        "date_indexed": "2010-12-02T12:04:01Z"
       }, 
       "id": 12512982
     }

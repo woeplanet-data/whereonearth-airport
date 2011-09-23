@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519515, 
+        "placetype": "airport", 
         "name": "Double D Ranch Airport", 
-        "ne_latitude": 29.878, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12590017", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519515, 
         "ne_longitude": -97.283, 
         "longitude": -97.288, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590017, 
+        "ne_latitude": 29.878, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:15Z", 
-        "parent_woeid": 2500898, 
+        "sw_latitude": 29.869, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 29.873, 
         "sw_longitude": -97.293, 
-        "fullname": "Double D Ranch Airport, String Prairie, Texas, Bastrop, United States", 
-        "sw_latitude": 29.869
+        "fullname": "Double D Ranch Airport, String Prairie, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:15Z"
       }, 
       "id": 12519515
     }

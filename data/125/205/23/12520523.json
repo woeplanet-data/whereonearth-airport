@@ -3,28 +3,34 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -93.230, 
-              30.110
-            ], 
-            [
-              -93.230, 
-              30.139
-            ], 
-            [
-              -93.214, 
-              30.139
-            ], 
-            [
-              -93.214, 
-              30.110
-            ], 
-            [
-              -93.230, 
-              30.110
+              [
+                -93.220, 
+                30.121
+              ], 
+              [
+                -93.220, 
+                30.122
+              ], 
+              [
+                -93.219, 
+                30.123
+              ], 
+              [
+                -93.219, 
+                30.121
+              ], 
+              [
+                -93.218, 
+                30.119
+              ], 
+              [
+                -93.220, 
+                30.121
+              ]
             ]
           ]
         ]
@@ -32,23 +38,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520523, 
-        "name": "Lake Charles Regional Airport", 
         "alias_ENG_V": [
           "Lk Charles Airport"
         ], 
-        "ne_latitude": 30.139, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -93.214, 
-        "longitude": -93.220, 
-        "placetype": "Airport", 
+        "name": "Lake Charles Regional Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588605", 
+          "woe:state=2347577", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520523, 
+        "ne_longitude": -93.218, 
+        "longitude": -93.219, 
+        "parent_woeid": 12588605, 
+        "ne_latitude": 30.123, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 28338782, 
-        "latitude": 30.124, 
-        "sw_longitude": -93.230, 
-        "fullname": "Lake Charles Regional Airport, Drew, Louisiana, Calcasieu Parish, United States", 
-        "sw_latitude": 30.110
+        "sw_latitude": 30.119, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 30.121, 
+        "sw_longitude": -93.220, 
+        "fullname": "Lake Charles Regional Airport, Drew, Louisiana, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520523
     }

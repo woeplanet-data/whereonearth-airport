@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518102, 
+        "placetype": "airport", 
         "name": "Hethel Airport", 
-        "ne_latitude": 52.567, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12696029", 
+          "woe:county=12602141", 
+          "woe:state=24554868", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518102, 
         "ne_longitude": 1.185, 
         "longitude": 1.177, 
-        "placetype": "Airport", 
+        "parent_woeid": 12696029, 
+        "ne_latitude": 52.567, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:21:01Z", 
-        "parent_woeid": 35878, 
+        "sw_latitude": 52.558, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 52.562, 
         "sw_longitude": 1.170, 
-        "fullname": "Hethel Airport, Stanfield Hall, England, Norfolk, United Kingdom", 
-        "sw_latitude": 52.558
+        "fullname": "Hethel Airport, Stanfield Hall, England, United Kingdom", 
+        "date_indexed": "2010-12-02T12:21:01Z"
       }, 
       "id": 12518102
     }

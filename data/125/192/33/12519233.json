@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519233, 
-        "name": "Clemson Oconee County Airport", 
         "alias_ENG_V": [
           "CEU Airport"
         ], 
-        "ne_latitude": 34.672, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Clemson Oconee County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589836", 
+          "woe:state=2347599", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519233, 
         "ne_longitude": -82.883, 
         "longitude": -82.886, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589836, 
+        "ne_latitude": 34.672, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:15Z", 
-        "parent_woeid": 2492776, 
+        "sw_latitude": 34.667, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 34.669, 
         "sw_longitude": -82.890, 
-        "fullname": "Clemson Oconee County Airport, Shiloh, South Carolina, Oconee, United States", 
-        "sw_latitude": 34.667
+        "fullname": "Clemson Oconee County Airport, Shiloh, South Carolina, United States", 
+        "iata_code": "CEU", 
+        "date_indexed": "2010-12-02T18:39:15Z"
       }, 
       "id": 12519233
     }

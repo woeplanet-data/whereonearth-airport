@@ -3,28 +3,78 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -83.436, 
-              42.659
-            ], 
-            [
-              -83.436, 
-              42.671
-            ], 
-            [
-              -83.406, 
-              42.671
-            ], 
-            [
-              -83.406, 
-              42.659
-            ], 
-            [
-              -83.436, 
-              42.659
+              [
+                -83.414, 
+                42.664
+              ], 
+              [
+                -83.411, 
+                42.665
+              ], 
+              [
+                -83.408, 
+                42.670
+              ], 
+              [
+                -83.406, 
+                42.667
+              ], 
+              [
+                -83.410, 
+                42.660
+              ], 
+              [
+                -83.419, 
+                42.660
+              ], 
+              [
+                -83.422, 
+                42.661
+              ], 
+              [
+                -83.429, 
+                42.661
+              ], 
+              [
+                -83.432, 
+                42.660
+              ], 
+              [
+                -83.434, 
+                42.662
+              ], 
+              [
+                -83.433, 
+                42.662
+              ], 
+              [
+                -83.429, 
+                42.661
+              ], 
+              [
+                -83.425, 
+                42.662
+              ], 
+              [
+                -83.424, 
+                42.663
+              ], 
+              [
+                -83.418, 
+                42.663
+              ], 
+              [
+                -83.414, 
+                42.664
+              ], 
+              [
+                -83.414, 
+                42.664
+              ]
             ]
           ]
         ]
@@ -32,23 +82,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521181, 
-        "name": "Oakland County International Airport", 
         "alias_ENG_V": [
           "PTK Airport"
         ], 
-        "ne_latitude": 42.671, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Oakland County International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588776", 
+          "woe:state=2347581", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521181, 
         "ne_longitude": -83.406, 
-        "longitude": -83.417, 
-        "placetype": "Airport", 
+        "longitude": -83.416, 
+        "parent_woeid": 12588776, 
+        "ne_latitude": 42.670, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2515094, 
+        "sw_latitude": 42.660, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.663, 
-        "sw_longitude": -83.436, 
-        "fullname": "Oakland County International Airport, Waterford, Michigan, Oakland, United States", 
-        "sw_latitude": 42.659
+        "sw_longitude": -83.434, 
+        "fullname": "Oakland County International Airport, Waterford, Michigan, United States", 
+        "iata_code": "PTK", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521181
     }

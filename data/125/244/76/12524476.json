@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524476, 
-        "name": "El Yopal Airport", 
         "alias_ENG_V": [
           "EYP"
         ], 
-        "ne_latitude": 5.355, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "El Yopal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26797613", 
+          "woe:state=2345077", 
+          "woe:country=23424787", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524476, 
         "ne_longitude": -72.379, 
         "longitude": -72.383, 
-        "placetype": "Airport", 
+        "parent_woeid": 26797613, 
+        "ne_latitude": 5.355, 
         "iso": "CO", 
-        "date_indexed": "2010-12-02T17:57:37Z", 
-        "parent_woeid": 368245, 
+        "sw_latitude": 5.345, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 5.350, 
         "sw_longitude": -72.388, 
-        "fullname": "El Yopal Airport, Yopal, Casanare, Yopal, Colombia", 
-        "sw_latitude": 5.345
+        "fullname": "El Yopal Airport, Yopal, Casanare, Colombia", 
+        "date_indexed": "2010-12-02T17:57:37Z"
       }, 
       "id": 12524476
     }

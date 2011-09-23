@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522078, 
-        "name": "Tanacross Airport", 
         "alias_ENG_V": [
           "TSG"
         ], 
-        "ne_latitude": 63.379, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Tanacross Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587575", 
+          "woe:state=2347560", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522078, 
         "ne_longitude": -143.326, 
         "longitude": -143.336, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587575, 
+        "ne_latitude": 63.379, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2503914, 
+        "sw_latitude": 63.370, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 63.375, 
         "sw_longitude": -143.346, 
-        "fullname": "Tanacross Airport, Tanacross, Alaska, Southeast Fairbanks Census Area, United States", 
-        "sw_latitude": 63.370
+        "fullname": "Tanacross Airport, Tanacross, Alaska, United States", 
+        "iata_code": "TSG", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12522078
     }

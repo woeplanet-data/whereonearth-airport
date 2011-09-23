@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510744, 
-        "name": "Mount Gambier Airport", 
         "alias_ENG_V": [
           "Mt Gambier Airport"
         ], 
-        "ne_latitude": -37.740, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Mount Gambier Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55864235", 
+          "woe:state=2344703", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510744, 
         "ne_longitude": 140.790, 
         "longitude": 140.783, 
-        "placetype": "Airport", 
+        "parent_woeid": 55864235, 
+        "ne_latitude": -37.740, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1106402, 
+        "sw_latitude": -37.754, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -37.744, 
         "sw_longitude": 140.779, 
-        "fullname": "Mount Gambier Airport, Wandilo, South Australia, Grant, Australia", 
-        "sw_latitude": -37.754
+        "fullname": "Mount Gambier Airport, Wandilo, South Australia, Australia", 
+        "iata_code": "MGB", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 12510744
     }

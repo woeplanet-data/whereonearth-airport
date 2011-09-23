@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517221, 
+        "placetype": "airport", 
         "name": "Vydrino Airport", 
-        "ne_latitude": 56.836, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598261", 
+          "woe:state=2346896", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517221, 
         "ne_longitude": 99.029, 
         "longitude": 99.021, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598261, 
+        "ne_latitude": 56.836, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 1995670, 
+        "sw_latitude": 56.827, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 56.832, 
         "sw_longitude": 99.012, 
         "fullname": "Vydrino Airport, Irkutskaya Oblast, Chunsky, Russia", 
-        "sw_latitude": 56.827
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12517221
     }

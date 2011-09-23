@@ -3,28 +3,50 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -4.077, 
-              57.534
-            ], 
-            [
-              -4.077, 
-              57.550
-            ], 
-            [
-              -4.033, 
-              57.550
-            ], 
-            [
-              -4.033, 
-              57.534
-            ], 
-            [
-              -4.077, 
-              57.534
+              [
+                -4.065, 
+                57.542
+              ], 
+              [
+                -4.063, 
+                57.543
+              ], 
+              [
+                -4.063, 
+                57.540
+              ], 
+              [
+                -4.064, 
+                57.539
+              ], 
+              [
+                -4.064, 
+                57.539
+              ], 
+              [
+                -4.067, 
+                57.541
+              ], 
+              [
+                -4.069, 
+                57.541
+              ], 
+              [
+                -4.071, 
+                57.543
+              ], 
+              [
+                -4.067, 
+                57.542
+              ], 
+              [
+                -4.065, 
+                57.542
+              ]
             ]
           ]
         ]
@@ -37,11 +59,19 @@
         "alias_SWE_Q": [
           "Inverness Flygplats"
         ], 
-        "ne_latitude": 57.550, 
-        "placetype": "Airport", 
+        "hierarchy": [
+          "woe:localadmin=12696199", 
+          "woe:county=12602203", 
+          "woe:state=12578048", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "ne_latitude": 57.543, 
+        "placetype": "airport", 
         "alias_POR_Q": [
           "Aeroporto de Inverness"
         ], 
+        "iata_code": "INV", 
         "alias_ITA_Q": [
           "Aeroporto Di Inverness"
         ], 
@@ -52,12 +82,12 @@
         "alias_FIN_Q": [
           "Inverness Lentokentt\u00e4"
         ], 
-        "sw_longitude": -4.077, 
+        "sw_longitude": -4.071, 
         "alias_FIN_V": [
           "Inverness Lentokentta"
         ], 
         "provider": "geoplanet 7.6.0", 
-        "latitude": 57.539, 
+        "latitude": 57.541, 
         "date_indexed": "2010-12-02T12:21:01Z", 
         "alias_DUT_Q": [
           "Luchthaven Inverness"
@@ -70,15 +100,15 @@
         ], 
         "lang": "ENG", 
         "name": "Inverness Airport", 
-        "parent_woeid": 20089741, 
-        "ne_longitude": -4.033, 
-        "longitude": -4.064, 
+        "parent_woeid": 12696199, 
+        "ne_longitude": -4.063, 
+        "longitude": -4.066, 
         "iso": "GB", 
-        "sw_latitude": 57.534, 
+        "sw_latitude": 57.539, 
         "alias_FRE_V": [
           "Aeroport d'Inverness"
         ], 
-        "fullname": "Inverness Airport, Tornagrain, Scotland, Highland, United Kingdom", 
+        "fullname": "Inverness Airport, Tornagrain, Scotland, United Kingdom", 
         "alias_FRE_Q": [
           "A\u00e9roport d'Inverness"
         ]

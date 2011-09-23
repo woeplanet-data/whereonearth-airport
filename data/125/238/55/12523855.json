@@ -32,29 +32,37 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523855, 
-        "name": "Bremerhaven Airport", 
         "alias_ENG_V": [
           "BRV Airport"
         ], 
-        "ne_latitude": 53.558, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Bremerhaven Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=12630165", 
+          "woe:county=12596716", 
+          "woe:state=2345486", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523855, 
         "ne_longitude": 8.791, 
         "longitude": 8.784, 
-        "placetype": "Airport", 
+        "parent_woeid": 12630165, 
+        "ne_latitude": 53.558, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 669430, 
+        "sw_latitude": 53.549, 
+        "iata_code": "BRV", 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.554, 
         "sw_longitude": 8.776, 
-        "fullname": "Bremerhaven Airport, K\u00fchrstedt, Lower Saxony, Landkreis Cuxhaven, Germany", 
+        "fullname": "Bremerhaven Airport, K\u00fchrstedt, Lower Saxony, Germany", 
         "alias_GER_V": [
           "BRV Flughafen"
         ], 
         "alias_GER_Q": [
           "Flughafen Bremerhaven"
         ], 
-        "sw_latitude": 53.549
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 12523855
     }

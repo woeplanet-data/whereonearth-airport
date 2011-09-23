@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524627, 
-        "name": "Hughes-Culver City Airport", 
         "alias_ENG_V": [
           "CVR"
         ], 
-        "ne_latitude": 34.021, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Hughes-Culver City Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587688", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524627, 
         "ne_longitude": -118.395, 
         "longitude": -118.400, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587688, 
+        "ne_latitude": 34.021, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2388174, 
+        "sw_latitude": 34.012, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 34.017, 
         "sw_longitude": -118.405, 
-        "fullname": "Hughes-Culver City Airport, Culver City, California, Los Angeles, United States", 
-        "sw_latitude": 34.012
+        "fullname": "Hughes-Culver City Airport, Culver City, California, United States", 
+        "iata_code": "CVR", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12524627
     }

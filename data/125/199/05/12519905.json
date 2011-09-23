@@ -3,28 +3,54 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -114.266, 
-              48.298
-            ], 
-            [
-              -114.266, 
-              48.320
-            ], 
-            [
-              -114.241, 
-              48.320
-            ], 
-            [
-              -114.241, 
-              48.298
-            ], 
-            [
-              -114.266, 
-              48.298
+              [
+                -114.252, 
+                48.308
+              ], 
+              [
+                -114.250, 
+                48.306
+              ], 
+              [
+                -114.252, 
+                48.306
+              ], 
+              [
+                -114.254, 
+                48.307
+              ], 
+              [
+                -114.258, 
+                48.308
+              ], 
+              [
+                -114.261, 
+                48.306
+              ], 
+              [
+                -114.262, 
+                48.310
+              ], 
+              [
+                -114.257, 
+                48.309
+              ], 
+              [
+                -114.255, 
+                48.311
+              ], 
+              [
+                -114.254, 
+                48.313
+              ], 
+              [
+                -114.252, 
+                48.308
+              ]
             ]
           ]
         ]
@@ -32,23 +58,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519905, 
-        "name": "Glacier Park International Airport", 
         "alias_ENG_V": [
           "FCA Airport"
         ], 
-        "ne_latitude": 48.320, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -114.241, 
-        "longitude": -114.252, 
-        "placetype": "Airport", 
+        "name": "Glacier Park International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589095", 
+          "woe:state=2347585", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519905, 
+        "ne_longitude": -114.250, 
+        "longitude": -114.256, 
+        "parent_woeid": 12589095, 
+        "ne_latitude": 48.313, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2434343, 
-        "latitude": 48.307, 
-        "sw_longitude": -114.266, 
-        "fullname": "Glacier Park International Airport, La Salle, Montana, Flathead, United States", 
-        "sw_latitude": 48.298
+        "sw_latitude": 48.306, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 48.309, 
+        "sw_longitude": -114.262, 
+        "fullname": "Glacier Park International Airport, La Salle, Montana, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12519905
     }

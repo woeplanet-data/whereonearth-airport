@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511601, 
-        "name": "Carp Airport", 
         "alias_ENG_V": [
           "YRP"
         ], 
-        "ne_latitude": 45.327, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Carp Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:suburb=23398576", 
+          "woe:suburb=55855908", 
+          "woe:county=29375164", 
+          "woe:state=2344922", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511601, 
         "ne_longitude": -76.013, 
         "longitude": -76.030, 
-        "placetype": "Airport", 
-        "iso": "CA", 
-        "date_indexed": "2010-12-02T10:24:00Z", 
         "parent_woeid": 23398576, 
+        "ne_latitude": 45.327, 
+        "iso": "CA", 
+        "sw_latitude": 45.317, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.323, 
         "sw_longitude": -76.033, 
-        "fullname": "Carp Airport, Ottawa, Ontario, Ottawa, Canada", 
-        "sw_latitude": 45.317
+        "fullname": "Carp Airport, Ottawa, Ontario, Canada", 
+        "date_indexed": "2010-12-02T10:24:00Z"
       }, 
       "id": 12511601
     }

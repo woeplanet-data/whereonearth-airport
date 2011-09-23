@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 56051725, 
+        "placetype": "airport", 
         "name": "Flugplatz Mollis", 
-        "ne_latitude": 47.090, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12683994", 
+          "woe:county=12593210", 
+          "woe:state=2347090", 
+          "woe:country=23424957", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56051725, 
         "ne_longitude": 9.074, 
         "longitude": 9.067, 
-        "placetype": "Airport", 
+        "parent_woeid": 12683994, 
+        "ne_latitude": 47.090, 
         "iso": "CH", 
-        "date_indexed": "2010-12-02T18:20:52Z", 
-        "parent_woeid": 783356, 
+        "sw_latitude": 47.069, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.079, 
         "sw_longitude": 9.061, 
-        "fullname": "Flugplatz Mollis, Mollis, Canton of Glarus, Glarus, Switzerland", 
-        "sw_latitude": 47.069
+        "fullname": "Flugplatz Mollis, Mollis, Canton of Glarus, Switzerland", 
+        "date_indexed": "2010-12-02T18:20:52Z"
       }, 
       "id": 56051725
     }

@@ -3,28 +3,78 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              23.658, 
-              70.677
-            ], 
-            [
-              23.658, 
-              70.682
-            ], 
-            [
-              23.680, 
-              70.682
-            ], 
-            [
-              23.680, 
-              70.677
-            ], 
-            [
-              23.658, 
-              70.677
+              [
+                23.665, 
+                70.675
+              ], 
+              [
+                23.675, 
+                70.681
+              ], 
+              [
+                23.668, 
+                70.691
+              ], 
+              [
+                23.670, 
+                70.691
+              ], 
+              [
+                23.675, 
+                70.681
+              ], 
+              [
+                23.668, 
+                70.691
+              ], 
+              [
+                23.670, 
+                70.691
+              ], 
+              [
+                23.675, 
+                70.681
+              ], 
+              [
+                23.676, 
+                70.673
+              ], 
+              [
+                23.674, 
+                70.673
+              ], 
+              [
+                23.672, 
+                70.672
+              ], 
+              [
+                23.669, 
+                70.672
+              ], 
+              [
+                23.665, 
+                70.671
+              ], 
+              [
+                23.661, 
+                70.672
+              ], 
+              [
+                23.661, 
+                70.672
+              ], 
+              [
+                23.665, 
+                70.675
+              ], 
+              [
+                23.665, 
+                70.675
+              ]
             ]
           ]
         ]
@@ -32,29 +82,35 @@
       "type": "Feature", 
       "properties": {
         "lang": "NOR", 
-        "woeid": 12523934, 
-        "name": "Hammerfest Lufthavn", 
-        "alias_ENG_P": [
-          "Hammerfest Airport"
-        ], 
-        "ne_latitude": 70.682, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "HFT Airport"
         ], 
-        "ne_longitude": 23.680, 
-        "longitude": 23.677, 
-        "placetype": "Airport", 
+        "name": "Hammerfest Lufthavn", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Hammerfest Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12592790", 
+          "woe:state=2346388", 
+          "woe:country=23424910", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523934, 
+        "ne_longitude": 23.676, 
+        "longitude": 23.670, 
+        "parent_woeid": 12592790, 
+        "ne_latitude": 70.691, 
         "iso": "NO", 
-        "date_indexed": "2010-12-02T10:20:58Z", 
-        "parent_woeid": 859348, 
-        "latitude": 70.680, 
-        "sw_longitude": 23.658, 
-        "fullname": "Hammerfest Lufthavn, Hammerfest, Finnmark Fylke, Hammerfest Kommune, Norway", 
+        "sw_latitude": 70.671, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 70.678, 
+        "sw_longitude": 23.661, 
+        "fullname": "Hammerfest Lufthavn, Hammerfest, Finnmark Fylke, Norway", 
         "alias_NOR_V": [
           "HFT Lufthavn"
         ], 
-        "sw_latitude": 70.677
+        "date_indexed": "2010-12-02T10:20:58Z"
       }, 
       "id": 12523934
     }

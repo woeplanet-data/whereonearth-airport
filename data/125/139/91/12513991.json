@@ -32,29 +32,34 @@
       "type": "Feature", 
       "properties": {
         "lang": "JPN", 
-        "woeid": 12513991, 
-        "name": "\u5bae\u5d0e\u7a7a\u6e2f", 
         "alias_ENG_V": [
           "KMI Airport"
         ], 
+        "name": "\u5bae\u5d0e\u7a7a\u6e2f", 
         "alias_ENG_P": [
           "Miyazaki Airport"
         ], 
-        "ne_latitude": 31.882, 
+        "parent_woeid": 2345874, 
+        "woeid": 12513991, 
+        "provider": "geoplanet 7.6.0", 
         "alias_JPN_V": [
           "\u30df\u30e4\u30b6\u30ad\u30af\u30a6\u30b3\u30a6"
         ], 
-        "ne_longitude": 131.454, 
         "longitude": 131.449, 
-        "parent_woeid": 1117759, 
-        "placetype": "Airport", 
+        "ne_longitude": 131.454, 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2345874", 
+          "woe:country=23424856", 
+          "woe:planet=1"
+        ], 
         "iso": "JP", 
-        "date_indexed": "2010-12-02T08:09:08Z", 
-        "provider": "geoplanet 7.6.0", 
+        "sw_latitude": 31.873, 
+        "ne_latitude": 31.882, 
         "latitude": 31.877, 
         "sw_longitude": 131.444, 
         "fullname": "\u5bae\u5d0e\u7a7a\u6e2f, Miyazaki-shi, Miyazaki Prefecture, Japan", 
-        "sw_latitude": 31.873
+        "date_indexed": "2010-12-02T08:09:08Z"
       }, 
       "id": 12513991
     }

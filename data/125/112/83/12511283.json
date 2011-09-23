@@ -32,29 +32,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511283, 
-        "name": "Aeroporto Porto Nacional", 
-        "alias_ENG_P": [
-          "Porto Nacional Airport"
-        ], 
-        "ne_latitude": -10.712, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "PNB"
         ], 
+        "name": "Aeroporto Porto Nacional", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Porto Nacional Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12582521", 
+          "woe:state=2344870", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511283, 
         "ne_longitude": -48.395, 
         "longitude": -48.400, 
-        "placetype": "Airport", 
+        "parent_woeid": 12582521, 
+        "ne_latitude": -10.712, 
         "alias_POR_V": [
           "Aeroporto PNB"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 456444, 
+        "sw_latitude": -10.721, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -10.717, 
         "sw_longitude": -48.404, 
-        "fullname": "Aeroporto Porto Nacional, Porto Nacional, Tocantins, Porto Nacional, Brazil", 
-        "sw_latitude": -10.721
+        "fullname": "Aeroporto Porto Nacional, Porto Nacional, Tocantins, Brazil", 
+        "iata_code": "PNB", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511283
     }

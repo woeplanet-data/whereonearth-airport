@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388019, 
-        "name": "Lake Elmo Airport", 
         "alias_ENG_V": [
           "21d"
         ], 
-        "ne_latitude": 45.006, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Lake Elmo Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588878", 
+          "woe:state=2347582", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388019, 
         "ne_longitude": -92.847, 
         "longitude": -92.855, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588878, 
+        "ne_latitude": 45.006, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2434850, 
+        "sw_latitude": 44.993, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.993, 
         "sw_longitude": -92.863, 
-        "fullname": "Lake Elmo Airport, Lake Elmo, Minnesota, Washington, United States", 
-        "sw_latitude": 44.993
+        "fullname": "Lake Elmo Airport, Lake Elmo, Minnesota, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388019
     }

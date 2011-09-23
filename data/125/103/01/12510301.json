@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510301, 
+        "placetype": "airport", 
         "name": "Bagram Airport", 
-        "ne_latitude": 34.955, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=56000588", 
+          "woe:state=2344560", 
+          "woe:country=23424739", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510301, 
         "ne_longitude": 69.273, 
         "longitude": 69.267, 
-        "placetype": "Airport", 
+        "parent_woeid": 56000588, 
+        "ne_latitude": 34.955, 
         "iso": "AF", 
-        "date_indexed": "2010-12-02T18:03:37Z", 
-        "parent_woeid": 1925895, 
+        "sw_latitude": 34.945, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 34.950, 
         "sw_longitude": 69.262, 
-        "fullname": "Bagram Airport, Mahmud-e Raqi, Kapisa, Kohistan, Afghanistan", 
-        "sw_latitude": 34.945
+        "fullname": "Bagram Airport, Mahmud-e Raqi, Kapisa, Afghanistan", 
+        "date_indexed": "2010-12-02T18:03:37Z"
       }, 
       "id": 12510301
     }

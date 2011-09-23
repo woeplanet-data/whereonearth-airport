@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511582, 
+        "placetype": "airport", 
         "name": "Borden Airport", 
-        "ne_latitude": 44.270, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=29375066", 
+          "woe:state=2344922", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511582, 
         "ne_longitude": -79.913, 
         "longitude": -79.920, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375066, 
+        "ne_latitude": 44.270, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 4101, 
+        "sw_latitude": 44.260, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.265, 
         "sw_longitude": -79.926, 
-        "fullname": "Borden Airport, Borden, Ontario, Simcoe, Canada", 
-        "sw_latitude": 44.260
+        "fullname": "Borden Airport, Borden, Ontario, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12511582
     }

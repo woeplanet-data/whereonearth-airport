@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522149, 
-        "name": "Titusville Airport", 
         "alias_ENG_V": [
           "6g1"
         ], 
-        "ne_latitude": 41.619, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Titusville Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589788", 
+          "woe:state=2347597", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522149, 
         "ne_longitude": -79.738, 
         "longitude": -79.739, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589788, 
+        "ne_latitude": 41.619, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2379163, 
+        "sw_latitude": 41.601, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.613, 
         "sw_longitude": -79.744, 
-        "fullname": "Titusville Airport, Cherrytree, Pennsylvania, Venango, United States", 
-        "sw_latitude": 41.601
+        "fullname": "Titusville Airport, Cherrytree, Pennsylvania, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522149
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524259, 
-        "name": "Fort Franklin Airport", 
         "alias_ENG_V": [
           "YWJ Airport"
         ], 
-        "ne_latitude": 65.204, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Fort Franklin Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375229", 
+          "woe:state=2344920", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524259, 
         "ne_longitude": -123.420, 
         "longitude": -123.431, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375229, 
+        "ne_latitude": 65.204, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 29373896, 
+        "sw_latitude": 65.195, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 65.199, 
         "sw_longitude": -123.442, 
-        "fullname": "Fort Franklin Airport, Deline, Northwest Territories, Northwest Territories, Canada", 
-        "sw_latitude": 65.195
+        "fullname": "Fort Franklin Airport, Deline, Northwest Territories, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12524259
     }

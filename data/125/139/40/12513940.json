@@ -32,29 +32,35 @@
       "type": "Feature", 
       "properties": {
         "lang": "JPN", 
-        "woeid": 12513940, 
-        "name": "\u79cb\u7530\u7a7a\u6e2f", 
         "alias_ENG_V": [
           "AXT Airport"
         ], 
+        "name": "\u79cb\u7530\u7a7a\u6e2f", 
         "alias_ENG_P": [
           "Akita Airport"
         ], 
-        "ne_latitude": 39.620, 
+        "parent_woeid": 2345852, 
+        "woeid": 12513940, 
+        "provider": "geoplanet 7.6.0", 
         "alias_JPN_V": [
           "\u30a2\u30ad\u30bf\u30af\u30a6\u30b3\u30a6"
         ], 
-        "ne_longitude": 140.225, 
         "longitude": 140.219, 
-        "parent_woeid": 1116952, 
-        "placetype": "Airport", 
+        "ne_longitude": 140.225, 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2345852", 
+          "woe:country=23424856", 
+          "woe:planet=1"
+        ], 
         "iso": "JP", 
-        "date_indexed": "2010-12-02T08:09:08Z", 
-        "provider": "geoplanet 7.6.0", 
+        "sw_latitude": 39.611, 
+        "ne_latitude": 39.620, 
         "latitude": 39.615, 
         "sw_longitude": 140.213, 
         "fullname": "\u79cb\u7530\u7a7a\u6e2f, Akita-shi, Akita Prefecture, Japan", 
-        "sw_latitude": 39.611
+        "iata_code": "AXT", 
+        "date_indexed": "2010-12-02T08:09:08Z"
       }, 
       "id": 12513940
     }

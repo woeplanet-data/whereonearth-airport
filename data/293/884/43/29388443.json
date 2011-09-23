@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388443, 
+        "placetype": "airport", 
         "name": "Ledden Farm Airport", 
-        "ne_latitude": 39.692, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12589265", 
+          "woe:state=2347589", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388443, 
         "ne_longitude": -75.147, 
         "longitude": -75.148, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589265, 
+        "ne_latitude": 39.692, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 28745332, 
+        "sw_latitude": 39.691, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 39.691, 
         "sw_longitude": -75.148, 
-        "fullname": "Ledden Farm Airport, Elk, New Jersey, Gloucester, United States", 
-        "sw_latitude": 39.691
+        "fullname": "Ledden Farm Airport, Elk, New Jersey, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 29388443
     }

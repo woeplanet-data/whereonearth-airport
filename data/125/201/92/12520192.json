@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520192, 
-        "name": "Hobart Municipal Airport", 
         "alias_ENG_V": [
           "Hobart Airport"
         ], 
-        "ne_latitude": 35.000, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Hobart Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589652", 
+          "woe:state=2347595", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520192, 
         "ne_longitude": -99.043, 
         "longitude": -99.057, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589652, 
+        "ne_latitude": 35.000, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2422626, 
+        "sw_latitude": 34.982, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 34.991, 
         "sw_longitude": -99.057, 
-        "fullname": "Hobart Municipal Airport, Hobart, Oklahoma, Kiowa, United States", 
-        "sw_latitude": 34.982
+        "fullname": "Hobart Municipal Airport, Hobart, Oklahoma, United States", 
+        "iata_code": "HBR", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520192
     }

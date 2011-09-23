@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514430, 
+        "placetype": "airport", 
         "name": "Ozero Kaskakol Airport", 
-        "ne_latitude": 50.725, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345996", 
+          "woe:country=23424871", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514430, 
         "ne_longitude": 67.502, 
         "longitude": 67.495, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345996, 
+        "ne_latitude": 50.725, 
         "iso": "KZ", 
-        "date_indexed": "2010-12-02T08:54:13Z", 
-        "parent_woeid": 2261813, 
+        "sw_latitude": 50.716, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.720, 
         "sw_longitude": 67.488, 
         "fullname": "Ozero Kaskakol Airport, Aqmola, Kazakhstan", 
-        "sw_latitude": 50.716
+        "date_indexed": "2010-12-02T08:54:13Z"
       }, 
       "id": 12514430
     }

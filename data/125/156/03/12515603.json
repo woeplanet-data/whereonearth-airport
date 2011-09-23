@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515603, 
-        "name": "Calbayog Airport", 
         "alias_ENG_V": [
           "CYP"
         ], 
-        "ne_latitude": 12.077, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Calbayog Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=2346708", 
+          "woe:state=23424723", 
+          "woe:country=23424934", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515603, 
         "ne_longitude": 124.549, 
         "longitude": 124.544, 
-        "placetype": "Airport", 
+        "parent_woeid": 2346708, 
+        "ne_latitude": 12.077, 
         "iso": "PH", 
-        "date_indexed": "2010-12-02T09:56:58Z", 
-        "parent_woeid": 1199930, 
+        "sw_latitude": 12.068, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 12.072, 
         "sw_longitude": 124.540, 
         "fullname": "Calbayog Airport, Eastern Visayas, Samar, Philippines", 
-        "sw_latitude": 12.068
+        "iata_code": "CYP", 
+        "date_indexed": "2010-12-02T09:56:58Z"
       }, 
       "id": 12515603
     }

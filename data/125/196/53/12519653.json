@@ -3,28 +3,82 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -95.916, 
-              41.285
-            ], 
-            [
-              -95.916, 
-              41.318
-            ], 
-            [
-              -95.876, 
-              41.318
-            ], 
-            [
-              -95.876, 
-              41.285
-            ], 
-            [
-              -95.916, 
-              41.285
+              [
+                -95.899, 
+                41.297
+              ], 
+              [
+                -95.900, 
+                41.294
+              ], 
+              [
+                -95.903, 
+                41.292
+              ], 
+              [
+                -95.902, 
+                41.295
+              ], 
+              [
+                -95.901, 
+                41.298
+              ], 
+              [
+                -95.905, 
+                41.300
+              ], 
+              [
+                -95.904, 
+                41.302
+              ], 
+              [
+                -95.900, 
+                41.303
+              ], 
+              [
+                -95.898, 
+                41.306
+              ], 
+              [
+                -95.894, 
+                41.303
+              ], 
+              [
+                -95.892, 
+                41.304
+              ], 
+              [
+                -95.889, 
+                41.301
+              ], 
+              [
+                -95.893, 
+                41.300
+              ], 
+              [
+                -95.894, 
+                41.300
+              ], 
+              [
+                -95.895, 
+                41.300
+              ], 
+              [
+                -95.898, 
+                41.298
+              ], 
+              [
+                -95.898, 
+                41.297
+              ], 
+              [
+                -95.899, 
+                41.297
+              ]
             ]
           ]
         ]
@@ -32,23 +86,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519653, 
-        "name": "Eppley Airfield", 
         "alias_ENG_V": [
           "OMA"
         ], 
-        "ne_latitude": 41.318, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -95.876, 
-        "longitude": -95.900, 
-        "placetype": "Airport", 
-        "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
+        "name": "Eppley Airfield", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:suburb=55806359", 
+          "woe:county=12589165", 
+          "woe:state=2347586", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519653, 
+        "ne_longitude": -95.889, 
+        "longitude": -95.898, 
         "parent_woeid": 55806359, 
-        "latitude": 41.300, 
-        "sw_longitude": -95.916, 
-        "fullname": "Eppley Airfield, Omaha, Nebraska, Douglas, United States", 
-        "sw_latitude": 41.285
+        "ne_latitude": 41.306, 
+        "iso": "US", 
+        "sw_latitude": 41.292, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 41.301, 
+        "sw_longitude": -95.905, 
+        "fullname": "Eppley Airfield, Omaha, Nebraska, United States", 
+        "iata_code": "OMA", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12519653
     }

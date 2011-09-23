@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522887, 
+        "placetype": "airport", 
         "name": "Chi Linh Airport", 
-        "ne_latitude": 11.518, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=20070086", 
+          "woe:country=23424984", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522887, 
         "ne_longitude": 106.755, 
         "longitude": 106.750, 
-        "placetype": "Airport", 
+        "parent_woeid": 20070086, 
+        "ne_latitude": 11.518, 
         "iso": "VN", 
-        "date_indexed": "2010-12-02T08:52:49Z", 
-        "parent_woeid": 1252395, 
+        "sw_latitude": 11.509, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 11.513, 
         "sw_longitude": 106.745, 
         "fullname": "Chi Linh Airport, Bin Phuoc, Vietnam", 
-        "sw_latitude": 11.509
+        "date_indexed": "2010-12-02T08:52:49Z"
       }, 
       "id": 12522887
     }

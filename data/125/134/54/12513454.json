@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513454, 
+        "placetype": "airport", 
         "name": "Batulicin Airport", 
-        "ne_latitude": -3.408, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=56000101", 
+          "woe:state=2345721", 
+          "woe:country=23424846", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513454, 
         "ne_longitude": 116.004, 
         "longitude": 115.999, 
-        "placetype": "Airport", 
+        "parent_woeid": 56000101, 
+        "ne_latitude": -3.408, 
         "iso": "ID", 
-        "date_indexed": "2010-12-02T16:54:32Z", 
-        "parent_woeid": 1029918, 
+        "sw_latitude": -3.417, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -3.413, 
         "sw_longitude": 115.995, 
         "fullname": "Batulicin Airport, South Kalimantan, Tanah Bumbu, Indonesia", 
-        "sw_latitude": -3.417
+        "date_indexed": "2010-12-02T16:54:32Z"
       }, 
       "id": 12513454
     }

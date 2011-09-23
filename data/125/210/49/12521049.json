@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521049, 
+        "placetype": "airport", 
         "name": "Moursund Ranch Airport", 
-        "ne_latitude": 30.382, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12590022", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521049, 
         "ne_longitude": -98.371, 
         "longitude": -98.376, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590022, 
+        "ne_latitude": 30.382, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2485162, 
+        "sw_latitude": 30.373, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 30.378, 
         "sw_longitude": -98.381, 
-        "fullname": "Moursund Ranch Airport, Round Mountain, Texas, Blanco, United States", 
-        "sw_latitude": 30.373
+        "fullname": "Moursund Ranch Airport, Round Mountain, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521049
     }

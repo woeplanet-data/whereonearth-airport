@@ -3,28 +3,66 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -112.818, 
-              49.620
-            ], 
-            [
-              -112.818, 
-              49.644
-            ], 
-            [
-              -112.779, 
-              49.644
-            ], 
-            [
-              -112.779, 
-              49.620
-            ], 
-            [
-              -112.818, 
-              49.620
+              [
+                -112.796, 
+                49.635
+              ], 
+              [
+                -112.793, 
+                49.635
+              ], 
+              [
+                -112.790, 
+                49.638
+              ], 
+              [
+                -112.789, 
+                49.635
+              ], 
+              [
+                -112.786, 
+                49.634
+              ], 
+              [
+                -112.789, 
+                49.633
+              ], 
+              [
+                -112.794, 
+                49.634
+              ], 
+              [
+                -112.795, 
+                49.633
+              ], 
+              [
+                -112.797, 
+                49.631
+              ], 
+              [
+                -112.798, 
+                49.630
+              ], 
+              [
+                -112.797, 
+                49.634
+              ], 
+              [
+                -112.797, 
+                49.634
+              ], 
+              [
+                -112.797, 
+                49.635
+              ], 
+              [
+                -112.796, 
+                49.635
+              ]
             ]
           ]
         ]
@@ -32,23 +70,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511730, 
-        "name": "Lethbridge Airport", 
         "alias_ENG_V": [
           "YQL Airport"
         ], 
-        "ne_latitude": 49.644, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -112.779, 
-        "longitude": -112.788, 
-        "placetype": "Airport", 
+        "name": "Lethbridge Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375228", 
+          "woe:state=2344915", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511730, 
+        "ne_longitude": -112.786, 
+        "longitude": -112.792, 
+        "parent_woeid": 29375228, 
+        "ne_latitude": 49.638, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 29373019, 
+        "sw_latitude": 49.630, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.634, 
-        "sw_longitude": -112.818, 
-        "fullname": "Lethbridge Airport, Lethbridge County, Alberta, Alberta, Canada", 
-        "sw_latitude": 49.620
+        "sw_longitude": -112.798, 
+        "fullname": "Lethbridge Airport, Lethbridge County, Alberta, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12511730
     }

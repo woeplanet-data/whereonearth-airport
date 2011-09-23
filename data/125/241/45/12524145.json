@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524145, 
-        "name": "Big Bay Marina Airport", 
         "alias_ENG_V": [
           "YIG Airport"
         ], 
-        "ne_latitude": 50.388, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Big Bay Marina Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375117", 
+          "woe:state=2344916", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524145, 
         "ne_longitude": -125.126, 
         "longitude": -125.133, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375117, 
+        "ne_latitude": 50.388, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 9500, 
+        "sw_latitude": 50.379, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.383, 
         "sw_longitude": -125.140, 
-        "fullname": "Big Bay Marina Airport, Stuart Island, British Columbia, Comox-Strathcona, Canada", 
-        "sw_latitude": 50.379
+        "fullname": "Big Bay Marina Airport, Stuart Island, British Columbia, Canada", 
+        "iata_code": "YIG", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12524145
     }

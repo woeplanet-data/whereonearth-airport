@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519439, 
-        "name": "Death Valley Airport", 
         "alias_ENG_V": [
           "DTH Airport"
         ], 
-        "ne_latitude": 36.466, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Death Valley Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587683", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519439, 
         "ne_longitude": -116.876, 
         "longitude": -116.879, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587683, 
+        "ne_latitude": 36.466, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:15Z", 
-        "parent_woeid": 23509346, 
+        "sw_latitude": 36.462, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.464, 
         "sw_longitude": -116.881, 
-        "fullname": "Death Valley Airport, Death Valley, California, Inyo, United States", 
-        "sw_latitude": 36.462
+        "fullname": "Death Valley Airport, Death Valley, California, United States", 
+        "iata_code": "DTH", 
+        "date_indexed": "2010-12-02T18:39:15Z"
       }, 
       "id": 12519439
     }

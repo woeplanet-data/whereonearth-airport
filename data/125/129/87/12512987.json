@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512987, 
+        "placetype": "airport", 
         "name": "Virazeil Airport", 
-        "ne_latitude": 44.506, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12648817", 
+          "woe:county=12597143", 
+          "woe:state=7153309", 
+          "woe:country=23424819", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512987, 
         "ne_longitude": 0.206, 
         "longitude": 0.200, 
-        "placetype": "Airport", 
+        "parent_woeid": 12648817, 
+        "ne_latitude": 44.506, 
         "iso": "FR", 
-        "date_indexed": "2010-12-02T12:04:01Z", 
-        "parent_woeid": 610116, 
+        "sw_latitude": 44.497, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.501, 
         "sw_longitude": 0.193, 
-        "fullname": "Virazeil Airport, Marmande, Aquitaine, Lot-et-Garonne, France", 
-        "sw_latitude": 44.497
+        "fullname": "Virazeil Airport, Marmande, Aquitaine, France", 
+        "date_indexed": "2010-12-02T12:04:01Z"
       }, 
       "id": 12512987
     }

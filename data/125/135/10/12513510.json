@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513510, 
-        "name": "Sultan Taha Airport", 
         "alias_ENG_V": [
           "DJB Airport"
         ], 
-        "ne_latitude": -1.632, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Sultan Taha Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=56000305", 
+          "woe:state=2345714", 
+          "woe:country=23424846", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513510, 
         "ne_longitude": 103.644, 
         "longitude": 103.639, 
-        "placetype": "Airport", 
+        "parent_woeid": 56000305, 
+        "ne_latitude": -1.632, 
         "iso": "ID", 
-        "date_indexed": "2010-12-02T16:54:32Z", 
-        "parent_woeid": 1033991, 
+        "sw_latitude": -1.641, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -1.637, 
         "sw_longitude": 103.635, 
-        "fullname": "Sultan Taha Airport, Jambi, Jambi, Kota Jambi, Indonesia", 
-        "sw_latitude": -1.641
+        "fullname": "Sultan Taha Airport, Jambi, Jambi, Indonesia", 
+        "iata_code": "DJB", 
+        "date_indexed": "2010-12-02T16:54:32Z"
       }, 
       "id": 12513510
     }

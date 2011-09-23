@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522156, 
+        "placetype": "airport", 
         "name": "Tom Danaher Airport", 
-        "ne_latitude": 33.827, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12590011", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522156, 
         "ne_longitude": -98.573, 
         "longitude": -98.575, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590011, 
+        "ne_latitude": 33.827, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2435487, 
+        "sw_latitude": 33.823, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 33.825, 
         "sw_longitude": -98.577, 
-        "fullname": "Tom Danaher Airport, Lakeside City, Texas, Archer, United States", 
-        "sw_latitude": 33.823
+        "fullname": "Tom Danaher Airport, Lakeside City, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12522156
     }

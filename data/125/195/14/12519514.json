@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519514, 
-        "name": "Dothan Airport", 
         "alias_ENG_V": [
           "DHN"
         ], 
-        "ne_latitude": 31.334, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Dothan Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587521", 
+          "woe:state=2347559", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519514, 
         "ne_longitude": -85.439, 
         "longitude": -85.449, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587521, 
+        "ne_latitude": 31.334, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2393127, 
+        "sw_latitude": 31.307, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 31.315, 
         "sw_longitude": -85.468, 
-        "fullname": "Dothan Airport, Dothan, Alabama, Houston, United States", 
-        "sw_latitude": 31.307
+        "fullname": "Dothan Airport, Dothan, Alabama, United States", 
+        "iata_code": "DHN", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519514
     }

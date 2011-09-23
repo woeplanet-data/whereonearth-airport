@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513178, 
+        "placetype": "airport", 
         "name": "Mengen Airport", 
-        "ne_latitude": 48.057, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12623846", 
+          "woe:county=12596695", 
+          "woe:state=2345481", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513178, 
         "ne_longitude": 9.384, 
         "longitude": 9.370, 
-        "placetype": "Airport", 
+        "parent_woeid": 12623846, 
+        "ne_latitude": 48.057, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 661358, 
+        "sw_latitude": 48.043, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.054, 
         "sw_longitude": 9.360, 
-        "fullname": "Mengen Airport, Hohentengen, Baden-Wurttemberg, Landkreis Sigmaringen, Germany", 
+        "fullname": "Mengen Airport, Hohentengen, Baden-Wurttemberg, Germany", 
         "alias_GER_Q": [
           "Flughafen Mengen"
         ], 
-        "sw_latitude": 48.043
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 12513178
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388478, 
-        "name": "Bridgewater Air Park", 
         "alias_ENG_V": [
           "Vbw"
         ], 
-        "ne_latitude": 38.370, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Bridgewater Air Park", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590415", 
+          "woe:state=2347605", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388478, 
         "ne_longitude": -78.956, 
         "longitude": -78.959, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590415, 
+        "ne_latitude": 38.370, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2369012, 
+        "sw_latitude": 38.362, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.364, 
         "sw_longitude": -78.964, 
-        "fullname": "Bridgewater Air Park, Bridgewater, Virginia, Rockingham, United States", 
-        "sw_latitude": 38.362
+        "fullname": "Bridgewater Air Park, Bridgewater, Virginia, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388478
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 28677633, 
+        "placetype": "airport", 
         "name": "Escott Aerodrome", 
-        "ne_latitude": -17.728, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55864351", 
+          "woe:state=2344702", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 28677633, 
         "ne_longitude": 139.424, 
         "longitude": 139.419, 
-        "placetype": "Airport", 
+        "parent_woeid": 55864351, 
+        "ne_latitude": -17.728, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1101714, 
+        "sw_latitude": -17.737, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -17.732, 
         "sw_longitude": 139.414, 
-        "fullname": "Escott Aerodrome, Doomadgee, Queensland, Burke, Australia", 
-        "sw_latitude": -17.737
+        "fullname": "Escott Aerodrome, Doomadgee, Queensland, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 28677633
     }

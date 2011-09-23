@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521080, 
+        "placetype": "airport", 
         "name": "Nappanee Municipal Airport", 
-        "ne_latitude": 41.451, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12588199", 
+          "woe:state=2347573", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521080, 
         "ne_longitude": -85.929, 
         "longitude": -85.935, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588199, 
+        "ne_latitude": 41.451, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2413377, 
+        "sw_latitude": 41.442, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.446, 
         "sw_longitude": -85.941, 
-        "fullname": "Nappanee Municipal Airport, Gravelton, Indiana, Elkhart, United States", 
-        "sw_latitude": 41.442
+        "fullname": "Nappanee Municipal Airport, Gravelton, Indiana, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521080
     }

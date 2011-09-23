@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513673, 
+        "placetype": "airport", 
         "name": "Sirsa Airport", 
-        "ne_latitude": 29.561, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12586451", 
+          "woe:state=2345744", 
+          "woe:country=23424848", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513673, 
         "ne_longitude": 75.014, 
         "longitude": 75.008, 
-        "placetype": "Airport", 
+        "parent_woeid": 12586451, 
+        "ne_latitude": 29.561, 
         "iso": "IN", 
-        "date_indexed": "2010-12-02T09:26:27Z", 
-        "parent_woeid": 29192187, 
+        "sw_latitude": 29.552, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 29.557, 
         "sw_longitude": 75.003, 
-        "fullname": "Sirsa Airport, Ahamadpur, Haryana, Sirsa, India", 
-        "sw_latitude": 29.552
+        "fullname": "Sirsa Airport, Ahamadpur, Haryana, India", 
+        "date_indexed": "2010-12-02T09:26:27Z"
       }, 
       "id": 12513673
     }

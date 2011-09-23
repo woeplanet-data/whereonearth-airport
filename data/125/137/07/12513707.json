@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513707, 
+        "placetype": "airport", 
         "name": "Behbehan Northwest Airport", 
-        "ne_latitude": 30.733, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345778", 
+          "woe:country=23424851", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513707, 
         "ne_longitude": 50.105, 
         "longitude": 50.100, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345778, 
+        "ne_latitude": 30.733, 
         "iso": "IR", 
-        "date_indexed": "2010-12-02T08:53:52Z", 
-        "parent_woeid": 2248972, 
+        "sw_latitude": 30.724, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 30.728, 
         "sw_longitude": 50.095, 
         "fullname": "Behbehan Northwest Airport, Khuzestan, Iran", 
-        "sw_latitude": 30.724
+        "date_indexed": "2010-12-02T08:53:52Z"
       }, 
       "id": 12513707
     }

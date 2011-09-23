@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523654, 
-        "name": "Paruima Airport", 
         "alias_ENG_V": [
           "PRR"
         ], 
-        "ne_latitude": 5.821, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Paruima Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2345604", 
+          "woe:country=23424836", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523654, 
         "ne_longitude": -61.012, 
         "longitude": -61.017, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345604, 
+        "ne_latitude": 5.821, 
         "iso": "GY", 
-        "date_indexed": "2010-12-02T16:33:25Z", 
-        "parent_woeid": 376814, 
+        "sw_latitude": 5.812, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 5.817, 
         "sw_longitude": -61.021, 
         "fullname": "Paruima Airport, Cuyuni-Mazaruni, Guyana", 
-        "sw_latitude": 5.812
+        "iata_code": "PRR", 
+        "date_indexed": "2010-12-02T16:33:25Z"
       }, 
       "id": 12523654
     }

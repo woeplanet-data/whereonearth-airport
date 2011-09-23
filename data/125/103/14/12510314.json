@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510314, 
-        "name": "Bechar Airport", 
         "alias_ENG_V": [
           "CBH"
         ], 
-        "ne_latitude": 31.663, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Bechar Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2344608", 
+          "woe:country=23424740", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510314, 
         "ne_longitude": -2.256, 
         "longitude": -2.261, 
-        "placetype": "Airport", 
+        "parent_woeid": 2344608, 
+        "ne_latitude": 31.663, 
         "iso": "DZ", 
-        "date_indexed": "2010-12-02T17:07:16Z", 
-        "parent_woeid": 1253238, 
+        "sw_latitude": 31.654, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 31.658, 
         "sw_longitude": -2.267, 
         "fullname": "Bechar Airport, Bechar, Bechar, Algeria", 
-        "sw_latitude": 31.654
+        "iata_code": "CBH", 
+        "date_indexed": "2010-12-02T17:07:16Z"
       }, 
       "id": 12510314
     }

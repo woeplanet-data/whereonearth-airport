@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519574, 
-        "name": "East Kansas City Airport", 
         "alias_ENG_V": [
           "E Kansas City Airport"
         ], 
-        "ne_latitude": 39.019, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "East Kansas City Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589013", 
+          "woe:state=2347584", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519574, 
         "ne_longitude": -94.204, 
         "longitude": -94.207, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589013, 
+        "ne_latitude": 39.019, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:15Z", 
-        "parent_woeid": 2412708, 
+        "sw_latitude": 39.013, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 39.016, 
         "sw_longitude": -94.211, 
-        "fullname": "East Kansas City Airport, Grain Valley, Missouri, Jackson, United States", 
-        "sw_latitude": 39.013
+        "fullname": "East Kansas City Airport, Grain Valley, Missouri, United States", 
+        "date_indexed": "2010-12-02T18:39:15Z"
       }, 
       "id": 12519574
     }

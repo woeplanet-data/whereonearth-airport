@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513220, 
+        "placetype": "airport", 
         "name": "Riesa West Airport", 
-        "ne_latitude": 51.298, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12625717", 
+          "woe:county=12596736", 
+          "woe:state=2345493", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513220, 
         "ne_longitude": 13.086, 
         "longitude": 13.077, 
-        "placetype": "Airport", 
+        "parent_woeid": 12625717, 
+        "ne_latitude": 51.298, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 20162089, 
+        "sw_latitude": 51.293, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.295, 
         "sw_longitude": 13.072, 
-        "fullname": "Riesa West Airport, Fliegerhorst, Saxony, Torgau-Oschatz, Germany", 
+        "fullname": "Riesa West Airport, Fliegerhorst, Saxony, Germany", 
         "alias_GER_Q": [
           "Flughafen Riesa West"
         ], 
-        "sw_latitude": 51.293
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 12513220
     }

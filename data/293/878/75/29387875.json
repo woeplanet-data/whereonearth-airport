@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29387875, 
-        "name": "Ennis Big Sky Airport", 
         "alias_ENG_V": [
           "Eks"
         ], 
-        "ne_latitude": 45.279, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Ennis Big Sky Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589108", 
+          "woe:state=2347585", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29387875, 
         "ne_longitude": -111.648, 
         "longitude": -111.650, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589108, 
+        "ne_latitude": 45.279, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2511408, 
+        "sw_latitude": 45.265, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.268, 
         "sw_longitude": -111.653, 
-        "fullname": "Ennis Big Sky Airport, Varney, Montana, Madison, United States", 
-        "sw_latitude": 45.265
+        "fullname": "Ennis Big Sky Airport, Varney, Montana, United States", 
+        "iata_code": "EKS", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29387875
     }

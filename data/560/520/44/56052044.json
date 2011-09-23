@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 56052044, 
+        "placetype": "airport", 
         "name": "Flugplatz Nannhausen", 
-        "ne_latitude": 49.973, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12628531", 
+          "woe:county=12597022", 
+          "woe:state=2345488", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56052044, 
         "ne_longitude": 7.483, 
         "longitude": 7.482, 
-        "placetype": "Airport", 
+        "parent_woeid": 12628531, 
+        "ne_latitude": 49.973, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 695102, 
+        "sw_latitude": 49.967, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.972, 
         "sw_longitude": 7.471, 
-        "fullname": "Flugplatz Nannhausen, Simmern, Rhineland-Palatinate, Rhein-Hunsr\u00fcck-Kreis, Germany", 
-        "sw_latitude": 49.967
+        "fullname": "Flugplatz Nannhausen, Simmern, Rhineland-Palatinate, Germany", 
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 56052044
     }

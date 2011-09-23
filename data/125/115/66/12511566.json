@@ -32,29 +32,35 @@
       "type": "Feature", 
       "properties": {
         "lang": "FRE", 
-        "woeid": 12511566, 
-        "name": "A\u00e9roport d'alma", 
-        "alias_ENG_P": [
-          "Alma Airport"
-        ], 
-        "ne_latitude": 48.515, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "YTF Airport"
         ], 
+        "name": "A\u00e9roport d'alma", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Alma Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=29375107", 
+          "woe:state=2344924", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511566, 
         "ne_longitude": -71.633, 
         "longitude": -71.653, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375107, 
+        "ne_latitude": 48.515, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:24:00Z", 
-        "parent_woeid": 29374151, 
+        "sw_latitude": 48.503, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.509, 
         "sw_longitude": -71.658, 
-        "fullname": "A\u00e9roport d'alma, St-Bruno-Lac-St-Jean, Quebec, Lac-St-Jean-Est, Canada", 
+        "fullname": "A\u00e9roport d'alma, St-Bruno-Lac-St-Jean, Quebec, Canada", 
         "alias_FRE_S": [
           "Aeroport d'alma"
         ], 
-        "sw_latitude": 48.503
+        "date_indexed": "2010-12-02T10:24:00Z"
       }, 
       "id": 12511566
     }

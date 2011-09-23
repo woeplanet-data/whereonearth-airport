@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521023, 
+        "placetype": "airport", 
         "name": "Moran Airport", 
-        "ne_latitude": 39.505, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12588687", 
+          "woe:state=2347579", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521023, 
         "ne_longitude": -79.067, 
         "longitude": -79.073, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588687, 
+        "ne_latitude": 39.505, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2365634, 
+        "sw_latitude": 39.496, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 39.501, 
         "sw_longitude": -79.078, 
-        "fullname": "Moran Airport, Bloomington, Maryland, Garrett, United States", 
-        "sw_latitude": 39.496
+        "fullname": "Moran Airport, Bloomington, Maryland, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521023
     }

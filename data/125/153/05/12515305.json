@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515305, 
+        "placetype": "airport", 
         "name": "Gotartowice Airport", 
-        "ne_latitude": 50.071, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12618734", 
+          "woe:county=12591408", 
+          "woe:state=12577946", 
+          "woe:country=23424923", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515305, 
         "ne_longitude": 18.650, 
         "longitude": 18.643, 
-        "placetype": "Airport", 
+        "parent_woeid": 12618734, 
+        "ne_latitude": 50.071, 
         "iso": "PL", 
-        "date_indexed": "2010-12-02T12:12:45Z", 
-        "parent_woeid": 504639, 
+        "sw_latitude": 50.062, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.067, 
         "sw_longitude": 18.636, 
         "fullname": "Gotartowice Airport, Silesian, Rybnik City, Poland", 
-        "sw_latitude": 50.062
+        "date_indexed": "2010-12-02T12:12:45Z"
       }, 
       "id": 12515305
     }

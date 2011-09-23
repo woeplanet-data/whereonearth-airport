@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516717, 
+        "placetype": "airport", 
         "name": "Poltavskiy Airport", 
-        "ne_latitude": 46.712, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597791", 
+          "woe:state=2346884", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516717, 
         "ne_longitude": 39.741, 
         "longitude": 39.735, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597791, 
+        "ne_latitude": 46.712, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2064546, 
+        "sw_latitude": 46.703, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.707, 
         "sw_longitude": 39.728, 
         "fullname": "Poltavskiy Airport, Krasnodarskiy Kray, Kuschevsky, Russia", 
-        "sw_latitude": 46.703
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516717
     }

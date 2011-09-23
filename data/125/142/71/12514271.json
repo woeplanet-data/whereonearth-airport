@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514271, 
+        "placetype": "airport", 
         "name": "Arkalyk Airport", 
-        "ne_latitude": 50.244, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345996", 
+          "woe:country=23424871", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514271, 
         "ne_longitude": 66.947, 
         "longitude": 66.940, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345996, 
+        "ne_latitude": 50.244, 
         "iso": "KZ", 
-        "date_indexed": "2010-12-02T08:54:13Z", 
-        "parent_woeid": 2255955, 
+        "sw_latitude": 50.235, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.239, 
         "sw_longitude": 66.933, 
         "fullname": "Arkalyk Airport, Arqalyq, Aqmola, Kazakhstan", 
-        "sw_latitude": 50.235
+        "date_indexed": "2010-12-02T08:54:13Z"
       }, 
       "id": 12514271
     }

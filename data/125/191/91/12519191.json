@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519191, 
-        "name": "Choteau Airport", 
         "alias_ENG_V": [
           "CII"
         ], 
-        "ne_latitude": 47.830, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Choteau Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589130", 
+          "woe:state=2347585", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519191, 
         "ne_longitude": -112.157, 
         "longitude": -112.157, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589130, 
+        "ne_latitude": 47.830, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2380046, 
+        "sw_latitude": 47.821, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.824, 
         "sw_longitude": -112.174, 
-        "fullname": "Choteau Airport, Choteau, Montana, Teton, United States", 
-        "sw_latitude": 47.821
+        "fullname": "Choteau Airport, Choteau, Montana, United States", 
+        "iata_code": "CII", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519191
     }

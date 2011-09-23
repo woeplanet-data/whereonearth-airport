@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522919, 
+        "placetype": "airport", 
         "name": "Kep Airport", 
-        "ne_latitude": 21.403, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=20070087", 
+          "woe:country=23424984", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522919, 
         "ne_longitude": 106.274, 
         "longitude": 106.269, 
-        "placetype": "Airport", 
+        "parent_woeid": 20070087, 
+        "ne_latitude": 21.403, 
         "iso": "VN", 
-        "date_indexed": "2010-12-02T08:52:49Z", 
-        "parent_woeid": 1252597, 
+        "sw_latitude": 21.394, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 21.398, 
         "sw_longitude": 106.264, 
         "fullname": "Kep Airport, Bac Giang, Vietnam", 
-        "sw_latitude": 21.394
+        "date_indexed": "2010-12-02T08:52:49Z"
       }, 
       "id": 12522919
     }

@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518109, 
+        "placetype": "airport", 
         "name": "Kirkbride Airport", 
-        "ne_latitude": 54.886, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12695900", 
+          "woe:county=12602148", 
+          "woe:state=24554868", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518109, 
         "ne_longitude": -3.196, 
         "longitude": -3.204, 
-        "placetype": "Airport", 
+        "parent_woeid": 12695900, 
+        "ne_latitude": 54.886, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:21:01Z", 
-        "parent_woeid": 20091565, 
+        "sw_latitude": 54.877, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 54.882, 
         "sw_longitude": -3.212, 
-        "fullname": "Kirkbride Airport, Angerton, England, Cumbria, United Kingdom", 
-        "sw_latitude": 54.877
+        "fullname": "Kirkbride Airport, Angerton, England, United Kingdom", 
+        "date_indexed": "2010-12-02T12:21:01Z"
       }, 
       "id": 12518109
     }

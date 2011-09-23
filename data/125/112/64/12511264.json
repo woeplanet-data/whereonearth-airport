@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511264, 
+        "placetype": "airport", 
         "name": "Aeroporto Pau dos Ferros", 
         "alias_ENG_P": [
           "Pau dos Ferros Airport"
         ], 
-        "ne_latitude": -6.145, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12581175", 
+          "woe:state=2344863", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511264, 
         "ne_longitude": -38.195, 
         "longitude": -38.200, 
-        "placetype": "Airport", 
+        "parent_woeid": 12581175, 
+        "ne_latitude": -6.145, 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 456397, 
+        "sw_latitude": -6.155, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -6.150, 
         "sw_longitude": -38.205, 
-        "fullname": "Aeroporto Pau dos Ferros, Pau dos Ferros, Rio Grande do Norte, Pau dos Ferros, Brazil", 
-        "sw_latitude": -6.155
+        "fullname": "Aeroporto Pau dos Ferros, Pau dos Ferros, Rio Grande do Norte, Brazil", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511264
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518817, 
-        "name": "Beverly Municipal Airport", 
         "alias_ENG_V": [
           "BVY"
         ], 
-        "ne_latitude": 42.593, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Beverly Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588704", 
+          "woe:state=2347580", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518817, 
         "ne_longitude": -70.907, 
         "longitude": -70.911, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588704, 
+        "ne_latitude": 42.593, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2363735, 
+        "sw_latitude": 42.579, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.586, 
         "sw_longitude": -70.926, 
-        "fullname": "Beverly Municipal Airport, Beverly, Massachusetts, Essex, United States", 
-        "sw_latitude": 42.579
+        "fullname": "Beverly Municipal Airport, Beverly, Massachusetts, United States", 
+        "iata_code": "BVY", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518817
     }

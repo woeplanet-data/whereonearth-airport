@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521084, 
-        "name": "Natchitoches Regional Airport", 
         "alias_ENG_V": [
           "IER"
         ], 
-        "ne_latitude": 31.739, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Natchitoches Regional Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588630", 
+          "woe:state=2347577", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521084, 
         "ne_longitude": -93.089, 
         "longitude": -93.095, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588630, 
+        "ne_latitude": 31.739, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2457247, 
+        "sw_latitude": 31.730, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 31.734, 
         "sw_longitude": -93.100, 
-        "fullname": "Natchitoches Regional Airport, Natchitoches, Louisiana, Natchitoches Parish, United States", 
-        "sw_latitude": 31.730
+        "fullname": "Natchitoches Regional Airport, Natchitoches, Louisiana, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521084
     }

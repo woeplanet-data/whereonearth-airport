@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511411, 
+        "placetype": "airport", 
         "name": "Doktor Yosifovo Airport", 
-        "ne_latitude": 43.513, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55873822", 
+          "woe:state=20070056", 
+          "woe:country=23424771", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511411, 
         "ne_longitude": 23.136, 
         "longitude": 23.129, 
-        "placetype": "Airport", 
+        "parent_woeid": 55873822, 
+        "ne_latitude": 43.513, 
         "iso": "BG", 
-        "date_indexed": "2010-12-02T16:14:37Z", 
-        "parent_woeid": 835748, 
+        "sw_latitude": 43.504, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.508, 
         "sw_longitude": 23.123, 
         "fullname": "Doktor Yosifovo Airport, Montana, Montana, Bulgaria", 
-        "sw_latitude": 43.504
+        "date_indexed": "2010-12-02T16:14:37Z"
       }, 
       "id": 12511411
     }

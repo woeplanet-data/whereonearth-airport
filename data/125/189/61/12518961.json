@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518961, 
-        "name": "Bryce Canyon Airport", 
         "alias_ENG_V": [
           "BCE"
         ], 
-        "ne_latitude": 37.702, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Bryce Canyon Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590269", 
+          "woe:state=2347603", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518961, 
         "ne_longitude": -112.152, 
         "longitude": -112.159, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590269, 
+        "ne_latitude": 37.702, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:15Z", 
-        "parent_woeid": 28747523, 
+        "sw_latitude": 37.691, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 37.697, 
         "sw_longitude": -112.166, 
-        "fullname": "Bryce Canyon Airport, Rubys Inn, Utah, Garfield, United States", 
-        "sw_latitude": 37.691
+        "fullname": "Bryce Canyon Airport, Rubys Inn, Utah, United States", 
+        "iata_code": "BCE", 
+        "date_indexed": "2010-12-02T18:39:15Z"
       }, 
       "id": 12518961
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521612, 
+        "placetype": "airport", 
         "name": "Robert R Wells Jr Airport", 
-        "ne_latitude": 29.645, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12590051", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521612, 
         "ne_longitude": -96.510, 
         "longitude": -96.516, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590051, 
+        "ne_latitude": 29.645, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2383656, 
+        "sw_latitude": 29.636, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 29.641, 
         "sw_longitude": -96.521, 
-        "fullname": "Robert R Wells Jr Airport, Columbus, Texas, Colorado, United States", 
-        "sw_latitude": 29.636
+        "fullname": "Robert R Wells Jr Airport, Columbus, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521612
     }

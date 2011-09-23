@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523317, 
-        "name": "Glentanner Airport", 
         "alias_ENG_V": [
           "GTN Airport"
         ], 
-        "ne_latitude": -43.897, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Glentanner Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55875911", 
+          "woe:state=15021751", 
+          "woe:country=23424916", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523317, 
         "ne_longitude": 170.124, 
         "longitude": 170.118, 
-        "placetype": "Airport", 
+        "parent_woeid": 55875911, 
+        "ne_latitude": -43.897, 
         "iso": "NZ", 
-        "date_indexed": "2010-12-02T17:02:39Z", 
-        "parent_woeid": 2349165, 
+        "sw_latitude": -43.906, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -43.902, 
         "sw_longitude": 170.112, 
-        "fullname": "Glentanner Airport, Lake Pukaki, Canterbury, Mackenzie District, New Zealand", 
-        "sw_latitude": -43.906
+        "fullname": "Glentanner Airport, Lake Pukaki, Canterbury, New Zealand", 
+        "iata_code": "GTN", 
+        "date_indexed": "2010-12-02T17:02:39Z"
       }, 
       "id": 12523317
     }

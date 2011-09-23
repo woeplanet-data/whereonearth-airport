@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520393, 
-        "name": "Johnstown Cambria County Airport", 
         "alias_ENG_V": [
           "Johnstown Cambria Airport"
         ], 
-        "ne_latitude": 40.325, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Johnstown Cambria County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589738", 
+          "woe:state=2347597", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520393, 
         "ne_longitude": -78.824, 
         "longitude": -78.831, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589738, 
+        "ne_latitude": 40.325, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2480831, 
+        "sw_latitude": 40.306, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.321, 
         "sw_longitude": -78.844, 
-        "fullname": "Johnstown Cambria County Airport, Richland, Pennsylvania, Cambria, United States", 
-        "sw_latitude": 40.306
+        "fullname": "Johnstown Cambria County Airport, Richland, Pennsylvania, United States", 
+        "iata_code": "JST", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520393
     }

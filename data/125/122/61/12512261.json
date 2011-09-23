@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512261, 
+        "placetype": "airport", 
         "name": "Yanan Airport", 
-        "ne_latitude": 36.614, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12687236", 
+          "woe:county=26198122", 
+          "woe:state=12578015", 
+          "woe:country=23424781", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512261, 
         "ne_longitude": 109.502, 
         "longitude": 109.497, 
-        "placetype": "Airport", 
+        "parent_woeid": 12687236, 
+        "ne_latitude": 36.614, 
         "iso": "CN", 
-        "date_indexed": "2010-12-02T08:51:54Z", 
-        "parent_woeid": 2156695, 
+        "sw_latitude": 36.605, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.610, 
         "sw_longitude": 109.491, 
-        "fullname": "Yanan Airport, Yan'an, Shaanxi, Yan'an, China", 
-        "sw_latitude": 36.605
+        "fullname": "Yanan Airport, Yan'an, Shaanxi, China", 
+        "date_indexed": "2010-12-02T08:51:54Z"
       }, 
       "id": 12512261
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518630, 
-        "name": "Ann Arbor Municipal Airport", 
         "alias_ENG_V": [
           "ARB"
         ], 
-        "ne_latitude": 42.229, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Ann Arbor Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588794", 
+          "woe:state=2347581", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518630, 
         "ne_longitude": -83.738, 
         "longitude": -83.745, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588794, 
+        "ne_latitude": 42.229, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2473271, 
+        "sw_latitude": 42.220, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.226, 
         "sw_longitude": -83.753, 
-        "fullname": "Ann Arbor Municipal Airport, Pittsfield, Michigan, Washtenaw, United States", 
-        "sw_latitude": 42.220
+        "fullname": "Ann Arbor Municipal Airport, Pittsfield, Michigan, United States", 
+        "iata_code": "ARB", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518630
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "FRE", 
-        "woeid": 56051831, 
+        "placetype": "airport", 
         "name": "A\u00e9rodrome de Vauville", 
-        "ne_latitude": 49.627, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12638389", 
+          "woe:county=12591801", 
+          "woe:state=7153311", 
+          "woe:country=23424819", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56051831, 
         "ne_longitude": -1.826, 
         "longitude": -1.828, 
-        "placetype": "Airport", 
+        "parent_woeid": 12638389, 
+        "ne_latitude": 49.627, 
         "iso": "FR", 
-        "date_indexed": "2010-12-02T12:04:01Z", 
-        "parent_woeid": 578749, 
+        "sw_latitude": 49.621, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.623, 
         "sw_longitude": -1.836, 
-        "fullname": "A\u00e9rodrome de Vauville, Beaumont, Basse-Normandie, Manche, France", 
+        "fullname": "A\u00e9rodrome de Vauville, Beaumont, Basse-Normandie, France", 
         "alias_FRE_S": [
           "Aerodrome de Vauville"
         ], 
-        "sw_latitude": 49.621
+        "date_indexed": "2010-12-02T12:04:01Z"
       }, 
       "id": 56051831
     }

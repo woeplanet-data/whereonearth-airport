@@ -32,29 +32,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511028, 
-        "name": "Aeroporto Aragarcas", 
-        "alias_ENG_P": [
-          "Aragarcas Airport"
-        ], 
-        "ne_latitude": -15.894, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "ARS"
         ], 
+        "name": "Aeroporto Aragarcas", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Aragarcas Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12579325", 
+          "woe:state=2344855", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511028, 
         "ne_longitude": -52.236, 
         "longitude": -52.240, 
-        "placetype": "Airport", 
+        "parent_woeid": 12579325, 
+        "ne_latitude": -15.894, 
         "alias_POR_V": [
           "Aeroporto ARS"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 456071, 
+        "sw_latitude": -15.903, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -15.899, 
         "sw_longitude": -52.245, 
-        "fullname": "Aeroporto Aragarcas, Barra do Gar\u00e7as, Mato Grosso, Barra do Gar\u00e7as, Brazil", 
-        "sw_latitude": -15.903
+        "fullname": "Aeroporto Aragarcas, Barra do Gar\u00e7as, Mato Grosso, Brazil", 
+        "iata_code": "ARS", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511028
     }

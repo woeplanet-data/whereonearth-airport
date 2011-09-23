@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511614, 
+        "placetype": "airport", 
         "name": "Chipman Airport", 
-        "ne_latitude": 46.155, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=29375084", 
+          "woe:state=2344918", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511614, 
         "ne_longitude": -65.893, 
         "longitude": -65.900, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375084, 
+        "ne_latitude": 46.155, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 3695, 
+        "sw_latitude": 46.145, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.150, 
         "sw_longitude": -65.907, 
-        "fullname": "Chipman Airport, Chipman, New Brunswick, Queens, Canada", 
-        "sw_latitude": 46.145
+        "fullname": "Chipman Airport, Chipman, New Brunswick, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12511614
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515217, 
-        "name": "Rioja Airport", 
         "alias_ENG_V": [
           "RIJ"
         ], 
-        "ne_latitude": -6.046, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Rioja Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26805923", 
+          "woe:state=2346489", 
+          "woe:country=23424919", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515217, 
         "ne_longitude": -77.146, 
         "longitude": -77.150, 
-        "placetype": "Airport", 
+        "parent_woeid": 26805923, 
+        "ne_latitude": -6.046, 
         "iso": "PE", 
-        "date_indexed": "2010-12-02T16:12:16Z", 
-        "parent_woeid": 418579, 
+        "sw_latitude": -6.055, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -6.050, 
         "sw_longitude": -77.155, 
-        "fullname": "Rioja Airport, Rioja, San Martin, Rioja, Peru", 
-        "sw_latitude": -6.055
+        "fullname": "Rioja Airport, Rioja, San Martin, Peru", 
+        "iata_code": "RIJ", 
+        "date_indexed": "2010-12-02T16:12:16Z"
       }, 
       "id": 12515217
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520338, 
-        "name": "Jackson Municipal Airport", 
         "alias_ENG_V": [
           "4r3"
         ], 
-        "ne_latitude": 31.478, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Jackson Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587499", 
+          "woe:state=2347559", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520338, 
         "ne_longitude": -87.894, 
         "longitude": -87.897, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587499, 
+        "ne_latitude": 31.478, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2428177, 
+        "sw_latitude": 31.463, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 31.464, 
         "sw_longitude": -87.898, 
-        "fullname": "Jackson Municipal Airport, Jackson, Alabama, Clarke, United States", 
-        "sw_latitude": 31.463
+        "fullname": "Jackson Municipal Airport, Jackson, Alabama, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520338
     }

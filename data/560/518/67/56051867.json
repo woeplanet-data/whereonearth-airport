@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "FRE", 
-        "woeid": 56051867, 
+        "placetype": "airport", 
         "name": "A\u00e9rodrome de Sainte-l\u00e9ocadie", 
-        "ne_latitude": 42.447, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12669322", 
+          "woe:county=12597201", 
+          "woe:state=7153320", 
+          "woe:country=23424819", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56051867, 
         "ne_longitude": 2.014, 
         "longitude": 2.009, 
-        "placetype": "Airport", 
+        "parent_woeid": 12669322, 
+        "ne_latitude": 42.447, 
         "iso": "FR", 
-        "date_indexed": "2010-12-02T12:04:01Z", 
-        "parent_woeid": 620619, 
+        "sw_latitude": 42.441, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.444, 
         "sw_longitude": 2.003, 
-        "fullname": "A\u00e9rodrome de Sainte-l\u00e9ocadie, Saillagouse, Languedoc-Roussillon, Pyrenees-Orientales, France", 
+        "fullname": "A\u00e9rodrome de Sainte-l\u00e9ocadie, Saillagouse, Languedoc-Roussillon, France", 
         "alias_FRE_S": [
           "Aerodrome de Sainte-leocadie"
         ], 
-        "sw_latitude": 42.441
+        "date_indexed": "2010-12-02T12:04:01Z"
       }, 
       "id": 56051867
     }

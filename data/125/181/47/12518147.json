@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518147, 
-        "name": "Scatsta Airport", 
         "alias_ENG_V": [
           "Scatsta"
         ], 
-        "ne_latitude": 60.437, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Scatsta Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=12696208", 
+          "woe:county=12602206", 
+          "woe:state=12578048", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518147, 
         "ne_longitude": -1.284, 
         "longitude": -1.294, 
-        "placetype": "Airport", 
+        "parent_woeid": 12696208, 
+        "ne_latitude": 60.437, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:21:01Z", 
-        "parent_woeid": 29418, 
+        "sw_latitude": 60.428, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 60.437, 
         "sw_longitude": -1.311, 
-        "fullname": "Scatsta Airport, Mossbank, Scotland, Shetland Islands, United Kingdom", 
-        "sw_latitude": 60.428
+        "fullname": "Scatsta Airport, Mossbank, Scotland, United Kingdom", 
+        "iata_code": "SCS", 
+        "date_indexed": "2010-12-02T12:21:01Z"
       }, 
       "id": 12518147
     }

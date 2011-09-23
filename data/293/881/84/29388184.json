@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388184, 
-        "name": "Chandler Municipal Airport", 
         "alias_ENG_V": [
           "Cqb"
         ], 
-        "ne_latitude": 35.730, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Chandler Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589655", 
+          "woe:state=2347595", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388184, 
         "ne_longitude": -96.818, 
         "longitude": -96.823, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589655, 
+        "ne_latitude": 35.730, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2378013, 
+        "sw_latitude": 35.717, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.719, 
         "sw_longitude": -96.823, 
-        "fullname": "Chandler Municipal Airport, Chandler, Oklahoma, Lincoln, United States", 
-        "sw_latitude": 35.717
+        "fullname": "Chandler Municipal Airport, Chandler, Oklahoma, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388184
     }

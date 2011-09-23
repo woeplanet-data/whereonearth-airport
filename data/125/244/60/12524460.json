@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524460, 
-        "name": "Ayacucho Airport", 
         "alias_ENG_V": [
           "AYC"
         ], 
-        "ne_latitude": 8.605, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Ayacucho Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26797010", 
+          "woe:state=2345056", 
+          "woe:country=23424787", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524460, 
         "ne_longitude": -73.612, 
         "longitude": -73.617, 
-        "placetype": "Airport", 
+        "parent_woeid": 26797010, 
+        "ne_latitude": 8.605, 
         "iso": "CO", 
-        "date_indexed": "2010-12-02T17:57:37Z", 
-        "parent_woeid": 359420, 
+        "sw_latitude": 8.595, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 8.600, 
         "sw_longitude": -73.621, 
         "fullname": "Ayacucho Airport, Cesar, La Gloria, Colombia", 
-        "sw_latitude": 8.595
+        "iata_code": "AYC", 
+        "date_indexed": "2010-12-02T17:57:37Z"
       }, 
       "id": 12524460
     }

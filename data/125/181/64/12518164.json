@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518164, 
-        "name": "Thurso Airport", 
         "alias_ENG_V": [
           "DNY"
         ], 
-        "ne_latitude": 58.589, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Thurso Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=12696199", 
+          "woe:county=12602203", 
+          "woe:state=12578048", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518164, 
         "ne_longitude": -3.717, 
         "longitude": -3.725, 
-        "placetype": "Airport", 
+        "parent_woeid": 12696199, 
+        "ne_latitude": 58.589, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:21:01Z", 
-        "parent_woeid": 14458, 
+        "sw_latitude": 58.580, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 58.584, 
         "sw_longitude": -3.734, 
-        "fullname": "Thurso Airport, Buldoo, Scotland, Highland, United Kingdom", 
-        "sw_latitude": 58.580
+        "fullname": "Thurso Airport, Buldoo, Scotland, United Kingdom", 
+        "iata_code": "DNY", 
+        "date_indexed": "2010-12-02T12:21:01Z"
       }, 
       "id": 12518164
     }

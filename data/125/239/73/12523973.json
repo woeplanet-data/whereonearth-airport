@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523973, 
-        "name": "Ascona Airport", 
         "alias_ENG_V": [
           "ACO"
         ], 
-        "ne_latitude": 46.164, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Ascona Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=12684030", 
+          "woe:county=12593143", 
+          "woe:state=2347102", 
+          "woe:country=23424957", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523973, 
         "ne_longitude": 8.773, 
         "longitude": 8.767, 
-        "placetype": "Airport", 
+        "parent_woeid": 12684030, 
+        "ne_latitude": 46.164, 
         "iso": "CH", 
-        "date_indexed": "2010-12-02T18:20:52Z", 
-        "parent_woeid": 20103151, 
+        "sw_latitude": 46.155, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.159, 
         "sw_longitude": 8.760, 
-        "fullname": "Ascona Airport, Monte Verit\u00e0, Canton of Ticino, Locarno, Switzerland", 
-        "sw_latitude": 46.155
+        "fullname": "Ascona Airport, Monte Verit\u00e0, Canton of Ticino, Switzerland", 
+        "iata_code": "ACO", 
+        "date_indexed": "2010-12-02T18:20:52Z"
       }, 
       "id": 12523973
     }

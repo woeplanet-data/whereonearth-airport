@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521513, 
-        "name": "Quitman Brooks County Airport", 
         "alias_ENG_V": [
           "4j5"
         ], 
-        "ne_latitude": 30.809, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Quitman Brooks County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587883", 
+          "woe:state=2347569", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521513, 
         "ne_longitude": -83.580, 
         "longitude": -83.582, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587883, 
+        "ne_latitude": 30.809, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2477952, 
+        "sw_latitude": 30.802, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 30.808, 
         "sw_longitude": -83.593, 
-        "fullname": "Quitman Brooks County Airport, Quitman, Georgia, Brooks, United States", 
-        "sw_latitude": 30.802
+        "fullname": "Quitman Brooks County Airport, Quitman, Georgia, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521513
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514813, 
-        "name": "Seeb International Airport", 
         "alias_ENG_V": [
           "Seeb Airport"
         ], 
-        "ne_latitude": 23.605, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Seeb International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55927069", 
+          "woe:state=2346260", 
+          "woe:country=23424898", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514813, 
         "ne_longitude": 58.305, 
         "longitude": 58.291, 
-        "placetype": "Airport", 
+        "parent_woeid": 55927069, 
+        "ne_latitude": 23.605, 
         "iso": "OM", 
-        "date_indexed": "2010-12-02T09:35:43Z", 
-        "parent_woeid": 2268243, 
+        "sw_latitude": 23.583, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 23.587, 
         "sw_longitude": 58.257, 
-        "fullname": "Seeb International Airport, Rusail, Masqat, Bausher, Oman", 
-        "sw_latitude": 23.583
+        "fullname": "Seeb International Airport, Rusail, Masqat, Oman", 
+        "iata_code": "MCT", 
+        "date_indexed": "2010-12-02T09:35:43Z"
       }, 
       "id": 12514813
     }

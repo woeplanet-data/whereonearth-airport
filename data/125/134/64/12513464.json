@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513464, 
-        "name": "El Tari Airport", 
         "alias_ENG_V": [
           "KOE"
         ], 
-        "ne_latitude": -10.169, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "El Tari Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=56000068", 
+          "woe:state=2345727", 
+          "woe:country=23424846", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513464, 
         "ne_longitude": 123.663, 
         "longitude": 123.658, 
-        "placetype": "Airport", 
+        "parent_woeid": 56000068, 
+        "ne_latitude": -10.169, 
         "iso": "ID", 
-        "date_indexed": "2010-12-02T16:54:32Z", 
-        "parent_woeid": 1047673, 
+        "sw_latitude": -10.178, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -10.174, 
         "sw_longitude": 123.654, 
-        "fullname": "El Tari Airport, Kupang, East Nusa Tenggara, Kupang, Indonesia", 
-        "sw_latitude": -10.178
+        "fullname": "El Tari Airport, Kupang, East Nusa Tenggara, Indonesia", 
+        "iata_code": "KOE", 
+        "date_indexed": "2010-12-02T16:54:32Z"
       }, 
       "id": 12513464
     }

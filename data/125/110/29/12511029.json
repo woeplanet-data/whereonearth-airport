@@ -32,29 +32,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511029, 
-        "name": "Aeroporto Araguaina", 
-        "alias_ENG_P": [
-          "Araguaina Airport"
-        ], 
-        "ne_latitude": -7.224, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "AUX"
         ], 
+        "name": "Aeroporto Araguaina", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Araguaina Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12582465", 
+          "woe:state=2344870", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511029, 
         "ne_longitude": -48.236, 
         "longitude": -48.240, 
-        "placetype": "Airport", 
+        "parent_woeid": 12582465, 
+        "ne_latitude": -7.224, 
         "alias_POR_V": [
           "Aeroporto AUX"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 461624, 
+        "sw_latitude": -7.233, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -7.228, 
         "sw_longitude": -48.245, 
-        "fullname": "Aeroporto Araguaina, Xixebal, Tocantins, Aragua\u00edna, Brazil", 
-        "sw_latitude": -7.233
+        "fullname": "Aeroporto Araguaina, Xixebal, Tocantins, Brazil", 
+        "iata_code": "AUX", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511029
     }

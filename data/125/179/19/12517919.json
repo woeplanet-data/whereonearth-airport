@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517919, 
+        "placetype": "airport", 
         "name": "Tuzla Airport", 
-        "ne_latitude": 40.830, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=29390475", 
+          "woe:state=2347289", 
+          "woe:country=23424969", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517919, 
         "ne_longitude": 29.342, 
         "longitude": 29.336, 
-        "placetype": "Airport", 
+        "parent_woeid": 29390475, 
+        "ne_latitude": 40.830, 
         "iso": "TR", 
-        "date_indexed": "2010-12-02T16:23:11Z", 
-        "parent_woeid": 2335637, 
+        "sw_latitude": 40.820, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.825, 
         "sw_longitude": 29.330, 
-        "fullname": "Tuzla Airport, Samandra, Istanbul, Kartal, Turkey", 
-        "sw_latitude": 40.820
+        "fullname": "Tuzla Airport, Samandra, Istanbul, Turkey", 
+        "date_indexed": "2010-12-02T16:23:11Z"
       }, 
       "id": 12517919
     }

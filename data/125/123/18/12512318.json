@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512318, 
+        "placetype": "airport", 
         "name": "El Belloto Airport", 
-        "ne_latitude": -33.044, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=26794355", 
+          "woe:county=26794022", 
+          "woe:state=2345018", 
+          "woe:country=23424782", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512318, 
         "ne_longitude": -71.405, 
         "longitude": -71.410, 
-        "placetype": "Airport", 
+        "parent_woeid": 26794355, 
+        "ne_latitude": -33.044, 
         "iso": "CL", 
-        "date_indexed": "2010-12-02T12:15:39Z", 
-        "parent_woeid": 349885, 
+        "sw_latitude": -33.053, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -33.049, 
         "sw_longitude": -71.416, 
-        "fullname": "El Belloto Airport, Quilpu\u00e9, Valparaiso Region, Valparaiso Province, Chile", 
-        "sw_latitude": -33.053
+        "fullname": "El Belloto Airport, Quilpu\u00e9, Valparaiso Region, Chile", 
+        "date_indexed": "2010-12-02T12:15:39Z"
       }, 
       "id": 12512318
     }

@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510828, 
+        "placetype": "airport", 
         "name": "Wels Airport", 
-        "ne_latitude": 48.186, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12674344", 
+          "woe:county=12591720", 
+          "woe:state=2344711", 
+          "woe:country=23424750", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510828, 
         "ne_longitude": 14.055, 
         "longitude": 14.038, 
-        "placetype": "Airport", 
+        "parent_woeid": 12674344, 
+        "ne_latitude": 48.186, 
         "iso": "AT", 
-        "date_indexed": "2010-12-02T16:35:40Z", 
-        "parent_woeid": 547257, 
+        "sw_latitude": 48.176, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.182, 
         "sw_longitude": 14.029, 
-        "fullname": "Wels Airport, Wels, Upper Austria, Wels, Austria", 
-        "sw_latitude": 48.176
+        "fullname": "Wels Airport, Wels, Upper Austria, Austria", 
+        "date_indexed": "2010-12-02T16:35:40Z"
       }, 
       "id": 12510828
     }

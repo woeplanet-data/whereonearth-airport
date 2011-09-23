@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515677, 
-        "name": "Adler Airport", 
         "alias_ENG_V": [
           "AER"
         ], 
-        "ne_latitude": 43.452, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Adler Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12597808", 
+          "woe:state=2346884", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515677, 
         "ne_longitude": 39.961, 
         "longitude": 39.955, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597808, 
+        "ne_latitude": 43.452, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2047402, 
+        "sw_latitude": 43.442, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.447, 
         "sw_longitude": 39.949, 
         "fullname": "Adler Airport, Krasnodarskiy Kray, Sochi, Russia", 
-        "sw_latitude": 43.442
+        "iata_code": "AER", 
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12515677
     }

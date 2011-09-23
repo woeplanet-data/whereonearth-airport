@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511484, 
+        "placetype": "airport", 
         "name": "Pchelnik Airport", 
-        "ne_latitude": 43.026, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55873830", 
+          "woe:state=20070051", 
+          "woe:country=23424771", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511484, 
         "ne_longitude": 27.638, 
         "longitude": 27.632, 
-        "placetype": "Airport", 
+        "parent_woeid": 55873830, 
+        "ne_latitude": 43.026, 
         "iso": "BG", 
-        "date_indexed": "2010-12-02T16:14:37Z", 
-        "parent_woeid": 836457, 
+        "sw_latitude": 43.017, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.022, 
         "sw_longitude": 27.626, 
         "fullname": "Pchelnik Airport, Varna, Dolni Chiflik, Bulgaria", 
-        "sw_latitude": 43.017
+        "date_indexed": "2010-12-02T16:14:37Z"
       }, 
       "id": 12511484
     }

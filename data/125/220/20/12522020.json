@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522020, 
+        "placetype": "airport", 
         "name": "Stone Land Company Airport", 
-        "ne_latitude": 36.136, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12587685", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522020, 
         "ne_longitude": -119.979, 
         "longitude": -119.985, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587685, 
+        "ne_latitude": 36.136, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2456476, 
+        "sw_latitude": 36.127, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.132, 
         "sw_longitude": -119.990, 
-        "fullname": "Stone Land Company Airport, Murray, California, Kings, United States", 
-        "sw_latitude": 36.127
+        "fullname": "Stone Land Company Airport, Murray, California, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12522020
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521556, 
-        "name": "Reese Air Force Base", 
         "alias_ENG_V": [
           "REE Airport"
         ], 
-        "ne_latitude": 33.601, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Reese Air Force Base", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590158", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521556, 
         "ne_longitude": -102.036, 
         "longitude": -102.042, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590158, 
+        "ne_latitude": 33.601, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2426076, 
+        "sw_latitude": 33.592, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 33.596, 
         "sw_longitude": -102.047, 
-        "fullname": "Reese Air Force Base, Hurlwood, Texas, Lubbock, United States", 
-        "sw_latitude": 33.592
+        "fullname": "Reese Air Force Base, Hurlwood, Texas, United States", 
+        "iata_code": "REE", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521556
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519045, 
+        "placetype": "airport", 
         "name": "Campbell Municipal Airport", 
-        "ne_latitude": 36.491, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12589000", 
+          "woe:state=2347584", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519045, 
         "ne_longitude": -90.010, 
         "longitude": -90.015, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589000, 
+        "ne_latitude": 36.491, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:15Z", 
-        "parent_woeid": 2374018, 
+        "sw_latitude": 36.482, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.486, 
         "sw_longitude": -90.021, 
-        "fullname": "Campbell Municipal Airport, Campbell, Missouri, Dunklin, United States", 
-        "sw_latitude": 36.482
+        "fullname": "Campbell Municipal Airport, Campbell, Missouri, United States", 
+        "date_indexed": "2010-12-02T18:39:15Z"
       }, 
       "id": 12519045
     }

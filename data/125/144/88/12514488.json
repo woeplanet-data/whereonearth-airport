@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514488, 
+        "placetype": "airport", 
         "name": "Temir Airport", 
-        "ne_latitude": 49.124, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345980", 
+          "woe:country=23424871", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514488, 
         "ne_longitude": 57.152, 
         "longitude": 57.145, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345980, 
+        "ne_latitude": 49.124, 
         "iso": "KZ", 
-        "date_indexed": "2010-12-02T08:54:13Z", 
-        "parent_woeid": 2264936, 
+        "sw_latitude": 49.114, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.119, 
         "sw_longitude": 57.138, 
         "fullname": "Temir Airport, Temir, Aqtobe, Kazakhstan", 
-        "sw_latitude": 49.114
+        "date_indexed": "2010-12-02T08:54:13Z"
       }, 
       "id": 12514488
     }

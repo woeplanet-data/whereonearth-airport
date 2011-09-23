@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512559, 
+        "placetype": "airport", 
         "name": "Pribyslav Airport", 
-        "ne_latitude": 49.580, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12609149", 
+          "woe:county=12582594", 
+          "woe:state=20070467", 
+          "woe:country=23424810", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512559, 
         "ne_longitude": 15.765, 
         "longitude": 15.758, 
-        "placetype": "Airport", 
+        "parent_woeid": 12609149, 
+        "ne_latitude": 49.580, 
         "iso": "CZ", 
-        "date_indexed": "2010-12-02T08:56:52Z", 
-        "parent_woeid": 24930767, 
+        "sw_latitude": 49.571, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.576, 
         "sw_longitude": 15.751, 
         "fullname": "Pribyslav Airport, Vyso\u010dina, Havl\u00ed\u010dk\u016fv Brod, Czech Republic", 
-        "sw_latitude": 49.571
+        "date_indexed": "2010-12-02T08:56:52Z"
       }, 
       "id": 12512559
     }

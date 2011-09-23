@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514081, 
+        "placetype": "airport", 
         "name": "Rhamu Airport", 
-        "ne_latitude": 3.928, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345941", 
+          "woe:country=23424863", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514081, 
         "ne_longitude": 41.233, 
         "longitude": 41.228, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345941, 
+        "ne_latitude": 3.928, 
         "iso": "KE", 
-        "date_indexed": "2010-12-02T08:53:57Z", 
-        "parent_woeid": 1528720, 
+        "sw_latitude": 3.919, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 3.924, 
         "sw_longitude": 41.224, 
         "fullname": "Rhamu Airport, North-Eastern, Kenya", 
-        "sw_latitude": 3.919
+        "date_indexed": "2010-12-02T08:53:57Z"
       }, 
       "id": 12514081
     }

@@ -3,28 +3,82 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              24.078, 
-              45.777
-            ], 
-            [
-              24.078, 
-              45.800
-            ], 
-            [
-              24.111, 
-              45.800
-            ], 
-            [
-              24.111, 
-              45.777
-            ], 
-            [
-              24.078, 
-              45.777
+              [
+                24.140, 
+                45.798
+              ], 
+              [
+                24.103, 
+                45.791
+              ], 
+              [
+                24.094, 
+                45.772
+              ], 
+              [
+                24.072, 
+                45.788
+              ], 
+              [
+                24.094, 
+                45.790
+              ], 
+              [
+                24.096, 
+                45.792
+              ], 
+              [
+                24.102, 
+                45.791
+              ], 
+              [
+                24.124, 
+                45.814
+              ], 
+              [
+                24.139, 
+                45.801
+              ], 
+              [
+                24.149, 
+                45.800
+              ], 
+              [
+                24.149, 
+                45.798
+              ], 
+              [
+                24.148, 
+                45.795
+              ], 
+              [
+                24.148, 
+                45.792
+              ], 
+              [
+                24.147, 
+                45.791
+              ], 
+              [
+                24.146, 
+                45.789
+              ], 
+              [
+                24.145, 
+                45.788
+              ], 
+              [
+                24.142, 
+                45.787
+              ], 
+              [
+                24.140, 
+                45.798
+              ]
             ]
           ]
         ]
@@ -32,23 +86,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515589, 
-        "name": "Turnisor Airport", 
         "alias_ENG_V": [
           "SBZ"
         ], 
-        "ne_latitude": 45.800, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": 24.111, 
-        "longitude": 24.094, 
-        "placetype": "Airport", 
+        "name": "Turnisor Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2346646", 
+          "woe:country=23424933", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515589, 
+        "ne_longitude": 24.149, 
+        "longitude": 24.113, 
+        "parent_woeid": 2346646, 
+        "ne_latitude": 45.814, 
         "iso": "RO", 
-        "date_indexed": "2010-12-02T16:37:48Z", 
-        "parent_woeid": 880241, 
-        "latitude": 45.788, 
-        "sw_longitude": 24.078, 
+        "sw_latitude": 45.772, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 45.794, 
+        "sw_longitude": 24.072, 
         "fullname": "Turnisor Airport, Sibiu, Sibiu, Romania", 
-        "sw_latitude": 45.777
+        "iata_code": "SBZ", 
+        "date_indexed": "2010-12-02T16:37:48Z"
       }, 
       "id": 12515589
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388093, 
-        "name": "Paul Windle Municipal Field", 
         "alias_ENG_V": [
           "Paul Windle Municipal Field Airport"
         ], 
-        "ne_latitude": 37.609, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Paul Windle Municipal Field", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588419", 
+          "woe:state=2347575", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388093, 
         "ne_longitude": -99.272, 
         "longitude": -99.274, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588419, 
+        "ne_latitude": 37.609, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2414496, 
+        "sw_latitude": 37.602, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 37.602, 
         "sw_longitude": -99.276, 
-        "fullname": "Paul Windle Municipal Field, Greensburg, Kansas, Kiowa, United States", 
-        "sw_latitude": 37.602
+        "fullname": "Paul Windle Municipal Field, Greensburg, Kansas, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388093
     }

@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512528, 
+        "placetype": "airport", 
         "name": "Huncice Airport", 
-        "ne_latitude": 49.845, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12610097", 
+          "woe:county=12582610", 
+          "woe:state=20070501", 
+          "woe:country=23424810", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512528, 
         "ne_longitude": 13.076, 
         "longitude": 13.069, 
-        "placetype": "Airport", 
+        "parent_woeid": 12610097, 
+        "ne_latitude": 49.845, 
         "iso": "CZ", 
-        "date_indexed": "2010-12-02T08:56:52Z", 
-        "parent_woeid": 792178, 
+        "sw_latitude": 49.836, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.840, 
         "sw_longitude": 13.062, 
         "fullname": "Huncice Airport, Plze\u0148sk\u00fd, Pilsen-North, Czech Republic", 
-        "sw_latitude": 49.836
+        "date_indexed": "2010-12-02T08:56:52Z"
       }, 
       "id": 12512528
     }

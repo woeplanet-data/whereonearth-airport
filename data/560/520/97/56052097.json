@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 56052097, 
+        "placetype": "airport", 
         "name": "Flugplatz Bohmte/bad Essen", 
-        "ne_latitude": 52.356, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12630015", 
+          "woe:county=12596767", 
+          "woe:state=2345486", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56052097, 
         "ne_longitude": 8.333, 
         "longitude": 8.329, 
-        "placetype": "Airport", 
+        "parent_woeid": 12630015, 
+        "ne_latitude": 52.356, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 639925, 
+        "sw_latitude": 52.351, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 52.353, 
         "sw_longitude": 8.321, 
-        "fullname": "Flugplatz Bohmte/bad Essen, Bohmte, Lower Saxony, Landkreis Osnabr\u00fcck, Germany", 
-        "sw_latitude": 52.351
+        "fullname": "Flugplatz Bohmte/bad Essen, Bohmte, Lower Saxony, Germany", 
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 56052097
     }

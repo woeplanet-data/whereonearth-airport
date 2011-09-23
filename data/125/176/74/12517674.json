@@ -32,26 +32,32 @@
       "type": "Feature", 
       "properties": {
         "lang": "SWE", 
-        "woeid": 12517674, 
-        "alias_SWE_S": [
-          "Sattna Flygplats"
-        ], 
         "name": "S\u00e4ttna Flygplats", 
         "alias_ENG_P": [
           "Sattna Airport"
         ], 
-        "ne_latitude": 62.487, 
+        "parent_woeid": 12587449, 
+        "woeid": 12517674, 
+        "alias_SWE_S": [
+          "Sattna Flygplats"
+        ], 
         "provider": "geoplanet 7.6.0", 
-        "ne_longitude": 17.016, 
         "longitude": 17.006, 
-        "placetype": "Airport", 
+        "ne_longitude": 17.016, 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587449", 
+          "woe:state=2347065", 
+          "woe:country=23424954", 
+          "woe:planet=1"
+        ], 
         "iso": "SE", 
-        "date_indexed": "2010-12-02T16:45:55Z", 
-        "parent_woeid": 901509, 
+        "sw_latitude": 62.478, 
+        "ne_latitude": 62.487, 
         "latitude": 62.482, 
         "sw_longitude": 16.997, 
-        "fullname": "S\u00e4ttna Flygplats, Vattjom, Vasternorrland, Sundsvall, Sweden", 
-        "sw_latitude": 62.478
+        "fullname": "S\u00e4ttna Flygplats, Vattjom, Vasternorrland, Sweden", 
+        "date_indexed": "2010-12-02T16:45:55Z"
       }, 
       "id": 12517674
     }

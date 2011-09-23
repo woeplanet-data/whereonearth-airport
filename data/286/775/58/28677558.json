@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 28677558, 
+        "placetype": "airport", 
         "name": "Pooncarie Aerodrome", 
-        "ne_latitude": -33.367, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55863770", 
+          "woe:state=2344700", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 28677558, 
         "ne_longitude": 142.591, 
         "longitude": 142.586, 
-        "placetype": "Airport", 
+        "parent_woeid": 55863770, 
+        "ne_latitude": -33.367, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1105101, 
+        "sw_latitude": -33.376, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -33.372, 
         "sw_longitude": 142.580, 
-        "fullname": "Pooncarie Aerodrome, Pooncarie, New South Wales, Wentworth, Australia", 
-        "sw_latitude": -33.376
+        "fullname": "Pooncarie Aerodrome, Pooncarie, New South Wales, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 28677558
     }

@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512670, 
+        "placetype": "airport", 
         "name": "Beni Suef Airport", 
-        "ne_latitude": 29.227, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345240", 
+          "woe:country=23424802", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512670, 
         "ne_longitude": 31.029, 
         "longitude": 31.024, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345240, 
+        "ne_latitude": 29.227, 
         "iso": "EG", 
-        "date_indexed": "2010-12-02T12:16:51Z", 
-        "parent_woeid": 1523823, 
+        "sw_latitude": 29.218, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 29.222, 
         "sw_longitude": 31.018, 
         "fullname": "Beni Suef Airport, Bani Suwayf, Egypt", 
-        "sw_latitude": 29.218
+        "date_indexed": "2010-12-02T12:16:51Z"
       }, 
       "id": 12512670
     }

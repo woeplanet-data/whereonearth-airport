@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 28677556, 
+        "placetype": "airport", 
         "name": "Brobenah Airfield", 
-        "ne_latitude": -34.488, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55863808", 
+          "woe:state=2344700", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 28677556, 
         "ne_longitude": 146.447, 
         "longitude": 146.441, 
-        "placetype": "Airport", 
+        "parent_woeid": 55863808, 
+        "ne_latitude": -34.488, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 28584255, 
+        "sw_latitude": -34.497, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -34.492, 
         "sw_longitude": 146.436, 
-        "fullname": "Brobenah Airfield, Brobenah, New South Wales, Leeton, Australia", 
-        "sw_latitude": -34.497
+        "fullname": "Brobenah Airfield, Brobenah, New South Wales, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 28677556
     }

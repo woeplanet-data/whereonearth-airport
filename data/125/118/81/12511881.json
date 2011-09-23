@@ -3,28 +3,34 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -79.477, 
-              43.732
-            ], 
-            [
-              -79.477, 
-              43.752
-            ], 
-            [
-              -79.453, 
-              43.752
-            ], 
-            [
-              -79.453, 
-              43.732
-            ], 
-            [
-              -79.477, 
-              43.732
+              [
+                -79.476, 
+                43.747
+              ], 
+              [
+                -79.475, 
+                43.748
+              ], 
+              [
+                -79.473, 
+                43.747
+              ], 
+              [
+                -79.471, 
+                43.744
+              ], 
+              [
+                -79.475, 
+                43.746
+              ], 
+              [
+                -79.476, 
+                43.747
+              ]
             ]
           ]
         ]
@@ -32,23 +38,32 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511881, 
-        "name": "Toronto Downsview Airport", 
         "alias_ENG_V": [
           "YZD"
         ], 
-        "ne_latitude": 43.752, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -79.453, 
-        "longitude": -79.470, 
-        "placetype": "Airport", 
-        "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
+        "name": "Toronto Downsview Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:suburb=23399931", 
+          "woe:suburb=55855853", 
+          "woe:county=29375205", 
+          "woe:state=2344922", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511881, 
+        "ne_longitude": -79.471, 
+        "longitude": -79.473, 
         "parent_woeid": 23399931, 
-        "latitude": 43.734, 
-        "sw_longitude": -79.477, 
-        "fullname": "Toronto Downsview Airport, Toronto, Ontario, Toronto, Canada", 
-        "sw_latitude": 43.732
+        "ne_latitude": 43.748, 
+        "iso": "CA", 
+        "sw_latitude": 43.744, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 43.746, 
+        "sw_longitude": -79.476, 
+        "fullname": "Toronto Downsview Airport, Toronto, Ontario, Canada", 
+        "iata_code": "YZD", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12511881
     }

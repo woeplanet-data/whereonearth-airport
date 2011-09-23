@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523620, 
-        "name": "Los Andes Airport", 
         "alias_ENG_V": [
           "LOB"
         ], 
-        "ne_latitude": -32.831, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Los Andes Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=26794326", 
+          "woe:county=26794002", 
+          "woe:state=2345018", 
+          "woe:country=23424782", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523620, 
         "ne_longitude": -70.590, 
         "longitude": -70.595, 
-        "placetype": "Airport", 
+        "parent_woeid": 26794326, 
+        "ne_latitude": -32.831, 
         "iso": "CL", 
-        "date_indexed": "2010-12-02T12:15:39Z", 
-        "parent_woeid": 349923, 
+        "sw_latitude": -32.840, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -32.835, 
         "sw_longitude": -70.601, 
-        "fullname": "Los Andes Airport, Los Andes, Valparaiso Region, Los Andes Province, Chile", 
-        "sw_latitude": -32.840
+        "fullname": "Los Andes Airport, Los Andes, Valparaiso Region, Chile", 
+        "date_indexed": "2010-12-02T12:15:39Z"
       }, 
       "id": 12523620
     }

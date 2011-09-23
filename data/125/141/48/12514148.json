@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514148, 
+        "placetype": "airport", 
         "name": "Kuktong Airport", 
-        "ne_latitude": 41.256, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345958", 
+          "woe:country=23424865", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514148, 
         "ne_longitude": 129.578, 
         "longitude": 129.572, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345958, 
+        "ne_latitude": 41.256, 
         "iso": "KP", 
-        "date_indexed": "2010-12-02T10:22:43Z", 
-        "parent_woeid": 1093911, 
+        "sw_latitude": 41.246, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.251, 
         "sw_longitude": 129.566, 
         "fullname": "Kuktong Airport, Myonggan-up, Hamgyong-bukto, North Korea", 
-        "sw_latitude": 41.246
+        "date_indexed": "2010-12-02T10:22:43Z"
       }, 
       "id": 12514148
     }

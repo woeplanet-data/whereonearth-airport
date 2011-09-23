@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515818, 
+        "placetype": "airport", 
         "name": "Bitki Airport", 
-        "ne_latitude": 54.189, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598869", 
+          "woe:state=2346914", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515818, 
         "ne_longitude": 82.299, 
         "longitude": 82.291, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598869, 
+        "ne_latitude": 54.189, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 1989836, 
+        "sw_latitude": 54.179, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 54.184, 
         "sw_longitude": 82.283, 
         "fullname": "Bitki Airport, Novosibirskaya Oblast, Suzunsky, Russia", 
-        "sw_latitude": 54.179
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12515818
     }

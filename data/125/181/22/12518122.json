@@ -3,28 +3,34 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -1.764, 
-              52.131
-            ], 
-            [
-              -1.764, 
-              52.140
-            ], 
-            [
-              -1.749, 
-              52.140
-            ], 
-            [
-              -1.749, 
-              52.131
-            ], 
-            [
-              -1.764, 
-              52.131
+              [
+                -1.783, 
+                52.146
+              ], 
+              [
+                -1.784, 
+                52.145
+              ], 
+              [
+                -1.785, 
+                52.145
+              ], 
+              [
+                -1.784, 
+                52.147
+              ], 
+              [
+                -1.780, 
+                52.148
+              ], 
+              [
+                -1.783, 
+                52.146
+              ]
             ]
           ]
         ]
@@ -32,20 +38,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518122, 
+        "placetype": "airport", 
         "name": "Long Marston Airport", 
-        "ne_latitude": 52.140, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -1.749, 
-        "longitude": -1.756, 
-        "placetype": "Airport", 
+        "hierarchy": [
+          "woe:localadmin=12696101", 
+          "woe:county=12602190", 
+          "woe:state=24554868", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518122, 
+        "ne_longitude": -1.780, 
+        "longitude": -1.783, 
+        "parent_woeid": 12696101, 
+        "ne_latitude": 52.148, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:21:01Z", 
-        "parent_woeid": 27786, 
-        "latitude": 52.136, 
-        "sw_longitude": -1.764, 
-        "fullname": "Long Marston Airport, Lower Quinton, England, Warwickshire, United Kingdom", 
-        "sw_latitude": 52.131
+        "sw_latitude": 52.145, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 52.147, 
+        "sw_longitude": -1.785, 
+        "fullname": "Long Marston Airport, Lower Quinton, England, United Kingdom", 
+        "date_indexed": "2010-12-02T12:21:01Z"
       }, 
       "id": 12518122
     }

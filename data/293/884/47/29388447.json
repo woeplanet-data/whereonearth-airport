@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388447, 
+        "placetype": "airport", 
         "name": "Bendinsky Airport", 
-        "ne_latitude": 40.802, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12589781", 
+          "woe:state=2347597", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388447, 
         "ne_longitude": -76.105, 
         "longitude": -76.120, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589781, 
+        "ne_latitude": 40.802, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2444259, 
+        "sw_latitude": 40.796, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.798, 
         "sw_longitude": -76.120, 
-        "fullname": "Bendinsky Airport, Mahanoy Plane, Pennsylvania, Schuylkill, United States", 
-        "sw_latitude": 40.796
+        "fullname": "Bendinsky Airport, Mahanoy Plane, Pennsylvania, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388447
     }

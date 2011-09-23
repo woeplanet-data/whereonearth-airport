@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512295, 
-        "name": "Zhanjiang Airport", 
         "alias_ENG_V": [
           "ZHA"
         ], 
-        "ne_latitude": 21.220, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Zhanjiang Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=12687680", 
+          "woe:county=26198171", 
+          "woe:state=12578019", 
+          "woe:country=23424781", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512295, 
         "ne_longitude": 110.367, 
         "longitude": 110.362, 
-        "placetype": "Airport", 
+        "parent_woeid": 12687680, 
+        "ne_latitude": 21.220, 
         "iso": "CN", 
-        "date_indexed": "2010-12-02T08:51:54Z", 
-        "parent_woeid": 2161839, 
+        "sw_latitude": 21.211, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 21.215, 
         "sw_longitude": 110.357, 
-        "fullname": "Zhanjiang Airport, Zhanjiang, Guangdong, Zhanjiang, China", 
-        "sw_latitude": 21.211
+        "fullname": "Zhanjiang Airport, Zhanjiang, Guangdong, China", 
+        "iata_code": "ZHA", 
+        "date_indexed": "2010-12-02T08:51:54Z"
       }, 
       "id": 12512295
     }

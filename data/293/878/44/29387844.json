@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29387844, 
-        "name": "Forks Airport", 
         "alias_ENG_V": [
           "S18"
         ], 
-        "ne_latitude": 47.940, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Forks Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590444", 
+          "woe:state=2347606", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29387844, 
         "ne_longitude": -124.390, 
         "longitude": -124.399, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590444, 
+        "ne_latitude": 47.940, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2405493, 
+        "sw_latitude": 47.935, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.935, 
         "sw_longitude": -124.402, 
-        "fullname": "Forks Airport, Forks, Washington, Clallam, United States", 
-        "sw_latitude": 47.935
+        "fullname": "Forks Airport, Forks, Washington, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29387844
     }

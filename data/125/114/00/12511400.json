@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511400, 
+        "placetype": "airport", 
         "name": "Buynovitsa Airport", 
-        "ne_latitude": 43.568, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55873856", 
+          "woe:state=20070052", 
+          "woe:country=23424771", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511400, 
         "ne_longitude": 26.879, 
         "longitude": 26.873, 
-        "placetype": "Airport", 
+        "parent_woeid": 55873856, 
+        "ne_latitude": 43.568, 
         "iso": "BG", 
-        "date_indexed": "2010-12-02T16:14:37Z", 
-        "parent_woeid": 835104, 
+        "sw_latitude": 43.558, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.563, 
         "sw_longitude": 26.867, 
         "fullname": "Buynovitsa Airport, Shumen, Venets, Bulgaria", 
-        "sw_latitude": 43.558
+        "date_indexed": "2010-12-02T16:14:37Z"
       }, 
       "id": 12511400
     }

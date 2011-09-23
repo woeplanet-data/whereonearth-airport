@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 28677594, 
+        "placetype": "airport", 
         "name": "Robinson River Aerodrome", 
-        "ne_latitude": -16.711, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=56072995", 
+          "woe:state=2344701", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 28677594, 
         "ne_longitude": 136.949, 
         "longitude": 136.944, 
-        "placetype": "Airport", 
+        "parent_woeid": 56072995, 
+        "ne_latitude": -16.711, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 55864468, 
+        "sw_latitude": -16.720, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -16.715, 
         "sw_longitude": 136.940, 
         "fullname": "Robinson River Aerodrome, Calvert, Northern Territory, Australia", 
-        "sw_latitude": -16.720
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 28677594
     }

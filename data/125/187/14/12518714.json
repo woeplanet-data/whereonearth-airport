@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518714, 
-        "name": "Avi Suquilla Airport", 
         "alias_ENG_V": [
           "P20"
         ], 
-        "ne_latitude": 34.158, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Avi Suquilla Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587586", 
+          "woe:state=2347561", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518714, 
         "ne_longitude": -114.265, 
         "longitude": -114.272, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587586, 
+        "ne_latitude": 34.158, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2468514, 
+        "sw_latitude": 34.144, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 34.154, 
         "sw_longitude": -114.277, 
-        "fullname": "Avi Suquilla Airport, Parker, Arizona, La Paz, United States", 
-        "sw_latitude": 34.144
+        "fullname": "Avi Suquilla Airport, Parker, Arizona, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518714
     }

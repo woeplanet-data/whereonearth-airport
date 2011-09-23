@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512001, 
+        "placetype": "airport", 
         "name": "Chaoyang Airport", 
-        "ne_latitude": 41.549, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12686758", 
+          "woe:county=26198073", 
+          "woe:state=12578008", 
+          "woe:country=23424781", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512001, 
         "ne_longitude": 120.429, 
         "longitude": 120.423, 
-        "placetype": "Airport", 
+        "parent_woeid": 12686758, 
+        "ne_latitude": 41.549, 
         "iso": "CN", 
-        "date_indexed": "2010-12-02T08:51:48Z", 
-        "parent_woeid": 2147994, 
+        "sw_latitude": 41.540, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.544, 
         "sw_longitude": 120.417, 
-        "fullname": "Chaoyang Airport, Chaoyang, Liaoning, Chaoyang, China", 
-        "sw_latitude": 41.540
+        "fullname": "Chaoyang Airport, Chaoyang, Liaoning, China", 
+        "date_indexed": "2010-12-02T08:51:48Z"
       }, 
       "id": 12512001
     }

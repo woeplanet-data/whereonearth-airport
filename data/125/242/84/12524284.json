@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524284, 
-        "name": "East Main Airport", 
         "alias_ENG_V": [
           "ZEM"
         ], 
-        "ne_latitude": 52.244, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "East Main Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375239", 
+          "woe:state=2344924", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524284, 
         "ne_longitude": -78.500, 
         "longitude": -78.508, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375239, 
+        "ne_latitude": 52.244, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 29374769, 
+        "sw_latitude": 52.235, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 52.240, 
         "sw_longitude": -78.515, 
-        "fullname": "East Main Airport, Eastmain, Quebec, Baie-James, Canada", 
-        "sw_latitude": 52.235
+        "fullname": "East Main Airport, Eastmain, Quebec, Canada", 
+        "iata_code": "ZEM", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12524284
     }

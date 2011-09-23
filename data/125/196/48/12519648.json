@@ -3,28 +3,46 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -92.554, 
-              31.312
-            ], 
-            [
-              -92.554, 
-              31.334
-            ], 
-            [
-              -92.529, 
-              31.334
-            ], 
-            [
-              -92.529, 
-              31.312
-            ], 
-            [
-              -92.554, 
-              31.312
+              [
+                -92.529, 
+                31.326
+              ], 
+              [
+                -92.530, 
+                31.326
+              ], 
+              [
+                -92.530, 
+                31.321
+              ], 
+              [
+                -92.533, 
+                31.318
+              ], 
+              [
+                -92.533, 
+                31.318
+              ], 
+              [
+                -92.533, 
+                31.320
+              ], 
+              [
+                -92.534, 
+                31.324
+              ], 
+              [
+                -92.535, 
+                31.327
+              ], 
+              [
+                -92.529, 
+                31.326
+              ]
             ]
           ]
         ]
@@ -32,23 +50,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519648, 
-        "name": "Alexandria International Airport", 
         "alias_ENG_V": [
           "AEX"
         ], 
-        "ne_latitude": 31.334, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Alexandria International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:estate=2393743", 
+          "woe:county=12588635", 
+          "woe:state=2347577", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519648, 
         "ne_longitude": -92.529, 
-        "longitude": -92.542, 
-        "placetype": "Airport", 
-        "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:16Z", 
+        "longitude": -92.532, 
         "parent_woeid": 2393743, 
+        "ne_latitude": 31.327, 
+        "iso": "US", 
+        "sw_latitude": 31.318, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 31.323, 
-        "sw_longitude": -92.554, 
-        "fullname": "Alexandria International Airport, Driftwood Trailer Park, Louisiana, Rapides Parish, United States", 
-        "sw_latitude": 31.312
+        "sw_longitude": -92.535, 
+        "fullname": "Alexandria International Airport, Driftwood Trailer Park, Louisiana, United States", 
+        "iata_code": "AEX", 
+        "date_indexed": "2010-12-02T18:39:16Z"
       }, 
       "id": 12519648
     }

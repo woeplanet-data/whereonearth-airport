@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522194, 
-        "name": "Tri County Airport", 
         "alias_ENG_V": [
           "Erie Tri-County Airport"
         ], 
-        "ne_latitude": 40.018, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Tri County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587789", 
+          "woe:state=2347564", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522194, 
         "ne_longitude": -105.037, 
         "longitude": -105.050, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587789, 
+        "ne_latitude": 40.018, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2400077, 
+        "sw_latitude": 40.000, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.008, 
         "sw_longitude": -105.056, 
-        "fullname": "Tri County Airport, Erie, Colorado, Weld, United States", 
-        "sw_latitude": 40.000
+        "fullname": "Tri County Airport, Erie, Colorado, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522194
     }

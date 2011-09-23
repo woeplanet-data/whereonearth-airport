@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388568, 
-        "name": "Nulato Airport", 
         "alias_ENG_V": [
           "NUL"
         ], 
-        "ne_latitude": 64.718, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Nulato Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587579", 
+          "woe:state=2347560", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388568, 
         "ne_longitude": -158.067, 
         "longitude": -158.077, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587579, 
+        "ne_latitude": 64.718, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2462502, 
+        "sw_latitude": 64.709, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 64.713, 
         "sw_longitude": -158.088, 
-        "fullname": "Nulato Airport, Nulato, Alaska, Yukon-Koyukuk Census Area, United States", 
-        "sw_latitude": 64.709
+        "fullname": "Nulato Airport, Nulato, Alaska, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 29388568
     }

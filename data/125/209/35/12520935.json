@@ -3,28 +3,78 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -90.997, 
-              33.472
-            ], 
-            [
-              -90.997, 
-              33.499
-            ], 
-            [
-              -90.980, 
-              33.499
-            ], 
-            [
-              -90.980, 
-              33.472
-            ], 
-            [
-              -90.997, 
-              33.472
+              [
+                -90.991, 
+                33.481
+              ], 
+              [
+                -90.991, 
+                33.481
+              ], 
+              [
+                -90.991, 
+                33.481
+              ], 
+              [
+                -90.991, 
+                33.481
+              ], 
+              [
+                -90.992, 
+                33.482
+              ], 
+              [
+                -90.995, 
+                33.482
+              ], 
+              [
+                -90.996, 
+                33.485
+              ], 
+              [
+                -90.994, 
+                33.483
+              ], 
+              [
+                -90.992, 
+                33.482
+              ], 
+              [
+                -90.995, 
+                33.482
+              ], 
+              [
+                -90.996, 
+                33.485
+              ], 
+              [
+                -90.994, 
+                33.483
+              ], 
+              [
+                -90.992, 
+                33.482
+              ], 
+              [
+                -90.991, 
+                33.481
+              ], 
+              [
+                -90.991, 
+                33.481
+              ], 
+              [
+                -90.991, 
+                33.481
+              ], 
+              [
+                -90.991, 
+                33.481
+              ]
             ]
           ]
         ]
@@ -32,23 +82,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520935, 
-        "name": "Mid Delta Regional Airport", 
         "alias_ENG_V": [
           "GLH Airport"
         ], 
-        "ne_latitude": 33.499, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -90.980, 
-        "longitude": -90.990, 
-        "placetype": "Airport", 
+        "name": "Mid Delta Regional Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588959", 
+          "woe:state=2347583", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520935, 
+        "ne_longitude": -90.991, 
+        "longitude": -90.994, 
+        "parent_woeid": 12588959, 
+        "ne_latitude": 33.485, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2449903, 
-        "latitude": 33.482, 
-        "sw_longitude": -90.997, 
-        "fullname": "Mid Delta Regional Airport, Cold Springs, Mississippi, Washington, United States", 
-        "sw_latitude": 33.472
+        "sw_latitude": 33.481, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 33.483, 
+        "sw_longitude": -90.996, 
+        "fullname": "Mid Delta Regional Airport, Cold Springs, Mississippi, United States", 
+        "iata_code": "GLH", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520935
     }

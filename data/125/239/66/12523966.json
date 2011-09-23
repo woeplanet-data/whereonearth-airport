@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523966, 
-        "name": "Oradea Airport", 
         "alias_ENG_V": [
           "OMR"
         ], 
-        "ne_latitude": 47.036, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Oradea Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2346619", 
+          "woe:country=23424933", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523966, 
         "ne_longitude": 21.946, 
         "longitude": 21.929, 
-        "placetype": "Airport", 
+        "parent_woeid": 2346619, 
+        "ne_latitude": 47.036, 
         "iso": "RO", 
-        "date_indexed": "2010-12-02T16:37:48Z", 
-        "parent_woeid": 876890, 
+        "sw_latitude": 47.014, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.025, 
         "sw_longitude": 21.913, 
         "fullname": "Oradea Airport, Oradea-Mare, Bihor, Romania", 
-        "sw_latitude": 47.014
+        "iata_code": "OMR", 
+        "date_indexed": "2010-12-02T16:37:48Z"
       }, 
       "id": 12523966
     }

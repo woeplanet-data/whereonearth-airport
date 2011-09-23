@@ -3,28 +3,62 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              39.190, 
-              -6.887
-            ], 
-            [
-              39.190, 
-              -6.864
-            ], 
-            [
-              39.213, 
-              -6.864
-            ], 
-            [
-              39.213, 
-              -6.887
-            ], 
-            [
-              39.190, 
-              -6.887
+              [
+                39.208, 
+                -6.866
+              ], 
+              [
+                39.208, 
+                -6.867
+              ], 
+              [
+                39.207, 
+                -6.870
+              ], 
+              [
+                39.204, 
+                -6.874
+              ], 
+              [
+                39.202, 
+                -6.874
+              ], 
+              [
+                39.202, 
+                -6.872
+              ], 
+              [
+                39.201, 
+                -6.868
+              ], 
+              [
+                39.206, 
+                -6.868
+              ], 
+              [
+                39.207, 
+                -6.865
+              ], 
+              [
+                39.206, 
+                -6.863
+              ], 
+              [
+                39.207, 
+                -6.865
+              ], 
+              [
+                39.208, 
+                -6.865
+              ], 
+              [
+                39.208, 
+                -6.866
+              ]
             ]
           ]
         ]
@@ -32,23 +66,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518013, 
-        "name": "Dar Es Salaam Airport", 
         "alias_ENG_V": [
           "DAR"
         ], 
-        "ne_latitude": -6.864, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": 39.213, 
-        "longitude": 39.202, 
-        "placetype": "Airport", 
+        "name": "Dar Es Salaam Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=56025105", 
+          "woe:state=2347374", 
+          "woe:country=23424973", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518013, 
+        "ne_longitude": 39.208, 
+        "longitude": 39.204, 
+        "parent_woeid": 56025105, 
+        "ne_latitude": -6.863, 
         "iso": "TZ", 
-        "date_indexed": "2010-12-02T12:16:03Z", 
-        "parent_woeid": 1443415, 
-        "latitude": -6.875, 
-        "sw_longitude": 39.190, 
-        "fullname": "Dar Es Salaam Airport, Dar es Salaam, Dar es Salaam, Ilala, Tanzania", 
-        "sw_latitude": -6.887
+        "sw_latitude": -6.874, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": -6.870, 
+        "sw_longitude": 39.201, 
+        "fullname": "Dar Es Salaam Airport, Dar es Salaam, Dar es Salaam, Tanzania", 
+        "iata_code": "DAR", 
+        "date_indexed": "2010-12-02T12:16:03Z"
       }, 
       "id": 12518013
     }

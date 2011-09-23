@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511194, 
+        "placetype": "airport", 
         "name": "Aeroporto Jardim", 
         "alias_ENG_P": [
           "Jardim Airport"
         ], 
-        "ne_latitude": -21.488, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12579144", 
+          "woe:state=2344853", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511194, 
         "ne_longitude": -56.147, 
         "longitude": -56.152, 
-        "placetype": "Airport", 
+        "parent_woeid": 12579144, 
+        "ne_latitude": -21.488, 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 456285, 
+        "sw_latitude": -21.497, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -21.492, 
         "sw_longitude": -56.157, 
-        "fullname": "Aeroporto Jardim, Jardim, Mato Grosso do Sul, Jardim, Brazil", 
-        "sw_latitude": -21.497
+        "fullname": "Aeroporto Jardim, Jardim, Mato Grosso do Sul, Brazil", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511194
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511399, 
+        "placetype": "airport", 
         "name": "Bukhovtsi Airport", 
-        "ne_latitude": 43.317, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55873857", 
+          "woe:state=20070072", 
+          "woe:country=23424771", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511399, 
         "ne_longitude": 26.697, 
         "longitude": 26.690, 
-        "placetype": "Airport", 
+        "parent_woeid": 55873857, 
+        "ne_latitude": 43.317, 
         "iso": "BG", 
-        "date_indexed": "2010-12-02T16:14:37Z", 
-        "parent_woeid": 835273, 
+        "sw_latitude": 43.308, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.313, 
         "sw_longitude": 26.684, 
         "fullname": "Bukhovtsi Airport, Turgovishte, Targovishte, Bulgaria", 
-        "sw_latitude": 43.308
+        "date_indexed": "2010-12-02T16:14:37Z"
       }, 
       "id": 12511399
     }

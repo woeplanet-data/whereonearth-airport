@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522438, 
-        "name": "Wilder Airport", 
         "alias_ENG_V": [
           "Wilder Landing Strip"
         ], 
-        "ne_latitude": 44.439, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Wilder Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589883", 
+          "woe:state=2347600", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522438, 
         "ne_longitude": -97.555, 
         "longitude": -97.556, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589883, 
+        "ne_latitude": 44.439, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2390002, 
+        "sw_latitude": 44.427, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.433, 
         "sw_longitude": -97.562, 
-        "fullname": "Wilder Airport, De Smet, South Dakota, Kingsbury, United States", 
-        "sw_latitude": 44.427
+        "fullname": "Wilder Airport, De Smet, South Dakota, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522438
     }

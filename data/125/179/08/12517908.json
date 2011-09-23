@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517908, 
+        "placetype": "airport", 
         "name": "Murted Airport", 
-        "ne_latitude": 40.084, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=29390481", 
+          "woe:state=2347263", 
+          "woe:country=23424969", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517908, 
         "ne_longitude": 32.572, 
         "longitude": 32.566, 
-        "placetype": "Airport", 
+        "parent_woeid": 29390481, 
+        "ne_latitude": 40.084, 
         "iso": "TR", 
-        "date_indexed": "2010-12-02T16:23:11Z", 
-        "parent_woeid": 2319710, 
+        "sw_latitude": 40.075, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.080, 
         "sw_longitude": 32.560, 
         "fullname": "Murted Airport, Ankara, Kazan, Turkey", 
-        "sw_latitude": 40.075
+        "date_indexed": "2010-12-02T16:23:11Z"
       }, 
       "id": 12517908
     }

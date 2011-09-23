@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516370, 
+        "placetype": "airport", 
         "name": "Lukovka Airport", 
-        "ne_latitude": 53.989, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597691", 
+          "woe:state=20070529", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516370, 
         "ne_longitude": 80.186, 
         "longitude": 80.178, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597691, 
+        "ne_latitude": 53.989, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2035989, 
+        "sw_latitude": 53.980, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.985, 
         "sw_longitude": 80.171, 
         "fullname": "Lukovka Airport, Altayskiy Kray, Pankrushykhinsky, Russia", 
-        "sw_latitude": 53.980
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516370
     }

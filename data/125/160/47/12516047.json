@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516047, 
+        "placetype": "airport", 
         "name": "Iultin Airport", 
-        "ne_latitude": 67.911, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598697", 
+          "woe:state=20070513", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516047, 
         "ne_longitude": -178.656, 
         "longitude": -178.668, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598697, 
+        "ne_latitude": 67.911, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2119874, 
+        "sw_latitude": 67.902, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 67.907, 
         "sw_longitude": -178.680, 
         "fullname": "Iultin Airport, Chukotskiy Avtonomnyy Okrug, Iultinsky, Russia", 
-        "sw_latitude": 67.902
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516047
     }

@@ -3,28 +3,94 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              10.742, 
-              35.750
-            ], 
-            [
-              10.742, 
-              35.772
-            ], 
-            [
-              10.770, 
-              35.772
-            ], 
-            [
-              10.770, 
-              35.750
-            ], 
-            [
-              10.742, 
-              35.750
+              [
+                10.741, 
+                35.765
+              ], 
+              [
+                10.746, 
+                35.765
+              ], 
+              [
+                10.756, 
+                35.766
+              ], 
+              [
+                10.757, 
+                35.767
+              ], 
+              [
+                10.764, 
+                35.770
+              ], 
+              [
+                10.768, 
+                35.773
+              ], 
+              [
+                10.764, 
+                35.769
+              ], 
+              [
+                10.760, 
+                35.766
+              ], 
+              [
+                10.758, 
+                35.764
+              ], 
+              [
+                10.757, 
+                35.761
+              ], 
+              [
+                10.756, 
+                35.760
+              ], 
+              [
+                10.755, 
+                35.760
+              ], 
+              [
+                10.754, 
+                35.760
+              ], 
+              [
+                10.751, 
+                35.759
+              ], 
+              [
+                10.750, 
+                35.760
+              ], 
+              [
+                10.740, 
+                35.762
+              ], 
+              [
+                10.737, 
+                35.754
+              ], 
+              [
+                10.733, 
+                35.764
+              ], 
+              [
+                10.733, 
+                35.766
+              ], 
+              [
+                10.738, 
+                35.771
+              ], 
+              [
+                10.741, 
+                35.765
+              ]
             ]
           ]
         ]
@@ -32,23 +98,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517860, 
-        "name": "Habib Bourguiba International Airport", 
         "alias_ENG_V": [
           "MIR"
         ], 
-        "ne_latitude": 35.772, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": 10.770, 
-        "longitude": 10.756, 
-        "placetype": "Airport", 
+        "name": "Habib Bourguiba International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2347241", 
+          "woe:country=23424967", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517860, 
+        "ne_longitude": 10.768, 
+        "longitude": 10.745, 
+        "parent_woeid": 2347241, 
+        "ne_latitude": 35.773, 
         "iso": "TN", 
-        "date_indexed": "2010-12-02T18:19:01Z", 
-        "parent_woeid": 1441895, 
-        "latitude": 35.761, 
-        "sw_longitude": 10.742, 
+        "sw_latitude": 35.754, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 35.763, 
+        "sw_longitude": 10.733, 
         "fullname": "Habib Bourguiba International Airport, Al Munastir, Tunisia", 
-        "sw_latitude": 35.750
+        "iata_code": "MIR", 
+        "date_indexed": "2010-12-02T18:19:01Z"
       }, 
       "id": 12517860
     }

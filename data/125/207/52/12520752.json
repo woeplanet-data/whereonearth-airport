@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520752, 
-        "name": "Madison Municipal Airport", 
         "alias_ENG_V": [
           "Ims"
         ], 
-        "ne_latitude": 38.766, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Madison Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588218", 
+          "woe:state=2347573", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520752, 
         "ne_longitude": -85.457, 
         "longitude": -85.460, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588218, 
+        "ne_latitude": 38.766, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2443946, 
+        "sw_latitude": 38.753, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.760, 
         "sw_longitude": -85.471, 
-        "fullname": "Madison Municipal Airport, Madison, Indiana, Jefferson, United States", 
-        "sw_latitude": 38.753
+        "fullname": "Madison Municipal Airport, Madison, Indiana, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520752
     }

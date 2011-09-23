@@ -3,28 +3,106 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -79.023, 
-              35.174
-            ], 
-            [
-              -79.023, 
-              35.199
-            ], 
-            [
-              -78.993, 
-              35.199
-            ], 
-            [
-              -78.993, 
-              35.174
-            ], 
-            [
-              -79.023, 
-              35.174
+              [
+                -79.002, 
+                35.174
+              ], 
+              [
+                -79.003, 
+                35.172
+              ], 
+              [
+                -79.005, 
+                35.168
+              ], 
+              [
+                -79.007, 
+                35.162
+              ], 
+              [
+                -79.001, 
+                35.165
+              ], 
+              [
+                -79.005, 
+                35.168
+              ], 
+              [
+                -79.008, 
+                35.170
+              ], 
+              [
+                -79.010, 
+                35.173
+              ], 
+              [
+                -79.016, 
+                35.174
+              ], 
+              [
+                -79.017, 
+                35.171
+              ], 
+              [
+                -79.018, 
+                35.168
+              ], 
+              [
+                -79.017, 
+                35.165
+              ], 
+              [
+                -79.012, 
+                35.165
+              ], 
+              [
+                -79.014, 
+                35.167
+              ], 
+              [
+                -79.017, 
+                35.171
+              ], 
+              [
+                -79.017, 
+                35.176
+              ], 
+              [
+                -79.014, 
+                35.178
+              ], 
+              [
+                -79.014, 
+                35.178
+              ], 
+              [
+                -79.009, 
+                35.180
+              ], 
+              [
+                -79.005, 
+                35.183
+              ], 
+              [
+                -79.004, 
+                35.180
+              ], 
+              [
+                -79.003, 
+                35.178
+              ], 
+              [
+                -78.999, 
+                35.175
+              ], 
+              [
+                -79.002, 
+                35.174
+              ]
             ]
           ]
         ]
@@ -32,23 +110,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521434, 
-        "name": "Pope Air Force Base", 
         "alias_ENG_V": [
           "POB Airport"
         ], 
-        "ne_latitude": 35.199, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -78.993, 
-        "longitude": -79.008, 
-        "placetype": "Airport", 
+        "name": "Pope Air Force Base", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589399", 
+          "woe:state=2347592", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521434, 
+        "ne_longitude": -78.999, 
+        "longitude": -79.007, 
+        "parent_woeid": 12589399, 
+        "ne_latitude": 35.183, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2498011, 
-        "latitude": 35.186, 
-        "sw_longitude": -79.023, 
-        "fullname": "Pope Air Force Base, Spring Lake, North Carolina, Cumberland, United States", 
-        "sw_latitude": 35.174
+        "sw_latitude": 35.162, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 35.179, 
+        "sw_longitude": -79.018, 
+        "fullname": "Pope Air Force Base, Spring Lake, North Carolina, United States", 
+        "iata_code": "POB", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521434
     }

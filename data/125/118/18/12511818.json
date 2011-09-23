@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511818, 
-        "name": "Rocky Mountain House Airport", 
         "alias_ENG_V": [
           "YRM Airport"
         ], 
-        "ne_latitude": 52.434, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Rocky Mountain House Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375228", 
+          "woe:state=2344915", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511818, 
         "ne_longitude": -114.896, 
         "longitude": -114.903, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375228, 
+        "ne_latitude": 52.434, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 8725, 
+        "sw_latitude": 52.425, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 52.430, 
         "sw_longitude": -114.911, 
-        "fullname": "Rocky Mountain House Airport, Rocky Mountain House, Alberta, Alberta, Canada", 
-        "sw_latitude": 52.425
+        "fullname": "Rocky Mountain House Airport, Rocky Mountain House, Alberta, Canada", 
+        "iata_code": "YRM", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12511818
     }

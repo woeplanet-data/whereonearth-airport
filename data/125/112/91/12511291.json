@@ -32,29 +32,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511291, 
-        "name": "Aeroporto Resende", 
-        "alias_ENG_P": [
-          "Resende Airport"
-        ], 
-        "ne_latitude": -22.473, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "REZ"
         ], 
+        "name": "Aeroporto Resende", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Resende Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12581058", 
+          "woe:state=2344862", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511291, 
         "ne_longitude": -44.475, 
         "longitude": -44.480, 
-        "placetype": "Airport", 
+        "parent_woeid": 12581058, 
+        "ne_latitude": -22.473, 
         "alias_POR_V": [
           "Aeroporto REZ"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 421057, 
+        "sw_latitude": -22.482, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -22.477, 
         "sw_longitude": -44.485, 
-        "fullname": "Aeroporto Resende, Agulhas Negras, Rio de Janeiro, Resende, Brazil", 
-        "sw_latitude": -22.482
+        "fullname": "Aeroporto Resende, Agulhas Negras, Rio de Janeiro, Brazil", 
+        "iata_code": "REZ", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511291
     }

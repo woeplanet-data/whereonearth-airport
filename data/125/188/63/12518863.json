@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518863, 
-        "name": "Bloyer Field Airport", 
         "alias_ENG_V": [
           "Y72"
         ], 
-        "ne_latitude": 43.979, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Bloyer Field Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590575", 
+          "woe:state=2347608", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518863, 
         "ne_longitude": -90.473, 
         "longitude": -90.485, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590575, 
+        "ne_latitude": 43.979, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2507003, 
+        "sw_latitude": 43.972, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.972, 
         "sw_longitude": -90.488, 
-        "fullname": "Bloyer Field Airport, Tomah, Wisconsin, Monroe, United States", 
-        "sw_latitude": 43.972
+        "fullname": "Bloyer Field Airport, Tomah, Wisconsin, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518863
     }

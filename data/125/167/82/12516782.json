@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516782, 
+        "placetype": "airport", 
         "name": "Ropcha Airport", 
-        "ne_latitude": 63.018, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597446", 
+          "woe:state=2346874", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516782, 
         "ne_longitude": 52.290, 
         "longitude": 52.280, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597446, 
+        "ne_latitude": 63.018, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2123171, 
+        "sw_latitude": 63.009, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 63.014, 
         "sw_longitude": 52.270, 
         "fullname": "Ropcha Airport, Komi, Knyazhpogostsky, Russia", 
-        "sw_latitude": 63.009
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516782
     }

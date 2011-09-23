@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388119, 
-        "name": "Bethant Memorial Airport", 
         "alias_ENG_V": [
           "75k"
         ], 
-        "ne_latitude": 40.280, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Bethant Memorial Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589006", 
+          "woe:state=2347584", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388119, 
         "ne_longitude": -94.005, 
         "longitude": -94.011, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589006, 
+        "ne_latitude": 40.280, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2363352, 
+        "sw_latitude": 40.274, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.275, 
         "sw_longitude": -94.012, 
-        "fullname": "Bethant Memorial Airport, Bethany, Missouri, Harrison, United States", 
-        "sw_latitude": 40.274
+        "fullname": "Bethant Memorial Airport, Bethany, Missouri, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388119
     }

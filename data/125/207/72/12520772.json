@@ -3,28 +3,94 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -71.451, 
-              42.915
-            ], 
-            [
-              -71.451, 
-              42.946
-            ], 
-            [
-              -71.423, 
-              42.946
-            ], 
-            [
-              -71.423, 
-              42.915
-            ], 
-            [
-              -71.451, 
-              42.915
+              [
+                -71.431, 
+                42.925
+              ], 
+              [
+                -71.428, 
+                42.922
+              ], 
+              [
+                -71.433, 
+                42.922
+              ], 
+              [
+                -71.435, 
+                42.921
+              ], 
+              [
+                -71.437, 
+                42.923
+              ], 
+              [
+                -71.443, 
+                42.923
+              ], 
+              [
+                -71.445, 
+                42.925
+              ], 
+              [
+                -71.445, 
+                42.929
+              ], 
+              [
+                -71.447, 
+                42.933
+              ], 
+              [
+                -71.447, 
+                42.933
+              ], 
+              [
+                -71.447, 
+                42.935
+              ], 
+              [
+                -71.445, 
+                42.935
+              ], 
+              [
+                -71.441, 
+                42.935
+              ], 
+              [
+                -71.440, 
+                42.934
+              ], 
+              [
+                -71.435, 
+                42.935
+              ], 
+              [
+                -71.434, 
+                42.933
+              ], 
+              [
+                -71.436, 
+                42.929
+              ], 
+              [
+                -71.433, 
+                42.925
+              ], 
+              [
+                -71.431, 
+                42.925
+              ], 
+              [
+                -71.428, 
+                42.929
+              ], 
+              [
+                -71.431, 
+                42.925
+              ]
             ]
           ]
         ]
@@ -32,23 +98,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520772, 
-        "name": "Manchester-Boston Regional Airport", 
         "alias_ENG_V": [
           "Manchester-Boston Regional"
         ], 
-        "ne_latitude": 42.946, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -71.423, 
+        "name": "Manchester-Boston Regional Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589255", 
+          "woe:state=2347588", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520772, 
+        "ne_longitude": -71.428, 
         "longitude": -71.439, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589255, 
+        "ne_latitude": 42.935, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2441309, 
+        "sw_latitude": 42.921, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.929, 
-        "sw_longitude": -71.451, 
-        "fullname": "Manchester-Boston Regional Airport, Londonderry, New Hampshire, Rockingham, United States", 
-        "sw_latitude": 42.915
+        "sw_longitude": -71.447, 
+        "fullname": "Manchester-Boston Regional Airport, Londonderry, New Hampshire, United States", 
+        "iata_code": "MHT", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520772
     }

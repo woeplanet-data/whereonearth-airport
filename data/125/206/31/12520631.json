@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520631, 
+        "placetype": "airport", 
         "name": "Leos Angus Ranch Airport", 
-        "ne_latitude": 38.485, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12588984", 
+          "woe:state=2347584", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520631, 
         "ne_longitude": -94.191, 
         "longitude": -94.197, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588984, 
+        "ne_latitude": 38.485, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2389864, 
+        "sw_latitude": 38.475, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.480, 
         "sw_longitude": -94.203, 
-        "fullname": "Leos Angus Ranch Airport, Dayton, Missouri, Cass, United States", 
-        "sw_latitude": 38.475
+        "fullname": "Leos Angus Ranch Airport, Dayton, Missouri, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12520631
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513665, 
+        "placetype": "airport", 
         "name": "Rupsi Airport", 
-        "ne_latitude": 26.146, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12586354", 
+          "woe:state=2345741", 
+          "woe:country=23424848", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513665, 
         "ne_longitude": 89.914, 
         "longitude": 89.909, 
-        "placetype": "Airport", 
+        "parent_woeid": 12586354, 
+        "ne_latitude": 26.146, 
         "iso": "IN", 
-        "date_indexed": "2010-12-02T09:26:27Z", 
-        "parent_woeid": 29148257, 
+        "sw_latitude": 26.137, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 26.141, 
         "sw_longitude": 89.904, 
-        "fullname": "Rupsi Airport, Sukatikhata, Assam, Dhubri, India", 
-        "sw_latitude": 26.137
+        "fullname": "Rupsi Airport, Sukatikhata, Assam, India", 
+        "date_indexed": "2010-12-02T09:26:27Z"
       }, 
       "id": 12513665
     }

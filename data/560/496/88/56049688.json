@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "CZE", 
-        "woeid": 56049688, 
+        "placetype": "airport", 
         "name": "Letiste Hradec Kralove", 
-        "ne_latitude": 50.258, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12609069", 
+          "woe:county=12582595", 
+          "woe:state=20070466", 
+          "woe:country=23424810", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56049688, 
         "ne_longitude": 15.858, 
         "longitude": 15.848, 
-        "placetype": "Airport", 
+        "parent_woeid": 12609069, 
+        "ne_latitude": 50.258, 
         "iso": "CZ", 
-        "date_indexed": "2010-12-02T08:56:52Z", 
-        "parent_woeid": 790133, 
+        "sw_latitude": 50.245, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.252, 
         "sw_longitude": 15.838, 
-        "fullname": "Letiste Hradec Kralove, Hradec Kr\u00e1lov\u00e9, Kr\u00e1lov\u00e9hradeck\u00fd, Hradec Kr\u00e1lov\u00e9, Czech Republic", 
-        "sw_latitude": 50.245
+        "fullname": "Letiste Hradec Kralove, Hradec Kr\u00e1lov\u00e9, Kr\u00e1lov\u00e9hradeck\u00fd, Czech Republic", 
+        "date_indexed": "2010-12-02T08:56:52Z"
       }, 
       "id": 56049688
     }

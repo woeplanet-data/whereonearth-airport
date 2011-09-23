@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 28677832, 
-        "name": "Lake Station Aerodrome", 
         "alias_ENG_V": [
           "Lk Station Aerodrome"
         ], 
-        "ne_latitude": -41.757, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Lake Station Aerodrome", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55875898", 
+          "woe:state=15021757", 
+          "woe:country=23424916", 
+          "woe:planet=1"
+        ], 
+        "woeid": 28677832, 
         "ne_longitude": 172.757, 
         "longitude": 172.751, 
-        "placetype": "Airport", 
+        "parent_woeid": 55875898, 
+        "ne_latitude": -41.757, 
         "iso": "NZ", 
-        "date_indexed": "2010-12-02T17:02:39Z", 
-        "parent_woeid": 2348843, 
+        "sw_latitude": -41.766, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -41.762, 
         "sw_longitude": 172.745, 
-        "fullname": "Lake Station Aerodrome, Howard, Tasman, Tasman District, New Zealand", 
-        "sw_latitude": -41.766
+        "fullname": "Lake Station Aerodrome, Howard, Tasman, New Zealand", 
+        "date_indexed": "2010-12-02T17:02:39Z"
       }, 
       "id": 28677832
     }

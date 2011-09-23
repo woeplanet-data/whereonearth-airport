@@ -3,28 +3,134 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -85.203, 
-              40.979
-            ], 
-            [
-              -85.203, 
-              40.998
-            ], 
-            [
-              -85.177, 
-              40.998
-            ], 
-            [
-              -85.177, 
-              40.979
-            ], 
-            [
-              -85.203, 
-              40.979
+              [
+                -85.180, 
+                40.983
+              ], 
+              [
+                -85.179, 
+                40.989
+              ], 
+              [
+                -85.178, 
+                40.984
+              ], 
+              [
+                -85.178, 
+                40.982
+              ], 
+              [
+                -85.180, 
+                40.982
+              ], 
+              [
+                -85.181, 
+                40.982
+              ], 
+              [
+                -85.181, 
+                40.983
+              ], 
+              [
+                -85.183, 
+                40.989
+              ], 
+              [
+                -85.188, 
+                40.987
+              ], 
+              [
+                -85.188, 
+                40.986
+              ], 
+              [
+                -85.190, 
+                40.984
+              ], 
+              [
+                -85.191, 
+                40.983
+              ], 
+              [
+                -85.191, 
+                40.987
+              ], 
+              [
+                -85.195, 
+                40.989
+              ], 
+              [
+                -85.189, 
+                40.989
+              ], 
+              [
+                -85.183, 
+                40.989
+              ], 
+              [
+                -85.188, 
+                40.987
+              ], 
+              [
+                -85.188, 
+                40.986
+              ], 
+              [
+                -85.190, 
+                40.984
+              ], 
+              [
+                -85.191, 
+                40.983
+              ], 
+              [
+                -85.191, 
+                40.987
+              ], 
+              [
+                -85.195, 
+                40.989
+              ], 
+              [
+                -85.189, 
+                40.989
+              ], 
+              [
+                -85.183, 
+                40.989
+              ], 
+              [
+                -85.181, 
+                40.983
+              ], 
+              [
+                -85.181, 
+                40.982
+              ], 
+              [
+                -85.180, 
+                40.982
+              ], 
+              [
+                -85.178, 
+                40.982
+              ], 
+              [
+                -85.178, 
+                40.984
+              ], 
+              [
+                -85.179, 
+                40.989
+              ], 
+              [
+                -85.180, 
+                40.983
+              ]
             ]
           ]
         ]
@@ -32,23 +138,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519784, 
-        "name": "Fort Wayne Municipal Airport-Baer Field", 
         "alias_ENG_V": [
           "Fort Wayne-Baer Field"
         ], 
-        "ne_latitude": 40.998, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -85.177, 
-        "longitude": -85.190, 
-        "placetype": "Airport", 
+        "name": "Fort Wayne Municipal Airport-Baer Field", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588181", 
+          "woe:state=2347573", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519784, 
+        "ne_longitude": -85.178, 
+        "longitude": -85.189, 
+        "parent_woeid": 12588181, 
+        "ne_latitude": 40.989, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2460025, 
-        "latitude": 40.988, 
-        "sw_longitude": -85.203, 
-        "fullname": "Fort Wayne Municipal Airport-Baer Field, Nine Mile, Indiana, Allen, United States", 
-        "sw_latitude": 40.979
+        "sw_latitude": 40.982, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 40.987, 
+        "sw_longitude": -85.195, 
+        "fullname": "Fort Wayne Municipal Airport-Baer Field, Nine Mile, Indiana, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12519784
     }

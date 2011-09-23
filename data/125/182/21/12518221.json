@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518221, 
+        "placetype": "airport", 
         "name": "Buzovaya Airport", 
-        "ne_latitude": 50.433, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=20070188", 
+          "woe:country=23424976", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518221, 
         "ne_longitude": 30.106, 
         "longitude": 30.099, 
-        "placetype": "Airport", 
+        "parent_woeid": 20070188, 
+        "ne_latitude": 50.433, 
         "iso": "UA", 
-        "date_indexed": "2010-12-02T08:52:33Z", 
-        "parent_woeid": 938439, 
+        "sw_latitude": 50.424, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.429, 
         "sw_longitude": 30.092, 
         "fullname": "Buzovaya Airport, Kiev City Municipality, Ukraine", 
-        "sw_latitude": 50.424
+        "date_indexed": "2010-12-02T08:52:33Z"
       }, 
       "id": 12518221
     }

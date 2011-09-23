@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522917, 
+        "placetype": "airport", 
         "name": "Hoa Lac Airport", 
-        "ne_latitude": 21.033, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2347735", 
+          "woe:country=23424984", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522917, 
         "ne_longitude": 105.505, 
         "longitude": 105.500, 
-        "placetype": "Airport", 
+        "parent_woeid": 2347735, 
+        "ne_latitude": 21.033, 
         "iso": "VN", 
-        "date_indexed": "2010-12-02T08:52:49Z", 
-        "parent_woeid": 1246250, 
+        "sw_latitude": 21.024, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 21.028, 
         "sw_longitude": 105.495, 
         "fullname": "Hoa Lac Airport, Son Tay, Ha Tay, Vietnam", 
-        "sw_latitude": 21.024
+        "date_indexed": "2010-12-02T08:52:49Z"
       }, 
       "id": 12522917
     }

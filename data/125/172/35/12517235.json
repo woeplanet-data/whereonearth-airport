@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517235, 
+        "placetype": "airport", 
         "name": "Yaroslavl Airport", 
-        "ne_latitude": 57.578, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599679", 
+          "woe:state=2346936", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517235, 
         "ne_longitude": 39.911, 
         "longitude": 39.902, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599679, 
+        "ne_latitude": 57.578, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2111479, 
+        "sw_latitude": 57.569, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 57.573, 
         "sw_longitude": 39.894, 
-        "fullname": "Yaroslavl Airport, Yaroslavl', Yaroslavskaya Oblast, Yaroslavl, Russia", 
-        "sw_latitude": 57.569
+        "fullname": "Yaroslavl Airport, Yaroslavl', Yaroslavskaya Oblast, Russia", 
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12517235
     }

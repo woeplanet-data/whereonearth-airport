@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "FRE", 
-        "woeid": 56051748, 
+        "placetype": "airport", 
         "name": "A\u00e9rodrome de la Fert\u00e9-gaucher", 
-        "ne_latitude": 48.763, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12646228", 
+          "woe:county=12597137", 
+          "woe:state=7153319", 
+          "woe:country=23424819", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56051748, 
         "ne_longitude": 3.289, 
         "longitude": 3.277, 
-        "placetype": "Airport", 
+        "parent_woeid": 12646228, 
+        "ne_latitude": 48.763, 
         "iso": "FR", 
-        "date_indexed": "2010-12-02T12:04:01Z", 
-        "parent_woeid": 598155, 
+        "sw_latitude": 48.753, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.759, 
         "sw_longitude": 3.269, 
-        "fullname": "A\u00e9rodrome de la Fert\u00e9-gaucher, La Fert\u00e9-Gaucher, Ile-de-France, Seine-et-Marne, France", 
+        "fullname": "A\u00e9rodrome de la Fert\u00e9-gaucher, La Fert\u00e9-Gaucher, Ile-de-France, France", 
         "alias_FRE_S": [
           "Aerodrome de la Ferte-gaucher"
         ], 
-        "sw_latitude": 48.753
+        "date_indexed": "2010-12-02T12:04:01Z"
       }, 
       "id": 56051748
     }

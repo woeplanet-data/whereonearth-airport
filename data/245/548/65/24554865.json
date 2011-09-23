@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 24554865, 
-        "name": "Sayun Airport", 
         "alias_ENG_V": [
           "GXF"
         ], 
-        "ne_latitude": 15.954, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Sayun Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=56190030", 
+          "woe:state=20070033", 
+          "woe:country=23425002", 
+          "woe:planet=1"
+        ], 
+        "woeid": 24554865, 
         "ne_longitude": 48.794, 
         "longitude": 48.782, 
-        "placetype": "Airport", 
+        "parent_woeid": 56190030, 
+        "ne_latitude": 15.954, 
         "iso": "YE", 
-        "date_indexed": "2010-12-02T16:39:41Z", 
-        "parent_woeid": 1959127, 
+        "sw_latitude": 15.931, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 15.943, 
         "sw_longitude": 48.770, 
         "fullname": "Sayun Airport, Saywon, Hadramawt, Yemen", 
-        "sw_latitude": 15.931
+        "iata_code": "GXF", 
+        "date_indexed": "2010-12-02T16:39:41Z"
       }, 
       "id": 24554865
     }

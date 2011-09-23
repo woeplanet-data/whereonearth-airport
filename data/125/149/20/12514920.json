@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514920, 
-        "name": "Minatitlan Airport", 
         "alias_ENG_V": [
           "MTT"
         ], 
-        "ne_latitude": 18.095, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Minatitlan Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12601776", 
+          "woe:state=2346293", 
+          "woe:country=23424900", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514920, 
         "ne_longitude": -94.584, 
         "longitude": -94.596, 
-        "placetype": "Airport", 
+        "parent_woeid": 12601776, 
+        "ne_latitude": 18.095, 
         "iso": "MX", 
-        "date_indexed": "2010-12-02T16:57:55Z", 
-        "parent_woeid": 113136, 
+        "sw_latitude": 18.072, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 18.083, 
         "sw_longitude": -94.608, 
-        "fullname": "Minatitlan Airport, Barrancas, Veracruz-Llave, Cosoleacaque, Mexico", 
-        "sw_latitude": 18.072
+        "fullname": "Minatitlan Airport, Barrancas, Veracruz-Llave, Mexico", 
+        "iata_code": "MTT", 
+        "date_indexed": "2010-12-02T16:57:55Z"
       }, 
       "id": 12514920
     }

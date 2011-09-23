@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515799, 
+        "placetype": "airport", 
         "name": "Bereg Airport", 
-        "ne_latitude": 58.674, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598648", 
+          "woe:state=2346907", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515799, 
         "ne_longitude": 29.984, 
         "longitude": 29.976, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598648, 
+        "ne_latitude": 58.674, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2050095, 
+        "sw_latitude": 58.665, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 58.669, 
         "sw_longitude": 29.967, 
         "fullname": "Bereg Airport, Leningradskaya Oblast, Luzhsky, Russia", 
-        "sw_latitude": 58.665
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12515799
     }

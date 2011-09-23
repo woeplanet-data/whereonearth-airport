@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521171, 
-        "name": "Norwood Memorial Airport", 
         "alias_ENG_V": [
           "Norwood Memorial"
         ], 
-        "ne_latitude": 42.196, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Norwood Memorial Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588710", 
+          "woe:state=2347580", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521171, 
         "ne_longitude": -71.163, 
         "longitude": -71.178, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588710, 
+        "ne_latitude": 42.196, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2462330, 
+        "sw_latitude": 42.182, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.186, 
         "sw_longitude": -71.181, 
-        "fullname": "Norwood Memorial Airport, Norwood, Massachusetts, Norfolk, United States", 
-        "sw_latitude": 42.182
+        "fullname": "Norwood Memorial Airport, Norwood, Massachusetts, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521171
     }

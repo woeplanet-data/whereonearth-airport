@@ -3,28 +3,82 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -87.423, 
-              41.608
-            ], 
-            [
-              -87.423, 
-              41.625
-            ], 
-            [
-              -87.394, 
-              41.625
-            ], 
-            [
-              -87.394, 
-              41.608
-            ], 
-            [
-              -87.423, 
-              41.608
+              [
+                -87.394, 
+                41.625
+              ], 
+              [
+                -87.395, 
+                41.628
+              ], 
+              [
+                -87.393, 
+                41.627
+              ], 
+              [
+                -87.393, 
+                41.626
+              ], 
+              [
+                -87.394, 
+                41.624
+              ], 
+              [
+                -87.394, 
+                41.623
+              ], 
+              [
+                -87.399, 
+                41.614
+              ], 
+              [
+                -87.403, 
+                41.614
+              ], 
+              [
+                -87.403, 
+                41.614
+              ], 
+              [
+                -87.409, 
+                41.614
+              ], 
+              [
+                -87.421, 
+                41.610
+              ], 
+              [
+                -87.423, 
+                41.611
+              ], 
+              [
+                -87.411, 
+                41.618
+              ], 
+              [
+                -87.415, 
+                41.625
+              ], 
+              [
+                -87.412, 
+                41.623
+              ], 
+              [
+                -87.408, 
+                41.620
+              ], 
+              [
+                -87.407, 
+                41.619
+              ], 
+              [
+                -87.394, 
+                41.625
+              ]
             ]
           ]
         ]
@@ -32,23 +86,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519869, 
-        "name": "Gary/Chicago International Airport", 
         "alias_ENG_V": [
           "GYY Airport"
         ], 
-        "ne_latitude": 41.625, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -87.394, 
-        "longitude": -87.408, 
-        "placetype": "Airport", 
+        "name": "Gary/Chicago International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588225", 
+          "woe:state=2347573", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519869, 
+        "ne_longitude": -87.393, 
+        "longitude": -87.406, 
+        "parent_woeid": 12588225, 
+        "ne_latitude": 41.628, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2409153, 
+        "sw_latitude": 41.610, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.618, 
         "sw_longitude": -87.423, 
-        "fullname": "Gary/Chicago International Airport, Gary, Indiana, Lake, United States", 
-        "sw_latitude": 41.608
+        "fullname": "Gary/Chicago International Airport, Gary, Indiana, United States", 
+        "iata_code": "GYY", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12519869
     }

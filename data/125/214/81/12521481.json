@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521481, 
-        "name": "Princeton Municipal Airport", 
         "alias_ENG_V": [
           "PNM"
         ], 
-        "ne_latitude": 45.570, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Princeton Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588844", 
+          "woe:state=2347582", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521481, 
         "ne_longitude": -93.601, 
         "longitude": -93.605, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588844, 
+        "ne_latitude": 45.570, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2476722, 
+        "sw_latitude": 45.554, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.561, 
         "sw_longitude": -93.614, 
-        "fullname": "Princeton Municipal Airport, Princeton, Minnesota, Mille Lacs, United States", 
-        "sw_latitude": 45.554
+        "fullname": "Princeton Municipal Airport, Princeton, Minnesota, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521481
     }

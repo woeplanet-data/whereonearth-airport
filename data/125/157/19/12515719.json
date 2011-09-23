@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515719, 
+        "placetype": "airport", 
         "name": "Antipovka Airport", 
-        "ne_latitude": 49.759, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599551", 
+          "woe:state=2346933", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515719, 
         "ne_longitude": 45.368, 
         "longitude": 45.361, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599551, 
+        "ne_latitude": 49.759, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2120454, 
+        "sw_latitude": 49.750, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.754, 
         "sw_longitude": 45.354, 
-        "fullname": "Antipovka Airport, Bykovo, Volgogradskaya Oblast, Bykovsky, Russia", 
-        "sw_latitude": 49.750
+        "fullname": "Antipovka Airport, Bykovo, Volgogradskaya Oblast, Russia", 
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12515719
     }

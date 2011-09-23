@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515941, 
+        "placetype": "airport", 
         "name": "Dobraya Airport", 
-        "ne_latitude": 54.421, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599261", 
+          "woe:state=2346899", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515941, 
         "ne_longitude": 34.627, 
         "longitude": 34.619, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599261, 
+        "ne_latitude": 54.421, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2001635, 
+        "sw_latitude": 54.412, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 54.417, 
         "sw_longitude": 34.611, 
         "fullname": "Dobraya Airport, Kaluzhskaya Oblast, Baryatinsky, Russia", 
-        "sw_latitude": 54.412
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12515941
     }

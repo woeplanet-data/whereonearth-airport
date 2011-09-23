@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 28677718, 
+        "placetype": "airport", 
         "name": "Manangatang Airport", 
-        "ne_latitude": -35.042, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55863967", 
+          "woe:state=2344705", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 28677718, 
         "ne_longitude": 142.867, 
         "longitude": 142.862, 
-        "placetype": "Airport", 
+        "parent_woeid": 55863967, 
+        "ne_latitude": -35.042, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1103637, 
+        "sw_latitude": -35.051, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -35.047, 
         "sw_longitude": 142.856, 
-        "fullname": "Manangatang Airport, Manangatang, Victoria, Swan Hill, Australia", 
-        "sw_latitude": -35.051
+        "fullname": "Manangatang Airport, Manangatang, Victoria, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 28677718
     }

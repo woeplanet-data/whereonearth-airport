@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 22656463, 
+        "placetype": "airport", 
         "name": "Hildesheim Airport", 
-        "ne_latitude": 52.181, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12596788", 
+          "woe:state=2345486", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 22656463, 
         "ne_longitude": 9.959, 
         "longitude": 9.952, 
-        "placetype": "Airport", 
+        "parent_woeid": 12596788, 
+        "ne_latitude": 52.181, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 659894, 
+        "sw_latitude": 52.172, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 52.176, 
         "sw_longitude": 9.944, 
-        "fullname": "Hildesheim Airport, Hildesheim, Lower Saxony, Landkreis Hildesheim, Germany", 
+        "fullname": "Hildesheim Airport, Hildesheim, Lower Saxony, Germany", 
         "alias_GER_Q": [
           "Flughafen Hildesheim"
         ], 
-        "sw_latitude": 52.172
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 22656463
     }

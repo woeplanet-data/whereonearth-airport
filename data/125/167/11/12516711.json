@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516711, 
+        "placetype": "airport", 
         "name": "Pogranichnyy Airport", 
-        "ne_latitude": 44.441, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597925", 
+          "woe:state=2346886", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516711, 
         "ne_longitude": 131.401, 
         "longitude": 131.395, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597925, 
+        "ne_latitude": 44.441, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2068284, 
+        "sw_latitude": 44.432, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.437, 
         "sw_longitude": 131.389, 
-        "fullname": "Pogranichnyy Airport, Pogranichnyj, Primorskiy Kray, Pogranichnyi, Russia", 
-        "sw_latitude": 44.432
+        "fullname": "Pogranichnyy Airport, Pogranichnyj, Primorskiy Kray, Russia", 
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516711
     }

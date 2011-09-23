@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514666, 
+        "placetype": "airport", 
         "name": "Qaryat Al Karmal Airport", 
-        "ne_latitude": 31.980, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2346137", 
+          "woe:country=23424882", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514666, 
         "ne_longitude": 20.032, 
         "longitude": 20.027, 
-        "placetype": "Airport", 
+        "parent_woeid": 2346137, 
+        "ne_latitude": 31.980, 
         "iso": "LY", 
-        "date_indexed": "2010-12-02T08:58:29Z", 
-        "parent_woeid": 1353224, 
+        "sw_latitude": 31.970, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 31.975, 
         "sw_longitude": 20.021, 
         "fullname": "Qaryat Al Karmal Airport, Banghazi, Libya", 
-        "sw_latitude": 31.970
+        "date_indexed": "2010-12-02T08:58:29Z"
       }, 
       "id": 12514666
     }

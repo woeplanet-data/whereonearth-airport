@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511393, 
+        "placetype": "airport", 
         "name": "Blagovo Airport", 
-        "ne_latitude": 43.247, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55873895", 
+          "woe:state=20070052", 
+          "woe:country=23424771", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511393, 
         "ne_longitude": 27.056, 
         "longitude": 27.050, 
-        "placetype": "Airport", 
+        "parent_woeid": 55873895, 
+        "ne_latitude": 43.247, 
         "iso": "BG", 
-        "date_indexed": "2010-12-02T16:14:37Z", 
-        "parent_woeid": 840436, 
+        "sw_latitude": 43.238, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.243, 
         "sw_longitude": 27.044, 
         "fullname": "Blagovo Airport, Shumen, Kaspichan, Bulgaria", 
-        "sw_latitude": 43.238
+        "date_indexed": "2010-12-02T16:14:37Z"
       }, 
       "id": 12511393
     }

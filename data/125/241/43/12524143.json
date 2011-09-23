@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524143, 
-        "name": "Haines Junction Airport", 
         "alias_ENG_V": [
           "YHT Airport"
         ], 
-        "ne_latitude": 60.756, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Haines Junction Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375157", 
+          "woe:state=2344926", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524143, 
         "ne_longitude": -137.488, 
         "longitude": -137.497, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375157, 
+        "ne_latitude": 60.756, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 4224, 
+        "sw_latitude": 60.747, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 60.752, 
         "sw_longitude": -137.506, 
-        "fullname": "Haines Junction Airport, Haines Junction, Yukon Territory, Yukon Territory, Canada", 
-        "sw_latitude": 60.747
+        "fullname": "Haines Junction Airport, Haines Junction, Yukon Territory, Canada", 
+        "iata_code": "YHT", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12524143
     }

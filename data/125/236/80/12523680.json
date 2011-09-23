@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523680, 
-        "name": "Puerto Carreno Airport", 
         "alias_ENG_V": [
           "Pto Carreno Airport"
         ], 
-        "ne_latitude": 6.188, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Puerto Carreno Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26797671", 
+          "woe:state=2345076", 
+          "woe:country=23424787", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523680, 
         "ne_longitude": -67.629, 
         "longitude": -67.633, 
-        "placetype": "Airport", 
+        "parent_woeid": 26797671, 
+        "ne_latitude": 6.188, 
         "iso": "CO", 
-        "date_indexed": "2010-12-02T17:57:37Z", 
-        "parent_woeid": 368550, 
+        "sw_latitude": 6.179, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 6.183, 
         "sw_longitude": -67.638, 
-        "fullname": "Puerto Carreno Airport, Puerto Carre\u00f1o, Vichada, Puerto Carreno, Colombia", 
-        "sw_latitude": 6.179
+        "fullname": "Puerto Carreno Airport, Puerto Carre\u00f1o, Vichada, Colombia", 
+        "iata_code": "PCR", 
+        "date_indexed": "2010-12-02T17:57:37Z"
       }, 
       "id": 12523680
     }

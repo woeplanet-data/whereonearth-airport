@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520911, 
-        "name": "Merritt Island Airport", 
         "alias_ENG_V": [
           "COI"
         ], 
-        "ne_latitude": 28.345, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Merritt Island Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587807", 
+          "woe:state=2347568", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520911, 
         "ne_longitude": -80.680, 
         "longitude": -80.689, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587807, 
+        "ne_latitude": 28.345, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2404881, 
+        "sw_latitude": 28.339, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 28.341, 
         "sw_longitude": -80.694, 
-        "fullname": "Merritt Island Airport, Footman, Florida, Brevard, United States", 
-        "sw_latitude": 28.339
+        "fullname": "Merritt Island Airport, Footman, Florida, United States", 
+        "iata_code": "COI", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520911
     }

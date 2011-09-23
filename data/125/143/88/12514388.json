@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514388, 
+        "placetype": "airport", 
         "name": "Komsomolskoye South Airport", 
-        "ne_latitude": 50.428, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345980", 
+          "woe:country=23424871", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514388, 
         "ne_longitude": 60.528, 
         "longitude": 60.521, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345980, 
+        "ne_latitude": 50.428, 
         "iso": "KZ", 
-        "date_indexed": "2010-12-02T08:54:13Z", 
-        "parent_woeid": 2259013, 
+        "sw_latitude": 50.419, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.424, 
         "sw_longitude": 60.514, 
         "fullname": "Komsomolskoye South Airport, Aqtobe, Kazakhstan", 
-        "sw_latitude": 50.419
+        "date_indexed": "2010-12-02T08:54:13Z"
       }, 
       "id": 12514388
     }

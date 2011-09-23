@@ -3,28 +3,62 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -112.388, 
-              33.410
-            ], 
-            [
-              -112.388, 
-              33.435
-            ], 
-            [
-              -112.362, 
-              33.435
-            ], 
-            [
-              -112.362, 
-              33.410
-            ], 
-            [
-              -112.388, 
-              33.410
+              [
+                -112.366, 
+                33.431
+              ], 
+              [
+                -112.365, 
+                33.431
+              ], 
+              [
+                -112.365, 
+                33.428
+              ], 
+              [
+                -112.363, 
+                33.426
+              ], 
+              [
+                -112.367, 
+                33.425
+              ], 
+              [
+                -112.368, 
+                33.422
+              ], 
+              [
+                -112.371, 
+                33.423
+              ], 
+              [
+                -112.375, 
+                33.425
+              ], 
+              [
+                -112.378, 
+                33.424
+              ], 
+              [
+                -112.377, 
+                33.425
+              ], 
+              [
+                -112.374, 
+                33.429
+              ], 
+              [
+                -112.370, 
+                33.430
+              ], 
+              [
+                -112.366, 
+                33.431
+              ]
             ]
           ]
         ]
@@ -32,23 +66,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521367, 
-        "name": "Phoenix Goodyear Municipal Airport", 
         "alias_ENG_V": [
           "GYR Airport"
         ], 
-        "ne_latitude": 33.435, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -112.362, 
-        "longitude": -112.363, 
-        "placetype": "Airport", 
+        "name": "Phoenix Goodyear Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587587", 
+          "woe:state=2347561", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521367, 
+        "ne_longitude": -112.363, 
+        "longitude": -112.370, 
+        "parent_woeid": 12587587, 
+        "ne_latitude": 33.431, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2412184, 
+        "sw_latitude": 33.422, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 33.427, 
-        "sw_longitude": -112.388, 
-        "fullname": "Phoenix Goodyear Municipal Airport, Goodyear, Arizona, Maricopa, United States", 
-        "sw_latitude": 33.410
+        "sw_longitude": -112.378, 
+        "fullname": "Phoenix Goodyear Municipal Airport, Goodyear, Arizona, United States", 
+        "iata_code": "GYR", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521367
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515204, 
-        "name": "Ilo Airport", 
         "alias_ENG_V": [
           "ILQ"
         ], 
-        "ne_latitude": -17.687, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Ilo Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26805866", 
+          "woe:state=2346485", 
+          "woe:country=23424919", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515204, 
         "ne_longitude": -71.336, 
         "longitude": -71.341, 
-        "placetype": "Airport", 
+        "parent_woeid": 26805866, 
+        "ne_latitude": -17.687, 
         "iso": "PE", 
-        "date_indexed": "2010-12-02T16:12:16Z", 
-        "parent_woeid": 418529, 
+        "sw_latitude": -17.696, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -17.692, 
         "sw_longitude": -71.346, 
-        "fullname": "Ilo Airport, Ilo, Moquegua, Ilo, Peru", 
-        "sw_latitude": -17.696
+        "fullname": "Ilo Airport, Ilo, Moquegua, Peru", 
+        "date_indexed": "2010-12-02T16:12:16Z"
       }, 
       "id": 12515204
     }

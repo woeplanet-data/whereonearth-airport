@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524056, 
-        "name": "Cluff Lake Airport", 
         "alias_ENG_V": [
           "XCL Airport"
         ], 
-        "ne_latitude": 58.388, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Cluff Lake Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375232", 
+          "woe:state=2344925", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524056, 
         "ne_longitude": -109.514, 
         "longitude": -109.523, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375232, 
+        "ne_latitude": 58.388, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 1979, 
+        "sw_latitude": 58.379, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 58.383, 
         "sw_longitude": -109.531, 
-        "fullname": "Cluff Lake Airport, Gunnar, Saskatchewan, Saskatchewan, Canada", 
-        "sw_latitude": 58.379
+        "fullname": "Cluff Lake Airport, Gunnar, Saskatchewan, Canada", 
+        "iata_code": "XCL", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12524056
     }

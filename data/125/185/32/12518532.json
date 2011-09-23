@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518532, 
-        "name": "Afton Municipal Airport", 
         "alias_ENG_V": [
           "Afton Airport"
         ], 
-        "ne_latitude": 42.722, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Afton Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590617", 
+          "woe:state=2347609", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518532, 
         "ne_longitude": -110.933, 
         "longitude": -110.940, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590617, 
+        "ne_latitude": 42.722, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2352215, 
+        "sw_latitude": 42.707, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.709, 
         "sw_longitude": -110.943, 
-        "fullname": "Afton Municipal Airport, Afton, Wyoming, Lincoln, United States", 
-        "sw_latitude": 42.707
+        "fullname": "Afton Municipal Airport, Afton, Wyoming, United States", 
+        "iata_code": "AFO", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518532
     }

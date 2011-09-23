@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 56051982, 
+        "placetype": "airport", 
         "name": "Sportflugplatz Ochsenfurt", 
-        "ne_latitude": 49.675, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12636111", 
+          "woe:county=12596774", 
+          "woe:state=2345482", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56051982, 
         "ne_longitude": 10.075, 
         "longitude": 10.069, 
-        "placetype": "Airport", 
+        "parent_woeid": 12636111, 
+        "ne_latitude": 49.675, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 650625, 
+        "sw_latitude": 49.673, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.674, 
         "sw_longitude": 10.067, 
-        "fullname": "Sportflugplatz Ochsenfurt, Frickenhausen, Bavaria, Wurzburg, Germany", 
-        "sw_latitude": 49.673
+        "fullname": "Sportflugplatz Ochsenfurt, Frickenhausen, Bavaria, Germany", 
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 56051982
     }

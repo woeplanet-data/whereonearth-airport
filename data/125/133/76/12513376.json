@@ -3,28 +3,54 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              16.042, 
-              45.726
-            ], 
-            [
-              16.042, 
-              45.756
-            ], 
-            [
-              16.090, 
-              45.756
-            ], 
-            [
-              16.090, 
-              45.726
-            ], 
-            [
-              16.042, 
-              45.726
+              [
+                16.060, 
+                45.732
+              ], 
+              [
+                16.059, 
+                45.731
+              ], 
+              [
+                16.056, 
+                45.728
+              ], 
+              [
+                16.054, 
+                45.732
+              ], 
+              [
+                16.055, 
+                45.733
+              ], 
+              [
+                16.058, 
+                45.733
+              ], 
+              [
+                16.059, 
+                45.736
+              ], 
+              [
+                16.063, 
+                45.739
+              ], 
+              [
+                16.064, 
+                45.735
+              ], 
+              [
+                16.061, 
+                45.733
+              ], 
+              [
+                16.060, 
+                45.732
+              ]
             ]
           ]
         ]
@@ -37,11 +63,15 @@
         "alias_SWE_V": [
           "Zagreb Flygplats"
         ], 
-        "ne_latitude": 45.756, 
-        "alias_UNK_V": [
-          "Letisko Zahreb"
+        "hierarchy": [
+          "woe:county=15022255", 
+          "woe:state=12577990", 
+          "woe:country=23424843", 
+          "woe:planet=1"
         ], 
-        "placetype": "Airport", 
+        "ne_latitude": 45.739, 
+        "ne_longitude": 16.064, 
+        "placetype": "airport", 
         "alias_POR_V": [
           "Aeroporto de Zagreb"
         ], 
@@ -49,14 +79,15 @@
           "Aeroporto Di Zagabria"
         ], 
         "woeid": 12513376, 
-        "sw_longitude": 16.042, 
+        "iata_code": "ZAG", 
+        "sw_longitude": 16.054, 
         "alias_FIN_V": [
           "Zagrebin Lentokentta"
         ], 
         "alias_SPA_V": [
           "Aeropuerto de Zagreb"
         ], 
-        "latitude": 45.732, 
+        "latitude": 45.734, 
         "date_indexed": "2010-12-02T17:07:03Z", 
         "provider": "geoplanet 7.6.0", 
         "alias_DUT_V": [
@@ -70,11 +101,13 @@
         ], 
         "lang": "ENG", 
         "name": "Zagreb Airport", 
-        "parent_woeid": 849141, 
-        "ne_longitude": 16.090, 
-        "longitude": 16.060, 
+        "parent_woeid": 15022255, 
+        "alias_UNK_V": [
+          "Letisko Zahreb"
+        ], 
+        "longitude": 16.059, 
         "iso": "HR", 
-        "sw_latitude": 45.726, 
+        "sw_latitude": 45.728, 
         "alias_FRE_V": [
           "A\u00e9roport de Zagreb"
         ], 

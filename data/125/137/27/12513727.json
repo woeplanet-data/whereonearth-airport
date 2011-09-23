@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513727, 
-        "name": "Hamadan Airport", 
         "alias_ENG_V": [
           "HDM"
         ], 
-        "ne_latitude": 34.874, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Hamadan Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2345774", 
+          "woe:country=23424851", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513727, 
         "ne_longitude": 48.558, 
         "longitude": 48.552, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345774, 
+        "ne_latitude": 34.874, 
         "iso": "IR", 
-        "date_indexed": "2010-12-02T08:53:52Z", 
-        "parent_woeid": 2232601, 
+        "sw_latitude": 34.865, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 34.869, 
         "sw_longitude": 48.547, 
         "fullname": "Hamadan Airport, Hamadan, Iran", 
-        "sw_latitude": 34.865
+        "iata_code": "HDM", 
+        "date_indexed": "2010-12-02T08:53:52Z"
       }, 
       "id": 12513727
     }

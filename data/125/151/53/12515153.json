@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515153, 
-        "name": "Dunedin Airport", 
         "alias_ENG_V": [
           "DUD Airport"
         ], 
-        "ne_latitude": -45.920, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Dunedin Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55875912", 
+          "woe:state=15021754", 
+          "woe:country=23424916", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515153, 
         "ne_longitude": 170.209, 
         "longitude": 170.200, 
-        "placetype": "Airport", 
+        "parent_woeid": 55875912, 
+        "ne_latitude": -45.920, 
         "iso": "NZ", 
-        "date_indexed": "2010-12-02T17:02:39Z", 
-        "parent_woeid": 2349575, 
+        "sw_latitude": -45.935, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -45.923, 
         "sw_longitude": 170.186, 
-        "fullname": "Dunedin Airport, Momona, Otago, Dunedin City, New Zealand", 
-        "sw_latitude": -45.935
+        "fullname": "Dunedin Airport, Momona, Otago, New Zealand", 
+        "iata_code": "DUD", 
+        "date_indexed": "2010-12-02T17:02:39Z"
       }, 
       "id": 12515153
     }

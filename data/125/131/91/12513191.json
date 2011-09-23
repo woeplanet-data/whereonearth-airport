@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513191, 
+        "placetype": "airport", 
         "name": "Neuburg Airport", 
-        "ne_latitude": 48.716, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12634661", 
+          "woe:county=12596818", 
+          "woe:state=2345482", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513191, 
         "ne_longitude": 11.219, 
         "longitude": 11.213, 
-        "placetype": "Airport", 
+        "parent_woeid": 12634661, 
+        "ne_latitude": 48.716, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 673896, 
+        "sw_latitude": 48.707, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.712, 
         "sw_longitude": 11.206, 
-        "fullname": "Neuburg Airport, Marienheim, Bavaria, Neuburg-Schrobenhausen, Germany", 
+        "fullname": "Neuburg Airport, Marienheim, Bavaria, Germany", 
         "alias_GER_Q": [
           "Flughafen Neuburg"
         ], 
-        "sw_latitude": 48.707
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 12513191
     }

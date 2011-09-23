@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512748, 
+        "placetype": "airport", 
         "name": "Vohma Airport", 
-        "ne_latitude": 58.669, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=29389820", 
+          "woe:state=2345279", 
+          "woe:country=23424805", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512748, 
         "ne_longitude": 25.597, 
         "longitude": 25.588, 
-        "placetype": "Airport", 
+        "parent_woeid": 29389820, 
+        "ne_latitude": 58.669, 
         "iso": "EE", 
-        "date_indexed": "2010-12-02T16:43:34Z", 
-        "parent_woeid": 842001, 
+        "sw_latitude": 58.660, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 58.664, 
         "sw_longitude": 25.580, 
         "fullname": "Vohma Airport, Jarva County, Turi Parish, Estonia", 
-        "sw_latitude": 58.660
+        "date_indexed": "2010-12-02T16:43:34Z"
       }, 
       "id": 12512748
     }

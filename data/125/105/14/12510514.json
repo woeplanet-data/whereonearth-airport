@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510514, 
+        "placetype": "airport", 
         "name": "Las Lajas Airport", 
-        "ne_latitude": -38.530, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=20071039", 
+          "woe:state=2344689", 
+          "woe:country=23424747", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510514, 
         "ne_longitude": -70.327, 
         "longitude": -70.333, 
-        "placetype": "Airport", 
+        "parent_woeid": 20071039, 
+        "ne_latitude": -38.530, 
         "iso": "AR", 
-        "date_indexed": "2010-12-02T17:41:29Z", 
-        "parent_woeid": 332570, 
+        "sw_latitude": -38.540, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -38.535, 
         "sw_longitude": -70.339, 
-        "fullname": "Las Lajas Airport, Estancia la Partena, Neuquen, Picunches, Argentina", 
-        "sw_latitude": -38.540
+        "fullname": "Las Lajas Airport, Estancia la Partena, Neuquen, Argentina", 
+        "date_indexed": "2010-12-02T17:41:29Z"
       }, 
       "id": 12510514
     }

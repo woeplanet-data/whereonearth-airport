@@ -3,28 +3,118 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -77.120, 
-              -12.034
-            ], 
-            [
-              -77.120, 
-              -12.011
-            ], 
-            [
-              -77.096, 
-              -12.011
-            ], 
-            [
-              -77.096, 
-              -12.034
-            ], 
-            [
-              -77.120, 
-              -12.034
+              [
+                -77.143, 
+                -12.037
+              ], 
+              [
+                -77.141, 
+                -12.034
+              ], 
+              [
+                -77.138, 
+                -12.026
+              ], 
+              [
+                -77.131, 
+                -12.019
+              ], 
+              [
+                -77.130, 
+                -12.018
+              ], 
+              [
+                -77.125, 
+                -12.016
+              ], 
+              [
+                -77.121, 
+                -12.007
+              ], 
+              [
+                -77.121, 
+                -12.007
+              ], 
+              [
+                -77.119, 
+                -12.008
+              ], 
+              [
+                -77.119, 
+                -12.008
+              ], 
+              [
+                -77.118, 
+                -12.010
+              ], 
+              [
+                -77.112, 
+                -12.015
+              ], 
+              [
+                -77.110, 
+                -12.016
+              ], 
+              [
+                -77.102, 
+                -12.019
+              ], 
+              [
+                -77.100, 
+                -12.022
+              ], 
+              [
+                -77.098, 
+                -12.025
+              ], 
+              [
+                -77.098, 
+                -12.026
+              ], 
+              [
+                -77.102, 
+                -12.031
+              ], 
+              [
+                -77.108, 
+                -12.033
+              ], 
+              [
+                -77.108, 
+                -12.032
+              ], 
+              [
+                -77.117, 
+                -12.028
+              ], 
+              [
+                -77.123, 
+                -12.027
+              ], 
+              [
+                -77.134, 
+                -12.027
+              ], 
+              [
+                -77.141, 
+                -12.034
+              ], 
+              [
+                -77.142, 
+                -12.037
+              ], 
+              [
+                -77.142, 
+                -12.038
+              ], 
+              [
+                -77.143, 
+                -12.037
+              ]
             ]
           ]
         ]
@@ -32,23 +122,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 23388342, 
-        "name": "Jorge Chavez Airport", 
         "alias_ENG_V": [
           "Jorge Chavez International Airport"
         ], 
-        "ne_latitude": -12.011, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -77.096, 
-        "longitude": -77.108, 
-        "placetype": "Airport", 
+        "name": "Jorge Chavez Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26805916", 
+          "woe:state=2346474", 
+          "woe:country=23424919", 
+          "woe:planet=1"
+        ], 
+        "woeid": 23388342, 
+        "ne_longitude": -77.098, 
+        "longitude": -77.117, 
+        "parent_woeid": 26805916, 
+        "ne_latitude": -12.007, 
         "iso": "PE", 
-        "date_indexed": "2010-12-02T16:12:16Z", 
-        "parent_woeid": 419381, 
-        "latitude": -12.023, 
-        "sw_longitude": -77.120, 
-        "fullname": "Jorge Chavez Airport, Ventanilla, Provincia Constitucional del Callao, Provincia Constitucional del Callao, Peru", 
-        "sw_latitude": -12.034
+        "sw_latitude": -12.038, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": -12.022, 
+        "sw_longitude": -77.143, 
+        "fullname": "Jorge Chavez Airport, Ventanilla, Provincia Constitucional del Callao, Peru", 
+        "date_indexed": "2010-12-02T16:12:16Z"
       }, 
       "id": 23388342
     }

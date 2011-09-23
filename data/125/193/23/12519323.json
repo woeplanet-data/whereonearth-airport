@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519323, 
-        "name": "Corporate Airport", 
         "alias_ENG_V": [
           "6j0"
         ], 
-        "ne_latitude": 33.804, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Corporate Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589831", 
+          "woe:state=2347599", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519323, 
         "ne_longitude": -81.243, 
         "longitude": -81.248, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589831, 
+        "ne_latitude": 33.804, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2470037, 
+        "sw_latitude": 33.786, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 33.790, 
         "sw_longitude": -81.251, 
-        "fullname": "Corporate Airport, Pelion, South Carolina, Lexington, United States", 
-        "sw_latitude": 33.786
+        "fullname": "Corporate Airport, Pelion, South Carolina, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519323
     }

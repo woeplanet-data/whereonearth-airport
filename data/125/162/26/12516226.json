@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516226, 
+        "placetype": "airport", 
         "name": "Kortheros Airport", 
-        "ne_latitude": 61.807, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597447", 
+          "woe:state=2346874", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516226, 
         "ne_longitude": 51.549, 
         "longitude": 51.539, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597447, 
+        "ne_latitude": 61.807, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2026374, 
+        "sw_latitude": 61.798, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 61.803, 
         "sw_longitude": 51.529, 
-        "fullname": "Kortheros Airport, Kortkeros, Komi, Kortkerossky, Russia", 
-        "sw_latitude": 61.798
+        "fullname": "Kortheros Airport, Kortkeros, Komi, Russia", 
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516226
     }

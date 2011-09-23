@@ -32,29 +32,35 @@
       "type": "Feature", 
       "properties": {
         "lang": "JPN", 
-        "woeid": 12513993, 
-        "name": "\u9577\u5d0e\u7a7a\u6e2f", 
         "alias_ENG_V": [
           "NGS Airport"
         ], 
+        "name": "\u9577\u5d0e\u7a7a\u6e2f", 
         "alias_ENG_P": [
           "Nagasaki Airport"
         ], 
-        "ne_latitude": 32.919, 
+        "parent_woeid": 2345876, 
+        "woeid": 12513993, 
+        "provider": "geoplanet 7.6.0", 
         "alias_JPN_V": [
           "\u30ca\u30ac\u30b5\u30ad\u30af\u30a6\u30b3\u30a6"
         ], 
-        "ne_longitude": 129.922, 
         "longitude": 129.917, 
-        "parent_woeid": 1117989, 
-        "placetype": "Airport", 
+        "ne_longitude": 129.922, 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2345876", 
+          "woe:country=23424856", 
+          "woe:planet=1"
+        ], 
         "iso": "JP", 
-        "date_indexed": "2010-12-02T08:09:08Z", 
-        "provider": "geoplanet 7.6.0", 
+        "sw_latitude": 32.910, 
+        "ne_latitude": 32.919, 
         "latitude": 32.914, 
         "sw_longitude": 129.911, 
         "fullname": "\u9577\u5d0e\u7a7a\u6e2f, Omura-shi, Nagasaki Prefecture, Japan", 
-        "sw_latitude": 32.910
+        "iata_code": "NGS", 
+        "date_indexed": "2010-12-02T08:09:08Z"
       }, 
       "id": 12513993
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521879, 
+        "placetype": "airport", 
         "name": "Skylake Airport", 
-        "ne_latitude": 30.000, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12590107", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521879, 
         "ne_longitude": -95.930, 
         "longitude": -95.930, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590107, 
+        "ne_latitude": 30.000, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2513657, 
+        "sw_latitude": 29.987, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 29.994, 
         "sw_longitude": -95.931, 
-        "fullname": "Skylake Airport, Waller, Texas, Harris, United States", 
-        "sw_latitude": 29.987
+        "fullname": "Skylake Airport, Waller, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521879
     }

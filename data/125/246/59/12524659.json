@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524659, 
-        "name": "Deering Airport", 
         "alias_ENG_V": [
           "DRG"
         ], 
-        "ne_latitude": 66.088, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Deering Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587571", 
+          "woe:state=2347560", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524659, 
         "ne_longitude": -162.756, 
         "longitude": -162.767, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587571, 
+        "ne_latitude": 66.088, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2390553, 
+        "sw_latitude": 66.079, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 66.083, 
         "sw_longitude": -162.778, 
-        "fullname": "Deering Airport, Deering, Alaska, Northwest Arctic Borough, United States", 
-        "sw_latitude": 66.079
+        "fullname": "Deering Airport, Deering, Alaska, United States", 
+        "iata_code": "DRG", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12524659
     }

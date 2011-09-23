@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514384, 
+        "placetype": "airport", 
         "name": "Koktal Southwest Airport", 
-        "ne_latitude": 43.214, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345983", 
+          "woe:country=23424871", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514384, 
         "ne_longitude": 69.960, 
         "longitude": 69.953, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345983, 
+        "ne_latitude": 43.214, 
         "iso": "KZ", 
-        "date_indexed": "2010-12-02T08:54:13Z", 
-        "parent_woeid": 2265067, 
+        "sw_latitude": 43.205, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.210, 
         "sw_longitude": 69.947, 
         "fullname": "Koktal Southwest Airport, Zhanatas, Zhambyl, Kazakhstan", 
-        "sw_latitude": 43.205
+        "date_indexed": "2010-12-02T08:54:13Z"
       }, 
       "id": 12514384
     }

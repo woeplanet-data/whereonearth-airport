@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523461, 
-        "name": "Aishalton Airport", 
         "alias_ENG_V": [
           "AHL"
         ], 
-        "ne_latitude": 2.521, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Aishalton Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2345612", 
+          "woe:country=23424836", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523461, 
         "ne_longitude": -59.245, 
         "longitude": -59.250, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345612, 
+        "ne_latitude": 2.521, 
         "iso": "GY", 
-        "date_indexed": "2010-12-02T16:33:25Z", 
-        "parent_woeid": 376523, 
+        "sw_latitude": 2.512, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 2.517, 
         "sw_longitude": -59.255, 
         "fullname": "Aishalton Airport, Upper Takutu-Upper Essequibo, Guyana", 
-        "sw_latitude": 2.512
+        "iata_code": "AHL", 
+        "date_indexed": "2010-12-02T16:33:25Z"
       }, 
       "id": 12523461
     }

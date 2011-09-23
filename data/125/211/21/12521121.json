@@ -3,28 +3,78 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -80.960, 
-              29.045
-            ], 
-            [
-              -80.960, 
-              29.064
-            ], 
-            [
-              -80.936, 
-              29.064
-            ], 
-            [
-              -80.936, 
-              29.045
-            ], 
-            [
-              -80.960, 
-              29.045
+              [
+                -80.937, 
+                29.048
+              ], 
+              [
+                -80.936, 
+                29.049
+              ], 
+              [
+                -80.936, 
+                29.043
+              ], 
+              [
+                -80.937, 
+                29.044
+              ], 
+              [
+                -80.940, 
+                29.047
+              ], 
+              [
+                -80.943, 
+                29.049
+              ], 
+              [
+                -80.944, 
+                29.053
+              ], 
+              [
+                -80.951, 
+                29.053
+              ], 
+              [
+                -80.945, 
+                29.056
+              ], 
+              [
+                -80.943, 
+                29.056
+              ], 
+              [
+                -80.942, 
+                29.056
+              ], 
+              [
+                -80.943, 
+                29.049
+              ], 
+              [
+                -80.940, 
+                29.047
+              ], 
+              [
+                -80.937, 
+                29.044
+              ], 
+              [
+                -80.936, 
+                29.043
+              ], 
+              [
+                -80.936, 
+                29.049
+              ], 
+              [
+                -80.937, 
+                29.048
+              ]
             ]
           ]
         ]
@@ -32,23 +82,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521121, 
-        "name": "New Smyrna Beach Municipal Airport", 
         "alias_ENG_V": [
           "Evb"
         ], 
-        "ne_latitude": 29.064, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "New Smyrna Beach Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587866", 
+          "woe:state=2347568", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521121, 
         "ne_longitude": -80.936, 
-        "longitude": -80.937, 
-        "placetype": "Airport", 
+        "longitude": -80.945, 
+        "parent_woeid": 12587866, 
+        "ne_latitude": 29.056, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2458993, 
-        "latitude": 29.048, 
-        "sw_longitude": -80.960, 
-        "fullname": "New Smyrna Beach Municipal Airport, New Smyrna Beach, Florida, Volusia, United States", 
-        "sw_latitude": 29.045
+        "sw_latitude": 29.043, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 29.054, 
+        "sw_longitude": -80.951, 
+        "fullname": "New Smyrna Beach Municipal Airport, New Smyrna Beach, Florida, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12521121
     }

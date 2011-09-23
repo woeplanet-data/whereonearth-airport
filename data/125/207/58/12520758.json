@@ -3,28 +3,42 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -123.230, 
-              44.106
-            ], 
-            [
-              -123.230, 
-              44.143
-            ], 
-            [
-              -123.200, 
-              44.143
-            ], 
-            [
-              -123.200, 
-              44.106
-            ], 
-            [
-              -123.230, 
-              44.106
+              [
+                -123.213, 
+                44.118
+              ], 
+              [
+                -123.215, 
+                44.119
+              ], 
+              [
+                -123.214, 
+                44.120
+              ], 
+              [
+                -123.214, 
+                44.120
+              ], 
+              [
+                -123.213, 
+                44.120
+              ], 
+              [
+                -123.211, 
+                44.119
+              ], 
+              [
+                -123.211, 
+                44.119
+              ], 
+              [
+                -123.213, 
+                44.118
+              ]
             ]
           ]
         ]
@@ -32,23 +46,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520758, 
-        "name": "Eugene Airport-Mahlon Sweet Field", 
         "alias_ENG_V": [
           "EUG"
         ], 
-        "ne_latitude": 44.143, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -123.200, 
+        "name": "Eugene Airport-Mahlon Sweet Field", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:suburb=55858845", 
+          "woe:county=12589711", 
+          "woe:state=2347596", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520758, 
+        "ne_longitude": -123.211, 
         "longitude": -123.213, 
-        "placetype": "Airport", 
-        "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
         "parent_woeid": 55858845, 
-        "latitude": 44.118, 
-        "sw_longitude": -123.230, 
-        "fullname": "Eugene Airport-Mahlon Sweet Field, Eugene, Oregon, Lane, United States", 
-        "sw_latitude": 44.106
+        "ne_latitude": 44.120, 
+        "iso": "US", 
+        "sw_latitude": 44.118, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 44.119, 
+        "sw_longitude": -123.215, 
+        "fullname": "Eugene Airport-Mahlon Sweet Field, Eugene, Oregon, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12520758
     }

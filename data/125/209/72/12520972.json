@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520972, 
-        "name": "Mission Sioux Airport", 
         "alias_ENG_V": [
           "0v6"
         ], 
-        "ne_latitude": 43.310, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Mission Sioux Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589905", 
+          "woe:state=2347600", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520972, 
         "ne_longitude": -100.624, 
         "longitude": -100.629, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589905, 
+        "ne_latitude": 43.310, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2354997, 
+        "sw_latitude": 43.304, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.306, 
         "sw_longitude": -100.635, 
-        "fullname": "Mission Sioux Airport, Antelope, South Dakota, Todd, United States", 
-        "sw_latitude": 43.304
+        "fullname": "Mission Sioux Airport, Antelope, South Dakota, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520972
     }

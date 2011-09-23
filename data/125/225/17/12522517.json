@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522517, 
-        "name": "Wrangell Airport", 
         "alias_ENG_V": [
           "WRG"
         ], 
-        "ne_latitude": 56.489, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Wrangell Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55999798", 
+          "woe:state=2347560", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522517, 
         "ne_longitude": -132.358, 
         "longitude": -132.380, 
-        "placetype": "Airport", 
+        "parent_woeid": 55999798, 
+        "ne_latitude": 56.489, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2524059, 
+        "sw_latitude": 56.480, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 56.485, 
         "sw_longitude": -132.384, 
-        "fullname": "Wrangell Airport, Wrangell, Alaska, City and Borough of Wrangell, United States", 
-        "sw_latitude": 56.480
+        "fullname": "Wrangell Airport, Wrangell, Alaska, United States", 
+        "iata_code": "WRG", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522517
     }

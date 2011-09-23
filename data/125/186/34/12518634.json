@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518634, 
-        "name": "Anson County Airport", 
         "alias_ENG_V": [
           "Afp"
         ], 
-        "ne_latitude": 35.029, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Anson County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589377", 
+          "woe:state=2347592", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518634, 
         "ne_longitude": -80.073, 
         "longitude": -80.080, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589377, 
+        "ne_latitude": 35.029, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2472922, 
+        "sw_latitude": 35.019, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.020, 
         "sw_longitude": -80.084, 
-        "fullname": "Anson County Airport, Pinkston, North Carolina, Anson, United States", 
-        "sw_latitude": 35.019
+        "fullname": "Anson County Airport, Pinkston, North Carolina, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518634
     }

@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517476, 
+        "placetype": "airport", 
         "name": "Secunda Airport", 
-        "ne_latitude": -26.522, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=56189620", 
+          "woe:county=56189441", 
+          "woe:state=2346983", 
+          "woe:country=23424942", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517476, 
         "ne_longitude": 29.169, 
         "longitude": 29.164, 
-        "placetype": "Airport", 
+        "parent_woeid": 56189620, 
+        "ne_latitude": -26.522, 
         "iso": "ZA", 
-        "date_indexed": "2010-12-02T08:57:52Z", 
-        "parent_woeid": 1587271, 
+        "sw_latitude": -26.531, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -26.527, 
         "sw_longitude": 29.159, 
-        "fullname": "Secunda Airport, Secunda, Mpumalanga, Secunda, South Africa", 
-        "sw_latitude": -26.531
+        "fullname": "Secunda Airport, Secunda, Mpumalanga, South Africa", 
+        "date_indexed": "2010-12-02T08:57:52Z"
       }, 
       "id": 12517476
     }

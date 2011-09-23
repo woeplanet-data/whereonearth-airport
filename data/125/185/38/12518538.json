@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518538, 
+        "placetype": "airport", 
         "name": "Air Park Dallas", 
-        "ne_latitude": 33.028, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12590067", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518538, 
         "ne_longitude": -96.831, 
         "longitude": -96.837, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590067, 
+        "ne_latitude": 33.028, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:15Z", 
-        "parent_woeid": 2419557, 
+        "sw_latitude": 33.019, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 33.023, 
         "sw_longitude": -96.842, 
-        "fullname": "Air Park Dallas, Hebron, Texas, Denton, United States", 
-        "sw_latitude": 33.019
+        "fullname": "Air Park Dallas, Hebron, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:15Z"
       }, 
       "id": 12518538
     }

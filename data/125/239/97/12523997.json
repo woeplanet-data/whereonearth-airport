@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523997, 
-        "name": "Sywell Airport", 
         "alias_ENG_V": [
           "ORM"
         ], 
-        "ne_latitude": 52.305, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Sywell Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=12696036", 
+          "woe:county=12602146", 
+          "woe:state=24554868", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523997, 
         "ne_longitude": -0.776, 
         "longitude": -0.783, 
-        "placetype": "Airport", 
+        "parent_woeid": 12696036, 
+        "ne_latitude": 52.305, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:21:01Z", 
-        "parent_woeid": 28600, 
+        "sw_latitude": 52.295, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 52.300, 
         "sw_longitude": -0.791, 
-        "fullname": "Sywell Airport, Mears Ashby, England, Northamptonshire, United Kingdom", 
-        "sw_latitude": 52.295
+        "fullname": "Sywell Airport, Mears Ashby, England, United Kingdom", 
+        "iata_code": "ORM", 
+        "date_indexed": "2010-12-02T12:21:01Z"
       }, 
       "id": 12523997
     }

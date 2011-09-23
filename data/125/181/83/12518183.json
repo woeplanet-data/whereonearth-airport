@@ -3,28 +3,74 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -2.645, 
-              51.009
-            ], 
-            [
-              -2.645, 
-              51.018
-            ], 
-            [
-              -2.631, 
-              51.018
-            ], 
-            [
-              -2.631, 
-              51.009
-            ], 
-            [
-              -2.645, 
-              51.009
+              [
+                -2.639, 
+                51.013
+              ], 
+              [
+                -2.635, 
+                51.014
+              ], 
+              [
+                -2.635, 
+                51.014
+              ], 
+              [
+                -2.634, 
+                51.014
+              ], 
+              [
+                -2.634, 
+                51.014
+              ], 
+              [
+                -2.634, 
+                51.014
+              ], 
+              [
+                -2.628, 
+                51.014
+              ], 
+              [
+                -2.629, 
+                51.013
+              ], 
+              [
+                -2.634, 
+                51.009
+              ], 
+              [
+                -2.636, 
+                51.004
+              ], 
+              [
+                -2.638, 
+                51.009
+              ], 
+              [
+                -2.640, 
+                51.010
+              ], 
+              [
+                -2.643, 
+                51.010
+              ], 
+              [
+                -2.641, 
+                51.013
+              ], 
+              [
+                -2.639, 
+                51.013
+              ], 
+              [
+                -2.639, 
+                51.013
+              ]
             ]
           ]
         ]
@@ -32,23 +78,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518183, 
-        "name": "Yeovilton Airport", 
         "alias_ENG_V": [
           "YEO"
         ], 
-        "ne_latitude": 51.018, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -2.631, 
-        "longitude": -2.638, 
-        "placetype": "Airport", 
+        "name": "Yeovilton Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=12696069", 
+          "woe:county=12602185", 
+          "woe:state=24554868", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518183, 
+        "ne_longitude": -2.628, 
+        "longitude": -2.636, 
+        "parent_woeid": 12696069, 
+        "ne_latitude": 51.014, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:21:01Z", 
-        "parent_woeid": 35466, 
-        "latitude": 51.014, 
-        "sw_longitude": -2.645, 
-        "fullname": "Yeovilton Airport, Speckington, England, Somerset, United Kingdom", 
-        "sw_latitude": 51.009
+        "sw_latitude": 51.004, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 51.011, 
+        "sw_longitude": -2.643, 
+        "fullname": "Yeovilton Airport, Speckington, England, United Kingdom", 
+        "iata_code": "YEO", 
+        "date_indexed": "2010-12-02T12:21:01Z"
       }, 
       "id": 12518183
     }

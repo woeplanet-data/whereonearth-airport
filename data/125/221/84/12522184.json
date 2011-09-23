@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522184, 
+        "placetype": "airport", 
         "name": "Trego Wakeeney Airport", 
-        "ne_latitude": 39.009, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12588468", 
+          "woe:state=2347575", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522184, 
         "ne_longitude": -99.887, 
         "longitude": -99.893, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588468, 
+        "ne_latitude": 39.009, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2513231, 
+        "sw_latitude": 39.000, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 39.004, 
         "sw_longitude": -99.898, 
-        "fullname": "Trego Wakeeney Airport, Wakeeney, Kansas, Trego, United States", 
-        "sw_latitude": 39.000
+        "fullname": "Trego Wakeeney Airport, Wakeeney, Kansas, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12522184
     }

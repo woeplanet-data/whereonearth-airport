@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388379, 
-        "name": "Buffalo Lancaster Airport", 
         "alias_ENG_V": [
           "D77"
         ], 
-        "ne_latitude": 42.924, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Buffalo Lancaster Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589326", 
+          "woe:state=2347591", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388379, 
         "ne_longitude": -78.606, 
         "longitude": -78.611, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589326, 
+        "ne_latitude": 42.924, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2436069, 
+        "sw_latitude": 42.921, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.923, 
         "sw_longitude": -78.618, 
-        "fullname": "Buffalo Lancaster Airport, Lancaster, New York, Erie, United States", 
-        "sw_latitude": 42.921
+        "fullname": "Buffalo Lancaster Airport, Lancaster, New York, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388379
     }

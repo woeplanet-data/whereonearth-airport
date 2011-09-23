@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521913, 
-        "name": "South St Paul Municipal Airport", 
         "alias_ENG_V": [
           "S St Paul Municipal Airport"
         ], 
-        "ne_latitude": 44.864, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "South St Paul Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588815", 
+          "woe:state=2347582", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521913, 
         "ne_longitude": -93.025, 
         "longitude": -93.030, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588815, 
+        "ne_latitude": 44.864, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2496716, 
+        "sw_latitude": 44.848, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.862, 
         "sw_longitude": -93.038, 
-        "fullname": "South St Paul Municipal Airport, South St. Paul, Minnesota, Dakota, United States", 
-        "sw_latitude": 44.848
+        "fullname": "South St Paul Municipal Airport, South St. Paul, Minnesota, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521913
     }

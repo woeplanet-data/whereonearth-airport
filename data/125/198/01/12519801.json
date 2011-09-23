@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519801, 
+        "placetype": "airport", 
         "name": "Franklin County Airport", 
-        "ne_latitude": 33.220, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12590086", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519801, 
         "ne_longitude": -95.232, 
         "longitude": -95.238, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590086, 
+        "ne_latitude": 33.220, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2455565, 
+        "sw_latitude": 33.211, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 33.216, 
         "sw_longitude": -95.243, 
-        "fullname": "Franklin County Airport, Mount Vernon, Texas, Franklin, United States", 
-        "sw_latitude": 33.211
+        "fullname": "Franklin County Airport, Mount Vernon, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12519801
     }

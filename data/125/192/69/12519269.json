@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519269, 
-        "name": "Cold Bay Airport", 
         "alias_ENG_V": [
           "CDB"
         ], 
-        "ne_latitude": 55.221, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Cold Bay Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587554", 
+          "woe:state=2347560", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519269, 
         "ne_longitude": -162.690, 
         "longitude": -162.705, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587554, 
+        "ne_latitude": 55.221, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2382705, 
+        "sw_latitude": 55.195, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 55.200, 
         "sw_longitude": -162.729, 
-        "fullname": "Cold Bay Airport, Cold Bay, Alaska, Aleutians East Borough, United States", 
-        "sw_latitude": 55.195
+        "fullname": "Cold Bay Airport, Cold Bay, Alaska, United States", 
+        "iata_code": "CDB", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519269
     }

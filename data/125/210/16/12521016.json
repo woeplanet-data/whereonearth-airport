@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521016, 
+        "placetype": "airport", 
         "name": "Moore Field Airport", 
-        "ne_latitude": 26.390, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12590114", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521016, 
         "ne_longitude": -98.333, 
         "longitude": -98.338, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590114, 
+        "ne_latitude": 26.390, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2380486, 
+        "sw_latitude": 26.381, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 26.385, 
         "sw_longitude": -98.343, 
-        "fullname": "Moore Field Airport, Citrus City, Texas, Hidalgo, United States", 
-        "sw_latitude": 26.381
+        "fullname": "Moore Field Airport, Citrus City, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521016
     }

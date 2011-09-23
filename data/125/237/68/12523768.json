@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523768, 
-        "name": "Yari Airport", 
         "alias_ENG_V": [
           "AYI"
         ], 
-        "ne_latitude": 2.088, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Yari Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26797318", 
+          "woe:state=2345065", 
+          "woe:country=23424787", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523768, 
         "ne_longitude": -78.612, 
         "longitude": -78.617, 
-        "placetype": "Airport", 
+        "parent_woeid": 26797318, 
+        "ne_latitude": 2.088, 
         "iso": "CO", 
-        "date_indexed": "2010-12-02T17:57:37Z", 
-        "parent_woeid": 420002, 
+        "sw_latitude": 2.079, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 2.083, 
         "sw_longitude": -78.621, 
         "fullname": "Yari Airport, Narino, Francisco Pizarro, Colombia", 
-        "sw_latitude": 2.079
+        "iata_code": "AYI", 
+        "date_indexed": "2010-12-02T17:57:37Z"
       }, 
       "id": 12523768
     }

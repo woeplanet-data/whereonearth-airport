@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520964, 
-        "name": "Mingo County Airport", 
         "alias_ENG_V": [
           "4i0"
         ], 
-        "ne_latitude": 37.689, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Mingo County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590508", 
+          "woe:state=2347607", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520964, 
         "ne_longitude": -82.255, 
         "longitude": -82.257, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590508, 
+        "ne_latitude": 37.689, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2520880, 
+        "sw_latitude": 37.686, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 37.688, 
         "sw_longitude": -82.259, 
-        "fullname": "Mingo County Airport, Williamson, West Virginia, Mingo, United States", 
-        "sw_latitude": 37.686
+        "fullname": "Mingo County Airport, Williamson, West Virginia, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12520964
     }

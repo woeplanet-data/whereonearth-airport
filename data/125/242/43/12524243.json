@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524243, 
-        "name": "Baker Lake Airport", 
         "alias_ENG_V": [
           "YBK Airport"
         ], 
-        "ne_latitude": 64.305, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Baker Lake Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375230", 
+          "woe:state=20069920", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524243, 
         "ne_longitude": -96.074, 
         "longitude": -96.085, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375230, 
+        "ne_latitude": 64.305, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 4306, 
+        "sw_latitude": 64.296, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 64.300, 
         "sw_longitude": -96.095, 
-        "fullname": "Baker Lake Airport, Baker Lake, Nunavut, Nunavut, Canada", 
-        "sw_latitude": 64.296
+        "fullname": "Baker Lake Airport, Baker Lake, Nunavut, Canada", 
+        "iata_code": "YBK", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12524243
     }

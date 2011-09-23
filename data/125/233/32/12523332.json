@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523332, 
-        "name": "Tamarindo Airport", 
         "alias_ENG_V": [
           "TNO"
         ], 
-        "ne_latitude": 10.938, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Tamarindo Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=26808975", 
+          "woe:county=26808861", 
+          "woe:state=2345082", 
+          "woe:country=23424791", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523332, 
         "ne_longitude": -85.462, 
         "longitude": -85.467, 
-        "placetype": "Airport", 
+        "parent_woeid": 26808975, 
+        "ne_latitude": 10.938, 
         "iso": "CR", 
-        "date_indexed": "2010-12-02T12:16:27Z", 
-        "parent_woeid": 58182, 
+        "sw_latitude": 10.929, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 10.933, 
         "sw_longitude": -85.471, 
         "fullname": "Tamarindo Airport, Guanacaste, Liberia, Costa Rica", 
-        "sw_latitude": 10.929
+        "iata_code": "TNO", 
+        "date_indexed": "2010-12-02T12:16:27Z"
       }, 
       "id": 12523332
     }

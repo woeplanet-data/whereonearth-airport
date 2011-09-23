@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513232, 
+        "placetype": "airport", 
         "name": "Schwarzheide Airport", 
-        "ne_latitude": 51.508, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12633392", 
+          "woe:county=12596972", 
+          "woe:state=2345491", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513232, 
         "ne_longitude": 13.823, 
         "longitude": 13.816, 
-        "placetype": "Airport", 
+        "parent_woeid": 12633392, 
+        "ne_latitude": 51.508, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 670544, 
+        "sw_latitude": 51.499, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.503, 
         "sw_longitude": 13.808, 
-        "fullname": "Schwarzheide Airport, Lauchhammer, Brandenburg, Oberspreewald-Lausitz, Germany", 
+        "fullname": "Schwarzheide Airport, Lauchhammer, Brandenburg, Germany", 
         "alias_GER_Q": [
           "Flughafen Schwarzheide"
         ], 
-        "sw_latitude": 51.499
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 12513232
     }

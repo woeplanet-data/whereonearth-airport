@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523974, 
-        "name": "The Blaye Airport", 
         "alias_ENG_V": [
           "ACI Airport"
         ], 
-        "ne_latitude": 49.712, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "The Blaye Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=23700854", 
+          "woe:county=23424827", 
+          "woe:state=24548836", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523974, 
         "ne_longitude": -2.206, 
         "longitude": -2.215, 
-        "placetype": "Airport", 
+        "parent_woeid": 23700854, 
+        "ne_latitude": 49.712, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:21:01Z", 
-        "parent_woeid": 538494, 
+        "sw_latitude": 49.703, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.709, 
         "sw_longitude": -2.226, 
-        "fullname": "The Blaye Airport, St. Anne, Channel Islands, Guernsey, United Kingdom", 
-        "sw_latitude": 49.703
+        "fullname": "The Blaye Airport, St. Anne, Channel Islands, United Kingdom", 
+        "iata_code": "ACI", 
+        "date_indexed": "2010-12-02T12:21:01Z"
       }, 
       "id": 12523974
     }

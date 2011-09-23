@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522640, 
+        "placetype": "airport", 
         "name": "Karakoy Southwest Airport", 
-        "ne_latitude": 40.819, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345982", 
+          "woe:country=23424871", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522640, 
         "ne_longitude": 68.162, 
         "longitude": 68.156, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345982, 
+        "ne_latitude": 40.819, 
         "iso": "KZ", 
-        "date_indexed": "2010-12-02T08:54:13Z", 
-        "parent_woeid": 2265125, 
+        "sw_latitude": 40.809, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.814, 
         "sw_longitude": 68.150, 
         "fullname": "Karakoy Southwest Airport, Dzhetysay, Ongtustik Qazaqstan, Kazakhstan", 
-        "sw_latitude": 40.809
+        "date_indexed": "2010-12-02T08:54:13Z"
       }, 
       "id": 12522640
     }

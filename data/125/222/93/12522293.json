@@ -3,28 +3,94 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -90.276, 
-              43.933
-            ], 
-            [
-              -90.276, 
-              43.949
-            ], 
-            [
-              -90.232, 
-              43.949
-            ], 
-            [
-              -90.232, 
-              43.933
-            ], 
-            [
-              -90.276, 
-              43.933
+              [
+                -90.263, 
+                43.939
+              ], 
+              [
+                -90.260, 
+                43.942
+              ], 
+              [
+                -90.261, 
+                43.939
+              ], 
+              [
+                -90.261, 
+                43.938
+              ], 
+              [
+                -90.263, 
+                43.936
+              ], 
+              [
+                -90.262, 
+                43.930
+              ], 
+              [
+                -90.264, 
+                43.927
+              ], 
+              [
+                -90.267, 
+                43.929
+              ], 
+              [
+                -90.268, 
+                43.929
+              ], 
+              [
+                -90.264, 
+                43.930
+              ], 
+              [
+                -90.263, 
+                43.936
+              ], 
+              [
+                -90.262, 
+                43.930
+              ], 
+              [
+                -90.264, 
+                43.927
+              ], 
+              [
+                -90.267, 
+                43.929
+              ], 
+              [
+                -90.268, 
+                43.929
+              ], 
+              [
+                -90.264, 
+                43.930
+              ], 
+              [
+                -90.263, 
+                43.936
+              ], 
+              [
+                -90.261, 
+                43.938
+              ], 
+              [
+                -90.261, 
+                43.939
+              ], 
+              [
+                -90.260, 
+                43.942
+              ], 
+              [
+                -90.263, 
+                43.939
+              ]
             ]
           ]
         ]
@@ -32,23 +98,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522293, 
-        "name": "Volk Field Airport", 
         "alias_ENG_V": [
           "VOK Airport"
         ], 
-        "ne_latitude": 43.949, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -90.232, 
-        "longitude": -90.262, 
-        "placetype": "Airport", 
+        "name": "Volk Field Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590562", 
+          "woe:state=2347608", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522293, 
+        "ne_longitude": -90.260, 
+        "longitude": -90.264, 
+        "parent_woeid": 12590562, 
+        "ne_latitude": 43.942, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2373813, 
-        "latitude": 43.935, 
-        "sw_longitude": -90.276, 
-        "fullname": "Volk Field Airport, Camp Douglas, Wisconsin, Juneau, United States", 
-        "sw_latitude": 43.933
+        "sw_latitude": 43.927, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 43.930, 
+        "sw_longitude": -90.268, 
+        "fullname": "Volk Field Airport, Camp Douglas, Wisconsin, United States", 
+        "iata_code": "VOK", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522293
     }

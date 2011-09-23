@@ -3,28 +3,86 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -89.085, 
-              30.395
-            ], 
-            [
-              -89.085, 
-              30.421
-            ], 
-            [
-              -89.058, 
-              30.421
-            ], 
-            [
-              -89.058, 
-              30.395
-            ], 
-            [
-              -89.085, 
-              30.395
+              [
+                -89.073, 
+                30.412
+              ], 
+              [
+                -89.074, 
+                30.410
+              ], 
+              [
+                -89.074, 
+                30.414
+              ], 
+              [
+                -89.075, 
+                30.416
+              ], 
+              [
+                -89.071, 
+                30.415
+              ], 
+              [
+                -89.066, 
+                30.416
+              ], 
+              [
+                -89.064, 
+                30.417
+              ], 
+              [
+                -89.061, 
+                30.421
+              ], 
+              [
+                -89.061, 
+                30.415
+              ], 
+              [
+                -89.063, 
+                30.411
+              ], 
+              [
+                -89.064, 
+                30.410
+              ], 
+              [
+                -89.064, 
+                30.406
+              ], 
+              [
+                -89.066, 
+                30.404
+              ], 
+              [
+                -89.065, 
+                30.406
+              ], 
+              [
+                -89.064, 
+                30.410
+              ], 
+              [
+                -89.065, 
+                30.414
+              ], 
+              [
+                -89.071, 
+                30.415
+              ], 
+              [
+                -89.072, 
+                30.413
+              ], 
+              [
+                -89.073, 
+                30.412
+              ]
             ]
           ]
         ]
@@ -32,23 +90,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520037, 
-        "name": "Gulfport Biloxi Regional Airport", 
         "alias_ENG_V": [
           "GPT Airport"
         ], 
+        "name": "Gulfport Biloxi Regional Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588907", 
+          "woe:state=2347583", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520037, 
+        "ne_longitude": -89.061, 
+        "longitude": -89.066, 
+        "parent_woeid": 12588907, 
         "ne_latitude": 30.421, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -89.058, 
-        "longitude": -89.072, 
-        "placetype": "Airport", 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2415563, 
-        "latitude": 30.413, 
-        "sw_longitude": -89.085, 
-        "fullname": "Gulfport Biloxi Regional Airport, Gulfport, Mississippi, Harrison, United States", 
-        "sw_latitude": 30.395
+        "sw_latitude": 30.404, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 30.414, 
+        "sw_longitude": -89.075, 
+        "fullname": "Gulfport Biloxi Regional Airport, Gulfport, Mississippi, United States", 
+        "iata_code": "GPT", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520037
     }

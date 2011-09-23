@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29387888, 
-        "name": "Stanley Airport", 
         "alias_ENG_V": [
           "2u7"
         ], 
-        "ne_latitude": 44.215, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Stanley Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588052", 
+          "woe:state=2347571", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29387888, 
         "ne_longitude": -114.931, 
         "longitude": -114.935, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588052, 
+        "ne_latitude": 44.215, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2498961, 
+        "sw_latitude": 44.202, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.211, 
         "sw_longitude": -114.938, 
-        "fullname": "Stanley Airport, Stanley, Idaho, Custer, United States", 
-        "sw_latitude": 44.202
+        "fullname": "Stanley Airport, Stanley, Idaho, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29387888
     }

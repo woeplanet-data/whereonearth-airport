@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512891, 
+        "placetype": "airport", 
         "name": "Domerat Airport", 
-        "ne_latitude": 46.357, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=22755043", 
+          "woe:county=12597131", 
+          "woe:state=7153310", 
+          "woe:country=23424819", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512891, 
         "ne_longitude": 2.578, 
         "longitude": 2.572, 
-        "placetype": "Airport", 
+        "parent_woeid": 22755043, 
+        "ne_latitude": 46.357, 
         "iso": "FR", 
-        "date_indexed": "2010-12-02T12:04:01Z", 
-        "parent_woeid": 20205124, 
+        "sw_latitude": 46.349, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.353, 
         "sw_longitude": 2.562, 
-        "fullname": "Domerat Airport, Ch\u00e2teaugay, Auvergne, Allier, France", 
-        "sw_latitude": 46.349
+        "fullname": "Domerat Airport, Ch\u00e2teaugay, Auvergne, France", 
+        "date_indexed": "2010-12-02T12:04:01Z"
       }, 
       "id": 12512891
     }

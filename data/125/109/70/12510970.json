@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510970, 
+        "placetype": "airport", 
         "name": "Mozyr Airport", 
-        "ne_latitude": 51.979, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2344831", 
+          "woe:country=23424765", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510970, 
         "ne_longitude": 29.179, 
         "longitude": 29.171, 
-        "placetype": "Airport", 
+        "parent_woeid": 2344831, 
+        "ne_latitude": 51.979, 
         "iso": "BY", 
-        "date_indexed": "2010-12-02T16:32:57Z", 
-        "parent_woeid": 826200, 
+        "sw_latitude": 51.970, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.974, 
         "sw_longitude": 29.164, 
         "fullname": "Mozyr Airport, Homyel'skaya Voblasts', Belarus", 
-        "sw_latitude": 51.970
+        "date_indexed": "2010-12-02T16:32:57Z"
       }, 
       "id": 12510970
     }

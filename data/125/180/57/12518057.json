@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518057, 
+        "placetype": "airport", 
         "name": "Charterhall Airport", 
-        "ne_latitude": 55.711, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12696186", 
+          "woe:county=12602209", 
+          "woe:state=12578048", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518057, 
         "ne_longitude": -2.368, 
         "longitude": -2.376, 
-        "placetype": "Airport", 
+        "parent_woeid": 12696186, 
+        "ne_latitude": 55.711, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:20:54Z", 
-        "parent_woeid": 20355, 
+        "sw_latitude": 55.702, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 55.707, 
         "sw_longitude": -2.384, 
-        "fullname": "Charterhall Airport, Fogo, Scotland, The Scottish Borders, United Kingdom", 
-        "sw_latitude": 55.702
+        "fullname": "Charterhall Airport, Fogo, Scotland, United Kingdom", 
+        "date_indexed": "2010-12-02T12:20:54Z"
       }, 
       "id": 12518057
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524511, 
-        "name": "San Jose del Guaviaro Airport", 
         "alias_ENG_V": [
           "SJE"
         ], 
-        "ne_latitude": 2.598, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "San Jose del Guaviaro Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26797661", 
+          "woe:state=2345059", 
+          "woe:country=23424787", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524511, 
         "ne_longitude": -72.604, 
         "longitude": -72.608, 
-        "placetype": "Airport", 
+        "parent_woeid": 26797661, 
+        "ne_latitude": 2.598, 
         "iso": "CO", 
-        "date_indexed": "2010-12-02T17:57:37Z", 
-        "parent_woeid": 368571, 
+        "sw_latitude": 2.589, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 2.593, 
         "sw_longitude": -72.613, 
-        "fullname": "San Jose del Guaviaro Airport, San Jose del Guavuare, Guavaire, San Jose del Guaviare, Colombia", 
-        "sw_latitude": 2.589
+        "fullname": "San Jose del Guaviaro Airport, San Jose del Guavuare, Guavaire, Colombia", 
+        "iata_code": "SJE", 
+        "date_indexed": "2010-12-02T17:57:37Z"
       }, 
       "id": 12524511
     }

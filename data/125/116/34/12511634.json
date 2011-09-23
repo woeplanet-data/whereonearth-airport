@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511634, 
-        "name": "Debert Airport", 
         "alias_ENG_V": [
           "XLZ"
         ], 
-        "ne_latitude": 45.429, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Debert Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375102", 
+          "woe:state=2344921", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511634, 
         "ne_longitude": -63.449, 
         "longitude": -63.468, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375102, 
+        "ne_latitude": 45.429, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:24:00Z", 
-        "parent_woeid": 376, 
+        "sw_latitude": 45.409, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.421, 
         "sw_longitude": -63.477, 
-        "fullname": "Debert Airport, Debert, Nova Scotia, Colchester, Canada", 
-        "sw_latitude": 45.409
+        "fullname": "Debert Airport, Debert, Nova Scotia, Canada", 
+        "date_indexed": "2010-12-02T10:24:00Z"
       }, 
       "id": 12511634
     }

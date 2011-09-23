@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519236, 
-        "name": "Cleveland Municipal Airport", 
         "alias_ENG_V": [
           "6r3"
         ], 
-        "ne_latitude": 30.362, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Cleveland Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590152", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519236, 
         "ne_longitude": -94.998, 
         "longitude": -95.003, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590152, 
+        "ne_latitude": 30.362, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:15Z", 
-        "parent_woeid": 2381470, 
+        "sw_latitude": 30.354, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 30.358, 
         "sw_longitude": -95.008, 
-        "fullname": "Cleveland Municipal Airport, Cleveland, Texas, Liberty, United States", 
-        "sw_latitude": 30.354
+        "fullname": "Cleveland Municipal Airport, Cleveland, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:15Z"
       }, 
       "id": 12519236
     }

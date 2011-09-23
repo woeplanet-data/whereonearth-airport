@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511857, 
+        "placetype": "airport", 
         "name": "Stettler Airport", 
-        "ne_latitude": 52.315, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=29375228", 
+          "woe:state=2344915", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511857, 
         "ne_longitude": -112.746, 
         "longitude": -112.753, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375228, 
+        "ne_latitude": 52.315, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 8561, 
+        "sw_latitude": 52.305, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 52.310, 
         "sw_longitude": -112.761, 
-        "fullname": "Stettler Airport, Warden, Alberta, Alberta, Canada", 
-        "sw_latitude": 52.305
+        "fullname": "Stettler Airport, Warden, Alberta, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12511857
     }

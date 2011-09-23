@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29387984, 
+        "placetype": "airport", 
         "name": "Newell Airfield", 
-        "ne_latitude": 44.722, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12589854", 
+          "woe:state=2347600", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29387984, 
         "ne_longitude": -103.417, 
         "longitude": -103.420, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589854, 
+        "ne_latitude": 44.722, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2459417, 
+        "sw_latitude": 44.718, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.720, 
         "sw_longitude": -103.422, 
-        "fullname": "Newell Airfield, Newell, South Dakota, Butte, United States", 
-        "sw_latitude": 44.718
+        "fullname": "Newell Airfield, Newell, South Dakota, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 29387984
     }

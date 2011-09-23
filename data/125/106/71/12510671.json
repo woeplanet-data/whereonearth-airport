@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510671, 
+        "placetype": "airport", 
         "name": "Gayndah Airport", 
-        "ne_latitude": -25.611, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=56072994", 
+          "woe:state=2344702", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510671, 
         "ne_longitude": 151.628, 
         "longitude": 151.623, 
-        "placetype": "Airport", 
+        "parent_woeid": 56072994, 
+        "ne_latitude": -25.611, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1102167, 
+        "sw_latitude": -25.620, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -25.615, 
         "sw_longitude": 151.618, 
-        "fullname": "Gayndah Airport, Gayndah, Queensland, Gayndah, Australia", 
-        "sw_latitude": -25.620
+        "fullname": "Gayndah Airport, Gayndah, Queensland, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 12510671
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511752, 
-        "name": "Mingan Airport", 
         "alias_ENG_V": [
           "YLP Airport"
         ], 
-        "ne_latitude": 50.295, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Mingan Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375255", 
+          "woe:state=2344924", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511752, 
         "ne_longitude": -64.148, 
         "longitude": -64.156, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375255, 
+        "ne_latitude": 50.295, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 898, 
+        "sw_latitude": 50.285, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.290, 
         "sw_longitude": -64.163, 
-        "fullname": "Mingan Airport, Longue-Pointe-de-Mingan, Quebec, Minganie, Canada", 
-        "sw_latitude": 50.285
+        "fullname": "Mingan Airport, Longue-Pointe-de-Mingan, Quebec, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12511752
     }

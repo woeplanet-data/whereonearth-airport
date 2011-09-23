@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511532, 
+        "placetype": "airport", 
         "name": "Troyanovo Airport", 
-        "ne_latitude": 42.575, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55873942", 
+          "woe:state=20070075", 
+          "woe:country=23424771", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511532, 
         "ne_longitude": 27.146, 
         "longitude": 27.140, 
-        "placetype": "Airport", 
+        "parent_woeid": 55873942, 
+        "ne_latitude": 42.575, 
         "iso": "BG", 
-        "date_indexed": "2010-12-02T16:14:37Z", 
-        "parent_woeid": 840223, 
+        "sw_latitude": 42.566, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.570, 
         "sw_longitude": 27.134, 
         "fullname": "Troyanovo Airport, Burgas, Kameno, Bulgaria", 
-        "sw_latitude": 42.566
+        "date_indexed": "2010-12-02T16:14:37Z"
       }, 
       "id": 12511532
     }

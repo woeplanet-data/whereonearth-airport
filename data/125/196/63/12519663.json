@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519663, 
+        "placetype": "airport", 
         "name": "Eufaula Municipal Airport", 
-        "ne_latitude": 35.300, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12589663", 
+          "woe:state=2347595", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519663, 
         "ne_longitude": -95.619, 
         "longitude": -95.625, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589663, 
+        "ne_latitude": 35.300, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:16Z", 
-        "parent_woeid": 2400528, 
+        "sw_latitude": 35.291, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.296, 
         "sw_longitude": -95.631, 
-        "fullname": "Eufaula Municipal Airport, Eufaula, Oklahoma, Mcintosh, United States", 
-        "sw_latitude": 35.291
+        "fullname": "Eufaula Municipal Airport, Eufaula, Oklahoma, United States", 
+        "date_indexed": "2010-12-02T18:39:16Z"
       }, 
       "id": 12519663
     }

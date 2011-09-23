@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521405, 
-        "name": "Placerville Airport", 
         "alias_ENG_V": [
           "PVF"
         ], 
-        "ne_latitude": 38.728, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Placerville Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587678", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521405, 
         "ne_longitude": -120.746, 
         "longitude": -120.763, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587678, 
+        "ne_latitude": 38.728, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2473310, 
+        "sw_latitude": 38.721, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.723, 
         "sw_longitude": -120.767, 
-        "fullname": "Placerville Airport, Placerville, California, El Dorado, United States", 
-        "sw_latitude": 38.721
+        "fullname": "Placerville Airport, Placerville, California, United States", 
+        "iata_code": "PVF", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521405
     }

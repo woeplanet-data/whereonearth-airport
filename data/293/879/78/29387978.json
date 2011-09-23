@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29387978, 
-        "name": "Wright Field", 
         "alias_ENG_V": [
           "Wright Field Airport"
         ], 
-        "ne_latitude": 48.192, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Wright Field", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589526", 
+          "woe:state=2347593", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29387978, 
         "ne_longitude": -103.620, 
         "longitude": -103.625, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589526, 
+        "ne_latitude": 48.192, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2521000, 
+        "sw_latitude": 48.187, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.189, 
         "sw_longitude": -103.629, 
-        "fullname": "Wright Field, Williston, North Dakota, Williams, United States", 
-        "sw_latitude": 48.187
+        "fullname": "Wright Field, Williston, North Dakota, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 29387978
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512732, 
+        "placetype": "airport", 
         "name": "Aste Airport", 
-        "ne_latitude": 58.374, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=29389876", 
+          "woe:state=2345286", 
+          "woe:country=23424805", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512732, 
         "ne_longitude": 22.465, 
         "longitude": 22.456, 
-        "placetype": "Airport", 
+        "parent_woeid": 29389876, 
+        "ne_latitude": 58.374, 
         "iso": "EE", 
-        "date_indexed": "2010-12-02T16:43:34Z", 
-        "parent_woeid": 842160, 
+        "sw_latitude": 58.365, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 58.369, 
         "sw_longitude": 22.448, 
         "fullname": "Aste Airport, Saare County, Kaarma Parish, Estonia", 
-        "sw_latitude": 58.365
+        "date_indexed": "2010-12-02T16:43:34Z"
       }, 
       "id": 12512732
     }

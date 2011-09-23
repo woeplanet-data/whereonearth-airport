@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517795, 
+        "placetype": "airport", 
         "name": "Yala Airport", 
-        "ne_latitude": 6.532, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=28341706", 
+          "woe:state=2347194", 
+          "woe:country=23424960", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517795, 
         "ne_longitude": 101.253, 
         "longitude": 101.249, 
-        "placetype": "Airport", 
+        "parent_woeid": 28341706, 
+        "ne_latitude": 6.532, 
         "iso": "TH", 
-        "date_indexed": "2010-12-02T17:05:34Z", 
-        "parent_woeid": 55945496, 
+        "sw_latitude": 6.523, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 6.528, 
         "sw_longitude": 101.244, 
-        "fullname": "Yala Airport, Tha Sap, Yala, Mueang Yala, Thailand", 
-        "sw_latitude": 6.523
+        "fullname": "Yala Airport, Tha Sap, Yala, Thailand", 
+        "date_indexed": "2010-12-02T17:05:34Z"
       }, 
       "id": 12517795
     }

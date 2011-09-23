@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512689, 
+        "placetype": "airport", 
         "name": "Gebel El Basur Airport", 
-        "ne_latitude": 30.548, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345231", 
+          "woe:country=23424802", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512689, 
         "ne_longitude": 30.584, 
         "longitude": 30.579, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345231, 
+        "ne_latitude": 30.548, 
         "iso": "EG", 
-        "date_indexed": "2010-12-02T12:16:51Z", 
-        "parent_woeid": 1526098, 
+        "sw_latitude": 30.539, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 30.543, 
         "sw_longitude": 30.573, 
         "fullname": "Gebel El Basur Airport, Madinat as Sadat, Al Buhayrah, Egypt", 
-        "sw_latitude": 30.539
+        "date_indexed": "2010-12-02T12:16:51Z"
       }, 
       "id": 12512689
     }

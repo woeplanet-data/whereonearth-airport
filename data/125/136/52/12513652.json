@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513652, 
+        "placetype": "airport", 
         "name": "Phaphamau Airport", 
-        "ne_latitude": 25.552, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12586715", 
+          "woe:state=2345760", 
+          "woe:country=23424848", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513652, 
         "ne_longitude": 81.894, 
         "longitude": 81.889, 
-        "placetype": "Airport", 
+        "parent_woeid": 12586715, 
+        "ne_latitude": 25.552, 
         "iso": "IN", 
-        "date_indexed": "2010-12-02T09:26:27Z", 
-        "parent_woeid": 29111543, 
+        "sw_latitude": 25.543, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 25.548, 
         "sw_longitude": 81.884, 
-        "fullname": "Phaphamau Airport, Jaitwardih, Uttar Pradesh, Allahabad, India", 
-        "sw_latitude": 25.543
+        "fullname": "Phaphamau Airport, Jaitwardih, Uttar Pradesh, India", 
+        "date_indexed": "2010-12-02T09:26:27Z"
       }, 
       "id": 12513652
     }

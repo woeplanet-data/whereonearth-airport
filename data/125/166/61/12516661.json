@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516661, 
+        "placetype": "airport", 
         "name": "Pavlovka Airport", 
-        "ne_latitude": 47.030, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599098", 
+          "woe:state=2346921", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516661, 
         "ne_longitude": 39.504, 
         "longitude": 39.497, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599098, 
+        "ne_latitude": 47.030, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2103322, 
+        "sw_latitude": 47.021, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.025, 
         "sw_longitude": 39.491, 
         "fullname": "Pavlovka Airport, Rostovskaya Oblast, Azovsky, Russia", 
-        "sw_latitude": 47.021
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516661
     }

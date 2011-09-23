@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521850, 
-        "name": "Sidney Richland Municipal Airport", 
         "alias_ENG_V": [
           "SDY Airport"
         ], 
-        "ne_latitude": 47.714, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Sidney Richland Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589122", 
+          "woe:state=2347585", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521850, 
         "ne_longitude": -104.178, 
         "longitude": -104.184, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589122, 
+        "ne_latitude": 47.714, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2493389, 
+        "sw_latitude": 47.696, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.711, 
         "sw_longitude": -104.203, 
-        "fullname": "Sidney Richland Municipal Airport, Sidney, Montana, Richland, United States", 
-        "sw_latitude": 47.696
+        "fullname": "Sidney Richland Municipal Airport, Sidney, Montana, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521850
     }

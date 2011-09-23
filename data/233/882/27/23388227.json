@@ -3,28 +3,58 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -104.687, 
-              50.417
-            ], 
-            [
-              -104.687, 
-              50.445
-            ], 
-            [
-              -104.642, 
-              50.445
-            ], 
-            [
-              -104.642, 
-              50.417
-            ], 
-            [
-              -104.687, 
-              50.417
+              [
+                -104.607, 
+                50.430
+              ], 
+              [
+                -104.605, 
+                50.431
+              ], 
+              [
+                -104.606, 
+                50.431
+              ], 
+              [
+                -104.607, 
+                50.431
+              ], 
+              [
+                -104.637, 
+                50.442
+              ], 
+              [
+                -104.644, 
+                50.436
+              ], 
+              [
+                -104.656, 
+                50.432
+              ], 
+              [
+                -104.659, 
+                50.435
+              ], 
+              [
+                -104.652, 
+                50.444
+              ], 
+              [
+                -104.637, 
+                50.442
+              ], 
+              [
+                -104.607, 
+                50.430
+              ], 
+              [
+                -104.607, 
+                50.430
+              ]
             ]
           ]
         ]
@@ -32,23 +62,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 23388227, 
-        "name": "Regina Airport", 
         "alias_ENG_V": [
           "YQR Airport"
         ], 
-        "ne_latitude": 50.445, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -104.642, 
-        "longitude": -104.656, 
-        "placetype": "Airport", 
+        "name": "Regina Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375232", 
+          "woe:state=2344925", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 23388227, 
+        "ne_longitude": -104.605, 
+        "longitude": -104.650, 
+        "parent_woeid": 29375232, 
+        "ne_latitude": 50.444, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 2512, 
-        "latitude": 50.434, 
-        "sw_longitude": -104.687, 
-        "fullname": "Regina Airport, Regina, Saskatchewan, Saskatchewan, Canada", 
-        "sw_latitude": 50.417
+        "sw_latitude": 50.430, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 50.438, 
+        "sw_longitude": -104.659, 
+        "fullname": "Regina Airport, Regina, Saskatchewan, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 23388227
     }

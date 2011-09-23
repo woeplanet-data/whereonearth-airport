@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518345, 
+        "placetype": "airport", 
         "name": "Markovtsy Airport", 
-        "ne_latitude": 48.873, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2347539", 
+          "woe:country=23424976", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518345, 
         "ne_longitude": 24.836, 
         "longitude": 24.829, 
-        "placetype": "Airport", 
+        "parent_woeid": 2347539, 
+        "ne_latitude": 48.873, 
         "iso": "UA", 
-        "date_indexed": "2010-12-02T08:52:33Z", 
-        "parent_woeid": 936652, 
+        "sw_latitude": 48.864, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.869, 
         "sw_longitude": 24.823, 
         "fullname": "Markovtsy Airport, Ivano-Frankivsk Oblast, Ukraine", 
-        "sw_latitude": 48.864
+        "date_indexed": "2010-12-02T08:52:33Z"
       }, 
       "id": 12518345
     }

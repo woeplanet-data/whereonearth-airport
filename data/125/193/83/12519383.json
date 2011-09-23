@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519383, 
-        "name": "Cumberland Municipal Airport", 
         "alias_ENG_V": [
           "UBE"
         ], 
-        "ne_latitude": 45.510, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Cumberland Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590536", 
+          "woe:state=2347608", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519383, 
         "ne_longitude": -91.971, 
         "longitude": -91.980, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590536, 
+        "ne_latitude": 45.510, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2388196, 
+        "sw_latitude": 45.502, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.510, 
         "sw_longitude": -91.992, 
-        "fullname": "Cumberland Municipal Airport, Cumberland, Wisconsin, Barron, United States", 
-        "sw_latitude": 45.502
+        "fullname": "Cumberland Municipal Airport, Cumberland, Wisconsin, United States", 
+        "iata_code": "UBE", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519383
     }

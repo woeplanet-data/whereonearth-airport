@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523318, 
-        "name": "Mulu Airport", 
         "alias_ENG_V": [
           "MZV"
         ], 
-        "ne_latitude": 4.038, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Mulu Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=56014346", 
+          "woe:county=56013598", 
+          "woe:state=2346305", 
+          "woe:country=23424901", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523318, 
         "ne_longitude": 114.805, 
         "longitude": 114.800, 
-        "placetype": "Airport", 
+        "parent_woeid": 56014346, 
+        "ne_latitude": 4.038, 
         "iso": "MY", 
-        "date_indexed": "2010-12-02T18:04:56Z", 
-        "parent_woeid": 1154866, 
+        "sw_latitude": 4.029, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 4.033, 
         "sw_longitude": 114.795, 
-        "fullname": "Mulu Airport, Long Terawan, Sarawak, Division Miri, Malaysia", 
-        "sw_latitude": 4.029
+        "fullname": "Mulu Airport, Long Terawan, Sarawak, Malaysia", 
+        "iata_code": "MZV", 
+        "date_indexed": "2010-12-02T18:04:56Z"
       }, 
       "id": 12523318
     }

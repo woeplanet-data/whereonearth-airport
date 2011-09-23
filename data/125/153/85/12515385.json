@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515385, 
+        "placetype": "airport", 
         "name": "Sadkow Airport", 
-        "ne_latitude": 51.406, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12616706", 
+          "woe:county=12591297", 
+          "woe:state=12577941", 
+          "woe:country=23424923", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515385, 
         "ne_longitude": 21.220, 
         "longitude": 21.213, 
-        "placetype": "Airport", 
+        "parent_woeid": 12616706, 
+        "ne_latitude": 51.406, 
         "iso": "PL", 
-        "date_indexed": "2010-12-02T12:12:45Z", 
-        "parent_woeid": 517195, 
+        "sw_latitude": 51.397, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.402, 
         "sw_longitude": 21.206, 
         "fullname": "Sadkow Airport, Masovian, Radom County, Poland", 
-        "sw_latitude": 51.397
+        "date_indexed": "2010-12-02T12:12:45Z"
       }, 
       "id": 12515385
     }

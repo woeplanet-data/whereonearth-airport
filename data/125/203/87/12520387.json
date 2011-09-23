@@ -3,28 +3,30 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -94.909, 
-              38.814
-            ], 
-            [
-              -94.909, 
-              38.847
-            ], 
-            [
-              -94.871, 
-              38.847
-            ], 
-            [
-              -94.871, 
-              38.814
-            ], 
-            [
-              -94.909, 
-              38.814
+              [
+                -94.896, 
+                38.814
+              ], 
+              [
+                -94.896, 
+                38.814
+              ], 
+              [
+                -94.895, 
+                38.814
+              ], 
+              [
+                -94.896, 
+                38.814
+              ], 
+              [
+                -94.896, 
+                38.814
+              ]
             ]
           ]
         ]
@@ -32,23 +34,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520387, 
-        "name": "New Century Air Center Airport", 
         "alias_ENG_V": [
           "JCI Airport"
         ], 
-        "ne_latitude": 38.847, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -94.871, 
-        "longitude": -94.896, 
-        "placetype": "Airport", 
+        "name": "New Century Air Center Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588416", 
+          "woe:state=2347575", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520387, 
+        "ne_longitude": -94.895, 
+        "longitude": -94.895, 
+        "parent_woeid": 12588416, 
+        "ne_latitude": 38.814, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2458167, 
-        "latitude": 38.840, 
-        "sw_longitude": -94.909, 
-        "fullname": "New Century Air Center Airport, New Century, Kansas, Johnson, United States", 
-        "sw_latitude": 38.814
+        "sw_latitude": 38.814, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 38.814, 
+        "sw_longitude": -94.896, 
+        "fullname": "New Century Air Center Airport, New Century, Kansas, United States", 
+        "iata_code": "JCI", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520387
     }

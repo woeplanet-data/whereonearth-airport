@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524517, 
-        "name": "San Marcos Airport", 
         "alias_ENG_V": [
           "SRS"
         ], 
-        "ne_latitude": 8.688, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "San Marcos Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26797511", 
+          "woe:state=2345072", 
+          "woe:country=23424787", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524517, 
         "ne_longitude": -75.162, 
         "longitude": -75.167, 
-        "placetype": "Airport", 
+        "parent_woeid": 26797511, 
+        "ne_latitude": 8.688, 
         "iso": "CO", 
-        "date_indexed": "2010-12-02T17:57:37Z", 
-        "parent_woeid": 368398, 
+        "sw_latitude": 8.679, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 8.683, 
         "sw_longitude": -75.171, 
-        "fullname": "San Marcos Airport, San Marcos, Sucre, San Marcos, Colombia", 
-        "sw_latitude": 8.679
+        "fullname": "San Marcos Airport, San Marcos, Sucre, Colombia", 
+        "iata_code": "SRS", 
+        "date_indexed": "2010-12-02T17:57:37Z"
       }, 
       "id": 12524517
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517339, 
-        "name": "Hail Airport", 
         "alias_ENG_V": [
           "HAS"
         ], 
-        "ne_latitude": 27.463, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Hail Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=56120141", 
+          "woe:state=2346957", 
+          "woe:country=23424938", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517339, 
         "ne_longitude": 41.696, 
         "longitude": 41.691, 
-        "placetype": "Airport", 
+        "parent_woeid": 56120141, 
+        "ne_latitude": 27.463, 
         "iso": "SA", 
-        "date_indexed": "2010-12-02T09:34:42Z", 
-        "parent_woeid": 1939851, 
+        "sw_latitude": 27.416, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 27.439, 
         "sw_longitude": 41.671, 
-        "fullname": "Hail Airport, Ha'il, Hail, Hail, Saudi Arabia", 
-        "sw_latitude": 27.416
+        "fullname": "Hail Airport, Ha'il, Hail, Saudi Arabia", 
+        "iata_code": "HAS", 
+        "date_indexed": "2010-12-02T09:34:42Z"
       }, 
       "id": 12517339
     }

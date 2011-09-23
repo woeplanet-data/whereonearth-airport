@@ -3,28 +3,86 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -80.112, 
-              26.677
-            ], 
-            [
-              -80.112, 
-              26.694
-            ], 
-            [
-              -80.074, 
-              26.694
-            ], 
-            [
-              -80.074, 
-              26.677
-            ], 
-            [
-              -80.112, 
-              26.677
+              [
+                -80.076, 
+                26.692
+              ], 
+              [
+                -80.075, 
+                26.691
+              ], 
+              [
+                -80.080, 
+                26.688
+              ], 
+              [
+                -80.085, 
+                26.694
+              ], 
+              [
+                -80.089, 
+                26.690
+              ], 
+              [
+                -80.088, 
+                26.686
+              ], 
+              [
+                -80.086, 
+                26.683
+              ], 
+              [
+                -80.087, 
+                26.679
+              ], 
+              [
+                -80.092, 
+                26.683
+              ], 
+              [
+                -80.094, 
+                26.683
+              ], 
+              [
+                -80.095, 
+                26.685
+              ], 
+              [
+                -80.100, 
+                26.690
+              ], 
+              [
+                -80.096, 
+                26.691
+              ], 
+              [
+                -80.095, 
+                26.692
+              ], 
+              [
+                -80.089, 
+                26.692
+              ], 
+              [
+                -80.085, 
+                26.694
+              ], 
+              [
+                -80.079, 
+                26.691
+              ], 
+              [
+                -80.077, 
+                26.692
+              ], 
+              [
+                -80.076, 
+                26.692
+              ]
             ]
           ]
         ]
@@ -32,23 +90,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521288, 
-        "name": "Palm Beach International Airport", 
         "alias_ENG_V": [
           "PBI"
         ], 
-        "ne_latitude": 26.694, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -80.074, 
-        "longitude": -80.088, 
-        "placetype": "Airport", 
-        "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
+        "name": "Palm Beach International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:suburb=2467668", 
+          "woe:county=12587852", 
+          "woe:state=2347568", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521288, 
+        "ne_longitude": -80.075, 
+        "longitude": -80.090, 
         "parent_woeid": 2467668, 
-        "latitude": 26.691, 
-        "sw_longitude": -80.112, 
-        "fullname": "Palm Beach International Airport, West Palm Beach, Florida, Palm Beach, United States", 
-        "sw_latitude": 26.677
+        "ne_latitude": 26.694, 
+        "iso": "US", 
+        "sw_latitude": 26.679, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 26.688, 
+        "sw_longitude": -80.100, 
+        "fullname": "Palm Beach International Airport, West Palm Beach, Florida, United States", 
+        "iata_code": "PBI", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521288
     }

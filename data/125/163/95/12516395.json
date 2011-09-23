@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516395, 
+        "placetype": "airport", 
         "name": "Mama Airport", 
-        "ne_latitude": 58.329, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598270", 
+          "woe:state=2346896", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516395, 
         "ne_longitude": 112.880, 
         "longitude": 112.871, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598270, 
+        "ne_latitude": 58.329, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2124750, 
+        "sw_latitude": 58.320, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 58.325, 
         "sw_longitude": 112.863, 
-        "fullname": "Mama Airport, Mama, Irkutskaya Oblast, Mamsko-Chuysky, Russia", 
-        "sw_latitude": 58.320
+        "fullname": "Mama Airport, Mama, Irkutskaya Oblast, Russia", 
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516395
     }

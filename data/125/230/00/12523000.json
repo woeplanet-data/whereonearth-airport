@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523000, 
-        "name": "Al Gaidah Airport", 
         "alias_ENG_V": [
           "AAY"
         ], 
-        "ne_latitude": 16.199, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Al Gaidah Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=56189947", 
+          "woe:state=20070032", 
+          "woe:country=23425002", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523000, 
         "ne_longitude": 52.174, 
         "longitude": 52.169, 
-        "placetype": "Airport", 
+        "parent_woeid": 56189947, 
+        "ne_latitude": 16.199, 
         "iso": "YE", 
-        "date_indexed": "2010-12-02T16:39:41Z", 
-        "parent_woeid": 1956063, 
+        "sw_latitude": 16.190, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 16.195, 
         "sw_longitude": 52.165, 
         "fullname": "Al Gaidah Airport, Ghaidha, Al Mahrah, Yemen", 
-        "sw_latitude": 16.190
+        "iata_code": "AAY", 
+        "date_indexed": "2010-12-02T16:39:41Z"
       }, 
       "id": 12523000
     }

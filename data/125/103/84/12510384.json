@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510384, 
+        "placetype": "airport", 
         "name": "Lenkoran Airport", 
-        "ne_latitude": 38.744, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=20070262", 
+          "woe:country=23424741", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510384, 
         "ne_longitude": 48.833, 
         "longitude": 48.827, 
-        "placetype": "Airport", 
+        "parent_woeid": 20070262, 
+        "ne_latitude": 38.744, 
         "iso": "AZ", 
-        "date_indexed": "2010-12-02T08:58:35Z", 
-        "parent_woeid": 1949955, 
+        "sw_latitude": 38.735, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.740, 
         "sw_longitude": 48.821, 
         "fullname": "Lenkoran Airport, Lenkoran', Lankaran, Azerbaijan", 
-        "sw_latitude": 38.735
+        "date_indexed": "2010-12-02T08:58:35Z"
       }, 
       "id": 12510384
     }

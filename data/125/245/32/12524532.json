@@ -32,23 +32,28 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524532, 
-        "name": "Kato Airport", 
         "alias_ENG_V": [
           "KTO"
         ], 
-        "ne_latitude": 4.655, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Kato Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2345610", 
+          "woe:country=23424836", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524532, 
         "ne_longitude": -59.812, 
         "longitude": -59.817, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345610, 
+        "ne_latitude": 4.655, 
         "iso": "GY", 
-        "date_indexed": "2010-12-02T16:33:25Z", 
-        "parent_woeid": 376512, 
+        "sw_latitude": 4.645, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 4.650, 
         "sw_longitude": -59.821, 
         "fullname": "Kato Airport, Potaro-Siparuni, Guyana", 
-        "sw_latitude": 4.645
+        "date_indexed": "2010-12-02T16:33:25Z"
       }, 
       "id": 12524532
     }

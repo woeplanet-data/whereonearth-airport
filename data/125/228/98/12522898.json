@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522898, 
+        "placetype": "airport", 
         "name": "Dong Tre Airport", 
-        "ne_latitude": 13.309, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2347745", 
+          "woe:country=23424984", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522898, 
         "ne_longitude": 109.065, 
         "longitude": 109.061, 
-        "placetype": "Airport", 
+        "parent_woeid": 2347745, 
+        "ne_latitude": 13.309, 
         "iso": "VN", 
-        "date_indexed": "2010-12-02T08:52:49Z", 
-        "parent_woeid": 1252402, 
+        "sw_latitude": 13.299, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 13.304, 
         "sw_longitude": 109.056, 
         "fullname": "Dong Tre Airport, Phu Yen, Vietnam", 
-        "sw_latitude": 13.299
+        "date_indexed": "2010-12-02T08:52:49Z"
       }, 
       "id": 12522898
     }

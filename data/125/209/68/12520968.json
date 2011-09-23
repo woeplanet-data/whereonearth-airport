@@ -3,28 +3,106 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -101.302, 
-              48.248
-            ], 
-            [
-              -101.302, 
-              48.274
-            ], 
-            [
-              -101.264, 
-              48.274
-            ], 
-            [
-              -101.264, 
-              48.248
-            ], 
-            [
-              -101.302, 
-              48.248
+              [
+                -101.294, 
+                48.262
+              ], 
+              [
+                -101.297, 
+                48.258
+              ], 
+              [
+                -101.291, 
+                48.255
+              ], 
+              [
+                -101.290, 
+                48.251
+              ], 
+              [
+                -101.292, 
+                48.251
+              ], 
+              [
+                -101.294, 
+                48.249
+              ], 
+              [
+                -101.294, 
+                48.247
+              ], 
+              [
+                -101.297, 
+                48.248
+              ], 
+              [
+                -101.299, 
+                48.246
+              ], 
+              [
+                -101.301, 
+                48.247
+              ], 
+              [
+                -101.299, 
+                48.247
+              ], 
+              [
+                -101.297, 
+                48.251
+              ], 
+              [
+                -101.298, 
+                48.255
+              ], 
+              [
+                -101.301, 
+                48.259
+              ], 
+              [
+                -101.297, 
+                48.260
+              ], 
+              [
+                -101.295, 
+                48.262
+              ], 
+              [
+                -101.294, 
+                48.263
+              ], 
+              [
+                -101.294, 
+                48.268
+              ], 
+              [
+                -101.290, 
+                48.266
+              ], 
+              [
+                -101.284, 
+                48.263
+              ], 
+              [
+                -101.282, 
+                48.260
+              ], 
+              [
+                -101.287, 
+                48.262
+              ], 
+              [
+                -101.292, 
+                48.262
+              ], 
+              [
+                -101.294, 
+                48.262
+              ]
             ]
           ]
         ]
@@ -32,23 +110,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520968, 
-        "name": "Minot International Airport", 
         "alias_ENG_V": [
           "MOT"
         ], 
-        "ne_latitude": 48.274, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -101.264, 
-        "longitude": -101.291, 
-        "placetype": "Airport", 
-        "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
+        "name": "Minot International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:suburb=55860154", 
+          "woe:county=12589524", 
+          "woe:state=2347593", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520968, 
+        "ne_longitude": -101.282, 
+        "longitude": -101.293, 
         "parent_woeid": 55860154, 
-        "latitude": 48.255, 
-        "sw_longitude": -101.302, 
-        "fullname": "Minot International Airport, Minot, North Dakota, Ward, United States", 
-        "sw_latitude": 48.248
+        "ne_latitude": 48.268, 
+        "iso": "US", 
+        "sw_latitude": 48.246, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 48.257, 
+        "sw_longitude": -101.301, 
+        "fullname": "Minot International Airport, Minot, North Dakota, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520968
     }

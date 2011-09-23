@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519351, 
-        "name": "Cram Field Airport", 
         "alias_ENG_V": [
           "Cram Airport"
         ], 
-        "ne_latitude": 41.783, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Cram Field Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589173", 
+          "woe:state=2347586", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519351, 
         "ne_longitude": -99.147, 
         "longitude": -99.148, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589173, 
+        "ne_latitude": 41.783, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2372447, 
+        "sw_latitude": 41.772, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.776, 
         "sw_longitude": -99.154, 
-        "fullname": "Cram Field Airport, Burwell, Nebraska, Garfield, United States", 
-        "sw_latitude": 41.772
+        "fullname": "Cram Field Airport, Burwell, Nebraska, United States", 
+        "iata_code": "BUB", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519351
     }

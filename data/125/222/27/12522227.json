@@ -3,28 +3,78 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -87.623, 
-              33.207
-            ], 
-            [
-              -87.623, 
-              33.230
-            ], 
-            [
-              -87.596, 
-              33.230
-            ], 
-            [
-              -87.596, 
-              33.207
-            ], 
-            [
-              -87.623, 
-              33.207
+              [
+                -87.611, 
+                33.227
+              ], 
+              [
+                -87.609, 
+                33.227
+              ], 
+              [
+                -87.608, 
+                33.226
+              ], 
+              [
+                -87.609, 
+                33.225
+              ], 
+              [
+                -87.609, 
+                33.225
+              ], 
+              [
+                -87.608, 
+                33.222
+              ], 
+              [
+                -87.608, 
+                33.221
+              ], 
+              [
+                -87.610, 
+                33.218
+              ], 
+              [
+                -87.612, 
+                33.216
+              ], 
+              [
+                -87.618, 
+                33.215
+              ], 
+              [
+                -87.615, 
+                33.217
+              ], 
+              [
+                -87.616, 
+                33.221
+              ], 
+              [
+                -87.612, 
+                33.224
+              ], 
+              [
+                -87.613, 
+                33.227
+              ], 
+              [
+                -87.612, 
+                33.227
+              ], 
+              [
+                -87.611, 
+                33.227
+              ], 
+              [
+                -87.611, 
+                33.227
+              ]
             ]
           ]
         ]
@@ -32,23 +82,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522227, 
-        "name": "Tuscaloosa Municipal Airport", 
         "alias_ENG_V": [
           "Tuscaloosa Regional Airport"
         ], 
-        "ne_latitude": 33.230, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -87.596, 
-        "longitude": -87.610, 
-        "placetype": "Airport", 
+        "name": "Tuscaloosa Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587549", 
+          "woe:state=2347559", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522227, 
+        "ne_longitude": -87.608, 
+        "longitude": -87.612, 
+        "parent_woeid": 12587549, 
+        "ne_latitude": 33.227, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2508913, 
-        "latitude": 33.224, 
-        "sw_longitude": -87.623, 
-        "fullname": "Tuscaloosa Municipal Airport, Tuscaloosa, Alabama, Tuscaloosa, United States", 
-        "sw_latitude": 33.207
+        "sw_latitude": 33.215, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 33.221, 
+        "sw_longitude": -87.618, 
+        "fullname": "Tuscaloosa Municipal Airport, Tuscaloosa, Alabama, United States", 
+        "iata_code": "TCL", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522227
     }

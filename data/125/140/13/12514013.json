@@ -32,26 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "JPN", 
-        "woeid": 12514013, 
         "name": "\u9f8d\u30f6\u5d0e\u98db\u884c\u5834", 
         "alias_ENG_P": [
           "Ryugasaki Airport"
         ], 
-        "ne_latitude": 35.910, 
+        "parent_woeid": 2345863, 
+        "woeid": 12514013, 
+        "provider": "geoplanet 7.6.0", 
         "alias_JPN_V": [
           "\u30ea\u30e5\u30a6\u30ac\u30b5\u30ad\u30af\u30a6\u30b3\u30a6"
         ], 
-        "ne_longitude": 140.246, 
         "longitude": 140.241, 
-        "parent_woeid": 1113961, 
-        "placetype": "Airport", 
+        "ne_longitude": 140.246, 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2345863", 
+          "woe:country=23424856", 
+          "woe:planet=1"
+        ], 
         "iso": "JP", 
-        "date_indexed": "2010-12-02T08:09:09Z", 
-        "provider": "geoplanet 7.6.0", 
+        "sw_latitude": 35.901, 
+        "ne_latitude": 35.910, 
         "latitude": 35.906, 
         "sw_longitude": 140.235, 
         "fullname": "\u9f8d\u30f6\u5d0e\u98db\u884c\u5834, Ryugasaki-shi, Ibaraki Prefecture, Japan", 
-        "sw_latitude": 35.901
+        "date_indexed": "2010-12-02T08:09:09Z"
       }, 
       "id": 12514013
     }

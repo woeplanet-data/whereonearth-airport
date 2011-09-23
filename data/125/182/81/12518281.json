@@ -32,23 +32,28 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518281, 
-        "name": "Kerch Airport", 
         "alias_ENG_V": [
           "Aeroport Kerch'"
         ], 
-        "ne_latitude": 45.369, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Kerch Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2347544", 
+          "woe:country=23424976", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518281, 
         "ne_longitude": 36.416, 
         "longitude": 36.410, 
-        "placetype": "Airport", 
+        "parent_woeid": 2347544, 
+        "ne_latitude": 45.369, 
         "iso": "UA", 
-        "date_indexed": "2010-12-02T08:52:33Z", 
-        "parent_woeid": 938487, 
+        "sw_latitude": 45.360, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.365, 
         "sw_longitude": 36.403, 
         "fullname": "Kerch Airport, Crimea, Ukraine", 
-        "sw_latitude": 45.360
+        "date_indexed": "2010-12-02T08:52:33Z"
       }, 
       "id": 12518281
     }

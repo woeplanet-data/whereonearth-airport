@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522783, 
-        "name": "Elorza Airport", 
         "alias_ENG_V": [
           "EOZ"
         ], 
-        "ne_latitude": 7.068, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Elorza Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=26805685", 
+          "woe:county=26804733", 
+          "woe:state=2347679", 
+          "woe:country=23424982", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522783, 
         "ne_longitude": -69.490, 
         "longitude": -69.494, 
-        "placetype": "Airport", 
+        "parent_woeid": 26805685, 
+        "ne_latitude": 7.068, 
         "iso": "VE", 
-        "date_indexed": "2010-12-02T16:11:43Z", 
-        "parent_woeid": 468468, 
+        "sw_latitude": 7.059, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 7.063, 
         "sw_longitude": -69.499, 
-        "fullname": "Elorza Airport, Elorza, Apure, Romulo Gallegos, Venezuela", 
-        "sw_latitude": 7.059
+        "fullname": "Elorza Airport, Elorza, Apure, Venezuela", 
+        "date_indexed": "2010-12-02T16:11:43Z"
       }, 
       "id": 12522783
     }

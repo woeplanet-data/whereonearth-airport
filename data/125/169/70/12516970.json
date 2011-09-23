@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516970, 
+        "placetype": "airport", 
         "name": "Taganrogskiy Airport", 
-        "ne_latitude": 46.667, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599152", 
+          "woe:state=2346921", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516970, 
         "ne_longitude": 40.687, 
         "longitude": 40.681, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599152, 
+        "ne_latitude": 46.667, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 1985732, 
+        "sw_latitude": 46.657, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.662, 
         "sw_longitude": 40.674, 
         "fullname": "Taganrogskiy Airport, Rostovskaya Oblast, Yegorlyksky, Russia", 
-        "sw_latitude": 46.657
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516970
     }

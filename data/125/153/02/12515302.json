@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515302, 
+        "placetype": "airport", 
         "name": "Gliwice Airport", 
-        "ne_latitude": 50.270, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12591393", 
+          "woe:state=12577946", 
+          "woe:country=23424923", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515302, 
         "ne_longitude": 18.688, 
         "longitude": 18.680, 
-        "placetype": "Airport", 
+        "parent_woeid": 12591393, 
+        "ne_latitude": 50.270, 
         "iso": "PL", 
-        "date_indexed": "2010-12-02T12:12:45Z", 
-        "parent_woeid": 493750, 
+        "sw_latitude": 50.261, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.265, 
         "sw_longitude": 18.673, 
-        "fullname": "Gliwice Airport, Gliwice, Silesian, Gliwice City, Poland", 
-        "sw_latitude": 50.261
+        "fullname": "Gliwice Airport, Gliwice, Silesian, Poland", 
+        "date_indexed": "2010-12-02T12:12:45Z"
       }, 
       "id": 12515302
     }

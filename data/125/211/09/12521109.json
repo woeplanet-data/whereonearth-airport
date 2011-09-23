@@ -3,28 +3,134 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -77.923, 
-              34.259
-            ], 
-            [
-              -77.923, 
-              34.288
-            ], 
-            [
-              -77.883, 
-              34.288
-            ], 
-            [
-              -77.883, 
-              34.259
-            ], 
-            [
-              -77.923, 
-              34.259
+              [
+                -77.911, 
+                34.267
+              ], 
+              [
+                -77.916, 
+                34.270
+              ], 
+              [
+                -77.915, 
+                34.272
+              ], 
+              [
+                -77.915, 
+                34.272
+              ], 
+              [
+                -77.914, 
+                34.274
+              ], 
+              [
+                -77.908, 
+                34.276
+              ], 
+              [
+                -77.907, 
+                34.277
+              ], 
+              [
+                -77.906, 
+                34.272
+              ], 
+              [
+                -77.900, 
+                34.270
+              ], 
+              [
+                -77.901, 
+                34.268
+              ], 
+              [
+                -77.908, 
+                34.269
+              ], 
+              [
+                -77.910, 
+                34.266
+              ], 
+              [
+                -77.911, 
+                34.261
+              ], 
+              [
+                -77.915, 
+                34.260
+              ], 
+              [
+                -77.917, 
+                34.260
+              ], 
+              [
+                -77.918, 
+                34.260
+              ], 
+              [
+                -77.917, 
+                34.260
+              ], 
+              [
+                -77.915, 
+                34.260
+              ], 
+              [
+                -77.911, 
+                34.261
+              ], 
+              [
+                -77.910, 
+                34.266
+              ], 
+              [
+                -77.908, 
+                34.269
+              ], 
+              [
+                -77.901, 
+                34.268
+              ], 
+              [
+                -77.900, 
+                34.270
+              ], 
+              [
+                -77.906, 
+                34.272
+              ], 
+              [
+                -77.907, 
+                34.277
+              ], 
+              [
+                -77.908, 
+                34.276
+              ], 
+              [
+                -77.914, 
+                34.274
+              ], 
+              [
+                -77.915, 
+                34.272
+              ], 
+              [
+                -77.915, 
+                34.272
+              ], 
+              [
+                -77.916, 
+                34.270
+              ], 
+              [
+                -77.911, 
+                34.267
+              ]
             ]
           ]
         ]
@@ -32,23 +138,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521109, 
-        "name": "Wilmington International Airport", 
         "alias_ENG_V": [
           "ILM"
         ], 
-        "ne_latitude": 34.288, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -77.883, 
-        "longitude": -77.911, 
-        "placetype": "Airport", 
+        "name": "Wilmington International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589438", 
+          "woe:state=2347592", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521109, 
+        "ne_longitude": -77.900, 
+        "longitude": -77.916, 
+        "parent_woeid": 12589438, 
+        "ne_latitude": 34.277, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2521361, 
-        "latitude": 34.267, 
-        "sw_longitude": -77.923, 
-        "fullname": "Wilmington International Airport, Wilmington, North Carolina, New Hanover, United States", 
-        "sw_latitude": 34.259
+        "sw_latitude": 34.260, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 34.260, 
+        "sw_longitude": -77.918, 
+        "fullname": "Wilmington International Airport, Wilmington, North Carolina, United States", 
+        "iata_code": "ILM", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12521109
     }

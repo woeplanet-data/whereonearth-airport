@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512691, 
+        "placetype": "airport", 
         "name": "Hulwan Airport", 
-        "ne_latitude": 29.830, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345233", 
+          "woe:country=23424802", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512691, 
         "ne_longitude": 31.335, 
         "longitude": 31.330, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345233, 
+        "ne_latitude": 29.830, 
         "iso": "EG", 
-        "date_indexed": "2010-12-02T12:16:51Z", 
-        "parent_woeid": 1523768, 
+        "sw_latitude": 29.820, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 29.825, 
         "sw_longitude": 31.325, 
         "fullname": "Hulwan Airport, Hulwan, Al Qahirah, Egypt", 
-        "sw_latitude": 29.820
+        "date_indexed": "2010-12-02T12:16:51Z"
       }, 
       "id": 12512691
     }

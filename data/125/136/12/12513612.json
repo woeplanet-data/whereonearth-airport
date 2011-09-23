@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513612, 
-        "name": "Jorhat Airport", 
         "alias_ENG_V": [
           "JRH"
         ], 
-        "ne_latitude": 26.733, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Jorhat Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12586359", 
+          "woe:state=2345741", 
+          "woe:country=23424848", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513612, 
         "ne_longitude": 94.183, 
         "longitude": 94.178, 
-        "placetype": "Airport", 
+        "parent_woeid": 12586359, 
+        "ne_latitude": 26.733, 
         "iso": "IN", 
-        "date_indexed": "2010-12-02T09:26:27Z", 
-        "parent_woeid": 29153457, 
+        "sw_latitude": 26.724, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 26.729, 
         "sw_longitude": 94.173, 
-        "fullname": "Jorhat Airport, Nowsalia Gaon, Assam, Jorhat, India", 
-        "sw_latitude": 26.724
+        "fullname": "Jorhat Airport, Nowsalia Gaon, Assam, India", 
+        "iata_code": "JRH", 
+        "date_indexed": "2010-12-02T09:26:27Z"
       }, 
       "id": 12513612
     }

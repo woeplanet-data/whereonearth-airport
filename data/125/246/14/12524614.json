@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524614, 
-        "name": "Melsing Creek Airport", 
         "alias_ENG_V": [
           "CIL"
         ], 
-        "ne_latitude": 64.904, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Melsing Creek Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587569", 
+          "woe:state=2347560", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524614, 
         "ne_longitude": -163.722, 
         "longitude": -163.733, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587569, 
+        "ne_latitude": 64.904, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2385739, 
+        "sw_latitude": 64.895, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 64.899, 
         "sw_longitude": -163.744, 
-        "fullname": "Melsing Creek Airport, Council, Alaska, Nome Census Area, United States", 
-        "sw_latitude": 64.895
+        "fullname": "Melsing Creek Airport, Council, Alaska, United States", 
+        "iata_code": "CIL", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12524614
     }

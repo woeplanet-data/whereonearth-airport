@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515779, 
+        "placetype": "airport", 
         "name": "Basy Airport", 
-        "ne_latitude": 46.221, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598046", 
+          "woe:state=2346890", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515779, 
         "ne_longitude": 46.951, 
         "longitude": 46.944, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598046, 
+        "ne_latitude": 46.221, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2071027, 
+        "sw_latitude": 46.212, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.216, 
         "sw_longitude": 46.938, 
         "fullname": "Basy Airport, Astrakhanskaya Oblast, Narimanovsky, Russia", 
-        "sw_latitude": 46.212
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12515779
     }

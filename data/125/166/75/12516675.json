@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516675, 
+        "placetype": "airport", 
         "name": "Pervomaysk Airport", 
-        "ne_latitude": 49.967, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599205", 
+          "woe:state=2346937", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516675, 
         "ne_longitude": 143.282, 
         "longitude": 143.275, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599205, 
+        "ne_latitude": 49.967, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2064728, 
+        "sw_latitude": 49.958, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.963, 
         "sw_longitude": 143.268, 
         "fullname": "Pervomaysk Airport, Sakhalinskaya Oblast, Smirnykhovsky, Russia", 
-        "sw_latitude": 49.958
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516675
     }

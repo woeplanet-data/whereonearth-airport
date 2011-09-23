@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524503, 
-        "name": "Aguasclaras Airport", 
         "alias_ENG_V": [
           "OCV"
         ], 
-        "ne_latitude": 8.255, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Aguasclaras Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26797008", 
+          "woe:state=2345056", 
+          "woe:country=23424787", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524503, 
         "ne_longitude": -73.779, 
         "longitude": -73.783, 
-        "placetype": "Airport", 
+        "parent_woeid": 26797008, 
+        "ne_latitude": 8.255, 
         "iso": "CO", 
-        "date_indexed": "2010-12-02T17:57:37Z", 
-        "parent_woeid": 369282, 
+        "sw_latitude": 8.245, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 8.250, 
         "sw_longitude": -73.788, 
         "fullname": "Aguasclaras Airport, Bolivar, Morales, Colombia", 
-        "sw_latitude": 8.245
+        "iata_code": "OCV", 
+        "date_indexed": "2010-12-02T17:57:37Z"
       }, 
       "id": 12524503
     }

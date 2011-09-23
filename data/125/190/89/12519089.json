@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519089, 
-        "name": "Casa Grande Municipal Airport", 
         "alias_ENG_V": [
           "CGZ"
         ], 
-        "ne_latitude": 32.962, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Casa Grande Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587591", 
+          "woe:state=2347561", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519089, 
         "ne_longitude": -111.757, 
         "longitude": -111.761, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587591, 
+        "ne_latitude": 32.962, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2375847, 
+        "sw_latitude": 32.945, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 32.955, 
         "sw_longitude": -111.774, 
-        "fullname": "Casa Grande Municipal Airport, Casa Grande, Arizona, Pinal, United States", 
-        "sw_latitude": 32.945
+        "fullname": "Casa Grande Municipal Airport, Casa Grande, Arizona, United States", 
+        "iata_code": "CGZ", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519089
     }

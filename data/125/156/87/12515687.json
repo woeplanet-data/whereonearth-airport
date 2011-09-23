@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515687, 
+        "placetype": "airport", 
         "name": "Aldan Airport", 
-        "ne_latitude": 58.610, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597622", 
+          "woe:state=2346881", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515687, 
         "ne_longitude": 125.436, 
         "longitude": 125.427, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597622, 
+        "ne_latitude": 58.610, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2035948, 
+        "sw_latitude": 58.601, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 58.606, 
         "sw_longitude": 125.418, 
         "fullname": "Aldan Airport, Sakha, Aldansky, Russia", 
-        "sw_latitude": 58.601
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12515687
     }

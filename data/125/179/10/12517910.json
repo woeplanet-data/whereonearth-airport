@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517910, 
+        "placetype": "airport", 
         "name": "Mus West Airport", 
-        "ne_latitude": 38.789, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=29390607", 
+          "woe:state=2347302", 
+          "woe:country=23424969", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517910, 
         "ne_longitude": 41.478, 
         "longitude": 41.472, 
-        "placetype": "Airport", 
+        "parent_woeid": 29390607, 
+        "ne_latitude": 38.789, 
         "iso": "TR", 
-        "date_indexed": "2010-12-02T16:23:11Z", 
-        "parent_woeid": 2344276, 
+        "sw_latitude": 38.780, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.785, 
         "sw_longitude": 41.466, 
-        "fullname": "Mus West Airport, Mush, Mu\u015f, Merkez, Turkey", 
-        "sw_latitude": 38.780
+        "fullname": "Mus West Airport, Mush, Mu\u015f, Turkey", 
+        "date_indexed": "2010-12-02T16:23:11Z"
       }, 
       "id": 12517910
     }

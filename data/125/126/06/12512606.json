@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512606, 
-        "name": "Kolding Vamdrup Airport", 
         "alias_ENG_V": [
           "Vamdrup Airport"
         ], 
-        "ne_latitude": 55.442, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Kolding Vamdrup Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12582844", 
+          "woe:state=28362581", 
+          "woe:country=23424796", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512606, 
         "ne_longitude": 9.339, 
         "longitude": 9.331, 
-        "placetype": "Airport", 
+        "parent_woeid": 12582844, 
+        "ne_latitude": 55.442, 
         "iso": "DK", 
-        "date_indexed": "2010-12-02T16:13:18Z", 
-        "parent_woeid": 558466, 
+        "sw_latitude": 55.433, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 55.438, 
         "sw_longitude": 9.323, 
-        "fullname": "Kolding Vamdrup Airport, Vamdrup, Syddanmark, Kolding, Denmark", 
-        "sw_latitude": 55.433
+        "fullname": "Kolding Vamdrup Airport, Vamdrup, Syddanmark, Denmark", 
+        "date_indexed": "2010-12-02T16:13:18Z"
       }, 
       "id": 12512606
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511381, 
+        "placetype": "airport", 
         "name": "Alfatar Southeast Airport", 
-        "ne_latitude": 43.924, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55873899", 
+          "woe:state=20070070", 
+          "woe:country=23424771", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511381, 
         "ne_longitude": 27.294, 
         "longitude": 27.288, 
-        "placetype": "Airport", 
+        "parent_woeid": 55873899, 
+        "ne_latitude": 43.924, 
         "iso": "BG", 
-        "date_indexed": "2010-12-02T16:14:37Z", 
-        "parent_woeid": 834660, 
+        "sw_latitude": 43.915, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.920, 
         "sw_longitude": 27.281, 
-        "fullname": "Alfatar Southeast Airport, Alfatar, Silistra, Alfatar, Bulgaria", 
-        "sw_latitude": 43.915
+        "fullname": "Alfatar Southeast Airport, Alfatar, Silistra, Bulgaria", 
+        "date_indexed": "2010-12-02T16:14:37Z"
       }, 
       "id": 12511381
     }

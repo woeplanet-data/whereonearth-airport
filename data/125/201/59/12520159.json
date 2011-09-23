@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520159, 
-        "name": "Henderson Field Airport", 
         "alias_ENG_V": [
           "ACZ"
         ], 
-        "ne_latitude": 34.720, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Henderson Field Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589444", 
+          "woe:state=2347592", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520159, 
         "ne_longitude": -77.995, 
         "longitude": -78.014, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589444, 
+        "ne_latitude": 34.720, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2520654, 
+        "sw_latitude": 34.715, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 34.717, 
         "sw_longitude": -78.015, 
-        "fullname": "Henderson Field Airport, Willard, North Carolina, Pender, United States", 
-        "sw_latitude": 34.715
+        "fullname": "Henderson Field Airport, Willard, North Carolina, United States", 
+        "iata_code": "ACZ", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520159
     }

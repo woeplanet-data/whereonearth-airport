@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515349, 
+        "placetype": "airport", 
         "name": "Mielno Airport", 
-        "ne_latitude": 53.527, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12618132", 
+          "woe:county=12591450", 
+          "woe:state=12577948", 
+          "woe:country=23424923", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515349, 
         "ne_longitude": 20.187, 
         "longitude": 20.179, 
-        "placetype": "Airport", 
+        "parent_woeid": 12618132, 
+        "ne_latitude": 53.527, 
         "iso": "PL", 
-        "date_indexed": "2010-12-02T12:12:45Z", 
-        "parent_woeid": 507342, 
+        "sw_latitude": 53.518, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.523, 
         "sw_longitude": 20.171, 
         "fullname": "Mielno Airport, Warmian-Masurian, Ostroda County, Poland", 
-        "sw_latitude": 53.518
+        "date_indexed": "2010-12-02T12:12:45Z"
       }, 
       "id": 12515349
     }

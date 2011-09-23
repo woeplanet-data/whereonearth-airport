@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523022, 
+        "placetype": "airport", 
         "name": "Centenary Airport", 
-        "ne_latitude": -16.728, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=56048487", 
+          "woe:state=2347812", 
+          "woe:country=23425004", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523022, 
         "ne_longitude": 31.130, 
         "longitude": 31.125, 
-        "placetype": "Airport", 
+        "parent_woeid": 56048487, 
+        "ne_latitude": -16.728, 
         "iso": "ZW", 
-        "date_indexed": "2010-12-02T16:52:36Z", 
-        "parent_woeid": 1466855, 
+        "sw_latitude": -16.737, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -16.733, 
         "sw_longitude": 31.120, 
         "fullname": "Centenary Airport, Mashonaland Central, Centenary, Zimbabwe", 
-        "sw_latitude": -16.737
+        "date_indexed": "2010-12-02T16:52:36Z"
       }, 
       "id": 12523022
     }

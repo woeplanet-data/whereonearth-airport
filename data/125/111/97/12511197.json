@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511197, 
+        "placetype": "airport", 
         "name": "Aeroporto Jerusalem", 
         "alias_ENG_P": [
           "Jerusalem Airport"
         ], 
-        "ne_latitude": -5.382, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12581185", 
+          "woe:state=2344863", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511197, 
         "ne_longitude": -35.525, 
         "longitude": -35.530, 
-        "placetype": "Airport", 
+        "parent_woeid": 12581185, 
+        "ne_latitude": -5.382, 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 440082, 
+        "sw_latitude": -5.391, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -5.387, 
         "sw_longitude": -35.534, 
-        "fullname": "Aeroporto Jerusalem, Maxaranguape, Rio Grande do Norte, Pureza, Brazil", 
-        "sw_latitude": -5.391
+        "fullname": "Aeroporto Jerusalem, Maxaranguape, Rio Grande do Norte, Brazil", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511197
     }

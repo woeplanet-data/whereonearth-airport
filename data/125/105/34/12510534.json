@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510534, 
-        "name": "Puerto Deseado Airport", 
         "alias_ENG_V": [
           "Puerto Deseado Naval Air Base"
         ], 
-        "ne_latitude": -47.731, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Puerto Deseado Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=20071069", 
+          "woe:state=2344694", 
+          "woe:country=23424747", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510534, 
         "ne_longitude": -65.895, 
         "longitude": -65.902, 
-        "placetype": "Airport", 
+        "parent_woeid": 20071069, 
+        "ne_latitude": -47.731, 
         "iso": "AR", 
-        "date_indexed": "2010-12-02T17:41:29Z", 
-        "parent_woeid": 467380, 
+        "sw_latitude": -47.740, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -47.736, 
         "sw_longitude": -65.909, 
-        "fullname": "Puerto Deseado Airport, Deseado, Santa Cruz, Deseado, Argentina", 
-        "sw_latitude": -47.740
+        "fullname": "Puerto Deseado Airport, Deseado, Santa Cruz, Argentina", 
+        "iata_code": "PUD", 
+        "date_indexed": "2010-12-02T17:41:29Z"
       }, 
       "id": 12510534
     }

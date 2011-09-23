@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518568, 
-        "name": "Alexander Municipal Airport", 
         "alias_ENG_V": [
           "E80"
         ], 
-        "ne_latitude": 34.652, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Alexander Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589311", 
+          "woe:state=2347590", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518568, 
         "ne_longitude": -106.825, 
         "longitude": -106.831, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589311, 
+        "ne_latitude": 34.652, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2361586, 
+        "sw_latitude": 34.637, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 34.643, 
         "sw_longitude": -106.843, 
-        "fullname": "Alexander Municipal Airport, Belen, New Mexico, Valencia, United States", 
-        "sw_latitude": 34.637
+        "fullname": "Alexander Municipal Airport, Belen, New Mexico, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518568
     }

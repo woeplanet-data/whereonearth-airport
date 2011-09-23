@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519764, 
+        "placetype": "airport", 
         "name": "Ford Motor Co-Arizona Proving Ground Airport", 
-        "ne_latitude": 34.889, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12587588", 
+          "woe:state=2347561", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519764, 
         "ne_longitude": -114.120, 
         "longitude": -114.126, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587588, 
+        "ne_latitude": 34.889, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2525113, 
+        "sw_latitude": 34.880, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 34.885, 
         "sw_longitude": -114.131, 
-        "fullname": "Ford Motor Co-Arizona Proving Ground Airport, Yucca, Arizona, Mohave, United States", 
-        "sw_latitude": 34.880
+        "fullname": "Ford Motor Co-Arizona Proving Ground Airport, Yucca, Arizona, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12519764
     }

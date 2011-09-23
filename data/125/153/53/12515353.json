@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515353, 
+        "placetype": "airport", 
         "name": "Moderowka Airport", 
-        "ne_latitude": 49.766, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=24548734", 
+          "woe:county=12591330", 
+          "woe:state=12577943", 
+          "woe:country=23424923", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515353, 
         "ne_longitude": 21.643, 
         "longitude": 21.636, 
-        "placetype": "Airport", 
+        "parent_woeid": 24548734, 
+        "ne_latitude": 49.766, 
         "iso": "PL", 
-        "date_indexed": "2010-12-02T12:12:45Z", 
-        "parent_woeid": 488539, 
+        "sw_latitude": 49.756, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.761, 
         "sw_longitude": 21.629, 
         "fullname": "Moderowka Airport, Subcarpathia, Krosno County, Poland", 
-        "sw_latitude": 49.756
+        "date_indexed": "2010-12-02T12:12:45Z"
       }, 
       "id": 12515353
     }

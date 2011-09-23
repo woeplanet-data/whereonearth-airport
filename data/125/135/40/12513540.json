@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513540, 
-        "name": "Bairagarh Airport", 
         "alias_ENG_V": [
           "BHO"
         ], 
-        "ne_latitude": 23.289, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Bairagarh Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12586483", 
+          "woe:state=2345749", 
+          "woe:country=23424848", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513540, 
         "ne_longitude": 77.343, 
         "longitude": 77.338, 
-        "placetype": "Airport", 
+        "parent_woeid": 12586483, 
+        "ne_latitude": 23.289, 
         "iso": "IN", 
-        "date_indexed": "2010-12-02T09:26:27Z", 
-        "parent_woeid": 29027333, 
+        "sw_latitude": 23.280, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 23.284, 
         "sw_longitude": 77.333, 
-        "fullname": "Bairagarh Airport, Mubarikpur, Madhya Pradesh, Bhopal, India", 
-        "sw_latitude": 23.280
+        "fullname": "Bairagarh Airport, Mubarikpur, Madhya Pradesh, India", 
+        "iata_code": "BHO", 
+        "date_indexed": "2010-12-02T09:26:27Z"
       }, 
       "id": 12513540
     }

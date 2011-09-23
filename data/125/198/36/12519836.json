@@ -3,28 +3,106 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -80.147, 
-              26.062
-            ], 
-            [
-              -80.147, 
-              26.083
-            ], 
-            [
-              -80.124, 
-              26.083
-            ], 
-            [
-              -80.124, 
-              26.062
-            ], 
-            [
-              -80.147, 
-              26.062
+              [
+                -80.165, 
+                26.075
+              ], 
+              [
+                -80.165, 
+                26.075
+              ], 
+              [
+                -80.160, 
+                26.075
+              ], 
+              [
+                -80.147, 
+                26.075
+              ], 
+              [
+                -80.144, 
+                26.077
+              ], 
+              [
+                -80.143, 
+                26.081
+              ], 
+              [
+                -80.141, 
+                26.081
+              ], 
+              [
+                -80.139, 
+                26.081
+              ], 
+              [
+                -80.135, 
+                26.081
+              ], 
+              [
+                -80.126, 
+                26.085
+              ], 
+              [
+                -80.119, 
+                26.083
+              ], 
+              [
+                -80.120, 
+                26.081
+              ], 
+              [
+                -80.131, 
+                26.077
+              ], 
+              [
+                -80.132, 
+                26.071
+              ], 
+              [
+                -80.139, 
+                26.066
+              ], 
+              [
+                -80.142, 
+                26.063
+              ], 
+              [
+                -80.144, 
+                26.060
+              ], 
+              [
+                -80.150, 
+                26.064
+              ], 
+              [
+                -80.147, 
+                26.071
+              ], 
+              [
+                -80.160, 
+                26.075
+              ], 
+              [
+                -80.162, 
+                26.075
+              ], 
+              [
+                -80.163, 
+                26.075
+              ], 
+              [
+                -80.165, 
+                26.075
+              ], 
+              [
+                -80.165, 
+                26.075
+              ]
             ]
           ]
         ]
@@ -32,23 +110,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519836, 
-        "name": "Fort Lauderdale Hollywood International Airport", 
         "alias_ENG_V": [
           "Ft Lauderdale Hollywood Airport"
         ], 
-        "ne_latitude": 26.083, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -80.124, 
-        "longitude": -80.133, 
-        "placetype": "Airport", 
+        "name": "Fort Lauderdale Hollywood International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587808", 
+          "woe:state=2347568", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519836, 
+        "ne_longitude": -80.119, 
+        "longitude": -80.138, 
+        "parent_woeid": 12587808, 
+        "ne_latitude": 26.085, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2389218, 
-        "latitude": 26.071, 
-        "sw_longitude": -80.147, 
-        "fullname": "Fort Lauderdale Hollywood International Airport, Dania Beach, Florida, Broward, United States", 
-        "sw_latitude": 26.062
+        "sw_latitude": 26.060, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 26.074, 
+        "sw_longitude": -80.165, 
+        "fullname": "Fort Lauderdale Hollywood International Airport, Dania Beach, Florida, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12519836
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "FRE", 
-        "woeid": 56051870, 
+        "placetype": "airport", 
         "name": "A\u00e9rodrome de Bourg Saint-bernard", 
-        "ne_latitude": 43.613, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12664451", 
+          "woe:county=12597186", 
+          "woe:state=7153323", 
+          "woe:country=23424819", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56051870, 
         "ne_longitude": 1.728, 
         "longitude": 1.725, 
-        "placetype": "Airport", 
+        "parent_woeid": 12664451, 
+        "ne_latitude": 43.613, 
         "iso": "FR", 
-        "date_indexed": "2010-12-02T12:04:01Z", 
-        "parent_woeid": 601361, 
+        "sw_latitude": 43.608, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.609, 
         "sw_longitude": 1.721, 
-        "fullname": "A\u00e9rodrome de Bourg Saint-bernard, Lanta, Midi-Pyrenees, Haute-Garonne, France", 
+        "fullname": "A\u00e9rodrome de Bourg Saint-bernard, Lanta, Midi-Pyrenees, France", 
         "alias_FRE_S": [
           "Aerodrome de Bourg Saint-bernard"
         ], 
-        "sw_latitude": 43.608
+        "date_indexed": "2010-12-02T12:04:01Z"
       }, 
       "id": 56051870
     }

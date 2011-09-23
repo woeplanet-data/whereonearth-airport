@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512340, 
-        "name": "Victoria Airport", 
         "alias_ENG_V": [
           "ZIC"
         ], 
-        "ne_latitude": -38.234, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Victoria Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=26794072", 
+          "woe:county=26794005", 
+          "woe:state=2345021", 
+          "woe:country=23424782", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512340, 
         "ne_longitude": -72.341, 
         "longitude": -72.347, 
-        "placetype": "Airport", 
+        "parent_woeid": 26794072, 
+        "ne_latitude": -38.234, 
         "iso": "CL", 
-        "date_indexed": "2010-12-02T12:15:39Z", 
-        "parent_woeid": 349970, 
+        "sw_latitude": -38.243, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -38.239, 
         "sw_longitude": -72.353, 
-        "fullname": "Victoria Airport, Victoria, Araucania Region, Malleco Province, Chile", 
-        "sw_latitude": -38.243
+        "fullname": "Victoria Airport, Victoria, Araucania Region, Chile", 
+        "iata_code": "ZIC", 
+        "date_indexed": "2010-12-02T12:15:39Z"
       }, 
       "id": 12512340
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388105, 
-        "name": "Lucas Airport", 
         "alias_ENG_V": [
           "38k"
         ], 
-        "ne_latitude": 39.066, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Lucas Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588454", 
+          "woe:state=2347575", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388105, 
         "ne_longitude": -98.525, 
         "longitude": -98.526, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588454, 
+        "ne_latitude": 39.066, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2442830, 
+        "sw_latitude": 39.056, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 39.057, 
         "sw_longitude": -98.529, 
-        "fullname": "Lucas Airport, Lucas, Kansas, Russell, United States", 
-        "sw_latitude": 39.056
+        "fullname": "Lucas Airport, Lucas, Kansas, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388105
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29387923, 
-        "name": "Waskish Municipal Airport", 
         "alias_ENG_V": [
           "Vwu"
         ], 
-        "ne_latitude": 48.156, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Waskish Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588800", 
+          "woe:state=2347582", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29387923, 
         "ne_longitude": -94.512, 
         "longitude": -94.520, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588800, 
+        "ne_latitude": 48.156, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2514975, 
+        "sw_latitude": 48.146, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.146, 
         "sw_longitude": -94.521, 
-        "fullname": "Waskish Municipal Airport, Waskish, Minnesota, Beltrami, United States", 
-        "sw_latitude": 48.146
+        "fullname": "Waskish Municipal Airport, Waskish, Minnesota, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29387923
     }

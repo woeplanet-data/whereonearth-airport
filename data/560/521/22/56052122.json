@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 56052122, 
+        "placetype": "airport", 
         "name": "Flugplatz Waren/vielist", 
-        "ne_latitude": 53.572, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12630888", 
+          "woe:county=12596796", 
+          "woe:state=2345492", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56052122, 
         "ne_longitude": 12.663, 
         "longitude": 12.645, 
-        "placetype": "Airport", 
+        "parent_woeid": 12630888, 
+        "ne_latitude": 53.572, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 653718, 
+        "sw_latitude": 53.560, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.566, 
         "sw_longitude": 12.645, 
-        "fullname": "Flugplatz Waren/vielist, Grabowh\u00f6fe, Mecklenburg-Vorpommern, M\u00fcritz, Germany", 
-        "sw_latitude": 53.560
+        "fullname": "Flugplatz Waren/vielist, Grabowh\u00f6fe, Mecklenburg-Vorpommern, Germany", 
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 56052122
     }

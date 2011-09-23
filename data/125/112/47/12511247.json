@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511247, 
+        "placetype": "airport", 
         "name": "Aeroporto Novo Paraiso", 
         "alias_ENG_P": [
           "Novo Paraiso Airport"
         ], 
-        "ne_latitude": 1.234, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12581591", 
+          "woe:state=2344866", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511247, 
         "ne_longitude": -60.467, 
         "longitude": -60.472, 
-        "placetype": "Airport", 
+        "parent_woeid": 12581591, 
+        "ne_latitude": 1.234, 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 458560, 
+        "sw_latitude": 1.225, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 1.229, 
         "sw_longitude": -60.476, 
-        "fullname": "Aeroporto Novo Paraiso, Bacabal, Roraima, Caracara\u00ed, Brazil", 
-        "sw_latitude": 1.225
+        "fullname": "Aeroporto Novo Paraiso, Bacabal, Roraima, Brazil", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511247
     }

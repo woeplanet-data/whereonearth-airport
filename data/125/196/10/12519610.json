@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519610, 
+        "placetype": "airport", 
         "name": "El Rico Airport", 
-        "ne_latitude": 36.050, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12587685", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519610, 
         "ne_longitude": -119.640, 
         "longitude": -119.646, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587685, 
+        "ne_latitude": 36.050, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:16Z", 
-        "parent_woeid": 2384944, 
+        "sw_latitude": 36.041, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.046, 
         "sw_longitude": -119.651, 
-        "fullname": "El Rico Airport, Corcoran, California, Kings, United States", 
-        "sw_latitude": 36.041
+        "fullname": "El Rico Airport, Corcoran, California, United States", 
+        "date_indexed": "2010-12-02T18:39:16Z"
       }, 
       "id": 12519610
     }

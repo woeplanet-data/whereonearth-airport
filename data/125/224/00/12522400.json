@@ -3,28 +3,38 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -79.425, 
-              40.262
-            ], 
-            [
-              -79.425, 
-              40.284
-            ], 
-            [
-              -79.394, 
-              40.284
-            ], 
-            [
-              -79.394, 
-              40.262
-            ], 
-            [
-              -79.425, 
-              40.262
+              [
+                -79.406, 
+                40.274
+              ], 
+              [
+                -79.406, 
+                40.274
+              ], 
+              [
+                -79.405, 
+                40.275
+              ], 
+              [
+                -79.405, 
+                40.273
+              ], 
+              [
+                -79.408, 
+                40.272
+              ], 
+              [
+                -79.407, 
+                40.273
+              ], 
+              [
+                -79.406, 
+                40.274
+              ]
             ]
           ]
         ]
@@ -32,23 +42,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522400, 
-        "name": "Westmoreland County Airport", 
         "alias_ENG_V": [
           "Westmoreland Airport"
         ], 
-        "ne_latitude": 40.284, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -79.394, 
+        "name": "Westmoreland County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589792", 
+          "woe:state=2347597", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522400, 
+        "ne_longitude": -79.405, 
         "longitude": -79.406, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589792, 
+        "ne_latitude": 40.275, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 28744937, 
+        "sw_latitude": 40.272, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.273, 
-        "sw_longitude": -79.425, 
-        "fullname": "Westmoreland County Airport, Unity, Pennsylvania, Westmoreland, United States", 
-        "sw_latitude": 40.262
+        "sw_longitude": -79.408, 
+        "fullname": "Westmoreland County Airport, Unity, Pennsylvania, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522400
     }

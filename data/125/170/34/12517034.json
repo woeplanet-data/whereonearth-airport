@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517034, 
+        "placetype": "airport", 
         "name": "Tsentralnyy Airport", 
-        "ne_latitude": 55.215, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598446", 
+          "woe:state=2346901", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517034, 
         "ne_longitude": 87.570, 
         "longitude": 87.562, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598446, 
+        "ne_latitude": 55.215, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2018399, 
+        "sw_latitude": 55.206, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 55.211, 
         "sw_longitude": 87.554, 
         "fullname": "Tsentralnyy Airport, Kemerovskaya Oblast, Tisulsky, Russia", 
-        "sw_latitude": 55.206
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12517034
     }

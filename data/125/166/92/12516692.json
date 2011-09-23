@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516692, 
+        "placetype": "airport", 
         "name": "Pinega Airport", 
-        "ne_latitude": 64.729, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598027", 
+          "woe:state=20070508", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516692, 
         "ne_longitude": 43.436, 
         "longitude": 43.426, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598027, 
+        "ne_latitude": 64.729, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2122882, 
+        "sw_latitude": 64.720, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 64.724, 
         "sw_longitude": 43.415, 
         "fullname": "Pinega Airport, Arkhangelrskaya Oblast, Pinezhsky, Russia", 
-        "sw_latitude": 64.720
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516692
     }

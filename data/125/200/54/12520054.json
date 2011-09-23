@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520054, 
+        "placetype": "airport", 
         "name": "Hagler Army Air Field", 
-        "ne_latitude": 31.178, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12588901", 
+          "woe:state=2347583", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520054, 
         "ne_longitude": -89.186, 
         "longitude": -89.191, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588901, 
+        "ne_latitude": 31.178, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2373938, 
+        "sw_latitude": 31.169, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 31.174, 
         "sw_longitude": -89.196, 
-        "fullname": "Hagler Army Air Field, Camp Shelby, Mississippi, Forrest, United States", 
-        "sw_latitude": 31.169
+        "fullname": "Hagler Army Air Field, Camp Shelby, Mississippi, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12520054
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515636, 
-        "name": "Naga Airport", 
         "alias_ENG_V": [
           "WNP"
         ], 
-        "ne_latitude": 13.592, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Naga Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=2346671", 
+          "woe:state=23424720", 
+          "woe:country=23424934", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515636, 
         "ne_longitude": 123.275, 
         "longitude": 123.270, 
-        "placetype": "Airport", 
+        "parent_woeid": 2346671, 
+        "ne_latitude": 13.592, 
         "iso": "PH", 
-        "date_indexed": "2010-12-02T09:56:58Z", 
-        "parent_woeid": 1187711, 
+        "sw_latitude": 13.583, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 13.587, 
         "sw_longitude": 123.265, 
-        "fullname": "Naga Airport, Pili, Bicol Region, Camarines Sur, Philippines", 
-        "sw_latitude": 13.583
+        "fullname": "Naga Airport, Pili, Bicol Region, Philippines", 
+        "iata_code": "WNP", 
+        "date_indexed": "2010-12-02T09:56:58Z"
       }, 
       "id": 12515636
     }

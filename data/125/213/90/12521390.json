@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521390, 
-        "name": "Pineland Municipal Airport", 
         "alias_ENG_V": [
           "T24"
         ], 
-        "ne_latitude": 31.240, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Pineland Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590208", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521390, 
         "ne_longitude": -93.981, 
         "longitude": -93.984, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590208, 
+        "ne_latitude": 31.240, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2472627, 
+        "sw_latitude": 31.221, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 31.231, 
         "sw_longitude": -93.986, 
-        "fullname": "Pineland Municipal Airport, Pineland, Texas, Sabine, United States", 
-        "sw_latitude": 31.221
+        "fullname": "Pineland Municipal Airport, Pineland, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521390
     }

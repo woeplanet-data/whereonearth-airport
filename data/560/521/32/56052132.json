@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 56052132, 
+        "placetype": "airport", 
         "name": "Flugplatz Saarmund", 
-        "ne_latitude": 52.316, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12633693", 
+          "woe:county=12596947", 
+          "woe:state=2345491", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56052132, 
         "ne_longitude": 13.112, 
         "longitude": 13.093, 
-        "placetype": "Airport", 
+        "parent_woeid": 12633693, 
+        "ne_latitude": 52.316, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 675193, 
+        "sw_latitude": 52.303, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 52.310, 
         "sw_longitude": 13.090, 
-        "fullname": "Flugplatz Saarmund, Michendorf, Brandenburg, Potsdam-Mittelmark, Germany", 
-        "sw_latitude": 52.303
+        "fullname": "Flugplatz Saarmund, Michendorf, Brandenburg, Germany", 
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 56052132
     }

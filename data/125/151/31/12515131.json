@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515131, 
-        "name": "Bhairawa Airport", 
         "alias_ENG_V": [
           "BWA"
         ], 
-        "ne_latitude": 27.509, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Bhairawa Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=23706732", 
+          "woe:county=23706806", 
+          "woe:state=20070026", 
+          "woe:country=23424911", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515131, 
         "ne_longitude": 83.425, 
         "longitude": 83.420, 
-        "placetype": "Airport", 
+        "parent_woeid": 23706732, 
+        "ne_latitude": 27.509, 
         "iso": "NP", 
-        "date_indexed": "2010-12-02T18:18:47Z", 
-        "parent_woeid": 2269003, 
+        "sw_latitude": 27.500, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 27.504, 
         "sw_longitude": 83.415, 
         "fullname": "Bhairawa Airport, West, Lumbini, Nepal", 
-        "sw_latitude": 27.500
+        "iata_code": "BWA", 
+        "date_indexed": "2010-12-02T18:18:47Z"
       }, 
       "id": 12515131
     }

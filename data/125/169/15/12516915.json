@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516915, 
+        "placetype": "airport", 
         "name": "Spasskoye Airport", 
-        "ne_latitude": 55.224, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598233", 
+          "woe:state=2346895", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516915, 
         "ne_longitude": 44.320, 
         "longitude": 44.312, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598233, 
+        "ne_latitude": 55.224, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2088017, 
+        "sw_latitude": 55.215, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 55.220, 
         "sw_longitude": 44.304, 
         "fullname": "Spasskoye Airport, Nizhegorodskaya Oblast, Shatkovsky, Russia", 
-        "sw_latitude": 55.215
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516915
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515147, 
+        "placetype": "airport", 
         "name": "Montelimar Airport", 
-        "ne_latitude": 11.809, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=26813366", 
+          "woe:state=2346426", 
+          "woe:country=23424915", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515147, 
         "ne_longitude": -86.506, 
         "longitude": -86.511, 
-        "placetype": "Airport", 
+        "parent_woeid": 26813366, 
+        "ne_latitude": 11.809, 
         "iso": "NI", 
-        "date_indexed": "2010-12-02T18:19:13Z", 
-        "parent_woeid": 153530, 
+        "sw_latitude": 11.800, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 11.804, 
         "sw_longitude": -86.516, 
-        "fullname": "Montelimar Airport, Masachapa, Managua, San Rafael del Sur, Nicaragua", 
-        "sw_latitude": 11.800
+        "fullname": "Montelimar Airport, Masachapa, Managua, Nicaragua", 
+        "date_indexed": "2010-12-02T18:19:13Z"
       }, 
       "id": 12515147
     }

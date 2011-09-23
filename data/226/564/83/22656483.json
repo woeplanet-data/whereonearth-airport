@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 22656483, 
+        "placetype": "airport", 
         "name": "Nv Luchtvaartterrein Texel Airport", 
-        "ne_latitude": 53.122, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12592422", 
+          "woe:state=2346379", 
+          "woe:country=23424909", 
+          "woe:planet=1"
+        ], 
+        "woeid": 22656483, 
         "ne_longitude": 4.838, 
         "longitude": 4.833, 
-        "placetype": "Airport", 
+        "parent_woeid": 12592422, 
+        "ne_latitude": 53.122, 
         "alias_DUT_Q": [
           "Nv Luchtvaartterrein Texel"
         ], 
         "iso": "NL", 
-        "date_indexed": "2010-12-02T18:17:47Z", 
-        "parent_woeid": 735103, 
+        "sw_latitude": 53.109, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.117, 
         "sw_longitude": 4.823, 
-        "fullname": "Nv Luchtvaartterrein Texel Airport, Zuid-Eierland, North Holland, Texel, Netherlands", 
-        "sw_latitude": 53.109
+        "fullname": "Nv Luchtvaartterrein Texel Airport, Zuid-Eierland, North Holland, Netherlands", 
+        "date_indexed": "2010-12-02T18:17:47Z"
       }, 
       "id": 22656483
     }

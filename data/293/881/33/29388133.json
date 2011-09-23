@@ -3,28 +3,30 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -89.837, 
-              38.533
-            ], 
-            [
-              -89.837, 
-              38.561
-            ], 
-            [
-              -89.805, 
-              38.561
-            ], 
-            [
-              -89.805, 
-              38.533
-            ], 
-            [
-              -89.837, 
-              38.533
+              [
+                -89.819, 
+                38.551
+              ], 
+              [
+                -89.819, 
+                38.547
+              ], 
+              [
+                -89.823, 
+                38.546
+              ], 
+              [
+                -89.820, 
+                38.547
+              ], 
+              [
+                -89.819, 
+                38.551
+              ]
             ]
           ]
         ]
@@ -32,23 +34,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388133, 
-        "name": "Mid-America Airport", 
         "alias_ENG_V": [
           "Blv"
         ], 
-        "ne_latitude": 38.561, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -89.805, 
-        "longitude": -89.815, 
-        "placetype": "Airport", 
+        "name": "Mid-America Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588164", 
+          "woe:state=2347572", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388133, 
+        "ne_longitude": -89.819, 
+        "longitude": -89.820, 
+        "parent_woeid": 12588164, 
+        "ne_latitude": 38.551, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2446614, 
+        "sw_latitude": 38.546, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.548, 
-        "sw_longitude": -89.837, 
-        "fullname": "Mid-America Airport, Mascoutah, Illinois, St. Clair, United States", 
-        "sw_latitude": 38.533
+        "sw_longitude": -89.823, 
+        "fullname": "Mid-America Airport, Mascoutah, Illinois, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388133
     }

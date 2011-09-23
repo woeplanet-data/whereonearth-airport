@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510685, 
+        "placetype": "airport", 
         "name": "Hamilton Airport", 
-        "ne_latitude": -37.646, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55863970", 
+          "woe:state=2344705", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510685, 
         "ne_longitude": 142.070, 
         "longitude": 142.064, 
-        "placetype": "Airport", 
+        "parent_woeid": 55863970, 
+        "ne_latitude": -37.646, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 28645124, 
+        "sw_latitude": -37.655, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -37.650, 
         "sw_longitude": 142.058, 
-        "fullname": "Hamilton Airport, Hensley Park, Victoria, Southern Grampians, Australia", 
-        "sw_latitude": -37.655
+        "fullname": "Hamilton Airport, Hensley Park, Victoria, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 12510685
     }

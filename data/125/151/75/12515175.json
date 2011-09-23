@@ -3,28 +3,66 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              174.802, 
-              -41.336
-            ], 
-            [
-              174.802, 
-              -41.317
-            ], 
-            [
-              174.813, 
-              -41.317
-            ], 
-            [
-              174.813, 
-              -41.336
-            ], 
-            [
-              174.802, 
-              -41.336
+              [
+                174.806, 
+                -41.336
+              ], 
+              [
+                174.804, 
+                -41.340
+              ], 
+              [
+                174.804, 
+                -41.335
+              ], 
+              [
+                174.802, 
+                -41.332
+              ], 
+              [
+                174.801, 
+                -41.328
+              ], 
+              [
+                174.801, 
+                -41.327
+              ], 
+              [
+                174.803, 
+                -41.328
+              ], 
+              [
+                174.807, 
+                -41.326
+              ], 
+              [
+                174.809, 
+                -41.326
+              ], 
+              [
+                174.812, 
+                -41.327
+              ], 
+              [
+                174.811, 
+                -41.330
+              ], 
+              [
+                174.805, 
+                -41.331
+              ], 
+              [
+                174.805, 
+                -41.334
+              ], 
+              [
+                174.806, 
+                -41.336
+              ]
             ]
           ]
         ]
@@ -32,23 +70,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515175, 
-        "name": "Wellington International Airport", 
         "alias_ENG_V": [
           "WLG"
         ], 
-        "ne_latitude": -41.317, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": 174.813, 
-        "longitude": 174.812, 
-        "placetype": "Airport", 
-        "iso": "NZ", 
-        "date_indexed": "2010-12-02T17:02:39Z", 
+        "name": "Wellington International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:suburb=22726512", 
+          "woe:county=55875846", 
+          "woe:state=15021762", 
+          "woe:country=23424916", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515175, 
+        "ne_longitude": 174.812, 
+        "longitude": 174.806, 
         "parent_woeid": 22726512, 
-        "latitude": -41.329, 
-        "sw_longitude": 174.802, 
-        "fullname": "Wellington International Airport, Wellington, Wellington, Wellington City, New Zealand", 
-        "sw_latitude": -41.336
+        "ne_latitude": -41.326, 
+        "iso": "NZ", 
+        "sw_latitude": -41.340, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": -41.330, 
+        "sw_longitude": 174.801, 
+        "fullname": "Wellington International Airport, Wellington, Wellington, New Zealand", 
+        "iata_code": "WLG", 
+        "date_indexed": "2010-12-02T17:02:39Z"
       }, 
       "id": 12515175
     }

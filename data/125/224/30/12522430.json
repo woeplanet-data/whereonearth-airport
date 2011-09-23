@@ -3,28 +3,46 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -87.027, 
-              30.719
-            ], 
-            [
-              -87.027, 
-              30.728
-            ], 
-            [
-              -87.017, 
-              30.728
-            ], 
-            [
-              -87.017, 
-              30.719
-            ], 
-            [
-              -87.027, 
-              30.719
+              [
+                -87.024, 
+                30.716
+              ], 
+              [
+                -87.024, 
+                30.714
+              ], 
+              [
+                -87.025, 
+                30.715
+              ], 
+              [
+                -87.025, 
+                30.715
+              ], 
+              [
+                -87.025, 
+                30.717
+              ], 
+              [
+                -87.026, 
+                30.720
+              ], 
+              [
+                -87.024, 
+                30.719
+              ], 
+              [
+                -87.023, 
+                30.717
+              ], 
+              [
+                -87.024, 
+                30.716
+              ]
             ]
           ]
         ]
@@ -32,23 +50,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522430, 
-        "name": "Whiting Field Naval Air Station North", 
         "alias_ENG_V": [
           "Whiting Field NAS North"
         ], 
-        "ne_latitude": 30.728, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -87.017, 
-        "longitude": -87.022, 
-        "placetype": "Airport", 
+        "name": "Whiting Field Naval Air Station North", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587857", 
+          "woe:state=2347568", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522430, 
+        "ne_longitude": -87.023, 
+        "longitude": -87.024, 
+        "parent_woeid": 12587857, 
+        "ne_latitude": 30.720, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2474551, 
-        "latitude": 30.724, 
-        "sw_longitude": -87.027, 
-        "fullname": "Whiting Field Naval Air Station North, Point Baker, Florida, Santa Rosa, United States", 
-        "sw_latitude": 30.719
+        "sw_latitude": 30.714, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 30.717, 
+        "sw_longitude": -87.026, 
+        "fullname": "Whiting Field Naval Air Station North, Point Baker, Florida, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12522430
     }

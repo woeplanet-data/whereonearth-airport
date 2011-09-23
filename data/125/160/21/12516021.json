@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516021, 
+        "placetype": "airport", 
         "name": "Guberovo Northeast Airport", 
-        "ne_latitude": 46.238, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597926", 
+          "woe:state=2346886", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516021, 
         "ne_longitude": 134.016, 
         "longitude": 134.010, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597926, 
+        "ne_latitude": 46.238, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2070648, 
+        "sw_latitude": 46.229, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.234, 
         "sw_longitude": 134.003, 
         "fullname": "Guberovo Northeast Airport, Primorskiy Kray, Pozharsky, Russia", 
-        "sw_latitude": 46.229
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516021
     }

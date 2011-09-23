@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "SWE", 
-        "woeid": 12517651, 
+        "placetype": "airport", 
         "name": "Knislinge Flygplats", 
         "alias_ENG_P": [
           "Knislinge Airport"
         ], 
-        "ne_latitude": 56.192, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12587310", 
+          "woe:state=20070561", 
+          "woe:country=23424954", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517651, 
         "ne_longitude": 14.147, 
         "longitude": 14.139, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587310, 
+        "ne_latitude": 56.192, 
         "iso": "SE", 
-        "date_indexed": "2010-12-02T16:45:55Z", 
-        "parent_woeid": 893058, 
+        "sw_latitude": 56.183, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 56.188, 
         "sw_longitude": 14.131, 
-        "fullname": "Knislinge Flygplats, Hj\u00e4rs\u00e5s, Skane, \u00d6stra G\u00f6inge, Sweden", 
-        "sw_latitude": 56.183
+        "fullname": "Knislinge Flygplats, Hj\u00e4rs\u00e5s, Skane, Sweden", 
+        "date_indexed": "2010-12-02T16:45:55Z"
       }, 
       "id": 12517651
     }

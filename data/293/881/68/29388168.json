@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388168, 
-        "name": "Skiatook Municipal Airport", 
         "alias_ENG_V": [
           "2f6"
         ], 
-        "ne_latitude": 36.359, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Skiatook Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589671", 
+          "woe:state=2347595", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388168, 
         "ne_longitude": -96.010, 
         "longitude": -96.013, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589671, 
+        "ne_latitude": 36.359, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2494310, 
+        "sw_latitude": 36.351, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.359, 
         "sw_longitude": -96.013, 
-        "fullname": "Skiatook Municipal Airport, Skiatook, Oklahoma, Osage, United States", 
-        "sw_latitude": 36.351
+        "fullname": "Skiatook Municipal Airport, Skiatook, Oklahoma, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388168
     }

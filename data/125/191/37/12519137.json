@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519137, 
+        "placetype": "airport", 
         "name": "Chapman Farms Airport", 
-        "ne_latitude": 37.077, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12587689", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519137, 
         "ne_longitude": -120.371, 
         "longitude": -120.377, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587689, 
+        "ne_latitude": 37.077, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:15Z", 
-        "parent_woeid": 2388794, 
+        "sw_latitude": 37.068, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 37.073, 
         "sw_longitude": -120.383, 
-        "fullname": "Chapman Farms Airport, Tyler, California, Madera, United States", 
-        "sw_latitude": 37.068
+        "fullname": "Chapman Farms Airport, Tyler, California, United States", 
+        "date_indexed": "2010-12-02T18:39:15Z"
       }, 
       "id": 12519137
     }

@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522822, 
+        "placetype": "airport", 
         "name": "Montellano Airport", 
-        "ne_latitude": 10.355, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=26805308", 
+          "woe:county=26804447", 
+          "woe:state=2347699", 
+          "woe:country=23424982", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522822, 
         "ne_longitude": -72.489, 
         "longitude": -72.493, 
-        "placetype": "Airport", 
+        "parent_woeid": 26805308, 
+        "ne_latitude": 10.355, 
         "iso": "VE", 
-        "date_indexed": "2010-12-02T16:11:43Z", 
-        "parent_woeid": 420114, 
+        "sw_latitude": 10.345, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 10.350, 
         "sw_longitude": -72.498, 
         "fullname": "Montellano Airport, Zulia, Rosario de Perija, Venezuela", 
-        "sw_latitude": 10.345
+        "date_indexed": "2010-12-02T16:11:43Z"
       }, 
       "id": 12522822
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522391, 
-        "name": "West Plains Municipal Airport", 
         "alias_ENG_V": [
           "W Plains Municipal Airport"
         ], 
-        "ne_latitude": 36.880, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "West Plains Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589011", 
+          "woe:state=2347584", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522391, 
         "ne_longitude": -91.904, 
         "longitude": -91.906, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589011, 
+        "ne_latitude": 36.880, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2474868, 
+        "sw_latitude": 36.876, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.878, 
         "sw_longitude": -91.909, 
-        "fullname": "West Plains Municipal Airport, Pomona, Missouri, Howell, United States", 
-        "sw_latitude": 36.876
+        "fullname": "West Plains Municipal Airport, Pomona, Missouri, United States", 
+        "iata_code": "UNO", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12522391
     }

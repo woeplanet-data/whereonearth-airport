@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516407, 
+        "placetype": "airport", 
         "name": "Marks Airport", 
-        "ne_latitude": 51.712, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599235", 
+          "woe:state=2346924", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516407, 
         "ne_longitude": 46.779, 
         "longitude": 46.772, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599235, 
+        "ne_latitude": 51.712, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2086709, 
+        "sw_latitude": 51.703, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.708, 
         "sw_longitude": 46.765, 
         "fullname": "Marks Airport, Saratovskaya Oblast, Marksovsky, Russia", 
-        "sw_latitude": 51.703
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516407
     }

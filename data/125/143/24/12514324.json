@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514324, 
-        "name": "Dzhambul Airport", 
         "alias_ENG_V": [
           "DMB"
         ], 
-        "ne_latitude": 42.868, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Dzhambul Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2345983", 
+          "woe:country=23424871", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514324, 
         "ne_longitude": 71.301, 
         "longitude": 71.294, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345983, 
+        "ne_latitude": 42.868, 
         "iso": "KZ", 
-        "date_indexed": "2010-12-02T08:54:13Z", 
-        "parent_woeid": 2263689, 
+        "sw_latitude": 42.859, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.863, 
         "sw_longitude": 71.288, 
         "fullname": "Dzhambul Airport, Zhambyl, Zhambyl, Kazakhstan", 
-        "sw_latitude": 42.859
+        "iata_code": "DMB", 
+        "date_indexed": "2010-12-02T08:54:13Z"
       }, 
       "id": 12514324
     }

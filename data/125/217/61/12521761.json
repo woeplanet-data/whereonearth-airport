@@ -3,28 +3,30 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -88.107, 
-              41.988
-            ], 
-            [
-              -88.107, 
-              41.992
-            ], 
-            [
-              -88.096, 
-              41.992
-            ], 
-            [
-              -88.096, 
-              41.988
-            ], 
-            [
-              -88.107, 
-              41.988
+              [
+                -88.103, 
+                41.993
+              ], 
+              [
+                -88.102, 
+                41.992
+              ], 
+              [
+                -88.103, 
+                41.991
+              ], 
+              [
+                -88.103, 
+                41.993
+              ], 
+              [
+                -88.103, 
+                41.993
+              ]
             ]
           ]
         ]
@@ -32,23 +34,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521761, 
-        "name": "Schaumburg Regional Airport", 
         "alias_ENG_V": [
           "Schaumburg Air Park"
         ], 
-        "ne_latitude": 41.992, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -88.096, 
-        "longitude": -88.102, 
-        "placetype": "Airport", 
+        "name": "Schaumburg Regional Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588093", 
+          "woe:state=2347572", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521761, 
+        "ne_longitude": -88.102, 
+        "longitude": -88.103, 
+        "parent_woeid": 12588093, 
+        "ne_latitude": 41.993, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2489613, 
-        "latitude": 41.991, 
-        "sw_longitude": -88.107, 
-        "fullname": "Schaumburg Regional Airport, Schaumburg, Illinois, Cook, United States", 
-        "sw_latitude": 41.988
+        "sw_latitude": 41.991, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 41.992, 
+        "sw_longitude": -88.103, 
+        "fullname": "Schaumburg Regional Airport, Schaumburg, Illinois, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521761
     }

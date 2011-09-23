@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514840, 
+        "placetype": "airport", 
         "name": "Cerro Azul Airport", 
-        "ne_latitude": 21.161, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12601752", 
+          "woe:state=2346293", 
+          "woe:country=23424900", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514840, 
         "ne_longitude": -97.744, 
         "longitude": -97.749, 
-        "placetype": "Airport", 
+        "parent_woeid": 12601752, 
+        "ne_latitude": 21.161, 
         "iso": "MX", 
-        "date_indexed": "2010-12-02T16:57:55Z", 
-        "parent_woeid": 126085, 
+        "sw_latitude": 21.152, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 21.157, 
         "sw_longitude": -97.753, 
-        "fullname": "Cerro Azul Airport, Juan Felipe, Veracruz-Llave, Cerro Azul, Mexico", 
-        "sw_latitude": 21.152
+        "fullname": "Cerro Azul Airport, Juan Felipe, Veracruz-Llave, Mexico", 
+        "date_indexed": "2010-12-02T16:57:55Z"
       }, 
       "id": 12514840
     }

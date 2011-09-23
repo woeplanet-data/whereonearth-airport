@@ -3,28 +3,114 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -81.351, 
-              27.447
-            ], 
-            [
-              -81.351, 
-              27.464
-            ], 
-            [
-              -81.335, 
-              27.464
-            ], 
-            [
-              -81.335, 
-              27.447
-            ], 
-            [
-              -81.351, 
-              27.447
+              [
+                -81.348, 
+                27.449
+              ], 
+              [
+                -81.349, 
+                27.448
+              ], 
+              [
+                -81.351, 
+                27.449
+              ], 
+              [
+                -81.352, 
+                27.449
+              ], 
+              [
+                -81.353, 
+                27.449
+              ], 
+              [
+                -81.356, 
+                27.447
+              ], 
+              [
+                -81.357, 
+                27.449
+              ], 
+              [
+                -81.358, 
+                27.450
+              ], 
+              [
+                -81.358, 
+                27.453
+              ], 
+              [
+                -81.358, 
+                27.453
+              ], 
+              [
+                -81.357, 
+                27.454
+              ], 
+              [
+                -81.357, 
+                27.454
+              ], 
+              [
+                -81.356, 
+                27.456
+              ], 
+              [
+                -81.354, 
+                27.457
+              ], 
+              [
+                -81.353, 
+                27.457
+              ], 
+              [
+                -81.353, 
+                27.457
+              ], 
+              [
+                -81.351, 
+                27.457
+              ], 
+              [
+                -81.350, 
+                27.457
+              ], 
+              [
+                -81.349, 
+                27.457
+              ], 
+              [
+                -81.346, 
+                27.458
+              ], 
+              [
+                -81.344, 
+                27.456
+              ], 
+              [
+                -81.345, 
+                27.455
+              ], 
+              [
+                -81.343, 
+                27.451
+              ], 
+              [
+                -81.347, 
+                27.449
+              ], 
+              [
+                -81.347, 
+                27.449
+              ], 
+              [
+                -81.348, 
+                27.449
+              ]
             ]
           ]
         ]
@@ -32,23 +118,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521787, 
-        "name": "Sebring Regional Airport", 
         "alias_ENG_V": [
           "SEF"
         ], 
-        "ne_latitude": 27.464, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -81.335, 
-        "longitude": -81.347, 
-        "placetype": "Airport", 
+        "name": "Sebring Regional Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587830", 
+          "woe:state=2347568", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521787, 
+        "ne_longitude": -81.343, 
+        "longitude": -81.351, 
+        "parent_woeid": 12587830, 
+        "ne_latitude": 27.458, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2427916, 
-        "latitude": 27.455, 
-        "sw_longitude": -81.351, 
-        "fullname": "Sebring Regional Airport, Istokpoga, Florida, Highlands, United States", 
-        "sw_latitude": 27.447
+        "sw_latitude": 27.447, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 27.453, 
+        "sw_longitude": -81.358, 
+        "fullname": "Sebring Regional Airport, Istokpoga, Florida, United States", 
+        "iata_code": "SEF", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521787
     }

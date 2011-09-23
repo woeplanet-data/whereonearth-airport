@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514758, 
+        "placetype": "airport", 
         "name": "Sumber Suma Airport", 
-        "ne_latitude": 46.584, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2346161", 
+          "woe:country=23424887", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514758, 
         "ne_longitude": 108.330, 
         "longitude": 108.324, 
-        "placetype": "Airport", 
+        "parent_woeid": 2346161, 
+        "ne_latitude": 46.584, 
         "iso": "MN", 
-        "date_indexed": "2010-12-02T08:53:23Z", 
-        "parent_woeid": 2266714, 
+        "sw_latitude": 46.575, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.579, 
         "sw_longitude": 108.317, 
         "fullname": "Sumber Suma Airport, Dornogovi, Mongolia", 
-        "sw_latitude": 46.575
+        "date_indexed": "2010-12-02T08:53:23Z"
       }, 
       "id": 12514758
     }

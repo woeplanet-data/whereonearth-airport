@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522847, 
-        "name": "Santa Barbara del Zulia Airport", 
         "alias_ENG_V": [
           "STB"
         ], 
-        "ne_latitude": 8.987, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Santa Barbara del Zulia Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=26805054", 
+          "woe:county=26804714", 
+          "woe:state=2347699", 
+          "woe:country=23424982", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522847, 
         "ne_longitude": -71.937, 
         "longitude": -71.941, 
-        "placetype": "Airport", 
+        "parent_woeid": 26805054, 
+        "ne_latitude": 8.987, 
         "iso": "VE", 
-        "date_indexed": "2010-12-02T16:11:43Z", 
-        "parent_woeid": 395281, 
+        "sw_latitude": 8.978, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 8.982, 
         "sw_longitude": -71.946, 
-        "fullname": "Santa Barbara del Zulia Airport, San Carlos del Zulia, Zulia, Colon, Venezuela", 
-        "sw_latitude": 8.978
+        "fullname": "Santa Barbara del Zulia Airport, San Carlos del Zulia, Zulia, Venezuela", 
+        "iata_code": "STB", 
+        "date_indexed": "2010-12-02T16:11:43Z"
       }, 
       "id": 12522847
     }

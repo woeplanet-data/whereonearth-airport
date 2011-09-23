@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511520, 
+        "placetype": "airport", 
         "name": "Streltsi Airport", 
-        "ne_latitude": 42.399, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55873747", 
+          "woe:state=20070068", 
+          "woe:country=23424771", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511520, 
         "ne_longitude": 24.903, 
         "longitude": 24.897, 
-        "placetype": "Airport", 
+        "parent_woeid": 55873747, 
+        "ne_latitude": 42.399, 
         "iso": "BG", 
-        "date_indexed": "2010-12-02T16:14:37Z", 
-        "parent_woeid": 839954, 
+        "sw_latitude": 42.390, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.395, 
         "sw_longitude": 24.890, 
         "fullname": "Streltsi Airport, Plovdiv, Brezovo, Bulgaria", 
-        "sw_latitude": 42.390
+        "date_indexed": "2010-12-02T16:14:37Z"
       }, 
       "id": 12511520
     }

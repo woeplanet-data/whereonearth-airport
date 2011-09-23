@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "DUT", 
-        "woeid": 56051716, 
+        "placetype": "airport", 
         "name": "Luchthaven Grimbergen", 
-        "ne_latitude": 50.954, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12602583", 
+          "woe:county=12591768", 
+          "woe:state=22525998", 
+          "woe:country=23424757", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56051716, 
         "ne_longitude": 4.397, 
         "longitude": 4.395, 
-        "placetype": "Airport", 
+        "parent_woeid": 12602583, 
+        "ne_latitude": 50.954, 
         "iso": "BE", 
-        "date_indexed": "2010-12-02T16:32:27Z", 
-        "parent_woeid": 970331, 
+        "sw_latitude": 50.941, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.953, 
         "sw_longitude": 4.373, 
-        "fullname": "Luchthaven Grimbergen, Grimberghen, Vlaams Brabant, Halle-Vilvoorde, Belgium", 
-        "sw_latitude": 50.941
+        "fullname": "Luchthaven Grimbergen, Grimberghen, Vlaams Brabant, Belgium", 
+        "date_indexed": "2010-12-02T16:32:27Z"
       }, 
       "id": 56051716
     }

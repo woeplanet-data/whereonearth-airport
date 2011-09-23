@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 22454971, 
-        "name": "Blackpool Airport", 
         "alias_ENG_V": [
           "BLK"
         ], 
-        "ne_latitude": 53.780, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Blackpool Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=12696179", 
+          "woe:county=12602160", 
+          "woe:state=24554868", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 22454971, 
         "ne_longitude": -3.012, 
         "longitude": -3.042, 
-        "placetype": "Airport", 
+        "parent_woeid": 12696179, 
+        "ne_latitude": 53.780, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:21:01Z", 
-        "parent_woeid": 12903, 
+        "sw_latitude": 53.767, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.778, 
         "sw_longitude": -3.048, 
-        "fullname": "Blackpool Airport, Blackpool, England, Lancashire, United Kingdom", 
-        "sw_latitude": 53.767
+        "fullname": "Blackpool Airport, Blackpool, England, United Kingdom", 
+        "iata_code": "BLK", 
+        "date_indexed": "2010-12-02T12:21:01Z"
       }, 
       "id": 22454971
     }

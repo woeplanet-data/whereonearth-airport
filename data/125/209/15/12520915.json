@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520915, 
-        "name": "Methow Valley State Airport", 
         "alias_ENG_V": [
           "S52"
         ], 
-        "ne_latitude": 48.431, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Methow Valley State Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590463", 
+          "woe:state=2347606", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520915, 
         "ne_longitude": -120.139, 
         "longitude": -120.143, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590463, 
+        "ne_latitude": 48.431, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2522381, 
+        "sw_latitude": 48.418, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.427, 
         "sw_longitude": -120.152, 
-        "fullname": "Methow Valley State Airport, Winthrop, Washington, Okanogan, United States", 
-        "sw_latitude": 48.418
+        "fullname": "Methow Valley State Airport, Winthrop, Washington, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520915
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522060, 
+        "placetype": "airport", 
         "name": "Suwannee County Airport", 
-        "ne_latitude": 30.305, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12587863", 
+          "woe:state=2347568", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522060, 
         "ne_longitude": -83.018, 
         "longitude": -83.023, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587863, 
+        "ne_latitude": 30.305, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2440525, 
+        "sw_latitude": 30.296, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 30.301, 
         "sw_longitude": -83.029, 
-        "fullname": "Suwannee County Airport, Live Oak, Florida, Suwannee, United States", 
-        "sw_latitude": 30.296
+        "fullname": "Suwannee County Airport, Live Oak, Florida, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12522060
     }

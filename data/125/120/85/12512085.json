@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512085, 
+        "placetype": "airport", 
         "name": "Jiajiang Airport", 
-        "ne_latitude": 29.734, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12687314", 
+          "woe:county=26198196", 
+          "woe:state=12578016", 
+          "woe:country=23424781", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512085, 
         "ne_longitude": 103.601, 
         "longitude": 103.596, 
-        "placetype": "Airport", 
+        "parent_woeid": 12687314, 
+        "ne_latitude": 29.734, 
         "iso": "CN", 
-        "date_indexed": "2010-12-02T08:51:48Z", 
-        "parent_woeid": 2158530, 
+        "sw_latitude": 29.725, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 29.730, 
         "sw_longitude": 103.591, 
-        "fullname": "Jiajiang Airport, Jiajiang, Sichuan, Leshan, China", 
-        "sw_latitude": 29.725
+        "fullname": "Jiajiang Airport, Jiajiang, Sichuan, China", 
+        "date_indexed": "2010-12-02T08:51:48Z"
       }, 
       "id": 12512085
     }

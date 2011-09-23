@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519193, 
+        "placetype": "airport", 
         "name": "Christensen Ranch Airport", 
-        "ne_latitude": 36.876, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12587704", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519193, 
         "ne_longitude": -121.330, 
         "longitude": -121.336, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587704, 
+        "ne_latitude": 36.876, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:15Z", 
-        "parent_woeid": 2423203, 
+        "sw_latitude": 36.867, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.872, 
         "sw_longitude": -121.342, 
-        "fullname": "Christensen Ranch Airport, Hollister, California, San Benito, United States", 
-        "sw_latitude": 36.867
+        "fullname": "Christensen Ranch Airport, Hollister, California, United States", 
+        "date_indexed": "2010-12-02T18:39:15Z"
       }, 
       "id": 12519193
     }

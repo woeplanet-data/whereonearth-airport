@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510559, 
-        "name": "Santa Rosa Airport", 
         "alias_ENG_V": [
           "RSA"
         ], 
-        "ne_latitude": -36.577, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Santa Rosa Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=20070684", 
+          "woe:state=2344685", 
+          "woe:country=23424747", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510559, 
         "ne_longitude": -64.261, 
         "longitude": -64.276, 
-        "placetype": "Airport", 
+        "parent_woeid": 20070684, 
+        "ne_latitude": -36.577, 
         "iso": "AR", 
-        "date_indexed": "2010-12-02T17:41:29Z", 
-        "parent_woeid": 332482, 
+        "sw_latitude": -36.599, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -36.588, 
         "sw_longitude": -64.290, 
-        "fullname": "Santa Rosa Airport, Santa Rosa, La Pampa, Santa Rosa, Argentina", 
-        "sw_latitude": -36.599
+        "fullname": "Santa Rosa Airport, Santa Rosa, La Pampa, Argentina", 
+        "iata_code": "RSA", 
+        "date_indexed": "2010-12-02T17:41:29Z"
       }, 
       "id": 12510559
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388165, 
+        "placetype": "airport", 
         "name": "Fundarosa Airport", 
-        "ne_latitude": 30.478, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12588913", 
+          "woe:state=2347583", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388165, 
         "ne_longitude": -88.477, 
         "longitude": -88.478, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588913, 
+        "ne_latitude": 30.478, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2454592, 
+        "sw_latitude": 30.473, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 30.474, 
         "sw_longitude": -88.480, 
-        "fullname": "Fundarosa Airport, Moss Point, Mississippi, Jackson, United States", 
-        "sw_latitude": 30.473
+        "fullname": "Fundarosa Airport, Moss Point, Mississippi, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388165
     }

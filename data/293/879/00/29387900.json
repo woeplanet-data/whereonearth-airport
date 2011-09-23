@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29387900, 
-        "name": "Tatum Airport", 
         "alias_ENG_V": [
           "E07"
         ], 
-        "ne_latitude": 33.264, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Tatum Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589292", 
+          "woe:state=2347590", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29387900, 
         "ne_longitude": -103.266, 
         "longitude": -103.280, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589292, 
+        "ne_latitude": 33.264, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2504252, 
+        "sw_latitude": 33.257, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 33.257, 
         "sw_longitude": -103.283, 
-        "fullname": "Tatum Airport, Tatum, New Mexico, Lea, United States", 
-        "sw_latitude": 33.257
+        "fullname": "Tatum Airport, Tatum, New Mexico, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29387900
     }

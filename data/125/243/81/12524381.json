@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524381, 
-        "name": "Punta Colorada Airport", 
         "alias_ENG_V": [
           "Pta Colorada Airport"
         ], 
-        "ne_latitude": 23.573, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Punta Colorada Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12599697", 
+          "woe:state=2346266", 
+          "woe:country=23424900", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524381, 
         "ne_longitude": -109.513, 
         "longitude": -109.517, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599697, 
+        "ne_latitude": 23.573, 
         "iso": "MX", 
-        "date_indexed": "2010-12-02T16:57:55Z", 
-        "parent_woeid": 127927, 
+        "sw_latitude": 23.564, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 23.569, 
         "sw_longitude": -109.522, 
-        "fullname": "Punta Colorada Airport, La Laguna, Baja California Sur, Los Cabos, Mexico", 
-        "sw_latitude": 23.564
+        "fullname": "Punta Colorada Airport, La Laguna, Baja California Sur, Mexico", 
+        "iata_code": "PCO", 
+        "date_indexed": "2010-12-02T16:57:55Z"
       }, 
       "id": 12524381
     }

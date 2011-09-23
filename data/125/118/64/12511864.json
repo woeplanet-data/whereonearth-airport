@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511864, 
-        "name": "Swift Current Airport", 
         "alias_ENG_V": [
           "YYN Airport"
         ], 
-        "ne_latitude": 50.299, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Swift Current Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375232", 
+          "woe:state=2344925", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511864, 
         "ne_longitude": -107.677, 
         "longitude": -107.690, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375232, 
+        "ne_latitude": 50.299, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 2309, 
+        "sw_latitude": 50.281, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.286, 
         "sw_longitude": -107.701, 
-        "fullname": "Swift Current Airport, Swift Current, Saskatchewan, Saskatchewan, Canada", 
-        "sw_latitude": 50.281
+        "fullname": "Swift Current Airport, Swift Current, Saskatchewan, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12511864
     }

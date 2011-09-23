@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "FRE", 
-        "woeid": 56051842, 
+        "placetype": "airport", 
         "name": "A\u00e9rodrome D'argentan", 
-        "ne_latitude": 48.714, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12637333", 
+          "woe:county=12597150", 
+          "woe:state=7153311", 
+          "woe:country=23424819", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56051842, 
         "ne_longitude": 0.009, 
         "longitude": -0.001, 
-        "placetype": "Airport", 
+        "parent_woeid": 12637333, 
+        "ne_latitude": 48.714, 
         "iso": "FR", 
-        "date_indexed": "2010-12-02T12:04:01Z", 
-        "parent_woeid": 576550, 
+        "sw_latitude": 48.703, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.709, 
         "sw_longitude": -0.003, 
-        "fullname": "A\u00e9rodrome D'argentan, Argentan, Basse-Normandie, Orne, France", 
+        "fullname": "A\u00e9rodrome D'argentan, Argentan, Basse-Normandie, France", 
         "alias_FRE_S": [
           "Aerodrome D'argentan"
         ], 
-        "sw_latitude": 48.703
+        "date_indexed": "2010-12-02T12:04:01Z"
       }, 
       "id": 56051842
     }

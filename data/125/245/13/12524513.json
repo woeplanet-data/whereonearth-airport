@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524513, 
-        "name": "San Juan de Uraba Airport", 
         "alias_ENG_V": [
           "San Juan Uraba Airport"
         ], 
-        "ne_latitude": 8.771, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "San Juan de Uraba Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26796699", 
+          "woe:state=2345048", 
+          "woe:country=23424787", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524513, 
         "ne_longitude": -76.529, 
         "longitude": -76.533, 
-        "placetype": "Airport", 
+        "parent_woeid": 26796699, 
+        "ne_latitude": 8.771, 
         "iso": "CO", 
-        "date_indexed": "2010-12-02T17:57:37Z", 
-        "parent_woeid": 420018, 
+        "sw_latitude": 8.762, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 8.767, 
         "sw_longitude": -76.538, 
         "fullname": "San Juan de Uraba Airport, Antioquia, San Juan de Uraba, Colombia", 
-        "sw_latitude": 8.762
+        "date_indexed": "2010-12-02T17:57:37Z"
       }, 
       "id": 12524513
     }

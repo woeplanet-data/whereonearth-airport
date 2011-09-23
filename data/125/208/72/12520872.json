@@ -3,28 +3,90 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -97.263, 
-              37.628
-            ], 
-            [
-              -97.263, 
-              37.657
-            ], 
-            [
-              -97.227, 
-              37.657
-            ], 
-            [
-              -97.227, 
-              37.628
-            ], 
-            [
-              -97.263, 
-              37.628
+              [
+                -97.232, 
+                37.655
+              ], 
+              [
+                -97.232, 
+                37.654
+              ], 
+              [
+                -97.232, 
+                37.654
+              ], 
+              [
+                -97.241, 
+                37.644
+              ], 
+              [
+                -97.239, 
+                37.637
+              ], 
+              [
+                -97.240, 
+                37.635
+              ], 
+              [
+                -97.253, 
+                37.632
+              ], 
+              [
+                -97.261, 
+                37.623
+              ], 
+              [
+                -97.274, 
+                37.622
+              ], 
+              [
+                -97.274, 
+                37.631
+              ], 
+              [
+                -97.273, 
+                37.632
+              ], 
+              [
+                -97.272, 
+                37.635
+              ], 
+              [
+                -97.261, 
+                37.637
+              ], 
+              [
+                -97.258, 
+                37.637
+              ], 
+              [
+                -97.257, 
+                37.637
+              ], 
+              [
+                -97.257, 
+                37.637
+              ], 
+              [
+                -97.245, 
+                37.641
+              ], 
+              [
+                -97.241, 
+                37.644
+              ], 
+              [
+                -97.232, 
+                37.654
+              ], 
+              [
+                -97.232, 
+                37.655
+              ]
             ]
           ]
         ]
@@ -32,26 +94,33 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520872, 
-        "name": "McConnell Air Force Base", 
         "adjacent_woeid": [
           2520077
         ], 
-        "ne_latitude": 37.657, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "McConnell Air Force Base", 
+        "placetype": "airport", 
         "alias_ENG_V": [
           "IAB Airport"
         ], 
-        "ne_longitude": -97.227, 
-        "longitude": -97.245, 
-        "placetype": "Airport", 
+        "hierarchy": [
+          "woe:county=12588457", 
+          "woe:state=2347575", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520872, 
+        "ne_longitude": -97.232, 
+        "longitude": -97.259, 
+        "parent_woeid": 12588457, 
+        "ne_latitude": 37.655, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 28338575, 
-        "latitude": 37.642, 
-        "sw_longitude": -97.263, 
-        "fullname": "McConnell Air Force Base, Planeview, Kansas, Sedgwick, United States", 
-        "sw_latitude": 37.628
+        "sw_latitude": 37.622, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 37.632, 
+        "sw_longitude": -97.274, 
+        "fullname": "McConnell Air Force Base, Planeview, Kansas, United States", 
+        "iata_code": "IAB", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12520872
     }

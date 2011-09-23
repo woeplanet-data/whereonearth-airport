@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519113, 
+        "placetype": "airport", 
         "name": "Center Municipal Airport", 
-        "ne_latitude": 47.082, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12589506", 
+          "woe:state=2347593", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519113, 
         "ne_longitude": -101.256, 
         "longitude": -101.266, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589506, 
+        "ne_latitude": 47.082, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2377221, 
+        "sw_latitude": 47.080, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.081, 
         "sw_longitude": -101.277, 
-        "fullname": "Center Municipal Airport, Center, North Dakota, Oliver, United States", 
-        "sw_latitude": 47.080
+        "fullname": "Center Municipal Airport, Center, North Dakota, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519113
     }

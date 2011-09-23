@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522208, 
-        "name": "Oakland/Troy Airport", 
         "alias_ENG_V": [
           "Troy Oakland Airport"
         ], 
-        "ne_latitude": 42.544, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Oakland/Troy Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588776", 
+          "woe:state=2347581", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522208, 
         "ne_longitude": -83.170, 
         "longitude": -83.180, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588776, 
+        "ne_latitude": 42.544, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2508216, 
+        "sw_latitude": 42.541, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.542, 
         "sw_longitude": -83.186, 
-        "fullname": "Oakland/Troy Airport, Troy, Michigan, Oakland, United States", 
-        "sw_latitude": 42.541
+        "fullname": "Oakland/Troy Airport, Troy, Michigan, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522208
     }

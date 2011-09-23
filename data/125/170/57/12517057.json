@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517057, 
+        "placetype": "airport", 
         "name": "Tyrnovo Airport", 
-        "ne_latitude": 54.473, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599178", 
+          "woe:state=2346922", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517057, 
         "ne_longitude": 41.045, 
         "longitude": 41.037, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599178, 
+        "ne_latitude": 54.473, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2003226, 
+        "sw_latitude": 54.464, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 54.468, 
         "sw_longitude": 41.029, 
         "fullname": "Tyrnovo Airport, Ryazanskaya Oblast, Shilovsky, Russia", 
-        "sw_latitude": 54.464
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12517057
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518685, 
-        "name": "Atka Airport", 
         "alias_ENG_V": [
           "AKB"
         ], 
-        "ne_latitude": 52.225, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Atka Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587555", 
+          "woe:state=2347560", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518685, 
         "ne_longitude": -174.204, 
         "longitude": -174.204, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587555, 
+        "ne_latitude": 52.225, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2356975, 
+        "sw_latitude": 52.215, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 52.222, 
         "sw_longitude": -174.209, 
-        "fullname": "Atka Airport, Atka, Alaska, Aleutians West Census Area, United States", 
-        "sw_latitude": 52.215
+        "fullname": "Atka Airport, Atka, Alaska, United States", 
+        "iata_code": "AKB", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518685
     }

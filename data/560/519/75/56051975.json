@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 56051975, 
+        "placetype": "airport", 
         "name": "Segelflugplatz Rammertshof", 
-        "ne_latitude": 49.441, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12634220", 
+          "woe:county=12597041", 
+          "woe:state=2345482", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56051975, 
         "ne_longitude": 11.816, 
         "longitude": 11.810, 
-        "placetype": "Airport", 
+        "parent_woeid": 12634220, 
+        "ne_latitude": 49.441, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 634976, 
+        "sw_latitude": 49.438, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.441, 
         "sw_longitude": 11.799, 
-        "fullname": "Segelflugplatz Rammertshof, Amberg, Bavaria, Stadtkreis Amberg, Germany", 
-        "sw_latitude": 49.438
+        "fullname": "Segelflugplatz Rammertshof, Amberg, Bavaria, Germany", 
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 56051975
     }

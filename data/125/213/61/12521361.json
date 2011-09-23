@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521361, 
-        "name": "Philadelphia Municipal Airport", 
         "alias_ENG_V": [
           "MPE"
         ], 
-        "ne_latitude": 32.805, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Philadelphia Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588933", 
+          "woe:state=2347583", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521361, 
         "ne_longitude": -89.123, 
         "longitude": -89.124, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588933, 
+        "ne_latitude": 32.805, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2471215, 
+        "sw_latitude": 32.791, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 32.801, 
         "sw_longitude": -89.128, 
-        "fullname": "Philadelphia Municipal Airport, Philadelphia, Mississippi, Neshoba, United States", 
-        "sw_latitude": 32.791
+        "fullname": "Philadelphia Municipal Airport, Philadelphia, Mississippi, United States", 
+        "iata_code": "MPE", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521361
     }

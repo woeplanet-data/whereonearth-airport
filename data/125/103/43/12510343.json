@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510343, 
+        "placetype": "airport", 
         "name": "Relizane Airport", 
-        "ne_latitude": 35.759, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2344621", 
+          "woe:country=23424740", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510343, 
         "ne_longitude": 0.635, 
         "longitude": 0.630, 
-        "placetype": "Airport", 
+        "parent_woeid": 2344621, 
+        "ne_latitude": 35.759, 
         "iso": "DZ", 
-        "date_indexed": "2010-12-02T17:07:16Z", 
-        "parent_woeid": 1256593, 
+        "sw_latitude": 35.750, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.755, 
         "sw_longitude": 0.624, 
         "fullname": "Relizane Airport, Relizane, Algeria", 
-        "sw_latitude": 35.750
+        "date_indexed": "2010-12-02T17:07:16Z"
       }, 
       "id": 12510343
     }

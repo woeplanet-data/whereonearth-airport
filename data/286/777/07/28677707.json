@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 28677707, 
+        "placetype": "airport", 
         "name": "Waikerie Aerodrome", 
-        "ne_latitude": -34.174, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55864118", 
+          "woe:state=2344703", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 28677707, 
         "ne_longitude": 140.037, 
         "longitude": 140.031, 
-        "placetype": "Airport", 
+        "parent_woeid": 55864118, 
+        "ne_latitude": -34.174, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1102678, 
+        "sw_latitude": -34.183, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -34.178, 
         "sw_longitude": 140.026, 
-        "fullname": "Waikerie Aerodrome, Holder, South Australia, Loxton Waikerie, Australia", 
-        "sw_latitude": -34.183
+        "fullname": "Waikerie Aerodrome, Holder, South Australia, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 28677707
     }

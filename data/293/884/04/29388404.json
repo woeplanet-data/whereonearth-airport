@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388404, 
-        "name": "Newton Field Airport", 
         "alias_ENG_V": [
           "59b"
         ], 
-        "ne_latitude": 45.634, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Newton Field Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588672", 
+          "woe:state=2347578", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388404, 
         "ne_longitude": -70.237, 
         "longitude": -70.255, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588672, 
+        "ne_latitude": 45.634, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2428122, 
+        "sw_latitude": 45.629, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.633, 
         "sw_longitude": -70.258, 
-        "fullname": "Newton Field Airport, Jackman, Maine, Somerset, United States", 
-        "sw_latitude": 45.629
+        "fullname": "Newton Field Airport, Jackman, Maine, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388404
     }

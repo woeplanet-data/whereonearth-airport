@@ -32,29 +32,35 @@
       "type": "Feature", 
       "properties": {
         "lang": "JPN", 
-        "woeid": 12514030, 
-        "name": "\u5bcc\u5c71\u7a7a\u6e2f", 
         "alias_ENG_V": [
           "TOY Airport"
         ], 
+        "name": "\u5bcc\u5c71\u7a7a\u6e2f", 
         "alias_ENG_P": [
           "Toyama Airport"
         ], 
-        "ne_latitude": 36.654, 
+        "parent_woeid": 2345891, 
+        "woeid": 12514030, 
+        "provider": "geoplanet 7.6.0", 
         "alias_JPN_V": [
           "\u30c8\u30e4\u30de\u30af\u30a6\u30b3\u30a6"
         ], 
-        "ne_longitude": 137.193, 
         "longitude": 137.187, 
-        "parent_woeid": 1118400, 
-        "placetype": "Airport", 
+        "ne_longitude": 137.193, 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2345891", 
+          "woe:country=23424856", 
+          "woe:planet=1"
+        ], 
         "iso": "JP", 
-        "date_indexed": "2010-12-02T08:09:09Z", 
-        "provider": "geoplanet 7.6.0", 
+        "sw_latitude": 36.645, 
+        "ne_latitude": 36.654, 
         "latitude": 36.650, 
         "sw_longitude": 137.182, 
         "fullname": "\u5bcc\u5c71\u7a7a\u6e2f, Toyama-shi, Toyama Prefecture, Japan", 
-        "sw_latitude": 36.645
+        "iata_code": "TOY", 
+        "date_indexed": "2010-12-02T08:09:09Z"
       }, 
       "id": 12514030
     }

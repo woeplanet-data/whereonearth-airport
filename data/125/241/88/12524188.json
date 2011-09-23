@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524188, 
-        "name": "Falher Airport", 
         "alias_ENG_V": [
           "YOE Airport"
         ], 
-        "ne_latitude": 55.738, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Falher Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375228", 
+          "woe:state=2344915", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524188, 
         "ne_longitude": -117.192, 
         "longitude": -117.200, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375228, 
+        "ne_latitude": 55.738, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 23403853, 
+        "sw_latitude": 55.729, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 55.733, 
         "sw_longitude": -117.208, 
-        "fullname": "Falher Airport, Falher, Alberta, Alberta, Canada", 
-        "sw_latitude": 55.729
+        "fullname": "Falher Airport, Falher, Alberta, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12524188
     }

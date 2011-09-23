@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516889, 
+        "placetype": "airport", 
         "name": "Sobolevo Airport", 
-        "ne_latitude": 54.310, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598425", 
+          "woe:state=20070514", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516889, 
         "ne_longitude": 155.970, 
         "longitude": 155.962, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598425, 
+        "ne_latitude": 54.310, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2124814, 
+        "sw_latitude": 54.301, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 54.305, 
         "sw_longitude": 155.954, 
-        "fullname": "Sobolevo Airport, Sobolevo, Kamchatskaya Oblast, Sobolevsky, Russia", 
-        "sw_latitude": 54.301
+        "fullname": "Sobolevo Airport, Sobolevo, Kamchatskaya Oblast, Russia", 
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516889
     }

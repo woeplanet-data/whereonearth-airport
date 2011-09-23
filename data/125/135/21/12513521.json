@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513521, 
-        "name": "Wai Oti Airport", 
         "alias_ENG_V": [
           "MOF Airport"
         ], 
-        "ne_latitude": -8.634, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Wai Oti Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=56000062", 
+          "woe:state=2345727", 
+          "woe:country=23424846", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513521, 
         "ne_longitude": 122.245, 
         "longitude": 122.240, 
-        "placetype": "Airport", 
+        "parent_woeid": 56000062, 
+        "ne_latitude": -8.634, 
         "iso": "ID", 
-        "date_indexed": "2010-12-02T16:54:32Z", 
-        "parent_woeid": 1047442, 
+        "sw_latitude": -8.643, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -8.638, 
         "sw_longitude": 122.235, 
         "fullname": "Wai Oti Airport, East Nusa Tenggara, Sikka, Indonesia", 
-        "sw_latitude": -8.643
+        "iata_code": "MOF", 
+        "date_indexed": "2010-12-02T16:54:32Z"
       }, 
       "id": 12513521
     }

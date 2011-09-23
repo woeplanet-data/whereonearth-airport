@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512928, 
+        "placetype": "airport", 
         "name": "Malbouhans Airport", 
-        "ne_latitude": 47.709, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12646486", 
+          "woe:county=12597119", 
+          "woe:state=7153317", 
+          "woe:country=23424819", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512928, 
         "ne_longitude": 6.553, 
         "longitude": 6.546, 
-        "placetype": "Airport", 
+        "parent_woeid": 12646486, 
+        "ne_latitude": 47.709, 
         "iso": "FR", 
-        "date_indexed": "2010-12-02T12:04:01Z", 
-        "parent_woeid": 599225, 
+        "sw_latitude": 47.700, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.704, 
         "sw_longitude": 6.539, 
-        "fullname": "Malbouhans Airport, La Neuvelle-l\u00e8s-Lure, Franche-Comte, Haute-Saone, France", 
-        "sw_latitude": 47.700
+        "fullname": "Malbouhans Airport, La Neuvelle-l\u00e8s-Lure, Franche-Comte, France", 
+        "date_indexed": "2010-12-02T12:04:01Z"
       }, 
       "id": 12512928
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517142, 
+        "placetype": "airport", 
         "name": "Vasen Airport", 
-        "ne_latitude": 46.527, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597809", 
+          "woe:state=2346884", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517142, 
         "ne_longitude": 38.923, 
         "longitude": 38.916, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597809, 
+        "ne_latitude": 46.527, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2117995, 
+        "sw_latitude": 46.518, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.523, 
         "sw_longitude": 38.909, 
         "fullname": "Vasen Airport, Krasnodarskiy Kray, Starominsky, Russia", 
-        "sw_latitude": 46.518
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12517142
     }

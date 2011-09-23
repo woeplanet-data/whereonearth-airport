@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521455, 
-        "name": "Portland Municipal Airport", 
         "alias_ENG_V": [
           "1m5"
         ], 
-        "ne_latitude": 36.600, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Portland Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589994", 
+          "woe:state=2347601", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521455, 
         "ne_longitude": -86.474, 
         "longitude": -86.479, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589994, 
+        "ne_latitude": 36.600, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2475681, 
+        "sw_latitude": 36.584, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.591, 
         "sw_longitude": -86.480, 
-        "fullname": "Portland Municipal Airport, Portland, Tennessee, Sumner, United States", 
-        "sw_latitude": 36.584
+        "fullname": "Portland Municipal Airport, Portland, Tennessee, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521455
     }

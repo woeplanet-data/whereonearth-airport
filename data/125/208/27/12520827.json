@@ -3,28 +3,30 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -76.429, 
-              39.315
-            ], 
-            [
-              -76.429, 
-              39.337
-            ], 
-            [
-              -76.403, 
-              39.337
-            ], 
-            [
-              -76.403, 
-              39.315
-            ], 
-            [
-              -76.429, 
-              39.315
+              [
+                -76.429, 
+                39.327
+              ], 
+              [
+                -76.429, 
+                39.327
+              ], 
+              [
+                -76.428, 
+                39.323
+              ], 
+              [
+                -76.432, 
+                39.326
+              ], 
+              [
+                -76.429, 
+                39.327
+              ]
             ]
           ]
         ]
@@ -32,23 +34,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520827, 
-        "name": "Martin State Airport", 
         "alias_ENG_V": [
           "Martin State"
         ], 
-        "ne_latitude": 39.337, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -76.403, 
-        "longitude": -76.424, 
-        "placetype": "Airport", 
+        "name": "Martin State Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588678", 
+          "woe:state=2347579", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520827, 
+        "ne_longitude": -76.428, 
+        "longitude": -76.429, 
+        "parent_woeid": 12588678, 
+        "ne_latitude": 39.327, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2521549, 
-        "latitude": 39.328, 
-        "sw_longitude": -76.429, 
-        "fullname": "Martin State Airport, Wilson Point, Maryland, Baltimore, United States", 
-        "sw_latitude": 39.315
+        "sw_latitude": 39.323, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 39.325, 
+        "sw_longitude": -76.432, 
+        "fullname": "Martin State Airport, Wilson Point, Maryland, United States", 
+        "iata_code": "MTN", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520827
     }

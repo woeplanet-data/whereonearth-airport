@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513772, 
+        "placetype": "airport", 
         "name": "Zabol Airport", 
-        "ne_latitude": 31.093, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345770", 
+          "woe:country=23424851", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513772, 
         "ne_longitude": 61.554, 
         "longitude": 61.549, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345770, 
+        "ne_latitude": 31.093, 
         "iso": "IR", 
-        "date_indexed": "2010-12-02T08:53:52Z", 
-        "parent_woeid": 2253457, 
+        "sw_latitude": 31.084, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 31.089, 
         "sw_longitude": 61.543, 
         "fullname": "Zabol Airport, Shahr i Zabul, Sistan va Baluchestan, Iran", 
-        "sw_latitude": 31.084
+        "date_indexed": "2010-12-02T08:53:52Z"
       }, 
       "id": 12513772
     }

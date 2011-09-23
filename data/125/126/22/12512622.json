@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512622, 
+        "placetype": "airport", 
         "name": "Atahualpa Airport", 
-        "ne_latitude": 0.338, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=26810049", 
+          "woe:county=26809563", 
+          "woe:state=2345212", 
+          "woe:country=23424801", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512622, 
         "ne_longitude": -78.095, 
         "longitude": -78.100, 
-        "placetype": "Airport", 
+        "parent_woeid": 26810049, 
+        "ne_latitude": 0.338, 
         "iso": "EC", 
-        "date_indexed": "2010-12-02T17:51:45Z", 
-        "parent_woeid": 375738, 
+        "sw_latitude": 0.329, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 0.333, 
         "sw_longitude": -78.105, 
-        "fullname": "Atahualpa Airport, San Antonio, Imbabura, Ibarra, Ecuador", 
-        "sw_latitude": 0.329
+        "fullname": "Atahualpa Airport, San Antonio, Imbabura, Ecuador", 
+        "date_indexed": "2010-12-02T17:51:45Z"
       }, 
       "id": 12512622
     }

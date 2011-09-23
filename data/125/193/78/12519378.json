@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519378, 
+        "placetype": "airport", 
         "name": "Cuchara Valley Airport", 
-        "ne_latitude": 37.528, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12587755", 
+          "woe:state=2347564", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519378, 
         "ne_longitude": -105.003, 
         "longitude": -105.009, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587755, 
+        "ne_latitude": 37.528, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:15Z", 
-        "parent_woeid": 2434367, 
+        "sw_latitude": 37.519, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 37.524, 
         "sw_longitude": -105.015, 
-        "fullname": "Cuchara Valley Airport, La Veta, Colorado, Huerfano, United States", 
-        "sw_latitude": 37.519
+        "fullname": "Cuchara Valley Airport, La Veta, Colorado, United States", 
+        "date_indexed": "2010-12-02T18:39:15Z"
       }, 
       "id": 12519378
     }

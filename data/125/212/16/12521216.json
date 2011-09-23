@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521216, 
+        "placetype": "airport", 
         "name": "Oljato Airport", 
-        "ne_latitude": 37.041, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12590279", 
+          "woe:state=2347603", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521216, 
         "ne_longitude": -110.311, 
         "longitude": -110.317, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590279, 
+        "ne_latitude": 37.041, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2465400, 
+        "sw_latitude": 37.032, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 37.036, 
         "sw_longitude": -110.323, 
-        "fullname": "Oljato Airport, Oljeto, Utah, San Juan, United States", 
-        "sw_latitude": 37.032
+        "fullname": "Oljato Airport, Oljeto, Utah, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521216
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388195, 
-        "name": "Kizer Field", 
         "alias_ENG_V": [
           "Kizer Field Airport"
         ], 
-        "ne_latitude": 33.809, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Kizer Field", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587644", 
+          "woe:state=2347562", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388195, 
         "ne_longitude": -93.360, 
         "longitude": -93.362, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587644, 
+        "ne_latitude": 33.809, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2476439, 
+        "sw_latitude": 33.795, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 33.809, 
         "sw_longitude": -93.363, 
-        "fullname": "Kizer Field, Prescott, Arkansas, Nevada, United States", 
-        "sw_latitude": 33.795
+        "fullname": "Kizer Field, Prescott, Arkansas, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388195
     }

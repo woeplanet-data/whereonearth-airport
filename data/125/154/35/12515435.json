@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515435, 
+        "placetype": "airport", 
         "name": "Aveiro Airport", 
-        "ne_latitude": 40.660, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12596643", 
+          "woe:state=2346562", 
+          "woe:country=23424925", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515435, 
         "ne_longitude": -8.732, 
         "longitude": -8.738, 
-        "placetype": "Airport", 
+        "parent_woeid": 12596643, 
+        "ne_latitude": 40.660, 
         "iso": "PT", 
-        "date_indexed": "2010-12-02T10:00:50Z", 
-        "parent_woeid": 748173, 
+        "sw_latitude": 40.651, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.656, 
         "sw_longitude": -8.743, 
-        "fullname": "Aveiro Airport, S\u00e3o Jacinto, Aveiro, Aveiro, Portugal", 
-        "sw_latitude": 40.651
+        "fullname": "Aveiro Airport, S\u00e3o Jacinto, Aveiro, Portugal", 
+        "date_indexed": "2010-12-02T10:00:50Z"
       }, 
       "id": 12515435
     }

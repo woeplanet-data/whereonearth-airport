@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512447, 
-        "name": "Berberati Airport", 
         "alias_ENG_V": [
           "BBT"
         ], 
-        "ne_latitude": 4.224, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Berberati Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55998319", 
+          "woe:state=2345092", 
+          "woe:country=23424792", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512447, 
         "ne_longitude": 15.793, 
         "longitude": 15.788, 
-        "placetype": "Airport", 
+        "parent_woeid": 55998319, 
+        "ne_latitude": 4.224, 
         "iso": "CF", 
-        "date_indexed": "2010-12-02T17:43:32Z", 
-        "parent_woeid": 1306940, 
+        "sw_latitude": 4.215, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 4.219, 
         "sw_longitude": 15.784, 
-        "fullname": "Berberati Airport, Berb\u00e9rati, Mamb\u00e9r\u00e9-Kad\u00e9\u00ef, Berb\u00e9rati, Central African Republic", 
-        "sw_latitude": 4.215
+        "fullname": "Berberati Airport, Berb\u00e9rati, Mamb\u00e9r\u00e9-Kad\u00e9\u00ef, Central African Republic", 
+        "iata_code": "BBT", 
+        "date_indexed": "2010-12-02T17:43:32Z"
       }, 
       "id": 12512447
     }

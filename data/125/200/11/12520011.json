@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520011, 
-        "name": "Greenwood County Airport", 
         "alias_ENG_V": [
           "GRD"
         ], 
-        "ne_latitude": 34.257, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Greenwood County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589823", 
+          "woe:state=2347599", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520011, 
         "ne_longitude": -82.150, 
         "longitude": -82.153, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589823, 
+        "ne_latitude": 34.257, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2414758, 
+        "sw_latitude": 34.241, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 34.244, 
         "sw_longitude": -82.168, 
-        "fullname": "Greenwood County Airport, Greenwood, South Carolina, Greenwood, United States", 
-        "sw_latitude": 34.241
+        "fullname": "Greenwood County Airport, Greenwood, South Carolina, United States", 
+        "iata_code": "GRD", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520011
     }

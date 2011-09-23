@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517288, 
+        "placetype": "airport", 
         "name": "Zeya Southwest Airport", 
-        "ne_latitude": 53.691, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598008", 
+          "woe:state=2346888", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517288, 
         "ne_longitude": 127.096, 
         "longitude": 127.089, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598008, 
+        "ne_latitude": 53.691, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2010711, 
+        "sw_latitude": 53.682, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.687, 
         "sw_longitude": 127.081, 
         "fullname": "Zeya Southwest Airport, Amurskaya Oblast, Zeysky, Russia", 
-        "sw_latitude": 53.682
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12517288
     }

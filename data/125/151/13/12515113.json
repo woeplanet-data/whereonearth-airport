@@ -3,28 +3,38 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              8.072, 
-              58.197
-            ], 
-            [
-              8.072, 
-              58.213
-            ], 
-            [
-              8.097, 
-              58.213
-            ], 
-            [
-              8.097, 
-              58.197
-            ], 
-            [
-              8.072, 
-              58.197
+              [
+                8.069, 
+                58.200
+              ], 
+              [
+                8.069, 
+                58.202
+              ], 
+              [
+                8.065, 
+                58.206
+              ], 
+              [
+                8.067, 
+                58.207
+              ], 
+              [
+                8.069, 
+                58.202
+              ], 
+              [
+                8.069, 
+                58.200
+              ], 
+              [
+                8.069, 
+                58.200
+              ]
             ]
           ]
         ]
@@ -40,8 +50,15 @@
         "alias_ENG_P": [
           "Kristiansand Airport"
         ], 
-        "ne_latitude": 58.213, 
-        "placetype": "Airport", 
+        "hierarchy": [
+          "woe:county=12592683", 
+          "woe:state=2346402", 
+          "woe:country=23424910", 
+          "woe:planet=1"
+        ], 
+        "ne_latitude": 58.207, 
+        "placetype": "airport", 
+        "iata_code": "KRS", 
         "alias_ITA_Q": [
           "Aeroporto di Kristiansand Kjevik"
         ], 
@@ -52,9 +69,9 @@
         "alias_FIN_Q": [
           "Kristiansand Kjevikin Lentoasema"
         ], 
-        "sw_longitude": 8.072, 
+        "sw_longitude": 8.065, 
         "provider": "geoplanet 7.6.0", 
-        "latitude": 58.202, 
+        "latitude": 58.205, 
         "alias_NOR_V": [
           "Kristiansand Lufthavn Kjevik"
         ], 
@@ -70,15 +87,15 @@
         ], 
         "lang": "POR", 
         "name": "Aeroporto de Kristiansand Kjevik", 
-        "parent_woeid": 15000730, 
+        "parent_woeid": 12592683, 
         "alias_UNK_Q": [
           "Letisko Kristiansand Kjevik"
         ], 
-        "ne_longitude": 8.097, 
-        "longitude": 8.074, 
+        "ne_longitude": 8.069, 
+        "longitude": 8.067, 
         "iso": "NO", 
-        "sw_latitude": 58.197, 
-        "fullname": "Aeroporto de Kristiansand Kjevik, Hamresanden, Vest-Agder Fylke, Kristiansand Kommune, Norway", 
+        "sw_latitude": 58.200, 
+        "fullname": "Aeroporto de Kristiansand Kjevik, Hamresanden, Vest-Agder Fylke, Norway", 
         "alias_FRE_S": [
           "Aeroport de Kristiansand Kjevik"
         ], 

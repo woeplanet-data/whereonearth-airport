@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511434, 
+        "placetype": "airport", 
         "name": "Grivitsa Airport", 
-        "ne_latitude": 43.413, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55873717", 
+          "woe:state=20070065", 
+          "woe:country=23424771", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511434, 
         "ne_longitude": 24.737, 
         "longitude": 24.730, 
-        "placetype": "Airport", 
+        "parent_woeid": 55873717, 
+        "ne_latitude": 43.413, 
         "iso": "BG", 
-        "date_indexed": "2010-12-02T16:14:37Z", 
-        "parent_woeid": 836667, 
+        "sw_latitude": 43.404, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.408, 
         "sw_longitude": 24.724, 
         "fullname": "Grivitsa Airport, Pleven, Pleven, Bulgaria", 
-        "sw_latitude": 43.404
+        "date_indexed": "2010-12-02T16:14:37Z"
       }, 
       "id": 12511434
     }

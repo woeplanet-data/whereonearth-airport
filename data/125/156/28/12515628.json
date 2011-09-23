@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515628, 
+        "placetype": "airport", 
         "name": "Lingayen Airport", 
-        "ne_latitude": 16.037, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=2346705", 
+          "woe:state=23424724", 
+          "woe:country=23424934", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515628, 
         "ne_longitude": 120.245, 
         "longitude": 120.241, 
-        "placetype": "Airport", 
+        "parent_woeid": 2346705, 
+        "ne_latitude": 16.037, 
         "iso": "PH", 
-        "date_indexed": "2010-12-02T09:56:58Z", 
-        "parent_woeid": 1178486, 
+        "sw_latitude": 16.028, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 16.033, 
         "sw_longitude": 120.236, 
-        "fullname": "Lingayen Airport, Lingayen, Ilocos Region, Pangasinan, Philippines", 
-        "sw_latitude": 16.028
+        "fullname": "Lingayen Airport, Lingayen, Ilocos Region, Philippines", 
+        "date_indexed": "2010-12-02T09:56:58Z"
       }, 
       "id": 12515628
     }

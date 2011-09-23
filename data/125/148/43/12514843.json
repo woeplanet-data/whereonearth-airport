@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514843, 
+        "placetype": "airport", 
         "name": "Chilpancingo Airport", 
-        "ne_latitude": 17.575, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12600051", 
+          "woe:state=2346275", 
+          "woe:country=23424900", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514843, 
         "ne_longitude": -99.517, 
         "longitude": -99.521, 
-        "placetype": "Airport", 
+        "parent_woeid": 12600051, 
+        "ne_latitude": 17.575, 
         "iso": "MX", 
-        "date_indexed": "2010-12-02T16:57:55Z", 
-        "parent_woeid": 116019, 
+        "sw_latitude": 17.566, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 17.570, 
         "sw_longitude": -99.526, 
-        "fullname": "Chilpancingo Airport, Chilpancingo, Guerrero, Chilpancingo de Los Bravo, Mexico", 
-        "sw_latitude": 17.566
+        "fullname": "Chilpancingo Airport, Chilpancingo, Guerrero, Mexico", 
+        "date_indexed": "2010-12-02T16:57:55Z"
       }, 
       "id": 12514843
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524055, 
-        "name": "Killineq Airport", 
         "alias_ENG_V": [
           "XBW Airport"
         ], 
-        "ne_latitude": 42.658, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Killineq Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375189", 
+          "woe:state=2344922", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524055, 
         "ne_longitude": -80.813, 
         "longitude": -80.819, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375189, 
+        "ne_latitude": 42.658, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 1247, 
+        "sw_latitude": 42.649, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.654, 
         "sw_longitude": -80.825, 
-        "fullname": "Killineq Airport, Port Burwell, Ontario, Elgin, Canada", 
-        "sw_latitude": 42.649
+        "fullname": "Killineq Airport, Port Burwell, Ontario, Canada", 
+        "iata_code": "XBW", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12524055
     }

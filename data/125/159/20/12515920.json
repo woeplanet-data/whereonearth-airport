@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515920, 
-        "name": "Chulman Airport", 
         "alias_ENG_V": [
           "CHN"
         ], 
-        "ne_latitude": 56.897, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Chulman Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12597639", 
+          "woe:state=2346881", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515920, 
         "ne_longitude": 124.890, 
         "longitude": 124.882, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597639, 
+        "ne_latitude": 56.897, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 1999427, 
+        "sw_latitude": 56.887, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 56.892, 
         "sw_longitude": 124.874, 
-        "fullname": "Chulman Airport, Chul'man, Sakha, Neriungri, Russia", 
-        "sw_latitude": 56.887
+        "fullname": "Chulman Airport, Chul'man, Sakha, Russia", 
+        "iata_code": "CHN", 
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12515920
     }

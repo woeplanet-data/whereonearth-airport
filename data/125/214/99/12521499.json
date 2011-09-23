@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521499, 
+        "placetype": "airport", 
         "name": "Purple Sage Ranch Airport", 
-        "ne_latitude": 29.755, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12590016", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521499, 
         "ne_longitude": -99.036, 
         "longitude": -99.042, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590016, 
+        "ne_latitude": 29.755, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2358904, 
+        "sw_latitude": 29.745, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 29.750, 
         "sw_longitude": -99.047, 
-        "fullname": "Purple Sage Ranch Airport, Bandera, Texas, Bandera, United States", 
-        "sw_latitude": 29.745
+        "fullname": "Purple Sage Ranch Airport, Bandera, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521499
     }

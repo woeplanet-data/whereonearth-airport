@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511670, 
-        "name": "Fort Vermilion Airport", 
         "alias_ENG_V": [
           "Ft Vermilion Airport"
         ], 
-        "ne_latitude": 58.409, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Fort Vermilion Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375228", 
+          "woe:state=2344915", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511670, 
         "ne_longitude": -115.941, 
         "longitude": -115.949, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375228, 
+        "ne_latitude": 58.409, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 8300, 
+        "sw_latitude": 58.400, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 58.404, 
         "sw_longitude": -115.958, 
-        "fullname": "Fort Vermilion Airport, Fort Vermilion, Alberta, Alberta, Canada", 
-        "sw_latitude": 58.400
+        "fullname": "Fort Vermilion Airport, Fort Vermilion, Alberta, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12511670
     }

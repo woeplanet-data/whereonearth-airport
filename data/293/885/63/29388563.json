@@ -3,28 +3,66 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -98.511, 
-              33.956
-            ], 
-            [
-              -98.511, 
-              34.016
-            ], 
-            [
-              -98.478, 
-              34.016
-            ], 
-            [
-              -98.478, 
-              33.956
-            ], 
-            [
-              -98.511, 
-              33.956
+              [
+                -98.506, 
+                33.976
+              ], 
+              [
+                -98.506, 
+                33.974
+              ], 
+              [
+                -98.506, 
+                33.972
+              ], 
+              [
+                -98.506, 
+                33.971
+              ], 
+              [
+                -98.508, 
+                33.970
+              ], 
+              [
+                -98.511, 
+                33.969
+              ], 
+              [
+                -98.510, 
+                33.974
+              ], 
+              [
+                -98.511, 
+                33.977
+              ], 
+              [
+                -98.511, 
+                33.978
+              ], 
+              [
+                -98.511, 
+                33.978
+              ], 
+              [
+                -98.506, 
+                33.978
+              ], 
+              [
+                -98.503, 
+                33.980
+              ], 
+              [
+                -98.500, 
+                33.976
+              ], 
+              [
+                -98.506, 
+                33.976
+              ]
             ]
           ]
         ]
@@ -32,23 +70,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388563, 
-        "name": "Wichita Falls Municipal Airport", 
         "alias_ENG_V": [
           "Sps"
         ], 
-        "ne_latitude": 34.016, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -98.478, 
-        "longitude": -98.491, 
-        "placetype": "Airport", 
+        "name": "Wichita Falls Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590249", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388563, 
+        "ne_longitude": -98.500, 
+        "longitude": -98.507, 
+        "parent_woeid": 12590249, 
+        "ne_latitude": 33.980, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2520100, 
-        "latitude": 33.965, 
+        "sw_latitude": 33.969, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 33.975, 
         "sw_longitude": -98.511, 
-        "fullname": "Wichita Falls Municipal Airport, Wichita Falls, Texas, Wichita, United States", 
-        "sw_latitude": 33.956
+        "fullname": "Wichita Falls Municipal Airport, Wichita Falls, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388563
     }

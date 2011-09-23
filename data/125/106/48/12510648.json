@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510648, 
+        "placetype": "airport", 
         "name": "Curtin Airport", 
-        "ne_latitude": -17.579, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55864372", 
+          "woe:state=2344706", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510648, 
         "ne_longitude": 123.836, 
         "longitude": 123.831, 
-        "placetype": "Airport", 
+        "parent_woeid": 55864372, 
+        "ne_latitude": -17.579, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 28588018, 
+        "sw_latitude": -17.588, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -17.583, 
         "sw_longitude": 123.826, 
-        "fullname": "Curtin Airport, Willare, Western Australia, Derby-west Kimberley, Australia", 
-        "sw_latitude": -17.588
+        "fullname": "Curtin Airport, Willare, Western Australia, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 12510648
     }

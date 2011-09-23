@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516057, 
+        "placetype": "airport", 
         "name": "Kachalovka Airport", 
-        "ne_latitude": 67.989, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598805", 
+          "woe:state=2346912", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516057, 
         "ne_longitude": 39.834, 
         "longitude": 39.822, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598805, 
+        "ne_latitude": 67.989, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2121031, 
+        "sw_latitude": 67.980, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 67.984, 
         "sw_longitude": 39.810, 
         "fullname": "Kachalovka Airport, Murmanskaya Oblast, Lovozersky, Russia", 
-        "sw_latitude": 67.980
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516057
     }

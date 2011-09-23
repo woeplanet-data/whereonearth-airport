@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514101, 
+        "placetype": "airport", 
         "name": "Karabalty Airport", 
-        "ne_latitude": 42.814, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=20070195", 
+          "woe:country=23424864", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514101, 
         "ne_longitude": 73.899, 
         "longitude": 73.893, 
-        "placetype": "Airport", 
+        "parent_woeid": 20070195, 
+        "ne_latitude": 42.814, 
         "iso": "KG", 
-        "date_indexed": "2010-12-02T08:58:47Z", 
-        "parent_woeid": 1969917, 
+        "sw_latitude": 42.804, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.809, 
         "sw_longitude": 73.886, 
         "fullname": "Karabalty Airport, Kara-Balta, Chuy, Kyrgyzstan", 
-        "sw_latitude": 42.804
+        "date_indexed": "2010-12-02T08:58:47Z"
       }, 
       "id": 12514101
     }

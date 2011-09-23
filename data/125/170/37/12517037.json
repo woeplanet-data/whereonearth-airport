@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517037, 
+        "placetype": "airport", 
         "name": "Tsimlyansk Northwest Airport", 
-        "ne_latitude": 47.697, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599146", 
+          "woe:state=2346921", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517037, 
         "ne_longitude": 41.915, 
         "longitude": 41.908, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599146, 
+        "ne_latitude": 47.697, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2038084, 
+        "sw_latitude": 47.688, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.693, 
         "sw_longitude": 41.901, 
         "fullname": "Tsimlyansk Northwest Airport, Rostovskaya Oblast, Tsymlyansky, Russia", 
-        "sw_latitude": 47.688
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12517037
     }

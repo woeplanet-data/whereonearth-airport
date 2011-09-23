@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510462, 
+        "placetype": "airport", 
         "name": "Belen Airport", 
-        "ne_latitude": -27.710, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=20070637", 
+          "woe:state=2344676", 
+          "woe:country=23424747", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510462, 
         "ne_longitude": -67.091, 
         "longitude": -67.096, 
-        "placetype": "Airport", 
+        "parent_woeid": 20070637, 
+        "ne_latitude": -27.710, 
         "iso": "AR", 
-        "date_indexed": "2010-12-02T17:41:29Z", 
-        "parent_woeid": 465710, 
+        "sw_latitude": -27.719, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -27.715, 
         "sw_longitude": -67.101, 
-        "fullname": "Belen Airport, Londres, Catamarca, Bel\u00e9n, Argentina", 
-        "sw_latitude": -27.719
+        "fullname": "Belen Airport, Londres, Catamarca, Argentina", 
+        "date_indexed": "2010-12-02T17:41:29Z"
       }, 
       "id": 12510462
     }

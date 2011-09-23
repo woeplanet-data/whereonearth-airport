@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518808, 
-        "name": "Bermuda Dunes Airport", 
         "alias_ENG_V": [
           "UDD"
         ], 
-        "ne_latitude": 33.747, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Bermuda Dunes Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587702", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518808, 
         "ne_longitude": -116.266, 
         "longitude": -116.270, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587702, 
+        "ne_latitude": 33.747, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:15Z", 
-        "parent_woeid": 2427098, 
+        "sw_latitude": 33.741, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 33.744, 
         "sw_longitude": -116.274, 
-        "fullname": "Bermuda Dunes Airport, Indio, California, Riverside, United States", 
-        "sw_latitude": 33.741
+        "fullname": "Bermuda Dunes Airport, Indio, California, United States", 
+        "date_indexed": "2010-12-02T18:39:15Z"
       }, 
       "id": 12518808
     }

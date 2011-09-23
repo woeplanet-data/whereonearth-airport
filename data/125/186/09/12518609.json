@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518609, 
+        "placetype": "airport", 
         "name": "Anacacho Ranch Airport", 
-        "ne_latitude": 29.196, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12590142", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518609, 
         "ne_longitude": -100.270, 
         "longitude": -100.275, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590142, 
+        "ne_latitude": 29.196, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:15Z", 
-        "parent_woeid": 2497641, 
+        "sw_latitude": 29.187, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 29.192, 
         "sw_longitude": -100.280, 
-        "fullname": "Anacacho Ranch Airport, Spofford, Texas, Kinney, United States", 
-        "sw_latitude": 29.187
+        "fullname": "Anacacho Ranch Airport, Spofford, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:15Z"
       }, 
       "id": 12518609
     }

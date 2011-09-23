@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518175, 
-        "name": "West Malling Airport", 
         "alias_ENG_V": [
           "W Malling Airport"
         ], 
-        "ne_latitude": 51.274, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "West Malling Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=12695995", 
+          "woe:county=12602173", 
+          "woe:state=24554868", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518175, 
         "ne_longitude": 0.414, 
         "longitude": 0.407, 
-        "placetype": "Airport", 
+        "parent_woeid": 12695995, 
+        "ne_latitude": 51.274, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:21:01Z", 
-        "parent_woeid": 39286, 
+        "sw_latitude": 51.265, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.270, 
         "sw_longitude": 0.400, 
-        "fullname": "West Malling Airport, Wateringbury, England, Kent, United Kingdom", 
-        "sw_latitude": 51.265
+        "fullname": "West Malling Airport, Wateringbury, England, United Kingdom", 
+        "iata_code": "WEM", 
+        "date_indexed": "2010-12-02T12:21:01Z"
       }, 
       "id": 12518175
     }

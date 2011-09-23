@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524007, 
-        "name": "Whalsay Airport", 
         "alias_ENG_V": [
           "WHS"
         ], 
-        "ne_latitude": 60.381, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Whalsay Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=12696208", 
+          "woe:county=12602206", 
+          "woe:state=12578048", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524007, 
         "ne_longitude": -0.922, 
         "longitude": -0.932, 
-        "placetype": "Airport", 
+        "parent_woeid": 12696208, 
+        "ne_latitude": 60.381, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:21:01Z", 
-        "parent_woeid": 14207, 
+        "sw_latitude": 60.372, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 60.376, 
         "sw_longitude": -0.941, 
-        "fullname": "Whalsay Airport, Brough, Scotland, Shetland Islands, United Kingdom", 
-        "sw_latitude": 60.372
+        "fullname": "Whalsay Airport, Brough, Scotland, United Kingdom", 
+        "iata_code": "WHS", 
+        "date_indexed": "2010-12-02T12:21:01Z"
       }, 
       "id": 12524007
     }

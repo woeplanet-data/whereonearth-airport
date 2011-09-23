@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520757, 
-        "name": "Magnolia Municipal Airport", 
         "alias_ENG_V": [
           "Magnolia Airport"
         ], 
-        "ne_latitude": 33.235, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Magnolia Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587608", 
+          "woe:state=2347562", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520757, 
         "ne_longitude": -93.216, 
         "longitude": -93.219, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587608, 
+        "ne_latitude": 33.235, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2513444, 
+        "sw_latitude": 33.221, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 33.229, 
         "sw_longitude": -93.219, 
-        "fullname": "Magnolia Municipal Airport, Walker, Arkansas, Columbia, United States", 
-        "sw_latitude": 33.221
+        "fullname": "Magnolia Municipal Airport, Walker, Arkansas, United States", 
+        "iata_code": "AGO", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520757
     }

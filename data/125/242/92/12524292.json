@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524292, 
-        "name": "Little Grand Rapids Airport", 
         "alias_ENG_V": [
           "ZGR Airport"
         ], 
-        "ne_latitude": 52.067, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Little Grand Rapids Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375231", 
+          "woe:state=2344917", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524292, 
         "ne_longitude": -95.473, 
         "longitude": -95.480, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375231, 
+        "ne_latitude": 52.067, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 2553, 
+        "sw_latitude": 52.057, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 52.062, 
         "sw_longitude": -95.488, 
-        "fullname": "Little Grand Rapids Airport, Little Grand Rapids, Manitoba, Manitoba, Canada", 
-        "sw_latitude": 52.057
+        "fullname": "Little Grand Rapids Airport, Little Grand Rapids, Manitoba, Canada", 
+        "iata_code": "ZGR", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12524292
     }

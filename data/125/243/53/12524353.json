@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524353, 
-        "name": "Catacamas Airport", 
         "alias_ENG_V": [
           "CAA"
         ], 
-        "ne_latitude": 14.888, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Catacamas Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26813610", 
+          "woe:state=2345637", 
+          "woe:country=23424841", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524353, 
         "ne_longitude": -85.879, 
         "longitude": -85.883, 
-        "placetype": "Airport", 
+        "parent_woeid": 26813610, 
+        "ne_latitude": 14.888, 
         "iso": "HN", 
-        "date_indexed": "2010-12-02T19:21:06Z", 
-        "parent_woeid": 98712, 
+        "sw_latitude": 14.879, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 14.883, 
         "sw_longitude": -85.888, 
-        "fullname": "Catacamas Airport, Catacamas, Olancho, Catacamas, Honduras", 
-        "sw_latitude": 14.879
+        "fullname": "Catacamas Airport, Catacamas, Olancho, Honduras", 
+        "iata_code": "CAA", 
+        "date_indexed": "2010-12-02T19:21:06Z"
       }, 
       "id": 12524353
     }

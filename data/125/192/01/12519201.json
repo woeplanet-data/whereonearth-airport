@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519201, 
+        "placetype": "airport", 
         "name": "Circle L Ranch Airport", 
-        "ne_latitude": 37.732, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12589236", 
+          "woe:state=2347587", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519201, 
         "ne_longitude": -118.064, 
         "longitude": -118.070, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589236, 
+        "ne_latitude": 37.732, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:15Z", 
-        "parent_woeid": 2394918, 
+        "sw_latitude": 37.723, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 37.727, 
         "sw_longitude": -118.076, 
-        "fullname": "Circle L Ranch Airport, Dyer, Nevada, Esmeralda, United States", 
-        "sw_latitude": 37.723
+        "fullname": "Circle L Ranch Airport, Dyer, Nevada, United States", 
+        "date_indexed": "2010-12-02T18:39:15Z"
       }, 
       "id": 12519201
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512353, 
-        "name": "Tiko Airport", 
         "alias_ENG_V": [
           "TKC"
         ], 
-        "ne_latitude": 4.098, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Tiko Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2345037", 
+          "woe:country=23424785", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512353, 
         "ne_longitude": 9.366, 
         "longitude": 9.361, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345037, 
+        "ne_latitude": 4.098, 
         "iso": "CM", 
-        "date_indexed": "2010-12-02T10:22:30Z", 
-        "parent_woeid": 1305649, 
+        "sw_latitude": 4.089, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 4.094, 
         "sw_longitude": 9.357, 
         "fullname": "Tiko Airport, Tiko, Sud-Ouest, Cameroon", 
-        "sw_latitude": 4.089
+        "iata_code": "TKC", 
+        "date_indexed": "2010-12-02T10:22:30Z"
       }, 
       "id": 12512353
     }

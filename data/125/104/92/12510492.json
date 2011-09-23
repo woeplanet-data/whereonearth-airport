@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510492, 
-        "name": "El Tehuelche Airport", 
         "alias_ENG_V": [
           "El Tehuelche"
         ], 
-        "ne_latitude": -42.748, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "El Tehuelche Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=20071060", 
+          "woe:state=2344678", 
+          "woe:country=23424747", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510492, 
         "ne_longitude": -65.095, 
         "longitude": -65.110, 
-        "placetype": "Airport", 
+        "parent_woeid": 20071060, 
+        "ne_latitude": -42.748, 
         "iso": "AR", 
-        "date_indexed": "2010-12-02T17:41:29Z", 
-        "parent_woeid": 467032, 
+        "sw_latitude": -42.771, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -42.760, 
         "sw_longitude": -65.125, 
-        "fullname": "El Tehuelche Airport, Puerto Madryn, Chubut, Biedma, Argentina", 
-        "sw_latitude": -42.771
+        "fullname": "El Tehuelche Airport, Puerto Madryn, Chubut, Argentina", 
+        "iata_code": "PMY", 
+        "date_indexed": "2010-12-02T17:41:29Z"
       }, 
       "id": 12510492
     }

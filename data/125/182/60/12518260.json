@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518260, 
+        "placetype": "airport", 
         "name": "Gostomel Airport", 
-        "ne_latitude": 50.615, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=20070188", 
+          "woe:country=23424976", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518260, 
         "ne_longitude": 30.230, 
         "longitude": 30.223, 
-        "placetype": "Airport", 
+        "parent_woeid": 20070188, 
+        "ne_latitude": 50.615, 
         "iso": "UA", 
-        "date_indexed": "2010-12-02T08:52:33Z", 
-        "parent_woeid": 917673, 
+        "sw_latitude": 50.605, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.610, 
         "sw_longitude": 30.215, 
         "fullname": "Gostomel Airport, Bucha, Kiev City Municipality, Ukraine", 
-        "sw_latitude": 50.605
+        "date_indexed": "2010-12-02T08:52:33Z"
       }, 
       "id": 12518260
     }

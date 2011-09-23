@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511349, 
+        "placetype": "airport", 
         "name": "Aeroporto Tres Lagoas", 
         "alias_ENG_P": [
           "Tres Lagoas Airport"
         ], 
-        "ne_latitude": -20.745, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12579173", 
+          "woe:state=2344853", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511349, 
         "ne_longitude": -51.673, 
         "longitude": -51.678, 
-        "placetype": "Airport", 
+        "parent_woeid": 12579173, 
+        "ne_latitude": -20.745, 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:28Z", 
-        "parent_woeid": 456000, 
+        "sw_latitude": -20.754, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -20.750, 
         "sw_longitude": -51.683, 
-        "fullname": "Aeroporto Tres Lagoas, Tr\u00eas Lagoas, Mato Grosso do Sul, Tr\u00eas Lagoas, Brazil", 
-        "sw_latitude": -20.754
+        "fullname": "Aeroporto Tres Lagoas, Tr\u00eas Lagoas, Mato Grosso do Sul, Brazil", 
+        "date_indexed": "2010-12-02T18:01:28Z"
       }, 
       "id": 12511349
     }

@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514392, 
+        "placetype": "airport", 
         "name": "Krasnyy Most East Airport", 
-        "ne_latitude": 42.773, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345982", 
+          "woe:country=23424871", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514392, 
         "ne_longitude": 69.287, 
         "longitude": 69.280, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345982, 
+        "ne_latitude": 42.773, 
         "iso": "KZ", 
-        "date_indexed": "2010-12-02T08:54:13Z", 
-        "parent_woeid": 2264593, 
+        "sw_latitude": 42.764, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.768, 
         "sw_longitude": 69.274, 
         "fullname": "Krasnyy Most East Airport, Ongtustik Qazaqstan, Kazakhstan", 
-        "sw_latitude": 42.764
+        "date_indexed": "2010-12-02T08:54:13Z"
       }, 
       "id": 12514392
     }

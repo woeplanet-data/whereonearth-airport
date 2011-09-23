@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512222, 
-        "name": "Ulanhot Airport", 
         "alias_ENG_V": [
           "HLH"
         ], 
-        "ne_latitude": 46.098, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Ulanhot Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=12686877", 
+          "woe:county=26198066", 
+          "woe:state=12578009", 
+          "woe:country=23424781", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512222, 
         "ne_longitude": 122.028, 
         "longitude": 122.021, 
-        "placetype": "Airport", 
+        "parent_woeid": 12686877, 
+        "ne_latitude": 46.098, 
         "iso": "CN", 
-        "date_indexed": "2010-12-02T08:51:54Z", 
-        "parent_woeid": 2149768, 
+        "sw_latitude": 46.089, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.093, 
         "sw_longitude": 122.015, 
-        "fullname": "Ulanhot Airport, Horqin Youyi Qianqi, Nei Mongol, Xingan, China", 
-        "sw_latitude": 46.089
+        "fullname": "Ulanhot Airport, Horqin Youyi Qianqi, Nei Mongol, China", 
+        "iata_code": "HLH", 
+        "date_indexed": "2010-12-02T08:51:54Z"
       }, 
       "id": 12512222
     }

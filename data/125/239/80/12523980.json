@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523980, 
-        "name": "Dornoch Airport", 
         "alias_ENG_V": [
           "DOC"
         ], 
-        "ne_latitude": 57.890, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Dornoch Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=12696199", 
+          "woe:county=12602203", 
+          "woe:state=12578048", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523980, 
         "ne_longitude": -4.073, 
         "longitude": -4.081, 
-        "placetype": "Airport", 
+        "parent_woeid": 12696199, 
+        "ne_latitude": 57.890, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:21:01Z", 
-        "parent_woeid": 19742, 
+        "sw_latitude": 57.881, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 57.885, 
         "sw_longitude": -4.090, 
-        "fullname": "Dornoch Airport, Evelix, Scotland, Highland, United Kingdom", 
-        "sw_latitude": 57.881
+        "fullname": "Dornoch Airport, Evelix, Scotland, United Kingdom", 
+        "iata_code": "DOC", 
+        "date_indexed": "2010-12-02T12:21:01Z"
       }, 
       "id": 12523980
     }

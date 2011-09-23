@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521132, 
-        "name": "Newport Municipal Airport", 
         "alias_ENG_V": [
           "M19"
         ], 
-        "ne_latitude": 35.650, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Newport Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587628", 
+          "woe:state=2347562", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521132, 
         "ne_longitude": -91.170, 
         "longitude": -91.196, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587628, 
+        "ne_latitude": 35.650, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2459587, 
+        "sw_latitude": 35.628, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.648, 
         "sw_longitude": -91.197, 
-        "fullname": "Newport Municipal Airport, Newport, Arkansas, Jackson, United States", 
-        "sw_latitude": 35.628
+        "fullname": "Newport Municipal Airport, Newport, Arkansas, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12521132
     }

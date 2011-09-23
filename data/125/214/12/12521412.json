@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521412, 
-        "name": "Platte Valley Airport", 
         "alias_ENG_V": [
           "18v"
         ], 
-        "ne_latitude": 40.113, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Platte Valley Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587789", 
+          "woe:state=2347564", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521412, 
         "ne_longitude": -104.692, 
         "longitude": -104.698, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587789, 
+        "ne_latitude": 40.113, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2405820, 
+        "sw_latitude": 40.104, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.109, 
         "sw_longitude": -104.704, 
-        "fullname": "Platte Valley Airport, Fort Lupton, Colorado, Weld, United States", 
-        "sw_latitude": 40.104
+        "fullname": "Platte Valley Airport, Fort Lupton, Colorado, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521412
     }

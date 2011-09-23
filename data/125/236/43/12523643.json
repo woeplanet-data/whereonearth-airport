@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523643, 
-        "name": "Nunchia Airport", 
         "alias_ENG_V": [
           "NUH"
         ], 
-        "ne_latitude": 5.655, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Nunchia Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26797620", 
+          "woe:state=2345077", 
+          "woe:country=23424787", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523643, 
         "ne_longitude": -72.195, 
         "longitude": -72.200, 
-        "placetype": "Airport", 
+        "parent_woeid": 26797620, 
+        "ne_latitude": 5.655, 
         "iso": "CO", 
-        "date_indexed": "2010-12-02T17:57:37Z", 
-        "parent_woeid": 363051, 
+        "sw_latitude": 5.645, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 5.650, 
         "sw_longitude": -72.205, 
-        "fullname": "Nunchia Airport, Nunch\u00eda, Casanare, Nunchia, Colombia", 
-        "sw_latitude": 5.645
+        "fullname": "Nunchia Airport, Nunch\u00eda, Casanare, Colombia", 
+        "iata_code": "NUH", 
+        "date_indexed": "2010-12-02T17:57:37Z"
       }, 
       "id": 12523643
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "FRE", 
-        "woeid": 56051880, 
+        "placetype": "airport", 
         "name": "A\u00e9rodrome D'itxassou", 
-        "ne_latitude": 43.337, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12640307", 
+          "woe:county=12597114", 
+          "woe:state=7153309", 
+          "woe:country=23424819", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56051880, 
         "ne_longitude": -1.419, 
         "longitude": -1.424, 
-        "placetype": "Airport", 
+        "parent_woeid": 12640307, 
+        "ne_latitude": 43.337, 
         "iso": "FR", 
-        "date_indexed": "2010-12-02T12:04:01Z", 
-        "parent_woeid": 582760, 
+        "sw_latitude": 43.335, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.336, 
         "sw_longitude": -1.428, 
-        "fullname": "A\u00e9rodrome D'itxassou, Cambo, Aquitaine, Pyrenees-Atlantiques, France", 
+        "fullname": "A\u00e9rodrome D'itxassou, Cambo, Aquitaine, France", 
         "alias_FRE_S": [
           "Aerodrome D'itxassou"
         ], 
-        "sw_latitude": 43.335
+        "date_indexed": "2010-12-02T12:04:01Z"
       }, 
       "id": 56051880
     }

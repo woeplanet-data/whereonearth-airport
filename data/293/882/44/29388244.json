@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388244, 
+        "placetype": "airport", 
         "name": "Blaney Park Airport", 
-        "ne_latitude": 46.120, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12588788", 
+          "woe:state=2347581", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388244, 
         "ne_longitude": -85.928, 
         "longitude": -85.929, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588788, 
+        "ne_latitude": 46.120, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2365358, 
+        "sw_latitude": 46.113, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.115, 
         "sw_longitude": -85.933, 
-        "fullname": "Blaney Park Airport, Blaney Park, Michigan, Schoolcraft, United States", 
-        "sw_latitude": 46.113
+        "fullname": "Blaney Park Airport, Blaney Park, Michigan, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388244
     }

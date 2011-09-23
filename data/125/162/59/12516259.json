@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516259, 
+        "placetype": "airport", 
         "name": "Krasnoshelye Airport", 
-        "ne_latitude": 67.353, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598805", 
+          "woe:state=2346912", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516259, 
         "ne_longitude": 37.092, 
         "longitude": 37.080, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598805, 
+        "ne_latitude": 67.353, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2028944, 
+        "sw_latitude": 67.344, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 67.349, 
         "sw_longitude": 37.068, 
         "fullname": "Krasnoshelye Airport, Murmanskaya Oblast, Lovozersky, Russia", 
-        "sw_latitude": 67.344
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516259
     }

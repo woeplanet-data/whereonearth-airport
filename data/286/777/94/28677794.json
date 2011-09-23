@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 28677794, 
+        "placetype": "airport", 
         "name": "Mullewa Aerodrome", 
-        "ne_latitude": -28.468, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55864051", 
+          "woe:state=2344706", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 28677794, 
         "ne_longitude": 115.523, 
         "longitude": 115.518, 
-        "placetype": "Airport", 
+        "parent_woeid": 55864051, 
+        "ne_latitude": -28.468, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1104322, 
+        "sw_latitude": -28.477, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -28.473, 
         "sw_longitude": 115.513, 
-        "fullname": "Mullewa Aerodrome, Mullewa, Western Australia, Mullewa, Australia", 
-        "sw_latitude": -28.477
+        "fullname": "Mullewa Aerodrome, Mullewa, Western Australia, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 28677794
     }

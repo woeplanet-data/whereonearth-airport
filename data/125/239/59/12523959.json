@@ -32,26 +32,33 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523959, 
-        "name": "Chaves Airport", 
         "alias_ENG_V": [
           "CHV"
         ], 
-        "ne_latitude": 41.728, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Chaves Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12596464", 
+          "woe:state=2346579", 
+          "woe:country=23424925", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523959, 
         "ne_longitude": -7.452, 
         "longitude": -7.458, 
-        "placetype": "Airport", 
+        "parent_woeid": 12596464, 
+        "ne_latitude": 41.728, 
         "alias_POR_V": [
           "CHV Aeroport"
         ], 
         "iso": "PT", 
-        "date_indexed": "2010-12-02T10:00:50Z", 
-        "parent_woeid": 739513, 
+        "sw_latitude": 41.719, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.724, 
         "sw_longitude": -7.464, 
-        "fullname": "Chaves Airport, Chaves, Vila Real, Chaves, Portugal", 
-        "sw_latitude": 41.719
+        "fullname": "Chaves Airport, Chaves, Vila Real, Portugal", 
+        "iata_code": "CHV", 
+        "date_indexed": "2010-12-02T10:00:50Z"
       }, 
       "id": 12523959
     }

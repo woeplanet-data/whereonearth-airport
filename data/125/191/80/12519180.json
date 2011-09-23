@@ -3,28 +3,66 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -121.868, 
-              39.787
-            ], 
-            [
-              -121.868, 
-              39.808
-            ], 
-            [
-              -121.844, 
-              39.808
-            ], 
-            [
-              -121.844, 
-              39.787
-            ], 
-            [
-              -121.868, 
-              39.787
+              [
+                -121.856, 
+                39.798
+              ], 
+              [
+                -121.857, 
+                39.799
+              ], 
+              [
+                -121.857, 
+                39.801
+              ], 
+              [
+                -121.853, 
+                39.800
+              ], 
+              [
+                -121.850, 
+                39.799
+              ], 
+              [
+                -121.849, 
+                39.794
+              ], 
+              [
+                -121.848, 
+                39.793
+              ], 
+              [
+                -121.850, 
+                39.788
+              ], 
+              [
+                -121.851, 
+                39.788
+              ], 
+              [
+                -121.851, 
+                39.788
+              ], 
+              [
+                -121.849, 
+                39.794
+              ], 
+              [
+                -121.853, 
+                39.796
+              ], 
+              [
+                -121.856, 
+                39.794
+              ], 
+              [
+                -121.856, 
+                39.798
+              ]
             ]
           ]
         ]
@@ -32,23 +70,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519180, 
-        "name": "Chico Municipal Airport", 
         "alias_ENG_V": [
           "CIC"
         ], 
-        "ne_latitude": 39.808, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -121.844, 
-        "longitude": -121.854, 
-        "placetype": "Airport", 
+        "name": "Chico Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587673", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519180, 
+        "ne_longitude": -121.848, 
+        "longitude": -121.853, 
+        "parent_woeid": 12587673, 
+        "ne_latitude": 39.801, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2379681, 
-        "latitude": 39.799, 
-        "sw_longitude": -121.868, 
-        "fullname": "Chico Municipal Airport, Chico, California, Butte, United States", 
-        "sw_latitude": 39.787
+        "sw_latitude": 39.788, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 39.796, 
+        "sw_longitude": -121.857, 
+        "fullname": "Chico Municipal Airport, Chico, California, United States", 
+        "iata_code": "CIC", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519180
     }

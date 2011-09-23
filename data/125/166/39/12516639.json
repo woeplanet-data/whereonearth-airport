@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516639, 
+        "placetype": "airport", 
         "name": "Otradokubanskoye Airport", 
-        "ne_latitude": 45.184, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597778", 
+          "woe:state=2346884", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516639, 
         "ne_longitude": 40.744, 
         "longitude": 40.738, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597778, 
+        "ne_latitude": 45.184, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2099187, 
+        "sw_latitude": 45.175, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.180, 
         "sw_longitude": 40.731, 
         "fullname": "Otradokubanskoye Airport, Krasnodarskiy Kray, Gulkevichsky, Russia", 
-        "sw_latitude": 45.175
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516639
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516398, 
+        "placetype": "airport", 
         "name": "Manoma Airport", 
-        "ne_latitude": 49.308, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597748", 
+          "woe:state=2346883", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516398, 
         "ne_longitude": 137.058, 
         "longitude": 137.051, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597748, 
+        "ne_latitude": 49.308, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2105562, 
+        "sw_latitude": 49.298, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.303, 
         "sw_longitude": 137.044, 
         "fullname": "Manoma Airport, Khabarovskiy Kray, Nanaysky, Russia", 
-        "sw_latitude": 49.298
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516398
     }

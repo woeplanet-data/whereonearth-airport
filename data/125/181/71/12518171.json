@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518171, 
-        "name": "Waddington Airport", 
         "alias_ENG_V": [
           "WTN"
         ], 
-        "ne_latitude": 53.170, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Waddington Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=12696019", 
+          "woe:county=12602145", 
+          "woe:state=24554868", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518171, 
         "ne_longitude": -0.515, 
         "longitude": -0.522, 
-        "placetype": "Airport", 
+        "parent_woeid": 12696019, 
+        "ne_latitude": 53.170, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:21:01Z", 
-        "parent_woeid": 38923, 
+        "sw_latitude": 53.161, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.166, 
         "sw_longitude": -0.530, 
-        "fullname": "Waddington Airport, Waddington, England, Lincolnshire, United Kingdom", 
-        "sw_latitude": 53.161
+        "fullname": "Waddington Airport, Waddington, England, United Kingdom", 
+        "iata_code": "WTN", 
+        "date_indexed": "2010-12-02T12:21:01Z"
       }, 
       "id": 12518171
     }

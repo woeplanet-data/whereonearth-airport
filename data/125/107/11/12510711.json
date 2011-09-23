@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510711, 
-        "name": "La Trobe Regional Airport", 
         "alias_ENG_V": [
           "TGN"
         ], 
-        "ne_latitude": -38.207, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "La Trobe Regional Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55863991", 
+          "woe:state=2344705", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510711, 
         "ne_longitude": 146.480, 
         "longitude": 146.475, 
-        "placetype": "Airport", 
+        "parent_woeid": 55863991, 
+        "ne_latitude": -38.207, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 22721076, 
+        "sw_latitude": -38.216, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -38.211, 
         "sw_longitude": 146.468, 
-        "fullname": "La Trobe Regional Airport, Morwell East, Victoria, Latrobe, Australia", 
-        "sw_latitude": -38.216
+        "fullname": "La Trobe Regional Airport, Morwell East, Victoria, Australia", 
+        "iata_code": "TGN", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 12510711
     }

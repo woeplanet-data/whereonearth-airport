@@ -32,29 +32,35 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12523739, 
-        "name": "Aeroporto Torres", 
-        "alias_ENG_P": [
-          "Torres Airport"
-        ], 
-        "ne_latitude": -29.310, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "TSQ"
         ], 
+        "name": "Aeroporto Torres", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Torres Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12581535", 
+          "woe:state=2344864", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523739, 
         "ne_longitude": -49.709, 
         "longitude": -49.715, 
-        "placetype": "Airport", 
+        "parent_woeid": 12581535, 
+        "ne_latitude": -29.310, 
         "alias_POR_V": [
           "Aeroporto TSQ"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:28Z", 
-        "parent_woeid": 456570, 
+        "sw_latitude": -29.319, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -29.315, 
         "sw_longitude": -49.720, 
-        "fullname": "Aeroporto Torres, T\u00f4rres, Rio Grande do Sul, Torres, Brazil", 
-        "sw_latitude": -29.319
+        "fullname": "Aeroporto Torres, T\u00f4rres, Rio Grande do Sul, Brazil", 
+        "date_indexed": "2010-12-02T18:01:28Z"
       }, 
       "id": 12523739
     }

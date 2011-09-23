@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514743, 
+        "placetype": "airport", 
         "name": "Dzuleg Airport", 
-        "ne_latitude": 47.368, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2346160", 
+          "woe:country=23424887", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514743, 
         "ne_longitude": 115.290, 
         "longitude": 115.284, 
-        "placetype": "Airport", 
+        "parent_woeid": 2346160, 
+        "ne_latitude": 47.368, 
         "iso": "MN", 
-        "date_indexed": "2010-12-02T08:53:23Z", 
-        "parent_woeid": 2265633, 
+        "sw_latitude": 47.359, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.363, 
         "sw_longitude": 115.277, 
         "fullname": "Dzuleg Airport, Madat, Dornod, Mongolia", 
-        "sw_latitude": 47.359
+        "date_indexed": "2010-12-02T08:53:23Z"
       }, 
       "id": 12514743
     }

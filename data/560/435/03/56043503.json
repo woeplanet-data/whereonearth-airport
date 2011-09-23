@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 56043503, 
+        "placetype": "airport", 
         "name": "Lightning Ridge Airport", 
-        "ne_latitude": -29.450, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55863775", 
+          "woe:state=2344700", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56043503, 
         "ne_longitude": 147.987, 
         "longitude": 147.983, 
-        "placetype": "Airport", 
+        "parent_woeid": 55863775, 
+        "ne_latitude": -29.450, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1103431, 
+        "sw_latitude": -29.456, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -29.452, 
         "sw_longitude": 147.969, 
-        "fullname": "Lightning Ridge Airport, Lightning Ridge, New South Wales, Walgett, Australia", 
-        "sw_latitude": -29.456
+        "fullname": "Lightning Ridge Airport, Lightning Ridge, New South Wales, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 56043503
     }

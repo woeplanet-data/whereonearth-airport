@@ -3,28 +3,30 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -115.343, 
-              35.752
-            ], 
-            [
-              -115.343, 
-              35.775
-            ], 
-            [
-              -115.321, 
-              35.775
-            ], 
-            [
-              -115.321, 
-              35.752
-            ], 
-            [
-              -115.343, 
-              35.752
+              [
+                -115.331, 
+                35.777
+              ], 
+              [
+                -115.330, 
+                35.772
+              ], 
+              [
+                -115.334, 
+                35.773
+              ], 
+              [
+                -115.333, 
+                35.774
+              ], 
+              [
+                -115.331, 
+                35.777
+              ]
             ]
           ]
         ]
@@ -32,23 +34,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29387763, 
-        "name": "Jean Airport", 
         "alias_ENG_V": [
           "0l7"
         ], 
-        "ne_latitude": 35.775, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -115.321, 
-        "longitude": -115.331, 
-        "placetype": "Airport", 
+        "name": "Jean Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589233", 
+          "woe:state=2347587", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29387763, 
+        "ne_longitude": -115.330, 
+        "longitude": -115.332, 
+        "parent_woeid": 12589233, 
+        "ne_latitude": 35.777, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2428781, 
-        "latitude": 35.773, 
-        "sw_longitude": -115.343, 
-        "fullname": "Jean Airport, Jean, Nevada, Clark, United States", 
-        "sw_latitude": 35.752
+        "sw_latitude": 35.772, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 35.774, 
+        "sw_longitude": -115.334, 
+        "fullname": "Jean Airport, Jean, Nevada, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 29387763
     }

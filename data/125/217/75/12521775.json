@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521775, 
-        "name": "Scott City Municipal Airport", 
         "alias_ENG_V": [
           "TQK"
         ], 
-        "ne_latitude": 38.483, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Scott City Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588456", 
+          "woe:state=2347575", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521775, 
         "ne_longitude": -100.870, 
         "longitude": -100.889, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588456, 
+        "ne_latitude": 38.483, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2489968, 
+        "sw_latitude": 38.466, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.474, 
         "sw_longitude": -100.889, 
-        "fullname": "Scott City Municipal Airport, Scott City, Kansas, Scott, United States", 
-        "sw_latitude": 38.466
+        "fullname": "Scott City Municipal Airport, Scott City, Kansas, United States", 
+        "iata_code": "TQK", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521775
     }

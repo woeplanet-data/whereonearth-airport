@@ -3,28 +3,66 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -72.727, 
-              42.143
-            ], 
-            [
-              -72.727, 
-              42.175
-            ], 
-            [
-              -72.706, 
-              42.175
-            ], 
-            [
-              -72.706, 
-              42.143
-            ], 
-            [
-              -72.727, 
-              42.143
+              [
+                -72.717, 
+                42.159
+              ], 
+              [
+                -72.719, 
+                42.158
+              ], 
+              [
+                -72.720, 
+                42.156
+              ], 
+              [
+                -72.721, 
+                42.154
+              ], 
+              [
+                -72.725, 
+                42.155
+              ], 
+              [
+                -72.726, 
+                42.156
+              ], 
+              [
+                -72.726, 
+                42.156
+              ], 
+              [
+                -72.724, 
+                42.160
+              ], 
+              [
+                -72.723, 
+                42.162
+              ], 
+              [
+                -72.718, 
+                42.162
+              ], 
+              [
+                -72.715, 
+                42.162
+              ], 
+              [
+                -72.717, 
+                42.160
+              ], 
+              [
+                -72.717, 
+                42.159
+              ], 
+              [
+                -72.717, 
+                42.159
+              ]
             ]
           ]
         ]
@@ -32,23 +70,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518744, 
-        "name": "Barnes Airport", 
         "alias_ENG_V": [
           "BNH"
         ], 
-        "ne_latitude": 42.175, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -72.706, 
-        "longitude": -72.720, 
-        "placetype": "Airport", 
+        "name": "Barnes Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588706", 
+          "woe:state=2347580", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518744, 
+        "ne_longitude": -72.715, 
+        "longitude": -72.721, 
+        "parent_woeid": 12588706, 
+        "ne_latitude": 42.162, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2518193, 
-        "latitude": 42.160, 
-        "sw_longitude": -72.727, 
-        "fullname": "Barnes Airport, Westfield, Massachusetts, Hampden, United States", 
-        "sw_latitude": 42.143
+        "sw_latitude": 42.154, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 42.158, 
+        "sw_longitude": -72.726, 
+        "fullname": "Barnes Airport, Westfield, Massachusetts, United States", 
+        "iata_code": "BNH", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518744
     }

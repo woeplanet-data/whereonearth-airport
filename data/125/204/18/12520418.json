@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520418, 
-        "name": "Kaneohe Bay Marine Corps Air Station", 
         "alias_ENG_V": [
           "M C B H Kaneohe Bay"
         ], 
-        "ne_latitude": 21.459, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Kaneohe Bay Marine Corps Air Station", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588030", 
+          "woe:state=2347570", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520418, 
         "ne_longitude": -157.767, 
         "longitude": -157.772, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588030, 
+        "ne_latitude": 21.459, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 28747766, 
+        "sw_latitude": 21.450, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 21.455, 
         "sw_longitude": -157.777, 
         "fullname": "Kaneohe Bay Marine Corps Air Station, Hawaii, Honolulu, United States", 
-        "sw_latitude": 21.450
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12520418
     }

@@ -3,28 +3,50 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -120.641, 
-              35.663
-            ], 
-            [
-              -120.641, 
-              35.682
-            ], 
-            [
-              -120.614, 
-              35.682
-            ], 
-            [
-              -120.614, 
-              35.663
-            ], 
-            [
-              -120.641, 
-              35.663
+              [
+                -120.637, 
+                35.671
+              ], 
+              [
+                -120.637, 
+                35.671
+              ], 
+              [
+                -120.638, 
+                35.671
+              ], 
+              [
+                -120.638, 
+                35.670
+              ], 
+              [
+                -120.638, 
+                35.672
+              ], 
+              [
+                -120.638, 
+                35.673
+              ], 
+              [
+                -120.638, 
+                35.673
+              ], 
+              [
+                -120.637, 
+                35.673
+              ], 
+              [
+                -120.637, 
+                35.672
+              ], 
+              [
+                -120.637, 
+                35.671
+              ]
             ]
           ]
         ]
@@ -32,23 +54,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521308, 
-        "name": "Paso Robles Municipal Airport", 
         "alias_ENG_V": [
           "PRB"
         ], 
-        "ne_latitude": 35.682, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -120.614, 
+        "name": "Paso Robles Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587709", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521308, 
+        "ne_longitude": -120.637, 
         "longitude": -120.638, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587709, 
+        "ne_latitude": 35.673, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2469027, 
+        "sw_latitude": 35.670, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.672, 
-        "sw_longitude": -120.641, 
-        "fullname": "Paso Robles Municipal Airport, Paso Robles, California, San Luis Obispo, United States", 
-        "sw_latitude": 35.663
+        "sw_longitude": -120.638, 
+        "fullname": "Paso Robles Municipal Airport, Paso Robles, California, United States", 
+        "iata_code": "PRB", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521308
     }

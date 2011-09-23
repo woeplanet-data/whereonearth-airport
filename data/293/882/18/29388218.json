@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388218, 
-        "name": "Canyon Lake Airport", 
         "alias_ENG_V": [
           "34ts"
         ], 
-        "ne_latitude": 29.921, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Canyon Lake Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590052", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388218, 
         "ne_longitude": -98.245, 
         "longitude": -98.245, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590052, 
+        "ne_latitude": 29.921, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2403554, 
+        "sw_latitude": 29.912, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 29.921, 
         "sw_longitude": -98.250, 
-        "fullname": "Canyon Lake Airport, Fischer, Texas, Comal, United States", 
-        "sw_latitude": 29.912
+        "fullname": "Canyon Lake Airport, Fischer, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388218
     }

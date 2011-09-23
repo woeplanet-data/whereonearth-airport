@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 28677649, 
+        "placetype": "airport", 
         "name": "Cuddapan Aerodrome", 
-        "ne_latitude": -25.592, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55863947", 
+          "woe:state=2344702", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 28677649, 
         "ne_longitude": 141.512, 
         "longitude": 141.507, 
-        "placetype": "Airport", 
+        "parent_woeid": 55863947, 
+        "ne_latitude": -25.592, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 28588589, 
+        "sw_latitude": -25.601, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -25.597, 
         "sw_longitude": 141.502, 
-        "fullname": "Cuddapan Aerodrome, Farrars Creek, Queensland, Barcoo, Australia", 
-        "sw_latitude": -25.601
+        "fullname": "Cuddapan Aerodrome, Farrars Creek, Queensland, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 28677649
     }

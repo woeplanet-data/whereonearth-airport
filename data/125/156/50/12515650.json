@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515650, 
+        "placetype": "airport", 
         "name": "Taggat Airport", 
-        "ne_latitude": 18.611, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=2346669", 
+          "woe:state=23424715", 
+          "woe:country=23424934", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515650, 
         "ne_longitude": 121.064, 
         "longitude": 121.059, 
-        "placetype": "Airport", 
+        "parent_woeid": 2346669, 
+        "ne_latitude": 18.611, 
         "iso": "PH", 
-        "date_indexed": "2010-12-02T09:56:58Z", 
-        "parent_woeid": 1169921, 
+        "sw_latitude": 18.602, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 18.607, 
         "sw_longitude": 121.054, 
-        "fullname": "Taggat Airport, Claveria, Cagayan Valley, Cagayan, Philippines", 
-        "sw_latitude": 18.602
+        "fullname": "Taggat Airport, Claveria, Cagayan Valley, Philippines", 
+        "date_indexed": "2010-12-02T09:56:58Z"
       }, 
       "id": 12515650
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522997, 
-        "name": "Matsapha International Airport", 
         "alias_ENG_V": [
           "Matsapha International"
         ], 
-        "ne_latitude": -26.519, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Matsapha International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55921273", 
+          "woe:state=20069892", 
+          "woe:country=23424993", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522997, 
         "ne_longitude": 31.321, 
         "longitude": 31.315, 
-        "placetype": "Airport", 
+        "parent_woeid": 55921273, 
+        "ne_latitude": -26.519, 
         "iso": "SZ", 
-        "date_indexed": "2010-12-02T12:16:52Z", 
-        "parent_woeid": 1563425, 
+        "sw_latitude": -26.539, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -26.520, 
         "sw_longitude": 31.293, 
         "fullname": "Matsapha International Airport, Manzini, Kwaluseni, Swaziland", 
-        "sw_latitude": -26.539
+        "iata_code": "MTS", 
+        "date_indexed": "2010-12-02T12:16:52Z"
       }, 
       "id": 12522997
     }

@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514561, 
+        "placetype": "airport", 
         "name": "Xieng Khouang Airport", 
-        "ne_latitude": 19.453, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2346011", 
+          "woe:country=23424872", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514561, 
         "ne_longitude": 103.166, 
         "longitude": 103.161, 
-        "placetype": "Airport", 
+        "parent_woeid": 2346011, 
+        "ne_latitude": 19.453, 
         "iso": "LA", 
-        "date_indexed": "2010-12-02T16:42:51Z", 
-        "parent_woeid": 1140456, 
+        "sw_latitude": 19.444, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 19.448, 
         "sw_longitude": 103.157, 
         "fullname": "Xieng Khouang Airport, Xiangkhoang, Laos", 
-        "sw_latitude": 19.444
+        "date_indexed": "2010-12-02T16:42:51Z"
       }, 
       "id": 12514561
     }

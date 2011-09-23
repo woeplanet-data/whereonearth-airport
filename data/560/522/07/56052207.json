@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 56052207, 
+        "placetype": "airport", 
         "name": "Landeplatz Blaubeuren", 
-        "ne_latitude": 48.422, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12623688", 
+          "woe:county=12596912", 
+          "woe:state=2345481", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56052207, 
         "ne_longitude": 9.802, 
         "longitude": 9.800, 
-        "placetype": "Airport", 
+        "parent_woeid": 12623688, 
+        "ne_latitude": 48.422, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 639416, 
+        "sw_latitude": 48.417, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.417, 
         "sw_longitude": 9.789, 
-        "fullname": "Landeplatz Blaubeuren, Blaubeuren, Baden-Wurttemberg, Alb-Donau-Kreis, Germany", 
-        "sw_latitude": 48.417
+        "fullname": "Landeplatz Blaubeuren, Blaubeuren, Baden-Wurttemberg, Germany", 
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 56052207
     }

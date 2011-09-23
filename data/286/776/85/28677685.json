@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 28677685, 
+        "placetype": "airport", 
         "name": "Taroom Aerodrome", 
-        "ne_latitude": -25.799, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=56072982", 
+          "woe:state=2344702", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 28677685, 
         "ne_longitude": 149.906, 
         "longitude": 149.901, 
-        "placetype": "Airport", 
+        "parent_woeid": 56072982, 
+        "ne_latitude": -25.799, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1105873, 
+        "sw_latitude": -25.808, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -25.803, 
         "sw_longitude": 149.896, 
-        "fullname": "Taroom Aerodrome, Taroom, Queensland, Taroom, Australia", 
-        "sw_latitude": -25.808
+        "fullname": "Taroom Aerodrome, Taroom, Queensland, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 28677685
     }

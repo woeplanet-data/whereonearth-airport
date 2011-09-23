@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510708, 
-        "name": "Kingscote Airport", 
         "alias_ENG_V": [
           "KGC"
         ], 
-        "ne_latitude": -35.711, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Kingscote Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55864217", 
+          "woe:state=2344703", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510708, 
         "ne_longitude": 137.527, 
         "longitude": 137.521, 
-        "placetype": "Airport", 
+        "parent_woeid": 55864217, 
+        "ne_latitude": -35.711, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1101529, 
+        "sw_latitude": -35.720, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -35.716, 
         "sw_longitude": 137.516, 
-        "fullname": "Kingscote Airport, Cygnet River, South Australia, Kangaroo Island, Australia", 
-        "sw_latitude": -35.720
+        "fullname": "Kingscote Airport, Cygnet River, South Australia, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 12510708
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523839, 
-        "name": "Dundas Airport", 
         "alias_ENG_V": [
           "DUN"
         ], 
-        "ne_latitude": 76.567, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Dundas Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=20069857", 
+          "woe:country=23424828", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523839, 
         "ne_longitude": -68.754, 
         "longitude": -68.773, 
-        "placetype": "Airport", 
+        "parent_woeid": 20069857, 
+        "ne_latitude": 76.567, 
         "iso": "GL", 
-        "date_indexed": "2010-12-02T17:40:29Z", 
-        "parent_woeid": 473058, 
+        "sw_latitude": 76.558, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 76.562, 
         "sw_longitude": -68.793, 
         "fullname": "Dundas Airport, Nordgronland, Greenland", 
-        "sw_latitude": 76.558
+        "iata_code": "DUN", 
+        "date_indexed": "2010-12-02T17:40:29Z"
       }, 
       "id": 12523839
     }

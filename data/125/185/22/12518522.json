@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518522, 
+        "placetype": "airport", 
         "name": "Ackerman Choctaw County Airport", 
-        "ne_latitude": 33.306, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12588893", 
+          "woe:state=2347583", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518522, 
         "ne_longitude": -89.221, 
         "longitude": -89.226, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588893, 
+        "ne_latitude": 33.306, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:15Z", 
-        "parent_woeid": 2351731, 
+        "sw_latitude": 33.297, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 33.302, 
         "sw_longitude": -89.232, 
-        "fullname": "Ackerman Choctaw County Airport, Ackerman, Mississippi, Choctaw, United States", 
-        "sw_latitude": 33.297
+        "fullname": "Ackerman Choctaw County Airport, Ackerman, Mississippi, United States", 
+        "date_indexed": "2010-12-02T18:39:15Z"
       }, 
       "id": 12518522
     }

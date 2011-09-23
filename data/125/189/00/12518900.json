@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518900, 
-        "name": "Boulder Municipal Airport", 
         "alias_ENG_V": [
           "WBU"
         ], 
-        "ne_latitude": 40.040, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Boulder Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:suburb=55858123", 
+          "woe:county=12587734", 
+          "woe:state=2347564", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518900, 
         "ne_longitude": -105.218, 
         "longitude": -105.233, 
-        "placetype": "Airport", 
-        "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
         "parent_woeid": 55858123, 
+        "ne_latitude": 40.040, 
+        "iso": "US", 
+        "sw_latitude": 40.033, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.037, 
         "sw_longitude": -105.235, 
-        "fullname": "Boulder Municipal Airport, Boulder, Colorado, Boulder, United States", 
-        "sw_latitude": 40.033
+        "fullname": "Boulder Municipal Airport, Boulder, Colorado, United States", 
+        "iata_code": "WBU", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518900
     }

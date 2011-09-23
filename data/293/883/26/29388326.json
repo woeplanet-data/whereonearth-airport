@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388326, 
+        "placetype": "airport", 
         "name": "Sky Hills Airport", 
-        "ne_latitude": 39.036, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12589539", 
+          "woe:state=2347594", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388326, 
         "ne_longitude": -84.185, 
         "longitude": -84.187, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589539, 
+        "ne_latitude": 39.036, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2454996, 
+        "sw_latitude": 39.032, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 39.034, 
         "sw_longitude": -84.190, 
-        "fullname": "Sky Hills Airport, Mount Holly, Ohio, Clermont, United States", 
-        "sw_latitude": 39.032
+        "fullname": "Sky Hills Airport, Mount Holly, Ohio, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 29388326
     }

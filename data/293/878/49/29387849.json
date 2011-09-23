@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29387849, 
+        "placetype": "airport", 
         "name": "Ordway Airport", 
-        "ne_latitude": 38.203, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12587740", 
+          "woe:state=2347564", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29387849, 
         "ne_longitude": -103.756, 
         "longitude": -103.760, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587740, 
+        "ne_latitude": 38.203, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2466102, 
+        "sw_latitude": 38.196, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.200, 
         "sw_longitude": -103.765, 
-        "fullname": "Ordway Airport, Ordway, Colorado, Crowley, United States", 
-        "sw_latitude": 38.196
+        "fullname": "Ordway Airport, Ordway, Colorado, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 29387849
     }

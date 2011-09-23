@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519247, 
-        "name": "Clinton Sherman Airport", 
         "alias_ENG_V": [
           "Clinton Sherman"
         ], 
-        "ne_latitude": 35.364, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Clinton Sherman Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589689", 
+          "woe:state=2347595", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519247, 
         "ne_longitude": -99.188, 
         "longitude": -99.194, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589689, 
+        "ne_latitude": 35.364, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2372200, 
+        "sw_latitude": 35.318, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.355, 
         "sw_longitude": -99.215, 
-        "fullname": "Clinton Sherman Airport, Burns Flat, Oklahoma, Washita, United States", 
-        "sw_latitude": 35.318
+        "fullname": "Clinton Sherman Airport, Burns Flat, Oklahoma, United States", 
+        "iata_code": "CSM", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519247
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524661, 
-        "name": "Eagle Airport", 
         "alias_ENG_V": [
           "EAA"
         ], 
-        "ne_latitude": 64.771, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Eagle Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587575", 
+          "woe:state=2347560", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524661, 
         "ne_longitude": -141.139, 
         "longitude": -141.150, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587575, 
+        "ne_latitude": 64.771, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2395099, 
+        "sw_latitude": 64.762, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 64.767, 
         "sw_longitude": -141.161, 
-        "fullname": "Eagle Airport, Eagle Village, Alaska, Southeast Fairbanks Census Area, United States", 
-        "sw_latitude": 64.762
+        "fullname": "Eagle Airport, Eagle Village, Alaska, United States", 
+        "iata_code": "EAA", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12524661
     }

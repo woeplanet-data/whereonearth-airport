@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522880, 
+        "placetype": "airport", 
         "name": "Cam Ranh Airport", 
-        "ne_latitude": 11.906, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2347738", 
+          "woe:country=23424984", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522880, 
         "ne_longitude": 109.218, 
         "longitude": 109.213, 
-        "placetype": "Airport", 
+        "parent_woeid": 2347738, 
+        "ne_latitude": 11.906, 
         "iso": "VN", 
-        "date_indexed": "2010-12-02T08:52:49Z", 
-        "parent_woeid": 1252703, 
+        "sw_latitude": 11.897, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 11.902, 
         "sw_longitude": 109.209, 
         "fullname": "Cam Ranh Airport, Ba Ngoi, Khanh Hoa, Vietnam", 
-        "sw_latitude": 11.897
+        "date_indexed": "2010-12-02T08:52:49Z"
       }, 
       "id": 12522880
     }

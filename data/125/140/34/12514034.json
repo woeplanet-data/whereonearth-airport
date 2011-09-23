@@ -32,29 +32,35 @@
       "type": "Feature", 
       "properties": {
         "lang": "JPN", 
-        "woeid": 12514034, 
-        "name": "\u5c4b\u4e45\u5cf6\u7a7a\u6e2f", 
         "alias_ENG_V": [
           "KUM Airport"
         ], 
+        "name": "\u5c4b\u4e45\u5cf6\u7a7a\u6e2f", 
         "alias_ENG_P": [
           "Yakushima Airport"
         ], 
-        "ne_latitude": 30.390, 
+        "parent_woeid": 24857233, 
+        "woeid": 12514034, 
+        "provider": "geoplanet 7.6.0", 
         "alias_JPN_V": [
           "\u30e4\u30af\u30b7\u30de\u30af\u30a6\u30b3\u30a6"
         ], 
-        "ne_longitude": 130.665, 
         "longitude": 130.659, 
-        "parent_woeid": 90000249, 
-        "placetype": "Airport", 
+        "ne_longitude": 130.665, 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=24857233", 
+          "woe:state=2345867", 
+          "woe:country=23424856", 
+          "woe:planet=1"
+        ], 
         "iso": "JP", 
-        "date_indexed": "2010-12-02T08:09:09Z", 
-        "provider": "geoplanet 7.6.0", 
+        "sw_latitude": 30.381, 
+        "ne_latitude": 30.390, 
         "latitude": 30.385, 
         "sw_longitude": 130.654, 
-        "fullname": "\u5c4b\u4e45\u5cf6\u7a7a\u6e2f, Yakushima-cho, Kagoshima Prefecture, Kumage-gun, Japan", 
-        "sw_latitude": 30.381
+        "fullname": "\u5c4b\u4e45\u5cf6\u7a7a\u6e2f, Yakushima-cho, Kagoshima Prefecture, Japan", 
+        "date_indexed": "2010-12-02T08:09:09Z"
       }, 
       "id": 12514034
     }

@@ -32,23 +32,28 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523186, 
-        "name": "Newcastle Airport", 
         "alias_ENG_V": [
           "NEV"
         ], 
-        "ne_latitude": 17.205, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Newcastle Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2346968", 
+          "woe:country=23424940", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523186, 
         "ne_longitude": -62.595, 
         "longitude": -62.600, 
-        "placetype": "Airport", 
+        "parent_woeid": 2346968, 
+        "ne_latitude": 17.205, 
         "iso": "KN", 
-        "date_indexed": "2010-12-02T08:52:18Z", 
-        "parent_woeid": 161926, 
+        "sw_latitude": 17.195, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 17.200, 
         "sw_longitude": -62.605, 
         "fullname": "Newcastle Airport, Saint James Windward, Saint Kitts and Nevis", 
-        "sw_latitude": 17.195
+        "date_indexed": "2010-12-02T08:52:18Z"
       }, 
       "id": 12523186
     }

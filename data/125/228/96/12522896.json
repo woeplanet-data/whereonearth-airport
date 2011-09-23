@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522896, 
+        "placetype": "airport", 
         "name": "Don Phuoc Airport", 
-        "ne_latitude": 10.868, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2347719", 
+          "woe:country=23424984", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522896, 
         "ne_longitude": 105.482, 
         "longitude": 105.478, 
-        "placetype": "Airport", 
+        "parent_woeid": 2347719, 
+        "ne_latitude": 10.868, 
         "iso": "VN", 
-        "date_indexed": "2010-12-02T08:52:49Z", 
-        "parent_woeid": 1252546, 
+        "sw_latitude": 10.859, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 10.863, 
         "sw_longitude": 105.473, 
         "fullname": "Don Phuoc Airport, Dong Thap, Vietnam", 
-        "sw_latitude": 10.859
+        "date_indexed": "2010-12-02T08:52:49Z"
       }, 
       "id": 12522896
     }

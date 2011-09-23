@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 22656555, 
+        "placetype": "airport", 
         "name": "Eaglescott Airfield", 
-        "ne_latitude": 50.934, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12695920", 
+          "woe:county=12602182", 
+          "woe:state=24554868", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 22656555, 
         "ne_longitude": -3.977, 
         "longitude": -3.985, 
-        "placetype": "Airport", 
+        "parent_woeid": 12695920, 
+        "ne_latitude": 50.934, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:21:01Z", 
-        "parent_woeid": 33298, 
+        "sw_latitude": 50.924, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.929, 
         "sw_longitude": -3.992, 
-        "fullname": "Eaglescott Airfield, Riddlecombe, England, Devon, United Kingdom", 
-        "sw_latitude": 50.924
+        "fullname": "Eaglescott Airfield, Riddlecombe, England, United Kingdom", 
+        "date_indexed": "2010-12-02T12:21:01Z"
       }, 
       "id": 22656555
     }

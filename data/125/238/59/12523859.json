@@ -32,29 +32,37 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523859, 
-        "name": "Guettin Airport", 
         "alias_ENG_V": [
           "GTI"
         ], 
-        "ne_latitude": 54.395, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Guettin Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=12631278", 
+          "woe:county=12596987", 
+          "woe:state=2345492", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523859, 
         "ne_longitude": 13.344, 
         "longitude": 13.336, 
-        "placetype": "Airport", 
+        "parent_woeid": 12631278, 
+        "ne_latitude": 54.395, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 656053, 
+        "sw_latitude": 54.386, 
+        "iata_code": "GTI", 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 54.390, 
         "sw_longitude": 13.328, 
-        "fullname": "Guettin Airport, G\u00fcttin, Mecklenburg-Vorpommern, R\u00fcgen, Germany", 
+        "fullname": "Guettin Airport, G\u00fcttin, Mecklenburg-Vorpommern, Germany", 
         "alias_GER_V": [
           "GTI Flughafen"
         ], 
         "alias_GER_Q": [
           "Flughafen Guettin"
         ], 
-        "sw_latitude": 54.386
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 12523859
     }

@@ -3,28 +3,46 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -71.707, 
-              45.429
-            ], 
-            [
-              -71.707, 
-              45.446
-            ], 
-            [
-              -71.675, 
-              45.446
-            ], 
-            [
-              -71.675, 
-              45.429
-            ], 
-            [
-              -71.707, 
-              45.429
+              [
+                -71.689, 
+                45.441
+              ], 
+              [
+                -71.689, 
+                45.441
+              ], 
+              [
+                -71.690, 
+                45.439
+              ], 
+              [
+                -71.691, 
+                45.439
+              ], 
+              [
+                -71.690, 
+                45.439
+              ], 
+              [
+                -71.689, 
+                45.441
+              ], 
+              [
+                -71.689, 
+                45.441
+              ], 
+              [
+                -71.686, 
+                45.442
+              ], 
+              [
+                -71.689, 
+                45.441
+              ]
             ]
           ]
         ]
@@ -32,29 +50,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "FRE", 
-        "woeid": 12511830, 
-        "name": "A\u00e9roport de Sherbrooke", 
-        "alias_ENG_P": [
-          "Sherbrooke Airport"
-        ], 
-        "ne_latitude": 45.446, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "YSC Airport"
         ], 
-        "ne_longitude": -71.675, 
-        "longitude": -71.689, 
-        "placetype": "Airport", 
+        "name": "A\u00e9roport de Sherbrooke", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Sherbrooke Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=29375090", 
+          "woe:state=2344924", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511830, 
+        "ne_longitude": -71.686, 
+        "longitude": -71.690, 
+        "parent_woeid": 29375090, 
+        "ne_latitude": 45.442, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:24:00Z", 
-        "parent_woeid": 23396468, 
-        "latitude": 45.442, 
-        "sw_longitude": -71.707, 
-        "fullname": "A\u00e9roport de Sherbrooke, Westbury, Quebec, Le Haut-St-Fran\u00e7ois, Canada", 
+        "sw_latitude": 45.439, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 45.439, 
+        "sw_longitude": -71.691, 
+        "fullname": "A\u00e9roport de Sherbrooke, Westbury, Quebec, Canada", 
+        "iata_code": "YSC", 
         "alias_FRE_S": [
           "Aeroport de Sherbrooke"
         ], 
-        "sw_latitude": 45.429
+        "date_indexed": "2010-12-02T10:24:00Z"
       }, 
       "id": 12511830
     }

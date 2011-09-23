@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522368, 
-        "name": "Wayne Wonderland Airport", 
         "alias_ENG_V": [
           "38u"
         ], 
-        "ne_latitude": 38.357, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Wayne Wonderland Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590288", 
+          "woe:state=2347603", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522368, 
         "ne_longitude": -111.585, 
         "longitude": -111.588, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590288, 
+        "ne_latitude": 38.357, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2443302, 
+        "sw_latitude": 38.351, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.354, 
         "sw_longitude": -111.592, 
-        "fullname": "Wayne Wonderland Airport, Lyman, Utah, Wayne, United States", 
-        "sw_latitude": 38.351
+        "fullname": "Wayne Wonderland Airport, Lyman, Utah, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12522368
     }

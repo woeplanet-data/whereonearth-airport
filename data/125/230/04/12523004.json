@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523004, 
-        "name": "Riyan Airport", 
         "alias_ENG_V": [
           "RIY"
         ], 
-        "ne_latitude": 14.672, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Riyan Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=56190020", 
+          "woe:state=20070033", 
+          "woe:country=23425002", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523004, 
         "ne_longitude": 49.388, 
         "longitude": 49.376, 
-        "placetype": "Airport", 
+        "parent_woeid": 56190020, 
+        "ne_latitude": 14.672, 
         "iso": "YE", 
-        "date_indexed": "2010-12-02T16:39:41Z", 
-        "parent_woeid": 1958468, 
+        "sw_latitude": 14.650, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 14.661, 
         "sw_longitude": 49.364, 
         "fullname": "Riyan Airport, Shuhayr, Hadramawt, Yemen", 
-        "sw_latitude": 14.650
+        "iata_code": "RIY", 
+        "date_indexed": "2010-12-02T16:39:41Z"
       }, 
       "id": 12523004
     }

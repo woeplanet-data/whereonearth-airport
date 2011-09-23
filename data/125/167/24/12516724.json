@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516724, 
+        "placetype": "airport", 
         "name": "Poronaysk Northeast Airport", 
-        "ne_latitude": 49.330, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599202", 
+          "woe:state=2346937", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516724, 
         "ne_longitude": 143.369, 
         "longitude": 143.362, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599202, 
+        "ne_latitude": 49.330, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2070032, 
+        "sw_latitude": 49.321, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.325, 
         "sw_longitude": 143.355, 
-        "fullname": "Poronaysk Northeast Airport, Poronaysk, Sakhalinskaya Oblast, Poronaysk, Russia", 
-        "sw_latitude": 49.321
+        "fullname": "Poronaysk Northeast Airport, Poronaysk, Sakhalinskaya Oblast, Russia", 
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516724
     }

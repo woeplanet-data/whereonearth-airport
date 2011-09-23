@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519501, 
+        "placetype": "airport", 
         "name": "Dixon Airport", 
-        "ne_latitude": 41.043, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12590609", 
+          "woe:state=2347609", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519501, 
         "ne_longitude": -107.491, 
         "longitude": -107.497, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590609, 
+        "ne_latitude": 41.043, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:15Z", 
-        "parent_woeid": 2489337, 
+        "sw_latitude": 41.034, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.038, 
         "sw_longitude": -107.503, 
-        "fullname": "Dixon Airport, Savery, Wyoming, Carbon, United States", 
-        "sw_latitude": 41.034
+        "fullname": "Dixon Airport, Savery, Wyoming, United States", 
+        "date_indexed": "2010-12-02T18:39:15Z"
       }, 
       "id": 12519501
     }

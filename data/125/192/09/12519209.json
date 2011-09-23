@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519209, 
+        "placetype": "airport", 
         "name": "City of Friendship Airport", 
-        "ne_latitude": 34.942, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12587711", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519209, 
         "ne_longitude": -119.682, 
         "longitude": -119.688, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587711, 
+        "ne_latitude": 34.942, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:15Z", 
-        "parent_woeid": 2458208, 
+        "sw_latitude": 34.933, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 34.938, 
         "sw_longitude": -119.693, 
-        "fullname": "City of Friendship Airport, New Cuyama, California, Santa Barbara, United States", 
-        "sw_latitude": 34.933
+        "fullname": "City of Friendship Airport, New Cuyama, California, United States", 
+        "date_indexed": "2010-12-02T18:39:15Z"
       }, 
       "id": 12519209
     }

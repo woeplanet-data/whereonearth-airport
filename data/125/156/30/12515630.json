@@ -3,28 +3,50 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              123.976, 
-              10.307
-            ], 
-            [
-              123.976, 
-              10.316
-            ], 
-            [
-              123.985, 
-              10.316
-            ], 
-            [
-              123.985, 
-              10.307
-            ], 
-            [
-              123.976, 
-              10.307
+              [
+                123.978, 
+                10.316
+              ], 
+              [
+                123.978, 
+                10.316
+              ], 
+              [
+                123.979, 
+                10.316
+              ], 
+              [
+                123.980, 
+                10.314
+              ], 
+              [
+                123.980, 
+                10.314
+              ], 
+              [
+                123.980, 
+                10.314
+              ], 
+              [
+                123.981, 
+                10.313
+              ], 
+              [
+                123.980, 
+                10.313
+              ], 
+              [
+                123.979, 
+                10.314
+              ], 
+              [
+                123.978, 
+                10.316
+              ]
             ]
           ]
         ]
@@ -32,23 +54,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515630, 
-        "name": "Mactan-Cebu International Airport", 
         "alias_ENG_V": [
           "NOP"
         ], 
+        "name": "Mactan-Cebu International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=2346676", 
+          "woe:state=23424721", 
+          "woe:country=23424934", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515630, 
+        "ne_longitude": 123.981, 
+        "longitude": 123.980, 
+        "parent_woeid": 2346676, 
         "ne_latitude": 10.316, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": 123.985, 
-        "longitude": 123.981, 
-        "placetype": "Airport", 
         "iso": "PH", 
-        "date_indexed": "2010-12-02T09:56:58Z", 
-        "parent_woeid": 1180052, 
-        "latitude": 10.311, 
-        "sw_longitude": 123.976, 
+        "sw_latitude": 10.313, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 10.314, 
+        "sw_longitude": 123.978, 
         "fullname": "Mactan-Cebu International Airport, Central Visayas, Cebu, Philippines", 
-        "sw_latitude": 10.307
+        "date_indexed": "2010-12-02T09:56:58Z"
       }, 
       "id": 12515630
     }

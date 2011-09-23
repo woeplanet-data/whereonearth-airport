@@ -3,28 +3,98 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -84.617, 
-              38.027
-            ], 
-            [
-              -84.617, 
-              38.044
-            ], 
-            [
-              -84.593, 
-              38.044
-            ], 
-            [
-              -84.593, 
-              38.027
-            ], 
-            [
-              -84.617, 
-              38.027
+              [
+                -84.491, 
+                38.042
+              ], 
+              [
+                -84.493, 
+                38.041
+              ], 
+              [
+                -84.503, 
+                38.036
+              ], 
+              [
+                -84.524, 
+                37.992
+              ], 
+              [
+                -84.524, 
+                37.995
+              ], 
+              [
+                -84.591, 
+                38.042
+              ], 
+              [
+                -84.505, 
+                38.037
+              ], 
+              [
+                -84.524, 
+                37.995
+              ], 
+              [
+                -84.595, 
+                38.035
+              ], 
+              [
+                -84.598, 
+                38.033
+              ], 
+              [
+                -84.600, 
+                38.033
+              ], 
+              [
+                -84.613, 
+                38.026
+              ], 
+              [
+                -84.617, 
+                38.026
+              ], 
+              [
+                -84.613, 
+                38.043
+              ], 
+              [
+                -84.610, 
+                38.044
+              ], 
+              [
+                -84.594, 
+                38.047
+              ], 
+              [
+                -84.591, 
+                38.042
+              ], 
+              [
+                -84.505, 
+                38.043
+              ], 
+              [
+                -84.501, 
+                38.049
+              ], 
+              [
+                -84.498, 
+                38.049
+              ], 
+              [
+                -84.492, 
+                38.045
+              ], 
+              [
+                -84.491, 
+                38.042
+              ]
             ]
           ]
         ]
@@ -32,23 +102,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 24554866, 
-        "name": "Blue Grass Airport", 
         "alias_ENG_V": [
           "Blue Grass Field"
         ], 
-        "ne_latitude": 38.044, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -84.593, 
-        "longitude": -84.599, 
-        "placetype": "Airport", 
+        "name": "Blue Grass Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588509", 
+          "woe:state=2347576", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 24554866, 
+        "ne_longitude": -84.491, 
+        "longitude": -84.544, 
+        "parent_woeid": 12588509, 
+        "ne_latitude": 38.049, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2440204, 
-        "latitude": 38.038, 
+        "sw_latitude": 37.992, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 38.027, 
         "sw_longitude": -84.617, 
-        "fullname": "Blue Grass Airport, Little Georgetown, Kentucky, Fayette, United States", 
-        "sw_latitude": 38.027
+        "fullname": "Blue Grass Airport, Little Georgetown, Kentucky, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 24554866
     }

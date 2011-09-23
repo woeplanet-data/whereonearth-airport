@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518107, 
-        "name": "Oxford Airport", 
         "alias_ENG_V": [
           "Kidlington Airport"
         ], 
-        "ne_latitude": 51.838, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Oxford Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=12696057", 
+          "woe:county=12602175", 
+          "woe:state=24554868", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518107, 
         "ne_longitude": -1.310, 
         "longitude": -1.318, 
-        "placetype": "Airport", 
+        "parent_woeid": 12696057, 
+        "ne_latitude": 51.838, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:21:01Z", 
-        "parent_woeid": 37483, 
+        "sw_latitude": 51.829, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.835, 
         "sw_longitude": -1.324, 
-        "fullname": "Oxford Airport, Thrupp, England, Oxfordshire, United Kingdom", 
-        "sw_latitude": 51.829
+        "fullname": "Oxford Airport, Thrupp, England, United Kingdom", 
+        "iata_code": "OXF", 
+        "date_indexed": "2010-12-02T12:21:01Z"
       }, 
       "id": 12518107
     }

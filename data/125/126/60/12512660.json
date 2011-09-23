@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512660, 
+        "placetype": "airport", 
         "name": "Al Manzilah Airport", 
-        "ne_latitude": 31.056, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345236", 
+          "woe:country=23424802", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512660, 
         "ne_longitude": 31.912, 
         "longitude": 31.907, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345236, 
+        "ne_latitude": 31.056, 
         "iso": "EG", 
-        "date_indexed": "2010-12-02T12:16:51Z", 
-        "parent_woeid": 1526168, 
+        "sw_latitude": 31.047, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 31.051, 
         "sw_longitude": 31.902, 
         "fullname": "Al Manzilah Airport, Ash Sharquiyah, Egypt", 
-        "sw_latitude": 31.047
+        "date_indexed": "2010-12-02T12:16:51Z"
       }, 
       "id": 12512660
     }

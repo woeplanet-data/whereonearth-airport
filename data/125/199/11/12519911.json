@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519911, 
-        "name": "Glasgow Municipal Airport", 
         "alias_ENG_V": [
           "GLW"
         ], 
-        "ne_latitude": 37.036, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Glasgow Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588480", 
+          "woe:state=2347576", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519911, 
         "ne_longitude": -85.943, 
         "longitude": -85.943, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588480, 
+        "ne_latitude": 37.036, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2410628, 
+        "sw_latitude": 37.029, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 37.034, 
         "sw_longitude": -85.961, 
-        "fullname": "Glasgow Municipal Airport, Glasgow, Kentucky, Barren, United States", 
-        "sw_latitude": 37.029
+        "fullname": "Glasgow Municipal Airport, Glasgow, Kentucky, United States", 
+        "iata_code": "GLW", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12519911
     }

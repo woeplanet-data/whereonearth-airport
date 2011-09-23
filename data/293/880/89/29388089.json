@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388089, 
-        "name": "Horton Municipal Airport", 
         "alias_ENG_V": [
           "K91"
         ], 
-        "ne_latitude": 39.682, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Horton Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588377", 
+          "woe:state=2347575", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388089, 
         "ne_longitude": -95.531, 
         "longitude": -95.531, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588377, 
+        "ne_latitude": 39.682, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2424590, 
+        "sw_latitude": 39.675, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 39.681, 
         "sw_longitude": -95.537, 
-        "fullname": "Horton Municipal Airport, Horton, Kansas, Brown, United States", 
-        "sw_latitude": 39.675
+        "fullname": "Horton Municipal Airport, Horton, Kansas, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388089
     }

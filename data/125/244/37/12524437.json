@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524437, 
-        "name": "Oruro Airport", 
         "alias_ENG_V": [
           "ORU"
         ], 
-        "ne_latitude": -17.945, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Oruro Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=55968135", 
+          "woe:county=55967852", 
+          "woe:state=2344805", 
+          "woe:country=23424762", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524437, 
         "ne_longitude": -67.095, 
         "longitude": -67.100, 
-        "placetype": "Airport", 
+        "parent_woeid": 55968135, 
+        "ne_latitude": -17.945, 
         "iso": "BO", 
-        "date_indexed": "2010-12-02T17:57:50Z", 
-        "parent_woeid": 346060, 
+        "sw_latitude": -17.955, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -17.950, 
         "sw_longitude": -67.105, 
-        "fullname": "Oruro Airport, Oruro, Oruro, Cercado, Bolivia", 
-        "sw_latitude": -17.955
+        "fullname": "Oruro Airport, Oruro, Oruro, Bolivia", 
+        "iata_code": "ORU", 
+        "date_indexed": "2010-12-02T17:57:50Z"
       }, 
       "id": 12524437
     }

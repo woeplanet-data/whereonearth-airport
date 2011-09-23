@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513189, 
+        "placetype": "airport", 
         "name": "Nardt Airport", 
-        "ne_latitude": 51.452, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12636441", 
+          "woe:county=12597075", 
+          "woe:state=2345493", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513189, 
         "ne_longitude": 14.206, 
         "longitude": 14.199, 
-        "placetype": "Airport", 
+        "parent_woeid": 12636441, 
+        "ne_latitude": 51.452, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 662624, 
+        "sw_latitude": 51.443, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.447, 
         "sw_longitude": 14.192, 
-        "fullname": "Nardt Airport, Hoyerswerda, Saxony, Stadtkreis Hoyerswerda, Germany", 
+        "fullname": "Nardt Airport, Hoyerswerda, Saxony, Germany", 
         "alias_GER_Q": [
           "Flughafen Nardt"
         ], 
-        "sw_latitude": 51.443
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 12513189
     }

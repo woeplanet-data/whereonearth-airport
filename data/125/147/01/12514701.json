@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514701, 
-        "name": "Mananjary Airport", 
         "alias_ENG_V": [
           "MNJ"
         ], 
-        "ne_latitude": -21.197, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Mananjary Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=23706561", 
+          "woe:state=2346147", 
+          "woe:country=23424883", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514701, 
         "ne_longitude": 48.363, 
         "longitude": 48.358, 
-        "placetype": "Airport", 
+        "parent_woeid": 23706561, 
+        "ne_latitude": -21.197, 
         "iso": "MG", 
-        "date_indexed": "2010-12-02T16:43:54Z", 
-        "parent_woeid": 1362354, 
+        "sw_latitude": -21.206, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -21.202, 
         "sw_longitude": 48.353, 
-        "fullname": "Mananjary Airport, Mananjary, Fianarantsoa, Mananjary, Madagascar", 
-        "sw_latitude": -21.206
+        "fullname": "Mananjary Airport, Mananjary, Fianarantsoa, Madagascar", 
+        "iata_code": "MNJ", 
+        "date_indexed": "2010-12-02T16:43:54Z"
       }, 
       "id": 12514701
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523384, 
-        "name": "Larson Air Force Base", 
         "alias_ENG_V": [
           "Larson Air Base"
         ], 
-        "ne_latitude": 47.185, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Larson Air Force Base", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590452", 
+          "woe:state=2347606", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523384, 
         "ne_longitude": -119.311, 
         "longitude": -119.318, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590452, 
+        "ne_latitude": 47.185, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 23418244, 
+        "sw_latitude": 47.175, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.180, 
         "sw_longitude": -119.324, 
-        "fullname": "Larson Air Force Base, Moses Lake North, Washington, Grant, United States", 
-        "sw_latitude": 47.175
+        "fullname": "Larson Air Force Base, Moses Lake North, Washington, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12523384
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511628, 
-        "name": "Cranbrook Airport", 
         "alias_ENG_V": [
           "YXC Airport"
         ], 
-        "ne_latitude": 49.625, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Cranbrook Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375236", 
+          "woe:state=2344916", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511628, 
         "ne_longitude": -115.779, 
         "longitude": -115.786, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375236, 
+        "ne_latitude": 49.625, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:24:00Z", 
-        "parent_woeid": 29373749, 
+        "sw_latitude": 49.599, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.615, 
         "sw_longitude": -115.788, 
-        "fullname": "Cranbrook Airport, Kootenay Indian Reserve 1, British Columbia, East Kootenay, Canada", 
-        "sw_latitude": 49.599
+        "fullname": "Cranbrook Airport, Kootenay Indian Reserve 1, British Columbia, Canada", 
+        "date_indexed": "2010-12-02T10:24:00Z"
       }, 
       "id": 12511628
     }

@@ -32,29 +32,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511271, 
-        "name": "Aeroporto Pimenta Bueno", 
-        "alias_ENG_P": [
-          "Pimenta Bueno Airport"
-        ], 
-        "ne_latitude": -11.637, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "PBQ"
         ], 
+        "name": "Aeroporto Pimenta Bueno", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Pimenta Bueno Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12581580", 
+          "woe:state=2344865", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511271, 
         "ne_longitude": -61.176, 
         "longitude": -61.181, 
-        "placetype": "Airport", 
+        "parent_woeid": 12581580, 
+        "ne_latitude": -11.637, 
         "alias_POR_V": [
           "Aeroporto PBQ"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 456413, 
+        "sw_latitude": -11.646, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -11.641, 
         "sw_longitude": -61.185, 
-        "fullname": "Aeroporto Pimenta Bueno, Pimenta Bueno, Rondonia, Pimenta Bueno, Brazil", 
-        "sw_latitude": -11.646
+        "fullname": "Aeroporto Pimenta Bueno, Pimenta Bueno, Rondonia, Brazil", 
+        "iata_code": "PBQ", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511271
     }

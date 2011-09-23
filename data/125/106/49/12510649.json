@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510649, 
-        "name": "Dalby Aerodrome", 
         "alias_ENG_V": [
           "Dalby Airport"
         ], 
-        "ne_latitude": -27.153, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Dalby Aerodrome", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=56072966", 
+          "woe:state=2344702", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510649, 
         "ne_longitude": 151.270, 
         "longitude": 151.264, 
-        "placetype": "Airport", 
+        "parent_woeid": 56072966, 
+        "ne_latitude": -27.153, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1101544, 
+        "sw_latitude": -27.162, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -27.157, 
         "sw_longitude": 151.259, 
-        "fullname": "Dalby Aerodrome, Dalby, Queensland, Dalby, Australia", 
-        "sw_latitude": -27.162
+        "fullname": "Dalby Aerodrome, Dalby, Queensland, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 12510649
     }

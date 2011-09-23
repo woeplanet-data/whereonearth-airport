@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511925, 
+        "placetype": "airport", 
         "name": "Battambang Airport", 
-        "ne_latitude": 13.098, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=56063403", 
+          "woe:state=20070098", 
+          "woe:country=23424776", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511925, 
         "ne_longitude": 103.231, 
         "longitude": 103.227, 
-        "placetype": "Airport", 
+        "parent_woeid": 56063403, 
+        "ne_latitude": 13.098, 
         "iso": "KH", 
-        "date_indexed": "2010-12-02T16:11:23Z", 
-        "parent_woeid": 1028456, 
+        "sw_latitude": 13.089, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 13.094, 
         "sw_longitude": 103.222, 
-        "fullname": "Battambang Airport, Batdambang, Batdambang, Batdambang, Cambodia", 
-        "sw_latitude": 13.089
+        "fullname": "Battambang Airport, Batdambang, Batdambang, Cambodia", 
+        "date_indexed": "2010-12-02T16:11:23Z"
       }, 
       "id": 12511925
     }

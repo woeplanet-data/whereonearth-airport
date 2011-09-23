@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524434, 
-        "name": "Camiri-Choreti Airport", 
         "alias_ENG_V": [
           "CAM"
         ], 
-        "ne_latitude": -20.026, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Camiri-Choreti Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=55967867", 
+          "woe:county=55967752", 
+          "woe:state=2344801", 
+          "woe:country=23424762", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524434, 
         "ne_longitude": -64.001, 
         "longitude": -64.006, 
-        "placetype": "Airport", 
+        "parent_woeid": 55967867, 
+        "ne_latitude": -20.026, 
         "iso": "BO", 
-        "date_indexed": "2010-12-02T17:57:50Z", 
-        "parent_woeid": 346696, 
+        "sw_latitude": -20.035, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -20.030, 
         "sw_longitude": -64.010, 
         "fullname": "Camiri-Choreti Airport, Chuquisaca, Hernando Siles, Bolivia", 
-        "sw_latitude": -20.035
+        "iata_code": "CAM", 
+        "date_indexed": "2010-12-02T17:57:50Z"
       }, 
       "id": 12524434
     }

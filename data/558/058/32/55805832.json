@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 55805832, 
-        "name": "Botsford Airport", 
         "alias_ENG_V": [
           "67d"
         ], 
-        "ne_latitude": 41.173, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Botsford Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589573", 
+          "woe:state=2347594", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 55805832, 
         "ne_longitude": -82.197, 
         "longitude": -82.202, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589573, 
+        "ne_latitude": 41.173, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2516253, 
+        "sw_latitude": 41.164, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.168, 
         "sw_longitude": -82.209, 
-        "fullname": "Botsford Airport, Wellington, Ohio, Lorain, United States", 
-        "sw_latitude": 41.164
+        "fullname": "Botsford Airport, Wellington, Ohio, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 55805832
     }

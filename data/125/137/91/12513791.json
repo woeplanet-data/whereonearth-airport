@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513791, 
+        "placetype": "airport", 
         "name": "Ramon Airport", 
-        "ne_latitude": 30.778, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345791", 
+          "woe:country=23424852", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513791, 
         "ne_longitude": 34.674, 
         "longitude": 34.668, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345791, 
+        "ne_latitude": 30.778, 
         "iso": "IL", 
-        "date_indexed": "2010-12-02T08:53:06Z", 
-        "parent_woeid": 1968210, 
+        "sw_latitude": 30.769, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 30.773, 
         "sw_longitude": 34.663, 
         "fullname": "Ramon Airport, HaDarom, Israel", 
-        "sw_latitude": 30.769
+        "date_indexed": "2010-12-02T08:53:06Z"
       }, 
       "id": 12513791
     }

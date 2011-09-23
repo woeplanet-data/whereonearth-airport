@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519068, 
-        "name": "Carl Folsom Airport", 
         "alias_ENG_V": [
           "14j"
         ], 
-        "ne_latitude": 31.415, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Carl Folsom Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587502", 
+          "woe:state=2347559", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519068, 
         "ne_longitude": -86.085, 
         "longitude": -86.092, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587502, 
+        "ne_latitude": 31.415, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2398030, 
+        "sw_latitude": 31.405, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 31.410, 
         "sw_longitude": -86.092, 
-        "fullname": "Carl Folsom Airport, Elba, Alabama, Coffee, United States", 
-        "sw_latitude": 31.405
+        "fullname": "Carl Folsom Airport, Elba, Alabama, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519068
     }

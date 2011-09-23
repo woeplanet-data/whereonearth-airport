@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521093, 
-        "name": "Nemacolin Airport", 
         "alias_ENG_V": [
           "Pa88"
         ], 
-        "ne_latitude": 39.813, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Nemacolin Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589753", 
+          "woe:state=2347597", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521093, 
         "ne_longitude": -79.542, 
         "longitude": -79.546, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589753, 
+        "ne_latitude": 39.813, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 28744610, 
+        "sw_latitude": 39.803, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 39.810, 
         "sw_longitude": -79.553, 
-        "fullname": "Nemacolin Airport, Wharton, Pennsylvania, Fayette, United States", 
-        "sw_latitude": 39.803
+        "fullname": "Nemacolin Airport, Wharton, Pennsylvania, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12521093
     }

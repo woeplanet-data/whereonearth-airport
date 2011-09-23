@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516943, 
+        "placetype": "airport", 
         "name": "Stredniy Airport", 
-        "ne_latitude": 44.560, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597960", 
+          "woe:state=2346887", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516943, 
         "ne_longitude": 43.017, 
         "longitude": 43.011, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597960, 
+        "ne_latitude": 44.560, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2088259, 
+        "sw_latitude": 44.551, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.556, 
         "sw_longitude": 43.005, 
         "fullname": "Stredniy Airport, Stavropolrskiy Kray, Aleksandrovsky, Russia", 
-        "sw_latitude": 44.551
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516943
     }

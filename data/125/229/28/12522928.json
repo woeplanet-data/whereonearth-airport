@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522928, 
+        "placetype": "airport", 
         "name": "Long Xuyen Airport", 
-        "ne_latitude": 10.328, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2347719", 
+          "woe:country=23424984", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522928, 
         "ne_longitude": 105.476, 
         "longitude": 105.471, 
-        "placetype": "Airport", 
+        "parent_woeid": 2347719, 
+        "ne_latitude": 10.328, 
         "iso": "VN", 
-        "date_indexed": "2010-12-02T08:52:49Z", 
-        "parent_woeid": 1252476, 
+        "sw_latitude": 10.319, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 10.323, 
         "sw_longitude": 105.467, 
         "fullname": "Long Xuyen Airport, Long Swiyen, An Giang, Vietnam", 
-        "sw_latitude": 10.319
+        "date_indexed": "2010-12-02T08:52:49Z"
       }, 
       "id": 12522928
     }

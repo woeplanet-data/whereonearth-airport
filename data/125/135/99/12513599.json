@@ -3,28 +3,114 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              77.060, 
-              28.535
-            ], 
-            [
-              77.060, 
-              28.583
-            ], 
-            [
-              77.133, 
-              28.583
-            ], 
-            [
-              77.133, 
-              28.535
-            ], 
-            [
-              77.060, 
-              28.535
+              [
+                77.088, 
+                28.558
+              ], 
+              [
+                77.087, 
+                28.558
+              ], 
+              [
+                77.087, 
+                28.561
+              ], 
+              [
+                77.088, 
+                28.567
+              ], 
+              [
+                77.093, 
+                28.565
+              ], 
+              [
+                77.098, 
+                28.568
+              ], 
+              [
+                77.100, 
+                28.570
+              ], 
+              [
+                77.099, 
+                28.566
+              ], 
+              [
+                77.101, 
+                28.562
+              ], 
+              [
+                77.103, 
+                28.561
+              ], 
+              [
+                77.103, 
+                28.561
+              ], 
+              [
+                77.107, 
+                28.563
+              ], 
+              [
+                77.110, 
+                28.564
+              ], 
+              [
+                77.109, 
+                28.560
+              ], 
+              [
+                77.106, 
+                28.559
+              ], 
+              [
+                77.104, 
+                28.557
+              ], 
+              [
+                77.103, 
+                28.554
+              ], 
+              [
+                77.101, 
+                28.556
+              ], 
+              [
+                77.099, 
+                28.557
+              ], 
+              [
+                77.098, 
+                28.558
+              ], 
+              [
+                77.095, 
+                28.563
+              ], 
+              [
+                77.091, 
+                28.560
+              ], 
+              [
+                77.092, 
+                28.558
+              ], 
+              [
+                77.092, 
+                28.554
+              ], 
+              [
+                77.089, 
+                28.557
+              ], 
+              [
+                77.088, 
+                28.558
+              ]
             ]
           ]
         ]
@@ -32,23 +118,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513599, 
-        "name": "Indira Gandhi International Airport", 
         "alias_ENG_V": [
           "New Delhi Airport"
         ], 
-        "ne_latitude": 28.583, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": 77.133, 
-        "longitude": 77.087, 
-        "placetype": "Airport", 
+        "name": "Indira Gandhi International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12586441", 
+          "woe:state=2345744", 
+          "woe:country=23424848", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513599, 
+        "ne_longitude": 77.110, 
+        "longitude": 77.097, 
+        "parent_woeid": 12586441, 
+        "ne_latitude": 28.570, 
         "iso": "IN", 
-        "date_indexed": "2010-12-02T09:26:27Z", 
-        "parent_woeid": 2291181, 
-        "latitude": 28.556, 
-        "sw_longitude": 77.060, 
-        "fullname": "Indira Gandhi International Airport, Palam, Haryana, Gurgaon, India", 
-        "sw_latitude": 28.535
+        "sw_latitude": 28.554, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 28.561, 
+        "sw_longitude": 77.087, 
+        "fullname": "Indira Gandhi International Airport, Palam, Haryana, India", 
+        "iata_code": "DEL", 
+        "date_indexed": "2010-12-02T09:26:27Z"
       }, 
       "id": 12513599
     }

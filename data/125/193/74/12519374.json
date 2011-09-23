@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519374, 
-        "name": "Crystal Airport", 
         "alias_ENG_V": [
           "MIC"
         ], 
-        "ne_latitude": 45.069, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Crystal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588823", 
+          "woe:state=2347582", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519374, 
         "ne_longitude": -93.340, 
         "longitude": -93.360, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588823, 
+        "ne_latitude": 45.069, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2387955, 
+        "sw_latitude": 45.055, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.058, 
         "sw_longitude": -93.363, 
-        "fullname": "Crystal Airport, Crystal, Minnesota, Hennepin, United States", 
-        "sw_latitude": 45.055
+        "fullname": "Crystal Airport, Crystal, Minnesota, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519374
     }

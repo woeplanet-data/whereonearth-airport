@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512368, 
+        "placetype": "airport", 
         "name": "Buenavista Airport", 
-        "ne_latitude": 10.896, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=26797680", 
+          "woe:state=2345062", 
+          "woe:country=23424787", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512368, 
         "ne_longitude": -72.894, 
         "longitude": -72.899, 
-        "placetype": "Airport", 
+        "parent_woeid": 26797680, 
+        "ne_latitude": 10.896, 
         "iso": "CO", 
-        "date_indexed": "2010-12-02T17:57:37Z", 
-        "parent_woeid": 353652, 
+        "sw_latitude": 10.887, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 10.891, 
         "sw_longitude": -72.904, 
-        "fullname": "Buenavista Airport, Distracci\u00f3n, La Guajira, Distraccion, Colombia", 
-        "sw_latitude": 10.887
+        "fullname": "Buenavista Airport, Distracci\u00f3n, La Guajira, Colombia", 
+        "date_indexed": "2010-12-02T17:57:37Z"
       }, 
       "id": 12512368
     }

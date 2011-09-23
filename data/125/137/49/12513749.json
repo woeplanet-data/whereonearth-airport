@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513749, 
+        "placetype": "airport", 
         "name": "Omidiyeh Airport", 
-        "ne_latitude": 30.837, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345778", 
+          "woe:country=23424851", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513749, 
         "ne_longitude": 49.550, 
         "longitude": 49.544, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345778, 
+        "ne_latitude": 30.837, 
         "iso": "IR", 
-        "date_indexed": "2010-12-02T08:53:52Z", 
-        "parent_woeid": 2245599, 
+        "sw_latitude": 30.828, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 30.832, 
         "sw_longitude": 49.539, 
         "fullname": "Omidiyeh Airport, Khuzestan, Iran", 
-        "sw_latitude": 30.828
+        "date_indexed": "2010-12-02T08:53:52Z"
       }, 
       "id": 12513749
     }

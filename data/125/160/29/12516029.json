@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516029, 
+        "placetype": "airport", 
         "name": "Igrm Airport", 
-        "ne_latitude": 63.217, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599443", 
+          "woe:state=20070526", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516029, 
         "ne_longitude": 64.424, 
         "longitude": 64.414, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599443, 
+        "ne_latitude": 63.217, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2120997, 
+        "sw_latitude": 63.208, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 63.213, 
         "sw_longitude": 64.404, 
-        "fullname": "Igrm Airport, Igrim, Khanty-Mansiyskiy Avtonomnyy Okrug, Berezovsky, Russia", 
-        "sw_latitude": 63.208
+        "fullname": "Igrm Airport, Igrim, Khanty-Mansiyskiy Avtonomnyy Okrug, Russia", 
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516029
     }

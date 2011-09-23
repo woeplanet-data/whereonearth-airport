@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522308, 
-        "name": "Wakefield Municipal Airport", 
         "alias_ENG_V": [
           "AKQ"
         ], 
-        "ne_latitude": 36.993, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Wakefield Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590428", 
+          "woe:state=2347605", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522308, 
         "ne_longitude": -76.998, 
         "longitude": -77.003, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590428, 
+        "ne_latitude": 36.993, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2513249, 
+        "sw_latitude": 36.981, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.981, 
         "sw_longitude": -77.004, 
-        "fullname": "Wakefield Municipal Airport, Wakefield, Virginia, Sussex, United States", 
-        "sw_latitude": 36.981
+        "fullname": "Wakefield Municipal Airport, Wakefield, Virginia, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522308
     }

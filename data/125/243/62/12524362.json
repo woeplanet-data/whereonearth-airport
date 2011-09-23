@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524362, 
-        "name": "La Union Airport", 
         "alias_ENG_V": [
           "LUI"
         ], 
-        "ne_latitude": 15.075, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "La Union Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26813695", 
+          "woe:state=2345637", 
+          "woe:country=23424841", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524362, 
         "ne_longitude": -86.668, 
         "longitude": -86.672, 
-        "placetype": "Airport", 
+        "parent_woeid": 26813695, 
+        "ne_latitude": 15.075, 
         "iso": "HN", 
-        "date_indexed": "2010-12-02T19:21:06Z", 
-        "parent_woeid": 103573, 
+        "sw_latitude": 15.066, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 15.071, 
         "sw_longitude": -86.677, 
-        "fullname": "La Union Airport, La Uni\u00f3n, Olancho, La Uni\u00f3n, Honduras", 
-        "sw_latitude": 15.066
+        "fullname": "La Union Airport, La Uni\u00f3n, Olancho, Honduras", 
+        "iata_code": "LUI", 
+        "date_indexed": "2010-12-02T19:21:06Z"
       }, 
       "id": 12524362
     }

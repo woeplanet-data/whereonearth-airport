@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512645, 
+        "placetype": "airport", 
         "name": "Posorja Airport", 
-        "ne_latitude": -2.682, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=26810301", 
+          "woe:county=26809700", 
+          "woe:state=2345211", 
+          "woe:country=23424801", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512645, 
         "ne_longitude": -80.245, 
         "longitude": -80.250, 
-        "placetype": "Airport", 
+        "parent_woeid": 26810301, 
+        "ne_latitude": -2.682, 
         "iso": "EC", 
-        "date_indexed": "2010-12-02T17:51:45Z", 
-        "parent_woeid": 375886, 
+        "sw_latitude": -2.691, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -2.686, 
         "sw_longitude": -80.255, 
-        "fullname": "Posorja Airport, Posorja, Guayas, Guayaquil, Ecuador", 
-        "sw_latitude": -2.691
+        "fullname": "Posorja Airport, Posorja, Guayas, Ecuador", 
+        "date_indexed": "2010-12-02T17:51:45Z"
       }, 
       "id": 12512645
     }

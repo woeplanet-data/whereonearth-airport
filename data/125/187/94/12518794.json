@@ -3,28 +3,30 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -94.949, 
-              47.502
-            ], 
-            [
-              -94.949, 
-              47.527
-            ], 
-            [
-              -94.922, 
-              47.527
-            ], 
-            [
-              -94.922, 
-              47.502
-            ], 
-            [
-              -94.949, 
-              47.502
+              [
+                -94.934, 
+                47.507
+              ], 
+              [
+                -94.934, 
+                47.506
+              ], 
+              [
+                -94.934, 
+                47.507
+              ], 
+              [
+                -94.935, 
+                47.510
+              ], 
+              [
+                -94.934, 
+                47.507
+              ]
             ]
           ]
         ]
@@ -32,23 +34,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518794, 
-        "name": "Bemidji-Beltrami County Airport", 
         "alias_ENG_V": [
           "Bemidji-Beltrami Airport"
         ], 
-        "ne_latitude": 47.527, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -94.922, 
+        "name": "Bemidji-Beltrami County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588800", 
+          "woe:state=2347582", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518794, 
+        "ne_longitude": -94.934, 
         "longitude": -94.934, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588800, 
+        "ne_latitude": 47.510, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2362416, 
-        "latitude": 47.506, 
-        "sw_longitude": -94.949, 
-        "fullname": "Bemidji-Beltrami County Airport, Bemidji, Minnesota, Beltrami, United States", 
-        "sw_latitude": 47.502
+        "sw_latitude": 47.506, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 47.508, 
+        "sw_longitude": -94.935, 
+        "fullname": "Bemidji-Beltrami County Airport, Bemidji, Minnesota, United States", 
+        "iata_code": "BJI", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518794
     }

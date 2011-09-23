@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512509, 
+        "placetype": "airport", 
         "name": "Bukovec Airport", 
-        "ne_latitude": 50.301, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12607226", 
+          "woe:county=12582572", 
+          "woe:state=20070470", 
+          "woe:country=23424810", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512509, 
         "ne_longitude": 17.299, 
         "longitude": 17.292, 
-        "placetype": "Airport", 
+        "parent_woeid": 12607226, 
+        "ne_latitude": 50.301, 
         "iso": "CZ", 
-        "date_indexed": "2010-12-02T08:56:52Z", 
-        "parent_woeid": 24928730, 
+        "sw_latitude": 50.292, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.297, 
         "sw_longitude": 17.285, 
-        "fullname": "Bukovec Airport, Hradec-Nov\u00e1 Ves, Olomouck\u00fd, Jesen\u00edk, Czech Republic", 
-        "sw_latitude": 50.292
+        "fullname": "Bukovec Airport, Hradec-Nov\u00e1 Ves, Olomouck\u00fd, Czech Republic", 
+        "date_indexed": "2010-12-02T08:56:52Z"
       }, 
       "id": 12512509
     }

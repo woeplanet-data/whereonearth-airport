@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521518, 
+        "placetype": "airport", 
         "name": "Rajneesh Airport", 
-        "ne_latitude": 44.833, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12589724", 
+          "woe:state=2347596", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521518, 
         "ne_longitude": -120.486, 
         "longitude": -120.492, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589724, 
+        "ne_latitude": 44.833, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2380916, 
+        "sw_latitude": 44.824, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.828, 
         "sw_longitude": -120.499, 
-        "fullname": "Rajneesh Airport, Clarno, Oregon, Wasco, United States", 
-        "sw_latitude": 44.824
+        "fullname": "Rajneesh Airport, Clarno, Oregon, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521518
     }

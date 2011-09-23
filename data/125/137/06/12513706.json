@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513706, 
+        "placetype": "airport", 
         "name": "Bastak Airport", 
-        "ne_latitude": 27.221, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345776", 
+          "woe:country=23424851", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513706, 
         "ne_longitude": 54.323, 
         "longitude": 54.318, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345776, 
+        "ne_latitude": 27.221, 
         "iso": "IR", 
-        "date_indexed": "2010-12-02T08:53:52Z", 
-        "parent_woeid": 2237565, 
+        "sw_latitude": 27.212, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 27.216, 
         "sw_longitude": 54.313, 
         "fullname": "Bastak Airport, Lastak, Hormozgan, Iran", 
-        "sw_latitude": 27.212
+        "date_indexed": "2010-12-02T08:53:52Z"
       }, 
       "id": 12513706
     }

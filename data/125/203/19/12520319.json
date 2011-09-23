@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520319, 
-        "name": "Iuka Airport", 
         "alias_ENG_V": [
           "15m"
         ], 
-        "ne_latitude": 34.775, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Iuka Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588954", 
+          "woe:state=2347583", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520319, 
         "ne_longitude": -88.166, 
         "longitude": -88.168, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588954, 
+        "ne_latitude": 34.775, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2427952, 
+        "sw_latitude": 34.772, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 34.773, 
         "sw_longitude": -88.170, 
-        "fullname": "Iuka Airport, Iuka, Mississippi, Tishomingo, United States", 
-        "sw_latitude": 34.772
+        "fullname": "Iuka Airport, Iuka, Mississippi, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12520319
     }

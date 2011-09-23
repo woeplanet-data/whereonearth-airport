@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521585, 
-        "name": "Richland Municipal Airport", 
         "alias_ENG_V": [
           "Mo1"
         ], 
-        "ne_latitude": 37.878, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Richland Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589050", 
+          "woe:state=2347584", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521585, 
         "ne_longitude": -92.402, 
         "longitude": -92.407, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589050, 
+        "ne_latitude": 37.878, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2480842, 
+        "sw_latitude": 37.872, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 37.876, 
         "sw_longitude": -92.412, 
-        "fullname": "Richland Municipal Airport, Richland, Missouri, Pulaski, United States", 
-        "sw_latitude": 37.872
+        "fullname": "Richland Municipal Airport, Richland, Missouri, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521585
     }

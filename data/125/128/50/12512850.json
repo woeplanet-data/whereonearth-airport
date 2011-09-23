@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512850, 
+        "placetype": "airport", 
         "name": "Avrille Airport", 
-        "ne_latitude": 47.502, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12655262", 
+          "woe:county=12597202", 
+          "woe:state=7153325", 
+          "woe:country=23424819", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512850, 
         "ne_longitude": -0.567, 
         "longitude": -0.574, 
-        "placetype": "Airport", 
+        "parent_woeid": 12655262, 
+        "ne_latitude": 47.502, 
         "iso": "FR", 
-        "date_indexed": "2010-12-02T12:04:01Z", 
-        "parent_woeid": 576106, 
+        "sw_latitude": 47.493, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.498, 
         "sw_longitude": -0.581, 
-        "fullname": "Avrille Airport, Angers, Pays de la Loire, Maine-et-Loire, France", 
-        "sw_latitude": 47.493
+        "fullname": "Avrille Airport, Angers, Pays de la Loire, France", 
+        "date_indexed": "2010-12-02T12:04:01Z"
       }, 
       "id": 12512850
     }

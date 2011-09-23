@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515893, 
+        "placetype": "airport", 
         "name": "Cheltan Airport", 
-        "ne_latitude": 56.553, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598861", 
+          "woe:state=2346914", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515893, 
         "ne_longitude": 76.615, 
         "longitude": 76.607, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598861, 
+        "ne_latitude": 56.553, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2034487, 
+        "sw_latitude": 56.544, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 56.548, 
         "sw_longitude": 76.598, 
-        "fullname": "Cheltan Airport, Kyshtovka, Novosibirskaya Oblast, Kyshtovsky, Russia", 
-        "sw_latitude": 56.544
+        "fullname": "Cheltan Airport, Kyshtovka, Novosibirskaya Oblast, Russia", 
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12515893
     }

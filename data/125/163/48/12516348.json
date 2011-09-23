@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516348, 
+        "placetype": "airport", 
         "name": "Levashevo Airport", 
-        "ne_latitude": 60.086, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598666", 
+          "woe:state=2346907", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516348, 
         "ne_longitude": 30.205, 
         "longitude": 30.196, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598666, 
+        "ne_latitude": 60.086, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2036480, 
+        "sw_latitude": 60.077, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 60.082, 
         "sw_longitude": 30.187, 
         "fullname": "Levashevo Airport, Leningradskaya Oblast, Vsevolzhsky, Russia", 
-        "sw_latitude": 60.077
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516348
     }

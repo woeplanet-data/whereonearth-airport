@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514579, 
+        "placetype": "airport", 
         "name": "Ventspils South Airport", 
-        "ne_latitude": 57.370, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55844192", 
+          "woe:state=56190590", 
+          "woe:country=23424874", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514579, 
         "ne_longitude": 21.582, 
         "longitude": 21.574, 
-        "placetype": "Airport", 
+        "parent_woeid": 55844192, 
+        "ne_latitude": 57.370, 
         "iso": "LV", 
-        "date_indexed": "2010-12-02T08:49:48Z", 
-        "parent_woeid": 853290, 
+        "sw_latitude": 57.361, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 57.365, 
         "sw_longitude": 21.565, 
         "fullname": "Ventspils South Airport, Ventspils, Ventspils, Latvia", 
-        "sw_latitude": 57.361
+        "date_indexed": "2010-12-02T08:49:48Z"
       }, 
       "id": 12514579
     }

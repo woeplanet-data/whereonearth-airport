@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519248, 
-        "name": "Clintonville Municipal Airport", 
         "alias_ENG_V": [
           "Clintonville Airport"
         ], 
-        "ne_latitude": 44.620, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Clintonville Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590602", 
+          "woe:state=2347608", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519248, 
         "ne_longitude": -88.723, 
         "longitude": -88.732, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590602, 
+        "ne_latitude": 44.620, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2381833, 
+        "sw_latitude": 44.607, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.619, 
         "sw_longitude": -88.739, 
-        "fullname": "Clintonville Municipal Airport, Clintonville, Wisconsin, Waupaca, United States", 
-        "sw_latitude": 44.607
+        "fullname": "Clintonville Municipal Airport, Clintonville, Wisconsin, United States", 
+        "iata_code": "CLI", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519248
     }

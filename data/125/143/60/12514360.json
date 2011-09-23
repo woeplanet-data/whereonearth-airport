@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514360, 
+        "placetype": "airport", 
         "name": "Karaganda Southwest Airport", 
-        "ne_latitude": 49.670, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=20070178", 
+          "woe:country=23424871", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514360, 
         "ne_longitude": 72.988, 
         "longitude": 72.981, 
-        "placetype": "Airport", 
+        "parent_woeid": 20070178, 
+        "ne_latitude": 49.670, 
         "iso": "KZ", 
-        "date_indexed": "2010-12-02T08:54:13Z", 
-        "parent_woeid": 2255332, 
+        "sw_latitude": 49.661, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.665, 
         "sw_longitude": 72.974, 
         "fullname": "Karaganda Southwest Airport, Abay, Qaraghandy, Kazakhstan", 
-        "sw_latitude": 49.661
+        "date_indexed": "2010-12-02T08:54:13Z"
       }, 
       "id": 12514360
     }

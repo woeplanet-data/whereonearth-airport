@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523030, 
-        "name": "Kariba Airport", 
         "alias_ENG_V": [
           "KAB"
         ], 
-        "ne_latitude": -16.514, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Kariba Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=56048504", 
+          "woe:state=2347814", 
+          "woe:country=23425004", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523030, 
         "ne_longitude": 28.890, 
         "longitude": 28.885, 
-        "placetype": "Airport", 
+        "parent_woeid": 56048504, 
+        "ne_latitude": -16.514, 
         "iso": "ZW", 
-        "date_indexed": "2010-12-02T16:52:36Z", 
-        "parent_woeid": 1467114, 
+        "sw_latitude": -16.523, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -16.518, 
         "sw_longitude": 28.881, 
-        "fullname": "Kariba Airport, Kariba, Mashonaland West, Kariba, Zimbabwe", 
-        "sw_latitude": -16.523
+        "fullname": "Kariba Airport, Kariba, Mashonaland West, Zimbabwe", 
+        "date_indexed": "2010-12-02T16:52:36Z"
       }, 
       "id": 12523030
     }

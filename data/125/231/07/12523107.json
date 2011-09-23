@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523107, 
-        "name": "Fuzhou Airport", 
         "alias_ENG_V": [
           "FOC"
         ], 
-        "ne_latitude": 26.088, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Fuzhou Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=12685729", 
+          "woe:county=26198341", 
+          "woe:state=12577997", 
+          "woe:country=23424781", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523107, 
         "ne_longitude": 119.288, 
         "longitude": 119.283, 
-        "placetype": "Airport", 
+        "parent_woeid": 12685729, 
+        "ne_latitude": 26.088, 
         "iso": "CN", 
-        "date_indexed": "2010-12-02T08:51:54Z", 
-        "parent_woeid": 2139963, 
+        "sw_latitude": 26.079, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 26.083, 
         "sw_longitude": 119.278, 
-        "fullname": "Fuzhou Airport, Fuzhou, Fujian, Fuzhou, China", 
-        "sw_latitude": 26.079
+        "fullname": "Fuzhou Airport, Fuzhou, Fujian, China", 
+        "iata_code": "FOC", 
+        "date_indexed": "2010-12-02T08:51:54Z"
       }, 
       "id": 12523107
     }

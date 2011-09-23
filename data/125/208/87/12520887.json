@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520887, 
-        "name": "Meeker Airport", 
         "alias_ENG_V": [
           "EEO Airport"
         ], 
-        "ne_latitude": 40.043, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Meeker Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587779", 
+          "woe:state=2347564", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520887, 
         "ne_longitude": -107.886, 
         "longitude": -107.891, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587779, 
+        "ne_latitude": 40.043, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2449014, 
+        "sw_latitude": 40.036, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.039, 
         "sw_longitude": -107.895, 
-        "fullname": "Meeker Airport, Meeker, Colorado, Rio Blanco, United States", 
-        "sw_latitude": 40.036
+        "fullname": "Meeker Airport, Meeker, Colorado, United States", 
+        "iata_code": "EEO", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12520887
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519606, 
+        "placetype": "airport", 
         "name": "El Mirage Field Adelanto Airport", 
-        "ne_latitude": 34.630, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12587705", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519606, 
         "ne_longitude": -117.599, 
         "longitude": -117.604, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587705, 
+        "ne_latitude": 34.630, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:16Z", 
-        "parent_woeid": 2397793, 
+        "sw_latitude": 34.620, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 34.625, 
         "sw_longitude": -117.610, 
-        "fullname": "El Mirage Field Adelanto Airport, El Mirage, California, San Bernardino, United States", 
-        "sw_latitude": 34.620
+        "fullname": "El Mirage Field Adelanto Airport, El Mirage, California, United States", 
+        "date_indexed": "2010-12-02T18:39:16Z"
       }, 
       "id": 12519606
     }

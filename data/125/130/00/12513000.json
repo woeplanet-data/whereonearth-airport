@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513000, 
-        "name": "Port Gentil Airport", 
         "alias_ENG_V": [
           "Pt Gentil Airport"
         ], 
-        "ne_latitude": -0.715, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Port Gentil Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55998483", 
+          "woe:state=2345456", 
+          "woe:country=23424822", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513000, 
         "ne_longitude": 8.756, 
         "longitude": 8.751, 
-        "placetype": "Airport", 
+        "parent_woeid": 55998483, 
+        "ne_latitude": -0.715, 
         "iso": "GA", 
-        "date_indexed": "2010-12-02T08:50:01Z", 
-        "parent_woeid": 1325594, 
+        "sw_latitude": -0.724, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -0.720, 
         "sw_longitude": 8.747, 
-        "fullname": "Port Gentil Airport, Port-Gentil, Ogooue-Martime, Bendj\u00e9, Gabon", 
-        "sw_latitude": -0.724
+        "fullname": "Port Gentil Airport, Port-Gentil, Ogooue-Martime, Gabon", 
+        "iata_code": "POG", 
+        "date_indexed": "2010-12-02T08:50:01Z"
       }, 
       "id": 12513000
     }

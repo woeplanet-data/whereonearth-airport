@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513067, 
+        "placetype": "airport", 
         "name": "Buchholz Airport", 
-        "ne_latitude": 53.504, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12630798", 
+          "woe:county=12596989", 
+          "woe:state=2345492", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513067, 
         "ne_longitude": 11.435, 
         "longitude": 11.427, 
-        "placetype": "Airport", 
+        "parent_woeid": 12630798, 
+        "ne_latitude": 53.504, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:24Z", 
-        "parent_woeid": 700410, 
+        "sw_latitude": 53.495, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.500, 
         "sw_longitude": 11.419, 
-        "fullname": "Buchholz Airport, Uelitz, Mecklenburg-Vorpommern, Landkreis Ludwigslust, Germany", 
+        "fullname": "Buchholz Airport, Uelitz, Mecklenburg-Vorpommern, Germany", 
         "alias_GER_Q": [
           "Flughafen Buchholz"
         ], 
-        "sw_latitude": 53.495
+        "date_indexed": "2010-12-02T09:50:24Z"
       }, 
       "id": 12513067
     }

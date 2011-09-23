@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518182, 
+        "placetype": "airport", 
         "name": "Wyton Airport", 
-        "ne_latitude": 52.361, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12695885", 
+          "woe:county=12602140", 
+          "woe:state=24554868", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518182, 
         "ne_longitude": -0.100, 
         "longitude": -0.108, 
-        "placetype": "Airport", 
+        "parent_woeid": 12695885, 
+        "ne_latitude": 52.361, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:21:01Z", 
-        "parent_woeid": 24003, 
+        "sw_latitude": 52.352, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 52.357, 
         "sw_longitude": -0.115, 
-        "fullname": "Wyton Airport, Houghton, England, Cambridgeshire, United Kingdom", 
-        "sw_latitude": 52.352
+        "fullname": "Wyton Airport, Houghton, England, United Kingdom", 
+        "date_indexed": "2010-12-02T12:21:01Z"
       }, 
       "id": 12518182
     }

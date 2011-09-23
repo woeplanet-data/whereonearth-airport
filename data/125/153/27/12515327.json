@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515327, 
+        "placetype": "airport", 
         "name": "Krzesiny Airport", 
-        "ne_latitude": 52.327, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12591476", 
+          "woe:state=12577949", 
+          "woe:country=23424923", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515327, 
         "ne_longitude": 16.970, 
         "longitude": 16.962, 
-        "placetype": "Airport", 
+        "parent_woeid": 12591476, 
+        "ne_latitude": 52.327, 
         "iso": "PL", 
-        "date_indexed": "2010-12-02T12:12:45Z", 
-        "parent_woeid": 514048, 
+        "sw_latitude": 52.318, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 52.323, 
         "sw_longitude": 16.955, 
-        "fullname": "Krzesiny Airport, Poznan, Greater Poland, Poznan City, Poland", 
-        "sw_latitude": 52.318
+        "fullname": "Krzesiny Airport, Poznan, Greater Poland, Poland", 
+        "date_indexed": "2010-12-02T12:12:45Z"
       }, 
       "id": 12515327
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511067, 
+        "placetype": "airport", 
         "name": "Aeroporto Campo do Boi", 
         "alias_ENG_P": [
           "Campo do Boi Airport"
         ], 
-        "ne_latitude": -2.529, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=26794901", 
+          "woe:state=2344857", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511067, 
         "ne_longitude": -47.512, 
         "longitude": -47.517, 
-        "placetype": "Airport", 
+        "parent_woeid": 26794901, 
+        "ne_latitude": -2.529, 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 461595, 
+        "sw_latitude": -2.538, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -2.533, 
         "sw_longitude": -47.521, 
-        "fullname": "Aeroporto Campo do Boi, Villa Ipixuna, Para, Ipixuna do Par\u00e1, Brazil", 
-        "sw_latitude": -2.538
+        "fullname": "Aeroporto Campo do Boi, Villa Ipixuna, Para, Brazil", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511067
     }

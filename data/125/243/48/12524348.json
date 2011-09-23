@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524348, 
-        "name": "Jacmel Airport", 
         "alias_ENG_V": [
           "JAK"
         ], 
-        "ne_latitude": 18.255, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Jacmel Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2345622", 
+          "woe:country=23424839", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524348, 
         "ne_longitude": -72.512, 
         "longitude": -72.517, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345622, 
+        "ne_latitude": 18.255, 
         "iso": "HT", 
-        "date_indexed": "2010-12-02T17:52:09Z", 
-        "parent_woeid": 92220, 
+        "sw_latitude": 18.245, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 18.250, 
         "sw_longitude": -72.521, 
         "fullname": "Jacmel Airport, Jacmel, Sud-Est, Haiti", 
-        "sw_latitude": 18.245
+        "iata_code": "JAK", 
+        "date_indexed": "2010-12-02T17:52:09Z"
       }, 
       "id": 12524348
     }

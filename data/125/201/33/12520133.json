@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520133, 
-        "name": "Hawthorne Field Airport", 
         "alias_ENG_V": [
           "Big Thicket Airport"
         ], 
-        "ne_latitude": 30.342, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Hawthorne Field Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590106", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520133, 
         "ne_longitude": -94.254, 
         "longitude": -94.257, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590106, 
+        "ne_latitude": 30.342, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2460293, 
+        "sw_latitude": 30.335, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 30.339, 
         "sw_longitude": -94.262, 
-        "fullname": "Hawthorne Field Airport, Nona, Texas, Hardin, United States", 
-        "sw_latitude": 30.335
+        "fullname": "Hawthorne Field Airport, Nona, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12520133
     }

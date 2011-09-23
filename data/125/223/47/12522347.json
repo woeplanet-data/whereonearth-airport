@@ -3,28 +3,30 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -92.416, 
-              42.542
-            ], 
-            [
-              -92.416, 
-              42.570
-            ], 
-            [
-              -92.377, 
-              42.570
-            ], 
-            [
-              -92.377, 
-              42.542
-            ], 
-            [
-              -92.416, 
-              42.542
+              [
+                -92.398, 
+                42.550
+              ], 
+              [
+                -92.398, 
+                42.550
+              ], 
+              [
+                -92.399, 
+                42.550
+              ], 
+              [
+                -92.399, 
+                42.550
+              ], 
+              [
+                -92.398, 
+                42.550
+              ]
             ]
           ]
         ]
@@ -32,23 +34,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522347, 
-        "name": "Waterloo Regional Airport", 
         "alias_ENG_V": [
           "Waterloo Airport"
         ], 
-        "ne_latitude": 42.570, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -92.377, 
-        "longitude": -92.395, 
-        "placetype": "Airport", 
+        "name": "Waterloo Regional Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588278", 
+          "woe:state=2347574", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522347, 
+        "ne_longitude": -92.398, 
+        "longitude": -92.398, 
+        "parent_woeid": 12588278, 
+        "ne_latitude": 42.550, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2515157, 
-        "latitude": 42.551, 
-        "sw_longitude": -92.416, 
-        "fullname": "Waterloo Regional Airport, Waterloo, Iowa, Black Hawk, United States", 
-        "sw_latitude": 42.542
+        "sw_latitude": 42.550, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 42.550, 
+        "sw_longitude": -92.399, 
+        "fullname": "Waterloo Regional Airport, Waterloo, Iowa, United States", 
+        "iata_code": "ALO", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522347
     }

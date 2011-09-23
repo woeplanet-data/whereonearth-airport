@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29387762, 
-        "name": "Sky Ranch Airport", 
         "alias_ENG_V": [
           "3l2"
         ], 
-        "ne_latitude": 35.802, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Sky Ranch Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589233", 
+          "woe:state=2347587", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29387762, 
         "ne_longitude": -115.619, 
         "longitude": -115.626, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589233, 
+        "ne_latitude": 35.802, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2488557, 
+        "sw_latitude": 35.794, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.795, 
         "sw_longitude": -115.629, 
-        "fullname": "Sky Ranch Airport, Mandolin, Nevada, Clark, United States", 
-        "sw_latitude": 35.794
+        "fullname": "Sky Ranch Airport, Mandolin, Nevada, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 29387762
     }

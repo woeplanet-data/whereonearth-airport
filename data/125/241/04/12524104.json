@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524104, 
-        "name": "Coop Point Airport", 
         "alias_ENG_V": [
           "YCP Airport"
         ], 
-        "ne_latitude": 57.088, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Coop Point Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375232", 
+          "woe:state=2344925", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524104, 
         "ne_longitude": -102.992, 
         "longitude": -103.000, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375232, 
+        "ne_latitude": 57.088, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 2006, 
+        "sw_latitude": 57.079, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 57.083, 
         "sw_longitude": -103.008, 
-        "fullname": "Coop Point Airport, Southend Reindeer, Saskatchewan, Saskatchewan, Canada", 
-        "sw_latitude": 57.079
+        "fullname": "Coop Point Airport, Southend Reindeer, Saskatchewan, Canada", 
+        "iata_code": "YCP", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12524104
     }

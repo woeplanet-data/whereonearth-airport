@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523168, 
-        "name": "Lukla Airport", 
         "alias_ENG_V": [
           "LUA"
         ], 
-        "ne_latitude": 27.688, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Lukla Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=23706756", 
+          "woe:county=23706811", 
+          "woe:state=20070023", 
+          "woe:country=23424911", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523168, 
         "ne_longitude": 86.738, 
         "longitude": 86.733, 
-        "placetype": "Airport", 
+        "parent_woeid": 23706756, 
+        "ne_latitude": 27.688, 
         "iso": "NP", 
-        "date_indexed": "2010-12-02T18:18:47Z", 
-        "parent_woeid": 2269028, 
+        "sw_latitude": 27.679, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 27.683, 
         "sw_longitude": 86.728, 
         "fullname": "Lukla Airport, East, Sagarmatha, Nepal", 
-        "sw_latitude": 27.679
+        "iata_code": "LUA", 
+        "date_indexed": "2010-12-02T18:18:47Z"
       }, 
       "id": 12523168
     }

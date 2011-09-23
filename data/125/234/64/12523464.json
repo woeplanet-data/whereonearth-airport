@@ -32,29 +32,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12523464, 
-        "name": "Aeroporto Alenquer", 
-        "alias_ENG_P": [
-          "Alenquer Airport"
-        ], 
-        "ne_latitude": -1.937, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "ALT"
         ], 
+        "name": "Aeroporto Alenquer", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Alenquer Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12580130", 
+          "woe:state=2344857", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523464, 
         "ne_longitude": -54.776, 
         "longitude": -54.780, 
-        "placetype": "Airport", 
+        "parent_woeid": 12580130, 
+        "ne_latitude": -1.937, 
         "alias_POR_V": [
           "Aeroporto ALT"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:28Z", 
-        "parent_woeid": 456021, 
+        "sw_latitude": -1.947, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -1.942, 
         "sw_longitude": -54.785, 
-        "fullname": "Aeroporto Alenquer, Alenquer, Para, Alenquer, Brazil", 
-        "sw_latitude": -1.947
+        "fullname": "Aeroporto Alenquer, Alenquer, Para, Brazil", 
+        "iata_code": "ALT", 
+        "date_indexed": "2010-12-02T18:01:28Z"
       }, 
       "id": 12523464
     }

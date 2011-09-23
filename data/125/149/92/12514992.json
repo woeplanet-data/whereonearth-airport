@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514992, 
+        "placetype": "airport", 
         "name": "Gong Kedak Airport", 
-        "ne_latitude": 5.805, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=56014487", 
+          "woe:county=56013578", 
+          "woe:state=2346307", 
+          "woe:country=23424901", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514992, 
         "ne_longitude": 102.491, 
         "longitude": 102.486, 
-        "placetype": "Airport", 
+        "parent_woeid": 56014487, 
+        "ne_latitude": 5.805, 
         "iso": "MY", 
-        "date_indexed": "2010-12-02T18:04:56Z", 
-        "parent_woeid": 1141241, 
+        "sw_latitude": 5.796, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 5.800, 
         "sw_longitude": 102.482, 
-        "fullname": "Gong Kedak Airport, Jertih, Terengganu, Besut, Malaysia", 
-        "sw_latitude": 5.796
+        "fullname": "Gong Kedak Airport, Jertih, Terengganu, Malaysia", 
+        "date_indexed": "2010-12-02T18:04:56Z"
       }, 
       "id": 12514992
     }

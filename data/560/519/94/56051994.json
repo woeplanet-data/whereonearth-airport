@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 56051994, 
+        "placetype": "airport", 
         "name": "Sportflugplatz Egweil", 
-        "ne_latitude": 48.784, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12634601", 
+          "woe:county=12596814", 
+          "woe:state=2345482", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56051994, 
         "ne_longitude": 11.221, 
         "longitude": 11.218, 
-        "placetype": "Airport", 
+        "parent_woeid": 12634601, 
+        "ne_latitude": 48.784, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 646758, 
+        "sw_latitude": 48.781, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.783, 
         "sw_longitude": 11.211, 
-        "fullname": "Sportflugplatz Egweil, Egweil, Bavaria, Landkreis Eichst\u00e4tt, Germany", 
-        "sw_latitude": 48.781
+        "fullname": "Sportflugplatz Egweil, Egweil, Bavaria, Germany", 
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 56051994
     }

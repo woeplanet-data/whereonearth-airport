@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513439, 
+        "placetype": "airport", 
         "name": "Vitorlazo Airport", 
-        "ne_latitude": 47.551, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12595150", 
+          "woe:state=12577915", 
+          "woe:country=23424844", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513439, 
         "ne_longitude": 18.989, 
         "longitude": 18.982, 
-        "placetype": "Airport", 
+        "parent_woeid": 12595150, 
+        "ne_latitude": 47.551, 
         "iso": "HU", 
-        "date_indexed": "2010-12-02T09:56:22Z", 
-        "parent_woeid": 804365, 
+        "sw_latitude": 47.542, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.546, 
         "sw_longitude": 18.975, 
-        "fullname": "Vitorlazo Airport, Budapest, Budapest, Budapest X., Hungary", 
-        "sw_latitude": 47.542
+        "fullname": "Vitorlazo Airport, Budapest, Budapest, Hungary", 
+        "date_indexed": "2010-12-02T09:56:22Z"
       }, 
       "id": 12513439
     }

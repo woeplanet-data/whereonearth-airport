@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515530, 
+        "placetype": "airport", 
         "name": "Dorohoi Northeast Airport", 
-        "ne_latitude": 47.983, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2346621", 
+          "woe:country=23424933", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515530, 
         "ne_longitude": 26.431, 
         "longitude": 26.424, 
-        "placetype": "Airport", 
+        "parent_woeid": 2346621, 
+        "ne_latitude": 47.983, 
         "iso": "RO", 
-        "date_indexed": "2010-12-02T16:37:48Z", 
-        "parent_woeid": 871526, 
+        "sw_latitude": 47.974, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.978, 
         "sw_longitude": 26.418, 
         "fullname": "Dorohoi Northeast Airport, Dorohoiu, Botosani, Romania", 
-        "sw_latitude": 47.974
+        "date_indexed": "2010-12-02T16:37:48Z"
       }, 
       "id": 12515530
     }

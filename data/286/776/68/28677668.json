@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 28677668, 
+        "placetype": "airport", 
         "name": "Gregory Downs Aerodrome", 
-        "ne_latitude": -18.622, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55864351", 
+          "woe:state=2344702", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 28677668, 
         "ne_longitude": 139.237, 
         "longitude": 139.233, 
-        "placetype": "Airport", 
+        "parent_woeid": 55864351, 
+        "ne_latitude": -18.622, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1102447, 
+        "sw_latitude": -18.631, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -18.626, 
         "sw_longitude": 139.228, 
-        "fullname": "Gregory Downs Aerodrome, Gregory Downs, Queensland, Burke, Australia", 
-        "sw_latitude": -18.631
+        "fullname": "Gregory Downs Aerodrome, Gregory Downs, Queensland, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 28677668
     }

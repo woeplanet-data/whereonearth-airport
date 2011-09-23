@@ -3,28 +3,98 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -115.208, 
-              36.203
-            ], 
-            [
-              -115.208, 
-              36.217
-            ], 
-            [
-              -115.182, 
-              36.217
-            ], 
-            [
-              -115.182, 
-              36.203
-            ], 
-            [
-              -115.208, 
-              36.203
+              [
+                -115.204, 
+                36.209
+              ], 
+              [
+                -115.205, 
+                36.209
+              ], 
+              [
+                -115.205, 
+                36.210
+              ], 
+              [
+                -115.205, 
+                36.211
+              ], 
+              [
+                -115.207, 
+                36.212
+              ], 
+              [
+                -115.208, 
+                36.214
+              ], 
+              [
+                -115.207, 
+                36.215
+              ], 
+              [
+                -115.207, 
+                36.215
+              ], 
+              [
+                -115.204, 
+                36.213
+              ], 
+              [
+                -115.202, 
+                36.213
+              ], 
+              [
+                -115.200, 
+                36.213
+              ], 
+              [
+                -115.195, 
+                36.215
+              ], 
+              [
+                -115.193, 
+                36.213
+              ], 
+              [
+                -115.192, 
+                36.209
+              ], 
+              [
+                -115.190, 
+                36.207
+              ], 
+              [
+                -115.194, 
+                36.204
+              ], 
+              [
+                -115.194, 
+                36.201
+              ], 
+              [
+                -115.194, 
+                36.201
+              ], 
+              [
+                -115.199, 
+                36.203
+              ], 
+              [
+                -115.201, 
+                36.206
+              ], 
+              [
+                -115.206, 
+                36.203
+              ], 
+              [
+                -115.204, 
+                36.209
+              ]
             ]
           ]
         ]
@@ -32,23 +102,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521155, 
-        "name": "North Las Vegas Air Terminal", 
         "alias_ENG_V": [
           "VGT Airport"
         ], 
-        "ne_latitude": 36.217, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -115.182, 
-        "longitude": -115.200, 
-        "placetype": "Airport", 
-        "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
+        "name": "North Las Vegas Air Terminal", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:suburb=23512187", 
+          "woe:county=12589233", 
+          "woe:state=2347587", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521155, 
+        "ne_longitude": -115.190, 
+        "longitude": -115.198, 
         "parent_woeid": 23512187, 
-        "latitude": 36.208, 
+        "ne_latitude": 36.215, 
+        "iso": "US", 
+        "sw_latitude": 36.201, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 36.209, 
         "sw_longitude": -115.208, 
-        "fullname": "North Las Vegas Air Terminal, Las Vegas, Nevada, Clark, United States", 
-        "sw_latitude": 36.203
+        "fullname": "North Las Vegas Air Terminal, Las Vegas, Nevada, United States", 
+        "iata_code": "VGT", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12521155
     }

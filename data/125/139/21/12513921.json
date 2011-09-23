@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513921, 
-        "name": "Baghdad International Airport", 
         "alias_ENG_V": [
           "SDA"
         ], 
-        "ne_latitude": 33.259, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Baghdad International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55999979", 
+          "woe:state=2345839", 
+          "woe:country=23424855", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513921, 
         "ne_longitude": 44.256, 
         "longitude": 44.250, 
-        "placetype": "Airport", 
+        "parent_woeid": 55999979, 
+        "ne_latitude": 33.259, 
         "iso": "IQ", 
-        "date_indexed": "2010-12-02T16:42:58Z", 
-        "parent_woeid": 1979532, 
+        "sw_latitude": 33.250, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 33.255, 
         "sw_longitude": 44.245, 
         "fullname": "Baghdad International Airport, Baghdad, Baghdad, Iraq", 
-        "sw_latitude": 33.250
+        "iata_code": "SDA", 
+        "date_indexed": "2010-12-02T16:42:58Z"
       }, 
       "id": 12513921
     }

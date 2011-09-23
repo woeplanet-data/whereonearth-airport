@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520145, 
-        "name": "Hazleton Municipal Airport", 
         "alias_ENG_V": [
           "HZL"
         ], 
-        "ne_latitude": 40.990, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Hazleton Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589767", 
+          "woe:state=2347597", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520145, 
         "ne_longitude": -75.985, 
         "longitude": -75.993, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589767, 
+        "ne_latitude": 40.990, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2419310, 
+        "sw_latitude": 40.979, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.988, 
         "sw_longitude": -76.004, 
-        "fullname": "Hazleton Municipal Airport, Hazleton, Pennsylvania, Luzerne, United States", 
-        "sw_latitude": 40.979
+        "fullname": "Hazleton Municipal Airport, Hazleton, Pennsylvania, United States", 
+        "iata_code": "HZL", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520145
     }

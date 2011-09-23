@@ -3,28 +3,38 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -28.732, 
-              38.509
-            ], 
-            [
-              -28.732, 
-              38.531
-            ], 
-            [
-              -28.703, 
-              38.531
-            ], 
-            [
-              -28.703, 
-              38.509
-            ], 
-            [
-              -28.732, 
-              38.509
+              [
+                -28.716, 
+                38.521
+              ], 
+              [
+                -28.716, 
+                38.521
+              ], 
+              [
+                -28.716, 
+                38.522
+              ], 
+              [
+                -28.714, 
+                38.520
+              ], 
+              [
+                -28.715, 
+                38.520
+              ], 
+              [
+                -28.716, 
+                38.520
+              ], 
+              [
+                -28.716, 
+                38.521
+              ]
             ]
           ]
         ]
@@ -32,29 +42,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12515445, 
-        "name": "Aeroporto da Horta", 
-        "alias_ENG_P": [
-          "Horta Airport"
-        ], 
-        "ne_latitude": 38.531, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "HOR"
         ], 
-        "ne_longitude": -28.703, 
-        "longitude": -28.717, 
-        "placetype": "Airport", 
+        "name": "Aeroporto da Horta", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Horta Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=56071120", 
+          "woe:state=15021776", 
+          "woe:country=23424925", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515445, 
+        "ne_longitude": -28.714, 
+        "longitude": -28.715, 
+        "parent_woeid": 56071120, 
+        "ne_latitude": 38.522, 
         "alias_POR_V": [
           "HOR Aeroport"
         ], 
         "iso": "PT", 
-        "date_indexed": "2010-12-02T10:00:50Z", 
-        "parent_woeid": 537969, 
-        "latitude": 38.520, 
-        "sw_longitude": -28.732, 
-        "fullname": "Aeroporto da Horta, Castelo Branco, Azores, Horta, Portugal", 
-        "sw_latitude": 38.509
+        "sw_latitude": 38.520, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 38.521, 
+        "sw_longitude": -28.716, 
+        "fullname": "Aeroporto da Horta, Castelo Branco, Azores, Portugal", 
+        "iata_code": "HOR", 
+        "date_indexed": "2010-12-02T10:00:50Z"
       }, 
       "id": 12515445
     }

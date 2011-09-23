@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517781, 
-        "name": "Sakon Nakhon Airport", 
         "alias_ENG_V": [
           "SNO"
         ], 
-        "ne_latitude": 17.213, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Sakon Nakhon Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=28341069", 
+          "woe:state=2347146", 
+          "woe:country=23424960", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517781, 
         "ne_longitude": 104.131, 
         "longitude": 104.101, 
-        "placetype": "Airport", 
+        "parent_woeid": 28341069, 
+        "ne_latitude": 17.213, 
         "iso": "TH", 
-        "date_indexed": "2010-12-02T17:05:34Z", 
-        "parent_woeid": 1202080, 
+        "sw_latitude": 17.182, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 17.206, 
         "sw_longitude": 104.097, 
-        "fullname": "Sakon Nakhon Airport, Ban Chiang Khrua, Sakon Nakhon, Mueang Sakon Nakhon, Thailand", 
-        "sw_latitude": 17.182
+        "fullname": "Sakon Nakhon Airport, Ban Chiang Khrua, Sakon Nakhon, Thailand", 
+        "iata_code": "SNO", 
+        "date_indexed": "2010-12-02T17:05:34Z"
       }, 
       "id": 12517781
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520556, 
-        "name": "Lampson Airport", 
         "alias_ENG_V": [
           "Lampson Field Airport"
         ], 
-        "ne_latitude": 38.995, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Lampson Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587686", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520556, 
         "ne_longitude": -122.894, 
         "longitude": -122.894, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587686, 
+        "ne_latitude": 38.995, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2403459, 
+        "sw_latitude": 38.987, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.988, 
         "sw_longitude": -122.909, 
-        "fullname": "Lampson Airport, Finley, California, Lake, United States", 
-        "sw_latitude": 38.987
+        "fullname": "Lampson Airport, Finley, California, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520556
     }

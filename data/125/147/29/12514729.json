@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514729, 
+        "placetype": "airport", 
         "name": "Voronkovo Airport", 
-        "ne_latitude": 47.690, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=55948201", 
+          "woe:country=23424885", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514729, 
         "ne_longitude": 29.107, 
         "longitude": 29.101, 
-        "placetype": "Airport", 
+        "parent_woeid": 55948201, 
+        "ne_latitude": 47.690, 
         "iso": "MD", 
-        "date_indexed": "2010-12-02T17:58:04Z", 
-        "parent_woeid": 481554, 
+        "sw_latitude": 47.681, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.686, 
         "sw_longitude": 29.094, 
         "fullname": "Voronkovo Airport, Stinga Nistrul, Moldova", 
-        "sw_latitude": 47.681
+        "date_indexed": "2010-12-02T17:58:04Z"
       }, 
       "id": 12514729
     }

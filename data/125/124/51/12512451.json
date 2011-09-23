@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512451, 
+        "placetype": "airport", 
         "name": "Artemisa Airport", 
-        "ne_latitude": 22.757, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345115", 
+          "woe:country=23424793", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512451, 
         "ne_longitude": -82.730, 
         "longitude": -82.735, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345115, 
+        "ne_latitude": 22.757, 
         "iso": "CU", 
-        "date_indexed": "2010-12-02T08:58:58Z", 
-        "parent_woeid": 66540, 
+        "sw_latitude": 22.748, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 22.752, 
         "sw_longitude": -82.740, 
         "fullname": "Artemisa Airport, Regla, La Habana, Cuba", 
-        "sw_latitude": 22.748
+        "date_indexed": "2010-12-02T08:58:58Z"
       }, 
       "id": 12512451
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522253, 
-        "name": "University-Oxford Airport", 
         "alias_ENG_V": [
           "University-Oxford"
         ], 
-        "ne_latitude": 34.385, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "University-Oxford Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588919", 
+          "woe:state=2347583", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522253, 
         "ne_longitude": -89.525, 
         "longitude": -89.538, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588919, 
+        "ne_latitude": 34.385, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2467174, 
+        "sw_latitude": 34.380, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 34.383, 
         "sw_longitude": -89.545, 
-        "fullname": "University-Oxford Airport, Oxford, Mississippi, Lafayette, United States", 
-        "sw_latitude": 34.380
+        "fullname": "University-Oxford Airport, Oxford, Mississippi, United States", 
+        "iata_code": "UOX", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522253
     }

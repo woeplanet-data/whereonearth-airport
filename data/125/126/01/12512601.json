@@ -3,28 +3,50 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              9.780, 
-              54.955
-            ], 
-            [
-              9.780, 
-              54.970
-            ], 
-            [
-              9.806, 
-              54.970
-            ], 
-            [
-              9.806, 
-              54.955
-            ], 
-            [
-              9.780, 
-              54.955
+              [
+                9.790, 
+                54.962
+              ], 
+              [
+                9.788, 
+                54.963
+              ], 
+              [
+                9.786, 
+                54.964
+              ], 
+              [
+                9.788, 
+                54.966
+              ], 
+              [
+                9.790, 
+                54.964
+              ], 
+              [
+                9.791, 
+                54.964
+              ], 
+              [
+                9.791, 
+                54.964
+              ], 
+              [
+                9.794, 
+                54.964
+              ], 
+              [
+                9.791, 
+                54.962
+              ], 
+              [
+                9.790, 
+                54.962
+              ]
             ]
           ]
         ]
@@ -40,8 +62,14 @@
         "alias_SWE_S": [
           "Sonderborg Flygplats"
         ], 
-        "ne_latitude": 54.970, 
-        "placetype": "Airport", 
+        "hierarchy": [
+          "woe:county=12582790", 
+          "woe:state=28362581", 
+          "woe:country=23424796", 
+          "woe:planet=1"
+        ], 
+        "ne_latitude": 54.966, 
+        "placetype": "airport", 
         "alias_POR_Q": [
           "Aeroporto de S\u00f8nderborg"
         ], 
@@ -51,6 +79,7 @@
         "alias_ITA_S": [
           "Aeroporto Sonderborg"
         ], 
+        "iata_code": "SGD", 
         "alias_ITA_Q": [
           "Aeroporto S\u00f8nderborg"
         ], 
@@ -67,13 +96,10 @@
         "alias_FIN_S": [
           "Sonderborg Lentoasema"
         ], 
-        "sw_longitude": 9.780, 
+        "sw_longitude": 9.786, 
         "provider": "geoplanet 7.6.0", 
-        "latitude": 54.963, 
+        "latitude": 54.964, 
         "date_indexed": "2010-12-02T16:13:18Z", 
-        "alias_DAN_V": [
-          "SGD Lufthavn"
-        ], 
         "alias_DUT_Q": [
           "Luchthaven S\u00f8nderborg"
         ], 
@@ -92,8 +118,8 @@
         "alias_DAN_Q": [
           "S\u00f8nderborg Lufthavn"
         ], 
-        "alias_GER_Q": [
-          "Flughafen S\u00f8nderborg"
+        "alias_DAN_V": [
+          "SGD Lufthavn"
         ], 
         "alias_GER_S": [
           "Flughafen Sonderborg"
@@ -103,15 +129,18 @@
         "alias_UNK_S": [
           "Letisko Sonderborg"
         ], 
-        "parent_woeid": 29306488, 
+        "parent_woeid": 12582790, 
         "alias_UNK_Q": [
           "Letisko S\u00f8nderborg"
         ], 
-        "ne_longitude": 9.806, 
-        "longitude": 9.787, 
+        "alias_GER_Q": [
+          "Flughafen S\u00f8nderborg"
+        ], 
+        "ne_longitude": 9.794, 
+        "longitude": 9.790, 
         "iso": "DK", 
-        "sw_latitude": 54.955, 
-        "fullname": "Sonderborg Airport, K\u00e6r Hestehave, Syddanmark, S\u00f8nderborg, Denmark", 
+        "sw_latitude": 54.962, 
+        "fullname": "Sonderborg Airport, K\u00e6r Hestehave, Syddanmark, Denmark", 
         "alias_FRE_S": [
           "Aeroport de Sonderborg"
         ], 

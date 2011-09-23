@@ -3,28 +3,46 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              98.302, 
-              8.103
-            ], 
-            [
-              98.302, 
-              8.116
-            ], 
-            [
-              98.334, 
-              8.116
-            ], 
-            [
-              98.334, 
-              8.103
-            ], 
-            [
-              98.302, 
-              8.103
+              [
+                98.303, 
+                8.112
+              ], 
+              [
+                98.303, 
+                8.117
+              ], 
+              [
+                98.306, 
+                8.112
+              ], 
+              [
+                98.311, 
+                8.112
+              ], 
+              [
+                98.312, 
+                8.111
+              ], 
+              [
+                98.308, 
+                8.108
+              ], 
+              [
+                98.305, 
+                8.106
+              ], 
+              [
+                98.304, 
+                8.108
+              ], 
+              [
+                98.303, 
+                8.112
+              ]
             ]
           ]
         ]
@@ -32,23 +50,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517777, 
-        "name": "Phuket International Airport", 
         "alias_ENG_V": [
           "Phuket Airport"
         ], 
-        "ne_latitude": 8.116, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": 98.334, 
+        "name": "Phuket International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=28341616", 
+          "woe:state=2347186", 
+          "woe:country=23424960", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517777, 
+        "ne_longitude": 98.312, 
         "longitude": 98.307, 
-        "placetype": "Airport", 
+        "parent_woeid": 28341616, 
+        "ne_latitude": 8.117, 
         "iso": "TH", 
-        "date_indexed": "2010-12-02T17:05:34Z", 
-        "parent_woeid": 1219706, 
-        "latitude": 8.106, 
-        "sw_longitude": 98.302, 
-        "fullname": "Phuket International Airport, Ban Sakhu, Phuket, Thalang, Thailand", 
-        "sw_latitude": 8.103
+        "sw_latitude": 8.106, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 8.110, 
+        "sw_longitude": 98.303, 
+        "fullname": "Phuket International Airport, Ban Sakhu, Phuket, Thailand", 
+        "date_indexed": "2010-12-02T17:05:34Z"
       }, 
       "id": 12517777
     }

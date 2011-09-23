@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522371, 
-        "name": "Webster City Municipal Airport", 
         "alias_ENG_V": [
           "Webster City Airport"
         ], 
-        "ne_latitude": 42.442, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Webster City Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588311", 
+          "woe:state=2347574", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522371, 
         "ne_longitude": -93.863, 
         "longitude": -93.870, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588311, 
+        "ne_latitude": 42.442, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2515901, 
+        "sw_latitude": 42.431, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.441, 
         "sw_longitude": -93.875, 
-        "fullname": "Webster City Municipal Airport, Webster City, Iowa, Hamilton, United States", 
-        "sw_latitude": 42.431
+        "fullname": "Webster City Municipal Airport, Webster City, Iowa, United States", 
+        "iata_code": "EBS", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522371
     }

@@ -3,28 +3,86 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -113.960, 
-              35.250
-            ], 
-            [
-              -113.960, 
-              35.273
-            ], 
-            [
-              -113.932, 
-              35.273
-            ], 
-            [
-              -113.932, 
-              35.250
-            ], 
-            [
-              -113.960, 
-              35.250
+              [
+                -113.940, 
+                35.262
+              ], 
+              [
+                -113.941, 
+                35.261
+              ], 
+              [
+                -113.941, 
+                35.256
+              ], 
+              [
+                -113.941, 
+                35.256
+              ], 
+              [
+                -113.943, 
+                35.255
+              ], 
+              [
+                -113.949, 
+                35.254
+              ], 
+              [
+                -113.951, 
+                35.252
+              ], 
+              [
+                -113.954, 
+                35.252
+              ], 
+              [
+                -113.955, 
+                35.256
+              ], 
+              [
+                -113.949, 
+                35.256
+              ], 
+              [
+                -113.948, 
+                35.257
+              ], 
+              [
+                -113.945, 
+                35.259
+              ], 
+              [
+                -113.944, 
+                35.260
+              ], 
+              [
+                -113.941, 
+                35.262
+              ], 
+              [
+                -113.940, 
+                35.263
+              ], 
+              [
+                -113.939, 
+                35.264
+              ], 
+              [
+                -113.937, 
+                35.266
+              ], 
+              [
+                -113.933, 
+                35.262
+              ], 
+              [
+                -113.940, 
+                35.262
+              ]
             ]
           ]
         ]
@@ -32,23 +90,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520468, 
-        "name": "Kingman Airport", 
         "alias_ENG_V": [
           "IGM"
         ], 
-        "ne_latitude": 35.273, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -113.932, 
+        "name": "Kingman Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587588", 
+          "woe:state=2347561", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520468, 
+        "ne_longitude": -113.933, 
         "longitude": -113.945, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587588, 
+        "ne_latitude": 35.266, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2425139, 
-        "latitude": 35.259, 
-        "sw_longitude": -113.960, 
-        "fullname": "Kingman Airport, Hualapai, Arizona, Mohave, United States", 
-        "sw_latitude": 35.250
+        "sw_latitude": 35.252, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 35.258, 
+        "sw_longitude": -113.955, 
+        "fullname": "Kingman Airport, Hualapai, Arizona, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520468
     }

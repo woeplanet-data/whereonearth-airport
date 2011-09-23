@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517771, 
-        "name": "Nan Airport", 
         "alias_ENG_V": [
           "NNT"
         ], 
-        "ne_latitude": 18.807, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Nan Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=28340905", 
+          "woe:state=2347131", 
+          "woe:country=23424960", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517771, 
         "ne_longitude": 100.790, 
         "longitude": 100.785, 
-        "placetype": "Airport", 
+        "parent_woeid": 28340905, 
+        "ne_latitude": 18.807, 
         "iso": "TH", 
-        "date_indexed": "2010-12-02T17:05:34Z", 
-        "parent_woeid": 28349106, 
+        "sw_latitude": 18.798, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 18.802, 
         "sw_longitude": 100.780, 
-        "fullname": "Nan Airport, Phu Phiang, Nan, Phu Phiang, Thailand", 
-        "sw_latitude": 18.798
+        "fullname": "Nan Airport, Phu Phiang, Nan, Thailand", 
+        "iata_code": "NNT", 
+        "date_indexed": "2010-12-02T17:05:34Z"
       }, 
       "id": 12517771
     }

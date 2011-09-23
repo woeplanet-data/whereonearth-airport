@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520780, 
-        "name": "Manitowoc County Airport", 
         "alias_ENG_V": [
           "Manitowoc Airport"
         ], 
-        "ne_latitude": 44.136, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Manitowoc County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590569", 
+          "woe:state=2347608", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520780, 
         "ne_longitude": -87.671, 
         "longitude": -87.683, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590569, 
+        "ne_latitude": 44.136, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2444827, 
+        "sw_latitude": 44.116, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.117, 
         "sw_longitude": -87.686, 
-        "fullname": "Manitowoc County Airport, Manitowoc, Wisconsin, Manitowoc, United States", 
-        "sw_latitude": 44.116
+        "fullname": "Manitowoc County Airport, Manitowoc, Wisconsin, United States", 
+        "iata_code": "MTW", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520780
     }

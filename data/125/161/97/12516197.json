@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516197, 
+        "placetype": "airport", 
         "name": "Kochenevo Airport", 
-        "ne_latitude": 55.026, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598853", 
+          "woe:state=2346914", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516197, 
         "ne_longitude": 82.252, 
         "longitude": 82.244, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598853, 
+        "ne_latitude": 55.026, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2121445, 
+        "sw_latitude": 55.017, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 55.022, 
         "sw_longitude": 82.236, 
-        "fullname": "Kochenevo Airport, Kochenevo, Novosibirskaya Oblast, Kochenevsky, Russia", 
-        "sw_latitude": 55.017
+        "fullname": "Kochenevo Airport, Kochenevo, Novosibirskaya Oblast, Russia", 
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516197
     }

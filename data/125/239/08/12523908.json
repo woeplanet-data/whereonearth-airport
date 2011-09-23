@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523908, 
-        "name": "Capri Airport", 
         "alias_ENG_V": [
           "PRJ"
         ], 
-        "ne_latitude": 40.564, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Capri Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=12677614", 
+          "woe:county=12591829", 
+          "woe:state=7153333", 
+          "woe:country=23424853", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523908, 
         "ne_longitude": 14.232, 
         "longitude": 14.226, 
-        "placetype": "Airport", 
+        "parent_woeid": 12677614, 
+        "ne_latitude": 40.564, 
         "iso": "IT", 
-        "date_indexed": "2010-12-02T16:30:51Z", 
-        "parent_woeid": 717928, 
+        "sw_latitude": 40.555, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.559, 
         "sw_longitude": 14.220, 
-        "fullname": "Capri Airport, Marina Grande di Capri, Campania, Naples, Italy", 
-        "sw_latitude": 40.555, 
+        "fullname": "Capri Airport, Marina Grande di Capri, Campania, Italy", 
+        "iata_code": "PRJ", 
+        "date_indexed": "2010-12-02T16:30:51Z", 
         "alias_ITA_V": [
           "PRJ Aeroporto"
         ]

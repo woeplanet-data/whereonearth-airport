@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510679, 
-        "name": "Gove Aerodrome", 
         "alias_ENG_V": [
           "Gove Airport"
         ], 
-        "ne_latitude": -12.270, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Gove Aerodrome", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=56072961", 
+          "woe:state=2344701", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510679, 
         "ne_longitude": 136.831, 
         "longitude": 136.826, 
-        "placetype": "Airport", 
+        "parent_woeid": 56072961, 
+        "ne_latitude": -12.270, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 55864480, 
+        "sw_latitude": -12.279, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -12.275, 
         "sw_longitude": 136.822, 
         "fullname": "Gove Aerodrome, East Arnhem, Northern Territory, Australia", 
-        "sw_latitude": -12.279
+        "iata_code": "GOV", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 12510679
     }

@@ -32,29 +32,35 @@
       "type": "Feature", 
       "properties": {
         "lang": "JPN", 
-        "woeid": 12513954, 
-        "name": "\u516b\u4e08\u5cf6\u7a7a\u6e2f", 
         "alias_ENG_V": [
           "HAC Airport"
         ], 
+        "name": "\u516b\u4e08\u5cf6\u7a7a\u6e2f", 
         "alias_ENG_P": [
           "Hachijojima Airport"
         ], 
-        "ne_latitude": 33.120, 
+        "parent_woeid": 2345889, 
+        "woeid": 12513954, 
+        "provider": "geoplanet 7.6.0", 
         "alias_JPN_V": [
           "\u30cf\u30c1\u30b8\u30e7\u30a6\u30b8\u30de\u30af\u30a6\u30b3\u30a6"
         ], 
-        "ne_longitude": 139.789, 
         "longitude": 139.784, 
-        "parent_woeid": 15015579, 
-        "placetype": "Airport", 
+        "ne_longitude": 139.789, 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2345889", 
+          "woe:country=23424856", 
+          "woe:planet=1"
+        ], 
         "iso": "JP", 
-        "date_indexed": "2010-12-02T08:09:08Z", 
-        "provider": "geoplanet 7.6.0", 
+        "sw_latitude": 33.111, 
+        "ne_latitude": 33.120, 
         "latitude": 33.115, 
         "sw_longitude": 139.778, 
         "fullname": "\u516b\u4e08\u5cf6\u7a7a\u6e2f, Hachijo-machi, Tokyo Prefecture, Japan", 
-        "sw_latitude": 33.111
+        "iata_code": "HAC", 
+        "date_indexed": "2010-12-02T08:09:08Z"
       }, 
       "id": 12513954
     }

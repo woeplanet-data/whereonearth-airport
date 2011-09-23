@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29387820, 
-        "name": "Westport Airport", 
         "alias_ENG_V": [
           "14s"
         ], 
-        "ne_latitude": 46.899, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Westport Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590453", 
+          "woe:state=2347606", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29387820, 
         "ne_longitude": -124.097, 
         "longitude": -124.105, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590453, 
+        "ne_latitude": 46.899, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2518514, 
+        "sw_latitude": 46.894, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.898, 
         "sw_longitude": -124.105, 
-        "fullname": "Westport Airport, Westport, Washington, Grays Harbor, United States", 
-        "sw_latitude": 46.894
+        "fullname": "Westport Airport, Westport, Washington, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 29387820
     }

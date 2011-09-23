@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519643, 
-        "name": "Emmetsburg Municipal Airport", 
         "alias_ENG_V": [
           "EGQ"
         ], 
-        "ne_latitude": 43.108, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Emmetsburg Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588345", 
+          "woe:state=2347574", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519643, 
         "ne_longitude": -94.699, 
         "longitude": -94.699, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588345, 
+        "ne_latitude": 43.108, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2399465, 
+        "sw_latitude": 43.097, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.101, 
         "sw_longitude": -94.712, 
-        "fullname": "Emmetsburg Municipal Airport, Emmetsburg, Iowa, Palo Alto, United States", 
-        "sw_latitude": 43.097
+        "fullname": "Emmetsburg Municipal Airport, Emmetsburg, Iowa, United States", 
+        "iata_code": "EGQ", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12519643
     }

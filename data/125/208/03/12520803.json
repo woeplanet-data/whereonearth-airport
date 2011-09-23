@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520803, 
-        "name": "Marion Municipal Airport", 
         "alias_ENG_V": [
           "Mzz"
         ], 
-        "ne_latitude": 40.500, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Marion Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588206", 
+          "woe:state=2347573", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520803, 
         "ne_longitude": -85.670, 
         "longitude": -85.673, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588206, 
+        "ne_latitude": 40.500, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2445763, 
+        "sw_latitude": 40.482, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.493, 
         "sw_longitude": -85.688, 
-        "fullname": "Marion Municipal Airport, Marion, Indiana, Grant, United States", 
-        "sw_latitude": 40.482
+        "fullname": "Marion Municipal Airport, Marion, Indiana, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520803
     }

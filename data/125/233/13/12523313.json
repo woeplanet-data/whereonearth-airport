@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523313, 
-        "name": "Luoyang Airport", 
         "alias_ENG_V": [
           "LYA"
         ], 
-        "ne_latitude": 34.688, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Luoyang Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=12685908", 
+          "woe:county=26198374", 
+          "woe:state=12577999", 
+          "woe:country=23424781", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523313, 
         "ne_longitude": 112.473, 
         "longitude": 112.467, 
-        "placetype": "Airport", 
+        "parent_woeid": 12685908, 
+        "ne_latitude": 34.688, 
         "iso": "CN", 
-        "date_indexed": "2010-12-02T08:51:54Z", 
-        "parent_woeid": 2172738, 
+        "sw_latitude": 34.679, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 34.683, 
         "sw_longitude": 112.461, 
-        "fullname": "Luoyang Airport, Luoyang, Henan, Luoyang, China", 
-        "sw_latitude": 34.679
+        "fullname": "Luoyang Airport, Luoyang, Henan, China", 
+        "iata_code": "LYA", 
+        "date_indexed": "2010-12-02T08:51:54Z"
       }, 
       "id": 12523313
     }

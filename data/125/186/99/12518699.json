@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518699, 
-        "name": "Augusta Municipal Airport", 
         "alias_ENG_V": [
           "3au"
         ], 
-        "ne_latitude": 37.680, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Augusta Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588378", 
+          "woe:state=2347575", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518699, 
         "ne_longitude": -97.074, 
         "longitude": -97.080, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588378, 
+        "ne_latitude": 37.680, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2354643, 
+        "sw_latitude": 37.665, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 37.678, 
         "sw_longitude": -97.080, 
-        "fullname": "Augusta Municipal Airport, Andover, Kansas, Butler, United States", 
-        "sw_latitude": 37.665
+        "fullname": "Augusta Municipal Airport, Andover, Kansas, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518699
     }

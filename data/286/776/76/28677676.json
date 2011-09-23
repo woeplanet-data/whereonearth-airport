@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 28677676, 
+        "placetype": "airport", 
         "name": "Eulo Aerodrome", 
-        "ne_latitude": -28.165, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55863888", 
+          "woe:state=2344702", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 28677676, 
         "ne_longitude": 145.047, 
         "longitude": 145.042, 
-        "placetype": "Airport", 
+        "parent_woeid": 55863888, 
+        "ne_latitude": -28.165, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1101972, 
+        "sw_latitude": -28.174, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -28.169, 
         "sw_longitude": 145.037, 
-        "fullname": "Eulo Aerodrome, Eulo, Queensland, Paroo, Australia", 
-        "sw_latitude": -28.174
+        "fullname": "Eulo Aerodrome, Eulo, Queensland, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 28677676
     }

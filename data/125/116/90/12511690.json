@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511690, 
+        "placetype": "airport", 
         "name": "Hardisty Airport", 
-        "ne_latitude": 52.651, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=29375228", 
+          "woe:state=2344915", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511690, 
         "ne_longitude": -111.376, 
         "longitude": -111.383, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375228, 
+        "ne_latitude": 52.651, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 8547, 
+        "sw_latitude": 52.642, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 52.647, 
         "sw_longitude": -111.391, 
-        "fullname": "Hardisty Airport, Hardisty, Alberta, Alberta, Canada", 
-        "sw_latitude": 52.642
+        "fullname": "Hardisty Airport, Hardisty, Alberta, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12511690
     }

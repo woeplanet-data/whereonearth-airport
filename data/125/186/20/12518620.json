@@ -3,28 +3,126 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -76.891, 
-              38.792
-            ], 
-            [
-              -76.891, 
-              38.830
-            ], 
-            [
-              -76.843, 
-              38.830
-            ], 
-            [
-              -76.843, 
-              38.792
-            ], 
-            [
-              -76.891, 
-              38.792
+              [
+                -76.851, 
+                38.807
+              ], 
+              [
+                -76.851, 
+                38.807
+              ], 
+              [
+                -76.851, 
+                38.807
+              ], 
+              [
+                -76.852, 
+                38.807
+              ], 
+              [
+                -76.860, 
+                38.805
+              ], 
+              [
+                -76.859, 
+                38.798
+              ], 
+              [
+                -76.867, 
+                38.799
+              ], 
+              [
+                -76.870, 
+                38.801
+              ], 
+              [
+                -76.878, 
+                38.798
+              ], 
+              [
+                -76.888, 
+                38.796
+              ], 
+              [
+                -76.880, 
+                38.802
+              ], 
+              [
+                -76.884, 
+                38.807
+              ], 
+              [
+                -76.890, 
+                38.801
+              ], 
+              [
+                -76.889, 
+                38.808
+              ], 
+              [
+                -76.888, 
+                38.815
+              ], 
+              [
+                -76.884, 
+                38.813
+              ], 
+              [
+                -76.879, 
+                38.817
+              ], 
+              [
+                -76.879, 
+                38.817
+              ], 
+              [
+                -76.878, 
+                38.819
+              ], 
+              [
+                -76.877, 
+                38.820
+              ], 
+              [
+                -76.875, 
+                38.819
+              ], 
+              [
+                -76.870, 
+                38.821
+              ], 
+              [
+                -76.868, 
+                38.815
+              ], 
+              [
+                -76.860, 
+                38.817
+              ], 
+              [
+                -76.860, 
+                38.813
+              ], 
+              [
+                -76.859, 
+                38.811
+              ], 
+              [
+                -76.852, 
+                38.807
+              ], 
+              [
+                -76.852, 
+                38.807
+              ], 
+              [
+                -76.851, 
+                38.807
+              ]
             ]
           ]
         ]
@@ -32,23 +130,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518620, 
-        "name": "Andrews Air Force Base", 
         "alias_ENG_V": [
           "Andrews Naval Air Facility"
         ], 
-        "ne_latitude": 38.830, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -76.843, 
-        "longitude": -76.867, 
-        "placetype": "Airport", 
+        "name": "Andrews Air Force Base", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588692", 
+          "woe:state=2347579", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518620, 
+        "ne_longitude": -76.851, 
+        "longitude": -76.872, 
+        "parent_woeid": 12588692, 
+        "ne_latitude": 38.821, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:15Z", 
-        "parent_woeid": 2373947, 
-        "latitude": 38.811, 
-        "sw_longitude": -76.891, 
-        "fullname": "Andrews Air Force Base, Camp Springs, Maryland, Prince George's, United States", 
-        "sw_latitude": 38.792
+        "sw_latitude": 38.796, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 38.808, 
+        "sw_longitude": -76.890, 
+        "fullname": "Andrews Air Force Base, Camp Springs, Maryland, United States", 
+        "iata_code": "ADW", 
+        "date_indexed": "2010-12-02T18:39:15Z"
       }, 
       "id": 12518620
     }

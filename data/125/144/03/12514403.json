@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514403, 
+        "placetype": "airport", 
         "name": "Kyzylkishlak Airport", 
-        "ne_latitude": 42.557, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345982", 
+          "woe:country=23424871", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514403, 
         "ne_longitude": 69.664, 
         "longitude": 69.658, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345982, 
+        "ne_latitude": 42.557, 
         "iso": "KZ", 
-        "date_indexed": "2010-12-02T08:54:13Z", 
-        "parent_woeid": 2264450, 
+        "sw_latitude": 42.548, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.553, 
         "sw_longitude": 69.652, 
         "fullname": "Kyzylkishlak Airport, Ongtustik Qazaqstan, Kazakhstan", 
-        "sw_latitude": 42.548
+        "date_indexed": "2010-12-02T08:54:13Z"
       }, 
       "id": 12514403
     }

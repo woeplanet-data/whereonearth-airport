@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 28677729, 
+        "placetype": "airport", 
         "name": "Bordeaux Landing Ground", 
-        "ne_latitude": -21.390, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55864370", 
+          "woe:state=2344706", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 28677729, 
         "ne_longitude": 125.302, 
         "longitude": 125.297, 
-        "placetype": "Airport", 
+        "parent_woeid": 55864370, 
+        "ne_latitude": -21.390, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 7226182, 
+        "sw_latitude": -21.399, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -21.395, 
         "sw_longitude": 125.292, 
-        "fullname": "Bordeaux Landing Ground, Telfer, Western Australia, East Pilbara, Australia", 
-        "sw_latitude": -21.399
+        "fullname": "Bordeaux Landing Ground, Telfer, Western Australia, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 28677729
     }

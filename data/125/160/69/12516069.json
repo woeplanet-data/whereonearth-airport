@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516069, 
+        "placetype": "airport", 
         "name": "Kaman Airport", 
-        "ne_latitude": 50.739, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598926", 
+          "woe:state=2346916", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516069, 
         "ne_longitude": 59.564, 
         "longitude": 59.557, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598926, 
+        "ne_latitude": 50.739, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2016438, 
+        "sw_latitude": 50.730, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.735, 
         "sw_longitude": 59.550, 
         "fullname": "Kaman Airport, Orenburgskaya Oblast, Dombarovsky, Russia", 
-        "sw_latitude": 50.730
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516069
     }

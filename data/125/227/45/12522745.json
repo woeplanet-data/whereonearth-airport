@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522745, 
+        "placetype": "airport", 
         "name": "Yaydan Northeast Airport", 
-        "ne_latitude": 40.385, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2347662", 
+          "woe:country=23424980", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522745, 
         "ne_longitude": 70.933, 
         "longitude": 70.927, 
-        "placetype": "Airport", 
+        "parent_woeid": 2347662, 
+        "ne_latitude": 40.385, 
         "iso": "UZ", 
-        "date_indexed": "2010-12-02T18:18:54Z", 
-        "parent_woeid": 2272665, 
+        "sw_latitude": 40.376, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.381, 
         "sw_longitude": 70.921, 
         "fullname": "Yaydan Northeast Airport, Farghona, Uzbekistan", 
-        "sw_latitude": 40.376
+        "date_indexed": "2010-12-02T18:18:54Z"
       }, 
       "id": 12522745
     }

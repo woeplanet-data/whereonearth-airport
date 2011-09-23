@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521246, 
-        "name": "Oroville Municipal Airport", 
         "alias_ENG_V": [
           "OVE"
         ], 
-        "ne_latitude": 39.498, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Oroville Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587673", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521246, 
         "ne_longitude": -121.609, 
         "longitude": -121.614, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587673, 
+        "ne_latitude": 39.498, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2505587, 
+        "sw_latitude": 39.478, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 39.497, 
         "sw_longitude": -121.635, 
-        "fullname": "Oroville Municipal Airport, Thermalito, California, Butte, United States", 
-        "sw_latitude": 39.478
+        "fullname": "Oroville Municipal Airport, Thermalito, California, United States", 
+        "iata_code": "OVE", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521246
     }

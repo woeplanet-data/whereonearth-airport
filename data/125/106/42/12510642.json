@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510642, 
+        "placetype": "airport", 
         "name": "Coonamble Airport", 
-        "ne_latitude": -30.976, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55863838", 
+          "woe:state=2344700", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510642, 
         "ne_longitude": 148.383, 
         "longitude": 148.370, 
-        "placetype": "Airport", 
+        "parent_woeid": 55863838, 
+        "ne_latitude": -30.976, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1101335, 
+        "sw_latitude": -30.987, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -30.980, 
         "sw_longitude": 148.369, 
-        "fullname": "Coonamble Airport, Coonamble, New South Wales, Coonamble, Australia", 
-        "sw_latitude": -30.987
+        "fullname": "Coonamble Airport, Coonamble, New South Wales, Australia", 
+        "iata_code": "CNB", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 12510642
     }

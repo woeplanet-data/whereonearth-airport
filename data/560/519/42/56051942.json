@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 56051942, 
+        "placetype": "airport", 
         "name": "Sportflugplatz Illertissen", 
-        "ne_latitude": 48.292, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12634868", 
+          "woe:county=12597020", 
+          "woe:state=2345482", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56051942, 
         "ne_longitude": 10.149, 
         "longitude": 10.137, 
-        "placetype": "Airport", 
+        "parent_woeid": 12634868, 
+        "ne_latitude": 48.292, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 704965, 
+        "sw_latitude": 48.287, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.291, 
         "sw_longitude": 10.132, 
-        "fullname": "Sportflugplatz Illertissen, Wei\u00dfenhorn, Bavaria, Landkreis Neu-Ulm, Germany", 
-        "sw_latitude": 48.287
+        "fullname": "Sportflugplatz Illertissen, Wei\u00dfenhorn, Bavaria, Germany", 
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 56051942
     }

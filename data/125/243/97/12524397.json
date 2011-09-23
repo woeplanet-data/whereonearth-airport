@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524397, 
-        "name": "Carti Airport", 
         "alias_ENG_V": [
           "CTE"
         ], 
-        "ne_latitude": 9.437, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Carti Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=26793581", 
+          "woe:county=26793106", 
+          "woe:state=2346559", 
+          "woe:country=23424924", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524397, 
         "ne_longitude": -78.978, 
         "longitude": -78.983, 
-        "placetype": "Airport", 
+        "parent_woeid": 26793581, 
+        "ne_latitude": 9.437, 
         "iso": "PA", 
-        "date_indexed": "2010-12-02T17:52:32Z", 
-        "parent_woeid": 154520, 
+        "sw_latitude": 9.428, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 9.432, 
         "sw_longitude": -78.988, 
         "fullname": "Carti Airport, Kuna Yala, Kuna Yala, Panama", 
-        "sw_latitude": 9.428
+        "iata_code": "CTE", 
+        "date_indexed": "2010-12-02T17:52:32Z"
       }, 
       "id": 12524397
     }

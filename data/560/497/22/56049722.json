@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "CZE", 
-        "woeid": 56049722, 
+        "placetype": "airport", 
         "name": "Letiste Slany", 
-        "ne_latitude": 50.220, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12607818", 
+          "woe:county=12582583", 
+          "woe:state=20070468", 
+          "woe:country=23424810", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56049722, 
         "ne_longitude": 14.095, 
         "longitude": 14.091, 
-        "placetype": "Airport", 
+        "parent_woeid": 12607818, 
+        "ne_latitude": 50.220, 
         "iso": "CZ", 
-        "date_indexed": "2010-12-02T08:56:52Z", 
-        "parent_woeid": 798203, 
+        "sw_latitude": 50.215, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.219, 
         "sw_longitude": 14.083, 
-        "fullname": "Letiste Slany, Slan\u00fd, St\u0159edo\u010desk\u00fd, Kladno, Czech Republic", 
-        "sw_latitude": 50.215
+        "fullname": "Letiste Slany, Slan\u00fd, St\u0159edo\u010desk\u00fd, Czech Republic", 
+        "date_indexed": "2010-12-02T08:56:52Z"
       }, 
       "id": 56049722
     }

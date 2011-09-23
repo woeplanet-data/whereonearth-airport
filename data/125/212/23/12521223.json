@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521223, 
-        "name": "Omak Airport", 
         "alias_ENG_V": [
           "OMK"
         ], 
-        "ne_latitude": 48.469, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Omak Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590463", 
+          "woe:state=2347606", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521223, 
         "ne_longitude": -119.512, 
         "longitude": -119.519, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590463, 
+        "ne_latitude": 48.469, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2465552, 
+        "sw_latitude": 48.460, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.464, 
         "sw_longitude": -119.526, 
-        "fullname": "Omak Airport, Omak, Washington, Okanogan, United States", 
-        "sw_latitude": 48.460
+        "fullname": "Omak Airport, Omak, Washington, United States", 
+        "iata_code": "OMK", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521223
     }

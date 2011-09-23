@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521868, 
-        "name": "Skagit Regional Bayview Airport", 
         "alias_ENG_V": [
           "Bay View Airport"
         ], 
-        "ne_latitude": 48.480, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Skagit Regional Bayview Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590468", 
+          "woe:state=2347606", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521868, 
         "ne_longitude": -122.408, 
         "longitude": -122.413, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590468, 
+        "ne_latitude": 48.480, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2407206, 
+        "sw_latitude": 48.458, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.472, 
         "sw_longitude": -122.433, 
-        "fullname": "Skagit Regional Bayview Airport, Fredonia, Washington, Skagit, United States", 
-        "sw_latitude": 48.458
+        "fullname": "Skagit Regional Bayview Airport, Fredonia, Washington, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521868
     }

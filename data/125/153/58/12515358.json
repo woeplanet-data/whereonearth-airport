@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515358, 
+        "placetype": "airport", 
         "name": "Namyslow Airport", 
-        "ne_latitude": 51.068, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=24548712", 
+          "woe:county=12591317", 
+          "woe:state=12577942", 
+          "woe:country=23424923", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515358, 
         "ne_longitude": 17.605, 
         "longitude": 17.598, 
-        "placetype": "Airport", 
+        "parent_woeid": 24548712, 
+        "ne_latitude": 51.068, 
         "iso": "PL", 
-        "date_indexed": "2010-12-02T12:12:45Z", 
-        "parent_woeid": 502202, 
+        "sw_latitude": 51.059, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.064, 
         "sw_longitude": 17.590, 
         "fullname": "Namyslow Airport, Opole, Namyslow County, Poland", 
-        "sw_latitude": 51.059
+        "date_indexed": "2010-12-02T12:12:45Z"
       }, 
       "id": 12515358
     }

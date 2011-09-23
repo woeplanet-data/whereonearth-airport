@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518099, 
-        "name": "Haverfordwest Airport", 
         "alias_ENG_V": [
           "HAW"
         ], 
-        "ne_latitude": 51.837, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Haverfordwest Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=12696129", 
+          "woe:county=12602226", 
+          "woe:state=12578049", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518099, 
         "ne_longitude": -4.951, 
         "longitude": -4.958, 
-        "placetype": "Airport", 
+        "parent_woeid": 12696129, 
+        "ne_latitude": 51.837, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:20:54Z", 
-        "parent_woeid": 36947, 
+        "sw_latitude": 51.828, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.833, 
         "sw_longitude": -4.965, 
-        "fullname": "Haverfordwest Airport, Tangiers, Wales, Pembrokeshire County, United Kingdom", 
-        "sw_latitude": 51.828
+        "fullname": "Haverfordwest Airport, Tangiers, Wales, United Kingdom", 
+        "iata_code": "HAW", 
+        "date_indexed": "2010-12-02T12:20:54Z"
       }, 
       "id": 12518099
     }

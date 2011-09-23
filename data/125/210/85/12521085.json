@@ -3,28 +3,78 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -106.488, 
-              42.887
-            ], 
-            [
-              -106.488, 
-              42.925
-            ], 
-            [
-              -106.432, 
-              42.925
-            ], 
-            [
-              -106.432, 
-              42.887
-            ], 
-            [
-              -106.488, 
-              42.887
+              [
+                -106.448, 
+                42.913
+              ], 
+              [
+                -106.447, 
+                42.915
+              ], 
+              [
+                -106.449, 
+                42.914
+              ], 
+              [
+                -106.451, 
+                42.912
+              ], 
+              [
+                -106.455, 
+                42.908
+              ], 
+              [
+                -106.453, 
+                42.900
+              ], 
+              [
+                -106.456, 
+                42.900
+              ], 
+              [
+                -106.462, 
+                42.900
+              ], 
+              [
+                -106.463, 
+                42.900
+              ], 
+              [
+                -106.464, 
+                42.899
+              ], 
+              [
+                -106.467, 
+                42.899
+              ], 
+              [
+                -106.462, 
+                42.903
+              ], 
+              [
+                -106.459, 
+                42.906
+              ], 
+              [
+                -106.456, 
+                42.908
+              ], 
+              [
+                -106.455, 
+                42.909
+              ], 
+              [
+                -106.451, 
+                42.912
+              ], 
+              [
+                -106.448, 
+                42.913
+              ]
             ]
           ]
         ]
@@ -32,23 +82,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521085, 
-        "name": "Natrona County International Airport", 
         "alias_ENG_V": [
           "Natrona International Airport"
         ], 
-        "ne_latitude": 42.925, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -106.432, 
-        "longitude": -106.463, 
-        "placetype": "Airport", 
+        "name": "Natrona County International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590618", 
+          "woe:state=2347609", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521085, 
+        "ne_longitude": -106.447, 
+        "longitude": -106.458, 
+        "parent_woeid": 12590618, 
+        "ne_latitude": 42.915, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2352373, 
-        "latitude": 42.898, 
-        "sw_longitude": -106.488, 
-        "fullname": "Natrona County International Airport, Air Base Acres, Wyoming, Natrona, United States", 
-        "sw_latitude": 42.887
+        "sw_latitude": 42.899, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 42.903, 
+        "sw_longitude": -106.467, 
+        "fullname": "Natrona County International Airport, Air Base Acres, Wyoming, United States", 
+        "iata_code": "CPR", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12521085
     }

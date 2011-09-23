@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516522, 
+        "placetype": "airport", 
         "name": "Nogliki Airport", 
-        "ne_latitude": 51.804, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599199", 
+          "woe:state=2346937", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516522, 
         "ne_longitude": 143.134, 
         "longitude": 143.126, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599199, 
+        "ne_latitude": 51.804, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2122451, 
+        "sw_latitude": 51.795, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.799, 
         "sw_longitude": 143.119, 
-        "fullname": "Nogliki Airport, Nogliki, Sakhalinskaya Oblast, Nogliksky, Russia", 
-        "sw_latitude": 51.795
+        "fullname": "Nogliki Airport, Nogliki, Sakhalinskaya Oblast, Russia", 
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516522
     }

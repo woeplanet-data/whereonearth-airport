@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520994, 
-        "name": "Monroe County Airport", 
         "alias_ENG_V": [
           "Woodsfield Airport"
         ], 
-        "ne_latitude": 39.780, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Monroe County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589582", 
+          "woe:state=2347594", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520994, 
         "ne_longitude": -81.097, 
         "longitude": -81.099, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589582, 
+        "ne_latitude": 39.780, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2523664, 
+        "sw_latitude": 39.777, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 39.779, 
         "sw_longitude": -81.101, 
-        "fullname": "Monroe County Airport, Woodsfield, Ohio, Monroe, United States", 
-        "sw_latitude": 39.777
+        "fullname": "Monroe County Airport, Woodsfield, Ohio, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12520994
     }

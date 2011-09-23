@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515985, 
+        "placetype": "airport", 
         "name": "Gaverkovskiy Airport", 
-        "ne_latitude": 44.426, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597960", 
+          "woe:state=2346887", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515985, 
         "ne_longitude": 42.977, 
         "longitude": 42.970, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597960, 
+        "ne_latitude": 44.426, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2009713, 
+        "sw_latitude": 44.417, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.421, 
         "sw_longitude": 42.964, 
         "fullname": "Gaverkovskiy Airport, Stavropolrskiy Kray, Mineralovodsky, Russia", 
-        "sw_latitude": 44.417
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12515985
     }

@@ -3,28 +3,46 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -86.695, 
-              30.423
-            ], 
-            [
-              -86.695, 
-              30.432
-            ], 
-            [
-              -86.684, 
-              30.432
-            ], 
-            [
-              -86.684, 
-              30.423
-            ], 
-            [
-              -86.695, 
-              30.423
+              [
+                -86.707, 
+                30.408
+              ], 
+              [
+                -86.709, 
+                30.409
+              ], 
+              [
+                -86.708, 
+                30.409
+              ], 
+              [
+                -86.701, 
+                30.414
+              ], 
+              [
+                -86.701, 
+                30.415
+              ], 
+              [
+                -86.705, 
+                30.420
+              ], 
+              [
+                -86.700, 
+                30.415
+              ], 
+              [
+                -86.700, 
+                30.413
+              ], 
+              [
+                -86.707, 
+                30.408
+              ]
             ]
           ]
         ]
@@ -32,23 +50,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520265, 
-        "name": "Hurlburt Field Airport", 
         "alias_ENG_V": [
           "HRT"
         ], 
-        "ne_latitude": 30.432, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -86.684, 
-        "longitude": -86.689, 
-        "placetype": "Airport", 
+        "name": "Hurlburt Field Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587848", 
+          "woe:state=2347568", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520265, 
+        "ne_longitude": -86.700, 
+        "longitude": -86.703, 
+        "parent_woeid": 12587848, 
+        "ne_latitude": 30.420, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2405999, 
-        "latitude": 30.427, 
-        "sw_longitude": -86.695, 
-        "fullname": "Hurlburt Field Airport, Fort Walton Beach, Florida, Okaloosa, United States", 
-        "sw_latitude": 30.423
+        "sw_latitude": 30.408, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 30.413, 
+        "sw_longitude": -86.709, 
+        "fullname": "Hurlburt Field Airport, Fort Walton Beach, Florida, United States", 
+        "iata_code": "HRT", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12520265
     }

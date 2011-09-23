@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510327, 
+        "placetype": "airport", 
         "name": "Ghriss Airport", 
-        "ne_latitude": 35.211, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2344598", 
+          "woe:country=23424740", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510327, 
         "ne_longitude": 0.153, 
         "longitude": 0.148, 
-        "placetype": "Airport", 
+        "parent_woeid": 2344598, 
+        "ne_latitude": 35.211, 
         "iso": "DZ", 
-        "date_indexed": "2010-12-02T17:07:16Z", 
-        "parent_woeid": 1254841, 
+        "sw_latitude": 35.202, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.207, 
         "sw_longitude": 0.142, 
         "fullname": "Ghriss Airport, Mascara, Algeria", 
-        "sw_latitude": 35.202
+        "date_indexed": "2010-12-02T17:07:16Z"
       }, 
       "id": 12510327
     }

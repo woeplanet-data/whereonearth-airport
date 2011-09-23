@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518952, 
-        "name": "Brownwood Municipal Airport", 
         "alias_ENG_V": [
           "BWD"
         ], 
-        "ne_latitude": 31.804, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Brownwood Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590031", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518952, 
         "ne_longitude": -98.942, 
         "longitude": -98.951, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590031, 
+        "ne_latitude": 31.804, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2395222, 
+        "sw_latitude": 31.783, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 31.794, 
         "sw_longitude": -98.973, 
-        "fullname": "Brownwood Municipal Airport, Early, Texas, Brown, United States", 
-        "sw_latitude": 31.783
+        "fullname": "Brownwood Municipal Airport, Early, Texas, United States", 
+        "iata_code": "BWD", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518952
     }

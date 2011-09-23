@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513469, 
-        "name": "Hang Nadim Airport", 
         "alias_ENG_V": [
           "BTH Airport"
         ], 
-        "ne_latitude": 1.135, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Hang Nadim Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=56000255", 
+          "woe:state=55949082", 
+          "woe:country=23424846", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513469, 
         "ne_longitude": 104.139, 
         "longitude": 104.134, 
-        "placetype": "Airport", 
+        "parent_woeid": 56000255, 
+        "ne_latitude": 1.135, 
         "iso": "ID", 
-        "date_indexed": "2010-12-02T16:54:32Z", 
-        "parent_woeid": 1049003, 
+        "sw_latitude": 1.126, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 1.131, 
         "sw_longitude": 104.130, 
         "fullname": "Hang Nadim Airport, Kepulauan Riau, Kota Batam, Indonesia", 
-        "sw_latitude": 1.126
+        "iata_code": "BTH", 
+        "date_indexed": "2010-12-02T16:54:32Z"
       }, 
       "id": 12513469
     }

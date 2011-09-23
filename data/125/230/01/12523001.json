@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523001, 
-        "name": "Ataq Airport", 
         "alias_ENG_V": [
           "AXK"
         ], 
-        "ne_latitude": 14.561, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Ataq Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=56190159", 
+          "woe:state=20070034", 
+          "woe:country=23425002", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523001, 
         "ne_longitude": 46.830, 
         "longitude": 46.826, 
-        "placetype": "Airport", 
+        "parent_woeid": 56190159, 
+        "ne_latitude": 14.561, 
         "iso": "YE", 
-        "date_indexed": "2010-12-02T16:39:41Z", 
-        "parent_woeid": 1959014, 
+        "sw_latitude": 14.552, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 14.556, 
         "sw_longitude": 46.821, 
         "fullname": "Ataq Airport, Ataq, Shabwah, Yemen", 
-        "sw_latitude": 14.552
+        "iata_code": "AXK", 
+        "date_indexed": "2010-12-02T16:39:41Z"
       }, 
       "id": 12523001
     }

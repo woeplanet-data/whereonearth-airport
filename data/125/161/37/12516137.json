@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516137, 
+        "placetype": "airport", 
         "name": "Khanskaya Airport", 
-        "ne_latitude": 44.682, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597796", 
+          "woe:state=20070520", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516137, 
         "ne_longitude": 40.047, 
         "longitude": 40.040, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597796, 
+        "ne_latitude": 44.682, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2006415, 
+        "sw_latitude": 44.673, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.678, 
         "sw_longitude": 40.034, 
         "fullname": "Khanskaya Airport, Adygeya, Maykopsky, Russia", 
-        "sw_latitude": 44.673
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516137
     }

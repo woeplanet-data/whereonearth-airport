@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 22656550, 
-        "name": "Sheffield Airport", 
         "alias_ENG_V": [
           "Sheffield City Airport"
         ], 
-        "ne_latitude": 53.400, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Sheffield Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=12695856", 
+          "woe:county=12602196", 
+          "woe:state=24554868", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 22656550, 
         "ne_longitude": -1.375, 
         "longitude": -1.382, 
-        "placetype": "Airport", 
+        "parent_woeid": 12695856, 
+        "ne_latitude": 53.400, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:21:01Z", 
-        "parent_woeid": 15402, 
+        "sw_latitude": 53.391, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.396, 
         "sw_longitude": -1.390, 
-        "fullname": "Sheffield Airport, Catcliffe, England, South Yorkshire, United Kingdom", 
-        "sw_latitude": 53.391
+        "fullname": "Sheffield Airport, Catcliffe, England, United Kingdom", 
+        "iata_code": "DSA", 
+        "date_indexed": "2010-12-02T12:21:01Z"
       }, 
       "id": 22656550
     }

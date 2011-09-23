@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522777, 
+        "placetype": "airport", 
         "name": "El Jabillal Airport", 
-        "ne_latitude": 9.455, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=26804863", 
+          "woe:county=26804454", 
+          "woe:state=2347697", 
+          "woe:country=23424982", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522777, 
         "ne_longitude": -70.795, 
         "longitude": -70.800, 
-        "placetype": "Airport", 
+        "parent_woeid": 26804863, 
+        "ne_latitude": 9.455, 
         "iso": "VE", 
-        "date_indexed": "2010-12-02T16:11:43Z", 
-        "parent_woeid": 395339, 
+        "sw_latitude": 9.445, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 9.450, 
         "sw_longitude": -70.805, 
-        "fullname": "El Jabillal Airport, Sabana Grande, Trujillo, Bolivar, Venezuela", 
-        "sw_latitude": 9.445
+        "fullname": "El Jabillal Airport, Sabana Grande, Trujillo, Venezuela", 
+        "date_indexed": "2010-12-02T16:11:43Z"
       }, 
       "id": 12522777
     }

@@ -32,29 +32,35 @@
       "type": "Feature", 
       "properties": {
         "lang": "JPN", 
-        "woeid": 12513989, 
-        "name": "\u4e09\u5b85\u5cf6\u7a7a\u6e2f", 
         "alias_ENG_V": [
           "MYE"
         ], 
+        "name": "\u4e09\u5b85\u5cf6\u7a7a\u6e2f", 
         "alias_ENG_P": [
           "Miyakejima Airport"
         ], 
-        "ne_latitude": 34.077, 
+        "parent_woeid": 2345889, 
+        "woeid": 12513989, 
+        "provider": "geoplanet 7.6.0", 
         "alias_JPN_V": [
           "\u30df\u30e4\u30b1\u30b8\u30de\u30af\u30a6\u30b3\u30a6"
         ], 
-        "ne_longitude": 139.565, 
         "longitude": 139.560, 
-        "parent_woeid": 15015577, 
-        "placetype": "Airport", 
+        "ne_longitude": 139.565, 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2345889", 
+          "woe:country=23424856", 
+          "woe:planet=1"
+        ], 
         "iso": "JP", 
-        "date_indexed": "2010-12-02T08:09:08Z", 
-        "provider": "geoplanet 7.6.0", 
+        "sw_latitude": 34.068, 
+        "ne_latitude": 34.077, 
         "latitude": 34.073, 
         "sw_longitude": 139.554, 
         "fullname": "\u4e09\u5b85\u5cf6\u7a7a\u6e2f, Miyake-mura, Tokyo Prefecture, Japan", 
-        "sw_latitude": 34.068
+        "iata_code": "MYE", 
+        "date_indexed": "2010-12-02T08:09:08Z"
       }, 
       "id": 12513989
     }

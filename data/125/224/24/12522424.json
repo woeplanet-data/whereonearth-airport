@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522424, 
-        "name": "White Sulphur Springs Airport", 
         "alias_ENG_V": [
           "White Sulphur Spring Airport"
         ], 
-        "ne_latitude": 46.503, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "White Sulphur Springs Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589110", 
+          "woe:state=2347585", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522424, 
         "ne_longitude": -110.898, 
         "longitude": -110.905, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589110, 
+        "ne_latitude": 46.503, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2498237, 
+        "sw_latitude": 46.492, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.498, 
         "sw_longitude": -110.913, 
-        "fullname": "White Sulphur Springs Airport, Springdale Colony, Montana, Meagher, United States", 
-        "sw_latitude": 46.492
+        "fullname": "White Sulphur Springs Airport, Springdale Colony, Montana, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12522424
     }

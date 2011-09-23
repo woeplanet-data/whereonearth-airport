@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511473, 
+        "placetype": "airport", 
         "name": "Nova Kamena Airport", 
-        "ne_latitude": 43.681, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55873726", 
+          "woe:state=20070050", 
+          "woe:country=23424771", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511473, 
         "ne_longitude": 27.290, 
         "longitude": 27.283, 
-        "placetype": "Airport", 
+        "parent_woeid": 55873726, 
+        "ne_latitude": 43.681, 
         "iso": "BG", 
-        "date_indexed": "2010-12-02T16:14:37Z", 
-        "parent_woeid": 838351, 
+        "sw_latitude": 43.672, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.676, 
         "sw_longitude": 27.277, 
         "fullname": "Nova Kamena Airport, Dobrich, Tervel, Bulgaria", 
-        "sw_latitude": 43.672
+        "date_indexed": "2010-12-02T16:14:37Z"
       }, 
       "id": 12511473
     }

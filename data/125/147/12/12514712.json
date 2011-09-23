@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514712, 
-        "name": "Le Lamentin Airport", 
         "alias_ENG_V": [
           "FDF"
         ], 
-        "ne_latitude": 14.594, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Le Lamentin Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=24551327", 
+          "woe:state=24549745", 
+          "woe:country=23424884", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514712, 
         "ne_longitude": -61.005, 
         "longitude": -61.009, 
-        "placetype": "Airport", 
+        "parent_woeid": 24551327, 
+        "ne_latitude": 14.594, 
         "iso": "MQ", 
-        "date_indexed": "2010-12-02T17:06:00Z", 
-        "parent_woeid": 110325, 
+        "sw_latitude": 14.585, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 14.590, 
         "sw_longitude": -61.014, 
         "fullname": "Le Lamentin Airport, Fort-de-France, Le Lamentin, Martinique", 
-        "sw_latitude": 14.585
+        "date_indexed": "2010-12-02T17:06:00Z"
       }, 
       "id": 12514712
     }

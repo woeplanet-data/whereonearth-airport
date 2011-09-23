@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515456, 
+        "placetype": "airport", 
         "name": "Santa Margarida Airport", 
-        "ne_latitude": 39.411, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12596688", 
+          "woe:state=2346576", 
+          "woe:country=23424925", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515456, 
         "ne_longitude": -8.283, 
         "longitude": -8.289, 
-        "placetype": "Airport", 
+        "parent_woeid": 12596688, 
+        "ne_latitude": 39.411, 
         "iso": "PT", 
-        "date_indexed": "2010-12-02T10:00:50Z", 
-        "parent_woeid": 743078, 
+        "sw_latitude": 39.402, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 39.407, 
         "sw_longitude": -8.295, 
-        "fullname": "Santa Margarida Airport, Malpique, Santar\u00e9m, Const\u00e2ncia, Portugal", 
-        "sw_latitude": 39.402
+        "fullname": "Santa Margarida Airport, Malpique, Santar\u00e9m, Portugal", 
+        "date_indexed": "2010-12-02T10:00:50Z"
       }, 
       "id": 12515456
     }

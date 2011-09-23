@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520646, 
-        "name": "Liberty County Airport", 
         "alias_ENG_V": [
           "2j2"
         ], 
-        "ne_latitude": 31.782, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Liberty County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587958", 
+          "woe:state=2347569", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520646, 
         "ne_longitude": -81.631, 
         "longitude": -81.634, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587958, 
+        "ne_latitude": 31.782, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2513988, 
+        "sw_latitude": 31.776, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 31.779, 
         "sw_longitude": -81.637, 
-        "fullname": "Liberty County Airport, Walthourville, Georgia, Liberty, United States", 
-        "sw_latitude": 31.776
+        "fullname": "Liberty County Airport, Walthourville, Georgia, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12520646
     }

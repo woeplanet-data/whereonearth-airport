@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521886, 
-        "name": "Smith Center Municipal Airport", 
         "alias_ENG_V": [
           "K82"
         ], 
-        "ne_latitude": 39.767, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Smith Center Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588462", 
+          "woe:state=2347575", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521886, 
         "ne_longitude": -98.786, 
         "longitude": -98.791, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588462, 
+        "ne_latitude": 39.767, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2494867, 
+        "sw_latitude": 39.756, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 39.762, 
         "sw_longitude": -98.795, 
-        "fullname": "Smith Center Municipal Airport, Smith Center, Kansas, Smith, United States", 
-        "sw_latitude": 39.756
+        "fullname": "Smith Center Municipal Airport, Smith Center, Kansas, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521886
     }

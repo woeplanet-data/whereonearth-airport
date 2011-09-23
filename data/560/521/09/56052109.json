@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 56052109, 
+        "placetype": "airport", 
         "name": "Flugplatz Worpswede", 
-        "ne_latitude": 53.291, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12630204", 
+          "woe:county=12596845", 
+          "woe:state=2345486", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56052109, 
         "ne_longitude": 8.955, 
         "longitude": 8.953, 
-        "placetype": "Airport", 
+        "parent_woeid": 12630204, 
+        "ne_latitude": 53.291, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 708014, 
+        "sw_latitude": 53.286, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.286, 
         "sw_longitude": 8.944, 
-        "fullname": "Flugplatz Worpswede, Worpswede, Lower Saxony, Landkreis Osterholz, Germany", 
-        "sw_latitude": 53.286
+        "fullname": "Flugplatz Worpswede, Worpswede, Lower Saxony, Germany", 
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 56052109
     }

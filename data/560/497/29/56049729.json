@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "CZE", 
-        "woeid": 56049729, 
+        "placetype": "airport", 
         "name": "Letiste Podborany", 
-        "ne_latitude": 50.256, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12606714", 
+          "woe:county=12582566", 
+          "woe:state=20070499", 
+          "woe:country=23424810", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56049729, 
         "ne_longitude": 13.420, 
         "longitude": 13.410, 
-        "placetype": "Airport", 
+        "parent_woeid": 12606714, 
+        "ne_latitude": 50.256, 
         "iso": "CZ", 
-        "date_indexed": "2010-12-02T08:56:52Z", 
-        "parent_woeid": 796206, 
+        "sw_latitude": 50.243, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.250, 
         "sw_longitude": 13.400, 
-        "fullname": "Letiste Podborany, Podbo\u0159any, \u00dasteck\u00fd, Louny, Czech Republic", 
-        "sw_latitude": 50.243
+        "fullname": "Letiste Podborany, Podbo\u0159any, \u00dasteck\u00fd, Czech Republic", 
+        "date_indexed": "2010-12-02T08:56:52Z"
       }, 
       "id": 56049729
     }

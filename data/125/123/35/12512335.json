@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512335, 
+        "placetype": "airport", 
         "name": "Pelicano Airport", 
-        "ne_latitude": -29.138, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=26794140", 
+          "woe:county=26793995", 
+          "woe:state=2345024", 
+          "woe:country=23424782", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512335, 
         "ne_longitude": -70.875, 
         "longitude": -70.880, 
-        "placetype": "Airport", 
+        "parent_woeid": 26794140, 
+        "ne_latitude": -29.138, 
         "iso": "CL", 
-        "date_indexed": "2010-12-02T12:15:39Z", 
-        "parent_woeid": 350200, 
+        "sw_latitude": -29.147, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -29.143, 
         "sw_longitude": -70.885, 
         "fullname": "Pelicano Airport, Coquimbo Region, Elqui Province, Chile", 
-        "sw_latitude": -29.147
+        "date_indexed": "2010-12-02T12:15:39Z"
       }, 
       "id": 12512335
     }

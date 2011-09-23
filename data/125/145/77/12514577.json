@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514577, 
+        "placetype": "airport", 
         "name": "Tervette Airport", 
-        "ne_latitude": 56.480, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55844683", 
+          "woe:state=56190591", 
+          "woe:country=23424874", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514577, 
         "ne_longitude": 23.440, 
         "longitude": 23.431, 
-        "placetype": "Airport", 
+        "parent_woeid": 55844683, 
+        "ne_latitude": 56.480, 
         "iso": "LV", 
-        "date_indexed": "2010-12-02T08:49:48Z", 
-        "parent_woeid": 852454, 
+        "sw_latitude": 56.471, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 56.475, 
         "sw_longitude": 23.423, 
         "fullname": "Tervette Airport, Jelgavas Rajons, Zaaenieku Pagasts, Latvia", 
-        "sw_latitude": 56.471
+        "date_indexed": "2010-12-02T08:49:48Z"
       }, 
       "id": 12514577
     }

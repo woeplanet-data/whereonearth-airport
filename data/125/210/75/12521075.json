@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521075, 
-        "name": "Nampa Municipal Airport", 
         "alias_ENG_V": [
           "S67"
         ], 
-        "ne_latitude": 43.587, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Nampa Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588047", 
+          "woe:state=2347571", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521075, 
         "ne_longitude": -116.514, 
         "longitude": -116.524, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588047, 
+        "ne_latitude": 43.587, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2456904, 
+        "sw_latitude": 43.577, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.583, 
         "sw_longitude": -116.533, 
-        "fullname": "Nampa Municipal Airport, Nampa, Idaho, Canyon, United States", 
-        "sw_latitude": 43.577
+        "fullname": "Nampa Municipal Airport, Nampa, Idaho, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12521075
     }

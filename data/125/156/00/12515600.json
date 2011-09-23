@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515600, 
+        "placetype": "airport", 
         "name": "Basilan Airport", 
-        "ne_latitude": 6.663, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=2346677", 
+          "woe:state=23424729", 
+          "woe:country=23424934", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515600, 
         "ne_longitude": 121.983, 
         "longitude": 121.978, 
-        "placetype": "Airport", 
+        "parent_woeid": 2346677, 
+        "ne_latitude": 6.663, 
         "iso": "PH", 
-        "date_indexed": "2010-12-02T09:56:58Z", 
-        "parent_woeid": 1162758, 
+        "sw_latitude": 6.654, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 6.658, 
         "sw_longitude": 121.974, 
-        "fullname": "Basilan Airport, Basilan City, Autonomous Region in Muslim Mindanao, Basilan, Philippines", 
-        "sw_latitude": 6.654
+        "fullname": "Basilan Airport, Basilan City, Autonomous Region in Muslim Mindanao, Philippines", 
+        "date_indexed": "2010-12-02T09:56:58Z"
       }, 
       "id": 12515600
     }

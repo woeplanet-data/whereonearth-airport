@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516284, 
+        "placetype": "airport", 
         "name": "Krutoyarskiy Airport", 
-        "ne_latitude": 54.174, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598136", 
+          "woe:state=2346893", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516284, 
         "ne_longitude": 63.136, 
         "longitude": 63.129, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598136, 
+        "ne_latitude": 54.174, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2121709, 
+        "sw_latitude": 54.165, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 54.170, 
         "sw_longitude": 63.121, 
         "fullname": "Krutoyarskiy Airport, Chelyabinskaya Oblast, Oktyabrsky, Russia", 
-        "sw_latitude": 54.165
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516284
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524564, 
-        "name": "Atqasuk Airport", 
         "alias_ENG_V": [
           "ATK"
         ], 
-        "ne_latitude": 70.468, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Atqasuk Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587570", 
+          "woe:state=2347560", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524564, 
         "ne_longitude": -157.317, 
         "longitude": -157.331, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587570, 
+        "ne_latitude": 70.468, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2357148, 
+        "sw_latitude": 70.459, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 70.464, 
         "sw_longitude": -157.345, 
-        "fullname": "Atqasuk Airport, Atqasuk, Alaska, North Slope Borough, United States", 
-        "sw_latitude": 70.459
+        "fullname": "Atqasuk Airport, Atqasuk, Alaska, United States", 
+        "iata_code": "ATK", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12524564
     }

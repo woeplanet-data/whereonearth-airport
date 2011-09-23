@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517429, 
+        "placetype": "airport", 
         "name": "Komatipoort Airport", 
-        "ne_latitude": -25.435, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=56189661", 
+          "woe:county=56189450", 
+          "woe:state=2346983", 
+          "woe:country=23424942", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517429, 
         "ne_longitude": 31.937, 
         "longitude": 31.932, 
-        "placetype": "Airport", 
+        "parent_woeid": 56189661, 
+        "ne_latitude": -25.435, 
         "iso": "ZA", 
-        "date_indexed": "2010-12-02T08:57:46Z", 
-        "parent_woeid": 1582968, 
+        "sw_latitude": -25.444, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -25.439, 
         "sw_longitude": 31.927, 
-        "fullname": "Komatipoort Airport, Komatipoort, Mpumalanga, Komatipoort, South Africa", 
-        "sw_latitude": -25.444
+        "fullname": "Komatipoort Airport, Komatipoort, Mpumalanga, South Africa", 
+        "date_indexed": "2010-12-02T08:57:46Z"
       }, 
       "id": 12517429
     }

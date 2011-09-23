@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510697, 
-        "name": "Innisfail Aerodrome", 
         "alias_ENG_V": [
           "Innisfail Airport"
         ], 
-        "ne_latitude": -17.555, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Innisfail Aerodrome", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=56072987", 
+          "woe:state=2344702", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510697, 
         "ne_longitude": 146.018, 
         "longitude": 146.013, 
-        "placetype": "Airport", 
+        "parent_woeid": 56072987, 
+        "ne_latitude": -17.555, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1097597, 
+        "sw_latitude": -17.564, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -17.560, 
         "sw_longitude": 146.008, 
-        "fullname": "Innisfail Aerodrome, Mundoo, Queensland, Johnstone, Australia", 
-        "sw_latitude": -17.564
+        "fullname": "Innisfail Aerodrome, Mundoo, Queensland, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 12510697
     }

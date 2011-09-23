@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516838, 
+        "placetype": "airport", 
         "name": "Serafimovka Airport", 
-        "ne_latitude": 43.914, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597922", 
+          "woe:state=2346886", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516838, 
         "ne_longitude": 135.222, 
         "longitude": 135.216, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597922, 
+        "ne_latitude": 43.914, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2064308, 
+        "sw_latitude": 43.905, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.909, 
         "sw_longitude": 135.210, 
         "fullname": "Serafimovka Airport, Primorskiy Kray, Olginsky, Russia", 
-        "sw_latitude": 43.905
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516838
     }

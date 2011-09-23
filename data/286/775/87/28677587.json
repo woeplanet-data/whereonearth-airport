@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 28677587, 
+        "placetype": "airport", 
         "name": "Killarney Aerodrome", 
-        "ne_latitude": -16.244, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=56072990", 
+          "woe:state=2344701", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 28677587, 
         "ne_longitude": 131.751, 
         "longitude": 131.747, 
-        "placetype": "Airport", 
+        "parent_woeid": 56072990, 
+        "ne_latitude": -16.244, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1106304, 
+        "sw_latitude": -16.253, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -16.248, 
         "sw_longitude": 131.742, 
         "fullname": "Killarney Aerodrome, Victoria River Downs, Northern Territory, Australia", 
-        "sw_latitude": -16.253
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 28677587
     }

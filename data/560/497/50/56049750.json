@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "CZE", 
-        "woeid": 56049750, 
+        "placetype": "airport", 
         "name": "Sportovni Letiste Ceska Trebova", 
-        "ne_latitude": 49.912, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12609018", 
+          "woe:county=12582603", 
+          "woe:state=20070465", 
+          "woe:country=23424810", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56049750, 
         "ne_longitude": 16.458, 
         "longitude": 16.457, 
-        "placetype": "Airport", 
+        "parent_woeid": 12609018, 
+        "ne_latitude": 49.912, 
         "iso": "CZ", 
-        "date_indexed": "2010-12-02T08:56:52Z", 
-        "parent_woeid": 787457, 
+        "sw_latitude": 49.907, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.908, 
         "sw_longitude": 16.452, 
-        "fullname": "Sportovni Letiste Ceska Trebova, \u010cesk\u00e1 T\u0159ebov\u00e1, Pardubick\u00fd, \u00dast\u00ed nad Orlic\u00ed, Czech Republic", 
-        "sw_latitude": 49.907
+        "fullname": "Sportovni Letiste Ceska Trebova, \u010cesk\u00e1 T\u0159ebov\u00e1, Pardubick\u00fd, Czech Republic", 
+        "date_indexed": "2010-12-02T08:56:52Z"
       }, 
       "id": 56049750
     }

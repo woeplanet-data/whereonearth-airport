@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514892, 
+        "placetype": "airport", 
         "name": "Iguala Airport", 
-        "ne_latitude": 18.273, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12600095", 
+          "woe:state=2346275", 
+          "woe:country=23424900", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514892, 
         "ne_longitude": -99.512, 
         "longitude": -99.517, 
-        "placetype": "Airport", 
+        "parent_woeid": 12600095, 
+        "ne_latitude": 18.273, 
         "iso": "MX", 
-        "date_indexed": "2010-12-02T16:57:55Z", 
-        "parent_woeid": 148874, 
+        "sw_latitude": 18.264, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 18.268, 
         "sw_longitude": -99.521, 
-        "fullname": "Iguala Airport, Tepecoacuilco de Trujano, Guerrero, Tepecoacuilco de Trujano, Mexico", 
-        "sw_latitude": 18.264
+        "fullname": "Iguala Airport, Tepecoacuilco de Trujano, Guerrero, Mexico", 
+        "date_indexed": "2010-12-02T16:57:55Z"
       }, 
       "id": 12514892
     }

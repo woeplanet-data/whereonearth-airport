@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524518, 
-        "name": "San Felipe Airport", 
         "alias_ENG_V": [
           "SSD"
         ], 
-        "ne_latitude": 1.921, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "San Felipe Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26797660", 
+          "woe:state=2345060", 
+          "woe:country=23424787", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524518, 
         "ne_longitude": -67.095, 
         "longitude": -67.100, 
-        "placetype": "Airport", 
+        "parent_woeid": 26797660, 
+        "ne_latitude": 1.921, 
         "iso": "CO", 
-        "date_indexed": "2010-12-02T17:57:37Z", 
-        "parent_woeid": 365348, 
+        "sw_latitude": 1.912, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 1.917, 
         "sw_longitude": -67.105, 
-        "fullname": "San Felipe Airport, San Felipe, Guainia, San Felipe, Colombia", 
-        "sw_latitude": 1.912
+        "fullname": "San Felipe Airport, San Felipe, Guainia, Colombia", 
+        "iata_code": "SSD", 
+        "date_indexed": "2010-12-02T17:57:37Z"
       }, 
       "id": 12524518
     }

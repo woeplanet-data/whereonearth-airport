@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513793, 
+        "placetype": "airport", 
         "name": "Tel Nov Airport", 
-        "ne_latitude": 31.840, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345792", 
+          "woe:country=23424852", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513793, 
         "ne_longitude": 34.821, 
         "longitude": 34.816, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345792, 
+        "ne_latitude": 31.840, 
         "iso": "IL", 
-        "date_indexed": "2010-12-02T08:53:06Z", 
-        "parent_woeid": 1967173, 
+        "sw_latitude": 31.831, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 31.836, 
         "sw_longitude": 34.811, 
         "fullname": "Tel Nov Airport, HaMerkaz, Israel", 
-        "sw_latitude": 31.831
+        "date_indexed": "2010-12-02T08:53:06Z"
       }, 
       "id": 12513793
     }

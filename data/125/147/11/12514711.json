@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514711, 
-        "name": "Vohemar Airport", 
         "alias_ENG_V": [
           "VOH"
         ], 
-        "ne_latitude": -13.369, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Vohemar Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=23706550", 
+          "woe:state=2346146", 
+          "woe:country=23424883", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514711, 
         "ne_longitude": 50.007, 
         "longitude": 50.003, 
-        "placetype": "Airport", 
+        "parent_woeid": 23706550, 
+        "ne_latitude": -13.369, 
         "iso": "MG", 
-        "date_indexed": "2010-12-02T16:43:54Z", 
-        "parent_woeid": 1361257, 
+        "sw_latitude": -13.378, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -13.373, 
         "sw_longitude": 49.998, 
-        "fullname": "Vohemar Airport, Vohemar, Antsiranana, Vohemar, Madagascar", 
-        "sw_latitude": -13.378
+        "fullname": "Vohemar Airport, Vohemar, Antsiranana, Madagascar", 
+        "date_indexed": "2010-12-02T16:43:54Z"
       }, 
       "id": 12514711
     }

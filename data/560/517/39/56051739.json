@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 56051739, 
+        "placetype": "airport", 
         "name": "Flugplatz Olten", 
-        "ne_latitude": 47.345, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12684157", 
+          "woe:county=12593245", 
+          "woe:state=2347100", 
+          "woe:country=23424957", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56051739, 
         "ne_longitude": 7.891, 
         "longitude": 7.888, 
-        "placetype": "Airport", 
+        "parent_woeid": 12684157, 
+        "ne_latitude": 47.345, 
         "iso": "CH", 
-        "date_indexed": "2010-12-02T18:20:52Z", 
-        "parent_woeid": 783649, 
+        "sw_latitude": 47.341, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.344, 
         "sw_longitude": 7.885, 
-        "fullname": "Flugplatz Olten, Olten, Canton of Solothurn, Olten, Switzerland", 
-        "sw_latitude": 47.341
+        "fullname": "Flugplatz Olten, Olten, Canton of Solothurn, Switzerland", 
+        "date_indexed": "2010-12-02T18:20:52Z"
       }, 
       "id": 56051739
     }

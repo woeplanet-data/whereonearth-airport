@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522030, 
+        "placetype": "airport", 
         "name": "Sturgis Municipal Airport", 
-        "ne_latitude": 44.425, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12589891", 
+          "woe:state=2347600", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522030, 
         "ne_longitude": -103.388, 
         "longitude": -103.395, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589891, 
+        "ne_latitude": 44.425, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 23509332, 
+        "sw_latitude": 44.416, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.421, 
         "sw_longitude": -103.401, 
-        "fullname": "Sturgis Municipal Airport, Fort Meade, South Dakota, Meade, United States", 
-        "sw_latitude": 44.416
+        "fullname": "Sturgis Municipal Airport, Fort Meade, South Dakota, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12522030
     }

@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515534, 
+        "placetype": "airport", 
         "name": "Galati North Airport", 
-        "ne_latitude": 45.510, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2346632", 
+          "woe:country=23424933", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515534, 
         "ne_longitude": 28.031, 
         "longitude": 28.024, 
-        "placetype": "Airport", 
+        "parent_woeid": 2346632, 
+        "ne_latitude": 45.510, 
         "iso": "RO", 
-        "date_indexed": "2010-12-02T16:37:48Z", 
-        "parent_woeid": 870443, 
+        "sw_latitude": 45.501, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.506, 
         "sw_longitude": 28.018, 
         "fullname": "Galati North Airport, Galati, Romania", 
-        "sw_latitude": 45.501
+        "date_indexed": "2010-12-02T16:37:48Z"
       }, 
       "id": 12515534
     }

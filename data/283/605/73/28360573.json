@@ -32,29 +32,34 @@
       "type": "Feature", 
       "properties": {
         "lang": "JPN", 
-        "woeid": 28360573, 
-        "name": "\u4f50\u4f2f\u30d8\u30ea\u30dd\u30fc\u30c8", 
         "alias_ENG_V": [
           "Saeki Heliport"
         ], 
+        "name": "\u4f50\u4f2f\u30d8\u30ea\u30dd\u30fc\u30c8", 
         "alias_ENG_P": [
           "Saiki Heliport"
         ], 
-        "ne_latitude": 32.970, 
+        "parent_woeid": 2345879, 
+        "woeid": 28360573, 
+        "provider": "geoplanet 7.6.0", 
         "alias_JPN_V": [
           "\u4f50\u4f2f\u3078\u30ea\u30dd\u30fc\u30c8"
         ], 
-        "ne_longitude": 131.928, 
         "longitude": 131.923, 
-        "parent_woeid": 1118081, 
-        "placetype": "Airport", 
+        "ne_longitude": 131.928, 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2345879", 
+          "woe:country=23424856", 
+          "woe:planet=1"
+        ], 
         "iso": "JP", 
-        "date_indexed": "2010-12-02T08:09:09Z", 
-        "provider": "geoplanet 7.6.0", 
+        "sw_latitude": 32.961, 
+        "ne_latitude": 32.970, 
         "latitude": 32.966, 
         "sw_longitude": 131.917, 
         "fullname": "\u4f50\u4f2f\u30d8\u30ea\u30dd\u30fc\u30c8, Saiki-shi, Oita Prefecture, Japan", 
-        "sw_latitude": 32.961
+        "date_indexed": "2010-12-02T08:09:09Z"
       }, 
       "id": 28360573
     }

@@ -32,29 +32,37 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 23344872, 
-        "name": "Flugplatz St. Gallen-Altenrhein", 
-        "alias_ENG_P": [
-          "Altenrhein Airport"
-        ], 
-        "ne_latitude": 47.489, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "ACH"
         ], 
+        "name": "Flugplatz St. Gallen-Altenrhein", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Altenrhein Airport"
+        ], 
+        "hierarchy": [
+          "woe:localadmin=12682785", 
+          "woe:county=12593151", 
+          "woe:state=2347097", 
+          "woe:country=23424957", 
+          "woe:planet=1"
+        ], 
+        "woeid": 23344872, 
         "ne_longitude": 9.571, 
         "longitude": 9.553, 
-        "placetype": "Airport", 
+        "parent_woeid": 12682785, 
+        "ne_latitude": 47.489, 
         "iso": "CH", 
-        "date_indexed": "2010-12-02T18:20:52Z", 
-        "parent_woeid": 781604, 
+        "sw_latitude": 47.484, 
+        "iata_code": "ACH", 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.488, 
         "sw_longitude": 9.549, 
-        "fullname": "Flugplatz St. Gallen-Altenrhein, Altenrhein, Canton of St. Gallen, Unterrheintal, Switzerland", 
+        "fullname": "Flugplatz St. Gallen-Altenrhein, Altenrhein, Canton of St. Gallen, Switzerland", 
         "alias_GER_V": [
           "St. Gallen-Altenrhein"
         ], 
-        "sw_latitude": 47.484
+        "date_indexed": "2010-12-02T18:20:52Z"
       }, 
       "id": 23344872
     }

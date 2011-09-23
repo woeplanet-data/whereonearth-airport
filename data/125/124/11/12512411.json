@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512411, 
-        "name": "San Vicente del Caguan Airport", 
         "alias_ENG_V": [
           "SVI"
         ], 
-        "ne_latitude": 2.151, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "San Vicente del Caguan Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26796957", 
+          "woe:state=2345054", 
+          "woe:country=23424787", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512411, 
         "ne_longitude": -74.758, 
         "longitude": -74.762, 
-        "placetype": "Airport", 
+        "parent_woeid": 26796957, 
+        "ne_latitude": 2.151, 
         "iso": "CO", 
-        "date_indexed": "2010-12-02T17:57:37Z", 
-        "parent_woeid": 369418, 
+        "sw_latitude": 2.142, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 2.146, 
         "sw_longitude": -74.767, 
-        "fullname": "San Vicente del Caguan Airport, San Vicente del Cagu\u00e1n, Caqueta, San Vicente del Caguan, Colombia", 
-        "sw_latitude": 2.142
+        "fullname": "San Vicente del Caguan Airport, San Vicente del Cagu\u00e1n, Caqueta, Colombia", 
+        "iata_code": "SVI", 
+        "date_indexed": "2010-12-02T17:57:37Z"
       }, 
       "id": 12512411
     }

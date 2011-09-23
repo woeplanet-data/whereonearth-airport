@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524340, 
+        "placetype": "airport", 
         "name": "Dos Lagunas Airport", 
-        "ne_latitude": 17.638, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=26807062", 
+          "woe:state=2345563", 
+          "woe:country=23424834", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524340, 
         "ne_longitude": -89.662, 
         "longitude": -89.667, 
-        "placetype": "Airport", 
+        "parent_woeid": 26807062, 
+        "ne_latitude": 17.638, 
         "iso": "GT", 
-        "date_indexed": "2010-12-02T16:55:27Z", 
-        "parent_woeid": 86617, 
+        "sw_latitude": 17.629, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 17.633, 
         "sw_longitude": -89.671, 
         "fullname": "Dos Lagunas Airport, Peten, Flores, Guatemala", 
-        "sw_latitude": 17.629
+        "date_indexed": "2010-12-02T16:55:27Z"
       }, 
       "id": 12524340
     }

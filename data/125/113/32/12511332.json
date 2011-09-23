@@ -32,29 +32,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511332, 
-        "name": "Aeroporto Sobral", 
-        "alias_ENG_P": [
-          "Sobral Airport"
-        ], 
-        "ne_latitude": -3.674, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "QBX"
         ], 
+        "name": "Aeroporto Sobral", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Sobral Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12578806", 
+          "woe:state=2344849", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511332, 
         "ne_longitude": -40.332, 
         "longitude": -40.336, 
-        "placetype": "Airport", 
+        "parent_woeid": 12578806, 
+        "ne_latitude": -3.674, 
         "alias_POR_V": [
           "Aeroporto QBX"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:28Z", 
-        "parent_woeid": 455997, 
+        "sw_latitude": -3.683, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -3.678, 
         "sw_longitude": -40.341, 
-        "fullname": "Aeroporto Sobral, Sobral, Ceara, Sobral, Brazil", 
-        "sw_latitude": -3.683
+        "fullname": "Aeroporto Sobral, Sobral, Ceara, Brazil", 
+        "iata_code": "QBX", 
+        "date_indexed": "2010-12-02T18:01:28Z"
       }, 
       "id": 12511332
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522282, 
-        "name": "Vicksburg Tallulah Regional Airport", 
         "alias_ENG_V": [
           "TVR"
         ], 
-        "ne_latitude": 32.362, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Vicksburg Tallulah Regional Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588628", 
+          "woe:state=2347577", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522282, 
         "ne_longitude": -91.019, 
         "longitude": -91.025, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588628, 
+        "ne_latitude": 32.362, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2454686, 
+        "sw_latitude": 32.339, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 32.353, 
         "sw_longitude": -91.030, 
-        "fullname": "Vicksburg Tallulah Regional Airport, Mound, Louisiana, Madison Parish, United States", 
-        "sw_latitude": 32.339
+        "fullname": "Vicksburg Tallulah Regional Airport, Mound, Louisiana, United States", 
+        "iata_code": "TVR", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522282
     }

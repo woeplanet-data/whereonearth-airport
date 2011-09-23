@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521740, 
-        "name": "Sanford Regional Airport", 
         "alias_ENG_V": [
           "Sanford Municipal Airport"
         ], 
-        "ne_latitude": 43.401, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Sanford Regional Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588675", 
+          "woe:state=2347578", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521740, 
         "ne_longitude": -70.695, 
         "longitude": -70.715, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588675, 
+        "ne_latitude": 43.401, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2488742, 
+        "sw_latitude": 43.381, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.397, 
         "sw_longitude": -70.723, 
-        "fullname": "Sanford Regional Airport, Sanford, Maine, York, United States", 
-        "sw_latitude": 43.381
+        "fullname": "Sanford Regional Airport, Sanford, Maine, United States", 
+        "iata_code": "SFM", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521740
     }

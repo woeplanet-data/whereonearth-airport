@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512900, 
         "name": "Habsheim Airport", 
-        "ne_latitude": 47.750, 
+        "hierarchy": [
+          "woe:localadmin=12644991", 
+          "woe:county=12597152", 
+          "woe:state=7153330", 
+          "woe:country=23424819", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512900, 
+        "provider": "geoplanet 7.6.0", 
         "ne_longitude": 7.444, 
         "longitude": 7.423, 
-        "parent_woeid": 594174, 
-        "placetype": "Airport", 
+        "parent_woeid": 12644991, 
+        "placetype": "airport", 
+        "latitude": 47.744, 
+        "iso": "FR", 
+        "sw_latitude": 47.736, 
+        "ne_latitude": 47.750, 
         "alias_FRE_V": [
           "Mlh"
         ], 
-        "iso": "FR", 
-        "date_indexed": "2010-12-02T12:04:01Z", 
-        "provider": "geoplanet 7.6.0", 
-        "latitude": 47.744, 
         "sw_longitude": 7.421, 
-        "fullname": "Habsheim Airport, Habsheim, Alsace, Haut-Rhin, France", 
-        "sw_latitude": 47.736
+        "fullname": "Habsheim Airport, Habsheim, Alsace, France", 
+        "date_indexed": "2010-12-02T12:04:01Z"
       }, 
       "id": 12512900
     }

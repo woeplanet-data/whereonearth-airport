@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515923, 
+        "placetype": "airport", 
         "name": "Chumikan Airport", 
-        "ne_latitude": 54.710, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597759", 
+          "woe:state=2346883", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515923, 
         "ne_longitude": 135.308, 
         "longitude": 135.300, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597759, 
+        "ne_latitude": 54.710, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2120580, 
+        "sw_latitude": 54.700, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 54.705, 
         "sw_longitude": 135.292, 
-        "fullname": "Chumikan Airport, Chumikan, Khabarovskiy Kray, Tuguro-Chumikansky, Russia", 
-        "sw_latitude": 54.700
+        "fullname": "Chumikan Airport, Chumikan, Khabarovskiy Kray, Russia", 
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12515923
     }

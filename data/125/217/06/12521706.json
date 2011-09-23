@@ -3,28 +3,58 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -75.522, 
-              38.328
-            ], 
-            [
-              -75.522, 
-              38.349
-            ], 
-            [
-              -75.488, 
-              38.349
-            ], 
-            [
-              -75.488, 
-              38.328
-            ], 
-            [
-              -75.522, 
-              38.328
+              [
+                -75.518, 
+                38.346
+              ], 
+              [
+                -75.518, 
+                38.346
+              ], 
+              [
+                -75.516, 
+                38.342
+              ], 
+              [
+                -75.511, 
+                38.342
+              ], 
+              [
+                -75.507, 
+                38.340
+              ], 
+              [
+                -75.510, 
+                38.338
+              ], 
+              [
+                -75.512, 
+                38.341
+              ], 
+              [
+                -75.516, 
+                38.342
+              ], 
+              [
+                -75.518, 
+                38.345
+              ], 
+              [
+                -75.519, 
+                38.346
+              ], 
+              [
+                -75.518, 
+                38.346
+              ], 
+              [
+                -75.518, 
+                38.346
+              ]
             ]
           ]
         ]
@@ -32,23 +62,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521706, 
-        "name": "Salisbury-Wicomico County Regional Airport", 
         "alias_ENG_V": [
           "SBY Airport"
         ], 
-        "ne_latitude": 38.349, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -75.488, 
-        "longitude": -75.517, 
-        "placetype": "Airport", 
-        "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
+        "name": "Salisbury-Wicomico County Regional Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:estate=2432225", 
+          "woe:county=12588698", 
+          "woe:state=2347579", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521706, 
+        "ne_longitude": -75.507, 
+        "longitude": -75.511, 
         "parent_woeid": 2432225, 
-        "latitude": 38.343, 
-        "sw_longitude": -75.522, 
-        "fullname": "Salisbury-Wicomico County Regional Airport, Kilbirnie Estates, Maryland, Wicomico, United States", 
-        "sw_latitude": 38.328
+        "ne_latitude": 38.346, 
+        "iso": "US", 
+        "sw_latitude": 38.338, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 38.341, 
+        "sw_longitude": -75.519, 
+        "fullname": "Salisbury-Wicomico County Regional Airport, Kilbirnie Estates, Maryland, United States", 
+        "iata_code": "SBY", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521706
     }

@@ -3,28 +3,54 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -82.321, 
-              42.990
-            ], 
-            [
-              -82.321, 
-              43.008
-            ], 
-            [
-              -82.298, 
-              43.008
-            ], 
-            [
-              -82.298, 
-              42.990
-            ], 
-            [
-              -82.321, 
-              42.990
+              [
+                -82.310, 
+                42.999
+              ], 
+              [
+                -82.304, 
+                43.001
+              ], 
+              [
+                -82.303, 
+                43.001
+              ], 
+              [
+                -82.303, 
+                42.999
+              ], 
+              [
+                -82.300, 
+                42.996
+              ], 
+              [
+                -82.305, 
+                42.997
+              ], 
+              [
+                -82.308, 
+                42.993
+              ], 
+              [
+                -82.309, 
+                42.996
+              ], 
+              [
+                -82.312, 
+                42.998
+              ], 
+              [
+                -82.311, 
+                42.999
+              ], 
+              [
+                -82.310, 
+                42.999
+              ]
             ]
           ]
         ]
@@ -32,23 +58,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511825, 
-        "name": "Sarnia Airport", 
         "alias_ENG_V": [
           "YZR Airport"
         ], 
-        "ne_latitude": 43.008, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -82.298, 
+        "name": "Sarnia Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:suburb=55856669", 
+          "woe:county=29375144", 
+          "woe:state=2344922", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511825, 
+        "ne_longitude": -82.300, 
         "longitude": -82.306, 
-        "placetype": "Airport", 
-        "iso": "CA", 
-        "date_indexed": "2010-12-02T10:24:00Z", 
         "parent_woeid": 55856669, 
-        "latitude": 42.993, 
-        "sw_longitude": -82.321, 
-        "fullname": "Sarnia Airport, Sarnia, Ontario, Lambton, Canada", 
-        "sw_latitude": 42.990
+        "ne_latitude": 43.001, 
+        "iso": "CA", 
+        "sw_latitude": 42.993, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 42.998, 
+        "sw_longitude": -82.312, 
+        "fullname": "Sarnia Airport, Sarnia, Ontario, Canada", 
+        "iata_code": "YZR", 
+        "date_indexed": "2010-12-02T10:24:00Z"
       }, 
       "id": 12511825
     }

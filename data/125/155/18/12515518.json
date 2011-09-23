@@ -3,28 +3,30 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              21.244, 
-              46.169
-            ], 
-            [
-              21.244, 
-              46.192
-            ], 
-            [
-              21.277, 
-              46.192
-            ], 
-            [
-              21.277, 
-              46.169
-            ], 
-            [
-              21.244, 
-              46.169
+              [
+                21.277, 
+                46.173
+              ], 
+              [
+                21.277, 
+                46.173
+              ], 
+              [
+                21.278, 
+                46.174
+              ], 
+              [
+                21.277, 
+                46.172
+              ], 
+              [
+                21.277, 
+                46.173
+              ]
             ]
           ]
         ]
@@ -32,23 +34,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515518, 
-        "name": "Ceala Airport", 
         "alias_ENG_V": [
           "ARW Airport"
         ], 
-        "ne_latitude": 46.192, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": 21.277, 
-        "longitude": 21.261, 
-        "placetype": "Airport", 
+        "name": "Ceala Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2346616", 
+          "woe:country=23424933", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515518, 
+        "ne_longitude": 21.278, 
+        "longitude": 21.277, 
+        "parent_woeid": 2346616, 
+        "ne_latitude": 46.174, 
         "iso": "RO", 
-        "date_indexed": "2010-12-02T16:37:48Z", 
-        "parent_woeid": 866307, 
-        "latitude": 46.181, 
-        "sw_longitude": 21.244, 
+        "sw_latitude": 46.172, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 46.173, 
+        "sw_longitude": 21.277, 
         "fullname": "Ceala Airport, Arad, Arad, Romania", 
-        "sw_latitude": 46.169
+        "iata_code": "ARW", 
+        "date_indexed": "2010-12-02T16:37:48Z"
       }, 
       "id": 12515518
     }

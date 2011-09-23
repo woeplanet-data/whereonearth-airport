@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524524, 
-        "name": "Coca Airport", 
         "alias_ENG_V": [
           "OCC"
         ], 
-        "ne_latitude": -0.461, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Coca Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=26810319", 
+          "woe:county=26809525", 
+          "woe:state=20070099", 
+          "woe:country=23424801", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524524, 
         "ne_longitude": -76.975, 
         "longitude": -76.979, 
-        "placetype": "Airport", 
+        "parent_woeid": 26810319, 
+        "ne_latitude": -0.461, 
         "iso": "EC", 
-        "date_indexed": "2010-12-02T17:51:45Z", 
-        "parent_woeid": 420033, 
+        "sw_latitude": -0.470, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -0.465, 
         "sw_longitude": -76.984, 
-        "fullname": "Coca Airport, Coca, Orellano, Coca, Ecuador", 
-        "sw_latitude": -0.470
+        "fullname": "Coca Airport, Coca, Orellano, Ecuador", 
+        "iata_code": "OCC", 
+        "date_indexed": "2010-12-02T17:51:45Z"
       }, 
       "id": 12524524
     }

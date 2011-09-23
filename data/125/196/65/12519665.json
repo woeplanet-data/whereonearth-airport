@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519665, 
-        "name": "Eupora Airport", 
         "alias_ENG_V": [
           "06m"
         ], 
-        "ne_latitude": 33.532, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Eupora Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588961", 
+          "woe:state=2347583", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519665, 
         "ne_longitude": -89.307, 
         "longitude": -89.310, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588961, 
+        "ne_latitude": 33.532, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:16Z", 
-        "parent_woeid": 2412600, 
+        "sw_latitude": 33.527, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 33.530, 
         "sw_longitude": -89.313, 
-        "fullname": "Eupora Airport, Grady, Mississippi, Webster, United States", 
-        "sw_latitude": 33.527
+        "fullname": "Eupora Airport, Grady, Mississippi, United States", 
+        "date_indexed": "2010-12-02T18:39:16Z"
       }, 
       "id": 12519665
     }

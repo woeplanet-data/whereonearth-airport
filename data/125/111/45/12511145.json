@@ -32,29 +32,35 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511145, 
-        "name": "Aeroporto Fernando de Noronha", 
-        "alias_ENG_P": [
-          "Fernando de Noronha Airport"
-        ], 
-        "ne_latitude": -3.847, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "FEN Airport"
         ], 
+        "name": "Aeroporto Fernando de Noronha", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Fernando de Noronha Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12580782", 
+          "woe:state=2344860", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511145, 
         "ne_longitude": -32.420, 
         "longitude": -32.424, 
-        "placetype": "Airport", 
+        "parent_woeid": 12580782, 
+        "ne_latitude": -3.847, 
         "alias_POR_V": [
           "Aeroporto FEN"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 461591, 
+        "sw_latitude": -3.856, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -3.852, 
         "sw_longitude": -32.429, 
-        "fullname": "Aeroporto Fernando de Noronha, Vila dos Rem\u00e9dios, Pernambuco, Fernando de Noronha (distrito Estadual), Brazil", 
-        "sw_latitude": -3.856
+        "fullname": "Aeroporto Fernando de Noronha, Vila dos Rem\u00e9dios, Pernambuco, Brazil", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511145
     }

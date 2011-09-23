@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388270, 
-        "name": "Al Meyers Airport", 
         "alias_ENG_V": [
           "3te"
         ], 
-        "ne_latitude": 42.029, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Al Meyers Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588759", 
+          "woe:state=2347581", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388270, 
         "ne_longitude": -83.936, 
         "longitude": -83.941, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588759, 
+        "ne_latitude": 42.029, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2504534, 
+        "sw_latitude": 42.022, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.022, 
         "sw_longitude": -83.944, 
-        "fullname": "Al Meyers Airport, Tecumseh, Michigan, Lenawee, United States", 
-        "sw_latitude": 42.022
+        "fullname": "Al Meyers Airport, Tecumseh, Michigan, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388270
     }

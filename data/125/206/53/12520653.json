@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520653, 
-        "name": "Lincoln County Airport", 
         "alias_ENG_V": [
           "1l1"
         ], 
-        "ne_latitude": 37.796, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Lincoln County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589240", 
+          "woe:state=2347587", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520653, 
         "ne_longitude": -114.417, 
         "longitude": -114.417, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589240, 
+        "ne_latitude": 37.796, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2467916, 
+        "sw_latitude": 37.778, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 37.793, 
         "sw_longitude": -114.422, 
-        "fullname": "Lincoln County Airport, Bullionville, Nevada, Lincoln, United States", 
-        "sw_latitude": 37.778
+        "fullname": "Lincoln County Airport, Bullionville, Nevada, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520653
     }

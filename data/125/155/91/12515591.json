@@ -3,28 +3,34 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              28.594, 
-              43.975
-            ], 
-            [
-              28.594, 
-              43.984
-            ], 
-            [
-              28.606, 
-              43.984
-            ], 
-            [
-              28.606, 
-              43.975
-            ], 
-            [
-              28.594, 
-              43.975
+              [
+                28.614, 
+                43.985
+              ], 
+              [
+                28.614, 
+                43.985
+              ], 
+              [
+                28.615, 
+                43.986
+              ], 
+              [
+                28.616, 
+                43.986
+              ], 
+              [
+                28.616, 
+                43.986
+              ], 
+              [
+                28.614, 
+                43.985
+              ]
             ]
           ]
         ]
@@ -32,20 +38,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515591, 
+        "placetype": "airport", 
         "name": "Tuzla Airport", 
-        "ne_latitude": 43.984, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": 28.606, 
-        "longitude": 28.600, 
-        "placetype": "Airport", 
+        "hierarchy": [
+          "woe:state=2346628", 
+          "woe:country=23424933", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515591, 
+        "ne_longitude": 28.616, 
+        "longitude": 28.615, 
+        "parent_woeid": 2346628, 
+        "ne_latitude": 43.986, 
         "iso": "RO", 
-        "date_indexed": "2010-12-02T16:37:48Z", 
-        "parent_woeid": 870451, 
-        "latitude": 43.979, 
-        "sw_longitude": 28.594, 
+        "sw_latitude": 43.985, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 43.985, 
+        "sw_longitude": 28.614, 
         "fullname": "Tuzla Airport, Constanta, Romania", 
-        "sw_latitude": 43.975
+        "date_indexed": "2010-12-02T16:37:48Z"
       }, 
       "id": 12515591
     }

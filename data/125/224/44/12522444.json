@@ -3,28 +3,106 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -97.619, 
-              35.377
-            ], 
-            [
-              -97.619, 
-              35.412
-            ], 
-            [
-              -97.583, 
-              35.412
-            ], 
-            [
-              -97.583, 
-              35.377
-            ], 
-            [
-              -97.619, 
-              35.377
+              [
+                -97.579, 
+                35.412
+              ], 
+              [
+                -97.578, 
+                35.411
+              ], 
+              [
+                -97.578, 
+                35.410
+              ], 
+              [
+                -97.578, 
+                35.410
+              ], 
+              [
+                -97.578, 
+                35.410
+              ], 
+              [
+                -97.579, 
+                35.408
+              ], 
+              [
+                -97.583, 
+                35.401
+              ], 
+              [
+                -97.579, 
+                35.395
+              ], 
+              [
+                -97.583, 
+                35.386
+              ], 
+              [
+                -97.584, 
+                35.386
+              ], 
+              [
+                -97.595, 
+                35.384
+              ], 
+              [
+                -97.600, 
+                35.379
+              ], 
+              [
+                -97.603, 
+                35.390
+              ], 
+              [
+                -97.606, 
+                35.394
+              ], 
+              [
+                -97.609, 
+                35.398
+              ], 
+              [
+                -97.619, 
+                35.399
+              ], 
+              [
+                -97.607, 
+                35.403
+              ], 
+              [
+                -97.606, 
+                35.407
+              ], 
+              [
+                -97.606, 
+                35.410
+              ], 
+              [
+                -97.600, 
+                35.407
+              ], 
+              [
+                -97.593, 
+                35.410
+              ], 
+              [
+                -97.583, 
+                35.413
+              ], 
+              [
+                -97.579, 
+                35.413
+              ], 
+              [
+                -97.579, 
+                35.412
+              ]
             ]
           ]
         ]
@@ -32,23 +110,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522444, 
-        "name": "Will Rogers World Airport", 
         "alias_ENG_V": [
           "OKC"
         ], 
-        "ne_latitude": 35.412, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -97.583, 
-        "longitude": -97.597, 
-        "placetype": "Airport", 
-        "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
+        "name": "Will Rogers World Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:suburb=55805858", 
+          "woe:county=12589669", 
+          "woe:state=2347595", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522444, 
+        "ne_longitude": -97.578, 
+        "longitude": -97.594, 
         "parent_woeid": 55805858, 
+        "ne_latitude": 35.413, 
+        "iso": "US", 
+        "sw_latitude": 35.379, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.398, 
         "sw_longitude": -97.619, 
-        "fullname": "Will Rogers World Airport, Oklahoma City, Oklahoma, Oklahoma, United States", 
-        "sw_latitude": 35.377
+        "fullname": "Will Rogers World Airport, Oklahoma City, Oklahoma, United States", 
+        "iata_code": "OKC", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522444
     }

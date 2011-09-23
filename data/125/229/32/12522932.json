@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522932, 
+        "placetype": "airport", 
         "name": "Mo Duc Airport", 
-        "ne_latitude": 14.946, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=20070077", 
+          "woe:country=23424984", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522932, 
         "ne_longitude": 108.901, 
         "longitude": 108.896, 
-        "placetype": "Airport", 
+        "parent_woeid": 20070077, 
+        "ne_latitude": 14.946, 
         "iso": "VN", 
-        "date_indexed": "2010-12-02T08:52:49Z", 
-        "parent_woeid": 1244790, 
+        "sw_latitude": 14.937, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 14.941, 
         "sw_longitude": 108.891, 
         "fullname": "Mo Duc Airport, Quang Ngai, Vietnam", 
-        "sw_latitude": 14.937
+        "date_indexed": "2010-12-02T08:52:49Z"
       }, 
       "id": 12522932
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519177, 
-        "name": "Cheyenne County Municipal Airport", 
         "alias_ENG_V": [
           "SYF"
         ], 
-        "ne_latitude": 39.767, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Cheyenne County Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588382", 
+          "woe:state=2347575", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519177, 
         "ne_longitude": -101.789, 
         "longitude": -101.799, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588382, 
+        "ne_latitude": 39.767, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2486759, 
+        "sw_latitude": 39.756, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 39.766, 
         "sw_longitude": -101.805, 
-        "fullname": "Cheyenne County Municipal Airport, St. Francis, Kansas, Cheyenne, United States", 
-        "sw_latitude": 39.756
+        "fullname": "Cheyenne County Municipal Airport, St. Francis, Kansas, United States", 
+        "iata_code": "SYF", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519177
     }

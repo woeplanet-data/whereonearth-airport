@@ -3,28 +3,102 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -106.404, 
-              31.792
-            ], 
-            [
-              -106.404, 
-              31.825
-            ], 
-            [
-              -106.348, 
-              31.825
-            ], 
-            [
-              -106.348, 
-              31.792
-            ], 
-            [
-              -106.404, 
-              31.792
+              [
+                -106.397, 
+                31.795
+              ], 
+              [
+                -106.402, 
+                31.796
+              ], 
+              [
+                -106.403, 
+                31.789
+              ], 
+              [
+                -106.405, 
+                31.788
+              ], 
+              [
+                -106.408, 
+                31.787
+              ], 
+              [
+                -106.410, 
+                31.788
+              ], 
+              [
+                -106.410, 
+                31.789
+              ], 
+              [
+                -106.404, 
+                31.789
+              ], 
+              [
+                -106.403, 
+                31.796
+              ], 
+              [
+                -106.399, 
+                31.798
+              ], 
+              [
+                -106.397, 
+                31.801
+              ], 
+              [
+                -106.398, 
+                31.804
+              ], 
+              [
+                -106.393, 
+                31.802
+              ], 
+              [
+                -106.391, 
+                31.803
+              ], 
+              [
+                -106.386, 
+                31.801
+              ], 
+              [
+                -106.386, 
+                31.799
+              ], 
+              [
+                -106.389, 
+                31.793
+              ], 
+              [
+                -106.390, 
+                31.790
+              ], 
+              [
+                -106.391, 
+                31.792
+              ], 
+              [
+                -106.394, 
+                31.792
+              ], 
+              [
+                -106.395, 
+                31.792
+              ], 
+              [
+                -106.396, 
+                31.794
+              ], 
+              [
+                -106.397, 
+                31.795
+              ]
             ]
           ]
         ]
@@ -32,23 +106,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519608, 
-        "name": "El Paso International Airport", 
         "alias_ENG_V": [
           "ELP"
         ], 
-        "ne_latitude": 31.825, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -106.348, 
-        "longitude": -106.393, 
-        "placetype": "Airport", 
-        "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
+        "name": "El Paso International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:suburb=2380332", 
+          "woe:county=12590076", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519608, 
+        "ne_longitude": -106.386, 
+        "longitude": -106.395, 
         "parent_woeid": 2380332, 
-        "latitude": 31.798, 
-        "sw_longitude": -106.404, 
-        "fullname": "El Paso International Airport, El Paso, Texas, El Paso, United States", 
-        "sw_latitude": 31.792
+        "ne_latitude": 31.804, 
+        "iso": "US", 
+        "sw_latitude": 31.787, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 31.797, 
+        "sw_longitude": -106.410, 
+        "fullname": "El Paso International Airport, El Paso, Texas, United States", 
+        "iata_code": "ELP", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519608
     }

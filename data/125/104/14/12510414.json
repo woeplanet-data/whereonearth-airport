@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510414, 
+        "placetype": "airport", 
         "name": "Kukes Airport", 
-        "ne_latitude": 42.039, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=20069931", 
+          "woe:state=29389561", 
+          "woe:country=23424742", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510414, 
         "ne_longitude": 20.426, 
         "longitude": 20.420, 
-        "placetype": "Airport", 
+        "parent_woeid": 20069931, 
+        "ne_latitude": 42.039, 
         "iso": "AL", 
-        "date_indexed": "2010-12-02T08:58:52Z", 
-        "parent_woeid": 470570, 
+        "sw_latitude": 42.030, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.035, 
         "sw_longitude": 20.414, 
-        "fullname": "Kukes Airport, Kuksi, Kukes, Kukes, Albania", 
-        "sw_latitude": 42.030
+        "fullname": "Kukes Airport, Kuksi, Kukes, Albania", 
+        "date_indexed": "2010-12-02T08:58:52Z"
       }, 
       "id": 12510414
     }

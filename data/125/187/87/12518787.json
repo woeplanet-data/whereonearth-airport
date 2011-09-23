@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518787, 
+        "placetype": "airport", 
         "name": "Belle Glade State Municipal Airport", 
-        "ne_latitude": 26.702, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12587852", 
+          "woe:state=2347568", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518787, 
         "ne_longitude": -80.662, 
         "longitude": -80.667, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587852, 
+        "ne_latitude": 26.702, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:15Z", 
-        "parent_woeid": 2361822, 
+        "sw_latitude": 26.693, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 26.697, 
         "sw_longitude": -80.672, 
-        "fullname": "Belle Glade State Municipal Airport, Belle Glade, Florida, Palm Beach, United States", 
-        "sw_latitude": 26.693
+        "fullname": "Belle Glade State Municipal Airport, Belle Glade, Florida, United States", 
+        "date_indexed": "2010-12-02T18:39:15Z"
       }, 
       "id": 12518787
     }

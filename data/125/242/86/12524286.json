@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524286, 
-        "name": "Old Fort Bay Airport", 
         "alias_ENG_V": [
           "ZFB Airport"
         ], 
-        "ne_latitude": 51.455, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Old Fort Bay Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375258", 
+          "woe:state=2344924", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524286, 
         "ne_longitude": -57.804, 
         "longitude": -57.811, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375258, 
+        "ne_latitude": 51.455, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 2765, 
+        "sw_latitude": 51.446, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.451, 
         "sw_longitude": -57.819, 
-        "fullname": "Old Fort Bay Airport, Vieux-Fort, Quebec, Basse-C\u00f4te-Nord, Canada", 
-        "sw_latitude": 51.446
+        "fullname": "Old Fort Bay Airport, Vieux-Fort, Quebec, Canada", 
+        "iata_code": "ZFB", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12524286
     }

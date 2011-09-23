@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516455, 
+        "placetype": "airport", 
         "name": "Mozdok Airport", 
-        "ne_latitude": 43.799, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597955", 
+          "woe:state=2346887", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516455, 
         "ne_longitude": 44.609, 
         "longitude": 44.603, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597955, 
+        "ne_latitude": 43.799, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2076339, 
+        "sw_latitude": 43.790, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.795, 
         "sw_longitude": 44.596, 
         "fullname": "Mozdok Airport, Severnaya Osetiya-Alaniya, Mozdoksky, Russia", 
-        "sw_latitude": 43.790
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516455
     }

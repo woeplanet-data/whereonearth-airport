@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512225, 
+        "placetype": "airport", 
         "name": "Wang Kang Airport", 
-        "ne_latitude": 45.687, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12685806", 
+          "woe:county=26198257", 
+          "woe:state=12577998", 
+          "woe:country=23424781", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512225, 
         "ne_longitude": 126.541, 
         "longitude": 126.535, 
-        "placetype": "Airport", 
+        "parent_woeid": 12685806, 
+        "ne_latitude": 45.687, 
         "iso": "CN", 
-        "date_indexed": "2010-12-02T08:51:54Z", 
-        "parent_woeid": 2141025, 
+        "sw_latitude": 45.678, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.682, 
         "sw_longitude": 126.528, 
-        "fullname": "Wang Kang Airport, Wanggang, Heilongjiang, Ha'erbin, China", 
-        "sw_latitude": 45.678
+        "fullname": "Wang Kang Airport, Wanggang, Heilongjiang, China", 
+        "date_indexed": "2010-12-02T08:51:54Z"
       }, 
       "id": 12512225
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524257, 
-        "name": "Petawawa Airport", 
         "alias_ENG_V": [
           "YWA Airport"
         ], 
-        "ne_latitude": 45.905, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Petawawa Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375220", 
+          "woe:state=2344922", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524257, 
         "ne_longitude": -77.277, 
         "longitude": -77.283, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375220, 
+        "ne_latitude": 45.905, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 3314, 
+        "sw_latitude": 45.895, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.900, 
         "sw_longitude": -77.290, 
-        "fullname": "Petawawa Airport, Petawawa, Ontario, Renfrew, Canada", 
-        "sw_latitude": 45.895
+        "fullname": "Petawawa Airport, Petawawa, Ontario, Canada", 
+        "iata_code": "YWA", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12524257
     }

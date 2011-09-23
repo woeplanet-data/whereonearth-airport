@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388409, 
-        "name": "Ring Hill Airport", 
         "alias_ENG_V": [
           "38b"
         ], 
-        "ne_latitude": 44.794, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Ring Hill Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588669", 
+          "woe:state=2347578", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388409, 
         "ne_longitude": -69.070, 
         "longitude": -69.072, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588669, 
+        "ne_latitude": 44.794, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2375141, 
+        "sw_latitude": 44.790, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.794, 
         "sw_longitude": -69.073, 
-        "fullname": "Ring Hill Airport, Carmel, Maine, Penobscot, United States", 
-        "sw_latitude": 44.790
+        "fullname": "Ring Hill Airport, Carmel, Maine, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388409
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524072, 
-        "name": "Cat Lake Airport", 
         "alias_ENG_V": [
           "YAC Airport"
         ], 
-        "ne_latitude": 51.671, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Cat Lake Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375238", 
+          "woe:state=2344922", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524072, 
         "ne_longitude": -91.826, 
         "longitude": -91.833, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375238, 
+        "ne_latitude": 51.671, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 250, 
+        "sw_latitude": 51.662, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.667, 
         "sw_longitude": -91.841, 
-        "fullname": "Cat Lake Airport, Cat Lake, Ontario, Kenora, Canada", 
-        "sw_latitude": 51.662
+        "fullname": "Cat Lake Airport, Cat Lake, Ontario, Canada", 
+        "iata_code": "YAC", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12524072
     }

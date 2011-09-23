@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524442, 
-        "name": "San Javier Airport", 
         "alias_ENG_V": [
           "SJV"
         ], 
-        "ne_latitude": -16.229, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "San Javier Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=55968093", 
+          "woe:county=55967837", 
+          "woe:state=2344808", 
+          "woe:country=23424762", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524442, 
         "ne_longitude": -62.412, 
         "longitude": -62.417, 
-        "placetype": "Airport", 
+        "parent_woeid": 55968093, 
+        "ne_latitude": -16.229, 
         "iso": "BO", 
-        "date_indexed": "2010-12-02T17:57:50Z", 
-        "parent_woeid": 346592, 
+        "sw_latitude": -16.238, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -16.233, 
         "sw_longitude": -62.421, 
         "fullname": "San Javier Airport, Santa Cruz, \u00d1uflo de Ch\u00e1vez, Bolivia", 
-        "sw_latitude": -16.238
+        "date_indexed": "2010-12-02T17:57:50Z"
       }, 
       "id": 12524442
     }

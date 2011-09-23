@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512925, 
+        "placetype": "airport", 
         "name": "Lezignan Corbieres Airport", 
-        "ne_latitude": 43.180, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12659780", 
+          "woe:county=12597198", 
+          "woe:state=7153320", 
+          "woe:country=23424819", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512925, 
         "ne_longitude": 2.742, 
         "longitude": 2.733, 
-        "placetype": "Airport", 
+        "parent_woeid": 12659780, 
+        "ne_latitude": 43.180, 
         "iso": "FR", 
-        "date_indexed": "2010-12-02T12:04:01Z", 
-        "parent_woeid": 586803, 
+        "sw_latitude": 43.171, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.174, 
         "sw_longitude": 2.726, 
-        "fullname": "Lezignan Corbieres Airport, Conilhac-Corbi\u00e8res, Languedoc-Roussillon, Aude, France", 
-        "sw_latitude": 43.171
+        "fullname": "Lezignan Corbieres Airport, Conilhac-Corbi\u00e8res, Languedoc-Roussillon, France", 
+        "date_indexed": "2010-12-02T12:04:01Z"
       }, 
       "id": 12512925
     }

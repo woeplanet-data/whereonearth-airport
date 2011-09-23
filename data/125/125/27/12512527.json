@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512527, 
+        "placetype": "airport", 
         "name": "Horovice Airport", 
-        "ne_latitude": 49.854, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12608790", 
+          "woe:county=12582582", 
+          "woe:state=20070468", 
+          "woe:country=23424810", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512527, 
         "ne_longitude": 13.885, 
         "longitude": 13.877, 
-        "placetype": "Airport", 
+        "parent_woeid": 12608790, 
+        "ne_latitude": 49.854, 
         "iso": "CZ", 
-        "date_indexed": "2010-12-02T08:56:52Z", 
-        "parent_woeid": 799694, 
+        "sw_latitude": 49.845, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.849, 
         "sw_longitude": 13.870, 
-        "fullname": "Horovice Airport, Tlustice, St\u0159edo\u010desk\u00fd, Beroun, Czech Republic", 
-        "sw_latitude": 49.845
+        "fullname": "Horovice Airport, Tlustice, St\u0159edo\u010desk\u00fd, Czech Republic", 
+        "date_indexed": "2010-12-02T08:56:52Z"
       }, 
       "id": 12512527
     }

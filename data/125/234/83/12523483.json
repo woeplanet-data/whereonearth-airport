@@ -32,29 +32,35 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12523483, 
-        "name": "Aeroporto Ariquemes", 
-        "alias_ENG_P": [
-          "Ariquemes Airport"
-        ], 
-        "ne_latitude": -9.939, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "AQM"
         ], 
+        "name": "Aeroporto Ariquemes", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Ariquemes Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12581567", 
+          "woe:state=2344865", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523483, 
         "ne_longitude": -63.069, 
         "longitude": -63.074, 
-        "placetype": "Airport", 
+        "parent_woeid": 12581567, 
+        "ne_latitude": -9.939, 
         "alias_POR_V": [
           "Aeroporto AQM"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:28Z", 
-        "parent_woeid": 456713, 
+        "sw_latitude": -9.948, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -9.943, 
         "sw_longitude": -63.078, 
-        "fullname": "Aeroporto Ariquemes, Ariquemes, Rondonia, Ariquemes, Brazil", 
-        "sw_latitude": -9.948
+        "fullname": "Aeroporto Ariquemes, Ariquemes, Rondonia, Brazil", 
+        "date_indexed": "2010-12-02T18:01:28Z"
       }, 
       "id": 12523483
     }

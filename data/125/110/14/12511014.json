@@ -32,29 +32,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511014, 
-        "name": "Aeroporto Alcantara", 
-        "alias_ENG_P": [
-          "Alcantara Airport"
-        ], 
-        "ne_latitude": -2.368, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "QAH"
         ], 
+        "name": "Aeroporto Alcantara", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Alcantara Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12579176", 
+          "woe:state=2344854", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511014, 
         "ne_longitude": -44.392, 
         "longitude": -44.396, 
-        "placetype": "Airport", 
+        "parent_woeid": 12579176, 
+        "ne_latitude": -2.368, 
         "alias_POR_V": [
           "Aeroporto QAH"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 456020, 
+        "sw_latitude": -2.377, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -2.373, 
         "sw_longitude": -44.401, 
-        "fullname": "Aeroporto Alcantara, Alc\u00e2ntara, Maranhao, Alc\u00e2ntara, Brazil", 
-        "sw_latitude": -2.377
+        "fullname": "Aeroporto Alcantara, Alc\u00e2ntara, Maranhao, Brazil", 
+        "iata_code": "QAH", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511014
     }

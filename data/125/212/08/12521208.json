@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521208, 
+        "placetype": "airport", 
         "name": "Okolona Municipal Airport Richard Stovall Field", 
-        "ne_latitude": 34.021, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12588892", 
+          "woe:state=2347583", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521208, 
         "ne_longitude": -88.725, 
         "longitude": -88.727, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588892, 
+        "ne_latitude": 34.021, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2475246, 
+        "sw_latitude": 34.009, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 34.015, 
         "sw_longitude": -88.729, 
-        "fullname": "Okolona Municipal Airport Richard Stovall Field, Poplar Springs, Mississippi, Chickasaw, United States", 
-        "sw_latitude": 34.009
+        "fullname": "Okolona Municipal Airport Richard Stovall Field, Poplar Springs, Mississippi, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521208
     }

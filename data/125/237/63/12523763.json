@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523763, 
-        "name": "Wageningen Airport", 
         "alias_ENG_V": [
           "AGI"
         ], 
-        "ne_latitude": 5.771, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Wageningen Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2346410", 
+          "woe:country=23424913", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523763, 
         "ne_longitude": -56.679, 
         "longitude": -56.683, 
-        "placetype": "Airport", 
+        "parent_woeid": 2346410, 
+        "ne_latitude": 5.771, 
         "iso": "SR", 
-        "date_indexed": "2010-12-02T12:16:16Z", 
-        "parent_woeid": 377210, 
+        "sw_latitude": 5.762, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 5.767, 
         "sw_longitude": -56.688, 
         "fullname": "Wageningen Airport, Wageningen, Nickerie, Suriname", 
-        "sw_latitude": 5.762
+        "iata_code": "AGI", 
+        "date_indexed": "2010-12-02T12:16:16Z"
       }, 
       "id": 12523763
     }

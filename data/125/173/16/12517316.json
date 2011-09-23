@@ -3,28 +3,30 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              30.129, 
-              -1.979
-            ], 
-            [
-              30.129, 
-              -1.956
-            ], 
-            [
-              30.151, 
-              -1.956
-            ], 
-            [
-              30.151, 
-              -1.979
-            ], 
-            [
-              30.129, 
-              -1.979
+              [
+                30.134, 
+                -1.965
+              ], 
+              [
+                30.135, 
+                -1.962
+              ], 
+              [
+                30.140, 
+                -1.964
+              ], 
+              [
+                30.136, 
+                -1.967
+              ], 
+              [
+                30.134, 
+                -1.965
+              ]
             ]
           ]
         ]
@@ -32,23 +34,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517316, 
-        "name": "Kigali Airport", 
         "alias_ENG_V": [
           "KGL"
         ], 
-        "ne_latitude": -1.956, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": 30.151, 
-        "longitude": 30.140, 
-        "placetype": "Airport", 
+        "name": "Kigali Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55864739", 
+          "woe:state=55864750", 
+          "woe:country=23424937", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517316, 
+        "ne_longitude": 30.140, 
+        "longitude": 30.137, 
+        "parent_woeid": 55864739, 
+        "ne_latitude": -1.962, 
         "iso": "RW", 
-        "date_indexed": "2010-12-02T09:35:48Z", 
-        "parent_woeid": 1410558, 
-        "latitude": -1.968, 
-        "sw_longitude": 30.129, 
+        "sw_latitude": -1.967, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": -1.964, 
+        "sw_longitude": 30.134, 
         "fullname": "Kigali Airport, Kigali Province, Gasabo, Rwanda", 
-        "sw_latitude": -1.979
+        "date_indexed": "2010-12-02T09:35:48Z"
       }, 
       "id": 12517316
     }

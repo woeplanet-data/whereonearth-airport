@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512436, 
-        "name": "Los Chiles Airport", 
         "alias_ENG_V": [
           "LSL"
         ], 
-        "ne_latitude": 11.039, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Los Chiles Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=26809046", 
+          "woe:county=26808822", 
+          "woe:state=2345082", 
+          "woe:country=23424791", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512436, 
         "ne_longitude": -84.703, 
         "longitude": -84.707, 
-        "placetype": "Airport", 
+        "parent_woeid": 26809046, 
+        "ne_latitude": 11.039, 
         "iso": "CR", 
-        "date_indexed": "2010-12-02T12:16:27Z", 
-        "parent_woeid": 58706, 
+        "sw_latitude": 11.030, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 11.034, 
         "sw_longitude": -84.712, 
-        "fullname": "Los Chiles Airport, Los Chiles, Alajuela, Los Chiles, Costa Rica", 
-        "sw_latitude": 11.030
+        "fullname": "Los Chiles Airport, Los Chiles, Alajuela, Costa Rica", 
+        "date_indexed": "2010-12-02T12:16:27Z"
       }, 
       "id": 12512436
     }

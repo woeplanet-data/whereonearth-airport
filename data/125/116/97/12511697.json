@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511697, 
-        "name": "Hornepayne Municipal Airport", 
         "alias_ENG_V": [
           "YHN Airport"
         ], 
-        "ne_latitude": 49.198, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Hornepayne Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375191", 
+          "woe:state=2344922", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511697, 
         "ne_longitude": -84.752, 
         "longitude": -84.759, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375191, 
+        "ne_latitude": 49.198, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 3113, 
+        "sw_latitude": 49.189, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.193, 
         "sw_longitude": -84.766, 
-        "fullname": "Hornepayne Municipal Airport, Hornepayne, Ontario, Algoma, Canada", 
-        "sw_latitude": 49.189
+        "fullname": "Hornepayne Municipal Airport, Hornepayne, Ontario, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12511697
     }

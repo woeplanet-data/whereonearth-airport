@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513488, 
-        "name": "Nabire Airport", 
         "alias_ENG_V": [
           "NBX"
         ], 
-        "ne_latitude": -3.357, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Nabire Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=56000199", 
+          "woe:state=2345718", 
+          "woe:country=23424846", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513488, 
         "ne_longitude": 135.498, 
         "longitude": 135.494, 
-        "placetype": "Airport", 
+        "parent_woeid": 56000199, 
+        "ne_latitude": -3.357, 
         "iso": "ID", 
-        "date_indexed": "2010-12-02T16:54:32Z", 
-        "parent_woeid": 1047971, 
+        "sw_latitude": -3.366, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -3.362, 
         "sw_longitude": 135.489, 
-        "fullname": "Nabire Airport, Nabire, Papua, Nabire, Indonesia", 
-        "sw_latitude": -3.366
+        "fullname": "Nabire Airport, Nabire, Papua, Indonesia", 
+        "iata_code": "NBX", 
+        "date_indexed": "2010-12-02T16:54:32Z"
       }, 
       "id": 12513488
     }

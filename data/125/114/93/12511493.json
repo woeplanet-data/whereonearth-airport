@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511493, 
+        "placetype": "airport", 
         "name": "Prespa Airport", 
-        "ne_latitude": 43.579, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55873772", 
+          "woe:state=20070050", 
+          "woe:country=23424771", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511493, 
         "ne_longitude": 28.053, 
         "longitude": 28.047, 
-        "placetype": "Airport", 
+        "parent_woeid": 55873772, 
+        "ne_latitude": 43.579, 
         "iso": "BG", 
-        "date_indexed": "2010-12-02T16:14:37Z", 
-        "parent_woeid": 835971, 
+        "sw_latitude": 43.570, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.575, 
         "sw_longitude": 28.041, 
         "fullname": "Prespa Airport, Dobrich, Balchik, Bulgaria", 
-        "sw_latitude": 43.570
+        "date_indexed": "2010-12-02T16:14:37Z"
       }, 
       "id": 12511493
     }

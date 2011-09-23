@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522900, 
+        "placetype": "airport", 
         "name": "Duc Co Airport", 
-        "ne_latitude": 13.789, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2347733", 
+          "woe:country=23424984", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522900, 
         "ne_longitude": 107.630, 
         "longitude": 107.625, 
-        "placetype": "Airport", 
+        "parent_woeid": 2347733, 
+        "ne_latitude": 13.789, 
         "iso": "VN", 
-        "date_indexed": "2010-12-02T08:52:49Z", 
-        "parent_woeid": 1252607, 
+        "sw_latitude": 13.780, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 13.785, 
         "sw_longitude": 107.621, 
         "fullname": "Duc Co Airport, Gia Lai, Vietnam", 
-        "sw_latitude": 13.780
+        "date_indexed": "2010-12-02T08:52:49Z"
       }, 
       "id": 12522900
     }

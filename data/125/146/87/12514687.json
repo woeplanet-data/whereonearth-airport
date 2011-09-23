@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514687, 
-        "name": "Analalava Airport", 
         "alias_ENG_V": [
           "HVA"
         ], 
-        "ne_latitude": -14.624, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Analalava Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=23706596", 
+          "woe:state=2346148", 
+          "woe:country=23424883", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514687, 
         "ne_longitude": 47.771, 
         "longitude": 47.767, 
-        "placetype": "Airport", 
+        "parent_woeid": 23706596, 
+        "ne_latitude": -14.624, 
         "iso": "MG", 
-        "date_indexed": "2010-12-02T16:43:54Z", 
-        "parent_woeid": 1492216, 
+        "sw_latitude": -14.633, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -14.629, 
         "sw_longitude": 47.762, 
-        "fullname": "Analalava Airport, Analalava, Mahajanga, Analalava, Madagascar", 
-        "sw_latitude": -14.633
+        "fullname": "Analalava Airport, Analalava, Mahajanga, Madagascar", 
+        "iata_code": "HVA", 
+        "date_indexed": "2010-12-02T16:43:54Z"
       }, 
       "id": 12514687
     }

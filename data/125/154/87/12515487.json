@@ -3,28 +3,70 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              51.552, 
-              25.240
-            ], 
-            [
-              51.552, 
-              25.282
-            ], 
-            [
-              51.577, 
-              25.282
-            ], 
-            [
-              51.577, 
-              25.240
-            ], 
-            [
-              51.552, 
-              25.240
+              [
+                51.565, 
+                25.261
+              ], 
+              [
+                51.565, 
+                25.260
+              ], 
+              [
+                51.562, 
+                25.260
+              ], 
+              [
+                51.560, 
+                25.257
+              ], 
+              [
+                51.557, 
+                25.260
+              ], 
+              [
+                51.555, 
+                25.265
+              ], 
+              [
+                51.556, 
+                25.268
+              ], 
+              [
+                51.556, 
+                25.269
+              ], 
+              [
+                51.558, 
+                25.269
+              ], 
+              [
+                51.560, 
+                25.269
+              ], 
+              [
+                51.562, 
+                25.269
+              ], 
+              [
+                51.567, 
+                25.268
+              ], 
+              [
+                51.565, 
+                25.266
+              ], 
+              [
+                51.564, 
+                25.263
+              ], 
+              [
+                51.565, 
+                25.261
+              ]
             ]
           ]
         ]
@@ -32,23 +74,28 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515487, 
-        "name": "Doha International Airport", 
         "alias_ENG_V": [
           "Doha Airport"
         ], 
-        "ne_latitude": 25.282, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": 51.577, 
-        "longitude": 51.557, 
-        "placetype": "Airport", 
+        "name": "Doha International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=20070008", 
+          "woe:country=23424930", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515487, 
+        "ne_longitude": 51.567, 
+        "longitude": 51.560, 
+        "parent_woeid": 20070008, 
+        "ne_latitude": 25.269, 
         "iso": "QA", 
-        "date_indexed": "2010-12-02T12:16:10Z", 
-        "parent_woeid": 1940517, 
-        "latitude": 25.265, 
-        "sw_longitude": 51.552, 
+        "sw_latitude": 25.257, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 25.264, 
+        "sw_longitude": 51.555, 
         "fullname": "Doha International Airport, Doha, Doha, Qatar", 
-        "sw_latitude": 25.240
+        "date_indexed": "2010-12-02T12:16:10Z"
       }, 
       "id": 12515487
     }

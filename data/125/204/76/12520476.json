@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520476, 
-        "name": "Kirbyville Airport", 
         "alias_ENG_V": [
           "T12"
         ], 
-        "ne_latitude": 30.651, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Kirbyville Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590127", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520476, 
         "ne_longitude": -93.911, 
         "longitude": -93.913, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590127, 
+        "ne_latitude": 30.651, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2433038, 
+        "sw_latitude": 30.642, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 30.645, 
         "sw_longitude": -93.920, 
-        "fullname": "Kirbyville Airport, Kirbyville, Texas, Jasper, United States", 
-        "sw_latitude": 30.642
+        "fullname": "Kirbyville Airport, Kirbyville, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520476
     }

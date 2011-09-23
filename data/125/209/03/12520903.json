@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520903, 
-        "name": "Meriden Markham Municipal Airport", 
         "alias_ENG_V": [
           "Mmk"
         ], 
-        "ne_latitude": 41.515, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Meriden Markham Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587795", 
+          "woe:state=2347565", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520903, 
         "ne_longitude": -72.828, 
         "longitude": -72.830, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587795, 
+        "ne_latitude": 41.515, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2449574, 
+        "sw_latitude": 41.512, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.513, 
         "sw_longitude": -72.831, 
-        "fullname": "Meriden Markham Municipal Airport, Meriden, Connecticut, New Haven, United States", 
-        "sw_latitude": 41.512
+        "fullname": "Meriden Markham Municipal Airport, Meriden, Connecticut, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12520903
     }

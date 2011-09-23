@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 56051696, 
+        "placetype": "airport", 
         "name": "Flugfeld Ferlach", 
-        "ne_latitude": 46.540, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12673594", 
+          "woe:county=12591673", 
+          "woe:state=2344709", 
+          "woe:country=23424750", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56051696, 
         "ne_longitude": 14.339, 
         "longitude": 14.329, 
-        "placetype": "Airport", 
+        "parent_woeid": 12673594, 
+        "ne_latitude": 46.540, 
         "iso": "AT", 
-        "date_indexed": "2010-12-02T16:35:40Z", 
-        "parent_woeid": 539412, 
+        "sw_latitude": 46.529, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.532, 
         "sw_longitude": 14.327, 
-        "fullname": "Flugfeld Ferlach, Ferlach, Carinthia, Klagenfurt Land, Austria", 
-        "sw_latitude": 46.529
+        "fullname": "Flugfeld Ferlach, Ferlach, Carinthia, Austria", 
+        "date_indexed": "2010-12-02T16:35:40Z"
       }, 
       "id": 56051696
     }

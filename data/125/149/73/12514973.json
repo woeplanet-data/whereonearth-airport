@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514973, 
-        "name": "Tehuacan Airport", 
         "alias_ENG_V": [
           "TCN"
         ], 
-        "ne_latitude": 18.504, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Tehuacan Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12601382", 
+          "woe:state=2346284", 
+          "woe:country=23424900", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514973, 
         "ne_longitude": -97.413, 
         "longitude": -97.418, 
-        "placetype": "Airport", 
+        "parent_woeid": 12601382, 
+        "ne_latitude": 18.504, 
         "iso": "MX", 
-        "date_indexed": "2010-12-02T16:57:55Z", 
-        "parent_woeid": 148574, 
+        "sw_latitude": 18.495, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 18.500, 
         "sw_longitude": -97.423, 
-        "fullname": "Tehuacan Airport, Tehuac\u00e1n, Puebla, Tehuacan, Mexico", 
-        "sw_latitude": 18.495
+        "fullname": "Tehuacan Airport, Tehuac\u00e1n, Puebla, Mexico", 
+        "iata_code": "TCN", 
+        "date_indexed": "2010-12-02T16:57:55Z"
       }, 
       "id": 12514973
     }

@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514329, 
+        "placetype": "airport", 
         "name": "Dzhilga South Airport", 
-        "ne_latitude": 41.700, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345982", 
+          "woe:country=23424871", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514329, 
         "ne_longitude": 69.002, 
         "longitude": 68.996, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345982, 
+        "ne_latitude": 41.700, 
         "iso": "KZ", 
-        "date_indexed": "2010-12-02T08:54:13Z", 
-        "parent_woeid": 2265092, 
+        "sw_latitude": 41.691, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.696, 
         "sw_longitude": 68.990, 
         "fullname": "Dzhilga South Airport, Ongtustik Qazaqstan, Kazakhstan", 
-        "sw_latitude": 41.691
+        "date_indexed": "2010-12-02T08:54:13Z"
       }, 
       "id": 12514329
     }

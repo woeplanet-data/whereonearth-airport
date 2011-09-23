@@ -3,28 +3,142 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              55.337, 
-              25.230
-            ], 
-            [
-              55.337, 
-              25.274
-            ], 
-            [
-              55.404, 
-              25.274
-            ], 
-            [
-              55.404, 
-              25.230
-            ], 
-            [
-              55.337, 
-              25.230
+              [
+                55.359, 
+                25.242
+              ], 
+              [
+                55.357, 
+                25.239
+              ], 
+              [
+                55.358, 
+                25.243
+              ], 
+              [
+                55.354, 
+                25.246
+              ], 
+              [
+                55.354, 
+                25.248
+              ], 
+              [
+                55.353, 
+                25.251
+              ], 
+              [
+                55.352, 
+                25.255
+              ], 
+              [
+                55.353, 
+                25.257
+              ], 
+              [
+                55.352, 
+                25.261
+              ], 
+              [
+                55.356, 
+                25.260
+              ], 
+              [
+                55.357, 
+                25.260
+              ], 
+              [
+                55.359, 
+                25.258
+              ], 
+              [
+                55.362, 
+                25.260
+              ], 
+              [
+                55.363, 
+                25.258
+              ], 
+              [
+                55.364, 
+                25.258
+              ], 
+              [
+                55.368, 
+                25.256
+              ], 
+              [
+                55.369, 
+                25.256
+              ], 
+              [
+                55.371, 
+                25.255
+              ], 
+              [
+                55.372, 
+                25.255
+              ], 
+              [
+                55.376, 
+                25.253
+              ], 
+              [
+                55.376, 
+                25.252
+              ], 
+              [
+                55.376, 
+                25.250
+              ], 
+              [
+                55.374, 
+                25.247
+              ], 
+              [
+                55.375, 
+                25.242
+              ], 
+              [
+                55.374, 
+                25.247
+              ], 
+              [
+                55.369, 
+                25.245
+              ], 
+              [
+                55.369, 
+                25.244
+              ], 
+              [
+                55.368, 
+                25.243
+              ], 
+              [
+                55.368, 
+                25.242
+              ], 
+              [
+                55.366, 
+                25.242
+              ], 
+              [
+                55.364, 
+                25.242
+              ], 
+              [
+                55.361, 
+                25.243
+              ], 
+              [
+                55.359, 
+                25.242
+              ]
             ]
           ]
         ]
@@ -32,23 +146,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 23388362, 
-        "name": "Dubai International Airport", 
         "alias_ENG_V": [
           "Dubai International"
         ], 
-        "ne_latitude": 25.274, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": 55.404, 
-        "longitude": 55.355, 
-        "placetype": "Airport", 
+        "name": "Dubai International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55922623", 
+          "woe:state=2347111", 
+          "woe:country=23424738", 
+          "woe:planet=1"
+        ], 
+        "woeid": 23388362, 
+        "ne_longitude": 55.376, 
+        "longitude": 55.363, 
+        "parent_woeid": 55922623, 
+        "ne_latitude": 25.261, 
         "iso": "AE", 
-        "date_indexed": "2010-12-02T08:58:41Z", 
-        "parent_woeid": 1940345, 
-        "latitude": 25.246, 
-        "sw_longitude": 55.337, 
-        "fullname": "Dubai International Airport, Dubai, Dubai, Dubai, United Arab Emirates", 
-        "sw_latitude": 25.230
+        "sw_latitude": 25.239, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 25.251, 
+        "sw_longitude": 55.352, 
+        "fullname": "Dubai International Airport, Dubai, Dubai, United Arab Emirates", 
+        "iata_code": "DXB", 
+        "date_indexed": "2010-12-02T08:58:41Z"
       }, 
       "id": 23388362
     }

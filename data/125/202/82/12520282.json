@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520282, 
-        "name": "Immokalee Airport", 
         "alias_ENG_V": [
           "IMM Airport"
         ], 
-        "ne_latitude": 26.438, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Immokalee Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587813", 
+          "woe:state=2347568", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520282, 
         "ne_longitude": -81.389, 
         "longitude": -81.402, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587813, 
+        "ne_latitude": 26.438, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2426644, 
+        "sw_latitude": 26.418, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 26.425, 
         "sw_longitude": -81.410, 
-        "fullname": "Immokalee Airport, Immokalee, Florida, Collier, United States", 
-        "sw_latitude": 26.418
+        "fullname": "Immokalee Airport, Immokalee, Florida, United States", 
+        "iata_code": "IMM", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520282
     }

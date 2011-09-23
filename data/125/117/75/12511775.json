@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511775, 
+        "placetype": "airport", 
         "name": "Oliver Airport", 
-        "ne_latitude": 49.178, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=29375155", 
+          "woe:state=2344916", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511775, 
         "ne_longitude": -119.543, 
         "longitude": -119.550, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375155, 
+        "ne_latitude": 49.178, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 9914, 
+        "sw_latitude": 49.169, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.173, 
         "sw_longitude": -119.557, 
-        "fullname": "Oliver Airport, Oliver, British Columbia, Okanagan-Similkameen, Canada", 
-        "sw_latitude": 49.169
+        "fullname": "Oliver Airport, Oliver, British Columbia, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12511775
     }

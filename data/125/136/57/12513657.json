@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513657, 
+        "placetype": "airport", 
         "name": "Raedhanpur Airport", 
-        "ne_latitude": 23.226, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12586426", 
+          "woe:state=2345743", 
+          "woe:country=23424848", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513657, 
         "ne_longitude": 68.897, 
         "longitude": 68.893, 
-        "placetype": "Airport", 
+        "parent_woeid": 12586426, 
+        "ne_latitude": 23.226, 
         "iso": "IN", 
-        "date_indexed": "2010-12-02T09:26:27Z", 
-        "parent_woeid": 29181348, 
+        "sw_latitude": 23.217, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 23.221, 
         "sw_longitude": 68.888, 
-        "fullname": "Raedhanpur Airport, Bhanada, Gujarat, Kachchh, India", 
-        "sw_latitude": 23.217
+        "fullname": "Raedhanpur Airport, Bhanada, Gujarat, India", 
+        "date_indexed": "2010-12-02T09:26:27Z"
       }, 
       "id": 12513657
     }

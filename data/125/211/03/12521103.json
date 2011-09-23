@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521103, 
-        "name": "New Bedford Municipal Airport", 
         "alias_ENG_V": [
           "New Bedford Regional Airport"
         ], 
-        "ne_latitude": 41.685, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "New Bedford Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588702", 
+          "woe:state=2347580", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521103, 
         "ne_longitude": -70.947, 
         "longitude": -70.958, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588702, 
+        "ne_latitude": 41.685, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2458019, 
+        "sw_latitude": 41.670, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.674, 
         "sw_longitude": -70.966, 
-        "fullname": "New Bedford Municipal Airport, New Bedford, Massachusetts, Bristol, United States", 
-        "sw_latitude": 41.670
+        "fullname": "New Bedford Municipal Airport, New Bedford, Massachusetts, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12521103
     }

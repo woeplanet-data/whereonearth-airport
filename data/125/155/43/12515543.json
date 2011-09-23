@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515543, 
+        "placetype": "airport", 
         "name": "Ianca Airport", 
-        "ne_latitude": 45.164, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2346622", 
+          "woe:country=23424933", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515543, 
         "ne_longitude": 27.441, 
         "longitude": 27.435, 
-        "placetype": "Airport", 
+        "parent_woeid": 2346622, 
+        "ne_latitude": 45.164, 
         "iso": "RO", 
-        "date_indexed": "2010-12-02T16:37:48Z", 
-        "parent_woeid": 871189, 
+        "sw_latitude": 45.154, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.159, 
         "sw_longitude": 27.428, 
         "fullname": "Ianca Airport, Braila, Romania", 
-        "sw_latitude": 45.154
+        "date_indexed": "2010-12-02T16:37:48Z"
       }, 
       "id": 12515543
     }

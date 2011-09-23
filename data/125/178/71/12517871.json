@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517871, 
-        "name": "Balikesir Airport", 
         "alias_ENG_V": [
           "BZI"
         ], 
-        "ne_latitude": 39.624, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Balikesir Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29390589", 
+          "woe:state=2347267", 
+          "woe:country=23424969", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517871, 
         "ne_longitude": 27.932, 
         "longitude": 27.926, 
-        "placetype": "Airport", 
+        "parent_woeid": 29390589, 
+        "ne_latitude": 39.624, 
         "iso": "TR", 
-        "date_indexed": "2010-12-02T16:23:11Z", 
-        "parent_woeid": 2343771, 
+        "sw_latitude": 39.615, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 39.619, 
         "sw_longitude": 27.921, 
-        "fullname": "Balikesir Airport, Bal\u0131kesir, Bal\u0131kesir, Merkez, Turkey", 
-        "sw_latitude": 39.615
+        "fullname": "Balikesir Airport, Bal\u0131kesir, Bal\u0131kesir, Turkey", 
+        "iata_code": "BZI", 
+        "date_indexed": "2010-12-02T16:23:11Z"
       }, 
       "id": 12517871
     }

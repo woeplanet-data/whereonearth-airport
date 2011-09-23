@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 56051960, 
+        "placetype": "airport", 
         "name": "Flugplatz Bad Neustadt-grasberg", 
-        "ne_latitude": 50.312, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12635514", 
+          "woe:county=12596981", 
+          "woe:state=2345482", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56051960, 
         "ne_longitude": 10.231, 
         "longitude": 10.225, 
-        "placetype": "Airport", 
+        "parent_woeid": 12635514, 
+        "ne_latitude": 50.312, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 636478, 
+        "sw_latitude": 50.303, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.309, 
         "sw_longitude": 10.218, 
-        "fullname": "Flugplatz Bad Neustadt-grasberg, Bad Neustadt an der Saale, Bavaria, Rh\u00f6n-Grabfeld, Germany", 
-        "sw_latitude": 50.303
+        "fullname": "Flugplatz Bad Neustadt-grasberg, Bad Neustadt an der Saale, Bavaria, Germany", 
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 56051960
     }

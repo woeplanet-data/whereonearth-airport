@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524347, 
-        "name": "Les Cayes Airport", 
         "alias_ENG_V": [
           "CYA"
         ], 
-        "ne_latitude": 18.266, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Les Cayes Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2345621", 
+          "woe:country=23424839", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524347, 
         "ne_longitude": -73.771, 
         "longitude": -73.776, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345621, 
+        "ne_latitude": 18.266, 
         "iso": "HT", 
-        "date_indexed": "2010-12-02T17:52:09Z", 
-        "parent_woeid": 89199, 
+        "sw_latitude": 18.257, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 18.261, 
         "sw_longitude": -73.781, 
         "fullname": "Les Cayes Airport, Cayes, Sud, Haiti", 
-        "sw_latitude": 18.257
+        "iata_code": "CYA", 
+        "date_indexed": "2010-12-02T17:52:09Z"
       }, 
       "id": 12524347
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524621, 
-        "name": "Clarks Point Airport", 
         "alias_ENG_V": [
           "CLP"
         ], 
-        "ne_latitude": 58.856, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Clarks Point Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587560", 
+          "woe:state=2347560", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524621, 
         "ne_longitude": -158.501, 
         "longitude": -158.510, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587560, 
+        "ne_latitude": 58.856, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2397725, 
+        "sw_latitude": 58.847, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 58.852, 
         "sw_longitude": -158.519, 
-        "fullname": "Clarks Point Airport, Ekuk, Alaska, Dillingham Census Area, United States", 
-        "sw_latitude": 58.847
+        "fullname": "Clarks Point Airport, Ekuk, Alaska, United States", 
+        "iata_code": "CLP", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12524621
     }

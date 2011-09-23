@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519552, 
-        "name": "Dutchess County Airport", 
         "alias_ENG_V": [
           "Dutchess Airport"
         ], 
-        "ne_latitude": 41.634, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Dutchess County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589325", 
+          "woe:state=2347591", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519552, 
         "ne_longitude": -73.875, 
         "longitude": -73.881, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589325, 
+        "ne_latitude": 41.634, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2514143, 
+        "sw_latitude": 41.620, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.624, 
         "sw_longitude": -73.893, 
-        "fullname": "Dutchess County Airport, Wappinger, New York, Dutchess, United States", 
-        "sw_latitude": 41.620
+        "fullname": "Dutchess County Airport, Wappinger, New York, United States", 
+        "iata_code": "POU", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519552
     }

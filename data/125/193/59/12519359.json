@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519359, 
-        "name": "Creston Municipal Airport", 
         "alias_ENG_V": [
           "CSQ"
         ], 
-        "ne_latitude": 41.028, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Creston Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588359", 
+          "woe:state=2347574", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519359, 
         "ne_longitude": -94.361, 
         "longitude": -94.361, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588359, 
+        "ne_latitude": 41.028, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2387127, 
+        "sw_latitude": 41.014, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.020, 
         "sw_longitude": -94.367, 
-        "fullname": "Creston Municipal Airport, Creston, Iowa, Union, United States", 
-        "sw_latitude": 41.014
+        "fullname": "Creston Municipal Airport, Creston, Iowa, United States", 
+        "iata_code": "CSQ", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519359
     }

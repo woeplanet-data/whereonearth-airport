@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512024, 
+        "placetype": "airport", 
         "name": "Dai Shan Airport", 
-        "ne_latitude": 30.293, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12685394", 
+          "woe:county=26198143", 
+          "woe:state=12577992", 
+          "woe:country=23424781", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512024, 
         "ne_longitude": 122.151, 
         "longitude": 122.146, 
-        "placetype": "Airport", 
+        "parent_woeid": 12685394, 
+        "ne_latitude": 30.293, 
         "iso": "CN", 
-        "date_indexed": "2010-12-02T08:51:48Z", 
-        "parent_woeid": 2132748, 
+        "sw_latitude": 30.284, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 30.288, 
         "sw_longitude": 122.140, 
-        "fullname": "Dai Shan Airport, Dongshajiao, Zhejiang, Zhoushan, China", 
-        "sw_latitude": 30.284
+        "fullname": "Dai Shan Airport, Dongshajiao, Zhejiang, China", 
+        "date_indexed": "2010-12-02T08:51:48Z"
       }, 
       "id": 12512024
     }

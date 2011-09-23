@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388516, 
+        "placetype": "airport", 
         "name": "Rocky Mount Downtown Airport", 
-        "ne_latitude": 35.977, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12589437", 
+          "woe:state=2347592", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388516, 
         "ne_longitude": -77.785, 
         "longitude": -77.791, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589437, 
+        "ne_latitude": 35.977, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2483709, 
+        "sw_latitude": 35.967, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.972, 
         "sw_longitude": -77.797, 
-        "fullname": "Rocky Mount Downtown Airport, Rocky Mount, North Carolina, Nash, United States", 
-        "sw_latitude": 35.967
+        "fullname": "Rocky Mount Downtown Airport, Rocky Mount, North Carolina, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 29388516
     }

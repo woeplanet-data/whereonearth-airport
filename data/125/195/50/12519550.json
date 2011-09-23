@@ -3,28 +3,38 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -107.769, 
-              37.137
-            ], 
-            [
-              -107.769, 
-              37.167
-            ], 
-            [
-              -107.739, 
-              37.167
-            ], 
-            [
-              -107.739, 
-              37.137
-            ], 
-            [
-              -107.769, 
-              37.137
+              [
+                -107.751, 
+                37.161
+              ], 
+              [
+                -107.748, 
+                37.161
+              ], 
+              [
+                -107.750, 
+                37.156
+              ], 
+              [
+                -107.750, 
+                37.156
+              ], 
+              [
+                -107.752, 
+                37.155
+              ], 
+              [
+                -107.751, 
+                37.160
+              ], 
+              [
+                -107.751, 
+                37.161
+              ]
             ]
           ]
         ]
@@ -32,23 +42,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519550, 
-        "name": "Durango la Plata County Airport", 
         "alias_ENG_V": [
           "DRO Airport"
         ], 
-        "ne_latitude": 37.167, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -107.739, 
-        "longitude": -107.751, 
-        "placetype": "Airport", 
+        "name": "Durango la Plata County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587760", 
+          "woe:state=2347564", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519550, 
+        "ne_longitude": -107.748, 
+        "longitude": -107.750, 
+        "parent_woeid": 12587760, 
+        "ne_latitude": 37.161, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2467150, 
-        "latitude": 37.160, 
-        "sw_longitude": -107.769, 
-        "fullname": "Durango la Plata County Airport, Oxford, Colorado, La Plata, United States", 
-        "sw_latitude": 37.137
+        "sw_latitude": 37.155, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 37.158, 
+        "sw_longitude": -107.752, 
+        "fullname": "Durango la Plata County Airport, Oxford, Colorado, United States", 
+        "iata_code": "DRO", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519550
     }

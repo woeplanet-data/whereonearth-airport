@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524122, 
-        "name": "Gagnon Airport", 
         "alias_ENG_V": [
           "YGA Airport"
         ], 
-        "ne_latitude": 51.869, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Gagnon Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375257", 
+          "woe:state=2344924", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524122, 
         "ne_longitude": -68.131, 
         "longitude": -68.138, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375257, 
+        "ne_latitude": 51.869, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 23394699, 
+        "sw_latitude": 51.860, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.865, 
         "sw_longitude": -68.145, 
-        "fullname": "Gagnon Airport, Fermont, Quebec, Caniapiscau, Canada", 
-        "sw_latitude": 51.860
+        "fullname": "Gagnon Airport, Fermont, Quebec, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12524122
     }

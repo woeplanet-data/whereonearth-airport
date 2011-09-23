@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388232, 
-        "name": "Hillman Airport", 
         "alias_ENG_V": [
           "Y95"
         ], 
-        "ne_latitude": 45.088, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Hillman Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588773", 
+          "woe:state=2347581", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388232, 
         "ne_longitude": -83.932, 
         "longitude": -83.937, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588773, 
+        "ne_latitude": 45.088, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2422009, 
+        "sw_latitude": 45.077, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.088, 
         "sw_longitude": -83.942, 
-        "fullname": "Hillman Airport, Hillman, Michigan, Montmorency, United States", 
-        "sw_latitude": 45.077
+        "fullname": "Hillman Airport, Hillman, Michigan, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388232
     }

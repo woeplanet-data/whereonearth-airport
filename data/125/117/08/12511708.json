@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511708, 
+        "placetype": "airport", 
         "name": "Iroquois Falls Airport", 
-        "ne_latitude": 48.745, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=29375242", 
+          "woe:state=2344922", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511708, 
         "ne_longitude": -80.786, 
         "longitude": -80.793, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375242, 
+        "ne_latitude": 48.745, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 3150, 
+        "sw_latitude": 48.736, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.740, 
         "sw_longitude": -80.800, 
-        "fullname": "Iroquois Falls Airport, Nellie Lake, Ontario, Cochrane, Canada", 
-        "sw_latitude": 48.736
+        "fullname": "Iroquois Falls Airport, Nellie Lake, Ontario, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12511708
     }

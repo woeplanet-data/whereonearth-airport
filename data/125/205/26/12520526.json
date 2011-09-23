@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520526, 
-        "name": "Lake County Airport", 
         "alias_ENG_V": [
           "Lk Airport"
         ], 
-        "ne_latitude": 42.172, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Lake County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589710", 
+          "woe:state=2347596", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520526, 
         "ne_longitude": -120.395, 
         "longitude": -120.407, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589710, 
+        "ne_latitude": 42.172, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2403775, 
+        "sw_latitude": 42.150, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.155, 
         "sw_longitude": -120.416, 
-        "fullname": "Lake County Airport, Five Corners, Oregon, Lake, United States", 
-        "sw_latitude": 42.150
+        "fullname": "Lake County Airport, Five Corners, Oregon, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520526
     }

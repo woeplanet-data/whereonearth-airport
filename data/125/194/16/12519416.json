@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519416, 
-        "name": "Dauphin Island Airport", 
         "alias_ENG_V": [
           "4r9"
         ], 
-        "ne_latitude": 30.263, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Dauphin Island Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587535", 
+          "woe:state=2347559", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519416, 
         "ne_longitude": -88.123, 
         "longitude": -88.124, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587535, 
+        "ne_latitude": 30.263, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2389541, 
+        "sw_latitude": 30.257, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 30.258, 
         "sw_longitude": -88.132, 
-        "fullname": "Dauphin Island Airport, Dauphin Island, Alabama, Mobile, United States", 
-        "sw_latitude": 30.257
+        "fullname": "Dauphin Island Airport, Dauphin Island, Alabama, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519416
     }

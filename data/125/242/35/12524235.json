@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524235, 
-        "name": "Clinton Point Airport", 
         "alias_ENG_V": [
           "YUH Airport"
         ], 
-        "ne_latitude": 69.592, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Clinton Point Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375230", 
+          "woe:state=20069920", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524235, 
         "ne_longitude": -120.772, 
         "longitude": -120.785, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375230, 
+        "ne_latitude": 69.592, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 23405898, 
+        "sw_latitude": 69.583, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 69.588, 
         "sw_longitude": -120.798, 
-        "fullname": "Clinton Point Airport, Kugluktuk, Nunavut, Nunavut, Canada", 
-        "sw_latitude": 69.583
+        "fullname": "Clinton Point Airport, Kugluktuk, Nunavut, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12524235
     }

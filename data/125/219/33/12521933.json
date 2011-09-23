@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521933, 
-        "name": "Spearman Municipal Airport", 
         "alias_ENG_V": [
           "E42"
         ], 
-        "ne_latitude": 36.229, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Spearman Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590104", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521933, 
         "ne_longitude": -101.189, 
         "longitude": -101.199, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590104, 
+        "ne_latitude": 36.229, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2497411, 
+        "sw_latitude": 36.213, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.220, 
         "sw_longitude": -101.201, 
-        "fullname": "Spearman Municipal Airport, Spearman, Texas, Hansford, United States", 
-        "sw_latitude": 36.213
+        "fullname": "Spearman Municipal Airport, Spearman, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521933
     }

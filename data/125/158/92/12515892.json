@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515892, 
+        "placetype": "airport", 
         "name": "Chekuyevo Airport", 
-        "ne_latitude": 63.581, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598026", 
+          "woe:state=20070508", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515892, 
         "ne_longitude": 39.015, 
         "longitude": 39.005, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598026, 
+        "ne_latitude": 63.581, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 1983495, 
+        "sw_latitude": 63.572, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 63.576, 
         "sw_longitude": 38.995, 
         "fullname": "Chekuyevo Airport, Arkhangelrskaya Oblast, Onezhsky, Russia", 
-        "sw_latitude": 63.572
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12515892
     }

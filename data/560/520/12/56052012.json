@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 56052012, 
+        "placetype": "airport", 
         "name": "Flugplatz Bad Neuenahr-ahrweiler", 
-        "ne_latitude": 50.561, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12627807", 
+          "woe:county=12596824", 
+          "woe:state=2345488", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56052012, 
         "ne_longitude": 7.140, 
         "longitude": 7.136, 
-        "placetype": "Airport", 
+        "parent_woeid": 12627807, 
+        "ne_latitude": 50.561, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 23410688, 
+        "sw_latitude": 50.557, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.557, 
         "sw_longitude": 7.130, 
-        "fullname": "Flugplatz Bad Neuenahr-ahrweiler, Grafschaft, Rhineland-Palatinate, Landkreis Ahrweiler, Germany", 
-        "sw_latitude": 50.557
+        "fullname": "Flugplatz Bad Neuenahr-ahrweiler, Grafschaft, Rhineland-Palatinate, Germany", 
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 56052012
     }

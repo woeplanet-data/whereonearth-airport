@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511403, 
+        "placetype": "airport", 
         "name": "Chernookovo Airport", 
-        "ne_latitude": 43.730, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55873896", 
+          "woe:state=20070050", 
+          "woe:country=23424771", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511403, 
         "ne_longitude": 28.174, 
         "longitude": 28.168, 
-        "placetype": "Airport", 
+        "parent_woeid": 55873896, 
+        "ne_latitude": 43.730, 
         "iso": "BG", 
-        "date_indexed": "2010-12-02T16:14:37Z", 
-        "parent_woeid": 835493, 
+        "sw_latitude": 43.721, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.725, 
         "sw_longitude": 28.162, 
         "fullname": "Chernookovo Airport, Dobrich, General Toshevo, Bulgaria", 
-        "sw_latitude": 43.721
+        "date_indexed": "2010-12-02T16:14:37Z"
       }, 
       "id": 12511403
     }

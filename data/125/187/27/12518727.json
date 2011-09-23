@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518727, 
-        "name": "Baker City Municipal Airport", 
         "alias_ENG_V": [
           "BKE"
         ], 
-        "ne_latitude": 44.847, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Baker City Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589692", 
+          "woe:state=2347596", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518727, 
         "ne_longitude": -117.798, 
         "longitude": -117.809, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589692, 
+        "ne_latitude": 44.847, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2452377, 
+        "sw_latitude": 44.829, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.834, 
         "sw_longitude": -117.816, 
-        "fullname": "Baker City Municipal Airport, Missouri Flat, Oregon, Baker, United States", 
-        "sw_latitude": 44.829
+        "fullname": "Baker City Municipal Airport, Missouri Flat, Oregon, United States", 
+        "iata_code": "BKE", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518727
     }

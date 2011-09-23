@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "FRE", 
-        "woeid": 56051856, 
+        "placetype": "airport", 
         "name": "A\u00e9rodrome de Gaillac Lisle-sur-tarn", 
-        "ne_latitude": 43.886, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12661897", 
+          "woe:county=12597192", 
+          "woe:state=7153323", 
+          "woe:country=23424819", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56051856, 
         "ne_longitude": 1.881, 
         "longitude": 1.881, 
-        "placetype": "Airport", 
+        "parent_woeid": 12661897, 
+        "ne_latitude": 43.886, 
         "iso": "FR", 
-        "date_indexed": "2010-12-02T12:04:01Z", 
-        "parent_woeid": 592316, 
+        "sw_latitude": 43.878, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.884, 
         "sw_longitude": 1.867, 
-        "fullname": "A\u00e9rodrome de Gaillac Lisle-sur-tarn, Gaillac, Midi-Pyrenees, Tarn, France", 
+        "fullname": "A\u00e9rodrome de Gaillac Lisle-sur-tarn, Gaillac, Midi-Pyrenees, France", 
         "alias_FRE_S": [
           "Aerodrome de Gaillac Lisle-sur-tarn"
         ], 
-        "sw_latitude": 43.878
+        "date_indexed": "2010-12-02T12:04:01Z"
       }, 
       "id": 56051856
     }

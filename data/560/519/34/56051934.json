@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 56051934, 
+        "placetype": "airport", 
         "name": "Flugplatz Schmidgaden/oberpfalz", 
-        "ne_latitude": 49.432, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12634315", 
+          "woe:county=12596931", 
+          "woe:state=2345482", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56051934, 
         "ne_longitude": 12.100, 
         "longitude": 12.099, 
-        "placetype": "Airport", 
+        "parent_woeid": 12634315, 
+        "ne_latitude": 49.432, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 692449, 
+        "sw_latitude": 49.428, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.430, 
         "sw_longitude": 12.093, 
-        "fullname": "Flugplatz Schmidgaden/oberpfalz, Schmidgaden, Bavaria, Landkreis Schwandorf, Germany", 
-        "sw_latitude": 49.428
+        "fullname": "Flugplatz Schmidgaden/oberpfalz, Schmidgaden, Bavaria, Germany", 
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 56051934
     }

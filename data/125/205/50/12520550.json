@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520550, 
-        "name": "Lamar County Airport", 
         "alias_ENG_V": [
           "M55"
         ], 
-        "ne_latitude": 33.853, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Lamar County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587524", 
+          "woe:state=2347559", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520550, 
         "ne_longitude": -88.113, 
         "longitude": -88.115, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587524, 
+        "ne_latitude": 33.853, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2501426, 
+        "sw_latitude": 33.840, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 33.847, 
         "sw_longitude": -88.118, 
-        "fullname": "Lamar County Airport, Sulligent, Alabama, Lamar, United States", 
-        "sw_latitude": 33.840
+        "fullname": "Lamar County Airport, Sulligent, Alabama, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520550
     }

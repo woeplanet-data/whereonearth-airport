@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516163, 
+        "placetype": "airport", 
         "name": "Kinel-Cherkassy Airport", 
-        "ne_latitude": 53.460, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598610", 
+          "woe:state=2346906", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516163, 
         "ne_longitude": 51.558, 
         "longitude": 51.550, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598610, 
+        "ne_latitude": 53.460, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2021500, 
+        "sw_latitude": 53.451, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.455, 
         "sw_longitude": 51.543, 
-        "fullname": "Kinel-Cherkassy Airport, Kinel'-Cherkasy, Samarskaya Oblast, Kinel-Cherkassky, Russia", 
-        "sw_latitude": 53.451
+        "fullname": "Kinel-Cherkassy Airport, Kinel'-Cherkasy, Samarskaya Oblast, Russia", 
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516163
     }

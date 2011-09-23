@@ -3,28 +3,98 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -87.762, 
-              41.778
-            ], 
-            [
-              -87.762, 
-              41.793
-            ], 
-            [
-              -87.741, 
-              41.793
-            ], 
-            [
-              -87.741, 
-              41.778
-            ], 
-            [
-              -87.762, 
-              41.778
+              [
+                -87.739, 
+                41.785
+              ], 
+              [
+                -87.740, 
+                41.781
+              ], 
+              [
+                -87.742, 
+                41.778
+              ], 
+              [
+                -87.743, 
+                41.779
+              ], 
+              [
+                -87.746, 
+                41.781
+              ], 
+              [
+                -87.749, 
+                41.779
+              ], 
+              [
+                -87.750, 
+                41.778
+              ], 
+              [
+                -87.752, 
+                41.779
+              ], 
+              [
+                -87.754, 
+                41.782
+              ], 
+              [
+                -87.755, 
+                41.783
+              ], 
+              [
+                -87.754, 
+                41.787
+              ], 
+              [
+                -87.755, 
+                41.793
+              ], 
+              [
+                -87.751, 
+                41.793
+              ], 
+              [
+                -87.750, 
+                41.794
+              ], 
+              [
+                -87.749, 
+                41.794
+              ], 
+              [
+                -87.746, 
+                41.794
+              ], 
+              [
+                -87.743, 
+                41.794
+              ], 
+              [
+                -87.738, 
+                41.794
+              ], 
+              [
+                -87.735, 
+                41.792
+              ], 
+              [
+                -87.737, 
+                41.786
+              ], 
+              [
+                -87.737, 
+                41.786
+              ], 
+              [
+                -87.739, 
+                41.785
+              ]
             ]
           ]
         ]
@@ -32,23 +102,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519178, 
-        "name": "Chicago Midway International Airport", 
         "alias_ENG_V": [
           "Midway"
         ], 
-        "ne_latitude": 41.793, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -87.741, 
-        "longitude": -87.742, 
-        "placetype": "Airport", 
-        "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
+        "name": "Chicago Midway International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:suburb=28751263", 
+          "woe:county=12588093", 
+          "woe:state=2347572", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519178, 
+        "ne_longitude": -87.735, 
+        "longitude": -87.746, 
         "parent_woeid": 28751263, 
-        "latitude": 41.788, 
-        "sw_longitude": -87.762, 
-        "fullname": "Chicago Midway International Airport, Chicago, Illinois, Cook, United States", 
-        "sw_latitude": 41.778
+        "ne_latitude": 41.794, 
+        "iso": "US", 
+        "sw_latitude": 41.778, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 41.787, 
+        "sw_longitude": -87.755, 
+        "fullname": "Chicago Midway International Airport, Chicago, Illinois, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519178
     }

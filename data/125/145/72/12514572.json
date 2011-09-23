@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514572, 
+        "placetype": "airport", 
         "name": "Lielvarde Airport", 
-        "ne_latitude": 56.787, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=56190502", 
+          "woe:state=55844585", 
+          "woe:country=23424874", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514572, 
         "ne_longitude": 24.874, 
         "longitude": 24.866, 
-        "placetype": "Airport", 
+        "parent_woeid": 56190502, 
+        "ne_latitude": 56.787, 
         "iso": "LV", 
-        "date_indexed": "2010-12-02T08:49:48Z", 
-        "parent_woeid": 852484, 
+        "sw_latitude": 56.778, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 56.782, 
         "sw_longitude": 24.858, 
         "fullname": "Lielvarde Airport, Ogres Rajons, \u00d3eguma Novads, Latvia", 
-        "sw_latitude": 56.778
+        "date_indexed": "2010-12-02T08:49:48Z"
       }, 
       "id": 12514572
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518632, 
-        "name": "Anniston County Airport", 
         "alias_ENG_V": [
           "Anniston Metro Airport"
         ], 
-        "ne_latitude": 33.597, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Anniston County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587494", 
+          "woe:state=2347559", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518632, 
         "ne_longitude": -85.847, 
         "longitude": -85.852, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587494, 
+        "ne_latitude": 33.597, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2467181, 
+        "sw_latitude": 33.583, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 33.589, 
         "sw_longitude": -85.865, 
-        "fullname": "Anniston County Airport, Oxford, Alabama, Calhoun, United States", 
-        "sw_latitude": 33.583
+        "fullname": "Anniston County Airport, Oxford, Alabama, United States", 
+        "iata_code": "ANB", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518632
     }

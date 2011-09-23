@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388114, 
-        "name": "Cuba Municipal Airport", 
         "alias_ENG_V": [
           "Ubx"
         ], 
-        "ne_latitude": 38.074, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Cuba Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588993", 
+          "woe:state=2347584", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388114, 
         "ne_longitude": -91.427, 
         "longitude": -91.427, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588993, 
+        "ne_latitude": 38.074, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2388075, 
+        "sw_latitude": 38.065, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.067, 
         "sw_longitude": -91.429, 
-        "fullname": "Cuba Municipal Airport, Cuba, Missouri, Crawford, United States", 
-        "sw_latitude": 38.065
+        "fullname": "Cuba Municipal Airport, Cuba, Missouri, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388114
     }

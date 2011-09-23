@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521823, 
-        "name": "Shelby Municipal Airport", 
         "alias_ENG_V": [
           "EHO"
         ], 
-        "ne_latitude": 35.261, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Shelby Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589396", 
+          "woe:state=2347592", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521823, 
         "ne_longitude": -81.595, 
         "longitude": -81.599, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589396, 
+        "ne_latitude": 35.261, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2492128, 
+        "sw_latitude": 35.251, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.254, 
         "sw_longitude": -81.606, 
-        "fullname": "Shelby Municipal Airport, Shelby, North Carolina, Cleveland, United States", 
-        "sw_latitude": 35.251
+        "fullname": "Shelby Municipal Airport, Shelby, North Carolina, United States", 
+        "iata_code": "EHO", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521823
     }

@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515308, 
+        "placetype": "airport", 
         "name": "Gryzliny Airport", 
-        "ne_latitude": 53.618, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12617249", 
+          "woe:county=12591449", 
+          "woe:state=12577948", 
+          "woe:country=23424923", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515308, 
         "ne_longitude": 20.358, 
         "longitude": 20.350, 
-        "placetype": "Airport", 
+        "parent_woeid": 12617249, 
+        "ne_latitude": 53.618, 
         "iso": "PL", 
-        "date_indexed": "2010-12-02T12:12:45Z", 
-        "parent_woeid": 495477, 
+        "sw_latitude": 53.608, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.613, 
         "sw_longitude": 20.343, 
         "fullname": "Gryzliny Airport, Warmian-Masurian, Olsztyn County, Poland", 
-        "sw_latitude": 53.608
+        "date_indexed": "2010-12-02T12:12:45Z"
       }, 
       "id": 12515308
     }

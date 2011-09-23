@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522476, 
-        "name": "Wilson Airport", 
         "alias_ENG_V": [
           "Stephens-Ouachita County Airport"
         ], 
-        "ne_latitude": 33.448, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Wilson Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587646", 
+          "woe:state=2347562", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522476, 
         "ne_longitude": -93.052, 
         "longitude": -93.056, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587646, 
+        "ne_latitude": 33.448, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2499585, 
+        "sw_latitude": 33.438, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 33.438, 
         "sw_longitude": -93.057, 
-        "fullname": "Wilson Airport, Stephens, Arkansas, Ouachita, United States", 
-        "sw_latitude": 33.438
+        "fullname": "Wilson Airport, Stephens, Arkansas, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522476
     }

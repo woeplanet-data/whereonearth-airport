@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512651, 
-        "name": "Seymour Airport", 
         "alias_ENG_V": [
           "GPS"
         ], 
-        "ne_latitude": -0.445, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Seymour Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=28358254", 
+          "woe:county=28358246", 
+          "woe:state=2345202", 
+          "woe:country=23424801", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512651, 
         "ne_longitude": -90.258, 
         "longitude": -90.262, 
-        "placetype": "Airport", 
+        "parent_woeid": 28358254, 
+        "ne_latitude": -0.445, 
         "iso": "EC", 
-        "date_indexed": "2010-12-02T17:51:45Z", 
-        "parent_woeid": 375024, 
+        "sw_latitude": -0.455, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -0.450, 
         "sw_longitude": -90.267, 
         "fullname": "Seymour Airport, Galapagos, Santa Cruz, Ecuador", 
-        "sw_latitude": -0.455
+        "iata_code": "GPS", 
+        "date_indexed": "2010-12-02T17:51:45Z"
       }, 
       "id": 12512651
     }

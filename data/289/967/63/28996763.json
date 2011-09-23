@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 28996763, 
-        "name": "Otis Air Force Base", 
         "alias_ENG_V": [
           "Otis AFB"
         ], 
-        "ne_latitude": 41.745, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Otis Air Force Base", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588700", 
+          "woe:state=2347580", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 28996763, 
         "ne_longitude": -70.488, 
         "longitude": -70.543, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588700, 
+        "ne_latitude": 41.745, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2367315, 
+        "sw_latitude": 41.663, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.704, 
         "sw_longitude": -70.598, 
-        "fullname": "Otis Air Force Base, Bourne, Massachusetts, Barnstable, United States", 
-        "sw_latitude": 41.663
+        "fullname": "Otis Air Force Base, Bourne, Massachusetts, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 28996763
     }

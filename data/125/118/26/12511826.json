@@ -3,28 +3,98 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -106.730, 
-              52.159
-            ], 
-            [
-              -106.730, 
-              52.188
-            ], 
-            [
-              -106.670, 
-              52.188
-            ], 
-            [
-              -106.670, 
-              52.159
-            ], 
-            [
-              -106.730, 
-              52.159
+              [
+                -106.690, 
+                52.170
+              ], 
+              [
+                -106.690, 
+                52.170
+              ], 
+              [
+                -106.693, 
+                52.168
+              ], 
+              [
+                -106.694, 
+                52.171
+              ], 
+              [
+                -106.692, 
+                52.171
+              ], 
+              [
+                -106.692, 
+                52.171
+              ], 
+              [
+                -106.691, 
+                52.171
+              ], 
+              [
+                -106.690, 
+                52.171
+              ], 
+              [
+                -106.689, 
+                52.170
+              ], 
+              [
+                -106.683, 
+                52.171
+              ], 
+              [
+                -106.679, 
+                52.168
+              ], 
+              [
+                -106.674, 
+                52.171
+              ], 
+              [
+                -106.671, 
+                52.173
+              ], 
+              [
+                -106.668, 
+                52.174
+              ], 
+              [
+                -106.671, 
+                52.173
+              ], 
+              [
+                -106.674, 
+                52.171
+              ], 
+              [
+                -106.672, 
+                52.163
+              ], 
+              [
+                -106.675, 
+                52.163
+              ], 
+              [
+                -106.682, 
+                52.167
+              ], 
+              [
+                -106.684, 
+                52.162
+              ], 
+              [
+                -106.683, 
+                52.167
+              ], 
+              [
+                -106.690, 
+                52.170
+              ]
             ]
           ]
         ]
@@ -32,23 +102,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511826, 
-        "name": "John G Diefenbaker International Airport", 
         "alias_ENG_V": [
           "YXE Airport"
         ], 
-        "ne_latitude": 52.188, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -106.670, 
-        "longitude": -106.690, 
-        "placetype": "Airport", 
+        "name": "John G Diefenbaker International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375232", 
+          "woe:state=2344925", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511826, 
+        "ne_longitude": -106.668, 
+        "longitude": -106.680, 
+        "parent_woeid": 29375232, 
+        "ne_latitude": 52.174, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:24:00Z", 
-        "parent_woeid": 2180, 
-        "latitude": 52.170, 
-        "sw_longitude": -106.730, 
-        "fullname": "John G Diefenbaker International Airport, Saskatoon, Saskatchewan, Saskatchewan, Canada", 
-        "sw_latitude": 52.159
+        "sw_latitude": 52.162, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 52.168, 
+        "sw_longitude": -106.694, 
+        "fullname": "John G Diefenbaker International Airport, Saskatoon, Saskatchewan, Canada", 
+        "date_indexed": "2010-12-02T10:24:00Z"
       }, 
       "id": 12511826
     }

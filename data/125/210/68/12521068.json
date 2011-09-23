@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521068, 
-        "name": "Murray Field Airport", 
         "alias_ENG_V": [
           "Murray Airport"
         ], 
-        "ne_latitude": 40.807, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Murray Field Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587681", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521068, 
         "ne_longitude": -124.108, 
         "longitude": -124.118, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587681, 
+        "ne_latitude": 40.807, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2400612, 
+        "sw_latitude": 40.800, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.805, 
         "sw_longitude": -124.122, 
-        "fullname": "Murray Field Airport, Eureka, California, Humboldt, United States", 
-        "sw_latitude": 40.800
+        "fullname": "Murray Field Airport, Eureka, California, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12521068
     }

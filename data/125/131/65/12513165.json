@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513165, 
+        "placetype": "airport", 
         "name": "Leipheim Airport", 
-        "ne_latitude": 48.445, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12634824", 
+          "woe:county=12596910", 
+          "woe:state=2345482", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513165, 
         "ne_longitude": 10.244, 
         "longitude": 10.237, 
-        "placetype": "Airport", 
+        "parent_woeid": 12634824, 
+        "ne_latitude": 48.445, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 641865, 
+        "sw_latitude": 48.436, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.441, 
         "sw_longitude": 10.230, 
-        "fullname": "Leipheim Airport, Bubesheim, Bavaria, Landkreis G\u00fcnzburg, Germany", 
+        "fullname": "Leipheim Airport, Bubesheim, Bavaria, Germany", 
         "alias_GER_Q": [
           "Flughafen Leipheim"
         ], 
-        "sw_latitude": 48.436
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 12513165
     }

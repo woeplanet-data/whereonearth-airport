@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522435, 
-        "name": "Wilbarger County Airport", 
         "alias_ENG_V": [
           "F05"
         ], 
-        "ne_latitude": 34.234, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Wilbarger County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590250", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522435, 
         "ne_longitude": -99.276, 
         "longitude": -99.279, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590250, 
+        "ne_latitude": 34.234, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2402288, 
+        "sw_latitude": 34.216, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 34.227, 
         "sw_longitude": -99.294, 
-        "fullname": "Wilbarger County Airport, Fargo, Texas, Wilbarger, United States", 
-        "sw_latitude": 34.216
+        "fullname": "Wilbarger County Airport, Fargo, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522435
     }

@@ -3,28 +3,94 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -122.826, 
-              38.500
-            ], 
-            [
-              -122.826, 
-              38.516
-            ], 
-            [
-              -122.800, 
-              38.516
-            ], 
-            [
-              -122.800, 
-              38.500
-            ], 
-            [
-              -122.826, 
-              38.500
+              [
+                -122.802, 
+                38.507
+              ], 
+              [
+                -122.806, 
+                38.507
+              ], 
+              [
+                -122.811, 
+                38.506
+              ], 
+              [
+                -122.815, 
+                38.505
+              ], 
+              [
+                -122.814, 
+                38.509
+              ], 
+              [
+                -122.814, 
+                38.511
+              ], 
+              [
+                -122.814, 
+                38.512
+              ], 
+              [
+                -122.814, 
+                38.512
+              ], 
+              [
+                -122.812, 
+                38.517
+              ], 
+              [
+                -122.809, 
+                38.513
+              ], 
+              [
+                -122.806, 
+                38.515
+              ], 
+              [
+                -122.805, 
+                38.515
+              ], 
+              [
+                -122.802, 
+                38.511
+              ], 
+              [
+                -122.800, 
+                38.509
+              ], 
+              [
+                -122.796, 
+                38.510
+              ], 
+              [
+                -122.797, 
+                38.508
+              ], 
+              [
+                -122.799, 
+                38.503
+              ], 
+              [
+                -122.800, 
+                38.503
+              ], 
+              [
+                -122.800, 
+                38.503
+              ], 
+              [
+                -122.800, 
+                38.504
+              ], 
+              [
+                -122.802, 
+                38.507
+              ]
             ]
           ]
         ]
@@ -32,23 +98,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521904, 
-        "name": "Sonoma County Airport", 
         "alias_ENG_V": [
           "STS Airport"
         ], 
-        "ne_latitude": 38.516, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -122.800, 
-        "longitude": -122.805, 
-        "placetype": "Airport", 
+        "name": "Sonoma County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587718", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521904, 
+        "ne_longitude": -122.796, 
+        "longitude": -122.807, 
+        "parent_woeid": 12587718, 
+        "ne_latitude": 38.517, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2521863, 
-        "latitude": 38.511, 
-        "sw_longitude": -122.826, 
-        "fullname": "Sonoma County Airport, Windsor, California, Sonoma, United States", 
-        "sw_latitude": 38.500
+        "sw_latitude": 38.503, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 38.510, 
+        "sw_longitude": -122.815, 
+        "fullname": "Sonoma County Airport, Windsor, California, United States", 
+        "iata_code": "STS", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521904
     }

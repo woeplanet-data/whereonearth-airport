@@ -3,28 +3,86 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -103.071, 
-              44.027
-            ], 
-            [
-              -103.071, 
-              44.057
-            ], 
-            [
-              -103.045, 
-              44.057
-            ], 
-            [
-              -103.045, 
-              44.027
-            ], 
-            [
-              -103.071, 
-              44.027
+              [
+                -103.063, 
+                44.046
+              ], 
+              [
+                -103.063, 
+                44.046
+              ], 
+              [
+                -103.061, 
+                44.044
+              ], 
+              [
+                -103.060, 
+                44.043
+              ], 
+              [
+                -103.059, 
+                44.043
+              ], 
+              [
+                -103.058, 
+                44.039
+              ], 
+              [
+                -103.060, 
+                44.037
+              ], 
+              [
+                -103.062, 
+                44.034
+              ], 
+              [
+                -103.064, 
+                44.037
+              ], 
+              [
+                -103.064, 
+                44.038
+              ], 
+              [
+                -103.064, 
+                44.039
+              ], 
+              [
+                -103.061, 
+                44.044
+              ], 
+              [
+                -103.062, 
+                44.046
+              ], 
+              [
+                -103.062, 
+                44.049
+              ], 
+              [
+                -103.062, 
+                44.051
+              ], 
+              [
+                -103.064, 
+                44.052
+              ], 
+              [
+                -103.062, 
+                44.049
+              ], 
+              [
+                -103.063, 
+                44.047
+              ], 
+              [
+                -103.063, 
+                44.046
+              ]
             ]
           ]
         ]
@@ -32,23 +90,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521530, 
-        "name": "Rapid City Regional Airport", 
         "alias_ENG_V": [
           "Rapid City Airport"
         ], 
-        "ne_latitude": 44.057, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -103.045, 
-        "longitude": -103.060, 
-        "placetype": "Airport", 
+        "name": "Rapid City Regional Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589896", 
+          "woe:state=2347600", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521530, 
+        "ne_longitude": -103.058, 
+        "longitude": -103.061, 
+        "parent_woeid": 12589896, 
+        "ne_latitude": 44.052, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2478734, 
+        "sw_latitude": 44.034, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.038, 
-        "sw_longitude": -103.071, 
-        "fullname": "Rapid City Regional Airport, Rapid City, South Dakota, Pennington, United States", 
-        "sw_latitude": 44.027
+        "sw_longitude": -103.064, 
+        "fullname": "Rapid City Regional Airport, Rapid City, South Dakota, United States", 
+        "iata_code": "RAP", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521530
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522122, 
+        "placetype": "airport", 
         "name": "Thigpen Field Airport", 
-        "ne_latitude": 31.957, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12588914", 
+          "woe:state=2347583", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522122, 
         "ne_longitude": -89.230, 
         "longitude": -89.236, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588914, 
+        "ne_latitude": 31.957, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2360252, 
+        "sw_latitude": 31.948, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 31.952, 
         "sw_longitude": -89.241, 
-        "fullname": "Thigpen Field Airport, Bay Springs, Mississippi, Jasper, United States", 
-        "sw_latitude": 31.948
+        "fullname": "Thigpen Field Airport, Bay Springs, Mississippi, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12522122
     }

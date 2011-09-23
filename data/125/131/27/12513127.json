@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513127, 
+        "placetype": "airport", 
         "name": "Hinsterwalde Airport", 
-        "ne_latitude": 51.618, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12633066", 
+          "woe:county=12596891", 
+          "woe:state=2345491", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513127, 
         "ne_longitude": 13.731, 
         "longitude": 13.724, 
-        "placetype": "Airport", 
+        "parent_woeid": 12633066, 
+        "ne_latitude": 51.618, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:24Z", 
-        "parent_woeid": 649756, 
+        "sw_latitude": 51.609, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.613, 
         "sw_longitude": 13.716, 
-        "fullname": "Hinsterwalde Airport, Finsterwalde, Brandenburg, Elbe-Elster, Germany", 
+        "fullname": "Hinsterwalde Airport, Finsterwalde, Brandenburg, Germany", 
         "alias_GER_Q": [
           "Flughafen Hinsterwalde"
         ], 
-        "sw_latitude": 51.609
+        "date_indexed": "2010-12-02T09:50:24Z"
       }, 
       "id": 12513127
     }

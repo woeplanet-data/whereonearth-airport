@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523581, 
-        "name": "Icabaru Airport", 
         "alias_ENG_V": [
           "ICA"
         ], 
-        "ne_latitude": 4.338, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Icabaru Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=26805588", 
+          "woe:county=26804568", 
+          "woe:state=2347682", 
+          "woe:country=23424982", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523581, 
         "ne_longitude": -61.729, 
         "longitude": -61.733, 
-        "placetype": "Airport", 
+        "parent_woeid": 26805588, 
+        "ne_latitude": 4.338, 
         "iso": "VE", 
-        "date_indexed": "2010-12-02T16:11:43Z", 
-        "parent_woeid": 468616, 
+        "sw_latitude": 4.329, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 4.333, 
         "sw_longitude": -61.738, 
         "fullname": "Icabaru Airport, Bolivar, Gran Sabana, Venezuela", 
-        "sw_latitude": 4.329
+        "iata_code": "ICA", 
+        "date_indexed": "2010-12-02T16:11:43Z"
       }, 
       "id": 12523581
     }

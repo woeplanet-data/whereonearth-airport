@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515508, 
+        "placetype": "airport", 
         "name": "Botosani Airport", 
-        "ne_latitude": 47.744, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2346621", 
+          "woe:country=23424933", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515508, 
         "ne_longitude": 26.701, 
         "longitude": 26.695, 
-        "placetype": "Airport", 
+        "parent_woeid": 2346621, 
+        "ne_latitude": 47.744, 
         "iso": "RO", 
-        "date_indexed": "2010-12-02T16:37:48Z", 
-        "parent_woeid": 867889, 
+        "sw_latitude": 47.735, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.740, 
         "sw_longitude": 26.688, 
         "fullname": "Botosani Airport, Boto\u015fani, Botosani, Romania", 
-        "sw_latitude": 47.735
+        "date_indexed": "2010-12-02T16:37:48Z"
       }, 
       "id": 12515508
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515916, 
+        "placetype": "airport", 
         "name": "Chkalovsk Airport", 
-        "ne_latitude": 56.688, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598204", 
+          "woe:state=2346895", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515916, 
         "ne_longitude": 43.196, 
         "longitude": 43.187, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598204, 
+        "ne_latitude": 56.688, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2091323, 
+        "sw_latitude": 56.678, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 56.683, 
         "sw_longitude": 43.179, 
         "fullname": "Chkalovsk Airport, Nizhegorodskaya Oblast, Chkalovsky, Russia", 
-        "sw_latitude": 56.678
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12515916
     }

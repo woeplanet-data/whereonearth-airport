@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523624, 
-        "name": "Machala Airport", 
         "alias_ENG_V": [
           "MCH"
         ], 
-        "ne_latitude": -3.262, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Machala Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=56189788", 
+          "woe:county=26809586", 
+          "woe:state=2345209", 
+          "woe:country=23424801", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523624, 
         "ne_longitude": -79.979, 
         "longitude": -79.983, 
-        "placetype": "Airport", 
+        "parent_woeid": 56189788, 
+        "ne_latitude": -3.262, 
         "iso": "EC", 
-        "date_indexed": "2010-12-02T17:51:45Z", 
-        "parent_woeid": 374272, 
+        "sw_latitude": -3.271, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -3.267, 
         "sw_longitude": -79.988, 
-        "fullname": "Machala Airport, Puerto Bol\u00edvar, El Oro, Machala, Ecuador", 
-        "sw_latitude": -3.271
+        "fullname": "Machala Airport, Puerto Bol\u00edvar, El Oro, Ecuador", 
+        "iata_code": "MCH", 
+        "date_indexed": "2010-12-02T17:51:45Z"
       }, 
       "id": 12523624
     }

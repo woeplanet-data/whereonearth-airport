@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511525, 
+        "placetype": "airport", 
         "name": "Svishtov Airport", 
-        "ne_latitude": 43.627, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55873917", 
+          "woe:state=20070063", 
+          "woe:country=23424771", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511525, 
         "ne_longitude": 25.248, 
         "longitude": 25.242, 
-        "placetype": "Airport", 
+        "parent_woeid": 55873917, 
+        "ne_latitude": 43.627, 
         "iso": "BG", 
-        "date_indexed": "2010-12-02T16:14:37Z", 
-        "parent_woeid": 838475, 
+        "sw_latitude": 43.618, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.623, 
         "sw_longitude": 25.236, 
         "fullname": "Svishtov Airport, Veliko Turnovo, Svishtov, Bulgaria", 
-        "sw_latitude": 43.618
+        "date_indexed": "2010-12-02T16:14:37Z"
       }, 
       "id": 12511525
     }

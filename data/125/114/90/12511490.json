@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511490, 
+        "placetype": "airport", 
         "name": "Popovo Airport", 
-        "ne_latitude": 43.374, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55873821", 
+          "woe:state=20070072", 
+          "woe:country=23424771", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511490, 
         "ne_longitude": 26.248, 
         "longitude": 26.242, 
-        "placetype": "Airport", 
+        "parent_woeid": 55873821, 
+        "ne_latitude": 43.374, 
         "iso": "BG", 
-        "date_indexed": "2010-12-02T16:14:37Z", 
-        "parent_woeid": 836991, 
+        "sw_latitude": 43.365, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.369, 
         "sw_longitude": 26.236, 
         "fullname": "Popovo Airport, Turgovishte, Popovo, Bulgaria", 
-        "sw_latitude": 43.365
+        "date_indexed": "2010-12-02T16:14:37Z"
       }, 
       "id": 12511490
     }

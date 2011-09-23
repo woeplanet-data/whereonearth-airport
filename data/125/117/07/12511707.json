@@ -3,28 +3,94 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -68.582, 
-              63.744
-            ], 
-            [
-              -68.582, 
-              63.774
-            ], 
-            [
-              -68.524, 
-              63.774
-            ], 
-            [
-              -68.524, 
-              63.744
-            ], 
-            [
-              -68.582, 
-              63.744
+              [
+                -68.538, 
+                63.753
+              ], 
+              [
+                -68.536, 
+                63.752
+              ], 
+              [
+                -68.530, 
+                63.750
+              ], 
+              [
+                -68.528, 
+                63.747
+              ], 
+              [
+                -68.537, 
+                63.748
+              ], 
+              [
+                -68.540, 
+                63.749
+              ], 
+              [
+                -68.543, 
+                63.752
+              ], 
+              [
+                -68.548, 
+                63.753
+              ], 
+              [
+                -68.551, 
+                63.743
+              ], 
+              [
+                -68.556, 
+                63.746
+              ], 
+              [
+                -68.558, 
+                63.747
+              ], 
+              [
+                -68.564, 
+                63.747
+              ], 
+              [
+                -68.569, 
+                63.750
+              ], 
+              [
+                -68.568, 
+                63.751
+              ], 
+              [
+                -68.563, 
+                63.747
+              ], 
+              [
+                -68.558, 
+                63.748
+              ], 
+              [
+                -68.555, 
+                63.756
+              ], 
+              [
+                -68.548, 
+                63.753
+              ], 
+              [
+                -68.544, 
+                63.757
+              ], 
+              [
+                -68.541, 
+                63.755
+              ], 
+              [
+                -68.538, 
+                63.753
+              ]
             ]
           ]
         ]
@@ -32,23 +98,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511707, 
-        "name": "Iqaluit Airport", 
         "alias_ENG_V": [
           "YFB Airport"
         ], 
-        "ne_latitude": 63.774, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -68.524, 
-        "longitude": -68.535, 
-        "placetype": "Airport", 
+        "name": "Iqaluit Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375230", 
+          "woe:state=20069920", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511707, 
+        "ne_longitude": -68.528, 
+        "longitude": -68.548, 
+        "parent_woeid": 29375230, 
+        "ne_latitude": 63.757, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:24:00Z", 
-        "parent_woeid": 716, 
-        "latitude": 63.752, 
-        "sw_longitude": -68.582, 
-        "fullname": "Iqaluit Airport, Iqaluit, Nunavut, Nunavut, Canada", 
-        "sw_latitude": 63.744
+        "sw_latitude": 63.743, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 63.750, 
+        "sw_longitude": -68.569, 
+        "fullname": "Iqaluit Airport, Iqaluit, Nunavut, Canada", 
+        "date_indexed": "2010-12-02T10:24:00Z"
       }, 
       "id": 12511707
     }

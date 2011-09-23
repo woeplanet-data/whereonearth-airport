@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510302, 
+        "placetype": "airport", 
         "name": "Darwaz Airport", 
-        "ne_latitude": 38.467, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=56000468", 
+          "woe:state=2344549", 
+          "woe:country=23424739", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510302, 
         "ne_longitude": 70.883, 
         "longitude": 70.877, 
-        "placetype": "Airport", 
+        "parent_woeid": 56000468, 
+        "ne_latitude": 38.467, 
         "iso": "AF", 
-        "date_indexed": "2010-12-02T18:03:37Z", 
-        "parent_woeid": 1917708, 
+        "sw_latitude": 38.458, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.463, 
         "sw_longitude": 70.871, 
         "fullname": "Darwaz Airport, Badakhshan, Darwaz, Afghanistan", 
-        "sw_latitude": 38.458
+        "date_indexed": "2010-12-02T18:03:37Z"
       }, 
       "id": 12510302
     }

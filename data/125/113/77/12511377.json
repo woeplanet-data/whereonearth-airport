@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511377, 
-        "name": "Paro Airport", 
         "alias_ENG_V": [
           "PBH"
         ], 
-        "ne_latitude": 27.408, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Paro Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55998161", 
+          "woe:state=2344880", 
+          "woe:country=23424770", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511377, 
         "ne_longitude": 89.434, 
         "longitude": 89.429, 
-        "placetype": "Airport", 
+        "parent_woeid": 55998161, 
+        "ne_latitude": 27.408, 
         "iso": "BT", 
-        "date_indexed": "2010-12-02T17:56:39Z", 
-        "parent_woeid": 1887785, 
+        "sw_latitude": 27.399, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 27.403, 
         "sw_longitude": 89.424, 
-        "fullname": "Paro Airport, Paro, Paro, Lango, Bhutan", 
-        "sw_latitude": 27.399
+        "fullname": "Paro Airport, Paro, Paro, Bhutan", 
+        "iata_code": "PBH", 
+        "date_indexed": "2010-12-02T17:56:39Z"
       }, 
       "id": 12511377
     }

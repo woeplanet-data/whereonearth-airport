@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513604, 
-        "name": "Jaisalmer Airport", 
         "alias_ENG_V": [
           "JSA"
         ], 
-        "ne_latitude": 26.892, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Jaisalmer Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12586663", 
+          "woe:state=2345757", 
+          "woe:country=23424848", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513604, 
         "ne_longitude": 70.869, 
         "longitude": 70.864, 
-        "placetype": "Airport", 
+        "parent_woeid": 12586663, 
+        "ne_latitude": 26.892, 
         "iso": "IN", 
-        "date_indexed": "2010-12-02T09:26:27Z", 
-        "parent_woeid": 29073320, 
+        "sw_latitude": 26.883, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 26.887, 
         "sw_longitude": 70.859, 
-        "fullname": "Jaisalmer Airport, Amar Sagar, Rajasthan, Jaisalmer, India", 
-        "sw_latitude": 26.883
+        "fullname": "Jaisalmer Airport, Amar Sagar, Rajasthan, India", 
+        "iata_code": "JSA", 
+        "date_indexed": "2010-12-02T09:26:27Z"
       }, 
       "id": 12513604
     }

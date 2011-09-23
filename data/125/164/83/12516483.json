@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516483, 
+        "placetype": "airport", 
         "name": "Ndb Bryansk Airport", 
-        "ne_latitude": 53.275, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598078", 
+          "woe:state=2346892", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516483, 
         "ne_longitude": 34.365, 
         "longitude": 34.357, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598078, 
+        "ne_latitude": 53.275, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2045381, 
+        "sw_latitude": 53.265, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.270, 
         "sw_longitude": 34.350, 
         "fullname": "Ndb Bryansk Airport, Bryanskaya Oblast, Bryansk, Russia", 
-        "sw_latitude": 53.265
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516483
     }

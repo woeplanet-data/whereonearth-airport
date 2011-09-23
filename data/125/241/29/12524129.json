@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524129, 
-        "name": "Igloolik Airport", 
         "alias_ENG_V": [
           "YGT Airport"
         ], 
-        "ne_latitude": 69.372, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Igloolik Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375230", 
+          "woe:state=20069920", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524129, 
         "ne_longitude": -81.812, 
         "longitude": -81.825, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375230, 
+        "ne_latitude": 69.372, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 4320, 
+        "sw_latitude": 69.363, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 69.367, 
         "sw_longitude": -81.838, 
-        "fullname": "Igloolik Airport, Igloolik, Nunavut, Nunavut, Canada", 
-        "sw_latitude": 69.363
+        "fullname": "Igloolik Airport, Igloolik, Nunavut, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12524129
     }

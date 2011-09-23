@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516844, 
+        "placetype": "airport", 
         "name": "Severnoye Airport", 
-        "ne_latitude": 56.354, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598868", 
+          "woe:state=2346914", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516844, 
         "ne_longitude": 78.355, 
         "longitude": 78.346, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598868, 
+        "ne_latitude": 56.354, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2080741, 
+        "sw_latitude": 56.344, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 56.349, 
         "sw_longitude": 78.338, 
-        "fullname": "Severnoye Airport, Severnoye, Novosibirskaya Oblast, Severnyi, Russia", 
-        "sw_latitude": 56.344
+        "fullname": "Severnoye Airport, Severnoye, Novosibirskaya Oblast, Russia", 
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516844
     }

@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517391, 
-        "name": "Alexander Bay Airport", 
         "alias_ENG_V": [
           "ALJ"
         ], 
-        "ne_latitude": -28.563, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Alexander Bay Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=56189537", 
+          "woe:county=56189407", 
+          "woe:state=2346985", 
+          "woe:country=23424942", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517391, 
         "ne_longitude": 16.542, 
         "longitude": 16.536, 
-        "placetype": "Airport", 
+        "parent_woeid": 56189537, 
+        "ne_latitude": -28.563, 
         "iso": "ZA", 
-        "date_indexed": "2010-12-02T08:57:46Z", 
-        "parent_woeid": 1581984, 
+        "sw_latitude": -28.572, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -28.567, 
         "sw_longitude": 16.531, 
         "fullname": "Alexander Bay Airport, Northern Cape, Northern Cape Rural, South Africa", 
-        "sw_latitude": -28.572
+        "iata_code": "ALJ", 
+        "date_indexed": "2010-12-02T08:57:46Z"
       }, 
       "id": 12517391
     }

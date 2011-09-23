@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524466, 
-        "name": "Caquetania Airport", 
         "alias_ENG_V": [
           "CQT"
         ], 
-        "ne_latitude": 2.038, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Caquetania Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26797265", 
+          "woe:state=2345064", 
+          "woe:country=23424787", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524466, 
         "ne_longitude": -74.212, 
         "longitude": -74.217, 
-        "placetype": "Airport", 
+        "parent_woeid": 26797265, 
+        "ne_latitude": 2.038, 
         "iso": "CO", 
-        "date_indexed": "2010-12-02T17:57:37Z", 
-        "parent_woeid": 365020, 
+        "sw_latitude": 2.029, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 2.033, 
         "sw_longitude": -74.221, 
         "fullname": "Caquetania Airport, Meta, La Macarena, Colombia", 
-        "sw_latitude": 2.029
+        "iata_code": "CQT", 
+        "date_indexed": "2010-12-02T17:57:37Z"
       }, 
       "id": 12524466
     }

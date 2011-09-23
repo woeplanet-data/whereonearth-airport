@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520310, 
-        "name": "Iosco County Airport", 
         "alias_ENG_V": [
           "ECA"
         ], 
-        "ne_latitude": 44.316, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Iosco County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588748", 
+          "woe:state=2347581", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520310, 
         "ne_longitude": -83.409, 
         "longitude": -83.422, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588748, 
+        "ne_latitude": 44.316, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2396231, 
+        "sw_latitude": 44.308, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.310, 
         "sw_longitude": -83.435, 
-        "fullname": "Iosco County Airport, East Tawas, Michigan, Iosco, United States", 
-        "sw_latitude": 44.308
+        "fullname": "Iosco County Airport, East Tawas, Michigan, United States", 
+        "iata_code": "ECA", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520310
     }

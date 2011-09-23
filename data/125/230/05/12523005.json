@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523005, 
-        "name": "Sanaa International Airport", 
         "alias_ENG_V": [
           "Sanaa Airport"
         ], 
-        "ne_latitude": 15.491, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Sanaa International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=56189971", 
+          "woe:state=56189858", 
+          "woe:country=23425002", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523005, 
         "ne_longitude": 44.233, 
         "longitude": 44.221, 
-        "placetype": "Airport", 
+        "parent_woeid": 56189971, 
+        "ne_latitude": 15.491, 
         "iso": "YE", 
-        "date_indexed": "2010-12-02T16:39:41Z", 
-        "parent_woeid": 1954268, 
+        "sw_latitude": 15.469, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 15.480, 
         "sw_longitude": 44.209, 
         "fullname": "Sanaa International Airport, Ar Raudha, San`a\u00b4, Yemen", 
-        "sw_latitude": 15.469
+        "iata_code": "SAH", 
+        "date_indexed": "2010-12-02T16:39:41Z"
       }, 
       "id": 12523005
     }

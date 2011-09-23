@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517409, 
+        "placetype": "airport", 
         "name": "Ganspan Airport", 
-        "ne_latitude": -27.937, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=56189628", 
+          "woe:county=56189411", 
+          "woe:state=2346985", 
+          "woe:country=23424942", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517409, 
         "ne_longitude": 24.825, 
         "longitude": 24.820, 
-        "placetype": "Airport", 
+        "parent_woeid": 56189628, 
+        "ne_latitude": -27.937, 
         "iso": "ZA", 
-        "date_indexed": "2010-12-02T08:57:46Z", 
-        "parent_woeid": 55880774, 
+        "sw_latitude": -27.946, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -27.942, 
         "sw_longitude": 24.815, 
         "fullname": "Ganspan Airport, Northern Cape, Jan Kempdorp, South Africa", 
-        "sw_latitude": -27.946
+        "date_indexed": "2010-12-02T08:57:46Z"
       }, 
       "id": 12517409
     }

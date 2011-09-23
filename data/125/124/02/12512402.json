@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512402, 
-        "name": "Perales Airport", 
         "alias_ENG_V": [
           "IBE"
         ], 
-        "ne_latitude": 4.430, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Perales Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26797518", 
+          "woe:state=2345073", 
+          "woe:country=23424787", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512402, 
         "ne_longitude": -75.135, 
         "longitude": -75.139, 
-        "placetype": "Airport", 
+        "parent_woeid": 26797518, 
+        "ne_latitude": 4.430, 
         "iso": "CO", 
-        "date_indexed": "2010-12-02T17:57:37Z", 
-        "parent_woeid": 368909, 
+        "sw_latitude": 4.420, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 4.425, 
         "sw_longitude": -75.144, 
         "fullname": "Perales Airport, Tolima, Ibague, Colombia", 
-        "sw_latitude": 4.420
+        "iata_code": "IBE", 
+        "date_indexed": "2010-12-02T17:57:37Z"
       }, 
       "id": 12512402
     }

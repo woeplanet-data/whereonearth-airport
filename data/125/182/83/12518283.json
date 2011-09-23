@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518283, 
+        "placetype": "airport", 
         "name": "Kharkov North Airport", 
-        "ne_latitude": 50.036, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2347540", 
+          "woe:country=23424976", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518283, 
         "ne_longitude": 36.282, 
         "longitude": 36.275, 
-        "placetype": "Airport", 
+        "parent_woeid": 2347540, 
+        "ne_latitude": 50.036, 
         "iso": "UA", 
-        "date_indexed": "2010-12-02T08:52:33Z", 
-        "parent_woeid": 922137, 
+        "sw_latitude": 50.027, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.032, 
         "sw_longitude": 36.267, 
         "fullname": "Kharkov North Airport, Kharkiv, Kharkiv Oblast, Ukraine", 
-        "sw_latitude": 50.027
+        "date_indexed": "2010-12-02T08:52:33Z"
       }, 
       "id": 12518283
     }

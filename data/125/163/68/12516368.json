@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516368, 
+        "placetype": "airport", 
         "name": "Luga Southeast Airport", 
-        "ne_latitude": 58.675, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598648", 
+          "woe:state=2346907", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516368, 
         "ne_longitude": 30.064, 
         "longitude": 30.055, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598648, 
+        "ne_latitude": 58.675, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2050095, 
+        "sw_latitude": 58.666, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 58.671, 
         "sw_longitude": 30.046, 
         "fullname": "Luga Southeast Airport, Leningradskaya Oblast, Luzhsky, Russia", 
-        "sw_latitude": 58.666
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516368
     }

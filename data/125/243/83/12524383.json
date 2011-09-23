@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524383, 
-        "name": "Pinotepa Nacional Airport", 
         "alias_ENG_V": [
           "PNO"
         ], 
-        "ne_latitude": 16.355, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Pinotepa Nacional Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12601144", 
+          "woe:state=2346283", 
+          "woe:country=23424900", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524383, 
         "ne_longitude": -98.062, 
         "longitude": -98.067, 
-        "placetype": "Airport", 
+        "parent_woeid": 12601144, 
+        "ne_latitude": 16.355, 
         "iso": "MX", 
-        "date_indexed": "2010-12-02T16:57:55Z", 
-        "parent_woeid": 136819, 
+        "sw_latitude": 16.345, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 16.350, 
         "sw_longitude": -98.071, 
-        "fullname": "Pinotepa Nacional Airport, Pinotepa, Oaxaca, Santiago Pinotepa Nacional, Mexico", 
-        "sw_latitude": 16.345
+        "fullname": "Pinotepa Nacional Airport, Pinotepa, Oaxaca, Mexico", 
+        "iata_code": "PNO", 
+        "date_indexed": "2010-12-02T16:57:55Z"
       }, 
       "id": 12524383
     }

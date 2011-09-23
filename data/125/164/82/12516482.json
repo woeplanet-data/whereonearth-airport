@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516482, 
+        "placetype": "airport", 
         "name": "Nazarovo Airport", 
-        "ne_latitude": 56.061, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597870", 
+          "woe:state=20070524", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516482, 
         "ne_longitude": 90.330, 
         "longitude": 90.322, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597870, 
+        "ne_latitude": 56.061, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2002409, 
+        "sw_latitude": 56.052, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 56.057, 
         "sw_longitude": 90.314, 
         "fullname": "Nazarovo Airport, Krasnoyarskiy Kray, Nazarovsky, Russia", 
-        "sw_latitude": 56.052
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516482
     }

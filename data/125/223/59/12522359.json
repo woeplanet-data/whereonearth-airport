@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522359, 
-        "name": "Waupaca Municipal Airport", 
         "alias_ENG_V": [
           "PCZ"
         ], 
-        "ne_latitude": 44.332, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Waupaca Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590602", 
+          "woe:state=2347608", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522359, 
         "ne_longitude": -89.014, 
         "longitude": -89.018, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590602, 
+        "ne_latitude": 44.332, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2515454, 
+        "sw_latitude": 44.328, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.330, 
         "sw_longitude": -89.021, 
-        "fullname": "Waupaca Municipal Airport, Waupaca, Wisconsin, Waupaca, United States", 
-        "sw_latitude": 44.328
+        "fullname": "Waupaca Municipal Airport, Waupaca, Wisconsin, United States", 
+        "iata_code": "PCZ", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12522359
     }

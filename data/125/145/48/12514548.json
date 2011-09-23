@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514548, 
+        "placetype": "airport", 
         "name": "Muang Phonsavan Airport", 
-        "ne_latitude": 19.459, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2346011", 
+          "woe:country=23424872", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514548, 
         "ne_longitude": 103.224, 
         "longitude": 103.219, 
-        "placetype": "Airport", 
+        "parent_woeid": 2346011, 
+        "ne_latitude": 19.459, 
         "iso": "LA", 
-        "date_indexed": "2010-12-02T16:42:51Z", 
-        "parent_woeid": 1139800, 
+        "sw_latitude": 19.450, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 19.454, 
         "sw_longitude": 103.214, 
         "fullname": "Muang Phonsavan Airport, Xiangkhoang, Laos", 
-        "sw_latitude": 19.450
+        "date_indexed": "2010-12-02T16:42:51Z"
       }, 
       "id": 12514548
     }

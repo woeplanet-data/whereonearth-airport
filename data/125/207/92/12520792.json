@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520792, 
-        "name": "Marco Island Airport", 
         "alias_ENG_V": [
           "MRK Airport"
         ], 
-        "ne_latitude": 26.002, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Marco Island Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587813", 
+          "woe:state=2347568", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520792, 
         "ne_longitude": -81.670, 
         "longitude": -81.675, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587813, 
+        "ne_latitude": 26.002, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2464927, 
+        "sw_latitude": 25.987, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 26.001, 
         "sw_longitude": -81.676, 
-        "fullname": "Marco Island Airport, Old Marco Junction, Florida, Collier, United States", 
-        "sw_latitude": 25.987
+        "fullname": "Marco Island Airport, Old Marco Junction, Florida, United States", 
+        "iata_code": "MRK", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520792
     }

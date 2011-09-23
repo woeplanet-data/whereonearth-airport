@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521563, 
-        "name": "Renton Municipal Airport", 
         "alias_ENG_V": [
           "RNT"
         ], 
-        "ne_latitude": 47.500, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Renton Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590456", 
+          "woe:state=2347606", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521563, 
         "ne_longitude": -122.210, 
         "longitude": -122.218, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590456, 
+        "ne_latitude": 47.500, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2480240, 
+        "sw_latitude": 47.485, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.492, 
         "sw_longitude": -122.220, 
-        "fullname": "Renton Municipal Airport, Renton, Washington, King, United States", 
-        "sw_latitude": 47.485
+        "fullname": "Renton Municipal Airport, Renton, Washington, United States", 
+        "iata_code": "RNT", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521563
     }

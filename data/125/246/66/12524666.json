@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524666, 
-        "name": "Elkhart Municipal Airport", 
         "alias_ENG_V": [
           "Elkhart City Airport"
         ], 
-        "ne_latitude": 41.724, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Elkhart Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588199", 
+          "woe:state=2347573", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524666, 
         "ne_longitude": -85.986, 
         "longitude": -85.999, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588199, 
+        "ne_latitude": 41.724, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2398466, 
+        "sw_latitude": 41.710, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.718, 
         "sw_longitude": -86.004, 
-        "fullname": "Elkhart Municipal Airport, Elkhart, Indiana, Elkhart, United States", 
-        "sw_latitude": 41.710
+        "fullname": "Elkhart Municipal Airport, Elkhart, Indiana, United States", 
+        "iata_code": "EKI", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12524666
     }

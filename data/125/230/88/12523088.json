@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523088, 
-        "name": "O'Sullivan Army Air Field", 
         "alias_ENG_V": [
           "CSL Airport"
         ], 
-        "ne_latitude": 35.338, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "O'Sullivan Army Air Field", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587709", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523088, 
         "ne_longitude": -120.728, 
         "longitude": -120.733, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587709, 
+        "ne_latitude": 35.338, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2380042, 
+        "sw_latitude": 35.329, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.333, 
         "sw_longitude": -120.739, 
-        "fullname": "O'Sullivan Army Air Field, Chorro, California, San Luis Obispo, United States", 
-        "sw_latitude": 35.329
+        "fullname": "O'Sullivan Army Air Field, Chorro, California, United States", 
+        "iata_code": "CSL", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12523088
     }

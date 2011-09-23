@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523274, 
-        "name": "Nanisivik Airport", 
         "alias_ENG_V": [
           "YSR Airport"
         ], 
-        "ne_latitude": 72.988, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Nanisivik Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375230", 
+          "woe:state=20069920", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523274, 
         "ne_longitude": -84.618, 
         "longitude": -84.633, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375230, 
+        "ne_latitude": 72.988, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 4322, 
+        "sw_latitude": 72.979, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 72.983, 
         "sw_longitude": -84.649, 
-        "fullname": "Nanisivik Airport, Nanisivik, Nunavut, Nunavut, Canada", 
-        "sw_latitude": 72.979
+        "fullname": "Nanisivik Airport, Nanisivik, Nunavut, Canada", 
+        "iata_code": "YSR", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12523274
     }

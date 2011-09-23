@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520766, 
-        "name": "Malta Airport", 
         "alias_ENG_V": [
           "MLK"
         ], 
-        "ne_latitude": 48.354, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Malta Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589116", 
+          "woe:state=2347585", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520766, 
         "ne_longitude": -107.879, 
         "longitude": -107.883, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589116, 
+        "ne_latitude": 48.354, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2444548, 
+        "sw_latitude": 48.347, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.351, 
         "sw_longitude": -107.888, 
-        "fullname": "Malta Airport, Malta, Montana, Phillips, United States", 
-        "sw_latitude": 48.347
+        "fullname": "Malta Airport, Malta, Montana, United States", 
+        "iata_code": "MLK", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12520766
     }

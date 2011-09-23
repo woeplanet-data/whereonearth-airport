@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524465, 
-        "name": "Chaparral Airport", 
         "alias_ENG_V": [
           "CPL"
         ], 
-        "ne_latitude": 3.705, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Chaparral Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26797552", 
+          "woe:state=2345073", 
+          "woe:country=23424787", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524465, 
         "ne_longitude": -75.745, 
         "longitude": -75.750, 
-        "placetype": "Airport", 
+        "parent_woeid": 26797552, 
+        "ne_latitude": 3.705, 
         "iso": "CO", 
-        "date_indexed": "2010-12-02T17:57:37Z", 
-        "parent_woeid": 362458, 
+        "sw_latitude": 3.695, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 3.700, 
         "sw_longitude": -75.755, 
         "fullname": "Chaparral Airport, Tolima, Chaparral, Colombia", 
-        "sw_latitude": 3.695
+        "iata_code": "CPL", 
+        "date_indexed": "2010-12-02T17:57:37Z"
       }, 
       "id": 12524465
     }

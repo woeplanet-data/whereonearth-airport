@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522241, 
-        "name": "Ukiah Municipal Airport", 
         "alias_ENG_V": [
           "Ukiah Airport"
         ], 
-        "ne_latitude": 39.134, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Ukiah Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587692", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522241, 
         "ne_longitude": -123.196, 
         "longitude": -123.204, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587692, 
+        "ne_latitude": 39.134, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2509496, 
+        "sw_latitude": 39.117, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 39.128, 
         "sw_longitude": -123.205, 
-        "fullname": "Ukiah Municipal Airport, Ukiah, California, Mendocino, United States", 
-        "sw_latitude": 39.117
+        "fullname": "Ukiah Municipal Airport, Ukiah, California, United States", 
+        "iata_code": "UKI", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522241
     }

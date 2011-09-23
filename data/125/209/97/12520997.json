@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520997, 
-        "name": "Monroe Walton County Airport", 
         "alias_ENG_V": [
           "D73"
         ], 
-        "ne_latitude": 33.786, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Monroe Walton County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588016", 
+          "woe:state=2347569", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520997, 
         "ne_longitude": -83.689, 
         "longitude": -83.697, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588016, 
+        "ne_latitude": 33.786, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2453019, 
+        "sw_latitude": 33.775, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 33.775, 
         "sw_longitude": -83.699, 
-        "fullname": "Monroe Walton County Airport, Monroe, Georgia, Walton, United States", 
-        "sw_latitude": 33.775
+        "fullname": "Monroe Walton County Airport, Monroe, Georgia, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520997
     }

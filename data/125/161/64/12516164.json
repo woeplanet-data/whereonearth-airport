@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516164, 
+        "placetype": "airport", 
         "name": "Kipelovo Airport", 
-        "ne_latitude": 59.188, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599618", 
+          "woe:state=2346934", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516164, 
         "ne_longitude": 39.137, 
         "longitude": 39.129, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599618, 
+        "ne_latitude": 59.188, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2121373, 
+        "sw_latitude": 59.178, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 59.183, 
         "sw_longitude": 39.120, 
-        "fullname": "Kipelovo Airport, Kipelovo, Vologodskaya Oblast, Vologodsky, Russia", 
-        "sw_latitude": 59.178
+        "fullname": "Kipelovo Airport, Kipelovo, Vologodskaya Oblast, Russia", 
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516164
     }

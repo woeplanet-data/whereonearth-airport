@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513492, 
-        "name": "Pattimura Airport", 
         "alias_ENG_V": [
           "AMQ Airport"
         ], 
-        "ne_latitude": -3.702, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Pattimura Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=56000180", 
+          "woe:state=20069997", 
+          "woe:country=23424846", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513492, 
         "ne_longitude": 128.083, 
         "longitude": 128.078, 
-        "placetype": "Airport", 
+        "parent_woeid": 56000180, 
+        "ne_latitude": -3.702, 
         "iso": "ID", 
-        "date_indexed": "2010-12-02T16:54:32Z", 
-        "parent_woeid": 1048993, 
+        "sw_latitude": -3.711, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -3.707, 
         "sw_longitude": 128.074, 
         "fullname": "Pattimura Airport, Maluku, Ambon, Indonesia", 
-        "sw_latitude": -3.711
+        "iata_code": "AMQ", 
+        "date_indexed": "2010-12-02T16:54:32Z"
       }, 
       "id": 12513492
     }

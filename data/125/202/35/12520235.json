@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520235, 
-        "name": "Hot Springs Municipal Airport", 
         "alias_ENG_V": [
           "HSR"
         ], 
-        "ne_latitude": 43.376, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Hot Springs Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589868", 
+          "woe:state=2347600", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520235, 
         "ne_longitude": -103.379, 
         "longitude": -103.393, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589868, 
+        "ne_latitude": 43.376, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 28340257, 
+        "sw_latitude": 43.362, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.369, 
         "sw_longitude": -103.396, 
-        "fullname": "Hot Springs Municipal Airport, Maverick, South Dakota, Fall River, United States", 
-        "sw_latitude": 43.362
+        "fullname": "Hot Springs Municipal Airport, Maverick, South Dakota, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520235
     }

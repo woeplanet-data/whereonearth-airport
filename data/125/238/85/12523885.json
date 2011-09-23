@@ -32,23 +32,28 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523885, 
-        "name": "Gjogur Airport", 
         "alias_ENG_V": [
           "GJR"
         ], 
-        "ne_latitude": 66.001, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Gjogur Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2345703", 
+          "woe:country=23424845", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523885, 
         "ne_longitude": -21.328, 
         "longitude": -21.340, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345703, 
+        "ne_latitude": 66.001, 
         "iso": "IS", 
-        "date_indexed": "2010-12-02T09:55:32Z", 
-        "parent_woeid": 980035, 
+        "sw_latitude": 65.992, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 65.996, 
         "sw_longitude": -21.351, 
         "fullname": "Gjogur Airport, Strandasysla, Iceland", 
-        "sw_latitude": 65.992
+        "date_indexed": "2010-12-02T09:55:32Z"
       }, 
       "id": 12523885
     }

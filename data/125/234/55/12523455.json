@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523455, 
-        "name": "Wenzhou Airport", 
         "alias_ENG_V": [
           "WNZ"
         ], 
-        "ne_latitude": 28.007, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Wenzhou Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=12685445", 
+          "woe:county=26198145", 
+          "woe:state=12577992", 
+          "woe:country=23424781", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523455, 
         "ne_longitude": 120.653, 
         "longitude": 120.648, 
-        "placetype": "Airport", 
+        "parent_woeid": 12685445, 
+        "ne_latitude": 28.007, 
         "iso": "CN", 
-        "date_indexed": "2010-12-02T08:51:54Z", 
-        "parent_woeid": 2132582, 
+        "sw_latitude": 27.998, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 28.003, 
         "sw_longitude": 120.643, 
-        "fullname": "Wenzhou Airport, Wenzhou, Zhejiang, Wenzhou, China", 
-        "sw_latitude": 27.998
+        "fullname": "Wenzhou Airport, Wenzhou, Zhejiang, China", 
+        "iata_code": "WNZ", 
+        "date_indexed": "2010-12-02T08:51:54Z"
       }, 
       "id": 12523455
     }

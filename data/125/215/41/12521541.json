@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521541, 
-        "name": "Red Bluff Municipal Airport", 
         "alias_ENG_V": [
           "Red Bluff Airport"
         ], 
-        "ne_latitude": 40.161, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Red Bluff Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587721", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521541, 
         "ne_longitude": -122.238, 
         "longitude": -122.250, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587721, 
+        "ne_latitude": 40.161, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2479236, 
+        "sw_latitude": 40.143, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.155, 
         "sw_longitude": -122.257, 
-        "fullname": "Red Bluff Municipal Airport, Red Bluff, California, Tehama, United States", 
-        "sw_latitude": 40.143
+        "fullname": "Red Bluff Municipal Airport, Red Bluff, California, United States", 
+        "iata_code": "RBL", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521541
     }

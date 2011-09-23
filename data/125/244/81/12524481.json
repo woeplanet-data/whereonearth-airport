@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524481, 
-        "name": "Gamarra Airport", 
         "alias_ENG_V": [
           "GRA"
         ], 
-        "ne_latitude": 8.348, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Gamarra Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26797008", 
+          "woe:state=2345056", 
+          "woe:country=23424787", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524481, 
         "ne_longitude": -73.697, 
         "longitude": -73.702, 
-        "placetype": "Airport", 
+        "parent_woeid": 26797008, 
+        "ne_latitude": 8.348, 
         "iso": "CO", 
-        "date_indexed": "2010-12-02T17:57:37Z", 
-        "parent_woeid": 368310, 
+        "sw_latitude": 8.339, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 8.344, 
         "sw_longitude": -73.706, 
-        "fullname": "Gamarra Airport, Gamarra, Cesar, Gamarra, Colombia", 
-        "sw_latitude": 8.339
+        "fullname": "Gamarra Airport, Gamarra, Cesar, Colombia", 
+        "iata_code": "GRA", 
+        "date_indexed": "2010-12-02T17:57:37Z"
       }, 
       "id": 12524481
     }

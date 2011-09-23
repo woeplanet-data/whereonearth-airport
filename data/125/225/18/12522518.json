@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522518, 
-        "name": "Wray Municipal Airport", 
         "alias_ENG_V": [
           "2v5"
         ], 
-        "ne_latitude": 40.107, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Wray Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587790", 
+          "woe:state=2347564", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522518, 
         "ne_longitude": -102.235, 
         "longitude": -102.238, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587790, 
+        "ne_latitude": 40.107, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2524065, 
+        "sw_latitude": 40.093, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.098, 
         "sw_longitude": -102.247, 
-        "fullname": "Wray Municipal Airport, Wray, Colorado, Yuma, United States", 
-        "sw_latitude": 40.093
+        "fullname": "Wray Municipal Airport, Wray, Colorado, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522518
     }

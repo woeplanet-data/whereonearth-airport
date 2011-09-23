@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510900, 
-        "name": "Mostar Airport", 
         "alias_ENG_V": [
           "OMO"
         ], 
-        "ne_latitude": 43.288, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Mostar Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=24551284", 
+          "woe:state=24549661", 
+          "woe:country=23424761", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510900, 
         "ne_longitude": 17.853, 
         "longitude": 17.847, 
-        "placetype": "Airport", 
+        "parent_woeid": 24551284, 
+        "ne_latitude": 43.288, 
         "iso": "BA", 
-        "date_indexed": "2010-12-02T12:15:52Z", 
-        "parent_woeid": 940720, 
+        "sw_latitude": 43.279, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.284, 
         "sw_longitude": 17.840, 
         "fullname": "Mostar Airport, Federacija Bosne I Hercegovine, Hercegovacko-neretvanski Kanton, Bosnia and Herzegovina", 
-        "sw_latitude": 43.279
+        "iata_code": "OMO", 
+        "date_indexed": "2010-12-02T12:15:52Z"
       }, 
       "id": 12510900
     }

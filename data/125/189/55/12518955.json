@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518955, 
+        "placetype": "airport", 
         "name": "Brundidge Municipal Airport", 
-        "ne_latitude": 31.736, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12587541", 
+          "woe:state=2347559", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518955, 
         "ne_longitude": -85.799, 
         "longitude": -85.805, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587541, 
+        "ne_latitude": 31.736, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2370718, 
+        "sw_latitude": 31.729, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 31.732, 
         "sw_longitude": -85.809, 
-        "fullname": "Brundidge Municipal Airport, Brundidge, Alabama, Pike, United States", 
-        "sw_latitude": 31.729
+        "fullname": "Brundidge Municipal Airport, Brundidge, Alabama, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518955
     }

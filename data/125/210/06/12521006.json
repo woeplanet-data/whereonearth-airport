@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521006, 
-        "name": "Montgomery County Airport", 
         "alias_ENG_V": [
           "MGY"
         ], 
-        "ne_latitude": 35.390, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Montgomery County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589435", 
+          "woe:state=2347592", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521006, 
         "ne_longitude": -79.785, 
         "longitude": -79.789, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589435, 
+        "ne_latitude": 35.390, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2499087, 
+        "sw_latitude": 35.380, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.388, 
         "sw_longitude": -79.793, 
-        "fullname": "Montgomery County Airport, Star, North Carolina, Montgomery, United States", 
-        "sw_latitude": 35.380
+        "fullname": "Montgomery County Airport, Star, North Carolina, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12521006
     }

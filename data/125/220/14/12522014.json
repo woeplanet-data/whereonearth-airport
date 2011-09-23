@@ -3,28 +3,30 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -97.101, 
-              36.145
-            ], 
-            [
-              -97.101, 
-              36.174
-            ], 
-            [
-              -97.074, 
-              36.174
-            ], 
-            [
-              -97.074, 
-              36.145
-            ], 
-            [
-              -97.101, 
-              36.145
+              [
+                -97.063, 
+                36.152
+              ], 
+              [
+                -97.068, 
+                36.152
+              ], 
+              [
+                -97.067, 
+                36.153
+              ], 
+              [
+                -97.065, 
+                36.157
+              ], 
+              [
+                -97.063, 
+                36.152
+              ]
             ]
           ]
         ]
@@ -32,23 +34,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522014, 
-        "name": "Stillwater Municipal Airport", 
         "alias_ENG_V": [
           "SWO"
         ], 
-        "ne_latitude": 36.174, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -97.074, 
-        "longitude": -97.075, 
-        "placetype": "Airport", 
+        "name": "Stillwater Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589674", 
+          "woe:state=2347595", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522014, 
+        "ne_longitude": -97.063, 
+        "longitude": -97.065, 
+        "parent_woeid": 12589674, 
+        "ne_latitude": 36.157, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2499951, 
-        "latitude": 36.162, 
-        "sw_longitude": -97.101, 
-        "fullname": "Stillwater Municipal Airport, Stillwater, Oklahoma, Payne, United States", 
-        "sw_latitude": 36.145
+        "sw_latitude": 36.152, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 36.154, 
+        "sw_longitude": -97.068, 
+        "fullname": "Stillwater Municipal Airport, Stillwater, Oklahoma, United States", 
+        "iata_code": "SWO", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522014
     }

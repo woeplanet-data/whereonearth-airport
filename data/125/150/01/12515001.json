@@ -3,28 +3,30 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              102.242, 
-              2.253
-            ], 
-            [
-              102.242, 
-              2.271
-            ], 
-            [
-              102.257, 
-              2.271
-            ], 
-            [
-              102.257, 
-              2.253
-            ], 
-            [
-              102.242, 
-              2.253
+              [
+                102.248, 
+                2.260
+              ], 
+              [
+                102.250, 
+                2.261
+              ], 
+              [
+                102.250, 
+                2.260
+              ], 
+              [
+                102.251, 
+                2.256
+              ], 
+              [
+                102.248, 
+                2.260
+              ]
             ]
           ]
         ]
@@ -32,26 +34,34 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515001, 
-        "alias_UNK_V": [
-          "Lapangan Terbang Batu Berendam"
-        ], 
-        "name": "Malacca Airport", 
         "alias_ENG_V": [
           "MKZ"
         ], 
-        "ne_latitude": 2.271, 
-        "ne_longitude": 102.257, 
-        "longitude": 102.253, 
-        "parent_woeid": 1154578, 
-        "placetype": "Airport", 
-        "iso": "MY", 
-        "date_indexed": "2010-12-02T18:04:56Z", 
+        "name": "Malacca Airport", 
+        "parent_woeid": 56013816, 
+        "woeid": 12515001, 
         "provider": "geoplanet 7.6.0", 
-        "latitude": 2.262, 
-        "sw_longitude": 102.242, 
-        "fullname": "Malacca Airport, Batu Berendam, Melaka, Melaka Tengah, Malaysia", 
-        "sw_latitude": 2.253
+        "alias_UNK_V": [
+          "Lapangan Terbang Batu Berendam"
+        ], 
+        "longitude": 102.250, 
+        "ne_longitude": 102.251, 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=56013816", 
+          "woe:county=56013576", 
+          "woe:state=2346299", 
+          "woe:country=23424901", 
+          "woe:planet=1"
+        ], 
+        "iso": "MY", 
+        "sw_latitude": 2.256, 
+        "ne_latitude": 2.261, 
+        "latitude": 2.259, 
+        "sw_longitude": 102.248, 
+        "fullname": "Malacca Airport, Batu Berendam, Melaka, Malaysia", 
+        "iata_code": "MKZ", 
+        "date_indexed": "2010-12-02T18:04:56Z"
       }, 
       "id": 12515001
     }

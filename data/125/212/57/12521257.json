@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521257, 
-        "name": "Otsego County Airport", 
         "alias_ENG_V": [
           "GLR"
         ], 
-        "ne_latitude": 45.018, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Otsego County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588782", 
+          "woe:state=2347581", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521257, 
         "ne_longitude": -84.687, 
         "longitude": -84.688, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588782, 
+        "ne_latitude": 45.018, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2409359, 
+        "sw_latitude": 45.004, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.017, 
         "sw_longitude": -84.724, 
-        "fullname": "Otsego County Airport, Gaylord, Michigan, Otsego, United States", 
-        "sw_latitude": 45.004
+        "fullname": "Otsego County Airport, Gaylord, Michigan, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521257
     }

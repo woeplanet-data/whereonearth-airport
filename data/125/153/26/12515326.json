@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515326, 
+        "placetype": "airport", 
         "name": "Krywlany Airport", 
-        "ne_latitude": 53.112, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12591350", 
+          "woe:state=12577944", 
+          "woe:country=23424923", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515326, 
         "ne_longitude": 23.177, 
         "longitude": 23.169, 
-        "placetype": "Airport", 
+        "parent_woeid": 12591350, 
+        "ne_latitude": 53.112, 
         "iso": "PL", 
-        "date_indexed": "2010-12-02T12:12:45Z", 
-        "parent_woeid": 486134, 
+        "sw_latitude": 53.103, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.108, 
         "sw_longitude": 23.162, 
-        "fullname": "Krywlany Airport, Bialystok, Podlaskie, Bialystok City, Poland", 
-        "sw_latitude": 53.103
+        "fullname": "Krywlany Airport, Bialystok, Podlaskie, Poland", 
+        "date_indexed": "2010-12-02T12:12:45Z"
       }, 
       "id": 12515326
     }

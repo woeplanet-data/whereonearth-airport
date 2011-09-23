@@ -3,28 +3,30 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -82.233, 
-              29.157
-            ], 
-            [
-              -82.233, 
-              29.182
-            ], 
-            [
-              -82.219, 
-              29.182
-            ], 
-            [
-              -82.219, 
-              29.157
-            ], 
-            [
-              -82.233, 
-              29.157
+              [
+                -82.220, 
+                29.175
+              ], 
+              [
+                -82.220, 
+                29.175
+              ], 
+              [
+                -82.223, 
+                29.171
+              ], 
+              [
+                -82.222, 
+                29.177
+              ], 
+              [
+                -82.220, 
+                29.175
+              ]
             ]
           ]
         ]
@@ -32,23 +34,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521187, 
-        "name": "Ocala Regional Airport", 
         "alias_ENG_V": [
           "Ocala International"
         ], 
-        "ne_latitude": 29.182, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -82.219, 
-        "longitude": -82.219, 
-        "placetype": "Airport", 
+        "name": "Ocala Regional Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587844", 
+          "woe:state=2347568", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521187, 
+        "ne_longitude": -82.220, 
+        "longitude": -82.222, 
+        "parent_woeid": 12587844, 
+        "ne_latitude": 29.177, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2464029, 
-        "latitude": 29.172, 
-        "sw_longitude": -82.233, 
-        "fullname": "Ocala Regional Airport, Ocala, Florida, Marion, United States", 
-        "sw_latitude": 29.157
+        "sw_latitude": 29.171, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 29.175, 
+        "sw_longitude": -82.223, 
+        "fullname": "Ocala Regional Airport, Ocala, Florida, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521187
     }

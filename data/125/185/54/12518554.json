@@ -3,28 +3,90 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -73.816, 
-              42.736
-            ], 
-            [
-              -73.816, 
-              42.764
-            ], 
-            [
-              -73.781, 
-              42.764
-            ], 
-            [
-              -73.781, 
-              42.736
-            ], 
-            [
-              -73.816, 
-              42.736
+              [
+                -73.809, 
+                42.748
+              ], 
+              [
+                -73.806, 
+                42.749
+              ], 
+              [
+                -73.806, 
+                42.745
+              ], 
+              [
+                -73.806, 
+                42.744
+              ], 
+              [
+                -73.801, 
+                42.743
+              ], 
+              [
+                -73.806, 
+                42.742
+              ], 
+              [
+                -73.805, 
+                42.737
+              ], 
+              [
+                -73.808, 
+                42.739
+              ], 
+              [
+                -73.813, 
+                42.738
+              ], 
+              [
+                -73.814, 
+                42.738
+              ], 
+              [
+                -73.816, 
+                42.739
+              ], 
+              [
+                -73.819, 
+                42.737
+              ], 
+              [
+                -73.817, 
+                42.740
+              ], 
+              [
+                -73.817, 
+                42.740
+              ], 
+              [
+                -73.815, 
+                42.745
+              ], 
+              [
+                -73.815, 
+                42.748
+              ], 
+              [
+                -73.815, 
+                42.748
+              ], 
+              [
+                -73.815, 
+                42.748
+              ], 
+              [
+                -73.811, 
+                42.747
+              ], 
+              [
+                -73.809, 
+                42.748
+              ]
             ]
           ]
         ]
@@ -32,23 +94,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518554, 
-        "name": "Albany International Airport", 
         "alias_ENG_V": [
           "ALB Airport"
         ], 
-        "ne_latitude": 42.764, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -73.781, 
+        "name": "Albany International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589312", 
+          "woe:state=2347591", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518554, 
+        "ne_longitude": -73.801, 
         "longitude": -73.810, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589312, 
+        "ne_latitude": 42.749, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2383397, 
-        "latitude": 42.745, 
-        "sw_longitude": -73.816, 
-        "fullname": "Albany International Airport, Colonie, New York, Albany, United States", 
-        "sw_latitude": 42.736
+        "sw_latitude": 42.737, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 42.743, 
+        "sw_longitude": -73.819, 
+        "fullname": "Albany International Airport, Colonie, New York, United States", 
+        "iata_code": "ALB", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518554
     }

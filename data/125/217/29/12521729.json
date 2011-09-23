@@ -3,28 +3,42 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -97.890, 
-              29.880
-            ], 
-            [
-              -97.890, 
-              29.910
-            ], 
-            [
-              -97.842, 
-              29.910
-            ], 
-            [
-              -97.842, 
-              29.880
-            ], 
-            [
-              -97.890, 
-              29.880
+              [
+                -97.863, 
+                29.887
+              ], 
+              [
+                -97.863, 
+                29.887
+              ], 
+              [
+                -97.864, 
+                29.887
+              ], 
+              [
+                -97.866, 
+                29.888
+              ], 
+              [
+                -97.867, 
+                29.889
+              ], 
+              [
+                -97.864, 
+                29.889
+              ], 
+              [
+                -97.863, 
+                29.887
+              ], 
+              [
+                -97.863, 
+                29.887
+              ]
             ]
           ]
         ]
@@ -32,23 +46,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521729, 
-        "name": "San Marcos Municipal Airport", 
         "alias_ENG_V": [
           "HYI"
         ], 
-        "ne_latitude": 29.910, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -97.842, 
-        "longitude": -97.876, 
-        "placetype": "Airport", 
+        "name": "San Marcos Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590111", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521729, 
+        "ne_longitude": -97.863, 
+        "longitude": -97.864, 
+        "parent_woeid": 12590111, 
+        "ne_latitude": 29.889, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2488125, 
+        "sw_latitude": 29.887, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 29.888, 
-        "sw_longitude": -97.890, 
-        "fullname": "San Marcos Municipal Airport, San Marcos, Texas, Hays, United States", 
-        "sw_latitude": 29.880
+        "sw_longitude": -97.867, 
+        "fullname": "San Marcos Municipal Airport, San Marcos, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521729
     }

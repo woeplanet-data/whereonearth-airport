@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511769, 
-        "name": "Natashquan Airport", 
         "alias_ENG_V": [
           "YNA Airport"
         ], 
-        "ne_latitude": 50.195, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Natashquan Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375255", 
+          "woe:state=2344924", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511769, 
         "ne_longitude": -61.783, 
         "longitude": -61.790, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375255, 
+        "ne_latitude": 50.195, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 2726, 
+        "sw_latitude": 50.186, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.190, 
         "sw_longitude": -61.797, 
-        "fullname": "Natashquan Airport, Pointe-Parent, Quebec, Minganie, Canada", 
-        "sw_latitude": 50.186
+        "fullname": "Natashquan Airport, Pointe-Parent, Quebec, Canada", 
+        "iata_code": "YNA", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12511769
     }

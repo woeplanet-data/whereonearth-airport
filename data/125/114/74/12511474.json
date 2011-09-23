@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511474, 
+        "placetype": "airport", 
         "name": "Novi Pazar Airport", 
-        "ne_latitude": 43.349, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55873880", 
+          "woe:state=20070052", 
+          "woe:country=23424771", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511474, 
         "ne_longitude": 27.219, 
         "longitude": 27.212, 
-        "placetype": "Airport", 
+        "parent_woeid": 55873880, 
+        "ne_latitude": 43.349, 
         "iso": "BG", 
-        "date_indexed": "2010-12-02T16:14:37Z", 
-        "parent_woeid": 838379, 
+        "sw_latitude": 43.340, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.345, 
         "sw_longitude": 27.206, 
-        "fullname": "Novi Pazar Airport, Novi Pazar, Shumen, Novi Pazar, Bulgaria", 
-        "sw_latitude": 43.340
+        "fullname": "Novi Pazar Airport, Novi Pazar, Shumen, Bulgaria", 
+        "date_indexed": "2010-12-02T16:14:37Z"
       }, 
       "id": 12511474
     }

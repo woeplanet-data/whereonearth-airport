@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522171, 
-        "name": "Tracy Municipal Airport", 
         "alias_ENG_V": [
           "Tkc"
         ], 
-        "ne_latitude": 44.253, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Tracy Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588838", 
+          "woe:state=2347582", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522171, 
         "ne_longitude": -95.601, 
         "longitude": -95.614, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588838, 
+        "ne_latitude": 44.253, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2507549, 
+        "sw_latitude": 44.246, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.249, 
         "sw_longitude": -95.614, 
-        "fullname": "Tracy Municipal Airport, Tracy, Minnesota, Lyon, United States", 
-        "sw_latitude": 44.246
+        "fullname": "Tracy Municipal Airport, Tracy, Minnesota, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522171
     }

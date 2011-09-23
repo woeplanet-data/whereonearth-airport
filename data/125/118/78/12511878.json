@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511878, 
-        "name": "Tisdale Airport", 
         "alias_ENG_V": [
           "YTT Airport"
         ], 
-        "ne_latitude": 52.841, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Tisdale Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375232", 
+          "woe:state=2344925", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511878, 
         "ne_longitude": -104.059, 
         "longitude": -104.066, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375232, 
+        "ne_latitude": 52.841, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 2361, 
+        "sw_latitude": 52.832, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 52.836, 
         "sw_longitude": -104.074, 
-        "fullname": "Tisdale Airport, Tisdale, Saskatchewan, Saskatchewan, Canada", 
-        "sw_latitude": 52.832
+        "fullname": "Tisdale Airport, Tisdale, Saskatchewan, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12511878
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 23418420, 
+        "placetype": "airport", 
         "name": "Pine Level South Bound Airport", 
-        "ne_latitude": 32.048, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12587537", 
+          "woe:state=2347559", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 23418420, 
         "ne_longitude": -86.031, 
         "longitude": -86.037, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587537, 
+        "ne_latitude": 32.048, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2443676, 
+        "sw_latitude": 32.039, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 32.044, 
         "sw_longitude": -86.042, 
-        "fullname": "Pine Level South Bound Airport, Macedonia, Alabama, Montgomery, United States", 
-        "sw_latitude": 32.039
+        "fullname": "Pine Level South Bound Airport, Macedonia, Alabama, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 23418420
     }

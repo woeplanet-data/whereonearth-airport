@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515427, 
+        "placetype": "airport", 
         "name": "Las Tierras Altas Airport", 
-        "ne_latitude": 8.777, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=26793166", 
+          "woe:county=26793092", 
+          "woe:state=2346552", 
+          "woe:country=23424924", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515427, 
         "ne_longitude": -82.663, 
         "longitude": -82.668, 
-        "placetype": "Airport", 
+        "parent_woeid": 26793166, 
+        "ne_latitude": 8.777, 
         "iso": "PA", 
-        "date_indexed": "2010-12-02T17:52:32Z", 
-        "parent_woeid": 159231, 
+        "sw_latitude": 8.768, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 8.773, 
         "sw_longitude": -82.673, 
         "fullname": "Las Tierras Altas Airport, Chiriqu\u00ed, Bugaba, Panama", 
-        "sw_latitude": 8.768
+        "date_indexed": "2010-12-02T17:52:32Z"
       }, 
       "id": 12515427
     }

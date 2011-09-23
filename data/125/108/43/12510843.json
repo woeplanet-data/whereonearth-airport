@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510843, 
+        "placetype": "airport", 
         "name": "Beauvechain Airport", 
-        "ne_latitude": 50.763, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12602576", 
+          "woe:county=12591788", 
+          "woe:state=22525997", 
+          "woe:country=23424757", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510843, 
         "ne_longitude": 4.775, 
         "longitude": 4.768, 
-        "placetype": "Airport", 
+        "parent_woeid": 12602576, 
+        "ne_latitude": 50.763, 
         "iso": "BE", 
-        "date_indexed": "2010-12-02T16:32:27Z", 
-        "parent_woeid": 20098299, 
+        "sw_latitude": 50.754, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.759, 
         "sw_longitude": 4.761, 
-        "fullname": "Beauvechain Airport, La Bruy\u00e8re, Walloon Brabant, Nivelles, Belgium", 
-        "sw_latitude": 50.754
+        "fullname": "Beauvechain Airport, La Bruy\u00e8re, Walloon Brabant, Belgium", 
+        "date_indexed": "2010-12-02T16:32:27Z"
       }, 
       "id": 12510843
     }

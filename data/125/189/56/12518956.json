@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518956, 
-        "name": "Brunswick County Airport", 
         "alias_ENG_V": [
           "SUT"
         ], 
-        "ne_latitude": 33.935, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Brunswick County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589383", 
+          "woe:state=2347592", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518956, 
         "ne_longitude": -78.069, 
         "longitude": -78.071, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589383, 
+        "ne_latitude": 33.935, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 23417822, 
+        "sw_latitude": 33.924, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 33.930, 
         "sw_longitude": -78.081, 
-        "fullname": "Brunswick County Airport, Oak Island, North Carolina, Brunswick, United States", 
-        "sw_latitude": 33.924
+        "fullname": "Brunswick County Airport, Oak Island, North Carolina, United States", 
+        "iata_code": "SUT", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518956
     }

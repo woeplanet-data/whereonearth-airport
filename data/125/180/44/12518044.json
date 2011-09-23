@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518044, 
+        "placetype": "airport", 
         "name": "Boscombe Down Airport", 
-        "ne_latitude": 51.163, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12696112", 
+          "woe:county=12602186", 
+          "woe:state=24554868", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518044, 
         "ne_longitude": -1.732, 
         "longitude": -1.739, 
-        "placetype": "Airport", 
+        "parent_woeid": 12696112, 
+        "ne_latitude": 51.163, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:20:54Z", 
-        "parent_woeid": 13305, 
+        "sw_latitude": 51.154, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.158, 
         "sw_longitude": -1.746, 
-        "fullname": "Boscombe Down Airport, Boscombe Down, England, Wiltshire, United Kingdom", 
-        "sw_latitude": 51.154
+        "fullname": "Boscombe Down Airport, Boscombe Down, England, United Kingdom", 
+        "date_indexed": "2010-12-02T12:20:54Z"
       }, 
       "id": 12518044
     }

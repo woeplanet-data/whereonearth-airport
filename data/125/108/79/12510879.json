@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510879, 
-        "name": "San Salvador Airport", 
         "alias_ENG_V": [
           "ZSA"
         ], 
-        "ne_latitude": 24.065, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "San Salvador Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2344789", 
+          "woe:country=23424758", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510879, 
         "ne_longitude": -74.528, 
         "longitude": -74.533, 
-        "placetype": "Airport", 
+        "parent_woeid": 2344789, 
+        "ne_latitude": 24.065, 
         "iso": "BS", 
-        "date_indexed": "2010-12-02T07:50:25Z", 
-        "parent_woeid": 56874, 
+        "sw_latitude": 24.055, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 24.060, 
         "sw_longitude": -74.538, 
         "fullname": "San Salvador Airport, Cockburn Town, San Salvador, The Bahamas", 
-        "sw_latitude": 24.055
+        "iata_code": "ZSA", 
+        "date_indexed": "2010-12-02T07:50:25Z"
       }, 
       "id": 12510879
     }

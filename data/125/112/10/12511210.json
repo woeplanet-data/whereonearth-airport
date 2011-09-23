@@ -32,29 +32,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511210, 
-        "name": "Aeroporto Leite Lopes", 
-        "alias_ENG_P": [
-          "Leite Lopes Airport"
-        ], 
-        "ne_latitude": -21.121, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "RAO"
         ], 
+        "name": "Aeroporto Leite Lopes", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Leite Lopes Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12582246", 
+          "woe:state=2344868", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511210, 
         "ne_longitude": -47.769, 
         "longitude": -47.774, 
-        "placetype": "Airport", 
+        "parent_woeid": 12582246, 
+        "ne_latitude": -21.121, 
         "alias_POR_V": [
           "Aeroporto de Ribeirao Preto"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:28Z", 
-        "parent_woeid": 455903, 
+        "sw_latitude": -21.146, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -21.132, 
         "sw_longitude": -47.784, 
-        "fullname": "Aeroporto Leite Lopes, Ribeirao Preto, Sao Paulo, Ribeir\u00e3o Preto, Brazil", 
-        "sw_latitude": -21.146
+        "fullname": "Aeroporto Leite Lopes, Ribeirao Preto, Sao Paulo, Brazil", 
+        "iata_code": "RAO", 
+        "date_indexed": "2010-12-02T18:01:28Z"
       }, 
       "id": 12511210
     }

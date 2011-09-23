@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516404, 
+        "placetype": "airport", 
         "name": "Marinovka Airport", 
-        "ne_latitude": 48.649, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599559", 
+          "woe:state=2346933", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516404, 
         "ne_longitude": 43.808, 
         "longitude": 43.801, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599559, 
+        "ne_latitude": 48.649, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2043193, 
+        "sw_latitude": 48.640, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.645, 
         "sw_longitude": 43.794, 
         "fullname": "Marinovka Airport, Volgogradskaya Oblast, Kalachevsky, Russia", 
-        "sw_latitude": 48.640
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516404
     }

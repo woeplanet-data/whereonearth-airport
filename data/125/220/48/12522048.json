@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522048, 
+        "placetype": "airport", 
         "name": "Sun Valley Airport", 
-        "ne_latitude": 35.017, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12587588", 
+          "woe:state=2347561", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522048, 
         "ne_longitude": -114.557, 
         "longitude": -114.562, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587588, 
+        "ne_latitude": 35.017, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2405850, 
+        "sw_latitude": 35.008, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.013, 
         "sw_longitude": -114.568, 
-        "fullname": "Sun Valley Airport, Fort Mohave, Arizona, Mohave, United States", 
-        "sw_latitude": 35.008
+        "fullname": "Sun Valley Airport, Fort Mohave, Arizona, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12522048
     }

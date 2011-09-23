@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513071, 
+        "placetype": "airport", 
         "name": "Coburg Brandensteinsebene Airport", 
-        "ne_latitude": 50.269, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12635327", 
+          "woe:county=20071096", 
+          "woe:state=2345482", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513071, 
         "ne_longitude": 11.005, 
         "longitude": 10.998, 
-        "placetype": "Airport", 
+        "parent_woeid": 12635327, 
+        "ne_latitude": 50.269, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:24Z", 
-        "parent_woeid": 672246, 
+        "sw_latitude": 50.260, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.264, 
         "sw_longitude": 10.991, 
-        "fullname": "Coburg Brandensteinsebene Airport, L\u00f6belstein, Bavaria, Stadtkreis Coburg, Germany", 
+        "fullname": "Coburg Brandensteinsebene Airport, L\u00f6belstein, Bavaria, Germany", 
         "alias_GER_Q": [
           "Flughafen Coburg Brandensteinsebene"
         ], 
-        "sw_latitude": 50.260
+        "date_indexed": "2010-12-02T09:50:24Z"
       }, 
       "id": 12513071
     }

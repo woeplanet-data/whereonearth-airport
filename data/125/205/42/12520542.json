@@ -3,28 +3,42 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -90.034, 
-              30.031
-            ], 
-            [
-              -90.034, 
-              30.053
-            ], 
-            [
-              -90.012, 
-              30.053
-            ], 
-            [
-              -90.012, 
-              30.031
-            ], 
-            [
-              -90.034, 
-              30.031
+              [
+                -90.024, 
+                30.036
+              ], 
+              [
+                -90.023, 
+                30.036
+              ], 
+              [
+                -90.021, 
+                30.032
+              ], 
+              [
+                -90.026, 
+                30.034
+              ], 
+              [
+                -90.027, 
+                30.035
+              ], 
+              [
+                -90.026, 
+                30.039
+              ], 
+              [
+                -90.026, 
+                30.041
+              ], 
+              [
+                -90.024, 
+                30.036
+              ]
             ]
           ]
         ]
@@ -32,23 +46,32 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520542, 
-        "name": "Lakefront Airport", 
         "alias_ENG_V": [
           "NEW Airport"
         ], 
-        "ne_latitude": 30.053, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -90.012, 
+        "name": "Lakefront Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:suburb=2472474", 
+          "woe:suburb=55864643", 
+          "woe:county=12588631", 
+          "woe:state=2347577", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520542, 
+        "ne_longitude": -90.021, 
         "longitude": -90.025, 
-        "placetype": "Airport", 
-        "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
         "parent_woeid": 2472474, 
+        "ne_latitude": 30.041, 
+        "iso": "US", 
+        "sw_latitude": 30.032, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 30.036, 
-        "sw_longitude": -90.034, 
-        "fullname": "Lakefront Airport, New Orleans, Louisiana, Orleans Parish, United States", 
-        "sw_latitude": 30.031
+        "sw_longitude": -90.027, 
+        "fullname": "Lakefront Airport, New Orleans, Louisiana, United States", 
+        "iata_code": "NEW", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520542
     }

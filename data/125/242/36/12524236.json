@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524236, 
-        "name": "Cape Young Airport", 
         "alias_ENG_V": [
           "YUI Airport"
         ], 
-        "ne_latitude": 68.938, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Cape Young Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375230", 
+          "woe:state=20069920", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524236, 
         "ne_longitude": -116.920, 
         "longitude": -116.933, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375230, 
+        "ne_latitude": 68.938, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 23405898, 
+        "sw_latitude": 68.929, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 68.933, 
         "sw_longitude": -116.946, 
-        "fullname": "Cape Young Airport, Kugluktuk, Nunavut, Nunavut, Canada", 
-        "sw_latitude": 68.929
+        "fullname": "Cape Young Airport, Kugluktuk, Nunavut, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12524236
     }

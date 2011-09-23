@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520876, 
-        "name": "Mcminn County Airport", 
         "alias_ENG_V": [
           "Mcminn Airport"
         ], 
-        "ne_latitude": 35.405, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Mcminn County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589970", 
+          "woe:state=2347601", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520876, 
         "ne_longitude": -84.559, 
         "longitude": -84.566, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589970, 
+        "ne_latitude": 35.405, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2472822, 
+        "sw_latitude": 35.390, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.390, 
         "sw_longitude": -84.566, 
-        "fullname": "Mcminn County Airport, Piney Grove, Tennessee, Mcminn, United States", 
-        "sw_latitude": 35.390
+        "fullname": "Mcminn County Airport, Piney Grove, Tennessee, United States", 
+        "iata_code": "MMI", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520876
     }

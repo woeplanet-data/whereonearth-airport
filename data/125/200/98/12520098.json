@@ -3,28 +3,62 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -76.785, 
-              40.186
-            ], 
-            [
-              -76.785, 
-              40.202
-            ], 
-            [
-              -76.743, 
-              40.202
-            ], 
-            [
-              -76.743, 
-              40.186
-            ], 
-            [
-              -76.785, 
-              40.186
+              [
+                -76.758, 
+                40.200
+              ], 
+              [
+                -76.758, 
+                40.200
+              ], 
+              [
+                -76.755, 
+                40.200
+              ], 
+              [
+                -76.754, 
+                40.200
+              ], 
+              [
+                -76.750, 
+                40.197
+              ], 
+              [
+                -76.750, 
+                40.194
+              ], 
+              [
+                -76.750, 
+                40.193
+              ], 
+              [
+                -76.755, 
+                40.195
+              ], 
+              [
+                -76.757, 
+                40.192
+              ], 
+              [
+                -76.759, 
+                40.195
+              ], 
+              [
+                -76.761, 
+                40.195
+              ], 
+              [
+                -76.762, 
+                40.196
+              ], 
+              [
+                -76.758, 
+                40.200
+              ]
             ]
           ]
         ]
@@ -32,23 +66,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520098, 
-        "name": "Harrisburg International Airport", 
         "alias_ENG_V": [
           "MDT"
         ], 
-        "ne_latitude": 40.202, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -76.743, 
-        "longitude": -76.756, 
-        "placetype": "Airport", 
+        "name": "Harrisburg International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589749", 
+          "woe:state=2347597", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520098, 
+        "ne_longitude": -76.750, 
+        "longitude": -76.755, 
+        "parent_woeid": 12589749, 
+        "ne_latitude": 40.200, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 28340002, 
-        "latitude": 40.196, 
-        "sw_longitude": -76.785, 
-        "fullname": "Harrisburg International Airport, Lower Swatara, Pennsylvania, Dauphin, United States", 
-        "sw_latitude": 40.186
+        "sw_latitude": 40.192, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 40.197, 
+        "sw_longitude": -76.762, 
+        "fullname": "Harrisburg International Airport, Lower Swatara, Pennsylvania, United States", 
+        "iata_code": "MDT", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520098
     }

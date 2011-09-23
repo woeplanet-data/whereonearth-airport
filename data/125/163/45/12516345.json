@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516345, 
+        "placetype": "airport", 
         "name": "Lensk Airport", 
-        "ne_latitude": 60.740, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597633", 
+          "woe:state=2346881", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516345, 
         "ne_longitude": 114.839, 
         "longitude": 114.830, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597633, 
+        "ne_latitude": 60.740, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2121897, 
+        "sw_latitude": 60.731, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 60.736, 
         "sw_longitude": 114.820, 
-        "fullname": "Lensk Airport, Lensk, Sakha, Lensky, Russia", 
-        "sw_latitude": 60.731
+        "fullname": "Lensk Airport, Lensk, Sakha, Russia", 
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516345
     }

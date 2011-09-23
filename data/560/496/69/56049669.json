@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "CZE", 
-        "woeid": 56049669, 
+        "placetype": "airport", 
         "name": "Letiste Rakovnik", 
-        "ne_latitude": 50.098, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12608686", 
+          "woe:county=12582592", 
+          "woe:state=20070468", 
+          "woe:country=23424810", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56049669, 
         "ne_longitude": 13.698, 
         "longitude": 13.692, 
-        "placetype": "Airport", 
+        "parent_woeid": 12608686, 
+        "ne_latitude": 50.098, 
         "iso": "CZ", 
-        "date_indexed": "2010-12-02T08:56:52Z", 
-        "parent_woeid": 797189, 
+        "sw_latitude": 50.093, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.097, 
         "sw_longitude": 13.684, 
-        "fullname": "Letiste Rakovnik, Rakovn\u00edk, St\u0159edo\u010desk\u00fd, Rakovn\u00edk, Czech Republic", 
-        "sw_latitude": 50.093
+        "fullname": "Letiste Rakovnik, Rakovn\u00edk, St\u0159edo\u010desk\u00fd, Czech Republic", 
+        "date_indexed": "2010-12-02T08:56:52Z"
       }, 
       "id": 56049669
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511117, 
+        "placetype": "airport", 
         "name": "Aeroporto Embauba", 
         "alias_ENG_P": [
           "Embauba Airport"
         ], 
-        "ne_latitude": -16.179, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12578539", 
+          "woe:state=2344848", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511117, 
         "ne_longitude": -39.354, 
         "longitude": -39.358, 
-        "placetype": "Airport", 
+        "parent_woeid": 12578539, 
+        "ne_latitude": -16.179, 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 454683, 
+        "sw_latitude": -16.188, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -16.183, 
         "sw_longitude": -39.363, 
-        "fullname": "Aeroporto Embauba, Vale Verde, Bahia, Porto Seguro, Brazil", 
-        "sw_latitude": -16.188
+        "fullname": "Aeroporto Embauba, Vale Verde, Bahia, Brazil", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511117
     }

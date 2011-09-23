@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510743, 
-        "name": "Moruya Aerodrome", 
         "alias_ENG_V": [
           "Moruya Airport"
         ], 
-        "ne_latitude": -35.894, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Moruya Aerodrome", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55864288", 
+          "woe:state=2344700", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510743, 
         "ne_longitude": 150.153, 
         "longitude": 150.147, 
-        "placetype": "Airport", 
+        "parent_woeid": 55864288, 
+        "ne_latitude": -35.894, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1104126, 
+        "sw_latitude": -35.903, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -35.903, 
         "sw_longitude": 150.142, 
-        "fullname": "Moruya Aerodrome, Moruya, New South Wales, Eurobodalla, Australia", 
-        "sw_latitude": -35.903
+        "fullname": "Moruya Aerodrome, Moruya, New South Wales, Australia", 
+        "iata_code": "MYA", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 12510743
     }

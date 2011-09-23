@@ -3,28 +3,34 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              74.388, 
-              31.516
-            ], 
-            [
-              74.388, 
-              31.526
-            ], 
-            [
-              74.399, 
-              31.526
-            ], 
-            [
-              74.399, 
-              31.516
-            ], 
-            [
-              74.388, 
-              31.516
+              [
+                74.406, 
+                31.468
+              ], 
+              [
+                74.408, 
+                31.471
+              ], 
+              [
+                74.412, 
+                31.470
+              ], 
+              [
+                74.413, 
+                31.470
+              ], 
+              [
+                74.409, 
+                31.467
+              ], 
+              [
+                74.406, 
+                31.468
+              ]
             ]
           ]
         ]
@@ -32,23 +38,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515245, 
-        "name": "Lahore Airport", 
         "alias_ENG_V": [
           "LHE"
         ], 
-        "ne_latitude": 31.526, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": 74.399, 
-        "longitude": 74.393, 
-        "placetype": "Airport", 
+        "name": "Lahore Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2346498", 
+          "woe:country=23424922", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515245, 
+        "ne_longitude": 74.413, 
+        "longitude": 74.409, 
+        "parent_woeid": 2346498, 
+        "ne_latitude": 31.471, 
         "iso": "PK", 
-        "date_indexed": "2010-12-02T17:56:57Z", 
-        "parent_woeid": 2197142, 
-        "latitude": 31.521, 
-        "sw_longitude": 74.388, 
+        "sw_latitude": 31.467, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 31.469, 
+        "sw_longitude": 74.406, 
         "fullname": "Lahore Airport, Punjab, Pakistan", 
-        "sw_latitude": 31.516
+        "iata_code": "LHE", 
+        "date_indexed": "2010-12-02T17:56:57Z"
       }, 
       "id": 12515245
     }

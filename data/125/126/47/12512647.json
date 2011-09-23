@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512647, 
-        "name": "Reales Tamarindos Airport", 
         "alias_ENG_V": [
           "PVO"
         ], 
-        "ne_latitude": -1.033, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Reales Tamarindos Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=26810300", 
+          "woe:county=26809631", 
+          "woe:state=2345215", 
+          "woe:country=23424801", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512647, 
         "ne_longitude": -80.466, 
         "longitude": -80.471, 
-        "placetype": "Airport", 
+        "parent_woeid": 26810300, 
+        "ne_latitude": -1.033, 
         "iso": "EC", 
-        "date_indexed": "2010-12-02T17:51:45Z", 
-        "parent_woeid": 376170, 
+        "sw_latitude": -1.042, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -1.038, 
         "sw_longitude": -80.475, 
         "fullname": "Reales Tamarindos Airport, Manabi, Portoviejo, Ecuador", 
-        "sw_latitude": -1.042
+        "iata_code": "PVO", 
+        "date_indexed": "2010-12-02T17:51:45Z"
       }, 
       "id": 12512647
     }

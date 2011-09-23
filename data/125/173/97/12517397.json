@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517397, 
+        "placetype": "airport", 
         "name": "Bethlehem Airport", 
-        "ne_latitude": -28.243, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=56189513", 
+          "woe:county=56189449", 
+          "woe:state=2346980", 
+          "woe:country=23424942", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517397, 
         "ne_longitude": 28.341, 
         "longitude": 28.336, 
-        "placetype": "Airport", 
+        "parent_woeid": 56189513, 
+        "ne_latitude": -28.243, 
         "iso": "ZA", 
-        "date_indexed": "2010-12-02T08:57:46Z", 
-        "parent_woeid": 1579785, 
+        "sw_latitude": -28.252, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -28.247, 
         "sw_longitude": 28.331, 
-        "fullname": "Bethlehem Airport, Bethlehem, Free State, Bethlehem, South Africa", 
-        "sw_latitude": -28.252
+        "fullname": "Bethlehem Airport, Bethlehem, Free State, South Africa", 
+        "date_indexed": "2010-12-02T08:57:46Z"
       }, 
       "id": 12517397
     }

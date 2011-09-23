@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515866, 
+        "placetype": "airport", 
         "name": "Budenny Airport", 
-        "ne_latitude": 47.319, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599117", 
+          "woe:state=2346921", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515866, 
         "ne_longitude": 42.040, 
         "longitude": 42.034, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599117, 
+        "ne_latitude": 47.319, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2077283, 
+        "sw_latitude": 47.310, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.314, 
         "sw_longitude": 42.027, 
         "fullname": "Budenny Airport, Rostovskaya Oblast, Martynovsky, Russia", 
-        "sw_latitude": 47.310
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12515866
     }

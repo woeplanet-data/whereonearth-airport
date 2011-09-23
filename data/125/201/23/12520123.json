@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520123, 
-        "name": "Hastings Airport", 
         "alias_ENG_V": [
           "9d9"
         ], 
-        "ne_latitude": 42.668, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Hastings Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588721", 
+          "woe:state=2347581", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520123, 
         "ne_longitude": -85.333, 
         "longitude": -85.341, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588721, 
+        "ne_latitude": 42.668, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 28744103, 
+        "sw_latitude": 42.657, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.664, 
         "sw_longitude": -85.354, 
-        "fullname": "Hastings Airport, Rutland, Michigan, Barry, United States", 
-        "sw_latitude": 42.657
+        "fullname": "Hastings Airport, Rutland, Michigan, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520123
     }

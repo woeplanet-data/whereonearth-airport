@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522080, 
-        "name": "Taos Municipal Airport", 
         "alias_ENG_V": [
           "SKX"
         ], 
-        "ne_latitude": 36.465, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Taos Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589308", 
+          "woe:state=2347590", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522080, 
         "ne_longitude": -105.660, 
         "longitude": -105.670, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589308, 
+        "ne_latitude": 36.465, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2442113, 
+        "sw_latitude": 36.452, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.461, 
         "sw_longitude": -105.683, 
-        "fullname": "Taos Municipal Airport, Los Cordovas, New Mexico, Taos, United States", 
-        "sw_latitude": 36.452
+        "fullname": "Taos Municipal Airport, Los Cordovas, New Mexico, United States", 
+        "iata_code": "SKX", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522080
     }

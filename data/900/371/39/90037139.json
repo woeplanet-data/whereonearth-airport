@@ -32,29 +32,34 @@
       "type": "Feature", 
       "properties": {
         "lang": "JPN", 
-        "woeid": 90037139, 
-        "name": "\u5bcc\u58eb\u5c71\u9759\u5ca1\u7a7a\u6e2f", 
         "alias_ENG_V": [
           "Shizuoka Airport"
         ], 
+        "name": "\u5bcc\u58eb\u5c71\u9759\u5ca1\u7a7a\u6e2f", 
         "alias_ENG_P": [
           "Mt. Fuji Shizuoka Airport"
         ], 
-        "ne_latitude": 34.796, 
+        "parent_woeid": 2345886, 
+        "woeid": 90037139, 
+        "provider": "geoplanet 7.6.0", 
         "alias_JPN_V": [
           "\u9759\u5ca1\u7a7a\u6e2f"
         ], 
-        "ne_longitude": 138.180, 
         "longitude": 138.179, 
-        "parent_woeid": 2345886, 
-        "placetype": "Airport", 
+        "ne_longitude": 138.180, 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2345886", 
+          "woe:country=23424856", 
+          "woe:planet=1"
+        ], 
         "iso": "JP", 
-        "date_indexed": "2010-12-02T08:09:09Z", 
-        "provider": "geoplanet 7.6.0", 
+        "sw_latitude": 34.795, 
+        "ne_latitude": 34.796, 
         "latitude": 34.795, 
         "sw_longitude": 138.179, 
         "fullname": "\u5bcc\u58eb\u5c71\u9759\u5ca1\u7a7a\u6e2f, Shizuoka Prefecture, Japan", 
-        "sw_latitude": 34.795
+        "date_indexed": "2010-12-02T08:09:09Z"
       }, 
       "id": 90037139
     }

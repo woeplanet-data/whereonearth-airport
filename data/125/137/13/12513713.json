@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513713, 
+        "placetype": "airport", 
         "name": "Darrahi Airport", 
-        "ne_latitude": 29.381, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345781", 
+          "woe:country=23424851", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513713, 
         "ne_longitude": 51.074, 
         "longitude": 51.068, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345781, 
+        "ne_latitude": 29.381, 
         "iso": "IR", 
-        "date_indexed": "2010-12-02T08:53:52Z", 
-        "parent_woeid": 2246381, 
+        "sw_latitude": 29.372, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 29.377, 
         "sw_longitude": 51.063, 
         "fullname": "Darrahi Airport, Sa dabad, Bushehr, Iran", 
-        "sw_latitude": 29.372
+        "date_indexed": "2010-12-02T08:53:52Z"
       }, 
       "id": 12513713
     }

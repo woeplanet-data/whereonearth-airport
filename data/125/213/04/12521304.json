@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521304, 
-        "name": "Park Township Airport", 
         "alias_ENG_V": [
           "HLM"
         ], 
-        "ne_latitude": 42.801, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Park Township Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588783", 
+          "woe:state=2347581", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521304, 
         "ne_longitude": -86.155, 
         "longitude": -86.161, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588783, 
+        "ne_latitude": 42.801, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2504202, 
+        "sw_latitude": 42.792, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.796, 
         "sw_longitude": -86.168, 
-        "fullname": "Park Township Airport, Tasmas Corners, Michigan, Ottawa, United States", 
-        "sw_latitude": 42.792
+        "fullname": "Park Township Airport, Tasmas Corners, Michigan, United States", 
+        "iata_code": "HLM", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521304
     }

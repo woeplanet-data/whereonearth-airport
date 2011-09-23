@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516620, 
-        "name": "Orenburg East Airport", 
         "alias_ENG_V": [
           "Orenburg East"
         ], 
-        "ne_latitude": 51.800, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Orenburg East Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12598942", 
+          "woe:state=2346916", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516620, 
         "ne_longitude": 55.457, 
         "longitude": 55.450, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598942, 
+        "ne_latitude": 51.800, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 1999169, 
+        "sw_latitude": 51.791, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.795, 
         "sw_longitude": 55.442, 
         "fullname": "Orenburg East Airport, Orenburgskaya Oblast, Orenburgsky, Russia", 
-        "sw_latitude": 51.791
+        "iata_code": "REN", 
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516620
     }

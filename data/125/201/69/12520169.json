@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520169, 
-        "name": "Hereford Municipal Airport", 
         "alias_ENG_V": [
           "HRX"
         ], 
-        "ne_latitude": 34.865, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Hereford Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590065", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520169, 
         "ne_longitude": -102.317, 
         "longitude": -102.322, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590065, 
+        "ne_latitude": 34.865, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2429419, 
+        "sw_latitude": 34.851, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 34.854, 
         "sw_longitude": -102.335, 
-        "fullname": "Hereford Municipal Airport, Joel, Texas, Deaf Smith, United States", 
-        "sw_latitude": 34.851
+        "fullname": "Hereford Municipal Airport, Joel, Texas, United States", 
+        "iata_code": "HRX", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520169
     }

@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514110, 
+        "placetype": "airport", 
         "name": "Naryn Northeast Airport", 
-        "ne_latitude": 41.470, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=20070191", 
+          "woe:country=23424864", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514110, 
         "ne_longitude": 76.137, 
         "longitude": 76.131, 
-        "placetype": "Airport", 
+        "parent_woeid": 20070191, 
+        "ne_latitude": 41.470, 
         "iso": "KG", 
-        "date_indexed": "2010-12-02T08:58:47Z", 
-        "parent_woeid": 1969941, 
+        "sw_latitude": 41.460, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.465, 
         "sw_longitude": 76.125, 
         "fullname": "Naryn Northeast Airport, Naryn, Naryn, Kyrgyzstan", 
-        "sw_latitude": 41.460
+        "date_indexed": "2010-12-02T08:58:47Z"
       }, 
       "id": 12514110
     }

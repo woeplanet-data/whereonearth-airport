@@ -3,28 +3,118 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              32.427, 
-              0.030
-            ], 
-            [
-              32.427, 
-              0.053
-            ], 
-            [
-              32.449, 
-              0.053
-            ], 
-            [
-              32.449, 
-              0.030
-            ], 
-            [
-              32.427, 
-              0.030
+              [
+                32.444, 
+                0.046
+              ], 
+              [
+                32.441, 
+                0.056
+              ], 
+              [
+                32.435, 
+                0.055
+              ], 
+              [
+                32.439, 
+                0.061
+              ], 
+              [
+                32.439, 
+                0.060
+              ], 
+              [
+                32.442, 
+                0.057
+              ], 
+              [
+                32.445, 
+                0.055
+              ], 
+              [
+                32.447, 
+                0.055
+              ], 
+              [
+                32.448, 
+                0.047
+              ], 
+              [
+                32.458, 
+                0.052
+              ], 
+              [
+                32.458, 
+                0.056
+              ], 
+              [
+                32.461, 
+                0.058
+              ], 
+              [
+                32.463, 
+                0.062
+              ], 
+              [
+                32.466, 
+                0.057
+              ], 
+              [
+                32.466, 
+                0.051
+              ], 
+              [
+                32.470, 
+                0.044
+              ], 
+              [
+                32.466, 
+                0.041
+              ], 
+              [
+                32.459, 
+                0.039
+              ], 
+              [
+                32.457, 
+                0.037
+              ], 
+              [
+                32.455, 
+                0.036
+              ], 
+              [
+                32.453, 
+                0.036
+              ], 
+              [
+                32.452, 
+                0.036
+              ], 
+              [
+                32.445, 
+                0.044
+              ], 
+              [
+                32.441, 
+                0.043
+              ], 
+              [
+                32.441, 
+                0.044
+              ], 
+              [
+                32.442, 
+                0.045
+              ], 
+              [
+                32.444, 
+                0.046
+              ]
             ]
           ]
         ]
@@ -32,23 +122,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518024, 
-        "name": "Entebbe International Airport", 
         "alias_ENG_V": [
           "Entebbe Airport"
         ], 
-        "ne_latitude": 0.053, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": 32.449, 
-        "longitude": 32.438, 
-        "placetype": "Airport", 
+        "name": "Entebbe International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=56190375", 
+          "woe:state=24550740", 
+          "woe:country=23424974", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518024, 
+        "ne_longitude": 32.470, 
+        "longitude": 32.455, 
+        "parent_woeid": 56190375, 
+        "ne_latitude": 0.062, 
         "iso": "UG", 
-        "date_indexed": "2010-12-02T10:22:43Z", 
-        "parent_woeid": 1451382, 
-        "latitude": 0.042, 
-        "sw_longitude": 32.427, 
+        "sw_latitude": 0.036, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 0.048, 
+        "sw_longitude": 32.435, 
         "fullname": "Entebbe International Airport, Entebbe, Wakiso, Uganda", 
-        "sw_latitude": 0.030
+        "iata_code": "EBB", 
+        "date_indexed": "2010-12-02T10:22:43Z"
       }, 
       "id": 12518024
     }

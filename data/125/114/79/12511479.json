@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511479, 
+        "placetype": "airport", 
         "name": "Ostrov Northwest Airport", 
-        "ne_latitude": 43.701, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55873804", 
+          "woe:state=20070071", 
+          "woe:country=23424771", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511479, 
         "ne_longitude": 26.587, 
         "longitude": 26.580, 
-        "placetype": "Airport", 
+        "parent_woeid": 55873804, 
+        "ne_latitude": 43.701, 
         "iso": "BG", 
-        "date_indexed": "2010-12-02T16:14:37Z", 
-        "parent_woeid": 838561, 
+        "sw_latitude": 43.692, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.696, 
         "sw_longitude": 26.574, 
         "fullname": "Ostrov Northwest Airport, Razgrad, Zavet, Bulgaria", 
-        "sw_latitude": 43.692
+        "date_indexed": "2010-12-02T16:14:37Z"
       }, 
       "id": 12511479
     }

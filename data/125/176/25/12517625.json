@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "SWE", 
-        "woeid": 12517625, 
+        "placetype": "airport", 
         "name": "Feringe Flygplats", 
         "alias_ENG_P": [
           "Feringe Airport"
         ], 
-        "ne_latitude": 56.955, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12587317", 
+          "woe:state=2347055", 
+          "woe:country=23424954", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517625, 
         "ne_longitude": 13.934, 
         "longitude": 13.925, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587317, 
+        "ne_latitude": 56.955, 
         "iso": "SE", 
-        "date_indexed": "2010-12-02T16:45:55Z", 
-        "parent_woeid": 910151, 
+        "sw_latitude": 56.946, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 56.951, 
         "sw_longitude": 13.917, 
-        "fullname": "Feringe Flygplats, Vittaryd, Kronoberg, Ljungby, Sweden", 
-        "sw_latitude": 56.946
+        "fullname": "Feringe Flygplats, Vittaryd, Kronoberg, Sweden", 
+        "date_indexed": "2010-12-02T16:45:55Z"
       }, 
       "id": 12517625
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515237, 
-        "name": "Hyderabad Airport", 
         "alias_ENG_V": [
           "HDD"
         ], 
-        "ne_latitude": 25.319, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Hyderabad Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2346499", 
+          "woe:country=23424922", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515237, 
         "ne_longitude": 68.371, 
         "longitude": 68.366, 
-        "placetype": "Airport", 
+        "parent_woeid": 2346499, 
+        "ne_latitude": 25.319, 
         "iso": "PK", 
-        "date_indexed": "2010-12-02T17:56:57Z", 
-        "parent_woeid": 2197888, 
+        "sw_latitude": 25.310, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 25.314, 
         "sw_longitude": 68.361, 
         "fullname": "Hyderabad Airport, Sindh, Pakistan", 
-        "sw_latitude": 25.310
+        "iata_code": "HDD", 
+        "date_indexed": "2010-12-02T17:56:57Z"
       }, 
       "id": 12515237
     }

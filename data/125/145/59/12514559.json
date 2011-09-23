@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514559, 
+        "placetype": "airport", 
         "name": "Vang Vieng Airport", 
-        "ne_latitude": 18.924, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=20070164", 
+          "woe:country=23424872", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514559, 
         "ne_longitude": 102.458, 
         "longitude": 102.453, 
-        "placetype": "Airport", 
+        "parent_woeid": 20070164, 
+        "ne_latitude": 18.924, 
         "iso": "LA", 
-        "date_indexed": "2010-12-02T16:42:51Z", 
-        "parent_woeid": 1139831, 
+        "sw_latitude": 18.915, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 18.919, 
         "sw_longitude": 102.448, 
         "fullname": "Vang Vieng Airport, Viangchan, Laos", 
-        "sw_latitude": 18.915
+        "date_indexed": "2010-12-02T16:42:51Z"
       }, 
       "id": 12514559
     }

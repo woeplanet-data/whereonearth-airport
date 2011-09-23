@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514810, 
+        "placetype": "airport", 
         "name": "Manston Airport", 
-        "ne_latitude": 16.996, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55927066", 
+          "woe:state=2346258", 
+          "woe:country=23424898", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514810, 
         "ne_longitude": 53.363, 
         "longitude": 53.358, 
-        "placetype": "Airport", 
+        "parent_woeid": 55927066, 
+        "ne_latitude": 16.996, 
         "iso": "OM", 
-        "date_indexed": "2010-12-02T09:35:43Z", 
-        "parent_woeid": 2268201, 
+        "sw_latitude": 16.987, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 16.992, 
         "sw_longitude": 53.354, 
         "fullname": "Manston Airport, Zufar, Rakhyut, Oman", 
-        "sw_latitude": 16.987
+        "date_indexed": "2010-12-02T09:35:43Z"
       }, 
       "id": 12514810
     }

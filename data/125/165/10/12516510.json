@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516510, 
+        "placetype": "airport", 
         "name": "Nizhneudinsk Airport", 
-        "ne_latitude": 54.899, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598272", 
+          "woe:state=2346896", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516510, 
         "ne_longitude": 99.078, 
         "longitude": 99.070, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598272, 
+        "ne_latitude": 54.899, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2122419, 
+        "sw_latitude": 54.890, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 54.895, 
         "sw_longitude": 99.062, 
-        "fullname": "Nizhneudinsk Airport, Nizhneudinsk, Irkutskaya Oblast, Nizhneudinsk, Russia", 
-        "sw_latitude": 54.890
+        "fullname": "Nizhneudinsk Airport, Nizhneudinsk, Irkutskaya Oblast, Russia", 
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516510
     }

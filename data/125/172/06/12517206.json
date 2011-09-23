@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517206, 
+        "placetype": "airport", 
         "name": "Vozhayel Airport", 
-        "ne_latitude": 62.832, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597446", 
+          "woe:state=2346874", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517206, 
         "ne_longitude": 51.335, 
         "longitude": 51.325, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597446, 
+        "ne_latitude": 62.832, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2109021, 
+        "sw_latitude": 62.823, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 62.827, 
         "sw_longitude": 51.315, 
         "fullname": "Vozhayel Airport, Komi, Knyazhpogostsky, Russia", 
-        "sw_latitude": 62.823
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12517206
     }

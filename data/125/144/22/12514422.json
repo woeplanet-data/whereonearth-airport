@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514422, 
+        "placetype": "airport", 
         "name": "Novo Troitskoye Airport", 
-        "ne_latitude": 43.710, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345983", 
+          "woe:country=23424871", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514422, 
         "ne_longitude": 73.744, 
         "longitude": 73.738, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345983, 
+        "ne_latitude": 43.710, 
         "iso": "KZ", 
-        "date_indexed": "2010-12-02T08:54:13Z", 
-        "parent_woeid": 2264740, 
+        "sw_latitude": 43.701, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.706, 
         "sw_longitude": 73.732, 
         "fullname": "Novo Troitskoye Airport, Zhambyl, Kazakhstan", 
-        "sw_latitude": 43.701
+        "date_indexed": "2010-12-02T08:54:13Z"
       }, 
       "id": 12514422
     }

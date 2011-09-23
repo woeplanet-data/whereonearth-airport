@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521462, 
-        "name": "Potsdam Municipal Airport", 
         "alias_ENG_V": [
           "PTD"
         ], 
-        "ne_latitude": 44.683, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Potsdam Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589361", 
+          "woe:state=2347591", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521462, 
         "ne_longitude": -74.939, 
         "longitude": -74.955, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589361, 
+        "ne_latitude": 44.683, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2475937, 
+        "sw_latitude": 44.670, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.671, 
         "sw_longitude": -74.958, 
-        "fullname": "Potsdam Municipal Airport, Potsdam, New York, St. Lawrence, United States", 
-        "sw_latitude": 44.670
+        "fullname": "Potsdam Municipal Airport, Potsdam, New York, United States", 
+        "iata_code": "PTD", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521462
     }

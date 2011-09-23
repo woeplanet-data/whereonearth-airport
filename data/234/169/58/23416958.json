@@ -3,28 +3,86 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              29.019, 
-              40.981
-            ], 
-            [
-              29.019, 
-              41.004
-            ], 
-            [
-              29.049, 
-              41.004
-            ], 
-            [
-              29.049, 
-              40.981
-            ], 
-            [
-              29.019, 
-              40.981
+              [
+                29.024, 
+                40.995
+              ], 
+              [
+                29.024, 
+                40.995
+              ], 
+              [
+                29.026, 
+                40.995
+              ], 
+              [
+                29.028, 
+                40.997
+              ], 
+              [
+                29.032, 
+                41.000
+              ], 
+              [
+                29.034, 
+                41.002
+              ], 
+              [
+                29.035, 
+                41.000
+              ], 
+              [
+                29.034, 
+                40.997
+              ], 
+              [
+                29.038, 
+                40.992
+              ], 
+              [
+                29.038, 
+                40.991
+              ], 
+              [
+                29.033, 
+                40.990
+              ], 
+              [
+                29.029, 
+                40.988
+              ], 
+              [
+                29.027, 
+                40.984
+              ], 
+              [
+                29.027, 
+                40.990
+              ], 
+              [
+                29.024, 
+                40.990
+              ], 
+              [
+                29.021, 
+                40.991
+              ], 
+              [
+                29.019, 
+                40.991
+              ], 
+              [
+                29.019, 
+                40.996
+              ], 
+              [
+                29.024, 
+                40.995
+              ]
             ]
           ]
         ]
@@ -32,23 +90,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 23416958, 
-        "name": "Istanbul Sabiha Gokcen Airport", 
         "alias_ENG_V": [
           "Sabiha Gokcen"
         ], 
-        "ne_latitude": 41.004, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": 29.049, 
-        "longitude": 29.034, 
-        "placetype": "Airport", 
-        "iso": "TR", 
-        "date_indexed": "2010-12-02T16:23:11Z", 
+        "name": "Istanbul Sabiha Gokcen Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:suburb=55865066", 
+          "woe:county=29390475", 
+          "woe:state=2347289", 
+          "woe:country=23424969", 
+          "woe:planet=1"
+        ], 
+        "woeid": 23416958, 
+        "ne_longitude": 29.038, 
+        "longitude": 29.029, 
         "parent_woeid": 55865066, 
-        "latitude": 40.993, 
+        "ne_latitude": 41.002, 
+        "iso": "TR", 
+        "sw_latitude": 40.984, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 40.994, 
         "sw_longitude": 29.019, 
-        "fullname": "Istanbul Sabiha Gokcen Airport, Istanbul, Istanbul, Kartal, Turkey", 
-        "sw_latitude": 40.981
+        "fullname": "Istanbul Sabiha Gokcen Airport, Istanbul, Istanbul, Turkey", 
+        "iata_code": "SAW", 
+        "date_indexed": "2010-12-02T16:23:11Z"
       }, 
       "id": 23416958
     }

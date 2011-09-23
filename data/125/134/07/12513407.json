@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513407, 
+        "placetype": "airport", 
         "name": "Mecsekrakos Airport", 
-        "ne_latitude": 46.174, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12594102", 
+          "woe:state=12577912", 
+          "woe:country=23424844", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513407, 
         "ne_longitude": 18.144, 
         "longitude": 18.137, 
-        "placetype": "Airport", 
+        "parent_woeid": 12594102, 
+        "ne_latitude": 46.174, 
         "iso": "HU", 
-        "date_indexed": "2010-12-02T09:56:22Z", 
-        "parent_woeid": 813211, 
+        "sw_latitude": 46.165, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.170, 
         "sw_longitude": 18.131, 
-        "fullname": "Mecsekrakos Airport, Tekeres, Baranya, Orf\u00fb, Hungary", 
-        "sw_latitude": 46.165
+        "fullname": "Mecsekrakos Airport, Tekeres, Baranya, Hungary", 
+        "date_indexed": "2010-12-02T09:56:22Z"
       }, 
       "id": 12513407
     }

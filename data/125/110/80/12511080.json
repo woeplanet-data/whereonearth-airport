@@ -32,29 +32,35 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511080, 
-        "name": "Aeroporto Regional do Cariri", 
-        "alias_ENG_P": [
-          "Cariri Regional Airport"
-        ], 
-        "ne_latitude": -7.214, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "JDO"
         ], 
+        "name": "Aeroporto Regional do Cariri", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Cariri Regional Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12578738", 
+          "woe:state=2344849", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511080, 
         "ne_longitude": -39.266, 
         "longitude": -39.271, 
-        "placetype": "Airport", 
+        "parent_woeid": 12578738, 
+        "ne_latitude": -7.214, 
         "alias_POR_V": [
           "Aeroporto JDO"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 455874, 
+        "sw_latitude": -7.223, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -7.218, 
         "sw_longitude": -39.275, 
-        "fullname": "Aeroporto Regional do Cariri, Juazeiro do Norte, Ceara, Juazeiro do Norte, Brazil", 
-        "sw_latitude": -7.223
+        "fullname": "Aeroporto Regional do Cariri, Juazeiro do Norte, Ceara, Brazil", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511080
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513677, 
-        "name": "Surat Airport", 
         "alias_ENG_V": [
           "STV"
         ], 
-        "ne_latitude": 21.171, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Surat Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12586432", 
+          "woe:state=2345743", 
+          "woe:country=23424848", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513677, 
         "ne_longitude": 72.838, 
         "longitude": 72.833, 
-        "placetype": "Airport", 
+        "parent_woeid": 12586432, 
+        "ne_latitude": 21.171, 
         "iso": "IN", 
-        "date_indexed": "2010-12-02T09:26:27Z", 
-        "parent_woeid": 2295405, 
+        "sw_latitude": 21.162, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 21.167, 
         "sw_longitude": 72.828, 
-        "fullname": "Surat Airport, Surat, Gujarat, Surat, India", 
-        "sw_latitude": 21.162
+        "fullname": "Surat Airport, Surat, Gujarat, India", 
+        "iata_code": "STV", 
+        "date_indexed": "2010-12-02T09:26:27Z"
       }, 
       "id": 12513677
     }

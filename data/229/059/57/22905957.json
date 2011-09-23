@@ -3,28 +3,42 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              2.369, 
-              49.868
-            ], 
-            [
-              2.369, 
-              49.879
-            ], 
-            [
-              2.399, 
-              49.879
-            ], 
-            [
-              2.399, 
-              49.868
-            ], 
-            [
-              2.369, 
-              49.868
+              [
+                2.399, 
+                49.879
+              ], 
+              [
+                2.400, 
+                49.878
+              ], 
+              [
+                2.399, 
+                49.878
+              ], 
+              [
+                2.398, 
+                49.878
+              ], 
+              [
+                2.397, 
+                49.879
+              ], 
+              [
+                2.397, 
+                49.879
+              ], 
+              [
+                2.398, 
+                49.879
+              ], 
+              [
+                2.399, 
+                49.879
+              ]
             ]
           ]
         ]
@@ -32,26 +46,33 @@
       "type": "Feature", 
       "properties": {
         "lang": "FRE", 
-        "woeid": 22905957, 
         "name": "A\u00e9roport Amiens-Glisy", 
+        "hierarchy": [
+          "woe:localadmin=12662163", 
+          "woe:county=12597178", 
+          "woe:state=7153326", 
+          "woe:country=23424819", 
+          "woe:planet=1"
+        ], 
+        "woeid": 22905957, 
+        "provider": "geoplanet 7.6.0", 
+        "ne_longitude": 2.400, 
+        "longitude": 2.399, 
+        "parent_woeid": 12662163, 
+        "placetype": "airport", 
+        "latitude": 49.878, 
+        "iso": "FR", 
+        "sw_latitude": 49.878, 
         "ne_latitude": 49.879, 
-        "ne_longitude": 2.399, 
-        "longitude": 2.384, 
-        "parent_woeid": 593030, 
-        "placetype": "Airport", 
         "alias_FRE_V": [
           "Qam"
         ], 
-        "iso": "FR", 
-        "date_indexed": "2010-12-02T12:04:01Z", 
-        "provider": "geoplanet 7.6.0", 
-        "latitude": 49.871, 
-        "sw_longitude": 2.369, 
-        "fullname": "A\u00e9roport Amiens-Glisy, Glisy, Picardie, Somme, France", 
+        "sw_longitude": 2.397, 
+        "fullname": "A\u00e9roport Amiens-Glisy, Glisy, Picardie, France", 
         "alias_FRE_S": [
           "Aeroport Amiens-Glisy"
         ], 
-        "sw_latitude": 49.868
+        "date_indexed": "2010-12-02T12:04:01Z"
       }, 
       "id": 22905957
     }

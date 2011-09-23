@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516499, 
+        "placetype": "airport", 
         "name": "Nikolayevka North Airport", 
-        "ne_latitude": 46.790, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597803", 
+          "woe:state=2346884", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516499, 
         "ne_longitude": 38.598, 
         "longitude": 38.591, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597803, 
+        "ne_latitude": 46.790, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2051669, 
+        "sw_latitude": 46.781, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.785, 
         "sw_longitude": 38.585, 
         "fullname": "Nikolayevka North Airport, Krasnodarskiy Kray, Scherbinovsky, Russia", 
-        "sw_latitude": 46.781
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516499
     }

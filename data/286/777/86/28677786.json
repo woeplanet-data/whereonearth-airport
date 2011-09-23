@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 28677786, 
+        "placetype": "airport", 
         "name": "Kalbarri Aerodrome", 
-        "ne_latitude": -27.763, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55864200", 
+          "woe:state=2344706", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 28677786, 
         "ne_longitude": 114.164, 
         "longitude": 114.159, 
-        "placetype": "Airport", 
+        "parent_woeid": 55864200, 
+        "ne_latitude": -27.763, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1102911, 
+        "sw_latitude": -27.772, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -27.767, 
         "sw_longitude": 114.154, 
-        "fullname": "Kalbarri Aerodrome, Kalbarri, Western Australia, Northampton, Australia", 
-        "sw_latitude": -27.772
+        "fullname": "Kalbarri Aerodrome, Kalbarri, Western Australia, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 28677786
     }

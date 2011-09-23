@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522005, 
-        "name": "Stephens County Airport", 
         "alias_ENG_V": [
           "BKD"
         ], 
-        "ne_latitude": 32.727, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Stephens County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590221", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522005, 
         "ne_longitude": -98.888, 
         "longitude": -98.894, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590221, 
+        "ne_latitude": 32.727, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2496303, 
+        "sw_latitude": 32.711, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 32.722, 
         "sw_longitude": -98.896, 
-        "fullname": "Stephens County Airport, South Hanlon, Texas, Stephens, United States", 
-        "sw_latitude": 32.711
+        "fullname": "Stephens County Airport, South Hanlon, Texas, United States", 
+        "iata_code": "BKD", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522005
     }

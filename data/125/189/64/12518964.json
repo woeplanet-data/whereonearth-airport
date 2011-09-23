@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518964, 
+        "placetype": "airport", 
         "name": "Buckhannon Upshur County Airport", 
-        "ne_latitude": 38.996, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12590527", 
+          "woe:state=2347607", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518964, 
         "ne_longitude": -80.263, 
         "longitude": -80.269, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590527, 
+        "ne_latitude": 38.996, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:15Z", 
-        "parent_woeid": 2357128, 
+        "sw_latitude": 38.987, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.992, 
         "sw_longitude": -80.274, 
-        "fullname": "Buckhannon Upshur County Airport, Atlas, West Virginia, Upshur, United States", 
-        "sw_latitude": 38.987
+        "fullname": "Buckhannon Upshur County Airport, Atlas, West Virginia, United States", 
+        "date_indexed": "2010-12-02T18:39:15Z"
       }, 
       "id": 12518964
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512914, 
-        "name": "Lasbordes Airport", 
         "alias_ENG_V": [
           "Aerodrome Balma-Lasbordes"
         ], 
-        "ne_latitude": 43.594, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Lasbordes Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=12656160", 
+          "woe:county=12597186", 
+          "woe:state=7153323", 
+          "woe:country=23424819", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512914, 
         "ne_longitude": 1.505, 
         "longitude": 1.500, 
-        "placetype": "Airport", 
+        "parent_woeid": 12656160, 
+        "ne_latitude": 43.594, 
         "iso": "FR", 
-        "date_indexed": "2010-12-02T12:04:01Z", 
-        "parent_woeid": 577980, 
+        "sw_latitude": 43.581, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.587, 
         "sw_longitude": 1.495, 
-        "fullname": "Lasbordes Airport, Balma, Midi-Pyrenees, Haute-Garonne, France", 
-        "sw_latitude": 43.581
+        "fullname": "Lasbordes Airport, Balma, Midi-Pyrenees, France", 
+        "date_indexed": "2010-12-02T12:04:01Z"
       }, 
       "id": 12512914
     }

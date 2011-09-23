@@ -32,29 +32,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12523590, 
-        "name": "Aeroporto Itauba", 
-        "alias_ENG_P": [
-          "Itauba Airport"
-        ], 
-        "ne_latitude": -11.174, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "AUB"
         ], 
+        "name": "Aeroporto Itauba", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Itauba Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12579347", 
+          "woe:state=2344855", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523590, 
         "ne_longitude": -55.190, 
         "longitude": -55.195, 
-        "placetype": "Airport", 
+        "parent_woeid": 12579347, 
+        "ne_latitude": -11.174, 
         "alias_POR_V": [
           "Aeroporto AUB"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:28Z", 
-        "parent_woeid": 457369, 
+        "sw_latitude": -11.184, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -11.179, 
         "sw_longitude": -55.200, 
-        "fullname": "Aeroporto Itauba, Itauba, Mato Grosso, Ita\u00faba, Brazil", 
-        "sw_latitude": -11.184
+        "fullname": "Aeroporto Itauba, Itauba, Mato Grosso, Brazil", 
+        "iata_code": "AUB", 
+        "date_indexed": "2010-12-02T18:01:28Z"
       }, 
       "id": 12523590
     }

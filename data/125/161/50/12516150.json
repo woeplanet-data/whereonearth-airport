@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516150, 
+        "placetype": "airport", 
         "name": "Khonuu Airport", 
-        "ne_latitude": 66.455, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597637", 
+          "woe:state=2346881", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516150, 
         "ne_longitude": 143.238, 
         "longitude": 143.227, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597637, 
+        "ne_latitude": 66.455, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2121343, 
+        "sw_latitude": 66.446, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 66.450, 
         "sw_longitude": 143.215, 
-        "fullname": "Khonuu Airport, Khonuu, Sakha, Momsky, Russia", 
-        "sw_latitude": 66.446
+        "fullname": "Khonuu Airport, Khonuu, Sakha, Russia", 
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516150
     }

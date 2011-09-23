@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510812, 
-        "name": "Whyalla Airport", 
         "alias_ENG_V": [
           "WYA"
         ], 
-        "ne_latitude": -33.046, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Whyalla Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55864206", 
+          "woe:state=2344703", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510812, 
         "ne_longitude": 137.528, 
         "longitude": 137.523, 
-        "placetype": "Airport", 
+        "parent_woeid": 55864206, 
+        "ne_latitude": -33.046, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 28586452, 
+        "sw_latitude": -33.073, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -33.053, 
         "sw_longitude": 137.500, 
-        "fullname": "Whyalla Airport, Mullaquana, South Australia, Whyalla, Australia", 
-        "sw_latitude": -33.073
+        "fullname": "Whyalla Airport, Mullaquana, South Australia, Australia", 
+        "iata_code": "WYA", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 12510812
     }

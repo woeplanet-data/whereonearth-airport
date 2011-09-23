@@ -3,28 +3,78 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -93.071, 
-              44.923
-            ], 
-            [
-              -93.071, 
-              44.945
-            ], 
-            [
-              -93.051, 
-              44.945
-            ], 
-            [
-              -93.051, 
-              44.923
-            ], 
-            [
-              -93.071, 
-              44.923
+              [
+                -93.067, 
+                44.949
+              ], 
+              [
+                -93.051, 
+                44.950
+              ], 
+              [
+                -93.049, 
+                44.947
+              ], 
+              [
+                -93.050, 
+                44.942
+              ], 
+              [
+                -93.052, 
+                44.941
+              ], 
+              [
+                -93.054, 
+                44.939
+              ], 
+              [
+                -93.060, 
+                44.928
+              ], 
+              [
+                -93.070, 
+                44.919
+              ], 
+              [
+                -93.074, 
+                44.937
+              ], 
+              [
+                -93.074, 
+                44.937
+              ], 
+              [
+                -93.098, 
+                44.945
+              ], 
+              [
+                -93.104, 
+                44.954
+              ], 
+              [
+                -93.102, 
+                44.956
+              ], 
+              [
+                -93.096, 
+                44.947
+              ], 
+              [
+                -93.070, 
+                44.949
+              ], 
+              [
+                -93.069, 
+                44.949
+              ], 
+              [
+                -93.067, 
+                44.949
+              ]
             ]
           ]
         ]
@@ -32,23 +82,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521977, 
-        "name": "St Paul Downtown Holman Field", 
         "alias_ENG_V": [
           "STP"
         ], 
-        "ne_latitude": 44.945, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -93.051, 
-        "longitude": -93.060, 
-        "placetype": "Airport", 
-        "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
+        "name": "St Paul Downtown Holman Field", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:suburb=55806859", 
+          "woe:county=12588858", 
+          "woe:state=2347582", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521977, 
+        "ne_longitude": -93.049, 
+        "longitude": -93.070, 
         "parent_woeid": 55806859, 
-        "latitude": 44.941, 
-        "sw_longitude": -93.071, 
-        "fullname": "St Paul Downtown Holman Field, St. Paul, Minnesota, Ramsey, United States", 
-        "sw_latitude": 44.923
+        "ne_latitude": 44.956, 
+        "iso": "US", 
+        "sw_latitude": 44.919, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 44.940, 
+        "sw_longitude": -93.104, 
+        "fullname": "St Paul Downtown Holman Field, St. Paul, Minnesota, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521977
     }

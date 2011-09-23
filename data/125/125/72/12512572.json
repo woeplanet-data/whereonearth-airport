@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512572, 
+        "placetype": "airport", 
         "name": "Tchorovice Airport", 
-        "ne_latitude": 49.431, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12604812", 
+          "woe:county=12582543", 
+          "woe:state=20070502", 
+          "woe:country=23424810", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512572, 
         "ne_longitude": 13.807, 
         "longitude": 13.800, 
-        "placetype": "Airport", 
+        "parent_woeid": 12604812, 
+        "ne_latitude": 49.431, 
         "iso": "CZ", 
-        "date_indexed": "2010-12-02T08:56:52Z", 
-        "parent_woeid": 796407, 
+        "sw_latitude": 49.422, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.426, 
         "sw_longitude": 13.793, 
         "fullname": "Tchorovice Airport, Jiho\u010desk\u00fd, Strakonice, Czech Republic", 
-        "sw_latitude": 49.422
+        "date_indexed": "2010-12-02T08:56:52Z"
       }, 
       "id": 12512572
     }

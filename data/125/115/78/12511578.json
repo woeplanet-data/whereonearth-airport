@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511578, 
+        "placetype": "airport", 
         "name": "Blissville Airport", 
-        "ne_latitude": 45.611, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=29375122", 
+          "woe:state=2344918", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511578, 
         "ne_longitude": -66.540, 
         "longitude": -66.547, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375122, 
+        "ne_latitude": 45.611, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 54, 
+        "sw_latitude": 45.602, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.607, 
         "sw_longitude": -66.553, 
-        "fullname": "Blissville Airport, Central Blissville, New Brunswick, Sunbury, Canada", 
-        "sw_latitude": 45.602
+        "fullname": "Blissville Airport, Central Blissville, New Brunswick, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12511578
     }

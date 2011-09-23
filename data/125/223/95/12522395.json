@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522395, 
-        "name": "West Woodward Airport", 
         "alias_ENG_V": [
           "W Woodward Airport"
         ], 
-        "ne_latitude": 36.445, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "West Woodward Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589691", 
+          "woe:state=2347595", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522395, 
         "ne_longitude": -99.517, 
         "longitude": -99.517, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589691, 
+        "ne_latitude": 36.445, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2503934, 
+        "sw_latitude": 36.428, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.435, 
         "sw_longitude": -99.536, 
-        "fullname": "West Woodward Airport, Tangier, Oklahoma, Woodward, United States", 
-        "sw_latitude": 36.428
+        "fullname": "West Woodward Airport, Tangier, Oklahoma, United States", 
+        "iata_code": "WWR", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522395
     }

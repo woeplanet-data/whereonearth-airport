@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523780, 
-        "name": "Targovishte Airport", 
         "alias_ENG_V": [
           "TGV"
         ], 
-        "ne_latitude": 42.421, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Targovishte Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55873815", 
+          "woe:state=20070068", 
+          "woe:country=23424771", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523780, 
         "ne_longitude": 24.506, 
         "longitude": 24.500, 
-        "placetype": "Airport", 
+        "parent_woeid": 55873815, 
+        "ne_latitude": 42.421, 
         "iso": "BG", 
-        "date_indexed": "2010-12-02T16:14:37Z", 
-        "parent_woeid": 837934, 
+        "sw_latitude": 42.412, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.417, 
         "sw_longitude": 24.494, 
         "fullname": "Targovishte Airport, Plovdiv, Hisarya, Bulgaria", 
-        "sw_latitude": 42.412
+        "iata_code": "TGV", 
+        "date_indexed": "2010-12-02T16:14:37Z"
       }, 
       "id": 12523780
     }

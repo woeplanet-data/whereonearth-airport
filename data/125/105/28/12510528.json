@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510528, 
-        "name": "Oran Airport", 
         "alias_ENG_V": [
           "ORA"
         ], 
-        "ne_latitude": -23.149, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Oran Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=20070782", 
+          "woe:state=2344691", 
+          "woe:country=23424747", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510528, 
         "ne_longitude": -64.320, 
         "longitude": -64.325, 
-        "placetype": "Airport", 
+        "parent_woeid": 20070782, 
+        "ne_latitude": -23.149, 
         "iso": "AR", 
-        "date_indexed": "2010-12-02T17:41:29Z", 
-        "parent_woeid": 468746, 
+        "sw_latitude": -23.158, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -23.154, 
         "sw_longitude": -64.330, 
-        "fullname": "Oran Airport, Or\u00e1n, Salta, Or\u00e1n, Argentina", 
-        "sw_latitude": -23.158
+        "fullname": "Oran Airport, Or\u00e1n, Salta, Argentina", 
+        "iata_code": "ORA", 
+        "date_indexed": "2010-12-02T17:41:29Z"
       }, 
       "id": 12510528
     }

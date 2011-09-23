@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513927, 
+        "placetype": "airport", 
         "name": "Shaibah Airport", 
-        "ne_latitude": 30.431, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55999901", 
+          "woe:state=2345834", 
+          "woe:country=23424855", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513927, 
         "ne_longitude": 47.650, 
         "longitude": 47.644, 
-        "placetype": "Airport", 
+        "parent_woeid": 55999901, 
+        "ne_latitude": 30.431, 
         "iso": "IQ", 
-        "date_indexed": "2010-12-02T16:42:58Z", 
-        "parent_woeid": 1972057, 
+        "sw_latitude": 30.422, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 30.427, 
         "sw_longitude": 47.639, 
         "fullname": "Shaibah Airport, Al Basrah, Al Zubair, Iraq", 
-        "sw_latitude": 30.422
+        "date_indexed": "2010-12-02T16:42:58Z"
       }, 
       "id": 12513927
     }

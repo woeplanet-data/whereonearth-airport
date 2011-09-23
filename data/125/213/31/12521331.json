@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521331, 
-        "name": "Penn Valley Airport", 
         "alias_ENG_V": [
           "SEG"
         ], 
-        "ne_latitude": 40.826, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Penn Valley Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589782", 
+          "woe:state=2347597", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521331, 
         "ne_longitude": -76.857, 
         "longitude": -76.857, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589782, 
+        "ne_latitude": 40.826, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 28340166, 
+        "sw_latitude": 40.814, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.815, 
         "sw_longitude": -76.867, 
-        "fullname": "Penn Valley Airport, Monroe, Pennsylvania, Snyder, United States", 
-        "sw_latitude": 40.814
+        "fullname": "Penn Valley Airport, Monroe, Pennsylvania, United States", 
+        "iata_code": "SEG", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521331
     }

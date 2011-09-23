@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516363, 
+        "placetype": "airport", 
         "name": "Loukhi West Airport", 
-        "ne_latitude": 66.046, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597430", 
+          "woe:state=2346873", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516363, 
         "ne_longitude": 32.828, 
         "longitude": 32.817, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597430, 
+        "ne_latitude": 66.046, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2121987, 
+        "sw_latitude": 66.037, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 66.042, 
         "sw_longitude": 32.806, 
-        "fullname": "Loukhi West Airport, Loukhi, Kareliya, Loukhsky, Russia", 
-        "sw_latitude": 66.037
+        "fullname": "Loukhi West Airport, Loukhi, Kareliya, Russia", 
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516363
     }

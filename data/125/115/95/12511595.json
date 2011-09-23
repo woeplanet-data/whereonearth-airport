@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511595, 
+        "placetype": "airport", 
         "name": "Cambridge Reids Field Airport", 
-        "ne_latitude": 43.455, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=29375207", 
+          "woe:state=2344922", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511595, 
         "ne_longitude": -80.227, 
         "longitude": -80.233, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375207, 
+        "ne_latitude": 43.455, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 23401174, 
+        "sw_latitude": 43.445, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.450, 
         "sw_longitude": -80.240, 
-        "fullname": "Cambridge Reids Field Airport, Puslinch, Ontario, Wellington, Canada", 
-        "sw_latitude": 43.445
+        "fullname": "Cambridge Reids Field Airport, Puslinch, Ontario, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12511595
     }

@@ -3,28 +3,90 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -79.986, 
-              37.312
-            ], 
-            [
-              -79.986, 
-              37.337
-            ], 
-            [
-              -79.963, 
-              37.337
-            ], 
-            [
-              -79.963, 
-              37.312
-            ], 
-            [
-              -79.986, 
-              37.312
+              [
+                -79.977, 
+                37.326
+              ], 
+              [
+                -79.975, 
+                37.326
+              ], 
+              [
+                -79.972, 
+                37.327
+              ], 
+              [
+                -79.972, 
+                37.324
+              ], 
+              [
+                -79.971, 
+                37.323
+              ], 
+              [
+                -79.971, 
+                37.322
+              ], 
+              [
+                -79.969, 
+                37.320
+              ], 
+              [
+                -79.962, 
+                37.318
+              ], 
+              [
+                -79.968, 
+                37.318
+              ], 
+              [
+                -79.971, 
+                37.316
+              ], 
+              [
+                -79.979, 
+                37.316
+              ], 
+              [
+                -79.977, 
+                37.311
+              ], 
+              [
+                -79.978, 
+                37.309
+              ], 
+              [
+                -79.979, 
+                37.309
+              ], 
+              [
+                -79.979, 
+                37.309
+              ], 
+              [
+                -79.979, 
+                37.316
+              ], 
+              [
+                -79.976, 
+                37.322
+              ], 
+              [
+                -79.976, 
+                37.324
+              ], 
+              [
+                -79.979, 
+                37.327
+              ], 
+              [
+                -79.977, 
+                37.326
+              ]
             ]
           ]
         ]
@@ -32,23 +94,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521606, 
-        "name": "Roanoke Regional Airport-Woodrum Field", 
         "alias_ENG_V": [
           "Roanoke Regional-Woodrum Field"
         ], 
-        "ne_latitude": 37.337, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -79.963, 
-        "longitude": -79.970, 
-        "placetype": "Airport", 
+        "name": "Roanoke Regional Airport-Woodrum Field", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590413", 
+          "woe:state=2347605", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521606, 
+        "ne_longitude": -79.962, 
+        "longitude": -79.973, 
+        "parent_woeid": 12590413, 
+        "ne_latitude": 37.327, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2482550, 
-        "latitude": 37.321, 
-        "sw_longitude": -79.986, 
-        "fullname": "Roanoke Regional Airport-Woodrum Field, Roanoke, Virginia, Roanoke City, United States", 
-        "sw_latitude": 37.312
+        "sw_latitude": 37.309, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 37.320, 
+        "sw_longitude": -79.979, 
+        "fullname": "Roanoke Regional Airport-Woodrum Field, Roanoke, Virginia, United States", 
+        "iata_code": "ROA", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521606
     }

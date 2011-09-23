@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522915, 
+        "placetype": "airport", 
         "name": "Ham Tan Airport", 
-        "ne_latitude": 10.696, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2347731", 
+          "woe:country=23424984", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522915, 
         "ne_longitude": 107.729, 
         "longitude": 107.724, 
-        "placetype": "Airport", 
+        "parent_woeid": 2347731, 
+        "ne_latitude": 10.696, 
         "iso": "VN", 
-        "date_indexed": "2010-12-02T08:52:49Z", 
-        "parent_woeid": 1252425, 
+        "sw_latitude": 10.687, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 10.692, 
         "sw_longitude": 107.720, 
         "fullname": "Ham Tan Airport, Nam Tam, Binh Thuan, Vietnam", 
-        "sw_latitude": 10.687
+        "date_indexed": "2010-12-02T08:52:49Z"
       }, 
       "id": 12522915
     }

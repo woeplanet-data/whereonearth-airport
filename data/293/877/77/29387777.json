@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29387777, 
-        "name": "Skylark Airport", 
         "alias_ENG_V": [
           "Ca89"
         ], 
-        "ne_latitude": 33.641, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Skylark Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587702", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29387777, 
         "ne_longitude": -117.293, 
         "longitude": -117.295, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587702, 
+        "ne_latitude": 33.641, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2434852, 
+        "sw_latitude": 33.625, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 33.631, 
         "sw_longitude": -117.316, 
-        "fullname": "Skylark Airport, Lake Elsinore, California, Riverside, United States", 
-        "sw_latitude": 33.625
+        "fullname": "Skylark Airport, Lake Elsinore, California, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 29387777
     }

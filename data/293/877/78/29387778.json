@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29387778, 
-        "name": "Roy Williams Airport", 
         "alias_ENG_V": [
           "L80"
         ], 
-        "ne_latitude": 34.157, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Roy Williams Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587705", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29387778, 
         "ne_longitude": -116.247, 
         "longitude": -116.248, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587705, 
+        "ne_latitude": 34.157, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2502026, 
+        "sw_latitude": 34.150, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 34.154, 
         "sw_longitude": -116.256, 
-        "fullname": "Roy Williams Airport, Sunfair, California, San Bernardino, United States", 
-        "sw_latitude": 34.150
+        "fullname": "Roy Williams Airport, Sunfair, California, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 29387778
     }

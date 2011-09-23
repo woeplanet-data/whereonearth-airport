@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513550, 
+        "placetype": "airport", 
         "name": "Bhilai Airport", 
-        "ne_latitude": 21.298, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12586491", 
+          "woe:state=20070464", 
+          "woe:country=23424848", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513550, 
         "ne_longitude": 81.387, 
         "longitude": 81.382, 
-        "placetype": "Airport", 
+        "parent_woeid": 12586491, 
+        "ne_latitude": 21.298, 
         "iso": "IN", 
-        "date_indexed": "2010-12-02T09:26:27Z", 
-        "parent_woeid": 29180526, 
+        "sw_latitude": 21.289, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 21.293, 
         "sw_longitude": 81.377, 
-        "fullname": "Bhilai Airport, Birebhat, Chhattisgarh, Durg, India", 
-        "sw_latitude": 21.289
+        "fullname": "Bhilai Airport, Birebhat, Chhattisgarh, India", 
+        "date_indexed": "2010-12-02T09:26:27Z"
       }, 
       "id": 12513550
     }

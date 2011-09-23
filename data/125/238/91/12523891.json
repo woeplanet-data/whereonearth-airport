@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523891, 
-        "name": "Kopasker Airport", 
         "alias_ENG_V": [
           "OPA"
         ], 
-        "ne_latitude": 66.315, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Kopasker Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2345699", 
+          "woe:country=23424845", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523891, 
         "ne_longitude": -16.439, 
         "longitude": -16.450, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345699, 
+        "ne_latitude": 66.315, 
         "iso": "IS", 
-        "date_indexed": "2010-12-02T09:55:32Z", 
-        "parent_woeid": 980301, 
+        "sw_latitude": 66.306, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 66.310, 
         "sw_longitude": -16.462, 
         "fullname": "Kopasker Airport, K\u00f3pasker, Nordur-Tingeyjarsysla, Iceland", 
-        "sw_latitude": 66.306
+        "iata_code": "OPA", 
+        "date_indexed": "2010-12-02T09:55:32Z"
       }, 
       "id": 12523891
     }

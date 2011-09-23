@@ -32,26 +32,32 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511050, 
+        "placetype": "airport", 
         "name": "Aeroporto Bebedouro Northeast", 
         "alias_ENG_P": [
           "Bebedouro Northeast Airport"
         ], 
-        "ne_latitude": -20.895, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12581874", 
+          "woe:state=2344868", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511050, 
         "ne_longitude": -48.477, 
         "longitude": -48.482, 
-        "placetype": "Airport", 
+        "parent_woeid": 12581874, 
+        "ne_latitude": -20.895, 
         "alias_POR_V": [
           "Comandante Luiz Martins de Araujo"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 456786, 
+        "sw_latitude": -20.905, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -20.900, 
         "sw_longitude": -48.487, 
-        "fullname": "Aeroporto Bebedouro Northeast, Bebedouro, Sao Paulo, Bebedouro, Brazil", 
-        "sw_latitude": -20.905
+        "fullname": "Aeroporto Bebedouro Northeast, Bebedouro, Sao Paulo, Brazil", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511050
     }

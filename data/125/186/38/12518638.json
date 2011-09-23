@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518638, 
-        "name": "Antrim County Airport", 
         "alias_ENG_V": [
           "ACB"
         ], 
-        "ne_latitude": 44.996, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Antrim County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588718", 
+          "woe:state=2347581", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518638, 
         "ne_longitude": -85.193, 
         "longitude": -85.193, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588718, 
+        "ne_latitude": 44.996, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2361763, 
+        "sw_latitude": 44.980, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.984, 
         "sw_longitude": -85.204, 
-        "fullname": "Antrim County Airport, Bellaire, Michigan, Antrim, United States", 
-        "sw_latitude": 44.980
+        "fullname": "Antrim County Airport, Bellaire, Michigan, United States", 
+        "iata_code": "ACB", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518638
     }

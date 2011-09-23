@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 56049654, 
+        "placetype": "airport", 
         "name": "Chaiyaphum Airport", 
-        "ne_latitude": 15.774, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=28341094", 
+          "woe:state=2347151", 
+          "woe:country=23424960", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56049654, 
         "ne_longitude": 101.956, 
         "longitude": 101.956, 
-        "placetype": "Airport", 
+        "parent_woeid": 28341094, 
+        "ne_latitude": 15.774, 
         "iso": "TH", 
-        "date_indexed": "2010-12-02T17:05:34Z", 
-        "parent_woeid": 1202054, 
+        "sw_latitude": 15.766, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 15.774, 
         "sw_longitude": 101.944, 
-        "fullname": "Chaiyaphum Airport, Ban Chi Rong, Chaiyaphum, Mueang Chaiyaphum, Thailand", 
-        "sw_latitude": 15.766
+        "fullname": "Chaiyaphum Airport, Ban Chi Rong, Chaiyaphum, Thailand", 
+        "date_indexed": "2010-12-02T17:05:34Z"
       }, 
       "id": 56049654
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29230267, 
+        "placetype": "airport", 
         "name": "Warangal Airport", 
-        "ne_latitude": 17.922, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12586348", 
+          "woe:state=2345740", 
+          "woe:country=23424848", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29230267, 
         "ne_longitude": 79.605, 
         "longitude": 79.600, 
-        "placetype": "Airport", 
+        "parent_woeid": 12586348, 
+        "ne_latitude": 17.922, 
         "iso": "IN", 
-        "date_indexed": "2010-12-02T09:26:27Z", 
-        "parent_woeid": 29139202, 
+        "sw_latitude": 17.913, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 17.918, 
         "sw_longitude": 79.595, 
-        "fullname": "Warangal Airport, Mamnoor, Andhra Pradesh, Warangal, India", 
-        "sw_latitude": 17.913
+        "fullname": "Warangal Airport, Mamnoor, Andhra Pradesh, India", 
+        "date_indexed": "2010-12-02T09:26:27Z"
       }, 
       "id": 29230267
     }

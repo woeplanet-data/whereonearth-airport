@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510849, 
+        "placetype": "airport", 
         "name": "Florennes Airport", 
-        "ne_latitude": 50.246, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12602641", 
+          "woe:county=12591794", 
+          "woe:state=7153303", 
+          "woe:country=23424757", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510849, 
         "ne_longitude": 4.656, 
         "longitude": 4.649, 
-        "placetype": "Airport", 
+        "parent_woeid": 12602641, 
+        "ne_latitude": 50.246, 
         "iso": "BE", 
-        "date_indexed": "2010-12-02T16:32:27Z", 
-        "parent_woeid": 968463, 
+        "sw_latitude": 50.237, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.241, 
         "sw_longitude": 4.641, 
-        "fullname": "Florennes Airport, Corenne, Namur, Philippeville, Belgium", 
-        "sw_latitude": 50.237
+        "fullname": "Florennes Airport, Corenne, Namur, Belgium", 
+        "date_indexed": "2010-12-02T16:32:27Z"
       }, 
       "id": 12510849
     }

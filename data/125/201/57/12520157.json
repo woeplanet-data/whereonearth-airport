@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520157, 
-        "name": "Hemphill County Airport", 
         "alias_ENG_V": [
           "HHF"
         ], 
-        "ne_latitude": 35.901, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Hemphill County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590112", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520157, 
         "ne_longitude": -100.397, 
         "longitude": -100.400, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590112, 
+        "ne_latitude": 35.901, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2374181, 
+        "sw_latitude": 35.890, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.897, 
         "sw_longitude": -100.410, 
-        "fullname": "Hemphill County Airport, Canadian, Texas, Hemphill, United States", 
-        "sw_latitude": 35.890
+        "fullname": "Hemphill County Airport, Canadian, Texas, United States", 
+        "iata_code": "HHF", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520157
     }

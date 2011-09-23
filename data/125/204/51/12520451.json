@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520451, 
-        "name": "Kerrville Municipal Airport", 
         "alias_ENG_V": [
           "Kerrville Airport"
         ], 
-        "ne_latitude": 29.989, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Kerrville Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590139", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520451, 
         "ne_longitude": -99.075, 
         "longitude": -99.090, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590139, 
+        "ne_latitude": 29.989, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2431919, 
+        "sw_latitude": 29.965, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 29.983, 
         "sw_longitude": -99.094, 
-        "fullname": "Kerrville Municipal Airport, Kerrville, Texas, Kerr, United States", 
-        "sw_latitude": 29.965
+        "fullname": "Kerrville Municipal Airport, Kerrville, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520451
     }

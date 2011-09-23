@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 56049506, 
-        "name": "Maverick County Mem Int'l Airport", 
         "alias_ENG_V": [
           "5t9"
         ], 
-        "ne_latitude": 28.869, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Maverick County Mem Int'l Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590165", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56049506, 
         "ne_longitude": -100.516, 
         "longitude": -100.526, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590165, 
+        "ne_latitude": 28.869, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 23418130, 
+        "sw_latitude": 28.851, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 28.860, 
         "sw_longitude": -100.537, 
-        "fullname": "Maverick County Mem Int'l Airport, Radar Base, Texas, Maverick, United States", 
-        "sw_latitude": 28.851
+        "fullname": "Maverick County Mem Int'l Airport, Radar Base, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 56049506
     }

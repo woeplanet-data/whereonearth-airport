@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518991, 
-        "name": "Butler Memorial Airport", 
         "alias_ENG_V": [
           "BUM"
         ], 
-        "ne_latitude": 38.297, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Butler Memorial Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588972", 
+          "woe:state=2347584", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518991, 
         "ne_longitude": -94.339, 
         "longitude": -94.342, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588972, 
+        "ne_latitude": 38.297, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2372593, 
+        "sw_latitude": 38.282, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.289, 
         "sw_longitude": -94.344, 
-        "fullname": "Butler Memorial Airport, Butler, Missouri, Bates, United States", 
-        "sw_latitude": 38.282
+        "fullname": "Butler Memorial Airport, Butler, Missouri, United States", 
+        "iata_code": "BUM", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518991
     }

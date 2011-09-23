@@ -32,29 +32,35 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511328, 
-        "name": "Aeroporto Sinop", 
-        "alias_ENG_P": [
-          "Sinop Airport"
-        ], 
-        "ne_latitude": -11.869, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "OPS"
         ], 
+        "name": "Aeroporto Sinop", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Sinop Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12579393", 
+          "woe:state=2344855", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511328, 
         "ne_longitude": -55.569, 
         "longitude": -55.573, 
-        "placetype": "Airport", 
+        "parent_woeid": 12579393, 
+        "ne_latitude": -11.869, 
         "alias_POR_V": [
           "Aeroporto OPS"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 458108, 
+        "sw_latitude": -11.878, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -11.873, 
         "sw_longitude": -55.578, 
-        "fullname": "Aeroporto Sinop, Sinop, Mato Grosso, Sinop, Brazil", 
-        "sw_latitude": -11.878
+        "fullname": "Aeroporto Sinop, Sinop, Mato Grosso, Brazil", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511328
     }

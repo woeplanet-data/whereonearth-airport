@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511488, 
+        "placetype": "airport", 
         "name": "Polikrayshte Airport", 
-        "ne_latitude": 43.178, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55873865", 
+          "woe:state=20070063", 
+          "woe:country=23424771", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511488, 
         "ne_longitude": 25.653, 
         "longitude": 25.647, 
-        "placetype": "Airport", 
+        "parent_woeid": 55873865, 
+        "ne_latitude": 43.178, 
         "iso": "BG", 
-        "date_indexed": "2010-12-02T16:14:37Z", 
-        "parent_woeid": 839056, 
+        "sw_latitude": 43.169, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.173, 
         "sw_longitude": 25.641, 
         "fullname": "Polikrayshte Airport, Veliko Turnovo, Gorna Oryahovitsa, Bulgaria", 
-        "sw_latitude": 43.169
+        "date_indexed": "2010-12-02T16:14:37Z"
       }, 
       "id": 12511488
     }

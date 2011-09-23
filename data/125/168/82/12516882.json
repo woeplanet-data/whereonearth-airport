@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516882, 
+        "placetype": "airport", 
         "name": "Smetanovskiy Airport", 
-        "ne_latitude": 47.848, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599146", 
+          "woe:state=2346921", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516882, 
         "ne_longitude": 42.016, 
         "longitude": 42.009, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599146, 
+        "ne_latitude": 47.848, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2043256, 
+        "sw_latitude": 47.839, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.844, 
         "sw_longitude": 42.003, 
         "fullname": "Smetanovskiy Airport, Rostovskaya Oblast, Tsymlyansky, Russia", 
-        "sw_latitude": 47.839
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516882
     }

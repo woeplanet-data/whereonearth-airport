@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519079, 
-        "name": "Carroll County Airport", 
         "alias_ENG_V": [
           "4m1"
         ], 
-        "ne_latitude": 36.384, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Carroll County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587602", 
+          "woe:state=2347562", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519079, 
         "ne_longitude": -93.617, 
         "longitude": -93.625, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587602, 
+        "ne_latitude": 36.384, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2474031, 
+        "sw_latitude": 36.379, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.383, 
         "sw_longitude": -93.633, 
-        "fullname": "Carroll County Airport, Pleasant Valley, Arkansas, Carroll, United States", 
-        "sw_latitude": 36.379
+        "fullname": "Carroll County Airport, Pleasant Valley, Arkansas, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519079
     }

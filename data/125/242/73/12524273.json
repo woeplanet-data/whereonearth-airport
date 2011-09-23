@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524273, 
-        "name": "Cowley Airport", 
         "alias_ENG_V": [
           "YYM Airport"
         ], 
-        "ne_latitude": 49.571, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Cowley Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375228", 
+          "woe:state=2344915", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524273, 
         "ne_longitude": -114.076, 
         "longitude": -114.083, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375228, 
+        "ne_latitude": 49.571, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 8848, 
+        "sw_latitude": 49.562, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.567, 
         "sw_longitude": -114.090, 
-        "fullname": "Cowley Airport, Cowley, Alberta, Alberta, Canada", 
-        "sw_latitude": 49.562
+        "fullname": "Cowley Airport, Cowley, Alberta, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12524273
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524358, 
-        "name": "Iriona Airport", 
         "alias_ENG_V": [
           "IRN"
         ], 
-        "ne_latitude": 15.887, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Iriona Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26813673", 
+          "woe:state=2345625", 
+          "woe:country=23424841", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524358, 
         "ne_longitude": -85.202, 
         "longitude": -85.206, 
-        "placetype": "Airport", 
+        "parent_woeid": 26813673, 
+        "ne_latitude": 15.887, 
         "iso": "HN", 
-        "date_indexed": "2010-12-02T19:21:06Z", 
-        "parent_woeid": 102271, 
+        "sw_latitude": 15.878, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 15.882, 
         "sw_longitude": -85.211, 
-        "fullname": "Iriona Airport, Iriona, Col\u00f3n, Iriona, Honduras", 
-        "sw_latitude": 15.878
+        "fullname": "Iriona Airport, Iriona, Col\u00f3n, Honduras", 
+        "iata_code": "IRN", 
+        "date_indexed": "2010-12-02T19:21:06Z"
       }, 
       "id": 12524358
     }

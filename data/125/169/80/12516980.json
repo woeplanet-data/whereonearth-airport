@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516980, 
+        "placetype": "airport", 
         "name": "Tarbusta Airport", 
-        "ne_latitude": 46.362, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599137", 
+          "woe:state=2346921", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516980, 
         "ne_longitude": 41.703, 
         "longitude": 41.696, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599137, 
+        "ne_latitude": 46.362, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2123255, 
+        "sw_latitude": 46.353, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.357, 
         "sw_longitude": 41.690, 
         "fullname": "Tarbusta Airport, Rostovskaya Oblast, Salsky, Russia", 
-        "sw_latitude": 46.353
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516980
     }

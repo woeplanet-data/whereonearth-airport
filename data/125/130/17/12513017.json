@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513017, 
+        "placetype": "airport", 
         "name": "Tbilisi-Vaziani Airport", 
-        "ne_latitude": 41.648, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=20070408", 
+          "woe:country=23424823", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513017, 
         "ne_longitude": 45.053, 
         "longitude": 45.047, 
-        "placetype": "Airport", 
+        "parent_woeid": 20070408, 
+        "ne_latitude": 41.648, 
         "iso": "GE", 
-        "date_indexed": "2010-12-02T17:51:59Z", 
-        "parent_woeid": 1963037, 
+        "sw_latitude": 41.639, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.644, 
         "sw_longitude": 45.040, 
         "fullname": "Tbilisi-Vaziani Airport, Gardabanis Raioni, Georgia", 
-        "sw_latitude": 41.639
+        "date_indexed": "2010-12-02T17:51:59Z"
       }, 
       "id": 12513017
     }

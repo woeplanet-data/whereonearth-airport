@@ -3,28 +3,34 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -7.595, 
-              33.354
-            ], 
-            [
-              -7.595, 
-              33.376
-            ], 
-            [
-              -7.568, 
-              33.376
-            ], 
-            [
-              -7.568, 
-              33.354
-            ], 
-            [
-              -7.595, 
-              33.354
+              [
+                -7.581, 
+                33.373
+              ], 
+              [
+                -7.580, 
+                33.373
+              ], 
+              [
+                -7.581, 
+                33.370
+              ], 
+              [
+                -7.584, 
+                33.372
+              ], 
+              [
+                -7.583, 
+                33.373
+              ], 
+              [
+                -7.581, 
+                33.373
+              ]
             ]
           ]
         ]
@@ -32,23 +38,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514788, 
-        "name": "Mohamed V Airport", 
         "alias_ENG_V": [
           "CMN Airport"
         ], 
-        "ne_latitude": 33.376, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -7.568, 
+        "name": "Mohamed V Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=56120067", 
+          "woe:state=56120054", 
+          "woe:country=23424893", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514788, 
+        "ne_longitude": -7.580, 
         "longitude": -7.582, 
-        "placetype": "Airport", 
+        "parent_woeid": 56120067, 
+        "ne_latitude": 33.373, 
         "iso": "MA", 
-        "date_indexed": "2010-12-02T18:19:13Z", 
-        "parent_woeid": 1538218, 
-        "latitude": 33.365, 
-        "sw_longitude": -7.595, 
+        "sw_latitude": 33.370, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 33.372, 
+        "sw_longitude": -7.584, 
         "fullname": "Mohamed V Airport, Casablanca, Morocco", 
-        "sw_latitude": 33.354
+        "iata_code": "CMN", 
+        "date_indexed": "2010-12-02T18:19:13Z"
       }, 
       "id": 12514788
     }

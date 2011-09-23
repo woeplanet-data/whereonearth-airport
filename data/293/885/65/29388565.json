@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388565, 
-        "name": "Chambers County Airport", 
         "alias_ENG_V": [
           "T00"
         ], 
-        "ne_latitude": 29.776, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Chambers County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590042", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388565, 
         "ne_longitude": -94.656, 
         "longitude": -94.664, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590042, 
+        "ne_latitude": 29.776, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2354449, 
+        "sw_latitude": 29.766, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 29.773, 
         "sw_longitude": -94.668, 
-        "fullname": "Chambers County Airport, Anahuac, Texas, Chambers, United States", 
-        "sw_latitude": 29.766
+        "fullname": "Chambers County Airport, Anahuac, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388565
     }

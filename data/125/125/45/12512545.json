@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512545, 
+        "placetype": "airport", 
         "name": "Medlanky Airport", 
-        "ne_latitude": 49.248, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12605174", 
+          "woe:county=12582547", 
+          "woe:state=20070503", 
+          "woe:country=23424810", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512545, 
         "ne_longitude": 16.581, 
         "longitude": 16.574, 
-        "placetype": "Airport", 
+        "parent_woeid": 12605174, 
+        "ne_latitude": 49.248, 
         "iso": "CZ", 
-        "date_indexed": "2010-12-02T08:56:52Z", 
-        "parent_woeid": 801500, 
+        "sw_latitude": 49.239, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.243, 
         "sw_longitude": 16.567, 
-        "fullname": "Medlanky Airport, Zabovresky, Jihomoravsk\u00fd, Brno, Czech Republic", 
-        "sw_latitude": 49.239
+        "fullname": "Medlanky Airport, Zabovresky, Jihomoravsk\u00fd, Czech Republic", 
+        "date_indexed": "2010-12-02T08:56:52Z"
       }, 
       "id": 12512545
     }

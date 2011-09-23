@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523202, 
-        "name": "Pokhara Airport", 
         "alias_ENG_V": [
           "PKR"
         ], 
-        "ne_latitude": 28.205, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Pokhara Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=23706774", 
+          "woe:county=23706802", 
+          "woe:state=20070026", 
+          "woe:country=23424911", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523202, 
         "ne_longitude": 83.988, 
         "longitude": 83.983, 
-        "placetype": "Airport", 
+        "parent_woeid": 23706774, 
+        "ne_latitude": 28.205, 
         "iso": "NP", 
-        "date_indexed": "2010-12-02T18:18:47Z", 
-        "parent_woeid": 2268826, 
+        "sw_latitude": 28.195, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 28.200, 
         "sw_longitude": 83.978, 
         "fullname": "Pokhara Airport, West, Gandaki, Nepal", 
-        "sw_latitude": 28.195
+        "iata_code": "PKR", 
+        "date_indexed": "2010-12-02T18:18:47Z"
       }, 
       "id": 12523202
     }

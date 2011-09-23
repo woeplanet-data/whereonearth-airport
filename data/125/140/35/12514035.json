@@ -32,29 +32,35 @@
       "type": "Feature", 
       "properties": {
         "lang": "JPN", 
-        "woeid": 12514035, 
-        "name": "\u5c71\u5f62\u7a7a\u6e2f", 
         "alias_ENG_V": [
           "GAJ Airport"
         ], 
+        "name": "\u5c71\u5f62\u7a7a\u6e2f", 
         "alias_ENG_P": [
           "Yamagata Airport"
         ], 
-        "ne_latitude": 38.415, 
+        "parent_woeid": 2345893, 
+        "woeid": 12514035, 
+        "provider": "geoplanet 7.6.0", 
         "alias_JPN_V": [
           "\u30e4\u30de\u30ac\u30bf\u30af\u30a6\u30b3\u30a6"
         ], 
-        "ne_longitude": 140.376, 
         "longitude": 140.370, 
-        "parent_woeid": 1117189, 
-        "placetype": "Airport", 
+        "ne_longitude": 140.376, 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2345893", 
+          "woe:country=23424856", 
+          "woe:planet=1"
+        ], 
         "iso": "JP", 
-        "date_indexed": "2010-12-02T08:09:09Z", 
-        "provider": "geoplanet 7.6.0", 
+        "sw_latitude": 38.406, 
+        "ne_latitude": 38.415, 
         "latitude": 38.411, 
         "sw_longitude": 140.364, 
         "fullname": "\u5c71\u5f62\u7a7a\u6e2f, Higashine-shi, Yamagata Prefecture, Japan", 
-        "sw_latitude": 38.406
+        "iata_code": "GAJ", 
+        "date_indexed": "2010-12-02T08:09:09Z"
       }, 
       "id": 12514035
     }

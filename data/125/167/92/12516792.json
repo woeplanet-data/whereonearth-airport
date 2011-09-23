@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516792, 
+        "placetype": "airport", 
         "name": "Rubtsovsk Airport", 
-        "ne_latitude": 51.598, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597699", 
+          "woe:state=20070529", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516792, 
         "ne_longitude": 81.210, 
         "longitude": 81.203, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597699, 
+        "ne_latitude": 51.598, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2064585, 
+        "sw_latitude": 51.589, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.593, 
         "sw_longitude": 81.195, 
         "fullname": "Rubtsovsk Airport, Altayskiy Kray, Rubtsovsky, Russia", 
-        "sw_latitude": 51.589
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516792
     }

@@ -3,28 +3,126 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -84.255, 
-              39.888
-            ], 
-            [
-              -84.255, 
-              39.923
-            ], 
-            [
-              -84.198, 
-              39.923
-            ], 
-            [
-              -84.198, 
-              39.888
-            ], 
-            [
-              -84.255, 
-              39.888
+              [
+                -84.209, 
+                39.905
+              ], 
+              [
+                -84.212, 
+                39.901
+              ], 
+              [
+                -84.211, 
+                39.899
+              ], 
+              [
+                -84.213, 
+                39.897
+              ], 
+              [
+                -84.216, 
+                39.894
+              ], 
+              [
+                -84.217, 
+                39.893
+              ], 
+              [
+                -84.221, 
+                39.897
+              ], 
+              [
+                -84.222, 
+                39.898
+              ], 
+              [
+                -84.226, 
+                39.897
+              ], 
+              [
+                -84.229, 
+                39.895
+              ], 
+              [
+                -84.229, 
+                39.898
+              ], 
+              [
+                -84.232, 
+                39.901
+              ], 
+              [
+                -84.229, 
+                39.906
+              ], 
+              [
+                -84.225, 
+                39.905
+              ], 
+              [
+                -84.221, 
+                39.906
+              ], 
+              [
+                -84.220, 
+                39.907
+              ], 
+              [
+                -84.220, 
+                39.909
+              ], 
+              [
+                -84.218, 
+                39.909
+              ], 
+              [
+                -84.212, 
+                39.908
+              ], 
+              [
+                -84.212, 
+                39.908
+              ], 
+              [
+                -84.211, 
+                39.909
+              ], 
+              [
+                -84.210, 
+                39.907
+              ], 
+              [
+                -84.206, 
+                39.907
+              ], 
+              [
+                -84.204, 
+                39.907
+              ], 
+              [
+                -84.204, 
+                39.905
+              ], 
+              [
+                -84.204, 
+                39.904
+              ], 
+              [
+                -84.206, 
+                39.905
+              ], 
+              [
+                -84.208, 
+                39.905
+              ], 
+              [
+                -84.209, 
+                39.905
+              ]
             ]
           ]
         ]
@@ -32,23 +130,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520347, 
-        "name": "James M Cox Dayton International Airport", 
         "alias_ENG_V": [
           "James M Cox Dayton Airport"
         ], 
-        "ne_latitude": 39.923, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -84.198, 
-        "longitude": -84.221, 
-        "placetype": "Airport", 
+        "name": "James M Cox Dayton International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589583", 
+          "woe:state=2347594", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520347, 
+        "ne_longitude": -84.204, 
+        "longitude": -84.219, 
+        "parent_woeid": 12589583, 
+        "ne_latitude": 39.909, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2511268, 
-        "latitude": 39.897, 
-        "sw_longitude": -84.255, 
-        "fullname": "James M Cox Dayton International Airport, Vandalia, Ohio, Montgomery, United States", 
-        "sw_latitude": 39.888
+        "sw_latitude": 39.893, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 39.902, 
+        "sw_longitude": -84.232, 
+        "fullname": "James M Cox Dayton International Airport, Vandalia, Ohio, United States", 
+        "iata_code": "DAY", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520347
     }

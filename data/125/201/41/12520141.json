@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520141, 
-        "name": "Hayward Municipal Airport", 
         "alias_ENG_V": [
           "HYR"
         ], 
-        "ne_latitude": 46.033, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Hayward Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590590", 
+          "woe:state=2347608", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520141, 
         "ne_longitude": -91.439, 
         "longitude": -91.445, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590590, 
+        "ne_latitude": 46.033, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2419174, 
+        "sw_latitude": 46.018, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.030, 
         "sw_longitude": -91.450, 
-        "fullname": "Hayward Municipal Airport, Hayward, Wisconsin, Sawyer, United States", 
-        "sw_latitude": 46.018
+        "fullname": "Hayward Municipal Airport, Hayward, Wisconsin, United States", 
+        "iata_code": "HYR", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520141
     }

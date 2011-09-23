@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520924, 
-        "name": "Miami Municipal Airport", 
         "alias_ENG_V": [
           "MIO"
         ], 
-        "ne_latitude": 36.918, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Miami Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589672", 
+          "woe:state=2347595", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520924, 
         "ne_longitude": -94.885, 
         "longitude": -94.890, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589672, 
+        "ne_latitude": 36.918, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2450017, 
+        "sw_latitude": 36.900, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.906, 
         "sw_longitude": -94.891, 
-        "fullname": "Miami Municipal Airport, Miami, Oklahoma, Ottawa, United States", 
-        "sw_latitude": 36.900
+        "fullname": "Miami Municipal Airport, Miami, Oklahoma, United States", 
+        "iata_code": "MIO", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520924
     }

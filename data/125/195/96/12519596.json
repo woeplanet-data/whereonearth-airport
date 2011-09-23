@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519596, 
+        "placetype": "airport", 
         "name": "Edwards County Airport", 
-        "ne_latitude": 29.951, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12590075", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519596, 
         "ne_longitude": -100.168, 
         "longitude": -100.174, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590075, 
+        "ne_latitude": 29.951, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:16Z", 
-        "parent_woeid": 2483490, 
+        "sw_latitude": 29.942, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 29.947, 
         "sw_longitude": -100.179, 
-        "fullname": "Edwards County Airport, Rocksprings, Texas, Edwards, United States", 
-        "sw_latitude": 29.942
+        "fullname": "Edwards County Airport, Rocksprings, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:16Z"
       }, 
       "id": 12519596
     }

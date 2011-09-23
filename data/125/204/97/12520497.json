@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520497, 
-        "name": "Kupper Airport", 
         "alias_ENG_V": [
           "Central Jersey Regional Airport"
         ], 
-        "ne_latitude": 40.531, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Kupper Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589275", 
+          "woe:state=2347589", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520497, 
         "ne_longitude": -74.590, 
         "longitude": -74.593, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589275, 
+        "ne_latitude": 40.531, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2445088, 
+        "sw_latitude": 40.525, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.528, 
         "sw_longitude": -74.597, 
-        "fullname": "Kupper Airport, Manville, New Jersey, Somerset, United States", 
-        "sw_latitude": 40.525
+        "fullname": "Kupper Airport, Manville, New Jersey, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12520497
     }

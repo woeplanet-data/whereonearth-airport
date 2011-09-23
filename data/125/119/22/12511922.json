@@ -3,28 +3,122 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -114.459, 
-              62.451
-            ], 
-            [
-              -114.459, 
-              62.475
-            ], 
-            [
-              -114.413, 
-              62.475
-            ], 
-            [
-              -114.413, 
-              62.451
-            ], 
-            [
-              -114.459, 
-              62.451
+              [
+                -114.438, 
+                62.470
+              ], 
+              [
+                -114.434, 
+                62.467
+              ], 
+              [
+                -114.437, 
+                62.462
+              ], 
+              [
+                -114.440, 
+                62.460
+              ], 
+              [
+                -114.442, 
+                62.460
+              ], 
+              [
+                -114.447, 
+                62.462
+              ], 
+              [
+                -114.443, 
+                62.463
+              ], 
+              [
+                -114.441, 
+                62.466
+              ], 
+              [
+                -114.443, 
+                62.469
+              ], 
+              [
+                -114.443, 
+                62.469
+              ], 
+              [
+                -114.444, 
+                62.471
+              ], 
+              [
+                -114.444, 
+                62.472
+              ], 
+              [
+                -114.441, 
+                62.472
+              ], 
+              [
+                -114.438, 
+                62.474
+              ], 
+              [
+                -114.437, 
+                62.471
+              ], 
+              [
+                -114.432, 
+                62.471
+              ], 
+              [
+                -114.431, 
+                62.471
+              ], 
+              [
+                -114.427, 
+                62.472
+              ], 
+              [
+                -114.423, 
+                62.472
+              ], 
+              [
+                -114.422, 
+                62.470
+              ], 
+              [
+                -114.421, 
+                62.468
+              ], 
+              [
+                -114.424, 
+                62.468
+              ], 
+              [
+                -114.426, 
+                62.467
+              ], 
+              [
+                -114.429, 
+                62.468
+              ], 
+              [
+                -114.432, 
+                62.465
+              ], 
+              [
+                -114.437, 
+                62.462
+              ], 
+              [
+                -114.434, 
+                62.467
+              ], 
+              [
+                -114.438, 
+                62.470
+              ]
             ]
           ]
         ]
@@ -32,23 +126,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511922, 
-        "name": "Yellowknife Airport", 
         "alias_ENG_V": [
           "YZF Airport"
         ], 
-        "ne_latitude": 62.475, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -114.413, 
-        "longitude": -114.433, 
-        "placetype": "Airport", 
+        "name": "Yellowknife Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375229", 
+          "woe:state=2344920", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511922, 
+        "ne_longitude": -114.421, 
+        "longitude": -114.435, 
+        "parent_woeid": 29375229, 
+        "ne_latitude": 62.474, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:24:00Z", 
-        "parent_woeid": 4285, 
-        "latitude": 62.470, 
-        "sw_longitude": -114.459, 
-        "fullname": "Yellowknife Airport, Yellowknife, Northwest Territories, Northwest Territories, Canada", 
-        "sw_latitude": 62.451
+        "sw_latitude": 62.460, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 62.468, 
+        "sw_longitude": -114.447, 
+        "fullname": "Yellowknife Airport, Yellowknife, Northwest Territories, Canada", 
+        "date_indexed": "2010-12-02T10:24:00Z"
       }, 
       "id": 12511922
     }

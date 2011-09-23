@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522199, 
-        "name": "Tri Township Airport", 
         "alias_ENG_V": [
           "SFY"
         ], 
-        "ne_latitude": 42.051, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Tri Township Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588085", 
+          "woe:state=2347572", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522199, 
         "ne_longitude": -90.100, 
         "longitude": -90.114, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588085, 
+        "ne_latitude": 42.051, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2357977, 
+        "sw_latitude": 42.040, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.047, 
         "sw_longitude": -90.115, 
-        "fullname": "Tri Township Airport, Ayers, Illinois, Carroll, United States", 
-        "sw_latitude": 42.040
+        "fullname": "Tri Township Airport, Ayers, Illinois, United States", 
+        "iata_code": "SFY", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522199
     }

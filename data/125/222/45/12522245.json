@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522245, 
-        "name": "Union County Airport", 
         "alias_ENG_V": [
           "Mrt"
         ], 
-        "ne_latitude": 40.227, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Union County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589606", 
+          "woe:state=2347594", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522245, 
         "ne_longitude": -83.343, 
         "longitude": -83.351, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589606, 
+        "ne_latitude": 40.227, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2446574, 
+        "sw_latitude": 40.223, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.226, 
         "sw_longitude": -83.360, 
-        "fullname": "Union County Airport, Marysville, Ohio, Union, United States", 
-        "sw_latitude": 40.223
+        "fullname": "Union County Airport, Marysville, Ohio, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522245
     }

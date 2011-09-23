@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514836, 
+        "placetype": "airport", 
         "name": "Carrillo Puerto Airport", 
-        "ne_latitude": 19.604, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12601464", 
+          "woe:state=2346286", 
+          "woe:country=23424900", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514836, 
         "ne_longitude": -88.062, 
         "longitude": -88.067, 
-        "placetype": "Airport", 
+        "parent_woeid": 12601464, 
+        "ne_latitude": 19.604, 
         "iso": "MX", 
-        "date_indexed": "2010-12-02T16:57:55Z", 
-        "parent_woeid": 123620, 
+        "sw_latitude": 19.595, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 19.600, 
         "sw_longitude": -88.072, 
-        "fullname": "Carrillo Puerto Airport, Felipe Carrillo Puerto, Quintana Roo, Felipe Carrillo Puerto, Mexico", 
-        "sw_latitude": 19.595
+        "fullname": "Carrillo Puerto Airport, Felipe Carrillo Puerto, Quintana Roo, Mexico", 
+        "date_indexed": "2010-12-02T16:57:55Z"
       }, 
       "id": 12514836
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517199, 
+        "placetype": "airport", 
         "name": "Voronoyerkovskiy Airport", 
-        "ne_latitude": 45.166, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597807", 
+          "woe:state=2346884", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517199, 
         "ne_longitude": 37.992, 
         "longitude": 37.985, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597807, 
+        "ne_latitude": 45.166, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2018888, 
+        "sw_latitude": 45.157, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.162, 
         "sw_longitude": 37.979, 
         "fullname": "Voronoyerkovskiy Airport, Krasnodarskiy Kray, Slavyansky, Russia", 
-        "sw_latitude": 45.157
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12517199
     }

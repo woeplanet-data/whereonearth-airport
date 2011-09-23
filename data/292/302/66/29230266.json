@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29230266, 
+        "placetype": "airport", 
         "name": "Pondicherry Airport", 
-        "ne_latitude": 12.021, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12586707", 
+          "woe:state=2345758", 
+          "woe:country=23424848", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29230266, 
         "ne_longitude": 79.805, 
         "longitude": 79.800, 
-        "placetype": "Airport", 
+        "parent_woeid": 12586707, 
+        "ne_latitude": 12.021, 
         "iso": "IN", 
-        "date_indexed": "2010-12-02T09:26:27Z", 
-        "parent_woeid": 29077039, 
+        "sw_latitude": 12.012, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 12.017, 
         "sw_longitude": 79.795, 
-        "fullname": "Pondicherry Airport, Irumbai, Tamil Nadu, Viluppuram, India", 
-        "sw_latitude": 12.012
+        "fullname": "Pondicherry Airport, Irumbai, Tamil Nadu, India", 
+        "date_indexed": "2010-12-02T09:26:27Z"
       }, 
       "id": 29230266
     }

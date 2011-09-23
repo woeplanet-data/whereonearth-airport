@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511265, 
+        "placetype": "airport", 
         "name": "Aeroporto Pauini", 
         "alias_ENG_P": [
           "Pauini Airport"
         ], 
-        "ne_latitude": -7.718, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12578215", 
+          "woe:state=2344847", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511265, 
         "ne_longitude": -67.023, 
         "longitude": -67.028, 
-        "placetype": "Airport", 
+        "parent_woeid": 12578215, 
+        "ne_latitude": -7.718, 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 459508, 
+        "sw_latitude": -7.727, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -7.722, 
         "sw_longitude": -67.032, 
-        "fullname": "Aeroporto Pauini, Foz do Pauini, Amazonas, Pauini, Brazil", 
-        "sw_latitude": -7.727
+        "fullname": "Aeroporto Pauini, Foz do Pauini, Amazonas, Brazil", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511265
     }

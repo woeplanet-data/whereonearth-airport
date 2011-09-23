@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520614, 
-        "name": "Lee Vining Airport", 
         "alias_ENG_V": [
           "O24"
         ], 
-        "ne_latitude": 37.967, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Lee Vining Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587695", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520614, 
         "ne_longitude": -119.103, 
         "longitude": -119.105, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587695, 
+        "ne_latitude": 37.967, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2437818, 
+        "sw_latitude": 37.952, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 37.953, 
         "sw_longitude": -119.110, 
-        "fullname": "Lee Vining Airport, Lee Vining, California, Mono, United States", 
-        "sw_latitude": 37.952
+        "fullname": "Lee Vining Airport, Lee Vining, California, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520614
     }

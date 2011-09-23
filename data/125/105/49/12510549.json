@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510549, 
-        "name": "Salta Airport", 
         "alias_ENG_V": [
           "SLA"
         ], 
-        "ne_latitude": -24.848, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Salta Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=20070837", 
+          "woe:state=2344691", 
+          "woe:country=23424747", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510549, 
         "ne_longitude": -65.463, 
         "longitude": -65.476, 
-        "placetype": "Airport", 
+        "parent_woeid": 20070837, 
+        "ne_latitude": -24.848, 
         "iso": "AR", 
-        "date_indexed": "2010-12-02T17:41:29Z", 
-        "parent_woeid": 467166, 
+        "sw_latitude": -24.870, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -24.859, 
         "sw_longitude": -65.488, 
-        "fullname": "Salta Airport, Cerrillos, Salta, Cerrillos, Argentina", 
-        "sw_latitude": -24.870
+        "fullname": "Salta Airport, Cerrillos, Salta, Argentina", 
+        "iata_code": "SLA", 
+        "date_indexed": "2010-12-02T17:41:29Z"
       }, 
       "id": 12510549
     }

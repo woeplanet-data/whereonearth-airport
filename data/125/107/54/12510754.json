@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510754, 
-        "name": "Oakey Aerodrome", 
         "alias_ENG_V": [
           "Oakey Airport"
         ], 
-        "ne_latitude": -27.395, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Oakey Aerodrome", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=56072999", 
+          "woe:state=2344702", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510754, 
         "ne_longitude": 151.768, 
         "longitude": 151.731, 
-        "placetype": "Airport", 
+        "parent_woeid": 56072999, 
+        "ne_latitude": -27.395, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1104748, 
+        "sw_latitude": -27.419, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -27.413, 
         "sw_longitude": 151.717, 
-        "fullname": "Oakey Aerodrome, Oakey, Queensland, Jondaryan, Australia", 
-        "sw_latitude": -27.419
+        "fullname": "Oakey Aerodrome, Oakey, Queensland, Australia", 
+        "iata_code": "OKY", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 12510754
     }

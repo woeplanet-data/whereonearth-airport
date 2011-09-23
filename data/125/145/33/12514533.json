@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514533, 
+        "placetype": "airport", 
         "name": "Zhuban Southwest Airport", 
-        "ne_latitude": 49.989, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345980", 
+          "woe:country=23424871", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514533, 
         "ne_longitude": 61.487, 
         "longitude": 61.480, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345980, 
+        "ne_latitude": 49.989, 
         "iso": "KZ", 
-        "date_indexed": "2010-12-02T08:54:13Z", 
-        "parent_woeid": 2264244, 
+        "sw_latitude": 49.980, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.985, 
         "sw_longitude": 61.473, 
         "fullname": "Zhuban Southwest Airport, Aqtobe, Kazakhstan", 
-        "sw_latitude": 49.980
+        "date_indexed": "2010-12-02T08:54:13Z"
       }, 
       "id": 12514533
     }

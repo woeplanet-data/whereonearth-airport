@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517134, 
+        "placetype": "airport", 
         "name": "Valday Airport", 
-        "ne_latitude": 63.388, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597441", 
+          "woe:state=2346873", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517134, 
         "ne_longitude": 35.568, 
         "longitude": 35.558, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597441, 
+        "ne_latitude": 63.388, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2124143, 
+        "sw_latitude": 63.379, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 63.384, 
         "sw_longitude": 35.548, 
         "fullname": "Valday Airport, Kareliya, Segezhsky, Russia", 
-        "sw_latitude": 63.379
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12517134
     }

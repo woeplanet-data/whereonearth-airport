@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522397, 
-        "name": "Westerly State Airport", 
         "alias_ENG_V": [
           "Westerly State"
         ], 
-        "ne_latitude": 41.357, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Westerly State Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589799", 
+          "woe:state=2347598", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522397, 
         "ne_longitude": -71.793, 
         "longitude": -71.812, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589799, 
+        "ne_latitude": 41.357, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2518097, 
+        "sw_latitude": 41.342, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.349, 
         "sw_longitude": -71.818, 
-        "fullname": "Westerly State Airport, Westerly, Rhode Island, Washington, United States", 
-        "sw_latitude": 41.342
+        "fullname": "Westerly State Airport, Westerly, Rhode Island, United States", 
+        "iata_code": "WST", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522397
     }

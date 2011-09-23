@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511570, 
-        "name": "Atikokan Municipal Airport", 
         "alias_ENG_V": [
           "YIB Airport"
         ], 
-        "ne_latitude": 48.780, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Atikokan Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375261", 
+          "woe:state=2344922", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511570, 
         "ne_longitude": -91.631, 
         "longitude": -91.638, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375261, 
+        "ne_latitude": 48.780, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 3071, 
+        "sw_latitude": 48.770, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.775, 
         "sw_longitude": -91.645, 
-        "fullname": "Atikokan Municipal Airport, Atikokan, Ontario, Rainy River, Canada", 
-        "sw_latitude": 48.770
+        "fullname": "Atikokan Municipal Airport, Atikokan, Ontario, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12511570
     }

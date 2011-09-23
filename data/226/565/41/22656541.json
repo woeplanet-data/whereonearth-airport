@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 22656541, 
+        "placetype": "airport", 
         "name": "Shobdon Aerodrome", 
-        "ne_latitude": 52.248, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12696163", 
+          "woe:county=12602187", 
+          "woe:state=24554868", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 22656541, 
         "ne_longitude": -2.873, 
         "longitude": -2.881, 
-        "placetype": "Airport", 
+        "parent_woeid": 12696163, 
+        "ne_latitude": 52.248, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:21:01Z", 
-        "parent_woeid": 34691, 
+        "sw_latitude": 52.239, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 52.243, 
         "sw_longitude": -2.888, 
-        "fullname": "Shobdon Aerodrome, Shobdon, England, Herefordshire, United Kingdom", 
-        "sw_latitude": 52.239
+        "fullname": "Shobdon Aerodrome, Shobdon, England, United Kingdom", 
+        "date_indexed": "2010-12-02T12:21:01Z"
       }, 
       "id": 22656541
     }

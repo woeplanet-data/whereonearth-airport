@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510635, 
-        "name": "Cobar Airport", 
         "alias_ENG_V": [
           "CAZ"
         ], 
-        "ne_latitude": -31.531, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Cobar Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55863842", 
+          "woe:state=2344700", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510635, 
         "ne_longitude": 145.805, 
         "longitude": 145.797, 
-        "placetype": "Airport", 
+        "parent_woeid": 55863842, 
+        "ne_latitude": -31.531, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1101205, 
+        "sw_latitude": -31.548, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -31.538, 
         "sw_longitude": 145.784, 
-        "fullname": "Cobar Airport, Cobar, New South Wales, Cobar, Australia", 
-        "sw_latitude": -31.548
+        "fullname": "Cobar Airport, Cobar, New South Wales, Australia", 
+        "iata_code": "CAZ", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 12510635
     }

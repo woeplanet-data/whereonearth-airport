@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 22656536, 
+        "placetype": "airport", 
         "name": "Andrewsfield Airfield", 
-        "ne_latitude": 51.900, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12695941", 
+          "woe:county=12602168", 
+          "woe:state=24554868", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 22656536, 
         "ne_longitude": 0.453, 
         "longitude": 0.446, 
-        "placetype": "Airport", 
+        "parent_woeid": 12695941, 
+        "ne_latitude": 51.900, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:21:01Z", 
-        "parent_woeid": 11819, 
+        "sw_latitude": 51.891, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.896, 
         "sw_longitude": 0.439, 
-        "fullname": "Andrewsfield Airfield, Bardfield Saling, England, Essex, United Kingdom", 
-        "sw_latitude": 51.891
+        "fullname": "Andrewsfield Airfield, Bardfield Saling, England, United Kingdom", 
+        "date_indexed": "2010-12-02T12:21:01Z"
       }, 
       "id": 22656536
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513930, 
+        "placetype": "airport", 
         "name": "Subakhu Airport", 
-        "ne_latitude": 33.940, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55999936", 
+          "woe:state=2345842", 
+          "woe:country=23424855", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513930, 
         "ne_longitude": 45.106, 
         "longitude": 45.101, 
-        "placetype": "Airport", 
+        "parent_woeid": 55999936, 
+        "ne_latitude": 33.940, 
         "iso": "IQ", 
-        "date_indexed": "2010-12-02T16:42:58Z", 
-        "parent_woeid": 1978344, 
+        "sw_latitude": 33.931, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 33.936, 
         "sw_longitude": 45.095, 
         "fullname": "Subakhu Airport, Diyala, Khanaqin, Iraq", 
-        "sw_latitude": 33.931
+        "date_indexed": "2010-12-02T16:42:58Z"
       }, 
       "id": 12513930
     }

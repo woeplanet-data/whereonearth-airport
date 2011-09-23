@@ -3,28 +3,66 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -122.565, 
-              38.138
-            ], 
-            [
-              -122.565, 
-              38.156
-            ], 
-            [
-              -122.541, 
-              38.156
-            ], 
-            [
-              -122.541, 
-              38.138
-            ], 
-            [
-              -122.565, 
-              38.138
+              [
+                -122.557, 
+                38.141
+              ], 
+              [
+                -122.557, 
+                38.141
+              ], 
+              [
+                -122.557, 
+                38.141
+              ], 
+              [
+                -122.563, 
+                38.136
+              ], 
+              [
+                -122.564, 
+                38.133
+              ], 
+              [
+                -122.568, 
+                38.133
+              ], 
+              [
+                -122.574, 
+                38.134
+              ], 
+              [
+                -122.573, 
+                38.136
+              ], 
+              [
+                -122.568, 
+                38.138
+              ], 
+              [
+                -122.567, 
+                38.139
+              ], 
+              [
+                -122.562, 
+                38.144
+              ], 
+              [
+                -122.558, 
+                38.142
+              ], 
+              [
+                -122.557, 
+                38.142
+              ], 
+              [
+                -122.557, 
+                38.141
+              ]
             ]
           ]
         ]
@@ -32,23 +70,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519921, 
-        "name": "Marin County Airport", 
         "alias_ENG_V": [
           "Gnoss Field"
         ], 
-        "ne_latitude": 38.156, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -122.541, 
-        "longitude": -122.560, 
-        "placetype": "Airport", 
+        "name": "Marin County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587690", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519921, 
+        "ne_longitude": -122.557, 
+        "longitude": -122.565, 
+        "parent_woeid": 12587690, 
+        "ne_latitude": 38.144, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2462429, 
-        "latitude": 38.141, 
-        "sw_longitude": -122.565, 
-        "fullname": "Marin County Airport, Novato, California, Marin, United States", 
-        "sw_latitude": 38.138
+        "sw_latitude": 38.133, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 38.138, 
+        "sw_longitude": -122.574, 
+        "fullname": "Marin County Airport, Novato, California, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12519921
     }

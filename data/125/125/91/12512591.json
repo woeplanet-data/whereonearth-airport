@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "DAN", 
-        "woeid": 12512591, 
+        "placetype": "airport", 
         "name": "Vojens Lufthavn", 
         "alias_ENG_P": [
           "Haderslev Airport"
         ], 
-        "ne_latitude": 55.307, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12582792", 
+          "woe:state=28362581", 
+          "woe:country=23424796", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512591, 
         "ne_longitude": 9.532, 
         "longitude": 9.524, 
-        "placetype": "Airport", 
+        "parent_woeid": 12582792, 
+        "ne_latitude": 55.307, 
         "iso": "DK", 
-        "date_indexed": "2010-12-02T16:13:18Z", 
-        "parent_woeid": 554585, 
+        "sw_latitude": 55.298, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 55.303, 
         "sw_longitude": 9.516, 
-        "fullname": "Vojens Lufthavn, Kabdrup, Syddanmark, Haderslev, Denmark", 
-        "sw_latitude": 55.298
+        "fullname": "Vojens Lufthavn, Kabdrup, Syddanmark, Denmark", 
+        "date_indexed": "2010-12-02T16:13:18Z"
       }, 
       "id": 12512591
     }

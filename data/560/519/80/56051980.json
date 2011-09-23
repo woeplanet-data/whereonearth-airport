@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 56051980, 
+        "placetype": "airport", 
         "name": "Sportflugplatz Hienheim", 
-        "ne_latitude": 48.880, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12635777", 
+          "woe:county=12596704", 
+          "woe:state=2345482", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56051980, 
         "ne_longitude": 11.764, 
         "longitude": 11.759, 
-        "placetype": "Airport", 
+        "parent_woeid": 12635777, 
+        "ne_latitude": 48.880, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 679051, 
+        "sw_latitude": 48.877, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.878, 
         "sw_longitude": 11.756, 
-        "fullname": "Sportflugplatz Hienheim, Neustadt an der Donau, Bavaria, Landkreis Kelheim, Germany", 
-        "sw_latitude": 48.877
+        "fullname": "Sportflugplatz Hienheim, Neustadt an der Donau, Bavaria, Germany", 
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 56051980
     }

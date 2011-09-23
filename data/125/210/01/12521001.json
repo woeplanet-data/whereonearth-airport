@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521001, 
-        "name": "Monterey Peninsula Airport", 
         "alias_ENG_V": [
           "Monterey Peninsula"
         ], 
-        "ne_latitude": 36.592, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Monterey Peninsula Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587696", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521001, 
         "ne_longitude": -121.830, 
         "longitude": -121.851, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587696, 
+        "ne_latitude": 36.592, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2453280, 
+        "sw_latitude": 36.581, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.587, 
         "sw_longitude": -121.863, 
-        "fullname": "Monterey Peninsula Airport, Monterey, California, Monterey, United States", 
-        "sw_latitude": 36.581
+        "fullname": "Monterey Peninsula Airport, Monterey, California, United States", 
+        "iata_code": "MRY", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12521001
     }

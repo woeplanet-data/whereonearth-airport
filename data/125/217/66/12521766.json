@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521766, 
-        "name": "Schoolcraft County Airport", 
         "alias_ENG_V": [
           "ISQ"
         ], 
-        "ne_latitude": 45.981, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Schoolcraft County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588788", 
+          "woe:state=2347581", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521766, 
         "ne_longitude": -86.160, 
         "longitude": -86.174, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588788, 
+        "ne_latitude": 45.981, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2444805, 
+        "sw_latitude": 45.969, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.969, 
         "sw_longitude": -86.189, 
-        "fullname": "Schoolcraft County Airport, Manistique, Michigan, Schoolcraft, United States", 
-        "sw_latitude": 45.969
+        "fullname": "Schoolcraft County Airport, Manistique, Michigan, United States", 
+        "iata_code": "ISQ", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521766
     }

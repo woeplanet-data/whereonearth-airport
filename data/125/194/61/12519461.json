@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519461, 
-        "name": "Delta County Airport", 
         "alias_ENG_V": [
           "Delta Airport"
         ], 
-        "ne_latitude": 45.732, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Delta County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588734", 
+          "woe:state=2347581", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519461, 
         "ne_longitude": -87.084, 
         "longitude": -87.094, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588734, 
+        "ne_latitude": 45.732, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2400171, 
+        "sw_latitude": 45.717, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.718, 
         "sw_longitude": -87.118, 
-        "fullname": "Delta County Airport, Escanaba, Michigan, Delta, United States", 
-        "sw_latitude": 45.717
+        "fullname": "Delta County Airport, Escanaba, Michigan, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519461
     }

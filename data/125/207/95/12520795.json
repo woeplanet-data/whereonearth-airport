@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520795, 
-        "name": "Marianna Municipal Airport", 
         "alias_ENG_V": [
           "MAI"
         ], 
-        "ne_latitude": 30.848, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Marianna Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587834", 
+          "woe:state=2347568", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520795, 
         "ne_longitude": -85.165, 
         "longitude": -85.170, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587834, 
+        "ne_latitude": 30.848, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2379908, 
+        "sw_latitude": 30.815, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 30.840, 
         "sw_longitude": -85.200, 
-        "fullname": "Marianna Municipal Airport, Chipola Terrace, Florida, Jackson, United States", 
-        "sw_latitude": 30.815
+        "fullname": "Marianna Municipal Airport, Chipola Terrace, Florida, United States", 
+        "iata_code": "MAI", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520795
     }

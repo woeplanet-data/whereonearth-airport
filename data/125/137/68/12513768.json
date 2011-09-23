@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513768, 
+        "placetype": "airport", 
         "name": "Tehran West Airport", 
-        "ne_latitude": 35.749, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345785", 
+          "woe:country=23424851", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513768, 
         "ne_longitude": 51.235, 
         "longitude": 51.229, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345785, 
+        "ne_latitude": 35.749, 
         "iso": "IR", 
-        "date_indexed": "2010-12-02T08:53:52Z", 
-        "parent_woeid": 2254264, 
+        "sw_latitude": 35.740, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.744, 
         "sw_longitude": 51.224, 
         "fullname": "Tehran West Airport, Tehran, Iran", 
-        "sw_latitude": 35.740
+        "date_indexed": "2010-12-02T08:53:52Z"
       }, 
       "id": 12513768
     }

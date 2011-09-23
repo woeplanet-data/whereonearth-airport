@@ -3,28 +3,74 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -119.109, 
-              34.208
-            ], 
-            [
-              -119.109, 
-              34.216
-            ], 
-            [
-              -119.070, 
-              34.216
-            ], 
-            [
-              -119.070, 
-              34.208
-            ], 
-            [
-              -119.109, 
-              34.208
+              [
+                -119.085, 
+                34.213
+              ], 
+              [
+                -119.085, 
+                34.214
+              ], 
+              [
+                -119.084, 
+                34.214
+              ], 
+              [
+                -119.080, 
+                34.214
+              ], 
+              [
+                -119.078, 
+                34.214
+              ], 
+              [
+                -119.074, 
+                34.218
+              ], 
+              [
+                -119.076, 
+                34.213
+              ], 
+              [
+                -119.071, 
+                34.212
+              ], 
+              [
+                -119.075, 
+                34.209
+              ], 
+              [
+                -119.078, 
+                34.206
+              ], 
+              [
+                -119.078, 
+                34.206
+              ], 
+              [
+                -119.079, 
+                34.206
+              ], 
+              [
+                -119.083, 
+                34.206
+              ], 
+              [
+                -119.086, 
+                34.210
+              ], 
+              [
+                -119.086, 
+                34.211
+              ], 
+              [
+                -119.085, 
+                34.213
+              ]
             ]
           ]
         ]
@@ -32,23 +78,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519023, 
-        "name": "Camarillo Airport", 
         "alias_ENG_V": [
           "CMA"
         ], 
-        "ne_latitude": 34.216, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -119.070, 
-        "longitude": -119.078, 
-        "placetype": "Airport", 
+        "name": "Camarillo Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587725", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519023, 
+        "ne_longitude": -119.071, 
+        "longitude": -119.080, 
+        "parent_woeid": 12587725, 
+        "ne_latitude": 34.218, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2373505, 
-        "latitude": 34.209, 
-        "sw_longitude": -119.109, 
-        "fullname": "Camarillo Airport, Camarillo, California, Ventura, United States", 
-        "sw_latitude": 34.208
+        "sw_latitude": 34.206, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 34.210, 
+        "sw_longitude": -119.086, 
+        "fullname": "Camarillo Airport, Camarillo, California, United States", 
+        "iata_code": "CMA", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519023
     }

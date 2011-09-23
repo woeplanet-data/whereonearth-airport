@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518255, 
+        "placetype": "airport", 
         "name": "Glinsk Airport", 
-        "ne_latitude": 49.592, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2347554", 
+          "woe:country=23424976", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518255, 
         "ne_longitude": 28.491, 
         "longitude": 28.483, 
-        "placetype": "Airport", 
+        "parent_woeid": 2347554, 
+        "ne_latitude": 49.592, 
         "iso": "UA", 
-        "date_indexed": "2010-12-02T08:52:33Z", 
-        "parent_woeid": 922294, 
+        "sw_latitude": 49.583, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.588, 
         "sw_longitude": 28.476, 
         "fullname": "Glinsk Airport, Vinnytsia Oblast, Ukraine", 
-        "sw_latitude": 49.583
+        "date_indexed": "2010-12-02T08:52:33Z"
       }, 
       "id": 12518255
     }

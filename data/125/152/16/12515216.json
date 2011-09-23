@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515216, 
-        "name": "Pucallpa Airport", 
         "alias_ENG_V": [
           "PCL"
         ], 
-        "ne_latitude": -8.371, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Pucallpa Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26805832", 
+          "woe:state=2346492", 
+          "woe:country=23424919", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515216, 
         "ne_longitude": -74.569, 
         "longitude": -74.573, 
-        "placetype": "Airport", 
+        "parent_woeid": 26805832, 
+        "ne_latitude": -8.371, 
         "iso": "PE", 
-        "date_indexed": "2010-12-02T16:12:16Z", 
-        "parent_woeid": 420184, 
+        "sw_latitude": -8.380, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -8.375, 
         "sw_longitude": -74.578, 
-        "fullname": "Pucallpa Airport, Callaria, Ucayali, Coronel Portillo, Peru", 
-        "sw_latitude": -8.380
+        "fullname": "Pucallpa Airport, Callaria, Ucayali, Peru", 
+        "iata_code": "PCL", 
+        "date_indexed": "2010-12-02T16:12:16Z"
       }, 
       "id": 12515216
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522561, 
-        "name": "Colonia Airport", 
         "alias_ENG_V": [
           "CYR"
         ], 
-        "ne_latitude": -34.455, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Colonia Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2347643", 
+          "woe:country=23424979", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522561, 
         "ne_longitude": -57.763, 
         "longitude": -57.768, 
-        "placetype": "Airport", 
+        "parent_woeid": 2347643, 
+        "ne_latitude": -34.455, 
         "iso": "UY", 
-        "date_indexed": "2010-12-02T17:58:27Z", 
-        "parent_woeid": 380781, 
+        "sw_latitude": -34.464, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -34.459, 
         "sw_longitude": -57.774, 
         "fullname": "Colonia Airport, Colonia, Uruguay", 
-        "sw_latitude": -34.464
+        "iata_code": "CYR", 
+        "date_indexed": "2010-12-02T17:58:27Z"
       }, 
       "id": 12522561
     }

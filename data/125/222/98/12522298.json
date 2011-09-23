@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522298, 
-        "name": "Wabash Municipal Airport", 
         "alias_ENG_V": [
           "IWH"
         ], 
-        "ne_latitude": 40.768, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Wabash Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588264", 
+          "woe:state=2347573", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522298, 
         "ne_longitude": -85.792, 
         "longitude": -85.798, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588264, 
+        "ne_latitude": 40.768, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2512895, 
+        "sw_latitude": 40.760, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.766, 
         "sw_longitude": -85.810, 
-        "fullname": "Wabash Municipal Airport, Wabash, Indiana, Wabash, United States", 
-        "sw_latitude": 40.760
+        "fullname": "Wabash Municipal Airport, Wabash, Indiana, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522298
     }

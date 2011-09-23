@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524246, 
+        "placetype": "airport", 
         "name": "Bernard Harbour Airport", 
-        "ne_latitude": 68.788, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=29375230", 
+          "woe:state=20069920", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524246, 
         "ne_longitude": -114.813, 
         "longitude": -114.825, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375230, 
+        "ne_latitude": 68.788, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 23405898, 
+        "sw_latitude": 68.779, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 68.784, 
         "sw_longitude": -114.838, 
-        "fullname": "Bernard Harbour Airport, Kugluktuk, Nunavut, Nunavut, Canada", 
-        "sw_latitude": 68.779
+        "fullname": "Bernard Harbour Airport, Kugluktuk, Nunavut, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12524246
     }

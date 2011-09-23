@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515451, 
+        "placetype": "airport", 
         "name": "Ovar Airport", 
-        "ne_latitude": 40.923, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12596658", 
+          "woe:state=2346562", 
+          "woe:country=23424925", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515451, 
         "ne_longitude": -8.638, 
         "longitude": -8.644, 
-        "placetype": "Airport", 
+        "parent_woeid": 12596658, 
+        "ne_latitude": 40.923, 
         "iso": "PT", 
-        "date_indexed": "2010-12-02T10:00:50Z", 
-        "parent_woeid": 24899423, 
+        "sw_latitude": 40.914, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.918, 
         "sw_longitude": -8.650, 
-        "fullname": "Ovar Airport, Praia de S\u00e3o Pedro da Maceda, Aveiro, Ovar, Portugal", 
-        "sw_latitude": 40.914
+        "fullname": "Ovar Airport, Praia de S\u00e3o Pedro da Maceda, Aveiro, Portugal", 
+        "date_indexed": "2010-12-02T10:00:50Z"
       }, 
       "id": 12515451
     }

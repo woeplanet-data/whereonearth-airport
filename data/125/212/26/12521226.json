@@ -3,28 +3,62 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -75.432, 
-              43.213
-            ], 
-            [
-              -75.432, 
-              43.251
-            ], 
-            [
-              -75.383, 
-              43.251
-            ], 
-            [
-              -75.383, 
-              43.213
-            ], 
-            [
-              -75.432, 
-              43.213
+              [
+                -75.416, 
+                43.219
+              ], 
+              [
+                -75.417, 
+                43.218
+              ], 
+              [
+                -75.414, 
+                43.216
+              ], 
+              [
+                -75.411, 
+                43.219
+              ], 
+              [
+                -75.410, 
+                43.225
+              ], 
+              [
+                -75.411, 
+                43.228
+              ], 
+              [
+                -75.412, 
+                43.228
+              ], 
+              [
+                -75.411, 
+                43.226
+              ], 
+              [
+                -75.410, 
+                43.225
+              ], 
+              [
+                -75.408, 
+                43.219
+              ], 
+              [
+                -75.409, 
+                43.219
+              ], 
+              [
+                -75.411, 
+                43.219
+              ], 
+              [
+                -75.416, 
+                43.219
+              ]
             ]
           ]
         ]
@@ -32,23 +66,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521226, 
-        "name": "Oneida County Airport", 
         "alias_ENG_V": [
           "Oneida Airport"
         ], 
-        "ne_latitude": 43.251, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -75.383, 
-        "longitude": -75.407, 
-        "placetype": "Airport", 
+        "name": "Oneida County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589344", 
+          "woe:state=2347591", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521226, 
+        "ne_longitude": -75.408, 
+        "longitude": -75.319, 
+        "parent_woeid": 12589344, 
+        "ne_latitude": 43.228, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2484260, 
-        "latitude": 43.226, 
-        "sw_longitude": -75.432, 
-        "fullname": "Oneida County Airport, Rome, New York, Oneida, United States", 
-        "sw_latitude": 43.213
+        "sw_latitude": 43.216, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 43.258, 
+        "sw_longitude": -75.417, 
+        "fullname": "Oneida County Airport, Rome, New York, United States", 
+        "iata_code": "UCA", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521226
     }

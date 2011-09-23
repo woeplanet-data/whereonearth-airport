@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524217, 
-        "name": "Stony Rapids Airport", 
         "alias_ENG_V": [
           "YSF Airport"
         ], 
-        "ne_latitude": 59.255, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Stony Rapids Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375232", 
+          "woe:state=2344925", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524217, 
         "ne_longitude": -105.824, 
         "longitude": -105.833, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375232, 
+        "ne_latitude": 59.255, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 1980, 
+        "sw_latitude": 59.245, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 59.250, 
         "sw_longitude": -105.842, 
-        "fullname": "Stony Rapids Airport, Stony Rapids, Saskatchewan, Saskatchewan, Canada", 
-        "sw_latitude": 59.245
+        "fullname": "Stony Rapids Airport, Stony Rapids, Saskatchewan, Canada", 
+        "iata_code": "YSF", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12524217
     }

@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522763, 
+        "placetype": "airport", 
         "name": "Campo de Palma Airport", 
-        "ne_latitude": 8.625, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=26805043", 
+          "woe:county=26804713", 
+          "woe:state=2347699", 
+          "woe:country=23424982", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522763, 
         "ne_longitude": -72.219, 
         "longitude": -72.223, 
-        "placetype": "Airport", 
+        "parent_woeid": 26805043, 
+        "ne_latitude": 8.625, 
         "iso": "VE", 
-        "date_indexed": "2010-12-02T16:11:43Z", 
-        "parent_woeid": 395473, 
+        "sw_latitude": 8.615, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 8.620, 
         "sw_longitude": -72.228, 
         "fullname": "Campo de Palma Airport, Zulia, Catatumbo, Venezuela", 
-        "sw_latitude": 8.615
+        "date_indexed": "2010-12-02T16:11:43Z"
       }, 
       "id": 12522763
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513893, 
+        "placetype": "airport", 
         "name": "Bashiqah Airport", 
-        "ne_latitude": 36.490, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55999963", 
+          "woe:state=2345847", 
+          "woe:country=23424855", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513893, 
         "ne_longitude": 43.358, 
         "longitude": 43.353, 
-        "placetype": "Airport", 
+        "parent_woeid": 55999963, 
+        "ne_latitude": 36.490, 
         "iso": "IQ", 
-        "date_indexed": "2010-12-02T16:42:58Z", 
-        "parent_woeid": 1975068, 
+        "sw_latitude": 36.481, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.486, 
         "sw_longitude": 43.347, 
         "fullname": "Bashiqah Airport, Ninawa, Al Hamdaniya, Iraq", 
-        "sw_latitude": 36.481
+        "date_indexed": "2010-12-02T16:42:58Z"
       }, 
       "id": 12513893
     }

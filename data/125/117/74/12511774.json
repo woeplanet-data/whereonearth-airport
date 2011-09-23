@@ -3,28 +3,62 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -79.445, 
-              46.354
-            ], 
-            [
-              -79.445, 
-              46.376
-            ], 
-            [
-              -79.401, 
-              46.376
-            ], 
-            [
-              -79.401, 
-              46.354
-            ], 
-            [
-              -79.445, 
-              46.354
+              [
+                -79.424, 
+                46.355
+              ], 
+              [
+                -79.428, 
+                46.358
+              ], 
+              [
+                -79.428, 
+                46.358
+              ], 
+              [
+                -79.428, 
+                46.359
+              ], 
+              [
+                -79.429, 
+                46.360
+              ], 
+              [
+                -79.427, 
+                46.362
+              ], 
+              [
+                -79.424, 
+                46.362
+              ], 
+              [
+                -79.423, 
+                46.359
+              ], 
+              [
+                -79.421, 
+                46.358
+              ], 
+              [
+                -79.417, 
+                46.360
+              ], 
+              [
+                -79.420, 
+                46.357
+              ], 
+              [
+                -79.424, 
+                46.355
+              ], 
+              [
+                -79.424, 
+                46.355
+              ]
             ]
           ]
         ]
@@ -32,23 +66,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511774, 
-        "name": "North Bay Airport", 
         "alias_ENG_V": [
           "YYB Airport"
         ], 
-        "ne_latitude": 46.376, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -79.401, 
-        "longitude": -79.426, 
-        "placetype": "Airport", 
+        "name": "North Bay Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375243", 
+          "woe:state=2344922", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511774, 
+        "ne_longitude": -79.417, 
+        "longitude": -79.425, 
+        "parent_woeid": 29375243, 
+        "ne_latitude": 46.362, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:24:00Z", 
-        "parent_woeid": 23399601, 
-        "latitude": 46.357, 
-        "sw_longitude": -79.445, 
-        "fullname": "North Bay Airport, Hornell Heights, Ontario, Nipissing, Canada", 
-        "sw_latitude": 46.354
+        "sw_latitude": 46.355, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 46.359, 
+        "sw_longitude": -79.429, 
+        "fullname": "North Bay Airport, Hornell Heights, Ontario, Canada", 
+        "date_indexed": "2010-12-02T10:24:00Z"
       }, 
       "id": 12511774
     }

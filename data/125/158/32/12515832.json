@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515832, 
+        "placetype": "airport", 
         "name": "Bogoslavskoye Airport", 
-        "ne_latitude": 44.781, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597953", 
+          "woe:state=2346887", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515832, 
         "ne_longitude": 41.743, 
         "longitude": 41.736, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597953, 
+        "ne_latitude": 44.781, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 1985793, 
+        "sw_latitude": 44.772, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.776, 
         "sw_longitude": 41.730, 
         "fullname": "Bogoslavskoye Airport, Stavropolrskiy Kray, Kochubeyevsky, Russia", 
-        "sw_latitude": 44.772
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12515832
     }

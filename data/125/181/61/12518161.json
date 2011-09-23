@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518161, 
+        "placetype": "airport", 
         "name": "Tatenhill Airport", 
-        "ne_latitude": 52.818, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12696073", 
+          "woe:county=12602189", 
+          "woe:state=24554868", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518161, 
         "ne_longitude": -1.751, 
         "longitude": -1.759, 
-        "placetype": "Airport", 
+        "parent_woeid": 12696073, 
+        "ne_latitude": 52.818, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:21:01Z", 
-        "parent_woeid": 29753, 
+        "sw_latitude": 52.809, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 52.814, 
         "sw_longitude": -1.766, 
-        "fullname": "Tatenhill Airport, Needwood, England, Staffordshire, United Kingdom", 
-        "sw_latitude": 52.809
+        "fullname": "Tatenhill Airport, Needwood, England, United Kingdom", 
+        "date_indexed": "2010-12-02T12:21:01Z"
       }, 
       "id": 12518161
     }

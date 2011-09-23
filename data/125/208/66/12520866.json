@@ -3,28 +3,102 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -123.153, 
-              45.186
-            ], 
-            [
-              -123.153, 
-              45.203
-            ], 
-            [
-              -123.126, 
-              45.203
-            ], 
-            [
-              -123.126, 
-              45.186
-            ], 
-            [
-              -123.153, 
-              45.186
+              [
+                -123.143, 
+                45.205
+              ], 
+              [
+                -123.142, 
+                45.205
+              ], 
+              [
+                -123.140, 
+                45.205
+              ], 
+              [
+                -123.138, 
+                45.204
+              ], 
+              [
+                -123.136, 
+                45.204
+              ], 
+              [
+                -123.136, 
+                45.204
+              ], 
+              [
+                -123.135, 
+                45.204
+              ], 
+              [
+                -123.135, 
+                45.204
+              ], 
+              [
+                -123.135, 
+                45.202
+              ], 
+              [
+                -123.137, 
+                45.199
+              ], 
+              [
+                -123.139, 
+                45.195
+              ], 
+              [
+                -123.141, 
+                45.197
+              ], 
+              [
+                -123.146, 
+                45.195
+              ], 
+              [
+                -123.147, 
+                45.194
+              ], 
+              [
+                -123.147, 
+                45.194
+              ], 
+              [
+                -123.147, 
+                45.195
+              ], 
+              [
+                -123.147, 
+                45.196
+              ], 
+              [
+                -123.147, 
+                45.197
+              ], 
+              [
+                -123.151, 
+                45.200
+              ], 
+              [
+                -123.151, 
+                45.202
+              ], 
+              [
+                -123.148, 
+                45.206
+              ], 
+              [
+                -123.145, 
+                45.206
+              ], 
+              [
+                -123.143, 
+                45.205
+              ]
             ]
           ]
         ]
@@ -32,23 +106,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520866, 
-        "name": "Mcminnville Municipal Airport", 
         "alias_ENG_V": [
           "MMV"
         ], 
-        "ne_latitude": 45.203, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -123.126, 
-        "longitude": -123.139, 
-        "placetype": "Airport", 
+        "name": "Mcminnville Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589727", 
+          "woe:state=2347596", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520866, 
+        "ne_longitude": -123.135, 
+        "longitude": -123.143, 
+        "parent_woeid": 12589727, 
+        "ne_latitude": 45.206, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2448306, 
-        "latitude": 45.199, 
-        "sw_longitude": -123.153, 
-        "fullname": "Mcminnville Municipal Airport, Mcminnville, Oregon, Yamhill, United States", 
-        "sw_latitude": 45.186
+        "sw_latitude": 45.194, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 45.201, 
+        "sw_longitude": -123.151, 
+        "fullname": "Mcminnville Municipal Airport, Mcminnville, Oregon, United States", 
+        "iata_code": "MMV", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520866
     }

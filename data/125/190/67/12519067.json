@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519067, 
-        "name": "Caribou Municipal Airport", 
         "alias_ENG_V": [
           "Caribou Airport"
         ], 
-        "ne_latitude": 46.881, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Caribou Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588661", 
+          "woe:state=2347578", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519067, 
         "ne_longitude": -68.012, 
         "longitude": -68.013, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588661, 
+        "ne_latitude": 46.881, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2374968, 
+        "sw_latitude": 46.866, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.870, 
         "sw_longitude": -68.027, 
-        "fullname": "Caribou Municipal Airport, Caribou, Maine, Aroostook, United States", 
-        "sw_latitude": 46.866
+        "fullname": "Caribou Municipal Airport, Caribou, Maine, United States", 
+        "iata_code": "CAR", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519067
     }

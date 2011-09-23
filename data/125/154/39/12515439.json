@@ -32,26 +32,33 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515439, 
-        "name": "Coimbra Airport", 
         "alias_ENG_V": [
           "CBP"
         ], 
-        "ne_latitude": 40.161, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Coimbra Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12596482", 
+          "woe:state=2346567", 
+          "woe:country=23424925", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515439, 
         "ne_longitude": -8.465, 
         "longitude": -8.471, 
-        "placetype": "Airport", 
+        "parent_woeid": 12596482, 
+        "ne_latitude": 40.161, 
         "alias_POR_V": [
           "CBP Aeroport"
         ], 
         "iso": "PT", 
-        "date_indexed": "2010-12-02T10:00:50Z", 
-        "parent_woeid": 739339, 
+        "sw_latitude": 40.152, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.156, 
         "sw_longitude": -8.477, 
-        "fullname": "Coimbra Airport, Cernache, Coimbra, Coimbra, Portugal", 
-        "sw_latitude": 40.152
+        "fullname": "Coimbra Airport, Cernache, Coimbra, Portugal", 
+        "iata_code": "CBP", 
+        "date_indexed": "2010-12-02T10:00:50Z"
       }, 
       "id": 12515439
     }

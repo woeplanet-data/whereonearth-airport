@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517509, 
-        "name": "Saint Louis Airport", 
         "alias_ENG_V": [
           "XLS"
         ], 
-        "ne_latitude": 16.055, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Saint Louis Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=56055824", 
+          "woe:state=2346990", 
+          "woe:country=23424943", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517509, 
         "ne_longitude": -16.456, 
         "longitude": -16.460, 
-        "placetype": "Airport", 
+        "parent_woeid": 56055824, 
+        "ne_latitude": 16.055, 
         "iso": "SN", 
-        "date_indexed": "2010-12-02T08:57:23Z", 
-        "parent_woeid": 1418623, 
+        "sw_latitude": 16.046, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 16.050, 
         "sw_longitude": -16.465, 
         "fullname": "Saint Louis Airport, St.-Louis, Saint-Louis, Senegal", 
-        "sw_latitude": 16.046
+        "iata_code": "XLS", 
+        "date_indexed": "2010-12-02T08:57:23Z"
       }, 
       "id": 12517509
     }

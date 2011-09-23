@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 56051958, 
+        "placetype": "airport", 
         "name": "Flugplatz Vogtareuth", 
-        "ne_latitude": 47.948, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12622794", 
+          "woe:county=12596730", 
+          "woe:state=2345482", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56051958, 
         "ne_longitude": 12.208, 
         "longitude": 12.206, 
-        "placetype": "Airport", 
+        "parent_woeid": 12622794, 
+        "ne_latitude": 47.948, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 702558, 
+        "sw_latitude": 47.944, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.947, 
         "sw_longitude": 12.202, 
-        "fullname": "Flugplatz Vogtareuth, Vogtareuth, Bavaria, Landkreis Rosenheim, Germany", 
-        "sw_latitude": 47.944
+        "fullname": "Flugplatz Vogtareuth, Vogtareuth, Bavaria, Germany", 
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 56051958
     }

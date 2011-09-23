@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514456, 
+        "placetype": "airport", 
         "name": "Sayak Airport", 
-        "ne_latitude": 47.002, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=20070178", 
+          "woe:country=23424871", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514456, 
         "ne_longitude": 77.249, 
         "longitude": 77.242, 
-        "placetype": "Airport", 
+        "parent_woeid": 20070178, 
+        "ne_latitude": 47.002, 
         "iso": "KZ", 
-        "date_indexed": "2010-12-02T08:54:13Z", 
-        "parent_woeid": 2261638, 
+        "sw_latitude": 46.993, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.997, 
         "sw_longitude": 77.235, 
         "fullname": "Sayak Airport, Qaraghandy, Kazakhstan", 
-        "sw_latitude": 46.993
+        "date_indexed": "2010-12-02T08:54:13Z"
       }, 
       "id": 12514456
     }

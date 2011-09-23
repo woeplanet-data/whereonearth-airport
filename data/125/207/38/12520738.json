@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520738, 
-        "name": "Mackinac County Airport", 
         "alias_ENG_V": [
           "83d"
         ], 
-        "ne_latitude": 45.896, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Mackinac County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588762", 
+          "woe:state=2347581", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520738, 
         "ne_longitude": -84.728, 
         "longitude": -84.737, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588762, 
+        "ne_latitude": 45.896, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2486820, 
+        "sw_latitude": 45.887, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.891, 
         "sw_longitude": -84.747, 
-        "fullname": "Mackinac County Airport, St. Ignace, Michigan, Mackinac, United States", 
-        "sw_latitude": 45.887
+        "fullname": "Mackinac County Airport, St. Ignace, Michigan, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520738
     }

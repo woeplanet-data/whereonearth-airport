@@ -3,28 +3,94 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              47.474, 
-              -18.807
-            ], 
-            [
-              47.474, 
-              -18.784
-            ], 
-            [
-              47.498, 
-              -18.784
-            ], 
-            [
-              47.498, 
-              -18.807
-            ], 
-            [
-              47.474, 
-              -18.807
+              [
+                47.464, 
+                -18.785
+              ], 
+              [
+                47.464, 
+                -18.786
+              ], 
+              [
+                47.470, 
+                -18.798
+              ], 
+              [
+                47.475, 
+                -18.797
+              ], 
+              [
+                47.475, 
+                -18.800
+              ], 
+              [
+                47.471, 
+                -18.808
+              ], 
+              [
+                47.471, 
+                -18.808
+              ], 
+              [
+                47.471, 
+                -18.813
+              ], 
+              [
+                47.473, 
+                -18.824
+              ], 
+              [
+                47.484, 
+                -18.820
+              ], 
+              [
+                47.474, 
+                -18.826
+              ], 
+              [
+                47.470, 
+                -18.825
+              ], 
+              [
+                47.466, 
+                -18.826
+              ], 
+              [
+                47.465, 
+                -18.821
+              ], 
+              [
+                47.471, 
+                -18.813
+              ], 
+              [
+                47.471, 
+                -18.808
+              ], 
+              [
+                47.470, 
+                -18.798
+              ], 
+              [
+                47.464, 
+                -18.786
+              ], 
+              [
+                47.464, 
+                -18.785
+              ], 
+              [
+                47.465, 
+                -18.785
+              ], 
+              [
+                47.464, 
+                -18.785
+              ]
             ]
           ]
         ]
@@ -32,23 +98,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514691, 
-        "name": "Antananarivo Ivato Airport", 
         "alias_ENG_V": [
           "Antananarivo Ivato"
         ], 
-        "ne_latitude": -18.784, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": 47.498, 
-        "longitude": 47.486, 
-        "placetype": "Airport", 
+        "name": "Antananarivo Ivato Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=23706522", 
+          "woe:state=2346150", 
+          "woe:country=23424883", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514691, 
+        "ne_longitude": 47.484, 
+        "longitude": 47.471, 
+        "parent_woeid": 23706522, 
+        "ne_latitude": -18.785, 
         "iso": "MG", 
-        "date_indexed": "2010-12-02T16:43:54Z", 
-        "parent_woeid": 1498564, 
-        "latitude": -18.795, 
-        "sw_longitude": 47.474, 
+        "sw_latitude": -18.826, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": -18.815, 
+        "sw_longitude": 47.464, 
         "fullname": "Antananarivo Ivato Airport, Antananarivo, Ambohidratrimo, Madagascar", 
-        "sw_latitude": -18.807
+        "iata_code": "TNR", 
+        "date_indexed": "2010-12-02T16:43:54Z"
       }, 
       "id": 12514691
     }

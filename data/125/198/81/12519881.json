@@ -3,28 +3,86 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -118.237, 
-              34.733
-            ], 
-            [
-              -118.237, 
-              34.748
-            ], 
-            [
-              -118.197, 
-              34.748
-            ], 
-            [
-              -118.197, 
-              34.733
-            ], 
-            [
-              -118.237, 
-              34.733
+              [
+                -118.200, 
+                34.744
+              ], 
+              [
+                -118.199, 
+                34.743
+              ], 
+              [
+                -118.199, 
+                34.742
+              ], 
+              [
+                -118.200, 
+                34.741
+              ], 
+              [
+                -118.200, 
+                34.741
+              ], 
+              [
+                -118.203, 
+                34.741
+              ], 
+              [
+                -118.210, 
+                34.739
+              ], 
+              [
+                -118.212, 
+                34.733
+              ], 
+              [
+                -118.220, 
+                34.738
+              ], 
+              [
+                -118.218, 
+                34.739
+              ], 
+              [
+                -118.218, 
+                34.739
+              ], 
+              [
+                -118.215, 
+                34.742
+              ], 
+              [
+                -118.214, 
+                34.742
+              ], 
+              [
+                -118.210, 
+                34.739
+              ], 
+              [
+                -118.204, 
+                34.742
+              ], 
+              [
+                -118.202, 
+                34.743
+              ], 
+              [
+                -118.201, 
+                34.745
+              ], 
+              [
+                -118.200, 
+                34.745
+              ], 
+              [
+                -118.200, 
+                34.744
+              ]
             ]
           ]
         ]
@@ -32,23 +90,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519881, 
-        "name": "General Wm J Fox Airport", 
         "alias_ENG_V": [
           "WJF Airport"
         ], 
-        "ne_latitude": 34.748, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -118.197, 
-        "longitude": -118.212, 
-        "placetype": "Airport", 
+        "name": "General Wm J Fox Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587688", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519881, 
+        "ne_longitude": -118.199, 
+        "longitude": -118.211, 
+        "parent_woeid": 12587688, 
+        "ne_latitude": 34.745, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2436084, 
-        "latitude": 34.733, 
-        "sw_longitude": -118.237, 
-        "fullname": "General Wm J Fox Airport, Lancaster, California, Los Angeles, United States", 
-        "sw_latitude": 34.733
+        "sw_latitude": 34.733, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 34.739, 
+        "sw_longitude": -118.220, 
+        "fullname": "General Wm J Fox Airport, Lancaster, California, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12519881
     }

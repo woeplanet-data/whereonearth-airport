@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511909, 
+        "placetype": "airport", 
         "name": "Westlock Airport", 
-        "ne_latitude": 54.147, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=29375228", 
+          "woe:state=2344915", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511909, 
         "ne_longitude": -113.732, 
         "longitude": -113.740, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375228, 
+        "ne_latitude": 54.147, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 29372981, 
+        "sw_latitude": 54.138, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 54.142, 
         "sw_longitude": -113.747, 
-        "fullname": "Westlock Airport, Westlock County, Alberta, Alberta, Canada", 
-        "sw_latitude": 54.138
+        "fullname": "Westlock Airport, Westlock County, Alberta, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12511909
     }

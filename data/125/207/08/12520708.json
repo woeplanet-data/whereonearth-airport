@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520708, 
+        "placetype": "airport", 
         "name": "Lost Hills Kern County Airport", 
-        "ne_latitude": 35.628, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12587684", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520708, 
         "ne_longitude": -119.680, 
         "longitude": -119.685, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587684, 
+        "ne_latitude": 35.628, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2442196, 
+        "sw_latitude": 35.619, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.624, 
         "sw_longitude": -119.691, 
-        "fullname": "Lost Hills Kern County Airport, Lost Hills, California, Kern, United States", 
-        "sw_latitude": 35.619
+        "fullname": "Lost Hills Kern County Airport, Lost Hills, California, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12520708
     }

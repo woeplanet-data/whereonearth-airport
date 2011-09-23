@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511310, 
+        "placetype": "airport", 
         "name": "Aeroporto Santo Antonio do Amparo", 
         "alias_ENG_P": [
           "Santo Antonio do Amparo Airport"
         ], 
-        "ne_latitude": -20.906, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12580002", 
+          "woe:state=2344856", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511310, 
         "ne_longitude": -44.889, 
         "longitude": -44.894, 
-        "placetype": "Airport", 
+        "parent_woeid": 12580002, 
+        "ne_latitude": -20.906, 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 449354, 
+        "sw_latitude": -20.915, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -20.911, 
         "sw_longitude": -44.899, 
-        "fullname": "Aeroporto Santo Antonio do Amparo, Santo Ant\u00f4nio do Amparo, Minas Gerais, Santo Ant\u00f4nio do Amparo, Brazil", 
-        "sw_latitude": -20.915
+        "fullname": "Aeroporto Santo Antonio do Amparo, Santo Ant\u00f4nio do Amparo, Minas Gerais, Brazil", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511310
     }

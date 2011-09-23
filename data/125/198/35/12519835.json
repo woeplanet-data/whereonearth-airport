@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519835, 
+        "placetype": "airport", 
         "name": "Ft Belknap Agency Airport", 
-        "ne_latitude": 48.486, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12589083", 
+          "woe:state=2347585", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519835, 
         "ne_longitude": -108.761, 
         "longitude": -108.768, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589083, 
+        "ne_latitude": 48.486, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2405593, 
+        "sw_latitude": 48.477, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.481, 
         "sw_longitude": -108.775, 
-        "fullname": "Ft Belknap Agency Airport, Fort Belknap Agency, Montana, Blaine, United States", 
-        "sw_latitude": 48.477
+        "fullname": "Ft Belknap Agency Airport, Fort Belknap Agency, Montana, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12519835
     }

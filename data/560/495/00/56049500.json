@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 56049500, 
+        "placetype": "airport", 
         "name": "Farnsworth Airstrip", 
-        "ne_latitude": 43.199, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12589370", 
+          "woe:state=2347591", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56049500, 
         "ne_longitude": -76.871, 
         "longitude": -76.883, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589370, 
+        "ne_latitude": 43.199, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2484480, 
+        "sw_latitude": 43.181, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.190, 
         "sw_longitude": -76.896, 
-        "fullname": "Farnsworth Airstrip, Rose, New York, Wayne, United States", 
-        "sw_latitude": 43.181
+        "fullname": "Farnsworth Airstrip, Rose, New York, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 56049500
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524464, 
-        "name": "Candilejas Airport", 
         "alias_ENG_V": [
           "CJD"
         ], 
-        "ne_latitude": 2.071, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Candilejas Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26796957", 
+          "woe:state=2345054", 
+          "woe:country=23424787", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524464, 
         "ne_longitude": -74.579, 
         "longitude": -74.583, 
-        "placetype": "Airport", 
+        "parent_woeid": 26796957, 
+        "ne_latitude": 2.071, 
         "iso": "CO", 
-        "date_indexed": "2010-12-02T17:57:37Z", 
-        "parent_woeid": 365253, 
+        "sw_latitude": 2.062, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 2.067, 
         "sw_longitude": -74.588, 
         "fullname": "Candilejas Airport, Meta, La Macarena, Colombia", 
-        "sw_latitude": 2.062
+        "iata_code": "CJD", 
+        "date_indexed": "2010-12-02T17:57:37Z"
       }, 
       "id": 12524464
     }

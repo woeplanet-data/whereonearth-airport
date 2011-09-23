@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521873, 
-        "name": "Sky Harbor Airport", 
         "alias_ENG_V": [
           "Duluth/Sky Harbor Arpt"
         ], 
-        "ne_latitude": 46.730, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Sky Harbor Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588868", 
+          "woe:state=2347582", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521873, 
         "ne_longitude": -92.044, 
         "longitude": -92.047, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588868, 
+        "ne_latitude": 46.730, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2394207, 
+        "sw_latitude": 46.726, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.728, 
         "sw_longitude": -92.050, 
-        "fullname": "Sky Harbor Airport, Duluth, Minnesota, St. Louis, United States", 
-        "sw_latitude": 46.726
+        "fullname": "Sky Harbor Airport, Duluth, Minnesota, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521873
     }

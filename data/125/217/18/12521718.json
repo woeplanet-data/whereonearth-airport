@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521718, 
+        "placetype": "airport", 
         "name": "San Benito Municipal Airport", 
-        "ne_latitude": 26.135, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12590037", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521718, 
         "ne_longitude": -97.611, 
         "longitude": -97.616, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590037, 
+        "ne_latitude": 26.135, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2487854, 
+        "sw_latitude": 26.126, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 26.130, 
         "sw_longitude": -97.621, 
-        "fullname": "San Benito Municipal Airport, San Benito, Texas, Cameron, United States", 
-        "sw_latitude": 26.126
+        "fullname": "San Benito Municipal Airport, San Benito, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521718
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516250, 
+        "placetype": "airport", 
         "name": "Krasnaya Polyana Airport", 
-        "ne_latitude": 46.174, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599131", 
+          "woe:state=2346921", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516250, 
         "ne_longitude": 41.529, 
         "longitude": 41.522, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599131, 
+        "ne_latitude": 46.174, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2121602, 
+        "sw_latitude": 46.165, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.169, 
         "sw_longitude": 41.515, 
         "fullname": "Krasnaya Polyana Airport, Rostovskaya Oblast, Peschanokopsky, Russia", 
-        "sw_latitude": 46.165
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516250
     }

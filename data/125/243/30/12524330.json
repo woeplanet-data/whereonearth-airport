@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524330, 
-        "name": "Sancti Spiritus Airport", 
         "alias_ENG_V": [
           "USS"
         ], 
-        "ne_latitude": 21.977, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Sancti Spiritus Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2345118", 
+          "woe:country=23424793", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524330, 
         "ne_longitude": -79.442, 
         "longitude": -79.447, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345118, 
+        "ne_latitude": 21.977, 
         "iso": "CU", 
-        "date_indexed": "2010-12-02T08:58:58Z", 
-        "parent_woeid": 67668, 
+        "sw_latitude": 21.968, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 21.972, 
         "sw_longitude": -79.452, 
         "fullname": "Sancti Spiritus Airport, Sancti Sp\u00edritus, Sancti Spiritus, Cuba", 
-        "sw_latitude": 21.968
+        "iata_code": "USS", 
+        "date_indexed": "2010-12-02T08:58:58Z"
       }, 
       "id": 12524330
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516112, 
+        "placetype": "airport", 
         "name": "Kazachye Airport", 
-        "ne_latitude": 70.724, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597650", 
+          "woe:state=2346881", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516112, 
         "ne_longitude": 136.184, 
         "longitude": 136.170, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597650, 
+        "ne_latitude": 70.724, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2017977, 
+        "sw_latitude": 70.715, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 70.719, 
         "sw_longitude": 136.156, 
-        "fullname": "Kazachye Airport, Kazach'ye, Sakha, Ust-Yansky, Russia", 
-        "sw_latitude": 70.715
+        "fullname": "Kazachye Airport, Kazach'ye, Sakha, Russia", 
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516112
     }

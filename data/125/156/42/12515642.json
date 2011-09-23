@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515642, 
-        "name": "Puerto Princesa International Airport", 
         "alias_ENG_V": [
           "Pto Princesa Airport"
         ], 
-        "ne_latitude": 9.748, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Puerto Princesa International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=2346703", 
+          "woe:state=23424725", 
+          "woe:country=23424934", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515642, 
         "ne_longitude": 118.761, 
         "longitude": 118.756, 
-        "placetype": "Airport", 
+        "parent_woeid": 2346703, 
+        "ne_latitude": 9.748, 
         "iso": "PH", 
-        "date_indexed": "2010-12-02T09:56:58Z", 
-        "parent_woeid": 1188567, 
+        "sw_latitude": 9.739, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 9.743, 
         "sw_longitude": 118.751, 
-        "fullname": "Puerto Princesa International Airport, Puerto Princesa, Western Visayas, Palawan, Philippines", 
-        "sw_latitude": 9.739
+        "fullname": "Puerto Princesa International Airport, Puerto Princesa, Western Visayas, Philippines", 
+        "iata_code": "PPS", 
+        "date_indexed": "2010-12-02T09:56:58Z"
       }, 
       "id": 12515642
     }

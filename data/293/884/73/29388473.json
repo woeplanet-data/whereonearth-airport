@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388473, 
-        "name": "Bay Bridge Airport", 
         "alias_ENG_V": [
           "W29"
         ], 
-        "ne_latitude": 38.978, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Bay Bridge Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588693", 
+          "woe:state=2347579", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388473, 
         "ne_longitude": -76.324, 
         "longitude": -76.326, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588693, 
+        "ne_latitude": 38.978, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2499775, 
+        "sw_latitude": 38.972, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.974, 
         "sw_longitude": -76.336, 
-        "fullname": "Bay Bridge Airport, Stevensville, Maryland, Queen Anne's, United States", 
-        "sw_latitude": 38.972
+        "fullname": "Bay Bridge Airport, Stevensville, Maryland, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388473
     }

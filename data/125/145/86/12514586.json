@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514586, 
+        "placetype": "airport", 
         "name": "Jonava Southeast Airport", 
-        "ne_latitude": 55.031, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=56043911", 
+          "woe:county=2346052", 
+          "woe:state=55848084", 
+          "woe:country=23424875", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514586, 
         "ne_longitude": 24.344, 
         "longitude": 24.336, 
-        "placetype": "Airport", 
+        "parent_woeid": 56043911, 
+        "ne_latitude": 55.031, 
         "iso": "LT", 
-        "date_indexed": "2010-12-02T09:36:04Z", 
-        "parent_woeid": 478062, 
+        "sw_latitude": 55.022, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 55.027, 
         "sw_longitude": 24.328, 
         "fullname": "Jonava Southeast Airport, Kaunas County, Jonava District Municipality, Lithuania", 
-        "sw_latitude": 55.022
+        "date_indexed": "2010-12-02T09:36:04Z"
       }, 
       "id": 12514586
     }

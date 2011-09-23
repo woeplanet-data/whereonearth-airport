@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517698, 
-        "name": "Damascus International Airport", 
         "alias_ENG_V": [
           "Damascus Airport"
         ], 
-        "ne_latitude": 33.418, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Damascus International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2347076", 
+          "woe:country=23424956", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517698, 
         "ne_longitude": 36.523, 
         "longitude": 36.518, 
-        "placetype": "Airport", 
+        "parent_woeid": 2347076, 
+        "ne_latitude": 33.418, 
         "iso": "SY", 
-        "date_indexed": "2010-12-02T07:50:25Z", 
-        "parent_woeid": 1941083, 
+        "sw_latitude": 33.409, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 33.414, 
         "sw_longitude": 36.512, 
         "fullname": "Damascus International Airport, Rif Dimashq, Syria", 
-        "sw_latitude": 33.409
+        "iata_code": "DAM", 
+        "date_indexed": "2010-12-02T07:50:25Z"
       }, 
       "id": 12517698
     }

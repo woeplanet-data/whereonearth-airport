@@ -32,29 +32,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511237, 
-        "name": "Aeroporto Monte Alegre", 
-        "alias_ENG_P": [
-          "Monte Alegre Airport"
-        ], 
-        "ne_latitude": -1.992, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "MTE"
         ], 
+        "name": "Aeroporto Monte Alegre", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Monte Alegre Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12580182", 
+          "woe:state=2344857", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511237, 
         "ne_longitude": -54.066, 
         "longitude": -54.071, 
-        "placetype": "Airport", 
+        "parent_woeid": 12580182, 
+        "ne_latitude": -1.992, 
         "alias_POR_V": [
           "Aeroporto MTE"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 456340, 
+        "sw_latitude": -2.001, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -1.996, 
         "sw_longitude": -54.075, 
-        "fullname": "Aeroporto Monte Alegre, Monte Alegre, Para, Monte Alegre, Brazil", 
-        "sw_latitude": -2.001
+        "fullname": "Aeroporto Monte Alegre, Monte Alegre, Para, Brazil", 
+        "iata_code": "MTE", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511237
     }

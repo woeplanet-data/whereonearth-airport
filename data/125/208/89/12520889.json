@@ -3,28 +3,70 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -80.673, 
-              28.099
-            ], 
-            [
-              -80.673, 
-              28.119
-            ], 
-            [
-              -80.625, 
-              28.119
-            ], 
-            [
-              -80.625, 
-              28.099
-            ], 
-            [
-              -80.673, 
-              28.099
+              [
+                -80.621, 
+                28.087
+              ], 
+              [
+                -80.622, 
+                28.087
+              ], 
+              [
+                -80.627, 
+                28.085
+              ], 
+              [
+                -80.638, 
+                28.085
+              ], 
+              [
+                -80.640, 
+                28.085
+              ], 
+              [
+                -80.640, 
+                28.085
+              ], 
+              [
+                -80.641, 
+                28.085
+              ], 
+              [
+                -80.638, 
+                28.087
+              ], 
+              [
+                -80.635, 
+                28.098
+              ], 
+              [
+                -80.624, 
+                28.102
+              ], 
+              [
+                -80.622, 
+                28.103
+              ], 
+              [
+                -80.621, 
+                28.095
+              ], 
+              [
+                -80.620, 
+                28.092
+              ], 
+              [
+                -80.619, 
+                28.089
+              ], 
+              [
+                -80.621, 
+                28.087
+              ]
             ]
           ]
         ]
@@ -32,23 +74,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520889, 
-        "name": "Melbourne International Airport", 
         "alias_ENG_V": [
           "Melbourne Airport"
         ], 
-        "ne_latitude": 28.119, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -80.625, 
-        "longitude": -80.630, 
-        "placetype": "Airport", 
+        "name": "Melbourne International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587807", 
+          "woe:state=2347568", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520889, 
+        "ne_longitude": -80.619, 
+        "longitude": -80.628, 
+        "parent_woeid": 12587807, 
+        "ne_latitude": 28.103, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2449097, 
-        "latitude": 28.102, 
-        "sw_longitude": -80.673, 
-        "fullname": "Melbourne International Airport, Melbourne, Florida, Brevard, United States", 
-        "sw_latitude": 28.099
+        "sw_latitude": 28.085, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 28.092, 
+        "sw_longitude": -80.641, 
+        "fullname": "Melbourne International Airport, Melbourne, Florida, United States", 
+        "iata_code": "MLB", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520889
     }

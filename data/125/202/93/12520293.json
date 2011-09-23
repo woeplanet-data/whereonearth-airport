@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520293, 
+        "placetype": "airport", 
         "name": "Indianapolis Brookside Airport", 
-        "ne_latitude": 39.909, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12588209", 
+          "woe:state=2347573", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520293, 
         "ne_longitude": -85.918, 
         "longitude": -85.924, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588209, 
+        "ne_latitude": 39.909, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2447701, 
+        "sw_latitude": 39.900, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 39.905, 
         "sw_longitude": -85.930, 
-        "fullname": "Indianapolis Brookside Airport, Mccordsville, Indiana, Hancock, United States", 
-        "sw_latitude": 39.900
+        "fullname": "Indianapolis Brookside Airport, Mccordsville, Indiana, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12520293
     }

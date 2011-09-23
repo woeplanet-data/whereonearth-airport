@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522027, 
-        "name": "Stroudsburg-Pocono Airport", 
         "alias_ENG_V": [
           "Stroudsburg Pocono Airpark"
         ], 
-        "ne_latitude": 41.041, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Stroudsburg-Pocono Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589772", 
+          "woe:state=2347597", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522027, 
         "ne_longitude": -75.150, 
         "longitude": -75.159, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589772, 
+        "ne_latitude": 41.041, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 28745571, 
+        "sw_latitude": 41.033, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.040, 
         "sw_longitude": -75.166, 
-        "fullname": "Stroudsburg-Pocono Airport, Smithfield, Pennsylvania, Monroe, United States", 
-        "sw_latitude": 41.033
+        "fullname": "Stroudsburg-Pocono Airport, Smithfield, Pennsylvania, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522027
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521014, 
+        "placetype": "airport", 
         "name": "Moore Army Air Field", 
-        "ne_latitude": 42.575, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12588708", 
+          "woe:state=2347580", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521014, 
         "ne_longitude": -71.597, 
         "longitude": -71.603, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588708, 
+        "ne_latitude": 42.575, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2357974, 
+        "sw_latitude": 42.565, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.570, 
         "sw_longitude": -71.609, 
-        "fullname": "Moore Army Air Field, Ayer, Massachusetts, Middlesex, United States", 
-        "sw_latitude": 42.565
+        "fullname": "Moore Army Air Field, Ayer, Massachusetts, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521014
     }

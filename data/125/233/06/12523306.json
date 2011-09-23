@@ -32,23 +32,28 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523306, 
-        "name": "Kandavu Airport", 
         "alias_ENG_V": [
           "KDV"
         ], 
-        "ne_latitude": -19.045, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Kandavu Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2345336", 
+          "woe:country=23424813", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523306, 
         "ne_longitude": 178.222, 
         "longitude": 178.217, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345336, 
+        "ne_latitude": -19.045, 
         "iso": "FJ", 
-        "date_indexed": "2010-12-02T16:12:16Z", 
-        "parent_woeid": 1064108, 
+        "sw_latitude": -19.055, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -19.050, 
         "sw_longitude": 178.212, 
         "fullname": "Kandavu Airport, Eastern, Fiji", 
-        "sw_latitude": -19.055
+        "date_indexed": "2010-12-02T16:12:16Z"
       }, 
       "id": 12523306
     }

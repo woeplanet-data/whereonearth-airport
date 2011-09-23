@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514697, 
-        "name": "Fianarantsoa Airport", 
         "alias_ENG_V": [
           "WFI"
         ], 
-        "ne_latitude": -21.440, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Fianarantsoa Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=23706547", 
+          "woe:state=2346147", 
+          "woe:country=23424883", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514697, 
         "ne_longitude": 47.108, 
         "longitude": 47.104, 
-        "placetype": "Airport", 
+        "parent_woeid": 23706547, 
+        "ne_latitude": -21.440, 
         "iso": "MG", 
-        "date_indexed": "2010-12-02T16:43:54Z", 
-        "parent_woeid": 1361008, 
+        "sw_latitude": -21.449, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -21.444, 
         "sw_longitude": 47.099, 
-        "fullname": "Fianarantsoa Airport, Fianarantsoa, Fianarantsoa, Fianarantsoa, Madagascar", 
-        "sw_latitude": -21.449
+        "fullname": "Fianarantsoa Airport, Fianarantsoa, Fianarantsoa, Madagascar", 
+        "iata_code": "WFI", 
+        "date_indexed": "2010-12-02T16:43:54Z"
       }, 
       "id": 12514697
     }

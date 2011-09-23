@@ -3,28 +3,34 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -54.488, 
-              -25.754
-            ], 
-            [
-              -54.488, 
-              -25.731
-            ], 
-            [
-              -54.463, 
-              -25.731
-            ], 
-            [
-              -54.463, 
-              -25.754
-            ], 
-            [
-              -54.488, 
-              -25.754
+              [
+                -54.477, 
+                -25.732
+              ], 
+              [
+                -54.478, 
+                -25.730
+              ], 
+              [
+                -54.477, 
+                -25.729
+              ], 
+              [
+                -54.476, 
+                -25.731
+              ], 
+              [
+                -54.477, 
+                -25.732
+              ], 
+              [
+                -54.477, 
+                -25.732
+              ]
             ]
           ]
         ]
@@ -32,23 +38,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510472, 
-        "name": "Cataratas del Iguazu Airport", 
         "alias_ENG_V": [
           "IGR"
         ], 
-        "ne_latitude": -25.731, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -54.463, 
-        "longitude": -54.475, 
-        "placetype": "Airport", 
+        "name": "Cataratas del Iguazu Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=20070722", 
+          "woe:state=2344688", 
+          "woe:country=23424747", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510472, 
+        "ne_longitude": -54.476, 
+        "longitude": -54.477, 
+        "parent_woeid": 20070722, 
+        "ne_latitude": -25.729, 
         "iso": "AR", 
-        "date_indexed": "2010-12-02T17:41:29Z", 
-        "parent_woeid": 466239, 
-        "latitude": -25.742, 
-        "sw_longitude": -54.488, 
-        "fullname": "Cataratas del Iguazu Airport, Puerto Canoas, Misiones, Iguaz\u00fa, Argentina", 
-        "sw_latitude": -25.754
+        "sw_latitude": -25.732, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": -25.731, 
+        "sw_longitude": -54.478, 
+        "fullname": "Cataratas del Iguazu Airport, Puerto Canoas, Misiones, Argentina", 
+        "date_indexed": "2010-12-02T17:41:29Z"
       }, 
       "id": 12510472
     }

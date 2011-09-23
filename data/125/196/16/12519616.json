@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519616, 
-        "name": "Elizabeth City Cgas-Regional Airport", 
         "alias_ENG_V": [
           "ECG Airport"
         ], 
-        "ne_latitude": 36.270, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Elizabeth City Cgas-Regional Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589443", 
+          "woe:state=2347592", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519616, 
         "ne_longitude": -76.157, 
         "longitude": -76.172, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589443, 
+        "ne_latitude": 36.270, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2398322, 
+        "sw_latitude": 36.251, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.254, 
         "sw_longitude": -76.192, 
-        "fullname": "Elizabeth City Cgas-Regional Airport, Elizabeth City, North Carolina, Pasquotank, United States", 
-        "sw_latitude": 36.251
+        "fullname": "Elizabeth City Cgas-Regional Airport, Elizabeth City, North Carolina, United States", 
+        "iata_code": "ECG", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519616
     }

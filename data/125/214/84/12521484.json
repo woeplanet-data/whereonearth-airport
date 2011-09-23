@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521484, 
-        "name": "Prineville Airport", 
         "alias_ENG_V": [
           "Prz"
         ], 
-        "ne_latitude": 44.294, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Prineville Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589698", 
+          "woe:state=2347596", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521484, 
         "ne_longitude": -120.890, 
         "longitude": -120.901, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589698, 
+        "ne_latitude": 44.294, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2476761, 
+        "sw_latitude": 44.277, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.280, 
         "sw_longitude": -120.914, 
-        "fullname": "Prineville Airport, Prineville, Oregon, Crook, United States", 
-        "sw_latitude": 44.277
+        "fullname": "Prineville Airport, Prineville, Oregon, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521484
     }

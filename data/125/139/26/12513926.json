@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513926, 
+        "placetype": "airport", 
         "name": "Shab Al Hiri Airport", 
-        "ne_latitude": 33.680, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55999898", 
+          "woe:state=2345833", 
+          "woe:country=23424855", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513926, 
         "ne_longitude": 39.960, 
         "longitude": 39.954, 
-        "placetype": "Airport", 
+        "parent_woeid": 55999898, 
+        "ne_latitude": 33.680, 
         "iso": "IQ", 
-        "date_indexed": "2010-12-02T16:42:58Z", 
-        "parent_woeid": 1979386, 
+        "sw_latitude": 33.671, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 33.676, 
         "sw_longitude": 39.949, 
         "fullname": "Shab Al Hiri Airport, Al Anbar, Al Rutba, Iraq", 
-        "sw_latitude": 33.671
+        "date_indexed": "2010-12-02T16:42:58Z"
       }, 
       "id": 12513926
     }

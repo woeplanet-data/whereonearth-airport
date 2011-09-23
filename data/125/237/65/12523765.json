@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523765, 
-        "name": "Wonken Airport", 
         "alias_ENG_V": [
           "WOK"
         ], 
-        "ne_latitude": 4.976, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Wonken Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=26805588", 
+          "woe:county=26804568", 
+          "woe:state=2347682", 
+          "woe:country=23424982", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523765, 
         "ne_longitude": -61.695, 
         "longitude": -61.700, 
-        "placetype": "Airport", 
+        "parent_woeid": 26805588, 
+        "ne_latitude": 4.976, 
         "iso": "VE", 
-        "date_indexed": "2010-12-02T16:11:43Z", 
-        "parent_woeid": 395876, 
+        "sw_latitude": 4.966, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 4.971, 
         "sw_longitude": -61.704, 
         "fullname": "Wonken Airport, Bolivar, Gran Sabana, Venezuela", 
-        "sw_latitude": 4.966
+        "iata_code": "WOK", 
+        "date_indexed": "2010-12-02T16:11:43Z"
       }, 
       "id": 12523765
     }

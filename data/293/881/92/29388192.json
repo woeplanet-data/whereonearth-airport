@@ -3,28 +3,66 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -94.322, 
-              36.257
-            ], 
-            [
-              -94.322, 
-              36.302
-            ], 
-            [
-              -94.282, 
-              36.302
-            ], 
-            [
-              -94.282, 
-              36.257
-            ], 
-            [
-              -94.322, 
-              36.257
+              [
+                -94.298, 
+                36.276
+              ], 
+              [
+                -94.297, 
+                36.276
+              ], 
+              [
+                -94.296, 
+                36.275
+              ], 
+              [
+                -94.297, 
+                36.275
+              ], 
+              [
+                -94.299, 
+                36.276
+              ], 
+              [
+                -94.302, 
+                36.280
+              ], 
+              [
+                -94.306, 
+                36.281
+              ], 
+              [
+                -94.303, 
+                36.284
+              ], 
+              [
+                -94.302, 
+                36.280
+              ], 
+              [
+                -94.299, 
+                36.276
+              ], 
+              [
+                -94.297, 
+                36.275
+              ], 
+              [
+                -94.296, 
+                36.275
+              ], 
+              [
+                -94.297, 
+                36.276
+              ], 
+              [
+                -94.298, 
+                36.276
+              ]
             ]
           ]
         ]
@@ -32,23 +70,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388192, 
-        "name": "Northwest Arkansas Regional Airport", 
         "alias_ENG_V": [
           "XNA"
         ], 
-        "ne_latitude": 36.302, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -94.282, 
-        "longitude": -94.296, 
-        "placetype": "Airport", 
-        "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
+        "name": "Northwest Arkansas Regional Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:suburb=2419357", 
+          "woe:county=12587598", 
+          "woe:state=2347562", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388192, 
+        "ne_longitude": -94.296, 
+        "longitude": -94.304, 
         "parent_woeid": 2419357, 
-        "latitude": 36.276, 
-        "sw_longitude": -94.322, 
-        "fullname": "Northwest Arkansas Regional Airport, Bentonville, Arkansas, Benton, United States", 
-        "sw_latitude": 36.257
+        "ne_latitude": 36.284, 
+        "iso": "US", 
+        "sw_latitude": 36.275, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 36.281, 
+        "sw_longitude": -94.306, 
+        "fullname": "Northwest Arkansas Regional Airport, Bentonville, Arkansas, United States", 
+        "iata_code": "XNA", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388192
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520938, 
-        "name": "Mid Valley Airpark", 
         "alias_ENG_V": [
           "E98"
         ], 
-        "ne_latitude": 34.759, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Mid Valley Airpark", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589311", 
+          "woe:state=2347590", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520938, 
         "ne_longitude": -106.742, 
         "longitude": -106.745, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589311, 
+        "ne_latitude": 34.759, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2507023, 
+        "sw_latitude": 34.755, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 34.757, 
         "sw_longitude": -106.747, 
-        "fullname": "Mid Valley Airpark, Tome, New Mexico, Valencia, United States", 
-        "sw_latitude": 34.755
+        "fullname": "Mid Valley Airpark, Tome, New Mexico, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12520938
     }

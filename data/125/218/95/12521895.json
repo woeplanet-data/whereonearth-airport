@@ -3,28 +3,102 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -86.532, 
-              35.996
-            ], 
-            [
-              -86.532, 
-              36.021
-            ], 
-            [
-              -86.504, 
-              36.021
-            ], 
-            [
-              -86.504, 
-              35.996
-            ], 
-            [
-              -86.532, 
-              35.996
+              [
+                -86.509, 
+                36.010
+              ], 
+              [
+                -86.515, 
+                36.010
+              ], 
+              [
+                -86.517, 
+                36.009
+              ], 
+              [
+                -86.517, 
+                36.008
+              ], 
+              [
+                -86.520, 
+                36.005
+              ], 
+              [
+                -86.518, 
+                36.001
+              ], 
+              [
+                -86.524, 
+                36.000
+              ], 
+              [
+                -86.523, 
+                35.996
+              ], 
+              [
+                -86.525, 
+                35.997
+              ], 
+              [
+                -86.528, 
+                36.002
+              ], 
+              [
+                -86.525, 
+                36.005
+              ], 
+              [
+                -86.525, 
+                36.010
+              ], 
+              [
+                -86.525, 
+                36.010
+              ], 
+              [
+                -86.522, 
+                36.013
+              ], 
+              [
+                -86.519, 
+                36.012
+              ], 
+              [
+                -86.516, 
+                36.011
+              ], 
+              [
+                -86.511, 
+                36.013
+              ], 
+              [
+                -86.510, 
+                36.013
+              ], 
+              [
+                -86.508, 
+                36.011
+              ], 
+              [
+                -86.508, 
+                36.010
+              ], 
+              [
+                -86.509, 
+                36.010
+              ], 
+              [
+                -86.509, 
+                36.009
+              ], 
+              [
+                -86.509, 
+                36.010
+              ]
             ]
           ]
         ]
@@ -32,23 +106,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521895, 
-        "name": "Smyrna Airport", 
         "alias_ENG_V": [
           "MQY"
         ], 
-        "ne_latitude": 36.021, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -86.504, 
-        "longitude": -86.527, 
-        "placetype": "Airport", 
+        "name": "Smyrna Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589986", 
+          "woe:state=2347601", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521895, 
+        "ne_longitude": -86.508, 
+        "longitude": -86.521, 
+        "parent_woeid": 12589986, 
+        "ne_latitude": 36.013, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2495232, 
-        "latitude": 36.004, 
-        "sw_longitude": -86.532, 
-        "fullname": "Smyrna Airport, Smyrna, Tennessee, Rutherford, United States", 
-        "sw_latitude": 35.996
+        "sw_latitude": 35.996, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 36.006, 
+        "sw_longitude": -86.528, 
+        "fullname": "Smyrna Airport, Smyrna, Tennessee, United States", 
+        "iata_code": "MQY", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521895
     }

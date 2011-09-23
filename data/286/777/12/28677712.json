@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 28677712, 
+        "placetype": "airport", 
         "name": "Zeehan Airstrip", 
-        "ne_latitude": -41.884, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55864277", 
+          "woe:state=2344704", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 28677712, 
         "ne_longitude": 145.357, 
         "longitude": 145.351, 
-        "placetype": "Airport", 
+        "parent_woeid": 55864277, 
+        "ne_latitude": -41.884, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1107113, 
+        "sw_latitude": -41.893, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -41.889, 
         "sw_longitude": 145.345, 
-        "fullname": "Zeehan Airstrip, Zeehan, Tasmania, West Coast, Australia", 
-        "sw_latitude": -41.893
+        "fullname": "Zeehan Airstrip, Zeehan, Tasmania, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 28677712
     }

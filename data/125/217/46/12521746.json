@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521746, 
-        "name": "Santa Rosa Municipal Airport", 
         "alias_ENG_V": [
           "5t6"
         ], 
-        "ne_latitude": 34.941, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Santa Rosa Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589289", 
+          "woe:state=2347590", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521746, 
         "ne_longitude": -104.633, 
         "longitude": -104.634, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589289, 
+        "ne_latitude": 34.941, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2488915, 
+        "sw_latitude": 34.925, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 34.934, 
         "sw_longitude": -104.653, 
-        "fullname": "Santa Rosa Municipal Airport, Santa Rosa, New Mexico, Guadalupe, United States", 
-        "sw_latitude": 34.925
+        "fullname": "Santa Rosa Municipal Airport, Santa Rosa, New Mexico, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521746
     }

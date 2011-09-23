@@ -3,28 +3,38 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -107.211, 
-              41.798
-            ], 
-            [
-              -107.211, 
-              41.816
-            ], 
-            [
-              -107.182, 
-              41.816
-            ], 
-            [
-              -107.182, 
-              41.798
-            ], 
-            [
-              -107.211, 
-              41.798
+              [
+                -107.211, 
+                41.793
+              ], 
+              [
+                -107.212, 
+                41.792
+              ], 
+              [
+                -107.213, 
+                41.793
+              ], 
+              [
+                -107.217, 
+                41.793
+              ], 
+              [
+                -107.216, 
+                41.794
+              ], 
+              [
+                -107.215, 
+                41.795
+              ], 
+              [
+                -107.211, 
+                41.793
+              ]
             ]
           ]
         ]
@@ -32,23 +42,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521534, 
-        "name": "Rawlins Municipal Airport", 
         "alias_ENG_V": [
           "RWL"
         ], 
-        "ne_latitude": 41.816, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -107.182, 
-        "longitude": -107.206, 
-        "placetype": "Airport", 
+        "name": "Rawlins Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590609", 
+          "woe:state=2347609", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521534, 
+        "ne_longitude": -107.211, 
+        "longitude": -107.214, 
+        "parent_woeid": 12590609, 
+        "ne_latitude": 41.795, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2478920, 
-        "latitude": 41.798, 
-        "sw_longitude": -107.211, 
-        "fullname": "Rawlins Municipal Airport, Rawlins, Wyoming, Carbon, United States", 
-        "sw_latitude": 41.798
+        "sw_latitude": 41.792, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 41.794, 
+        "sw_longitude": -107.217, 
+        "fullname": "Rawlins Municipal Airport, Rawlins, Wyoming, United States", 
+        "iata_code": "RWL", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521534
     }

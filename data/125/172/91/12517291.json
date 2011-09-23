@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517291, 
+        "placetype": "airport", 
         "name": "Zheleznogorsk Ilimskiy Airport", 
-        "ne_latitude": 56.491, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598271", 
+          "woe:state=2346896", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517291, 
         "ne_longitude": 104.113, 
         "longitude": 104.105, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598271, 
+        "ne_latitude": 56.491, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2082525, 
+        "sw_latitude": 56.482, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 56.486, 
         "sw_longitude": 104.097, 
         "fullname": "Zheleznogorsk Ilimskiy Airport, Irkutskaya Oblast, Nizhneilimsky, Russia", 
-        "sw_latitude": 56.482
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12517291
     }

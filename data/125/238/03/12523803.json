@@ -3,28 +3,42 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              4.893, 
-              43.899
-            ], 
-            [
-              4.893, 
-              43.917
-            ], 
-            [
-              4.909, 
-              43.917
-            ], 
-            [
-              4.909, 
-              43.899
-            ], 
-            [
-              4.893, 
-              43.899
+              [
+                4.898, 
+                43.906
+              ], 
+              [
+                4.898, 
+                43.906
+              ], 
+              [
+                4.898, 
+                43.904
+              ], 
+              [
+                4.897, 
+                43.905
+              ], 
+              [
+                4.893, 
+                43.906
+              ], 
+              [
+                4.892, 
+                43.907
+              ], 
+              [
+                4.892, 
+                43.908
+              ], 
+              [
+                4.898, 
+                43.906
+              ]
             ]
           ]
         ]
@@ -32,32 +46,40 @@
       "type": "Feature", 
       "properties": {
         "lang": "FRE", 
-        "woeid": 12523803, 
+        "alias_ENG_V": [
+          "Avignon-Caumont"
+        ], 
         "name": "A\u00e9roport d'Avignon", 
         "alias_ENG_P": [
           "Avignon-Caumont Airport"
         ], 
-        "ne_latitude": 43.917, 
-        "alias_ENG_V": [
-          "Avignon-Caumont"
+        "hierarchy": [
+          "woe:localadmin=22755492", 
+          "woe:county=12597203", 
+          "woe:state=7153328", 
+          "woe:country=23424819", 
+          "woe:planet=1"
         ], 
-        "ne_longitude": 4.909, 
-        "longitude": 4.898, 
-        "parent_woeid": 29329817, 
-        "placetype": "Airport", 
+        "woeid": 12523803, 
+        "provider": "geoplanet 7.6.0", 
+        "ne_longitude": 4.898, 
+        "longitude": 4.895, 
+        "parent_woeid": 22755492, 
+        "placetype": "airport", 
+        "latitude": 43.906, 
+        "iso": "FR", 
+        "sw_latitude": 43.904, 
+        "ne_latitude": 43.908, 
         "alias_FRE_V": [
           "AVN A\u00e9roport"
         ], 
-        "iso": "FR", 
-        "date_indexed": "2010-12-02T12:04:01Z", 
-        "provider": "geoplanet 7.6.0", 
-        "latitude": 43.905, 
-        "sw_longitude": 4.893, 
-        "fullname": "A\u00e9roport d'Avignon, Montfavet, Provence-Alpes-Cote d'Azur, Vaucluse, France", 
+        "sw_longitude": 4.892, 
+        "fullname": "A\u00e9roport d'Avignon, Montfavet, Provence-Alpes-Cote d'Azur, France", 
+        "iata_code": "AVN", 
         "alias_FRE_S": [
           "AVN Aeroport"
         ], 
-        "sw_latitude": 43.899
+        "date_indexed": "2010-12-02T12:04:01Z"
       }, 
       "id": 12523803
     }

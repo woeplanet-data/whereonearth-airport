@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514690, 
+        "placetype": "airport", 
         "name": "Antananarivo Arivonimamo Airport", 
-        "ne_latitude": -19.021, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=23706536", 
+          "woe:state=2346150", 
+          "woe:country=23424883", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514690, 
         "ne_longitude": 47.169, 
         "longitude": 47.164, 
-        "placetype": "Airport", 
+        "parent_woeid": 23706536, 
+        "ne_latitude": -19.021, 
         "iso": "MG", 
-        "date_indexed": "2010-12-02T16:43:54Z", 
-        "parent_woeid": 1359462, 
+        "sw_latitude": -19.030, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -19.026, 
         "sw_longitude": 47.160, 
-        "fullname": "Antananarivo Arivonimamo Airport, Arivonimamo, Antananarivo, Arivonimamo, Madagascar", 
-        "sw_latitude": -19.030
+        "fullname": "Antananarivo Arivonimamo Airport, Arivonimamo, Antananarivo, Madagascar", 
+        "date_indexed": "2010-12-02T16:43:54Z"
       }, 
       "id": 12514690
     }

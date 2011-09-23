@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519253, 
-        "name": "Clow International Airport", 
         "alias_ENG_V": [
           "Bolingbrook's Clow International Airport"
         ], 
-        "ne_latitude": 41.698, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Clow International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588176", 
+          "woe:state=2347572", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519253, 
         "ne_longitude": -88.124, 
         "longitude": -88.127, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588176, 
+        "ne_latitude": 41.698, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:15Z", 
-        "parent_woeid": 2366427, 
+        "sw_latitude": 41.693, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.696, 
         "sw_longitude": -88.130, 
-        "fullname": "Clow International Airport, Bolingbrook, Illinois, Will, United States", 
-        "sw_latitude": 41.693
+        "fullname": "Clow International Airport, Bolingbrook, Illinois, United States", 
+        "date_indexed": "2010-12-02T18:39:15Z"
       }, 
       "id": 12519253
     }

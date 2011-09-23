@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517764, 
-        "name": "Mae Hongson Airport", 
         "alias_ENG_V": [
           "HGN Airport"
         ], 
-        "ne_latitude": 19.303, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Mae Hongson Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=28340833", 
+          "woe:state=2347128", 
+          "woe:country=23424960", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517764, 
         "ne_longitude": 97.991, 
         "longitude": 97.986, 
-        "placetype": "Airport", 
+        "parent_woeid": 28340833, 
+        "ne_latitude": 19.303, 
         "iso": "TH", 
-        "date_indexed": "2010-12-02T17:05:34Z", 
-        "parent_woeid": 55947244, 
+        "sw_latitude": 19.294, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 19.299, 
         "sw_longitude": 97.981, 
-        "fullname": "Mae Hongson Airport, Chong Kham, Mae Hong Son, Mueang Mae Hong Son, Thailand", 
-        "sw_latitude": 19.294
+        "fullname": "Mae Hongson Airport, Chong Kham, Mae Hong Son, Thailand", 
+        "iata_code": "HGN", 
+        "date_indexed": "2010-12-02T17:05:34Z"
       }, 
       "id": 12517764
     }

@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512668, 
+        "placetype": "airport", 
         "name": "Az Zaqaziq Airport", 
-        "ne_latitude": 30.602, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345236", 
+          "woe:country=23424802", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512668, 
         "ne_longitude": 31.671, 
         "longitude": 31.666, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345236, 
+        "ne_latitude": 30.602, 
         "iso": "EG", 
-        "date_indexed": "2010-12-02T12:16:51Z", 
-        "parent_woeid": 1524179, 
+        "sw_latitude": 30.593, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 30.597, 
         "sw_longitude": 31.660, 
         "fullname": "Az Zaqaziq Airport, Ash Sharquiyah, Egypt", 
-        "sw_latitude": 30.593
+        "date_indexed": "2010-12-02T12:16:51Z"
       }, 
       "id": 12512668
     }

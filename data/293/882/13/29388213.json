@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388213, 
-        "name": "Center Municipal Airport", 
         "alias_ENG_V": [
           "F17"
         ], 
-        "ne_latitude": 31.845, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Center Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590216", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388213, 
         "ne_longitude": -94.151, 
         "longitude": -94.153, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590216, 
+        "ne_latitude": 31.845, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2377220, 
+        "sw_latitude": 31.821, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 31.831, 
         "sw_longitude": -94.160, 
-        "fullname": "Center Municipal Airport, Center, Texas, Shelby, United States", 
-        "sw_latitude": 31.821
+        "fullname": "Center Municipal Airport, Center, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388213
     }

@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522757, 
-        "name": "Barinas Airport", 
         "alias_ENG_V": [
           "BNS"
         ], 
-        "ne_latitude": 8.626, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Barinas Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=26805603", 
+          "woe:county=26804738", 
+          "woe:state=2347681", 
+          "woe:country=23424982", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522757, 
         "ne_longitude": -70.214, 
         "longitude": -70.218, 
-        "placetype": "Airport", 
+        "parent_woeid": 26805603, 
+        "ne_latitude": 8.626, 
         "iso": "VE", 
-        "date_indexed": "2010-12-02T16:11:43Z", 
-        "parent_woeid": 468389, 
+        "sw_latitude": 8.617, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 8.621, 
         "sw_longitude": -70.223, 
-        "fullname": "Barinas Airport, Barinas, Barinas, Barinas, Venezuela", 
-        "sw_latitude": 8.617
+        "fullname": "Barinas Airport, Barinas, Barinas, Venezuela", 
+        "iata_code": "BNS", 
+        "date_indexed": "2010-12-02T16:11:43Z"
       }, 
       "id": 12522757
     }

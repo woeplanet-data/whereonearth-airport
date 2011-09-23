@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519281, 
+        "placetype": "airport", 
         "name": "Columbia Crest Winery Airport", 
-        "ne_latitude": 45.961, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12590442", 
+          "woe:state=2347606", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519281, 
         "ne_longitude": -119.612, 
         "longitude": -119.619, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590442, 
+        "ne_latitude": 45.961, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:15Z", 
-        "parent_woeid": 2469095, 
+        "sw_latitude": 45.952, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.956, 
         "sw_longitude": -119.625, 
-        "fullname": "Columbia Crest Winery Airport, Paterson, Washington, Benton, United States", 
-        "sw_latitude": 45.952
+        "fullname": "Columbia Crest Winery Airport, Paterson, Washington, United States", 
+        "date_indexed": "2010-12-02T18:39:15Z"
       }, 
       "id": 12519281
     }

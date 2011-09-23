@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514927, 
+        "placetype": "airport", 
         "name": "Ocotlan Airport", 
-        "ne_latitude": 20.374, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2346277", 
+          "woe:country=23424900", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514927, 
         "ne_longitude": -102.770, 
         "longitude": -102.775, 
-        "placetype": "Airport", 
+        "parent_woeid": 2346277, 
+        "ne_latitude": 20.374, 
         "iso": "MX", 
-        "date_indexed": "2010-12-02T16:57:55Z", 
-        "parent_woeid": 134972, 
+        "sw_latitude": 20.365, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 20.369, 
         "sw_longitude": -102.780, 
-        "fullname": "Ocotlan Airport, Ocotl\u00e1n, Jalisco, Ocotlan, Mexico", 
-        "sw_latitude": 20.365
+        "fullname": "Ocotlan Airport, Ocotl\u00e1n, Jalisco, Mexico", 
+        "date_indexed": "2010-12-02T16:57:55Z"
       }, 
       "id": 12514927
     }

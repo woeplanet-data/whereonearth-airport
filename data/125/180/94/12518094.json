@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518094, 
+        "placetype": "airport", 
         "name": "Great Massingham Airport", 
-        "ne_latitude": 52.785, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12696026", 
+          "woe:county=12602141", 
+          "woe:state=24554868", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518094, 
         "ne_longitude": 0.686, 
         "longitude": 0.678, 
-        "placetype": "Airport", 
+        "parent_woeid": 12696026, 
+        "ne_latitude": 52.785, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:20:54Z", 
-        "parent_woeid": 21681, 
+        "sw_latitude": 52.776, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 52.781, 
         "sw_longitude": 0.671, 
-        "fullname": "Great Massingham Airport, Great Massingham, England, Norfolk, United Kingdom", 
-        "sw_latitude": 52.776
+        "fullname": "Great Massingham Airport, Great Massingham, England, United Kingdom", 
+        "date_indexed": "2010-12-02T12:20:54Z"
       }, 
       "id": 12518094
     }

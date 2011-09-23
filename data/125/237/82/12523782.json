@@ -3,28 +3,62 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              27.485, 
-              42.555
-            ], 
-            [
-              27.485, 
-              42.578
-            ], 
-            [
-              27.515, 
-              42.578
-            ], 
-            [
-              27.515, 
-              42.555
-            ], 
-            [
-              27.485, 
-              42.555
+              [
+                27.519, 
+                42.565
+              ], 
+              [
+                27.521, 
+                42.559
+              ], 
+              [
+                27.524, 
+                42.557
+              ], 
+              [
+                27.521, 
+                42.556
+              ], 
+              [
+                27.521, 
+                42.556
+              ], 
+              [
+                27.520, 
+                42.558
+              ], 
+              [
+                27.520, 
+                42.558
+              ], 
+              [
+                27.517, 
+                42.564
+              ], 
+              [
+                27.516, 
+                42.566
+              ], 
+              [
+                27.515, 
+                42.567
+              ], 
+              [
+                27.520, 
+                42.572
+              ], 
+              [
+                27.520, 
+                42.567
+              ], 
+              [
+                27.519, 
+                42.565
+              ]
             ]
           ]
         ]
@@ -32,23 +66,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523782, 
-        "name": "Bourgas Airport", 
         "alias_ENG_V": [
           "BOJ"
         ], 
-        "ne_latitude": 42.578, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": 27.515, 
-        "longitude": 27.500, 
-        "placetype": "Airport", 
+        "name": "Bourgas Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55873729", 
+          "woe:state=20070075", 
+          "woe:country=23424771", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523782, 
+        "ne_longitude": 27.524, 
+        "longitude": 27.519, 
+        "parent_woeid": 55873729, 
+        "ne_latitude": 42.572, 
         "iso": "BG", 
-        "date_indexed": "2010-12-02T16:14:37Z", 
-        "parent_woeid": 835315, 
-        "latitude": 42.567, 
-        "sw_longitude": 27.485, 
-        "fullname": "Bourgas Airport, Burgas, Burgas, Burgas, Bulgaria", 
-        "sw_latitude": 42.555
+        "sw_latitude": 42.556, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 42.564, 
+        "sw_longitude": 27.515, 
+        "fullname": "Bourgas Airport, Burgas, Burgas, Bulgaria", 
+        "iata_code": "BOJ", 
+        "date_indexed": "2010-12-02T16:14:37Z"
       }, 
       "id": 12523782
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 28677833, 
+        "placetype": "airport", 
         "name": "Matamata Aerodrome", 
-        "ne_latitude": -37.729, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55875878", 
+          "woe:state=15021765", 
+          "woe:country=23424916", 
+          "woe:planet=1"
+        ], 
+        "woeid": 28677833, 
         "ne_longitude": 175.750, 
         "longitude": 175.738, 
-        "placetype": "Airport", 
+        "parent_woeid": 55875878, 
+        "ne_latitude": -37.729, 
         "iso": "NZ", 
-        "date_indexed": "2010-12-02T17:02:39Z", 
-        "parent_woeid": 28644159, 
+        "sw_latitude": -37.742, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -37.736, 
         "sw_longitude": 175.734, 
-        "fullname": "Matamata Aerodrome, Wardville, Waikato, Matamata Piako District, New Zealand", 
-        "sw_latitude": -37.742
+        "fullname": "Matamata Aerodrome, Wardville, Waikato, New Zealand", 
+        "date_indexed": "2010-12-02T17:02:39Z"
       }, 
       "id": 28677833
     }

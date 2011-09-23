@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524319, 
-        "name": "Carrillo Airport", 
         "alias_ENG_V": [
           "RIK"
         ], 
-        "ne_latitude": 9.882, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Carrillo Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=26809329", 
+          "woe:county=26808828", 
+          "woe:state=2345084", 
+          "woe:country=23424791", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524319, 
         "ne_longitude": -85.459, 
         "longitude": -85.464, 
-        "placetype": "Airport", 
+        "parent_woeid": 26809329, 
+        "ne_latitude": 9.882, 
         "iso": "CR", 
-        "date_indexed": "2010-12-02T12:16:27Z", 
-        "parent_woeid": 57726, 
+        "sw_latitude": 9.873, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 9.878, 
         "sw_longitude": -85.468, 
         "fullname": "Carrillo Airport, Guanacaste, Hojancha, Costa Rica", 
-        "sw_latitude": 9.873
+        "iata_code": "RIK", 
+        "date_indexed": "2010-12-02T12:16:27Z"
       }, 
       "id": 12524319
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518929, 
+        "placetype": "airport", 
         "name": "Brewton Municipal Airport", 
-        "ne_latitude": 31.057, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12587513", 
+          "woe:state=2347559", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518929, 
         "ne_longitude": -87.053, 
         "longitude": -87.065, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587513, 
+        "ne_latitude": 31.057, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2482426, 
+        "sw_latitude": 31.041, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 31.049, 
         "sw_longitude": -87.076, 
-        "fullname": "Brewton Municipal Airport, Riverview, Alabama, Escambia, United States", 
-        "sw_latitude": 31.041
+        "fullname": "Brewton Municipal Airport, Riverview, Alabama, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518929
     }

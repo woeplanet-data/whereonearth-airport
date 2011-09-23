@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29387871, 
-        "name": "L. M. Clayton Airport", 
         "alias_ENG_V": [
           "Lyman Clayton Airport"
         ], 
-        "ne_latitude": 48.099, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "L. M. Clayton Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589123", 
+          "woe:state=2347585", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29387871, 
         "ne_longitude": -105.565, 
         "longitude": -105.575, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589123, 
+        "ne_latitude": 48.099, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2522655, 
+        "sw_latitude": 48.091, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.096, 
         "sw_longitude": -105.585, 
-        "fullname": "L. M. Clayton Airport, Wolf Point, Montana, Roosevelt, United States", 
-        "sw_latitude": 48.091
+        "fullname": "L. M. Clayton Airport, Wolf Point, Montana, United States", 
+        "iata_code": "OLF", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29387871
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519468, 
-        "name": "Denver City Airport", 
         "alias_ENG_V": [
           "E57"
         ], 
-        "ne_latitude": 32.979, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Denver City Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590257", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519468, 
         "ne_longitude": -102.836, 
         "longitude": -102.838, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590257, 
+        "ne_latitude": 32.979, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2391331, 
+        "sw_latitude": 32.967, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 32.976, 
         "sw_longitude": -102.853, 
-        "fullname": "Denver City Airport, Denver City, Texas, Yoakum, United States", 
-        "sw_latitude": 32.967
+        "fullname": "Denver City Airport, Denver City, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519468
     }

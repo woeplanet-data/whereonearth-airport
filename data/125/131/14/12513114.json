@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513114, 
+        "placetype": "airport", 
         "name": "Gross Mohrdorf Airport", 
-        "ne_latitude": 54.402, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12635732", 
+          "woe:county=12596758", 
+          "woe:state=2345492", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513114, 
         "ne_longitude": 12.921, 
         "longitude": 12.913, 
-        "placetype": "Airport", 
+        "parent_woeid": 12635732, 
+        "ne_latitude": 54.402, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:24Z", 
-        "parent_woeid": 665794, 
+        "sw_latitude": 54.393, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 54.398, 
         "sw_longitude": 12.905, 
-        "fullname": "Gross Mohrdorf Airport, Kinnbackenhagen, Mecklenburg-Vorpommern, Nordvorpommern, Germany", 
+        "fullname": "Gross Mohrdorf Airport, Kinnbackenhagen, Mecklenburg-Vorpommern, Germany", 
         "alias_GER_Q": [
           "Flughafen Gross Mohrdorf"
         ], 
-        "sw_latitude": 54.393
+        "date_indexed": "2010-12-02T09:50:24Z"
       }, 
       "id": 12513114
     }

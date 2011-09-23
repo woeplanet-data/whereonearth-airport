@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518579, 
-        "name": "Allen Parish Airport", 
         "alias_ENG_V": [
           "Acp"
         ], 
-        "ne_latitude": 30.753, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Allen Parish Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588597", 
+          "woe:state=2347577", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518579, 
         "ne_longitude": -92.688, 
         "longitude": -92.691, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588597, 
+        "ne_latitude": 30.753, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:15Z", 
-        "parent_woeid": 2514170, 
+        "sw_latitude": 30.748, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 30.751, 
         "sw_longitude": -92.694, 
-        "fullname": "Allen Parish Airport, Ward, Louisiana, Allen Parish, United States", 
-        "sw_latitude": 30.748
+        "fullname": "Allen Parish Airport, Ward, Louisiana, United States", 
+        "date_indexed": "2010-12-02T18:39:15Z"
       }, 
       "id": 12518579
     }

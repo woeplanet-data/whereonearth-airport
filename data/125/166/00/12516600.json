@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516600, 
+        "placetype": "airport", 
         "name": "Ola Airport", 
-        "ne_latitude": 59.573, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598700", 
+          "woe:state=20070512", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516600, 
         "ne_longitude": 151.306, 
         "longitude": 151.297, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598700, 
+        "ne_latitude": 59.573, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2059602, 
+        "sw_latitude": 59.564, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 59.568, 
         "sw_longitude": 151.288, 
-        "fullname": "Ola Airport, Ola, Magadanskaya Oblast, Olsky, Russia", 
-        "sw_latitude": 59.564
+        "fullname": "Ola Airport, Ola, Magadanskaya Oblast, Russia", 
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516600
     }

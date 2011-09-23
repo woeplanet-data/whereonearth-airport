@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512350, 
-        "name": "Garoua Airport", 
         "alias_ENG_V": [
           "GOU"
         ], 
-        "ne_latitude": 9.347, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Garoua Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2345041", 
+          "woe:country=23424785", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512350, 
         "ne_longitude": 13.387, 
         "longitude": 13.376, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345041, 
+        "ne_latitude": 9.347, 
         "iso": "CM", 
-        "date_indexed": "2010-12-02T10:22:30Z", 
-        "parent_woeid": 1301518, 
+        "sw_latitude": 9.325, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 9.336, 
         "sw_longitude": 13.364, 
         "fullname": "Garoua Airport, Garoua, Nord, Cameroon", 
-        "sw_latitude": 9.325
+        "iata_code": "GOU", 
+        "date_indexed": "2010-12-02T10:22:30Z"
       }, 
       "id": 12512350
     }

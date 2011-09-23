@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516999, 
+        "placetype": "airport", 
         "name": "Terney Airport", 
-        "ne_latitude": 45.077, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597930", 
+          "woe:state=2346886", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516999, 
         "ne_longitude": 136.604, 
         "longitude": 136.597, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597930, 
+        "ne_latitude": 45.077, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2095319, 
+        "sw_latitude": 45.068, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.072, 
         "sw_longitude": 136.591, 
-        "fullname": "Terney Airport, Terney, Primorskiy Kray, Terneysky, Russia", 
-        "sw_latitude": 45.068
+        "fullname": "Terney Airport, Terney, Primorskiy Kray, Russia", 
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516999
     }

@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524003, 
-        "name": "Rochester Airport", 
         "alias_ENG_V": [
           "RCS"
         ], 
-        "ne_latitude": 51.355, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Rochester Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=12695995", 
+          "woe:county=12602173", 
+          "woe:state=24554868", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524003, 
         "ne_longitude": 0.509, 
         "longitude": 0.502, 
-        "placetype": "Airport", 
+        "parent_woeid": 12695995, 
+        "ne_latitude": 51.355, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:21:01Z", 
-        "parent_woeid": 13080, 
+        "sw_latitude": 51.346, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.350, 
         "sw_longitude": 0.495, 
-        "fullname": "Rochester Airport, Blue Bell Hill, England, Kent, United Kingdom", 
-        "sw_latitude": 51.346
+        "fullname": "Rochester Airport, Blue Bell Hill, England, United Kingdom", 
+        "iata_code": "RCS", 
+        "date_indexed": "2010-12-02T12:21:01Z"
       }, 
       "id": 12524003
     }

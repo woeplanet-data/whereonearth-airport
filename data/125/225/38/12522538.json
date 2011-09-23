@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522538, 
-        "name": "York Municipal Airport", 
         "alias_ENG_V": [
           "JYR"
         ], 
-        "ne_latitude": 40.906, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "York Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589230", 
+          "woe:state=2347586", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522538, 
         "ne_longitude": -97.618, 
         "longitude": -97.625, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589230, 
+        "ne_latitude": 40.906, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2524842, 
+        "sw_latitude": 40.888, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.891, 
         "sw_longitude": -97.633, 
-        "fullname": "York Municipal Airport, York, Nebraska, York, United States", 
-        "sw_latitude": 40.888
+        "fullname": "York Municipal Airport, York, Nebraska, United States", 
+        "iata_code": "JYR", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522538
     }

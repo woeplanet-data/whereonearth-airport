@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519517, 
-        "name": "Double Springs-Winston County Airport", 
         "alias_ENG_V": [
           "3m2"
         ], 
-        "ne_latitude": 34.149, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Double Springs-Winston County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587553", 
+          "woe:state=2347559", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519517, 
         "ne_longitude": -87.324, 
         "longitude": -87.331, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587553, 
+        "ne_latitude": 34.149, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2401689, 
+        "sw_latitude": 34.139, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 34.139, 
         "sw_longitude": -87.332, 
-        "fullname": "Double Springs-Winston County Airport, Fairview, Alabama, Winston, United States", 
-        "sw_latitude": 34.139
+        "fullname": "Double Springs-Winston County Airport, Fairview, Alabama, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519517
     }

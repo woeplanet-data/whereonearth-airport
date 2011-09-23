@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519366, 
+        "placetype": "airport", 
         "name": "Crosbyton Municipal Airport", 
-        "ne_latitude": 33.628, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12590060", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519366, 
         "ne_longitude": -101.235, 
         "longitude": -101.241, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590060, 
+        "ne_latitude": 33.628, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:15Z", 
-        "parent_woeid": 2387505, 
+        "sw_latitude": 33.619, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 33.624, 
         "sw_longitude": -101.246, 
-        "fullname": "Crosbyton Municipal Airport, Crosbyton, Texas, Crosby, United States", 
-        "sw_latitude": 33.619
+        "fullname": "Crosbyton Municipal Airport, Crosbyton, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:15Z"
       }, 
       "id": 12519366
     }

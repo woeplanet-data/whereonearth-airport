@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388028, 
-        "name": "Central City Municipal Airport", 
         "alias_ENG_V": [
           "07k"
         ], 
-        "ne_latitude": 41.119, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Central City Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589198", 
+          "woe:state=2347586", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388028, 
         "ne_longitude": -98.049, 
         "longitude": -98.049, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589198, 
+        "ne_latitude": 41.119, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2377569, 
+        "sw_latitude": 41.108, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.112, 
         "sw_longitude": -98.056, 
-        "fullname": "Central City Municipal Airport, Central City, Nebraska, Merrick, United States", 
-        "sw_latitude": 41.108
+        "fullname": "Central City Municipal Airport, Central City, Nebraska, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388028
     }

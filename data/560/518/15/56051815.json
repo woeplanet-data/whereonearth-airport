@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "FRE", 
-        "woeid": 56051815, 
+        "placetype": "airport", 
         "name": "A\u00e9rodrome de Saintes-th\u00e9nac", 
-        "ne_latitude": 45.711, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12671611", 
+          "woe:county=12597189", 
+          "woe:state=7153327", 
+          "woe:country=23424819", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56051815, 
         "ne_longitude": -0.627, 
         "longitude": -0.636, 
-        "placetype": "Airport", 
+        "parent_woeid": 12671611, 
+        "ne_latitude": 45.711, 
         "iso": "FR", 
-        "date_indexed": "2010-12-02T12:04:01Z", 
-        "parent_woeid": 628365, 
+        "sw_latitude": 45.686, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.699, 
         "sw_longitude": -0.645, 
-        "fullname": "A\u00e9rodrome de Saintes-th\u00e9nac, Th\u00e9nac, Poitou-Charentes, Charente-Maritime, France", 
+        "fullname": "A\u00e9rodrome de Saintes-th\u00e9nac, Th\u00e9nac, Poitou-Charentes, France", 
         "alias_FRE_S": [
           "Aerodrome de Saintes-thenac"
         ], 
-        "sw_latitude": 45.686
+        "date_indexed": "2010-12-02T12:04:01Z"
       }, 
       "id": 56051815
     }

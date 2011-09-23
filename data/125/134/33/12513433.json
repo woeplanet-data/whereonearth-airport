@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513433, 
+        "placetype": "airport", 
         "name": "Tapolca Airport", 
-        "ne_latitude": 46.878, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12594771", 
+          "woe:state=12577929", 
+          "woe:country=23424844", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513433, 
         "ne_longitude": 17.417, 
         "longitude": 17.411, 
-        "placetype": "Airport", 
+        "parent_woeid": 12594771, 
+        "ne_latitude": 46.878, 
         "iso": "HU", 
-        "date_indexed": "2010-12-02T09:56:22Z", 
-        "parent_woeid": 816231, 
+        "sw_latitude": 46.869, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.873, 
         "sw_longitude": 17.404, 
-        "fullname": "Tapolca Airport, Tapolcza, Veszpr\u00e9m, Tapolca, Hungary", 
-        "sw_latitude": 46.869
+        "fullname": "Tapolca Airport, Tapolcza, Veszpr\u00e9m, Hungary", 
+        "date_indexed": "2010-12-02T09:56:22Z"
       }, 
       "id": 12513433
     }

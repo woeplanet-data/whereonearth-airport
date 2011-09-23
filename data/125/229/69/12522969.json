@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522969, 
+        "placetype": "airport", 
         "name": "Vinh Thanh Airport", 
-        "ne_latitude": 14.115, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2347730", 
+          "woe:country=23424984", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522969, 
         "ne_longitude": 108.785, 
         "longitude": 108.780, 
-        "placetype": "Airport", 
+        "parent_woeid": 2347730, 
+        "ne_latitude": 14.115, 
         "iso": "VN", 
-        "date_indexed": "2010-12-02T08:52:49Z", 
-        "parent_woeid": 1235152, 
+        "sw_latitude": 14.106, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 14.110, 
         "sw_longitude": 108.775, 
         "fullname": "Vinh Thanh Airport, Binh Dinh, Vietnam", 
-        "sw_latitude": 14.106
+        "date_indexed": "2010-12-02T08:52:49Z"
       }, 
       "id": 12522969
     }

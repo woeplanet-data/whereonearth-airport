@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517465, 
-        "name": "Port St Johns Airport", 
         "alias_ENG_V": [
           "Pt St Johns Airport"
         ], 
-        "ne_latitude": -31.601, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Port St Johns Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=56189584", 
+          "woe:county=56189439", 
+          "woe:state=2346979", 
+          "woe:country=23424942", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517465, 
         "ne_longitude": 29.529, 
         "longitude": 29.523, 
-        "placetype": "Airport", 
+        "parent_woeid": 56189584, 
+        "ne_latitude": -31.601, 
         "iso": "ZA", 
-        "date_indexed": "2010-12-02T08:57:52Z", 
-        "parent_woeid": 1586617, 
+        "sw_latitude": -31.610, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -31.606, 
         "sw_longitude": 29.518, 
-        "fullname": "Port St Johns Airport, Port Saint Johns, Eastern Cape, Port St Johns, South Africa", 
-        "sw_latitude": -31.610
+        "fullname": "Port St Johns Airport, Port Saint Johns, Eastern Cape, South Africa", 
+        "date_indexed": "2010-12-02T08:57:52Z"
       }, 
       "id": 12517465
     }

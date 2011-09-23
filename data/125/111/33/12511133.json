@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511133, 
+        "placetype": "airport", 
         "name": "Aeroporto Fazenda Guanabara", 
         "alias_ENG_P": [
           "Fazenda Guanabara Airport"
         ], 
-        "ne_latitude": -14.776, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12579367", 
+          "woe:state=2344855", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511133, 
         "ne_longitude": -57.181, 
         "longitude": -57.186, 
-        "placetype": "Airport", 
+        "parent_woeid": 12579367, 
+        "ne_latitude": -14.776, 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 460263, 
+        "sw_latitude": -14.785, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -14.781, 
         "sw_longitude": -57.190, 
-        "fullname": "Aeroporto Fazenda Guanabara, Nova Ol\u00edmpia, Mato Grosso, Nova Ol\u00edmpia, Brazil", 
-        "sw_latitude": -14.785
+        "fullname": "Aeroporto Fazenda Guanabara, Nova Ol\u00edmpia, Mato Grosso, Brazil", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511133
     }

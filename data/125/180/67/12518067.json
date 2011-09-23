@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518067, 
-        "name": "Coventry Airport", 
         "alias_ENG_V": [
           "CVT"
         ], 
-        "ne_latitude": 52.377, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Coventry Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=12696102", 
+          "woe:county=12602190", 
+          "woe:state=24554868", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518067, 
         "ne_longitude": -1.465, 
         "longitude": -1.490, 
-        "placetype": "Airport", 
+        "parent_woeid": 12696102, 
+        "ne_latitude": 52.377, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:21:01Z", 
-        "parent_woeid": 11588, 
+        "sw_latitude": 52.363, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 52.366, 
         "sw_longitude": -1.492, 
-        "fullname": "Coventry Airport, Baginton, England, Warwickshire, United Kingdom", 
-        "sw_latitude": 52.363
+        "fullname": "Coventry Airport, Baginton, England, United Kingdom", 
+        "iata_code": "CVT", 
+        "date_indexed": "2010-12-02T12:21:01Z"
       }, 
       "id": 12518067
     }

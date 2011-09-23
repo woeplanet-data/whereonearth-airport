@@ -32,29 +32,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511279, 
-        "name": "Aeroporto Ponta Pelada", 
-        "alias_ENG_P": [
-          "Ponta Pelada Airport"
-        ], 
-        "ne_latitude": -3.141, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "PLL"
         ], 
+        "name": "Aeroporto Ponta Pelada", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Ponta Pelada Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12578206", 
+          "woe:state=2344847", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511279, 
         "ne_longitude": -59.980, 
         "longitude": -59.984, 
-        "placetype": "Airport", 
+        "parent_woeid": 12578206, 
+        "ne_latitude": -3.141, 
         "alias_POR_V": [
           "Aeroporto PLL"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 455833, 
+        "sw_latitude": -3.150, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -3.146, 
         "sw_longitude": -59.989, 
-        "fullname": "Aeroporto Ponta Pelada, Manaus, Amazonas, Manaus, Brazil", 
-        "sw_latitude": -3.150
+        "fullname": "Aeroporto Ponta Pelada, Manaus, Amazonas, Brazil", 
+        "iata_code": "PLL", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511279
     }

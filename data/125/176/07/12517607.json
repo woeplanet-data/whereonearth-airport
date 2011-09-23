@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "SWE", 
-        "woeid": 12517607, 
+        "placetype": "airport", 
         "name": "Anderstorp Flygplats", 
         "alias_ENG_P": [
           "Anderstorp Airport"
         ], 
-        "ne_latitude": 57.269, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12587265", 
+          "woe:state=2347051", 
+          "woe:country=23424954", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517607, 
         "ne_longitude": 13.611, 
         "longitude": 13.602, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587265, 
+        "ne_latitude": 57.269, 
         "iso": "SE", 
-        "date_indexed": "2010-12-02T16:45:55Z", 
-        "parent_woeid": 884769, 
+        "sw_latitude": 57.260, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 57.264, 
         "sw_longitude": 13.594, 
-        "fullname": "Anderstorp Flygplats, L\u00f6v\u00e5s, Jonkoping, Gislaved, Sweden", 
-        "sw_latitude": 57.260
+        "fullname": "Anderstorp Flygplats, L\u00f6v\u00e5s, Jonkoping, Sweden", 
+        "date_indexed": "2010-12-02T16:45:55Z"
       }, 
       "id": 12517607
     }

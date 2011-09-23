@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520605, 
-        "name": "Lebanon Municipal Airport", 
         "alias_ENG_V": [
           "M54"
         ], 
-        "ne_latitude": 36.198, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Lebanon Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590006", 
+          "woe:state=2347601", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520605, 
         "ne_longitude": -86.311, 
         "longitude": -86.316, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590006, 
+        "ne_latitude": 36.198, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2437674, 
+        "sw_latitude": 36.183, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.186, 
         "sw_longitude": -86.321, 
-        "fullname": "Lebanon Municipal Airport, Lebanon, Tennessee, Wilson, United States", 
-        "sw_latitude": 36.183
+        "fullname": "Lebanon Municipal Airport, Lebanon, Tennessee, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520605
     }

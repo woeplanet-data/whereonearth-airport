@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514075, 
+        "placetype": "airport", 
         "name": "Mulika Airport", 
-        "ne_latitude": 0.238, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345939", 
+          "woe:country=23424863", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514075, 
         "ne_longitude": 38.174, 
         "longitude": 38.170, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345939, 
+        "ne_latitude": 0.238, 
         "iso": "KE", 
-        "date_indexed": "2010-12-02T08:53:57Z", 
-        "parent_woeid": 1527851, 
+        "sw_latitude": 0.229, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 0.233, 
         "sw_longitude": 38.165, 
         "fullname": "Mulika Airport, Kinna, Eastern, Kenya", 
-        "sw_latitude": 0.229
+        "date_indexed": "2010-12-02T08:53:57Z"
       }, 
       "id": 12514075
     }

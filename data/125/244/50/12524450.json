@@ -32,29 +32,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12524450, 
-        "name": "Aeroporto do Palmar", 
-        "alias_ENG_P": [
-          "Do Palmar Airport"
-        ], 
-        "ne_latitude": -18.829, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "CTQ"
         ], 
+        "name": "Aeroporto do Palmar", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Do Palmar Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12579992", 
+          "woe:state=2344856", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524450, 
         "ne_longitude": -50.129, 
         "longitude": -50.133, 
-        "placetype": "Airport", 
+        "parent_woeid": 12579992, 
+        "ne_latitude": -18.829, 
         "alias_POR_V": [
           "Aeroporto CTQ"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:28Z", 
-        "parent_woeid": 460968, 
+        "sw_latitude": -18.838, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -18.833, 
         "sw_longitude": -50.138, 
-        "fullname": "Aeroporto do Palmar, Santa Vit\u00f3ria, Minas Gerais, Santa Vit\u00f3ria, Brazil", 
-        "sw_latitude": -18.838
+        "fullname": "Aeroporto do Palmar, Santa Vit\u00f3ria, Minas Gerais, Brazil", 
+        "iata_code": "CTQ", 
+        "date_indexed": "2010-12-02T18:01:28Z"
       }, 
       "id": 12524450
     }

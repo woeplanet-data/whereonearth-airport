@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523470, 
-        "name": "Chachoan Airport", 
         "alias_ENG_V": [
           "ATF Airport"
         ], 
-        "ne_latitude": -1.236, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Chachoan Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=26809723", 
+          "woe:county=26809489", 
+          "woe:state=2345220", 
+          "woe:country=23424801", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523470, 
         "ne_longitude": -78.616, 
         "longitude": -78.620, 
-        "placetype": "Airport", 
+        "parent_woeid": 26809723, 
+        "ne_latitude": -1.236, 
         "iso": "EC", 
-        "date_indexed": "2010-12-02T17:51:45Z", 
-        "parent_woeid": 375736, 
+        "sw_latitude": -1.245, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -1.240, 
         "sw_longitude": -78.625, 
-        "fullname": "Chachoan Airport, Ambato, Tungurahua, Ambato, Ecuador", 
-        "sw_latitude": -1.245
+        "fullname": "Chachoan Airport, Ambato, Tungurahua, Ecuador", 
+        "iata_code": "ATF", 
+        "date_indexed": "2010-12-02T17:51:45Z"
       }, 
       "id": 12523470
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521270, 
-        "name": "Oxford County Regional Airport", 
         "alias_ENG_V": [
           "81b"
         ], 
-        "ne_latitude": 44.155, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Oxford County Regional Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588668", 
+          "woe:state=2347578", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521270, 
         "ne_longitude": -70.471, 
         "longitude": -70.475, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588668, 
+        "ne_latitude": 44.155, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2467160, 
+        "sw_latitude": 44.150, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.152, 
         "sw_longitude": -70.478, 
-        "fullname": "Oxford County Regional Airport, Oxford, Maine, Oxford, United States", 
-        "sw_latitude": 44.150
+        "fullname": "Oxford County Regional Airport, Oxford, Maine, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521270
     }

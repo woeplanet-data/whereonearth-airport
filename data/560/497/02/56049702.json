@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "CZE", 
-        "woeid": 56049702, 
+        "placetype": "airport", 
         "name": "Letiste Most", 
-        "ne_latitude": 50.531, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12606622", 
+          "woe:county=12582567", 
+          "woe:state=20070499", 
+          "woe:country=23424810", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56049702, 
         "ne_longitude": 13.688, 
         "longitude": 13.681, 
-        "placetype": "Airport", 
+        "parent_woeid": 12606622, 
+        "ne_latitude": 50.531, 
         "iso": "CZ", 
-        "date_indexed": "2010-12-02T08:56:52Z", 
-        "parent_woeid": 794257, 
+        "sw_latitude": 50.520, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.525, 
         "sw_longitude": 13.679, 
-        "fullname": "Letiste Most, Most, \u00dasteck\u00fd, Most, Czech Republic", 
-        "sw_latitude": 50.520
+        "fullname": "Letiste Most, Most, \u00dasteck\u00fd, Czech Republic", 
+        "date_indexed": "2010-12-02T08:56:52Z"
       }, 
       "id": 56049702
     }

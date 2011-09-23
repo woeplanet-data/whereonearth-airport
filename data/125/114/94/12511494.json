@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511494, 
+        "placetype": "airport", 
         "name": "Prosenik Airport", 
-        "ne_latitude": 42.806, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55873928", 
+          "woe:state=20070075", 
+          "woe:country=23424771", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511494, 
         "ne_longitude": 27.410, 
         "longitude": 27.404, 
-        "placetype": "Airport", 
+        "parent_woeid": 55873928, 
+        "ne_latitude": 42.806, 
         "iso": "BG", 
-        "date_indexed": "2010-12-02T16:14:37Z", 
-        "parent_woeid": 839200, 
+        "sw_latitude": 42.797, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.801, 
         "sw_longitude": 27.398, 
         "fullname": "Prosenik Airport, Burgas, Ruen, Bulgaria", 
-        "sw_latitude": 42.797
+        "date_indexed": "2010-12-02T16:14:37Z"
       }, 
       "id": 12511494
     }

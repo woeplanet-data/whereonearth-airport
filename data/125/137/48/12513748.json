@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513748, 
+        "placetype": "airport", 
         "name": "Noshahr Airport", 
-        "ne_latitude": 36.670, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345780", 
+          "woe:country=23424851", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513748, 
         "ne_longitude": 51.471, 
         "longitude": 51.465, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345780, 
+        "ne_latitude": 36.670, 
         "iso": "IR", 
-        "date_indexed": "2010-12-02T08:53:52Z", 
-        "parent_woeid": 2255009, 
+        "sw_latitude": 36.661, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.665, 
         "sw_longitude": 51.460, 
         "fullname": "Noshahr Airport, Now Shahr, Mazandaran, Iran", 
-        "sw_latitude": 36.661
+        "date_indexed": "2010-12-02T08:53:52Z"
       }, 
       "id": 12513748
     }

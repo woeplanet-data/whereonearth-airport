@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514312, 
+        "placetype": "airport", 
         "name": "Chundzha Airport", 
-        "ne_latitude": 43.595, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=20070180", 
+          "woe:country=23424871", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514312, 
         "ne_longitude": 79.434, 
         "longitude": 79.428, 
-        "placetype": "Airport", 
+        "parent_woeid": 20070180, 
+        "ne_latitude": 43.595, 
         "iso": "KZ", 
-        "date_indexed": "2010-12-02T08:54:13Z", 
-        "parent_woeid": 2264334, 
+        "sw_latitude": 43.586, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.591, 
         "sw_longitude": 79.421, 
         "fullname": "Chundzha Airport, Almaty, Kazakhstan", 
-        "sw_latitude": 43.586
+        "date_indexed": "2010-12-02T08:54:13Z"
       }, 
       "id": 12514312
     }

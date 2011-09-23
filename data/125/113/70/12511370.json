@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511370, 
+        "placetype": "airport", 
         "name": "Aeroporto Vicente Dutra", 
         "alias_ENG_P": [
           "Vicente Dutra Airport"
         ], 
-        "ne_latitude": -27.189, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12581381", 
+          "woe:state=2344864", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511370, 
         "ne_longitude": -53.231, 
         "longitude": -53.236, 
-        "placetype": "Airport", 
+        "parent_woeid": 12581381, 
+        "ne_latitude": -27.189, 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:28Z", 
-        "parent_woeid": 459687, 
+        "sw_latitude": -27.198, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -27.193, 
         "sw_longitude": -53.241, 
-        "fullname": "Aeroporto Vicente Dutra, Ira\u00ed, Rio Grande do Sul, Ira\u00ed, Brazil", 
-        "sw_latitude": -27.198
+        "fullname": "Aeroporto Vicente Dutra, Ira\u00ed, Rio Grande do Sul, Brazil", 
+        "date_indexed": "2010-12-02T18:01:28Z"
       }, 
       "id": 12511370
     }

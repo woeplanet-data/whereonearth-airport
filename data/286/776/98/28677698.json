@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 28677698, 
+        "placetype": "airport", 
         "name": "Kimba Aerodrome", 
-        "ne_latitude": -33.086, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55864121", 
+          "woe:state=2344703", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 28677698, 
         "ne_longitude": 136.472, 
         "longitude": 136.467, 
-        "placetype": "Airport", 
+        "parent_woeid": 55864121, 
+        "ne_latitude": -33.086, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1097448, 
+        "sw_latitude": -33.095, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -33.090, 
         "sw_longitude": 136.462, 
-        "fullname": "Kimba Aerodrome, Moseley, South Australia, Kimba, Australia", 
-        "sw_latitude": -33.095
+        "fullname": "Kimba Aerodrome, Moseley, South Australia, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 28677698
     }

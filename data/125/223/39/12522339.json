@@ -3,28 +3,54 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -77.743, 
-              39.701
-            ], 
-            [
-              -77.743, 
-              39.716
-            ], 
-            [
-              -77.719, 
-              39.716
-            ], 
-            [
-              -77.719, 
-              39.701
-            ], 
-            [
-              -77.743, 
-              39.701
+              [
+                -77.724, 
+                39.712
+              ], 
+              [
+                -77.724, 
+                39.711
+              ], 
+              [
+                -77.724, 
+                39.711
+              ], 
+              [
+                -77.721, 
+                39.708
+              ], 
+              [
+                -77.722, 
+                39.708
+              ], 
+              [
+                -77.723, 
+                39.706
+              ], 
+              [
+                -77.724, 
+                39.708
+              ], 
+              [
+                -77.729, 
+                39.711
+              ], 
+              [
+                -77.724, 
+                39.712
+              ], 
+              [
+                -77.722, 
+                39.715
+              ], 
+              [
+                -77.724, 
+                39.712
+              ]
             ]
           ]
         ]
@@ -32,23 +58,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522339, 
-        "name": "Washington County Regional Airport", 
         "alias_ENG_V": [
           "Washington County Airport"
         ], 
-        "ne_latitude": 39.716, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -77.719, 
-        "longitude": -77.731, 
-        "placetype": "Airport", 
+        "name": "Washington County Regional Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588697", 
+          "woe:state=2347579", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522339, 
+        "ne_longitude": -77.721, 
+        "longitude": -77.724, 
+        "parent_woeid": 12588697, 
+        "ne_latitude": 39.715, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2462010, 
-        "latitude": 39.705, 
-        "sw_longitude": -77.743, 
-        "fullname": "Washington County Regional Airport, Northridge Manor, Maryland, Washington, United States", 
-        "sw_latitude": 39.701
+        "sw_latitude": 39.706, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 39.710, 
+        "sw_longitude": -77.729, 
+        "fullname": "Washington County Regional Airport, Northridge Manor, Maryland, United States", 
+        "iata_code": "HGR", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522339
     }

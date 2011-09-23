@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517175, 
+        "placetype": "airport", 
         "name": "Vladimirovka Airport", 
-        "ne_latitude": 48.320, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598037", 
+          "woe:state=2346890", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517175, 
         "ne_longitude": 46.240, 
         "longitude": 46.233, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598037, 
+        "ne_latitude": 48.320, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2119952, 
+        "sw_latitude": 48.311, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.316, 
         "sw_longitude": 46.226, 
-        "fullname": "Vladimirovka Airport, Akhtubinsk, Astrakhanskaya Oblast, Akhtubinsk, Russia", 
-        "sw_latitude": 48.311
+        "fullname": "Vladimirovka Airport, Akhtubinsk, Astrakhanskaya Oblast, Russia", 
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12517175
     }

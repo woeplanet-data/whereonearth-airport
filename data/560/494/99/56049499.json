@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 56049499, 
-        "name": "Eureka Municipal Airport", 
         "alias_ENG_V": [
           "O33"
         ], 
-        "ne_latitude": 40.785, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Eureka Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587681", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56049499, 
         "ne_longitude": -124.207, 
         "longitude": -124.209, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587681, 
+        "ne_latitude": 40.785, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2401482, 
+        "sw_latitude": 40.777, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.779, 
         "sw_longitude": -124.213, 
-        "fullname": "Eureka Municipal Airport, Fairhaven, California, Humboldt, United States", 
-        "sw_latitude": 40.777
+        "fullname": "Eureka Municipal Airport, Fairhaven, California, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 56049499
     }

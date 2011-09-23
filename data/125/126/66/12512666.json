@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512666, 
-        "name": "Aswan Airport", 
         "alias_ENG_V": [
           "ASW"
         ], 
-        "ne_latitude": 23.976, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Aswan Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2345238", 
+          "woe:country=23424802", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512666, 
         "ne_longitude": 32.834, 
         "longitude": 32.822, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345238, 
+        "ne_latitude": 23.976, 
         "iso": "EG", 
-        "date_indexed": "2010-12-02T12:16:51Z", 
-        "parent_woeid": 1522328, 
+        "sw_latitude": 23.954, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 23.965, 
         "sw_longitude": 32.809, 
         "fullname": "Aswan Airport, Aswan, Aswan, Egypt", 
-        "sw_latitude": 23.954
+        "iata_code": "ASW", 
+        "date_indexed": "2010-12-02T12:16:51Z"
       }, 
       "id": 12512666
     }

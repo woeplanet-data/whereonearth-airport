@@ -3,28 +3,78 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -117.878, 
-              33.663
-            ], 
-            [
-              -117.878, 
-              33.690
-            ], 
-            [
-              -117.857, 
-              33.690
-            ], 
-            [
-              -117.857, 
-              33.663
-            ], 
-            [
-              -117.878, 
-              33.663
+              [
+                -117.872, 
+                33.674
+              ], 
+              [
+                -117.873, 
+                33.674
+              ], 
+              [
+                -117.872, 
+                33.674
+              ], 
+              [
+                -117.871, 
+                33.675
+              ], 
+              [
+                -117.869, 
+                33.676
+              ], 
+              [
+                -117.868, 
+                33.680
+              ], 
+              [
+                -117.862, 
+                33.680
+              ], 
+              [
+                -117.860, 
+                33.684
+              ], 
+              [
+                -117.859, 
+                33.684
+              ], 
+              [
+                -117.859, 
+                33.681
+              ], 
+              [
+                -117.860, 
+                33.681
+              ], 
+              [
+                -117.862, 
+                33.678
+              ], 
+              [
+                -117.864, 
+                33.678
+              ], 
+              [
+                -117.865, 
+                33.675
+              ], 
+              [
+                -117.869, 
+                33.670
+              ], 
+              [
+                -117.871, 
+                33.672
+              ], 
+              [
+                -117.872, 
+                33.674
+              ]
             ]
           ]
         ]
@@ -32,23 +82,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520383, 
-        "name": "John Wayne Airport", 
         "alias_ENG_V": [
           "SNA Airport"
         ], 
-        "ne_latitude": 33.690, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -117.857, 
-        "longitude": -117.859, 
-        "placetype": "Airport", 
+        "name": "John Wayne Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587699", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520383, 
+        "ne_longitude": -117.859, 
+        "longitude": -117.866, 
+        "parent_woeid": 12587699, 
+        "ne_latitude": 33.684, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2385447, 
-        "latitude": 33.681, 
-        "sw_longitude": -117.878, 
-        "fullname": "John Wayne Airport, Costa Mesa, California, Orange, United States", 
-        "sw_latitude": 33.663
+        "sw_latitude": 33.670, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 33.677, 
+        "sw_longitude": -117.873, 
+        "fullname": "John Wayne Airport, Costa Mesa, California, United States", 
+        "iata_code": "SNA", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520383
     }

@@ -32,29 +32,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12523689, 
-        "name": "Aeroporto Redencao", 
-        "alias_ENG_P": [
-          "Redencao Airport"
-        ], 
-        "ne_latitude": -7.014, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "RDC"
         ], 
+        "name": "Aeroporto Redencao", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Redencao Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12580231", 
+          "woe:state=2344857", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523689, 
         "ne_longitude": -49.710, 
         "longitude": -49.715, 
-        "placetype": "Airport", 
+        "parent_woeid": 12580231, 
+        "ne_latitude": -7.014, 
         "alias_POR_V": [
           "Aeroporto RDC"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:28Z", 
-        "parent_woeid": 22695667, 
+        "sw_latitude": -7.023, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -7.018, 
         "sw_longitude": -49.719, 
-        "fullname": "Aeroporto Redencao, Xinguara, Para, Xinguara, Brazil", 
-        "sw_latitude": -7.023
+        "fullname": "Aeroporto Redencao, Xinguara, Para, Brazil", 
+        "iata_code": "RDC", 
+        "date_indexed": "2010-12-02T18:01:28Z"
       }, 
       "id": 12523689
     }

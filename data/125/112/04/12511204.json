@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511204, 
+        "placetype": "airport", 
         "name": "Aeroporto Julio Cesar", 
         "alias_ENG_P": [
           "Julio Cesar Airport"
         ], 
-        "ne_latitude": -1.410, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12580140", 
+          "woe:state=2344857", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511204, 
         "ne_longitude": -48.456, 
         "longitude": -48.460, 
-        "placetype": "Airport", 
+        "parent_woeid": 12580140, 
+        "ne_latitude": -1.410, 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 455820, 
+        "sw_latitude": -1.419, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -1.414, 
         "sw_longitude": -48.465, 
-        "fullname": "Aeroporto Julio Cesar, Belem, Para, Bel\u00e9m, Brazil", 
-        "sw_latitude": -1.419
+        "fullname": "Aeroporto Julio Cesar, Belem, Para, Brazil", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511204
     }

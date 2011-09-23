@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513432, 
+        "placetype": "airport", 
         "name": "Tapioszentmarton Airport", 
-        "ne_latitude": 47.318, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12594319", 
+          "woe:state=12577923", 
+          "woe:country=23424844", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513432, 
         "ne_longitude": 19.768, 
         "longitude": 19.762, 
-        "placetype": "Airport", 
+        "parent_woeid": 12594319, 
+        "ne_latitude": 47.318, 
         "iso": "HU", 
-        "date_indexed": "2010-12-02T09:56:22Z", 
-        "parent_woeid": 816227, 
+        "sw_latitude": 47.309, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.313, 
         "sw_longitude": 19.755, 
-        "fullname": "Tapioszentmarton Airport, T\u00e1pi\u00f3szentm\u00e1rton, Pest, T\u00e1pi\u00f3szentm\u00e1rton, Hungary", 
-        "sw_latitude": 47.309
+        "fullname": "Tapioszentmarton Airport, T\u00e1pi\u00f3szentm\u00e1rton, Pest, Hungary", 
+        "date_indexed": "2010-12-02T09:56:22Z"
       }, 
       "id": 12513432
     }

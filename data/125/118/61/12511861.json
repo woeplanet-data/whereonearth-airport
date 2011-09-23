@@ -3,28 +3,62 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -63.850, 
-              46.426
-            ], 
-            [
-              -63.850, 
-              46.455
-            ], 
-            [
-              -63.814, 
-              46.455
-            ], 
-            [
-              -63.814, 
-              46.426
-            ], 
-            [
-              -63.850, 
-              46.426
+              [
+                -63.832, 
+                46.440
+              ], 
+              [
+                -63.830, 
+                46.441
+              ], 
+              [
+                -63.830, 
+                46.439
+              ], 
+              [
+                -63.827, 
+                46.436
+              ], 
+              [
+                -63.823, 
+                46.435
+              ], 
+              [
+                -63.828, 
+                46.434
+              ], 
+              [
+                -63.829, 
+                46.432
+              ], 
+              [
+                -63.829, 
+                46.431
+              ], 
+              [
+                -63.828, 
+                46.434
+              ], 
+              [
+                -63.828, 
+                46.435
+              ], 
+              [
+                -63.832, 
+                46.439
+              ], 
+              [
+                -63.832, 
+                46.440
+              ], 
+              [
+                -63.832, 
+                46.440
+              ]
             ]
           ]
         ]
@@ -32,23 +66,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511861, 
-        "name": "Summerside Airport", 
         "alias_ENG_V": [
           "YSU Airport"
         ], 
-        "ne_latitude": 46.455, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -63.814, 
-        "longitude": -63.830, 
-        "placetype": "Airport", 
+        "name": "Summerside Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375043", 
+          "woe:state=2344923", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511861, 
+        "ne_longitude": -63.823, 
+        "longitude": -63.829, 
+        "parent_woeid": 29375043, 
+        "ne_latitude": 46.441, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 23389624, 
-        "latitude": 46.439, 
-        "sw_longitude": -63.850, 
-        "fullname": "Summerside Airport, Slemon Park, Prince Edward Island, Prince, Canada", 
-        "sw_latitude": 46.426
+        "sw_latitude": 46.431, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 46.437, 
+        "sw_longitude": -63.832, 
+        "fullname": "Summerside Airport, Slemon Park, Prince Edward Island, Canada", 
+        "iata_code": "YSU", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12511861
     }

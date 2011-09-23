@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522102, 
-        "name": "Terry Airport", 
         "alias_ENG_V": [
           "8u6"
         ], 
-        "ne_latitude": 46.779, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Terry Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589120", 
+          "woe:state=2347585", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522102, 
         "ne_longitude": -105.302, 
         "longitude": -105.303, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589120, 
+        "ne_latitude": 46.779, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2504926, 
+        "sw_latitude": 46.774, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.776, 
         "sw_longitude": -105.323, 
-        "fullname": "Terry Airport, Terry, Montana, Prairie, United States", 
-        "sw_latitude": 46.774
+        "fullname": "Terry Airport, Terry, Montana, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522102
     }

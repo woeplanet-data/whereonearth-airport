@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516670, 
+        "placetype": "airport", 
         "name": "Perevalnyy Airport", 
-        "ne_latitude": 49.455, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597762", 
+          "woe:state=2346883", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516670, 
         "ne_longitude": 131.563, 
         "longitude": 131.556, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597762, 
+        "ne_latitude": 49.455, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2093516, 
+        "sw_latitude": 49.446, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.450, 
         "sw_longitude": 131.549, 
         "fullname": "Perevalnyy Airport, Khabarovskiy Kray, Verkhnebureinsky, Russia", 
-        "sw_latitude": 49.446
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516670
     }

@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518130, 
+        "placetype": "airport", 
         "name": "Marham Airport", 
-        "ne_latitude": 52.656, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12696026", 
+          "woe:county=12602141", 
+          "woe:state=24554868", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518130, 
         "ne_longitude": 0.568, 
         "longitude": 0.561, 
-        "placetype": "Airport", 
+        "parent_woeid": 12696026, 
+        "ne_latitude": 52.656, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:21:01Z", 
-        "parent_woeid": 38698, 
+        "sw_latitude": 52.647, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 52.652, 
         "sw_longitude": 0.553, 
-        "fullname": "Marham Airport, Upper Marham, England, Norfolk, United Kingdom", 
-        "sw_latitude": 52.647
+        "fullname": "Marham Airport, Upper Marham, England, United Kingdom", 
+        "date_indexed": "2010-12-02T12:21:01Z"
       }, 
       "id": 12518130
     }

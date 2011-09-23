@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522828, 
-        "name": "Palmarito Airport", 
         "alias_ENG_V": [
           "PTM"
         ], 
-        "ne_latitude": 7.581, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Palmarito Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=26805599", 
+          "woe:county=26804734", 
+          "woe:state=2347681", 
+          "woe:country=23424982", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522828, 
         "ne_longitude": -70.171, 
         "longitude": -70.176, 
-        "placetype": "Airport", 
+        "parent_woeid": 26805599, 
+        "ne_latitude": 7.581, 
         "iso": "VE", 
-        "date_indexed": "2010-12-02T16:11:43Z", 
-        "parent_woeid": 395890, 
+        "sw_latitude": 7.572, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 7.577, 
         "sw_longitude": -70.180, 
         "fullname": "Palmarito Airport, Apure, Paez, Venezuela", 
-        "sw_latitude": 7.572
+        "iata_code": "PTM", 
+        "date_indexed": "2010-12-02T16:11:43Z"
       }, 
       "id": 12522828
     }

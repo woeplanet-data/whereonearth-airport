@@ -3,28 +3,50 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -74.923, 
-              39.000
-            ], 
-            [
-              -74.923, 
-              39.021
-            ], 
-            [
-              -74.899, 
-              39.021
-            ], 
-            [
-              -74.899, 
-              39.000
-            ], 
-            [
-              -74.923, 
-              39.000
+              [
+                -74.910, 
+                39.006
+              ], 
+              [
+                -74.908, 
+                39.004
+              ], 
+              [
+                -74.909, 
+                39.001
+              ], 
+              [
+                -74.910, 
+                39.003
+              ], 
+              [
+                -74.915, 
+                39.005
+              ], 
+              [
+                -74.916, 
+                39.000
+              ], 
+              [
+                -74.917, 
+                39.006
+              ], 
+              [
+                -74.914, 
+                39.007
+              ], 
+              [
+                -74.911, 
+                39.006
+              ], 
+              [
+                -74.910, 
+                39.006
+              ]
             ]
           ]
         ]
@@ -32,23 +54,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519055, 
-        "name": "Cape May County Airport", 
         "alias_ENG_V": [
           "Cape May Airport"
         ], 
-        "ne_latitude": 39.021, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -74.899, 
-        "longitude": -74.908, 
-        "placetype": "Airport", 
+        "name": "Cape May County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589262", 
+          "woe:state=2347589", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519055, 
+        "ne_longitude": -74.908, 
+        "longitude": -74.912, 
+        "parent_woeid": 12589262, 
+        "ne_latitude": 39.007, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 28745181, 
-        "latitude": 39.000, 
-        "sw_longitude": -74.923, 
-        "fullname": "Cape May County Airport, Lower, New Jersey, Cape May, United States", 
-        "sw_latitude": 39.000
+        "sw_latitude": 39.000, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 39.005, 
+        "sw_longitude": -74.917, 
+        "fullname": "Cape May County Airport, Lower, New Jersey, United States", 
+        "iata_code": "WWD", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519055
     }

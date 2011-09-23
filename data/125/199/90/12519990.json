@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519990, 
+        "placetype": "airport", 
         "name": "Green Horn Valley Airport", 
-        "ne_latitude": 37.964, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12587778", 
+          "woe:state=2347564", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519990, 
         "ne_longitude": -104.778, 
         "longitude": -104.783, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587778, 
+        "ne_latitude": 37.964, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2383453, 
+        "sw_latitude": 37.955, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 37.960, 
         "sw_longitude": -104.789, 
-        "fullname": "Green Horn Valley Airport, Colorado City, Colorado, Pueblo, United States", 
-        "sw_latitude": 37.955
+        "fullname": "Green Horn Valley Airport, Colorado City, Colorado, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12519990
     }

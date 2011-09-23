@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520777, 
-        "name": "Manila Municipal Airport", 
         "alias_ENG_V": [
           "MXA"
         ], 
-        "ne_latitude": 35.898, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Manila Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587641", 
+          "woe:state=2347562", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520777, 
         "ne_longitude": -90.154, 
         "longitude": -90.157, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587641, 
+        "ne_latitude": 35.898, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2444798, 
+        "sw_latitude": 35.887, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.892, 
         "sw_longitude": -90.157, 
-        "fullname": "Manila Municipal Airport, Manila, Arkansas, Mississippi, United States", 
-        "sw_latitude": 35.887
+        "fullname": "Manila Municipal Airport, Manila, Arkansas, United States", 
+        "iata_code": "MXA", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520777
     }

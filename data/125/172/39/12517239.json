@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517239, 
+        "placetype": "airport", 
         "name": "Yasnaya Southwest Airport", 
-        "ne_latitude": 50.816, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598181", 
+          "woe:state=2346894", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517239, 
         "ne_longitude": 115.782, 
         "longitude": 115.775, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598181, 
+        "ne_latitude": 50.816, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2101341, 
+        "sw_latitude": 50.807, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.811, 
         "sw_longitude": 115.768, 
         "fullname": "Yasnaya Southwest Airport, Chitinskaya Oblast, Olovyanninsky, Russia", 
-        "sw_latitude": 50.807
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12517239
     }

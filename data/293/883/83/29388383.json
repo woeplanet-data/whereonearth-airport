@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388383, 
-        "name": "Whitford Airport", 
         "alias_ENG_V": [
           "B16"
         ], 
-        "ne_latitude": 43.082, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Whitford Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589317", 
+          "woe:state=2347591", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388383, 
         "ne_longitude": -76.531, 
         "longitude": -76.539, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589317, 
+        "ne_latitude": 43.082, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2376334, 
+        "sw_latitude": 43.078, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.078, 
         "sw_longitude": -76.548, 
-        "fullname": "Whitford Airport, Cato, New York, Cayuga, United States", 
-        "sw_latitude": 43.078
+        "fullname": "Whitford Airport, Cato, New York, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388383
     }

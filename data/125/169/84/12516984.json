@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516984, 
+        "placetype": "airport", 
         "name": "Tarykan Airport", 
-        "ne_latitude": 66.368, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597653", 
+          "woe:state=2346881", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516984, 
         "ne_longitude": 133.050, 
         "longitude": 133.038, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597653, 
+        "ne_latitude": 66.368, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2100388, 
+        "sw_latitude": 66.359, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 66.364, 
         "sw_longitude": 133.027, 
         "fullname": "Tarykan Airport, Sakha, Verkhoyansky, Russia", 
-        "sw_latitude": 66.359
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516984
     }

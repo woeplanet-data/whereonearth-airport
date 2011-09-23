@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524552, 
-        "name": "Angoon Airport", 
         "alias_ENG_V": [
           "AGN"
         ], 
-        "ne_latitude": 57.504, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Angoon Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55999797", 
+          "woe:state=2347560", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524552, 
         "ne_longitude": -134.569, 
         "longitude": -134.577, 
-        "placetype": "Airport", 
+        "parent_woeid": 55999797, 
+        "ne_latitude": 57.504, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2354790, 
+        "sw_latitude": 57.495, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 57.500, 
         "sw_longitude": -134.586, 
-        "fullname": "Angoon Airport, Angoon, Alaska, Hoonah-Angoon Census Area, United States", 
-        "sw_latitude": 57.495
+        "fullname": "Angoon Airport, Angoon, Alaska, United States", 
+        "iata_code": "AGN", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12524552
     }

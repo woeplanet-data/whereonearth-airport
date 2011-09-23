@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520741, 
-        "name": "Macon County Airport", 
         "alias_ENG_V": [
           "1a5"
         ], 
-        "ne_latitude": 35.226, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Macon County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589429", 
+          "woe:state=2347592", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520741, 
         "ne_longitude": -83.411, 
         "longitude": -83.420, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589429, 
+        "ne_latitude": 35.226, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2444529, 
+        "sw_latitude": 35.219, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.220, 
         "sw_longitude": -83.428, 
-        "fullname": "Macon County Airport, Malonee Mill, North Carolina, Macon, United States", 
-        "sw_latitude": 35.219
+        "fullname": "Macon County Airport, Malonee Mill, North Carolina, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520741
     }

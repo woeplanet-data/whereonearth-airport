@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "FRE", 
-        "woeid": 56051897, 
+        "placetype": "airport", 
         "name": "A\u00e9rodrome D'\u00e9gletons-la Bole", 
-        "ne_latitude": 45.422, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12655746", 
+          "woe:county=12597163", 
+          "woe:state=7153321", 
+          "woe:country=23424819", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56051897, 
         "ne_longitude": 2.074, 
         "longitude": 2.068, 
-        "placetype": "Airport", 
+        "parent_woeid": 12655746, 
+        "ne_latitude": 45.422, 
         "iso": "FR", 
-        "date_indexed": "2010-12-02T12:04:01Z", 
-        "parent_woeid": 589535, 
+        "sw_latitude": 45.418, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.419, 
         "sw_longitude": 2.062, 
-        "fullname": "A\u00e9rodrome D'\u00e9gletons-la Bole, \u00c9gletons, Limousin, Correze, France", 
+        "fullname": "A\u00e9rodrome D'\u00e9gletons-la Bole, \u00c9gletons, Limousin, France", 
         "alias_FRE_S": [
           "Aerodrome D'egletons-la Bole"
         ], 
-        "sw_latitude": 45.418
+        "date_indexed": "2010-12-02T12:04:01Z"
       }, 
       "id": 56051897
     }

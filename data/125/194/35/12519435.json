@@ -3,28 +3,34 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -88.726, 
-              41.923
-            ], 
-            [
-              -88.726, 
-              41.949
-            ], 
-            [
-              -88.694, 
-              41.949
-            ], 
-            [
-              -88.694, 
-              41.923
-            ], 
-            [
-              -88.726, 
-              41.923
+              [
+                -88.710, 
+                41.932
+              ], 
+              [
+                -88.710, 
+                41.933
+              ], 
+              [
+                -88.706, 
+                41.934
+              ], 
+              [
+                -88.707, 
+                41.931
+              ], 
+              [
+                -88.709, 
+                41.930
+              ], 
+              [
+                -88.710, 
+                41.932
+              ]
             ]
           ]
         ]
@@ -32,23 +38,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519435, 
-        "name": "De Kalb Taylor Municipal Airport", 
         "alias_ENG_V": [
           "DKB"
         ], 
-        "ne_latitude": 41.949, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -88.694, 
-        "longitude": -88.711, 
-        "placetype": "Airport", 
+        "name": "De Kalb Taylor Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588097", 
+          "woe:state=2347572", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519435, 
+        "ne_longitude": -88.706, 
+        "longitude": -88.708, 
+        "parent_woeid": 12588097, 
+        "ne_latitude": 41.934, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2389968, 
-        "latitude": 41.933, 
-        "sw_longitude": -88.726, 
-        "fullname": "De Kalb Taylor Municipal Airport, De Kalb, Illinois, De Kalb, United States", 
-        "sw_latitude": 41.923
+        "sw_latitude": 41.930, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 41.932, 
+        "sw_longitude": -88.710, 
+        "fullname": "De Kalb Taylor Municipal Airport, De Kalb, Illinois, United States", 
+        "iata_code": "DKB", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519435
     }

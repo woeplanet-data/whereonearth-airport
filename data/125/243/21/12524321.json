@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524321, 
-        "name": "Tambor Airport", 
         "alias_ENG_V": [
           "TMU"
         ], 
-        "ne_latitude": 9.736, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Tambor Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=26808944", 
+          "woe:county=26808840", 
+          "woe:state=2345087", 
+          "woe:country=23424791", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524321, 
         "ne_longitude": -85.021, 
         "longitude": -85.025, 
-        "placetype": "Airport", 
+        "parent_woeid": 26808944, 
+        "ne_latitude": 9.736, 
         "iso": "CR", 
-        "date_indexed": "2010-12-02T12:16:27Z", 
-        "parent_woeid": 58563, 
+        "sw_latitude": 9.727, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 9.732, 
         "sw_longitude": -85.030, 
-        "fullname": "Tambor Airport, La Abuela, Puntarenas, Puntarenas, Costa Rica", 
-        "sw_latitude": 9.727
+        "fullname": "Tambor Airport, La Abuela, Puntarenas, Costa Rica", 
+        "iata_code": "TMU", 
+        "date_indexed": "2010-12-02T12:16:27Z"
       }, 
       "id": 12524321
     }

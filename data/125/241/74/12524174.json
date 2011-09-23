@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524174, 
-        "name": "Minaki Aerodrome", 
         "alias_ENG_V": [
           "YMI Airport"
         ], 
-        "ne_latitude": 49.988, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Minaki Aerodrome", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375238", 
+          "woe:state=2344922", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524174, 
         "ne_longitude": -94.726, 
         "longitude": -94.733, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375238, 
+        "ne_latitude": 49.988, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 3038, 
+        "sw_latitude": 49.979, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.983, 
         "sw_longitude": -94.740, 
-        "fullname": "Minaki Aerodrome, Minaki, Ontario, Kenora, Canada", 
-        "sw_latitude": 49.979
+        "fullname": "Minaki Aerodrome, Minaki, Ontario, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12524174
     }

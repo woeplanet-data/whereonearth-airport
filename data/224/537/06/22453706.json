@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 22453706, 
-        "name": "Benbecula Airport", 
         "alias_ENG_V": [
           "BEB Airport"
         ], 
-        "ne_latitude": 57.480, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Benbecula Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=12696213", 
+          "woe:county=12602210", 
+          "woe:state=12578048", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 22453706, 
         "ne_longitude": -7.362, 
         "longitude": -7.372, 
-        "placetype": "Airport", 
+        "parent_woeid": 12696213, 
+        "ne_latitude": 57.480, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:21:01Z", 
-        "parent_woeid": 11667, 
+        "sw_latitude": 57.471, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 57.474, 
         "sw_longitude": -7.379, 
-        "fullname": "Benbecula Airport, Balivanich, Scotland, Eilean Siar, United Kingdom", 
-        "sw_latitude": 57.471
+        "fullname": "Benbecula Airport, Balivanich, Scotland, United Kingdom", 
+        "iata_code": "BEB", 
+        "date_indexed": "2010-12-02T12:21:01Z"
       }, 
       "id": 22453706
     }

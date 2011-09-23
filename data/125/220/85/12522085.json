@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522085, 
-        "name": "Taylor County Airport", 
         "alias_ENG_V": [
           "Mdz"
         ], 
-        "ne_latitude": 45.106, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Taylor County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590594", 
+          "woe:state=2347608", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522085, 
         "ne_longitude": -90.302, 
         "longitude": -90.306, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590594, 
+        "ne_latitude": 45.106, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2440108, 
+        "sw_latitude": 45.092, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.106, 
         "sw_longitude": -90.310, 
-        "fullname": "Taylor County Airport, Little Black, Wisconsin, Taylor, United States", 
-        "sw_latitude": 45.092
+        "fullname": "Taylor County Airport, Little Black, Wisconsin, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522085
     }

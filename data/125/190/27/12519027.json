@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519027, 
-        "name": "Cambridge Municipal Airport", 
         "alias_ENG_V": [
           "Cbg"
         ], 
-        "ne_latitude": 45.564, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Cambridge Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588826", 
+          "woe:state=2347582", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519027, 
         "ne_longitude": -93.262, 
         "longitude": -93.262, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588826, 
+        "ne_latitude": 45.564, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2373566, 
+        "sw_latitude": 45.554, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.562, 
         "sw_longitude": -93.268, 
-        "fullname": "Cambridge Municipal Airport, Cambridge, Minnesota, Isanti, United States", 
-        "sw_latitude": 45.554
+        "fullname": "Cambridge Municipal Airport, Cambridge, Minnesota, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519027
     }

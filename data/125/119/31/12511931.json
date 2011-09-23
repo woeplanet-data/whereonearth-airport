@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511931, 
+        "placetype": "airport", 
         "name": "Aozou Airport", 
-        "ne_latitude": 22.648, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=56190447", 
+          "woe:state=56190454", 
+          "woe:country=23424777", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511931, 
         "ne_longitude": 17.703, 
         "longitude": 17.698, 
-        "placetype": "Airport", 
+        "parent_woeid": 56190447, 
+        "ne_latitude": 22.648, 
         "iso": "TD", 
-        "date_indexed": "2010-12-02T08:53:23Z", 
-        "parent_woeid": 1271541, 
+        "sw_latitude": 22.639, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 22.643, 
         "sw_longitude": 17.693, 
-        "fullname": "Aozou Airport, Aozou, Borkou-Ennedi-Tibesti, Tibesti, Chad", 
-        "sw_latitude": 22.639
+        "fullname": "Aozou Airport, Aozou, Borkou-Ennedi-Tibesti, Chad", 
+        "date_indexed": "2010-12-02T08:53:23Z"
       }, 
       "id": 12511931
     }

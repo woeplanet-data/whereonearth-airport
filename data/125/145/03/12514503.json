@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514503, 
+        "placetype": "airport", 
         "name": "Uralsk West Airport", 
-        "ne_latitude": 51.208, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345998", 
+          "woe:country=23424871", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514503, 
         "ne_longitude": 51.287, 
         "longitude": 51.280, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345998, 
+        "ne_latitude": 51.208, 
         "iso": "KZ", 
-        "date_indexed": "2010-12-02T08:54:13Z", 
-        "parent_woeid": 2264983, 
+        "sw_latitude": 51.199, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.204, 
         "sw_longitude": 51.272, 
         "fullname": "Uralsk West Airport, Oral, Batys Qazaqstan, Kazakhstan", 
-        "sw_latitude": 51.199
+        "date_indexed": "2010-12-02T08:54:13Z"
       }, 
       "id": 12514503
     }

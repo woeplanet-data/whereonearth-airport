@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519049, 
+        "placetype": "airport", 
         "name": "Canton Municipal Airport", 
-        "ne_latitude": 43.316, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12589886", 
+          "woe:state=2347600", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519049, 
         "ne_longitude": -96.567, 
         "longitude": -96.574, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589886, 
+        "ne_latitude": 43.316, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:15Z", 
-        "parent_woeid": 2374507, 
+        "sw_latitude": 43.307, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.312, 
         "sw_longitude": -96.580, 
-        "fullname": "Canton Municipal Airport, Canton, South Dakota, Lincoln, United States", 
-        "sw_latitude": 43.307
+        "fullname": "Canton Municipal Airport, Canton, South Dakota, United States", 
+        "date_indexed": "2010-12-02T18:39:15Z"
       }, 
       "id": 12519049
     }

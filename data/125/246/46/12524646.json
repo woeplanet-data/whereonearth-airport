@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524646, 
-        "name": "Shungnak Airport", 
         "alias_ENG_V": [
           "SHG"
         ], 
-        "ne_latitude": 66.885, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Shungnak Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587571", 
+          "woe:state=2347560", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524646, 
         "ne_longitude": -157.055, 
         "longitude": -157.067, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587571, 
+        "ne_latitude": 66.885, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2493288, 
+        "sw_latitude": 66.876, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 66.880, 
         "sw_longitude": -157.078, 
-        "fullname": "Shungnak Airport, Shungnak, Alaska, Northwest Arctic Borough, United States", 
-        "sw_latitude": 66.876
+        "fullname": "Shungnak Airport, Shungnak, Alaska, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12524646
     }

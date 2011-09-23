@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 56049769, 
+        "placetype": "airport", 
         "name": "Springs Airfield", 
-        "ne_latitude": -26.249, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=56189689", 
+          "woe:county=56189451", 
+          "woe:state=2346981", 
+          "woe:country=23424942", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56049769, 
         "ne_longitude": 28.406, 
         "longitude": 28.401, 
-        "placetype": "Airport", 
+        "parent_woeid": 56189689, 
+        "ne_latitude": -26.249, 
         "iso": "ZA", 
-        "date_indexed": "2010-12-02T08:57:52Z", 
-        "parent_woeid": 1587712, 
+        "sw_latitude": -26.258, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -26.254, 
         "sw_longitude": 28.396, 
-        "fullname": "Springs Airfield, Springs, Gauteng, Springs, South Africa", 
-        "sw_latitude": -26.258
+        "fullname": "Springs Airfield, Springs, Gauteng, South Africa", 
+        "date_indexed": "2010-12-02T08:57:52Z"
       }, 
       "id": 56049769
     }

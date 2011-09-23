@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518857, 
-        "name": "Blake Field Airport", 
         "alias_ENG_V": [
           "Delta Blake Field Airport"
         ], 
-        "ne_latitude": 38.790, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Blake Field Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587742", 
+          "woe:state=2347564", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518857, 
         "ne_longitude": -108.060, 
         "longitude": -108.067, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587742, 
+        "ne_latitude": 38.790, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2390988, 
+        "sw_latitude": 38.778, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.779, 
         "sw_longitude": -108.072, 
-        "fullname": "Blake Field Airport, Delta, Colorado, Delta, United States", 
-        "sw_latitude": 38.778
+        "fullname": "Blake Field Airport, Delta, Colorado, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518857
     }

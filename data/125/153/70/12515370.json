@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515370, 
+        "placetype": "airport", 
         "name": "Piastow Airport", 
-        "ne_latitude": 51.496, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12617264", 
+          "woe:county=12591297", 
+          "woe:state=12577941", 
+          "woe:country=23424923", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515370, 
         "ne_longitude": 21.119, 
         "longitude": 21.112, 
-        "placetype": "Airport", 
+        "parent_woeid": 12617264, 
+        "ne_latitude": 51.496, 
         "iso": "PL", 
-        "date_indexed": "2010-12-02T12:12:45Z", 
-        "parent_woeid": 526462, 
+        "sw_latitude": 51.487, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.492, 
         "sw_longitude": 21.105, 
         "fullname": "Piastow Airport, Masovian, Radom County, Poland", 
-        "sw_latitude": 51.487
+        "date_indexed": "2010-12-02T12:12:45Z"
       }, 
       "id": 12515370
     }

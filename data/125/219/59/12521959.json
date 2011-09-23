@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521959, 
-        "name": "St Clair Regional Airport", 
         "alias_ENG_V": [
           "K39"
         ], 
-        "ne_latitude": 38.381, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "St Clair Regional Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589001", 
+          "woe:state=2347584", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521959, 
         "ne_longitude": -90.969, 
         "longitude": -90.975, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589001, 
+        "ne_latitude": 38.381, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2486690, 
+        "sw_latitude": 38.371, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.373, 
         "sw_longitude": -90.976, 
-        "fullname": "St Clair Regional Airport, St. Clair, Missouri, Franklin, United States", 
-        "sw_latitude": 38.371
+        "fullname": "St Clair Regional Airport, St. Clair, Missouri, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521959
     }

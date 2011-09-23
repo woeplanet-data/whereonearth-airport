@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521603, 
-        "name": "Riverton Regional Airport", 
         "alias_ENG_V": [
           "RIW"
         ], 
-        "ne_latitude": 43.070, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Riverton Regional Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590612", 
+          "woe:state=2347609", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521603, 
         "ne_longitude": -108.440, 
         "longitude": -108.458, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590612, 
+        "ne_latitude": 43.070, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2482337, 
+        "sw_latitude": 43.055, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.061, 
         "sw_longitude": -108.476, 
-        "fullname": "Riverton Regional Airport, Riverton, Wyoming, Fremont, United States", 
-        "sw_latitude": 43.055
+        "fullname": "Riverton Regional Airport, Riverton, Wyoming, United States", 
+        "iata_code": "RIW", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521603
     }

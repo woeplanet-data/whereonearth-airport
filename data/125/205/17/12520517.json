@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520517, 
-        "name": "Lafayette Municipal Airport", 
         "alias_ENG_V": [
           "3m7"
         ], 
-        "ne_latitude": 36.526, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Lafayette Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589965", 
+          "woe:state=2347601", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520517, 
         "ne_longitude": -86.056, 
         "longitude": -86.061, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589965, 
+        "ne_latitude": 36.526, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2434557, 
+        "sw_latitude": 36.512, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.516, 
         "sw_longitude": -86.061, 
-        "fullname": "Lafayette Municipal Airport, Lafayette, Tennessee, Macon, United States", 
-        "sw_latitude": 36.512
+        "fullname": "Lafayette Municipal Airport, Lafayette, Tennessee, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520517
     }

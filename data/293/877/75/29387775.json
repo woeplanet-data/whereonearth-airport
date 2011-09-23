@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29387775, 
-        "name": "Fallbrook Community Airpark", 
         "alias_ENG_V": [
           "L18"
         ], 
-        "ne_latitude": 33.358, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Fallbrook Community Airpark", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587706", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29387775, 
         "ne_longitude": -117.244, 
         "longitude": -117.245, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587706, 
+        "ne_latitude": 33.358, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2522369, 
+        "sw_latitude": 33.349, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 33.351, 
         "sw_longitude": -117.254, 
-        "fullname": "Fallbrook Community Airpark, Winterwarm, California, San Diego, United States", 
-        "sw_latitude": 33.349
+        "fullname": "Fallbrook Community Airpark, Winterwarm, California, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 29387775
     }

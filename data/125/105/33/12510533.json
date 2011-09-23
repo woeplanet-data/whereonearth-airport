@@ -3,28 +3,62 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -55.980, 
-              -27.395
-            ], 
-            [
-              -55.980, 
-              -27.373
-            ], 
-            [
-              -55.955, 
-              -27.373
-            ], 
-            [
-              -55.955, 
-              -27.395
-            ], 
-            [
-              -55.980, 
-              -27.395
+              [
+                -55.965, 
+                -27.397
+              ], 
+              [
+                -55.967, 
+                -27.396
+              ], 
+              [
+                -55.968, 
+                -27.393
+              ], 
+              [
+                -55.940, 
+                -27.356
+              ], 
+              [
+                -55.940, 
+                -27.356
+              ], 
+              [
+                -55.940, 
+                -27.355
+              ], 
+              [
+                -55.940, 
+                -27.355
+              ], 
+              [
+                -55.940, 
+                -27.355
+              ], 
+              [
+                -55.940, 
+                -27.355
+              ], 
+              [
+                -55.940, 
+                -27.356
+              ], 
+              [
+                -55.964, 
+                -27.396
+              ], 
+              [
+                -55.964, 
+                -27.396
+              ], 
+              [
+                -55.965, 
+                -27.397
+              ]
             ]
           ]
         ]
@@ -32,23 +66,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510533, 
-        "name": "Posadas Airport", 
         "alias_ENG_V": [
           "PSS"
         ], 
-        "ne_latitude": -27.373, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -55.955, 
-        "longitude": -55.967, 
-        "placetype": "Airport", 
+        "name": "Posadas Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=20070810", 
+          "woe:state=2344688", 
+          "woe:country=23424747", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510533, 
+        "ne_longitude": -55.940, 
+        "longitude": -55.958, 
+        "parent_woeid": 20070810, 
+        "ne_latitude": -27.355, 
         "iso": "AR", 
-        "date_indexed": "2010-12-02T17:41:29Z", 
-        "parent_woeid": 466882, 
-        "latitude": -27.384, 
-        "sw_longitude": -55.980, 
-        "fullname": "Posadas Airport, Posadas, Misiones, Posadas, Argentina", 
-        "sw_latitude": -27.395
+        "sw_latitude": -27.397, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": -27.382, 
+        "sw_longitude": -55.968, 
+        "fullname": "Posadas Airport, Posadas, Misiones, Argentina", 
+        "iata_code": "PSS", 
+        "date_indexed": "2010-12-02T17:41:29Z"
       }, 
       "id": 12510533
     }

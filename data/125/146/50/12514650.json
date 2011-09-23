@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514650, 
+        "placetype": "airport", 
         "name": "Essider Airport", 
-        "ne_latitude": 30.637, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2346143", 
+          "woe:country=23424882", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514650, 
         "ne_longitude": 18.319, 
         "longitude": 18.313, 
-        "placetype": "Airport", 
+        "parent_woeid": 2346143, 
+        "ne_latitude": 30.637, 
         "iso": "LY", 
-        "date_indexed": "2010-12-02T08:58:29Z", 
-        "parent_woeid": 1352729, 
+        "sw_latitude": 30.628, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 30.633, 
         "sw_longitude": 18.308, 
         "fullname": "Essider Airport, Surt, Libya", 
-        "sw_latitude": 30.628
+        "date_indexed": "2010-12-02T08:58:29Z"
       }, 
       "id": 12514650
     }

@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514665, 
+        "placetype": "airport", 
         "name": "Oxy A 103 Airport", 
-        "ne_latitude": 29.011, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2346130", 
+          "woe:country=23424882", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514665, 
         "ne_longitude": 20.800, 
         "longitude": 20.794, 
-        "placetype": "Airport", 
+        "parent_woeid": 2346130, 
+        "ne_latitude": 29.011, 
         "iso": "LY", 
-        "date_indexed": "2010-12-02T08:58:29Z", 
-        "parent_woeid": 1352761, 
+        "sw_latitude": 29.002, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 29.006, 
         "sw_longitude": 20.789, 
         "fullname": "Oxy A 103 Airport, Ajdabiya, Libya", 
-        "sw_latitude": 29.002
+        "date_indexed": "2010-12-02T08:58:29Z"
       }, 
       "id": 12514665
     }

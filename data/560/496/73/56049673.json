@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "CZE", 
-        "woeid": 56049673, 
+        "placetype": "airport", 
         "name": "Letiste Bynovec", 
-        "ne_latitude": 50.833, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12606602", 
+          "woe:county=12582562", 
+          "woe:state=20070499", 
+          "woe:country=23424810", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56049673, 
         "ne_longitude": 14.279, 
         "longitude": 14.269, 
-        "placetype": "Airport", 
+        "parent_woeid": 12606602, 
+        "ne_latitude": 50.833, 
         "iso": "CZ", 
-        "date_indexed": "2010-12-02T08:56:52Z", 
-        "parent_woeid": 788060, 
+        "sw_latitude": 50.820, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.826, 
         "sw_longitude": 14.259, 
-        "fullname": "Letiste Bynovec, D\u011b\u010d\u00edn, \u00dasteck\u00fd, D\u011b\u010d\u00edn, Czech Republic", 
-        "sw_latitude": 50.820
+        "fullname": "Letiste Bynovec, D\u011b\u010d\u00edn, \u00dasteck\u00fd, Czech Republic", 
+        "date_indexed": "2010-12-02T08:56:52Z"
       }, 
       "id": 56049673
     }

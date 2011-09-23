@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513435, 
+        "placetype": "airport", 
         "name": "Tokol Airport", 
-        "ne_latitude": 47.360, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12593878", 
+          "woe:state=12577923", 
+          "woe:country=23424844", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513435, 
         "ne_longitude": 19.000, 
         "longitude": 18.990, 
-        "placetype": "Airport", 
+        "parent_woeid": 12593878, 
+        "ne_latitude": 47.360, 
         "iso": "HU", 
-        "date_indexed": "2010-12-02T09:56:22Z", 
-        "parent_woeid": 816636, 
+        "sw_latitude": 47.333, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.343, 
         "sw_longitude": 18.959, 
-        "fullname": "Tokol Airport, T\u00f6k\u00f6l, Pest, T\u00f6k\u00f6l, Hungary", 
-        "sw_latitude": 47.333
+        "fullname": "Tokol Airport, T\u00f6k\u00f6l, Pest, Hungary", 
+        "date_indexed": "2010-12-02T09:56:22Z"
       }, 
       "id": 12513435
     }

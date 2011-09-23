@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521122, 
-        "name": "New St George Airport", 
         "alias_ENG_V": [
           "New St George"
         ], 
-        "ne_latitude": 56.583, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "New St George Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587555", 
+          "woe:state=2347560", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521122, 
         "ne_longitude": -169.653, 
         "longitude": -169.661, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587555, 
+        "ne_latitude": 56.583, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2486790, 
+        "sw_latitude": 56.574, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 56.579, 
         "sw_longitude": -169.670, 
-        "fullname": "New St George Airport, St. George, Alaska, Aleutians West Census Area, United States", 
-        "sw_latitude": 56.574
+        "fullname": "New St George Airport, St. George, Alaska, United States", 
+        "iata_code": "PBV", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521122
     }

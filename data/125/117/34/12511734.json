@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511734, 
-        "name": "Lloydminster Airport", 
         "alias_ENG_V": [
           "YLL Airport"
         ], 
-        "ne_latitude": 53.315, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Lloydminster Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375228", 
+          "woe:state=2344915", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511734, 
         "ne_longitude": -110.054, 
         "longitude": -110.073, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375228, 
+        "ne_latitude": 53.315, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:24:00Z", 
-        "parent_woeid": 8231, 
+        "sw_latitude": 53.307, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.312, 
         "sw_longitude": -110.091, 
-        "fullname": "Lloydminster Airport, Lloydminster, Alberta, Alberta, Canada", 
-        "sw_latitude": 53.307
+        "fullname": "Lloydminster Airport, Lloydminster, Alberta, Canada", 
+        "iata_code": "YLL", 
+        "date_indexed": "2010-12-02T10:24:00Z"
       }, 
       "id": 12511734
     }

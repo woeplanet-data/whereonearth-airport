@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521878, 
-        "name": "Skyhaven Airport", 
         "alias_ENG_V": [
           "Skyheaven Airport"
         ], 
-        "ne_latitude": 38.793, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Skyhaven Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589016", 
+          "woe:state=2347584", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521878, 
         "ne_longitude": -93.796, 
         "longitude": -93.799, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589016, 
+        "ne_latitude": 38.793, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2514433, 
+        "sw_latitude": 38.777, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.777, 
         "sw_longitude": -93.806, 
-        "fullname": "Skyhaven Airport, Warrensburg, Missouri, Johnson, United States", 
-        "sw_latitude": 38.777
+        "fullname": "Skyhaven Airport, Warrensburg, Missouri, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521878
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 28349287, 
+        "placetype": "airport", 
         "name": "Tustin Marine Corps Air Station", 
-        "ne_latitude": 33.712, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12587699", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 28349287, 
         "ne_longitude": -117.813, 
         "longitude": -117.819, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587699, 
+        "ne_latitude": 33.712, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2508967, 
+        "sw_latitude": 33.703, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 33.707, 
         "sw_longitude": -117.824, 
-        "fullname": "Tustin Marine Corps Air Station, Tustin, California, Orange, United States", 
-        "sw_latitude": 33.703
+        "fullname": "Tustin Marine Corps Air Station, Tustin, California, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 28349287
     }

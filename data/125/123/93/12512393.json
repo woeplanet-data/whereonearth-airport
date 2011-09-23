@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512393, 
+        "placetype": "airport", 
         "name": "Luis F Pinto Airport", 
-        "ne_latitude": 4.223, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=26797544", 
+          "woe:state=2345073", 
+          "woe:country=23424787", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512393, 
         "ne_longitude": -74.634, 
         "longitude": -74.639, 
-        "placetype": "Airport", 
+        "parent_woeid": 26797544, 
+        "ne_latitude": 4.223, 
         "iso": "CO", 
-        "date_indexed": "2010-12-02T17:57:37Z", 
-        "parent_woeid": 369129, 
+        "sw_latitude": 4.214, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 4.219, 
         "sw_longitude": -74.643, 
-        "fullname": "Luis F Pinto Airport, Melgar, Tolima, Melgar, Colombia", 
-        "sw_latitude": 4.214
+        "fullname": "Luis F Pinto Airport, Melgar, Tolima, Colombia", 
+        "date_indexed": "2010-12-02T17:57:37Z"
       }, 
       "id": 12512393
     }

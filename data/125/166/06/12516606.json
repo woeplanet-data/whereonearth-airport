@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516606, 
+        "placetype": "airport", 
         "name": "Olovyannaya Airport", 
-        "ne_latitude": 51.022, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598180", 
+          "woe:state=2346894", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516606, 
         "ne_longitude": 115.434, 
         "longitude": 115.426, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598180, 
+        "ne_latitude": 51.022, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2122636, 
+        "sw_latitude": 51.013, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.017, 
         "sw_longitude": 115.419, 
-        "fullname": "Olovyannaya Airport, Olovyannaya, Chitinskaya Oblast, Olovyanninsky, Russia", 
-        "sw_latitude": 51.013
+        "fullname": "Olovyannaya Airport, Olovyannaya, Chitinskaya Oblast, Russia", 
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516606
     }

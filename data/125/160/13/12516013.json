@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516013, 
+        "placetype": "airport", 
         "name": "Gremyachye Airport", 
-        "ne_latitude": 51.475, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599633", 
+          "woe:state=2346935", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516013, 
         "ne_longitude": 38.976, 
         "longitude": 38.969, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599633, 
+        "ne_latitude": 51.475, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2020868, 
+        "sw_latitude": 51.466, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.470, 
         "sw_longitude": 38.961, 
         "fullname": "Gremyachye Airport, Voronezhskaya Oblast, Khokholsky, Russia", 
-        "sw_latitude": 51.466
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516013
     }

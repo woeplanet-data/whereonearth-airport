@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519575, 
-        "name": "East Troy Municipal Airport", 
         "alias_ENG_V": [
           "E Troy Municipal Airport"
         ], 
-        "ne_latitude": 42.805, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "East Troy Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590598", 
+          "woe:state=2347608", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519575, 
         "ne_longitude": -88.377, 
         "longitude": -88.383, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590598, 
+        "ne_latitude": 42.805, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:15Z", 
-        "parent_woeid": 2396254, 
+        "sw_latitude": 42.795, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.800, 
         "sw_longitude": -88.389, 
-        "fullname": "East Troy Municipal Airport, East Troy, Wisconsin, Walworth, United States", 
-        "sw_latitude": 42.795
+        "fullname": "East Troy Municipal Airport, East Troy, Wisconsin, United States", 
+        "date_indexed": "2010-12-02T18:39:15Z"
       }, 
       "id": 12519575
     }

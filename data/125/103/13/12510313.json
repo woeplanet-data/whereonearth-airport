@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510313, 
+        "placetype": "airport", 
         "name": "Ain Oussera Airport", 
-        "ne_latitude": 35.530, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2344594", 
+          "woe:country=23424740", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510313, 
         "ne_longitude": 2.884, 
         "longitude": 2.879, 
-        "placetype": "Airport", 
+        "parent_woeid": 2344594, 
+        "ne_latitude": 35.530, 
         "iso": "DZ", 
-        "date_indexed": "2010-12-02T17:07:16Z", 
-        "parent_woeid": 1252981, 
+        "sw_latitude": 35.521, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.526, 
         "sw_longitude": 2.873, 
         "fullname": "Ain Oussera Airport, Ain Oussera, Djelfa, Algeria", 
-        "sw_latitude": 35.521
+        "date_indexed": "2010-12-02T17:07:16Z"
       }, 
       "id": 12510313
     }

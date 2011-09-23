@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511092, 
+        "placetype": "airport", 
         "name": "Aeroporto Cibrasa", 
         "alias_ENG_P": [
           "Cibrasa Airport"
         ], 
-        "ne_latitude": -1.231, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12580150", 
+          "woe:state=2344857", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511092, 
         "ne_longitude": -47.200, 
         "longitude": -47.205, 
-        "placetype": "Airport", 
+        "parent_woeid": 12580150, 
+        "ne_latitude": -1.231, 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 458708, 
+        "sw_latitude": -1.240, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -1.236, 
         "sw_longitude": -47.209, 
-        "fullname": "Aeroporto Cibrasa, Boa Esperan\u00e7a, Para, Capanema, Brazil", 
-        "sw_latitude": -1.240
+        "fullname": "Aeroporto Cibrasa, Boa Esperan\u00e7a, Para, Brazil", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511092
     }

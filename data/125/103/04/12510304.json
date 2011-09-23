@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510304, 
-        "name": "Herat Airport", 
         "alias_ENG_V": [
           "HEA"
         ], 
-        "ne_latitude": 34.211, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Herat Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=56000574", 
+          "woe:state=2344558", 
+          "woe:country=23424739", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510304, 
         "ne_longitude": 62.232, 
         "longitude": 62.227, 
-        "placetype": "Airport", 
+        "parent_woeid": 56000574, 
+        "ne_latitude": 34.211, 
         "iso": "AF", 
-        "date_indexed": "2010-12-02T18:03:37Z", 
-        "parent_woeid": 1935321, 
+        "sw_latitude": 34.202, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 34.207, 
         "sw_longitude": 62.221, 
         "fullname": "Herat Airport, Herat, Guzara, Afghanistan", 
-        "sw_latitude": 34.202
+        "iata_code": "HEA", 
+        "date_indexed": "2010-12-02T18:03:37Z"
       }, 
       "id": 12510304
     }

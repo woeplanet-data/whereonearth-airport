@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512703, 
+        "placetype": "airport", 
         "name": "Ras Banas Airport", 
-        "ne_latitude": 23.980, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345224", 
+          "woe:country=23424802", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512703, 
         "ne_longitude": 35.464, 
         "longitude": 35.459, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345224, 
+        "ne_latitude": 23.980, 
         "iso": "EG", 
-        "date_indexed": "2010-12-02T12:16:51Z", 
-        "parent_woeid": 1522621, 
+        "sw_latitude": 23.970, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 23.975, 
         "sw_longitude": 35.454, 
         "fullname": "Ras Banas Airport, Al Bahr al Ahmar, Egypt", 
-        "sw_latitude": 23.970
+        "date_indexed": "2010-12-02T12:16:51Z"
       }, 
       "id": 12512703
     }

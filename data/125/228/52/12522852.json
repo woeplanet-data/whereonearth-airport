@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522852, 
+        "placetype": "airport", 
         "name": "Tucupido Airport", 
-        "ne_latitude": 9.355, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=26805395", 
+          "woe:county=26804565", 
+          "woe:state=2347688", 
+          "woe:country=23424982", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522852, 
         "ne_longitude": -65.795, 
         "longitude": -65.800, 
-        "placetype": "Airport", 
+        "parent_woeid": 26805395, 
+        "ne_latitude": 9.355, 
         "iso": "VE", 
-        "date_indexed": "2010-12-02T16:11:43Z", 
-        "parent_woeid": 395316, 
+        "sw_latitude": 9.345, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 9.350, 
         "sw_longitude": -65.805, 
-        "fullname": "Tucupido Airport, Tucupido, Guarico, Ribas, Venezuela", 
-        "sw_latitude": 9.345
+        "fullname": "Tucupido Airport, Tucupido, Guarico, Venezuela", 
+        "date_indexed": "2010-12-02T16:11:43Z"
       }, 
       "id": 12522852
     }

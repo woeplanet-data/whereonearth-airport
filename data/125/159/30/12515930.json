@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515930, 
+        "placetype": "airport", 
         "name": "Dema Northwest Airport", 
-        "ne_latitude": 63.479, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597466", 
+          "woe:state=2346874", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515930, 
         "ne_longitude": 56.463, 
         "longitude": 56.453, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597466, 
+        "ne_latitude": 63.479, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2081983, 
+        "sw_latitude": 63.470, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 63.474, 
         "sw_longitude": 56.442, 
         "fullname": "Dema Northwest Airport, Komi, Vuktyl'sky, Russia", 
-        "sw_latitude": 63.470
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12515930
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522375, 
+        "placetype": "airport", 
         "name": "Weelborg Airport", 
-        "ne_latitude": 43.811, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12589894", 
+          "woe:state=2347600", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522375, 
         "ne_longitude": -96.702, 
         "longitude": -96.709, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589894, 
+        "ne_latitude": 43.811, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2390850, 
+        "sw_latitude": 43.802, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.807, 
         "sw_longitude": -96.715, 
-        "fullname": "Weelborg Airport, Dell Rapids, South Dakota, Minnehaha, United States", 
-        "sw_latitude": 43.802
+        "fullname": "Weelborg Airport, Dell Rapids, South Dakota, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12522375
     }

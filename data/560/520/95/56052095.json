@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 56052095, 
+        "placetype": "airport", 
         "name": "Flugplatz Hoya", 
-        "ne_latitude": 52.815, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12630116", 
+          "woe:county=12597006", 
+          "woe:state=2345486", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56052095, 
         "ne_longitude": 9.170, 
         "longitude": 9.169, 
-        "placetype": "Airport", 
+        "parent_woeid": 12630116, 
+        "ne_latitude": 52.815, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 662615, 
+        "sw_latitude": 52.809, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 52.810, 
         "sw_longitude": 9.155, 
-        "fullname": "Flugplatz Hoya, Hoya, Lower Saxony, Nienburg, Germany", 
-        "sw_latitude": 52.809
+        "fullname": "Flugplatz Hoya, Hoya, Lower Saxony, Germany", 
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 56052095
     }

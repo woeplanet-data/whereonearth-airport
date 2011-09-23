@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512297, 
+        "placetype": "airport", 
         "name": "Zhaotong Airport", 
-        "ne_latitude": 27.333, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12687545", 
+          "woe:county=26198297", 
+          "woe:state=12578018", 
+          "woe:country=23424781", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512297, 
         "ne_longitude": 103.749, 
         "longitude": 103.744, 
-        "placetype": "Airport", 
+        "parent_woeid": 12687545, 
+        "ne_latitude": 27.333, 
         "iso": "CN", 
-        "date_indexed": "2010-12-02T08:51:54Z", 
-        "parent_woeid": 2160703, 
+        "sw_latitude": 27.324, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 27.328, 
         "sw_longitude": 103.738, 
-        "fullname": "Zhaotong Airport, Zhaotong, Yunnan, Shaotong, China", 
-        "sw_latitude": 27.324
+        "fullname": "Zhaotong Airport, Zhaotong, Yunnan, China", 
+        "date_indexed": "2010-12-02T08:51:54Z"
       }, 
       "id": 12512297
     }

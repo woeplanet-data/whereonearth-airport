@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512422, 
+        "placetype": "airport", 
         "name": "Uraba Airport", 
-        "ne_latitude": 7.817, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=26796638", 
+          "woe:state=2345048", 
+          "woe:country=23424787", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512422, 
         "ne_longitude": -76.710, 
         "longitude": -76.715, 
-        "placetype": "Airport", 
+        "parent_woeid": 26796638, 
+        "ne_latitude": 7.817, 
         "iso": "CO", 
-        "date_indexed": "2010-12-02T17:57:37Z", 
-        "parent_woeid": 26797690, 
+        "sw_latitude": 7.808, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 7.812, 
         "sw_longitude": -76.720, 
-        "fullname": "Uraba Airport, Carepa, Antioquia, Carepa, Colombia", 
-        "sw_latitude": 7.808
+        "fullname": "Uraba Airport, Carepa, Antioquia, Colombia", 
+        "date_indexed": "2010-12-02T17:57:37Z"
       }, 
       "id": 12512422
     }

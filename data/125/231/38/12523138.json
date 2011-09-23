@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523138, 
-        "name": "Miami Heliport", 
         "alias_ENG_V": [
           "Downtown Heliport"
         ], 
-        "ne_latitude": 25.789, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Miami Heliport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:suburb=55860150", 
+          "woe:county=12587815", 
+          "woe:state=2347568", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523138, 
         "ne_longitude": -80.172, 
         "longitude": -80.177, 
-        "placetype": "Airport", 
-        "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
         "parent_woeid": 55860150, 
+        "ne_latitude": 25.789, 
+        "iso": "US", 
+        "sw_latitude": 25.780, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 25.784, 
         "sw_longitude": -80.182, 
-        "fullname": "Miami Heliport, Miami Beach, Florida, Miami-Dade, United States", 
-        "sw_latitude": 25.780
+        "fullname": "Miami Heliport, Miami Beach, Florida, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12523138
     }

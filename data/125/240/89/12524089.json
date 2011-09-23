@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524089, 
-        "name": "Cape St. James Airport", 
         "alias_ENG_V": [
           "YCJ Airport"
         ], 
-        "ne_latitude": 51.949, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Cape St. James Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375077", 
+          "woe:state=2344916", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524089, 
         "ne_longitude": -131.014, 
         "longitude": -131.021, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375077, 
+        "ne_latitude": 51.949, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 9412, 
+        "sw_latitude": 51.940, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.945, 
         "sw_longitude": -131.028, 
-        "fullname": "Cape St. James Airport, Rose Harbour, British Columbia, Skeena-Queen Charlotte, Canada", 
-        "sw_latitude": 51.940
+        "fullname": "Cape St. James Airport, Rose Harbour, British Columbia, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12524089
     }

@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514514, 
+        "placetype": "airport", 
         "name": "Yany Kurgan Airport", 
-        "ne_latitude": 43.933, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345990", 
+          "woe:country=23424871", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514514, 
         "ne_longitude": 67.262, 
         "longitude": 67.256, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345990, 
+        "ne_latitude": 43.933, 
         "iso": "KZ", 
-        "date_indexed": "2010-12-02T08:54:13Z", 
-        "parent_woeid": 2263841, 
+        "sw_latitude": 43.924, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.928, 
         "sw_longitude": 67.249, 
         "fullname": "Yany Kurgan Airport, Qyzylorda, Kazakhstan", 
-        "sw_latitude": 43.924
+        "date_indexed": "2010-12-02T08:54:13Z"
       }, 
       "id": 12514514
     }

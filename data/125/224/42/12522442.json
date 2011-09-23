@@ -3,28 +3,50 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -75.866, 
-              41.290
-            ], 
-            [
-              -75.866, 
-              41.303
-            ], 
-            [
-              -75.842, 
-              41.303
-            ], 
-            [
-              -75.842, 
-              41.290
-            ], 
-            [
-              -75.866, 
-              41.290
+              [
+                -75.860, 
+                41.295
+              ], 
+              [
+                -75.859, 
+                41.297
+              ], 
+              [
+                -75.857, 
+                41.299
+              ], 
+              [
+                -75.857, 
+                41.297
+              ], 
+              [
+                -75.856, 
+                41.296
+              ], 
+              [
+                -75.856, 
+                41.294
+              ], 
+              [
+                -75.856, 
+                41.293
+              ], 
+              [
+                -75.860, 
+                41.294
+              ], 
+              [
+                -75.862, 
+                41.294
+              ], 
+              [
+                -75.860, 
+                41.295
+              ]
             ]
           ]
         ]
@@ -32,23 +54,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522442, 
-        "name": "Wilkes-Barre-Wyoming Valley Airport", 
         "alias_ENG_V": [
           "WBW"
         ], 
-        "ne_latitude": 41.303, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -75.842, 
+        "name": "Wilkes-Barre-Wyoming Valley Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589767", 
+          "woe:state=2347597", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522442, 
+        "ne_longitude": -75.856, 
         "longitude": -75.858, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589767, 
+        "ne_latitude": 41.299, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2406118, 
-        "latitude": 41.299, 
-        "sw_longitude": -75.866, 
-        "fullname": "Wilkes-Barre-Wyoming Valley Airport, Forty Fort, Pennsylvania, Luzerne, United States", 
-        "sw_latitude": 41.290
+        "sw_latitude": 41.293, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 41.295, 
+        "sw_longitude": -75.862, 
+        "fullname": "Wilkes-Barre-Wyoming Valley Airport, Forty Fort, Pennsylvania, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12522442
     }

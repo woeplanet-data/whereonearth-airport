@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388382, 
-        "name": "Moorhead Airpark", 
         "alias_ENG_V": [
           "Pn40"
         ], 
-        "ne_latitude": 42.187, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Moorhead Airpark", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589752", 
+          "woe:state=2347597", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388382, 
         "ne_longitude": -79.891, 
         "longitude": -79.900, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589752, 
+        "ne_latitude": 42.187, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2460904, 
+        "sw_latitude": 42.184, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.186, 
         "sw_longitude": -79.900, 
-        "fullname": "Moorhead Airpark, North East, Pennsylvania, Erie, United States", 
-        "sw_latitude": 42.184
+        "fullname": "Moorhead Airpark, North East, Pennsylvania, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388382
     }

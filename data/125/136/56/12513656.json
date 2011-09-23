@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513656, 
+        "placetype": "airport", 
         "name": "Purnea Airport", 
-        "ne_latitude": 25.761, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12586404", 
+          "woe:state=2345742", 
+          "woe:country=23424848", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513656, 
         "ne_longitude": 87.416, 
         "longitude": 87.411, 
-        "placetype": "Airport", 
+        "parent_woeid": 12586404, 
+        "ne_latitude": 25.761, 
         "iso": "IN", 
-        "date_indexed": "2010-12-02T09:26:27Z", 
-        "parent_woeid": 29159686, 
+        "sw_latitude": 25.752, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 25.757, 
         "sw_longitude": 87.406, 
-        "fullname": "Purnea Airport, Goasi, Bihar, Purnia, India", 
-        "sw_latitude": 25.752
+        "fullname": "Purnea Airport, Goasi, Bihar, India", 
+        "date_indexed": "2010-12-02T09:26:27Z"
       }, 
       "id": 12513656
     }

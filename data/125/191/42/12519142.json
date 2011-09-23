@@ -3,28 +3,74 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -80.055, 
-              32.869
-            ], 
-            [
-              -80.055, 
-              32.920
-            ], 
-            [
-              -80.023, 
-              32.920
-            ], 
-            [
-              -80.023, 
-              32.869
-            ], 
-            [
-              -80.055, 
-              32.869
+              [
+                -80.035, 
+                32.885
+              ], 
+              [
+                -80.034, 
+                32.881
+              ], 
+              [
+                -80.033, 
+                32.880
+              ], 
+              [
+                -80.035, 
+                32.876
+              ], 
+              [
+                -80.037, 
+                32.881
+              ], 
+              [
+                -80.038, 
+                32.882
+              ], 
+              [
+                -80.041, 
+                32.883
+              ], 
+              [
+                -80.039, 
+                32.885
+              ], 
+              [
+                -80.039, 
+                32.889
+              ], 
+              [
+                -80.039, 
+                32.894
+              ], 
+              [
+                -80.046, 
+                32.898
+              ], 
+              [
+                -80.048, 
+                32.894
+              ], 
+              [
+                -80.046, 
+                32.892
+              ], 
+              [
+                -80.039, 
+                32.889
+              ], 
+              [
+                -80.031, 
+                32.890
+              ], 
+              [
+                -80.035, 
+                32.885
+              ]
             ]
           ]
         ]
@@ -32,27 +78,34 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519142, 
-        "name": "Charleston International Airport", 
         "adjacent_woeid": [
           2378319, 
           2501697
         ], 
-        "ne_latitude": 32.920, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Charleston International Airport", 
+        "placetype": "airport", 
         "alias_ENG_V": [
           "Charleston Air Force Base"
         ], 
-        "ne_longitude": -80.023, 
-        "longitude": -80.036, 
-        "placetype": "Airport", 
+        "hierarchy": [
+          "woe:county=12589809", 
+          "woe:state=2347599", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519142, 
+        "ne_longitude": -80.031, 
+        "longitude": -79.980, 
+        "parent_woeid": 12589809, 
+        "ne_latitude": 32.898, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2460780, 
-        "latitude": 32.884, 
-        "sw_longitude": -80.055, 
-        "fullname": "Charleston International Airport, North Charleston, South Carolina, Charleston, United States", 
-        "sw_latitude": 32.869
+        "sw_latitude": 32.876, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 32.815, 
+        "sw_longitude": -80.048, 
+        "fullname": "Charleston International Airport, North Charleston, South Carolina, United States", 
+        "iata_code": "CHS", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519142
     }

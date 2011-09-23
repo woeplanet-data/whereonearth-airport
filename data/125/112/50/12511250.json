@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511250, 
+        "placetype": "airport", 
         "name": "Aeroporto Oricanga de Abreu", 
         "alias_ENG_P": [
           "Oricanga de Abreu Airport"
         ], 
-        "ne_latitude": -14.120, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12579058", 
+          "woe:state=2344852", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511250, 
         "ne_longitude": -46.331, 
         "longitude": -46.336, 
-        "placetype": "Airport", 
+        "parent_woeid": 12579058, 
+        "ne_latitude": -14.120, 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 457875, 
+        "sw_latitude": -14.129, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -14.124, 
         "sw_longitude": -46.341, 
-        "fullname": "Aeroporto Oricanga de Abreu, Posse, Goias, Posse, Brazil", 
-        "sw_latitude": -14.129
+        "fullname": "Aeroporto Oricanga de Abreu, Posse, Goias, Brazil", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511250
     }

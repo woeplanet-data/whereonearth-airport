@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516181, 
+        "placetype": "airport", 
         "name": "Kizhinga Airport", 
-        "ne_latitude": 51.830, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597287", 
+          "woe:state=2346867", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516181, 
         "ne_longitude": 109.948, 
         "longitude": 109.941, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597287, 
+        "ne_latitude": 51.830, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2022323, 
+        "sw_latitude": 51.821, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.826, 
         "sw_longitude": 109.933, 
-        "fullname": "Kizhinga Airport, Kizhinga, Buryatiya, Kizhinginsky, Russia", 
-        "sw_latitude": 51.821
+        "fullname": "Kizhinga Airport, Kizhinga, Buryatiya, Russia", 
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516181
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510895, 
-        "name": "Zia International Airport Dhaka", 
         "alias_ENG_V": [
           "Zia Airport"
         ], 
-        "ne_latitude": 23.842, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Zia International Airport Dhaka", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=23706470", 
+          "woe:state=2344791", 
+          "woe:country=23424759", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510895, 
         "ne_longitude": 90.400, 
         "longitude": 90.395, 
-        "placetype": "Airport", 
+        "parent_woeid": 23706470, 
+        "ne_latitude": 23.842, 
         "iso": "BD", 
-        "date_indexed": "2010-12-02T12:16:33Z", 
-        "parent_woeid": 1890068, 
+        "sw_latitude": 23.833, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 23.838, 
         "sw_longitude": 90.390, 
         "fullname": "Zia International Airport Dhaka, Dhaka, Dhaka, Bangladesh", 
-        "sw_latitude": 23.833
+        "iata_code": "DAC", 
+        "date_indexed": "2010-12-02T12:16:33Z"
       }, 
       "id": 12510895
     }

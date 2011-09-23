@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514715, 
+        "placetype": "airport", 
         "name": "Beltsy Northeast Airport", 
-        "ne_latitude": 47.839, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=55948197", 
+          "woe:country=23424885", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514715, 
         "ne_longitude": 27.801, 
         "longitude": 27.794, 
-        "placetype": "Airport", 
+        "parent_woeid": 55948197, 
+        "ne_latitude": 47.839, 
         "iso": "MD", 
-        "date_indexed": "2010-12-02T17:58:04Z", 
-        "parent_woeid": 480639, 
+        "sw_latitude": 47.830, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.834, 
         "sw_longitude": 27.787, 
         "fullname": "Beltsy Northeast Airport, Riscani, Moldova", 
-        "sw_latitude": 47.830
+        "date_indexed": "2010-12-02T17:58:04Z"
       }, 
       "id": 12514715
     }

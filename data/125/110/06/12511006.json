@@ -32,23 +32,28 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511006, 
-        "name": "Henderson Airport", 
         "alias_ENG_V": [
           "HIR"
         ], 
-        "ne_latitude": -9.417, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Henderson Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2344839", 
+          "woe:country=23424766", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511006, 
         "ne_longitude": 160.058, 
         "longitude": 160.053, 
-        "placetype": "Airport", 
+        "parent_woeid": 2344839, 
+        "ne_latitude": -9.417, 
         "iso": "SB", 
-        "date_indexed": "2010-12-02T09:35:31Z", 
-        "parent_woeid": 1020496, 
+        "sw_latitude": -9.426, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -9.421, 
         "sw_longitude": 160.049, 
         "fullname": "Henderson Airport, Honiara, Guadalcanal, Solomon Islands", 
-        "sw_latitude": -9.426
+        "date_indexed": "2010-12-02T09:35:31Z"
       }, 
       "id": 12511006
     }

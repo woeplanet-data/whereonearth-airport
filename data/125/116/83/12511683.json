@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511683, 
+        "placetype": "airport", 
         "name": "Grande Cache Airport", 
-        "ne_latitude": 53.921, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=29375228", 
+          "woe:state=2344915", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511683, 
         "ne_longitude": -118.863, 
         "longitude": -118.871, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375228, 
+        "ne_latitude": 53.921, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 8427, 
+        "sw_latitude": 53.912, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.917, 
         "sw_longitude": -118.879, 
-        "fullname": "Grande Cache Airport, Grande Cache, Alberta, Alberta, Canada", 
-        "sw_latitude": 53.912
+        "fullname": "Grande Cache Airport, Grande Cache, Alberta, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12511683
     }

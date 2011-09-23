@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521681, 
+        "placetype": "airport", 
         "name": "Russellville Municipal Airport", 
-        "ne_latitude": 34.454, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12587516", 
+          "woe:state=2347559", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521681, 
         "ne_longitude": -87.705, 
         "longitude": -87.710, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587516, 
+        "ne_latitude": 34.454, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2486019, 
+        "sw_latitude": 34.445, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 34.449, 
         "sw_longitude": -87.716, 
-        "fullname": "Russellville Municipal Airport, Russellville, Alabama, Franklin, United States", 
-        "sw_latitude": 34.445
+        "fullname": "Russellville Municipal Airport, Russellville, Alabama, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521681
     }

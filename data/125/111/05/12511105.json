@@ -32,29 +32,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511105, 
-        "name": "Aeroporto Internacional Cruzeiro do Sul", 
-        "alias_ENG_P": [
-          "Cruzeiro do Sul International Airport"
-        ], 
-        "ne_latitude": -7.588, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "Cruzeiro do Sul Airport"
         ], 
+        "name": "Aeroporto Internacional Cruzeiro do Sul", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Cruzeiro do Sul International Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12578055", 
+          "woe:state=2344844", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511105, 
         "ne_longitude": -72.758, 
         "longitude": -72.770, 
-        "placetype": "Airport", 
+        "parent_woeid": 12578055, 
+        "ne_latitude": -7.588, 
         "alias_POR_V": [
           "Aeroporto CZS"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 436555, 
+        "sw_latitude": -7.611, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -7.599, 
         "sw_longitude": -72.781, 
-        "fullname": "Aeroporto Internacional Cruzeiro do Sul, Japiim, Acre, M\u00e2ncio Lima, Brazil", 
-        "sw_latitude": -7.611
+        "fullname": "Aeroporto Internacional Cruzeiro do Sul, Japiim, Acre, Brazil", 
+        "iata_code": "CZS", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511105
     }

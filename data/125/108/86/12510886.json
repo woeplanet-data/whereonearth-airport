@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510886, 
-        "name": "Chittagong Airport", 
         "alias_ENG_V": [
           "CGP"
         ], 
-        "ne_latitude": 22.256, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Chittagong Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=23706416", 
+          "woe:state=2344790", 
+          "woe:country=23424759", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510886, 
         "ne_longitude": 91.820, 
         "longitude": 91.815, 
-        "placetype": "Airport", 
+        "parent_woeid": 23706416, 
+        "ne_latitude": 22.256, 
         "iso": "BD", 
-        "date_indexed": "2010-12-02T12:16:33Z", 
-        "parent_woeid": 1909085, 
+        "sw_latitude": 22.247, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 22.252, 
         "sw_longitude": 91.810, 
         "fullname": "Chittagong Airport, Chittagong, Chittagong, Bangladesh", 
-        "sw_latitude": 22.247
+        "iata_code": "CGP", 
+        "date_indexed": "2010-12-02T12:16:33Z"
       }, 
       "id": 12510886
     }

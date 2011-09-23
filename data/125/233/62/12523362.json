@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523362, 
-        "name": "San Carlos Airport", 
         "alias_ENG_V": [
           "NCR"
         ], 
-        "ne_latitude": 11.137, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "San Carlos Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26813405", 
+          "woe:state=2346430", 
+          "woe:country=23424915", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523362, 
         "ne_longitude": -84.770, 
         "longitude": -84.775, 
-        "placetype": "Airport", 
+        "parent_woeid": 26813405, 
+        "ne_latitude": 11.137, 
         "iso": "NI", 
-        "date_indexed": "2010-12-02T18:19:13Z", 
-        "parent_woeid": 153849, 
+        "sw_latitude": 11.128, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 11.133, 
         "sw_longitude": -84.780, 
-        "fullname": "San Carlos Airport, San Carlos, R\u00edo San Juan, San Carlos, Nicaragua", 
-        "sw_latitude": 11.128
+        "fullname": "San Carlos Airport, San Carlos, R\u00edo San Juan, Nicaragua", 
+        "date_indexed": "2010-12-02T18:19:13Z"
       }, 
       "id": 12523362
     }

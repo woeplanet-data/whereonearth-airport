@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388467, 
-        "name": "Deck Airport", 
         "alias_ENG_V": [
           "9d4"
         ], 
-        "ne_latitude": 40.357, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Deck Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589765", 
+          "woe:state=2347597", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388467, 
         "ne_longitude": -76.328, 
         "longitude": -76.330, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589765, 
+        "ne_latitude": 40.357, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 28745239, 
+        "sw_latitude": 40.347, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.347, 
         "sw_longitude": -76.332, 
-        "fullname": "Deck Airport, Jackson, Pennsylvania, Lebanon, United States", 
-        "sw_latitude": 40.347
+        "fullname": "Deck Airport, Jackson, Pennsylvania, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388467
     }

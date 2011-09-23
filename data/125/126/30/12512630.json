@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512630, 
+        "placetype": "airport", 
         "name": "Francisco de Orellana Airport", 
-        "ne_latitude": -0.462, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=26810319", 
+          "woe:county=26809525", 
+          "woe:state=20070099", 
+          "woe:country=23424801", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512630, 
         "ne_longitude": -76.979, 
         "longitude": -76.983, 
-        "placetype": "Airport", 
+        "parent_woeid": 26810319, 
+        "ne_latitude": -0.462, 
         "iso": "EC", 
-        "date_indexed": "2010-12-02T17:51:45Z", 
-        "parent_woeid": 420033, 
+        "sw_latitude": -0.471, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -0.467, 
         "sw_longitude": -76.988, 
-        "fullname": "Francisco de Orellana Airport, Coca, Orellano, Coca, Ecuador", 
-        "sw_latitude": -0.471
+        "fullname": "Francisco de Orellana Airport, Coca, Orellano, Ecuador", 
+        "date_indexed": "2010-12-02T17:51:45Z"
       }, 
       "id": 12512630
     }

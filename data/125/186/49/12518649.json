@@ -3,28 +3,38 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -124.116, 
-              40.964
-            ], 
-            [
-              -124.116, 
-              40.987
-            ], 
-            [
-              -124.101, 
-              40.987
-            ], 
-            [
-              -124.101, 
-              40.964
-            ], 
-            [
-              -124.116, 
-              40.964
+              [
+                -124.106, 
+                40.970
+              ], 
+              [
+                -124.108, 
+                40.970
+              ], 
+              [
+                -124.111, 
+                40.968
+              ], 
+              [
+                -124.111, 
+                40.969
+              ], 
+              [
+                -124.109, 
+                40.974
+              ], 
+              [
+                -124.106, 
+                40.973
+              ], 
+              [
+                -124.106, 
+                40.970
+              ]
             ]
           ]
         ]
@@ -32,23 +42,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518649, 
-        "name": "Arcata Airport", 
         "alias_ENG_V": [
           "ACV"
         ], 
-        "ne_latitude": 40.987, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -124.101, 
-        "longitude": -124.107, 
-        "placetype": "Airport", 
+        "name": "Arcata Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587681", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518649, 
+        "ne_longitude": -124.106, 
+        "longitude": -124.108, 
+        "parent_woeid": 12587681, 
+        "ne_latitude": 40.974, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2380572, 
-        "latitude": 40.970, 
-        "sw_longitude": -124.116, 
-        "fullname": "Arcata Airport, Clam Beach, California, Humboldt, United States", 
-        "sw_latitude": 40.964
+        "sw_latitude": 40.968, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 40.971, 
+        "sw_longitude": -124.111, 
+        "fullname": "Arcata Airport, Clam Beach, California, United States", 
+        "iata_code": "ACV", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518649
     }

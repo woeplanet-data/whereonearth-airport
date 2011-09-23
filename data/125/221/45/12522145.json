@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522145, 
+        "placetype": "airport", 
         "name": "Tipton Army Air Field", 
-        "ne_latitude": 39.090, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12588677", 
+          "woe:state=2347579", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522145, 
         "ne_longitude": -76.754, 
         "longitude": -76.760, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588677, 
+        "ne_latitude": 39.090, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2355762, 
+        "sw_latitude": 39.081, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 39.085, 
         "sw_longitude": -76.766, 
-        "fullname": "Tipton Army Air Field, Portland Station, Maryland, Anne Arundel, United States", 
-        "sw_latitude": 39.081
+        "fullname": "Tipton Army Air Field, Portland Station, Maryland, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12522145
     }

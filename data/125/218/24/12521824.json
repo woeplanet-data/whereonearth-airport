@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521824, 
-        "name": "Shelbyville Municipal Airport", 
         "alias_ENG_V": [
           "Gez"
         ], 
-        "ne_latitude": 39.580, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Shelbyville Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588251", 
+          "woe:state=2347573", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521824, 
         "ne_longitude": -85.789, 
         "longitude": -85.792, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588251, 
+        "ne_latitude": 39.580, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2492144, 
+        "sw_latitude": 39.575, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 39.577, 
         "sw_longitude": -85.795, 
-        "fullname": "Shelbyville Municipal Airport, Shelbyville, Indiana, Shelby, United States", 
-        "sw_latitude": 39.575
+        "fullname": "Shelbyville Municipal Airport, Shelbyville, Indiana, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521824
     }

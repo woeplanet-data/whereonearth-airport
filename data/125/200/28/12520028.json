@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520028, 
-        "name": "Grosse Ile Municipal Airport", 
         "alias_ENG_V": [
           "Onz"
         ], 
-        "ne_latitude": 42.108, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Grosse Ile Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588795", 
+          "woe:state=2347581", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520028, 
         "ne_longitude": -83.150, 
         "longitude": -83.161, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588795, 
+        "ne_latitude": 42.108, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2415204, 
+        "sw_latitude": 42.093, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.108, 
         "sw_longitude": -83.168, 
-        "fullname": "Grosse Ile Municipal Airport, Grosse Ile, Michigan, Wayne, United States", 
-        "sw_latitude": 42.093
+        "fullname": "Grosse Ile Municipal Airport, Grosse Ile, Michigan, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520028
     }

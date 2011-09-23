@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29387898, 
-        "name": "Idaho City Usfs Airport", 
         "alias_ENG_V": [
           "U98"
         ], 
-        "ne_latitude": 43.827, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Idaho City Usfs Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588041", 
+          "woe:state=2347571", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29387898, 
         "ne_longitude": -115.838, 
         "longitude": -115.839, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588041, 
+        "ne_latitude": 43.827, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2426436, 
+        "sw_latitude": 43.821, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.827, 
         "sw_longitude": -115.849, 
-        "fullname": "Idaho City Usfs Airport, Idaho City, Idaho, Boise, United States", 
-        "sw_latitude": 43.821
+        "fullname": "Idaho City Usfs Airport, Idaho City, Idaho, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29387898
     }

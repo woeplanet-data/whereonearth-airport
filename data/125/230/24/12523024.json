@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523024, 
+        "placetype": "airport", 
         "name": "Fylde Airport", 
-        "ne_latitude": -18.157, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=56048501", 
+          "woe:state=2347814", 
+          "woe:country=23425004", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523024, 
         "ne_longitude": 29.971, 
         "longitude": 29.967, 
-        "placetype": "Airport", 
+        "parent_woeid": 56048501, 
+        "ne_latitude": -18.157, 
         "iso": "ZW", 
-        "date_indexed": "2010-12-02T16:52:36Z", 
-        "parent_woeid": 1466861, 
+        "sw_latitude": -18.166, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -18.161, 
         "sw_longitude": 29.962, 
-        "fullname": "Fylde Airport, Chakari, Mashonaland West, Kadoma, Zimbabwe", 
-        "sw_latitude": -18.166
+        "fullname": "Fylde Airport, Chakari, Mashonaland West, Zimbabwe", 
+        "date_indexed": "2010-12-02T16:52:36Z"
       }, 
       "id": 12523024
     }

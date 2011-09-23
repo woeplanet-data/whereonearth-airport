@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516006, 
+        "placetype": "airport", 
         "name": "Gornyy Airport", 
-        "ne_latitude": 51.740, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599233", 
+          "woe:state=2346924", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516006, 
         "ne_longitude": 48.630, 
         "longitude": 48.623, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599233, 
+        "ne_latitude": 51.740, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2120905, 
+        "sw_latitude": 51.731, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.736, 
         "sw_longitude": 48.616, 
-        "fullname": "Gornyy Airport, Gornyy, Saratovskaya Oblast, Krasnopartizansky, Russia", 
-        "sw_latitude": 51.731
+        "fullname": "Gornyy Airport, Gornyy, Saratovskaya Oblast, Russia", 
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516006
     }

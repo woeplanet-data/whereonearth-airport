@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512752, 
+        "placetype": "airport", 
         "name": "Ilopango International Airport", 
-        "ne_latitude": 13.696, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=26808708", 
+          "woe:state=2345301", 
+          "woe:country=23424807", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512752, 
         "ne_longitude": -89.112, 
         "longitude": -89.117, 
-        "placetype": "Airport", 
+        "parent_woeid": 26808708, 
+        "ne_latitude": 13.696, 
         "iso": "SV", 
-        "date_indexed": "2010-12-02T17:05:52Z", 
-        "parent_woeid": 78239, 
+        "sw_latitude": 13.687, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 13.692, 
         "sw_longitude": -89.121, 
-        "fullname": "Ilopango International Airport, Ilopango, San Salvador, Ilopango, El Salvador", 
-        "sw_latitude": 13.687
+        "fullname": "Ilopango International Airport, Ilopango, San Salvador, El Salvador", 
+        "date_indexed": "2010-12-02T17:05:52Z"
       }, 
       "id": 12512752
     }

@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515132, 
-        "name": "Biratnagar Airport", 
         "alias_ENG_V": [
           "BIR"
         ], 
-        "ne_latitude": 26.486, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Biratnagar Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=23706747", 
+          "woe:county=23706805", 
+          "woe:state=20070023", 
+          "woe:country=23424911", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515132, 
         "ne_longitude": 87.270, 
         "longitude": 87.265, 
-        "placetype": "Airport", 
+        "parent_woeid": 23706747, 
+        "ne_latitude": 26.486, 
         "iso": "NP", 
-        "date_indexed": "2010-12-02T18:18:47Z", 
-        "parent_woeid": 2269178, 
+        "sw_latitude": 26.477, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 26.481, 
         "sw_longitude": 87.260, 
-        "fullname": "Biratnagar Airport, Biratnagur, East, Kosi, Nepal", 
-        "sw_latitude": 26.477
+        "fullname": "Biratnagar Airport, Biratnagur, East, Nepal", 
+        "iata_code": "BIR", 
+        "date_indexed": "2010-12-02T18:18:47Z"
       }, 
       "id": 12515132
     }

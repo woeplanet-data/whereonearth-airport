@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514041, 
-        "name": "Jersey Airport", 
         "alias_ENG_V": [
           "JER"
         ], 
-        "ne_latitude": 49.211, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Jersey Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=23701061", 
+          "woe:county=23424857", 
+          "woe:state=24548836", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514041, 
         "ne_longitude": -2.180, 
         "longitude": -2.194, 
-        "placetype": "Airport", 
+        "parent_woeid": 23701061, 
+        "ne_latitude": 49.211, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:21:01Z", 
-        "parent_woeid": 23700859, 
+        "sw_latitude": 49.202, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.205, 
         "sw_longitude": -2.208, 
-        "fullname": "Jersey Airport, Airoport, Channel Islands, Jersey, United Kingdom", 
-        "sw_latitude": 49.202
+        "fullname": "Jersey Airport, Airoport, Channel Islands, United Kingdom", 
+        "iata_code": "JER", 
+        "date_indexed": "2010-12-02T12:21:01Z"
       }, 
       "id": 12514041
     }

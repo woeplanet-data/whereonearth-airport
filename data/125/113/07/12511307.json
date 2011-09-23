@@ -32,29 +32,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511307, 
-        "name": "Aeroporto Santana do Araguaia", 
-        "alias_ENG_P": [
-          "Santana do Araguaia Airport"
-        ], 
-        "ne_latitude": -9.330, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "CMP"
         ], 
+        "name": "Aeroporto Santana do Araguaia", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Santana do Araguaia Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12580209", 
+          "woe:state=2344857", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511307, 
         "ne_longitude": -50.345, 
         "longitude": -50.350, 
-        "placetype": "Airport", 
+        "parent_woeid": 12580209, 
+        "ne_latitude": -9.330, 
         "alias_POR_V": [
           "Aeroporto CMP"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 26803875, 
+        "sw_latitude": -9.340, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -9.335, 
         "sw_longitude": -50.354, 
-        "fullname": "Aeroporto Santana do Araguaia, Santana do Araguaia, Para, Santana do Araguaia, Brazil", 
-        "sw_latitude": -9.340
+        "fullname": "Aeroporto Santana do Araguaia, Santana do Araguaia, Para, Brazil", 
+        "iata_code": "CMP", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511307
     }

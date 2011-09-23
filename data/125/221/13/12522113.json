@@ -3,28 +3,58 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -72.647, 
-              40.831
-            ], 
-            [
-              -72.647, 
-              40.860
-            ], 
-            [
-              -72.610, 
-              40.860
-            ], 
-            [
-              -72.610, 
-              40.831
-            ], 
-            [
-              -72.647, 
-              40.831
+              [
+                -72.653, 
+                40.843
+              ], 
+              [
+                -72.653, 
+                40.844
+              ], 
+              [
+                -72.653, 
+                40.844
+              ], 
+              [
+                -72.653, 
+                40.843
+              ], 
+              [
+                -72.646, 
+                40.837
+              ], 
+              [
+                -72.643, 
+                40.837
+              ], 
+              [
+                -72.642, 
+                40.837
+              ], 
+              [
+                -72.647, 
+                40.830
+              ], 
+              [
+                -72.652, 
+                40.830
+              ], 
+              [
+                -72.655, 
+                40.838
+              ], 
+              [
+                -72.653, 
+                40.843
+              ], 
+              [
+                -72.653, 
+                40.843
+              ]
             ]
           ]
         ]
@@ -32,23 +62,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522113, 
-        "name": "The Francis S Gabreski Airport", 
         "alias_ENG_V": [
           "Francis S Gabreski Airport"
         ], 
-        "ne_latitude": 40.860, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -72.610, 
-        "longitude": -72.641, 
-        "placetype": "Airport", 
+        "name": "The Francis S Gabreski Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589363", 
+          "woe:state=2347591", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522113, 
+        "ne_longitude": -72.642, 
+        "longitude": -72.650, 
+        "parent_woeid": 12589363, 
+        "ne_latitude": 40.844, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2496957, 
-        "latitude": 40.840, 
-        "sw_longitude": -72.647, 
-        "fullname": "The Francis S Gabreski Airport, Southampton, New York, Suffolk, United States", 
-        "sw_latitude": 40.831
+        "sw_latitude": 40.830, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 40.836, 
+        "sw_longitude": -72.655, 
+        "fullname": "The Francis S Gabreski Airport, Southampton, New York, United States", 
+        "iata_code": "FOK", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522113
     }

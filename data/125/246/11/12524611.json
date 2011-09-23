@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524611, 
-        "name": "College Park Airport", 
         "alias_ENG_V": [
           "CGS"
         ], 
-        "ne_latitude": 38.984, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "College Park Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588692", 
+          "woe:state=2347579", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524611, 
         "ne_longitude": -76.918, 
         "longitude": -76.924, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588692, 
+        "ne_latitude": 38.984, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2383078, 
+        "sw_latitude": 38.976, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.980, 
         "sw_longitude": -76.928, 
-        "fullname": "College Park Airport, College Park, Maryland, Prince George's, United States", 
-        "sw_latitude": 38.976
+        "fullname": "College Park Airport, College Park, Maryland, United States", 
+        "iata_code": "CGS", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12524611
     }

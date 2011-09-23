@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 22656539, 
+        "placetype": "airport", 
         "name": "Insch Airfield", 
-        "ne_latitude": 57.316, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12696183", 
+          "woe:county=12602202", 
+          "woe:state=12578048", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 22656539, 
         "ne_longitude": -2.654, 
         "longitude": -2.662, 
-        "placetype": "Airport", 
+        "parent_woeid": 12696183, 
+        "ne_latitude": 57.316, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:21:01Z", 
-        "parent_woeid": 26135, 
+        "sw_latitude": 57.307, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 57.311, 
         "sw_longitude": -2.671, 
-        "fullname": "Insch Airfield, Leslie, Scotland, Grampian, United Kingdom", 
-        "sw_latitude": 57.307
+        "fullname": "Insch Airfield, Leslie, Scotland, United Kingdom", 
+        "date_indexed": "2010-12-02T12:21:01Z"
       }, 
       "id": 22656539
     }

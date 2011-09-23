@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516548, 
+        "placetype": "airport", 
         "name": "Novomalorossiyskaya Southeast Airport", 
-        "ne_latitude": 45.604, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597811", 
+          "woe:state=2346884", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516548, 
         "ne_longitude": 39.953, 
         "longitude": 39.947, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597811, 
+        "ne_latitude": 45.604, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2055569, 
+        "sw_latitude": 45.595, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.600, 
         "sw_longitude": 39.940, 
         "fullname": "Novomalorossiyskaya Southeast Airport, Krasnodarskiy Kray, Vyselkovsky, Russia", 
-        "sw_latitude": 45.595
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516548
     }

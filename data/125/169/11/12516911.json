@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516911, 
+        "placetype": "airport", 
         "name": "Sovetskaye Airport", 
-        "ne_latitude": 49.008, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599141", 
+          "woe:state=2346921", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516911, 
         "ne_longitude": 42.150, 
         "longitude": 42.143, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599141, 
+        "ne_latitude": 49.008, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2123599, 
+        "sw_latitude": 48.999, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.003, 
         "sw_longitude": 42.136, 
-        "fullname": "Sovetskaye Airport, Sovetskaya, Rostovskaya Oblast, Sovetsky, Russia", 
-        "sw_latitude": 48.999
+        "fullname": "Sovetskaye Airport, Sovetskaya, Rostovskaya Oblast, Russia", 
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516911
     }

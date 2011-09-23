@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 55805835, 
-        "name": "Slatington Airport", 
         "alias_ENG_V": [
           "69n"
         ], 
-        "ne_latitude": 40.770, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Slatington Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589766", 
+          "woe:state=2347597", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 55805835, 
         "ne_longitude": -75.601, 
         "longitude": -75.607, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589766, 
+        "ne_latitude": 40.770, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 28745494, 
+        "sw_latitude": 40.761, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.765, 
         "sw_longitude": -75.613, 
-        "fullname": "Slatington Airport, Washington, Pennsylvania, Lehigh, United States", 
-        "sw_latitude": 40.761
+        "fullname": "Slatington Airport, Washington, Pennsylvania, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 55805835
     }

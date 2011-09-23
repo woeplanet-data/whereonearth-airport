@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514244, 
+        "placetype": "airport", 
         "name": "Ak Tasty Airport", 
-        "ne_latitude": 45.618, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345983", 
+          "woe:country=23424871", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514244, 
         "ne_longitude": 72.586, 
         "longitude": 72.580, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345983, 
+        "ne_latitude": 45.618, 
         "iso": "KZ", 
-        "date_indexed": "2010-12-02T08:54:13Z", 
-        "parent_woeid": 2264606, 
+        "sw_latitude": 45.609, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.614, 
         "sw_longitude": 72.573, 
         "fullname": "Ak Tasty Airport, Zhambyl, Kazakhstan", 
-        "sw_latitude": 45.609
+        "date_indexed": "2010-12-02T08:54:13Z"
       }, 
       "id": 12514244
     }

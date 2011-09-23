@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511409, 
+        "placetype": "airport", 
         "name": "Dermantsi Airport", 
-        "ne_latitude": 43.157, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55873889", 
+          "woe:state=20070064", 
+          "woe:country=23424771", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511409, 
         "ne_longitude": 24.294, 
         "longitude": 24.288, 
-        "placetype": "Airport", 
+        "parent_woeid": 55873889, 
+        "ne_latitude": 43.157, 
         "iso": "BG", 
-        "date_indexed": "2010-12-02T16:14:37Z", 
-        "parent_woeid": 835638, 
+        "sw_latitude": 43.148, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.153, 
         "sw_longitude": 24.282, 
         "fullname": "Dermantsi Airport, Lovech, Lukovit, Bulgaria", 
-        "sw_latitude": 43.148
+        "date_indexed": "2010-12-02T16:14:37Z"
       }, 
       "id": 12511409
     }

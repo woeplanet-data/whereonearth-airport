@@ -3,28 +3,74 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -116.249, 
-              43.547
-            ], 
-            [
-              -116.249, 
-              43.573
-            ], 
-            [
-              -116.187, 
-              43.573
-            ], 
-            [
-              -116.187, 
-              43.547
-            ], 
-            [
-              -116.249, 
-              43.547
+              [
+                -116.221, 
+                43.572
+              ], 
+              [
+                -116.218, 
+                43.570
+              ], 
+              [
+                -116.186, 
+                43.571
+              ], 
+              [
+                -116.184, 
+                43.570
+              ], 
+              [
+                -116.180, 
+                43.572
+              ], 
+              [
+                -116.180, 
+                43.572
+              ], 
+              [
+                -116.181, 
+                43.573
+              ], 
+              [
+                -116.186, 
+                43.571
+              ], 
+              [
+                -116.215, 
+                43.561
+              ], 
+              [
+                -116.222, 
+                43.556
+              ], 
+              [
+                -116.236, 
+                43.558
+              ], 
+              [
+                -116.240, 
+                43.558
+              ], 
+              [
+                -116.236, 
+                43.565
+              ], 
+              [
+                -116.234, 
+                43.573
+              ], 
+              [
+                -116.224, 
+                43.572
+              ], 
+              [
+                -116.221, 
+                43.572
+              ]
             ]
           ]
         ]
@@ -32,23 +78,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518880, 
-        "name": "Boise Air Terminal", 
         "alias_ENG_V": [
           "Boise Terminal"
         ], 
-        "ne_latitude": 43.573, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -116.187, 
-        "longitude": -116.222, 
-        "placetype": "Airport", 
-        "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
+        "name": "Boise Air Terminal", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:suburb=2421870", 
+          "woe:county=12588034", 
+          "woe:state=2347571", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518880, 
+        "ne_longitude": -116.180, 
+        "longitude": -116.220, 
         "parent_woeid": 2421870, 
-        "latitude": 43.571, 
-        "sw_longitude": -116.249, 
-        "fullname": "Boise Air Terminal, Boise, Idaho, Ada, United States", 
-        "sw_latitude": 43.547
+        "ne_latitude": 43.573, 
+        "iso": "US", 
+        "sw_latitude": 43.556, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 43.565, 
+        "sw_longitude": -116.240, 
+        "fullname": "Boise Air Terminal, Boise, Idaho, United States", 
+        "iata_code": "BOI", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518880
     }

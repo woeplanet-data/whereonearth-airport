@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388242, 
-        "name": "Sebewaing Airport", 
         "alias_ENG_V": [
           "98g"
         ], 
-        "ne_latitude": 43.733, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Sebewaing Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588745", 
+          "woe:state=2347581", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388242, 
         "ne_longitude": -83.461, 
         "longitude": -83.463, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588745, 
+        "ne_latitude": 43.733, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2490429, 
+        "sw_latitude": 43.726, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.732, 
         "sw_longitude": -83.467, 
-        "fullname": "Sebewaing Airport, Sebewaing, Michigan, Huron, United States", 
-        "sw_latitude": 43.726
+        "fullname": "Sebewaing Airport, Sebewaing, Michigan, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388242
     }

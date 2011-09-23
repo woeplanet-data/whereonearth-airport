@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510463, 
+        "placetype": "airport", 
         "name": "Bella Vista Airport", 
-        "ne_latitude": -28.514, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=20070825", 
+          "woe:state=2344680", 
+          "woe:country=23424747", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510463, 
         "ne_longitude": -59.026, 
         "longitude": -59.031, 
-        "placetype": "Airport", 
+        "parent_woeid": 20070825, 
+        "ne_latitude": -28.514, 
         "iso": "AR", 
-        "date_indexed": "2010-12-02T17:41:29Z", 
-        "parent_woeid": 466908, 
+        "sw_latitude": -28.523, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -28.518, 
         "sw_longitude": -59.036, 
-        "fullname": "Bella Vista Airport, Bella Vista, Corrientes, Bella Vista, Argentina", 
-        "sw_latitude": -28.523
+        "fullname": "Bella Vista Airport, Bella Vista, Corrientes, Argentina", 
+        "date_indexed": "2010-12-02T17:41:29Z"
       }, 
       "id": 12510463
     }

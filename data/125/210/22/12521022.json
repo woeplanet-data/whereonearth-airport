@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521022, 
-        "name": "Moraine Air Park", 
         "alias_ENG_V": [
           "I73"
         ], 
-        "ne_latitude": 39.685, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Moraine Air Park", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589583", 
+          "woe:state=2347594", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521022, 
         "ne_longitude": -84.232, 
         "longitude": -84.242, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589583, 
+        "ne_latitude": 39.685, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2453899, 
+        "sw_latitude": 39.681, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 39.683, 
         "sw_longitude": -84.249, 
-        "fullname": "Moraine Air Park, Moraine, Ohio, Montgomery, United States", 
-        "sw_latitude": 39.681
+        "fullname": "Moraine Air Park, Moraine, Ohio, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12521022
     }

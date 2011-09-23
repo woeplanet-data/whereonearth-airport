@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520313, 
-        "name": "Iowa Falls Municipal Airport", 
         "alias_ENG_V": [
           "Iowa Falls Airport"
         ], 
-        "ne_latitude": 42.475, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Iowa Falls Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588313", 
+          "woe:state=2347574", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520313, 
         "ne_longitude": -93.261, 
         "longitude": -93.263, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588313, 
+        "ne_latitude": 42.475, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2427428, 
+        "sw_latitude": 42.466, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.470, 
         "sw_longitude": -93.276, 
-        "fullname": "Iowa Falls Municipal Airport, Iowa Falls, Iowa, Hardin, United States", 
-        "sw_latitude": 42.466
+        "fullname": "Iowa Falls Municipal Airport, Iowa Falls, Iowa, United States", 
+        "iata_code": "IFA", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520313
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522186, 
-        "name": "Trenton Municipal Airport", 
         "alias_ENG_V": [
           "TRX"
         ], 
-        "ne_latitude": 40.090, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Trenton Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589005", 
+          "woe:state=2347584", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522186, 
         "ne_longitude": -93.590, 
         "longitude": -93.593, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589005, 
+        "ne_latitude": 40.090, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2507848, 
+        "sw_latitude": 40.077, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.079, 
         "sw_longitude": -93.594, 
-        "fullname": "Trenton Municipal Airport, Trenton, Missouri, Grundy, United States", 
-        "sw_latitude": 40.077
+        "fullname": "Trenton Municipal Airport, Trenton, Missouri, United States", 
+        "iata_code": "TRX", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522186
     }

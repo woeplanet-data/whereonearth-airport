@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 56049635, 
+        "placetype": "airport", 
         "name": "Aeroporto de Jacarepagua", 
-        "ne_latitude": -22.983, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12581062", 
+          "woe:state=2344862", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56049635, 
         "ne_longitude": -43.368, 
         "longitude": -43.370, 
-        "placetype": "Airport", 
+        "parent_woeid": 12581062, 
+        "ne_latitude": -22.983, 
         "alias_POR_V": [
           "Aeroporto de Jacarepagu\u00e1"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:28Z", 
-        "parent_woeid": 450868, 
+        "sw_latitude": -22.993, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -22.988, 
         "sw_longitude": -43.373, 
-        "fullname": "Aeroporto de Jacarepagua, S\u00e3o Mateus, Rio de Janeiro, Rio de Janeiro, Brazil", 
-        "sw_latitude": -22.993
+        "fullname": "Aeroporto de Jacarepagua, S\u00e3o Mateus, Rio de Janeiro, Brazil", 
+        "date_indexed": "2010-12-02T18:01:28Z"
       }, 
       "id": 56049635
     }

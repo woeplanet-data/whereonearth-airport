@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523774, 
-        "name": "Oryahovitsa Airport", 
         "alias_ENG_V": [
           "GOZ"
         ], 
-        "ne_latitude": 42.338, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Oryahovitsa Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55873812", 
+          "woe:state=20070054", 
+          "woe:country=23424771", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523774, 
         "ne_longitude": 25.623, 
         "longitude": 25.617, 
-        "placetype": "Airport", 
+        "parent_woeid": 55873812, 
+        "ne_latitude": 42.338, 
         "iso": "BG", 
-        "date_indexed": "2010-12-02T16:14:37Z", 
-        "parent_woeid": 837093, 
+        "sw_latitude": 42.329, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.333, 
         "sw_longitude": 25.611, 
         "fullname": "Oryahovitsa Airport, Stara Zagora, Stara Zagora, Bulgaria", 
-        "sw_latitude": 42.329
+        "iata_code": "GOZ", 
+        "date_indexed": "2010-12-02T16:14:37Z"
       }, 
       "id": 12523774
     }

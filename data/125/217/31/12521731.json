@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521731, 
-        "name": "San Patricio County Airport", 
         "alias_ENG_V": [
           "T69"
         ], 
-        "ne_latitude": 28.045, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "San Patricio County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590211", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521731, 
         "ne_longitude": -97.538, 
         "longitude": -97.542, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590211, 
+        "ne_latitude": 28.045, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2494102, 
+        "sw_latitude": 28.034, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 28.043, 
         "sw_longitude": -97.547, 
-        "fullname": "San Patricio County Airport, Sinton, Texas, San Patricio, United States", 
-        "sw_latitude": 28.034
+        "fullname": "San Patricio County Airport, Sinton, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521731
     }

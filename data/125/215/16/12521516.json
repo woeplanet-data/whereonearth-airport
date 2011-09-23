@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521516, 
+        "placetype": "airport", 
         "name": "Raceway Airport", 
-        "ne_latitude": 38.054, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12588266", 
+          "woe:state=2347573", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521516, 
         "ne_longitude": -87.376, 
         "longitude": -87.381, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588266, 
+        "ne_latitude": 38.054, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2378003, 
+        "sw_latitude": 38.045, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.049, 
         "sw_longitude": -87.387, 
-        "fullname": "Raceway Airport, Chandler, Indiana, Warrick, United States", 
-        "sw_latitude": 38.045
+        "fullname": "Raceway Airport, Chandler, Indiana, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521516
     }

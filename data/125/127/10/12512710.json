@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512710, 
+        "placetype": "airport", 
         "name": "Siwa Oasis North Airport", 
-        "ne_latitude": 29.351, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345244", 
+          "woe:country=23424802", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512710, 
         "ne_longitude": 25.511, 
         "longitude": 25.506, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345244, 
+        "ne_latitude": 29.351, 
         "iso": "EG", 
-        "date_indexed": "2010-12-02T12:16:51Z", 
-        "parent_woeid": 1526392, 
+        "sw_latitude": 29.342, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 29.347, 
         "sw_longitude": 25.501, 
         "fullname": "Siwa Oasis North Airport, Siwa, Matruh, Egypt", 
-        "sw_latitude": 29.342
+        "date_indexed": "2010-12-02T12:16:51Z"
       }, 
       "id": 12512710
     }

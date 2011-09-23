@@ -3,28 +3,66 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              120.331, 
-              22.570
-            ], 
-            [
-              120.331, 
-              22.579
-            ], 
-            [
-              120.366, 
-              22.579
-            ], 
-            [
-              120.366, 
-              22.570
-            ], 
-            [
-              120.331, 
-              22.570
+              [
+                120.342, 
+                22.573
+              ], 
+              [
+                120.343, 
+                22.574
+              ], 
+              [
+                120.346, 
+                22.574
+              ], 
+              [
+                120.347, 
+                22.575
+              ], 
+              [
+                120.349, 
+                22.576
+              ], 
+              [
+                120.351, 
+                22.573
+              ], 
+              [
+                120.348, 
+                22.570
+              ], 
+              [
+                120.349, 
+                22.566
+              ], 
+              [
+                120.345, 
+                22.569
+              ], 
+              [
+                120.343, 
+                22.570
+              ], 
+              [
+                120.342, 
+                22.570
+              ], 
+              [
+                120.341, 
+                22.570
+              ], 
+              [
+                120.338, 
+                22.572
+              ], 
+              [
+                120.342, 
+                22.573
+              ]
             ]
           ]
         ]
@@ -32,32 +70,37 @@
       "type": "Feature", 
       "properties": {
         "lang": "CHI", 
-        "woeid": 2306255, 
-        "name": "\u9ad8\u96c4\u570b\u969b\u822a\u7a7a\u7ad9", 
-        "alias_CHI_V": [
-          "\u9ad8\u96c4\u570b\u969b\u6a5f\u5834"
-        ], 
-        "alias_ENG_P": [
-          "Kaohsiung International Airport"
-        ], 
-        "ne_latitude": 22.579, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "Kaosiung International Airport"
         ], 
-        "ne_longitude": 120.366, 
+        "name": "\u9ad8\u96c4\u570b\u969b\u822a\u7a7a\u7ad9", 
+        "alias_ENG_P": [
+          "Kaohsiung International Airport"
+        ], 
+        "parent_woeid": 20070570, 
+        "woeid": 2306255, 
+        "alias_CHI_V": [
+          "\u9ad8\u96c4\u570b\u969b\u6a5f\u5834"
+        ], 
+        "provider": "geoplanet 7.6.0", 
         "longitude": 120.345, 
-        "placetype": "Airport", 
+        "ne_longitude": 120.351, 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=20070570", 
+          "woe:country=23424971", 
+          "woe:planet=1"
+        ], 
         "iso": "TW", 
-        "date_indexed": "2010-12-02T16:16:00Z", 
-        "parent_woeid": 2306180, 
-        "latitude": 22.570, 
-        "sw_longitude": 120.331, 
-        "fullname": "\u9ad8\u96c4\u570b\u969b\u822a\u7a7a\u7ad9, Kaohsiung City, Kaohsiung City, Kaohsiung City, Taiwan", 
+        "sw_latitude": 22.566, 
+        "ne_latitude": 22.576, 
+        "latitude": 22.572, 
+        "sw_longitude": 120.338, 
+        "fullname": "\u9ad8\u96c4\u570b\u969b\u822a\u7a7a\u7ad9, Kaohsiung City, Kaohsiung City, Taiwan", 
         "alias_NOR_Q": [
           "Kaohsiung Flyplass"
         ], 
-        "sw_latitude": 22.570
+        "date_indexed": "2010-12-02T16:16:00Z"
       }, 
       "id": 2306255
     }

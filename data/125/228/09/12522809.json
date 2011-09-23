@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522809, 
+        "placetype": "airport", 
         "name": "Las Flores Airport", 
-        "ne_latitude": 9.505, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=26805139", 
+          "woe:county=26804583", 
+          "woe:state=2347692", 
+          "woe:country=23424982", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522809, 
         "ne_longitude": -62.745, 
         "longitude": -62.750, 
-        "placetype": "Airport", 
+        "parent_woeid": 26805139, 
+        "ne_latitude": 9.505, 
         "iso": "VE", 
-        "date_indexed": "2010-12-02T16:11:43Z", 
-        "parent_woeid": 468607, 
+        "sw_latitude": 9.495, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 9.500, 
         "sw_longitude": -62.755, 
         "fullname": "Las Flores Airport, Monagas, Maturin, Venezuela", 
-        "sw_latitude": 9.495
+        "date_indexed": "2010-12-02T16:11:43Z"
       }, 
       "id": 12522809
     }

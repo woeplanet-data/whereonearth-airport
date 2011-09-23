@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514359, 
+        "placetype": "airport", 
         "name": "Karaganda Southeast Airport", 
-        "ne_latitude": 49.811, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=20070178", 
+          "woe:country=23424871", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514359, 
         "ne_longitude": 73.147, 
         "longitude": 73.140, 
-        "placetype": "Airport", 
+        "parent_woeid": 20070178, 
+        "ne_latitude": 49.811, 
         "iso": "KZ", 
-        "date_indexed": "2010-12-02T08:54:13Z", 
-        "parent_woeid": 2261214, 
+        "sw_latitude": 49.802, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.807, 
         "sw_longitude": 73.132, 
         "fullname": "Karaganda Southeast Airport, Qaraghandy, Qaraghandy, Kazakhstan", 
-        "sw_latitude": 49.802
+        "date_indexed": "2010-12-02T08:54:13Z"
       }, 
       "id": 12514359
     }

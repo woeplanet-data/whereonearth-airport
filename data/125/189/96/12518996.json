@@ -3,28 +3,142 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -77.341, 
-              37.491
-            ], 
-            [
-              -77.341, 
-              37.523
-            ], 
-            [
-              -77.292, 
-              37.523
-            ], 
-            [
-              -77.292, 
-              37.491
-            ], 
-            [
-              -77.341, 
-              37.491
+              [
+                -77.334, 
+                37.507
+              ], 
+              [
+                -77.339, 
+                37.508
+              ], 
+              [
+                -77.340, 
+                37.507
+              ], 
+              [
+                -77.342, 
+                37.512
+              ], 
+              [
+                -77.340, 
+                37.513
+              ], 
+              [
+                -77.334, 
+                37.513
+              ], 
+              [
+                -77.337, 
+                37.518
+              ], 
+              [
+                -77.337, 
+                37.519
+              ], 
+              [
+                -77.336, 
+                37.520
+              ], 
+              [
+                -77.334, 
+                37.520
+              ], 
+              [
+                -77.333, 
+                37.520
+              ], 
+              [
+                -77.332, 
+                37.520
+              ], 
+              [
+                -77.328, 
+                37.523
+              ], 
+              [
+                -77.329, 
+                37.522
+              ], 
+              [
+                -77.329, 
+                37.518
+              ], 
+              [
+                -77.324, 
+                37.517
+              ], 
+              [
+                -77.329, 
+                37.518
+              ], 
+              [
+                -77.330, 
+                37.512
+              ], 
+              [
+                -77.327, 
+                37.508
+              ], 
+              [
+                -77.324, 
+                37.507
+              ], 
+              [
+                -77.320, 
+                37.504
+              ], 
+              [
+                -77.319, 
+                37.503
+              ], 
+              [
+                -77.319, 
+                37.499
+              ], 
+              [
+                -77.319, 
+                37.499
+              ], 
+              [
+                -77.321, 
+                37.499
+              ], 
+              [
+                -77.320, 
+                37.502
+              ], 
+              [
+                -77.320, 
+                37.504
+              ], 
+              [
+                -77.323, 
+                37.508
+              ], 
+              [
+                -77.323, 
+                37.511
+              ], 
+              [
+                -77.327, 
+                37.508
+              ], 
+              [
+                -77.329, 
+                37.507
+              ], 
+              [
+                -77.332, 
+                37.505
+              ], 
+              [
+                -77.334, 
+                37.507
+              ]
             ]
           ]
         ]
@@ -32,23 +146,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518996, 
-        "name": "Richmond International Airport", 
         "alias_ENG_V": [
           "Byrd International Airport"
         ], 
-        "ne_latitude": 37.523, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -77.292, 
+        "name": "Richmond International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590364", 
+          "woe:state=2347605", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518996, 
+        "ne_longitude": -77.319, 
         "longitude": -77.333, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590364, 
+        "ne_latitude": 37.523, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2438700, 
-        "latitude": 37.509, 
-        "sw_longitude": -77.341, 
-        "fullname": "Richmond International Airport, Lewis Gardens, Virginia, Henrico, United States", 
-        "sw_latitude": 37.491
+        "sw_latitude": 37.499, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 37.513, 
+        "sw_longitude": -77.342, 
+        "fullname": "Richmond International Airport, Lewis Gardens, Virginia, United States", 
+        "iata_code": "RIC", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518996
     }

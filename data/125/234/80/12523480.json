@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523480, 
-        "name": "Arboletas Airport", 
         "alias_ENG_V": [
           "ARO"
         ], 
-        "ne_latitude": 8.851, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Arboletas Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26796620", 
+          "woe:state=2345048", 
+          "woe:country=23424787", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523480, 
         "ne_longitude": -76.419, 
         "longitude": -76.423, 
-        "placetype": "Airport", 
+        "parent_woeid": 26796620, 
+        "ne_latitude": 8.851, 
         "iso": "CO", 
-        "date_indexed": "2010-12-02T17:57:37Z", 
-        "parent_woeid": 350920, 
+        "sw_latitude": 8.842, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 8.846, 
         "sw_longitude": -76.428, 
-        "fullname": "Arboletas Airport, Arboletes, Antioquia, Arboletes, Colombia", 
-        "sw_latitude": 8.842
+        "fullname": "Arboletas Airport, Arboletes, Antioquia, Colombia", 
+        "iata_code": "ARO", 
+        "date_indexed": "2010-12-02T17:57:37Z"
       }, 
       "id": 12523480
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513359, 
-        "name": "Guanaja Airport", 
         "alias_ENG_V": [
           "GJA"
         ], 
-        "ne_latitude": 16.464, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Guanaja Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26813664", 
+          "woe:state=2345633", 
+          "woe:country=23424841", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513359, 
         "ne_longitude": -85.899, 
         "longitude": -85.903, 
-        "placetype": "Airport", 
+        "parent_woeid": 26813664, 
+        "ne_latitude": 16.464, 
         "iso": "HN", 
-        "date_indexed": "2010-12-02T19:21:06Z", 
-        "parent_woeid": 102044, 
+        "sw_latitude": 16.455, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 16.459, 
         "sw_longitude": -85.908, 
-        "fullname": "Guanaja Airport, Guanaja, Islas de la Bah\u00eda, Guanaja, Honduras", 
-        "sw_latitude": 16.455
+        "fullname": "Guanaja Airport, Guanaja, Islas de la Bah\u00eda, Honduras", 
+        "iata_code": "GJA", 
+        "date_indexed": "2010-12-02T19:21:06Z"
       }, 
       "id": 12513359
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521485, 
+        "placetype": "airport", 
         "name": "Propst Airport", 
-        "ne_latitude": 35.396, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12589386", 
+          "woe:state=2347592", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521485, 
         "ne_longitude": -80.570, 
         "longitude": -80.576, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589386, 
+        "ne_latitude": 35.396, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2384017, 
+        "sw_latitude": 35.387, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.392, 
         "sw_longitude": -80.581, 
-        "fullname": "Propst Airport, Concord, North Carolina, Cabarrus, United States", 
-        "sw_latitude": 35.387
+        "fullname": "Propst Airport, Concord, North Carolina, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521485
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510420, 
+        "placetype": "airport", 
         "name": "Kalinino Airport", 
-        "ne_latitude": 41.108, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=15022541", 
+          "woe:state=20070207", 
+          "woe:country=23424743", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510420, 
         "ne_longitude": 44.252, 
         "longitude": 44.246, 
-        "placetype": "Airport", 
+        "parent_woeid": 15022541, 
+        "ne_latitude": 41.108, 
         "iso": "AM", 
-        "date_indexed": "2010-12-02T12:16:10Z", 
-        "parent_woeid": 2214397, 
+        "sw_latitude": 41.099, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.104, 
         "sw_longitude": 44.240, 
         "fullname": "Kalinino Airport, Lorri, Kalinino Shrjan, Armenia", 
-        "sw_latitude": 41.099
+        "date_indexed": "2010-12-02T12:16:10Z"
       }, 
       "id": 12510420
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519915, 
-        "name": "Glenview Naval Air Station", 
         "alias_ENG_V": [
           "Glenview NAS"
         ], 
-        "ne_latitude": 42.088, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Glenview Naval Air Station", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588093", 
+          "woe:state=2347572", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519915, 
         "ne_longitude": -87.812, 
         "longitude": -87.818, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588093, 
+        "ne_latitude": 42.088, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2411330, 
+        "sw_latitude": 42.079, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.083, 
         "sw_longitude": -87.824, 
-        "fullname": "Glenview Naval Air Station, Glenview, Illinois, Cook, United States", 
-        "sw_latitude": 42.079
+        "fullname": "Glenview Naval Air Station, Glenview, Illinois, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12519915
     }

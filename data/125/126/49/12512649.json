@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512649, 
+        "placetype": "airport", 
         "name": "San Carlos Airport", 
-        "ne_latitude": -2.162, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=26810215", 
+          "woe:county=26809603", 
+          "woe:state=2345211", 
+          "woe:country=23424801", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512649, 
         "ne_longitude": -79.429, 
         "longitude": -79.433, 
-        "placetype": "Airport", 
+        "parent_woeid": 26810215, 
+        "ne_latitude": -2.162, 
         "iso": "EC", 
-        "date_indexed": "2010-12-02T17:51:45Z", 
-        "parent_woeid": 375756, 
+        "sw_latitude": -2.171, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -2.167, 
         "sw_longitude": -79.438, 
-        "fullname": "San Carlos Airport, Naranjito, Guayas, Naranjito, Ecuador", 
-        "sw_latitude": -2.171
+        "fullname": "San Carlos Airport, Naranjito, Guayas, Ecuador", 
+        "date_indexed": "2010-12-02T17:51:45Z"
       }, 
       "id": 12512649
     }

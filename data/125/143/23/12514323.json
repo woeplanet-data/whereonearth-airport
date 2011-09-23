@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514323, 
+        "placetype": "airport", 
         "name": "Dzhambeyty Airport", 
-        "ne_latitude": 50.257, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345998", 
+          "woe:country=23424871", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514323, 
         "ne_longitude": 52.562, 
         "longitude": 52.555, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345998, 
+        "ne_latitude": 50.257, 
         "iso": "KZ", 
-        "date_indexed": "2010-12-02T08:54:13Z", 
-        "parent_woeid": 2264351, 
+        "sw_latitude": 50.247, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.252, 
         "sw_longitude": 52.548, 
         "fullname": "Dzhambeyty Airport, Batys Qazaqstan, Kazakhstan", 
-        "sw_latitude": 50.247
+        "date_indexed": "2010-12-02T08:54:13Z"
       }, 
       "id": 12514323
     }

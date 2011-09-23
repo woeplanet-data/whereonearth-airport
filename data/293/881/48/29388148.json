@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388148, 
-        "name": "Ball Airport", 
         "alias_ENG_V": [
           "42te"
         ], 
-        "ne_latitude": 28.887, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Ball Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590241", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388148, 
         "ne_longitude": -97.016, 
         "longitude": -97.018, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590241, 
+        "ne_latitude": 28.887, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2512082, 
+        "sw_latitude": 28.878, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 28.880, 
         "sw_longitude": -97.026, 
-        "fullname": "Ball Airport, Victoria, Texas, Victoria, United States", 
-        "sw_latitude": 28.878
+        "fullname": "Ball Airport, Victoria, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388148
     }

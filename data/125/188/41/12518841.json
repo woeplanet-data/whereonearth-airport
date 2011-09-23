@@ -3,28 +3,46 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -83.761, 
-              42.951
-            ], 
-            [
-              -83.761, 
-              42.976
-            ], 
-            [
-              -83.726, 
-              42.976
-            ], 
-            [
-              -83.726, 
-              42.951
-            ], 
-            [
-              -83.761, 
-              42.951
+              [
+                -83.743, 
+                42.974
+              ], 
+              [
+                -83.746, 
+                42.972
+              ], 
+              [
+                -83.748, 
+                42.974
+              ], 
+              [
+                -83.743, 
+                42.974
+              ], 
+              [
+                -83.743, 
+                42.976
+              ], 
+              [
+                -83.741, 
+                42.974
+              ], 
+              [
+                -83.739, 
+                42.972
+              ], 
+              [
+                -83.740, 
+                42.972
+              ], 
+              [
+                -83.743, 
+                42.974
+              ]
             ]
           ]
         ]
@@ -32,23 +50,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518841, 
-        "name": "Bishop International Airport", 
         "alias_ENG_V": [
           "FNT"
         ], 
-        "ne_latitude": 42.976, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -83.726, 
-        "longitude": -83.740, 
-        "placetype": "Airport", 
-        "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
+        "name": "Bishop International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:suburb=55858978", 
+          "woe:county=12588738", 
+          "woe:state=2347581", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518841, 
+        "ne_longitude": -83.739, 
+        "longitude": -83.743, 
         "parent_woeid": 55858978, 
-        "latitude": 42.974, 
-        "sw_longitude": -83.761, 
-        "fullname": "Bishop International Airport, Flint, Michigan, Genesee, United States", 
-        "sw_latitude": 42.951
+        "ne_latitude": 42.976, 
+        "iso": "US", 
+        "sw_latitude": 42.972, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 42.973, 
+        "sw_longitude": -83.748, 
+        "fullname": "Bishop International Airport, Flint, Michigan, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518841
     }

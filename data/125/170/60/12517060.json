@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517060, 
+        "placetype": "airport", 
         "name": "Tytkum North Airport", 
-        "ne_latitude": 66.223, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598692", 
+          "woe:state=20070513", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517060, 
         "ne_longitude": 169.829, 
         "longitude": 169.818, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598692, 
+        "ne_latitude": 66.223, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2001213, 
+        "sw_latitude": 66.214, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 66.219, 
         "sw_longitude": 169.807, 
         "fullname": "Tytkum North Airport, Chukotskiy Avtonomnyy Okrug, Anadyrsky, Russia", 
-        "sw_latitude": 66.214
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12517060
     }

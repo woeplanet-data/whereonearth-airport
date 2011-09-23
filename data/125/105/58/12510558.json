@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510558, 
+        "placetype": "airport", 
         "name": "Santa Maria Airport", 
-        "ne_latitude": -26.669, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=20070643", 
+          "woe:state=2344676", 
+          "woe:country=23424747", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510558, 
         "ne_longitude": -66.015, 
         "longitude": -66.020, 
-        "placetype": "Airport", 
+        "parent_woeid": 20070643, 
+        "ne_latitude": -26.669, 
         "iso": "AR", 
-        "date_indexed": "2010-12-02T17:41:29Z", 
-        "parent_woeid": 332131, 
+        "sw_latitude": -26.678, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -26.674, 
         "sw_longitude": -66.025, 
-        "fullname": "Santa Maria Airport, Santa Mar\u00eda, Catamarca, Santa Maria, Argentina", 
-        "sw_latitude": -26.678
+        "fullname": "Santa Maria Airport, Santa Mar\u00eda, Catamarca, Argentina", 
+        "date_indexed": "2010-12-02T17:41:29Z"
       }, 
       "id": 12510558
     }

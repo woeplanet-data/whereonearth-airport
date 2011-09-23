@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "CZE", 
-        "woeid": 56049738, 
+        "placetype": "airport", 
         "name": "Letiste Hustopece", 
-        "ne_latitude": 48.946, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12605140", 
+          "woe:county=12582546", 
+          "woe:state=20070503", 
+          "woe:country=23424810", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56049738, 
         "ne_longitude": 16.725, 
         "longitude": 16.715, 
-        "placetype": "Airport", 
+        "parent_woeid": 12605140, 
+        "ne_latitude": 48.946, 
         "iso": "CZ", 
-        "date_indexed": "2010-12-02T08:56:52Z", 
-        "parent_woeid": 790382, 
+        "sw_latitude": 48.933, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.939, 
         "sw_longitude": 16.706, 
-        "fullname": "Letiste Hustopece, Hustope\u010de, Jihomoravsk\u00fd, B\u0159eclav, Czech Republic", 
-        "sw_latitude": 48.933
+        "fullname": "Letiste Hustopece, Hustope\u010de, Jihomoravsk\u00fd, Czech Republic", 
+        "date_indexed": "2010-12-02T08:56:52Z"
       }, 
       "id": 56049738
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 55805816, 
-        "name": "Georgetown Airport", 
         "alias_ENG_V": [
           "E36"
         ], 
-        "ne_latitude": 38.921, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Georgetown Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587678", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 55805816, 
         "ne_longitude": -120.858, 
         "longitude": -120.864, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587678, 
+        "ne_latitude": 38.921, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2371529, 
+        "sw_latitude": 38.912, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.917, 
         "sw_longitude": -120.870, 
-        "fullname": "Georgetown Airport, Buffalo Hill, California, El Dorado, United States", 
-        "sw_latitude": 38.912
+        "fullname": "Georgetown Airport, Buffalo Hill, California, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 55805816
     }

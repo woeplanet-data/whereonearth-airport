@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518019, 
-        "name": "Mwanza Airport", 
         "alias_ENG_V": [
           "MWZ"
         ], 
-        "ne_latitude": -2.436, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Mwanza Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=56025107", 
+          "woe:state=2347363", 
+          "woe:country=23424973", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518019, 
         "ne_longitude": 32.940, 
         "longitude": 32.929, 
-        "placetype": "Airport", 
+        "parent_woeid": 56025107, 
+        "ne_latitude": -2.436, 
         "iso": "TZ", 
-        "date_indexed": "2010-12-02T12:16:03Z", 
-        "parent_woeid": 1443948, 
+        "sw_latitude": -2.458, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -2.447, 
         "sw_longitude": 32.917, 
-        "fullname": "Mwanza Airport, Ilemera, Mwanza, Ilemela, Tanzania", 
-        "sw_latitude": -2.458
+        "fullname": "Mwanza Airport, Ilemera, Mwanza, Tanzania", 
+        "iata_code": "MWZ", 
+        "date_indexed": "2010-12-02T12:16:03Z"
       }, 
       "id": 12518019
     }

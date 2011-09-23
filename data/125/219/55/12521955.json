@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521955, 
-        "name": "St Charles County Smartt Airport", 
         "alias_ENG_V": [
           "St Charles Smart Field Airport"
         ], 
-        "ne_latitude": 38.935, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "St Charles County Smartt Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589063", 
+          "woe:state=2347584", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521955, 
         "ne_longitude": -90.421, 
         "longitude": -90.435, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589063, 
+        "ne_latitude": 38.935, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2520588, 
+        "sw_latitude": 38.922, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.932, 
         "sw_longitude": -90.435, 
-        "fullname": "St Charles County Smartt Airport, Beckett, Missouri, St. Charles, United States", 
-        "sw_latitude": 38.922
+        "fullname": "St Charles County Smartt Airport, Beckett, Missouri, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521955
     }

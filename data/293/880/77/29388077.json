@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388077, 
+        "placetype": "airport", 
         "name": "Stewart Airport", 
-        "ne_latitude": 39.583, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12588100", 
+          "woe:state=2347572", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388077, 
         "ne_longitude": -87.697, 
         "longitude": -87.698, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588100, 
+        "ne_latitude": 39.583, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2468283, 
+        "sw_latitude": 39.580, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 39.582, 
         "sw_longitude": -87.700, 
-        "fullname": "Stewart Airport, Paris, Illinois, Edgar, United States", 
-        "sw_latitude": 39.580
+        "fullname": "Stewart Airport, Paris, Illinois, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 29388077
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522413, 
+        "placetype": "airport", 
         "name": "Wheeler Municipal Airport", 
-        "ne_latitude": 35.455, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12590248", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522413, 
         "ne_longitude": -100.194, 
         "longitude": -100.199, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590248, 
+        "ne_latitude": 35.455, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2518933, 
+        "sw_latitude": 35.446, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.451, 
         "sw_longitude": -100.205, 
-        "fullname": "Wheeler Municipal Airport, Wheeler, Texas, Wheeler, United States", 
-        "sw_latitude": 35.446
+        "fullname": "Wheeler Municipal Airport, Wheeler, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12522413
     }

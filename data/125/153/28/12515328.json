@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515328, 
+        "placetype": "airport", 
         "name": "Krzewica Airport", 
-        "ne_latitude": 52.075, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=24548786", 
+          "woe:county=12591212", 
+          "woe:state=12577938", 
+          "woe:country=23424923", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515328, 
         "ne_longitude": 22.709, 
         "longitude": 22.701, 
-        "placetype": "Airport", 
+        "parent_woeid": 24548786, 
+        "ne_latitude": 52.075, 
         "iso": "PL", 
-        "date_indexed": "2010-12-02T12:12:45Z", 
-        "parent_woeid": 505806, 
+        "sw_latitude": 52.066, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 52.070, 
         "sw_longitude": 22.694, 
         "fullname": "Krzewica Airport, Lublin, Biala Podlaska County, Poland", 
-        "sw_latitude": 52.066
+        "date_indexed": "2010-12-02T12:12:45Z"
       }, 
       "id": 12515328
     }

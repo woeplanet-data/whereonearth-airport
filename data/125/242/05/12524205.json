@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524205, 
-        "name": "Kimberley Airport", 
         "alias_ENG_V": [
           "YQE Airport"
         ], 
-        "ne_latitude": 49.688, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Kimberley Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375236", 
+          "woe:state=2344916", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524205, 
         "ne_longitude": -115.976, 
         "longitude": -115.983, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375236, 
+        "ne_latitude": 49.688, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 9869, 
+        "sw_latitude": 49.679, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.683, 
         "sw_longitude": -115.990, 
-        "fullname": "Kimberley Airport, Kimberley, British Columbia, East Kootenay, Canada", 
-        "sw_latitude": 49.679
+        "fullname": "Kimberley Airport, Kimberley, British Columbia, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12524205
     }

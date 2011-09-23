@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513885, 
+        "placetype": "airport", 
         "name": "Amara New Airport", 
-        "ne_latitude": 31.825, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55999952", 
+          "woe:state=2345846", 
+          "woe:country=23424855", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513885, 
         "ne_longitude": 47.086, 
         "longitude": 47.081, 
-        "placetype": "Airport", 
+        "parent_woeid": 55999952, 
+        "ne_latitude": 31.825, 
         "iso": "IQ", 
-        "date_indexed": "2010-12-02T16:42:58Z", 
-        "parent_woeid": 1977659, 
+        "sw_latitude": 31.816, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 31.821, 
         "sw_longitude": 47.075, 
         "fullname": "Amara New Airport, Maysan, Amara, Iraq", 
-        "sw_latitude": 31.816
+        "date_indexed": "2010-12-02T16:42:58Z"
       }, 
       "id": 12513885
     }

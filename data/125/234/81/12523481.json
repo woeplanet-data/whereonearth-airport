@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523481, 
-        "name": "Arica Airport", 
         "alias_ENG_V": [
           "ACM"
         ], 
-        "ne_latitude": -2.123, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Arica Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=28358170", 
+          "woe:state=2345047", 
+          "woe:country=23424787", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523481, 
         "ne_longitude": -71.733, 
         "longitude": -71.737, 
-        "placetype": "Airport", 
+        "parent_woeid": 28358170, 
+        "ne_latitude": -2.123, 
         "iso": "CO", 
-        "date_indexed": "2010-12-02T17:57:37Z", 
-        "parent_woeid": 350967, 
+        "sw_latitude": -2.132, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -2.127, 
         "sw_longitude": -71.742, 
-        "fullname": "Arica Airport, Arica, Amazonas, Puerto Arica, Colombia", 
-        "sw_latitude": -2.132
+        "fullname": "Arica Airport, Arica, Amazonas, Colombia", 
+        "iata_code": "ACM", 
+        "date_indexed": "2010-12-02T17:57:37Z"
       }, 
       "id": 12523481
     }

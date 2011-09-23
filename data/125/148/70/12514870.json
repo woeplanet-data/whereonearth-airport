@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514870, 
+        "placetype": "airport", 
         "name": "El Mendozal Airport", 
-        "ne_latitude": 18.030, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12600704", 
+          "woe:state=2346283", 
+          "woe:country=23424900", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514870, 
         "ne_longitude": -95.846, 
         "longitude": -95.851, 
-        "placetype": "Airport", 
+        "parent_woeid": 12600704, 
+        "ne_latitude": 18.030, 
         "iso": "MX", 
-        "date_indexed": "2010-12-02T16:57:55Z", 
-        "parent_woeid": 131334, 
+        "sw_latitude": 18.020, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 18.025, 
         "sw_longitude": -95.855, 
-        "fullname": "El Mendozal Airport, Loma Bonita, Oaxaca, Loma Bonita, Mexico", 
-        "sw_latitude": 18.020
+        "fullname": "El Mendozal Airport, Loma Bonita, Oaxaca, Mexico", 
+        "date_indexed": "2010-12-02T16:57:55Z"
       }, 
       "id": 12514870
     }

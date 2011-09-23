@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520124, 
-        "name": "Hastings Municipal Airport", 
         "alias_ENG_V": [
           "HSI"
         ], 
-        "ne_latitude": 40.619, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Hastings Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589138", 
+          "woe:state=2347586", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520124, 
         "ne_longitude": -98.421, 
         "longitude": -98.427, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589138, 
+        "ne_latitude": 40.619, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2418578, 
+        "sw_latitude": 40.597, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.598, 
         "sw_longitude": -98.439, 
-        "fullname": "Hastings Municipal Airport, Hastings, Nebraska, Adams, United States", 
-        "sw_latitude": 40.597
+        "fullname": "Hastings Municipal Airport, Hastings, Nebraska, United States", 
+        "iata_code": "HSI", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520124
     }

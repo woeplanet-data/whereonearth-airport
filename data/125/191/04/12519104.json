@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519104, 
-        "name": "Catalina Airport", 
         "alias_ENG_V": [
           "Airport in the Sky"
         ], 
-        "ne_latitude": 33.406, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Catalina Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587688", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519104, 
         "ne_longitude": -118.411, 
         "longitude": -118.415, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587688, 
+        "ne_latitude": 33.406, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:15Z", 
-        "parent_woeid": 2357681, 
+        "sw_latitude": 33.400, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 33.403, 
         "sw_longitude": -118.419, 
-        "fullname": "Catalina Airport, Avalon, California, Los Angeles, United States", 
-        "sw_latitude": 33.400
+        "fullname": "Catalina Airport, Avalon, California, United States", 
+        "iata_code": "CIB", 
+        "date_indexed": "2010-12-02T18:39:15Z"
       }, 
       "id": 12519104
     }

@@ -3,28 +3,70 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              3.311, 
-              6.564
-            ], 
-            [
-              3.311, 
-              6.586
-            ], 
-            [
-              3.334, 
-              6.586
-            ], 
-            [
-              3.334, 
-              6.564
-            ], 
-            [
-              3.311, 
-              6.564
+              [
+                3.322, 
+                6.576
+              ], 
+              [
+                3.321, 
+                6.567
+              ], 
+              [
+                3.321, 
+                6.577
+              ], 
+              [
+                3.320, 
+                6.579
+              ], 
+              [
+                3.333, 
+                6.585
+              ], 
+              [
+                3.332, 
+                6.592
+              ], 
+              [
+                3.330, 
+                6.604
+              ], 
+              [
+                3.332, 
+                6.603
+              ], 
+              [
+                3.334, 
+                6.599
+              ], 
+              [
+                3.339, 
+                6.594
+              ], 
+              [
+                3.339, 
+                6.594
+              ], 
+              [
+                3.339, 
+                6.591
+              ], 
+              [
+                3.338, 
+                6.585
+              ], 
+              [
+                3.333, 
+                6.583
+              ], 
+              [
+                3.322, 
+                6.576
+              ]
             ]
           ]
         ]
@@ -32,23 +74,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515073, 
-        "name": "Lagos Murtala Muhammed Airport", 
         "alias_ENG_V": [
           "Lagos Murtala Muhammed"
         ], 
-        "ne_latitude": 6.586, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": 3.334, 
-        "longitude": 3.322, 
-        "placetype": "Airport", 
+        "name": "Lagos Murtala Muhammed Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=56057578", 
+          "woe:state=2346342", 
+          "woe:country=23424908", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515073, 
+        "ne_longitude": 3.339, 
+        "longitude": 3.332, 
+        "parent_woeid": 56057578, 
+        "ne_latitude": 6.604, 
         "iso": "NG", 
-        "date_indexed": "2010-12-02T09:35:13Z", 
-        "parent_woeid": 1394519, 
-        "latitude": 6.575, 
-        "sw_longitude": 3.311, 
-        "fullname": "Lagos Murtala Muhammed Airport, Ikeja, Lagos, Ikeja, Nigeria", 
-        "sw_latitude": 6.564
+        "sw_latitude": 6.567, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 6.589, 
+        "sw_longitude": 3.320, 
+        "fullname": "Lagos Murtala Muhammed Airport, Ikeja, Lagos, Nigeria", 
+        "iata_code": "LOS", 
+        "date_indexed": "2010-12-02T09:35:13Z"
       }, 
       "id": 12515073
     }

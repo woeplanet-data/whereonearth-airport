@@ -3,28 +3,38 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -119.364, 
-              47.182
-            ], 
-            [
-              -119.364, 
-              47.234
-            ], 
-            [
-              -119.277, 
-              47.234
-            ], 
-            [
-              -119.277, 
-              47.182
-            ], 
-            [
-              -119.364, 
-              47.182
+              [
+                -119.314, 
+                47.189
+              ], 
+              [
+                -119.317, 
+                47.186
+              ], 
+              [
+                -119.318, 
+                47.186
+              ], 
+              [
+                -119.319, 
+                47.187
+              ], 
+              [
+                -119.315, 
+                47.190
+              ], 
+              [
+                -119.314, 
+                47.190
+              ], 
+              [
+                -119.314, 
+                47.189
+              ]
             ]
           ]
         ]
@@ -32,23 +42,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519959, 
-        "name": "Grant County International Airport", 
         "alias_ENG_V": [
           "MWH Airport"
         ], 
-        "ne_latitude": 47.234, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -119.277, 
-        "longitude": -119.323, 
-        "placetype": "Airport", 
+        "name": "Grant County International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590452", 
+          "woe:state=2347606", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519959, 
+        "ne_longitude": -119.314, 
+        "longitude": -119.316, 
+        "parent_woeid": 12590452, 
+        "ne_latitude": 47.190, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 23418244, 
-        "latitude": 47.190, 
-        "sw_longitude": -119.364, 
-        "fullname": "Grant County International Airport, Moses Lake North, Washington, Grant, United States", 
-        "sw_latitude": 47.182
+        "sw_latitude": 47.186, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 47.188, 
+        "sw_longitude": -119.319, 
+        "fullname": "Grant County International Airport, Moses Lake North, Washington, United States", 
+        "iata_code": "MWH", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12519959
     }

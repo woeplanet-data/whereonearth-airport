@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 56049651, 
+        "placetype": "airport", 
         "name": "River Kwai Airport", 
-        "ne_latitude": 14.049, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=28341437", 
+          "woe:state=2347174", 
+          "woe:country=23424960", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56049651, 
         "ne_longitude": 99.225, 
         "longitude": 99.220, 
-        "placetype": "Airport", 
+        "parent_woeid": 28341437, 
+        "ne_latitude": 14.049, 
         "iso": "TH", 
-        "date_indexed": "2010-12-02T17:05:34Z", 
-        "parent_woeid": 55946740, 
+        "sw_latitude": 14.040, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 14.045, 
         "sw_longitude": 99.215, 
-        "fullname": "River Kwai Airport, Sing, Kanchanaburi, Sai Yok, Thailand", 
-        "sw_latitude": 14.040
+        "fullname": "River Kwai Airport, Sing, Kanchanaburi, Thailand", 
+        "date_indexed": "2010-12-02T17:05:34Z"
       }, 
       "id": 56049651
     }

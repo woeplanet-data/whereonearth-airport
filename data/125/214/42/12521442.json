@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521442, 
-        "name": "Port Isabel Cameron County Airport", 
         "alias_ENG_V": [
           "Pt Isabel Cameron County Airport"
         ], 
-        "ne_latitude": 26.183, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Port Isabel Cameron County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590037", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521442, 
         "ne_longitude": -97.330, 
         "longitude": -97.342, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590037, 
+        "ne_latitude": 26.183, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2434654, 
+        "sw_latitude": 26.155, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 26.161, 
         "sw_longitude": -97.362, 
-        "fullname": "Port Isabel Cameron County Airport, Laguna Vista, Texas, Cameron, United States", 
-        "sw_latitude": 26.155
+        "fullname": "Port Isabel Cameron County Airport, Laguna Vista, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521442
     }

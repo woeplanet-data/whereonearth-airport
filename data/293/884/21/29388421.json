@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388421, 
-        "name": "Katama Airpark", 
         "alias_ENG_V": [
           "1b2"
         ], 
-        "ne_latitude": 41.364, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Katama Airpark", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588703", 
+          "woe:state=2347580", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388421, 
         "ne_longitude": -70.518, 
         "longitude": -70.521, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588703, 
+        "ne_latitude": 41.364, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2397083, 
+        "sw_latitude": 41.353, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.360, 
         "sw_longitude": -70.529, 
-        "fullname": "Katama Airpark, Edgartown, Massachusetts, Dukes, United States", 
-        "sw_latitude": 41.353
+        "fullname": "Katama Airpark, Edgartown, Massachusetts, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388421
     }

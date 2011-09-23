@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523533, 
-        "name": "Cerro Sombrero Airport", 
         "alias_ENG_V": [
           "SMB"
         ], 
-        "ne_latitude": -52.662, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Cerro Sombrero Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=26794230", 
+          "woe:county=26794018", 
+          "woe:state=2345027", 
+          "woe:country=23424782", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523533, 
         "ne_longitude": -69.259, 
         "longitude": -69.267, 
-        "placetype": "Airport", 
+        "parent_woeid": 26794230, 
+        "ne_latitude": -52.662, 
         "iso": "CL", 
-        "date_indexed": "2010-12-02T12:15:39Z", 
-        "parent_woeid": 349995, 
+        "sw_latitude": -52.671, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -52.667, 
         "sw_longitude": -69.274, 
-        "fullname": "Cerro Sombrero Airport, Cerro Sombrero, Magallanes and Antartica Chilena Region, Tierra del Fuego Province, Chile", 
-        "sw_latitude": -52.671
+        "fullname": "Cerro Sombrero Airport, Cerro Sombrero, Magallanes and Antartica Chilena Region, Chile", 
+        "iata_code": "SMB", 
+        "date_indexed": "2010-12-02T12:15:39Z"
       }, 
       "id": 12523533
     }

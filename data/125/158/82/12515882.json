@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515882, 
+        "placetype": "airport", 
         "name": "Chadan East Airport", 
-        "ne_latitude": 51.290, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597577", 
+          "woe:state=2346879", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515882, 
         "ne_longitude": 91.589, 
         "longitude": 91.582, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597577, 
+        "ne_latitude": 51.290, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 1996724, 
+        "sw_latitude": 51.281, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.286, 
         "sw_longitude": 91.575, 
-        "fullname": "Chadan East Airport, Chadan, Tyva, Dzun-Khemchinsky, Russia", 
-        "sw_latitude": 51.281
+        "fullname": "Chadan East Airport, Chadan, Tyva, Russia", 
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12515882
     }

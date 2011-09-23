@@ -3,28 +3,30 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              7.594, 
-              49.433
-            ], 
-            [
-              7.594, 
-              49.442
-            ], 
-            [
-              7.608, 
-              49.442
-            ], 
-            [
-              7.608, 
-              49.433
-            ], 
-            [
-              7.594, 
-              49.433
+              [
+                7.578, 
+                49.429
+              ], 
+              [
+                7.579, 
+                49.428
+              ], 
+              [
+                7.576, 
+                49.428
+              ], 
+              [
+                7.578, 
+                49.429
+              ], 
+              [
+                7.578, 
+                49.429
+              ]
             ]
           ]
         ]
@@ -32,29 +34,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513215, 
-        "name": "Ramstein Air Base", 
         "alias_ENG_V": [
           "RMS Air Base"
         ], 
-        "ne_latitude": 49.442, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": 7.608, 
-        "longitude": 7.601, 
-        "placetype": "Airport", 
+        "name": "Ramstein Air Base", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=12627388", 
+          "woe:county=12596932", 
+          "woe:state=2345488", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513215, 
+        "ne_longitude": 7.579, 
+        "longitude": 7.578, 
+        "parent_woeid": 12627388, 
+        "ne_latitude": 49.429, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 665789, 
-        "latitude": 49.438, 
-        "sw_longitude": 7.594, 
-        "fullname": "Ramstein Air Base, Kindsbach, Rhineland-Palatinate, Landkreis Kaiserslautern, Germany", 
+        "sw_latitude": 49.428, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 49.428, 
+        "sw_longitude": 7.576, 
+        "fullname": "Ramstein Air Base, Kindsbach, Rhineland-Palatinate, Germany", 
         "alias_GER_V": [
           "RMS Luftwaffenstutzpunkt"
         ], 
         "alias_GER_Q": [
           "Flughafen Landstuhl Highway Strip"
         ], 
-        "sw_latitude": 49.433
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 12513215
     }

@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523358, 
-        "name": "Segrate Airport", 
         "alias_ENG_V": [
           "SWK"
         ], 
-        "ne_latitude": 45.478, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Segrate Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=12680711", 
+          "woe:county=12591813", 
+          "woe:state=7153338", 
+          "woe:country=23424853", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523358, 
         "ne_longitude": 9.305, 
         "longitude": 9.299, 
-        "placetype": "Airport", 
+        "parent_woeid": 12680711, 
+        "ne_latitude": 45.478, 
         "iso": "IT", 
-        "date_indexed": "2010-12-02T16:30:51Z", 
-        "parent_woeid": 20150324, 
+        "sw_latitude": 45.469, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.474, 
         "sw_longitude": 9.292, 
-        "fullname": "Segrate Airport, Tregarezzo, Lombardy, Milan, Italy", 
-        "sw_latitude": 45.469, 
+        "fullname": "Segrate Airport, Tregarezzo, Lombardy, Italy", 
+        "iata_code": "SWK", 
+        "date_indexed": "2010-12-02T16:30:51Z", 
         "alias_ITA_V": [
           "SWK Aeroporto"
         ]

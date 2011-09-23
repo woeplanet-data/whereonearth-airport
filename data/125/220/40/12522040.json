@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522040, 
-        "name": "Sullivan Regional Airport", 
         "alias_ENG_V": [
           "UUV Airport"
         ], 
-        "ne_latitude": 38.237, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Sullivan Regional Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589001", 
+          "woe:state=2347584", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522040, 
         "ne_longitude": -91.157, 
         "longitude": -91.164, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589001, 
+        "ne_latitude": 38.237, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2501439, 
+        "sw_latitude": 38.229, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.232, 
         "sw_longitude": -91.172, 
-        "fullname": "Sullivan Regional Airport, Sullivan, Missouri, Franklin, United States", 
-        "sw_latitude": 38.229
+        "fullname": "Sullivan Regional Airport, Sullivan, Missouri, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522040
     }

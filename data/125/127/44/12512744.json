@@ -3,28 +3,50 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              24.796, 
-              59.412
-            ], 
-            [
-              24.796, 
-              59.418
-            ], 
-            [
-              24.872, 
-              59.418
-            ], 
-            [
-              24.872, 
-              59.412
-            ], 
-            [
-              24.796, 
-              59.412
+              [
+                24.829, 
+                59.415
+              ], 
+              [
+                24.833, 
+                59.414
+              ], 
+              [
+                24.835, 
+                59.413
+              ], 
+              [
+                24.832, 
+                59.413
+              ], 
+              [
+                24.831, 
+                59.413
+              ], 
+              [
+                24.825, 
+                59.412
+              ], 
+              [
+                24.824, 
+                59.413
+              ], 
+              [
+                24.828, 
+                59.415
+              ], 
+              [
+                24.828, 
+                59.416
+              ], 
+              [
+                24.829, 
+                59.415
+              ]
             ]
           ]
         ]
@@ -37,11 +59,15 @@
         "alias_SWE_V": [
           "Tallinns Flygplats"
         ], 
-        "ne_latitude": 59.418, 
-        "alias_UNK_V": [
-          "Letisko Talin"
+        "hierarchy": [
+          "woe:county=29389893", 
+          "woe:state=2345276", 
+          "woe:country=23424805", 
+          "woe:planet=1"
         ], 
-        "placetype": "Airport", 
+        "ne_latitude": 59.416, 
+        "ne_longitude": 24.835, 
+        "placetype": "airport", 
         "alias_POR_V": [
           "Aeroporto de Tallinn"
         ], 
@@ -49,14 +75,15 @@
           "Aeroporto Di Tallinna"
         ], 
         "woeid": 12512744, 
-        "sw_longitude": 24.796, 
+        "iata_code": "TLL", 
+        "sw_longitude": 24.824, 
         "alias_FIN_V": [
           "Tallinnan Lentokentt\u00e4"
         ], 
         "alias_SPA_V": [
           "Aeropuerto de Tallinn"
         ], 
-        "latitude": 59.417, 
+        "latitude": 59.414, 
         "date_indexed": "2010-12-02T16:43:34Z", 
         "provider": "geoplanet 7.6.0", 
         "alias_DUT_V": [
@@ -70,15 +97,17 @@
         ], 
         "lang": "ENG", 
         "name": "Ulemiste Airport", 
-        "parent_woeid": 845743, 
-        "ne_longitude": 24.872, 
-        "longitude": 24.799, 
+        "parent_woeid": 29389893, 
+        "alias_UNK_V": [
+          "Letisko Talin"
+        ], 
+        "longitude": 24.828, 
         "iso": "EE", 
         "sw_latitude": 59.412, 
         "alias_FRE_V": [
           "A\u00e9roport de Tallinn"
         ], 
-        "fullname": "Ulemiste Airport, Tallinn, Harju County, Tallinn, Estonia"
+        "fullname": "Ulemiste Airport, Tallinn, Harju County, Estonia"
       }, 
       "id": 12512744
     }

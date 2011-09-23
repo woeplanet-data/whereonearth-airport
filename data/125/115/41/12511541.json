@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511541, 
+        "placetype": "airport", 
         "name": "Vedrina Airport", 
-        "ne_latitude": 43.534, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55873886", 
+          "woe:state=20070050", 
+          "woe:country=23424771", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511541, 
         "ne_longitude": 27.685, 
         "longitude": 27.679, 
-        "placetype": "Airport", 
+        "parent_woeid": 55873886, 
+        "ne_latitude": 43.534, 
         "iso": "BG", 
-        "date_indexed": "2010-12-02T16:14:37Z", 
-        "parent_woeid": 838437, 
+        "sw_latitude": 43.525, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.530, 
         "sw_longitude": 27.672, 
         "fullname": "Vedrina Airport, Dobrich, Dobrichka, Bulgaria", 
-        "sw_latitude": 43.525
+        "date_indexed": "2010-12-02T16:14:37Z"
       }, 
       "id": 12511541
     }

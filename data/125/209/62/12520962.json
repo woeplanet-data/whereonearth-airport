@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520962, 
-        "name": "Mineral County Memorial Airport", 
         "alias_ENG_V": [
           "C24"
         ], 
-        "ne_latitude": 37.826, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Mineral County Memorial Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587767", 
+          "woe:state=2347564", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520962, 
         "ne_longitude": -106.916, 
         "longitude": -106.916, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587767, 
+        "ne_latitude": 37.826, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2502192, 
+        "sw_latitude": 37.820, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 37.824, 
         "sw_longitude": -106.943, 
-        "fullname": "Mineral County Memorial Airport, Sunnyside, Colorado, Mineral, United States", 
-        "sw_latitude": 37.820
+        "fullname": "Mineral County Memorial Airport, Sunnyside, Colorado, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520962
     }

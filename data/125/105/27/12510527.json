@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510527, 
+        "placetype": "airport", 
         "name": "Olavarria Airport", 
-        "ne_latitude": -36.886, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=20070966", 
+          "woe:state=2344675", 
+          "woe:country=23424747", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510527, 
         "ne_longitude": -60.210, 
         "longitude": -60.216, 
-        "placetype": "Airport", 
+        "parent_woeid": 20070966, 
+        "ne_latitude": -36.886, 
         "iso": "AR", 
-        "date_indexed": "2010-12-02T17:41:29Z", 
-        "parent_woeid": 56040054, 
+        "sw_latitude": -36.895, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -36.891, 
         "sw_longitude": -60.222, 
         "fullname": "Olavarria Airport, Buenos Aires, Olavarr\u00eda, Argentina", 
-        "sw_latitude": -36.895
+        "date_indexed": "2010-12-02T17:41:29Z"
       }, 
       "id": 12510527
     }

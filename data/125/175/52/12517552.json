@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517552, 
+        "placetype": "airport", 
         "name": "La Iglesuela Airport", 
-        "ne_latitude": 40.255, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12691000", 
+          "woe:county=12602114", 
+          "woe:state=12578032", 
+          "woe:country=23424950", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517552, 
         "ne_longitude": -4.780, 
         "longitude": -4.786, 
-        "placetype": "Airport", 
+        "parent_woeid": 12691000, 
+        "ne_latitude": 40.255, 
         "iso": "ES", 
-        "date_indexed": "2010-12-02T17:38:37Z", 
-        "parent_woeid": 763543, 
+        "sw_latitude": 40.245, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.250, 
         "sw_longitude": -4.792, 
-        "fullname": "La Iglesuela Airport, La Iglesuela, Castille la Mancha, Toledo, Spain", 
-        "sw_latitude": 40.245
+        "fullname": "La Iglesuela Airport, La Iglesuela, Castille la Mancha, Spain", 
+        "date_indexed": "2010-12-02T17:38:37Z"
       }, 
       "id": 12517552
     }

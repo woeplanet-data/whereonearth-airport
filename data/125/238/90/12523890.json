@@ -32,23 +32,28 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523890, 
-        "name": "Hvammstangi Airport", 
         "alias_ENG_V": [
           "HVM"
         ], 
-        "ne_latitude": 65.419, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Hvammstangi Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2345707", 
+          "woe:country=23424845", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523890, 
         "ne_longitude": -20.932, 
         "longitude": -20.943, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345707, 
+        "ne_latitude": 65.419, 
         "iso": "IS", 
-        "date_indexed": "2010-12-02T09:55:32Z", 
-        "parent_woeid": 980250, 
+        "sw_latitude": 65.410, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 65.414, 
         "sw_longitude": -20.954, 
         "fullname": "Hvammstangi Airport, Hvammstangi, Vestur-Hunavatnssysla, Iceland", 
-        "sw_latitude": 65.410
+        "date_indexed": "2010-12-02T09:55:32Z"
       }, 
       "id": 12523890
     }

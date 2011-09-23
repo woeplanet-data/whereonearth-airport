@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516592, 
+        "placetype": "airport", 
         "name": "Okhotsk Airport", 
-        "ne_latitude": 59.415, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597752", 
+          "woe:state=2346883", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516592, 
         "ne_longitude": 143.071, 
         "longitude": 143.062, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597752, 
+        "ne_latitude": 59.415, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 1995578, 
+        "sw_latitude": 59.406, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 59.410, 
         "sw_longitude": 143.053, 
         "fullname": "Okhotsk Airport, Khabarovskiy Kray, Okhotsky, Russia", 
-        "sw_latitude": 59.406
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516592
     }

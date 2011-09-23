@@ -3,28 +3,34 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -90.093, 
-              33.480
-            ], 
-            [
-              -90.093, 
-              33.503
-            ], 
-            [
-              -90.071, 
-              33.503
-            ], 
-            [
-              -90.071, 
-              33.480
-            ], 
-            [
-              -90.093, 
-              33.480
+              [
+                -90.084, 
+                33.488
+              ], 
+              [
+                -90.085, 
+                33.487
+              ], 
+              [
+                -90.085, 
+                33.484
+              ], 
+              [
+                -90.086, 
+                33.486
+              ], 
+              [
+                -90.086, 
+                33.491
+              ], 
+              [
+                -90.084, 
+                33.488
+              ]
             ]
           ]
         ]
@@ -32,23 +38,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520014, 
-        "name": "Greenwood-Leflore Airport", 
         "alias_ENG_V": [
           "Greenwood-Leflore"
         ], 
-        "ne_latitude": 33.503, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -90.071, 
+        "name": "Greenwood-Leflore Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588891", 
+          "woe:state=2347583", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520014, 
+        "ne_longitude": -90.084, 
         "longitude": -90.085, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588891, 
+        "ne_latitude": 33.491, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2510862, 
-        "latitude": 33.492, 
-        "sw_longitude": -90.093, 
-        "fullname": "Greenwood-Leflore Airport, Valley Hill, Mississippi, Carroll, United States", 
-        "sw_latitude": 33.480
+        "sw_latitude": 33.484, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 33.488, 
+        "sw_longitude": -90.086, 
+        "fullname": "Greenwood-Leflore Airport, Valley Hill, Mississippi, United States", 
+        "iata_code": "GWO", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520014
     }

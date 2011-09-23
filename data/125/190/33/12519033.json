@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519033, 
-        "name": "Cameron Memorial Airport", 
         "alias_ENG_V": [
           "EZZ"
         ], 
-        "ne_latitude": 39.732, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Cameron Memorial Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588990", 
+          "woe:state=2347584", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519033, 
         "ne_longitude": -94.272, 
         "longitude": -94.273, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588990, 
+        "ne_latitude": 39.732, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2373712, 
+        "sw_latitude": 39.721, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 39.729, 
         "sw_longitude": -94.277, 
-        "fullname": "Cameron Memorial Airport, Cameron, Missouri, Clinton, United States", 
-        "sw_latitude": 39.721
+        "fullname": "Cameron Memorial Airport, Cameron, Missouri, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519033
     }

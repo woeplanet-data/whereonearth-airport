@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524308, 
-        "name": "Stewart Airport", 
         "alias_ENG_V": [
           "ZST Airport"
         ], 
-        "ne_latitude": 55.955, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Stewart Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375209", 
+          "woe:state=2344916", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524308, 
         "ne_longitude": -129.975, 
         "longitude": -129.983, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375209, 
+        "ne_latitude": 55.955, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 9308, 
+        "sw_latitude": 55.945, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 55.950, 
         "sw_longitude": -129.991, 
-        "fullname": "Stewart Airport, Stewart, British Columbia, Kitimat-Stikine, Canada", 
-        "sw_latitude": 55.945
+        "fullname": "Stewart Airport, Stewart, British Columbia, Canada", 
+        "iata_code": "ZST", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12524308
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515903, 
+        "placetype": "airport", 
         "name": "Chernoye Airport", 
-        "ne_latitude": 55.769, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598755", 
+          "woe:state=2346911", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515903, 
         "ne_longitude": 38.072, 
         "longitude": 38.063, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598755, 
+        "ne_latitude": 55.769, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 1997932, 
+        "sw_latitude": 55.760, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 55.764, 
         "sw_longitude": 38.055, 
         "fullname": "Chernoye Airport, Moskovskaya Oblast, Noginsky, Russia", 
-        "sw_latitude": 55.760
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12515903
     }

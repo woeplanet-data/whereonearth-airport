@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510401, 
+        "placetype": "airport", 
         "name": "Sarvan Airport", 
-        "ne_latitude": 39.508, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=20070280", 
+          "woe:country=23424741", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510401, 
         "ne_longitude": 48.863, 
         "longitude": 48.857, 
-        "placetype": "Airport", 
+        "parent_woeid": 20070280, 
+        "ne_latitude": 39.508, 
         "iso": "AZ", 
-        "date_indexed": "2010-12-02T08:58:35Z", 
-        "parent_woeid": 1952018, 
+        "sw_latitude": 39.499, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 39.503, 
         "sw_longitude": 48.852, 
         "fullname": "Sarvan Airport, Salyan, Azerbaijan", 
-        "sw_latitude": 39.499
+        "date_indexed": "2010-12-02T08:58:35Z"
       }, 
       "id": 12510401
     }

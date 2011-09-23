@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521945, 
-        "name": "Springfield Municipal Airport", 
         "alias_ENG_V": [
           "8v7"
         ], 
-        "ne_latitude": 37.470, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Springfield Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587732", 
+          "woe:state=2347564", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521945, 
         "ne_longitude": -102.618, 
         "longitude": -102.620, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587732, 
+        "ne_latitude": 37.470, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2498261, 
+        "sw_latitude": 37.452, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 37.464, 
         "sw_longitude": -102.620, 
-        "fullname": "Springfield Municipal Airport, Springfield, Colorado, Baca, United States", 
-        "sw_latitude": 37.452
+        "fullname": "Springfield Municipal Airport, Springfield, Colorado, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521945
     }

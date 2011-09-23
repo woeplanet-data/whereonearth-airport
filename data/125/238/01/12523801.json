@@ -3,28 +3,42 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              22.230, 
-              60.504
-            ], 
-            [
-              22.230, 
-              60.523
-            ], 
-            [
-              22.293, 
-              60.523
-            ], 
-            [
-              22.293, 
-              60.504
-            ], 
-            [
-              22.230, 
-              60.504
+              [
+                22.271, 
+                60.513
+              ], 
+              [
+                22.272, 
+                60.514
+              ], 
+              [
+                22.273, 
+                60.515
+              ], 
+              [
+                22.277, 
+                60.514
+              ], 
+              [
+                22.275, 
+                60.512
+              ], 
+              [
+                22.274, 
+                60.511
+              ], 
+              [
+                22.271, 
+                60.510
+              ], 
+              [
+                22.271, 
+                60.513
+              ]
             ]
           ]
         ]
@@ -40,8 +54,15 @@
         "alias_SWE_S": [
           "Abo flygplats"
         ], 
-        "ne_latitude": 60.523, 
-        "placetype": "Airport", 
+        "hierarchy": [
+          "woe:localadmin=12590979", 
+          "woe:county=56120888", 
+          "woe:state=29389250", 
+          "woe:country=23424812", 
+          "woe:planet=1"
+        ], 
+        "ne_latitude": 60.515, 
+        "placetype": "airport", 
         "alias_POR_Q": [
           "Aeroporto de Turku"
         ], 
@@ -58,12 +79,12 @@
         "alias_FIN_S": [
           "Turun lentokentta"
         ], 
-        "sw_longitude": 22.230, 
+        "sw_longitude": 22.271, 
         "alias_FIN_V": [
           "Tku"
         ], 
         "provider": "geoplanet 7.6.0", 
-        "latitude": 60.511, 
+        "latitude": 60.513, 
         "date_indexed": "2010-12-02T16:41:19Z", 
         "alias_DUT_Q": [
           "Luchthaven Turku"
@@ -79,15 +100,15 @@
         ], 
         "lang": "FIN", 
         "name": "Turun lentoasema", 
-        "parent_woeid": 29305612, 
+        "parent_woeid": 12590979, 
         "alias_UNK_Q": [
           "Letisko Turku"
         ], 
-        "ne_longitude": 22.293, 
-        "longitude": 22.275, 
+        "ne_longitude": 22.277, 
+        "longitude": 22.274, 
         "iso": "FI", 
-        "sw_latitude": 60.504, 
-        "fullname": "Turun lentoasema, Saram\u00e4ki, Western Finland, Proper Finland, Finland", 
+        "sw_latitude": 60.510, 
+        "fullname": "Turun lentoasema, Saram\u00e4ki, Western Finland, Finland", 
         "alias_FRE_S": [
           "Aeroport de Turku"
         ], 

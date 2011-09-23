@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512088, 
+        "placetype": "airport", 
         "name": "Jiangluo Airport", 
-        "ne_latitude": 26.717, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12685735", 
+          "woe:county=26198339", 
+          "woe:state=12577997", 
+          "woe:country=23424781", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512088, 
         "ne_longitude": 117.474, 
         "longitude": 117.469, 
-        "placetype": "Airport", 
+        "parent_woeid": 12685735, 
+        "ne_latitude": 26.717, 
         "iso": "CN", 
-        "date_indexed": "2010-12-02T08:51:48Z", 
-        "parent_woeid": 2139983, 
+        "sw_latitude": 26.708, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 26.712, 
         "sw_longitude": 117.464, 
-        "fullname": "Jiangluo Airport, Guyong, Fujian, Sanming, China", 
-        "sw_latitude": 26.708
+        "fullname": "Jiangluo Airport, Guyong, Fujian, China", 
+        "date_indexed": "2010-12-02T08:51:48Z"
       }, 
       "id": 12512088
     }

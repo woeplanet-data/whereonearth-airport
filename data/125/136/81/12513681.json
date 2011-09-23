@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513681, 
+        "placetype": "airport", 
         "name": "Teju New Airport", 
-        "ne_latitude": 27.945, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12586820", 
+          "woe:state=2345763", 
+          "woe:country=23424848", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513681, 
         "ne_longitude": 96.142, 
         "longitude": 96.137, 
-        "placetype": "Airport", 
+        "parent_woeid": 12586820, 
+        "ne_latitude": 27.945, 
         "iso": "IN", 
-        "date_indexed": "2010-12-02T09:26:27Z", 
-        "parent_woeid": 2287301, 
+        "sw_latitude": 27.935, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 27.940, 
         "sw_longitude": 96.132, 
-        "fullname": "Teju New Airport, Tezu, Arunachal Pradesh, Lohit, India", 
-        "sw_latitude": 27.935
+        "fullname": "Teju New Airport, Tezu, Arunachal Pradesh, India", 
+        "date_indexed": "2010-12-02T09:26:27Z"
       }, 
       "id": 12513681
     }

@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510847, 
+        "placetype": "airport", 
         "name": "Chievres Air Base", 
-        "ne_latitude": 50.582, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12602525", 
+          "woe:county=12591796", 
+          "woe:state=7153299", 
+          "woe:country=23424757", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510847, 
         "ne_longitude": 3.847, 
         "longitude": 3.840, 
-        "placetype": "Airport", 
+        "parent_woeid": 12602525, 
+        "ne_latitude": 50.582, 
         "iso": "BE", 
-        "date_indexed": "2010-12-02T16:32:27Z", 
-        "parent_woeid": 966946, 
+        "sw_latitude": 50.573, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.577, 
         "sw_longitude": 3.833, 
-        "fullname": "Chievres Air Base, Bauffe, Hainault, Mons, Belgium", 
-        "sw_latitude": 50.573
+        "fullname": "Chievres Air Base, Bauffe, Hainault, Belgium", 
+        "date_indexed": "2010-12-02T16:32:27Z"
       }, 
       "id": 12510847
     }

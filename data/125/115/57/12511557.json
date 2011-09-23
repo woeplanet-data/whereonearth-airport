@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511557, 
+        "placetype": "airport", 
         "name": "Zagortsi Airport", 
-        "ne_latitude": 42.411, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55873854", 
+          "woe:state=20070075", 
+          "woe:country=23424771", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511557, 
         "ne_longitude": 27.079, 
         "longitude": 27.072, 
-        "placetype": "Airport", 
+        "parent_woeid": 55873854, 
+        "ne_latitude": 42.411, 
         "iso": "BG", 
-        "date_indexed": "2010-12-02T16:14:37Z", 
-        "parent_woeid": 840879, 
+        "sw_latitude": 42.402, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.406, 
         "sw_longitude": 27.066, 
         "fullname": "Zagortsi Airport, Burgas, Sredets, Bulgaria", 
-        "sw_latitude": 42.402
+        "date_indexed": "2010-12-02T16:14:37Z"
       }, 
       "id": 12511557
     }

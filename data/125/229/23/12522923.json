@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522923, 
+        "placetype": "airport", 
         "name": "Lai Khe Airport", 
-        "ne_latitude": 11.200, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=20070078", 
+          "woe:country=23424984", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522923, 
         "ne_longitude": 106.624, 
         "longitude": 106.619, 
-        "placetype": "Airport", 
+        "parent_woeid": 20070078, 
+        "ne_latitude": 11.200, 
         "iso": "VN", 
-        "date_indexed": "2010-12-02T08:52:49Z", 
-        "parent_woeid": 1252263, 
+        "sw_latitude": 11.191, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 11.196, 
         "sw_longitude": 106.615, 
         "fullname": "Lai Khe Airport, Bin Duong, Vietnam", 
-        "sw_latitude": 11.191
+        "date_indexed": "2010-12-02T08:52:49Z"
       }, 
       "id": 12522923
     }

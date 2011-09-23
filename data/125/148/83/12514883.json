@@ -3,28 +3,38 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -110.368, 
-              24.062
-            ], 
-            [
-              -110.368, 
-              24.091
-            ], 
-            [
-              -110.359, 
-              24.091
-            ], 
-            [
-              -110.359, 
-              24.062
-            ], 
-            [
-              -110.368, 
-              24.062
+              [
+                -110.367, 
+                24.076
+              ], 
+              [
+                -110.367, 
+                24.076
+              ], 
+              [
+                -110.367, 
+                24.076
+              ], 
+              [
+                -110.366, 
+                24.076
+              ], 
+              [
+                -110.366, 
+                24.073
+              ], 
+              [
+                -110.366, 
+                24.073
+              ], 
+              [
+                -110.367, 
+                24.076
+              ]
             ]
           ]
         ]
@@ -32,26 +42,32 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "ne_latitude": 24.091, 
+        "woeid": 12514883, 
         "name": "General Manuel Marquez de Leon International Airport", 
         "alias_ENG_V": [
           "General Manuel Marquez de Leon"
         ], 
-        "woeid": 12514883, 
+        "hierarchy": [
+          "woe:county=12599696", 
+          "woe:state=2346266", 
+          "woe:country=23424900", 
+          "woe:planet=1"
+        ], 
+        "ne_latitude": 24.076, 
+        "provider": "geoplanet 7.6.0", 
+        "ne_longitude": -110.366, 
+        "longitude": -110.367, 
+        "parent_woeid": 12599696, 
+        "placetype": "airport", 
+        "iso": "MX", 
+        "sw_latitude": 24.073, 
         "alias_SPA_V": [
           "Intl Manuel Marquez de Leon"
         ], 
-        "ne_longitude": -110.359, 
-        "longitude": -110.368, 
-        "parent_woeid": 119647, 
-        "placetype": "Airport", 
-        "iso": "MX", 
-        "date_indexed": "2010-12-02T16:57:55Z", 
-        "provider": "geoplanet 7.6.0", 
-        "latitude": 24.076, 
-        "sw_longitude": -110.368, 
-        "fullname": "General Manuel Marquez de Leon International Airport, El Centenario, Baja California Sur, La Paz, Mexico", 
-        "sw_latitude": 24.062
+        "latitude": 24.075, 
+        "sw_longitude": -110.367, 
+        "fullname": "General Manuel Marquez de Leon International Airport, El Centenario, Baja California Sur, Mexico", 
+        "date_indexed": "2010-12-02T16:57:55Z"
       }, 
       "id": 12514883
     }

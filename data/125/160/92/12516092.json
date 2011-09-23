@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516092, 
+        "placetype": "airport", 
         "name": "Karakulskoye Airport", 
-        "ne_latitude": 54.078, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598136", 
+          "woe:state=2346893", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516092, 
         "ne_longitude": 62.415, 
         "longitude": 62.408, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598136, 
+        "ne_latitude": 54.078, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2016519, 
+        "sw_latitude": 54.069, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 54.074, 
         "sw_longitude": 62.400, 
         "fullname": "Karakulskoye Airport, Chelyabinskaya Oblast, Oktyabrsky, Russia", 
-        "sw_latitude": 54.069
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516092
     }

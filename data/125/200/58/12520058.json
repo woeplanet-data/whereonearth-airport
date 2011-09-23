@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520058, 
-        "name": "Halifax County Airport", 
         "alias_ENG_V": [
           "Halifax Airport"
         ], 
-        "ne_latitude": 36.444, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Halifax County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589415", 
+          "woe:state=2347592", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520058, 
         "ne_longitude": -77.703, 
         "longitude": -77.713, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589415, 
+        "ne_latitude": 36.444, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2366455, 
+        "sw_latitude": 36.434, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.440, 
         "sw_longitude": -77.719, 
-        "fullname": "Halifax County Airport, Bolling, North Carolina, Halifax, United States", 
-        "sw_latitude": 36.434
+        "fullname": "Halifax County Airport, Bolling, North Carolina, United States", 
+        "iata_code": "RZZ", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520058
     }

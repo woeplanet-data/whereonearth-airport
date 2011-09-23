@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514421, 
+        "placetype": "airport", 
         "name": "Novaya Kazanka Airport", 
-        "ne_latitude": 49.001, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345998", 
+          "woe:country=23424871", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514421, 
         "ne_longitude": 49.557, 
         "longitude": 49.550, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345998, 
+        "ne_latitude": 49.001, 
         "iso": "KZ", 
-        "date_indexed": "2010-12-02T08:54:13Z", 
-        "parent_woeid": 2264718, 
+        "sw_latitude": 48.992, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.996, 
         "sw_longitude": 49.543, 
         "fullname": "Novaya Kazanka Airport, Batys Qazaqstan, Kazakhstan", 
-        "sw_latitude": 48.992
+        "date_indexed": "2010-12-02T08:54:13Z"
       }, 
       "id": 12514421
     }

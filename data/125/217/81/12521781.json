@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521781, 
-        "name": "Scribner State Airport", 
         "alias_ENG_V": [
           "SCB"
         ], 
-        "ne_latitude": 41.625, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Scribner State Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589164", 
+          "woe:state=2347586", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521781, 
         "ne_longitude": -96.622, 
         "longitude": -96.636, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589164, 
+        "ne_latitude": 41.625, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2424083, 
+        "sw_latitude": 41.602, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.622, 
         "sw_longitude": -96.650, 
-        "fullname": "Scribner State Airport, Hooper, Nebraska, Dodge, United States", 
-        "sw_latitude": 41.602
+        "fullname": "Scribner State Airport, Hooper, Nebraska, United States", 
+        "iata_code": "SCB", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521781
     }

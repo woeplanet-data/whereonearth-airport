@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517390, 
+        "placetype": "airport", 
         "name": "Aggenys Airport", 
-        "ne_latitude": -29.281, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=56189501", 
+          "woe:county=56189407", 
+          "woe:state=2346985", 
+          "woe:country=23424942", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517390, 
         "ne_longitude": 18.821, 
         "longitude": 18.816, 
-        "placetype": "Airport", 
+        "parent_woeid": 56189501, 
+        "ne_latitude": -29.281, 
         "iso": "ZA", 
-        "date_indexed": "2010-12-02T08:57:46Z", 
-        "parent_woeid": 1579380, 
+        "sw_latitude": -29.290, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -29.285, 
         "sw_longitude": 18.810, 
         "fullname": "Aggenys Airport, Northern Cape, Northern Cape Rural, South Africa", 
-        "sw_latitude": -29.290
+        "date_indexed": "2010-12-02T08:57:46Z"
       }, 
       "id": 12517390
     }

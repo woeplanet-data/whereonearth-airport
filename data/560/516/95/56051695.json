@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 56051695, 
+        "placetype": "airport", 
         "name": "Flugplatz Sankt Johann In Tirol", 
-        "ne_latitude": 47.523, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12675335", 
+          "woe:county=12591745", 
+          "woe:state=2344714", 
+          "woe:country=23424750", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56051695, 
         "ne_longitude": 12.454, 
         "longitude": 12.449, 
-        "placetype": "Airport", 
+        "parent_woeid": 12675335, 
+        "ne_latitude": 47.523, 
         "iso": "AT", 
-        "date_indexed": "2010-12-02T16:35:40Z", 
-        "parent_woeid": 551164, 
+        "sw_latitude": 47.518, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.518, 
         "sw_longitude": 12.445, 
-        "fullname": "Flugplatz Sankt Johann In Tirol, Skt Johann, Tyrol, Kitzb\u00fchel, Austria", 
-        "sw_latitude": 47.518
+        "fullname": "Flugplatz Sankt Johann In Tirol, Skt Johann, Tyrol, Austria", 
+        "date_indexed": "2010-12-02T16:35:40Z"
       }, 
       "id": 56051695
     }

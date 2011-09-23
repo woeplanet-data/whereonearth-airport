@@ -3,28 +3,90 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              130.856, 
-              -12.428
-            ], 
-            [
-              130.856, 
-              -12.396
-            ], 
-            [
-              130.909, 
-              -12.396
-            ], 
-            [
-              130.909, 
-              -12.428
-            ], 
-            [
-              130.856, 
-              -12.428
+              [
+                130.877, 
+                -12.408
+              ], 
+              [
+                130.878, 
+                -12.407
+              ], 
+              [
+                130.880, 
+                -12.404
+              ], 
+              [
+                130.879, 
+                -12.400
+              ], 
+              [
+                130.881, 
+                -12.404
+              ], 
+              [
+                130.882, 
+                -12.405
+              ], 
+              [
+                130.882, 
+                -12.405
+              ], 
+              [
+                130.880, 
+                -12.407
+              ], 
+              [
+                130.879, 
+                -12.407
+              ], 
+              [
+                130.879, 
+                -12.411
+              ], 
+              [
+                130.880, 
+                -12.413
+              ], 
+              [
+                130.879, 
+                -12.416
+              ], 
+              [
+                130.877, 
+                -12.419
+              ], 
+              [
+                130.874, 
+                -12.416
+              ], 
+              [
+                130.877, 
+                -12.413
+              ], 
+              [
+                130.875, 
+                -12.409
+              ], 
+              [
+                130.869, 
+                -12.410
+              ], 
+              [
+                130.870, 
+                -12.411
+              ], 
+              [
+                130.875, 
+                -12.409
+              ], 
+              [
+                130.877, 
+                -12.408
+              ]
             ]
           ]
         ]
@@ -32,23 +94,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510651, 
-        "name": "Darwin International Airport", 
         "alias_ENG_V": [
           "DRW"
         ], 
-        "ne_latitude": -12.396, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": 130.909, 
-        "longitude": 130.879, 
-        "placetype": "Airport", 
-        "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
+        "name": "Darwin International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55864364", 
+          "woe:state=2344701", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510651, 
+        "ne_longitude": 130.882, 
+        "longitude": 130.878, 
         "parent_woeid": 55864364, 
-        "latitude": -12.407, 
-        "sw_longitude": 130.856, 
-        "fullname": "Darwin International Airport, Darwin, Northern Territory, Darwin, Australia", 
-        "sw_latitude": -12.428
+        "ne_latitude": -12.400, 
+        "iso": "AU", 
+        "sw_latitude": -12.419, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": -12.411, 
+        "sw_longitude": 130.869, 
+        "fullname": "Darwin International Airport, Darwin, Northern Territory, Australia", 
+        "iata_code": "DRW", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 12510651
     }

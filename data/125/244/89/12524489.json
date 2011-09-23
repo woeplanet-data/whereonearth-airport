@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524489, 
-        "name": "La Pedrera Airport", 
         "alias_ENG_V": [
           "LPD"
         ], 
-        "ne_latitude": -1.295, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "La Pedrera Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26797648", 
+          "woe:state=2345047", 
+          "woe:country=23424787", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524489, 
         "ne_longitude": -69.712, 
         "longitude": -69.717, 
-        "placetype": "Airport", 
+        "parent_woeid": 26797648, 
+        "ne_latitude": -1.295, 
         "iso": "CO", 
-        "date_indexed": "2010-12-02T17:57:37Z", 
-        "parent_woeid": 369044, 
+        "sw_latitude": -1.305, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -1.300, 
         "sw_longitude": -69.721, 
-        "fullname": "La Pedrera Airport, La Pedrera, Amazonas, La Pedrera, Colombia", 
-        "sw_latitude": -1.305
+        "fullname": "La Pedrera Airport, La Pedrera, Amazonas, Colombia", 
+        "date_indexed": "2010-12-02T17:57:37Z"
       }, 
       "id": 12524489
     }

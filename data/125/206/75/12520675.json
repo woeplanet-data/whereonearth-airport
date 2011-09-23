@@ -3,28 +3,86 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -121.824, 
-              37.693
-            ], 
-            [
-              -121.824, 
-              37.700
-            ], 
-            [
-              -121.816, 
-              37.700
-            ], 
-            [
-              -121.816, 
-              37.693
-            ], 
-            [
-              -121.824, 
-              37.693
+              [
+                -121.817, 
+                37.696
+              ], 
+              [
+                -121.817, 
+                37.696
+              ], 
+              [
+                -121.815, 
+                37.695
+              ], 
+              [
+                -121.810, 
+                37.694
+              ], 
+              [
+                -121.810, 
+                37.689
+              ], 
+              [
+                -121.815, 
+                37.691
+              ], 
+              [
+                -121.818, 
+                37.690
+              ], 
+              [
+                -121.821, 
+                37.690
+              ], 
+              [
+                -121.823, 
+                37.690
+              ], 
+              [
+                -121.826, 
+                37.690
+              ], 
+              [
+                -121.825, 
+                37.694
+              ], 
+              [
+                -121.823, 
+                37.696
+              ], 
+              [
+                -121.823, 
+                37.696
+              ], 
+              [
+                -121.820, 
+                37.696
+              ], 
+              [
+                -121.820, 
+                37.696
+              ], 
+              [
+                -121.819, 
+                37.697
+              ], 
+              [
+                -121.819, 
+                37.697
+              ], 
+              [
+                -121.818, 
+                37.696
+              ], 
+              [
+                -121.817, 
+                37.696
+              ]
             ]
           ]
         ]
@@ -32,23 +90,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520675, 
-        "name": "Livermore Municipal Airport", 
         "alias_ENG_V": [
           "LVK"
         ], 
-        "ne_latitude": 37.700, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -121.816, 
-        "longitude": -121.820, 
-        "placetype": "Airport", 
+        "name": "Livermore Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587670", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520675, 
+        "ne_longitude": -121.810, 
+        "longitude": -121.818, 
+        "parent_woeid": 12587670, 
+        "ne_latitude": 37.697, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2440549, 
-        "latitude": 37.696, 
-        "sw_longitude": -121.824, 
-        "fullname": "Livermore Municipal Airport, Livermore, California, Alameda, United States", 
-        "sw_latitude": 37.693
+        "sw_latitude": 37.689, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 37.693, 
+        "sw_longitude": -121.826, 
+        "fullname": "Livermore Municipal Airport, Livermore, California, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12520675
     }

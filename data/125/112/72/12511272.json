@@ -3,28 +3,78 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -38.551, 
-              -3.784
-            ], 
-            [
-              -38.551, 
-              -3.761
-            ], 
-            [
-              -38.518, 
-              -3.761
-            ], 
-            [
-              -38.518, 
-              -3.784
-            ], 
-            [
-              -38.551, 
-              -3.784
+              [
+                -38.559, 
+                -3.780
+              ], 
+              [
+                -38.564, 
+                -3.775
+              ], 
+              [
+                -38.564, 
+                -3.775
+              ], 
+              [
+                -38.560, 
+                -3.776
+              ], 
+              [
+                -38.542, 
+                -3.763
+              ], 
+              [
+                -38.536, 
+                -3.744
+              ], 
+              [
+                -38.526, 
+                -3.727
+              ], 
+              [
+                -38.509, 
+                -3.744
+              ], 
+              [
+                -38.516, 
+                -3.748
+              ], 
+              [
+                -38.522, 
+                -3.761
+              ], 
+              [
+                -38.525, 
+                -3.781
+              ], 
+              [
+                -38.529, 
+                -3.803
+              ], 
+              [
+                -38.530, 
+                -3.804
+              ], 
+              [
+                -38.551, 
+                -3.796
+              ], 
+              [
+                -38.563, 
+                -3.798
+              ], 
+              [
+                -38.559, 
+                -3.781
+              ], 
+              [
+                -38.559, 
+                -3.780
+              ]
             ]
           ]
         ]
@@ -32,29 +82,35 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511272, 
-        "name": "Aeroporto Internacional Pinto Martins", 
-        "alias_ENG_P": [
-          "Pinto Martins International Airport"
-        ], 
-        "ne_latitude": -3.761, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "FOR"
         ], 
-        "ne_longitude": -38.518, 
-        "longitude": -38.532, 
-        "placetype": "Airport", 
+        "name": "Aeroporto Internacional Pinto Martins", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Pinto Martins International Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12578701", 
+          "woe:state=2344849", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511272, 
+        "ne_longitude": -38.509, 
+        "longitude": -38.536, 
+        "parent_woeid": 12578701, 
+        "ne_latitude": -3.727, 
         "alias_POR_V": [
           "Aeroporto Int Pinto Martins"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:28Z", 
-        "parent_woeid": 442825, 
-        "latitude": -3.776, 
-        "sw_longitude": -38.551, 
-        "fullname": "Aeroporto Internacional Pinto Martins, Parangaba, Ceara, Fortaleza, Brazil", 
-        "sw_latitude": -3.784
+        "sw_latitude": -3.804, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": -3.770, 
+        "sw_longitude": -38.564, 
+        "fullname": "Aeroporto Internacional Pinto Martins, Parangaba, Ceara, Brazil", 
+        "date_indexed": "2010-12-02T18:01:28Z"
       }, 
       "id": 12511272
     }

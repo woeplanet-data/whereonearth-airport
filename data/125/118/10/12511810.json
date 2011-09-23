@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511810, 
+        "placetype": "airport", 
         "name": "Red Earth Airport", 
-        "ne_latitude": 56.551, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=29375228", 
+          "woe:state=2344915", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511810, 
         "ne_longitude": -115.265, 
         "longitude": -115.273, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375228, 
+        "ne_latitude": 56.551, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 29373484, 
+        "sw_latitude": 56.542, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 56.546, 
         "sw_longitude": -115.281, 
-        "fullname": "Red Earth Airport, Opportunity No 17, Alberta, Alberta, Canada", 
-        "sw_latitude": 56.542
+        "fullname": "Red Earth Airport, Opportunity No 17, Alberta, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12511810
     }

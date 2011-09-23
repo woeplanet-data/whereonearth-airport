@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 28677620, 
+        "placetype": "airport", 
         "name": "Cooinda Aerodrome", 
-        "ne_latitude": -12.900, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=56072970", 
+          "woe:state=2344701", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 28677620, 
         "ne_longitude": 132.538, 
         "longitude": 132.533, 
-        "placetype": "Airport", 
+        "parent_woeid": 56072970, 
+        "ne_latitude": -12.900, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1102901, 
+        "sw_latitude": -12.909, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -12.904, 
         "sw_longitude": 132.529, 
         "fullname": "Cooinda Aerodrome, Kakadu Holiday Village, Northern Territory, Australia", 
-        "sw_latitude": -12.909
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 28677620
     }

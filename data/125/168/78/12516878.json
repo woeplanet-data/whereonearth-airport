@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516878, 
+        "placetype": "airport", 
         "name": "Slavgorod North Airport", 
-        "ne_latitude": 53.056, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597704", 
+          "woe:state=20070529", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516878, 
         "ne_longitude": 78.645, 
         "longitude": 78.638, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597704, 
+        "ne_latitude": 53.056, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2123521, 
+        "sw_latitude": 53.047, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.051, 
         "sw_longitude": 78.630, 
-        "fullname": "Slavgorod North Airport, Slavgorod, Altayskiy Kray, Slavgorod, Russia", 
-        "sw_latitude": 53.047
+        "fullname": "Slavgorod North Airport, Slavgorod, Altayskiy Kray, Russia", 
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516878
     }

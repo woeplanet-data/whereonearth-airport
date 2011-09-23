@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513680, 
+        "placetype": "airport", 
         "name": "Tanjore Airport", 
-        "ne_latitude": 10.724, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12586699", 
+          "woe:state=2345758", 
+          "woe:country=23424848", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513680, 
         "ne_longitude": 79.108, 
         "longitude": 79.104, 
-        "placetype": "Airport", 
+        "parent_woeid": 12586699, 
+        "ne_latitude": 10.724, 
         "iso": "IN", 
-        "date_indexed": "2010-12-02T09:26:27Z", 
-        "parent_woeid": 29080881, 
+        "sw_latitude": 10.715, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 10.720, 
         "sw_longitude": 79.099, 
-        "fullname": "Tanjore Airport, Inathukanpatti, Tamil Nadu, Thanjavur, India", 
-        "sw_latitude": 10.715
+        "fullname": "Tanjore Airport, Inathukanpatti, Tamil Nadu, India", 
+        "date_indexed": "2010-12-02T09:26:27Z"
       }, 
       "id": 12513680
     }

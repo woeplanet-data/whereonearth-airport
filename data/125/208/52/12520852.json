@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520852, 
-        "name": "Mccormick County Airport", 
         "alias_ENG_V": [
           "S19"
         ], 
-        "ne_latitude": 33.916, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Mccormick County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589834", 
+          "woe:state=2347599", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520852, 
         "ne_longitude": -82.266, 
         "longitude": -82.269, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589834, 
+        "ne_latitude": 33.916, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 28340221, 
+        "sw_latitude": 33.900, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 33.910, 
         "sw_longitude": -82.269, 
-        "fullname": "Mccormick County Airport, Britts, South Carolina, Mccormick, United States", 
-        "sw_latitude": 33.900
+        "fullname": "Mccormick County Airport, Britts, South Carolina, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520852
     }

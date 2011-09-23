@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522053, 
+        "placetype": "airport", 
         "name": "Sunrise Ranch Airport", 
-        "ne_latitude": 35.243, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12587582", 
+          "woe:state=2347561", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522053, 
         "ne_longitude": -111.929, 
         "longitude": -111.935, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587582, 
+        "ne_latitude": 35.243, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2444327, 
+        "sw_latitude": 35.234, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.238, 
         "sw_longitude": -111.941, 
-        "fullname": "Sunrise Ranch Airport, Maine, Arizona, Coconino, United States", 
-        "sw_latitude": 35.234
+        "fullname": "Sunrise Ranch Airport, Maine, Arizona, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12522053
     }

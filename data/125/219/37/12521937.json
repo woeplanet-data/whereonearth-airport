@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521937, 
+        "placetype": "airport", 
         "name": "Spofford Airport", 
-        "ne_latitude": 29.171, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12590142", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521937, 
         "ne_longitude": -100.413, 
         "longitude": -100.418, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590142, 
+        "ne_latitude": 29.171, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2497641, 
+        "sw_latitude": 29.162, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 29.166, 
         "sw_longitude": -100.423, 
-        "fullname": "Spofford Airport, Spofford, Texas, Kinney, United States", 
-        "sw_latitude": 29.162
+        "fullname": "Spofford Airport, Spofford, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521937
     }

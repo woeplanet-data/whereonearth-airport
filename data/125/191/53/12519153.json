@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519153, 
+        "placetype": "airport", 
         "name": "Chattanooga Sky Harbor Airport", 
-        "ne_latitude": 34.373, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12589630", 
+          "woe:state=2347595", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519153, 
         "ne_longitude": -98.676, 
         "longitude": -98.682, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589630, 
+        "ne_latitude": 34.373, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:15Z", 
-        "parent_woeid": 2378694, 
+        "sw_latitude": 34.364, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 34.369, 
         "sw_longitude": -98.687, 
-        "fullname": "Chattanooga Sky Harbor Airport, Chattanooga, Oklahoma, Comanche, United States", 
-        "sw_latitude": 34.364
+        "fullname": "Chattanooga Sky Harbor Airport, Chattanooga, Oklahoma, United States", 
+        "date_indexed": "2010-12-02T18:39:15Z"
       }, 
       "id": 12519153
     }

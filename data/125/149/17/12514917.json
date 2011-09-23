@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514917, 
-        "name": "Los Mochis Airport", 
         "alias_ENG_V": [
           "LMM"
         ], 
-        "ne_latitude": 25.697, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Los Mochis Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12601527", 
+          "woe:state=2346288", 
+          "woe:country=23424900", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514917, 
         "ne_longitude": -109.069, 
         "longitude": -109.082, 
-        "placetype": "Airport", 
+        "parent_woeid": 12601527, 
+        "ne_latitude": 25.697, 
         "iso": "MX", 
-        "date_indexed": "2010-12-02T16:57:55Z", 
-        "parent_woeid": 125327, 
+        "sw_latitude": 25.674, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 25.686, 
         "sw_longitude": -109.094, 
-        "fullname": "Los Mochis Airport, Ibarra, Sinaloa, Ahome, Mexico", 
-        "sw_latitude": 25.674
+        "fullname": "Los Mochis Airport, Ibarra, Sinaloa, Mexico", 
+        "iata_code": "LMM", 
+        "date_indexed": "2010-12-02T16:57:55Z"
       }, 
       "id": 12514917
     }

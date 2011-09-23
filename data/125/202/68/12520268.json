@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520268, 
-        "name": "Hurricane Airport", 
         "alias_ENG_V": [
           "General Dick Stout Field Airport"
         ], 
-        "ne_latitude": 37.143, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Hurricane Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590287", 
+          "woe:state=2347603", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520268, 
         "ne_longitude": -113.302, 
         "longitude": -113.304, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590287, 
+        "ne_latitude": 37.143, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2426120, 
+        "sw_latitude": 37.139, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 37.141, 
         "sw_longitude": -113.307, 
-        "fullname": "Hurricane Airport, Hurricane, Utah, Washington, United States", 
-        "sw_latitude": 37.139
+        "fullname": "Hurricane Airport, Hurricane, Utah, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12520268
     }

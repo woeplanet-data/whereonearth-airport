@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517456, 
-        "name": "P W Botha Airport", 
         "alias_ENG_V": [
           "GRJ Airport"
         ], 
-        "ne_latitude": -33.997, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "P W Botha Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=56189594", 
+          "woe:county=56189419", 
+          "woe:state=2346987", 
+          "woe:country=23424942", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517456, 
         "ne_longitude": 22.393, 
         "longitude": 22.382, 
-        "placetype": "Airport", 
+        "parent_woeid": 56189594, 
+        "ne_latitude": -33.997, 
         "iso": "ZA", 
-        "date_indexed": "2010-12-02T08:57:52Z", 
-        "parent_woeid": 55879884, 
+        "sw_latitude": -34.009, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -34.000, 
         "sw_longitude": 22.366, 
         "fullname": "P W Botha Airport, Western Cape, Western Cape Rural, South Africa", 
-        "sw_latitude": -34.009
+        "iata_code": "GRJ", 
+        "date_indexed": "2010-12-02T08:57:52Z"
       }, 
       "id": 12517456
     }

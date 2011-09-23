@@ -3,28 +3,58 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -91.734, 
-              41.876
-            ], 
-            [
-              -91.734, 
-              41.894
-            ], 
-            [
-              -91.695, 
-              41.894
-            ], 
-            [
-              -91.695, 
-              41.876
-            ], 
-            [
-              -91.734, 
-              41.876
+              [
+                -91.700, 
+                41.889
+              ], 
+              [
+                -91.696, 
+                41.887
+              ], 
+              [
+                -91.702, 
+                41.886
+              ], 
+              [
+                -91.707, 
+                41.885
+              ], 
+              [
+                -91.710, 
+                41.887
+              ], 
+              [
+                -91.713, 
+                41.890
+              ], 
+              [
+                -91.710, 
+                41.887
+              ], 
+              [
+                -91.705, 
+                41.890
+              ], 
+              [
+                -91.702, 
+                41.890
+              ], 
+              [
+                -91.701, 
+                41.890
+              ], 
+              [
+                -91.700, 
+                41.890
+              ], 
+              [
+                -91.700, 
+                41.889
+              ]
             ]
           ]
         ]
@@ -32,23 +62,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519110, 
-        "name": "Cedar Rapids Municipal Airport", 
         "alias_ENG_V": [
           "Eastern Iowa Airport"
         ], 
-        "ne_latitude": 41.894, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -91.695, 
-        "longitude": -91.700, 
-        "placetype": "Airport", 
-        "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
+        "name": "Cedar Rapids Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:suburb=2433786", 
+          "woe:county=12588328", 
+          "woe:state=2347574", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519110, 
+        "ne_longitude": -91.696, 
+        "longitude": -91.704, 
         "parent_woeid": 2433786, 
-        "latitude": 41.889, 
-        "sw_longitude": -91.734, 
-        "fullname": "Cedar Rapids Municipal Airport, Cedar Rapids, Iowa, Linn, United States", 
-        "sw_latitude": 41.876
+        "ne_latitude": 41.890, 
+        "iso": "US", 
+        "sw_latitude": 41.885, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 41.888, 
+        "sw_longitude": -91.713, 
+        "fullname": "Cedar Rapids Municipal Airport, Cedar Rapids, Iowa, United States", 
+        "iata_code": "CID", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519110
     }

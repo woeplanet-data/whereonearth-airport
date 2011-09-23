@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510784, 
+        "placetype": "airport", 
         "name": "Stawell Airport", 
-        "ne_latitude": -37.064, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55863974", 
+          "woe:state=2344705", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510784, 
         "ne_longitude": 142.747, 
         "longitude": 142.741, 
-        "placetype": "Airport", 
+        "parent_woeid": 55863974, 
+        "ne_latitude": -37.064, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1105681, 
+        "sw_latitude": -37.073, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -37.069, 
         "sw_longitude": 142.735, 
-        "fullname": "Stawell Airport, Stawell, Victoria, Northern Grampians, Australia", 
-        "sw_latitude": -37.073
+        "fullname": "Stawell Airport, Stawell, Victoria, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 12510784
     }

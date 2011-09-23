@@ -32,23 +32,28 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523234, 
-        "name": "Savusavu Airport", 
         "alias_ENG_V": [
           "SVU"
         ], 
-        "ne_latitude": -16.795, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Savusavu Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2345337", 
+          "woe:country=23424813", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523234, 
         "ne_longitude": 179.355, 
         "longitude": 179.350, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345337, 
+        "ne_latitude": -16.795, 
         "iso": "FJ", 
-        "date_indexed": "2010-12-02T16:12:16Z", 
-        "parent_woeid": 1062932, 
+        "sw_latitude": -16.805, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -16.800, 
         "sw_longitude": 179.345, 
         "fullname": "Savusavu Airport, Labasa, Northern, Fiji", 
-        "sw_latitude": -16.805
+        "date_indexed": "2010-12-02T16:12:16Z"
       }, 
       "id": 12523234
     }

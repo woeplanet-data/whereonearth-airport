@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520637, 
-        "name": "Lexington Airport", 
         "alias_ENG_V": [
           "9s9"
         ], 
-        "ne_latitude": 45.456, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Lexington Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589716", 
+          "woe:state=2347596", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520637, 
         "ne_longitude": -119.679, 
         "longitude": -119.687, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589716, 
+        "ne_latitude": 45.456, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2438823, 
+        "sw_latitude": 45.447, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.452, 
         "sw_longitude": -119.698, 
-        "fullname": "Lexington Airport, Lexington, Oregon, Morrow, United States", 
-        "sw_latitude": 45.447
+        "fullname": "Lexington Airport, Lexington, Oregon, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520637
     }

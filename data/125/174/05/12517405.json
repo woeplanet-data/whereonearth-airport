@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517405, 
+        "placetype": "airport", 
         "name": "Elliot Airport", 
-        "ne_latitude": -31.302, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=56189667", 
+          "woe:county=56189421", 
+          "woe:state=2346979", 
+          "woe:country=23424942", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517405, 
         "ne_longitude": 27.857, 
         "longitude": 27.851, 
-        "placetype": "Airport", 
+        "parent_woeid": 56189667, 
+        "ne_latitude": -31.302, 
         "iso": "ZA", 
-        "date_indexed": "2010-12-02T08:57:46Z", 
-        "parent_woeid": 1589574, 
+        "sw_latitude": -31.311, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -31.307, 
         "sw_longitude": 27.846, 
-        "fullname": "Elliot Airport, Elliot, Eastern Cape, Elliot, South Africa", 
-        "sw_latitude": -31.311
+        "fullname": "Elliot Airport, Elliot, Eastern Cape, South Africa", 
+        "date_indexed": "2010-12-02T08:57:46Z"
       }, 
       "id": 12517405
     }

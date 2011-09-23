@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518644, 
-        "name": "Aransas County Airport", 
         "alias_ENG_V": [
           "Aransas Airport"
         ], 
-        "ne_latitude": 28.094, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Aransas County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590010", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518644, 
         "ne_longitude": -97.036, 
         "longitude": -97.051, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590010, 
+        "ne_latitude": 28.094, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2483474, 
+        "sw_latitude": 28.078, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 28.087, 
         "sw_longitude": -97.059, 
-        "fullname": "Aransas County Airport, Rockport, Texas, Aransas, United States", 
-        "sw_latitude": 28.078
+        "fullname": "Aransas County Airport, Rockport, Texas, United States", 
+        "iata_code": "RKP", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518644
     }

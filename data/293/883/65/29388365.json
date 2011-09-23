@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388365, 
-        "name": "Bedford County Airport", 
         "alias_ENG_V": [
           "Hmz"
         ], 
-        "ne_latitude": 40.089, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Bedford County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589732", 
+          "woe:state=2347597", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388365, 
         "ne_longitude": -78.504, 
         "longitude": -78.504, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589732, 
+        "ne_latitude": 40.089, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2361181, 
+        "sw_latitude": 40.080, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.081, 
         "sw_longitude": -78.519, 
-        "fullname": "Bedford County Airport, Bedford, Pennsylvania, Bedford, United States", 
-        "sw_latitude": 40.080
+        "fullname": "Bedford County Airport, Bedford, Pennsylvania, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388365
     }

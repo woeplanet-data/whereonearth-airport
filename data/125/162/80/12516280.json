@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516280, 
+        "placetype": "airport", 
         "name": "Krivoy Liman Airport", 
-        "ne_latitude": 47.237, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599117", 
+          "woe:state=2346921", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516280, 
         "ne_longitude": 41.767, 
         "longitude": 41.760, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599117, 
+        "ne_latitude": 47.237, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2030621, 
+        "sw_latitude": 47.228, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.233, 
         "sw_longitude": 41.754, 
         "fullname": "Krivoy Liman Airport, Rostovskaya Oblast, Martynovsky, Russia", 
-        "sw_latitude": 47.228
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516280
     }

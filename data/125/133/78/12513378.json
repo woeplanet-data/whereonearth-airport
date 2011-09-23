@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513378, 
+        "placetype": "airport", 
         "name": "Baja North Airport", 
-        "ne_latitude": 46.258, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12595028", 
+          "woe:state=12577911", 
+          "woe:country=23424844", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513378, 
         "ne_longitude": 18.936, 
         "longitude": 18.930, 
-        "placetype": "Airport", 
+        "parent_woeid": 12595028, 
+        "ne_latitude": 46.258, 
         "iso": "HU", 
-        "date_indexed": "2010-12-02T09:56:22Z", 
-        "parent_woeid": 805970, 
+        "sw_latitude": 46.249, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.254, 
         "sw_longitude": 18.923, 
-        "fullname": "Baja North Airport, \u00c9rsekcsan\u00e1d, B\u00e1cs-Kiskun, \u00c9rsekcsan\u00e1d, Hungary", 
-        "sw_latitude": 46.249
+        "fullname": "Baja North Airport, \u00c9rsekcsan\u00e1d, B\u00e1cs-Kiskun, Hungary", 
+        "date_indexed": "2010-12-02T09:56:22Z"
       }, 
       "id": 12513378
     }

@@ -3,28 +3,30 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              73.814, 
-              15.373
-            ], 
-            [
-              73.814, 
-              15.388
-            ], 
-            [
-              73.851, 
-              15.388
-            ], 
-            [
-              73.851, 
-              15.373
-            ], 
-            [
-              73.814, 
-              15.373
+              [
+                73.836, 
+                15.388
+              ], 
+              [
+                73.837, 
+                15.388
+              ], 
+              [
+                73.838, 
+                15.384
+              ], 
+              [
+                73.835, 
+                15.388
+              ], 
+              [
+                73.836, 
+                15.388
+              ]
             ]
           ]
         ]
@@ -32,23 +34,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513587, 
-        "name": "Dabolim Airport", 
         "alias_ENG_V": [
           "Goa Airport"
         ], 
+        "name": "Dabolim Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12586828", 
+          "woe:state=2345764", 
+          "woe:country=23424848", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513587, 
+        "ne_longitude": 73.838, 
+        "longitude": 73.836, 
+        "parent_woeid": 12586828, 
         "ne_latitude": 15.388, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": 73.851, 
-        "longitude": 73.827, 
-        "placetype": "Airport", 
         "iso": "IN", 
-        "date_indexed": "2010-12-02T09:26:27Z", 
-        "parent_woeid": 2295174, 
-        "latitude": 15.382, 
-        "sw_longitude": 73.814, 
-        "fullname": "Dabolim Airport, Mormugao, Goa, South Goa, India", 
-        "sw_latitude": 15.373
+        "sw_latitude": 15.384, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 15.387, 
+        "sw_longitude": 73.835, 
+        "fullname": "Dabolim Airport, Mormugao, Goa, India", 
+        "iata_code": "GOI", 
+        "date_indexed": "2010-12-02T09:26:27Z"
       }, 
       "id": 12513587
     }

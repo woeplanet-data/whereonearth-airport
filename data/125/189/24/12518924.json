@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518924, 
-        "name": "Breckinridge County Airport", 
         "alias_ENG_V": [
           "I93"
         ], 
-        "ne_latitude": 37.786, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Breckinridge County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588489", 
+          "woe:state=2347576", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518924, 
         "ne_longitude": -86.434, 
         "longitude": -86.447, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588489, 
+        "ne_latitude": 37.786, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2417456, 
+        "sw_latitude": 37.784, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 37.786, 
         "sw_longitude": -86.449, 
-        "fullname": "Breckinridge County Airport, Hardinsburg, Kentucky, Breckinridge, United States", 
-        "sw_latitude": 37.784
+        "fullname": "Breckinridge County Airport, Hardinsburg, Kentucky, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518924
     }

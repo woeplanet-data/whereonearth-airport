@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514991, 
-        "name": "Butterworth Airport", 
         "alias_ENG_V": [
           "BWH"
         ], 
-        "ne_latitude": 5.471, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Butterworth Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=56014073", 
+          "woe:county=56013561", 
+          "woe:state=2346304", 
+          "woe:country=23424901", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514991, 
         "ne_longitude": 100.397, 
         "longitude": 100.393, 
-        "placetype": "Airport", 
+        "parent_woeid": 56014073, 
+        "ne_latitude": 5.471, 
         "iso": "MY", 
-        "date_indexed": "2010-12-02T18:04:56Z", 
-        "parent_woeid": 1152610, 
+        "sw_latitude": 5.462, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 5.467, 
         "sw_longitude": 100.388, 
-        "fullname": "Butterworth Airport, Permatang Kuching, Pulau Pinang, North Seberang Perai, Malaysia", 
-        "sw_latitude": 5.462
+        "fullname": "Butterworth Airport, Permatang Kuching, Pulau Pinang, Malaysia", 
+        "iata_code": "BWH", 
+        "date_indexed": "2010-12-02T18:04:56Z"
       }, 
       "id": 12514991
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522178, 
+        "placetype": "airport", 
         "name": "Transwestern Pipeline Nr 4 Airport", 
-        "ne_latitude": 35.573, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12587580", 
+          "woe:state=2347561", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522178, 
         "ne_longitude": -109.373, 
         "longitude": -109.378, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587580, 
+        "ne_latitude": 35.573, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 28337711, 
+        "sw_latitude": 35.564, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.568, 
         "sw_longitude": -109.384, 
-        "fullname": "Transwestern Pipeline Nr 4 Airport, Mennonite Mission, Arizona, Apache, United States", 
-        "sw_latitude": 35.564
+        "fullname": "Transwestern Pipeline Nr 4 Airport, Mennonite Mission, Arizona, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12522178
     }

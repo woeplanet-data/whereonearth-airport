@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518118, 
-        "name": "Leuchars Airport", 
         "alias_ENG_V": [
           "ADX"
         ], 
-        "ne_latitude": 56.382, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Leuchars Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=12696197", 
+          "woe:county=12602201", 
+          "woe:state=12578048", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518118, 
         "ne_longitude": -2.853, 
         "longitude": -2.861, 
-        "placetype": "Airport", 
+        "parent_woeid": 12696197, 
+        "ne_latitude": 56.382, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:21:01Z", 
-        "parent_woeid": 26168, 
+        "sw_latitude": 56.372, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 56.377, 
         "sw_longitude": -2.869, 
-        "fullname": "Leuchars Airport, Leuchars, Scotland, Fife, United Kingdom", 
-        "sw_latitude": 56.372
+        "fullname": "Leuchars Airport, Leuchars, Scotland, United Kingdom", 
+        "iata_code": "ADX", 
+        "date_indexed": "2010-12-02T12:21:01Z"
       }, 
       "id": 12518118
     }

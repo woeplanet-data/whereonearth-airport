@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513255, 
+        "placetype": "airport", 
         "name": "Waltersleben Highway Strip Airport", 
-        "ne_latitude": 50.910, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12625159", 
+          "woe:county=12596768", 
+          "woe:state=2345495", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513255, 
         "ne_longitude": 11.038, 
         "longitude": 11.030, 
-        "placetype": "Airport", 
+        "parent_woeid": 12625159, 
+        "ne_latitude": 50.910, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 689008, 
+        "sw_latitude": 50.901, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.906, 
         "sw_longitude": 11.023, 
-        "fullname": "Waltersleben Highway Strip Airport, Rockhausen, Thuringia, Ilm-Kreis, Germany", 
+        "fullname": "Waltersleben Highway Strip Airport, Rockhausen, Thuringia, Germany", 
         "alias_GER_Q": [
           "Flughafen Waltersleben Highway Strip"
         ], 
-        "sw_latitude": 50.901
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 12513255
     }

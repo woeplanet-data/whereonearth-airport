@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519650, 
-        "name": "Ennis Municipal Airport", 
         "alias_ENG_V": [
           "F41"
         ], 
-        "ne_latitude": 32.326, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Ennis Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590077", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519650, 
         "ne_longitude": -96.661, 
         "longitude": -96.664, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590077, 
+        "ne_latitude": 32.326, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:16Z", 
-        "parent_woeid": 2399770, 
+        "sw_latitude": 32.321, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 32.324, 
         "sw_longitude": -96.667, 
-        "fullname": "Ennis Municipal Airport, Ennis, Texas, Ellis, United States", 
-        "sw_latitude": 32.321
+        "fullname": "Ennis Municipal Airport, Ennis, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:16Z"
       }, 
       "id": 12519650
     }

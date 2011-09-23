@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388034, 
+        "placetype": "airport", 
         "name": "Sigourney Iowa Airport", 
-        "ne_latitude": 41.294, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12588325", 
+          "woe:state=2347574", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388034, 
         "ne_longitude": -92.185, 
         "longitude": -92.188, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588325, 
+        "ne_latitude": 41.294, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2446562, 
+        "sw_latitude": 41.287, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.287, 
         "sw_longitude": -92.190, 
-        "fullname": "Sigourney Iowa Airport, Marysville, Iowa, Keokuk, United States", 
-        "sw_latitude": 41.287
+        "fullname": "Sigourney Iowa Airport, Marysville, Iowa, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388034
     }

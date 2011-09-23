@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521640, 
-        "name": "Rohnerville Airport", 
         "alias_ENG_V": [
           "FOT"
         ], 
-        "ne_latitude": 40.558, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Rohnerville Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587681", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521640, 
         "ne_longitude": -124.125, 
         "longitude": -124.132, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587681, 
+        "ne_latitude": 40.558, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2406104, 
+        "sw_latitude": 40.550, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.555, 
         "sw_longitude": -124.140, 
-        "fullname": "Rohnerville Airport, Fortuna, California, Humboldt, United States", 
-        "sw_latitude": 40.550
+        "fullname": "Rohnerville Airport, Fortuna, California, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521640
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514835, 
+        "placetype": "airport", 
         "name": "Carlos A Carrillo Airport", 
-        "ne_latitude": 18.395, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=24550694", 
+          "woe:state=2346293", 
+          "woe:country=23424900", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514835, 
         "ne_longitude": -95.727, 
         "longitude": -95.732, 
-        "placetype": "Airport", 
+        "parent_woeid": 24550694, 
+        "ne_latitude": 18.395, 
         "iso": "MX", 
-        "date_indexed": "2010-12-02T16:57:55Z", 
-        "parent_woeid": 114848, 
+        "sw_latitude": 18.385, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 18.390, 
         "sw_longitude": -95.737, 
-        "fullname": "Carlos A Carrillo Airport, Carlos A. Carrillo, Veracruz-Llave, Carlos A. Carrillo, Mexico", 
-        "sw_latitude": 18.385
+        "fullname": "Carlos A Carrillo Airport, Carlos A. Carrillo, Veracruz-Llave, Mexico", 
+        "date_indexed": "2010-12-02T16:57:55Z"
       }, 
       "id": 12514835
     }

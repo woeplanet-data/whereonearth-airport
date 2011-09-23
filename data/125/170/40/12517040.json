@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517040, 
+        "placetype": "airport", 
         "name": "Tula Airport", 
-        "ne_latitude": 54.224, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599420", 
+          "woe:state=2346929", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517040, 
         "ne_longitude": 37.561, 
         "longitude": 37.554, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599420, 
+        "ne_latitude": 54.224, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2020862, 
+        "sw_latitude": 54.215, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 54.219, 
         "sw_longitude": 37.546, 
         "fullname": "Tula Airport, Tulrskaya Oblast, Tula, Russia", 
-        "sw_latitude": 54.215
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12517040
     }

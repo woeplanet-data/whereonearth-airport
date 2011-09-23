@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522899, 
+        "placetype": "airport", 
         "name": "Dong Xoai Airport", 
-        "ne_latitude": 11.532, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=20070086", 
+          "woe:country=23424984", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522899, 
         "ne_longitude": 106.893, 
         "longitude": 106.888, 
-        "placetype": "Airport", 
+        "parent_woeid": 20070086, 
+        "ne_latitude": 11.532, 
         "iso": "VN", 
-        "date_indexed": "2010-12-02T08:52:49Z", 
-        "parent_woeid": 1252395, 
+        "sw_latitude": 11.523, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 11.528, 
         "sw_longitude": 106.883, 
         "fullname": "Dong Xoai Airport, Bin Phuoc, Vietnam", 
-        "sw_latitude": 11.523
+        "date_indexed": "2010-12-02T08:52:49Z"
       }, 
       "id": 12522899
     }

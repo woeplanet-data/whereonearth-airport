@@ -3,28 +3,102 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -86.779, 
-              33.550
-            ], 
-            [
-              -86.779, 
-              33.579
-            ], 
-            [
-              -86.731, 
-              33.579
-            ], 
-            [
-              -86.731, 
-              33.550
-            ], 
-            [
-              -86.779, 
-              33.550
+              [
+                -86.754, 
+                33.561
+              ], 
+              [
+                -86.755, 
+                33.561
+              ], 
+              [
+                -86.760, 
+                33.560
+              ], 
+              [
+                -86.762, 
+                33.563
+              ], 
+              [
+                -86.760, 
+                33.567
+              ], 
+              [
+                -86.754, 
+                33.569
+              ], 
+              [
+                -86.753, 
+                33.571
+              ], 
+              [
+                -86.751, 
+                33.571
+              ], 
+              [
+                -86.749, 
+                33.571
+              ], 
+              [
+                -86.747, 
+                33.567
+              ], 
+              [
+                -86.743, 
+                33.567
+              ], 
+              [
+                -86.741, 
+                33.570
+              ], 
+              [
+                -86.739, 
+                33.564
+              ], 
+              [
+                -86.738, 
+                33.563
+              ], 
+              [
+                -86.737, 
+                33.562
+              ], 
+              [
+                -86.737, 
+                33.562
+              ], 
+              [
+                -86.738, 
+                33.563
+              ], 
+              [
+                -86.741, 
+                33.563
+              ], 
+              [
+                -86.742, 
+                33.563
+              ], 
+              [
+                -86.749, 
+                33.561
+              ], 
+              [
+                -86.751, 
+                33.557
+              ], 
+              [
+                -86.753, 
+                33.560
+              ], 
+              [
+                -86.754, 
+                33.561
+              ]
             ]
           ]
         ]
@@ -32,23 +106,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518836, 
-        "name": "Birmingham Int'l Airport", 
         "alias_ENG_V": [
           "BHM"
         ], 
-        "ne_latitude": 33.579, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -86.731, 
-        "longitude": -86.749, 
-        "placetype": "Airport", 
-        "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:15Z", 
+        "name": "Birmingham Int'l Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:suburb=2523404", 
+          "woe:county=12587523", 
+          "woe:state=2347559", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518836, 
+        "ne_longitude": -86.737, 
+        "longitude": -86.751, 
         "parent_woeid": 2523404, 
-        "latitude": 33.560, 
-        "sw_longitude": -86.779, 
-        "fullname": "Birmingham Int'l Airport, Birmingham, Alabama, Jefferson, United States", 
-        "sw_latitude": 33.550
+        "ne_latitude": 33.571, 
+        "iso": "US", 
+        "sw_latitude": 33.557, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 33.565, 
+        "sw_longitude": -86.762, 
+        "fullname": "Birmingham Int'l Airport, Birmingham, Alabama, United States", 
+        "iata_code": "BHM", 
+        "date_indexed": "2010-12-02T18:39:15Z"
       }, 
       "id": 12518836
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511841, 
+        "placetype": "airport", 
         "name": "St Andre Avellin Airport", 
-        "ne_latitude": 45.806, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=29375249", 
+          "woe:state=2344924", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511841, 
         "ne_longitude": -75.049, 
         "longitude": -75.056, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375249, 
+        "ne_latitude": 45.806, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 1335, 
+        "sw_latitude": 45.797, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.801, 
         "sw_longitude": -75.062, 
-        "fullname": "St Andre Avellin Airport, Ripon, Quebec, Papineau, Canada", 
-        "sw_latitude": 45.797
+        "fullname": "St Andre Avellin Airport, Ripon, Quebec, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12511841
     }

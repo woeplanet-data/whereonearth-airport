@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511253, 
+        "placetype": "airport", 
         "name": "Aeroporto Palmas", 
         "alias_ENG_P": [
           "Palmas Airport"
         ], 
-        "ne_latitude": -26.468, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12580601", 
+          "woe:state=2344859", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511253, 
         "ne_longitude": -51.972, 
         "longitude": -51.977, 
-        "placetype": "Airport", 
+        "parent_woeid": 12580601, 
+        "ne_latitude": -26.468, 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 456379, 
+        "sw_latitude": -26.477, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -26.473, 
         "sw_longitude": -51.982, 
-        "fullname": "Aeroporto Palmas, Palmas, Parana, Palmas, Brazil", 
-        "sw_latitude": -26.477
+        "fullname": "Aeroporto Palmas, Palmas, Parana, Brazil", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511253
     }

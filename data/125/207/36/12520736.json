@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520736, 
-        "name": "Machias Valley Airport", 
         "alias_ENG_V": [
           "MVM"
         ], 
-        "ne_latitude": 44.702, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Machias Valley Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588674", 
+          "woe:state=2347578", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520736, 
         "ne_longitude": -67.473, 
         "longitude": -67.475, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588674, 
+        "ne_latitude": 44.702, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2443739, 
+        "sw_latitude": 44.698, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.700, 
         "sw_longitude": -67.478, 
-        "fullname": "Machias Valley Airport, Machias, Maine, Washington, United States", 
-        "sw_latitude": 44.698
+        "fullname": "Machias Valley Airport, Machias, Maine, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12520736
     }

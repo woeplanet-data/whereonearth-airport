@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511219, 
+        "placetype": "airport", 
         "name": "Aeroporto Magalhaes de Almeida", 
         "alias_ENG_P": [
           "Magalhaes de Almeida Airport"
         ], 
-        "ne_latitude": -4.471, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12579208", 
+          "woe:state=2344854", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511219, 
         "ne_longitude": -43.884, 
         "longitude": -43.889, 
-        "placetype": "Airport", 
+        "parent_woeid": 12579208, 
+        "ne_latitude": -4.471, 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 456141, 
+        "sw_latitude": -4.480, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -4.476, 
         "sw_longitude": -43.893, 
-        "fullname": "Aeroporto Magalhaes de Almeida, Cod\u00f3, Maranhao, Cod\u00f3, Brazil", 
-        "sw_latitude": -4.480
+        "fullname": "Aeroporto Magalhaes de Almeida, Cod\u00f3, Maranhao, Brazil", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511219
     }

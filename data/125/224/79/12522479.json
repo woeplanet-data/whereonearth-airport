@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522479, 
-        "name": "Winchester Regional Airport", 
         "alias_ENG_V": [
           "Winchester Airport"
         ], 
-        "ne_latitude": 39.150, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Winchester Regional Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590436", 
+          "woe:state=2347605", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522479, 
         "ne_longitude": -78.134, 
         "longitude": -78.148, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590436, 
+        "ne_latitude": 39.150, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2521691, 
+        "sw_latitude": 39.135, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 39.143, 
         "sw_longitude": -78.153, 
-        "fullname": "Winchester Regional Airport, Winchester, Virginia, Winchester City, United States", 
-        "sw_latitude": 39.135
+        "fullname": "Winchester Regional Airport, Winchester, Virginia, United States", 
+        "iata_code": "WGO", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522479
     }

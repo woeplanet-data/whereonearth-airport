@@ -3,28 +3,46 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              19.052, 
-              50.467
-            ], 
-            [
-              19.052, 
-              50.486
-            ], 
-            [
-              19.107, 
-              50.486
-            ], 
-            [
-              19.107, 
-              50.467
-            ], 
-            [
-              19.052, 
-              50.467
+              [
+                19.074, 
+                50.471
+              ], 
+              [
+                19.073, 
+                50.471
+              ], 
+              [
+                19.070, 
+                50.472
+              ], 
+              [
+                19.074, 
+                50.476
+              ], 
+              [
+                19.075, 
+                50.474
+              ], 
+              [
+                19.080, 
+                50.473
+              ], 
+              [
+                19.077, 
+                50.472
+              ], 
+              [
+                19.074, 
+                50.471
+              ], 
+              [
+                19.074, 
+                50.471
+              ]
             ]
           ]
         ]
@@ -32,26 +50,34 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515408, 
-        "name": "Zendek Airport", 
         "alias_ENG_V": [
           "KTW Airport"
         ], 
-        "ne_latitude": 50.486, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": 19.107, 
-        "longitude": 19.077, 
-        "placetype": "Airport", 
+        "name": "Zendek Airport", 
+        "placetype": "airport", 
         "alias_POL_Q": [
           "KTW Lotnisko"
         ], 
+        "hierarchy": [
+          "woe:localadmin=12618156", 
+          "woe:county=12591412", 
+          "woe:state=12577946", 
+          "woe:country=23424923", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515408, 
+        "ne_longitude": 19.080, 
+        "longitude": 19.074, 
+        "parent_woeid": 12618156, 
+        "ne_latitude": 50.476, 
         "iso": "PL", 
-        "date_indexed": "2010-12-02T12:12:45Z", 
-        "parent_woeid": 528690, 
-        "latitude": 50.482, 
-        "sw_longitude": 19.052, 
+        "sw_latitude": 50.471, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 50.473, 
+        "sw_longitude": 19.070, 
         "fullname": "Zendek Airport, Silesian, Tarnowskie County, Poland", 
-        "sw_latitude": 50.467
+        "iata_code": "KTW", 
+        "date_indexed": "2010-12-02T12:12:45Z"
       }, 
       "id": 12515408
     }

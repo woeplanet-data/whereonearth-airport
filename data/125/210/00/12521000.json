@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521000, 
-        "name": "Monte Vista Municipal Airport", 
         "alias_ENG_V": [
           "Mte Vista Municipal Airport"
         ], 
-        "ne_latitude": 37.539, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Monte Vista Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587780", 
+          "woe:state=2347564", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521000, 
         "ne_longitude": -106.039, 
         "longitude": -106.045, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587780, 
+        "ne_latitude": 37.539, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2468831, 
+        "sw_latitude": 37.518, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 37.537, 
         "sw_longitude": -106.058, 
-        "fullname": "Monte Vista Municipal Airport, Parma, Colorado, Rio Grande, United States", 
-        "sw_latitude": 37.518
+        "fullname": "Monte Vista Municipal Airport, Parma, Colorado, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12521000
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514963, 
+        "placetype": "airport", 
         "name": "Santa Barbara Airport", 
-        "ne_latitude": 18.330, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12600086", 
+          "woe:state=2346275", 
+          "woe:country=23424900", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514963, 
         "ne_longitude": -100.626, 
         "longitude": -100.631, 
-        "placetype": "Airport", 
+        "parent_woeid": 12600086, 
+        "ne_latitude": 18.330, 
         "iso": "MX", 
-        "date_indexed": "2010-12-02T16:57:55Z", 
-        "parent_woeid": 145773, 
+        "sw_latitude": 18.321, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 18.325, 
         "sw_longitude": -100.635, 
-        "fullname": "Santa Barbara Airport, Santa B\u00e1rbara, Guerrero, Pungarabato, Mexico", 
-        "sw_latitude": 18.321
+        "fullname": "Santa Barbara Airport, Santa B\u00e1rbara, Guerrero, Mexico", 
+        "date_indexed": "2010-12-02T16:57:55Z"
       }, 
       "id": 12514963
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521464, 
-        "name": "Powell Municipal Airport", 
         "alias_ENG_V": [
           "POY"
         ], 
-        "ne_latitude": 44.877, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Powell Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590620", 
+          "woe:state=2347609", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521464, 
         "ne_longitude": -108.784, 
         "longitude": -108.787, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590620, 
+        "ne_latitude": 44.877, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 23510523, 
+        "sw_latitude": 44.861, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.867, 
         "sw_longitude": -108.801, 
-        "fullname": "Powell Municipal Airport, Mantua, Wyoming, Park, United States", 
-        "sw_latitude": 44.861
+        "fullname": "Powell Municipal Airport, Mantua, Wyoming, United States", 
+        "iata_code": "POY", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521464
     }

@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515579, 
+        "placetype": "airport", 
         "name": "Strejnic Airport", 
-        "ne_latitude": 44.927, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2346643", 
+          "woe:country=23424933", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515579, 
         "ne_longitude": 25.960, 
         "longitude": 25.953, 
-        "placetype": "Airport", 
+        "parent_woeid": 2346643, 
+        "ne_latitude": 44.927, 
         "iso": "RO", 
-        "date_indexed": "2010-12-02T16:37:48Z", 
-        "parent_woeid": 881163, 
+        "sw_latitude": 44.918, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.922, 
         "sw_longitude": 25.947, 
         "fullname": "Strejnic Airport, Prahova, Romania", 
-        "sw_latitude": 44.918
+        "date_indexed": "2010-12-02T16:37:48Z"
       }, 
       "id": 12515579
     }

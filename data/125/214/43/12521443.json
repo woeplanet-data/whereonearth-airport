@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521443, 
-        "name": "Port Meadville Airport", 
         "alias_ENG_V": [
           "Pt Meadville Airport"
         ], 
-        "ne_latitude": 41.632, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Port Meadville Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589747", 
+          "woe:state=2347597", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521443, 
         "ne_longitude": -80.204, 
         "longitude": -80.210, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589747, 
+        "ne_latitude": 41.632, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 28744890, 
+        "sw_latitude": 41.622, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.626, 
         "sw_longitude": -80.224, 
-        "fullname": "Port Meadville Airport, Vernon, Pennsylvania, Crawford, United States", 
-        "sw_latitude": 41.622
+        "fullname": "Port Meadville Airport, Vernon, Pennsylvania, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521443
     }

@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 56052202, 
+        "placetype": "airport", 
         "name": "Flugplatz Bad Waldsee-reute", 
-        "ne_latitude": 47.917, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12623808", 
+          "woe:county=12596733", 
+          "woe:state=2345481", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56052202, 
         "ne_longitude": 9.713, 
         "longitude": 9.711, 
-        "placetype": "Airport", 
+        "parent_woeid": 12623808, 
+        "ne_latitude": 47.917, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 636525, 
+        "sw_latitude": 47.914, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.915, 
         "sw_longitude": 9.710, 
-        "fullname": "Flugplatz Bad Waldsee-reute, Bad Waldsee, Baden-Wurttemberg, Landkreis Ravensburg, Germany", 
-        "sw_latitude": 47.914
+        "fullname": "Flugplatz Bad Waldsee-reute, Bad Waldsee, Baden-Wurttemberg, Germany", 
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 56052202
     }

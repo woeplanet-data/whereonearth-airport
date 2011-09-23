@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516266, 
+        "placetype": "airport", 
         "name": "Krasnyy Airport", 
-        "ne_latitude": 46.525, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599154", 
+          "woe:state=2346921", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516266, 
         "ne_longitude": 40.261, 
         "longitude": 40.254, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599154, 
+        "ne_latitude": 46.525, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2055620, 
+        "sw_latitude": 46.516, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.520, 
         "sw_longitude": 40.247, 
         "fullname": "Krasnyy Airport, Rostovskaya Oblast, Zernogradsky, Russia", 
-        "sw_latitude": 46.516
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516266
     }

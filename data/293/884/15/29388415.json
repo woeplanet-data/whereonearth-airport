@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388415, 
-        "name": "Middlebury State Airport", 
         "alias_ENG_V": [
           "6bo"
         ], 
-        "ne_latitude": 43.995, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Middlebury State Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590290", 
+          "woe:state=2347604", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388415, 
         "ne_longitude": -73.093, 
         "longitude": -73.097, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590290, 
+        "ne_latitude": 43.995, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2450306, 
+        "sw_latitude": 43.982, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.986, 
         "sw_longitude": -73.099, 
-        "fullname": "Middlebury State Airport, Middlebury, Vermont, Addison, United States", 
-        "sw_latitude": 43.982
+        "fullname": "Middlebury State Airport, Middlebury, Vermont, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388415
     }

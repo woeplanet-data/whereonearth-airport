@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518030, 
-        "name": "Alconbury Airport", 
         "alias_ENG_V": [
           "AYH"
         ], 
-        "ne_latitude": 52.380, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Alconbury Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=12695885", 
+          "woe:county=12602140", 
+          "woe:state=24554868", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518030, 
         "ne_longitude": -0.215, 
         "longitude": -0.223, 
-        "placetype": "Airport", 
+        "parent_woeid": 12695885, 
+        "ne_latitude": 52.380, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:20:54Z", 
-        "parent_woeid": 26639, 
+        "sw_latitude": 52.371, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 52.375, 
         "sw_longitude": -0.230, 
-        "fullname": "Alconbury Airport, Little Stukeley, England, Cambridgeshire, United Kingdom", 
-        "sw_latitude": 52.371
+        "fullname": "Alconbury Airport, Little Stukeley, England, United Kingdom", 
+        "iata_code": "AYH", 
+        "date_indexed": "2010-12-02T12:20:54Z"
       }, 
       "id": 12518030
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520709, 
+        "placetype": "airport", 
         "name": "Lost Mine Airport", 
-        "ne_latitude": 36.519, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12589042", 
+          "woe:state=2347584", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520709, 
         "ne_longitude": -92.634, 
         "longitude": -92.640, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589042, 
+        "ne_latitude": 36.519, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2475046, 
+        "sw_latitude": 36.510, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.514, 
         "sw_longitude": -92.646, 
-        "fullname": "Lost Mine Airport, Pontiac, Missouri, Ozark, United States", 
-        "sw_latitude": 36.510
+        "fullname": "Lost Mine Airport, Pontiac, Missouri, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12520709
     }

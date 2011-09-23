@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 56064384, 
-        "name": "Darjeeling  Airport", 
         "alias_ENG_V": [
           "DAI"
         ], 
-        "ne_latitude": 27.067, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Darjeeling  Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12586574", 
+          "woe:state=2345753", 
+          "woe:country=23424848", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56064384, 
         "ne_longitude": 88.291, 
         "longitude": 88.281, 
-        "placetype": "Airport", 
+        "parent_woeid": 12586574, 
+        "ne_latitude": 27.067, 
         "iso": "IN", 
-        "date_indexed": "2010-12-02T09:26:27Z", 
-        "parent_woeid": 2295218, 
+        "sw_latitude": 27.049, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 27.058, 
         "sw_longitude": 88.271, 
-        "fullname": "Darjeeling  Airport, Bellary, Karnataka, Bellary, India", 
-        "sw_latitude": 27.049
+        "fullname": "Darjeeling  Airport, Bellary, Karnataka, India", 
+        "date_indexed": "2010-12-02T09:26:27Z"
       }, 
       "id": 56064384
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521893, 
-        "name": "Smithville Municipal Airport", 
         "alias_ENG_V": [
           "Smithfield Crawford Muni Airport"
         ], 
-        "ne_latitude": 30.037, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Smithville Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590017", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521893, 
         "ne_longitude": -97.165, 
         "longitude": -97.166, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590017, 
+        "ne_latitude": 30.037, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2495126, 
+        "sw_latitude": 30.026, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 30.032, 
         "sw_longitude": -97.168, 
-        "fullname": "Smithville Municipal Airport, Smithville, Texas, Bastrop, United States", 
-        "sw_latitude": 30.026
+        "fullname": "Smithville Municipal Airport, Smithville, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521893
     }

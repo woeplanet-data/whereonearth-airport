@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388520, 
+        "placetype": "airport", 
         "name": "Sloan Airport", 
-        "ne_latitude": 35.019, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12589822", 
+          "woe:state=2347599", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388520, 
         "ne_longitude": -82.231, 
         "longitude": -82.232, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589822, 
+        "ne_latitude": 35.019, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2429987, 
+        "sw_latitude": 35.018, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.019, 
         "sw_longitude": -82.238, 
-        "fullname": "Sloan Airport, Jordan, South Carolina, Greenville, United States", 
-        "sw_latitude": 35.018
+        "fullname": "Sloan Airport, Jordan, South Carolina, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388520
     }

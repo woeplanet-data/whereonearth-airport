@@ -3,28 +3,66 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -88.256, 
-              43.032
-            ], 
-            [
-              -88.256, 
-              43.047
-            ], 
-            [
-              -88.225, 
-              43.047
-            ], 
-            [
-              -88.225, 
-              43.032
-            ], 
-            [
-              -88.256, 
-              43.032
+              [
+                -88.240, 
+                43.037
+              ], 
+              [
+                -88.237, 
+                43.038
+              ], 
+              [
+                -88.236, 
+                43.040
+              ], 
+              [
+                -88.232, 
+                43.041
+              ], 
+              [
+                -88.232, 
+                43.040
+              ], 
+              [
+                -88.232, 
+                43.039
+              ], 
+              [
+                -88.234, 
+                43.036
+              ], 
+              [
+                -88.239, 
+                43.032
+              ], 
+              [
+                -88.242, 
+                43.030
+              ], 
+              [
+                -88.243, 
+                43.030
+              ], 
+              [
+                -88.242, 
+                43.033
+              ], 
+              [
+                -88.244, 
+                43.036
+              ], 
+              [
+                -88.241, 
+                43.037
+              ], 
+              [
+                -88.240, 
+                43.037
+              ]
             ]
           ]
         ]
@@ -32,23 +70,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522358, 
-        "name": "Waukesha County Airport", 
         "alias_ENG_V": [
           "UES"
         ], 
-        "ne_latitude": 43.047, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -88.225, 
-        "longitude": -88.237, 
-        "placetype": "Airport", 
+        "name": "Waukesha County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590601", 
+          "woe:state=2347608", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522358, 
+        "ne_longitude": -88.232, 
+        "longitude": -88.238, 
+        "parent_woeid": 12590601, 
+        "ne_latitude": 43.041, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2471102, 
-        "latitude": 43.034, 
-        "sw_longitude": -88.256, 
-        "fullname": "Waukesha County Airport, Pewaukee, Wisconsin, Waukesha, United States", 
-        "sw_latitude": 43.032
+        "sw_latitude": 43.030, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 43.036, 
+        "sw_longitude": -88.244, 
+        "fullname": "Waukesha County Airport, Pewaukee, Wisconsin, United States", 
+        "iata_code": "UES", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522358
     }

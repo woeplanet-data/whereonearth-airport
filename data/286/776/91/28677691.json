@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 28677691, 
-        "name": "Coen Aerodrome", 
         "alias_ENG_V": [
           "Coen Airport"
         ], 
-        "ne_latitude": -13.757, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Coen Aerodrome", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55864348", 
+          "woe:state=2344702", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 28677691, 
         "ne_longitude": 143.121, 
         "longitude": 143.116, 
-        "placetype": "Airport", 
+        "parent_woeid": 55864348, 
+        "ne_latitude": -13.757, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1101225, 
+        "sw_latitude": -13.766, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -13.762, 
         "sw_longitude": 143.111, 
-        "fullname": "Coen Aerodrome, Coen, Queensland, Cook, Australia", 
-        "sw_latitude": -13.766
+        "fullname": "Coen Aerodrome, Coen, Queensland, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 28677691
     }

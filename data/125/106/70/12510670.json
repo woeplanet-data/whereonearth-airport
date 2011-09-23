@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510670, 
-        "name": "Forrest Aerodrome", 
         "alias_ENG_V": [
           "Forrest Airport"
         ], 
-        "ne_latitude": -30.831, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Forrest Aerodrome", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55864071", 
+          "woe:state=2344706", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510670, 
         "ne_longitude": 128.123, 
         "longitude": 128.117, 
-        "placetype": "Airport", 
+        "parent_woeid": 55864071, 
+        "ne_latitude": -30.831, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1102086, 
+        "sw_latitude": -30.840, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -30.836, 
         "sw_longitude": 128.112, 
-        "fullname": "Forrest Aerodrome, Forrest, Western Australia, Kalgoorlie-boulder, Australia", 
-        "sw_latitude": -30.840
+        "fullname": "Forrest Aerodrome, Forrest, Western Australia, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 12510670
     }

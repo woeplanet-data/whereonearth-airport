@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511607, 
-        "name": "Charlo Airport", 
         "alias_ENG_V": [
           "Xaz"
         ], 
-        "ne_latitude": 47.999, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Charlo Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375108", 
+          "woe:state=2344918", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511607, 
         "ne_longitude": -66.309, 
         "longitude": -66.329, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375108, 
+        "ne_latitude": 47.999, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 3622, 
+        "sw_latitude": 47.982, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.987, 
         "sw_longitude": -66.349, 
-        "fullname": "Charlo Airport, Charlo, New Brunswick, Restigouche, Canada", 
-        "sw_latitude": 47.982
+        "fullname": "Charlo Airport, Charlo, New Brunswick, Canada", 
+        "iata_code": "YCL", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12511607
     }

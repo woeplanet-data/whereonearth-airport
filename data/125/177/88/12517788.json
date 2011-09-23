@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517788, 
-        "name": "Takhli Airport", 
         "alias_ENG_V": [
           "TKH"
         ], 
-        "ne_latitude": 15.283, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Takhli Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=28340974", 
+          "woe:state=2347143", 
+          "woe:country=23424960", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517788, 
         "ne_longitude": 100.304, 
         "longitude": 100.299, 
-        "placetype": "Airport", 
+        "parent_woeid": 28340974, 
+        "ne_latitude": 15.283, 
         "iso": "TH", 
-        "date_indexed": "2010-12-02T17:05:34Z", 
-        "parent_woeid": 1226179, 
+        "sw_latitude": 15.274, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 15.278, 
         "sw_longitude": 100.294, 
-        "fullname": "Takhli Airport, Ta Khli, Nakhon Sawan, Takhli, Thailand", 
-        "sw_latitude": 15.274
+        "fullname": "Takhli Airport, Ta Khli, Nakhon Sawan, Thailand", 
+        "date_indexed": "2010-12-02T17:05:34Z"
       }, 
       "id": 12517788
     }

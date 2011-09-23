@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513408, 
+        "placetype": "airport", 
         "name": "Mezohegyes Airport", 
-        "ne_latitude": 46.304, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12593829", 
+          "woe:state=12577913", 
+          "woe:country=23424844", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513408, 
         "ne_longitude": 20.815, 
         "longitude": 20.808, 
-        "placetype": "Airport", 
+        "parent_woeid": 12593829, 
+        "ne_latitude": 46.304, 
         "iso": "HU", 
-        "date_indexed": "2010-12-02T09:56:22Z", 
-        "parent_woeid": 811911, 
+        "sw_latitude": 46.295, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.300, 
         "sw_longitude": 20.802, 
-        "fullname": "Mezohegyes Airport, Mez\u0151hegyes, B\u00e9k\u00e9s, Mez\u00f4hegyes, Hungary", 
-        "sw_latitude": 46.295
+        "fullname": "Mezohegyes Airport, Mez\u0151hegyes, B\u00e9k\u00e9s, Hungary", 
+        "date_indexed": "2010-12-02T09:56:22Z"
       }, 
       "id": 12513408
     }

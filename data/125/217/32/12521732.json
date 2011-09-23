@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521732, 
+        "placetype": "airport", 
         "name": "San Saba County Municipal Airport", 
-        "ne_latitude": 31.240, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12590212", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521732, 
         "ne_longitude": -98.711, 
         "longitude": -98.717, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590212, 
+        "ne_latitude": 31.240, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2488215, 
+        "sw_latitude": 31.230, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 31.235, 
         "sw_longitude": -98.722, 
-        "fullname": "San Saba County Municipal Airport, San Saba, Texas, San Saba, United States", 
-        "sw_latitude": 31.230
+        "fullname": "San Saba County Municipal Airport, San Saba, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521732
     }

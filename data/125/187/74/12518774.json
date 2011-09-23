@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518774, 
-        "name": "Beaver County Airport", 
         "alias_ENG_V": [
           "Beaver Airport"
         ], 
-        "ne_latitude": 40.778, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Beaver County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589731", 
+          "woe:state=2347597", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518774, 
         "ne_longitude": -80.381, 
         "longitude": -80.389, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589731, 
+        "ne_latitude": 40.778, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 28744477, 
+        "sw_latitude": 40.772, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.775, 
         "sw_longitude": -80.402, 
-        "fullname": "Beaver County Airport, Chippewa, Pennsylvania, Beaver, United States", 
-        "sw_latitude": 40.772
+        "fullname": "Beaver County Airport, Chippewa, Pennsylvania, United States", 
+        "iata_code": "BFP", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518774
     }

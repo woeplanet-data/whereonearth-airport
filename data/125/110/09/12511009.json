@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511009, 
+        "placetype": "airport", 
         "name": "Aeroporto Abaetetuba", 
         "alias_ENG_P": [
           "Abaetetuba Airport"
         ], 
-        "ne_latitude": -1.714, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12580127", 
+          "woe:state=2344857", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511009, 
         "ne_longitude": -48.869, 
         "longitude": -48.873, 
-        "placetype": "Airport", 
+        "parent_woeid": 12580127, 
+        "ne_latitude": -1.714, 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 458294, 
+        "sw_latitude": -1.723, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -1.718, 
         "sw_longitude": -48.878, 
-        "fullname": "Aeroporto Abaetetuba, Abaetetuba, Para, Abaetetuba, Brazil", 
-        "sw_latitude": -1.723
+        "fullname": "Aeroporto Abaetetuba, Abaetetuba, Para, Brazil", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511009
     }

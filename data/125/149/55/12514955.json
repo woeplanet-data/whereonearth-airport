@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514955, 
+        "placetype": "airport", 
         "name": "San Felipe New Airport", 
-        "ne_latitude": 30.941, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599692", 
+          "woe:state=2346265", 
+          "woe:country=23424900", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514955, 
         "ne_longitude": -114.796, 
         "longitude": -114.801, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599692, 
+        "ne_latitude": 30.941, 
         "iso": "MX", 
-        "date_indexed": "2010-12-02T16:57:55Z", 
-        "parent_woeid": 142354, 
+        "sw_latitude": 30.932, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 30.936, 
         "sw_longitude": -114.807, 
-        "fullname": "San Felipe New Airport, San Felipe, Baja California, Mexicali, Mexico", 
-        "sw_latitude": 30.932
+        "fullname": "San Felipe New Airport, San Felipe, Baja California, Mexico", 
+        "date_indexed": "2010-12-02T16:57:55Z"
       }, 
       "id": 12514955
     }

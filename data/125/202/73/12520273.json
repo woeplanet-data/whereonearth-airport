@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520273, 
-        "name": "Hutchinson Municipal Airport", 
         "alias_ENG_V": [
           "Hutchinson Municipal Airport-Butler Field"
         ], 
-        "ne_latitude": 44.863, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Hutchinson Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588842", 
+          "woe:state=2347582", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520273, 
         "ne_longitude": -94.376, 
         "longitude": -94.376, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588842, 
+        "ne_latitude": 44.863, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2426208, 
+        "sw_latitude": 44.854, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.857, 
         "sw_longitude": -94.386, 
-        "fullname": "Hutchinson Municipal Airport, Hutchinson, Minnesota, Mcleod, United States", 
-        "sw_latitude": 44.854
+        "fullname": "Hutchinson Municipal Airport, Hutchinson, Minnesota, United States", 
+        "iata_code": "HCD", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520273
     }

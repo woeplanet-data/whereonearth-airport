@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515066, 
-        "name": "Ilorin Airport", 
         "alias_ENG_V": [
           "ILR"
         ], 
-        "ne_latitude": 8.444, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Ilorin Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=56057896", 
+          "woe:state=2346358", 
+          "woe:country=23424908", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515066, 
         "ne_longitude": 4.499, 
         "longitude": 4.495, 
-        "placetype": "Airport", 
+        "parent_woeid": 56057896, 
+        "ne_latitude": 8.444, 
         "iso": "NG", 
-        "date_indexed": "2010-12-02T09:35:13Z", 
-        "parent_woeid": 1387080, 
+        "sw_latitude": 8.435, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 8.440, 
         "sw_longitude": 4.490, 
         "fullname": "Ilorin Airport, Kwara, Asa, Nigeria", 
-        "sw_latitude": 8.435
+        "date_indexed": "2010-12-02T09:35:13Z"
       }, 
       "id": 12515066
     }

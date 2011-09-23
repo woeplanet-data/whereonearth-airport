@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519645, 
-        "name": "Emporia Municipal Airport", 
         "alias_ENG_V": [
           "Emporia Airport"
         ], 
-        "ne_latitude": 38.342, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Emporia Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588426", 
+          "woe:state=2347575", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519645, 
         "ne_longitude": -96.180, 
         "longitude": -96.187, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588426, 
+        "ne_latitude": 38.342, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2399543, 
+        "sw_latitude": 38.322, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.332, 
         "sw_longitude": -96.199, 
-        "fullname": "Emporia Municipal Airport, Emporia, Kansas, Lyon, United States", 
-        "sw_latitude": 38.322
+        "fullname": "Emporia Municipal Airport, Emporia, Kansas, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12519645
     }

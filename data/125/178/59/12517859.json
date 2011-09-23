@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517859, 
+        "placetype": "airport", 
         "name": "Gafsa Airport", 
-        "ne_latitude": 34.433, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2347238", 
+          "woe:country=23424967", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517859, 
         "ne_longitude": 8.836, 
         "longitude": 8.822, 
-        "placetype": "Airport", 
+        "parent_woeid": 2347238, 
+        "ne_latitude": 34.433, 
         "iso": "TN", 
-        "date_indexed": "2010-12-02T18:19:01Z", 
-        "parent_woeid": 1442402, 
+        "sw_latitude": 34.410, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 34.422, 
         "sw_longitude": 8.809, 
         "fullname": "Gafsa Airport, Qafash, Tunisia", 
-        "sw_latitude": 34.410
+        "date_indexed": "2010-12-02T18:19:01Z"
       }, 
       "id": 12517859
     }

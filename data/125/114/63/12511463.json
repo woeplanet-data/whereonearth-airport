@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511463, 
+        "placetype": "airport", 
         "name": "Medovnitsa Airport", 
-        "ne_latitude": 43.653, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55873806", 
+          "woe:state=20070055", 
+          "woe:country=23424771", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511463, 
         "ne_longitude": 22.797, 
         "longitude": 22.791, 
-        "placetype": "Airport", 
+        "parent_woeid": 55873806, 
+        "ne_latitude": 43.653, 
         "iso": "BG", 
-        "date_indexed": "2010-12-02T16:14:37Z", 
-        "parent_woeid": 838042, 
+        "sw_latitude": 43.644, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.648, 
         "sw_longitude": 22.784, 
         "fullname": "Medovnitsa Airport, Vidin, Dimovo, Bulgaria", 
-        "sw_latitude": 43.644
+        "date_indexed": "2010-12-02T16:14:37Z"
       }, 
       "id": 12511463
     }

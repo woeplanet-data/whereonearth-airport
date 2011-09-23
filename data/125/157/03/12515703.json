@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515703, 
+        "placetype": "airport", 
         "name": "Amo Airport", 
-        "ne_latitude": 63.610, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597832", 
+          "woe:state=20070524", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515703, 
         "ne_longitude": 103.919, 
         "longitude": 103.909, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597832, 
+        "ne_latitude": 63.610, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2114104, 
+        "sw_latitude": 63.601, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 63.606, 
         "sw_longitude": 103.898, 
         "fullname": "Amo Airport, Krasnoyarskiy Kray, Baykitsky, Russia", 
-        "sw_latitude": 63.601
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12515703
     }

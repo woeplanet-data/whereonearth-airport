@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512403, 
-        "name": "Pitalito Airport", 
         "alias_ENG_V": [
           "PTX"
         ], 
-        "ne_latitude": 1.896, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Pitalito Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26797206", 
+          "woe:state=2345061", 
+          "woe:country=23424787", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512403, 
         "ne_longitude": -76.054, 
         "longitude": -76.058, 
-        "placetype": "Airport", 
+        "parent_woeid": 26797206, 
+        "ne_latitude": 1.896, 
         "iso": "CO", 
-        "date_indexed": "2010-12-02T17:57:37Z", 
-        "parent_woeid": 368226, 
+        "sw_latitude": 1.887, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 1.892, 
         "sw_longitude": -76.063, 
-        "fullname": "Pitalito Airport, Pitalito, Huila, Pitalito, Colombia", 
-        "sw_latitude": 1.887
+        "fullname": "Pitalito Airport, Pitalito, Huila, Colombia", 
+        "iata_code": "PTX", 
+        "date_indexed": "2010-12-02T17:57:37Z"
       }, 
       "id": 12512403
     }

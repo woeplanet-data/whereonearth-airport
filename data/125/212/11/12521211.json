@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521211, 
+        "placetype": "airport", 
         "name": "Oldham County Airport", 
-        "ne_latitude": 35.236, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12590186", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521211, 
         "ne_longitude": -102.393, 
         "longitude": -102.399, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590186, 
+        "ne_latitude": 35.236, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2511525, 
+        "sw_latitude": 35.227, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.232, 
         "sw_longitude": -102.404, 
-        "fullname": "Oldham County Airport, Vega, Texas, Oldham, United States", 
-        "sw_latitude": 35.227
+        "fullname": "Oldham County Airport, Vega, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521211
     }

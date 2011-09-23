@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517918, 
-        "name": "Topel Airport", 
         "alias_ENG_V": [
           "TBQ"
         ], 
-        "ne_latitude": 40.741, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Topel Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29390570", 
+          "woe:state=2347296", 
+          "woe:country=23424969", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517918, 
         "ne_longitude": 30.089, 
         "longitude": 30.083, 
-        "placetype": "Airport", 
+        "parent_woeid": 29390570, 
+        "ne_latitude": 40.741, 
         "iso": "TR", 
-        "date_indexed": "2010-12-02T16:23:11Z", 
-        "parent_woeid": 2330184, 
+        "sw_latitude": 40.732, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.736, 
         "sw_longitude": 30.077, 
         "fullname": "Topel Airport, Kocaeli, Merkez, Turkey", 
-        "sw_latitude": 40.732
+        "date_indexed": "2010-12-02T16:23:11Z"
       }, 
       "id": 12517918
     }

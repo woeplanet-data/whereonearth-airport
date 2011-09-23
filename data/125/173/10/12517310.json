@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517310, 
+        "placetype": "airport", 
         "name": "Znamenka Airport", 
-        "ne_latitude": 52.402, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599384", 
+          "woe:state=2346927", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517310, 
         "ne_longitude": 41.437, 
         "longitude": 41.430, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599384, 
+        "ne_latitude": 52.402, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2051431, 
+        "sw_latitude": 52.393, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 52.398, 
         "sw_longitude": 41.422, 
         "fullname": "Znamenka Airport, Tambovskaya Oblast, Znamensky, Russia", 
-        "sw_latitude": 52.393
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12517310
     }

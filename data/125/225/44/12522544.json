@@ -3,28 +3,98 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -114.637, 
-              32.628
-            ], 
-            [
-              -114.637, 
-              32.669
-            ], 
-            [
-              -114.582, 
-              32.669
-            ], 
-            [
-              -114.582, 
-              32.628
-            ], 
-            [
-              -114.637, 
-              32.628
+              [
+                -114.589, 
+                32.655
+              ], 
+              [
+                -114.591, 
+                32.656
+              ], 
+              [
+                -114.594, 
+                32.660
+              ], 
+              [
+                -114.595, 
+                32.660
+              ], 
+              [
+                -114.596, 
+                32.660
+              ], 
+              [
+                -114.603, 
+                32.658
+              ], 
+              [
+                -114.607, 
+                32.655
+              ], 
+              [
+                -114.608, 
+                32.653
+              ], 
+              [
+                -114.604, 
+                32.654
+              ], 
+              [
+                -114.603, 
+                32.654
+              ], 
+              [
+                -114.601, 
+                32.653
+              ], 
+              [
+                -114.603, 
+                32.658
+              ], 
+              [
+                -114.598, 
+                32.662
+              ], 
+              [
+                -114.599, 
+                32.667
+              ], 
+              [
+                -114.594, 
+                32.673
+              ], 
+              [
+                -114.594, 
+                32.672
+              ], 
+              [
+                -114.593, 
+                32.670
+              ], 
+              [
+                -114.593, 
+                32.663
+              ], 
+              [
+                -114.588, 
+                32.661
+              ], 
+              [
+                -114.582, 
+                32.656
+              ], 
+              [
+                -114.589, 
+                32.654
+              ], 
+              [
+                -114.589, 
+                32.655
+              ]
             ]
           ]
         ]
@@ -32,23 +102,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522544, 
-        "name": "Yuma International Airport", 
         "alias_ENG_V": [
           "Yuma Mcas Yuma International"
         ], 
-        "ne_latitude": 32.669, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Yuma International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587594", 
+          "woe:state=2347561", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522544, 
         "ne_longitude": -114.582, 
-        "longitude": -114.599, 
-        "placetype": "Airport", 
+        "longitude": -114.590, 
+        "parent_woeid": 12587594, 
+        "ne_latitude": 32.673, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2525141, 
-        "latitude": 32.669, 
-        "sw_longitude": -114.637, 
-        "fullname": "Yuma International Airport, Yuma, Arizona, Yuma, United States", 
-        "sw_latitude": 32.628
+        "sw_latitude": 32.653, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 32.663, 
+        "sw_longitude": -114.608, 
+        "fullname": "Yuma International Airport, Yuma, Arizona, United States", 
+        "iata_code": "YUM", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522544
     }

@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522927, 
+        "placetype": "airport", 
         "name": "Long Thanh North Airport", 
-        "ne_latitude": 10.838, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2347721", 
+          "woe:country=23424984", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522927, 
         "ne_longitude": 106.971, 
         "longitude": 106.966, 
-        "placetype": "Airport", 
+        "parent_woeid": 2347721, 
+        "ne_latitude": 10.838, 
         "iso": "VN", 
-        "date_indexed": "2010-12-02T08:52:49Z", 
-        "parent_woeid": 1252275, 
+        "sw_latitude": 10.828, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 10.833, 
         "sw_longitude": 106.962, 
         "fullname": "Long Thanh North Airport, Dong Nai, Vietnam", 
-        "sw_latitude": 10.828
+        "date_indexed": "2010-12-02T08:52:49Z"
       }, 
       "id": 12522927
     }

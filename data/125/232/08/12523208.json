@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523208, 
-        "name": "Rarotonga International Airport", 
         "alias_ENG_V": [
           "RAR Airport"
         ], 
-        "ne_latitude": -21.195, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Rarotonga International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=24549675", 
+          "woe:country=23424795", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523208, 
         "ne_longitude": -159.795, 
         "longitude": -159.800, 
-        "placetype": "Airport", 
+        "parent_woeid": 24549675, 
+        "ne_latitude": -21.195, 
         "iso": "CK", 
-        "date_indexed": "2010-12-02T17:57:50Z", 
-        "parent_woeid": 1064303, 
+        "sw_latitude": -21.205, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -21.200, 
         "sw_longitude": -159.805, 
         "fullname": "Rarotonga International Airport, Avarua, Rarotonga, Cook Islands", 
-        "sw_latitude": -21.205
+        "iata_code": "RAR", 
+        "date_indexed": "2010-12-02T17:57:50Z"
       }, 
       "id": 12523208
     }

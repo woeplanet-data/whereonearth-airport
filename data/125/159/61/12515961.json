@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515961, 
+        "placetype": "airport", 
         "name": "Dzel Airport", 
-        "ne_latitude": 60.891, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597462", 
+          "woe:state=2346874", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515961, 
         "ne_longitude": 53.672, 
         "longitude": 53.662, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597462, 
+        "ne_latitude": 60.891, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2120811, 
+        "sw_latitude": 60.881, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 60.886, 
         "sw_longitude": 53.653, 
         "fullname": "Dzel Airport, Komi, Ust-Kulomsky, Russia", 
-        "sw_latitude": 60.881
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12515961
     }

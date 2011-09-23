@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388570, 
-        "name": "Chevak Airport", 
         "alias_ENG_V": [
           "VAK"
         ], 
-        "ne_latitude": 61.538, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Chevak Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587577", 
+          "woe:state=2347560", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388570, 
         "ne_longitude": -165.574, 
         "longitude": -165.584, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587577, 
+        "ne_latitude": 61.538, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2379508, 
+        "sw_latitude": 61.529, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 61.534, 
         "sw_longitude": -165.593, 
-        "fullname": "Chevak Airport, Chevak, Alaska, Wade Hampton Census Area, United States", 
-        "sw_latitude": 61.529
+        "fullname": "Chevak Airport, Chevak, Alaska, United States", 
+        "iata_code": "VAK", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 29388570
     }

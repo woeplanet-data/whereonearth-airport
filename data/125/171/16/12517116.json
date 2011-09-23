@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517116, 
+        "placetype": "airport", 
         "name": "Ust Nem Airport", 
-        "ne_latitude": 61.614, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597462", 
+          "woe:state=2346874", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517116, 
         "ne_longitude": 54.913, 
         "longitude": 54.903, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597462, 
+        "ne_latitude": 61.614, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2101609, 
+        "sw_latitude": 61.604, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 61.609, 
         "sw_longitude": 54.894, 
         "fullname": "Ust Nem Airport, Komi, Ust-Kulomsky, Russia", 
-        "sw_latitude": 61.604
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12517116
     }

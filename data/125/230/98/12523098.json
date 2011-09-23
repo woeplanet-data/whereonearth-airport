@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523098, 
-        "name": "Cardak Airport", 
         "alias_ENG_V": [
           "DNZ"
         ], 
-        "ne_latitude": 37.771, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Cardak Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29390618", 
+          "woe:state=2347277", 
+          "woe:country=23424969", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523098, 
         "ne_longitude": 29.106, 
         "longitude": 29.100, 
-        "placetype": "Airport", 
+        "parent_woeid": 29390618, 
+        "ne_latitude": 37.771, 
         "iso": "TR", 
-        "date_indexed": "2010-12-02T16:23:11Z", 
-        "parent_woeid": 2343920, 
+        "sw_latitude": 37.762, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 37.767, 
         "sw_longitude": 29.094, 
-        "fullname": "Cardak Airport, Denizli, Denizli, Merkez, Turkey", 
-        "sw_latitude": 37.762
+        "fullname": "Cardak Airport, Denizli, Denizli, Turkey", 
+        "iata_code": "DNZ", 
+        "date_indexed": "2010-12-02T16:23:11Z"
       }, 
       "id": 12523098
     }

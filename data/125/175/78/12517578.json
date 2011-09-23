@@ -3,28 +3,30 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -4.869, 
-              41.692
-            ], 
-            [
-              -4.869, 
-              41.723
-            ], 
-            [
-              -4.830, 
-              41.723
-            ], 
-            [
-              -4.830, 
-              41.692
-            ], 
-            [
-              -4.869, 
-              41.692
+              [
+                -4.845, 
+                41.707
+              ], 
+              [
+                -4.846, 
+                41.708
+              ], 
+              [
+                -4.846, 
+                41.710
+              ], 
+              [
+                -4.845, 
+                41.706
+              ], 
+              [
+                -4.845, 
+                41.707
+              ]
             ]
           ]
         ]
@@ -40,8 +42,15 @@
         "alias_ENG_P": [
           "Valladolid Airport"
         ], 
-        "ne_latitude": 41.723, 
-        "placetype": "Airport", 
+        "hierarchy": [
+          "woe:localadmin=12693111", 
+          "woe:county=12602122", 
+          "woe:state=12578033", 
+          "woe:country=23424950", 
+          "woe:planet=1"
+        ], 
+        "ne_latitude": 41.710, 
+        "placetype": "airport", 
         "alias_POR_Q": [
           "Aeroporto de Valladolid"
         ], 
@@ -49,15 +58,16 @@
           "Aeroporto Di Valladolid"
         ], 
         "woeid": 12517578, 
+        "iata_code": "VLL", 
         "alias_FIN_Q": [
           "Valladolid Lentokentt\u00e4"
         ], 
         "alias_FIN_S": [
           "Valladolid Lentokentta"
         ], 
-        "sw_longitude": -4.869, 
+        "sw_longitude": -4.846, 
         "provider": "geoplanet 7.6.0", 
-        "latitude": 41.706, 
+        "latitude": 41.708, 
         "date_indexed": "2010-12-02T17:38:37Z", 
         "alias_SPA_V": [
           "Aeropuerto de Villanubla"
@@ -73,15 +83,15 @@
         ], 
         "lang": "SPA", 
         "name": "Aeropuerto de Valladolid", 
-        "parent_woeid": 778024, 
+        "parent_woeid": 12693111, 
         "alias_UNK_Q": [
           "Letisko Valladolid"
         ], 
-        "ne_longitude": -4.830, 
-        "longitude": -4.844, 
+        "ne_longitude": -4.845, 
+        "longitude": -4.846, 
         "iso": "ES", 
-        "sw_latitude": 41.692, 
-        "fullname": "Aeropuerto de Valladolid, Villanubla, Castille and Leon, Valladolid, Spain", 
+        "sw_latitude": 41.706, 
+        "fullname": "Aeropuerto de Valladolid, Villanubla, Castille and Leon, Spain", 
         "alias_FRE_S": [
           "Aeroport de Valladolid"
         ], 

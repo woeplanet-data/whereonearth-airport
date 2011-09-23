@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511485, 
+        "placetype": "airport", 
         "name": "Perushtitsa Airport", 
-        "ne_latitude": 42.074, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55873831", 
+          "woe:state=20070068", 
+          "woe:country=23424771", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511485, 
         "ne_longitude": 24.535, 
         "longitude": 24.529, 
-        "placetype": "Airport", 
+        "parent_woeid": 55873831, 
+        "ne_latitude": 42.074, 
         "iso": "BG", 
-        "date_indexed": "2010-12-02T16:14:37Z", 
-        "parent_woeid": 838702, 
+        "sw_latitude": 42.065, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.069, 
         "sw_longitude": 24.522, 
-        "fullname": "Perushtitsa Airport, Perushtitsa, Plovdiv, Perushtitsa, Bulgaria", 
-        "sw_latitude": 42.065
+        "fullname": "Perushtitsa Airport, Perushtitsa, Plovdiv, Bulgaria", 
+        "date_indexed": "2010-12-02T16:14:37Z"
       }, 
       "id": 12511485
     }

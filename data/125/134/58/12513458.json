@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513458, 
+        "placetype": "airport", 
         "name": "Budiarto Airport", 
-        "ne_latitude": -6.289, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=56000256", 
+          "woe:state=28350158", 
+          "woe:country=23424846", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513458, 
         "ne_longitude": 106.573, 
         "longitude": 106.569, 
-        "placetype": "Airport", 
+        "parent_woeid": 56000256, 
+        "ne_latitude": -6.289, 
         "iso": "ID", 
-        "date_indexed": "2010-12-02T16:54:32Z", 
-        "parent_woeid": 1036929, 
+        "sw_latitude": -6.298, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -6.294, 
         "sw_longitude": 106.564, 
         "fullname": "Budiarto Airport, Banten, Tangerang Kabupaten, Indonesia", 
-        "sw_latitude": -6.298
+        "date_indexed": "2010-12-02T16:54:32Z"
       }, 
       "id": 12513458
     }

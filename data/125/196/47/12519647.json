@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519647, 
-        "name": "Emporia-Greensville Regional Airport", 
         "alias_ENG_V": [
           "EMV Airport"
         ], 
-        "ne_latitude": 36.695, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Emporia-Greensville Regional Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590341", 
+          "woe:state=2347605", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519647, 
         "ne_longitude": -77.475, 
         "longitude": -77.483, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590341, 
+        "ne_latitude": 36.695, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2399542, 
+        "sw_latitude": 36.680, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.682, 
         "sw_longitude": -77.493, 
-        "fullname": "Emporia-Greensville Regional Airport, Emporia, Virginia, Emporia City, United States", 
-        "sw_latitude": 36.680
+        "fullname": "Emporia-Greensville Regional Airport, Emporia, Virginia, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12519647
     }

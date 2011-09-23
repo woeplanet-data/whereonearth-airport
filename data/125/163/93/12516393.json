@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516393, 
+        "placetype": "airport", 
         "name": "Malyavr Airport", 
-        "ne_latitude": 68.870, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598812", 
+          "woe:state=2346912", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516393, 
         "ne_longitude": 33.734, 
         "longitude": 33.721, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598812, 
+        "ne_latitude": 68.870, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2088952, 
+        "sw_latitude": 68.861, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 68.865, 
         "sw_longitude": 33.709, 
         "fullname": "Malyavr Airport, Murmanskaya Oblast, Kolsky, Russia", 
-        "sw_latitude": 68.861
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516393
     }

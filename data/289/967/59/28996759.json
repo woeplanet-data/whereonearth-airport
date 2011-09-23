@@ -3,28 +3,106 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -104.784, 
-              39.687
-            ], 
-            [
-              -104.784, 
-              39.721
-            ], 
-            [
-              -104.741, 
-              39.721
-            ], 
-            [
-              -104.741, 
-              39.687
-            ], 
-            [
-              -104.784, 
-              39.687
+              [
+                -104.772, 
+                39.714
+              ], 
+              [
+                -104.764, 
+                39.714
+              ], 
+              [
+                -104.764, 
+                39.713
+              ], 
+              [
+                -104.763, 
+                39.712
+              ], 
+              [
+                -104.759, 
+                39.704
+              ], 
+              [
+                -104.755, 
+                39.702
+              ], 
+              [
+                -104.752, 
+                39.702
+              ], 
+              [
+                -104.754, 
+                39.696
+              ], 
+              [
+                -104.760, 
+                39.690
+              ], 
+              [
+                -104.766, 
+                39.688
+              ], 
+              [
+                -104.772, 
+                39.695
+              ], 
+              [
+                -104.781, 
+                39.693
+              ], 
+              [
+                -104.781, 
+                39.696
+              ], 
+              [
+                -104.781, 
+                39.703
+              ], 
+              [
+                -104.778, 
+                39.711
+              ], 
+              [
+                -104.772, 
+                39.714
+              ], 
+              [
+                -104.764, 
+                39.712
+              ], 
+              [
+                -104.767, 
+                39.704
+              ], 
+              [
+                -104.773, 
+                39.699
+              ], 
+              [
+                -104.777, 
+                39.704
+              ], 
+              [
+                -104.778, 
+                39.711
+              ], 
+              [
+                -104.778, 
+                39.718
+              ], 
+              [
+                -104.773, 
+                39.716
+              ], 
+              [
+                -104.772, 
+                39.714
+              ]
             ]
           ]
         ]
@@ -32,23 +110,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 28996759, 
-        "name": "Buckley Air Force Base", 
         "alias_ENG_V": [
           "Buckley AFB"
         ], 
-        "ne_latitude": 39.721, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -104.741, 
-        "longitude": -104.763, 
-        "placetype": "Airport", 
-        "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
+        "name": "Buckley Air Force Base", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:suburb=55806601", 
+          "woe:county=12587730", 
+          "woe:state=2347564", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 28996759, 
+        "ne_longitude": -104.752, 
+        "longitude": -104.769, 
         "parent_woeid": 55806601, 
-        "latitude": 39.704, 
-        "sw_longitude": -104.784, 
-        "fullname": "Buckley Air Force Base, Aurora, Colorado, Arapahoe, United States", 
-        "sw_latitude": 39.687
+        "ne_latitude": 39.718, 
+        "iso": "US", 
+        "sw_latitude": 39.688, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 39.703, 
+        "sw_longitude": -104.781, 
+        "fullname": "Buckley Air Force Base, Aurora, Colorado, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 28996759
     }

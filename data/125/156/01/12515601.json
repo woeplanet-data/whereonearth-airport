@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515601, 
-        "name": "Butuan Airport", 
         "alias_ENG_V": [
           "BXU"
         ], 
-        "ne_latitude": 8.957, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Butuan Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=2346657", 
+          "woe:state=23424726", 
+          "woe:country=23424934", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515601, 
         "ne_longitude": 125.480, 
         "longitude": 125.476, 
-        "placetype": "Airport", 
+        "parent_woeid": 2346657, 
+        "ne_latitude": 8.957, 
         "iso": "PH", 
-        "date_indexed": "2010-12-02T09:56:58Z", 
-        "parent_woeid": 1199315, 
+        "sw_latitude": 8.948, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 8.953, 
         "sw_longitude": 125.471, 
         "fullname": "Butuan Airport, Caraga, Agusan del Norte, Philippines", 
-        "sw_latitude": 8.948
+        "iata_code": "BXU", 
+        "date_indexed": "2010-12-02T09:56:58Z"
       }, 
       "id": 12515601
     }

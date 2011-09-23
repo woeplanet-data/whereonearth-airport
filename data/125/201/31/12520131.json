@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520131, 
+        "placetype": "airport", 
         "name": "Hawley Municipal Airport", 
-        "ne_latitude": 46.888, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12588810", 
+          "woe:state=2347582", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520131, 
         "ne_longitude": -96.344, 
         "longitude": -96.351, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588810, 
+        "ne_latitude": 46.888, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2418901, 
+        "sw_latitude": 46.879, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.884, 
         "sw_longitude": -96.357, 
-        "fullname": "Hawley Municipal Airport, Hawley, Minnesota, Clay, United States", 
-        "sw_latitude": 46.879
+        "fullname": "Hawley Municipal Airport, Hawley, Minnesota, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12520131
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522164, 
-        "name": "Topp of Tampa Airport", 
         "alias_ENG_V": [
           "Topp of Tampa"
         ], 
-        "ne_latitude": 28.226, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Topp of Tampa Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587853", 
+          "woe:state=2347568", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522164, 
         "ne_longitude": -82.370, 
         "longitude": -82.370, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587853, 
+        "ne_latitude": 28.226, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2516542, 
+        "sw_latitude": 28.217, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 28.218, 
         "sw_longitude": -82.379, 
-        "fullname": "Topp of Tampa Airport, Wesley Chapel, Florida, Pasco, United States", 
-        "sw_latitude": 28.217
+        "fullname": "Topp of Tampa Airport, Wesley Chapel, Florida, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522164
     }

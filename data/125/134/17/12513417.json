@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513417, 
+        "placetype": "airport", 
         "name": "Orkeny Airport", 
-        "ne_latitude": 47.160, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12593765", 
+          "woe:state=12577923", 
+          "woe:country=23424844", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513417, 
         "ne_longitude": 19.519, 
         "longitude": 19.512, 
-        "placetype": "Airport", 
+        "parent_woeid": 12593765, 
+        "ne_latitude": 47.160, 
         "iso": "HU", 
-        "date_indexed": "2010-12-02T09:56:22Z", 
-        "parent_woeid": 814135, 
+        "sw_latitude": 47.150, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.155, 
         "sw_longitude": 19.505, 
-        "fullname": "Orkeny Airport, Pusztavacs, Pest, Pusztavacs, Hungary", 
-        "sw_latitude": 47.150
+        "fullname": "Orkeny Airport, Pusztavacs, Pest, Hungary", 
+        "date_indexed": "2010-12-02T09:56:22Z"
       }, 
       "id": 12513417
     }

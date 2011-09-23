@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513193, 
+        "placetype": "airport", 
         "name": "Neuhausen ob Eck Airport", 
-        "ne_latitude": 47.982, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12623500", 
+          "woe:county=12596922", 
+          "woe:state=2345481", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513193, 
         "ne_longitude": 8.912, 
         "longitude": 8.905, 
-        "placetype": "Airport", 
+        "parent_woeid": 12623500, 
+        "ne_latitude": 47.982, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 678504, 
+        "sw_latitude": 47.973, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.978, 
         "sw_longitude": 8.898, 
-        "fullname": "Neuhausen ob Eck Airport, Neuhausen, Baden-Wurttemberg, Landkreis Tuttlingen, Germany", 
+        "fullname": "Neuhausen ob Eck Airport, Neuhausen, Baden-Wurttemberg, Germany", 
         "alias_GER_Q": [
           "Flughafen Neuhausen ob Eck"
         ], 
-        "sw_latitude": 47.973
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 12513193
     }

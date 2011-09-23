@@ -3,28 +3,50 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              21.612, 
-              41.947
-            ], 
-            [
-              21.612, 
-              41.981
-            ], 
-            [
-              21.630, 
-              41.981
-            ], 
-            [
-              21.630, 
-              41.947
-            ], 
-            [
-              21.612, 
-              41.947
+              [
+                21.628, 
+                41.954
+              ], 
+              [
+                21.629, 
+                41.956
+              ], 
+              [
+                21.629, 
+                41.957
+              ], 
+              [
+                21.629, 
+                41.957
+              ], 
+              [
+                21.629, 
+                41.957
+              ], 
+              [
+                21.631, 
+                41.955
+              ], 
+              [
+                21.628, 
+                41.954
+              ], 
+              [
+                21.628, 
+                41.954
+              ], 
+              [
+                21.628, 
+                41.954
+              ], 
+              [
+                21.628, 
+                41.954
+              ]
             ]
           ]
         ]
@@ -37,11 +59,14 @@
         "alias_SWE_V": [
           "Skopje Flygplats"
         ], 
-        "ne_latitude": 41.981, 
-        "alias_UNK_V": [
-          "Letisko Skopje"
+        "hierarchy": [
+          "woe:state=24550769", 
+          "woe:country=23424890", 
+          "woe:planet=1"
         ], 
-        "placetype": "Airport", 
+        "ne_latitude": 41.957, 
+        "ne_longitude": 21.631, 
+        "placetype": "airport", 
         "alias_POR_V": [
           "Aeroporto de Skopje"
         ], 
@@ -49,14 +74,15 @@
           "Aeroporto Di Skopje"
         ], 
         "woeid": 12514772, 
-        "sw_longitude": 21.612, 
+        "iata_code": "ZCB", 
+        "sw_longitude": 21.628, 
         "alias_FIN_V": [
           "Skopjen Lentoasema"
         ], 
         "alias_SPA_V": [
           "Aeropuerto de Skopje"
         ], 
-        "latitude": 41.956, 
+        "latitude": 41.955, 
         "alias_NOR_V": [
           "Skopje Flyplass"
         ], 
@@ -73,11 +99,13 @@
         ], 
         "lang": "ENG", 
         "name": "Skopje Airport", 
-        "parent_woeid": 482525, 
-        "ne_longitude": 21.630, 
+        "parent_woeid": 24550769, 
+        "alias_UNK_V": [
+          "Letisko Skopje"
+        ], 
         "longitude": 21.629, 
         "iso": "MK", 
-        "sw_latitude": 41.947, 
+        "sw_latitude": 41.954, 
         "alias_FRE_V": [
           "Aeroport de Skopje"
         ], 

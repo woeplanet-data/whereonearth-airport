@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518547, 
-        "name": "Akron Airport", 
         "alias_ENG_V": [
           "9g3"
         ], 
-        "ne_latitude": 43.024, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Akron Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589326", 
+          "woe:state=2347591", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518547, 
         "ne_longitude": -78.476, 
         "longitude": -78.484, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589326, 
+        "ne_latitude": 43.024, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2496539, 
+        "sw_latitude": 43.019, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.023, 
         "sw_longitude": -78.489, 
-        "fullname": "Akron Airport, Newstead, New York, Erie, United States", 
-        "sw_latitude": 43.019
+        "fullname": "Akron Airport, Newstead, New York, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518547
     }

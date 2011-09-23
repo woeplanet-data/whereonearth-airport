@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521104, 
-        "name": "New Braunfels Municipal Airport", 
         "alias_ENG_V": [
           "Baz"
         ], 
-        "ne_latitude": 29.717, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "New Braunfels Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590052", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521104, 
         "ne_longitude": -98.028, 
         "longitude": -98.038, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590052, 
+        "ne_latitude": 29.717, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2458076, 
+        "sw_latitude": 29.690, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 29.699, 
         "sw_longitude": -98.057, 
-        "fullname": "New Braunfels Municipal Airport, New Braunfels, Texas, Comal, United States", 
-        "sw_latitude": 29.690
+        "fullname": "New Braunfels Municipal Airport, New Braunfels, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12521104
     }

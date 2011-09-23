@@ -3,28 +3,134 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -122.402, 
-              37.604
-            ], 
-            [
-              -122.402, 
-              37.640
-            ], 
-            [
-              -122.355, 
-              37.640
-            ], 
-            [
-              -122.355, 
-              37.604
-            ], 
-            [
-              -122.402, 
-              37.604
+              [
+                -122.420, 
+                37.651
+              ], 
+              [
+                -122.420, 
+                37.652
+              ], 
+              [
+                -122.421, 
+                37.651
+              ], 
+              [
+                -122.420, 
+                37.651
+              ], 
+              [
+                -122.405, 
+                37.634
+              ], 
+              [
+                -122.400, 
+                37.634
+              ], 
+              [
+                -122.395, 
+                37.633
+              ], 
+              [
+                -122.388, 
+                37.634
+              ], 
+              [
+                -122.376, 
+                37.631
+              ], 
+              [
+                -122.363, 
+                37.639
+              ], 
+              [
+                -122.360, 
+                37.634
+              ], 
+              [
+                -122.356, 
+                37.614
+              ], 
+              [
+                -122.354, 
+                37.612
+              ], 
+              [
+                -122.352, 
+                37.611
+              ], 
+              [
+                -122.349, 
+                37.610
+              ], 
+              [
+                -122.345, 
+                37.608
+              ], 
+              [
+                -122.341, 
+                37.590
+              ], 
+              [
+                -122.359, 
+                37.586
+              ], 
+              [
+                -122.368, 
+                37.600
+              ], 
+              [
+                -122.377, 
+                37.605
+              ], 
+              [
+                -122.381, 
+                37.607
+              ], 
+              [
+                -122.384, 
+                37.608
+              ], 
+              [
+                -122.395, 
+                37.603
+              ], 
+              [
+                -122.402, 
+                37.605
+              ], 
+              [
+                -122.405, 
+                37.611
+              ], 
+              [
+                -122.406, 
+                37.613
+              ], 
+              [
+                -122.406, 
+                37.615
+              ], 
+              [
+                -122.406, 
+                37.615
+              ], 
+              [
+                -122.401, 
+                37.625
+              ], 
+              [
+                -122.405, 
+                37.634
+              ], 
+              [
+                -122.420, 
+                37.651
+              ]
             ]
           ]
         ]
@@ -32,23 +138,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521721, 
-        "name": "San Francisco International Airport", 
         "alias_ENG_V": [
           "SFO"
         ], 
-        "ne_latitude": 37.640, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -122.355, 
-        "longitude": -122.392, 
-        "placetype": "Airport", 
+        "name": "San Francisco International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587710", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521721, 
+        "ne_longitude": -122.341, 
+        "longitude": -122.374, 
+        "parent_woeid": 12587710, 
+        "ne_latitude": 37.652, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2451206, 
-        "latitude": 37.615, 
-        "sw_longitude": -122.402, 
-        "fullname": "San Francisco International Airport, Millbrae, California, San Mateo, United States", 
-        "sw_latitude": 37.604
+        "sw_latitude": 37.586, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 37.614, 
+        "sw_longitude": -122.421, 
+        "fullname": "San Francisco International Airport, Millbrae, California, United States", 
+        "iata_code": "SFO", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521721
     }

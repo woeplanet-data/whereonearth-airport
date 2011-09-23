@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521726, 
-        "name": "San Luis Valley Regional Airport", 
         "alias_ENG_V": [
           "ALS Airport"
         ], 
-        "ne_latitude": 37.448, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "San Luis Valley Regional Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587729", 
+          "woe:state=2347564", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521726, 
         "ne_longitude": -105.857, 
         "longitude": -105.865, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587729, 
+        "ne_latitude": 37.448, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2352586, 
+        "sw_latitude": 37.424, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 37.444, 
         "sw_longitude": -105.878, 
-        "fullname": "San Luis Valley Regional Airport, Alamosa, Colorado, Alamosa, United States", 
-        "sw_latitude": 37.424
+        "fullname": "San Luis Valley Regional Airport, Alamosa, Colorado, United States", 
+        "iata_code": "ALS", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521726
     }

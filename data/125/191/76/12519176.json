@@ -3,28 +3,126 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -104.828, 
-              41.149
-            ], 
-            [
-              -104.828, 
-              41.164
-            ], 
-            [
-              -104.789, 
-              41.164
-            ], 
-            [
-              -104.789, 
-              41.149
-            ], 
-            [
-              -104.828, 
-              41.149
+              [
+                -104.798, 
+                41.160
+              ], 
+              [
+                -104.794, 
+                41.163
+              ], 
+              [
+                -104.793, 
+                41.158
+              ], 
+              [
+                -104.794, 
+                41.158
+              ], 
+              [
+                -104.796, 
+                41.159
+              ], 
+              [
+                -104.799, 
+                41.159
+              ], 
+              [
+                -104.803, 
+                41.157
+              ], 
+              [
+                -104.803, 
+                41.149
+              ], 
+              [
+                -104.806, 
+                41.149
+              ], 
+              [
+                -104.811, 
+                41.150
+              ], 
+              [
+                -104.818, 
+                41.148
+              ], 
+              [
+                -104.819, 
+                41.153
+              ], 
+              [
+                -104.819, 
+                41.153
+              ], 
+              [
+                -104.828, 
+                41.154
+              ], 
+              [
+                -104.835, 
+                41.155
+              ], 
+              [
+                -104.827, 
+                41.161
+              ], 
+              [
+                -104.827, 
+                41.162
+              ], 
+              [
+                -104.827, 
+                41.162
+              ], 
+              [
+                -104.827, 
+                41.162
+              ], 
+              [
+                -104.827, 
+                41.162
+              ], 
+              [
+                -104.826, 
+                41.161
+              ], 
+              [
+                -104.824, 
+                41.160
+              ], 
+              [
+                -104.820, 
+                41.157
+              ], 
+              [
+                -104.818, 
+                41.155
+              ], 
+              [
+                -104.817, 
+                41.155
+              ], 
+              [
+                -104.808, 
+                41.161
+              ], 
+              [
+                -104.808, 
+                41.162
+              ], 
+              [
+                -104.805, 
+                41.162
+              ], 
+              [
+                -104.798, 
+                41.160
+              ]
             ]
           ]
         ]
@@ -32,23 +130,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519176, 
-        "name": "Cheyenne Airport", 
         "alias_ENG_V": [
           "CYS Airport"
         ], 
-        "ne_latitude": 41.164, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -104.789, 
-        "longitude": -104.819, 
-        "placetype": "Airport", 
+        "name": "Cheyenne Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590616", 
+          "woe:state=2347609", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519176, 
+        "ne_longitude": -104.793, 
+        "longitude": -104.813, 
+        "parent_woeid": 12590616, 
+        "ne_latitude": 41.163, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2379552, 
-        "latitude": 41.153, 
-        "sw_longitude": -104.828, 
-        "fullname": "Cheyenne Airport, Cheyenne, Wyoming, Laramie, United States", 
-        "sw_latitude": 41.149
+        "sw_latitude": 41.148, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 41.156, 
+        "sw_longitude": -104.835, 
+        "fullname": "Cheyenne Airport, Cheyenne, Wyoming, United States", 
+        "iata_code": "CYS", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519176
     }

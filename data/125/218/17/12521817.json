@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521817, 
-        "name": "Shawnee Municipal Airport", 
         "alias_ENG_V": [
           "SNL"
         ], 
-        "ne_latitude": 35.353, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Shawnee Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589677", 
+          "woe:state=2347595", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521817, 
         "ne_longitude": -96.936, 
         "longitude": -96.943, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589677, 
+        "ne_latitude": 35.353, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2491946, 
+        "sw_latitude": 35.342, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.347, 
         "sw_longitude": -96.949, 
-        "fullname": "Shawnee Municipal Airport, Shawnee, Oklahoma, Pottawatomie, United States", 
-        "sw_latitude": 35.342
+        "fullname": "Shawnee Municipal Airport, Shawnee, Oklahoma, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521817
     }

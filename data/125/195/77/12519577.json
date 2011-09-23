@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519577, 
-        "name": "Eastern Slopes Regional Airport", 
         "alias_ENG_V": [
           "IZG"
         ], 
-        "ne_latitude": 43.995, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Eastern Slopes Regional Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588668", 
+          "woe:state=2347578", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519577, 
         "ne_longitude": -70.940, 
         "longitude": -70.949, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588668, 
+        "ne_latitude": 43.995, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2408004, 
+        "sw_latitude": 43.986, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.988, 
         "sw_longitude": -70.955, 
-        "fullname": "Eastern Slopes Regional Airport, Fryeburg, Maine, Oxford, United States", 
-        "sw_latitude": 43.986
+        "fullname": "Eastern Slopes Regional Airport, Fryeburg, Maine, United States", 
+        "iata_code": "IZG", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519577
     }

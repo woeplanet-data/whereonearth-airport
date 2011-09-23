@@ -3,28 +3,38 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -0.778, 
-              51.274
-            ], 
-            [
-              -0.778, 
-              51.283
-            ], 
-            [
-              -0.763, 
-              51.283
-            ], 
-            [
-              -0.763, 
-              51.274
-            ], 
-            [
-              -0.778, 
-              51.274
+              [
+                -0.771, 
+                51.277
+              ], 
+              [
+                -0.770, 
+                51.279
+              ], 
+              [
+                -0.766, 
+                51.279
+              ], 
+              [
+                -0.763, 
+                51.276
+              ], 
+              [
+                -0.768, 
+                51.276
+              ], 
+              [
+                -0.770, 
+                51.276
+              ], 
+              [
+                -0.771, 
+                51.277
+              ]
             ]
           ]
         ]
@@ -32,23 +42,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518087, 
-        "name": "Farnborough Airport", 
         "alias_ENG_V": [
           "FAB"
         ], 
-        "ne_latitude": 51.283, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Farnborough Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=12695966", 
+          "woe:county=12602169", 
+          "woe:state=24554868", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518087, 
         "ne_longitude": -0.763, 
-        "longitude": -0.770, 
-        "placetype": "Airport", 
+        "longitude": -0.767, 
+        "parent_woeid": 12695966, 
+        "ne_latitude": 51.279, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:20:54Z", 
-        "parent_woeid": 19940, 
-        "latitude": 51.278, 
-        "sw_longitude": -0.778, 
-        "fullname": "Farnborough Airport, Farnborough, England, Hampshire, United Kingdom", 
-        "sw_latitude": 51.274
+        "sw_latitude": 51.276, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 51.277, 
+        "sw_longitude": -0.771, 
+        "fullname": "Farnborough Airport, Farnborough, England, United Kingdom", 
+        "date_indexed": "2010-12-02T12:20:54Z"
       }, 
       "id": 12518087
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516383, 
+        "placetype": "airport", 
         "name": "Magnitogorsk West Airport", 
-        "ne_latitude": 53.399, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597204", 
+          "woe:state=2346866", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516383, 
         "ne_longitude": 58.772, 
         "longitude": 58.764, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597204, 
+        "ne_latitude": 53.399, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2028172, 
+        "sw_latitude": 53.390, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.395, 
         "sw_longitude": 58.756, 
         "fullname": "Magnitogorsk West Airport, Bashkortostan, Abzelilovsky, Russia", 
-        "sw_latitude": 53.390
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516383
     }

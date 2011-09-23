@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518366, 
+        "placetype": "airport", 
         "name": "Novoarkhangelsk Airport", 
-        "ne_latitude": 48.668, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2347543", 
+          "woe:country=23424976", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518366, 
         "ne_longitude": 30.849, 
         "longitude": 30.842, 
-        "placetype": "Airport", 
+        "parent_woeid": 2347543, 
+        "ne_latitude": 48.668, 
         "iso": "UA", 
-        "date_indexed": "2010-12-02T08:52:39Z", 
-        "parent_woeid": 928729, 
+        "sw_latitude": 48.659, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.664, 
         "sw_longitude": 30.835, 
         "fullname": "Novoarkhangelsk Airport, Kirovohrad Oblast, Ukraine", 
-        "sw_latitude": 48.659
+        "date_indexed": "2010-12-02T08:52:39Z"
       }, 
       "id": 12518366
     }

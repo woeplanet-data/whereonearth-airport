@@ -3,28 +3,62 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -88.108, 
-              41.596
-            ], 
-            [
-              -88.108, 
-              41.614
-            ], 
-            [
-              -88.079, 
-              41.614
-            ], 
-            [
-              -88.079, 
-              41.596
-            ], 
-            [
-              -88.108, 
-              41.596
+              [
+                -88.081, 
+                41.606
+              ], 
+              [
+                -88.080, 
+                41.606
+              ], 
+              [
+                -88.080, 
+                41.605
+              ], 
+              [
+                -88.079, 
+                41.605
+              ], 
+              [
+                -88.079, 
+                41.602
+              ], 
+              [
+                -88.081, 
+                41.601
+              ], 
+              [
+                -88.083, 
+                41.602
+              ], 
+              [
+                -88.085, 
+                41.603
+              ], 
+              [
+                -88.088, 
+                41.608
+              ], 
+              [
+                -88.084, 
+                41.606
+              ], 
+              [
+                -88.083, 
+                41.607
+              ], 
+              [
+                -88.082, 
+                41.607
+              ], 
+              [
+                -88.081, 
+                41.606
+              ]
             ]
           ]
         ]
@@ -32,23 +66,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520634, 
-        "name": "Lewis University Airport", 
         "alias_ENG_V": [
           "LOT Airport"
         ], 
-        "ne_latitude": 41.614, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Lewis University Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588176", 
+          "woe:state=2347572", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520634, 
         "ne_longitude": -88.079, 
-        "longitude": -88.091, 
-        "placetype": "Airport", 
+        "longitude": -88.083, 
+        "parent_woeid": 12588176, 
+        "ne_latitude": 41.608, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2484280, 
+        "sw_latitude": 41.601, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.604, 
-        "sw_longitude": -88.108, 
-        "fullname": "Lewis University Airport, Romeoville, Illinois, Will, United States", 
-        "sw_latitude": 41.596
+        "sw_longitude": -88.088, 
+        "fullname": "Lewis University Airport, Romeoville, Illinois, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520634
     }

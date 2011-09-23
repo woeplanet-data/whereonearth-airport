@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "SWE", 
-        "woeid": 12517624, 
+        "placetype": "airport", 
         "name": "Farila Flygplats", 
         "alias_ENG_P": [
           "Farila Airport"
         ], 
-        "ne_latitude": 61.903, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12587227", 
+          "woe:state=2347046", 
+          "woe:country=23424954", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517624, 
         "ne_longitude": 15.718, 
         "longitude": 15.708, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587227, 
+        "ne_latitude": 61.903, 
         "iso": "SE", 
-        "date_indexed": "2010-12-02T16:45:55Z", 
-        "parent_woeid": 899852, 
+        "sw_latitude": 61.894, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 61.899, 
         "sw_longitude": 15.699, 
-        "fullname": "Farila Flygplats, Veckebo, Gavleborg, Ljusdal, Sweden", 
-        "sw_latitude": 61.894
+        "fullname": "Farila Flygplats, Veckebo, Gavleborg, Sweden", 
+        "date_indexed": "2010-12-02T16:45:55Z"
       }, 
       "id": 12517624
     }

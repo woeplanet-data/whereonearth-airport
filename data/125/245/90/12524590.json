@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524590, 
-        "name": "Barter Island Airport", 
         "alias_ENG_V": [
           "BTI"
         ], 
-        "ne_latitude": 70.152, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Barter Island Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587570", 
+          "woe:state=2347560", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524590, 
         "ne_longitude": -143.565, 
         "longitude": -143.579, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587570, 
+        "ne_latitude": 70.152, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2430472, 
+        "sw_latitude": 70.143, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 70.148, 
         "sw_longitude": -143.592, 
-        "fullname": "Barter Island Airport, Kaktovik, Alaska, North Slope Borough, United States", 
-        "sw_latitude": 70.143
+        "fullname": "Barter Island Airport, Kaktovik, Alaska, United States", 
+        "iata_code": "BTI", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12524590
     }

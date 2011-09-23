@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 56052028, 
+        "placetype": "airport", 
         "name": "Flugplatz Lilienthal", 
-        "ne_latitude": 49.335, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12627138", 
+          "woe:county=12596985", 
+          "woe:state=2345488", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56052028, 
         "ne_longitude": 8.225, 
         "longitude": 8.212, 
-        "placetype": "Airport", 
+        "parent_woeid": 12627138, 
+        "ne_latitude": 49.335, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 679060, 
+        "sw_latitude": 49.323, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.335, 
         "sw_longitude": 8.203, 
-        "fullname": "Flugplatz Lilienthal, Neustadt an der Weinstra\u00dfe, Rhineland-Palatinate, Stadtkreis Neustadt an der Weinstra\u00dfe, Germany", 
-        "sw_latitude": 49.323
+        "fullname": "Flugplatz Lilienthal, Neustadt an der Weinstra\u00dfe, Rhineland-Palatinate, Germany", 
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 56052028
     }

@@ -32,29 +32,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12524454, 
-        "name": "Aeroporto Rio Verde Gal. Castro", 
-        "alias_ENG_P": [
-          "Rio Verde Gal. Castro Airport"
-        ], 
-        "ne_latitude": -17.712, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "RVD"
         ], 
+        "name": "Aeroporto Rio Verde Gal. Castro", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Rio Verde Gal. Castro Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12579063", 
+          "woe:state=2344852", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524454, 
         "ne_longitude": -50.929, 
         "longitude": -50.933, 
-        "placetype": "Airport", 
+        "parent_woeid": 12579063, 
+        "ne_latitude": -17.712, 
         "alias_POR_V": [
           "Aeroporto RVD"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:28Z", 
-        "parent_woeid": 457952, 
+        "sw_latitude": -17.721, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -17.717, 
         "sw_longitude": -50.938, 
-        "fullname": "Aeroporto Rio Verde Gal. Castro, Rio Verde, Goias, Rio Verde, Brazil", 
-        "sw_latitude": -17.721
+        "fullname": "Aeroporto Rio Verde Gal. Castro, Rio Verde, Goias, Brazil", 
+        "iata_code": "RVD", 
+        "date_indexed": "2010-12-02T18:01:28Z"
       }, 
       "id": 12524454
     }

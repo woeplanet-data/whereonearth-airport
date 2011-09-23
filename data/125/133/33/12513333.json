@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513333, 
+        "placetype": "airport", 
         "name": "Bananera Airport", 
-        "ne_latitude": 15.478, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=26807034", 
+          "woe:state=2345560", 
+          "woe:country=23424834", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513333, 
         "ne_longitude": -88.832, 
         "longitude": -88.837, 
-        "placetype": "Airport", 
+        "parent_woeid": 26807034, 
+        "ne_latitude": 15.478, 
         "iso": "GT", 
-        "date_indexed": "2010-12-02T16:55:27Z", 
-        "parent_woeid": 84542, 
+        "sw_latitude": 15.469, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 15.474, 
         "sw_longitude": -88.841, 
-        "fullname": "Bananera Airport, Morales, Izabal, Morales, Guatemala", 
-        "sw_latitude": 15.469
+        "fullname": "Bananera Airport, Morales, Izabal, Guatemala", 
+        "date_indexed": "2010-12-02T16:55:27Z"
       }, 
       "id": 12513333
     }

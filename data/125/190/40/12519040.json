@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519040, 
+        "placetype": "airport", 
         "name": "Camp Pendleton Marine Corps Air Station", 
-        "ne_latitude": 33.306, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12587706", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519040, 
         "ne_longitude": -117.349, 
         "longitude": -117.354, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587706, 
+        "ne_latitude": 33.306, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:15Z", 
-        "parent_woeid": 2378237, 
+        "sw_latitude": 33.297, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 33.301, 
         "sw_longitude": -117.360, 
-        "fullname": "Camp Pendleton Marine Corps Air Station, Chappo, California, San Diego, United States", 
-        "sw_latitude": 33.297
+        "fullname": "Camp Pendleton Marine Corps Air Station, Chappo, California, United States", 
+        "date_indexed": "2010-12-02T18:39:15Z"
       }, 
       "id": 12519040
     }

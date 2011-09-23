@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521525, 
-        "name": "Rancho Murieta Airport", 
         "alias_ENG_V": [
           "RIU"
         ], 
-        "ne_latitude": 38.492, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Rancho Murieta Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587703", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521525, 
         "ne_longitude": -121.096, 
         "longitude": -121.102, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587703, 
+        "ne_latitude": 38.492, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 23417158, 
+        "sw_latitude": 38.483, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.487, 
         "sw_longitude": -121.108, 
-        "fullname": "Rancho Murieta Airport, Rancho Murieta, California, Sacramento, United States", 
-        "sw_latitude": 38.483
+        "fullname": "Rancho Murieta Airport, Rancho Murieta, California, United States", 
+        "iata_code": "RIU", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521525
     }

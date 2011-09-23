@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 28677623, 
+        "placetype": "airport", 
         "name": "Dajarra Aerodrome", 
-        "ne_latitude": -21.698, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55863930", 
+          "woe:state=2344702", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 28677623, 
         "ne_longitude": 139.539, 
         "longitude": 139.534, 
-        "placetype": "Airport", 
+        "parent_woeid": 55863930, 
+        "ne_latitude": -21.698, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1101541, 
+        "sw_latitude": -21.707, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -21.703, 
         "sw_longitude": 139.529, 
-        "fullname": "Dajarra Aerodrome, Dajarra, Queensland, Cloncurry, Australia", 
-        "sw_latitude": -21.707
+        "fullname": "Dajarra Aerodrome, Dajarra, Queensland, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 28677623
     }

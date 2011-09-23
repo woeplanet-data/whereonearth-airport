@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519181, 
-        "name": "Childress Municipal Airport", 
         "alias_ENG_V": [
           "Childress Airport"
         ], 
-        "ne_latitude": 34.445, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Childress Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590044", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519181, 
         "ne_longitude": -100.270, 
         "longitude": -100.281, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590044, 
+        "ne_latitude": 34.445, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:15Z", 
-        "parent_woeid": 2379729, 
+        "sw_latitude": 34.427, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 34.436, 
         "sw_longitude": -100.292, 
-        "fullname": "Childress Municipal Airport, Childress, Texas, Childress, United States", 
-        "sw_latitude": 34.427
+        "fullname": "Childress Municipal Airport, Childress, Texas, United States", 
+        "iata_code": "CDS", 
+        "date_indexed": "2010-12-02T18:39:15Z"
       }, 
       "id": 12519181
     }

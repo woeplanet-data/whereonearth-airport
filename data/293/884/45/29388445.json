@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388445, 
-        "name": "Cherry Ridge Airport", 
         "alias_ENG_V": [
           "N30"
         ], 
-        "ne_latitude": 41.520, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Cherry Ridge Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589791", 
+          "woe:state=2347597", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388445, 
         "ne_longitude": -75.249, 
         "longitude": -75.250, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589791, 
+        "ne_latitude": 41.520, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2379114, 
+        "sw_latitude": 41.511, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.512, 
         "sw_longitude": -75.256, 
-        "fullname": "Cherry Ridge Airport, Cherry Ridge, Pennsylvania, Wayne, United States", 
-        "sw_latitude": 41.511
+        "fullname": "Cherry Ridge Airport, Cherry Ridge, Pennsylvania, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388445
     }

@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522867, 
+        "placetype": "airport", 
         "name": "Bai Thuong Airport", 
-        "ne_latitude": 19.906, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2347715", 
+          "woe:country=23424984", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522867, 
         "ne_longitude": 105.467, 
         "longitude": 105.462, 
-        "placetype": "Airport", 
+        "parent_woeid": 2347715, 
+        "ne_latitude": 19.906, 
         "iso": "VN", 
-        "date_indexed": "2010-12-02T08:52:49Z", 
-        "parent_woeid": 1252462, 
+        "sw_latitude": 19.897, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 19.902, 
         "sw_longitude": 105.457, 
         "fullname": "Bai Thuong Airport, Thanh Hoa, Vietnam", 
-        "sw_latitude": 19.897
+        "date_indexed": "2010-12-02T08:52:49Z"
       }, 
       "id": 12522867
     }

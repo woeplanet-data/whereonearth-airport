@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520470, 
-        "name": "Kings Land O Lakes Airport", 
         "alias_ENG_V": [
           "LNL"
         ], 
-        "ne_latitude": 46.159, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Kings Land O Lakes Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590597", 
+          "woe:state=2347608", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520470, 
         "ne_longitude": -89.206, 
         "longitude": -89.206, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590597, 
+        "ne_latitude": 46.159, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2436122, 
+        "sw_latitude": 46.147, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.149, 
         "sw_longitude": -89.217, 
-        "fullname": "Kings Land O Lakes Airport, Land o Lakes, Wisconsin, Vilas, United States", 
-        "sw_latitude": 46.147
+        "fullname": "Kings Land O Lakes Airport, Land o Lakes, Wisconsin, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520470
     }

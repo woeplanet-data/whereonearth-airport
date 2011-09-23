@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517198, 
+        "placetype": "airport", 
         "name": "Voronino Airport", 
-        "ne_latitude": 54.479, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598407", 
+          "woe:state=2346899", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517198, 
         "ne_longitude": 34.997, 
         "longitude": 34.989, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598407, 
+        "ne_latitude": 54.479, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2047991, 
+        "sw_latitude": 54.470, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 54.475, 
         "sw_longitude": 34.981, 
-        "fullname": "Voronino Airport, Mosal'sk, Kaluzhskaya Oblast, Mosalsky, Russia", 
-        "sw_latitude": 54.470
+        "fullname": "Voronino Airport, Mosal'sk, Kaluzhskaya Oblast, Russia", 
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12517198
     }

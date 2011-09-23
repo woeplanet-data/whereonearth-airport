@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524432, 
-        "name": "Ascension Airport", 
         "alias_ENG_V": [
           "ASC"
         ], 
-        "ne_latitude": -15.712, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Ascension Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=55968145", 
+          "woe:county=55967856", 
+          "woe:state=2344808", 
+          "woe:country=23424762", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524432, 
         "ne_longitude": -63.062, 
         "longitude": -63.067, 
-        "placetype": "Airport", 
+        "parent_woeid": 55968145, 
+        "ne_latitude": -15.712, 
         "iso": "BO", 
-        "date_indexed": "2010-12-02T17:57:50Z", 
-        "parent_woeid": 419871, 
+        "sw_latitude": -15.721, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -15.717, 
         "sw_longitude": -63.071, 
-        "fullname": "Ascension Airport, Ascenci\u00f3n, Santa Cruz, Guarayos, Bolivia", 
-        "sw_latitude": -15.721
+        "fullname": "Ascension Airport, Ascenci\u00f3n, Santa Cruz, Bolivia", 
+        "iata_code": "ASC", 
+        "date_indexed": "2010-12-02T17:57:50Z"
       }, 
       "id": 12524432
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520549, 
-        "name": "Lakin Airport", 
         "alias_ENG_V": [
           "Lakin Landing Field"
         ], 
-        "ne_latitude": 37.974, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Lakin Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588417", 
+          "woe:state=2347575", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520549, 
         "ne_longitude": -101.249, 
         "longitude": -101.250, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588417, 
+        "ne_latitude": 37.974, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2435846, 
+        "sw_latitude": 37.964, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 37.967, 
         "sw_longitude": -101.262, 
-        "fullname": "Lakin Airport, Lakin, Kansas, Kearny, United States", 
-        "sw_latitude": 37.964
+        "fullname": "Lakin Airport, Lakin, Kansas, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520549
     }

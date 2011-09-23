@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511453, 
-        "name": "Krumovo Airport", 
         "alias_ENG_V": [
           "PDV"
         ], 
-        "ne_latitude": 42.072, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Krumovo Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55873771", 
+          "woe:state=20070068", 
+          "woe:country=23424771", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511453, 
         "ne_longitude": 24.852, 
         "longitude": 24.846, 
-        "placetype": "Airport", 
+        "parent_woeid": 55873771, 
+        "ne_latitude": 42.072, 
         "iso": "BG", 
-        "date_indexed": "2010-12-02T16:14:37Z", 
-        "parent_woeid": 840777, 
+        "sw_latitude": 42.063, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.068, 
         "sw_longitude": 24.840, 
         "fullname": "Krumovo Airport, Plovdiv, Rodopi, Bulgaria", 
-        "sw_latitude": 42.063
+        "iata_code": "PDV", 
+        "date_indexed": "2010-12-02T16:14:37Z"
       }, 
       "id": 12511453
     }

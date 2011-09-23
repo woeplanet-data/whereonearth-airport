@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 28677646, 
+        "placetype": "airport", 
         "name": "Arrabury Aerodrome", 
-        "ne_latitude": -26.694, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55863947", 
+          "woe:state=2344702", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 28677646, 
         "ne_longitude": 141.057, 
         "longitude": 141.051, 
-        "placetype": "Airport", 
+        "parent_woeid": 55863947, 
+        "ne_latitude": -26.694, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1105827, 
+        "sw_latitude": -26.703, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -26.699, 
         "sw_longitude": 141.046, 
-        "fullname": "Arrabury Aerodrome, Tanbar, Queensland, Barcoo, Australia", 
-        "sw_latitude": -26.703
+        "fullname": "Arrabury Aerodrome, Tanbar, Queensland, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 28677646
     }

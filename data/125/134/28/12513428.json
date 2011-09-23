@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513428, 
+        "placetype": "airport", 
         "name": "Satorhely Airport", 
-        "ne_latitude": 45.944, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12595891", 
+          "woe:state=12577912", 
+          "woe:country=23424844", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513428, 
         "ne_longitude": 18.629, 
         "longitude": 18.623, 
-        "placetype": "Airport", 
+        "parent_woeid": 12595891, 
+        "ne_latitude": 45.944, 
         "iso": "HU", 
-        "date_indexed": "2010-12-02T09:56:22Z", 
-        "parent_woeid": 811416, 
+        "sw_latitude": 45.934, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.939, 
         "sw_longitude": 18.616, 
-        "fullname": "Satorhely Airport, Majs, Baranya, Majs, Hungary", 
-        "sw_latitude": 45.934
+        "fullname": "Satorhely Airport, Majs, Baranya, Hungary", 
+        "date_indexed": "2010-12-02T09:56:22Z"
       }, 
       "id": 12513428
     }

@@ -32,29 +32,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511357, 
-        "name": "Aeroporto Uberaba", 
-        "alias_ENG_P": [
-          "Uberaba Airport"
-        ], 
-        "ne_latitude": -19.777, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "UBA"
         ], 
+        "name": "Aeroporto Uberaba", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Uberaba Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12580106", 
+          "woe:state=2344856", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511357, 
         "ne_longitude": -47.959, 
         "longitude": -47.964, 
-        "placetype": "Airport", 
+        "parent_woeid": 12580106, 
+        "ne_latitude": -19.777, 
         "alias_POR_V": [
           "Aeroporto UBA"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:28Z", 
-        "parent_woeid": 455916, 
+        "sw_latitude": -19.786, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -19.782, 
         "sw_longitude": -47.969, 
-        "fullname": "Aeroporto Uberaba, Uberaba, Minas Gerais, Uberaba, Brazil", 
-        "sw_latitude": -19.786
+        "fullname": "Aeroporto Uberaba, Uberaba, Minas Gerais, Brazil", 
+        "iata_code": "UBA", 
+        "date_indexed": "2010-12-02T18:01:28Z"
       }, 
       "id": 12511357
     }

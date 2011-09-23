@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521839, 
+        "placetype": "airport", 
         "name": "Shirley Airport", 
-        "ne_latitude": 42.532, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12588713", 
+          "woe:state=2347580", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521839, 
         "ne_longitude": -71.659, 
         "longitude": -71.665, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588713, 
+        "ne_latitude": 42.532, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2436068, 
+        "sw_latitude": 42.523, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.527, 
         "sw_longitude": -71.671, 
-        "fullname": "Shirley Airport, Lancaster, Massachusetts, Worcester, United States", 
-        "sw_latitude": 42.523
+        "fullname": "Shirley Airport, Lancaster, Massachusetts, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521839
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521402, 
-        "name": "Pittsfield Municipal Airport", 
         "alias_ENG_V": [
           "PSF"
         ], 
-        "ne_latitude": 42.431, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Pittsfield Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588701", 
+          "woe:state=2347580", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521402, 
         "ne_longitude": -73.285, 
         "longitude": -73.291, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588701, 
+        "ne_latitude": 42.431, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2473269, 
+        "sw_latitude": 42.421, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.425, 
         "sw_longitude": -73.304, 
-        "fullname": "Pittsfield Municipal Airport, Pittsfield, Massachusetts, Berkshire, United States", 
-        "sw_latitude": 42.421
+        "fullname": "Pittsfield Municipal Airport, Pittsfield, Massachusetts, United States", 
+        "iata_code": "PSF", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521402
     }

@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 56052054, 
+        "placetype": "airport", 
         "name": "Flugplatz Breitscheid", 
-        "ne_latitude": 50.681, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12632659", 
+          "woe:county=12596769", 
+          "woe:state=2345485", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56052054, 
         "ne_longitude": 8.179, 
         "longitude": 8.172, 
-        "placetype": "Airport", 
+        "parent_woeid": 12632659, 
+        "ne_latitude": 50.681, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 641111, 
+        "sw_latitude": 50.674, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.680, 
         "sw_longitude": 8.162, 
-        "fullname": "Flugplatz Breitscheid, Breitscheid, Hesse, Lahn-Dill-Kreis, Germany", 
-        "sw_latitude": 50.674
+        "fullname": "Flugplatz Breitscheid, Breitscheid, Hesse, Germany", 
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 56052054
     }

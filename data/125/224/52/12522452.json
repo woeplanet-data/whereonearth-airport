@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522452, 
-        "name": "William R Fairchild International Airport", 
         "alias_ENG_V": [
           "CLM Airport"
         ], 
-        "ne_latitude": 48.129, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "William R Fairchild International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590444", 
+          "woe:state=2347606", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522452, 
         "ne_longitude": -123.480, 
         "longitude": -123.491, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590444, 
+        "ne_latitude": 48.129, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2475316, 
+        "sw_latitude": 48.114, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.115, 
         "sw_longitude": -123.515, 
-        "fullname": "William R Fairchild International Airport, Port Angeles, Washington, Clallam, United States", 
-        "sw_latitude": 48.114
+        "fullname": "William R Fairchild International Airport, Port Angeles, Washington, United States", 
+        "iata_code": "CLM", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522452
     }

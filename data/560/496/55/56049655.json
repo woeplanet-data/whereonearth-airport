@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 56049655, 
+        "placetype": "airport", 
         "name": "Phetchabun Airport", 
-        "ne_latitude": 16.407, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=28340968", 
+          "woe:state=2347141", 
+          "woe:country=23424960", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56049655, 
         "ne_longitude": 101.115, 
         "longitude": 101.113, 
-        "placetype": "Airport", 
+        "parent_woeid": 28340968, 
+        "ne_latitude": 16.407, 
         "iso": "TH", 
-        "date_indexed": "2010-12-02T17:05:34Z", 
-        "parent_woeid": 55946949, 
+        "sw_latitude": 16.390, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 16.404, 
         "sw_longitude": 101.109, 
-        "fullname": "Phetchabun Airport, Sadiang, Phetchabun, Mueang Phetchabun, Thailand", 
-        "sw_latitude": 16.390
+        "fullname": "Phetchabun Airport, Sadiang, Phetchabun, Thailand", 
+        "date_indexed": "2010-12-02T17:05:34Z"
       }, 
       "id": 56049655
     }

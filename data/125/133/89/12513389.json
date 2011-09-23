@@ -3,28 +3,138 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              19.210, 
-              47.415
-            ], 
-            [
-              19.210, 
-              47.456
-            ], 
-            [
-              19.303, 
-              47.456
-            ], 
-            [
-              19.303, 
-              47.415
-            ], 
-            [
-              19.210, 
-              47.415
+              [
+                19.262, 
+                47.431
+              ], 
+              [
+                19.262, 
+                47.426
+              ], 
+              [
+                19.261, 
+                47.425
+              ], 
+              [
+                19.255, 
+                47.421
+              ], 
+              [
+                19.256, 
+                47.427
+              ], 
+              [
+                19.252, 
+                47.435
+              ], 
+              [
+                19.250, 
+                47.436
+              ], 
+              [
+                19.244, 
+                47.428
+              ], 
+              [
+                19.238, 
+                47.429
+              ], 
+              [
+                19.229, 
+                47.425
+              ], 
+              [
+                19.225, 
+                47.430
+              ], 
+              [
+                19.220, 
+                47.433
+              ], 
+              [
+                19.218, 
+                47.441
+              ], 
+              [
+                19.218, 
+                47.447
+              ], 
+              [
+                19.215, 
+                47.449
+              ], 
+              [
+                19.220, 
+                47.449
+              ], 
+              [
+                19.225, 
+                47.446
+              ], 
+              [
+                19.232, 
+                47.442
+              ], 
+              [
+                19.237, 
+                47.439
+              ], 
+              [
+                19.247, 
+                47.438
+              ], 
+              [
+                19.249, 
+                47.441
+              ], 
+              [
+                19.249, 
+                47.446
+              ], 
+              [
+                19.249, 
+                47.450
+              ], 
+              [
+                19.240, 
+                47.447
+              ], 
+              [
+                19.249, 
+                47.446
+              ], 
+              [
+                19.257, 
+                47.442
+              ], 
+              [
+                19.260, 
+                47.441
+              ], 
+              [
+                19.265, 
+                47.441
+              ], 
+              [
+                19.266, 
+                47.437
+              ], 
+              [
+                19.267, 
+                47.435
+              ], 
+              [
+                19.267, 
+                47.434
+              ], 
+              [
+                19.262, 
+                47.431
+              ]
             ]
           ]
         ]
@@ -32,23 +142,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513389, 
-        "name": "Ferihegy Airport", 
         "alias_ENG_V": [
           "BUD Airport"
         ], 
-        "ne_latitude": 47.456, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": 19.303, 
-        "longitude": 19.220, 
-        "placetype": "Airport", 
+        "name": "Ferihegy Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12595150", 
+          "woe:state=12577915", 
+          "woe:country=23424844", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513389, 
+        "ne_longitude": 19.267, 
+        "longitude": 19.240, 
+        "parent_woeid": 12595150, 
+        "ne_latitude": 47.450, 
         "iso": "HU", 
-        "date_indexed": "2010-12-02T09:56:22Z", 
-        "parent_woeid": 804365, 
-        "latitude": 47.445, 
-        "sw_longitude": 19.210, 
-        "fullname": "Ferihegy Airport, Budapest, Budapest, Budapest X., Hungary", 
-        "sw_latitude": 47.415
+        "sw_latitude": 47.421, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 47.435, 
+        "sw_longitude": 19.215, 
+        "fullname": "Ferihegy Airport, Budapest, Budapest, Hungary", 
+        "iata_code": "BUD", 
+        "date_indexed": "2010-12-02T09:56:22Z"
       }, 
       "id": 12513389
     }

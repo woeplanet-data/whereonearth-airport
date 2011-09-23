@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519858, 
-        "name": "Gambell Airport", 
         "alias_ENG_V": [
           "GAM"
         ], 
-        "ne_latitude": 63.771, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Gambell Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587569", 
+          "woe:state=2347560", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519858, 
         "ne_longitude": -171.727, 
         "longitude": -171.738, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587569, 
+        "ne_latitude": 63.771, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2408599, 
+        "sw_latitude": 63.762, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 63.767, 
         "sw_longitude": -171.748, 
-        "fullname": "Gambell Airport, Gambell, Alaska, Nome Census Area, United States", 
-        "sw_latitude": 63.762
+        "fullname": "Gambell Airport, Gambell, Alaska, United States", 
+        "iata_code": "GAM", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12519858
     }

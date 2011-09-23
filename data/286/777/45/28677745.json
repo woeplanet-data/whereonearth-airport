@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 28677745, 
+        "placetype": "airport", 
         "name": "Corunna Downs Aerodrome", 
-        "ne_latitude": -21.458, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55864370", 
+          "woe:state=2344706", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 28677745, 
         "ne_longitude": 119.856, 
         "longitude": 119.851, 
-        "placetype": "Airport", 
+        "parent_woeid": 55864370, 
+        "ne_latitude": -21.458, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1104702, 
+        "sw_latitude": -21.467, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -21.463, 
         "sw_longitude": 119.846, 
-        "fullname": "Corunna Downs Aerodrome, Nullagine, Western Australia, East Pilbara, Australia", 
-        "sw_latitude": -21.467
+        "fullname": "Corunna Downs Aerodrome, Nullagine, Western Australia, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 28677745
     }

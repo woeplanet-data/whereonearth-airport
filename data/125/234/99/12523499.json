@@ -32,29 +32,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12523499, 
-        "name": "Aeroporto Bento Goncalves", 
-        "alias_ENG_P": [
-          "Bento Goncalves Airport"
-        ], 
-        "ne_latitude": -29.172, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "BGV"
         ], 
+        "name": "Aeroporto Bento Goncalves", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Bento Goncalves Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12581261", 
+          "woe:state=2344864", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523499, 
         "ne_longitude": -51.500, 
         "longitude": -51.505, 
-        "placetype": "Airport", 
+        "parent_woeid": 12581261, 
+        "ne_latitude": -29.172, 
         "alias_POR_V": [
           "Aeroporto BGV"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:28Z", 
-        "parent_woeid": 456804, 
+        "sw_latitude": -29.181, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -29.177, 
         "sw_longitude": -51.510, 
-        "fullname": "Aeroporto Bento Goncalves, Bento Gon\u00e7alves, Rio Grande do Sul, Bento Gon\u00e7alves, Brazil", 
-        "sw_latitude": -29.181
+        "fullname": "Aeroporto Bento Goncalves, Bento Gon\u00e7alves, Rio Grande do Sul, Brazil", 
+        "iata_code": "BGV", 
+        "date_indexed": "2010-12-02T18:01:28Z"
       }, 
       "id": 12523499
     }

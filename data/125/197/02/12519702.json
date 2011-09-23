@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519702, 
-        "name": "Fallon Municipal Airport", 
         "alias_ENG_V": [
           "FLX"
         ], 
-        "ne_latitude": 39.506, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Fallon Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589232", 
+          "woe:state=2347587", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519702, 
         "ne_longitude": -118.740, 
         "longitude": -118.747, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589232, 
+        "ne_latitude": 39.506, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2402136, 
+        "sw_latitude": 39.491, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 39.503, 
         "sw_longitude": -118.758, 
-        "fullname": "Fallon Municipal Airport, Fallon, Nevada, Churchill, United States", 
-        "sw_latitude": 39.491
+        "fullname": "Fallon Municipal Airport, Fallon, Nevada, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12519702
     }

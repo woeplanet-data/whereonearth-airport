@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513126, 
+        "placetype": "airport", 
         "name": "Heidelberg Army Air Field", 
-        "ne_latitude": 49.399, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12623922", 
+          "woe:county=12597109", 
+          "woe:state=2345481", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513126, 
         "ne_longitude": 8.664, 
         "longitude": 8.657, 
-        "placetype": "Airport", 
+        "parent_woeid": 12623922, 
+        "ne_latitude": 49.399, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:24Z", 
-        "parent_woeid": 20160540, 
+        "sw_latitude": 49.390, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.394, 
         "sw_longitude": 8.650, 
-        "fullname": "Heidelberg Army Air Field, Pfaffengrund, Baden-Wurttemberg, Stadtkreis Heidelberg, Germany", 
-        "sw_latitude": 49.390
+        "fullname": "Heidelberg Army Air Field, Pfaffengrund, Baden-Wurttemberg, Germany", 
+        "date_indexed": "2010-12-02T09:50:24Z"
       }, 
       "id": 12513126
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515165, 
-        "name": "Paraparaumu Aerodrome", 
         "alias_ENG_V": [
           "PPQ Airport"
         ], 
-        "ne_latitude": -40.897, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Paraparaumu Aerodrome", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55875852", 
+          "woe:state=15021762", 
+          "woe:country=23424916", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515165, 
         "ne_longitude": 174.997, 
         "longitude": 174.983, 
-        "placetype": "Airport", 
+        "parent_woeid": 55875852, 
+        "ne_latitude": -40.897, 
         "iso": "NZ", 
-        "date_indexed": "2010-12-02T17:02:39Z", 
-        "parent_woeid": 2350063, 
+        "sw_latitude": -40.915, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -40.900, 
         "sw_longitude": 174.980, 
-        "fullname": "Paraparaumu Aerodrome, Paraparaumu, Wellington, Kapiti Coast District, New Zealand", 
-        "sw_latitude": -40.915
+        "fullname": "Paraparaumu Aerodrome, Paraparaumu, Wellington, New Zealand", 
+        "iata_code": "PPQ", 
+        "date_indexed": "2010-12-02T17:02:39Z"
       }, 
       "id": 12515165
     }

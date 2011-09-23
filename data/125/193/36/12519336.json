@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519336, 
-        "name": "Coulter Field Airport", 
         "alias_ENG_V": [
           "Coulter Airport"
         ], 
-        "ne_latitude": 30.723, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Coulter Field Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590027", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519336, 
         "ne_longitude": -96.324, 
         "longitude": -96.337, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590027, 
+        "ne_latitude": 30.723, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2370857, 
+        "sw_latitude": 30.709, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 30.720, 
         "sw_longitude": -96.340, 
-        "fullname": "Coulter Field Airport, Bryan, Texas, Brazos, United States", 
-        "sw_latitude": 30.709
+        "fullname": "Coulter Field Airport, Bryan, Texas, United States", 
+        "iata_code": "CFD", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519336
     }

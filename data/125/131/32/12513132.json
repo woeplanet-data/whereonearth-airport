@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513132, 
+        "placetype": "airport", 
         "name": "Hopsten Airport", 
-        "ne_latitude": 52.344, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12624304", 
+          "woe:county=12596690", 
+          "woe:state=2345487", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513132, 
         "ne_longitude": 7.550, 
         "longitude": 7.543, 
-        "placetype": "Airport", 
+        "parent_woeid": 12624304, 
+        "ne_latitude": 52.344, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:24Z", 
-        "parent_woeid": 683553, 
+        "sw_latitude": 52.335, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 52.339, 
         "sw_longitude": 7.535, 
-        "fullname": "Hopsten Airport, Ostenwalde, North Rhine-Westphalia, Landkreis Steinfurt, Germany", 
+        "fullname": "Hopsten Airport, Ostenwalde, North Rhine-Westphalia, Germany", 
         "alias_GER_Q": [
           "Flughafen Hopsten"
         ], 
-        "sw_latitude": 52.335
+        "date_indexed": "2010-12-02T09:50:24Z"
       }, 
       "id": 12513132
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29387870, 
-        "name": "Opheim Airport", 
         "alias_ENG_V": [
           "S00"
         ], 
-        "ne_latitude": 48.866, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Opheim Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589133", 
+          "woe:state=2347585", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29387870, 
         "ne_longitude": -106.414, 
         "longitude": -106.414, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589133, 
+        "ne_latitude": 48.866, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2465780, 
+        "sw_latitude": 48.856, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.857, 
         "sw_longitude": -106.419, 
-        "fullname": "Opheim Airport, Opheim, Montana, Valley, United States", 
-        "sw_latitude": 48.856
+        "fullname": "Opheim Airport, Opheim, Montana, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29387870
     }

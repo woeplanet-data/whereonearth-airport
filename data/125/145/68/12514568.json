@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514568, 
+        "placetype": "airport", 
         "name": "Cirava Airport", 
-        "ne_latitude": 56.738, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55844517", 
+          "woe:state=56190543", 
+          "woe:country=23424874", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514568, 
         "ne_longitude": 21.358, 
         "longitude": 21.350, 
-        "placetype": "Airport", 
+        "parent_woeid": 55844517, 
+        "ne_latitude": 56.738, 
         "iso": "LV", 
-        "date_indexed": "2010-12-02T08:49:48Z", 
-        "parent_woeid": 852011, 
+        "sw_latitude": 56.729, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 56.733, 
         "sw_longitude": 21.341, 
         "fullname": "Cirava Airport, Liepajas Rajons, C\u013cravas Pagasts, Latvia", 
-        "sw_latitude": 56.729
+        "date_indexed": "2010-12-02T08:49:48Z"
       }, 
       "id": 12514568
     }

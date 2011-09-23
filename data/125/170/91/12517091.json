@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517091, 
+        "placetype": "airport", 
         "name": "Urmary Airport", 
-        "ne_latitude": 55.684, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597345", 
+          "woe:state=2346869", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517091, 
         "ne_longitude": 47.912, 
         "longitude": 47.904, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597345, 
+        "ne_latitude": 55.684, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 1997383, 
+        "sw_latitude": 55.675, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 55.680, 
         "sw_longitude": 47.896, 
         "fullname": "Urmary Airport, Chuvashiya, Urmarsky, Russia", 
-        "sw_latitude": 55.675
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12517091
     }

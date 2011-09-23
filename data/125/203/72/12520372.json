@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520372, 
+        "placetype": "airport", 
         "name": "Joe Williams Outlying Landing Field", 
-        "ne_latitude": 32.801, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12588918", 
+          "woe:state=2347583", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520372, 
         "ne_longitude": -88.826, 
         "longitude": -88.832, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588918, 
+        "ne_latitude": 32.801, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2366069, 
+        "sw_latitude": 32.792, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 32.796, 
         "sw_longitude": -88.837, 
-        "fullname": "Joe Williams Outlying Landing Field, Bluff Springs, Mississippi, Kemper, United States", 
-        "sw_latitude": 32.792
+        "fullname": "Joe Williams Outlying Landing Field, Bluff Springs, Mississippi, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12520372
     }

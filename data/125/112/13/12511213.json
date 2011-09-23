@@ -32,29 +32,35 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511213, 
-        "name": "Aeroporto Lins", 
-        "alias_ENG_P": [
-          "Lins Airport"
-        ], 
-        "ne_latitude": -21.658, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "LIP"
         ], 
+        "name": "Aeroporto Lins", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Lins Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12582085", 
+          "woe:state=2344868", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511213, 
         "ne_longitude": -49.726, 
         "longitude": -49.731, 
-        "placetype": "Airport", 
+        "parent_woeid": 12582085, 
+        "ne_latitude": -21.658, 
         "alias_POR_V": [
           "Aeroporto LIP"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 457485, 
+        "sw_latitude": -21.667, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -21.662, 
         "sw_longitude": -49.735, 
-        "fullname": "Aeroporto Lins, Lins, Sao Paulo, Lins, Brazil", 
-        "sw_latitude": -21.667
+        "fullname": "Aeroporto Lins, Lins, Sao Paulo, Brazil", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511213
     }

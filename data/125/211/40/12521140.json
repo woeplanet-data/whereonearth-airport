@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521140, 
-        "name": "Noble County Airport", 
         "alias_ENG_V": [
           "I10"
         ], 
-        "ne_latitude": 39.807, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Noble County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589587", 
+          "woe:state=2347594", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521140, 
         "ne_longitude": -81.529, 
         "longitude": -81.538, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589587, 
+        "ne_latitude": 39.807, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2361889, 
+        "sw_latitude": 39.796, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 39.800, 
         "sw_longitude": -81.542, 
-        "fullname": "Noble County Airport, Belle Valley, Ohio, Noble, United States", 
-        "sw_latitude": 39.796
+        "fullname": "Noble County Airport, Belle Valley, Ohio, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12521140
     }

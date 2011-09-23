@@ -32,23 +32,28 @@
       "type": "Feature", 
       "properties": {
         "lang": "JPN", 
-        "woeid": 12513959, 
+        "placetype": "airport", 
         "name": "\u30db\u30f3\u30c0\u30a8\u30a2\u30dd\u30fc\u30c8", 
         "alias_ENG_P": [
           "Honda Airport"
         ], 
-        "ne_latitude": 35.981, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345883", 
+          "woe:country=23424856", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513959, 
         "ne_longitude": 139.531, 
         "longitude": 139.525, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345883, 
+        "ne_latitude": 35.981, 
         "iso": "JP", 
-        "date_indexed": "2010-12-02T08:09:08Z", 
-        "parent_woeid": 1113453, 
+        "sw_latitude": 35.972, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.976, 
         "sw_longitude": 139.519, 
         "fullname": "\u30db\u30f3\u30c0\u30a8\u30a2\u30dd\u30fc\u30c8, Okegawa-shi, Saitama Prefecture, Japan", 
-        "sw_latitude": 35.972
+        "date_indexed": "2010-12-02T08:09:08Z"
       }, 
       "id": 12513959
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516030, 
+        "placetype": "airport", 
         "name": "Ilimnir Airport", 
-        "ne_latitude": 61.954, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597645", 
+          "woe:state=2346881", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516030, 
         "ne_longitude": 117.169, 
         "longitude": 117.160, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597645, 
+        "ne_latitude": 61.954, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 1980242, 
+        "sw_latitude": 61.945, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 61.950, 
         "sw_longitude": 117.150, 
         "fullname": "Ilimnir Airport, Sakha, Suntarsky, Russia", 
-        "sw_latitude": 61.945
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516030
     }

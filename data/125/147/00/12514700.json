@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514700, 
+        "placetype": "airport", 
         "name": "Mananara Nord Airport", 
-        "ne_latitude": -16.161, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=23706560", 
+          "woe:state=2346149", 
+          "woe:country=23424883", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514700, 
         "ne_longitude": 49.775, 
         "longitude": 49.771, 
-        "placetype": "Airport", 
+        "parent_woeid": 23706560, 
+        "ne_latitude": -16.161, 
         "iso": "MG", 
-        "date_indexed": "2010-12-02T16:43:54Z", 
-        "parent_woeid": 1362331, 
+        "sw_latitude": -16.170, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -16.165, 
         "sw_longitude": 49.766, 
-        "fullname": "Mananara Nord Airport, Mananara, Toamasina, Mananara Avaratra, Madagascar", 
-        "sw_latitude": -16.170
+        "fullname": "Mananara Nord Airport, Mananara, Toamasina, Madagascar", 
+        "date_indexed": "2010-12-02T16:43:54Z"
       }, 
       "id": 12514700
     }

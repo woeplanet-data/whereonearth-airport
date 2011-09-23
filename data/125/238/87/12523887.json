@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523887, 
-        "name": "Hornafjordur Airport", 
         "alias_ENG_V": [
           "HFN Airport"
         ], 
-        "ne_latitude": 64.304, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Hornafjordur Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2345690", 
+          "woe:country=23424845", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523887, 
         "ne_longitude": -15.223, 
         "longitude": -15.234, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345690, 
+        "ne_latitude": 64.304, 
         "iso": "IS", 
-        "date_indexed": "2010-12-02T09:55:32Z", 
-        "parent_woeid": 980059, 
+        "sw_latitude": 64.295, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 64.299, 
         "sw_longitude": -15.244, 
         "fullname": "Hornafjordur Airport, Auster-Skaftafellssysla, Iceland", 
-        "sw_latitude": 64.295
+        "iata_code": "HFN", 
+        "date_indexed": "2010-12-02T09:55:32Z"
       }, 
       "id": 12523887
     }

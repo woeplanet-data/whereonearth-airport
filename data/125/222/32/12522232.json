@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522232, 
-        "name": "Twin County Airport", 
         "alias_ENG_V": [
           "HLX"
         ], 
-        "ne_latitude": 36.773, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Twin County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590325", 
+          "woe:state=2347605", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522232, 
         "ne_longitude": -80.820, 
         "longitude": -80.822, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590325, 
+        "ne_latitude": 36.773, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2385056, 
+        "sw_latitude": 36.757, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.765, 
         "sw_longitude": -80.825, 
-        "fullname": "Twin County Airport, Corinth, Virginia, Carroll, United States", 
-        "sw_latitude": 36.757
+        "fullname": "Twin County Airport, Corinth, Virginia, United States", 
+        "iata_code": "HLX", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522232
     }

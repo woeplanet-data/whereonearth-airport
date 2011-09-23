@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512460, 
+        "placetype": "airport", 
         "name": "El Frances Airport", 
-        "ne_latitude": 22.623, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345106", 
+          "woe:country=23424793", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512460, 
         "ne_longitude": -82.927, 
         "longitude": -82.932, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345106, 
+        "ne_latitude": 22.623, 
         "iso": "CU", 
-        "date_indexed": "2010-12-02T08:58:58Z", 
-        "parent_woeid": 60881, 
+        "sw_latitude": 22.614, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 22.618, 
         "sw_longitude": -82.937, 
         "fullname": "El Frances Airport, Candelaria, Pinar del Rio, Cuba", 
-        "sw_latitude": 22.614
+        "date_indexed": "2010-12-02T08:58:58Z"
       }, 
       "id": 12512460
     }

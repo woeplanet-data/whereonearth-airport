@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 56049643, 
+        "placetype": "airport", 
         "name": "Aeroporto Olavo Amorim Silveira", 
-        "ne_latitude": -23.122, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12581854", 
+          "woe:state=2344868", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56049643, 
         "ne_longitude": -46.572, 
         "longitude": -46.575, 
-        "placetype": "Airport", 
+        "parent_woeid": 12581854, 
+        "ne_latitude": -23.122, 
         "alias_POR_V": [
           "Aeroporto de Atibaia"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:28Z", 
-        "parent_woeid": 456731, 
+        "sw_latitude": -23.135, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -23.124, 
         "sw_longitude": -46.576, 
-        "fullname": "Aeroporto Olavo Amorim Silveira, Atibaia, Sao Paulo, Atibaia, Brazil", 
-        "sw_latitude": -23.135
+        "fullname": "Aeroporto Olavo Amorim Silveira, Atibaia, Sao Paulo, Brazil", 
+        "date_indexed": "2010-12-02T18:01:28Z"
       }, 
       "id": 56049643
     }

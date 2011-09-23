@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511698, 
-        "name": "Hudson Bay Airport", 
         "alias_ENG_V": [
           "YHB Airport"
         ], 
-        "ne_latitude": 52.825, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Hudson Bay Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375232", 
+          "woe:state=2344925", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511698, 
         "ne_longitude": -102.316, 
         "longitude": -102.324, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375232, 
+        "ne_latitude": 52.825, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 29373855, 
+        "sw_latitude": 52.816, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 52.821, 
         "sw_longitude": -102.331, 
-        "fullname": "Hudson Bay Airport, Hudson Bay No 394, Saskatchewan, Saskatchewan, Canada", 
-        "sw_latitude": 52.816
+        "fullname": "Hudson Bay Airport, Hudson Bay No 394, Saskatchewan, Canada", 
+        "iata_code": "YHB", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12511698
     }

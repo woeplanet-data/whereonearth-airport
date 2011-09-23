@@ -3,28 +3,130 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -75.459, 
-              40.640
-            ], 
-            [
-              -75.459, 
-              40.663
-            ], 
-            [
-              -75.425, 
-              40.663
-            ], 
-            [
-              -75.425, 
-              40.640
-            ], 
-            [
-              -75.459, 
-              40.640
+              [
+                -75.436, 
+                40.653
+              ], 
+              [
+                -75.434, 
+                40.655
+              ], 
+              [
+                -75.428, 
+                40.656
+              ], 
+              [
+                -75.427, 
+                40.659
+              ], 
+              [
+                -75.427, 
+                40.659
+              ], 
+              [
+                -75.424, 
+                40.660
+              ], 
+              [
+                -75.420, 
+                40.657
+              ], 
+              [
+                -75.425, 
+                40.656
+              ], 
+              [
+                -75.427, 
+                40.653
+              ], 
+              [
+                -75.428, 
+                40.648
+              ], 
+              [
+                -75.426, 
+                40.645
+              ], 
+              [
+                -75.425, 
+                40.645
+              ], 
+              [
+                -75.427, 
+                40.643
+              ], 
+              [
+                -75.428, 
+                40.643
+              ], 
+              [
+                -75.433, 
+                40.642
+              ], 
+              [
+                -75.435, 
+                40.644
+              ], 
+              [
+                -75.433, 
+                40.645
+              ], 
+              [
+                -75.433, 
+                40.645
+              ], 
+              [
+                -75.428, 
+                40.648
+              ], 
+              [
+                -75.430, 
+                40.653
+              ], 
+              [
+                -75.434, 
+                40.652
+              ], 
+              [
+                -75.435, 
+                40.651
+              ], 
+              [
+                -75.440, 
+                40.649
+              ], 
+              [
+                -75.442, 
+                40.645
+              ], 
+              [
+                -75.442, 
+                40.649
+              ], 
+              [
+                -75.443, 
+                40.652
+              ], 
+              [
+                -75.443, 
+                40.652
+              ], 
+              [
+                -75.441, 
+                40.651
+              ], 
+              [
+                -75.437, 
+                40.652
+              ], 
+              [
+                -75.436, 
+                40.653
+              ]
             ]
           ]
         ]
@@ -32,23 +134,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518581, 
-        "name": "Lehigh Valley International Airport", 
         "alias_ENG_V": [
           "ABE"
         ], 
-        "ne_latitude": 40.663, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -75.425, 
-        "longitude": -75.434, 
-        "placetype": "Airport", 
+        "name": "Lehigh Valley International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589775", 
+          "woe:state=2347597", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518581, 
+        "ne_longitude": -75.420, 
+        "longitude": -75.431, 
+        "parent_woeid": 12589775, 
+        "ne_latitude": 40.660, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2417123, 
+        "sw_latitude": 40.642, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.651, 
-        "sw_longitude": -75.459, 
-        "fullname": "Lehigh Valley International Airport, Hanover, Pennsylvania, Northampton, United States", 
-        "sw_latitude": 40.640
+        "sw_longitude": -75.443, 
+        "fullname": "Lehigh Valley International Airport, Hanover, Pennsylvania, United States", 
+        "iata_code": "ABE", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518581
     }

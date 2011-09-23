@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 56017589, 
+        "placetype": "airport", 
         "name": "Dargaville Aerodrome", 
-        "ne_latitude": -35.936, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55875851", 
+          "woe:state=15021755", 
+          "woe:country=23424916", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56017589, 
         "ne_longitude": 173.898, 
         "longitude": 173.893, 
-        "placetype": "Airport", 
+        "parent_woeid": 55875851, 
+        "ne_latitude": -35.936, 
         "iso": "NZ", 
-        "date_indexed": "2010-12-02T17:02:39Z", 
-        "parent_woeid": 28644128, 
+        "sw_latitude": -35.945, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -35.941, 
         "sw_longitude": 173.887, 
-        "fullname": "Dargaville Aerodrome, Turiwiri, Northland, Kaipara District, New Zealand", 
-        "sw_latitude": -35.945
+        "fullname": "Dargaville Aerodrome, Turiwiri, Northland, New Zealand", 
+        "date_indexed": "2010-12-02T17:02:39Z"
       }, 
       "id": 56017589
     }

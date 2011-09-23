@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516967, 
+        "placetype": "airport", 
         "name": "Syzran Northeast Airport", 
-        "ne_latitude": 53.227, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598629", 
+          "woe:state=2346906", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516967, 
         "ne_longitude": 48.542, 
         "longitude": 48.534, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598629, 
+        "ne_latitude": 53.227, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2026572, 
+        "sw_latitude": 53.218, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.222, 
         "sw_longitude": 48.527, 
         "fullname": "Syzran Northeast Airport, Samarskaya Oblast, Syzransky, Russia", 
-        "sw_latitude": 53.218
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516967
     }

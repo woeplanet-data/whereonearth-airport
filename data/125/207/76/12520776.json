@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520776, 
+        "placetype": "airport", 
         "name": "Manila Airport", 
-        "ne_latitude": 40.991, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12590265", 
+          "woe:state=2347603", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520776, 
         "ne_longitude": -109.672, 
         "longitude": -109.678, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590265, 
+        "ne_latitude": 40.991, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2444796, 
+        "sw_latitude": 40.982, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.986, 
         "sw_longitude": -109.684, 
-        "fullname": "Manila Airport, Manila, Utah, Daggett, United States", 
-        "sw_latitude": 40.982
+        "fullname": "Manila Airport, Manila, Utah, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12520776
     }

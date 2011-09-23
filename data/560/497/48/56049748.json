@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "CZE", 
-        "woeid": 56049748, 
+        "placetype": "airport", 
         "name": "Letiste Darmysl", 
-        "ne_latitude": 49.651, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12610036", 
+          "woe:county=12582613", 
+          "woe:state=20070501", 
+          "woe:country=23424810", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56049748, 
         "ne_longitude": 12.873, 
         "longitude": 12.863, 
-        "placetype": "Airport", 
+        "parent_woeid": 12610036, 
+        "ne_latitude": 49.651, 
         "iso": "CZ", 
-        "date_indexed": "2010-12-02T08:56:52Z", 
-        "parent_woeid": 786486, 
+        "sw_latitude": 49.639, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.645, 
         "sw_longitude": 12.853, 
-        "fullname": "Letiste Darmysl, Bor, Plze\u0148sk\u00fd, Tachov, Czech Republic", 
-        "sw_latitude": 49.639
+        "fullname": "Letiste Darmysl, Bor, Plze\u0148sk\u00fd, Czech Republic", 
+        "date_indexed": "2010-12-02T08:56:52Z"
       }, 
       "id": 56049748
     }

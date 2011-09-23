@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511956, 
-        "name": "Goma International Airport", 
         "alias_ENG_V": [
           "Goma Airport"
         ], 
-        "ne_latitude": -1.662, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Goma International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=20069829", 
+          "woe:country=23424780", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511956, 
         "ne_longitude": 29.239, 
         "longitude": 29.234, 
-        "placetype": "Airport", 
+        "parent_woeid": 20069829, 
+        "ne_latitude": -1.662, 
         "iso": "CD", 
-        "date_indexed": "2010-12-02T16:33:25Z", 
-        "parent_woeid": 1286781, 
+        "sw_latitude": -1.671, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -1.666, 
         "sw_longitude": 29.230, 
         "fullname": "Goma International Airport, Goma, South Kivu, Democratic Republic of Congo", 
-        "sw_latitude": -1.671
+        "iata_code": "GOM", 
+        "date_indexed": "2010-12-02T16:33:25Z"
       }, 
       "id": 12511956
     }

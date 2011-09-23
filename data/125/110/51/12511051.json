@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511051, 
+        "placetype": "airport", 
         "name": "Aeroporto Belem de Sao Francisco", 
         "alias_ENG_P": [
           "Belem de Sao Francisco Airport"
         ], 
-        "ne_latitude": -8.765, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12580742", 
+          "woe:state=2344860", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511051, 
         "ne_longitude": -38.937, 
         "longitude": -38.942, 
-        "placetype": "Airport", 
+        "parent_woeid": 12580742, 
+        "ne_latitude": -8.765, 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 456794, 
+        "sw_latitude": -8.775, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -8.770, 
         "sw_longitude": -38.946, 
-        "fullname": "Aeroporto Belem de Sao Francisco, Bel\u00e9m de S\u00e3o Francisco, Pernambuco, Bel\u00e9m de S\u00e3o Francisco, Brazil", 
-        "sw_latitude": -8.775
+        "fullname": "Aeroporto Belem de Sao Francisco, Bel\u00e9m de S\u00e3o Francisco, Pernambuco, Brazil", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511051
     }

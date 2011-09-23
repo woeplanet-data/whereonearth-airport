@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518646, 
+        "placetype": "airport", 
         "name": "Aransas Pass Airport", 
-        "ne_latitude": 27.887, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12590211", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518646, 
         "ne_longitude": -97.143, 
         "longitude": -97.149, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590211, 
+        "ne_latitude": 27.887, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:15Z", 
-        "parent_woeid": 2355414, 
+        "sw_latitude": 27.878, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 27.883, 
         "sw_longitude": -97.154, 
-        "fullname": "Aransas Pass Airport, Aransas Pass, Texas, San Patricio, United States", 
-        "sw_latitude": 27.878
+        "fullname": "Aransas Pass Airport, Aransas Pass, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:15Z"
       }, 
       "id": 12518646
     }

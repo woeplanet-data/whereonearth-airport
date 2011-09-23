@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520561, 
-        "name": "Lancaster Airport", 
         "alias_ENG_V": [
           "LNS"
         ], 
-        "ne_latitude": 40.129, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Lancaster Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589763", 
+          "woe:state=2347597", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520561, 
         "ne_longitude": -76.278, 
         "longitude": -76.300, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589763, 
+        "ne_latitude": 40.129, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2514527, 
+        "sw_latitude": 40.115, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.118, 
         "sw_longitude": -76.306, 
-        "fullname": "Lancaster Airport, Warwick, Pennsylvania, Lancaster, United States", 
-        "sw_latitude": 40.115
+        "fullname": "Lancaster Airport, Warwick, Pennsylvania, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520561
     }

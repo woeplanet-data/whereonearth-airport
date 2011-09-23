@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523574, 
-        "name": "Guayaramerin Airport", 
         "alias_ENG_V": [
           "GYA"
         ], 
-        "ne_latitude": -10.823, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Guayaramerin Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=55967933", 
+          "woe:county=55967776", 
+          "woe:state=2344803", 
+          "woe:country=23424762", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523574, 
         "ne_longitude": -65.395, 
         "longitude": -65.399, 
-        "placetype": "Airport", 
+        "parent_woeid": 55967933, 
+        "ne_latitude": -10.823, 
         "iso": "BO", 
-        "date_indexed": "2010-12-02T17:57:50Z", 
-        "parent_woeid": 346079, 
+        "sw_latitude": -10.832, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -10.828, 
         "sw_longitude": -65.404, 
-        "fullname": "Guayaramerin Airport, Guayaramer\u00edn, El Beni, Vaca D\u00edez, Bolivia", 
-        "sw_latitude": -10.832
+        "fullname": "Guayaramerin Airport, Guayaramer\u00edn, El Beni, Bolivia", 
+        "iata_code": "GYA", 
+        "date_indexed": "2010-12-02T17:57:50Z"
       }, 
       "id": 12523574
     }

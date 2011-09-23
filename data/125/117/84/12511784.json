@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511784, 
+        "placetype": "airport", 
         "name": "Peace River Three Creeks Airport", 
-        "ne_latitude": 56.417, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=29375228", 
+          "woe:state=2344915", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511784, 
         "ne_longitude": -116.873, 
         "longitude": -116.881, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375228, 
+        "ne_latitude": 56.417, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 8319, 
+        "sw_latitude": 56.408, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 56.412, 
         "sw_longitude": -116.889, 
-        "fullname": "Peace River Three Creeks Airport, Three Creeks, Alberta, Alberta, Canada", 
-        "sw_latitude": 56.408
+        "fullname": "Peace River Three Creeks Airport, Three Creeks, Alberta, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12511784
     }

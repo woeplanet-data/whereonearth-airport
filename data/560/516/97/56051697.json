@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 56051697, 
+        "placetype": "airport", 
         "name": "Flugplatz Freistadt", 
-        "ne_latitude": 48.515, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12674367", 
+          "woe:county=12591715", 
+          "woe:state=2344711", 
+          "woe:country=23424750", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56051697, 
         "ne_longitude": 14.410, 
         "longitude": 14.404, 
-        "placetype": "Airport", 
+        "parent_woeid": 12674367, 
+        "ne_latitude": 48.515, 
         "iso": "AT", 
-        "date_indexed": "2010-12-02T16:35:40Z", 
-        "parent_woeid": 545439, 
+        "sw_latitude": 48.513, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.515, 
         "sw_longitude": 14.402, 
-        "fullname": "Flugplatz Freistadt, Hirschbach, Upper Austria, Freistadt, Austria", 
-        "sw_latitude": 48.513
+        "fullname": "Flugplatz Freistadt, Hirschbach, Upper Austria, Austria", 
+        "date_indexed": "2010-12-02T16:35:40Z"
       }, 
       "id": 56051697
     }

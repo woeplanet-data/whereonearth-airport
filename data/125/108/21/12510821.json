@@ -3,28 +3,66 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              130.964, 
-              -25.198
-            ], 
-            [
-              130.964, 
-              -25.173
-            ], 
-            [
-              130.991, 
-              -25.173
-            ], 
-            [
-              130.991, 
-              -25.198
-            ], 
-            [
-              130.964, 
-              -25.198
+              [
+                130.977, 
+                -25.191
+              ], 
+              [
+                130.977, 
+                -25.192
+              ], 
+              [
+                130.977, 
+                -25.193
+              ], 
+              [
+                130.977, 
+                -25.193
+              ], 
+              [
+                130.976, 
+                -25.195
+              ], 
+              [
+                130.975, 
+                -25.197
+              ], 
+              [
+                130.975, 
+                -25.195
+              ], 
+              [
+                130.972, 
+                -25.192
+              ], 
+              [
+                130.974, 
+                -25.190
+              ], 
+              [
+                130.975, 
+                -25.187
+              ], 
+              [
+                130.973, 
+                -25.183
+              ], 
+              [
+                130.977, 
+                -25.185
+              ], 
+              [
+                130.978, 
+                -25.189
+              ], 
+              [
+                130.977, 
+                -25.191
+              ]
             ]
           ]
         ]
@@ -32,23 +70,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510821, 
-        "name": "Ayers Rock Airport", 
         "alias_ENG_V": [
           "Yulara Airport"
         ], 
-        "ne_latitude": -25.173, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": 130.991, 
-        "longitude": 130.976, 
-        "placetype": "Airport", 
+        "name": "Ayers Rock Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=56072989", 
+          "woe:state=2344701", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510821, 
+        "ne_longitude": 130.978, 
+        "longitude": 130.975, 
+        "parent_woeid": 56072989, 
+        "ne_latitude": -25.183, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 28588241, 
-        "latitude": -25.191, 
-        "sw_longitude": 130.964, 
-        "fullname": "Ayers Rock Airport, Yulara, Northern Territory, Yulara, Australia", 
-        "sw_latitude": -25.198
+        "sw_latitude": -25.197, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": -25.190, 
+        "sw_longitude": 130.972, 
+        "fullname": "Ayers Rock Airport, Yulara, Northern Territory, Australia", 
+        "iata_code": "AYQ", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 12510821
     }

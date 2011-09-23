@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515613, 
-        "name": "Dumaguete Airport", 
         "alias_ENG_V": [
           "DGT"
         ], 
-        "ne_latitude": 9.340, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Dumaguete Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=2346700", 
+          "woe:state=23424721", 
+          "woe:country=23424934", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515613, 
         "ne_longitude": 123.305, 
         "longitude": 123.301, 
-        "placetype": "Airport", 
+        "parent_woeid": 2346700, 
+        "ne_latitude": 9.340, 
         "iso": "PH", 
-        "date_indexed": "2010-12-02T09:56:58Z", 
-        "parent_woeid": 1199836, 
+        "sw_latitude": 9.331, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 9.336, 
         "sw_longitude": 123.296, 
-        "fullname": "Dumaguete Airport, Sibulan, Central Visayas, Negros Oriental, Philippines", 
-        "sw_latitude": 9.331
+        "fullname": "Dumaguete Airport, Sibulan, Central Visayas, Philippines", 
+        "iata_code": "DGT", 
+        "date_indexed": "2010-12-02T09:56:58Z"
       }, 
       "id": 12515613
     }

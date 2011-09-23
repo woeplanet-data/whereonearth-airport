@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520478, 
-        "name": "Kirksville Regional Airport", 
         "alias_ENG_V": [
           "Kirksville Municipal Airport"
         ], 
-        "ne_latitude": 40.103, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Kirksville Regional Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588966", 
+          "woe:state=2347584", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520478, 
         "ne_longitude": -92.540, 
         "longitude": -92.544, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588966, 
+        "ne_latitude": 40.103, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2451185, 
+        "sw_latitude": 40.081, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.102, 
         "sw_longitude": -92.547, 
-        "fullname": "Kirksville Regional Airport, Millard, Missouri, Adair, United States", 
-        "sw_latitude": 40.081
+        "fullname": "Kirksville Regional Airport, Millard, Missouri, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520478
     }

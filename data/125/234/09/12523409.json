@@ -3,28 +3,78 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -77.027, 
-              38.833
-            ], 
-            [
-              -77.027, 
-              38.848
-            ], 
-            [
-              -77.008, 
-              38.848
-            ], 
-            [
-              -77.008, 
-              38.833
-            ], 
-            [
-              -77.027, 
-              38.833
+              [
+                -77.022, 
+                38.843
+              ], 
+              [
+                -77.021, 
+                38.842
+              ], 
+              [
+                -77.018, 
+                38.841
+              ], 
+              [
+                -77.013, 
+                38.840
+              ], 
+              [
+                -77.014, 
+                38.841
+              ], 
+              [
+                -77.018, 
+                38.841
+              ], 
+              [
+                -77.019, 
+                38.838
+              ], 
+              [
+                -77.021, 
+                38.835
+              ], 
+              [
+                -77.022, 
+                38.836
+              ], 
+              [
+                -77.024, 
+                38.837
+              ], 
+              [
+                -77.023, 
+                38.840
+              ], 
+              [
+                -77.023, 
+                38.840
+              ], 
+              [
+                -77.023, 
+                38.840
+              ], 
+              [
+                -77.023, 
+                38.841
+              ], 
+              [
+                -77.022, 
+                38.842
+              ], 
+              [
+                -77.022, 
+                38.843
+              ], 
+              [
+                -77.022, 
+                38.843
+              ]
             ]
           ]
         ]
@@ -32,23 +82,32 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523409, 
-        "name": "Bolling Air Force Base", 
         "alias_ENG_V": [
           "BOF Airport"
         ], 
-        "ne_latitude": 38.848, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -77.008, 
-        "longitude": -77.018, 
-        "placetype": "Airport", 
-        "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
+        "name": "Bolling Air Force Base", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:suburb=2362005", 
+          "woe:suburb=55864668", 
+          "woe:county=12587802", 
+          "woe:state=2347567", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523409, 
+        "ne_longitude": -77.013, 
+        "longitude": -77.021, 
         "parent_woeid": 2362005, 
-        "latitude": 38.841, 
-        "sw_longitude": -77.027, 
-        "fullname": "Bolling Air Force Base, Washington, District of Columbia, District of Columbia, United States", 
-        "sw_latitude": 38.833
+        "ne_latitude": 38.843, 
+        "iso": "US", 
+        "sw_latitude": 38.835, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 38.839, 
+        "sw_longitude": -77.024, 
+        "fullname": "Bolling Air Force Base, Washington, District of Columbia, United States", 
+        "iata_code": "BOF", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12523409
     }

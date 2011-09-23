@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512889, 
+        "placetype": "airport", 
         "name": "Deaux Airport", 
-        "ne_latitude": 44.077, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12660408", 
+          "woe:county=12597193", 
+          "woe:state=7153320", 
+          "woe:country=23424819", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512889, 
         "ne_longitude": 4.146, 
         "longitude": 4.143, 
-        "placetype": "Airport", 
+        "parent_woeid": 12660408, 
+        "ne_latitude": 44.077, 
         "iso": "FR", 
-        "date_indexed": "2010-12-02T12:04:01Z", 
-        "parent_woeid": 588565, 
+        "sw_latitude": 44.062, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.071, 
         "sw_longitude": 4.140, 
-        "fullname": "Deaux Airport, Deaux, Languedoc-Roussillon, Gard, France", 
-        "sw_latitude": 44.062
+        "fullname": "Deaux Airport, Deaux, Languedoc-Roussillon, France", 
+        "date_indexed": "2010-12-02T12:04:01Z"
       }, 
       "id": 12512889
     }

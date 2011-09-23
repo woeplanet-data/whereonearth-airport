@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 56052146, 
+        "placetype": "airport", 
         "name": "Landeplatz Walldorf", 
-        "ne_latitude": 49.309, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12623992", 
+          "woe:county=12596830", 
+          "woe:state=2345481", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56052146, 
         "ne_longitude": 8.661, 
         "longitude": 8.656, 
-        "placetype": "Airport", 
+        "parent_woeid": 12623992, 
+        "ne_latitude": 49.309, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 703646, 
+        "sw_latitude": 49.301, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.307, 
         "sw_longitude": 8.656, 
-        "fullname": "Landeplatz Walldorf, Walldorf, Baden-Wurttemberg, Rhein-Neckar-Kreis, Germany", 
-        "sw_latitude": 49.301
+        "fullname": "Landeplatz Walldorf, Walldorf, Baden-Wurttemberg, Germany", 
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 56052146
     }

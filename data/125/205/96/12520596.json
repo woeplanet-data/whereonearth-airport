@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520596, 
-        "name": "Le Mars Municipal Airport", 
         "alias_ENG_V": [
           "LRJ Airport"
         ], 
-        "ne_latitude": 42.784, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Le Mars Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588346", 
+          "woe:state=2347574", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520596, 
         "ne_longitude": -96.190, 
         "longitude": -96.191, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588346, 
+        "ne_latitude": 42.784, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2437475, 
+        "sw_latitude": 42.772, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.777, 
         "sw_longitude": -96.195, 
-        "fullname": "Le Mars Municipal Airport, Le Mars, Iowa, Plymouth, United States", 
-        "sw_latitude": 42.772
+        "fullname": "Le Mars Municipal Airport, Le Mars, Iowa, United States", 
+        "iata_code": "LRJ", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520596
     }

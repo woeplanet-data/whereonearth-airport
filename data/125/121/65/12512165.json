@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512165, 
+        "placetype": "airport", 
         "name": "Qieman Airport", 
-        "ne_latitude": 38.154, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12686380", 
+          "woe:county=26198314", 
+          "woe:state=12578003", 
+          "woe:country=23424781", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512165, 
         "ne_longitude": 85.541, 
         "longitude": 85.535, 
-        "placetype": "Airport", 
+        "parent_woeid": 12686380, 
+        "ne_latitude": 38.154, 
         "iso": "CN", 
-        "date_indexed": "2010-12-02T08:51:48Z", 
-        "parent_woeid": 2143746, 
+        "sw_latitude": 38.145, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.149, 
         "sw_longitude": 85.530, 
-        "fullname": "Qieman Airport, Qiemo, Xinjiang, Bayinguoleng Menggu, China", 
-        "sw_latitude": 38.145
+        "fullname": "Qieman Airport, Qiemo, Xinjiang, China", 
+        "date_indexed": "2010-12-02T08:51:48Z"
       }, 
       "id": 12512165
     }

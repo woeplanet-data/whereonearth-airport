@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524618, 
-        "name": "Crane Island Airport", 
         "alias_ENG_V": [
           "CKR"
         ], 
-        "ne_latitude": 48.592, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Crane Island Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590467", 
+          "woe:state=2347606", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524618, 
         "ne_longitude": -122.976, 
         "longitude": -122.983, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590467, 
+        "ne_latitude": 48.592, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2465973, 
+        "sw_latitude": 48.583, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.587, 
         "sw_longitude": -122.990, 
         "fullname": "Crane Island Airport, Washington, San Juan, United States", 
-        "sw_latitude": 48.583
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12524618
     }

@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512192, 
+        "placetype": "airport", 
         "name": "Shuang Cheng Airport", 
-        "ne_latitude": 45.417, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12685844", 
+          "woe:county=26198257", 
+          "woe:state=12577998", 
+          "woe:country=23424781", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512192, 
         "ne_longitude": 126.314, 
         "longitude": 126.307, 
-        "placetype": "Airport", 
+        "parent_woeid": 12685844, 
+        "ne_latitude": 45.417, 
         "iso": "CN", 
-        "date_indexed": "2010-12-02T08:51:54Z", 
-        "parent_woeid": 2141177, 
+        "sw_latitude": 45.408, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.413, 
         "sw_longitude": 126.301, 
-        "fullname": "Shuang Cheng Airport, Shuangcheng, Heilongjiang, Ha'erbin, China", 
-        "sw_latitude": 45.408
+        "fullname": "Shuang Cheng Airport, Shuangcheng, Heilongjiang, China", 
+        "date_indexed": "2010-12-02T08:51:54Z"
       }, 
       "id": 12512192
     }

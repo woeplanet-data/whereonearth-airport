@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516729, 
+        "placetype": "airport", 
         "name": "Povorino South Airport", 
-        "ne_latitude": 51.099, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599647", 
+          "woe:state=2346935", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516729, 
         "ne_longitude": 42.177, 
         "longitude": 42.170, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599647, 
+        "ne_latitude": 51.099, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2123007, 
+        "sw_latitude": 51.090, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.094, 
         "sw_longitude": 42.163, 
-        "fullname": "Povorino South Airport, Povorino, Voronezhskaya Oblast, Povorino, Russia", 
-        "sw_latitude": 51.090
+        "fullname": "Povorino South Airport, Povorino, Voronezhskaya Oblast, Russia", 
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516729
     }

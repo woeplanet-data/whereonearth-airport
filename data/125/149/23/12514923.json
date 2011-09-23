@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514923, 
+        "placetype": "airport", 
         "name": "Muzquiz New Airport", 
-        "ne_latitude": 27.860, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599905", 
+          "woe:state=2346270", 
+          "woe:country=23424900", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514923, 
         "ne_longitude": -101.522, 
         "longitude": -101.527, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599905, 
+        "ne_latitude": 27.860, 
         "iso": "MX", 
-        "date_indexed": "2010-12-02T16:57:55Z", 
-        "parent_woeid": 134246, 
+        "sw_latitude": 27.851, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 27.856, 
         "sw_longitude": -101.532, 
-        "fullname": "Muzquiz New Airport, Muzquiz, Coahuila de Zaragoza, Muzquiz, Mexico", 
-        "sw_latitude": 27.851
+        "fullname": "Muzquiz New Airport, Muzquiz, Coahuila de Zaragoza, Mexico", 
+        "date_indexed": "2010-12-02T16:57:55Z"
       }, 
       "id": 12514923
     }

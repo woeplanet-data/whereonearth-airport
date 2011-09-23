@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511863, 
-        "name": "Swan River Airport", 
         "alias_ENG_V": [
           "YSE Airport"
         ], 
-        "ne_latitude": 52.125, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Swan River Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375231", 
+          "woe:state=2344917", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511863, 
         "ne_longitude": -101.233, 
         "longitude": -101.240, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375231, 
+        "ne_latitude": 52.125, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 2397, 
+        "sw_latitude": 52.116, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 52.121, 
         "sw_longitude": -101.248, 
-        "fullname": "Swan River Airport, Swan River, Manitoba, Manitoba, Canada", 
-        "sw_latitude": 52.116
+        "fullname": "Swan River Airport, Swan River, Manitoba, Canada", 
+        "iata_code": "YSE", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12511863
     }

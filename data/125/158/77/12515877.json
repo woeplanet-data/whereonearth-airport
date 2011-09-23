@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515877, 
+        "placetype": "airport", 
         "name": "Buyskoye Airport", 
-        "ne_latitude": 57.096, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598503", 
+          "woe:state=2346902", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515877, 
         "ne_longitude": 49.719, 
         "longitude": 49.710, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598503, 
+        "ne_latitude": 57.096, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2120448, 
+        "sw_latitude": 57.087, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 57.092, 
         "sw_longitude": 49.702, 
         "fullname": "Buyskoye Airport, Kirovskaya Oblast, Urzhumsky, Russia", 
-        "sw_latitude": 57.087
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12515877
     }

@@ -32,26 +32,32 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515461, 
-        "name": "Vila Real Airport", 
         "alias_ENG_V": [
           "VRL"
         ], 
-        "ne_latitude": 41.278, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Vila Real Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12596438", 
+          "woe:state=2346579", 
+          "woe:country=23424925", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515461, 
         "ne_longitude": -7.715, 
         "longitude": -7.721, 
-        "placetype": "Airport", 
+        "parent_woeid": 12596438, 
+        "ne_latitude": 41.278, 
         "alias_POR_V": [
           "VRL Aeroport"
         ], 
         "iso": "PT", 
-        "date_indexed": "2010-12-02T10:00:50Z", 
-        "parent_woeid": 739754, 
+        "sw_latitude": 41.269, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.273, 
         "sw_longitude": -7.727, 
-        "fullname": "Vila Real Airport, Constantim, Vila Real, Vila Real, Portugal", 
-        "sw_latitude": 41.269
+        "fullname": "Vila Real Airport, Constantim, Vila Real, Portugal", 
+        "date_indexed": "2010-12-02T10:00:50Z"
       }, 
       "id": 12515461
     }

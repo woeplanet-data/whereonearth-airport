@@ -32,26 +32,33 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513103, 
+        "placetype": "airport", 
         "name": "Garz Airport", 
-        "ne_latitude": 53.883, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12631181", 
+          "woe:county=12596876", 
+          "woe:state=2345492", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513103, 
         "ne_longitude": 14.169, 
         "longitude": 14.139, 
-        "placetype": "Airport", 
+        "parent_woeid": 12631181, 
+        "ne_latitude": 53.883, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 709064, 
+        "sw_latitude": 53.873, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.878, 
         "sw_longitude": 14.129, 
-        "fullname": "Garz Airport, Zirchow, Mecklenburg-Vorpommern, Ostvorpommern, Germany", 
+        "fullname": "Garz Airport, Zirchow, Mecklenburg-Vorpommern, Germany", 
         "alias_GER_V": [
           "Flughafen Heringsdorf"
         ], 
         "alias_GER_Q": [
           "Flughafen Garz"
         ], 
-        "sw_latitude": 53.873
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 12513103
     }

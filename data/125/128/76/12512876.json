@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512876, 
+        "placetype": "airport", 
         "name": "Challes les Eaux Airport", 
-        "ne_latitude": 45.565, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12656238", 
+          "woe:county=12597180", 
+          "woe:state=7153329", 
+          "woe:country=23424819", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512876, 
         "ne_longitude": 5.983, 
         "longitude": 5.976, 
-        "placetype": "Airport", 
+        "parent_woeid": 12656238, 
+        "ne_latitude": 45.565, 
         "iso": "FR", 
-        "date_indexed": "2010-12-02T12:04:01Z", 
-        "parent_woeid": 578123, 
+        "sw_latitude": 45.556, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.561, 
         "sw_longitude": 5.971, 
-        "fullname": "Challes les Eaux Airport, Barby, Rhone-Alpes, Savoy, France", 
-        "sw_latitude": 45.556
+        "fullname": "Challes les Eaux Airport, Barby, Rhone-Alpes, France", 
+        "date_indexed": "2010-12-02T12:04:01Z"
       }, 
       "id": 12512876
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521686, 
+        "placetype": "airport", 
         "name": "Rutherford Ranch Airport", 
-        "ne_latitude": 30.082, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12590111", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521686, 
         "ne_longitude": -97.960, 
         "longitude": -97.965, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590111, 
+        "ne_latitude": 30.082, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2419126, 
+        "sw_latitude": 30.073, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 30.077, 
         "sw_longitude": -97.971, 
-        "fullname": "Rutherford Ranch Airport, Hays City, Texas, Hays, United States", 
-        "sw_latitude": 30.073
+        "fullname": "Rutherford Ranch Airport, Hays City, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521686
     }

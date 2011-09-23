@@ -3,28 +3,86 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              36.911, 
-              -1.328
-            ], 
-            [
-              36.911, 
-              -1.306
-            ], 
-            [
-              36.934, 
-              -1.306
-            ], 
-            [
-              36.934, 
-              -1.328
-            ], 
-            [
-              36.911, 
-              -1.328
+              [
+                36.919, 
+                -1.314
+              ], 
+              [
+                36.923, 
+                -1.305
+              ], 
+              [
+                36.926, 
+                -1.315
+              ], 
+              [
+                36.931, 
+                -1.317
+              ], 
+              [
+                36.927, 
+                -1.324
+              ], 
+              [
+                36.927, 
+                -1.329
+              ], 
+              [
+                36.927, 
+                -1.330
+              ], 
+              [
+                36.927, 
+                -1.331
+              ], 
+              [
+                36.926, 
+                -1.331
+              ], 
+              [
+                36.924, 
+                -1.330
+              ], 
+              [
+                36.918, 
+                -1.329
+              ], 
+              [
+                36.924, 
+                -1.325
+              ], 
+              [
+                36.926, 
+                -1.323
+              ], 
+              [
+                36.926, 
+                -1.315
+              ], 
+              [
+                36.918, 
+                -1.314
+              ], 
+              [
+                36.918, 
+                -1.315
+              ], 
+              [
+                36.918, 
+                -1.315
+              ], 
+              [
+                36.912, 
+                -1.308
+              ], 
+              [
+                36.919, 
+                -1.314
+              ]
             ]
           ]
         ]
@@ -32,23 +90,28 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514067, 
-        "name": "Jomo Kenyatta International Airport", 
         "alias_ENG_V": [
           "NBO"
         ], 
-        "ne_latitude": -1.306, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": 36.934, 
-        "longitude": 36.922, 
-        "placetype": "Airport", 
+        "name": "Jomo Kenyatta International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2345940", 
+          "woe:country=23424863", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514067, 
+        "ne_longitude": 36.931, 
+        "longitude": 36.924, 
+        "parent_woeid": 2345940, 
+        "ne_latitude": -1.305, 
         "iso": "KE", 
-        "date_indexed": "2010-12-02T08:53:57Z", 
-        "parent_woeid": 1527049, 
-        "latitude": -1.317, 
-        "sw_longitude": 36.911, 
+        "sw_latitude": -1.331, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": -1.319, 
+        "sw_longitude": 36.912, 
         "fullname": "Jomo Kenyatta International Airport, Nairobi Area, Kenya", 
-        "sw_latitude": -1.328
+        "date_indexed": "2010-12-02T08:53:57Z"
       }, 
       "id": 12514067
     }

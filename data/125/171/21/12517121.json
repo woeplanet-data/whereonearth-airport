@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517121, 
+        "placetype": "airport", 
         "name": "Ust Usa Airport", 
-        "ne_latitude": 65.996, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597460", 
+          "woe:state=2346874", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517121, 
         "ne_longitude": 56.937, 
         "longitude": 56.925, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597460, 
+        "ne_latitude": 65.996, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2101809, 
+        "sw_latitude": 65.987, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 65.992, 
         "sw_longitude": 56.914, 
         "fullname": "Ust Usa Airport, Komi, Usinsk, Russia", 
-        "sw_latitude": 65.987
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12517121
     }

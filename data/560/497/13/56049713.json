@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "CZE", 
-        "woeid": 56049713, 
+        "placetype": "airport", 
         "name": "Letiste Podmyce", 
-        "ne_latitude": 48.891, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12606291", 
+          "woe:county=12582558", 
+          "woe:state=20070503", 
+          "woe:country=23424810", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56049713, 
         "ne_longitude": 15.786, 
         "longitude": 15.776, 
-        "placetype": "Airport", 
+        "parent_woeid": 12606291, 
+        "ne_latitude": 48.891, 
         "iso": "CZ", 
-        "date_indexed": "2010-12-02T08:56:52Z", 
-        "parent_woeid": 797728, 
+        "sw_latitude": 48.878, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.884, 
         "sw_longitude": 15.766, 
-        "fullname": "Letiste Podmyce, \u00c5 afov, Jihomoravsk\u00fd, Znojmo, Czech Republic", 
-        "sw_latitude": 48.878
+        "fullname": "Letiste Podmyce, \u00c5 afov, Jihomoravsk\u00fd, Czech Republic", 
+        "date_indexed": "2010-12-02T08:56:52Z"
       }, 
       "id": 56049713
     }

@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515304, 
+        "placetype": "airport", 
         "name": "Gostyn Airport", 
-        "ne_latitude": 51.876, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=24547507", 
+          "woe:county=12591456", 
+          "woe:state=12577949", 
+          "woe:country=23424923", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515304, 
         "ne_longitude": 16.960, 
         "longitude": 16.952, 
-        "placetype": "Airport", 
+        "parent_woeid": 24547507, 
+        "ne_latitude": 51.876, 
         "iso": "PL", 
-        "date_indexed": "2010-12-02T12:12:45Z", 
-        "parent_woeid": 494051, 
+        "sw_latitude": 51.867, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.872, 
         "sw_longitude": 16.945, 
         "fullname": "Gostyn Airport, Greater Poland, Gostyn County, Poland", 
-        "sw_latitude": 51.867
+        "date_indexed": "2010-12-02T12:12:45Z"
       }, 
       "id": 12515304
     }

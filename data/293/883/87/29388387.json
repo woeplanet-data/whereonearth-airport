@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388387, 
-        "name": "Somerset Airport", 
         "alias_ENG_V": [
           "Smq"
         ], 
-        "ne_latitude": 40.629, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Somerset Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589275", 
+          "woe:state=2347589", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388387, 
         "ne_longitude": -74.663, 
         "longitude": -74.666, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589275, 
+        "ne_latitude": 40.629, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2361209, 
+        "sw_latitude": 40.624, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.628, 
         "sw_longitude": -74.677, 
-        "fullname": "Somerset Airport, Bedminster, New Jersey, Somerset, United States", 
-        "sw_latitude": 40.624
+        "fullname": "Somerset Airport, Bedminster, New Jersey, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388387
     }

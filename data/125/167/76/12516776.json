@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516776, 
+        "placetype": "airport", 
         "name": "Rodnik Airport", 
-        "ne_latitude": 46.950, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599132", 
+          "woe:state=2346921", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516776, 
         "ne_longitude": 41.719, 
         "longitude": 41.712, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599132, 
+        "ne_latitude": 46.950, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2027423, 
+        "sw_latitude": 46.941, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.945, 
         "sw_longitude": 41.705, 
         "fullname": "Rodnik Airport, Rostovskaya Oblast, Proletarsky, Russia", 
-        "sw_latitude": 46.941
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516776
     }

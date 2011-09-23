@@ -3,28 +3,42 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -93.224, 
-              45.125
-            ], 
-            [
-              -93.224, 
-              45.154
-            ], 
-            [
-              -93.191, 
-              45.154
-            ], 
-            [
-              -93.191, 
-              45.125
-            ], 
-            [
-              -93.224, 
-              45.125
+              [
+                -93.213, 
+                45.129
+              ], 
+              [
+                -93.214, 
+                45.129
+              ], 
+              [
+                -93.214, 
+                45.129
+              ], 
+              [
+                -93.217, 
+                45.133
+              ], 
+              [
+                -93.214, 
+                45.129
+              ], 
+              [
+                -93.212, 
+                45.130
+              ], 
+              [
+                -93.213, 
+                45.129
+              ], 
+              [
+                -93.213, 
+                45.129
+              ]
             ]
           ]
         ]
@@ -32,23 +46,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518633, 
-        "name": "Anoka County-Blaine Airport", 
         "alias_ENG_V": [
           "ANE"
         ], 
-        "ne_latitude": 45.154, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -93.191, 
-        "longitude": -93.220, 
-        "placetype": "Airport", 
+        "name": "Anoka County-Blaine Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588798", 
+          "woe:state=2347582", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518633, 
+        "ne_longitude": -93.212, 
+        "longitude": -93.214, 
+        "parent_woeid": 12588798, 
+        "ne_latitude": 45.133, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2365156, 
-        "latitude": 45.132, 
-        "sw_longitude": -93.224, 
-        "fullname": "Anoka County-Blaine Airport, Blaine, Minnesota, Anoka, United States", 
-        "sw_latitude": 45.125
+        "sw_latitude": 45.129, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 45.130, 
+        "sw_longitude": -93.217, 
+        "fullname": "Anoka County-Blaine Airport, Blaine, Minnesota, United States", 
+        "iata_code": "ANE", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518633
     }

@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514527, 
+        "placetype": "airport", 
         "name": "Zhanbobek Airport", 
-        "ne_latitude": 49.886, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345996", 
+          "woe:country=23424871", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514527, 
         "ne_longitude": 68.871, 
         "longitude": 68.864, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345996, 
+        "ne_latitude": 49.886, 
         "iso": "KZ", 
-        "date_indexed": "2010-12-02T08:54:13Z", 
-        "parent_woeid": 2265071, 
+        "sw_latitude": 49.877, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.882, 
         "sw_longitude": 68.857, 
         "fullname": "Zhanbobek Airport, Aqmola, Kazakhstan", 
-        "sw_latitude": 49.877
+        "date_indexed": "2010-12-02T08:54:13Z"
       }, 
       "id": 12514527
     }

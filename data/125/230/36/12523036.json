@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523036, 
+        "placetype": "airport", 
         "name": "Mutare Grand Reef Airport", 
-        "ne_latitude": -18.972, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=56048472", 
+          "woe:state=2347810", 
+          "woe:country=23425004", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523036, 
         "ne_longitude": 32.455, 
         "longitude": 32.451, 
-        "placetype": "Airport", 
+        "parent_woeid": 56048472, 
+        "ne_latitude": -18.972, 
         "iso": "ZW", 
-        "date_indexed": "2010-12-02T16:52:36Z", 
-        "parent_woeid": 1467084, 
+        "sw_latitude": -18.981, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -18.977, 
         "sw_longitude": 32.446, 
         "fullname": "Mutare Grand Reef Airport, Manicaland, Mutare, Zimbabwe", 
-        "sw_latitude": -18.981
+        "date_indexed": "2010-12-02T16:52:36Z"
       }, 
       "id": 12523036
     }

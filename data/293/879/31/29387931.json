@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29387931, 
+        "placetype": "airport", 
         "name": "Sandstone Municipal Airport", 
-        "ne_latitude": 46.119, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12588854", 
+          "woe:state=2347582", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29387931, 
         "ne_longitude": -92.883, 
         "longitude": -92.884, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588854, 
+        "ne_latitude": 46.119, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2488510, 
+        "sw_latitude": 46.110, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.115, 
         "sw_longitude": -92.887, 
-        "fullname": "Sandstone Municipal Airport, Sandstone, Minnesota, Pine, United States", 
-        "sw_latitude": 46.110
+        "fullname": "Sandstone Municipal Airport, Sandstone, Minnesota, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29387931
     }

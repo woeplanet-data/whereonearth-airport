@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510522, 
-        "name": "Monte Caseros Airport", 
         "alias_ENG_V": [
           "Mte Caseros Airport"
         ], 
-        "ne_latitude": -30.266, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Monte Caseros Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=20070817", 
+          "woe:state=2344680", 
+          "woe:country=23424747", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510522, 
         "ne_longitude": -57.636, 
         "longitude": -57.641, 
-        "placetype": "Airport", 
+        "parent_woeid": 20070817, 
+        "ne_latitude": -30.266, 
         "iso": "AR", 
-        "date_indexed": "2010-12-02T17:41:29Z", 
-        "parent_woeid": 467009, 
+        "sw_latitude": -30.275, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -30.271, 
         "sw_longitude": -57.646, 
-        "fullname": "Monte Caseros Airport, Monte Caseros, Corrientes, Monte Caseros, Argentina", 
-        "sw_latitude": -30.275
+        "fullname": "Monte Caseros Airport, Monte Caseros, Corrientes, Argentina", 
+        "iata_code": "MCS", 
+        "date_indexed": "2010-12-02T17:41:29Z"
       }, 
       "id": 12510522
     }

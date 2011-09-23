@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520038, 
-        "name": "Gulkana Airport", 
         "alias_ENG_V": [
           "GKN"
         ], 
-        "ne_latitude": 62.156, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Gulkana Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587576", 
+          "woe:state=2347560", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520038, 
         "ne_longitude": -145.458, 
         "longitude": -145.468, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587576, 
+        "ne_latitude": 62.156, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2411260, 
+        "sw_latitude": 62.147, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 62.152, 
         "sw_longitude": -145.477, 
-        "fullname": "Gulkana Airport, Glennallen, Alaska, Valdez-Cordova Census Area, United States", 
-        "sw_latitude": 62.147
+        "fullname": "Gulkana Airport, Glennallen, Alaska, United States", 
+        "iata_code": "GKN", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12520038
     }

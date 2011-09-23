@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520967, 
-        "name": "Minot Air Force Base", 
         "alias_ENG_V": [
           "MIB Airport"
         ], 
-        "ne_latitude": 48.440, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Minot Air Force Base", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589524", 
+          "woe:state=2347593", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520967, 
         "ne_longitude": -101.269, 
         "longitude": -101.300, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589524, 
+        "ne_latitude": 48.440, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2486129, 
+        "sw_latitude": 48.398, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.419, 
         "sw_longitude": -101.332, 
-        "fullname": "Minot Air Force Base, Ruthville, North Dakota, Ward, United States", 
-        "sw_latitude": 48.398
+        "fullname": "Minot Air Force Base, Ruthville, North Dakota, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12520967
     }

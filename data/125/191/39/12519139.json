@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519139, 
-        "name": "Charles City Municipal Airport", 
         "alias_ENG_V": [
           "Charles City Airport"
         ], 
-        "ne_latitude": 43.081, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Charles City Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588305", 
+          "woe:state=2347574", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519139, 
         "ne_longitude": -92.604, 
         "longitude": -92.609, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588305, 
+        "ne_latitude": 43.081, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2378278, 
+        "sw_latitude": 43.067, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.068, 
         "sw_longitude": -92.621, 
-        "fullname": "Charles City Municipal Airport, Charles City, Iowa, Floyd, United States", 
-        "sw_latitude": 43.067
+        "fullname": "Charles City Municipal Airport, Charles City, Iowa, United States", 
+        "iata_code": "CCY", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519139
     }

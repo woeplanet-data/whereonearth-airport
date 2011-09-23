@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519392, 
-        "name": "Cut Bank Municipal Airport", 
         "alias_ENG_V": [
           "Cut Bank Airport"
         ], 
-        "ne_latitude": 48.611, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Cut Bank Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589098", 
+          "woe:state=2347585", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519392, 
         "ne_longitude": -112.352, 
         "longitude": -112.363, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589098, 
+        "ne_latitude": 48.611, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:15Z", 
-        "parent_woeid": 2388520, 
+        "sw_latitude": 48.596, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.603, 
         "sw_longitude": -112.374, 
-        "fullname": "Cut Bank Municipal Airport, Cut Bank, Montana, Glacier, United States", 
-        "sw_latitude": 48.596
+        "fullname": "Cut Bank Municipal Airport, Cut Bank, Montana, United States", 
+        "iata_code": "CTB", 
+        "date_indexed": "2010-12-02T18:39:15Z"
       }, 
       "id": 12519392
     }

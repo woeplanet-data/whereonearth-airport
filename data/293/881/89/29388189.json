@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388189, 
-        "name": "Crystal Airport", 
         "alias_ENG_V": [
           "0ok9"
         ], 
-        "ne_latitude": 36.214, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Crystal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589673", 
+          "woe:state=2347595", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388189, 
         "ne_longitude": -96.633, 
         "longitude": -96.641, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589673, 
+        "ne_latitude": 36.214, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2445437, 
+        "sw_latitude": 36.207, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.210, 
         "sw_longitude": -96.641, 
-        "fullname": "Crystal Airport, Maramec, Oklahoma, Pawnee, United States", 
-        "sw_latitude": 36.207
+        "fullname": "Crystal Airport, Maramec, Oklahoma, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388189
     }

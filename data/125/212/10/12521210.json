@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521210, 
+        "placetype": "airport", 
         "name": "Old Hickory Ranch Airport", 
-        "ne_latitude": 32.350, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12588604", 
+          "woe:state=2347577", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521210, 
         "ne_longitude": -93.813, 
         "longitude": -93.818, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588604, 
+        "ne_latitude": 32.350, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2499064, 
+        "sw_latitude": 32.340, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 32.345, 
         "sw_longitude": -93.823, 
-        "fullname": "Old Hickory Ranch Airport, Staples, Louisiana, Caddo Parish, United States", 
-        "sw_latitude": 32.340
+        "fullname": "Old Hickory Ranch Airport, Staples, Louisiana, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521210
     }

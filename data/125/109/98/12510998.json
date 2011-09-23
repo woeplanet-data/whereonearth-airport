@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510998, 
+        "placetype": "airport", 
         "name": "Vitebsk West Airport", 
-        "ne_latitude": 55.177, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2344835", 
+          "woe:country=23424765", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510998, 
         "ne_longitude": 29.996, 
         "longitude": 29.988, 
-        "placetype": "Airport", 
+        "parent_woeid": 2344835, 
+        "ne_latitude": 55.177, 
         "iso": "BY", 
-        "date_indexed": "2010-12-02T16:32:57Z", 
-        "parent_woeid": 829621, 
+        "sw_latitude": 55.168, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 55.173, 
         "sw_longitude": 29.980, 
         "fullname": "Vitebsk West Airport, Vitsyebskaya Voblasts', Belarus", 
-        "sw_latitude": 55.168
+        "date_indexed": "2010-12-02T16:32:57Z"
       }, 
       "id": 12510998
     }

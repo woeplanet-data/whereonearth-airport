@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522825, 
-        "name": "Oro Negro Airport", 
         "alias_ENG_V": [
           "CBS Airport"
         ], 
-        "ne_latitude": 10.389, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Oro Negro Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=26804803", 
+          "woe:county=26804475", 
+          "woe:state=2347699", 
+          "woe:country=23424982", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522825, 
         "ne_longitude": -71.432, 
         "longitude": -71.437, 
-        "placetype": "Airport", 
+        "parent_woeid": 26804803, 
+        "ne_latitude": 10.389, 
         "iso": "VE", 
-        "date_indexed": "2010-12-02T16:11:43Z", 
-        "parent_woeid": 388736, 
+        "sw_latitude": 10.380, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 10.385, 
         "sw_longitude": -71.441, 
-        "fullname": "Oro Negro Airport, La Rosa, Zulia, Cabimas, Venezuela", 
-        "sw_latitude": 10.380
+        "fullname": "Oro Negro Airport, La Rosa, Zulia, Venezuela", 
+        "iata_code": "CBS", 
+        "date_indexed": "2010-12-02T16:11:43Z"
       }, 
       "id": 12522825
     }

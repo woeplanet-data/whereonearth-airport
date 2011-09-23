@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516764, 
+        "placetype": "airport", 
         "name": "Radishchevo Airport", 
-        "ne_latitude": 52.851, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599514", 
+          "woe:state=2346931", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516764, 
         "ne_longitude": 47.840, 
         "longitude": 47.833, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599514, 
+        "ne_latitude": 52.851, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2073209, 
+        "sw_latitude": 52.842, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 52.847, 
         "sw_longitude": 47.825, 
         "fullname": "Radishchevo Airport, Ulryanovskaya Oblast, Radischevsky, Russia", 
-        "sw_latitude": 52.842
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516764
     }

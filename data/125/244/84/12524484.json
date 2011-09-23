@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524484, 
-        "name": "Jurado Airport", 
         "alias_ENG_V": [
           "JUO"
         ], 
-        "ne_latitude": 6.521, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Jurado Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26796720", 
+          "woe:state=2345048", 
+          "woe:country=23424787", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524484, 
         "ne_longitude": -76.595, 
         "longitude": -76.600, 
-        "placetype": "Airport", 
+        "parent_woeid": 26796720, 
+        "ne_latitude": 6.521, 
         "iso": "CO", 
-        "date_indexed": "2010-12-02T17:57:37Z", 
-        "parent_woeid": 369599, 
+        "sw_latitude": 6.512, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 6.517, 
         "sw_longitude": -76.605, 
         "fullname": "Jurado Airport, Antioquia, Vigia del Fuerte, Colombia", 
-        "sw_latitude": 6.512
+        "date_indexed": "2010-12-02T17:57:37Z"
       }, 
       "id": 12524484
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520486, 
-        "name": "Kleberg County Airport", 
         "alias_ENG_V": [
           "Ikg"
         ], 
-        "ne_latitude": 27.559, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Kleberg County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590143", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520486, 
         "ne_longitude": -98.021, 
         "longitude": -98.026, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590143, 
+        "ne_latitude": 27.559, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2432840, 
+        "sw_latitude": 27.541, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 27.542, 
         "sw_longitude": -98.040, 
-        "fullname": "Kleberg County Airport, Kingsville, Texas, Kleberg, United States", 
-        "sw_latitude": 27.541
+        "fullname": "Kleberg County Airport, Kingsville, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520486
     }

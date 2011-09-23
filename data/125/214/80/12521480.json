@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521480, 
-        "name": "Princeton-Caldwell County Airport", 
         "alias_ENG_V": [
           "2m0"
         ], 
-        "ne_latitude": 37.119, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Princeton-Caldwell County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588492", 
+          "woe:state=2347576", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521480, 
         "ne_longitude": -87.853, 
         "longitude": -87.856, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588492, 
+        "ne_latitude": 37.119, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2476719, 
+        "sw_latitude": 37.110, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 37.118, 
         "sw_longitude": -87.865, 
-        "fullname": "Princeton-Caldwell County Airport, Princeton, Kentucky, Caldwell, United States", 
-        "sw_latitude": 37.110
+        "fullname": "Princeton-Caldwell County Airport, Princeton, Kentucky, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521480
     }

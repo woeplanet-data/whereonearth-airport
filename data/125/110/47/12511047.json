@@ -32,29 +32,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511047, 
-        "name": "Aeroporto Barretos", 
-        "alias_ENG_P": [
-          "Barretos Airport"
-        ], 
-        "ne_latitude": -20.580, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "BAT"
         ], 
+        "name": "Aeroporto Barretos", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Barretos Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12581868", 
+          "woe:state=2344868", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511047, 
         "ne_longitude": -48.590, 
         "longitude": -48.595, 
-        "placetype": "Airport", 
+        "parent_woeid": 12581868, 
+        "ne_latitude": -20.580, 
         "alias_POR_V": [
           "Aeroporto BAT"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 455934, 
+        "sw_latitude": -20.590, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -20.585, 
         "sw_longitude": -48.600, 
-        "fullname": "Aeroporto Barretos, Barretos, Sao Paulo, Barretos, Brazil", 
-        "sw_latitude": -20.590
+        "fullname": "Aeroporto Barretos, Barretos, Sao Paulo, Brazil", 
+        "iata_code": "BAT", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511047
     }

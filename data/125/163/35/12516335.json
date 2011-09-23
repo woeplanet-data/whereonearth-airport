@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516335, 
+        "placetype": "airport", 
         "name": "Lazarev Airport", 
-        "ne_latitude": 52.210, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597750", 
+          "woe:state=2346883", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516335, 
         "ne_longitude": 141.438, 
         "longitude": 141.430, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597750, 
+        "ne_latitude": 52.210, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2121870, 
+        "sw_latitude": 52.201, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 52.206, 
         "sw_longitude": 141.423, 
-        "fullname": "Lazarev Airport, Lazarev, Khabarovskiy Kray, Nikolayevsky, Russia", 
-        "sw_latitude": 52.201
+        "fullname": "Lazarev Airport, Lazarev, Khabarovskiy Kray, Russia", 
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516335
     }

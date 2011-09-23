@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521645, 
-        "name": "Rome State Airport", 
         "alias_ENG_V": [
           "REO"
         ], 
-        "ne_latitude": 42.589, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Rome State Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589714", 
+          "woe:state=2347596", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521645, 
         "ne_longitude": -117.873, 
         "longitude": -117.874, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589714, 
+        "ne_latitude": 42.589, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2359828, 
+        "sw_latitude": 42.569, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.586, 
         "sw_longitude": -117.897, 
-        "fullname": "Rome State Airport, Basque, Oregon, Malheur, United States", 
-        "sw_latitude": 42.569
+        "fullname": "Rome State Airport, Basque, Oregon, United States", 
+        "iata_code": "REO", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521645
     }

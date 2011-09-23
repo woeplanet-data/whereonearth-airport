@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522906, 
+        "placetype": "airport", 
         "name": "Duc Phong Airport", 
-        "ne_latitude": 11.788, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=20070086", 
+          "woe:country=23424984", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522906, 
         "ne_longitude": 107.232, 
         "longitude": 107.228, 
-        "placetype": "Airport", 
+        "parent_woeid": 20070086, 
+        "ne_latitude": 11.788, 
         "iso": "VN", 
-        "date_indexed": "2010-12-02T08:52:49Z", 
-        "parent_woeid": 1234891, 
+        "sw_latitude": 11.779, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 11.784, 
         "sw_longitude": 107.223, 
         "fullname": "Duc Phong Airport, Bin Phuoc, Vietnam", 
-        "sw_latitude": 11.779
+        "date_indexed": "2010-12-02T08:52:49Z"
       }, 
       "id": 12522906
     }

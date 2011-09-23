@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524250, 
-        "name": "Paulatuk Airport", 
         "alias_ENG_V": [
           "YPC Airport"
         ], 
-        "ne_latitude": 69.354, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Paulatuk Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375229", 
+          "woe:state=2344920", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524250, 
         "ne_longitude": -124.072, 
         "longitude": -124.085, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375229, 
+        "ne_latitude": 69.354, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 29374002, 
+        "sw_latitude": 69.345, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 69.350, 
         "sw_longitude": -124.098, 
-        "fullname": "Paulatuk Airport, Paulatuk, Northwest Territories, Northwest Territories, Canada", 
-        "sw_latitude": 69.345
+        "fullname": "Paulatuk Airport, Paulatuk, Northwest Territories, Canada", 
+        "iata_code": "YPC", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12524250
     }

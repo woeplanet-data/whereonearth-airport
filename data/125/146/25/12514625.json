@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514625, 
+        "placetype": "airport", 
         "name": "Ruzonberok Airport", 
-        "ne_latitude": 49.085, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=29399909", 
+          "woe:county=29399311", 
+          "woe:state=20070494", 
+          "woe:country=23424877", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514625, 
         "ne_longitude": 19.365, 
         "longitude": 19.358, 
-        "placetype": "Airport", 
+        "parent_woeid": 29399909, 
+        "ne_latitude": 49.085, 
         "iso": "SK", 
-        "date_indexed": "2010-12-02T08:50:42Z", 
-        "parent_woeid": 820682, 
+        "sw_latitude": 49.076, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.081, 
         "sw_longitude": 19.351, 
         "fullname": "Ruzonberok Airport, Zilinsky, Ruzomberok, Slovakia", 
-        "sw_latitude": 49.076
+        "date_indexed": "2010-12-02T08:50:42Z"
       }, 
       "id": 12514625
     }

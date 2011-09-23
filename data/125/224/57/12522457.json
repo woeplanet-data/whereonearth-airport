@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522457, 
-        "name": "Williams County Airport", 
         "alias_ENG_V": [
           "0g6"
         ], 
-        "ne_latitude": 41.475, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Williams County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589612", 
+          "woe:state=2347594", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522457, 
         "ne_longitude": -84.499, 
         "longitude": -84.504, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589612, 
+        "ne_latitude": 41.475, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2370856, 
+        "sw_latitude": 41.467, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.471, 
         "sw_longitude": -84.509, 
-        "fullname": "Williams County Airport, Bryan, Ohio, Williams, United States", 
-        "sw_latitude": 41.467
+        "fullname": "Williams County Airport, Bryan, Ohio, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12522457
     }

@@ -3,28 +3,118 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -122.913, 
-              46.960
-            ], 
-            [
-              -122.913, 
-              46.983
-            ], 
-            [
-              -122.883, 
-              46.983
-            ], 
-            [
-              -122.883, 
-              46.960
-            ], 
-            [
-              -122.913, 
-              46.960
+              [
+                -122.904, 
+                46.971
+              ], 
+              [
+                -122.910, 
+                46.976
+              ], 
+              [
+                -122.912, 
+                46.973
+              ], 
+              [
+                -122.918, 
+                46.973
+              ], 
+              [
+                -122.917, 
+                46.977
+              ], 
+              [
+                -122.919, 
+                46.982
+              ], 
+              [
+                -122.918, 
+                46.982
+              ], 
+              [
+                -122.913, 
+                46.978
+              ], 
+              [
+                -122.908, 
+                46.984
+              ], 
+              [
+                -122.905, 
+                46.983
+              ], 
+              [
+                -122.902, 
+                46.976
+              ], 
+              [
+                -122.910, 
+                46.976
+              ], 
+              [
+                -122.912, 
+                46.973
+              ], 
+              [
+                -122.918, 
+                46.973
+              ], 
+              [
+                -122.917, 
+                46.977
+              ], 
+              [
+                -122.919, 
+                46.982
+              ], 
+              [
+                -122.918, 
+                46.982
+              ], 
+              [
+                -122.913, 
+                46.978
+              ], 
+              [
+                -122.908, 
+                46.984
+              ], 
+              [
+                -122.905, 
+                46.983
+              ], 
+              [
+                -122.900, 
+                46.978
+              ], 
+              [
+                -122.896, 
+                46.978
+              ], 
+              [
+                -122.896, 
+                46.976
+              ], 
+              [
+                -122.894, 
+                46.973
+              ], 
+              [
+                -122.898, 
+                46.971
+              ], 
+              [
+                -122.900, 
+                46.967
+              ], 
+              [
+                -122.904, 
+                46.971
+              ]
             ]
           ]
         ]
@@ -32,23 +122,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521222, 
-        "name": "Olympia Airport", 
         "alias_ENG_V": [
           "OLM Airport"
         ], 
-        "ne_latitude": 46.983, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -122.883, 
-        "longitude": -122.910, 
-        "placetype": "Airport", 
+        "name": "Olympia Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590473", 
+          "woe:state=2347606", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521222, 
+        "ne_longitude": -122.894, 
+        "longitude": -122.908, 
+        "parent_woeid": 12590473, 
+        "ne_latitude": 46.984, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2508593, 
-        "latitude": 46.976, 
-        "sw_longitude": -122.913, 
-        "fullname": "Olympia Airport, Tumwater, Washington, Thurston, United States", 
-        "sw_latitude": 46.960
+        "sw_latitude": 46.967, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 46.977, 
+        "sw_longitude": -122.919, 
+        "fullname": "Olympia Airport, Tumwater, Washington, United States", 
+        "iata_code": "OLM", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521222
     }

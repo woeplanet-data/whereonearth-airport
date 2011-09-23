@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510893, 
-        "name": "Rajshahi Airport", 
         "alias_ENG_V": [
           "RJH"
         ], 
-        "ne_latitude": 24.440, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Rajshahi Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=23706421", 
+          "woe:state=2344793", 
+          "woe:country=23424759", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510893, 
         "ne_longitude": 88.625, 
         "longitude": 88.620, 
-        "placetype": "Airport", 
+        "parent_woeid": 23706421, 
+        "ne_latitude": 24.440, 
         "iso": "BD", 
-        "date_indexed": "2010-12-02T12:16:33Z", 
-        "parent_woeid": 1910308, 
+        "sw_latitude": 24.430, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 24.435, 
         "sw_longitude": 88.615, 
         "fullname": "Rajshahi Airport, Rajshahi, Rajshahi, Bangladesh", 
-        "sw_latitude": 24.430
+        "iata_code": "RJH", 
+        "date_indexed": "2010-12-02T12:16:33Z"
       }, 
       "id": 12510893
     }

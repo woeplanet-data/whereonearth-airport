@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388292, 
-        "name": "Alexandria Airport", 
         "alias_ENG_V": [
           "I99"
         ], 
-        "ne_latitude": 40.234, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Alexandria Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588227", 
+          "woe:state=2347573", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388292, 
         "ne_longitude": -85.633, 
         "longitude": -85.641, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588227, 
+        "ne_latitude": 40.234, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2353022, 
+        "sw_latitude": 40.230, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.234, 
         "sw_longitude": -85.642, 
-        "fullname": "Alexandria Airport, Alexandria, Indiana, Madison, United States", 
-        "sw_latitude": 40.230
+        "fullname": "Alexandria Airport, Alexandria, Indiana, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388292
     }

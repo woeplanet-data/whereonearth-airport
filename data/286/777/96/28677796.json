@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 28677796, 
+        "placetype": "airport", 
         "name": "Cunderdin Aerodrome", 
-        "ne_latitude": -31.612, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55864082", 
+          "woe:state=2344706", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 28677796, 
         "ne_longitude": 117.223, 
         "longitude": 117.218, 
-        "placetype": "Airport", 
+        "parent_woeid": 55864082, 
+        "ne_latitude": -31.612, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1101493, 
+        "sw_latitude": -31.621, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -31.617, 
         "sw_longitude": 117.212, 
-        "fullname": "Cunderdin Aerodrome, Cunderdin, Western Australia, Cunderdin, Australia", 
-        "sw_latitude": -31.621
+        "fullname": "Cunderdin Aerodrome, Cunderdin, Western Australia, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 28677796
     }

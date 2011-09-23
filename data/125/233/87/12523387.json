@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523387, 
-        "name": "Naval Air Station Atlanta", 
         "alias_ENG_V": [
           "NCQ"
         ], 
-        "ne_latitude": 33.918, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Naval Air Station Atlanta", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587902", 
+          "woe:state=2347569", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523387, 
         "ne_longitude": -84.512, 
         "longitude": -84.517, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587902, 
+        "ne_latitude": 33.918, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2445686, 
+        "sw_latitude": 33.909, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 33.913, 
         "sw_longitude": -84.523, 
-        "fullname": "Naval Air Station Atlanta, Marietta, Georgia, Cobb, United States", 
-        "sw_latitude": 33.909
+        "fullname": "Naval Air Station Atlanta, Marietta, Georgia, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12523387
     }

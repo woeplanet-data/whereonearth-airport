@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520691, 
-        "name": "Lompoc Airport", 
         "alias_ENG_V": [
           "LPC"
         ], 
-        "ne_latitude": 34.669, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Lompoc Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587711", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520691, 
         "ne_longitude": -120.458, 
         "longitude": -120.458, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587711, 
+        "ne_latitude": 34.669, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2441271, 
+        "sw_latitude": 34.664, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 34.665, 
         "sw_longitude": -120.475, 
-        "fullname": "Lompoc Airport, Lompoc, California, Santa Barbara, United States", 
-        "sw_latitude": 34.664
+        "fullname": "Lompoc Airport, Lompoc, California, United States", 
+        "iata_code": "LPC", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520691
     }

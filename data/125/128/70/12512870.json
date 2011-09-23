@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512870, 
+        "placetype": "airport", 
         "name": "Caritat Airport", 
-        "ne_latitude": 44.145, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=22756734", 
+          "woe:county=12597203", 
+          "woe:state=7153328", 
+          "woe:country=23424819", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512870, 
         "ne_longitude": 4.874, 
         "longitude": 4.868, 
-        "placetype": "Airport", 
+        "parent_woeid": 22756734, 
+        "ne_latitude": 44.145, 
         "iso": "FR", 
-        "date_indexed": "2010-12-02T12:04:01Z", 
-        "parent_woeid": 615029, 
+        "sw_latitude": 44.136, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.141, 
         "sw_longitude": 4.861, 
-        "fullname": "Caritat Airport, Orange, Provence-Alpes-Cote d'Azur, Vaucluse, France", 
-        "sw_latitude": 44.136
+        "fullname": "Caritat Airport, Orange, Provence-Alpes-Cote d'Azur, France", 
+        "date_indexed": "2010-12-02T12:04:01Z"
       }, 
       "id": 12512870
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517000, 
+        "placetype": "airport", 
         "name": "Ternovskaya Airport", 
-        "ne_latitude": 47.754, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599146", 
+          "woe:state=2346921", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517000, 
         "ne_longitude": 42.054, 
         "longitude": 42.048, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599146, 
+        "ne_latitude": 47.754, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2062946, 
+        "sw_latitude": 47.745, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.750, 
         "sw_longitude": 42.041, 
         "fullname": "Ternovskaya Airport, Rostovskaya Oblast, Tsymlyansky, Russia", 
-        "sw_latitude": 47.745
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12517000
     }

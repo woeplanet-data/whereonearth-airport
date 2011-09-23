@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514719, 
+        "placetype": "airport", 
         "name": "Kamenka Airport", 
-        "ne_latitude": 48.043, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=55948201", 
+          "woe:country=23424885", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514719, 
         "ne_longitude": 28.686, 
         "longitude": 28.679, 
-        "placetype": "Airport", 
+        "parent_woeid": 55948201, 
+        "ne_latitude": 48.043, 
         "iso": "MD", 
-        "date_indexed": "2010-12-02T17:58:04Z", 
-        "parent_woeid": 480222, 
+        "sw_latitude": 48.034, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.039, 
         "sw_longitude": 28.672, 
         "fullname": "Kamenka Airport, Kamenka-Moldavskaya, Stinga Nistrul, Moldova", 
-        "sw_latitude": 48.034
+        "date_indexed": "2010-12-02T17:58:04Z"
       }, 
       "id": 12514719
     }

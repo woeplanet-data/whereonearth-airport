@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511355, 
+        "placetype": "airport", 
         "name": "Aeroporto Uba", 
         "alias_ENG_P": [
           "Uba Airport"
         ], 
-        "ne_latitude": -21.117, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12580104", 
+          "woe:state=2344856", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511355, 
         "ne_longitude": -42.877, 
         "longitude": -42.882, 
-        "placetype": "Airport", 
+        "parent_woeid": 12580104, 
+        "ne_latitude": -21.117, 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:28Z", 
-        "parent_woeid": 458216, 
+        "sw_latitude": -21.126, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -21.122, 
         "sw_longitude": -42.887, 
-        "fullname": "Aeroporto Uba, Ub\u00e1, Minas Gerais, Ub\u00e1, Brazil", 
-        "sw_latitude": -21.126
+        "fullname": "Aeroporto Uba, Ub\u00e1, Minas Gerais, Brazil", 
+        "date_indexed": "2010-12-02T18:01:28Z"
       }, 
       "id": 12511355
     }

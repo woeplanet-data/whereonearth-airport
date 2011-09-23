@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521069, 
-        "name": "Muscatine Municipal Airport", 
         "alias_ENG_V": [
           "MUT"
         ], 
-        "ne_latitude": 41.371, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Muscatine Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588341", 
+          "woe:state=2347574", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521069, 
         "ne_longitude": -91.136, 
         "longitude": -91.145, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588341, 
+        "ne_latitude": 41.371, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2456569, 
+        "sw_latitude": 41.362, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.362, 
         "sw_longitude": -91.152, 
-        "fullname": "Muscatine Municipal Airport, Muscatine, Iowa, Muscatine, United States", 
-        "sw_latitude": 41.362
+        "fullname": "Muscatine Municipal Airport, Muscatine, Iowa, United States", 
+        "iata_code": "MUT", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12521069
     }

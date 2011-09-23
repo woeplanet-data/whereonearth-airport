@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513808, 
-        "name": "Bresso Airport", 
         "alias_ENG_V": [
           "IMB"
         ], 
-        "ne_latitude": 45.545, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Bresso Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=12677101", 
+          "woe:county=12591813", 
+          "woe:state=7153338", 
+          "woe:country=23424853", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513808, 
         "ne_longitude": 9.214, 
         "longitude": 9.207, 
-        "placetype": "Airport", 
+        "parent_woeid": 12677101, 
+        "ne_latitude": 45.545, 
         "iso": "IT", 
-        "date_indexed": "2010-12-02T16:30:51Z", 
-        "parent_woeid": 711416, 
+        "sw_latitude": 45.536, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.541, 
         "sw_longitude": 9.201, 
-        "fullname": "Bresso Airport, Bresso, Lombardy, Milan, Italy", 
-        "sw_latitude": 45.536, 
+        "fullname": "Bresso Airport, Bresso, Lombardy, Italy", 
+        "date_indexed": "2010-12-02T16:30:51Z", 
         "alias_ITA_V": [
           "IMB Aeroporto"
         ]

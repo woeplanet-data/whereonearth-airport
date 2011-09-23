@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521489, 
-        "name": "Providence-Webster County Airport", 
         "alias_ENG_V": [
           "8m9"
         ], 
-        "ne_latitude": 37.431, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Providence-Webster County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588592", 
+          "woe:state=2347576", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521489, 
         "ne_longitude": -87.731, 
         "longitude": -87.735, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588592, 
+        "ne_latitude": 37.431, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2477056, 
+        "sw_latitude": 37.416, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 37.423, 
         "sw_longitude": -87.739, 
-        "fullname": "Providence-Webster County Airport, Providence, Kentucky, Webster, United States", 
-        "sw_latitude": 37.416
+        "fullname": "Providence-Webster County Airport, Providence, Kentucky, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521489
     }

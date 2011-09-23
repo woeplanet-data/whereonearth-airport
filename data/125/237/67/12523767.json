@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523767, 
-        "name": "Yacuiba Airport", 
         "alias_ENG_V": [
           "BYC"
         ], 
-        "ne_latitude": -21.962, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Yacuiba Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=55968104", 
+          "woe:county=55967841", 
+          "woe:state=2344809", 
+          "woe:country=23424762", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523767, 
         "ne_longitude": -63.695, 
         "longitude": -63.700, 
-        "placetype": "Airport", 
+        "parent_woeid": 55968104, 
+        "ne_latitude": -21.962, 
         "iso": "BO", 
-        "date_indexed": "2010-12-02T17:57:50Z", 
-        "parent_woeid": 334159, 
+        "sw_latitude": -21.971, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -21.967, 
         "sw_longitude": -63.705, 
-        "fullname": "Yacuiba Airport, Campo Pajoso, Tarija, Gran Chaco, Bolivia", 
-        "sw_latitude": -21.971
+        "fullname": "Yacuiba Airport, Campo Pajoso, Tarija, Bolivia", 
+        "iata_code": "BYC", 
+        "date_indexed": "2010-12-02T17:57:50Z"
       }, 
       "id": 12523767
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514774, 
-        "name": "Gao Airport", 
         "alias_ENG_V": [
           "GAQ"
         ], 
-        "ne_latitude": 16.251, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Gao Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=56000001", 
+          "woe:state=2346181", 
+          "woe:country=23424891", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514774, 
         "ne_longitude": -0.002, 
         "longitude": -0.007, 
-        "placetype": "Airport", 
+        "parent_woeid": 56000001, 
+        "ne_latitude": 16.251, 
         "iso": "ML", 
-        "date_indexed": "2010-12-02T08:58:41Z", 
-        "parent_woeid": 1372006, 
+        "sw_latitude": 16.242, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 16.247, 
         "sw_longitude": -0.012, 
-        "fullname": "Gao Airport, Gao, Gao, Gao, Mali", 
-        "sw_latitude": 16.242
+        "fullname": "Gao Airport, Gao, Gao, Mali", 
+        "iata_code": "GAQ", 
+        "date_indexed": "2010-12-02T08:58:41Z"
       }, 
       "id": 12514774
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516505, 
+        "placetype": "airport", 
         "name": "Nikolsk South Airport", 
-        "ne_latitude": 59.498, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599602", 
+          "woe:state=2346934", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516505, 
         "ne_longitude": 45.509, 
         "longitude": 45.500, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599602, 
+        "ne_latitude": 59.498, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2027599, 
+        "sw_latitude": 59.489, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 59.493, 
         "sw_longitude": 45.491, 
         "fullname": "Nikolsk South Airport, Vologodskaya Oblast, Nikolsky, Russia", 
-        "sw_latitude": 59.489
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516505
     }

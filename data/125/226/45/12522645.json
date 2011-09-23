@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522645, 
+        "placetype": "airport", 
         "name": "Kasan Southwest Airport", 
-        "ne_latitude": 39.026, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2347664", 
+          "woe:country=23424980", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522645, 
         "ne_longitude": 65.536, 
         "longitude": 65.530, 
-        "placetype": "Airport", 
+        "parent_woeid": 2347664, 
+        "ne_latitude": 39.026, 
         "iso": "UZ", 
-        "date_indexed": "2010-12-02T18:18:54Z", 
-        "parent_woeid": 2272582, 
+        "sw_latitude": 39.017, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 39.022, 
         "sw_longitude": 65.524, 
         "fullname": "Kasan Southwest Airport, Kasan, Qashqadaryo, Uzbekistan", 
-        "sw_latitude": 39.017
+        "date_indexed": "2010-12-02T18:18:54Z"
       }, 
       "id": 12522645
     }

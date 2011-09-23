@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510715, 
+        "placetype": "airport", 
         "name": "Learmonth Airport", 
-        "ne_latitude": -22.228, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55864376", 
+          "woe:state=2344706", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510715, 
         "ne_longitude": 114.097, 
         "longitude": 114.092, 
-        "placetype": "Airport", 
+        "parent_woeid": 55864376, 
+        "ne_latitude": -22.228, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1103394, 
+        "sw_latitude": -22.238, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -22.233, 
         "sw_longitude": 114.087, 
-        "fullname": "Learmonth Airport, Learmonth, Western Australia, Exmouth, Australia", 
-        "sw_latitude": -22.238
+        "fullname": "Learmonth Airport, Learmonth, Western Australia, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 12510715
     }

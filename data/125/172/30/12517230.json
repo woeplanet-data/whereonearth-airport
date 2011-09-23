@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517230, 
+        "placetype": "airport", 
         "name": "Yamsk Airport", 
-        "ne_latitude": 59.586, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598700", 
+          "woe:state=20070512", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517230, 
         "ne_longitude": 154.166, 
         "longitude": 154.157, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598700, 
+        "ne_latitude": 59.586, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2111149, 
+        "sw_latitude": 59.577, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 59.582, 
         "sw_longitude": 154.148, 
         "fullname": "Yamsk Airport, Magadanskaya Oblast, Olsky, Russia", 
-        "sw_latitude": 59.577
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12517230
     }

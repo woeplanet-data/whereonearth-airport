@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 22656534, 
+        "placetype": "airport", 
         "name": "Cumbernauld Airport", 
-        "ne_latitude": 55.979, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12696204", 
+          "woe:county=12602207", 
+          "woe:state=12578048", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 22656534, 
         "ne_longitude": -3.963, 
         "longitude": -3.971, 
-        "placetype": "Airport", 
+        "parent_woeid": 12696204, 
+        "ne_latitude": 55.979, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:21:01Z", 
-        "parent_woeid": 39160, 
+        "sw_latitude": 55.970, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 55.974, 
         "sw_longitude": -3.980, 
-        "fullname": "Cumbernauld Airport, Wardpark North, Scotland, Strathclyde, United Kingdom", 
-        "sw_latitude": 55.970
+        "fullname": "Cumbernauld Airport, Wardpark North, Scotland, United Kingdom", 
+        "date_indexed": "2010-12-02T12:21:01Z"
       }, 
       "id": 22656534
     }

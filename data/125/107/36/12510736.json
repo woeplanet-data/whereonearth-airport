@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510736, 
-        "name": "Mildura Airport", 
         "alias_ENG_V": [
           "MQL"
         ], 
-        "ne_latitude": -34.226, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Mildura Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55863984", 
+          "woe:state=2344705", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510736, 
         "ne_longitude": 142.089, 
         "longitude": 142.085, 
-        "placetype": "Airport", 
+        "parent_woeid": 55863984, 
+        "ne_latitude": -34.226, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 7226226, 
+        "sw_latitude": -34.235, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -34.232, 
         "sw_longitude": 142.078, 
-        "fullname": "Mildura Airport, Mildura West, Victoria, Mildura, Australia", 
-        "sw_latitude": -34.235
+        "fullname": "Mildura Airport, Mildura West, Victoria, Australia", 
+        "iata_code": "MQL", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 12510736
     }

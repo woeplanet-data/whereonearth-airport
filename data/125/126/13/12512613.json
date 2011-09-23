@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512613, 
-        "name": "Cabo Rojo Airport", 
         "alias_ENG_V": [
           "CBJ"
         ], 
-        "ne_latitude": 17.933, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Cabo Rojo Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2345185", 
+          "woe:country=23424800", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512613, 
         "ne_longitude": -71.640, 
         "longitude": -71.645, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345185, 
+        "ne_latitude": 17.933, 
         "iso": "DO", 
-        "date_indexed": "2010-12-02T16:32:46Z", 
-        "parent_woeid": 75687, 
+        "sw_latitude": 17.924, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 17.928, 
         "sw_longitude": -71.650, 
         "fullname": "Cabo Rojo Airport, Pedernales, Pedernales, Dominican Republic", 
-        "sw_latitude": 17.924
+        "iata_code": "CBJ", 
+        "date_indexed": "2010-12-02T16:32:46Z"
       }, 
       "id": 12512613
     }

@@ -3,28 +3,66 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -97.451, 
-              37.630
-            ], 
-            [
-              -97.451, 
-              37.666
-            ], 
-            [
-              -97.407, 
-              37.666
-            ], 
-            [
-              -97.407, 
-              37.630
-            ], 
-            [
-              -97.451, 
-              37.630
+              [
+                -97.430, 
+                37.654
+              ], 
+              [
+                -97.428, 
+                37.654
+              ], 
+              [
+                -97.426, 
+                37.658
+              ], 
+              [
+                -97.424, 
+                37.659
+              ], 
+              [
+                -97.424, 
+                37.659
+              ], 
+              [
+                -97.426, 
+                37.655
+              ], 
+              [
+                -97.425, 
+                37.653
+              ], 
+              [
+                -97.428, 
+                37.651
+              ], 
+              [
+                -97.429, 
+                37.651
+              ], 
+              [
+                -97.431, 
+                37.651
+              ], 
+              [
+                -97.431, 
+                37.652
+              ], 
+              [
+                -97.431, 
+                37.654
+              ], 
+              [
+                -97.432, 
+                37.660
+              ], 
+              [
+                -97.430, 
+                37.654
+              ]
             ]
           ]
         ]
@@ -32,23 +70,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522432, 
-        "name": "Wichita Mid-Continent Airport", 
         "alias_ENG_V": [
           "ICT"
         ], 
-        "ne_latitude": 37.666, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -97.407, 
-        "longitude": -97.430, 
-        "placetype": "Airport", 
-        "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
+        "name": "Wichita Mid-Continent Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:suburb=55806512", 
+          "woe:county=12588457", 
+          "woe:state=2347575", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522432, 
+        "ne_longitude": -97.424, 
+        "longitude": -97.428, 
         "parent_woeid": 55806512, 
-        "latitude": 37.653, 
-        "sw_longitude": -97.451, 
-        "fullname": "Wichita Mid-Continent Airport, Wichita, Kansas, Sedgwick, United States", 
-        "sw_latitude": 37.630
+        "ne_latitude": 37.660, 
+        "iso": "US", 
+        "sw_latitude": 37.651, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 37.654, 
+        "sw_longitude": -97.432, 
+        "fullname": "Wichita Mid-Continent Airport, Wichita, Kansas, United States", 
+        "iata_code": "ICT", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522432
     }

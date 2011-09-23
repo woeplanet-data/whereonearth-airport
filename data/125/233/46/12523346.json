@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523346, 
-        "name": "Billy Bishop Regional Airport", 
         "alias_ENG_V": [
           "Billy Bishop"
         ], 
-        "ne_latitude": 44.592, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Billy Bishop Regional Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375221", 
+          "woe:state=2344922", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523346, 
         "ne_longitude": -80.827, 
         "longitude": -80.835, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375221, 
+        "ne_latitude": 44.592, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:24:00Z", 
-        "parent_woeid": 23397011, 
+        "sw_latitude": 44.583, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.585, 
         "sw_longitude": -80.843, 
-        "fullname": "Billy Bishop Regional Airport, Annan, Ontario, Grey, Canada", 
-        "sw_latitude": 44.583
+        "fullname": "Billy Bishop Regional Airport, Annan, Ontario, Canada", 
+        "iata_code": "YOS", 
+        "date_indexed": "2010-12-02T10:24:00Z"
       }, 
       "id": 12523346
     }

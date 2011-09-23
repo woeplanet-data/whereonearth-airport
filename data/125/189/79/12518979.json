@@ -3,28 +3,118 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -73.171, 
-              44.458
-            ], 
-            [
-              -73.171, 
-              44.484
-            ], 
-            [
-              -73.137, 
-              44.484
-            ], 
-            [
-              -73.137, 
-              44.458
-            ], 
-            [
-              -73.171, 
-              44.458
+              [
+                -73.157, 
+                44.460
+              ], 
+              [
+                -73.160, 
+                44.464
+              ], 
+              [
+                -73.164, 
+                44.462
+              ], 
+              [
+                -73.165, 
+                44.466
+              ], 
+              [
+                -73.169, 
+                44.469
+              ], 
+              [
+                -73.167, 
+                44.470
+              ], 
+              [
+                -73.166, 
+                44.476
+              ], 
+              [
+                -73.165, 
+                44.470
+              ], 
+              [
+                -73.164, 
+                44.466
+              ], 
+              [
+                -73.160, 
+                44.470
+              ], 
+              [
+                -73.159, 
+                44.473
+              ], 
+              [
+                -73.159, 
+                44.474
+              ], 
+              [
+                -73.162, 
+                44.479
+              ], 
+              [
+                -73.158, 
+                44.476
+              ], 
+              [
+                -73.156, 
+                44.476
+              ], 
+              [
+                -73.155, 
+                44.474
+              ], 
+              [
+                -73.150, 
+                44.471
+              ], 
+              [
+                -73.149, 
+                44.470
+              ], 
+              [
+                -73.147, 
+                44.465
+              ], 
+              [
+                -73.150, 
+                44.470
+              ], 
+              [
+                -73.153, 
+                44.465
+              ], 
+              [
+                -73.147, 
+                44.465
+              ], 
+              [
+                -73.147, 
+                44.459
+              ], 
+              [
+                -73.149, 
+                44.461
+              ], 
+              [
+                -73.151, 
+                44.461
+              ], 
+              [
+                -73.156, 
+                44.460
+              ], 
+              [
+                -73.157, 
+                44.460
+              ]
             ]
           ]
         ]
@@ -32,23 +122,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518979, 
-        "name": "Burlington International Airport", 
         "alias_ENG_V": [
           "Burlington Airport"
         ], 
-        "ne_latitude": 44.484, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -73.137, 
-        "longitude": -73.155, 
-        "placetype": "Airport", 
+        "name": "Burlington International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590293", 
+          "woe:state=2347604", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518979, 
+        "ne_longitude": -73.147, 
+        "longitude": -73.157, 
+        "parent_woeid": 12590293, 
+        "ne_latitude": 44.479, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2496048, 
-        "latitude": 44.469, 
-        "sw_longitude": -73.171, 
-        "fullname": "Burlington International Airport, South Burlington, Vermont, Chittenden, United States", 
-        "sw_latitude": 44.458
+        "sw_latitude": 44.459, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 44.467, 
+        "sw_longitude": -73.169, 
+        "fullname": "Burlington International Airport, South Burlington, Vermont, United States", 
+        "iata_code": "BTV", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518979
     }

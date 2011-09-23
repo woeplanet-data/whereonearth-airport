@@ -3,28 +3,38 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              82.590, 
-              54.998
-            ], 
-            [
-              82.590, 
-              55.055
-            ], 
-            [
-              82.708, 
-              55.055
-            ], 
-            [
-              82.708, 
-              54.998
-            ], 
-            [
-              82.590, 
-              54.998
+              [
+                82.666, 
+                55.014
+              ], 
+              [
+                82.667, 
+                55.012
+              ], 
+              [
+                82.667, 
+                55.010
+              ], 
+              [
+                82.665, 
+                55.011
+              ], 
+              [
+                82.662, 
+                55.010
+              ], 
+              [
+                82.665, 
+                55.013
+              ], 
+              [
+                82.666, 
+                55.014
+              ]
             ]
           ]
         ]
@@ -32,26 +42,33 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517016, 
-        "alias_UNK_V": [
-          "Tolmachevo Aeroport"
-        ], 
-        "name": "Tolmachevo Airport", 
         "alias_ENG_V": [
           "OVB"
         ], 
-        "ne_latitude": 55.055, 
-        "ne_longitude": 82.708, 
-        "longitude": 82.668, 
-        "parent_woeid": 2058453, 
-        "placetype": "Airport", 
-        "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
+        "name": "Tolmachevo Airport", 
+        "parent_woeid": 12598866, 
+        "woeid": 12517016, 
         "provider": "geoplanet 7.6.0", 
-        "latitude": 55.009, 
-        "sw_longitude": 82.590, 
-        "fullname": "Tolmachevo Airport, Ob', Novosibirskaya Oblast, Ob, Russia", 
-        "sw_latitude": 54.998
+        "alias_UNK_V": [
+          "Tolmachevo Aeroport"
+        ], 
+        "longitude": 82.665, 
+        "ne_longitude": 82.667, 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12598866", 
+          "woe:state=2346914", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "iso": "RU", 
+        "sw_latitude": 55.010, 
+        "ne_latitude": 55.014, 
+        "latitude": 55.012, 
+        "sw_longitude": 82.662, 
+        "fullname": "Tolmachevo Airport, Ob', Novosibirskaya Oblast, Russia", 
+        "iata_code": "OVB", 
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12517016
     }

@@ -3,28 +3,42 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -82.167, 
-              28.218
-            ], 
-            [
-              -82.167, 
-              28.237
-            ], 
-            [
-              -82.151, 
-              28.237
-            ], 
-            [
-              -82.151, 
-              28.218
-            ], 
-            [
-              -82.167, 
-              28.218
+              [
+                -82.163, 
+                28.230
+              ], 
+              [
+                -82.164, 
+                28.230
+              ], 
+              [
+                -82.167, 
+                28.230
+              ], 
+              [
+                -82.167, 
+                28.231
+              ], 
+              [
+                -82.164, 
+                28.230
+              ], 
+              [
+                -82.163, 
+                28.230
+              ], 
+              [
+                -82.159, 
+                28.228
+              ], 
+              [
+                -82.163, 
+                28.230
+              ]
             ]
           ]
         ]
@@ -32,23 +46,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522551, 
-        "name": "Zephyrhills Municipal Airport", 
         "alias_ENG_V": [
           "ZPH"
         ], 
-        "ne_latitude": 28.237, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -82.151, 
+        "name": "Zephyrhills Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587853", 
+          "woe:state=2347568", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522551, 
+        "ne_longitude": -82.159, 
         "longitude": -82.165, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587853, 
+        "ne_latitude": 28.231, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2525285, 
+        "sw_latitude": 28.228, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 28.230, 
         "sw_longitude": -82.167, 
-        "fullname": "Zephyrhills Municipal Airport, Zephyrhills, Florida, Pasco, United States", 
-        "sw_latitude": 28.218
+        "fullname": "Zephyrhills Municipal Airport, Zephyrhills, Florida, United States", 
+        "iata_code": "ZPH", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522551
     }

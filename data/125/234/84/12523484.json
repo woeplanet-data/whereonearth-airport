@@ -32,29 +32,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12523484, 
-        "name": "Aeroporto Arraias", 
-        "alias_ENG_P": [
-          "Arraias Airport"
-        ], 
-        "ne_latitude": -12.925, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "AAI"
         ], 
+        "name": "Aeroporto Arraias", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Arraias Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12582468", 
+          "woe:state=2344870", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523484, 
         "ne_longitude": -46.943, 
         "longitude": -46.947, 
-        "placetype": "Airport", 
+        "parent_woeid": 12582468, 
+        "ne_latitude": -12.925, 
         "alias_POR_V": [
           "Aeroporto AAI"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:28Z", 
-        "parent_woeid": 456719, 
+        "sw_latitude": -12.934, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -12.930, 
         "sw_longitude": -46.952, 
-        "fullname": "Aeroporto Arraias, Arraias, Tocantins, Arraias, Brazil", 
-        "sw_latitude": -12.934
+        "fullname": "Aeroporto Arraias, Arraias, Tocantins, Brazil", 
+        "iata_code": "AAI", 
+        "date_indexed": "2010-12-02T18:01:28Z"
       }, 
       "id": 12523484
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514932, 
+        "placetype": "airport", 
         "name": "Pie de la Cuesta Airport", 
-        "ne_latitude": 16.910, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12600035", 
+          "woe:state=2346275", 
+          "woe:country=23424900", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514932, 
         "ne_longitude": -99.979, 
         "longitude": -99.984, 
-        "placetype": "Airport", 
+        "parent_woeid": 12600035, 
+        "ne_latitude": 16.910, 
         "iso": "MX", 
-        "date_indexed": "2010-12-02T16:57:55Z", 
-        "parent_woeid": 136606, 
+        "sw_latitude": 16.901, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 16.906, 
         "sw_longitude": -99.989, 
-        "fullname": "Pie de la Cuesta Airport, Pie de la Cuesta, Guerrero, Acapulco de Juarez, Mexico", 
-        "sw_latitude": 16.901
+        "fullname": "Pie de la Cuesta Airport, Pie de la Cuesta, Guerrero, Mexico", 
+        "date_indexed": "2010-12-02T16:57:55Z"
       }, 
       "id": 12514932
     }

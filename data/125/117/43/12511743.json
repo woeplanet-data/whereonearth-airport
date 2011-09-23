@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511743, 
-        "name": "Marathon Airport", 
         "alias_ENG_V": [
           "YSP Airport"
         ], 
-        "ne_latitude": 48.764, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Marathon Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375089", 
+          "woe:state=2344922", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511743, 
         "ne_longitude": -86.328, 
         "longitude": -86.351, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375089, 
+        "ne_latitude": 48.764, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 3097, 
+        "sw_latitude": 48.748, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.759, 
         "sw_longitude": -86.353, 
-        "fullname": "Marathon Airport, Marathon, Ontario, Thunder Bay, Canada", 
-        "sw_latitude": 48.748
+        "fullname": "Marathon Airport, Marathon, Ontario, Canada", 
+        "iata_code": "YSP", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12511743
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519146, 
+        "placetype": "airport", 
         "name": "Charlie Thomas Ranch Airport", 
-        "ne_latitude": 30.138, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12590022", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519146, 
         "ne_longitude": -98.378, 
         "longitude": -98.383, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590022, 
+        "ne_latitude": 30.138, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:15Z", 
-        "parent_woeid": 2365324, 
+        "sw_latitude": 30.129, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 30.133, 
         "sw_longitude": -98.389, 
-        "fullname": "Charlie Thomas Ranch Airport, Blanco, Texas, Blanco, United States", 
-        "sw_latitude": 30.129
+        "fullname": "Charlie Thomas Ranch Airport, Blanco, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:15Z"
       }, 
       "id": 12519146
     }

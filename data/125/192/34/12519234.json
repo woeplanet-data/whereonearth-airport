@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519234, 
-        "name": "Clermont County Airport", 
         "alias_ENG_V": [
           "I69"
         ], 
-        "ne_latitude": 39.083, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Clermont County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589539", 
+          "woe:state=2347594", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519234, 
         "ne_longitude": -84.205, 
         "longitude": -84.207, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589539, 
+        "ne_latitude": 39.083, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2359904, 
+        "sw_latitude": 39.073, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 39.077, 
         "sw_longitude": -84.216, 
-        "fullname": "Clermont County Airport, Batavia, Ohio, Clermont, United States", 
-        "sw_latitude": 39.073
+        "fullname": "Clermont County Airport, Batavia, Ohio, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519234
     }

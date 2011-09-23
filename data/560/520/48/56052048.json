@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 56052048, 
+        "placetype": "airport", 
         "name": "Segelflugplatz Elz", 
-        "ne_latitude": 50.429, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12632685", 
+          "woe:county=12596878", 
+          "woe:state=2345485", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56052048, 
         "ne_longitude": 8.018, 
         "longitude": 8.016, 
-        "placetype": "Airport", 
+        "parent_woeid": 12632685, 
+        "ne_latitude": 50.429, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 647801, 
+        "sw_latitude": 50.425, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.428, 
         "sw_longitude": 8.002, 
-        "fullname": "Segelflugplatz Elz, Elz, Hesse, Limburg-Weilburg, Germany", 
-        "sw_latitude": 50.425
+        "fullname": "Segelflugplatz Elz, Elz, Hesse, Germany", 
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 56052048
     }

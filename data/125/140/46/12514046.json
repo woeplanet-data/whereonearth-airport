@@ -3,28 +3,74 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -77.924, 
-              18.493
-            ], 
-            [
-              -77.924, 
-              18.516
-            ], 
-            [
-              -77.901, 
-              18.516
-            ], 
-            [
-              -77.901, 
-              18.493
-            ], 
-            [
-              -77.924, 
-              18.493
+              [
+                -77.919, 
+                18.499
+              ], 
+              [
+                -77.922, 
+                18.497
+              ], 
+              [
+                -77.923, 
+                18.497
+              ], 
+              [
+                -77.924, 
+                18.500
+              ], 
+              [
+                -77.921, 
+                18.501
+              ], 
+              [
+                -77.918, 
+                18.505
+              ], 
+              [
+                -77.918, 
+                18.507
+              ], 
+              [
+                -77.916, 
+                18.506
+              ], 
+              [
+                -77.912, 
+                18.510
+              ], 
+              [
+                -77.908, 
+                18.508
+              ], 
+              [
+                -77.909, 
+                18.507
+              ], 
+              [
+                -77.912, 
+                18.504
+              ], 
+              [
+                -77.913, 
+                18.502
+              ], 
+              [
+                -77.914, 
+                18.500
+              ], 
+              [
+                -77.916, 
+                18.497
+              ], 
+              [
+                -77.919, 
+                18.499
+              ]
             ]
           ]
         ]
@@ -32,23 +78,28 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514046, 
-        "name": "Sangster International Airport", 
         "alias_ENG_V": [
           "MBJ"
         ], 
-        "ne_latitude": 18.516, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -77.901, 
-        "longitude": -77.912, 
-        "placetype": "Airport", 
+        "name": "Sangster International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2345920", 
+          "woe:country=23424858", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514046, 
+        "ne_longitude": -77.908, 
+        "longitude": -77.916, 
+        "parent_woeid": 2345920, 
+        "ne_latitude": 18.510, 
         "iso": "JM", 
-        "date_indexed": "2010-12-02T08:59:07Z", 
-        "parent_woeid": 109743, 
-        "latitude": 18.504, 
+        "sw_latitude": 18.497, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 18.503, 
         "sw_longitude": -77.924, 
         "fullname": "Sangster International Airport, Saint James, Jamaica", 
-        "sw_latitude": 18.493
+        "date_indexed": "2010-12-02T08:59:07Z"
       }, 
       "id": 12514046
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510868, 
-        "name": "Governors Harbour Airport", 
         "alias_ENG_V": [
           "GHB Airport"
         ], 
-        "ne_latitude": 25.288, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Governors Harbour Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=24551244", 
+          "woe:country=23424758", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510868, 
         "ne_longitude": -76.326, 
         "longitude": -76.331, 
-        "placetype": "Airport", 
+        "parent_woeid": 24551244, 
+        "ne_latitude": 25.288, 
         "iso": "BS", 
-        "date_indexed": "2010-12-02T07:50:25Z", 
-        "parent_woeid": 56937, 
+        "sw_latitude": 25.279, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 25.284, 
         "sw_longitude": -76.336, 
         "fullname": "Governors Harbour Airport, Governor's Harbour, Central Eleuthera, The Bahamas", 
-        "sw_latitude": 25.279
+        "iata_code": "GHB", 
+        "date_indexed": "2010-12-02T07:50:25Z"
       }, 
       "id": 12510868
     }

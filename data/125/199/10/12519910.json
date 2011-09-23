@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519910, 
-        "name": "Glasgow International Airport", 
         "alias_ENG_V": [
           "GGW"
         ], 
-        "ne_latitude": 48.234, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Glasgow International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589133", 
+          "woe:state=2347585", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519910, 
         "ne_longitude": -106.590, 
         "longitude": -106.607, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589133, 
+        "ne_latitude": 48.234, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2410627, 
+        "sw_latitude": 48.203, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.222, 
         "sw_longitude": -106.636, 
-        "fullname": "Glasgow International Airport, Glasgow, Montana, Valley, United States", 
-        "sw_latitude": 48.203
+        "fullname": "Glasgow International Airport, Glasgow, Montana, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12519910
     }

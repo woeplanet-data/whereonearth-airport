@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "CZE", 
-        "woeid": 56049711, 
+        "placetype": "airport", 
         "name": "Letiste Mistek", 
-        "ne_latitude": 49.659, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12607677", 
+          "woe:county=12582571", 
+          "woe:state=20070471", 
+          "woe:country=23424810", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56049711, 
         "ne_longitude": 18.361, 
         "longitude": 18.351, 
-        "placetype": "Airport", 
+        "parent_woeid": 12607677, 
+        "ne_latitude": 49.659, 
         "iso": "CZ", 
-        "date_indexed": "2010-12-02T08:56:52Z", 
-        "parent_woeid": 789085, 
+        "sw_latitude": 49.646, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.652, 
         "sw_longitude": 18.341, 
-        "fullname": "Letiste Mistek, Fr\u00fddek-M\u00edstek, Moravskoslezsk\u00fd, Fr\u00fddek-M\u00edstek, Czech Republic", 
-        "sw_latitude": 49.646
+        "fullname": "Letiste Mistek, Fr\u00fddek-M\u00edstek, Moravskoslezsk\u00fd, Czech Republic", 
+        "date_indexed": "2010-12-02T08:56:52Z"
       }, 
       "id": 56049711
     }

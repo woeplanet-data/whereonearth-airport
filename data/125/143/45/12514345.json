@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514345, 
+        "placetype": "airport", 
         "name": "Irgiz Airport", 
-        "ne_latitude": 48.641, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345980", 
+          "woe:country=23424871", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514345, 
         "ne_longitude": 61.260, 
         "longitude": 61.253, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345980, 
+        "ne_latitude": 48.641, 
         "iso": "KZ", 
-        "date_indexed": "2010-12-02T08:54:13Z", 
-        "parent_woeid": 2264414, 
+        "sw_latitude": 48.632, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.637, 
         "sw_longitude": 61.246, 
         "fullname": "Irgiz Airport, Aqtobe, Kazakhstan", 
-        "sw_latitude": 48.632
+        "date_indexed": "2010-12-02T08:54:13Z"
       }, 
       "id": 12514345
     }

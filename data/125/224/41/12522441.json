@@ -3,28 +3,46 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -75.737, 
-              41.327
-            ], 
-            [
-              -75.737, 
-              41.347
-            ], 
-            [
-              -75.712, 
-              41.347
-            ], 
-            [
-              -75.712, 
-              41.327
-            ], 
-            [
-              -75.737, 
-              41.327
+              [
+                -75.729, 
+                41.336
+              ], 
+              [
+                -75.729, 
+                41.337
+              ], 
+              [
+                -75.726, 
+                41.340
+              ], 
+              [
+                -75.725, 
+                41.339
+              ], 
+              [
+                -75.725, 
+                41.337
+              ], 
+              [
+                -75.727, 
+                41.334
+              ], 
+              [
+                -75.731, 
+                41.330
+              ], 
+              [
+                -75.732, 
+                41.335
+              ], 
+              [
+                -75.729, 
+                41.336
+              ]
             ]
           ]
         ]
@@ -32,23 +50,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522441, 
-        "name": "Wilkes Barre Scranton International Airport", 
         "alias_ENG_V": [
           "AVP Airport"
         ], 
-        "ne_latitude": 41.347, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -75.712, 
+        "name": "Wilkes Barre Scranton International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589767", 
+          "woe:state=2347597", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522441, 
+        "ne_longitude": -75.725, 
         "longitude": -75.729, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589767, 
+        "ne_latitude": 41.340, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2473275, 
-        "latitude": 41.337, 
-        "sw_longitude": -75.737, 
-        "fullname": "Wilkes Barre Scranton International Airport, Pittston, Pennsylvania, Luzerne, United States", 
-        "sw_latitude": 41.327
+        "sw_latitude": 41.330, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 41.335, 
+        "sw_longitude": -75.732, 
+        "fullname": "Wilkes Barre Scranton International Airport, Pittston, Pennsylvania, United States", 
+        "iata_code": "AVP", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522441
     }

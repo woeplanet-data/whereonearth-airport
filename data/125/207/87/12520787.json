@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520787, 
-        "name": "Maquoketa Municipal Airport", 
         "alias_ENG_V": [
           "OQW"
         ], 
-        "ne_latitude": 42.056, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Maquoketa Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588320", 
+          "woe:state=2347574", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520787, 
         "ne_longitude": -90.735, 
         "longitude": -90.743, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588320, 
+        "ne_latitude": 42.056, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2371116, 
+        "sw_latitude": 42.045, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.054, 
         "sw_longitude": -90.743, 
-        "fullname": "Maquoketa Municipal Airport, Buckhorn, Iowa, Jackson, United States", 
-        "sw_latitude": 42.045
+        "fullname": "Maquoketa Municipal Airport, Buckhorn, Iowa, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520787
     }

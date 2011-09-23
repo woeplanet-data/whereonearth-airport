@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516285, 
+        "placetype": "airport", 
         "name": "Krutoye Airport", 
-        "ne_latitude": 53.365, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599435", 
+          "woe:state=2346929", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516285, 
         "ne_longitude": 38.338, 
         "longitude": 38.330, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599435, 
+        "ne_latitude": 53.365, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2063269, 
+        "sw_latitude": 53.356, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.360, 
         "sw_longitude": 38.322, 
         "fullname": "Krutoye Airport, Tulrskaya Oblast, Kurkinsky, Russia", 
-        "sw_latitude": 53.356
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516285
     }

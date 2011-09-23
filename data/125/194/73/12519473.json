@@ -3,28 +3,126 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -93.681, 
-              41.526
-            ], 
-            [
-              -93.681, 
-              41.552
-            ], 
-            [
-              -93.645, 
-              41.552
-            ], 
-            [
-              -93.645, 
-              41.526
-            ], 
-            [
-              -93.681, 
-              41.526
+              [
+                -93.643, 
+                41.528
+              ], 
+              [
+                -93.645, 
+                41.523
+              ], 
+              [
+                -93.645, 
+                41.529
+              ], 
+              [
+                -93.645, 
+                41.529
+              ], 
+              [
+                -93.650, 
+                41.530
+              ], 
+              [
+                -93.650, 
+                41.530
+              ], 
+              [
+                -93.650, 
+                41.532
+              ], 
+              [
+                -93.650, 
+                41.533
+              ], 
+              [
+                -93.656, 
+                41.535
+              ], 
+              [
+                -93.657, 
+                41.531
+              ], 
+              [
+                -93.657, 
+                41.528
+              ], 
+              [
+                -93.659, 
+                41.528
+              ], 
+              [
+                -93.661, 
+                41.529
+              ], 
+              [
+                -93.660, 
+                41.535
+              ], 
+              [
+                -93.659, 
+                41.539
+              ], 
+              [
+                -93.661, 
+                41.541
+              ], 
+              [
+                -93.659, 
+                41.540
+              ], 
+              [
+                -93.656, 
+                41.540
+              ], 
+              [
+                -93.656, 
+                41.540
+              ], 
+              [
+                -93.651, 
+                41.539
+              ], 
+              [
+                -93.651, 
+                41.538
+              ], 
+              [
+                -93.647, 
+                41.537
+              ], 
+              [
+                -93.647, 
+                41.537
+              ], 
+              [
+                -93.645, 
+                41.534
+              ], 
+              [
+                -93.643, 
+                41.530
+              ], 
+              [
+                -93.639, 
+                41.531
+              ], 
+              [
+                -93.636, 
+                41.527
+              ], 
+              [
+                -93.640, 
+                41.529
+              ], 
+              [
+                -93.643, 
+                41.528
+              ]
             ]
           ]
         ]
@@ -32,23 +130,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519473, 
-        "name": "Des Moines International Airport", 
         "alias_ENG_V": [
           "DSM"
         ], 
-        "ne_latitude": 41.552, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -93.645, 
-        "longitude": -93.648, 
-        "placetype": "Airport", 
-        "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
+        "name": "Des Moines International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:suburb=55858756", 
+          "woe:county=12588348", 
+          "woe:state=2347574", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519473, 
+        "ne_longitude": -93.636, 
+        "longitude": -93.651, 
         "parent_woeid": 55858756, 
-        "latitude": 41.533, 
-        "sw_longitude": -93.681, 
-        "fullname": "Des Moines International Airport, Des Moines, Iowa, Polk, United States", 
-        "sw_latitude": 41.526
+        "ne_latitude": 41.541, 
+        "iso": "US", 
+        "sw_latitude": 41.523, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 41.534, 
+        "sw_longitude": -93.661, 
+        "fullname": "Des Moines International Airport, Des Moines, Iowa, United States", 
+        "iata_code": "DSM", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519473
     }

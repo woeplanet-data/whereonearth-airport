@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523093, 
-        "name": "Da Nang Airport", 
         "alias_ENG_V": [
           "DAD"
         ], 
-        "ne_latitude": 16.055, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Da Nang Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=20070085", 
+          "woe:country=23424984", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523093, 
         "ne_longitude": 108.205, 
         "longitude": 108.200, 
-        "placetype": "Airport", 
+        "parent_woeid": 20070085, 
+        "ne_latitude": 16.055, 
         "iso": "VN", 
-        "date_indexed": "2010-12-02T08:52:49Z", 
-        "parent_woeid": 1252376, 
+        "sw_latitude": 16.045, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 16.050, 
         "sw_longitude": 108.195, 
         "fullname": "Da Nang Airport, Tourane, Da Nang, Vietnam", 
-        "sw_latitude": 16.045
+        "iata_code": "DAD", 
+        "date_indexed": "2010-12-02T08:52:49Z"
       }, 
       "id": 12523093
     }

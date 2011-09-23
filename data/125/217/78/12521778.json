@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521778, 
+        "placetype": "airport", 
         "name": "Scott Valley Airport", 
-        "ne_latitude": 41.563, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12587716", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521778, 
         "ne_longitude": -122.848, 
         "longitude": -122.854, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587716, 
+        "ne_latitude": 41.563, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2414540, 
+        "sw_latitude": 41.554, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.558, 
         "sw_longitude": -122.860, 
-        "fullname": "Scott Valley Airport, Greenview, California, Siskiyou, United States", 
-        "sw_latitude": 41.554
+        "fullname": "Scott Valley Airport, Greenview, California, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521778
     }

@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518203, 
+        "placetype": "airport", 
         "name": "Blagoyevo Airport", 
-        "ne_latitude": 46.898, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2347549", 
+          "woe:country=23424976", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518203, 
         "ne_longitude": 30.708, 
         "longitude": 30.702, 
-        "placetype": "Airport", 
+        "parent_woeid": 2347549, 
+        "ne_latitude": 46.898, 
         "iso": "UA", 
-        "date_indexed": "2010-12-02T08:52:33Z", 
-        "parent_woeid": 930730, 
+        "sw_latitude": 46.889, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.893, 
         "sw_longitude": 30.695, 
         "fullname": "Blagoyevo Airport, Petrovka, Odessa Oblast, Ukraine", 
-        "sw_latitude": 46.889
+        "date_indexed": "2010-12-02T08:52:33Z"
       }, 
       "id": 12518203
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515872, 
+        "placetype": "airport", 
         "name": "Bukhovoye Airport", 
-        "ne_latitude": 53.063, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598669", 
+          "woe:state=2346908", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515872, 
         "ne_longitude": 39.988, 
         "longitude": 39.981, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598669, 
+        "ne_latitude": 53.063, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2000782, 
+        "sw_latitude": 53.054, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.058, 
         "sw_longitude": 39.973, 
         "fullname": "Bukhovoye Airport, Lipetskaya Oblast, Chaplyginsky, Russia", 
-        "sw_latitude": 53.054
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12515872
     }

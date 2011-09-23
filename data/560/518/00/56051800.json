@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "FRE", 
-        "woeid": 56051800, 
+        "placetype": "airport", 
         "name": "A\u00e9rodrome de Saint-galmier", 
-        "ne_latitude": 45.609, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12670429", 
+          "woe:county=12597165", 
+          "woe:state=7153329", 
+          "woe:country=23424819", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56051800, 
         "ne_longitude": 4.308, 
         "longitude": 4.304, 
-        "placetype": "Airport", 
+        "parent_woeid": 12670429, 
+        "ne_latitude": 45.609, 
         "iso": "FR", 
-        "date_indexed": "2010-12-02T12:04:01Z", 
-        "parent_woeid": 624081, 
+        "sw_latitude": 45.603, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.606, 
         "sw_longitude": 4.301, 
-        "fullname": "A\u00e9rodrome de Saint-galmier, St.-Galmier, Rhone-Alpes, Loire, France", 
+        "fullname": "A\u00e9rodrome de Saint-galmier, St.-Galmier, Rhone-Alpes, France", 
         "alias_FRE_S": [
           "Aerodrome de Saint-galmier"
         ], 
-        "sw_latitude": 45.603
+        "date_indexed": "2010-12-02T12:04:01Z"
       }, 
       "id": 56051800
     }

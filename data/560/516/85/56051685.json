@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 56051685, 
+        "placetype": "airport", 
         "name": "Flugplatz Stockerau", 
-        "ne_latitude": 48.412, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12674136", 
+          "woe:county=12591700", 
+          "woe:state=2344710", 
+          "woe:country=23424750", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56051685, 
         "ne_longitude": 16.198, 
         "longitude": 16.197, 
-        "placetype": "Airport", 
+        "parent_woeid": 12674136, 
+        "ne_latitude": 48.412, 
         "iso": "AT", 
-        "date_indexed": "2010-12-02T16:35:40Z", 
-        "parent_woeid": 543941, 
+        "sw_latitude": 48.408, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.411, 
         "sw_longitude": 16.185, 
-        "fullname": "Flugplatz Stockerau, Stockerau, Lower Austria, Korneuburg, Austria", 
-        "sw_latitude": 48.408
+        "fullname": "Flugplatz Stockerau, Stockerau, Lower Austria, Austria", 
+        "date_indexed": "2010-12-02T16:35:40Z"
       }, 
       "id": 56051685
     }

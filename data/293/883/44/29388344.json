@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388344, 
-        "name": "Williamsburg-Cumberland Falls", 
         "alias_ENG_V": [
           "Williamsburg-Cumberland Falls Airport"
         ], 
-        "ne_latitude": 36.832, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Williamsburg-Cumberland Falls", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588593", 
+          "woe:state=2347576", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388344, 
         "ne_longitude": -84.184, 
         "longitude": -84.191, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588593, 
+        "ne_latitude": 36.832, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2381840, 
+        "sw_latitude": 36.827, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.828, 
         "sw_longitude": -84.192, 
-        "fullname": "Williamsburg-Cumberland Falls, Clio, Kentucky, Whitley, United States", 
-        "sw_latitude": 36.827
+        "fullname": "Williamsburg-Cumberland Falls, Clio, Kentucky, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388344
     }

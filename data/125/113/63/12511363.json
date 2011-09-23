@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511363, 
+        "placetype": "airport", 
         "name": "Aeroporto Urucu", 
         "alias_ENG_P": [
           "Urucu Airport"
         ], 
-        "ne_latitude": -4.877, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12578185", 
+          "woe:state=2344847", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511363, 
         "ne_longitude": -65.517, 
         "longitude": -65.522, 
-        "placetype": "Airport", 
+        "parent_woeid": 12578185, 
+        "ne_latitude": -4.877, 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:28Z", 
-        "parent_woeid": 454505, 
+        "sw_latitude": -4.886, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -4.881, 
         "sw_longitude": -65.526, 
-        "fullname": "Aeroporto Urucu, Uni\u00e3o, Amazonas, Carauari, Brazil", 
-        "sw_latitude": -4.886
+        "fullname": "Aeroporto Urucu, Uni\u00e3o, Amazonas, Brazil", 
+        "date_indexed": "2010-12-02T18:01:28Z"
       }, 
       "id": 12511363
     }

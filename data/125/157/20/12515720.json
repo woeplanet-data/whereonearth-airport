@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515720, 
+        "placetype": "airport", 
         "name": "Anzhero Sudzhensk Airport", 
-        "ne_latitude": 56.164, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598430", 
+          "woe:state=2346901", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515720, 
         "ne_longitude": 86.028, 
         "longitude": 86.020, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598430, 
+        "ne_latitude": 56.164, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 1983553, 
+        "sw_latitude": 56.155, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 56.160, 
         "sw_longitude": 86.012, 
-        "fullname": "Anzhero Sudzhensk Airport, Anzhero-Sudzhensk, Kemerovskaya Oblast, Anzhero-Sudzhensk, Russia", 
-        "sw_latitude": 56.155
+        "fullname": "Anzhero Sudzhensk Airport, Anzhero-Sudzhensk, Kemerovskaya Oblast, Russia", 
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12515720
     }

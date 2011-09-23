@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521224, 
-        "name": "Omar N Bradley Airport", 
         "alias_ENG_V": [
           "MBY"
         ], 
-        "ne_latitude": 39.469, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Omar N Bradley Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589053", 
+          "woe:state=2347584", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521224, 
         "ne_longitude": -92.419, 
         "longitude": -92.433, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589053, 
+        "ne_latitude": 39.469, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2452535, 
+        "sw_latitude": 39.458, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 39.465, 
         "sw_longitude": -92.435, 
-        "fullname": "Omar N Bradley Airport, Moberly, Missouri, Randolph, United States", 
-        "sw_latitude": 39.458
+        "fullname": "Omar N Bradley Airport, Moberly, Missouri, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521224
     }

@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512676, 
+        "placetype": "airport", 
         "name": "Birma Airport", 
-        "ne_latitude": 30.841, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345227", 
+          "woe:country=23424802", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512676, 
         "ne_longitude": 30.943, 
         "longitude": 30.938, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345227, 
+        "ne_latitude": 30.841, 
         "iso": "EG", 
-        "date_indexed": "2010-12-02T12:16:51Z", 
-        "parent_woeid": 1525047, 
+        "sw_latitude": 30.832, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 30.836, 
         "sw_longitude": 30.932, 
         "fullname": "Birma Airport, Mahallat Marhum, Al Gharbiyah, Egypt", 
-        "sw_latitude": 30.832
+        "date_indexed": "2010-12-02T12:16:51Z"
       }, 
       "id": 12512676
     }

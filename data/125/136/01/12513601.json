@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513601, 
-        "name": "Jabalpur Airport", 
         "alias_ENG_V": [
           "JLR"
         ], 
-        "ne_latitude": 23.182, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Jabalpur Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12586498", 
+          "woe:state=2345749", 
+          "woe:country=23424848", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513601, 
         "ne_longitude": 80.061, 
         "longitude": 80.056, 
-        "placetype": "Airport", 
+        "parent_woeid": 12586498, 
+        "ne_latitude": 23.182, 
         "iso": "IN", 
-        "date_indexed": "2010-12-02T09:26:27Z", 
-        "parent_woeid": 29028878, 
+        "sw_latitude": 23.173, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 23.178, 
         "sw_longitude": 80.051, 
-        "fullname": "Jabalpur Airport, Umariya, Madhya Pradesh, Jabalpur, India", 
-        "sw_latitude": 23.173
+        "fullname": "Jabalpur Airport, Umariya, Madhya Pradesh, India", 
+        "date_indexed": "2010-12-02T09:26:27Z"
       }, 
       "id": 12513601
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510582, 
-        "name": "Albany Airport", 
         "alias_ENG_V": [
           "ALH"
         ], 
-        "ne_latitude": -34.938, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Albany Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55864168", 
+          "woe:state=2344706", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510582, 
         "ne_longitude": 117.820, 
         "longitude": 117.804, 
-        "placetype": "Airport", 
+        "parent_woeid": 55864168, 
+        "ne_latitude": -34.938, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 28584852, 
+        "sw_latitude": -34.961, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -34.945, 
         "sw_longitude": 117.800, 
-        "fullname": "Albany Airport, Drome, Western Australia, Albany, Australia", 
-        "sw_latitude": -34.961
+        "fullname": "Albany Airport, Drome, Western Australia, Australia", 
+        "iata_code": "ALH", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 12510582
     }

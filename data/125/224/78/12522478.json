@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522478, 
-        "name": "Winchester Municipal Airport", 
         "alias_ENG_V": [
           "Bgf"
         ], 
-        "ne_latitude": 35.187, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Winchester Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589937", 
+          "woe:state=2347601", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522478, 
         "ne_longitude": -86.065, 
         "longitude": -86.068, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589937, 
+        "ne_latitude": 35.187, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2521693, 
+        "sw_latitude": 35.168, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.175, 
         "sw_longitude": -86.069, 
-        "fullname": "Winchester Municipal Airport, Winchester, Tennessee, Franklin, United States", 
-        "sw_latitude": 35.168
+        "fullname": "Winchester Municipal Airport, Winchester, Tennessee, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522478
     }

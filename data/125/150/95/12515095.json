@@ -32,26 +32,32 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515095, 
-        "name": "Valkenburg Airport", 
         "alias_ENG_V": [
           "LID Airport"
         ], 
-        "ne_latitude": 52.174, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Valkenburg Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12592233", 
+          "woe:state=2346383", 
+          "woe:country=23424909", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515095, 
         "ne_longitude": 4.434, 
         "longitude": 4.426, 
-        "placetype": "Airport", 
+        "parent_woeid": 12592233, 
+        "ne_latitude": 52.174, 
         "alias_DUT_Q": [
           "LID Luchthaven"
         ], 
         "iso": "NL", 
-        "date_indexed": "2010-12-02T18:17:47Z", 
-        "parent_woeid": 734095, 
+        "sw_latitude": 52.165, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 52.170, 
         "sw_longitude": 4.419, 
-        "fullname": "Valkenburg Airport, Valkenburg, South Holland, Katwijk, Netherlands", 
-        "sw_latitude": 52.165
+        "fullname": "Valkenburg Airport, Valkenburg, South Holland, Netherlands", 
+        "date_indexed": "2010-12-02T18:17:47Z"
       }, 
       "id": 12515095
     }

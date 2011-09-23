@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510616, 
-        "name": "Brewarrina Aerodrome", 
         "alias_ENG_V": [
           "Brewarrina Airport"
         ], 
-        "ne_latitude": -29.969, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Brewarrina Aerodrome", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55863851", 
+          "woe:state=2344700", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510616, 
         "ne_longitude": 146.820, 
         "longitude": 146.814, 
-        "placetype": "Airport", 
+        "parent_woeid": 55863851, 
+        "ne_latitude": -29.969, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1100637, 
+        "sw_latitude": -29.983, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -29.972, 
         "sw_longitude": 146.808, 
-        "fullname": "Brewarrina Aerodrome, Brewarrina, New South Wales, Brewarrina, Australia", 
-        "sw_latitude": -29.983
+        "fullname": "Brewarrina Aerodrome, Brewarrina, New South Wales, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 12510616
     }

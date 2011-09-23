@@ -3,28 +3,34 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -100.514, 
-              31.349
-            ], 
-            [
-              -100.514, 
-              31.366
-            ], 
-            [
-              -100.494, 
-              31.366
-            ], 
-            [
-              -100.494, 
-              31.349
-            ], 
-            [
-              -100.514, 
-              31.349
+              [
+                -100.503, 
+                31.356
+              ], 
+              [
+                -100.503, 
+                31.357
+              ], 
+              [
+                -100.502, 
+                31.357
+              ], 
+              [
+                -100.502, 
+                31.355
+              ], 
+              [
+                -100.502, 
+                31.355
+              ], 
+              [
+                -100.503, 
+                31.356
+              ]
             ]
           ]
         ]
@@ -32,23 +38,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520840, 
-        "name": "Mathis Field Airport", 
         "alias_ENG_V": [
           "SJT"
         ], 
-        "ne_latitude": 31.366, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -100.494, 
-        "longitude": -100.504, 
-        "placetype": "Airport", 
+        "name": "Mathis Field Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590232", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520840, 
+        "ne_longitude": -100.502, 
+        "longitude": -100.502, 
+        "parent_woeid": 12590232, 
+        "ne_latitude": 31.357, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2487784, 
-        "latitude": 31.357, 
-        "sw_longitude": -100.514, 
-        "fullname": "Mathis Field Airport, San Angelo, Texas, Tom Green, United States", 
-        "sw_latitude": 31.349
+        "sw_latitude": 31.355, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 31.356, 
+        "sw_longitude": -100.503, 
+        "fullname": "Mathis Field Airport, San Angelo, Texas, United States", 
+        "iata_code": "SJT", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12520840
     }

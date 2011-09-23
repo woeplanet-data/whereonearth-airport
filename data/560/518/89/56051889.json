@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "FRE", 
-        "woeid": 56051889, 
+        "placetype": "airport", 
         "name": "A\u00e9rodrome de Sainte-foy-la-grande", 
-        "ne_latitude": 44.855, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12653375", 
+          "woe:county=12597132", 
+          "woe:state=7153309", 
+          "woe:country=23424819", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56051889, 
         "ne_longitude": 0.183, 
         "longitude": 0.183, 
-        "placetype": "Airport", 
+        "parent_woeid": 12653375, 
+        "ne_latitude": 44.855, 
         "iso": "FR", 
-        "date_indexed": "2010-12-02T12:04:01Z", 
-        "parent_woeid": 627538, 
+        "sw_latitude": 44.852, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.852, 
         "sw_longitude": 0.165, 
-        "fullname": "A\u00e9rodrome de Sainte-foy-la-grande, Ste-Foy, Aquitaine, Gironde, France", 
+        "fullname": "A\u00e9rodrome de Sainte-foy-la-grande, Ste-Foy, Aquitaine, France", 
         "alias_FRE_S": [
           "Aerodrome de Sainte-foy-la-grande"
         ], 
-        "sw_latitude": 44.852
+        "date_indexed": "2010-12-02T12:04:01Z"
       }, 
       "id": 56051889
     }

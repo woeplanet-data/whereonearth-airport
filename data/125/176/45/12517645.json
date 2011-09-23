@@ -3,28 +3,38 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              22.080, 
-              65.529
-            ], 
-            [
-              22.080, 
-              65.562
-            ], 
-            [
-              22.163, 
-              65.562
-            ], 
-            [
-              22.163, 
-              65.529
-            ], 
-            [
-              22.080, 
-              65.529
+              [
+                22.124, 
+                65.549
+              ], 
+              [
+                22.126, 
+                65.544
+              ], 
+              [
+                22.124, 
+                65.549
+              ], 
+              [
+                22.124, 
+                65.549
+              ], 
+              [
+                22.123, 
+                65.550
+              ], 
+              [
+                22.126, 
+                65.552
+              ], 
+              [
+                22.124, 
+                65.549
+              ]
             ]
           ]
         ]
@@ -40,8 +50,14 @@
         "alias_SWE_S": [
           "Lulea Flygplats"
         ], 
-        "ne_latitude": 65.562, 
-        "placetype": "Airport", 
+        "hierarchy": [
+          "woe:county=12587351", 
+          "woe:state=2347057", 
+          "woe:country=23424954", 
+          "woe:planet=1"
+        ], 
+        "ne_latitude": 65.552, 
+        "placetype": "airport", 
         "alias_POR_Q": [
           "Aeroporto de Lule\u00e5"
         ], 
@@ -67,9 +83,9 @@
         "alias_SPA_S": [
           "Aeropuerto de Lulea"
         ], 
-        "sw_longitude": 22.080, 
+        "sw_longitude": 22.123, 
         "provider": "geoplanet 7.6.0", 
-        "latitude": 65.549, 
+        "latitude": 65.550, 
         "date_indexed": "2010-12-02T16:45:55Z", 
         "alias_DUT_Q": [
           "Luchthaven Lule\u00e5"
@@ -100,15 +116,15 @@
         "alias_UNK_S": [
           "Letisko Lulea"
         ], 
-        "parent_woeid": 897794, 
+        "parent_woeid": 12587351, 
         "alias_UNK_Q": [
           "Letisko Lule\u00e5"
         ], 
-        "ne_longitude": 22.163, 
+        "ne_longitude": 22.126, 
         "longitude": 22.124, 
         "iso": "SE", 
-        "sw_latitude": 65.529, 
-        "fullname": "Lule\u00e5 Flygplats, Bergn\u00e4set, Norrbotten, Lule\u00e5, Sweden", 
+        "sw_latitude": 65.544, 
+        "fullname": "Lule\u00e5 Flygplats, Bergn\u00e4set, Norrbotten, Sweden", 
         "alias_FRE_S": [
           "Aeroport de Lulea"
         ], 

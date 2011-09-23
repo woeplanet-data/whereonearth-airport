@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511156, 
+        "placetype": "airport", 
         "name": "Aeroporto Garibaldi", 
         "alias_ENG_P": [
           "Garibaldi Airport"
         ], 
-        "ne_latitude": -29.261, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12581353", 
+          "woe:state=2344864", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511156, 
         "ne_longitude": -51.525, 
         "longitude": -51.531, 
-        "placetype": "Airport", 
+        "parent_woeid": 12581353, 
+        "ne_latitude": -29.261, 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 456201, 
+        "sw_latitude": -29.270, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -29.266, 
         "sw_longitude": -51.536, 
-        "fullname": "Aeroporto Garibaldi, Garibaldi, Rio Grande do Sul, Garibaldi, Brazil", 
-        "sw_latitude": -29.270
+        "fullname": "Aeroporto Garibaldi, Garibaldi, Rio Grande do Sul, Brazil", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511156
     }

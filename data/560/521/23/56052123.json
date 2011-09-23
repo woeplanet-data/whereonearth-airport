@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 56052123, 
+        "placetype": "airport", 
         "name": "Segelflugplatz Neustadt-glewe", 
-        "ne_latitude": 53.370, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12630775", 
+          "woe:county=12596989", 
+          "woe:state=2345492", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56052123, 
         "ne_longitude": 11.628, 
         "longitude": 11.608, 
-        "placetype": "Airport", 
+        "parent_woeid": 12630775, 
+        "ne_latitude": 53.370, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 679063, 
+        "sw_latitude": 53.354, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.365, 
         "sw_longitude": 11.594, 
-        "fullname": "Segelflugplatz Neustadt-glewe, Neustadt-Glewe, Mecklenburg-Vorpommern, Landkreis Ludwigslust, Germany", 
-        "sw_latitude": 53.354
+        "fullname": "Segelflugplatz Neustadt-glewe, Neustadt-Glewe, Mecklenburg-Vorpommern, Germany", 
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 56052123
     }

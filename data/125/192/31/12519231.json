@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519231, 
-        "name": "Clearwater Air Park", 
         "alias_ENG_V": [
           "CLW"
         ], 
-        "ne_latitude": 27.980, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Clearwater Air Park", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587854", 
+          "woe:state=2347568", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519231, 
         "ne_longitude": -82.755, 
         "longitude": -82.755, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587854, 
+        "ne_latitude": 27.980, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2381303, 
+        "sw_latitude": 27.972, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 27.975, 
         "sw_longitude": -82.761, 
-        "fullname": "Clearwater Air Park, Clearwater, Florida, Pinellas, United States", 
-        "sw_latitude": 27.972
+        "fullname": "Clearwater Air Park, Clearwater, Florida, United States", 
+        "iata_code": "CLW", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519231
     }

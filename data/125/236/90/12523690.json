@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523690, 
-        "name": "Regina Airport", 
         "alias_ENG_V": [
           "REI"
         ], 
-        "ne_latitude": 4.321, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Regina Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55998448", 
+          "woe:state=2345321", 
+          "woe:country=23424811", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523690, 
         "ne_longitude": -52.129, 
         "longitude": -52.133, 
-        "placetype": "Airport", 
+        "parent_woeid": 55998448, 
+        "ne_latitude": 4.321, 
         "iso": "GF", 
-        "date_indexed": "2010-12-02T08:59:14Z", 
-        "parent_woeid": 379835, 
+        "sw_latitude": 4.312, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 4.317, 
         "sw_longitude": -52.138, 
-        "fullname": "Regina Airport, R\u00e9gina, Cayenne, R\u00e9gina, French Guiana", 
-        "sw_latitude": 4.312
+        "fullname": "Regina Airport, R\u00e9gina, Cayenne, French Guiana", 
+        "iata_code": "REI", 
+        "date_indexed": "2010-12-02T08:59:14Z"
       }, 
       "id": 12523690
     }

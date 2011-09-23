@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512464, 
-        "name": "Holguin Airport", 
         "alias_ENG_V": [
           "HOG"
         ], 
-        "ne_latitude": 20.790, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Holguin Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2345116", 
+          "woe:country=23424793", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512464, 
         "ne_longitude": -76.310, 
         "longitude": -76.315, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345116, 
+        "ne_latitude": 20.790, 
         "iso": "CU", 
-        "date_indexed": "2010-12-02T08:58:58Z", 
-        "parent_woeid": 60734, 
+        "sw_latitude": 20.781, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 20.785, 
         "sw_longitude": -76.320, 
         "fullname": "Holguin Airport, San Pedro de Cacocum, Holguin, Cuba", 
-        "sw_latitude": 20.781
+        "iata_code": "HOG", 
+        "date_indexed": "2010-12-02T08:58:58Z"
       }, 
       "id": 12512464
     }

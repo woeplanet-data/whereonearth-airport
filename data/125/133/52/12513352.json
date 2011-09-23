@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513352, 
-        "name": "Cap Haitien Airport", 
         "alias_ENG_V": [
           "CAP"
         ], 
-        "ne_latitude": 19.737, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Cap Haitien Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2345618", 
+          "woe:country=23424839", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513352, 
         "ne_longitude": -72.190, 
         "longitude": -72.195, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345618, 
+        "ne_latitude": 19.737, 
         "iso": "HT", 
-        "date_indexed": "2010-12-02T17:52:09Z", 
-        "parent_woeid": 92829, 
+        "sw_latitude": 19.728, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 19.733, 
         "sw_longitude": -72.200, 
         "fullname": "Cap Haitien Airport, Nord, Haiti", 
-        "sw_latitude": 19.728
+        "iata_code": "CAP", 
+        "date_indexed": "2010-12-02T17:52:09Z"
       }, 
       "id": 12513352
     }

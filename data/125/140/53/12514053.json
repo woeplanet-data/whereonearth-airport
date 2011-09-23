@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514053, 
+        "placetype": "airport", 
         "name": "H 4 Airport", 
-        "ne_latitude": 32.545, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345930", 
+          "woe:country=23424860", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514053, 
         "ne_longitude": 38.196, 
         "longitude": 38.191, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345930, 
+        "ne_latitude": 32.545, 
         "iso": "JO", 
-        "date_indexed": "2010-12-02T12:08:12Z", 
-        "parent_woeid": 1968429, 
+        "sw_latitude": 32.536, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 32.540, 
         "sw_longitude": 38.186, 
         "fullname": "H 4 Airport, Al Mafraq, Jordan", 
-        "sw_latitude": 32.536
+        "date_indexed": "2010-12-02T12:08:12Z"
       }, 
       "id": 12514053
     }

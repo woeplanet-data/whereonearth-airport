@@ -3,28 +3,54 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -76.802, 
-              17.921
-            ], 
-            [
-              -76.802, 
-              17.944
-            ], 
-            [
-              -76.778, 
-              17.944
-            ], 
-            [
-              -76.778, 
-              17.921
-            ], 
-            [
-              -76.802, 
-              17.921
+              [
+                -76.779, 
+                17.938
+              ], 
+              [
+                -76.777, 
+                17.939
+              ], 
+              [
+                -76.777, 
+                17.939
+              ], 
+              [
+                -76.775, 
+                17.935
+              ], 
+              [
+                -76.775, 
+                17.931
+              ], 
+              [
+                -76.778, 
+                17.936
+              ], 
+              [
+                -76.781, 
+                17.936
+              ], 
+              [
+                -76.783, 
+                17.931
+              ], 
+              [
+                -76.782, 
+                17.936
+              ], 
+              [
+                -76.780, 
+                17.937
+              ], 
+              [
+                -76.779, 
+                17.938
+              ]
             ]
           ]
         ]
@@ -32,23 +58,28 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514045, 
-        "name": "Norman Manley International Airport", 
         "alias_ENG_V": [
           "KIN"
         ], 
-        "ne_latitude": 17.944, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -76.778, 
-        "longitude": -76.790, 
-        "placetype": "Airport", 
+        "name": "Norman Manley International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2345925", 
+          "woe:country=23424858", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514045, 
+        "ne_longitude": -76.775, 
+        "longitude": -76.778, 
+        "parent_woeid": 2345925, 
+        "ne_latitude": 17.939, 
         "iso": "JM", 
-        "date_indexed": "2010-12-02T08:59:07Z", 
-        "parent_woeid": 109717, 
-        "latitude": 17.933, 
-        "sw_longitude": -76.802, 
+        "sw_latitude": 17.931, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 17.935, 
+        "sw_longitude": -76.783, 
         "fullname": "Norman Manley International Airport, Port Royal, Kingston St. John, Jamaica", 
-        "sw_latitude": 17.921
+        "date_indexed": "2010-12-02T08:59:07Z"
       }, 
       "id": 12514045
     }

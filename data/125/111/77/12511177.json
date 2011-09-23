@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511177, 
+        "placetype": "airport", 
         "name": "Aeroporto Ilha Solteira", 
         "alias_ENG_P": [
           "Ilha Solteira Airport"
         ], 
-        "ne_latitude": -20.418, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=26794886", 
+          "woe:state=2344868", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511177, 
         "ne_longitude": -51.327, 
         "longitude": -51.332, 
-        "placetype": "Airport", 
+        "parent_woeid": 26794886, 
+        "ne_latitude": -20.418, 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 457290, 
+        "sw_latitude": -20.427, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -20.423, 
         "sw_longitude": -51.337, 
-        "fullname": "Aeroporto Ilha Solteira, Ilha Solteira, Sao Paulo, Ilha Solteira, Brazil", 
-        "sw_latitude": -20.427
+        "fullname": "Aeroporto Ilha Solteira, Ilha Solteira, Sao Paulo, Brazil", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511177
     }

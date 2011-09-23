@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518826, 
-        "name": "Big Sandy Regional Airport", 
         "alias_ENG_V": [
           "K22"
         ], 
-        "ne_latitude": 37.757, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Big Sandy Regional Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588552", 
+          "woe:state=2347576", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518826, 
         "ne_longitude": -82.631, 
         "longitude": -82.643, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588552, 
+        "ne_latitude": 37.757, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2389547, 
+        "sw_latitude": 37.744, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 37.748, 
         "sw_longitude": -82.643, 
-        "fullname": "Big Sandy Regional Airport, Davella, Kentucky, Martin, United States", 
-        "sw_latitude": 37.744
+        "fullname": "Big Sandy Regional Airport, Davella, Kentucky, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518826
     }

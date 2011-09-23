@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511030, 
+        "placetype": "airport", 
         "name": "Aeroporto Araguari", 
         "alias_ENG_P": [
           "Araguari Airport"
         ], 
-        "ne_latitude": -18.663, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12579438", 
+          "woe:state=2344856", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511030, 
         "ne_longitude": -48.185, 
         "longitude": -48.190, 
-        "placetype": "Airport", 
+        "parent_woeid": 12579438, 
+        "ne_latitude": -18.663, 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 455929, 
+        "sw_latitude": -18.672, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -18.668, 
         "sw_longitude": -48.194, 
-        "fullname": "Aeroporto Araguari, Araguari, Minas Gerais, Araguari, Brazil", 
-        "sw_latitude": -18.672
+        "fullname": "Aeroporto Araguari, Araguari, Minas Gerais, Brazil", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511030
     }

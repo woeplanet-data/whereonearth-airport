@@ -3,28 +3,54 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              38.790, 
-              8.967
-            ], 
-            [
-              38.790, 
-              8.990
-            ], 
-            [
-              38.813, 
-              8.990
-            ], 
-            [
-              38.813, 
-              8.967
-            ], 
-            [
-              38.790, 
-              8.967
+              [
+                38.789, 
+                8.986
+              ], 
+              [
+                38.791, 
+                8.988
+              ], 
+              [
+                38.794, 
+                8.990
+              ], 
+              [
+                38.795, 
+                8.989
+              ], 
+              [
+                38.797, 
+                8.988
+              ], 
+              [
+                38.795, 
+                8.984
+              ], 
+              [
+                38.794, 
+                8.983
+              ], 
+              [
+                38.791, 
+                8.988
+              ], 
+              [
+                38.788, 
+                8.987
+              ], 
+              [
+                38.788, 
+                8.985
+              ], 
+              [
+                38.789, 
+                8.986
+              ]
             ]
           ]
         ]
@@ -32,23 +58,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512758, 
-        "name": "Bole International Airport", 
         "alias_ENG_V": [
           "ADD Airport"
         ], 
+        "name": "Bole International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=56017368", 
+          "woe:state=56013543", 
+          "woe:country=23424808", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512758, 
+        "ne_longitude": 38.797, 
+        "longitude": 38.795, 
+        "parent_woeid": 56017368, 
         "ne_latitude": 8.990, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": 38.813, 
-        "longitude": 38.801, 
-        "placetype": "Airport", 
         "iso": "ET", 
-        "date_indexed": "2010-12-02T08:52:18Z", 
-        "parent_woeid": 1313090, 
-        "latitude": 8.978, 
-        "sw_longitude": 38.790, 
-        "fullname": "Bole International Airport, Addis Ababa, Addis Ababa, Addis Ababa Zone 1, Ethiopia", 
-        "sw_latitude": 8.967
+        "sw_latitude": 8.983, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 8.987, 
+        "sw_longitude": 38.788, 
+        "fullname": "Bole International Airport, Addis Ababa, Addis Ababa, Ethiopia", 
+        "iata_code": "ADD", 
+        "date_indexed": "2010-12-02T08:52:18Z"
       }, 
       "id": 12512758
     }

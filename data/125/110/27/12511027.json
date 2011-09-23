@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511027, 
+        "placetype": "airport", 
         "name": "Aeroporto Aracuai", 
         "alias_ENG_P": [
           "Aracuai Airport"
         ], 
-        "ne_latitude": -16.847, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12579437", 
+          "woe:state=2344856", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511027, 
         "ne_longitude": -42.041, 
         "longitude": -42.046, 
-        "placetype": "Airport", 
+        "parent_woeid": 12579437, 
+        "ne_latitude": -16.847, 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 456046, 
+        "sw_latitude": -16.856, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -16.851, 
         "sw_longitude": -42.050, 
-        "fullname": "Aeroporto Aracuai, Ara\u00e7ua\u00ed, Minas Gerais, Ara\u00e7ua\u00ed, Brazil", 
-        "sw_latitude": -16.856
+        "fullname": "Aeroporto Aracuai, Ara\u00e7ua\u00ed, Minas Gerais, Brazil", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511027
     }

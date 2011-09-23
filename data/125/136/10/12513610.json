@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513610, 
+        "placetype": "airport", 
         "name": "Jharsuguda Airport", 
-        "ne_latitude": 21.917, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12586611", 
+          "woe:state=2345755", 
+          "woe:country=23424848", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513610, 
         "ne_longitude": 84.055, 
         "longitude": 84.050, 
-        "placetype": "Airport", 
+        "parent_woeid": 12586611, 
+        "ne_latitude": 21.917, 
         "iso": "IN", 
-        "date_indexed": "2010-12-02T09:26:27Z", 
-        "parent_woeid": 29048531, 
+        "sw_latitude": 21.908, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 21.913, 
         "sw_longitude": 84.045, 
-        "fullname": "Jharsuguda Airport, Talmal, Orissa, Jharsuguda, India", 
-        "sw_latitude": 21.908
+        "fullname": "Jharsuguda Airport, Talmal, Orissa, India", 
+        "date_indexed": "2010-12-02T09:26:27Z"
       }, 
       "id": 12513610
     }

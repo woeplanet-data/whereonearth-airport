@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522120, 
-        "name": "Thermal Airport", 
         "alias_ENG_V": [
           "TRM"
         ], 
-        "ne_latitude": 33.587, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Thermal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587702", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522120, 
         "ne_longitude": -116.148, 
         "longitude": -116.154, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587702, 
+        "ne_latitude": 33.587, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2446332, 
+        "sw_latitude": 33.578, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 33.582, 
         "sw_longitude": -116.159, 
-        "fullname": "Thermal Airport, Martinez, California, Riverside, United States", 
-        "sw_latitude": 33.578
+        "fullname": "Thermal Airport, Martinez, California, United States", 
+        "iata_code": "TRM", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12522120
     }

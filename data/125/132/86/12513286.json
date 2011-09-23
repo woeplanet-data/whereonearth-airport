@@ -3,28 +3,98 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              23.709, 
-              37.882
-            ], 
-            [
-              23.709, 
-              37.905
-            ], 
-            [
-              23.738, 
-              37.905
-            ], 
-            [
-              23.738, 
-              37.882
-            ], 
-            [
-              23.709, 
-              37.882
+              [
+                23.724, 
+                37.888
+              ], 
+              [
+                23.723, 
+                37.889
+              ], 
+              [
+                23.718, 
+                37.891
+              ], 
+              [
+                23.716, 
+                37.895
+              ], 
+              [
+                23.719, 
+                37.895
+              ], 
+              [
+                23.721, 
+                37.899
+              ], 
+              [
+                23.723, 
+                37.899
+              ], 
+              [
+                23.726, 
+                37.900
+              ], 
+              [
+                23.729, 
+                37.901
+              ], 
+              [
+                23.730, 
+                37.897
+              ], 
+              [
+                23.732, 
+                37.894
+              ], 
+              [
+                23.734, 
+                37.891
+              ], 
+              [
+                23.735, 
+                37.891
+              ], 
+              [
+                23.735, 
+                37.889
+              ], 
+              [
+                23.731, 
+                37.889
+              ], 
+              [
+                23.730, 
+                37.883
+              ], 
+              [
+                23.730, 
+                37.881
+              ], 
+              [
+                23.730, 
+                37.880
+              ], 
+              [
+                23.727, 
+                37.881
+              ], 
+              [
+                23.726, 
+                37.882
+              ], 
+              [
+                23.725, 
+                37.884
+              ], 
+              [
+                23.724, 
+                37.888
+              ]
             ]
           ]
         ]
@@ -32,23 +102,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513286, 
-        "name": "Eleftherios Venizelos International Airport", 
         "alias_ENG_V": [
           "ATH"
         ], 
-        "ne_latitude": 37.905, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": 23.738, 
-        "longitude": 23.723, 
-        "placetype": "Airport", 
+        "name": "Eleftherios Venizelos International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=24543601", 
+          "woe:county=24543541", 
+          "woe:state=12577879", 
+          "woe:country=23424833", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513286, 
+        "ne_longitude": 23.735, 
+        "longitude": 23.726, 
+        "parent_woeid": 24543601, 
+        "ne_latitude": 37.901, 
         "iso": "GR", 
-        "date_indexed": "2010-12-02T16:52:14Z", 
-        "parent_woeid": 949114, 
-        "latitude": 37.894, 
-        "sw_longitude": 23.709, 
-        "fullname": "Eleftherios Venizelos International Airport, Kalamaki Alimos, Attiki, Athina, Greece", 
-        "sw_latitude": 37.882
+        "sw_latitude": 37.880, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 37.892, 
+        "sw_longitude": 23.716, 
+        "fullname": "Eleftherios Venizelos International Airport, Kalamaki Alimos, Attiki, Greece", 
+        "iata_code": "ATH", 
+        "date_indexed": "2010-12-02T16:52:14Z"
       }, 
       "id": 12513286
     }

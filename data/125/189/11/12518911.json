@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518911, 
-        "name": "Boyne City Municipal Airport", 
         "alias_ENG_V": [
           "N98"
         ], 
-        "ne_latitude": 45.212, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Boyne City Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588728", 
+          "woe:state=2347581", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518911, 
         "ne_longitude": -84.984, 
         "longitude": -84.995, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588728, 
+        "ne_latitude": 45.212, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2367717, 
+        "sw_latitude": 45.205, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.212, 
         "sw_longitude": -84.998, 
-        "fullname": "Boyne City Municipal Airport, Boyne City, Michigan, Charlevoix, United States", 
-        "sw_latitude": 45.205
+        "fullname": "Boyne City Municipal Airport, Boyne City, Michigan, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518911
     }

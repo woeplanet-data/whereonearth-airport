@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523989, 
-        "name": "Wycombe Air Park", 
         "alias_ENG_V": [
           "HYC Airport"
         ], 
-        "ne_latitude": 51.617, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Wycombe Air Park", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=12695881", 
+          "woe:county=12602166", 
+          "woe:state=24554868", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523989, 
         "ne_longitude": -0.794, 
         "longitude": -0.801, 
-        "placetype": "Airport", 
+        "parent_woeid": 12695881, 
+        "ne_latitude": 51.617, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:21:01Z", 
-        "parent_woeid": 22342, 
+        "sw_latitude": 51.608, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.612, 
         "sw_longitude": -0.808, 
-        "fullname": "Wycombe Air Park, Handy Cross, England, Buckinghamshire, United Kingdom", 
-        "sw_latitude": 51.608
+        "fullname": "Wycombe Air Park, Handy Cross, England, United Kingdom", 
+        "iata_code": "HYC", 
+        "date_indexed": "2010-12-02T12:21:01Z"
       }, 
       "id": 12523989
     }

@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515337, 
+        "placetype": "airport", 
         "name": "Leznica Wielka Airport", 
-        "ne_latitude": 52.015, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12616817", 
+          "woe:county=12591210", 
+          "woe:state=12577937", 
+          "woe:country=23424923", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515337, 
         "ne_longitude": 19.158, 
         "longitude": 19.151, 
-        "placetype": "Airport", 
+        "parent_woeid": 12616817, 
+        "ne_latitude": 52.015, 
         "iso": "PL", 
-        "date_indexed": "2010-12-02T12:12:45Z", 
-        "parent_woeid": 504565, 
+        "sw_latitude": 52.006, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 52.010, 
         "sw_longitude": 19.143, 
         "fullname": "Leznica Wielka Airport, Lodz, Zgierz County, Poland", 
-        "sw_latitude": 52.006
+        "date_indexed": "2010-12-02T12:12:45Z"
       }, 
       "id": 12515337
     }

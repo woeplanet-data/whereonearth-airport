@@ -3,28 +3,34 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              133.882, 
-              -23.818
-            ], 
-            [
-              133.882, 
-              -23.796
-            ], 
-            [
-              133.923, 
-              -23.796
-            ], 
-            [
-              133.923, 
-              -23.818
-            ], 
-            [
-              133.882, 
-              -23.818
+              [
+                133.903, 
+                -23.802
+              ], 
+              [
+                133.901, 
+                -23.801
+              ], 
+              [
+                133.902, 
+                -23.801
+              ], 
+              [
+                133.904, 
+                -23.802
+              ], 
+              [
+                133.903, 
+                -23.803
+              ], 
+              [
+                133.903, 
+                -23.802
+              ]
             ]
           ]
         ]
@@ -32,23 +38,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510584, 
-        "name": "Alice Springs Airport", 
         "alias_ENG_V": [
           "ASP"
         ], 
-        "ne_latitude": -23.796, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": 133.923, 
+        "name": "Alice Springs Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:suburb=55864474", 
+          "woe:county=55864163", 
+          "woe:state=2344701", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510584, 
+        "ne_longitude": 133.904, 
         "longitude": 133.903, 
-        "placetype": "Airport", 
-        "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
         "parent_woeid": 55864474, 
+        "ne_latitude": -23.801, 
+        "iso": "AU", 
+        "sw_latitude": -23.803, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -23.802, 
-        "sw_longitude": 133.882, 
-        "fullname": "Alice Springs Airport, Alice Springs, Northern Territory, Alice Springs, Australia", 
-        "sw_latitude": -23.818
+        "sw_longitude": 133.901, 
+        "fullname": "Alice Springs Airport, Alice Springs, Northern Territory, Australia", 
+        "iata_code": "ASP", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 12510584
     }

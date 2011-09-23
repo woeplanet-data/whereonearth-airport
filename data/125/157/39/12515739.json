@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515739, 
+        "placetype": "airport", 
         "name": "Ary Airport", 
-        "ne_latitude": 62.339, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597645", 
+          "woe:state=2346881", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515739, 
         "ne_longitude": 117.688, 
         "longitude": 117.678, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597645, 
+        "ne_latitude": 62.339, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2034553, 
+        "sw_latitude": 62.330, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 62.334, 
         "sw_longitude": 117.668, 
         "fullname": "Ary Airport, Sakha, Suntarsky, Russia", 
-        "sw_latitude": 62.330
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12515739
     }

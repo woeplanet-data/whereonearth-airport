@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513728, 
+        "placetype": "airport", 
         "name": "Hamadan Mil Airport", 
-        "ne_latitude": 35.218, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345774", 
+          "woe:country=23424851", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513728, 
         "ne_longitude": 48.667, 
         "longitude": 48.661, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345774, 
+        "ne_latitude": 35.218, 
         "iso": "IR", 
-        "date_indexed": "2010-12-02T08:53:52Z", 
-        "parent_woeid": 2232665, 
+        "sw_latitude": 35.209, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.214, 
         "sw_longitude": 48.656, 
         "fullname": "Hamadan Mil Airport, Kabudarahang, Hamadan, Iran", 
-        "sw_latitude": 35.209
+        "date_indexed": "2010-12-02T08:53:52Z"
       }, 
       "id": 12513728
     }

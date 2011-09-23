@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522044, 
+        "placetype": "airport", 
         "name": "Summit Airpark", 
-        "ne_latitude": 39.526, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12587800", 
+          "woe:state=2347566", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522044, 
         "ne_longitude": -75.716, 
         "longitude": -75.721, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587800, 
+        "ne_latitude": 39.526, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2455269, 
+        "sw_latitude": 39.517, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 39.521, 
         "sw_longitude": -75.727, 
-        "fullname": "Summit Airpark, Mount Pleasant, Delaware, New Castle, United States", 
-        "sw_latitude": 39.517
+        "fullname": "Summit Airpark, Mount Pleasant, Delaware, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12522044
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516262, 
+        "placetype": "airport", 
         "name": "Krasnovishersk Airport", 
-        "ne_latitude": 60.411, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599043", 
+          "woe:state=20070511", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516262, 
         "ne_longitude": 57.135, 
         "longitude": 57.126, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599043, 
+        "ne_latitude": 60.411, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2121639, 
+        "sw_latitude": 60.402, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 60.406, 
         "sw_longitude": 57.117, 
-        "fullname": "Krasnovishersk Airport, Krasnovishersk, Permskiy Kray, Krasnovishersky, Russia", 
-        "sw_latitude": 60.402
+        "fullname": "Krasnovishersk Airport, Krasnovishersk, Permskiy Kray, Russia", 
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516262
     }

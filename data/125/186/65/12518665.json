@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518665, 
+        "placetype": "airport", 
         "name": "Arrowhead Airport", 
-        "ne_latitude": 35.159, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12589675", 
+          "woe:state=2347595", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518665, 
         "ne_longitude": -95.614, 
         "longitude": -95.620, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589675, 
+        "ne_latitude": 35.159, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:15Z", 
-        "parent_woeid": 2374182, 
+        "sw_latitude": 35.150, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.154, 
         "sw_longitude": -95.626, 
-        "fullname": "Arrowhead Airport, Canadian, Oklahoma, Pittsburg, United States", 
-        "sw_latitude": 35.150
+        "fullname": "Arrowhead Airport, Canadian, Oklahoma, United States", 
+        "date_indexed": "2010-12-02T18:39:15Z"
       }, 
       "id": 12518665
     }

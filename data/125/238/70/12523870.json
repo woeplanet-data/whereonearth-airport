@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523870, 
-        "name": "Drama Airport", 
         "alias_ENG_V": [
           "DRM"
         ], 
-        "ne_latitude": 41.155, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Drama Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=24544475", 
+          "woe:county=12591086", 
+          "woe:state=12577878", 
+          "woe:country=23424833", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523870, 
         "ne_longitude": 24.139, 
         "longitude": 24.133, 
-        "placetype": "Airport", 
+        "parent_woeid": 24544475, 
+        "ne_latitude": 41.155, 
         "iso": "GR", 
-        "date_indexed": "2010-12-02T16:52:21Z", 
-        "parent_woeid": 948715, 
+        "sw_latitude": 41.145, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.150, 
         "sw_longitude": 24.127, 
-        "fullname": "Drama Airport, Dhrama, Anatoliki Makedonia, Drama, Greece", 
-        "sw_latitude": 41.145
+        "fullname": "Drama Airport, Dhrama, Anatoliki Makedonia, Greece", 
+        "iata_code": "DRM", 
+        "date_indexed": "2010-12-02T16:52:21Z"
       }, 
       "id": 12523870
     }

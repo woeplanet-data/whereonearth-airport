@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519130, 
-        "name": "Chambersburg Municipal Airport", 
         "alias_ENG_V": [
           "N68"
         ], 
-        "ne_latitude": 39.977, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Chambersburg Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589755", 
+          "woe:state=2347597", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519130, 
         "ne_longitude": -77.638, 
         "longitude": -77.647, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589755, 
+        "ne_latitude": 39.977, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2479249, 
+        "sw_latitude": 39.969, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 39.973, 
         "sw_longitude": -77.649, 
-        "fullname": "Chambersburg Municipal Airport, Red Bridge, Pennsylvania, Franklin, United States", 
-        "sw_latitude": 39.969
+        "fullname": "Chambersburg Municipal Airport, Red Bridge, Pennsylvania, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519130
     }

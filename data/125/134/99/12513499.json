@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513499, 
+        "placetype": "airport", 
         "name": "Ranai Airport", 
-        "ne_latitude": 3.918, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=56000316", 
+          "woe:state=55949082", 
+          "woe:country=23424846", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513499, 
         "ne_longitude": 108.393, 
         "longitude": 108.388, 
-        "placetype": "Airport", 
+        "parent_woeid": 56000316, 
+        "ne_latitude": 3.918, 
         "iso": "ID", 
-        "date_indexed": "2010-12-02T16:54:32Z", 
-        "parent_woeid": 1041815, 
+        "sw_latitude": 3.909, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 3.914, 
         "sw_longitude": 108.384, 
         "fullname": "Ranai Airport, Kepulauan Riau, Natuna, Indonesia", 
-        "sw_latitude": 3.909
+        "date_indexed": "2010-12-02T16:54:32Z"
       }, 
       "id": 12513499
     }

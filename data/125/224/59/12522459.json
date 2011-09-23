@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522459, 
-        "name": "Williamsburg County Airport", 
         "alias_ENG_V": [
           "CKI Airport"
         ], 
-        "ne_latitude": 33.717, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Williamsburg County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589844", 
+          "woe:state=2347599", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522459, 
         "ne_longitude": -79.847, 
         "longitude": -79.850, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589844, 
+        "ne_latitude": 33.717, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2432829, 
+        "sw_latitude": 33.712, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 33.715, 
         "sw_longitude": -79.853, 
-        "fullname": "Williamsburg County Airport, Kingstree, South Carolina, Williamsburg, United States", 
-        "sw_latitude": 33.712
+        "fullname": "Williamsburg County Airport, Kingstree, South Carolina, United States", 
+        "iata_code": "CKI", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12522459
     }

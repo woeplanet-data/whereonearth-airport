@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521973, 
-        "name": "St Maries Municipal Airport", 
         "alias_ENG_V": [
           "S72"
         ], 
-        "ne_latitude": 47.329, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "St Maries Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588038", 
+          "woe:state=2347571", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521973, 
         "ne_longitude": -116.569, 
         "longitude": -116.585, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588038, 
+        "ne_latitude": 47.329, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2487033, 
+        "sw_latitude": 47.323, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.328, 
         "sw_longitude": -116.586, 
-        "fullname": "St Maries Municipal Airport, St. Maries, Idaho, Benewah, United States", 
-        "sw_latitude": 47.323
+        "fullname": "St Maries Municipal Airport, St. Maries, Idaho, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521973
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524551, 
-        "name": "Allakaket Airport", 
         "alias_ENG_V": [
           "AET"
         ], 
-        "ne_latitude": 66.555, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Allakaket Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587579", 
+          "woe:state=2347560", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524551, 
         "ne_longitude": -152.639, 
         "longitude": -152.650, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587579, 
+        "ne_latitude": 66.555, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 23417079, 
+        "sw_latitude": 66.545, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 66.550, 
         "sw_longitude": -152.661, 
-        "fullname": "Allakaket Airport, New Allakaket, Alaska, Yukon-Koyukuk Census Area, United States", 
-        "sw_latitude": 66.545
+        "fullname": "Allakaket Airport, New Allakaket, Alaska, United States", 
+        "iata_code": "AET", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12524551
     }

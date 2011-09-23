@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513005, 
+        "placetype": "airport", 
         "name": "Kutaisi West Airport", 
-        "ne_latitude": 42.259, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=20070390", 
+          "woe:country=23424823", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513005, 
         "ne_longitude": 42.623, 
         "longitude": 42.617, 
-        "placetype": "Airport", 
+        "parent_woeid": 20070390, 
+        "ne_latitude": 42.259, 
         "iso": "GE", 
-        "date_indexed": "2010-12-02T17:51:59Z", 
-        "parent_woeid": 1964463, 
+        "sw_latitude": 42.250, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.255, 
         "sw_longitude": 42.611, 
         "fullname": "Kutaisi West Airport, Tsqaltubo, Georgia", 
-        "sw_latitude": 42.250
+        "date_indexed": "2010-12-02T17:51:59Z"
       }, 
       "id": 12513005
     }

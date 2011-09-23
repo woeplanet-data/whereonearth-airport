@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512749, 
+        "placetype": "airport", 
         "name": "Vosa Airport", 
-        "ne_latitude": 58.352, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=29389877", 
+          "woe:state=2345289", 
+          "woe:country=23424805", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512749, 
         "ne_longitude": 25.515, 
         "longitude": 25.506, 
-        "placetype": "Airport", 
+        "parent_woeid": 29389877, 
+        "ne_latitude": 58.352, 
         "iso": "EE", 
-        "date_indexed": "2010-12-02T16:43:34Z", 
-        "parent_woeid": 844613, 
+        "sw_latitude": 58.343, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 58.348, 
         "sw_longitude": 25.497, 
         "fullname": "Vosa Airport, Viljandi County, Parsti Parish, Estonia", 
-        "sw_latitude": 58.343
+        "date_indexed": "2010-12-02T16:43:34Z"
       }, 
       "id": 12512749
     }

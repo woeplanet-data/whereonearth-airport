@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518572, 
-        "name": "Alice International Airport", 
         "alias_ENG_V": [
           "Alice Airport"
         ], 
-        "ne_latitude": 27.747, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Alice International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590131", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518572, 
         "ne_longitude": -98.017, 
         "longitude": -98.033, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590131, 
+        "ne_latitude": 27.747, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2353153, 
+        "sw_latitude": 27.729, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 27.740, 
         "sw_longitude": -98.036, 
-        "fullname": "Alice International Airport, Alice, Texas, Jim Wells, United States", 
-        "sw_latitude": 27.729
+        "fullname": "Alice International Airport, Alice, Texas, United States", 
+        "iata_code": "ALI", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518572
     }

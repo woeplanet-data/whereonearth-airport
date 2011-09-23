@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521543, 
-        "name": "Red Lodge Airport", 
         "alias_ENG_V": [
           "Red"
         ], 
-        "ne_latitude": 45.191, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Red Lodge Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589085", 
+          "woe:state=2347585", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521543, 
         "ne_longitude": -109.253, 
         "longitude": -109.254, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589085, 
+        "ne_latitude": 45.191, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2479389, 
+        "sw_latitude": 45.178, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.187, 
         "sw_longitude": -109.259, 
-        "fullname": "Red Lodge Airport, Red Lodge, Montana, Carbon, United States", 
-        "sw_latitude": 45.178
+        "fullname": "Red Lodge Airport, Red Lodge, Montana, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521543
     }

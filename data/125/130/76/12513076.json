@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513076, 
+        "placetype": "airport", 
         "name": "Darmstadt Army Air Field", 
-        "ne_latitude": 49.860, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=26822103", 
+          "woe:county=12597057", 
+          "woe:state=2345485", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513076, 
         "ne_longitude": 8.596, 
         "longitude": 8.589, 
-        "placetype": "Airport", 
+        "parent_woeid": 26822103, 
+        "ne_latitude": 49.860, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:24Z", 
-        "parent_woeid": 643787, 
+        "sw_latitude": 49.850, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.855, 
         "sw_longitude": 8.582, 
-        "fullname": "Darmstadt Army Air Field, Darmstadt, Hesse, Stadtkreis Darmstadt, Germany", 
-        "sw_latitude": 49.850
+        "fullname": "Darmstadt Army Air Field, Darmstadt, Hesse, Germany", 
+        "date_indexed": "2010-12-02T09:50:24Z"
       }, 
       "id": 12513076
     }

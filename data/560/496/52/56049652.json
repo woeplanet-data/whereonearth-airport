@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 56049652, 
+        "placetype": "airport", 
         "name": "Pranburi Airport", 
-        "ne_latitude": 12.392, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=28341572", 
+          "woe:state=2347181", 
+          "woe:country=23424960", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56049652, 
         "ne_longitude": 99.962, 
         "longitude": 99.954, 
-        "placetype": "Airport", 
+        "parent_woeid": 28341572, 
+        "ne_latitude": 12.392, 
         "iso": "TH", 
-        "date_indexed": "2010-12-02T17:05:34Z", 
-        "parent_woeid": 1217067, 
+        "sw_latitude": 12.385, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 12.387, 
         "sw_longitude": 99.951, 
-        "fullname": "Pranburi Airport, Ban Pak Nam Pran, Prachuap Khiri Khan, Pran Buri, Thailand", 
-        "sw_latitude": 12.385
+        "fullname": "Pranburi Airport, Ban Pak Nam Pran, Prachuap Khiri Khan, Thailand", 
+        "date_indexed": "2010-12-02T17:05:34Z"
       }, 
       "id": 56049652
     }

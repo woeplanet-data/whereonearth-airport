@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519013, 
-        "name": "California City Municipal Airport", 
         "alias_ENG_V": [
           "California City Airport"
         ], 
-        "ne_latitude": 35.155, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "California City Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587684", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519013, 
         "ne_longitude": -118.004, 
         "longitude": -118.016, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587684, 
+        "ne_latitude": 35.155, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2373295, 
+        "sw_latitude": 35.147, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.149, 
         "sw_longitude": -118.030, 
-        "fullname": "California City Municipal Airport, California City, California, Kern, United States", 
-        "sw_latitude": 35.147
+        "fullname": "California City Municipal Airport, California City, California, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519013
     }

@@ -32,29 +32,35 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511114, 
-        "name": "Aeroporto Dracena", 
-        "alias_ENG_P": [
-          "Dracena Airport"
-        ], 
-        "ne_latitude": -21.456, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "QDC"
         ], 
+        "name": "Aeroporto Dracena", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Dracena Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12581957", 
+          "woe:state=2344868", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511114, 
         "ne_longitude": -51.601, 
         "longitude": -51.606, 
-        "placetype": "Airport", 
+        "parent_woeid": 12581957, 
+        "ne_latitude": -21.456, 
         "alias_POR_V": [
           "Aeroporto QDC"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 436504, 
+        "sw_latitude": -21.465, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -21.461, 
         "sw_longitude": -51.611, 
-        "fullname": "Aeroporto Dracena, Jamaica, Sao Paulo, Dracena, Brazil", 
-        "sw_latitude": -21.465
+        "fullname": "Aeroporto Dracena, Jamaica, Sao Paulo, Brazil", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511114
     }

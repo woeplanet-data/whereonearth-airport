@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513363, 
-        "name": "Tela Airport", 
         "alias_ENG_V": [
           "TEA"
         ], 
-        "ne_latitude": 15.772, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Tela Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26813853", 
+          "woe:state=2345623", 
+          "woe:country=23424841", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513363, 
         "ne_longitude": -87.447, 
         "longitude": -87.452, 
-        "placetype": "Airport", 
+        "parent_woeid": 26813853, 
+        "ne_latitude": 15.772, 
         "iso": "HN", 
-        "date_indexed": "2010-12-02T19:21:06Z", 
-        "parent_woeid": 107697, 
+        "sw_latitude": 15.763, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 15.767, 
         "sw_longitude": -87.456, 
-        "fullname": "Tela Airport, Tela, Atl\u00e1ntida, Tela, Honduras", 
-        "sw_latitude": 15.763
+        "fullname": "Tela Airport, Tela, Atl\u00e1ntida, Honduras", 
+        "iata_code": "TEA", 
+        "date_indexed": "2010-12-02T19:21:06Z"
       }, 
       "id": 12513363
     }

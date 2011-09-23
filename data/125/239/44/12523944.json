@@ -32,29 +32,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "NOR", 
-        "woeid": 12523944, 
-        "name": "Namsos lufthavn", 
-        "alias_ENG_P": [
-          "Namsos Airport"
-        ], 
-        "ne_latitude": 64.474, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "OSY Airport"
         ], 
+        "name": "Namsos lufthavn", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Namsos Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12592729", 
+          "woe:state=2346393", 
+          "woe:country=23424910", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523944, 
         "ne_longitude": 11.587, 
         "longitude": 11.570, 
-        "placetype": "Airport", 
+        "parent_woeid": 12592729, 
+        "ne_latitude": 64.474, 
         "iso": "NO", 
-        "date_indexed": "2010-12-02T10:20:58Z", 
-        "parent_woeid": 864289, 
+        "sw_latitude": 64.471, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 64.472, 
         "sw_longitude": 11.570, 
-        "fullname": "Namsos lufthavn, Spillum, Nord-Trondelag, Namsos Kommune, Norway", 
+        "fullname": "Namsos lufthavn, Spillum, Nord-Trondelag, Norway", 
+        "iata_code": "OSY", 
         "alias_NOR_V": [
           "OSY Lufthavn"
         ], 
-        "sw_latitude": 64.471
+        "date_indexed": "2010-12-02T10:20:58Z"
       }, 
       "id": 12523944
     }

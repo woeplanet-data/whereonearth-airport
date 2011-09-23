@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 56049656, 
+        "placetype": "airport", 
         "name": "Doi Saket Airport", 
-        "ne_latitude": 18.876, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=28340826", 
+          "woe:state=2347129", 
+          "woe:country=23424960", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56049656, 
         "ne_longitude": 99.164, 
         "longitude": 99.160, 
-        "placetype": "Airport", 
+        "parent_woeid": 28340826, 
+        "ne_latitude": 18.876, 
         "iso": "TH", 
-        "date_indexed": "2010-12-02T17:05:34Z", 
-        "parent_woeid": 1225970, 
+        "sw_latitude": 18.869, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 18.870, 
         "sw_longitude": 99.159, 
-        "fullname": "Doi Saket Airport, Doi Saket, Chiang Mai, Doi Saket, Thailand", 
-        "sw_latitude": 18.869
+        "fullname": "Doi Saket Airport, Doi Saket, Chiang Mai, Thailand", 
+        "date_indexed": "2010-12-02T17:05:34Z"
       }, 
       "id": 56049656
     }

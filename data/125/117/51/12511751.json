@@ -3,28 +3,34 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -79.942, 
-              44.678
-            ], 
-            [
-              -79.942, 
-              44.696
-            ], 
-            [
-              -79.920, 
-              44.696
-            ], 
-            [
-              -79.920, 
-              44.678
-            ], 
-            [
-              -79.942, 
-              44.678
+              [
+                -79.931, 
+                44.690
+              ], 
+              [
+                -79.931, 
+                44.690
+              ], 
+              [
+                -79.930, 
+                44.690
+              ], 
+              [
+                -79.930, 
+                44.687
+              ], 
+              [
+                -79.931, 
+                44.690
+              ], 
+              [
+                -79.931, 
+                44.690
+              ]
             ]
           ]
         ]
@@ -32,23 +38,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511751, 
-        "name": "Huronia Municipal Airport", 
         "alias_ENG_V": [
           "Midland Airport"
         ], 
-        "ne_latitude": 44.696, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -79.920, 
-        "longitude": -79.931, 
-        "placetype": "Airport", 
+        "name": "Huronia Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375066", 
+          "woe:state=2344922", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511751, 
+        "ne_longitude": -79.930, 
+        "longitude": -79.930, 
+        "parent_woeid": 29375066, 
+        "ne_latitude": 44.690, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 23401618, 
-        "latitude": 44.690, 
-        "sw_longitude": -79.942, 
-        "fullname": "Huronia Municipal Airport, Wyevale, Ontario, Simcoe, Canada", 
-        "sw_latitude": 44.678
+        "sw_latitude": 44.687, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 44.689, 
+        "sw_longitude": -79.931, 
+        "fullname": "Huronia Municipal Airport, Wyevale, Ontario, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12511751
     }

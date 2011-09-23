@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "FRE", 
-        "woeid": 56051838, 
+        "placetype": "airport", 
         "name": "A\u00e9rodrome de Redon", 
-        "ne_latitude": 47.702, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12637626", 
+          "woe:county=12597138", 
+          "woe:state=7153313", 
+          "woe:country=23424819", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56051838, 
         "ne_longitude": -2.032, 
         "longitude": -2.037, 
-        "placetype": "Airport", 
+        "parent_woeid": 12637626, 
+        "ne_latitude": 47.702, 
         "iso": "FR", 
-        "date_indexed": "2010-12-02T12:04:01Z", 
-        "parent_woeid": 619009, 
+        "sw_latitude": 47.694, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.699, 
         "sw_longitude": -2.045, 
-        "fullname": "A\u00e9rodrome de Redon, Redon, Brittany, Ille-et-Vilaine, France", 
+        "fullname": "A\u00e9rodrome de Redon, Redon, Brittany, France", 
         "alias_FRE_S": [
           "Aerodrome de Redon"
         ], 
-        "sw_latitude": 47.694
+        "date_indexed": "2010-12-02T12:04:01Z"
       }, 
       "id": 56051838
     }

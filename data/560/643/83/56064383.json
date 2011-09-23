@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 56064383, 
-        "name": "Bellary Airport", 
         "alias_ENG_V": [
           "BEP"
         ], 
-        "ne_latitude": 15.172, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Bellary Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12586574", 
+          "woe:state=2345753", 
+          "woe:country=23424848", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56064383, 
         "ne_longitude": 76.892, 
         "longitude": 76.883, 
-        "placetype": "Airport", 
+        "parent_woeid": 12586574, 
+        "ne_latitude": 15.172, 
         "iso": "IN", 
-        "date_indexed": "2010-12-02T09:26:27Z", 
-        "parent_woeid": 2295218, 
+        "sw_latitude": 15.154, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 15.163, 
         "sw_longitude": 76.873, 
-        "fullname": "Bellary Airport, Bellary, Karnataka, Bellary, India", 
-        "sw_latitude": 15.154
+        "fullname": "Bellary Airport, Bellary, Karnataka, India", 
+        "date_indexed": "2010-12-02T09:26:27Z"
       }, 
       "id": 56064383
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524224, 
-        "name": "Sturdee Airport", 
         "alias_ENG_V": [
           "YTC Airport"
         ], 
-        "ne_latitude": 57.205, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Sturdee Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375227", 
+          "woe:state=2344916", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524224, 
         "ne_longitude": -127.142, 
         "longitude": -127.150, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375227, 
+        "ne_latitude": 57.205, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 9321, 
+        "sw_latitude": 57.195, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 57.200, 
         "sw_longitude": -127.158, 
-        "fullname": "Sturdee Airport, Bear Lake, British Columbia, Stikine, Canada", 
-        "sw_latitude": 57.195
+        "fullname": "Sturdee Airport, Bear Lake, British Columbia, Canada", 
+        "iata_code": "YTC", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12524224
     }

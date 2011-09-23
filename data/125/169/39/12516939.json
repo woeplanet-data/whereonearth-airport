@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516939, 
+        "placetype": "airport", 
         "name": "Stavropol West Airport", 
-        "ne_latitude": 45.031, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597973", 
+          "woe:state=2346887", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516939, 
         "ne_longitude": 41.909, 
         "longitude": 41.902, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597973, 
+        "ne_latitude": 45.031, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2090300, 
+        "sw_latitude": 45.022, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.026, 
         "sw_longitude": 41.896, 
-        "fullname": "Stavropol West Airport, Stavropol', Stavropolrskiy Kray, Stavropol, Russia", 
-        "sw_latitude": 45.022
+        "fullname": "Stavropol West Airport, Stavropol', Stavropolrskiy Kray, Russia", 
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516939
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521365, 
-        "name": "Phillipsburg Municipal Airport", 
         "alias_ENG_V": [
           "PHG"
         ], 
-        "ne_latitude": 39.741, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Phillipsburg Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588444", 
+          "woe:state=2347575", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521365, 
         "ne_longitude": -99.312, 
         "longitude": -99.319, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588444, 
+        "ne_latitude": 39.741, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2471324, 
+        "sw_latitude": 39.731, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 39.741, 
         "sw_longitude": -99.323, 
-        "fullname": "Phillipsburg Municipal Airport, Phillipsburg, Kansas, Phillips, United States", 
-        "sw_latitude": 39.731
+        "fullname": "Phillipsburg Municipal Airport, Phillipsburg, Kansas, United States", 
+        "iata_code": "PHG", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521365
     }

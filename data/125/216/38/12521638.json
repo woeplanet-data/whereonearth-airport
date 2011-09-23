@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521638, 
-        "name": "Rocky Mount Wilson Airport", 
         "alias_ENG_V": [
           "RWI Airport"
         ], 
-        "ne_latitude": 35.871, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Rocky Mount Wilson Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589437", 
+          "woe:state=2347592", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521638, 
         "ne_longitude": -77.880, 
         "longitude": -77.895, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589437, 
+        "ne_latitude": 35.871, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2522257, 
+        "sw_latitude": 35.844, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.858, 
         "sw_longitude": -77.905, 
-        "fullname": "Rocky Mount Wilson Airport, Winstead Crossroads, North Carolina, Nash, United States", 
-        "sw_latitude": 35.844
+        "fullname": "Rocky Mount Wilson Airport, Winstead Crossroads, North Carolina, United States", 
+        "iata_code": "RWI", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521638
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512400, 
+        "placetype": "airport", 
         "name": "Paipa Airport", 
-        "ne_latitude": 5.772, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=26796862", 
+          "woe:state=2345052", 
+          "woe:country=23424787", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512400, 
         "ne_longitude": -73.099, 
         "longitude": -73.103, 
-        "placetype": "Airport", 
+        "parent_woeid": 26796862, 
+        "ne_latitude": 5.772, 
         "iso": "CO", 
-        "date_indexed": "2010-12-02T17:57:37Z", 
-        "parent_woeid": 368543, 
+        "sw_latitude": 5.763, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 5.768, 
         "sw_longitude": -73.108, 
-        "fullname": "Paipa Airport, Paipa, Boyaca, Paipa, Colombia", 
-        "sw_latitude": 5.763
+        "fullname": "Paipa Airport, Paipa, Boyaca, Colombia", 
+        "date_indexed": "2010-12-02T17:57:37Z"
       }, 
       "id": 12512400
     }

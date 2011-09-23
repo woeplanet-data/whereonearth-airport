@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517723, 
+        "placetype": "airport", 
         "name": "Saanen Airport", 
-        "ne_latitude": 46.493, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12682700", 
+          "woe:county=12593090", 
+          "woe:state=2347087", 
+          "woe:country=23424957", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517723, 
         "ne_longitude": 7.256, 
         "longitude": 7.249, 
-        "placetype": "Airport", 
+        "parent_woeid": 12682700, 
+        "ne_latitude": 46.493, 
         "iso": "CH", 
-        "date_indexed": "2010-12-02T18:20:52Z", 
-        "parent_woeid": 783978, 
+        "sw_latitude": 46.484, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.489, 
         "sw_longitude": 7.243, 
-        "fullname": "Saanen Airport, Saanen, Canton of Berne, Saanen, Switzerland", 
-        "sw_latitude": 46.484
+        "fullname": "Saanen Airport, Saanen, Canton of Berne, Switzerland", 
+        "date_indexed": "2010-12-02T18:20:52Z"
       }, 
       "id": 12517723
     }

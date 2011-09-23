@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515040, 
-        "name": "Ouloup Airport", 
         "alias_ENG_V": [
           "UVE"
         ], 
-        "ne_latitude": -20.550, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Ouloup Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=24551440", 
+          "woe:state=24549805", 
+          "woe:country=23424903", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515040, 
         "ne_longitude": 166.576, 
         "longitude": 166.571, 
-        "placetype": "Airport", 
+        "parent_woeid": 24551440, 
+        "ne_latitude": -20.550, 
         "iso": "NC", 
-        "date_indexed": "2010-12-02T17:02:10Z", 
-        "parent_woeid": 1049678, 
+        "sw_latitude": -20.559, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -20.554, 
         "sw_longitude": 166.566, 
-        "fullname": "Ouloup Airport, Fayaou\u00e9, Loyaute, Ouvea, New Caledonia", 
-        "sw_latitude": -20.559
+        "fullname": "Ouloup Airport, Fayaou\u00e9, Loyaute, New Caledonia", 
+        "iata_code": "UVE", 
+        "date_indexed": "2010-12-02T17:02:10Z"
       }, 
       "id": 12515040
     }

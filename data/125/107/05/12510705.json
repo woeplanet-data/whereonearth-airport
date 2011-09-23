@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510705, 
-        "name": "Kempsey Airport", 
         "alias_ENG_V": [
           "KPS"
         ], 
-        "ne_latitude": -31.067, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Kempsey Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55864427", 
+          "woe:state=2344700", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510705, 
         "ne_longitude": 152.775, 
         "longitude": 152.766, 
-        "placetype": "Airport", 
+        "parent_woeid": 55864427, 
+        "ne_latitude": -31.067, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1094024, 
+        "sw_latitude": -31.077, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -31.068, 
         "sw_longitude": 152.758, 
-        "fullname": "Kempsey Airport, Aldavilla, New South Wales, Kempsey, Australia", 
-        "sw_latitude": -31.077
+        "fullname": "Kempsey Airport, Aldavilla, New South Wales, Australia", 
+        "iata_code": "KPS", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 12510705
     }

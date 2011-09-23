@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514390, 
+        "placetype": "airport", 
         "name": "Koslstek Airport", 
-        "ne_latitude": 50.741, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345980", 
+          "woe:country=23424871", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514390, 
         "ne_longitude": 57.883, 
         "longitude": 57.876, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345980, 
+        "ne_latitude": 50.741, 
         "iso": "KZ", 
-        "date_indexed": "2010-12-02T08:54:13Z", 
-        "parent_woeid": 2264647, 
+        "sw_latitude": 50.732, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.736, 
         "sw_longitude": 57.868, 
         "fullname": "Koslstek Airport, Aqtobe, Kazakhstan", 
-        "sw_latitude": 50.732
+        "date_indexed": "2010-12-02T08:54:13Z"
       }, 
       "id": 12514390
     }

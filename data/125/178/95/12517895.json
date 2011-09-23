@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517895, 
+        "placetype": "airport", 
         "name": "Hins Airport", 
-        "ne_latitude": 40.090, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=29390606", 
+          "woe:state=2347282", 
+          "woe:country=23424969", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517895, 
         "ne_longitude": 41.370, 
         "longitude": 41.364, 
-        "placetype": "Airport", 
+        "parent_woeid": 29390606, 
+        "ne_latitude": 40.090, 
         "iso": "TR", 
-        "date_indexed": "2010-12-02T16:23:11Z", 
-        "parent_woeid": 2318184, 
+        "sw_latitude": 40.081, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.085, 
         "sw_longitude": 41.358, 
         "fullname": "Hins Airport, Erzurum, Merkez, Turkey", 
-        "sw_latitude": 40.081
+        "date_indexed": "2010-12-02T16:23:11Z"
       }, 
       "id": 12517895
     }

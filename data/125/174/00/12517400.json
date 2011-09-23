@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517400, 
+        "placetype": "airport", 
         "name": "Calvinia Airport", 
-        "ne_latitude": -31.501, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=56189506", 
+          "woe:county=56189407", 
+          "woe:state=2346985", 
+          "woe:country=23424942", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517400, 
         "ne_longitude": 19.720, 
         "longitude": 19.715, 
-        "placetype": "Airport", 
+        "parent_woeid": 56189506, 
+        "ne_latitude": -31.501, 
         "iso": "ZA", 
-        "date_indexed": "2010-12-02T08:57:46Z", 
-        "parent_woeid": 1580259, 
+        "sw_latitude": -31.510, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -31.506, 
         "sw_longitude": 19.709, 
-        "fullname": "Calvinia Airport, Calvinia, Northern Cape, Calvinia, South Africa", 
-        "sw_latitude": -31.510
+        "fullname": "Calvinia Airport, Calvinia, Northern Cape, South Africa", 
+        "date_indexed": "2010-12-02T08:57:46Z"
       }, 
       "id": 12517400
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516269, 
+        "placetype": "airport", 
         "name": "Krasnyy Kut-Yeruslan Airport", 
-        "ne_latitude": 50.974, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599232", 
+          "woe:state=2346924", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516269, 
         "ne_longitude": 46.949, 
         "longitude": 46.941, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599232, 
+        "ne_latitude": 50.974, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2035300, 
+        "sw_latitude": 50.965, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.969, 
         "sw_longitude": 46.934, 
         "fullname": "Krasnyy Kut-Yeruslan Airport, Saratovskaya Oblast, Krasnokutsky, Russia", 
-        "sw_latitude": 50.965
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516269
     }

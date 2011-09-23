@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519388, 
-        "name": "Cushing Municipal Airport", 
         "alias_ENG_V": [
           "Cushing Airport"
         ], 
-        "ne_latitude": 35.960, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Cushing Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589674", 
+          "woe:state=2347595", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519388, 
         "ne_longitude": -96.767, 
         "longitude": -96.776, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589674, 
+        "ne_latitude": 35.960, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2388473, 
+        "sw_latitude": 35.942, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.952, 
         "sw_longitude": -96.777, 
-        "fullname": "Cushing Municipal Airport, Cushing, Oklahoma, Payne, United States", 
-        "sw_latitude": 35.942
+        "fullname": "Cushing Municipal Airport, Cushing, Oklahoma, United States", 
+        "iata_code": "CUH", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519388
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522513, 
+        "placetype": "airport", 
         "name": "Woodworth Airport", 
-        "ne_latitude": 31.131, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12588635", 
+          "woe:state=2347577", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522513, 
         "ne_longitude": -92.495, 
         "longitude": -92.500, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588635, 
+        "ne_latitude": 31.131, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2523867, 
+        "sw_latitude": 31.122, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 31.126, 
         "sw_longitude": -92.505, 
-        "fullname": "Woodworth Airport, Woodworth, Louisiana, Rapides Parish, United States", 
-        "sw_latitude": 31.122
+        "fullname": "Woodworth Airport, Woodworth, Louisiana, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12522513
     }

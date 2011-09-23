@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514261, 
+        "placetype": "airport", 
         "name": "Alma Ata Northwest Airport", 
-        "ne_latitude": 43.352, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=20070180", 
+          "woe:country=23424871", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514261, 
         "ne_longitude": 76.885, 
         "longitude": 76.879, 
-        "placetype": "Airport", 
+        "parent_woeid": 20070180, 
+        "ne_latitude": 43.352, 
         "iso": "KZ", 
-        "date_indexed": "2010-12-02T08:54:13Z", 
-        "parent_woeid": 2264307, 
+        "sw_latitude": 43.343, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.348, 
         "sw_longitude": 76.873, 
         "fullname": "Alma Ata Northwest Airport, Almaty, Kazakhstan", 
-        "sw_latitude": 43.343
+        "date_indexed": "2010-12-02T08:54:13Z"
       }, 
       "id": 12514261
     }

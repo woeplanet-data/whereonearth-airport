@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388444, 
-        "name": "Salem Airfield", 
         "alias_ENG_V": [
           "Nj74"
         ], 
-        "ne_latitude": 39.566, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Salem Airfield", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589274", 
+          "woe:state=2347589", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388444, 
         "ne_longitude": -75.446, 
         "longitude": -75.449, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589274, 
+        "ne_latitude": 39.566, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2477939, 
+        "sw_latitude": 39.560, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 39.560, 
         "sw_longitude": -75.452, 
-        "fullname": "Salem Airfield, Quinton, New Jersey, Salem, United States", 
-        "sw_latitude": 39.560
+        "fullname": "Salem Airfield, Quinton, New Jersey, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388444
     }

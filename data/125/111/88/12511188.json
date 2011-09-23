@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511188, 
+        "placetype": "airport", 
         "name": "Aeroporto Ituacu", 
         "alias_ENG_P": [
           "Ituacu Airport"
         ], 
-        "ne_latitude": -13.823, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12578432", 
+          "woe:state=2344848", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511188, 
         "ne_longitude": -41.298, 
         "longitude": -41.303, 
-        "placetype": "Airport", 
+        "parent_woeid": 12578432, 
+        "ne_latitude": -13.823, 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 457376, 
+        "sw_latitude": -13.832, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -13.828, 
         "sw_longitude": -41.307, 
-        "fullname": "Aeroporto Ituacu, Itua\u00e7u, Bahia, Itua\u00e7u, Brazil", 
-        "sw_latitude": -13.832
+        "fullname": "Aeroporto Ituacu, Itua\u00e7u, Bahia, Brazil", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511188
     }

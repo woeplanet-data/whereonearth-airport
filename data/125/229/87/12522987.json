@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522987, 
-        "name": "Oranjemund Airport", 
         "alias_ENG_V": [
           "OMD"
         ], 
-        "ne_latitude": -28.591, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Oranjemund Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55921123", 
+          "woe:state=20069838", 
+          "woe:country=23424987", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522987, 
         "ne_longitude": 16.449, 
         "longitude": 16.444, 
-        "placetype": "Airport", 
+        "parent_woeid": 55921123, 
+        "ne_latitude": -28.591, 
         "iso": "NA", 
-        "date_indexed": "2010-12-02T07:50:17Z", 
-        "parent_woeid": 1466141, 
+        "sw_latitude": -28.600, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -28.596, 
         "sw_longitude": 16.438, 
-        "fullname": "Oranjemund Airport, Oranjemund, Karas, Oranjemund, Namibia", 
-        "sw_latitude": -28.600
+        "fullname": "Oranjemund Airport, Oranjemund, Karas, Namibia", 
+        "iata_code": "OMD", 
+        "date_indexed": "2010-12-02T07:50:17Z"
       }, 
       "id": 12522987
     }

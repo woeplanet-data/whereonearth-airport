@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524473, 
-        "name": "El Charco Airport", 
         "alias_ENG_V": [
           "ECR"
         ], 
-        "ne_latitude": 2.505, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "El Charco Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26797330", 
+          "woe:state=2345065", 
+          "woe:country=23424787", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524473, 
         "ne_longitude": -78.004, 
         "longitude": -78.008, 
-        "placetype": "Airport", 
+        "parent_woeid": 26797330, 
+        "ne_latitude": 2.505, 
         "iso": "CO", 
-        "date_indexed": "2010-12-02T17:57:37Z", 
-        "parent_woeid": 357536, 
+        "sw_latitude": 2.495, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 2.500, 
         "sw_longitude": -78.013, 
-        "fullname": "El Charco Airport, Iscuand\u00e9, Narino, Iscuande, Colombia", 
-        "sw_latitude": 2.495
+        "fullname": "El Charco Airport, Iscuand\u00e9, Narino, Colombia", 
+        "iata_code": "ECR", 
+        "date_indexed": "2010-12-02T17:57:37Z"
       }, 
       "id": 12524473
     }

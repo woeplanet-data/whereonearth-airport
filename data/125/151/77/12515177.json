@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515177, 
-        "name": "Whakatane Airport", 
         "alias_ENG_V": [
           "WHK Airport"
         ], 
-        "ne_latitude": -37.919, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Whakatane Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55875850", 
+          "woe:state=15021753", 
+          "woe:country=23424916", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515177, 
         "ne_longitude": 176.925, 
         "longitude": 176.916, 
-        "placetype": "Airport", 
+        "parent_woeid": 55875850, 
+        "ne_latitude": -37.919, 
         "iso": "NZ", 
-        "date_indexed": "2010-12-02T17:02:39Z", 
-        "parent_woeid": 2350894, 
+        "sw_latitude": -37.925, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -37.924, 
         "sw_longitude": 176.908, 
-        "fullname": "Whakatane Airport, Thornton, Bay of Plenty, Whakatane District, New Zealand", 
-        "sw_latitude": -37.925
+        "fullname": "Whakatane Airport, Thornton, Bay of Plenty, New Zealand", 
+        "date_indexed": "2010-12-02T17:02:39Z"
       }, 
       "id": 12515177
     }

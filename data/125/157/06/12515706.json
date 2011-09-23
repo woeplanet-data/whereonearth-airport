@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515706, 
+        "placetype": "airport", 
         "name": "Anapka Airport", 
-        "ne_latitude": 59.964, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598423", 
+          "woe:state=20070515", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515706, 
         "ne_longitude": 163.785, 
         "longitude": 163.776, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598423, 
+        "ne_latitude": 59.964, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2011858, 
+        "sw_latitude": 59.955, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 59.959, 
         "sw_longitude": 163.767, 
         "fullname": "Anapka Airport, Koryakskiy Avtonomnyy Okrug, Penzhinsky, Russia", 
-        "sw_latitude": 59.955
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12515706
     }

@@ -3,28 +3,30 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              20.318, 
-              67.812
-            ], 
-            [
-              20.318, 
-              67.832
-            ], 
-            [
-              20.358, 
-              67.832
-            ], 
-            [
-              20.358, 
-              67.812
-            ], 
-            [
-              20.318, 
-              67.812
+              [
+                20.334, 
+                67.826
+              ], 
+              [
+                20.334, 
+                67.827
+              ], 
+              [
+                20.335, 
+                67.826
+              ], 
+              [
+                20.331, 
+                67.825
+              ], 
+              [
+                20.334, 
+                67.826
+              ]
             ]
           ]
         ]
@@ -40,8 +42,14 @@
         "alias_ENG_P": [
           "Kiruna Airport"
         ], 
-        "ne_latitude": 67.832, 
-        "placetype": "Airport", 
+        "hierarchy": [
+          "woe:county=12587350", 
+          "woe:state=2347057", 
+          "woe:country=23424954", 
+          "woe:planet=1"
+        ], 
+        "ne_latitude": 67.827, 
+        "placetype": "airport", 
         "alias_POR_Q": [
           "Aeroporto de Kiruna"
         ], 
@@ -55,7 +63,7 @@
         "alias_FIN_Q": [
           "Kiirunan Lentoasema"
         ], 
-        "sw_longitude": 20.318, 
+        "sw_longitude": 20.331, 
         "provider": "geoplanet 7.6.0", 
         "latitude": 67.826, 
         "date_indexed": "2010-12-02T16:45:55Z", 
@@ -73,15 +81,15 @@
         ], 
         "lang": "SWE", 
         "name": "Kiruna Flygplats", 
-        "parent_woeid": 895313, 
+        "parent_woeid": 12587350, 
         "alias_UNK_Q": [
           "Letisko Kiruna"
         ], 
-        "ne_longitude": 20.358, 
-        "longitude": 20.335, 
+        "ne_longitude": 20.335, 
+        "longitude": 20.334, 
         "iso": "SE", 
-        "sw_latitude": 67.812, 
-        "fullname": "Kiruna Flygplats, Tuolluvaara, Norrbotten, Kiruna, Sweden", 
+        "sw_latitude": 67.825, 
+        "fullname": "Kiruna Flygplats, Tuolluvaara, Norrbotten, Sweden", 
         "alias_FRE_S": [
           "Aeroport de Kiruna"
         ], 

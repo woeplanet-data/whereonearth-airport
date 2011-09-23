@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521357, 
-        "name": "Petit Jean Park Airport", 
         "alias_ENG_V": [
           "MPJ"
         ], 
-        "ne_latitude": 35.147, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Petit Jean Park Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587609", 
+          "woe:state=2347562", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521357, 
         "ne_longitude": -92.904, 
         "longitude": -92.905, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587609, 
+        "ne_latitude": 35.147, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2522219, 
+        "sw_latitude": 35.132, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.147, 
         "sw_longitude": -92.915, 
-        "fullname": "Petit Jean Park Airport, Winrock, Arkansas, Conway, United States", 
-        "sw_latitude": 35.132
+        "fullname": "Petit Jean Park Airport, Winrock, Arkansas, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521357
     }

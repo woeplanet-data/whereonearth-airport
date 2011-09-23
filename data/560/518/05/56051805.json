@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "FRE", 
-        "woeid": 56051805, 
+        "placetype": "airport", 
         "name": "A\u00e9rodrome D'oyonnax", 
-        "ne_latitude": 46.284, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12668042", 
+          "woe:county=12597195", 
+          "woe:state=7153329", 
+          "woe:country=23424819", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56051805, 
         "ne_longitude": 5.672, 
         "longitude": 5.661, 
-        "placetype": "Airport", 
+        "parent_woeid": 12668042, 
+        "ne_latitude": 46.284, 
         "iso": "FR", 
-        "date_indexed": "2010-12-02T12:04:01Z", 
-        "parent_woeid": 615435, 
+        "sw_latitude": 46.275, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.276, 
         "sw_longitude": 5.661, 
-        "fullname": "A\u00e9rodrome D'oyonnax, Oyonnax, Rhone-Alpes, Ain, France", 
+        "fullname": "A\u00e9rodrome D'oyonnax, Oyonnax, Rhone-Alpes, France", 
         "alias_FRE_S": [
           "Aerodrome D'oyonnax"
         ], 
-        "sw_latitude": 46.275
+        "date_indexed": "2010-12-02T12:04:01Z"
       }, 
       "id": 56051805
     }

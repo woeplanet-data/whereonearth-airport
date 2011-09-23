@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29387834, 
-        "name": "Mckenzie Bridge State Airport", 
         "alias_ENG_V": [
           "00s"
         ], 
-        "ne_latitude": 44.183, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Mckenzie Bridge State Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589711", 
+          "woe:state=2347596", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29387834, 
         "ne_longitude": -122.080, 
         "longitude": -122.085, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589711, 
+        "ne_latitude": 44.183, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2361675, 
+        "sw_latitude": 44.179, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.183, 
         "sw_longitude": -122.096, 
-        "fullname": "Mckenzie Bridge State Airport, Belknap Springs, Oregon, Lane, United States", 
-        "sw_latitude": 44.179
+        "fullname": "Mckenzie Bridge State Airport, Belknap Springs, Oregon, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 29387834
     }

@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522892, 
+        "placetype": "airport", 
         "name": "Dak Seang Airport", 
-        "ne_latitude": 14.660, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=20070076", 
+          "woe:country=23424984", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522892, 
         "ne_longitude": 107.690, 
         "longitude": 107.686, 
-        "placetype": "Airport", 
+        "parent_woeid": 20070076, 
+        "ne_latitude": 14.660, 
         "iso": "VN", 
-        "date_indexed": "2010-12-02T08:52:49Z", 
-        "parent_woeid": 1245055, 
+        "sw_latitude": 14.651, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 14.655, 
         "sw_longitude": 107.681, 
         "fullname": "Dak Seang Airport, Kon Tum, Vietnam", 
-        "sw_latitude": 14.651
+        "date_indexed": "2010-12-02T08:52:49Z"
       }, 
       "id": 12522892
     }

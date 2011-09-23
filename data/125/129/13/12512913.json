@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512913, 
+        "placetype": "airport", 
         "name": "Larzac Airport", 
-        "ne_latitude": 43.998, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12663250", 
+          "woe:county=12597173", 
+          "woe:state=7153323", 
+          "woe:country=23424819", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512913, 
         "ne_longitude": 3.193, 
         "longitude": 3.184, 
-        "placetype": "Airport", 
+        "parent_woeid": 12663250, 
+        "ne_latitude": 43.998, 
         "iso": "FR", 
-        "date_indexed": "2010-12-02T12:04:01Z", 
-        "parent_woeid": 596623, 
+        "sw_latitude": 43.981, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.989, 
         "sw_longitude": 3.176, 
-        "fullname": "Larzac Airport, L'Hospitalet, Midi-Pyrenees, Aveyron, France", 
-        "sw_latitude": 43.981
+        "fullname": "Larzac Airport, L'Hospitalet, Midi-Pyrenees, France", 
+        "date_indexed": "2010-12-02T12:04:01Z"
       }, 
       "id": 12512913
     }

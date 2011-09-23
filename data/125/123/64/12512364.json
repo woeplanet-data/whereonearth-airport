@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512364, 
-        "name": "Baracoa Airport", 
         "alias_ENG_V": [
           "MGN"
         ], 
-        "ne_latitude": 9.293, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Baracoa Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26796769", 
+          "woe:state=2345051", 
+          "woe:country=23424787", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512364, 
         "ne_longitude": -74.840, 
         "longitude": -74.845, 
-        "placetype": "Airport", 
+        "parent_woeid": 26796769, 
+        "ne_latitude": 9.293, 
         "iso": "CO", 
-        "date_indexed": "2010-12-02T17:57:37Z", 
-        "parent_woeid": 369553, 
+        "sw_latitude": 9.284, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 9.288, 
         "sw_longitude": -74.850, 
         "fullname": "Baracoa Airport, Bolivar, Magangue, Colombia", 
-        "sw_latitude": 9.284
+        "date_indexed": "2010-12-02T17:57:37Z"
       }, 
       "id": 12512364
     }

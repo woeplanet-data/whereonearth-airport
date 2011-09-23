@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523369, 
-        "name": "Malmo Harbour Heliport", 
         "alias_ENG_V": [
           "JMM Airport"
         ], 
-        "ne_latitude": 55.621, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Malmo Harbour Heliport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587333", 
+          "woe:state=20070561", 
+          "woe:country=23424954", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523369, 
         "ne_longitude": 13.008, 
         "longitude": 13.000, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587333, 
+        "ne_latitude": 55.621, 
         "iso": "SE", 
-        "date_indexed": "2010-12-02T16:45:55Z", 
-        "parent_woeid": 898091, 
+        "sw_latitude": 55.612, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 55.617, 
         "sw_longitude": 12.992, 
-        "fullname": "Malmo Harbour Heliport, Malmo, Skane, Malm\u00f6, Sweden", 
-        "sw_latitude": 55.612, 
+        "fullname": "Malmo Harbour Heliport, Malmo, Skane, Sweden", 
+        "iata_code": "JMM", 
+        "date_indexed": "2010-12-02T16:45:55Z", 
         "alias_SWE_Q": [
           "JMM Flygplats"
         ]

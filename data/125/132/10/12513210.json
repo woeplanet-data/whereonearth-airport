@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513210, 
+        "placetype": "airport", 
         "name": "Pferdsfeld Airport", 
-        "ne_latitude": 49.861, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12628083", 
+          "woe:county=12596762", 
+          "woe:state=2345488", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513210, 
         "ne_longitude": 7.612, 
         "longitude": 7.605, 
-        "placetype": "Airport", 
+        "parent_woeid": 12628083, 
+        "ne_latitude": 49.861, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 684899, 
+        "sw_latitude": 49.852, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.856, 
         "sw_longitude": 7.598, 
-        "fullname": "Pferdsfeld Airport, Pferdsfeld, Rhineland-Palatinate, Landkreis Bad Kreuznach, Germany", 
+        "fullname": "Pferdsfeld Airport, Pferdsfeld, Rhineland-Palatinate, Germany", 
         "alias_GER_Q": [
           "Flughafen Pferdsfeld"
         ], 
-        "sw_latitude": 49.852
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 12513210
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524114, 
-        "name": "Eureka Airport", 
         "alias_ENG_V": [
           "YEU Airport"
         ], 
-        "ne_latitude": 79.993, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Eureka Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375230", 
+          "woe:state=20069920", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524114, 
         "ne_longitude": -85.790, 
         "longitude": -85.816, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375230, 
+        "ne_latitude": 79.993, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 4330, 
+        "sw_latitude": 79.984, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 79.989, 
         "sw_longitude": -85.843, 
-        "fullname": "Eureka Airport, Grise Fiord, Nunavut, Nunavut, Canada", 
-        "sw_latitude": 79.984
+        "fullname": "Eureka Airport, Grise Fiord, Nunavut, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12524114
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513589, 
-        "name": "Gwalior Airport", 
         "alias_ENG_V": [
           "GWL"
         ], 
-        "ne_latitude": 26.289, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Gwalior Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12586494", 
+          "woe:state=2345749", 
+          "woe:country=23424848", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513589, 
         "ne_longitude": 78.234, 
         "longitude": 78.229, 
-        "placetype": "Airport", 
+        "parent_woeid": 12586494, 
+        "ne_latitude": 26.289, 
         "iso": "IN", 
-        "date_indexed": "2010-12-02T09:26:27Z", 
-        "parent_woeid": 29018379, 
+        "sw_latitude": 26.280, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 26.284, 
         "sw_longitude": 78.224, 
-        "fullname": "Gwalior Airport, Baretha, Madhya Pradesh, Gwalior, India", 
-        "sw_latitude": 26.280
+        "fullname": "Gwalior Airport, Baretha, Madhya Pradesh, India", 
+        "iata_code": "GWL", 
+        "date_indexed": "2010-12-02T09:26:27Z"
       }, 
       "id": 12513589
     }

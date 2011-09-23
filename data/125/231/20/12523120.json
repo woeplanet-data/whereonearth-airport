@@ -32,29 +32,35 @@
       "type": "Feature", 
       "properties": {
         "lang": "JPN", 
-        "woeid": 12523120, 
-        "name": "\u51fd\u9928\u7a7a\u6e2f", 
         "alias_ENG_V": [
           "HKD Airport"
         ], 
+        "name": "\u51fd\u9928\u7a7a\u6e2f", 
         "alias_ENG_P": [
           "Hakodate Airport"
         ], 
-        "ne_latitude": 41.775, 
+        "parent_woeid": 7153351, 
+        "woeid": 12523120, 
+        "provider": "geoplanet 7.6.0", 
         "alias_JPN_V": [
           "\u30cf\u30b3\u30c0\u30c6\u30af\u30a6\u30b3\u30a6"
         ], 
-        "ne_longitude": 140.830, 
         "longitude": 140.824, 
-        "parent_woeid": 1117148, 
-        "placetype": "Airport", 
+        "ne_longitude": 140.830, 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=7153351", 
+          "woe:country=23424856", 
+          "woe:planet=1"
+        ], 
         "iso": "JP", 
-        "date_indexed": "2010-12-02T08:09:09Z", 
-        "provider": "geoplanet 7.6.0", 
+        "sw_latitude": 41.766, 
+        "ne_latitude": 41.775, 
         "latitude": 41.771, 
         "sw_longitude": 140.818, 
         "fullname": "\u51fd\u9928\u7a7a\u6e2f, Hakodate-shi, Hokkaido Prefecture, Japan", 
-        "sw_latitude": 41.766
+        "iata_code": "HKD", 
+        "date_indexed": "2010-12-02T08:09:09Z"
       }, 
       "id": 12523120
     }

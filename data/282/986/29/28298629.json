@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 28298629, 
+        "placetype": "airport", 
         "name": "Thruxton Airport", 
-        "ne_latitude": 51.211, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12695967", 
+          "woe:county=12602169", 
+          "woe:state=24554868", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 28298629, 
         "ne_longitude": -1.593, 
         "longitude": -1.600, 
-        "placetype": "Airport", 
+        "parent_woeid": 12695967, 
+        "ne_latitude": 51.211, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:21:01Z", 
-        "parent_woeid": 25067, 
+        "sw_latitude": 51.202, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.206, 
         "sw_longitude": -1.607, 
-        "fullname": "Thruxton Airport, Kimpton, England, Hampshire, United Kingdom", 
-        "sw_latitude": 51.202
+        "fullname": "Thruxton Airport, Kimpton, England, United Kingdom", 
+        "date_indexed": "2010-12-02T12:21:01Z"
       }, 
       "id": 28298629
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523206, 
+        "placetype": "airport", 
         "name": "Puntilla Lake Airport", 
-        "ne_latitude": 62.105, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12587568", 
+          "woe:state=2347560", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523206, 
         "ne_longitude": -152.740, 
         "longitude": -152.750, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587568, 
+        "ne_latitude": 62.105, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2494389, 
+        "sw_latitude": 62.095, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 62.100, 
         "sw_longitude": -152.760, 
         "fullname": "Puntilla Lake Airport, Alaska, Matanuska-Susitna Borough, United States", 
-        "sw_latitude": 62.095
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12523206
     }

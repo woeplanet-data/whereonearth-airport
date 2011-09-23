@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522920, 
+        "placetype": "airport", 
         "name": "Kham Duc Airport", 
-        "ne_latitude": 15.438, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2347711", 
+          "woe:country=23424984", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522920, 
         "ne_longitude": 107.797, 
         "longitude": 107.792, 
-        "placetype": "Airport", 
+        "parent_woeid": 2347711, 
+        "ne_latitude": 15.438, 
         "iso": "VN", 
-        "date_indexed": "2010-12-02T08:52:49Z", 
-        "parent_woeid": 1252444, 
+        "sw_latitude": 15.429, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 15.434, 
         "sw_longitude": 107.788, 
         "fullname": "Kham Duc Airport, Quang Nam, Vietnam", 
-        "sw_latitude": 15.429
+        "date_indexed": "2010-12-02T08:52:49Z"
       }, 
       "id": 12522920
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518855, 
+        "placetype": "airport", 
         "name": "Blairstown Airport", 
-        "ne_latitude": 40.976, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12589278", 
+          "woe:state=2347589", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518855, 
         "ne_longitude": -74.992, 
         "longitude": -74.998, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589278, 
+        "ne_latitude": 40.976, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:15Z", 
-        "parent_woeid": 2365208, 
+        "sw_latitude": 40.967, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.971, 
         "sw_longitude": -75.004, 
-        "fullname": "Blairstown Airport, Blairstown, New Jersey, Warren, United States", 
-        "sw_latitude": 40.967
+        "fullname": "Blairstown Airport, Blairstown, New Jersey, United States", 
+        "date_indexed": "2010-12-02T18:39:15Z"
       }, 
       "id": 12518855
     }

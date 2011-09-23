@@ -3,28 +3,98 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -84.012, 
-              35.793
-            ], 
-            [
-              -84.012, 
-              35.827
-            ], 
-            [
-              -83.978, 
-              35.827
-            ], 
-            [
-              -83.978, 
-              35.793
-            ], 
-            [
-              -84.012, 
-              35.793
+              [
+                -83.988, 
+                35.810
+              ], 
+              [
+                -83.986, 
+                35.813
+              ], 
+              [
+                -83.986, 
+                35.817
+              ], 
+              [
+                -83.980, 
+                35.818
+              ], 
+              [
+                -83.982, 
+                35.812
+              ], 
+              [
+                -83.983, 
+                35.812
+              ], 
+              [
+                -83.984, 
+                35.811
+              ], 
+              [
+                -83.986, 
+                35.806
+              ], 
+              [
+                -83.988, 
+                35.803
+              ], 
+              [
+                -83.991, 
+                35.803
+              ], 
+              [
+                -83.993, 
+                35.801
+              ], 
+              [
+                -83.994, 
+                35.802
+              ], 
+              [
+                -83.992, 
+                35.806
+              ], 
+              [
+                -83.992, 
+                35.807
+              ], 
+              [
+                -83.994, 
+                35.811
+              ], 
+              [
+                -83.995, 
+                35.813
+              ], 
+              [
+                -83.998, 
+                35.816
+              ], 
+              [
+                -84.000, 
+                35.817
+              ], 
+              [
+                -84.001, 
+                35.816
+              ], 
+              [
+                -83.998, 
+                35.816
+              ], 
+              [
+                -83.995, 
+                35.813
+              ], 
+              [
+                -83.988, 
+                35.810
+              ]
             ]
           ]
         ]
@@ -32,23 +102,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520857, 
-        "name": "Mcghee Tyson Airport", 
         "alias_ENG_V": [
           "Mcghee Tyson"
         ], 
-        "ne_latitude": 35.827, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -83.978, 
-        "longitude": -83.989, 
-        "placetype": "Airport", 
+        "name": "Mcghee Tyson Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589916", 
+          "woe:state=2347601", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520857, 
+        "ne_longitude": -83.980, 
+        "longitude": -83.988, 
+        "parent_woeid": 12589916, 
+        "ne_latitude": 35.818, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2352841, 
-        "latitude": 35.806, 
-        "sw_longitude": -84.012, 
-        "fullname": "Mcghee Tyson Airport, Alcoa, Tennessee, Blount, United States", 
-        "sw_latitude": 35.793
+        "sw_latitude": 35.801, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 35.809, 
+        "sw_longitude": -84.001, 
+        "fullname": "Mcghee Tyson Airport, Alcoa, Tennessee, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520857
     }

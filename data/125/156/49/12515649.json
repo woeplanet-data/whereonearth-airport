@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515649, 
-        "name": "Tagbilaran Airport", 
         "alias_ENG_V": [
           "TAG"
         ], 
-        "ne_latitude": 9.669, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Tagbilaran Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=2346666", 
+          "woe:state=23424721", 
+          "woe:country=23424934", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515649, 
         "ne_longitude": 123.857, 
         "longitude": 123.852, 
-        "placetype": "Airport", 
+        "parent_woeid": 2346666, 
+        "ne_latitude": 9.669, 
         "iso": "PH", 
-        "date_indexed": "2010-12-02T09:56:58Z", 
-        "parent_woeid": 1199882, 
+        "sw_latitude": 9.660, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 9.664, 
         "sw_longitude": 123.848, 
-        "fullname": "Tagbilaran Airport, Tagbilaran, Central Visayas, Bohol, Philippines", 
-        "sw_latitude": 9.660
+        "fullname": "Tagbilaran Airport, Tagbilaran, Central Visayas, Philippines", 
+        "iata_code": "TAG", 
+        "date_indexed": "2010-12-02T09:56:58Z"
       }, 
       "id": 12515649
     }

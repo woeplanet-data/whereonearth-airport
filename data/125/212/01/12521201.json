@@ -3,28 +3,82 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -83.087, 
-              40.072
-            ], 
-            [
-              -83.087, 
-              40.093
-            ], 
-            [
-              -83.058, 
-              40.093
-            ], 
-            [
-              -83.058, 
-              40.072
-            ], 
-            [
-              -83.087, 
-              40.072
+              [
+                -83.091, 
+                40.067
+              ], 
+              [
+                -83.088, 
+                40.065
+              ], 
+              [
+                -83.087, 
+                40.065
+              ], 
+              [
+                -83.085, 
+                40.066
+              ], 
+              [
+                -83.085, 
+                40.066
+              ], 
+              [
+                -83.084, 
+                40.073
+              ], 
+              [
+                -83.087, 
+                40.080
+              ], 
+              [
+                -83.081, 
+                40.077
+              ], 
+              [
+                -83.078, 
+                40.080
+              ], 
+              [
+                -83.073, 
+                40.080
+              ], 
+              [
+                -83.068, 
+                40.086
+              ], 
+              [
+                -83.070, 
+                40.080
+              ], 
+              [
+                -83.075, 
+                40.075
+              ], 
+              [
+                -83.077, 
+                40.074
+              ], 
+              [
+                -83.084, 
+                40.073
+              ], 
+              [
+                -83.090, 
+                40.069
+              ], 
+              [
+                -83.092, 
+                40.068
+              ], 
+              [
+                -83.091, 
+                40.067
+              ]
             ]
           ]
         ]
@@ -32,26 +86,34 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521201, 
-        "name": "Ohio State University Airport", 
         "alias_ENG_V": [
           "OSU"
         ], 
-        "ne_latitude": 40.093, 
+        "name": "Ohio State University Airport", 
+        "hierarchy": [
+          "woe:suburb=2465254", 
+          "woe:county=12589551", 
+          "woe:state=2347594", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521201, 
         "alias_JPN_Q": [
           "\u30aa\u30cf\u30a4\u30aa\u5dde\u7acb\u5927\u5b66\u7a7a\u6e2f"
         ], 
         "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -83.058, 
-        "longitude": -83.075, 
-        "placetype": "Airport", 
-        "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
+        "ne_longitude": -83.068, 
+        "longitude": -83.070, 
         "parent_woeid": 2465254, 
-        "latitude": 40.075, 
-        "sw_longitude": -83.087, 
-        "fullname": "Ohio State University Airport, Columbus, Ohio, Franklin, United States", 
-        "sw_latitude": 40.072
+        "placetype": "airport", 
+        "iso": "US", 
+        "sw_latitude": 40.065, 
+        "ne_latitude": 40.086, 
+        "latitude": 40.085, 
+        "sw_longitude": -83.092, 
+        "fullname": "Ohio State University Airport, Columbus, Ohio, United States", 
+        "iata_code": "OSU", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521201
     }

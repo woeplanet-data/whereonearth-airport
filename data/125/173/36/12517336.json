@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517336, 
-        "name": "Guriat Airport", 
         "alias_ENG_V": [
           "URY Airport"
         ], 
-        "ne_latitude": 31.414, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Guriat Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=56120098", 
+          "woe:state=2346950", 
+          "woe:country=23424938", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517336, 
         "ne_longitude": 37.280, 
         "longitude": 37.275, 
-        "placetype": "Airport", 
+        "parent_woeid": 56120098, 
+        "ne_latitude": 31.414, 
         "iso": "SA", 
-        "date_indexed": "2010-12-02T09:34:42Z", 
-        "parent_woeid": 1939678, 
+        "sw_latitude": 31.405, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 31.410, 
         "sw_longitude": 37.270, 
         "fullname": "Guriat Airport, Al Jawf, Al Jouf, Saudi Arabia", 
-        "sw_latitude": 31.405
+        "date_indexed": "2010-12-02T09:34:42Z"
       }, 
       "id": 12517336
     }

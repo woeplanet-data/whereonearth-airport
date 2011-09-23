@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510701, 
+        "placetype": "airport", 
         "name": "Jervis Bay Airport", 
-        "ne_latitude": -35.143, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55863865", 
+          "woe:state=2344699", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510701, 
         "ne_longitude": 150.703, 
         "longitude": 150.697, 
-        "placetype": "Airport", 
+        "parent_woeid": 55863865, 
+        "ne_latitude": -35.143, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1102841, 
+        "sw_latitude": -35.152, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -35.147, 
         "sw_longitude": 150.692, 
         "fullname": "Jervis Bay Airport, Jervis Bay, Australian Capital Territory, Australia", 
-        "sw_latitude": -35.152
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 12510701
     }

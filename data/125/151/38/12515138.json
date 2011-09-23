@@ -3,28 +3,50 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -68.975, 
-              12.177
-            ], 
-            [
-              -68.975, 
-              12.199
-            ], 
-            [
-              -68.952, 
-              12.199
-            ], 
-            [
-              -68.952, 
-              12.177
-            ], 
-            [
-              -68.975, 
-              12.177
+              [
+                -68.955, 
+                12.183
+              ], 
+              [
+                -68.955, 
+                12.181
+              ], 
+              [
+                -68.959, 
+                12.182
+              ], 
+              [
+                -68.960, 
+                12.186
+              ], 
+              [
+                -68.963, 
+                12.188
+              ], 
+              [
+                -68.960, 
+                12.187
+              ], 
+              [
+                -68.958, 
+                12.186
+              ], 
+              [
+                -68.957, 
+                12.186
+              ], 
+              [
+                -68.953, 
+                12.185
+              ], 
+              [
+                -68.955, 
+                12.183
+              ]
             ]
           ]
         ]
@@ -32,23 +54,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515138, 
-        "name": "Hato Airport", 
         "alias_ENG_V": [
           "CUR"
         ], 
-        "ne_latitude": 12.199, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -68.952, 
-        "longitude": -68.963, 
-        "placetype": "Airport", 
+        "name": "Hato Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=24549810", 
+          "woe:country=23424914", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515138, 
+        "ne_longitude": -68.953, 
+        "longitude": -68.957, 
+        "parent_woeid": 24549810, 
+        "ne_latitude": 12.188, 
         "iso": "AN", 
-        "date_indexed": "2010-12-02T16:42:51Z", 
-        "parent_woeid": 151917, 
-        "latitude": 12.188, 
-        "sw_longitude": -68.975, 
+        "sw_latitude": 12.181, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 12.184, 
+        "sw_longitude": -68.963, 
         "fullname": "Hato Airport, Curacao, Netherlands Antilles", 
-        "sw_latitude": 12.177
+        "iata_code": "CUR", 
+        "date_indexed": "2010-12-02T16:42:51Z"
       }, 
       "id": 12515138
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521910, 
-        "name": "South Haven Area Regional Airport", 
         "alias_ENG_V": [
           "S Haven Area Regional Airport"
         ], 
-        "ne_latitude": 42.358, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "South Haven Area Regional Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588793", 
+          "woe:state=2347581", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521910, 
         "ne_longitude": -86.247, 
         "longitude": -86.254, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588793, 
+        "ne_latitude": 42.358, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2496321, 
+        "sw_latitude": 42.346, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.350, 
         "sw_longitude": -86.265, 
-        "fullname": "South Haven Area Regional Airport, South Haven, Michigan, Van Buren, United States", 
-        "sw_latitude": 42.346
+        "fullname": "South Haven Area Regional Airport, South Haven, Michigan, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521910
     }

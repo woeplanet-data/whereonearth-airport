@@ -3,28 +3,102 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -96.375, 
-              30.575
-            ], 
-            [
-              -96.375, 
-              30.599
-            ], 
-            [
-              -96.356, 
-              30.599
-            ], 
-            [
-              -96.356, 
-              30.575
-            ], 
-            [
-              -96.375, 
-              30.575
+              [
+                -96.353, 
+                30.596
+              ], 
+              [
+                -96.355, 
+                30.597
+              ], 
+              [
+                -96.357, 
+                30.589
+              ], 
+              [
+                -96.358, 
+                30.589
+              ], 
+              [
+                -96.359, 
+                30.589
+              ], 
+              [
+                -96.362, 
+                30.590
+              ], 
+              [
+                -96.366, 
+                30.593
+              ], 
+              [
+                -96.367, 
+                30.594
+              ], 
+              [
+                -96.368, 
+                30.594
+              ], 
+              [
+                -96.367, 
+                30.594
+              ], 
+              [
+                -96.367, 
+                30.594
+              ], 
+              [
+                -96.366, 
+                30.593
+              ], 
+              [
+                -96.359, 
+                30.592
+              ], 
+              [
+                -96.361, 
+                30.600
+              ], 
+              [
+                -96.361, 
+                30.600
+              ], 
+              [
+                -96.361, 
+                30.602
+              ], 
+              [
+                -96.361, 
+                30.603
+              ], 
+              [
+                -96.360, 
+                30.603
+              ], 
+              [
+                -96.358, 
+                30.603
+              ], 
+              [
+                -96.358, 
+                30.598
+              ], 
+              [
+                -96.354, 
+                30.597
+              ], 
+              [
+                -96.353, 
+                30.597
+              ], 
+              [
+                -96.353, 
+                30.596
+              ]
             ]
           ]
         ]
@@ -32,23 +106,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519579, 
-        "name": "Easterwood Field Airport", 
         "alias_ENG_V": [
           "CLL Airport"
         ], 
-        "ne_latitude": 30.599, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -96.356, 
-        "longitude": -96.367, 
-        "placetype": "Airport", 
+        "name": "Easterwood Field Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590027", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519579, 
+        "ne_longitude": -96.353, 
+        "longitude": -96.359, 
+        "parent_woeid": 12590027, 
+        "ne_latitude": 30.603, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2383087, 
-        "latitude": 30.594, 
-        "sw_longitude": -96.375, 
-        "fullname": "Easterwood Field Airport, College Station, Texas, Brazos, United States", 
-        "sw_latitude": 30.575
+        "sw_latitude": 30.589, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 30.595, 
+        "sw_longitude": -96.368, 
+        "fullname": "Easterwood Field Airport, College Station, Texas, United States", 
+        "iata_code": "CLL", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519579
     }

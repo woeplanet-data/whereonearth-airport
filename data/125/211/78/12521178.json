@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521178, 
-        "name": "Oak Harbor Airpark", 
         "alias_ENG_V": [
           "ODW Airport"
         ], 
-        "ne_latitude": 48.252, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Oak Harbor Airpark", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590454", 
+          "woe:state=2347606", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521178, 
         "ne_longitude": -122.667, 
         "longitude": -122.680, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590454, 
+        "ne_latitude": 48.252, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2470232, 
+        "sw_latitude": 48.251, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.252, 
         "sw_longitude": -122.681, 
-        "fullname": "Oak Harbor Airpark, Penn Cove Park, Washington, Island, United States", 
-        "sw_latitude": 48.251
+        "fullname": "Oak Harbor Airpark, Penn Cove Park, Washington, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521178
     }

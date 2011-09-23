@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523667, 
-        "name": "Planeta Rica Airport", 
         "alias_ENG_V": [
           "PLC"
         ], 
-        "ne_latitude": 8.405, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Planeta Rica Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26797034", 
+          "woe:state=2345058", 
+          "woe:country=23424787", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523667, 
         "ne_longitude": -75.595, 
         "longitude": -75.600, 
-        "placetype": "Airport", 
+        "parent_woeid": 26797034, 
+        "ne_latitude": 8.405, 
         "iso": "CO", 
-        "date_indexed": "2010-12-02T17:57:37Z", 
-        "parent_woeid": 368228, 
+        "sw_latitude": 8.395, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 8.400, 
         "sw_longitude": -75.605, 
-        "fullname": "Planeta Rica Airport, Planeta Rica, Cordoba, Planeta Rica, Colombia", 
-        "sw_latitude": 8.395
+        "fullname": "Planeta Rica Airport, Planeta Rica, Cordoba, Colombia", 
+        "iata_code": "PLC", 
+        "date_indexed": "2010-12-02T17:57:37Z"
       }, 
       "id": 12523667
     }

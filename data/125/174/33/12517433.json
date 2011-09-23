@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517433, 
+        "placetype": "airport", 
         "name": "Ladybrand Airport", 
-        "ne_latitude": -29.177, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=56189560", 
+          "woe:county=56189414", 
+          "woe:state=2346980", 
+          "woe:country=23424942", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517433, 
         "ne_longitude": 27.459, 
         "longitude": 27.454, 
-        "placetype": "Airport", 
+        "parent_woeid": 56189560, 
+        "ne_latitude": -29.177, 
         "iso": "ZA", 
-        "date_indexed": "2010-12-02T08:57:46Z", 
-        "parent_woeid": 1583673, 
+        "sw_latitude": -29.186, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -29.181, 
         "sw_longitude": 27.448, 
-        "fullname": "Ladybrand Airport, Ladybrand, Free State, Ladybrand, South Africa", 
-        "sw_latitude": -29.186
+        "fullname": "Ladybrand Airport, Ladybrand, Free State, South Africa", 
+        "date_indexed": "2010-12-02T08:57:46Z"
       }, 
       "id": 12517433
     }

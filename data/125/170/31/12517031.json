@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517031, 
+        "placetype": "airport", 
         "name": "Tselina Airport", 
-        "ne_latitude": 46.562, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599145", 
+          "woe:state=2346921", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517031, 
         "ne_longitude": 41.071, 
         "longitude": 41.064, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599145, 
+        "ne_latitude": 46.562, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2123986, 
+        "sw_latitude": 46.553, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.557, 
         "sw_longitude": 41.057, 
-        "fullname": "Tselina Airport, Tselina, Rostovskaya Oblast, Tselinsky, Russia", 
-        "sw_latitude": 46.553
+        "fullname": "Tselina Airport, Tselina, Rostovskaya Oblast, Russia", 
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12517031
     }

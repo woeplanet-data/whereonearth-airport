@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388485, 
+        "placetype": "airport", 
         "name": "Riverside Airport", 
-        "ne_latitude": 35.907, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12589467", 
+          "woe:state=2347592", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388485, 
         "ne_longitude": -76.712, 
         "longitude": -76.714, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589467, 
+        "ne_latitude": 35.907, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2518442, 
+        "sw_latitude": 35.905, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.906, 
         "sw_longitude": -76.715, 
-        "fullname": "Riverside Airport, Westover, North Carolina, Washington, United States", 
-        "sw_latitude": 35.905
+        "fullname": "Riverside Airport, Westover, North Carolina, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 29388485
     }

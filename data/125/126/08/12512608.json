@@ -3,28 +3,66 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              43.148, 
-              11.535
-            ], 
-            [
-              43.148, 
-              11.558
-            ], 
-            [
-              43.171, 
-              11.558
-            ], 
-            [
-              43.171, 
-              11.535
-            ], 
-            [
-              43.148, 
-              11.535
+              [
+                43.148, 
+                11.543
+              ], 
+              [
+                43.147, 
+                11.543
+              ], 
+              [
+                43.148, 
+                11.543
+              ], 
+              [
+                43.151, 
+                11.549
+              ], 
+              [
+                43.149, 
+                11.559
+              ], 
+              [
+                43.148, 
+                11.560
+              ], 
+              [
+                43.146, 
+                11.562
+              ], 
+              [
+                43.149, 
+                11.562
+              ], 
+              [
+                43.154, 
+                11.563
+              ], 
+              [
+                43.157, 
+                11.558
+              ], 
+              [
+                43.151, 
+                11.549
+              ], 
+              [
+                43.151, 
+                11.544
+              ], 
+              [
+                43.150, 
+                11.542
+              ], 
+              [
+                43.148, 
+                11.543
+              ]
             ]
           ]
         ]
@@ -32,23 +70,28 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512608, 
-        "name": "Djibouti Ambouli Airport", 
         "alias_ENG_V": [
           "Djibouti Ambouli"
         ], 
-        "ne_latitude": 11.558, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": 43.171, 
-        "longitude": 43.159, 
-        "placetype": "Airport", 
+        "name": "Djibouti Ambouli Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2345158", 
+          "woe:country=23424797", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512608, 
+        "ne_longitude": 43.157, 
+        "longitude": 43.151, 
+        "parent_woeid": 2345158, 
+        "ne_latitude": 11.563, 
         "iso": "DJ", 
-        "date_indexed": "2010-12-02T16:14:08Z", 
-        "parent_woeid": 1310941, 
-        "latitude": 11.547, 
-        "sw_longitude": 43.148, 
+        "sw_latitude": 11.542, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 11.556, 
+        "sw_longitude": 43.146, 
         "fullname": "Djibouti Ambouli Airport, Djibouti City, Djibouti, Djibouti", 
-        "sw_latitude": 11.535
+        "date_indexed": "2010-12-02T16:14:08Z"
       }, 
       "id": 12512608
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511742, 
+        "placetype": "airport", 
         "name": "Manning Airport", 
-        "ne_latitude": 56.955, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=29375228", 
+          "woe:state=2344915", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511742, 
         "ne_longitude": -117.636, 
         "longitude": -117.644, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375228, 
+        "ne_latitude": 56.955, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 8308, 
+        "sw_latitude": 56.946, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 56.951, 
         "sw_longitude": -117.652, 
-        "fullname": "Manning Airport, Manning, Alberta, Alberta, Canada", 
-        "sw_latitude": 56.946
+        "fullname": "Manning Airport, Manning, Alberta, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12511742
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511644, 
+        "placetype": "airport", 
         "name": "Ear Falls Airport", 
-        "ne_latitude": 50.722, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=29375238", 
+          "woe:state=2344922", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511644, 
         "ne_longitude": -93.376, 
         "longitude": -93.383, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375238, 
+        "ne_latitude": 50.722, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 23397120, 
+        "sw_latitude": 50.713, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.718, 
         "sw_longitude": -93.390, 
-        "fullname": "Ear Falls Airport, Ear Falls, Ontario, Kenora, Canada", 
-        "sw_latitude": 50.713
+        "fullname": "Ear Falls Airport, Ear Falls, Ontario, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12511644
     }

@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512326, 
+        "placetype": "airport", 
         "name": "La Chimba Airport", 
-        "ne_latitude": -23.545, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=26794033", 
+          "woe:county=26793975", 
+          "woe:state=2345020", 
+          "woe:country=23424782", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512326, 
         "ne_longitude": -70.389, 
         "longitude": -70.394, 
-        "placetype": "Airport", 
+        "parent_woeid": 26794033, 
+        "ne_latitude": -23.545, 
         "iso": "CL", 
-        "date_indexed": "2010-12-02T12:15:39Z", 
-        "parent_woeid": 349862, 
+        "sw_latitude": -23.555, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -23.550, 
         "sw_longitude": -70.399, 
-        "fullname": "La Chimba Airport, Antofagasta, Antofagasta Region, Antofagasta Province, Chile", 
-        "sw_latitude": -23.555
+        "fullname": "La Chimba Airport, Antofagasta, Antofagasta Region, Chile", 
+        "date_indexed": "2010-12-02T12:15:39Z"
       }, 
       "id": 12512326
     }

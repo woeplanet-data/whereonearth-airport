@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520017, 
-        "name": "Grenada Municipal Airport", 
         "alias_ENG_V": [
           "Gnf"
         ], 
-        "ne_latitude": 33.846, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Grenada Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588905", 
+          "woe:state=2347583", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520017, 
         "ne_longitude": -89.787, 
         "longitude": -89.800, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588905, 
+        "ne_latitude": 33.846, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2414888, 
+        "sw_latitude": 33.822, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 33.825, 
         "sw_longitude": -89.813, 
-        "fullname": "Grenada Municipal Airport, Grenada, Mississippi, Grenada, United States", 
-        "sw_latitude": 33.822
+        "fullname": "Grenada Municipal Airport, Grenada, Mississippi, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520017
     }

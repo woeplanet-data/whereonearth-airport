@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515278, 
+        "placetype": "airport", 
         "name": "Aleksandrow Airport", 
-        "ne_latitude": 51.829, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12591210", 
+          "woe:state=12577937", 
+          "woe:country=23424923", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515278, 
         "ne_longitude": 19.283, 
         "longitude": 19.275, 
-        "placetype": "Airport", 
+        "parent_woeid": 12591210, 
+        "ne_latitude": 51.829, 
         "iso": "PL", 
-        "date_indexed": "2010-12-02T12:12:45Z", 
-        "parent_woeid": 484963, 
+        "sw_latitude": 51.820, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.825, 
         "sw_longitude": 19.268, 
-        "fullname": "Aleksandrow Airport, Aleksandr\u00f3w \u0141\u00f3dzki, Lodz, Zgierz County, Poland", 
-        "sw_latitude": 51.820
+        "fullname": "Aleksandrow Airport, Aleksandr\u00f3w \u0141\u00f3dzki, Lodz, Poland", 
+        "date_indexed": "2010-12-02T12:12:45Z"
       }, 
       "id": 12515278
     }

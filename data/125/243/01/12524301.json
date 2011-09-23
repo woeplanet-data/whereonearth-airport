@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524301, 
-        "name": "Sachigo Lake Airport", 
         "alias_ENG_V": [
           "ZPB Airport"
         ], 
-        "ne_latitude": 53.869, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Sachigo Lake Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375238", 
+          "woe:state=2344922", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524301, 
         "ne_longitude": -92.184, 
         "longitude": -92.192, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375238, 
+        "ne_latitude": 53.869, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 2646, 
+        "sw_latitude": 53.860, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.865, 
         "sw_longitude": -92.199, 
-        "fullname": "Sachigo Lake Airport, Sachigo Lake, Ontario, Kenora, Canada", 
-        "sw_latitude": 53.860
+        "fullname": "Sachigo Lake Airport, Sachigo Lake, Ontario, Canada", 
+        "iata_code": "ZPB", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12524301
     }

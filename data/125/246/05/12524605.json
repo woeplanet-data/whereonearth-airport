@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524605, 
-        "name": "George T. Lewis Airport", 
         "alias_ENG_V": [
           "CDK"
         ], 
-        "ne_latitude": 29.142, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "George T. Lewis Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587840", 
+          "woe:state=2347568", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524605, 
         "ne_longitude": -83.033, 
         "longitude": -83.038, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587840, 
+        "ne_latitude": 29.142, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2376848, 
+        "sw_latitude": 29.133, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 29.137, 
         "sw_longitude": -83.043, 
-        "fullname": "George T. Lewis Airport, Cedar Key, Florida, Levy, United States", 
-        "sw_latitude": 29.133
+        "fullname": "George T. Lewis Airport, Cedar Key, Florida, United States", 
+        "iata_code": "CDK", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12524605
     }

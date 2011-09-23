@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510526, 
-        "name": "Neuquen Airport", 
         "alias_ENG_V": [
           "NQN"
         ], 
-        "ne_latitude": -38.944, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Neuquen Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=20071037", 
+          "woe:state=2344689", 
+          "woe:country=23424747", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510526, 
         "ne_longitude": -68.151, 
         "longitude": -68.157, 
-        "placetype": "Airport", 
+        "parent_woeid": 20071037, 
+        "ne_latitude": -38.944, 
         "iso": "AR", 
-        "date_indexed": "2010-12-02T17:41:29Z", 
-        "parent_woeid": 466868, 
+        "sw_latitude": -38.953, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -38.949, 
         "sw_longitude": -68.163, 
-        "fullname": "Neuquen Airport, Neuquen, Neuquen, Confluencia, Argentina", 
-        "sw_latitude": -38.953
+        "fullname": "Neuquen Airport, Neuquen, Neuquen, Argentina", 
+        "date_indexed": "2010-12-02T17:41:29Z"
       }, 
       "id": 12510526
     }

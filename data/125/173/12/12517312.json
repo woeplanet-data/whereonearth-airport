@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517312, 
+        "placetype": "airport", 
         "name": "Zubovo Airport", 
-        "ne_latitude": 53.714, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599008", 
+          "woe:state=2346918", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517312, 
         "ne_longitude": 43.417, 
         "longitude": 43.409, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599008, 
+        "ne_latitude": 53.714, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2087223, 
+        "sw_latitude": 53.705, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.709, 
         "sw_longitude": 43.401, 
         "fullname": "Zubovo Airport, Penzenskaya Oblast, Bednodemyanovsky, Russia", 
-        "sw_latitude": 53.705
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12517312
     }

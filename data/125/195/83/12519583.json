@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519583, 
-        "name": "Easton-Newnam Field Airport", 
         "alias_ENG_V": [
           "ESN"
         ], 
-        "ne_latitude": 38.813, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Easton-Newnam Field Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588696", 
+          "woe:state=2347579", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519583, 
         "ne_longitude": -76.061, 
         "longitude": -76.065, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588696, 
+        "ne_latitude": 38.813, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2396510, 
+        "sw_latitude": 38.797, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.811, 
         "sw_longitude": -76.079, 
-        "fullname": "Easton-Newnam Field Airport, Easton, Maryland, Talbot, United States", 
-        "sw_latitude": 38.797
+        "fullname": "Easton-Newnam Field Airport, Easton, Maryland, United States", 
+        "iata_code": "ESN", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519583
     }

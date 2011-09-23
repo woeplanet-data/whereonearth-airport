@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388343, 
+        "placetype": "airport", 
         "name": "Berea-Richmond Airport", 
-        "ne_latitude": 37.648, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12588548", 
+          "woe:state=2347576", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388343, 
         "ne_longitude": -84.281, 
         "longitude": -84.284, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588548, 
+        "ne_latitude": 37.648, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2402582, 
+        "sw_latitude": 37.642, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 37.648, 
         "sw_longitude": -84.286, 
-        "fullname": "Berea-Richmond Airport, Farristown, Kentucky, Madison, United States", 
-        "sw_latitude": 37.642
+        "fullname": "Berea-Richmond Airport, Farristown, Kentucky, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388343
     }

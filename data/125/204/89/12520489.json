@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520489, 
-        "name": "Knox County Regional Airport", 
         "alias_ENG_V": [
           "RKD Airport"
         ], 
-        "ne_latitude": 44.069, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Knox County Regional Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588666", 
+          "woe:state=2347578", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520489, 
         "ne_longitude": -69.087, 
         "longitude": -69.094, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588666, 
+        "ne_latitude": 44.069, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2467110, 
+        "sw_latitude": 44.054, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.061, 
         "sw_longitude": -69.111, 
-        "fullname": "Knox County Regional Airport, Owls Head, Maine, Knox, United States", 
-        "sw_latitude": 44.054
+        "fullname": "Knox County Regional Airport, Owls Head, Maine, United States", 
+        "iata_code": "RKD", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520489
     }

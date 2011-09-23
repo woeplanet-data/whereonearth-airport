@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517067, 
+        "placetype": "airport", 
         "name": "Ufa Northwest Airport", 
-        "ne_latitude": 54.814, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597274", 
+          "woe:state=2346866", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517067, 
         "ne_longitude": 55.962, 
         "longitude": 55.954, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597274, 
+        "ne_latitude": 54.814, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2045780, 
+        "sw_latitude": 54.805, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 54.810, 
         "sw_longitude": 55.946, 
         "fullname": "Ufa Northwest Airport, Bashkortostan, Ufa, Russia", 
-        "sw_latitude": 54.805
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12517067
     }

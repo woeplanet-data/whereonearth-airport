@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511350, 
+        "placetype": "airport", 
         "name": "Aeroporto Tres Marias", 
         "alias_ENG_P": [
           "Tres Marias Airport"
         ], 
-        "ne_latitude": -18.220, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12580098", 
+          "woe:state=2344856", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511350, 
         "ne_longitude": -45.185, 
         "longitude": -45.190, 
-        "placetype": "Airport", 
+        "parent_woeid": 12580098, 
+        "ne_latitude": -18.220, 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:28Z", 
-        "parent_woeid": 456575, 
+        "sw_latitude": -18.229, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -18.224, 
         "sw_longitude": -45.195, 
-        "fullname": "Aeroporto Tres Marias, Tres Marias, Minas Gerais, Tr\u00eas Marias, Brazil", 
-        "sw_latitude": -18.229
+        "fullname": "Aeroporto Tres Marias, Tres Marias, Minas Gerais, Brazil", 
+        "date_indexed": "2010-12-02T18:01:28Z"
       }, 
       "id": 12511350
     }

@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 56051701, 
+        "placetype": "airport", 
         "name": "Flugplatz Ottenschlag", 
-        "ne_latitude": 48.421, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12673817", 
+          "woe:county=12591688", 
+          "woe:state=2344710", 
+          "woe:country=23424750", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56051701, 
         "ne_longitude": 15.218, 
         "longitude": 15.217, 
-        "placetype": "Airport", 
+        "parent_woeid": 12673817, 
+        "ne_latitude": 48.421, 
         "iso": "AT", 
-        "date_indexed": "2010-12-02T16:35:40Z", 
-        "parent_woeid": 543206, 
+        "sw_latitude": 48.416, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.421, 
         "sw_longitude": 15.213, 
-        "fullname": "Flugplatz Ottenschlag, Ottenschlag, Lower Austria, Zwettl, Austria", 
-        "sw_latitude": 48.416
+        "fullname": "Flugplatz Ottenschlag, Ottenschlag, Lower Austria, Austria", 
+        "date_indexed": "2010-12-02T16:35:40Z"
       }, 
       "id": 56051701
     }

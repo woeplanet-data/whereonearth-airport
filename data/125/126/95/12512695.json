@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512695, 
+        "placetype": "airport", 
         "name": "Kibrit Airport", 
-        "ne_latitude": 30.254, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345237", 
+          "woe:country=23424802", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512695, 
         "ne_longitude": 32.498, 
         "longitude": 32.493, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345237, 
+        "ne_latitude": 30.254, 
         "iso": "EG", 
-        "date_indexed": "2010-12-02T12:16:51Z", 
-        "parent_woeid": 1522319, 
+        "sw_latitude": 30.245, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 30.249, 
         "sw_longitude": 32.488, 
         "fullname": "Kibrit Airport, As Suways, Egypt", 
-        "sw_latitude": 30.245
+        "date_indexed": "2010-12-02T12:16:51Z"
       }, 
       "id": 12512695
     }

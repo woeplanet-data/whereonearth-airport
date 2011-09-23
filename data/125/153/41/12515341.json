@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515341, 
+        "placetype": "airport", 
         "name": "Lubin Airport", 
-        "ne_latitude": 51.412, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12591147", 
+          "woe:state=12577935", 
+          "woe:country=23424923", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515341, 
         "ne_longitude": 16.209, 
         "longitude": 16.202, 
-        "placetype": "Airport", 
+        "parent_woeid": 12591147, 
+        "ne_latitude": 51.412, 
         "iso": "PL", 
-        "date_indexed": "2010-12-02T12:12:45Z", 
-        "parent_woeid": 505452, 
+        "sw_latitude": 51.403, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.407, 
         "sw_longitude": 16.195, 
-        "fullname": "Lubin Airport, Lubin, Lower Silesia, Lubin County, Poland", 
-        "sw_latitude": 51.403
+        "fullname": "Lubin Airport, Lubin, Lower Silesia, Poland", 
+        "date_indexed": "2010-12-02T12:12:45Z"
       }, 
       "id": 12515341
     }

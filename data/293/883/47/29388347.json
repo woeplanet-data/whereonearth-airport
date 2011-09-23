@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388347, 
-        "name": "Warren Airport", 
         "alias_ENG_V": [
           "62d"
         ], 
-        "ne_latitude": 41.272, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Warren Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589604", 
+          "woe:state=2347594", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388347, 
         "ne_longitude": -80.925, 
         "longitude": -80.928, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589604, 
+        "ne_latitude": 41.272, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2390832, 
+        "sw_latitude": 41.265, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.272, 
         "sw_longitude": -80.932, 
-        "fullname": "Warren Airport, Delightful, Ohio, Trumbull, United States", 
-        "sw_latitude": 41.265
+        "fullname": "Warren Airport, Delightful, Ohio, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388347
     }

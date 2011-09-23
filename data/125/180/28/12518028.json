@@ -3,28 +3,42 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -1.312, 
-              51.681
-            ], 
-            [
-              -1.312, 
-              51.690
-            ], 
-            [
-              -1.297, 
-              51.690
-            ], 
-            [
-              -1.297, 
-              51.681
-            ], 
-            [
-              -1.312, 
-              51.681
+              [
+                -1.322, 
+                51.689
+              ], 
+              [
+                -1.318, 
+                51.691
+              ], 
+              [
+                -1.320, 
+                51.688
+              ], 
+              [
+                -1.321, 
+                51.688
+              ], 
+              [
+                -1.322, 
+                51.689
+              ], 
+              [
+                -1.323, 
+                51.689
+              ], 
+              [
+                -1.323, 
+                51.689
+              ], 
+              [
+                -1.322, 
+                51.689
+              ]
             ]
           ]
         ]
@@ -32,23 +46,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518028, 
-        "name": "Abingdon Airport", 
         "alias_ENG_V": [
           "ABB"
         ], 
-        "ne_latitude": 51.690, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -1.297, 
-        "longitude": -1.304, 
-        "placetype": "Airport", 
+        "name": "Abingdon Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=12696060", 
+          "woe:county=12602175", 
+          "woe:state=24554868", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518028, 
+        "ne_longitude": -1.318, 
+        "longitude": -1.320, 
+        "parent_woeid": 12696060, 
+        "ne_latitude": 51.691, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:20:54Z", 
-        "parent_woeid": 34656, 
-        "latitude": 51.686, 
-        "sw_longitude": -1.312, 
-        "fullname": "Abingdon Airport, Shippon, England, Oxfordshire, United Kingdom", 
-        "sw_latitude": 51.681
+        "sw_latitude": 51.688, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 51.689, 
+        "sw_longitude": -1.323, 
+        "fullname": "Abingdon Airport, Shippon, England, United Kingdom", 
+        "iata_code": "ABB", 
+        "date_indexed": "2010-12-02T12:20:54Z"
       }, 
       "id": 12518028
     }

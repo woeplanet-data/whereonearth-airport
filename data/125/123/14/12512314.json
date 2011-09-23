@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512314, 
-        "name": "Chamonate Airport", 
         "alias_ENG_V": [
           "Chamonate"
         ], 
-        "ne_latitude": -27.289, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Chamonate Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=26794077", 
+          "woe:county=26793991", 
+          "woe:state=2345022", 
+          "woe:country=23424782", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512314, 
         "ne_longitude": -70.407, 
         "longitude": -70.412, 
-        "placetype": "Airport", 
+        "parent_woeid": 26794077, 
+        "ne_latitude": -27.289, 
         "iso": "CL", 
-        "date_indexed": "2010-12-02T12:15:39Z", 
-        "parent_woeid": 349877, 
+        "sw_latitude": -27.298, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -27.293, 
         "sw_longitude": -70.417, 
-        "fullname": "Chamonate Airport, Copiap\u00f3, Atacama Region, Copiapo Province, Chile", 
-        "sw_latitude": -27.298
+        "fullname": "Chamonate Airport, Copiap\u00f3, Atacama Region, Chile", 
+        "iata_code": "CPO", 
+        "date_indexed": "2010-12-02T12:15:39Z"
       }, 
       "id": 12512314
     }

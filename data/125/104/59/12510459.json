@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510459, 
-        "name": "Antoine de St Exupery Airport", 
         "alias_ENG_V": [
           "OES"
         ], 
-        "ne_latitude": -40.751, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Antoine de St Exupery Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=20070732", 
+          "woe:state=2344690", 
+          "woe:country=23424747", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510459, 
         "ne_longitude": -65.001, 
         "longitude": -65.007, 
-        "placetype": "Airport", 
+        "parent_woeid": 20070732, 
+        "ne_latitude": -40.751, 
         "iso": "AR", 
-        "date_indexed": "2010-12-02T17:41:29Z", 
-        "parent_woeid": 332506, 
+        "sw_latitude": -40.760, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -40.756, 
         "sw_longitude": -65.013, 
-        "fullname": "Antoine de St Exupery Airport, San Antonio Oeste, Rio Negro, San Antonio, Argentina", 
-        "sw_latitude": -40.760
+        "fullname": "Antoine de St Exupery Airport, San Antonio Oeste, Rio Negro, Argentina", 
+        "date_indexed": "2010-12-02T17:41:29Z"
       }, 
       "id": 12510459
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388238, 
-        "name": "Lost Creek Airport", 
         "alias_ENG_V": [
           "5y4"
         ], 
-        "ne_latitude": 44.664, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Lost Creek Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588781", 
+          "woe:state=2347581", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388238, 
         "ne_longitude": -84.234, 
         "longitude": -84.235, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588781, 
+        "ne_latitude": 44.664, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2443232, 
+        "sw_latitude": 44.656, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.661, 
         "sw_longitude": -84.241, 
-        "fullname": "Lost Creek Airport, Luzerne, Michigan, Oscoda, United States", 
-        "sw_latitude": 44.656
+        "fullname": "Lost Creek Airport, Luzerne, Michigan, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388238
     }

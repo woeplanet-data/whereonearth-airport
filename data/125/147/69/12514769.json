@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514769, 
+        "placetype": "airport", 
         "name": "Lilongwe Airport", 
-        "ne_latitude": -13.960, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=20070134", 
+          "woe:country=23424889", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514769, 
         "ne_longitude": 33.702, 
         "longitude": 33.697, 
-        "placetype": "Airport", 
+        "parent_woeid": 20070134, 
+        "ne_latitude": -13.960, 
         "iso": "MW", 
-        "date_indexed": "2010-12-02T17:40:29Z", 
-        "parent_woeid": 1367864, 
+        "sw_latitude": -13.970, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -13.965, 
         "sw_longitude": 33.692, 
         "fullname": "Lilongwe Airport, Mbabzi, Lilongwe, Malawi", 
-        "sw_latitude": -13.970
+        "date_indexed": "2010-12-02T17:40:29Z"
       }, 
       "id": 12514769
     }

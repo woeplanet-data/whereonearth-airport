@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513515, 
-        "name": "Tabing Airport", 
         "alias_ENG_V": [
           "PDG"
         ], 
-        "ne_latitude": -0.868, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Tabing Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=56000449", 
+          "woe:state=2345733", 
+          "woe:country=23424846", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513515, 
         "ne_longitude": 100.364, 
         "longitude": 100.352, 
-        "placetype": "Airport", 
+        "parent_woeid": 56000449, 
+        "ne_latitude": -0.868, 
         "iso": "ID", 
-        "date_indexed": "2010-12-02T16:54:32Z", 
-        "parent_woeid": 1048040, 
+        "sw_latitude": -0.891, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -0.879, 
         "sw_longitude": 100.341, 
-        "fullname": "Tabing Airport, Padang, West Sumatra, Kota Padang, Indonesia", 
-        "sw_latitude": -0.891
+        "fullname": "Tabing Airport, Padang, West Sumatra, Indonesia", 
+        "iata_code": "PDG", 
+        "date_indexed": "2010-12-02T16:54:32Z"
       }, 
       "id": 12513515
     }

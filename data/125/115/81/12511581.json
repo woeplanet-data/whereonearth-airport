@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511581, 
-        "name": "Bonnyville Airport", 
         "alias_ENG_V": [
           "YBY Airport"
         ], 
-        "ne_latitude": 54.309, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Bonnyville Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375228", 
+          "woe:state=2344915", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511581, 
         "ne_longitude": -110.734, 
         "longitude": -110.742, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375228, 
+        "ne_latitude": 54.309, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 8482, 
+        "sw_latitude": 54.300, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 54.304, 
         "sw_longitude": -110.749, 
-        "fullname": "Bonnyville Airport, Bonnyville, Alberta, Alberta, Canada", 
-        "sw_latitude": 54.300
+        "fullname": "Bonnyville Airport, Bonnyville, Alberta, Canada", 
+        "iata_code": "YBY", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12511581
     }

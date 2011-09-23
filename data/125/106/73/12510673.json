@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510673, 
-        "name": "Geraldton Airport", 
         "alias_ENG_V": [
           "GET"
         ], 
-        "ne_latitude": -28.786, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Geraldton Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55864383", 
+          "woe:state=2344706", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510673, 
         "ne_longitude": 114.711, 
         "longitude": 114.701, 
-        "placetype": "Airport", 
+        "parent_woeid": 55864383, 
+        "ne_latitude": -28.786, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1104066, 
+        "sw_latitude": -28.806, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -28.794, 
         "sw_longitude": 114.696, 
-        "fullname": "Geraldton Airport, Moonyoonooka, Western Australia, Greenough, Australia", 
-        "sw_latitude": -28.806
+        "fullname": "Geraldton Airport, Moonyoonooka, Western Australia, Australia", 
+        "iata_code": "GET", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 12510673
     }

@@ -32,29 +32,35 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511155, 
-        "name": "Aeroporto Garanhuns", 
-        "alias_ENG_P": [
-          "Garanhuns Airport"
-        ], 
-        "ne_latitude": -8.851, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "QGP"
         ], 
+        "name": "Aeroporto Garanhuns", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Garanhuns Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12580788", 
+          "woe:state=2344860", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511155, 
         "ne_longitude": -36.525, 
         "longitude": -36.530, 
-        "placetype": "Airport", 
+        "parent_woeid": 12580788, 
+        "ne_latitude": -8.851, 
         "alias_POR_V": [
           "Aeroporto QGP"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 455950, 
+        "sw_latitude": -8.860, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -8.856, 
         "sw_longitude": -36.534, 
-        "fullname": "Aeroporto Garanhuns, Garanhuns, Pernambuco, Garanhuns, Brazil", 
-        "sw_latitude": -8.860
+        "fullname": "Aeroporto Garanhuns, Garanhuns, Pernambuco, Brazil", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511155
     }

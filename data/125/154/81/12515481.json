@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515481, 
-        "name": "Koror Airport", 
         "alias_ENG_V": [
           "koror (babelthuap i.) airport"
         ], 
-        "ne_latitude": 7.362, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Koror Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=24549822", 
+          "woe:country=23424927", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515481, 
         "ne_longitude": 134.551, 
         "longitude": 134.547, 
-        "placetype": "Airport", 
+        "parent_woeid": 24549822, 
+        "ne_latitude": 7.362, 
         "iso": "PW", 
-        "date_indexed": "2010-12-02T17:04:11Z", 
-        "parent_woeid": 1064284, 
+        "sw_latitude": 7.353, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 7.357, 
         "sw_longitude": 134.542, 
         "fullname": "Koror Airport, Koror, Koror, Palau", 
-        "sw_latitude": 7.353
+        "iata_code": "ROR", 
+        "date_indexed": "2010-12-02T17:04:11Z"
       }, 
       "id": 12515481
     }

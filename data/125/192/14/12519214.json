@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519214, 
-        "name": "Clarendon Municipal Airport", 
         "alias_ENG_V": [
           "E34"
         ], 
-        "ne_latitude": 34.918, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Clarendon Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590071", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519214, 
         "ne_longitude": -100.865, 
         "longitude": -100.867, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590071, 
+        "ne_latitude": 34.918, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2380657, 
+        "sw_latitude": 34.904, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 34.911, 
         "sw_longitude": -100.874, 
-        "fullname": "Clarendon Municipal Airport, Clarendon, Texas, Donley, United States", 
-        "sw_latitude": 34.904
+        "fullname": "Clarendon Municipal Airport, Clarendon, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519214
     }

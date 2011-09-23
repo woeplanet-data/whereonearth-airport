@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513249, 
+        "placetype": "airport", 
         "name": "Trebbin Airport", 
-        "ne_latitude": 52.218, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12636241", 
+          "woe:county=12596900", 
+          "woe:state=2345491", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513249, 
         "ne_longitude": 13.185, 
         "longitude": 13.178, 
-        "placetype": "Airport", 
+        "parent_woeid": 12636241, 
+        "ne_latitude": 52.218, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 29352381, 
+        "sw_latitude": 52.208, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 52.213, 
         "sw_longitude": 13.170, 
-        "fullname": "Trebbin Airport, Sch\u00f6nhagen Priedel, Brandenburg, Teltow-Fl\u00e4ming, Germany", 
+        "fullname": "Trebbin Airport, Sch\u00f6nhagen Priedel, Brandenburg, Germany", 
         "alias_GER_Q": [
           "Flughafen Trebbin"
         ], 
-        "sw_latitude": 52.208
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 12513249
     }

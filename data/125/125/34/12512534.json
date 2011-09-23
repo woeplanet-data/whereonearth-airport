@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512534, 
+        "placetype": "airport", 
         "name": "Kladno Airport", 
-        "ne_latitude": 50.113, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12608823", 
+          "woe:county=12582583", 
+          "woe:state=20070468", 
+          "woe:country=23424810", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512534, 
         "ne_longitude": 14.082, 
         "longitude": 14.075, 
-        "placetype": "Airport", 
+        "parent_woeid": 12608823, 
+        "ne_latitude": 50.113, 
         "iso": "CZ", 
-        "date_indexed": "2010-12-02T08:56:52Z", 
-        "parent_woeid": 800504, 
+        "sw_latitude": 50.104, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.109, 
         "sw_longitude": 14.068, 
-        "fullname": "Kladno Airport, Velk\u00e1 Dobr\u00e1, St\u0159edo\u010desk\u00fd, Kladno, Czech Republic", 
-        "sw_latitude": 50.104
+        "fullname": "Kladno Airport, Velk\u00e1 Dobr\u00e1, St\u0159edo\u010desk\u00fd, Czech Republic", 
+        "date_indexed": "2010-12-02T08:56:52Z"
       }, 
       "id": 12512534
     }

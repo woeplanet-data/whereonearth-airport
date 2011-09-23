@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510633, 
-        "name": "Cleve Aerodrome", 
         "alias_ENG_V": [
           "Cleve Airport"
         ], 
-        "ne_latitude": -33.704, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Cleve Aerodrome", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55864209", 
+          "woe:state=2344703", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510633, 
         "ne_longitude": 136.510, 
         "longitude": 136.505, 
-        "placetype": "Airport", 
+        "parent_woeid": 55864209, 
+        "ne_latitude": -33.704, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1101176, 
+        "sw_latitude": -33.713, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -33.709, 
         "sw_longitude": 136.499, 
-        "fullname": "Cleve Aerodrome, Cleve, South Australia, Cleve, Australia", 
-        "sw_latitude": -33.713
+        "fullname": "Cleve Aerodrome, Cleve, South Australia, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 12510633
     }

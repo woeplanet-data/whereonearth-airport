@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388453, 
+        "placetype": "airport", 
         "name": "Birchwood-Pocono Airpark", 
-        "ne_latitude": 41.062, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12589772", 
+          "woe:state=2347597", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388453, 
         "ne_longitude": -75.243, 
         "longitude": -75.245, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589772, 
+        "ne_latitude": 41.062, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 28745478, 
+        "sw_latitude": 41.058, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.060, 
         "sw_longitude": -75.248, 
-        "fullname": "Birchwood-Pocono Airpark, Pocono, Pennsylvania, Monroe, United States", 
-        "sw_latitude": 41.058
+        "fullname": "Birchwood-Pocono Airpark, Pocono, Pennsylvania, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 29388453
     }

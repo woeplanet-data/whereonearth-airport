@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29387960, 
-        "name": "Clearwater Ranch Airport", 
         "alias_ENG_V": [
           "Jb01"
         ], 
-        "ne_latitude": 43.761, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Clearwater Ranch Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590534", 
+          "woe:state=2347608", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29387960, 
         "ne_longitude": -89.652, 
         "longitude": -89.653, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590534, 
+        "ne_latitude": 43.761, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2370041, 
+        "sw_latitude": 43.753, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.760, 
         "sw_longitude": -89.654, 
-        "fullname": "Clearwater Ranch Airport, Brooks, Wisconsin, Adams, United States", 
-        "sw_latitude": 43.753
+        "fullname": "Clearwater Ranch Airport, Brooks, Wisconsin, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29387960
     }

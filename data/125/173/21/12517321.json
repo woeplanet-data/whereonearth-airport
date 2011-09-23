@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517321, 
-        "name": "Al Baha Airport", 
         "alias_ENG_V": [
           "ABT"
         ], 
-        "ne_latitude": 20.298, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Al Baha Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=56120206", 
+          "woe:state=2346949", 
+          "woe:country=23424938", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517321, 
         "ne_longitude": 41.645, 
         "longitude": 41.641, 
-        "placetype": "Airport", 
+        "parent_woeid": 56120206, 
+        "ne_latitude": 20.298, 
         "iso": "SA", 
-        "date_indexed": "2010-12-02T09:34:42Z", 
-        "parent_woeid": 1939588, 
+        "sw_latitude": 20.289, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 20.294, 
         "sw_longitude": 41.636, 
-        "fullname": "Al Baha Airport, Al Aqiq, Al Baha, Al Bahah, Saudi Arabia", 
-        "sw_latitude": 20.289
+        "fullname": "Al Baha Airport, Al Aqiq, Al Baha, Saudi Arabia", 
+        "iata_code": "ABT", 
+        "date_indexed": "2010-12-02T09:34:42Z"
       }, 
       "id": 12517321
     }

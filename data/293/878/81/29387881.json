@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29387881, 
-        "name": "Craigmont Municipal Airport", 
         "alias_ENG_V": [
           "S89"
         ], 
-        "ne_latitude": 46.249, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Craigmont Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588064", 
+          "woe:state=2347571", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29387881, 
         "ne_longitude": -116.473, 
         "longitude": -116.473, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588064, 
+        "ne_latitude": 46.249, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2386592, 
+        "sw_latitude": 46.244, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.245, 
         "sw_longitude": -116.485, 
-        "fullname": "Craigmont Municipal Airport, Craigmont, Idaho, Lewis, United States", 
-        "sw_latitude": 46.244
+        "fullname": "Craigmont Municipal Airport, Craigmont, Idaho, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29387881
     }

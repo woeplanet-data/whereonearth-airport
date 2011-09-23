@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515312, 
+        "placetype": "airport", 
         "name": "Jamna Airport", 
-        "ne_latitude": 49.589, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=24548410", 
+          "woe:county=12591324", 
+          "woe:state=12577943", 
+          "woe:country=23424923", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515312, 
         "ne_longitude": 22.647, 
         "longitude": 22.640, 
-        "placetype": "Airport", 
+        "parent_woeid": 24548410, 
+        "ne_latitude": 49.589, 
         "iso": "PL", 
-        "date_indexed": "2010-12-02T12:12:45Z", 
-        "parent_woeid": 525509, 
+        "sw_latitude": 49.580, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.585, 
         "sw_longitude": 22.633, 
         "fullname": "Jamna Airport, Subcarpathia, Bieszczady County, Poland", 
-        "sw_latitude": 49.580
+        "date_indexed": "2010-12-02T12:12:45Z"
       }, 
       "id": 12515312
     }

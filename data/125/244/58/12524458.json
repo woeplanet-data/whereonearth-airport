@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524458, 
-        "name": "Talca Airport", 
         "alias_ENG_V": [
           "TLX"
         ], 
-        "ne_latitude": -35.429, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Talca Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=26794262", 
+          "woe:county=26794017", 
+          "woe:state=2345028", 
+          "woe:country=23424782", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524458, 
         "ne_longitude": -71.661, 
         "longitude": -71.667, 
-        "placetype": "Airport", 
+        "parent_woeid": 26794262, 
+        "ne_latitude": -35.429, 
         "iso": "CL", 
-        "date_indexed": "2010-12-02T12:15:39Z", 
-        "parent_woeid": 349869, 
+        "sw_latitude": -35.438, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -35.433, 
         "sw_longitude": -71.672, 
-        "fullname": "Talca Airport, Talca, Maule Region, Talca Province, Chile", 
-        "sw_latitude": -35.438
+        "fullname": "Talca Airport, Talca, Maule Region, Chile", 
+        "iata_code": "TLX", 
+        "date_indexed": "2010-12-02T12:15:39Z"
       }, 
       "id": 12524458
     }

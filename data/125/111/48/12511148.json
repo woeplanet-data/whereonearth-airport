@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511148, 
+        "placetype": "airport", 
         "name": "Aeroporto Foz do Areia", 
         "alias_ENG_P": [
           "Foz do Areia Airport"
         ], 
-        "ne_latitude": -25.978, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12580432", 
+          "woe:state=2344859", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511148, 
         "ne_longitude": -51.637, 
         "longitude": -51.642, 
-        "placetype": "Airport", 
+        "parent_woeid": 12580432, 
+        "ne_latitude": -25.978, 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 424738, 
+        "sw_latitude": -25.987, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -25.983, 
         "sw_longitude": -51.647, 
-        "fullname": "Aeroporto Foz do Areia, Bituruna, Parana, Bituruna, Brazil", 
-        "sw_latitude": -25.987
+        "fullname": "Aeroporto Foz do Areia, Bituruna, Parana, Brazil", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511148
     }

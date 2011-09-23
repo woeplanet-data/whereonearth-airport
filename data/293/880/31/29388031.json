@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388031, 
-        "name": "Quinn Field", 
         "alias_ENG_V": [
           "Quinn Field Airport"
         ], 
-        "ne_latitude": 40.930, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Quinn Field", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589161", 
+          "woe:state=2347586", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388031, 
         "ne_longitude": -100.141, 
         "longitude": -100.151, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589161, 
+        "ne_latitude": 40.930, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2412445, 
+        "sw_latitude": 40.921, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.926, 
         "sw_longitude": -100.153, 
-        "fullname": "Quinn Field, Gothenburg, Nebraska, Dawson, United States", 
-        "sw_latitude": 40.921
+        "fullname": "Quinn Field, Gothenburg, Nebraska, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388031
     }

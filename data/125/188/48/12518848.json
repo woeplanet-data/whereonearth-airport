@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518848, 
-        "name": "Black Rock Airport", 
         "alias_ENG_V": [
           "ZUN"
         ], 
-        "ne_latitude": 35.087, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Black Rock Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589296", 
+          "woe:state=2347590", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518848, 
         "ne_longitude": -108.783, 
         "longitude": -108.789, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589296, 
+        "ne_latitude": 35.087, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2364901, 
+        "sw_latitude": 35.078, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.084, 
         "sw_longitude": -108.803, 
-        "fullname": "Black Rock Airport, Black Rock, New Mexico, Mckinley, United States", 
-        "sw_latitude": 35.078
+        "fullname": "Black Rock Airport, Black Rock, New Mexico, United States", 
+        "iata_code": "ZUN", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518848
     }

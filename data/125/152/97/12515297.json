@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515297, 
+        "placetype": "airport", 
         "name": "Debrzno Airport", 
-        "ne_latitude": 53.527, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12618230", 
+          "woe:county=12591487", 
+          "woe:state=12577949", 
+          "woe:country=23424923", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515297, 
         "ne_longitude": 17.252, 
         "longitude": 17.244, 
-        "placetype": "Airport", 
+        "parent_woeid": 12618230, 
+        "ne_latitude": 53.527, 
         "iso": "PL", 
-        "date_indexed": "2010-12-02T12:12:45Z", 
-        "parent_woeid": 491511, 
+        "sw_latitude": 53.518, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.522, 
         "sw_longitude": 17.236, 
         "fullname": "Debrzno Airport, Greater Poland, Zlotow County, Poland", 
-        "sw_latitude": 53.518
+        "date_indexed": "2010-12-02T12:12:45Z"
       }, 
       "id": 12515297
     }

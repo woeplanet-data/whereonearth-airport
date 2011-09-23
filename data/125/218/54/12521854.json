@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521854, 
-        "name": "Siletz Bay State Airport", 
         "alias_ENG_V": [
           "S45"
         ], 
-        "ne_latitude": 44.882, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Siletz Bay State Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589712", 
+          "woe:state=2347596", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521854, 
         "ne_longitude": -124.026, 
         "longitude": -124.030, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589712, 
+        "ne_latitude": 44.882, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2411148, 
+        "sw_latitude": 44.871, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.878, 
         "sw_longitude": -124.031, 
-        "fullname": "Siletz Bay State Airport, Gleneden Beach, Oregon, Lincoln, United States", 
-        "sw_latitude": 44.871
+        "fullname": "Siletz Bay State Airport, Gleneden Beach, Oregon, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521854
     }

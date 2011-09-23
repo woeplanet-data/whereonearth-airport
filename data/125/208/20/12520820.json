@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520820, 
-        "name": "Marshalltown Municipal Airport", 
         "alias_ENG_V": [
           "MIW"
         ], 
-        "ne_latitude": 42.118, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Marshalltown Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588335", 
+          "woe:state=2347574", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520820, 
         "ne_longitude": -92.908, 
         "longitude": -92.916, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588335, 
+        "ne_latitude": 42.118, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2446162, 
+        "sw_latitude": 42.107, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.108, 
         "sw_longitude": -92.926, 
-        "fullname": "Marshalltown Municipal Airport, Marshalltown, Iowa, Marshall, United States", 
-        "sw_latitude": 42.107
+        "fullname": "Marshalltown Municipal Airport, Marshalltown, Iowa, United States", 
+        "iata_code": "MIW", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520820
     }

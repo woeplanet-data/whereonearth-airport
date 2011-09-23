@@ -3,28 +3,106 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -121.604, 
-              38.671
-            ], 
-            [
-              -121.604, 
-              38.714
-            ], 
-            [
-              -121.576, 
-              38.714
-            ], 
-            [
-              -121.576, 
-              38.671
-            ], 
-            [
-              -121.604, 
-              38.671
+              [
+                -121.576, 
+                38.671
+              ], 
+              [
+                -121.576, 
+                38.671
+              ], 
+              [
+                -121.579, 
+                38.671
+              ], 
+              [
+                -121.582, 
+                38.671
+              ], 
+              [
+                -121.583, 
+                38.672
+              ], 
+              [
+                -121.591, 
+                38.669
+              ], 
+              [
+                -121.591, 
+                38.669
+              ], 
+              [
+                -121.596, 
+                38.675
+              ], 
+              [
+                -121.607, 
+                38.671
+              ], 
+              [
+                -121.602, 
+                38.683
+              ], 
+              [
+                -121.601, 
+                38.691
+              ], 
+              [
+                -121.601, 
+                38.700
+              ], 
+              [
+                -121.599, 
+                38.700
+              ], 
+              [
+                -121.596, 
+                38.699
+              ], 
+              [
+                -121.586, 
+                38.704
+              ], 
+              [
+                -121.585, 
+                38.708
+              ], 
+              [
+                -121.583, 
+                38.705
+              ], 
+              [
+                -121.581, 
+                38.697
+              ], 
+              [
+                -121.580, 
+                38.695
+              ], 
+              [
+                -121.580, 
+                38.694
+              ], 
+              [
+                -121.580, 
+                38.692
+              ], 
+              [
+                -121.578, 
+                38.686
+              ], 
+              [
+                -121.577, 
+                38.672
+              ], 
+              [
+                -121.576, 
+                38.671
+              ]
             ]
           ]
         ]
@@ -32,23 +110,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521693, 
-        "name": "Sacramento International Airport", 
         "alias_ENG_V": [
           "SMF"
         ], 
-        "ne_latitude": 38.714, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Sacramento International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587703", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521693, 
         "ne_longitude": -121.576, 
-        "longitude": -121.591, 
-        "placetype": "Airport", 
+        "longitude": -121.590, 
+        "parent_woeid": 12587703, 
+        "ne_latitude": 38.708, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2366506, 
-        "latitude": 38.683, 
-        "sw_longitude": -121.604, 
-        "fullname": "Sacramento International Airport, Bombay, California, Sacramento, United States", 
-        "sw_latitude": 38.671
+        "sw_latitude": 38.669, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 38.686, 
+        "sw_longitude": -121.607, 
+        "fullname": "Sacramento International Airport, Bombay, California, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521693
     }

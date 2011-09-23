@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524098, 
-        "name": "Burwash Landings Airport", 
         "alias_ENG_V": [
           "YDB Airport"
         ], 
-        "ne_latitude": 61.368, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Burwash Landings Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375157", 
+          "woe:state=2344926", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524098, 
         "ne_longitude": -139.020, 
         "longitude": -139.029, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375157, 
+        "ne_latitude": 61.368, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 4217, 
+        "sw_latitude": 61.359, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 61.363, 
         "sw_longitude": -139.039, 
-        "fullname": "Burwash Landings Airport, Burwash Landing, Yukon Territory, Yukon Territory, Canada", 
-        "sw_latitude": 61.359
+        "fullname": "Burwash Landings Airport, Burwash Landing, Yukon Territory, Canada", 
+        "iata_code": "YDB", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12524098
     }

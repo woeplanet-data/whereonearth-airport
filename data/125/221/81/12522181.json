@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522181, 
+        "placetype": "airport", 
         "name": "Transwestern Pipeline Nr 7 Airport", 
-        "ne_latitude": 34.325, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12589309", 
+          "woe:state=2347590", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522181, 
         "ne_longitude": -106.262, 
         "longitude": -106.267, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589309, 
+        "ne_latitude": 34.325, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2380233, 
+        "sw_latitude": 34.316, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 34.320, 
         "sw_longitude": -106.273, 
-        "fullname": "Transwestern Pipeline Nr 7 Airport, Chupadera, New Mexico, Torrance, United States", 
-        "sw_latitude": 34.316
+        "fullname": "Transwestern Pipeline Nr 7 Airport, Chupadera, New Mexico, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12522181
     }

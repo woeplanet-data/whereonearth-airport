@@ -3,28 +3,34 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -121.799, 
-              36.926
-            ], 
-            [
-              -121.799, 
-              36.942
-            ], 
-            [
-              -121.778, 
-              36.942
-            ], 
-            [
-              -121.778, 
-              36.926
-            ], 
-            [
-              -121.799, 
-              36.926
+              [
+                -121.787, 
+                36.938
+              ], 
+              [
+                -121.787, 
+                36.937
+              ], 
+              [
+                -121.788, 
+                36.934
+              ], 
+              [
+                -121.793, 
+                36.935
+              ], 
+              [
+                -121.789, 
+                36.937
+              ], 
+              [
+                -121.787, 
+                36.938
+              ]
             ]
           ]
         ]
@@ -32,23 +38,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522355, 
-        "name": "Watsonville Municipal Airport", 
         "alias_ENG_V": [
           "WVI"
         ], 
-        "ne_latitude": 36.942, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -121.778, 
-        "longitude": -121.788, 
-        "placetype": "Airport", 
+        "name": "Watsonville Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587713", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522355, 
+        "ne_longitude": -121.787, 
+        "longitude": -121.789, 
+        "parent_woeid": 12587713, 
+        "ne_latitude": 36.938, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2515367, 
-        "latitude": 36.934, 
-        "sw_longitude": -121.799, 
-        "fullname": "Watsonville Municipal Airport, Watsonville, California, Santa Cruz, United States", 
-        "sw_latitude": 36.926
+        "sw_latitude": 36.934, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 36.935, 
+        "sw_longitude": -121.793, 
+        "fullname": "Watsonville Municipal Airport, Watsonville, California, United States", 
+        "iata_code": "WVI", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522355
     }

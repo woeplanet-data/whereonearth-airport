@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515540, 
+        "placetype": "airport", 
         "name": "Hilseni Airport", 
-        "ne_latitude": 48.001, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2346621", 
+          "woe:country=23424933", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515540, 
         "ne_longitude": 26.367, 
         "longitude": 26.361, 
-        "placetype": "Airport", 
+        "parent_woeid": 2346621, 
+        "ne_latitude": 48.001, 
         "iso": "RO", 
-        "date_indexed": "2010-12-02T16:37:48Z", 
-        "parent_woeid": 873647, 
+        "sw_latitude": 47.992, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.996, 
         "sw_longitude": 26.354, 
         "fullname": "Hilseni Airport, Botosani, Romania", 
-        "sw_latitude": 47.992
+        "date_indexed": "2010-12-02T16:37:48Z"
       }, 
       "id": 12515540
     }

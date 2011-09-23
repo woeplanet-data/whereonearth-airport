@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519958, 
+        "placetype": "airport", 
         "name": "Grandfield Municipal Airport", 
-        "ne_latitude": 34.249, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12589685", 
+          "woe:state=2347595", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519958, 
         "ne_longitude": -98.733, 
         "longitude": -98.738, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589685, 
+        "ne_latitude": 34.249, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2412914, 
+        "sw_latitude": 34.240, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 34.244, 
         "sw_longitude": -98.744, 
-        "fullname": "Grandfield Municipal Airport, Grandfield, Oklahoma, Tillman, United States", 
-        "sw_latitude": 34.240
+        "fullname": "Grandfield Municipal Airport, Grandfield, Oklahoma, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12519958
     }

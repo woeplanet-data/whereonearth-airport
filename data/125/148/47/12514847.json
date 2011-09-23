@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514847, 
+        "placetype": "airport", 
         "name": "Ciudad Guzman Airport", 
-        "ne_latitude": 19.713, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12600219", 
+          "woe:state=2346277", 
+          "woe:country=23424900", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514847, 
         "ne_longitude": -103.486, 
         "longitude": -103.491, 
-        "placetype": "Airport", 
+        "parent_woeid": 12600219, 
+        "ne_latitude": 19.713, 
         "iso": "MX", 
-        "date_indexed": "2010-12-02T16:57:55Z", 
-        "parent_woeid": 116552, 
+        "sw_latitude": 19.704, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 19.708, 
         "sw_longitude": -103.495, 
-        "fullname": "Ciudad Guzman Airport, Ciudad Guzm\u00e1n, Jalisco, Ciudad Guzman, Mexico", 
-        "sw_latitude": 19.704
+        "fullname": "Ciudad Guzman Airport, Ciudad Guzm\u00e1n, Jalisco, Mexico", 
+        "date_indexed": "2010-12-02T16:57:55Z"
       }, 
       "id": 12514847
     }

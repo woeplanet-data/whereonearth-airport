@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513512, 
-        "name": "Supadio Airport", 
         "alias_ENG_V": [
           "PNK"
         ], 
-        "ne_latitude": -0.137, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Supadio Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=56000071", 
+          "woe:state=2345720", 
+          "woe:country=23424846", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513512, 
         "ne_longitude": 109.414, 
         "longitude": 109.403, 
-        "placetype": "Airport", 
+        "parent_woeid": 56000071, 
+        "ne_latitude": -0.137, 
         "iso": "ID", 
-        "date_indexed": "2010-12-02T16:54:32Z", 
-        "parent_woeid": 1048902, 
+        "sw_latitude": -0.159, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -0.148, 
         "sw_longitude": 109.391, 
         "fullname": "Supadio Airport, West Kalimantan, Pontianak, Indonesia", 
-        "sw_latitude": -0.159
+        "iata_code": "PNK", 
+        "date_indexed": "2010-12-02T16:54:32Z"
       }, 
       "id": 12513512
     }

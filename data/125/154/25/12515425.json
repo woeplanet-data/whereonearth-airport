@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515425, 
+        "placetype": "airport", 
         "name": "Ingenio Santa Rosa Airport", 
-        "ne_latitude": 8.201, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=26793303", 
+          "woe:county=26793082", 
+          "woe:state=2346553", 
+          "woe:country=23424924", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515425, 
         "ne_longitude": -80.655, 
         "longitude": -80.660, 
-        "placetype": "Airport", 
+        "parent_woeid": 26793303, 
+        "ne_latitude": 8.201, 
         "iso": "PA", 
-        "date_indexed": "2010-12-02T17:52:32Z", 
-        "parent_woeid": 157170, 
+        "sw_latitude": 8.192, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 8.196, 
         "sw_longitude": -80.665, 
         "fullname": "Ingenio Santa Rosa Airport, Cocl\u00e9, Aguadulce, Panama", 
-        "sw_latitude": 8.192
+        "date_indexed": "2010-12-02T17:52:32Z"
       }, 
       "id": 12515425
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515922, 
+        "placetype": "airport", 
         "name": "Chumakovo Airport", 
-        "ne_latitude": 55.719, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598860", 
+          "woe:state=2346914", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515922, 
         "ne_longitude": 79.077, 
         "longitude": 79.069, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598860, 
+        "ne_latitude": 55.719, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 1999496, 
+        "sw_latitude": 55.710, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 55.714, 
         "sw_longitude": 79.061, 
         "fullname": "Chumakovo Airport, Novosibirskaya Oblast, Kuybyshevsky, Russia", 
-        "sw_latitude": 55.710
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12515922
     }

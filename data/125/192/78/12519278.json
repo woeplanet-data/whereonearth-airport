@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519278, 
-        "name": "Columbia Airport", 
         "alias_ENG_V": [
           "COA"
         ], 
-        "ne_latitude": 38.038, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Columbia Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587724", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519278, 
         "ne_longitude": -120.407, 
         "longitude": -120.411, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587724, 
+        "ne_latitude": 38.038, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2383527, 
+        "sw_latitude": 38.023, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.029, 
         "sw_longitude": -120.421, 
-        "fullname": "Columbia Airport, Columbia, California, Tuolumne, United States", 
-        "sw_latitude": 38.023
+        "fullname": "Columbia Airport, Columbia, California, United States", 
+        "iata_code": "COA", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519278
     }

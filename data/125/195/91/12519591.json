@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519591, 
+        "placetype": "airport", 
         "name": "Edinburg Rio Grande Valley Airport", 
-        "ne_latitude": 26.446, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12590114", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519591, 
         "ne_longitude": -98.124, 
         "longitude": -98.129, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590114, 
+        "ne_latitude": 26.446, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2402742, 
+        "sw_latitude": 26.437, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 26.442, 
         "sw_longitude": -98.134, 
-        "fullname": "Edinburg Rio Grande Valley Airport, Faysville, Texas, Hidalgo, United States", 
-        "sw_latitude": 26.437
+        "fullname": "Edinburg Rio Grande Valley Airport, Faysville, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 12519591
     }

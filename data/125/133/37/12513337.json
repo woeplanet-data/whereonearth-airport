@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513337, 
-        "name": "Puerto Barrios Airport", 
         "alias_ENG_V": [
           "Pto Barrios Airport"
         ], 
-        "ne_latitude": 15.735, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Puerto Barrios Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26807030", 
+          "woe:state=2345560", 
+          "woe:country=23424834", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513337, 
         "ne_longitude": -88.581, 
         "longitude": -88.586, 
-        "placetype": "Airport", 
+        "parent_woeid": 26807030, 
+        "ne_latitude": 15.735, 
         "iso": "GT", 
-        "date_indexed": "2010-12-02T16:55:27Z", 
-        "parent_woeid": 85209, 
+        "sw_latitude": 15.726, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 15.731, 
         "sw_longitude": -88.590, 
-        "fullname": "Puerto Barrios Airport, Puerto Barrios, Izabal, Puerto Barrios, Guatemala", 
-        "sw_latitude": 15.726
+        "fullname": "Puerto Barrios Airport, Puerto Barrios, Izabal, Guatemala", 
+        "iata_code": "PBR", 
+        "date_indexed": "2010-12-02T16:55:27Z"
       }, 
       "id": 12513337
     }

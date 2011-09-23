@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510807, 
-        "name": "Warrnambool Airport", 
         "alias_ENG_V": [
           "WMB"
         ], 
-        "ne_latitude": -38.296, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Warrnambool Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55864245", 
+          "woe:state=2344705", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510807, 
         "ne_longitude": 142.455, 
         "longitude": 142.449, 
-        "placetype": "Airport", 
+        "parent_woeid": 55864245, 
+        "ne_latitude": -38.296, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1099690, 
+        "sw_latitude": -38.305, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -38.300, 
         "sw_longitude": 142.443, 
-        "fullname": "Warrnambool Airport, Yarpturk, Victoria, Moyne, Australia", 
-        "sw_latitude": -38.305
+        "fullname": "Warrnambool Airport, Yarpturk, Victoria, Australia", 
+        "iata_code": "WMB", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 12510807
     }

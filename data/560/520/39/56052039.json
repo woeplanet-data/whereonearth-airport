@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 56052039, 
+        "placetype": "airport", 
         "name": "Sportflugplatz Neu-anspach/taunus", 
-        "ne_latitude": 50.291, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12632506", 
+          "woe:county=12597035", 
+          "woe:state=2345485", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56052039, 
         "ne_longitude": 8.541, 
         "longitude": 8.540, 
-        "placetype": "Airport", 
+        "parent_woeid": 12632506, 
+        "ne_latitude": 50.291, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 677848, 
+        "sw_latitude": 50.287, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.290, 
         "sw_longitude": 8.534, 
-        "fullname": "Sportflugplatz Neu-anspach/taunus, Neu-Anspach, Hesse, Hochtaunuskreis, Germany", 
-        "sw_latitude": 50.287
+        "fullname": "Sportflugplatz Neu-anspach/taunus, Neu-Anspach, Hesse, Germany", 
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 56052039
     }

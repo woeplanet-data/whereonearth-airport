@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512005, 
+        "placetype": "airport", 
         "name": "Chengbu Airport", 
-        "ne_latitude": 26.388, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12686156", 
+          "woe:county=26198163", 
+          "woe:state=12578001", 
+          "woe:country=23424781", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512005, 
         "ne_longitude": 110.306, 
         "longitude": 110.301, 
-        "placetype": "Airport", 
+        "parent_woeid": 12686156, 
+        "ne_latitude": 26.388, 
         "iso": "CN", 
-        "date_indexed": "2010-12-02T08:51:48Z", 
-        "parent_woeid": 2142781, 
+        "sw_latitude": 26.379, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 26.383, 
         "sw_longitude": 110.296, 
-        "fullname": "Chengbu Airport, Rulin, Hunan, Shaoyang, China", 
-        "sw_latitude": 26.379
+        "fullname": "Chengbu Airport, Rulin, Hunan, China", 
+        "date_indexed": "2010-12-02T08:51:48Z"
       }, 
       "id": 12512005
     }

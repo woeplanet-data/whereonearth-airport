@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523295, 
-        "name": "Busuanga Airport", 
         "alias_ENG_V": [
           "USU"
         ], 
-        "ne_latitude": 12.105, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Busuanga Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=2346703", 
+          "woe:state=23424725", 
+          "woe:country=23424934", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523295, 
         "ne_longitude": 120.172, 
         "longitude": 120.167, 
-        "placetype": "Airport", 
+        "parent_woeid": 2346703, 
+        "ne_latitude": 12.105, 
         "iso": "PH", 
-        "date_indexed": "2010-12-02T09:56:58Z", 
-        "parent_woeid": 1199777, 
+        "sw_latitude": 12.095, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 12.100, 
         "sw_longitude": 120.162, 
         "fullname": "Busuanga Airport, Western Visayas, Palawan, Philippines", 
-        "sw_latitude": 12.095
+        "iata_code": "USU", 
+        "date_indexed": "2010-12-02T09:56:58Z"
       }, 
       "id": 12523295
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520552, 
-        "name": "Lamar Municipal Airport", 
         "alias_ENG_V": [
           "Lamar Airport"
         ], 
-        "ne_latitude": 38.086, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Lamar Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587777", 
+          "woe:state=2347564", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520552, 
         "ne_longitude": -102.671, 
         "longitude": -102.683, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587777, 
+        "ne_latitude": 38.086, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2363311, 
+        "sw_latitude": 38.066, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.076, 
         "sw_longitude": -102.696, 
-        "fullname": "Lamar Municipal Airport, Beta, Colorado, Prowers, United States", 
-        "sw_latitude": 38.066
+        "fullname": "Lamar Municipal Airport, Beta, Colorado, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12520552
     }

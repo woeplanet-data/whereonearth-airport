@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511767, 
+        "placetype": "airport", 
         "name": "Nakusp Airport", 
-        "ne_latitude": 50.271, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=29375076", 
+          "woe:state=2344916", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511767, 
         "ne_longitude": -117.805, 
         "longitude": -117.812, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375076, 
+        "ne_latitude": 50.271, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 9717, 
+        "sw_latitude": 50.262, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.266, 
         "sw_longitude": -117.819, 
-        "fullname": "Nakusp Airport, Nakusp, British Columbia, Central Kootenay, Canada", 
-        "sw_latitude": 50.262
+        "fullname": "Nakusp Airport, Nakusp, British Columbia, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12511767
     }

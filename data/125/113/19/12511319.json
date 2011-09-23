@@ -32,29 +32,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511319, 
-        "name": "Aeroporto Sao Lourenco", 
-        "alias_ENG_P": [
-          "Sao Lourenco Airport"
-        ], 
-        "ne_latitude": -22.087, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "SSO"
         ], 
+        "name": "Aeroporto Sao Lourenco", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Sao Lourenco Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12580082", 
+          "woe:state=2344856", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511319, 
         "ne_longitude": -45.040, 
         "longitude": -45.045, 
-        "placetype": "Airport", 
+        "parent_woeid": 12580082, 
+        "ne_latitude": -22.087, 
         "alias_POR_V": [
           "Aeroporto SSO"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 452585, 
+        "sw_latitude": -22.096, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -22.091, 
         "sw_longitude": -45.050, 
-        "fullname": "Aeroporto Sao Lourenco, Soledade de Minas, Minas Gerais, Soledade de Minas, Brazil", 
-        "sw_latitude": -22.096
+        "fullname": "Aeroporto Sao Lourenco, Soledade de Minas, Minas Gerais, Brazil", 
+        "iata_code": "SSO", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511319
     }

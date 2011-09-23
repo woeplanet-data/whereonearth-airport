@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512394, 
+        "placetype": "airport", 
         "name": "Madrid Air Base", 
-        "ne_latitude": 4.737, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=26797100", 
+          "woe:state=2345078", 
+          "woe:country=23424787", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512394, 
         "ne_longitude": -74.269, 
         "longitude": -74.274, 
-        "placetype": "Airport", 
+        "parent_woeid": 26797100, 
+        "ne_latitude": 4.737, 
         "iso": "CO", 
-        "date_indexed": "2010-12-02T17:57:37Z", 
-        "parent_woeid": 361938, 
+        "sw_latitude": 4.728, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 4.732, 
         "sw_longitude": -74.278, 
-        "fullname": "Madrid Air Base, Madrid, Cundinamarca, Madrid, Colombia", 
-        "sw_latitude": 4.728
+        "fullname": "Madrid Air Base, Madrid, Cundinamarca, Colombia", 
+        "date_indexed": "2010-12-02T17:57:37Z"
       }, 
       "id": 12512394
     }

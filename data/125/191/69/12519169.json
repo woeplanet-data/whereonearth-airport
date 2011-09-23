@@ -3,28 +3,30 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -76.335, 
-              36.662
-            ], 
-            [
-              -76.335, 
-              36.672
-            ], 
-            [
-              -76.322, 
-              36.672
-            ], 
-            [
-              -76.322, 
-              36.662
-            ], 
-            [
-              -76.335, 
-              36.662
+              [
+                -76.325, 
+                36.665
+              ], 
+              [
+                -76.324, 
+                36.666
+              ], 
+              [
+                -76.322, 
+                36.664
+              ], 
+              [
+                -76.325, 
+                36.661
+              ], 
+              [
+                -76.325, 
+                36.665
+              ]
             ]
           ]
         ]
@@ -32,23 +34,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519169, 
-        "name": "Chesapeake Municipal Airport", 
         "alias_ENG_V": [
           "CPK Airport"
         ], 
-        "ne_latitude": 36.672, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Chesapeake Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:suburb=55858489", 
+          "woe:county=12590329", 
+          "woe:state=2347605", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519169, 
         "ne_longitude": -76.322, 
-        "longitude": -76.328, 
-        "placetype": "Airport", 
-        "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:15Z", 
+        "longitude": -76.324, 
         "parent_woeid": 55858489, 
-        "latitude": 36.667, 
-        "sw_longitude": -76.335, 
-        "fullname": "Chesapeake Municipal Airport, Chesapeake, Virginia, Chesapeake City, United States", 
-        "sw_latitude": 36.662
+        "ne_latitude": 36.666, 
+        "iso": "US", 
+        "sw_latitude": 36.661, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 36.664, 
+        "sw_longitude": -76.325, 
+        "fullname": "Chesapeake Municipal Airport, Chesapeake, Virginia, United States", 
+        "iata_code": "CPK", 
+        "date_indexed": "2010-12-02T18:39:15Z"
       }, 
       "id": 12519169
     }

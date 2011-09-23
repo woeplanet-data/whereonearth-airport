@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522531, 
-        "name": "Yellowstone Airport", 
         "alias_ENG_V": [
           "WYS"
         ], 
-        "ne_latitude": 44.703, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Yellowstone Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589096", 
+          "woe:state=2347585", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522531, 
         "ne_longitude": -111.106, 
         "longitude": -111.114, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589096, 
+        "ne_latitude": 44.703, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2517965, 
+        "sw_latitude": 44.670, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.688, 
         "sw_longitude": -111.132, 
-        "fullname": "Yellowstone Airport, West Yellowstone, Montana, Gallatin, United States", 
-        "sw_latitude": 44.670
+        "fullname": "Yellowstone Airport, West Yellowstone, Montana, United States", 
+        "iata_code": "WYS", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522531
     }

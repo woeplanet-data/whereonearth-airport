@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514518, 
+        "placetype": "airport", 
         "name": "Yesil East Airport", 
-        "ne_latitude": 51.991, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345996", 
+          "woe:country=23424871", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514518, 
         "ne_longitude": 66.639, 
         "longitude": 66.632, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345996, 
+        "ne_latitude": 51.991, 
         "iso": "KZ", 
-        "date_indexed": "2010-12-02T08:54:13Z", 
-        "parent_woeid": 2264587, 
+        "sw_latitude": 51.982, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.987, 
         "sw_longitude": 66.624, 
         "fullname": "Yesil East Airport, Aqmola, Kazakhstan", 
-        "sw_latitude": 51.982
+        "date_indexed": "2010-12-02T08:54:13Z"
       }, 
       "id": 12514518
     }

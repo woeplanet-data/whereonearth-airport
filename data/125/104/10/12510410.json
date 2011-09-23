@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510410, 
+        "placetype": "airport", 
         "name": "Cerrik Airport", 
-        "ne_latitude": 41.069, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=20069949", 
+          "woe:state=29389557", 
+          "woe:country=23424742", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510410, 
         "ne_longitude": 20.031, 
         "longitude": 20.025, 
-        "placetype": "Airport", 
+        "parent_woeid": 20069949, 
+        "ne_latitude": 41.069, 
         "iso": "AL", 
-        "date_indexed": "2010-12-02T08:58:52Z", 
-        "parent_woeid": 469713, 
+        "sw_latitude": 41.060, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.064, 
         "sw_longitude": 20.019, 
-        "fullname": "Cerrik Airport, Elbasan, Elbasan, Elbasan, Albania", 
-        "sw_latitude": 41.060
+        "fullname": "Cerrik Airport, Elbasan, Elbasan, Albania", 
+        "date_indexed": "2010-12-02T08:58:52Z"
       }, 
       "id": 12510410
     }

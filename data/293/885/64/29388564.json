@@ -3,28 +3,62 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -86.562, 
-              30.470
-            ], 
-            [
-              -86.562, 
-              30.502
-            ], 
-            [
-              -86.498, 
-              30.502
-            ], 
-            [
-              -86.498, 
-              30.470
-            ], 
-            [
-              -86.562, 
-              30.470
+              [
+                -86.550, 
+                30.494
+              ], 
+              [
+                -86.550, 
+                30.496
+              ], 
+              [
+                -86.550, 
+                30.496
+              ], 
+              [
+                -86.552, 
+                30.498
+              ], 
+              [
+                -86.551, 
+                30.492
+              ], 
+              [
+                -86.550, 
+                30.485
+              ], 
+              [
+                -86.548, 
+                30.486
+              ], 
+              [
+                -86.512, 
+                30.482
+              ], 
+              [
+                -86.510, 
+                30.487
+              ], 
+              [
+                -86.508, 
+                30.476
+              ], 
+              [
+                -86.513, 
+                30.479
+              ], 
+              [
+                -86.548, 
+                30.486
+              ], 
+              [
+                -86.550, 
+                30.494
+              ]
             ]
           ]
         ]
@@ -32,23 +66,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388564, 
-        "name": "Northwest Florida Regional Airport", 
         "alias_ENG_V": [
           "Vps"
         ], 
-        "ne_latitude": 30.502, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -86.498, 
-        "longitude": -86.550, 
-        "placetype": "Airport", 
+        "name": "Northwest Florida Regional Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587848", 
+          "woe:state=2347568", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388564, 
+        "ne_longitude": -86.508, 
+        "longitude": -86.505, 
+        "parent_woeid": 12587848, 
+        "ne_latitude": 30.498, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2397624, 
-        "latitude": 30.496, 
-        "sw_longitude": -86.562, 
-        "fullname": "Northwest Florida Regional Airport, Eglin Village, Florida, Okaloosa, United States", 
-        "sw_latitude": 30.470
+        "sw_latitude": 30.476, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 30.477, 
+        "sw_longitude": -86.552, 
+        "fullname": "Northwest Florida Regional Airport, Eglin Village, Florida, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 29388564
     }

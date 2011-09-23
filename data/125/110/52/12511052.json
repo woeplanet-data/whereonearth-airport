@@ -32,29 +32,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511052, 
-        "name": "Aeroporto Belmonte", 
-        "alias_ENG_P": [
-          "Belmonte Airport"
-        ], 
-        "ne_latitude": -15.865, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "BVM"
         ], 
+        "name": "Aeroporto Belmonte", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Belmonte Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12578271", 
+          "woe:state=2344848", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511052, 
         "ne_longitude": -38.866, 
         "longitude": -38.871, 
-        "placetype": "Airport", 
+        "parent_woeid": 12578271, 
+        "ne_latitude": -15.865, 
         "alias_POR_V": [
           "Aeroporto BVM"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 424528, 
+        "sw_latitude": -15.875, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -15.870, 
         "sw_longitude": -38.876, 
-        "fullname": "Aeroporto Belmonte, Belmonte, Bahia, Belmonte, Brazil", 
-        "sw_latitude": -15.875
+        "fullname": "Aeroporto Belmonte, Belmonte, Bahia, Brazil", 
+        "iata_code": "BVM", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511052
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519102, 
+        "placetype": "airport", 
         "name": "Castleberry Ranch Airport", 
-        "ne_latitude": 35.742, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12590109", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519102, 
         "ne_longitude": -102.911, 
         "longitude": -102.917, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590109, 
+        "ne_latitude": 35.742, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:15Z", 
-        "parent_woeid": 2484282, 
+        "sw_latitude": 35.733, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.737, 
         "sw_longitude": -102.922, 
-        "fullname": "Castleberry Ranch Airport, Romero, Texas, Hartley, United States", 
-        "sw_latitude": 35.733
+        "fullname": "Castleberry Ranch Airport, Romero, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:15Z"
       }, 
       "id": 12519102
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523922, 
-        "name": "Comino Heliport", 
         "alias_ENG_V": [
           "JCO"
         ], 
-        "ne_latitude": 36.021, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Comino Heliport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=24551352", 
+          "woe:state=24549803", 
+          "woe:country=23424897", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523922, 
         "ne_longitude": 14.339, 
         "longitude": 14.333, 
-        "placetype": "Airport", 
+        "parent_woeid": 24551352, 
+        "ne_latitude": 36.021, 
         "iso": "MT", 
-        "date_indexed": "2010-12-02T07:50:18Z", 
-        "parent_woeid": 483560, 
+        "sw_latitude": 36.012, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.017, 
         "sw_longitude": 14.328, 
-        "fullname": "Comino Heliport, Victoria, Gozo, Vittorija, Malta", 
-        "sw_latitude": 36.012
+        "fullname": "Comino Heliport, Victoria, Gozo, Malta", 
+        "date_indexed": "2010-12-02T07:50:18Z"
       }, 
       "id": 12523922
     }

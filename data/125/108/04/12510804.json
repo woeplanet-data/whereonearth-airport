@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510804, 
-        "name": "Wangaratta Airport", 
         "alias_ENG_V": [
           "WGT Airport"
         ], 
-        "ne_latitude": -36.413, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Wangaratta Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55863965", 
+          "woe:state=2344705", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510804, 
         "ne_longitude": 146.311, 
         "longitude": 146.306, 
-        "placetype": "Airport", 
+        "parent_woeid": 55863965, 
+        "ne_latitude": -36.413, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1103281, 
+        "sw_latitude": -36.422, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -36.417, 
         "sw_longitude": 146.300, 
-        "fullname": "Wangaratta Airport, Laceby, Victoria, Wangaratta, Australia", 
-        "sw_latitude": -36.422
+        "fullname": "Wangaratta Airport, Laceby, Victoria, Australia", 
+        "iata_code": "WGT", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 12510804
     }

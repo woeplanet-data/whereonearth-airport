@@ -3,28 +3,34 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              39.115, 
-              21.631
-            ], 
-            [
-              39.115, 
-              21.788
-            ], 
-            [
-              39.211, 
-              21.788
-            ], 
-            [
-              39.211, 
-              21.631
-            ], 
-            [
-              39.115, 
-              21.631
+              [
+                39.132, 
+                21.750
+              ], 
+              [
+                39.132, 
+                21.750
+              ], 
+              [
+                39.134, 
+                21.755
+              ], 
+              [
+                39.134, 
+                21.749
+              ], 
+              [
+                39.131, 
+                21.746
+              ], 
+              [
+                39.132, 
+                21.750
+              ]
             ]
           ]
         ]
@@ -32,23 +38,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 23388353, 
-        "name": "King Abdul Aziz International Airport", 
         "alias_ENG_V": [
           "JED"
         ], 
-        "ne_latitude": 21.788, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": 39.211, 
-        "longitude": 39.153, 
-        "placetype": "Airport", 
-        "iso": "SA", 
-        "date_indexed": "2010-12-02T09:34:42Z", 
+        "name": "King Abdul Aziz International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:suburb=22726076", 
+          "woe:county=56120204", 
+          "woe:state=2346959", 
+          "woe:country=23424938", 
+          "woe:planet=1"
+        ], 
+        "woeid": 23388353, 
+        "ne_longitude": 39.134, 
+        "longitude": 39.133, 
         "parent_woeid": 22726076, 
-        "latitude": 21.668, 
-        "sw_longitude": 39.115, 
-        "fullname": "King Abdul Aziz International Airport, Jeddah, Makka, Jeddah, Saudi Arabia", 
-        "sw_latitude": 21.631
+        "ne_latitude": 21.755, 
+        "iso": "SA", 
+        "sw_latitude": 21.746, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 21.750, 
+        "sw_longitude": 39.131, 
+        "fullname": "King Abdul Aziz International Airport, Jeddah, Makka, Saudi Arabia", 
+        "iata_code": "JED", 
+        "date_indexed": "2010-12-02T09:34:42Z"
       }, 
       "id": 23388353
     }

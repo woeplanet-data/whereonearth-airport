@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519143, 
-        "name": "Charleston Executive Airport", 
         "alias_ENG_V": [
           "JZI"
         ], 
-        "ne_latitude": 32.712, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Charleston Executive Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589809", 
+          "woe:state=2347599", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519143, 
         "ne_longitude": -79.996, 
         "longitude": -80.012, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589809, 
+        "ne_latitude": 32.712, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:15Z", 
-        "parent_woeid": 2378319, 
+        "sw_latitude": 32.690, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 32.701, 
         "sw_longitude": -80.022, 
-        "fullname": "Charleston Executive Airport, Charleston, South Carolina, Charleston, United States", 
-        "sw_latitude": 32.690
+        "fullname": "Charleston Executive Airport, Charleston, South Carolina, United States", 
+        "date_indexed": "2010-12-02T18:39:15Z"
       }, 
       "id": 12519143
     }

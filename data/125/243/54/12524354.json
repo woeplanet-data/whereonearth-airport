@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524354, 
-        "name": "Coyoles Airport", 
         "alias_ENG_V": [
           "CYL"
         ], 
-        "ne_latitude": 15.488, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Coyoles Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26813738", 
+          "woe:state=2345640", 
+          "woe:country=23424841", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524354, 
         "ne_longitude": -86.679, 
         "longitude": -86.683, 
-        "placetype": "Airport", 
+        "parent_woeid": 26813738, 
+        "ne_latitude": 15.488, 
         "iso": "HN", 
-        "date_indexed": "2010-12-02T19:21:06Z", 
-        "parent_woeid": 99196, 
+        "sw_latitude": 15.479, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 15.483, 
         "sw_longitude": -86.688, 
         "fullname": "Coyoles Airport, Yoro, Olanchito, Honduras", 
-        "sw_latitude": 15.479
+        "iata_code": "CYL", 
+        "date_indexed": "2010-12-02T19:21:06Z"
       }, 
       "id": 12524354
     }

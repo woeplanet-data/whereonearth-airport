@@ -3,28 +3,30 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -87.878, 
-              42.412
-            ], 
-            [
-              -87.878, 
-              42.428
-            ], 
-            [
-              -87.855, 
-              42.428
-            ], 
-            [
-              -87.855, 
-              42.412
-            ], 
-            [
-              -87.878, 
-              42.412
+              [
+                -87.869, 
+                42.419
+              ], 
+              [
+                -87.868, 
+                42.418
+              ], 
+              [
+                -87.868, 
+                42.411
+              ], 
+              [
+                -87.871, 
+                42.416
+              ], 
+              [
+                -87.869, 
+                42.419
+              ]
             ]
           ]
         ]
@@ -32,23 +34,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522357, 
-        "name": "Waukegan Regional Airport", 
         "alias_ENG_V": [
           "Waukegan Airport"
         ], 
-        "ne_latitude": 42.428, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -87.855, 
-        "longitude": -87.867, 
-        "placetype": "Airport", 
+        "name": "Waukegan Regional Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588127", 
+          "woe:state=2347572", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522357, 
+        "ne_longitude": -87.868, 
+        "longitude": -87.869, 
+        "parent_woeid": 12588127, 
+        "ne_latitude": 42.419, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2515434, 
-        "latitude": 42.417, 
-        "sw_longitude": -87.878, 
-        "fullname": "Waukegan Regional Airport, Waukegan, Illinois, Lake, United States", 
-        "sw_latitude": 42.412
+        "sw_latitude": 42.411, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 42.416, 
+        "sw_longitude": -87.871, 
+        "fullname": "Waukegan Regional Airport, Waukegan, Illinois, United States", 
+        "iata_code": "UGN", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522357
     }

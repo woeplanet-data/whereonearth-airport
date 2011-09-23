@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522817, 
-        "name": "Mariscal Sucre Airport", 
         "alias_ENG_V": [
           "VBS"
         ], 
-        "ne_latitude": 10.258, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Mariscal Sucre Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=26805647", 
+          "woe:county=26804692", 
+          "woe:state=2347680", 
+          "woe:country=23424982", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522817, 
         "ne_longitude": -67.644, 
         "longitude": -67.648, 
-        "placetype": "Airport", 
+        "parent_woeid": 26805647, 
+        "ne_latitude": 10.258, 
         "iso": "VE", 
-        "date_indexed": "2010-12-02T16:11:43Z", 
-        "parent_woeid": 381561, 
+        "sw_latitude": 10.249, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 10.254, 
         "sw_longitude": -67.653, 
         "fullname": "Mariscal Sucre Airport, Aragua, Girardot, Venezuela", 
-        "sw_latitude": 10.249
+        "iata_code": "VBS", 
+        "date_indexed": "2010-12-02T16:11:43Z"
       }, 
       "id": 12522817
     }

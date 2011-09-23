@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516091, 
+        "placetype": "airport", 
         "name": "Karaksar Airport", 
-        "ne_latitude": 51.281, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598180", 
+          "woe:state=2346894", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516091, 
         "ne_longitude": 115.858, 
         "longitude": 115.851, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598180, 
+        "ne_latitude": 51.281, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2016502, 
+        "sw_latitude": 51.272, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.277, 
         "sw_longitude": 115.844, 
         "fullname": "Karaksar Airport, Aginskiy Buryatskiy Avtonomnyy Okrug, Mogoytuysky, Russia", 
-        "sw_latitude": 51.272
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516091
     }

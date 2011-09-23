@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513456, 
-        "name": "Blangbintang Airport", 
         "alias_ENG_V": [
           "Blangbintang"
         ], 
-        "ne_latitude": 5.531, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Blangbintang Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=56000343", 
+          "woe:state=2345710", 
+          "woe:country=23424846", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513456, 
         "ne_longitude": 95.430, 
         "longitude": 95.418, 
-        "placetype": "Airport", 
+        "parent_woeid": 56000343, 
+        "ne_latitude": 5.531, 
         "iso": "ID", 
-        "date_indexed": "2010-12-02T16:54:32Z", 
-        "parent_woeid": 1038644, 
+        "sw_latitude": 5.508, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 5.520, 
         "sw_longitude": 95.407, 
         "fullname": "Blangbintang Airport, Aceh, Aceh Besar, Indonesia", 
-        "sw_latitude": 5.508
+        "iata_code": "BTJ", 
+        "date_indexed": "2010-12-02T16:54:32Z"
       }, 
       "id": 12513456
     }

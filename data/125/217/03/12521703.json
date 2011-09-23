@@ -3,28 +3,62 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -97.677, 
-              38.769
-            ], 
-            [
-              -97.677, 
-              38.818
-            ], 
-            [
-              -97.631, 
-              38.818
-            ], 
-            [
-              -97.631, 
-              38.769
-            ], 
-            [
-              -97.677, 
-              38.769
+              [
+                -97.642, 
+                38.787
+              ], 
+              [
+                -97.645, 
+                38.782
+              ], 
+              [
+                -97.645, 
+                38.782
+              ], 
+              [
+                -97.639, 
+                38.785
+              ], 
+              [
+                -97.637, 
+                38.783
+              ], 
+              [
+                -97.631, 
+                38.781
+              ], 
+              [
+                -97.628, 
+                38.782
+              ], 
+              [
+                -97.630, 
+                38.777
+              ], 
+              [
+                -97.632, 
+                38.777
+              ], 
+              [
+                -97.637, 
+                38.783
+              ], 
+              [
+                -97.640, 
+                38.789
+              ], 
+              [
+                -97.642, 
+                38.787
+              ], 
+              [
+                -97.642, 
+                38.787
+              ]
             ]
           ]
         ]
@@ -32,23 +66,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521703, 
-        "name": "Salina Municipal Airport", 
         "alias_ENG_V": [
           "SLN"
         ], 
-        "ne_latitude": 38.818, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -97.631, 
-        "longitude": -97.639, 
-        "placetype": "Airport", 
+        "name": "Salina Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588455", 
+          "woe:state=2347575", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521703, 
+        "ne_longitude": -97.628, 
+        "longitude": -97.602, 
+        "parent_woeid": 12588455, 
+        "ne_latitude": 38.789, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2487457, 
-        "latitude": 38.779, 
-        "sw_longitude": -97.677, 
-        "fullname": "Salina Municipal Airport, Salina, Kansas, Saline, United States", 
-        "sw_latitude": 38.769
+        "sw_latitude": 38.777, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 38.761, 
+        "sw_longitude": -97.645, 
+        "fullname": "Salina Municipal Airport, Salina, Kansas, United States", 
+        "iata_code": "SLN", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521703
     }

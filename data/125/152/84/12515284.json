@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515284, 
+        "placetype": "airport", 
         "name": "Bielice Airport", 
-        "ne_latitude": 52.222, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=24548297", 
+          "woe:county=12591301", 
+          "woe:state=12577941", 
+          "woe:country=23424923", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515284, 
         "ne_longitude": 20.308, 
         "longitude": 20.301, 
-        "placetype": "Airport", 
+        "parent_woeid": 24548297, 
+        "ne_latitude": 52.222, 
         "iso": "PL", 
-        "date_indexed": "2010-12-02T12:12:45Z", 
-        "parent_woeid": 490769, 
+        "sw_latitude": 52.213, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 52.217, 
         "sw_longitude": 20.293, 
-        "fullname": "Bielice Airport, Czyste, Masovian, Sochaczew County, Poland", 
-        "sw_latitude": 52.213
+        "fullname": "Bielice Airport, Czyste, Masovian, Poland", 
+        "date_indexed": "2010-12-02T12:12:45Z"
       }, 
       "id": 12515284
     }

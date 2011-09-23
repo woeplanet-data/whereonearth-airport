@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519994, 
-        "name": "Greene County Airport", 
         "alias_ENG_V": [
           "Way"
         ], 
-        "ne_latitude": 39.902, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Greene County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589757", 
+          "woe:state=2347597", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519994, 
         "ne_longitude": -80.124, 
         "longitude": -80.128, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589757, 
+        "ne_latitude": 39.902, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 28744669, 
+        "sw_latitude": 39.899, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 39.899, 
         "sw_longitude": -80.137, 
-        "fullname": "Greene County Airport, Franklin, Pennsylvania, Greene, United States", 
-        "sw_latitude": 39.899
+        "fullname": "Greene County Airport, Franklin, Pennsylvania, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12519994
     }

@@ -32,29 +32,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "JPN", 
-        "woeid": 12514040, 
-        "name": "\u4e0e\u8ad6\u7a7a\u6e2f", 
         "alias_ENG_V": [
           "RNJ Airport"
         ], 
+        "name": "\u4e0e\u8ad6\u7a7a\u6e2f", 
         "alias_ENG_P": [
           "Yoron Airport"
         ], 
-        "ne_latitude": 27.049, 
+        "parent_woeid": 24857250, 
+        "woeid": 12514040, 
+        "provider": "geoplanet 7.6.0", 
         "alias_JPN_V": [
           "\u30e8\u30ed\u30f3\u30af\u30a6\u30b3\u30a6"
         ], 
-        "ne_longitude": 128.406, 
         "longitude": 128.401, 
-        "parent_woeid": 1107747, 
-        "placetype": "Airport", 
+        "ne_longitude": 128.406, 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=24857250", 
+          "woe:state=2345867", 
+          "woe:country=23424856", 
+          "woe:planet=1"
+        ], 
         "iso": "JP", 
-        "date_indexed": "2010-12-02T08:09:09Z", 
-        "provider": "geoplanet 7.6.0", 
+        "sw_latitude": 27.040, 
+        "ne_latitude": 27.049, 
         "latitude": 27.045, 
         "sw_longitude": 128.396, 
-        "fullname": "\u4e0e\u8ad6\u7a7a\u6e2f, Yoron-cho, Kagoshima Prefecture, Ooshima-gun, Japan", 
-        "sw_latitude": 27.040
+        "fullname": "\u4e0e\u8ad6\u7a7a\u6e2f, Yoron-cho, Kagoshima Prefecture, Japan", 
+        "iata_code": "RNJ", 
+        "date_indexed": "2010-12-02T08:09:09Z"
       }, 
       "id": 12514040
     }

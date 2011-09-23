@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519270, 
-        "name": "Coleman Municipal Airport", 
         "alias_ENG_V": [
           "COM"
         ], 
-        "ne_latitude": 31.849, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Coleman Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590048", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519270, 
         "ne_longitude": -99.398, 
         "longitude": -99.410, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590048, 
+        "ne_latitude": 31.849, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2382871, 
+        "sw_latitude": 31.834, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 31.841, 
         "sw_longitude": -99.410, 
-        "fullname": "Coleman Municipal Airport, Coleman, Texas, Coleman, United States", 
-        "sw_latitude": 31.834
+        "fullname": "Coleman Municipal Airport, Coleman, Texas, United States", 
+        "iata_code": "COM", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519270
     }

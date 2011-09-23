@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517466, 
+        "placetype": "airport", 
         "name": "Potchefstroom Airport", 
-        "ne_latitude": -26.664, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=56189657", 
+          "woe:county=56189440", 
+          "woe:state=2346984", 
+          "woe:country=23424942", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517466, 
         "ne_longitude": 27.088, 
         "longitude": 27.082, 
-        "placetype": "Airport", 
+        "parent_woeid": 56189657, 
+        "ne_latitude": -26.664, 
         "iso": "ZA", 
-        "date_indexed": "2010-12-02T08:57:52Z", 
-        "parent_woeid": 1586625, 
+        "sw_latitude": -26.673, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -26.668, 
         "sw_longitude": 27.077, 
-        "fullname": "Potchefstroom Airport, Potchefstroom, North-west, Potchefstroom, South Africa", 
-        "sw_latitude": -26.673
+        "fullname": "Potchefstroom Airport, Potchefstroom, North-west, South Africa", 
+        "date_indexed": "2010-12-02T08:57:52Z"
       }, 
       "id": 12517466
     }

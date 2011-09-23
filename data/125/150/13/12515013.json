@@ -3,28 +3,62 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              117.873, 
-              4.253
-            ], 
-            [
-              117.873, 
-              4.276
-            ], 
-            [
-              117.896, 
-              4.276
-            ], 
-            [
-              117.896, 
-              4.253
-            ], 
-            [
-              117.873, 
-              4.253
+              [
+                117.908, 
+                4.267
+              ], 
+              [
+                117.908, 
+                4.267
+              ], 
+              [
+                117.901, 
+                4.260
+              ], 
+              [
+                117.901, 
+                4.260
+              ], 
+              [
+                117.900, 
+                4.260
+              ], 
+              [
+                117.884, 
+                4.258
+              ], 
+              [
+                117.876, 
+                4.262
+              ], 
+              [
+                117.876, 
+                4.264
+              ], 
+              [
+                117.879, 
+                4.262
+              ], 
+              [
+                117.905, 
+                4.273
+              ], 
+              [
+                117.904, 
+                4.289
+              ], 
+              [
+                117.912, 
+                4.286
+              ], 
+              [
+                117.908, 
+                4.267
+              ]
             ]
           ]
         ]
@@ -32,23 +66,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515013, 
-        "name": "Tawau Airport", 
         "alias_ENG_V": [
           "TWU"
         ], 
-        "ne_latitude": 4.276, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": 117.896, 
-        "longitude": 117.885, 
-        "placetype": "Airport", 
+        "name": "Tawau Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=56014309", 
+          "woe:county=56013566", 
+          "woe:state=2346310", 
+          "woe:country=23424901", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515013, 
+        "ne_longitude": 117.912, 
+        "longitude": 117.899, 
+        "parent_woeid": 56014309, 
+        "ne_latitude": 4.289, 
         "iso": "MY", 
-        "date_indexed": "2010-12-02T18:04:56Z", 
-        "parent_woeid": 1155194, 
-        "latitude": 4.264, 
-        "sw_longitude": 117.873, 
-        "fullname": "Tawau Airport, Tawau, Sabah, Division Tawau, Malaysia", 
-        "sw_latitude": 4.253
+        "sw_latitude": 4.258, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 4.269, 
+        "sw_longitude": 117.876, 
+        "fullname": "Tawau Airport, Tawau, Sabah, Malaysia", 
+        "date_indexed": "2010-12-02T18:04:56Z"
       }, 
       "id": 12515013
     }

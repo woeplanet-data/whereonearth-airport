@@ -3,28 +3,30 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -83.238, 
-              30.951
-            ], 
-            [
-              -83.238, 
-              30.991
-            ], 
-            [
-              -83.191, 
-              30.991
-            ], 
-            [
-              -83.191, 
-              30.951
-            ], 
-            [
-              -83.238, 
-              30.951
+              [
+                -83.199, 
+                30.972
+              ], 
+              [
+                -83.200, 
+                30.970
+              ], 
+              [
+                -83.202, 
+                30.974
+              ], 
+              [
+                -83.197, 
+                30.978
+              ], 
+              [
+                -83.199, 
+                30.972
+              ]
             ]
           ]
         ]
@@ -32,23 +34,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521013, 
-        "name": "Moody Air Force Base", 
         "alias_ENG_V": [
           "Moody Air Base"
         ], 
-        "ne_latitude": 30.991, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -83.191, 
-        "longitude": -83.214, 
-        "placetype": "Airport", 
+        "name": "Moody Air Force Base", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587961", 
+          "woe:state=2347569", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521013, 
+        "ne_longitude": -83.197, 
+        "longitude": -83.200, 
+        "parent_woeid": 12587961, 
+        "ne_latitude": 30.978, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2359550, 
-        "latitude": 30.971, 
-        "sw_longitude": -83.238, 
-        "fullname": "Moody Air Force Base, Seaford, Georgia, Lowndes, United States", 
-        "sw_latitude": 30.951
+        "sw_latitude": 30.970, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 30.974, 
+        "sw_longitude": -83.202, 
+        "fullname": "Moody Air Force Base, Seaford, Georgia, United States", 
+        "iata_code": "VAD", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521013
     }

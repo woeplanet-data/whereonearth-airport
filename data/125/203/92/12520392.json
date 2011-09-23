@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520392, 
-        "name": "Johnston County Airport", 
         "alias_ENG_V": [
           "JNX"
         ], 
-        "ne_latitude": 35.549, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Johnston County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589424", 
+          "woe:state=2347592", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520392, 
         "ne_longitude": -78.384, 
         "longitude": -78.390, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589424, 
+        "ne_latitude": 35.549, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2519918, 
+        "sw_latitude": 35.532, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.547, 
         "sw_longitude": -78.396, 
-        "fullname": "Johnston County Airport, Whitley Heights, North Carolina, Johnston, United States", 
-        "sw_latitude": 35.532
+        "fullname": "Johnston County Airport, Whitley Heights, North Carolina, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520392
     }

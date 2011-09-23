@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517379, 
-        "name": "Yenbo Airport", 
         "alias_ENG_V": [
           "YNB"
         ], 
-        "ne_latitude": 24.163, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Yenbo Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=56120112", 
+          "woe:state=2346958", 
+          "woe:country=23424938", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517379, 
         "ne_longitude": 38.092, 
         "longitude": 38.062, 
-        "placetype": "Airport", 
+        "parent_woeid": 56120112, 
+        "ne_latitude": 24.163, 
         "iso": "SA", 
-        "date_indexed": "2010-12-02T09:34:42Z", 
-        "parent_woeid": 1939542, 
+        "sw_latitude": 24.133, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 24.141, 
         "sw_longitude": 38.034, 
-        "fullname": "Yenbo Airport, Yanbu al Bahr, Al Madinah, Yanbu, Saudi Arabia", 
-        "sw_latitude": 24.133
+        "fullname": "Yenbo Airport, Yanbu al Bahr, Al Madinah, Saudi Arabia", 
+        "date_indexed": "2010-12-02T09:34:42Z"
       }, 
       "id": 12517379
     }

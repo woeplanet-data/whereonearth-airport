@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516369, 
+        "placetype": "airport", 
         "name": "Lukhovitsy Airport", 
-        "ne_latitude": 54.904, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598745", 
+          "woe:state=2346911", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516369, 
         "ne_longitude": 39.047, 
         "longitude": 39.039, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598745, 
+        "ne_latitude": 54.904, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2122004, 
+        "sw_latitude": 54.895, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 54.899, 
         "sw_longitude": 39.031, 
-        "fullname": "Lukhovitsy Airport, Lukhovitsy, Moskovskaya Oblast, Lukhovitsky, Russia", 
-        "sw_latitude": 54.895
+        "fullname": "Lukhovitsy Airport, Lukhovitsy, Moskovskaya Oblast, Russia", 
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516369
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513209, 
+        "placetype": "airport", 
         "name": "Pfaffenhain Airport", 
-        "ne_latitude": 50.751, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12636551", 
+          "woe:county=12596850", 
+          "woe:state=2345493", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513209, 
         "ne_longitude": 12.851, 
         "longitude": 12.844, 
-        "placetype": "Airport", 
+        "parent_woeid": 12636551, 
+        "ne_latitude": 50.751, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 663909, 
+        "sw_latitude": 50.742, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.747, 
         "sw_longitude": 12.837, 
-        "fullname": "Pfaffenhain Airport, Jahnsdorf, Saxony, Landkreis Stollberg, Germany", 
+        "fullname": "Pfaffenhain Airport, Jahnsdorf, Saxony, Germany", 
         "alias_GER_Q": [
           "Flughafen Pfaffenhain"
         ], 
-        "sw_latitude": 50.742
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 12513209
     }

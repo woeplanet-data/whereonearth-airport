@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515528, 
+        "placetype": "airport", 
         "name": "Dalnic Airport", 
-        "ne_latitude": 45.954, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2346629", 
+          "woe:country=23424933", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515528, 
         "ne_longitude": 26.060, 
         "longitude": 26.054, 
-        "placetype": "Airport", 
+        "parent_woeid": 2346629, 
+        "ne_latitude": 45.954, 
         "iso": "RO", 
-        "date_indexed": "2010-12-02T16:37:48Z", 
-        "parent_woeid": 869129, 
+        "sw_latitude": 45.945, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.949, 
         "sw_longitude": 26.047, 
         "fullname": "Dalnic Airport, Covasna, Romania", 
-        "sw_latitude": 45.945
+        "date_indexed": "2010-12-02T16:37:48Z"
       }, 
       "id": 12515528
     }

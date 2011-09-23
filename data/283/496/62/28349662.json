@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 28349662, 
-        "name": "Finley Air Force Station", 
         "alias_ENG_V": [
           "Finley AFS"
         ], 
-        "ne_latitude": 47.543, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Finley Air Force Station", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589519", 
+          "woe:state=2347593", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 28349662, 
         "ne_longitude": -97.700, 
         "longitude": -97.706, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589519, 
+        "ne_latitude": 47.543, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2492387, 
+        "sw_latitude": 47.534, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.539, 
         "sw_longitude": -97.713, 
-        "fullname": "Finley Air Force Station, Sherbrooke, North Dakota, Steele, United States", 
-        "sw_latitude": 47.534
+        "fullname": "Finley Air Force Station, Sherbrooke, North Dakota, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 28349662
     }

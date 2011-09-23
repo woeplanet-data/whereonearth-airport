@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523314, 
-        "name": "Malmo Harbour Airport", 
         "alias_ENG_V": [
           "HMA Airport"
         ], 
-        "ne_latitude": 55.607, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Malmo Harbour Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587333", 
+          "woe:state=20070561", 
+          "woe:country=23424954", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523314, 
         "ne_longitude": 13.075, 
         "longitude": 13.067, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587333, 
+        "ne_latitude": 55.607, 
         "iso": "SE", 
-        "date_indexed": "2010-12-02T16:45:55Z", 
-        "parent_woeid": 898091, 
+        "sw_latitude": 55.598, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 55.603, 
         "sw_longitude": 13.059, 
-        "fullname": "Malmo Harbour Airport, Burlovs egnahem, Skane, Burl\u00f6v, Sweden", 
-        "sw_latitude": 55.598
+        "fullname": "Malmo Harbour Airport, Burlovs egnahem, Skane, Sweden", 
+        "date_indexed": "2010-12-02T16:45:55Z"
       }, 
       "id": 12523314
     }

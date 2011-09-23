@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520993, 
-        "name": "Monroe County Airport", 
         "alias_ENG_V": [
           "BMG"
         ], 
-        "ne_latitude": 39.159, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Monroe County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588232", 
+          "woe:state=2347573", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520993, 
         "ne_longitude": -86.610, 
         "longitude": -86.612, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588232, 
+        "ne_latitude": 39.159, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2433013, 
+        "sw_latitude": 39.137, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 39.150, 
         "sw_longitude": -86.625, 
-        "fullname": "Monroe County Airport, Kirby, Indiana, Monroe, United States", 
-        "sw_latitude": 39.137
+        "fullname": "Monroe County Airport, Kirby, Indiana, United States", 
+        "iata_code": "BMG", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520993
     }

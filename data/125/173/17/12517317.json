@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517317, 
-        "name": "Abha Airport", 
         "alias_ENG_V": [
           "AHB"
         ], 
-        "ne_latitude": 18.239, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Abha Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55948206", 
+          "woe:state=2346955", 
+          "woe:country=23424938", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517317, 
         "ne_longitude": 42.661, 
         "longitude": 42.656, 
-        "placetype": "Airport", 
+        "parent_woeid": 55948206, 
+        "ne_latitude": 18.239, 
         "iso": "SA", 
-        "date_indexed": "2010-12-02T09:34:42Z", 
-        "parent_woeid": 1938664, 
+        "sw_latitude": 18.230, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 18.234, 
         "sw_longitude": 42.651, 
-        "fullname": "Abha Airport, Hajlah, Asir, Aseer, Saudi Arabia", 
-        "sw_latitude": 18.230
+        "fullname": "Abha Airport, Hajlah, Asir, Saudi Arabia", 
+        "iata_code": "AHB", 
+        "date_indexed": "2010-12-02T09:34:42Z"
       }, 
       "id": 12517317
     }

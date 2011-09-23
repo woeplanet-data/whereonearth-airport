@@ -3,28 +3,134 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -123.024, 
-              49.065
-            ], 
-            [
-              -123.024, 
-              49.083
-            ], 
-            [
-              -122.991, 
-              49.083
-            ], 
-            [
-              -122.991, 
-              49.065
-            ], 
-            [
-              -123.024, 
-              49.065
+              [
+                -123.024, 
+                49.083
+              ], 
+              [
+                -123.024, 
+                49.083
+              ], 
+              [
+                -123.022, 
+                49.082
+              ], 
+              [
+                -123.020, 
+                49.083
+              ], 
+              [
+                -123.017, 
+                49.085
+              ], 
+              [
+                -123.016, 
+                49.086
+              ], 
+              [
+                -123.013, 
+                49.085
+              ], 
+              [
+                -123.009, 
+                49.088
+              ], 
+              [
+                -123.006, 
+                49.086
+              ], 
+              [
+                -123.002, 
+                49.083
+              ], 
+              [
+                -123.002, 
+                49.082
+              ], 
+              [
+                -122.999, 
+                49.077
+              ], 
+              [
+                -123.002, 
+                49.080
+              ], 
+              [
+                -123.007, 
+                49.078
+              ], 
+              [
+                -123.012, 
+                49.077
+              ], 
+              [
+                -123.014, 
+                49.073
+              ], 
+              [
+                -123.019, 
+                49.072
+              ], 
+              [
+                -123.014, 
+                49.076
+              ], 
+              [
+                -123.016, 
+                49.080
+              ], 
+              [
+                -123.021, 
+                49.082
+              ], 
+              [
+                -123.023, 
+                49.078
+              ], 
+              [
+                -123.019, 
+                49.072
+              ], 
+              [
+                -123.019, 
+                49.072
+              ], 
+              [
+                -123.021, 
+                49.069
+              ], 
+              [
+                -123.021, 
+                49.069
+              ], 
+              [
+                -123.024, 
+                49.071
+              ], 
+              [
+                -123.025, 
+                49.073
+              ], 
+              [
+                -123.025, 
+                49.078
+              ], 
+              [
+                -123.025, 
+                49.079
+              ], 
+              [
+                -123.025, 
+                49.081
+              ], 
+              [
+                -123.024, 
+                49.083
+              ]
             ]
           ]
         ]
@@ -32,23 +138,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511584, 
-        "name": "Boundary Bay Airport", 
         "alias_ENG_V": [
           "ZBB"
         ], 
-        "ne_latitude": 49.083, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -122.991, 
-        "longitude": -123.012, 
-        "placetype": "Airport", 
+        "name": "Boundary Bay Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375222", 
+          "woe:state=2344916", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511584, 
+        "ne_longitude": -122.999, 
+        "longitude": -123.013, 
+        "parent_woeid": 29375222, 
+        "ne_latitude": 49.088, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:24:00Z", 
-        "parent_woeid": 9824, 
-        "latitude": 49.081, 
-        "sw_longitude": -123.024, 
-        "fullname": "Boundary Bay Airport, Delta, British Columbia, Greater Vancouver, Canada", 
-        "sw_latitude": 49.065
+        "sw_latitude": 49.069, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 49.080, 
+        "sw_longitude": -123.025, 
+        "fullname": "Boundary Bay Airport, Delta, British Columbia, Canada", 
+        "date_indexed": "2010-12-02T10:24:00Z"
       }, 
       "id": 12511584
     }

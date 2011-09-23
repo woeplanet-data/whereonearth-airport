@@ -3,28 +3,118 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -82.047, 
-              27.971
-            ], 
-            [
-              -82.047, 
-              27.997
-            ], 
-            [
-              -82.004, 
-              27.997
-            ], 
-            [
-              -82.004, 
-              27.971
-            ], 
-            [
-              -82.047, 
-              27.971
+              [
+                -82.010, 
+                27.997
+              ], 
+              [
+                -82.010, 
+                27.996
+              ], 
+              [
+                -82.009, 
+                27.996
+              ], 
+              [
+                -82.012, 
+                27.996
+              ], 
+              [
+                -82.014, 
+                27.994
+              ], 
+              [
+                -82.013, 
+                27.989
+              ], 
+              [
+                -82.015, 
+                27.986
+              ], 
+              [
+                -82.014, 
+                27.984
+              ], 
+              [
+                -82.017, 
+                27.981
+              ], 
+              [
+                -82.018, 
+                27.982
+              ], 
+              [
+                -82.020, 
+                27.984
+              ], 
+              [
+                -82.023, 
+                27.985
+              ], 
+              [
+                -82.026, 
+                27.981
+              ], 
+              [
+                -82.029, 
+                27.981
+              ], 
+              [
+                -82.030, 
+                27.981
+              ], 
+              [
+                -82.028, 
+                27.982
+              ], 
+              [
+                -82.027, 
+                27.985
+              ], 
+              [
+                -82.027, 
+                27.987
+              ], 
+              [
+                -82.026, 
+                27.988
+              ], 
+              [
+                -82.025, 
+                27.990
+              ], 
+              [
+                -82.021, 
+                27.989
+              ], 
+              [
+                -82.019, 
+                27.991
+              ], 
+              [
+                -82.018, 
+                27.997
+              ], 
+              [
+                -82.016, 
+                27.996
+              ], 
+              [
+                -82.014, 
+                27.997
+              ], 
+              [
+                -82.012, 
+                27.999
+              ], 
+              [
+                -82.010, 
+                27.997
+              ]
             ]
           ]
         ]
@@ -32,23 +122,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520545, 
-        "name": "Lakeland Linder Regional Airport", 
         "alias_ENG_V": [
           "Lakeland Linder Airport"
         ], 
-        "ne_latitude": 27.997, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -82.004, 
-        "longitude": -82.014, 
-        "placetype": "Airport", 
+        "name": "Lakeland Linder Regional Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587855", 
+          "woe:state=2347568", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520545, 
+        "ne_longitude": -82.009, 
+        "longitude": -82.019, 
+        "parent_woeid": 12587855, 
+        "ne_latitude": 27.999, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2435325, 
-        "latitude": 27.996, 
-        "sw_longitude": -82.047, 
-        "fullname": "Lakeland Linder Regional Airport, Lakeland, Florida, Polk, United States", 
-        "sw_latitude": 27.971
+        "sw_latitude": 27.981, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 27.988, 
+        "sw_longitude": -82.030, 
+        "fullname": "Lakeland Linder Regional Airport, Lakeland, Florida, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520545
     }

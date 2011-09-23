@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514296, 
+        "placetype": "airport", 
         "name": "Bozgyul Airport", 
-        "ne_latitude": 45.727, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345990", 
+          "woe:country=23424871", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514296, 
         "ne_longitude": 61.469, 
         "longitude": 61.463, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345990, 
+        "ne_latitude": 45.727, 
         "iso": "KZ", 
-        "date_indexed": "2010-12-02T08:54:13Z", 
-        "parent_woeid": 2265065, 
+        "sw_latitude": 45.718, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.722, 
         "sw_longitude": 61.456, 
         "fullname": "Bozgyul Airport, Qyzylorda, Kazakhstan", 
-        "sw_latitude": 45.718
+        "date_indexed": "2010-12-02T08:54:13Z"
       }, 
       "id": 12514296
     }

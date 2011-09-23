@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29387808, 
-        "name": "Hart Ranch Airport", 
         "alias_ENG_V": [
           "25wa"
         ], 
-        "ne_latitude": 48.579, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Hart Ranch Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590463", 
+          "woe:state=2347606", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29387808, 
         "ne_longitude": -119.061, 
         "longitude": -119.061, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590463, 
+        "ne_latitude": 48.579, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2352175, 
+        "sw_latitude": 48.574, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.574, 
         "sw_longitude": -119.069, 
-        "fullname": "Hart Ranch Airport, Aeneas, Washington, Okanogan, United States", 
-        "sw_latitude": 48.574
+        "fullname": "Hart Ranch Airport, Aeneas, Washington, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 29387808
     }

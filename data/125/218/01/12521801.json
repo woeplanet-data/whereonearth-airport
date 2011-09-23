@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521801, 
+        "placetype": "airport", 
         "name": "Sequoyah Park Airport", 
-        "ne_latitude": 35.916, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12589625", 
+          "woe:state=2347595", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521801, 
         "ne_longitude": -95.237, 
         "longitude": -95.243, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589625, 
+        "ne_latitude": 35.916, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2425444, 
+        "sw_latitude": 35.907, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.912, 
         "sw_longitude": -95.249, 
-        "fullname": "Sequoyah Park Airport, Hulbert, Oklahoma, Cherokee, United States", 
-        "sw_latitude": 35.907
+        "fullname": "Sequoyah Park Airport, Hulbert, Oklahoma, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521801
     }

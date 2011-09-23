@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524335, 
-        "name": "Les Galets Airport", 
         "alias_ENG_V": [
           "DSD"
         ], 
-        "ne_latitude": 16.307, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Les Galets Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=24551288", 
+          "woe:state=28358256", 
+          "woe:country=23424831", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524335, 
         "ne_longitude": -61.081, 
         "longitude": -61.085, 
-        "placetype": "Airport", 
+        "parent_woeid": 24551288, 
+        "ne_latitude": 16.307, 
         "iso": "GP", 
-        "date_indexed": "2010-12-02T08:50:01Z", 
-        "parent_woeid": 80742, 
+        "sw_latitude": 16.298, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 16.302, 
         "sw_longitude": -61.090, 
         "fullname": "Les Galets Airport, Pointe-\u00c0-Pitre, La D\u00e9sirade, Guadeloupe", 
-        "sw_latitude": 16.298
+        "iata_code": "DSD", 
+        "date_indexed": "2010-12-02T08:50:01Z"
       }, 
       "id": 12524335
     }

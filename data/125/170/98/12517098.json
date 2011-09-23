@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517098, 
+        "placetype": "airport", 
         "name": "Us Man Airport", 
-        "ne_latitude": 47.147, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599099", 
+          "woe:state=2346921", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517098, 
         "ne_longitude": 40.307, 
         "longitude": 40.301, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599099, 
+        "ne_latitude": 47.147, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2100836, 
+        "sw_latitude": 47.138, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.143, 
         "sw_longitude": 40.294, 
         "fullname": "Us Man Airport, Rostovskaya Oblast, Bagayevsky, Russia", 
-        "sw_latitude": 47.138
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12517098
     }

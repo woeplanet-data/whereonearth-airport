@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516444, 
+        "placetype": "airport", 
         "name": "Monchegorsk Airport", 
-        "ne_latitude": 67.994, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598806", 
+          "woe:state=2346912", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516444, 
         "ne_longitude": 33.033, 
         "longitude": 33.021, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598806, 
+        "ne_latitude": 67.994, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2074705, 
+        "sw_latitude": 67.985, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 67.990, 
         "sw_longitude": 33.009, 
         "fullname": "Monchegorsk Airport, Murmanskaya Oblast, Monchegorsk, Russia", 
-        "sw_latitude": 67.985
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516444
     }

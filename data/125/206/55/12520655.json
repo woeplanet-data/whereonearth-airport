@@ -3,28 +3,130 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -96.775, 
-              40.824
-            ], 
-            [
-              -96.775, 
-              40.871
-            ], 
-            [
-              -96.743, 
-              40.871
-            ], 
-            [
-              -96.743, 
-              40.824
-            ], 
-            [
-              -96.775, 
-              40.824
+              [
+                -96.747, 
+                40.850
+              ], 
+              [
+                -96.739, 
+                40.848
+              ], 
+              [
+                -96.737, 
+                40.845
+              ], 
+              [
+                -96.740, 
+                40.841
+              ], 
+              [
+                -96.746, 
+                40.843
+              ], 
+              [
+                -96.753, 
+                40.843
+              ], 
+              [
+                -96.755, 
+                40.838
+              ], 
+              [
+                -96.754, 
+                40.836
+              ], 
+              [
+                -96.762, 
+                40.833
+              ], 
+              [
+                -96.762, 
+                40.835
+              ], 
+              [
+                -96.762, 
+                40.839
+              ], 
+              [
+                -96.762, 
+                40.840
+              ], 
+              [
+                -96.762, 
+                40.842
+              ], 
+              [
+                -96.768, 
+                40.846
+              ], 
+              [
+                -96.770, 
+                40.845
+              ], 
+              [
+                -96.771, 
+                40.845
+              ], 
+              [
+                -96.775, 
+                40.847
+              ], 
+              [
+                -96.772, 
+                40.853
+              ], 
+              [
+                -96.770, 
+                40.853
+              ], 
+              [
+                -96.766, 
+                40.854
+              ], 
+              [
+                -96.762, 
+                40.860
+              ], 
+              [
+                -96.762, 
+                40.851
+              ], 
+              [
+                -96.759, 
+                40.846
+              ], 
+              [
+                -96.755, 
+                40.847
+              ], 
+              [
+                -96.750, 
+                40.849
+              ], 
+              [
+                -96.751, 
+                40.856
+              ], 
+              [
+                -96.751, 
+                40.856
+              ], 
+              [
+                -96.748, 
+                40.853
+              ], 
+              [
+                -96.748, 
+                40.853
+              ], 
+              [
+                -96.747, 
+                40.850
+              ]
             ]
           ]
         ]
@@ -32,23 +134,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520655, 
-        "name": "Lincoln Municipal Airport", 
         "alias_ENG_V": [
           "LNK"
         ], 
-        "ne_latitude": 40.871, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -96.743, 
-        "longitude": -96.754, 
-        "placetype": "Airport", 
-        "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
+        "name": "Lincoln Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:suburb=55860011", 
+          "woe:county=12589192", 
+          "woe:state=2347586", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520655, 
+        "ne_longitude": -96.737, 
+        "longitude": -96.757, 
         "parent_woeid": 55860011, 
+        "ne_latitude": 40.860, 
+        "iso": "US", 
+        "sw_latitude": 40.833, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.846, 
         "sw_longitude": -96.775, 
-        "fullname": "Lincoln Municipal Airport, Lincoln, Nebraska, Lancaster, United States", 
-        "sw_latitude": 40.824
+        "fullname": "Lincoln Municipal Airport, Lincoln, Nebraska, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520655
     }

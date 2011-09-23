@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521901, 
-        "name": "Somerset County Airport", 
         "alias_ENG_V": [
           "2g9"
         ], 
-        "ne_latitude": 40.044, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Somerset County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589783", 
+          "woe:state=2347597", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521901, 
         "ne_longitude": -79.012, 
         "longitude": -79.016, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589783, 
+        "ne_latitude": 40.044, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2495695, 
+        "sw_latitude": 40.039, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.041, 
         "sw_longitude": -79.019, 
-        "fullname": "Somerset County Airport, Somerset, Pennsylvania, Somerset, United States", 
-        "sw_latitude": 40.039
+        "fullname": "Somerset County Airport, Somerset, Pennsylvania, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521901
     }

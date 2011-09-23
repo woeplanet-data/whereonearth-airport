@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515595, 
-        "name": "Bacolod Airport", 
         "alias_ENG_V": [
           "BCD"
         ], 
-        "ne_latitude": 10.649, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Bacolod Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=2346788", 
+          "woe:state=23424725", 
+          "woe:country=23424934", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515595, 
         "ne_longitude": 122.934, 
         "longitude": 122.929, 
-        "placetype": "Airport", 
+        "parent_woeid": 2346788, 
+        "ne_latitude": 10.649, 
         "iso": "PH", 
-        "date_indexed": "2010-12-02T09:56:58Z", 
-        "parent_woeid": 1160146, 
+        "sw_latitude": 10.640, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 10.644, 
         "sw_longitude": 122.925, 
         "fullname": "Bacolod Airport, Western Visayas, Negros Occidental, Philippines", 
-        "sw_latitude": 10.640
+        "iata_code": "BCD", 
+        "date_indexed": "2010-12-02T09:56:58Z"
       }, 
       "id": 12515595
     }

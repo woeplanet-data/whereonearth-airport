@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29387783, 
-        "name": "Salton Sea Airport", 
         "alias_ENG_V": [
           "Sas"
         ], 
-        "ne_latitude": 33.256, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Salton Sea Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587682", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29387783, 
         "ne_longitude": -115.939, 
         "longitude": -115.953, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587682, 
+        "ne_latitude": 33.256, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2487656, 
+        "sw_latitude": 33.238, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 33.244, 
         "sw_longitude": -115.963, 
-        "fullname": "Salton Sea Airport, Salton City, California, Imperial, United States", 
-        "sw_latitude": 33.238
+        "fullname": "Salton Sea Airport, Salton City, California, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 29387783
     }

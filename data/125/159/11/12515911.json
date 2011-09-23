@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515911, 
+        "placetype": "airport", 
         "name": "Chistopol South Airport", 
-        "ne_latitude": 55.312, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597534", 
+          "woe:state=2346878", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515911, 
         "ne_longitude": 50.615, 
         "longitude": 50.607, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597534, 
+        "ne_latitude": 55.312, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 1999065, 
+        "sw_latitude": 55.303, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 55.307, 
         "sw_longitude": 50.599, 
         "fullname": "Chistopol South Airport, Tatarstan, Chistopolsky, Russia", 
-        "sw_latitude": 55.303
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12515911
     }

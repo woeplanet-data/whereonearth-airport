@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512841, 
+        "placetype": "airport", 
         "name": "Amberieu Airport", 
-        "ne_latitude": 45.997, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12655178", 
+          "woe:county=12597195", 
+          "woe:state=7153329", 
+          "woe:country=23424819", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512841, 
         "ne_longitude": 5.345, 
         "longitude": 5.329, 
-        "placetype": "Airport", 
+        "parent_woeid": 12655178, 
+        "ne_latitude": 45.997, 
         "iso": "FR", 
-        "date_indexed": "2010-12-02T12:04:01Z", 
-        "parent_woeid": 587655, 
+        "sw_latitude": 45.973, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.989, 
         "sw_longitude": 5.323, 
-        "fullname": "Amberieu Airport, Coutelieu, Rhone-Alpes, Ain, France", 
-        "sw_latitude": 45.973
+        "fullname": "Amberieu Airport, Coutelieu, Rhone-Alpes, France", 
+        "date_indexed": "2010-12-02T12:04:01Z"
       }, 
       "id": 12512841
     }

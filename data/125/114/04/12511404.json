@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511404, 
+        "placetype": "airport", 
         "name": "Chernovo Airport", 
-        "ne_latitude": 42.429, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55873779", 
+          "woe:state=20070061", 
+          "woe:country=23424771", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511404, 
         "ne_longitude": 23.755, 
         "longitude": 23.749, 
-        "placetype": "Airport", 
+        "parent_woeid": 55873779, 
+        "ne_latitude": 42.429, 
         "iso": "BG", 
-        "date_indexed": "2010-12-02T16:14:37Z", 
-        "parent_woeid": 835439, 
+        "sw_latitude": 42.420, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.425, 
         "sw_longitude": 23.743, 
         "fullname": "Chernovo Airport, Sofiya, Ihtiman, Bulgaria", 
-        "sw_latitude": 42.420
+        "date_indexed": "2010-12-02T16:14:37Z"
       }, 
       "id": 12511404
     }

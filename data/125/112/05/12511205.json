@@ -32,29 +32,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511205, 
-        "name": "Aeroporto Jundiai", 
-        "alias_ENG_P": [
-          "Jundiai Airport"
-        ], 
-        "ne_latitude": -23.173, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "QDV"
         ], 
+        "name": "Aeroporto Jundiai", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Jundiai Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12582073", 
+          "woe:state=2344868", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511205, 
         "ne_longitude": -46.939, 
         "longitude": -46.943, 
-        "placetype": "Airport", 
+        "parent_woeid": 12582073, 
+        "ne_latitude": -23.173, 
         "alias_POR_V": [
           "Aeroporto QDV"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:28Z", 
-        "parent_woeid": 455876, 
+        "sw_latitude": -23.188, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -23.181, 
         "sw_longitude": -46.949, 
-        "fullname": "Aeroporto Jundiai, Jundiai, Sao Paulo, Jundia\u00ed, Brazil", 
-        "sw_latitude": -23.188
+        "fullname": "Aeroporto Jundiai, Jundiai, Sao Paulo, Brazil", 
+        "iata_code": "QDV", 
+        "date_indexed": "2010-12-02T18:01:28Z"
       }, 
       "id": 12511205
     }

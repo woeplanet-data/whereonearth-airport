@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521386, 
+        "placetype": "airport", 
         "name": "Pine Ridge Airport", 
-        "ne_latitude": 43.025, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12589901", 
+          "woe:state=2347600", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521386, 
         "ne_longitude": -102.512, 
         "longitude": -102.518, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589901, 
+        "ne_latitude": 43.025, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2472377, 
+        "sw_latitude": 43.016, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.021, 
         "sw_longitude": -102.525, 
-        "fullname": "Pine Ridge Airport, Pine Ridge, South Dakota, Shannon, United States", 
-        "sw_latitude": 43.016
+        "fullname": "Pine Ridge Airport, Pine Ridge, South Dakota, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521386
     }

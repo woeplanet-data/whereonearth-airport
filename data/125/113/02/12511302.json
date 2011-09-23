@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511302, 
+        "placetype": "airport", 
         "name": "Aeroporto Santa Helena de Goias", 
         "alias_ENG_P": [
           "Santa Helena de Goias Airport"
         ], 
-        "ne_latitude": -17.879, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12579069", 
+          "woe:state=2344852", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511302, 
         "ne_longitude": -50.562, 
         "longitude": -50.567, 
-        "placetype": "Airport", 
+        "parent_woeid": 12579069, 
+        "ne_latitude": -17.879, 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 456494, 
+        "sw_latitude": -17.888, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -17.883, 
         "sw_longitude": -50.571, 
-        "fullname": "Aeroporto Santa Helena de Goias, Santa Helena de Goi\u00e1s, Goias, Santa Helena de Goi\u00e1s, Brazil", 
-        "sw_latitude": -17.888
+        "fullname": "Aeroporto Santa Helena de Goias, Santa Helena de Goi\u00e1s, Goias, Brazil", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511302
     }

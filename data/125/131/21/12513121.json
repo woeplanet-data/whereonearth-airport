@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513121, 
+        "placetype": "airport", 
         "name": "Hanau Army Air Field", 
-        "ne_latitude": 50.174, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12632519", 
+          "woe:county=12596883", 
+          "woe:state=2345485", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513121, 
         "ne_longitude": 8.970, 
         "longitude": 8.963, 
-        "placetype": "Airport", 
+        "parent_woeid": 12632519, 
+        "ne_latitude": 50.174, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:24Z", 
-        "parent_woeid": 674047, 
+        "sw_latitude": 50.165, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.170, 
         "sw_longitude": 8.955, 
-        "fullname": "Hanau Army Air Field, Markwaldsiedlung, Hesse, Main-Kinzig-Kreis, Germany", 
-        "sw_latitude": 50.165
+        "fullname": "Hanau Army Air Field, Markwaldsiedlung, Hesse, Germany", 
+        "date_indexed": "2010-12-02T09:50:24Z"
       }, 
       "id": 12513121
     }

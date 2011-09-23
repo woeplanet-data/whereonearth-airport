@@ -3,28 +3,42 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -77.964, 
-              37.067
-            ], 
-            [
-              -77.964, 
-              37.087
-            ], 
-            [
-              -77.944, 
-              37.087
-            ], 
-            [
-              -77.944, 
-              37.067
-            ], 
-            [
-              -77.964, 
-              37.067
+              [
+                -77.959, 
+                37.080
+              ], 
+              [
+                -77.957, 
+                37.082
+              ], 
+              [
+                -77.955, 
+                37.082
+              ], 
+              [
+                -77.954, 
+                37.082
+              ], 
+              [
+                -77.952, 
+                37.081
+              ], 
+              [
+                -77.956, 
+                37.077
+              ], 
+              [
+                -77.956, 
+                37.077
+              ], 
+              [
+                -77.959, 
+                37.080
+              ]
             ]
           ]
         ]
@@ -32,23 +46,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518850, 
-        "name": "Allen C Perkinson Municipal Airport", 
         "alias_ENG_V": [
           "Allen C Perkinson Airport/BAAF"
         ], 
-        "ne_latitude": 37.087, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -77.944, 
+        "name": "Allen C Perkinson Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590395", 
+          "woe:state=2347605", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518850, 
+        "ne_longitude": -77.952, 
         "longitude": -77.956, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590395, 
+        "ne_latitude": 37.082, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2365057, 
-        "latitude": 37.082, 
-        "sw_longitude": -77.964, 
-        "fullname": "Allen C Perkinson Municipal Airport, Blackstone, Virginia, Nottoway, United States", 
-        "sw_latitude": 37.067
+        "sw_latitude": 37.077, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 37.080, 
+        "sw_longitude": -77.959, 
+        "fullname": "Allen C Perkinson Municipal Airport, Blackstone, Virginia, United States", 
+        "iata_code": "BKT", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518850
     }

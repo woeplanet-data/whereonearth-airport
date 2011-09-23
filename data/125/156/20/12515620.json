@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515620, 
-        "name": "Iligan Airport", 
         "alias_ENG_V": [
           "IGN"
         ], 
-        "ne_latitude": 8.155, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Iligan Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=2346689", 
+          "woe:state=23424730", 
+          "woe:country=23424934", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515620, 
         "ne_longitude": 124.213, 
         "longitude": 124.208, 
-        "placetype": "Airport", 
+        "parent_woeid": 2346689, 
+        "ne_latitude": 8.155, 
         "iso": "PH", 
-        "date_indexed": "2010-12-02T09:56:58Z", 
-        "parent_woeid": 1161444, 
+        "sw_latitude": 8.145, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 8.150, 
         "sw_longitude": 124.204, 
-        "fullname": "Iligan Airport, Balo-i, Northern Mindanao, Lanao del Norte, Philippines", 
-        "sw_latitude": 8.145
+        "fullname": "Iligan Airport, Balo-i, Northern Mindanao, Philippines", 
+        "iata_code": "IGN", 
+        "date_indexed": "2010-12-02T09:56:58Z"
       }, 
       "id": 12515620
     }

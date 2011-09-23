@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511560, 
+        "placetype": "airport", 
         "name": "Zhitnitsa Airport", 
-        "ne_latitude": 43.140, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55873922", 
+          "woe:state=20070051", 
+          "woe:country=23424771", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511560, 
         "ne_longitude": 27.505, 
         "longitude": 27.499, 
-        "placetype": "Airport", 
+        "parent_woeid": 55873922, 
+        "ne_latitude": 43.140, 
         "iso": "BG", 
-        "date_indexed": "2010-12-02T16:14:37Z", 
-        "parent_woeid": 840981, 
+        "sw_latitude": 43.131, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.136, 
         "sw_longitude": 27.492, 
         "fullname": "Zhitnitsa Airport, Varna, Provadiya, Bulgaria", 
-        "sw_latitude": 43.131
+        "date_indexed": "2010-12-02T16:14:37Z"
       }, 
       "id": 12511560
     }

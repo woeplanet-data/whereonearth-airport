@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521797, 
-        "name": "Seneca County Airport", 
         "alias_ENG_V": [
           "16g"
         ], 
-        "ne_latitude": 41.100, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Seneca County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589600", 
+          "woe:state=2347594", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521797, 
         "ne_longitude": -83.204, 
         "longitude": -83.207, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589600, 
+        "ne_latitude": 41.100, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2506282, 
+        "sw_latitude": 41.090, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.100, 
         "sw_longitude": -83.219, 
-        "fullname": "Seneca County Airport, Tiffin, Ohio, Seneca, United States", 
-        "sw_latitude": 41.090
+        "fullname": "Seneca County Airport, Tiffin, Ohio, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521797
     }

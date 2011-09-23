@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517078, 
+        "placetype": "airport", 
         "name": "Ulyanovsk South Airport", 
-        "ne_latitude": 54.203, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599522", 
+          "woe:state=2346931", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517078, 
         "ne_longitude": 48.325, 
         "longitude": 48.318, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599522, 
+        "ne_latitude": 54.203, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2057051, 
+        "sw_latitude": 54.194, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 54.199, 
         "sw_longitude": 48.310, 
-        "fullname": "Ulyanovsk South Airport, Novoul'yanovsk, Ulryanovskaya Oblast, Ulyanovsky, Russia", 
-        "sw_latitude": 54.194
+        "fullname": "Ulyanovsk South Airport, Novoul'yanovsk, Ulryanovskaya Oblast, Russia", 
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12517078
     }

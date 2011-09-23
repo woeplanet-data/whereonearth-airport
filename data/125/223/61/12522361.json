@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522361, 
-        "name": "Wausau Downtown Airport", 
         "alias_ENG_V": [
           "Wausau Downtown"
         ], 
-        "ne_latitude": 44.932, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Wausau Downtown Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590570", 
+          "woe:state=2347608", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522361, 
         "ne_longitude": -89.615, 
         "longitude": -89.627, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590570, 
+        "ne_latitude": 44.932, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2515464, 
+        "sw_latitude": 44.920, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.930, 
         "sw_longitude": -89.642, 
-        "fullname": "Wausau Downtown Airport, Wausau, Wisconsin, Marathon, United States", 
-        "sw_latitude": 44.920
+        "fullname": "Wausau Downtown Airport, Wausau, Wisconsin, United States", 
+        "iata_code": "AUW", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522361
     }

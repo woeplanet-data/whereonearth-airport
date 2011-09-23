@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522340, 
+        "placetype": "airport", 
         "name": "Washington Executive Airport-Hyde Field", 
-        "ne_latitude": 38.754, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12588692", 
+          "woe:state=2347579", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522340, 
         "ne_longitude": -76.927, 
         "longitude": -76.933, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588692, 
+        "ne_latitude": 38.754, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2506662, 
+        "sw_latitude": 38.745, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.749, 
         "sw_longitude": -76.939, 
-        "fullname": "Washington Executive Airport-Hyde Field, Tippett, Maryland, Prince George's, United States", 
-        "sw_latitude": 38.745
+        "fullname": "Washington Executive Airport-Hyde Field, Tippett, Maryland, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12522340
     }

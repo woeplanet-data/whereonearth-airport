@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519095, 
-        "name": "Casey Municipal Airport", 
         "alias_ENG_V": [
           "1h8"
         ], 
-        "ne_latitude": 39.308, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Casey Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588089", 
+          "woe:state=2347572", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519095, 
         "ne_longitude": -87.996, 
         "longitude": -87.998, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588089, 
+        "ne_latitude": 39.308, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2375928, 
+        "sw_latitude": 39.297, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 39.306, 
         "sw_longitude": -88.008, 
-        "fullname": "Casey Municipal Airport, Casey, Illinois, Clark, United States", 
-        "sw_latitude": 39.297
+        "fullname": "Casey Municipal Airport, Casey, Illinois, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519095
     }

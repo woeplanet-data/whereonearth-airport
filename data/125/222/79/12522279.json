@@ -3,28 +3,78 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -80.431, 
-              27.646
-            ], 
-            [
-              -80.431, 
-              27.663
-            ], 
-            [
-              -80.402, 
-              27.663
-            ], 
-            [
-              -80.402, 
-              27.646
-            ], 
-            [
-              -80.431, 
-              27.646
+              [
+                -80.418, 
+                27.652
+              ], 
+              [
+                -80.418, 
+                27.654
+              ], 
+              [
+                -80.415, 
+                27.651
+              ], 
+              [
+                -80.415, 
+                27.650
+              ], 
+              [
+                -80.422, 
+                27.647
+              ], 
+              [
+                -80.423, 
+                27.643
+              ], 
+              [
+                -80.423, 
+                27.643
+              ], 
+              [
+                -80.423, 
+                27.643
+              ], 
+              [
+                -80.425, 
+                27.642
+              ], 
+              [
+                -80.427, 
+                27.643
+              ], 
+              [
+                -80.427, 
+                27.644
+              ], 
+              [
+                -80.428, 
+                27.646
+              ], 
+              [
+                -80.422, 
+                27.647
+              ], 
+              [
+                -80.415, 
+                27.650
+              ], 
+              [
+                -80.415, 
+                27.651
+              ], 
+              [
+                -80.418, 
+                27.654
+              ], 
+              [
+                -80.418, 
+                27.652
+              ]
             ]
           ]
         ]
@@ -32,23 +82,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522279, 
-        "name": "Vero Beach Municipal Airport", 
         "alias_ENG_V": [
           "VRB"
         ], 
-        "ne_latitude": 27.663, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -80.402, 
-        "longitude": -80.418, 
-        "placetype": "Airport", 
+        "name": "Vero Beach Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587833", 
+          "woe:state=2347568", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522279, 
+        "ne_longitude": -80.415, 
+        "longitude": -80.425, 
+        "parent_woeid": 12587833, 
+        "ne_latitude": 27.654, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2511861, 
-        "latitude": 27.651, 
-        "sw_longitude": -80.431, 
-        "fullname": "Vero Beach Municipal Airport, Vero Beach, Florida, Indian River, United States", 
-        "sw_latitude": 27.646
+        "sw_latitude": 27.642, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 27.645, 
+        "sw_longitude": -80.428, 
+        "fullname": "Vero Beach Municipal Airport, Vero Beach, Florida, United States", 
+        "iata_code": "VRB", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522279
     }

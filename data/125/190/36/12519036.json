@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519036, 
-        "name": "Camillus Airport", 
         "alias_ENG_V": [
           "Ny2"
         ], 
-        "ne_latitude": 43.087, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Camillus Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589345", 
+          "woe:state=2347591", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519036, 
         "ne_longitude": -76.283, 
         "longitude": -76.288, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589345, 
+        "ne_latitude": 43.087, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2373746, 
+        "sw_latitude": 43.084, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.086, 
         "sw_longitude": -76.303, 
-        "fullname": "Camillus Airport, Camillus, New York, Onondaga, United States", 
-        "sw_latitude": 43.084
+        "fullname": "Camillus Airport, Camillus, New York, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519036
     }

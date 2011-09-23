@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510902, 
-        "name": "Tuzla Airport", 
         "alias_ENG_V": [
           "TUZ"
         ], 
-        "ne_latitude": 44.463, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Tuzla Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=24551278", 
+          "woe:state=24549661", 
+          "woe:country=23424761", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510902, 
         "ne_longitude": 18.732, 
         "longitude": 18.726, 
-        "placetype": "Airport", 
+        "parent_woeid": 24551278, 
+        "ne_latitude": 44.463, 
         "iso": "BA", 
-        "date_indexed": "2010-12-02T12:15:52Z", 
-        "parent_woeid": 941562, 
+        "sw_latitude": 44.454, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.458, 
         "sw_longitude": 18.719, 
         "fullname": "Tuzla Airport, Federacija Bosne I Hercegovine, Tuzlanski Kanton, Bosnia and Herzegovina", 
-        "sw_latitude": 44.454
+        "iata_code": "TUZ", 
+        "date_indexed": "2010-12-02T12:15:52Z"
       }, 
       "id": 12510902
     }

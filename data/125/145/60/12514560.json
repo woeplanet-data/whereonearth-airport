@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514560, 
-        "name": "Vientiane Airport", 
         "alias_ENG_V": [
           "VTE"
         ], 
-        "ne_latitude": 17.988, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Vientiane Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=20070162", 
+          "woe:country=23424872", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514560, 
         "ne_longitude": 102.570, 
         "longitude": 102.565, 
-        "placetype": "Airport", 
+        "parent_woeid": 20070162, 
+        "ne_latitude": 17.988, 
         "iso": "LA", 
-        "date_indexed": "2010-12-02T16:42:51Z", 
-        "parent_woeid": 1138155, 
+        "sw_latitude": 17.979, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 17.983, 
         "sw_longitude": 102.560, 
         "fullname": "Vientiane Airport, Viangchan, Laos", 
-        "sw_latitude": 17.979
+        "iata_code": "VTE", 
+        "date_indexed": "2010-12-02T16:42:51Z"
       }, 
       "id": 12514560
     }

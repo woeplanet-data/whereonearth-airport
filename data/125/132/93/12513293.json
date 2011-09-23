@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513293, 
-        "name": "Karpathos Airport", 
         "alias_ENG_V": [
           "AOK"
         ], 
-        "ne_latitude": 35.428, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Karpathos Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=24543628", 
+          "woe:county=12591118", 
+          "woe:state=12577886", 
+          "woe:country=23424833", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513293, 
         "ne_longitude": 27.153, 
         "longitude": 27.147, 
-        "placetype": "Airport", 
+        "parent_woeid": 24543628, 
+        "ne_latitude": 35.428, 
         "iso": "GR", 
-        "date_indexed": "2010-12-02T16:52:14Z", 
-        "parent_woeid": 946320, 
+        "sw_latitude": 35.419, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.424, 
         "sw_longitude": 27.142, 
-        "fullname": "Karpathos Airport, Arcasos, Notio Aigaio, Dodekanissos, Greece", 
-        "sw_latitude": 35.419
+        "fullname": "Karpathos Airport, Arcasos, Notio Aigaio, Greece", 
+        "iata_code": "AOK", 
+        "date_indexed": "2010-12-02T16:52:14Z"
       }, 
       "id": 12513293
     }

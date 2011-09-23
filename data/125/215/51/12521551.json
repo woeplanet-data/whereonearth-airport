@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521551, 
-        "name": "Redstone Army Air Field", 
         "alias_ENG_V": [
           "HUA Airport"
         ], 
-        "ne_latitude": 34.683, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Redstone Army Air Field", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587531", 
+          "woe:state=2347559", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521551, 
         "ne_longitude": -86.679, 
         "longitude": -86.685, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587531, 
+        "ne_latitude": 34.683, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2443926, 
+        "sw_latitude": 34.674, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 34.679, 
         "sw_longitude": -86.690, 
-        "fullname": "Redstone Army Air Field, Madison, Alabama, Madison, United States", 
-        "sw_latitude": 34.674
+        "fullname": "Redstone Army Air Field, Madison, Alabama, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521551
     }

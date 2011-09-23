@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519741, 
-        "name": "Fleming-Mason Airport", 
         "alias_ENG_V": [
           "FGX"
         ], 
-        "ne_latitude": 38.541, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Fleming-Mason Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588553", 
+          "woe:state=2347576", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519741, 
         "ne_longitude": -83.744, 
         "longitude": -83.747, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588553, 
+        "ne_latitude": 38.541, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:16Z", 
-        "parent_woeid": 2446095, 
+        "sw_latitude": 38.536, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.538, 
         "sw_longitude": -83.750, 
-        "fullname": "Fleming-Mason Airport, Marshall, Kentucky, Mason, United States", 
-        "sw_latitude": 38.536
+        "fullname": "Fleming-Mason Airport, Marshall, Kentucky, United States", 
+        "date_indexed": "2010-12-02T18:39:16Z"
       }, 
       "id": 12519741
     }

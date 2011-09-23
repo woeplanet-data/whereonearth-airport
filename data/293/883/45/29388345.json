@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388345, 
-        "name": "Columbia Adair County Airport", 
         "alias_ENG_V": [
           "I96"
         ], 
-        "ne_latitude": 37.086, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Columbia Adair County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588476", 
+          "woe:state=2347576", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388345, 
         "ne_longitude": -85.343, 
         "longitude": -85.345, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588476, 
+        "ne_latitude": 37.086, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2383534, 
+        "sw_latitude": 37.083, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 37.084, 
         "sw_longitude": -85.354, 
-        "fullname": "Columbia Adair County Airport, Columbia, Kentucky, Adair, United States", 
-        "sw_latitude": 37.083
+        "fullname": "Columbia Adair County Airport, Columbia, Kentucky, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388345
     }

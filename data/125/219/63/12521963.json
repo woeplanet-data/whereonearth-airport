@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521963, 
+        "placetype": "airport", 
         "name": "St George Island Airport", 
-        "ne_latitude": 29.649, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12587821", 
+          "woe:state=2347568", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521963, 
         "ne_longitude": -84.912, 
         "longitude": -84.917, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587821, 
+        "ne_latitude": 29.649, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2355206, 
+        "sw_latitude": 29.640, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 29.644, 
         "sw_longitude": -84.922, 
-        "fullname": "St George Island Airport, Apalachicola, Florida, Franklin, United States", 
-        "sw_latitude": 29.640
+        "fullname": "St George Island Airport, Apalachicola, Florida, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521963
     }

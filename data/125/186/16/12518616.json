@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518616, 
+        "placetype": "airport", 
         "name": "Anderson Field Airport", 
-        "ne_latitude": 48.110, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12590463", 
+          "woe:state=2347606", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518616, 
         "ne_longitude": -119.713, 
         "longitude": -119.719, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590463, 
+        "ne_latitude": 48.110, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:15Z", 
-        "parent_woeid": 2368663, 
+        "sw_latitude": 48.100, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.105, 
         "sw_longitude": -119.726, 
-        "fullname": "Anderson Field Airport, Brewster, Washington, Okanogan, United States", 
-        "sw_latitude": 48.100
+        "fullname": "Anderson Field Airport, Brewster, Washington, United States", 
+        "date_indexed": "2010-12-02T18:39:15Z"
       }, 
       "id": 12518616
     }

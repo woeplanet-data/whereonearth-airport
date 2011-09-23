@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524576, 
-        "name": "Big Creek Airport", 
         "alias_ENG_V": [
           "BIC"
         ], 
-        "ne_latitude": 57.671, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Big Creek Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587567", 
+          "woe:state=2347560", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524576, 
         "ne_longitude": -157.574, 
         "longitude": -157.583, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587567, 
+        "ne_latitude": 57.671, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2471840, 
+        "sw_latitude": 57.662, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 57.667, 
         "sw_longitude": -157.592, 
-        "fullname": "Big Creek Airport, Pilot Point, Alaska, Lake and Peninsula Borough, United States", 
-        "sw_latitude": 57.662
+        "fullname": "Big Creek Airport, Pilot Point, Alaska, United States", 
+        "iata_code": "BIC", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12524576
     }

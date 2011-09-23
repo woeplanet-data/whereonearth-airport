@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520547, 
-        "name": "Lakeway Airpark", 
         "alias_ENG_V": [
           "Lakeway Airport"
         ], 
-        "ne_latitude": 30.361, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Lakeway Airpark", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590233", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520547, 
         "ne_longitude": -97.991, 
         "longitude": -97.994, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590233, 
+        "ne_latitude": 30.361, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2435714, 
+        "sw_latitude": 30.356, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 30.358, 
         "sw_longitude": -97.996, 
-        "fullname": "Lakeway Airpark, Lakeway, Texas, Travis, United States", 
-        "sw_latitude": 30.356
+        "fullname": "Lakeway Airpark, Lakeway, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12520547
     }

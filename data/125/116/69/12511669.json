@@ -3,28 +3,30 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -120.760, 
-              56.221
-            ], 
-            [
-              -120.760, 
-              56.247
-            ], 
-            [
-              -120.716, 
-              56.247
-            ], 
-            [
-              -120.716, 
-              56.221
-            ], 
-            [
-              -120.760, 
-              56.221
+              [
+                -120.737, 
+                56.245
+              ], 
+              [
+                -120.737, 
+                56.249
+              ], 
+              [
+                -120.735, 
+                56.245
+              ], 
+              [
+                -120.738, 
+                56.244
+              ], 
+              [
+                -120.737, 
+                56.245
+              ]
             ]
           ]
         ]
@@ -32,23 +34,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511669, 
-        "name": "North Peace Airport", 
         "alias_ENG_V": [
           "YXJ Airport"
         ], 
-        "ne_latitude": 56.247, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -120.716, 
-        "longitude": -120.735, 
-        "placetype": "Airport", 
+        "name": "North Peace Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375233", 
+          "woe:state=2344916", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511669, 
+        "ne_longitude": -120.735, 
+        "longitude": -120.736, 
+        "parent_woeid": 29375233, 
+        "ne_latitude": 56.249, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:24:00Z", 
-        "parent_woeid": 9069, 
+        "sw_latitude": 56.244, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 56.246, 
-        "sw_longitude": -120.760, 
-        "fullname": "North Peace Airport, Baldonnel, British Columbia, Peace River, Canada", 
-        "sw_latitude": 56.221
+        "sw_longitude": -120.738, 
+        "fullname": "North Peace Airport, Baldonnel, British Columbia, Canada", 
+        "date_indexed": "2010-12-02T10:24:00Z"
       }, 
       "id": 12511669
     }

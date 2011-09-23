@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513269, 
+        "placetype": "airport", 
         "name": "Zeitz Airport", 
-        "ne_latitude": 50.979, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12626126", 
+          "woe:county=12596752", 
+          "woe:state=2345494", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513269, 
         "ne_longitude": 12.052, 
         "longitude": 12.044, 
-        "placetype": "Airport", 
+        "parent_woeid": 12626126, 
+        "ne_latitude": 50.979, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 640999, 
+        "sw_latitude": 50.970, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.974, 
         "sw_longitude": 12.037, 
-        "fullname": "Zeitz Airport, Breitenbach, Saxony-Anhalt, Burgenlandkreis, Germany", 
+        "fullname": "Zeitz Airport, Breitenbach, Saxony-Anhalt, Germany", 
         "alias_GER_Q": [
           "Flughafen Zeitz"
         ], 
-        "sw_latitude": 50.970
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 12513269
     }

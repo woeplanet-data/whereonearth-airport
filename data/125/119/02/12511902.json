@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511902, 
-        "name": "Wabush Airport", 
         "alias_ENG_V": [
           "YWK Airport"
         ], 
-        "ne_latitude": 52.932, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Wabush Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375216", 
+          "woe:state=2344919", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511902, 
         "ne_longitude": -66.856, 
         "longitude": -66.873, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375216, 
+        "ne_latitude": 52.932, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 2692, 
+        "sw_latitude": 52.913, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 52.926, 
         "sw_longitude": -66.877, 
-        "fullname": "Wabush Airport, Wabush, Newfoundland and Labrador, Newfoundland and Labrador, Canada", 
-        "sw_latitude": 52.913
+        "fullname": "Wabush Airport, Wabush, Newfoundland and Labrador, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12511902
     }

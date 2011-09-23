@@ -3,28 +3,34 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              29.936, 
-              31.173
-            ], 
-            [
-              29.936, 
-              31.196
-            ], 
-            [
-              29.962, 
-              31.196
-            ], 
-            [
-              29.962, 
-              31.173
-            ], 
-            [
-              29.936, 
-              31.173
+              [
+                29.954, 
+                31.192
+              ], 
+              [
+                29.954, 
+                31.192
+              ], 
+              [
+                29.952, 
+                31.191
+              ], 
+              [
+                29.951, 
+                31.192
+              ], 
+              [
+                29.953, 
+                31.193
+              ], 
+              [
+                29.954, 
+                31.192
+              ]
             ]
           ]
         ]
@@ -32,23 +38,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 23388264, 
-        "name": "An-Nuzhah Airport", 
         "alias_ENG_V": [
           "Alexandria Airport"
         ], 
-        "ne_latitude": 31.196, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": 29.962, 
-        "longitude": 29.949, 
-        "placetype": "Airport", 
+        "name": "An-Nuzhah Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2345228", 
+          "woe:country=23424802", 
+          "woe:planet=1"
+        ], 
+        "woeid": 23388264, 
+        "ne_longitude": 29.954, 
+        "longitude": 29.953, 
+        "parent_woeid": 2345228, 
+        "ne_latitude": 31.193, 
         "iso": "EG", 
-        "date_indexed": "2010-12-02T12:16:51Z", 
-        "parent_woeid": 1522006, 
-        "latitude": 31.184, 
-        "sw_longitude": 29.936, 
+        "sw_latitude": 31.191, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 31.192, 
+        "sw_longitude": 29.951, 
         "fullname": "An-Nuzhah Airport, Al Iskandariyah, Al Iskandariyah, Egypt", 
-        "sw_latitude": 31.173
+        "iata_code": "ALY", 
+        "date_indexed": "2010-12-02T12:16:51Z"
       }, 
       "id": 23388264
     }

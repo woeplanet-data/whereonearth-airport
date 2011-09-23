@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517100, 
+        "placetype": "airport", 
         "name": "Ussuriysk Southeast Airport", 
-        "ne_latitude": 43.753, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=24505192", 
+          "woe:state=2346886", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517100, 
         "ne_longitude": 132.028, 
         "longitude": 132.022, 
-        "placetype": "Airport", 
+        "parent_woeid": 24505192, 
+        "ne_latitude": 43.753, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2101262, 
+        "sw_latitude": 43.744, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.748, 
         "sw_longitude": 132.015, 
-        "fullname": "Ussuriysk Southeast Airport, Ussuriysk, Primorskiy Kray, Ussuriysk, Russia", 
-        "sw_latitude": 43.744
+        "fullname": "Ussuriysk Southeast Airport, Ussuriysk, Primorskiy Kray, Russia", 
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12517100
     }

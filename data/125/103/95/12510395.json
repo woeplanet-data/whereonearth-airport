@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510395, 
+        "placetype": "airport", 
         "name": "Pushkino Airport", 
-        "ne_latitude": 39.453, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=20070242", 
+          "woe:country=23424741", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510395, 
         "ne_longitude": 48.554, 
         "longitude": 48.548, 
-        "placetype": "Airport", 
+        "parent_woeid": 20070242, 
+        "ne_latitude": 39.453, 
         "iso": "AZ", 
-        "date_indexed": "2010-12-02T08:58:35Z", 
-        "parent_woeid": 1948149, 
+        "sw_latitude": 39.444, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 39.449, 
         "sw_longitude": 48.542, 
         "fullname": "Pushkino Airport, Pushkin, Bilasuvar, Azerbaijan", 
-        "sw_latitude": 39.444
+        "date_indexed": "2010-12-02T08:58:35Z"
       }, 
       "id": 12510395
     }

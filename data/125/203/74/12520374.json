@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520374, 
+        "placetype": "airport", 
         "name": "John B Connally Ranch Airport", 
-        "ne_latitude": 29.140, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12590253", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520374, 
         "ne_longitude": -98.271, 
         "longitude": -98.276, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590253, 
+        "ne_latitude": 29.140, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2511707, 
+        "sw_latitude": 29.131, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 29.136, 
         "sw_longitude": -98.281, 
-        "fullname": "John B Connally Ranch Airport, Canada Verde, Texas, Wilson, United States", 
-        "sw_latitude": 29.131
+        "fullname": "John B Connally Ranch Airport, Canada Verde, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12520374
     }

@@ -32,29 +32,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 22192358, 
-        "name": "Emden Airport", 
         "alias_ENG_V": [
           "EME Airport"
         ], 
-        "ne_latitude": 53.393, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Emden Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=12635745", 
+          "woe:county=12597093", 
+          "woe:state=2345486", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 22192358, 
         "ne_longitude": 7.236, 
         "longitude": 7.228, 
-        "placetype": "Airport", 
+        "parent_woeid": 12635745, 
+        "ne_latitude": 53.393, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 647816, 
+        "sw_latitude": 53.388, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.389, 
         "sw_longitude": 7.219, 
-        "fullname": "Emden Airport, Emden, Lower Saxony, Stadtkreis Emden, Germany", 
+        "fullname": "Emden Airport, Emden, Lower Saxony, Germany", 
         "alias_GER_V": [
           "EME Flughafen"
         ], 
         "alias_GER_Q": [
           "Flughafen Emden"
         ], 
-        "sw_latitude": 53.388
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 22192358
     }

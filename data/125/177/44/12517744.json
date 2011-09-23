@@ -3,28 +3,46 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -61.350, 
-              10.582
-            ], 
-            [
-              -61.350, 
-              10.605
-            ], 
-            [
-              -61.327, 
-              10.605
-            ], 
-            [
-              -61.327, 
-              10.582
-            ], 
-            [
-              -61.350, 
-              10.582
+              [
+                -61.339, 
+                10.600
+              ], 
+              [
+                -61.340, 
+                10.598
+              ], 
+              [
+                -61.339, 
+                10.594
+              ], 
+              [
+                -61.341, 
+                10.598
+              ], 
+              [
+                -61.340, 
+                10.600
+              ], 
+              [
+                -61.340, 
+                10.600
+              ], 
+              [
+                -61.339, 
+                10.601
+              ], 
+              [
+                -61.339, 
+                10.601
+              ], 
+              [
+                -61.339, 
+                10.600
+              ]
             ]
           ]
         ]
@@ -32,23 +50,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517744, 
-        "name": "Piarco Airport", 
         "alias_ENG_V": [
           "POS"
         ], 
-        "ne_latitude": 10.605, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -61.327, 
-        "longitude": -61.339, 
-        "placetype": "Airport", 
+        "name": "Piarco Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=56189836", 
+          "woe:country=23424958", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517744, 
+        "ne_longitude": -61.339, 
+        "longitude": -61.340, 
+        "parent_woeid": 56189836, 
+        "ne_latitude": 10.601, 
         "iso": "TT", 
-        "date_indexed": "2010-12-02T18:05:31Z", 
-        "parent_woeid": 379917, 
-        "latitude": 10.594, 
-        "sw_longitude": -61.350, 
+        "sw_latitude": 10.594, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 10.598, 
+        "sw_longitude": -61.341, 
         "fullname": "Piarco Airport, Arouca, St. George, Trinidad and Tobago", 
-        "sw_latitude": 10.582
+        "iata_code": "POS", 
+        "date_indexed": "2010-12-02T18:05:31Z"
       }, 
       "id": 12517744
     }

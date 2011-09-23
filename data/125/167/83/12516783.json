@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516783, 
+        "placetype": "airport", 
         "name": "Ropsha Airport", 
-        "ne_latitude": 59.702, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598646", 
+          "woe:state=2346907", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516783, 
         "ne_longitude": 29.843, 
         "longitude": 29.834, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598646, 
+        "ne_latitude": 59.702, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2123172, 
+        "sw_latitude": 59.693, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 59.698, 
         "sw_longitude": 29.825, 
         "fullname": "Ropsha Airport, Leningradskaya Oblast, Gatchinsky, Russia", 
-        "sw_latitude": 59.693
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516783
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 28677608, 
+        "placetype": "airport", 
         "name": "Manbulloo Aerodrome", 
-        "ne_latitude": -14.594, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55864152", 
+          "woe:state=2344701", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 28677608, 
         "ne_longitude": 132.195, 
         "longitude": 132.190, 
-        "placetype": "Airport", 
+        "parent_woeid": 55864152, 
+        "ne_latitude": -14.594, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1103640, 
+        "sw_latitude": -14.603, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -14.599, 
         "sw_longitude": 132.186, 
         "fullname": "Manbulloo Aerodrome, Manbulloo, Northern Territory, Australia", 
-        "sw_latitude": -14.603
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 28677608
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524494, 
-        "name": "Morichal Airport", 
         "alias_ENG_V": [
           "MHF"
         ], 
-        "ne_latitude": 2.135, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Morichal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26797657", 
+          "woe:state=2345060", 
+          "woe:country=23424787", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524494, 
         "ne_longitude": -70.104, 
         "longitude": -70.109, 
-        "placetype": "Airport", 
+        "parent_woeid": 26797657, 
+        "ne_latitude": 2.135, 
         "iso": "CO", 
-        "date_indexed": "2010-12-02T17:57:37Z", 
-        "parent_woeid": 369156, 
+        "sw_latitude": 2.126, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 2.130, 
         "sw_longitude": -70.113, 
         "fullname": "Morichal Airport, Guainia, Morichal Nuevo, Colombia", 
-        "sw_latitude": 2.126
+        "iata_code": "MHF", 
+        "date_indexed": "2010-12-02T17:57:37Z"
       }, 
       "id": 12524494
     }

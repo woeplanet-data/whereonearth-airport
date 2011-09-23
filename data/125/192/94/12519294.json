@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519294, 
-        "name": "Columbus-Lowndes County Airport", 
         "alias_ENG_V": [
           "Columbus-Lowndes Airport"
         ], 
-        "ne_latitude": 33.472, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Columbus-Lowndes County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588927", 
+          "woe:state=2347583", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519294, 
         "ne_longitude": -88.379, 
         "longitude": -88.382, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588927, 
+        "ne_latitude": 33.472, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2383653, 
+        "sw_latitude": 33.459, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 33.464, 
         "sw_longitude": -88.385, 
-        "fullname": "Columbus-Lowndes County Airport, Columbus, Mississippi, Lowndes, United States", 
-        "sw_latitude": 33.459
+        "fullname": "Columbus-Lowndes County Airport, Columbus, Mississippi, United States", 
+        "iata_code": "UBS", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519294
     }

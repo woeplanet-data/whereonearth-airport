@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521587, 
-        "name": "Richmond Municipal Airport", 
         "alias_ENG_V": [
           "RID"
         ], 
-        "ne_latitude": 39.764, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Richmond Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588268", 
+          "woe:state=2347573", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521587, 
         "ne_longitude": -84.833, 
         "longitude": -84.850, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588268, 
+        "ne_latitude": 39.764, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2367106, 
+        "sw_latitude": 39.748, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 39.756, 
         "sw_longitude": -84.852, 
-        "fullname": "Richmond Municipal Airport, Boston, Indiana, Wayne, United States", 
-        "sw_latitude": 39.748
+        "fullname": "Richmond Municipal Airport, Boston, Indiana, United States", 
+        "iata_code": "RID", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521587
     }

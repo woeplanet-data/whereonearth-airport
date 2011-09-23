@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 28677791, 
+        "placetype": "airport", 
         "name": "Southern Cross Airport", 
-        "ne_latitude": -31.233, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55864017", 
+          "woe:state=2344706", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 28677791, 
         "ne_longitude": 119.364, 
         "longitude": 119.358, 
-        "placetype": "Airport", 
+        "parent_woeid": 55864017, 
+        "ne_latitude": -31.233, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1105627, 
+        "sw_latitude": -31.242, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -31.238, 
         "sw_longitude": 119.353, 
-        "fullname": "Southern Cross Airport, Southern Cross, Western Australia, Yilgarn, Australia", 
-        "sw_latitude": -31.242
+        "fullname": "Southern Cross Airport, Southern Cross, Western Australia, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 28677791
     }

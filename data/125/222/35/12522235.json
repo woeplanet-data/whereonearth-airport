@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522235, 
+        "placetype": "airport", 
         "name": "Two G Ranch Airport", 
-        "ne_latitude": 29.655, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12590051", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522235, 
         "ne_longitude": -96.574, 
         "longitude": -96.579, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590051, 
+        "ne_latitude": 29.655, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2411468, 
+        "sw_latitude": 29.645, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 29.650, 
         "sw_longitude": -96.584, 
-        "fullname": "Two G Ranch Airport, Glidden, Texas, Colorado, United States", 
-        "sw_latitude": 29.645
+        "fullname": "Two G Ranch Airport, Glidden, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12522235
     }

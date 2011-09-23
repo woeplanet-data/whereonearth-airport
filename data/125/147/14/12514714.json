@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514714, 
+        "placetype": "airport", 
         "name": "Bel'tsy Airport", 
-        "ne_latitude": 47.778, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=20069873", 
+          "woe:country=23424885", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514714, 
         "ne_longitude": 27.972, 
         "longitude": 27.965, 
-        "placetype": "Airport", 
+        "parent_woeid": 20069873, 
+        "ne_latitude": 47.778, 
         "iso": "MD", 
-        "date_indexed": "2010-12-02T17:58:04Z", 
-        "parent_woeid": 480080, 
+        "sw_latitude": 47.769, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.774, 
         "sw_longitude": 27.958, 
         "fullname": "Bel'tsy Airport, Byelcy, Balti, Moldova", 
-        "sw_latitude": 47.769
+        "date_indexed": "2010-12-02T17:58:04Z"
       }, 
       "id": 12514714
     }

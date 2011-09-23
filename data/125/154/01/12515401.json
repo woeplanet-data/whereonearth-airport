@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515401, 
+        "placetype": "airport", 
         "name": "Wilcze Laski Airport", 
-        "ne_latitude": 53.605, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=24547435", 
+          "woe:county=12591506", 
+          "woe:state=12577950", 
+          "woe:country=23424923", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515401, 
         "ne_longitude": 16.717, 
         "longitude": 16.709, 
-        "placetype": "Airport", 
+        "parent_woeid": 24547435, 
+        "ne_latitude": 53.605, 
         "iso": "PL", 
-        "date_indexed": "2010-12-02T12:12:45Z", 
-        "parent_woeid": 524820, 
+        "sw_latitude": 53.596, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.600, 
         "sw_longitude": 16.702, 
         "fullname": "Wilcze Laski Airport, West Pomeranian, Szczecinek County, Poland", 
-        "sw_latitude": 53.596
+        "date_indexed": "2010-12-02T12:12:45Z"
       }, 
       "id": 12515401
     }

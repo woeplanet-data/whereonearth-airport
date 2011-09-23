@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 28677671, 
+        "placetype": "airport", 
         "name": "Doomadgee Aerodrome", 
-        "ne_latitude": -17.933, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55864350", 
+          "woe:state=2344702", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 28677671, 
         "ne_longitude": 138.821, 
         "longitude": 138.816, 
-        "placetype": "Airport", 
+        "parent_woeid": 55864350, 
+        "ne_latitude": -17.933, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 28596090, 
+        "sw_latitude": -17.942, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -17.938, 
         "sw_longitude": 138.811, 
-        "fullname": "Doomadgee Aerodrome, Nicholson, Queensland, Doomadgee, Australia", 
-        "sw_latitude": -17.942
+        "fullname": "Doomadgee Aerodrome, Nicholson, Queensland, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 28677671
     }

@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512272, 
+        "placetype": "airport", 
         "name": "Yichun Airport", 
-        "ne_latitude": 47.715, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12685864", 
+          "woe:county=26198062", 
+          "woe:state=12577998", 
+          "woe:country=23424781", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512272, 
         "ne_longitude": 128.832, 
         "longitude": 128.826, 
-        "placetype": "Airport", 
+        "parent_woeid": 12685864, 
+        "ne_latitude": 47.715, 
         "iso": "CN", 
-        "date_indexed": "2010-12-02T08:51:54Z", 
-        "parent_woeid": 2141293, 
+        "sw_latitude": 47.706, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.711, 
         "sw_longitude": 128.819, 
-        "fullname": "Yichun Airport, Wumahe, Heilongjiang, Yichun, China", 
-        "sw_latitude": 47.706
+        "fullname": "Yichun Airport, Wumahe, Heilongjiang, China", 
+        "date_indexed": "2010-12-02T08:51:54Z"
       }, 
       "id": 12512272
     }

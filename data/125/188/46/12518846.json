@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518846, 
-        "name": "Black River Falls Area Airport", 
         "alias_ENG_V": [
           "BCK"
         ], 
-        "ne_latitude": 44.254, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Black River Falls Area Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590560", 
+          "woe:state=2347608", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518846, 
         "ne_longitude": -90.845, 
         "longitude": -90.846, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590560, 
+        "ne_latitude": 44.254, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2364894, 
+        "sw_latitude": 44.249, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.254, 
         "sw_longitude": -90.865, 
-        "fullname": "Black River Falls Area Airport, Black River Falls, Wisconsin, Jackson, United States", 
-        "sw_latitude": 44.249
+        "fullname": "Black River Falls Area Airport, Black River Falls, Wisconsin, United States", 
+        "iata_code": "BCK", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518846
     }

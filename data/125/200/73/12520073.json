@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520073, 
+        "placetype": "airport", 
         "name": "Hancock Airport", 
-        "ne_latitude": 37.948, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12588521", 
+          "woe:state=2347576", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520073, 
         "ne_longitude": -86.786, 
         "longitude": -86.791, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588521, 
+        "ne_latitude": 37.948, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2471027, 
+        "sw_latitude": 37.939, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 37.943, 
         "sw_longitude": -86.797, 
-        "fullname": "Hancock Airport, Petri, Kentucky, Hancock, United States", 
-        "sw_latitude": 37.939
+        "fullname": "Hancock Airport, Petri, Kentucky, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12520073
     }

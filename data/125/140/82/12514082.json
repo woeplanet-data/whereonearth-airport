@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514082, 
+        "placetype": "airport", 
         "name": "Wajir Airport", 
-        "ne_latitude": 1.738, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345941", 
+          "woe:country=23424863", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514082, 
         "ne_longitude": 40.102, 
         "longitude": 40.097, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345941, 
+        "ne_latitude": 1.738, 
         "iso": "KE", 
-        "date_indexed": "2010-12-02T08:53:57Z", 
-        "parent_woeid": 1529000, 
+        "sw_latitude": 1.729, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 1.733, 
         "sw_longitude": 40.093, 
         "fullname": "Wajir Airport, North-Eastern, Kenya", 
-        "sw_latitude": 1.729
+        "date_indexed": "2010-12-02T08:53:57Z"
       }, 
       "id": 12514082
     }

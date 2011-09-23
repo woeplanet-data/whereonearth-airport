@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511597, 
-        "name": "Campbell River Airport", 
         "alias_ENG_V": [
           "YBL Airport"
         ], 
-        "ne_latitude": 49.959, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Campbell River Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375117", 
+          "woe:state=2344916", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511597, 
         "ne_longitude": -125.260, 
         "longitude": -125.269, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375117, 
+        "ne_latitude": 49.959, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 29373064, 
+        "sw_latitude": 49.943, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.952, 
         "sw_longitude": -125.282, 
-        "fullname": "Campbell River Airport, Quinsam Indian Reserve 12, British Columbia, Comox-Strathcona, Canada", 
-        "sw_latitude": 49.943
+        "fullname": "Campbell River Airport, Quinsam Indian Reserve 12, British Columbia, Canada", 
+        "iata_code": "YBL", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12511597
     }

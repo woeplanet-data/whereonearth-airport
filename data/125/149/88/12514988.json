@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514988, 
-        "name": "Zamora Airport", 
         "alias_ENG_V": [
           "ZMM"
         ], 
-        "ne_latitude": 20.028, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Zamora Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12600548", 
+          "woe:state=2346279", 
+          "woe:country=23424900", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514988, 
         "ne_longitude": -102.274, 
         "longitude": -102.279, 
-        "placetype": "Airport", 
+        "parent_woeid": 12600548, 
+        "ne_latitude": 20.028, 
         "iso": "MX", 
-        "date_indexed": "2010-12-02T16:57:55Z", 
-        "parent_woeid": 142285, 
+        "sw_latitude": 20.019, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 20.024, 
         "sw_longitude": -102.284, 
-        "fullname": "Zamora Airport, San Esteban, Michoacan de Ocampo, Zamora, Mexico", 
-        "sw_latitude": 20.019
+        "fullname": "Zamora Airport, San Esteban, Michoacan de Ocampo, Mexico", 
+        "iata_code": "ZMM", 
+        "date_indexed": "2010-12-02T16:57:55Z"
       }, 
       "id": 12514988
     }

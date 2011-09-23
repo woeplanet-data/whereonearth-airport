@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515621, 
-        "name": "Iloilo Airport", 
         "alias_ENG_V": [
           "ILO"
         ], 
-        "ne_latitude": 10.719, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Iloilo Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=2346685", 
+          "woe:state=23424725", 
+          "woe:country=23424934", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515621, 
         "ne_longitude": 122.548, 
         "longitude": 122.544, 
-        "placetype": "Airport", 
+        "parent_woeid": 2346685, 
+        "ne_latitude": 10.719, 
         "iso": "PH", 
-        "date_indexed": "2010-12-02T09:56:58Z", 
-        "parent_woeid": 1199637, 
+        "sw_latitude": 10.710, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 10.714, 
         "sw_longitude": 122.539, 
-        "fullname": "Iloilo Airport, Pavia, Western Visayas, Iloilo, Philippines", 
-        "sw_latitude": 10.710
+        "fullname": "Iloilo Airport, Pavia, Western Visayas, Philippines", 
+        "date_indexed": "2010-12-02T09:56:58Z"
       }, 
       "id": 12515621
     }

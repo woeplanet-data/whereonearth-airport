@@ -3,28 +3,54 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -81.575, 
-              28.426
-            ], 
-            [
-              -81.575, 
-              28.435
-            ], 
-            [
-              -81.565, 
-              28.435
-            ], 
-            [
-              -81.565, 
-              28.426
-            ], 
-            [
-              -81.575, 
-              28.426
+              [
+                -81.581, 
+                28.420
+              ], 
+              [
+                -81.579, 
+                28.419
+              ], 
+              [
+                -81.581, 
+                28.416
+              ], 
+              [
+                -81.581, 
+                28.416
+              ], 
+              [
+                -81.584, 
+                28.419
+              ], 
+              [
+                -81.584, 
+                28.420
+              ], 
+              [
+                -81.588, 
+                28.423
+              ], 
+              [
+                -81.583, 
+                28.420
+              ], 
+              [
+                -81.582, 
+                28.421
+              ], 
+              [
+                -81.581, 
+                28.421
+              ], 
+              [
+                -81.581, 
+                28.420
+              ]
             ]
           ]
         ]
@@ -32,23 +58,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523435, 
-        "name": "Walt Disney World Airport", 
         "alias_ENG_V": [
           "Lake Buena Vista Airport"
         ], 
-        "ne_latitude": 28.435, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -81.565, 
-        "longitude": -81.570, 
-        "placetype": "Airport", 
+        "name": "Walt Disney World Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587850", 
+          "woe:state=2347568", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523435, 
+        "ne_longitude": -81.579, 
+        "longitude": -81.582, 
+        "parent_woeid": 12587850, 
+        "ne_latitude": 28.423, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2360208, 
-        "latitude": 28.430, 
-        "sw_longitude": -81.575, 
-        "fullname": "Walt Disney World Airport, Bay Lake, Florida, Orange, United States", 
-        "sw_latitude": 28.426
+        "sw_latitude": 28.416, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 28.419, 
+        "sw_longitude": -81.588, 
+        "fullname": "Walt Disney World Airport, Bay Lake, Florida, United States", 
+        "iata_code": "DWS", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12523435
     }

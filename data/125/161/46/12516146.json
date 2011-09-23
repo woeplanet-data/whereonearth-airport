@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516146, 
+        "placetype": "airport", 
         "name": "Khmelevoye Airport", 
-        "ne_latitude": 50.943, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598060", 
+          "woe:state=2346891", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516146, 
         "ne_longitude": 37.029, 
         "longitude": 37.021, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598060, 
+        "ne_latitude": 50.943, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2065285, 
+        "sw_latitude": 50.934, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.939, 
         "sw_longitude": 37.014, 
         "fullname": "Khmelevoye Airport, Belgorodskaya Oblast, Korochansky, Russia", 
-        "sw_latitude": 50.934
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516146
     }

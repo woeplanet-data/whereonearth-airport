@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521950, 
-        "name": "Springhill Airport", 
         "alias_ENG_V": [
           "SPH"
         ], 
-        "ne_latitude": 32.990, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Springhill Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588655", 
+          "woe:state=2347577", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521950, 
         "ne_longitude": -93.408, 
         "longitude": -93.410, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588655, 
+        "ne_latitude": 32.990, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2498413, 
+        "sw_latitude": 32.976, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 32.989, 
         "sw_longitude": -93.411, 
-        "fullname": "Springhill Airport, Springhill, Louisiana, Webster Parish, United States", 
-        "sw_latitude": 32.976
+        "fullname": "Springhill Airport, Springhill, Louisiana, United States", 
+        "iata_code": "SPH", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521950
     }

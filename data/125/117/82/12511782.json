@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511782, 
-        "name": "Parry Sound Airport", 
         "alias_ENG_V": [
           "YPD Airport"
         ], 
-        "ne_latitude": 45.263, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Parry Sound Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375111", 
+          "woe:state=2344922", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511782, 
         "ne_longitude": -79.825, 
         "longitude": -79.829, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375111, 
+        "ne_latitude": 45.263, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 23399097, 
+        "sw_latitude": 45.250, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.250, 
         "sw_longitude": -79.835, 
-        "fullname": "Parry Sound Airport, Rosseau Road, Ontario, Parry Sound, Canada", 
-        "sw_latitude": 45.250
+        "fullname": "Parry Sound Airport, Rosseau Road, Ontario, Canada", 
+        "iata_code": "YPD", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12511782
     }

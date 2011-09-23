@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512854, 
+        "placetype": "airport", 
         "name": "Bellevue Airport", 
-        "ne_latitude": 46.973, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12637783", 
+          "woe:county=12597153", 
+          "woe:state=7153312", 
+          "woe:country=23424819", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512854, 
         "ne_longitude": 4.269, 
         "longitude": 4.262, 
-        "placetype": "Airport", 
+        "parent_woeid": 12637783, 
+        "ne_latitude": 46.973, 
         "iso": "FR", 
-        "date_indexed": "2010-12-02T12:04:01Z", 
-        "parent_woeid": 577451, 
+        "sw_latitude": 46.964, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.969, 
         "sw_longitude": 4.255, 
-        "fullname": "Bellevue Airport, Autun, Burgundy, Saone-et-Loire, France", 
-        "sw_latitude": 46.964
+        "fullname": "Bellevue Airport, Autun, Burgundy, France", 
+        "date_indexed": "2010-12-02T12:04:01Z"
       }, 
       "id": 12512854
     }

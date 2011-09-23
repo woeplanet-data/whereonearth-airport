@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521235, 
-        "name": "Orange County Airport", 
         "alias_ENG_V": [
           "Org"
         ], 
-        "ne_latitude": 30.076, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Orange County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590187", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521235, 
         "ne_longitude": -93.792, 
         "longitude": -93.798, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590187, 
+        "ne_latitude": 30.076, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2465888, 
+        "sw_latitude": 30.061, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 30.069, 
         "sw_longitude": -93.813, 
-        "fullname": "Orange County Airport, Orange, Texas, Orange, United States", 
-        "sw_latitude": 30.061
+        "fullname": "Orange County Airport, Orange, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521235
     }

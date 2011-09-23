@@ -3,28 +3,106 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -86.544, 
-              16.313
-            ], 
-            [
-              -86.544, 
-              16.336
-            ], 
-            [
-              -86.520, 
-              16.336
-            ], 
-            [
-              -86.520, 
-              16.313
-            ], 
-            [
-              -86.544, 
-              16.313
+              [
+                -86.544, 
+                16.315
+              ], 
+              [
+                -86.542, 
+                16.316
+              ], 
+              [
+                -86.542, 
+                16.316
+              ], 
+              [
+                -86.540, 
+                16.320
+              ], 
+              [
+                -86.546, 
+                16.324
+              ], 
+              [
+                -86.548, 
+                16.327
+              ], 
+              [
+                -86.542, 
+                16.328
+              ], 
+              [
+                -86.538, 
+                16.327
+              ], 
+              [
+                -86.531, 
+                16.327
+              ], 
+              [
+                -86.530, 
+                16.327
+              ], 
+              [
+                -86.527, 
+                16.327
+              ], 
+              [
+                -86.522, 
+                16.328
+              ], 
+              [
+                -86.527, 
+                16.325
+              ], 
+              [
+                -86.526, 
+                16.322
+              ], 
+              [
+                -86.522, 
+                16.317
+              ], 
+              [
+                -86.524, 
+                16.316
+              ], 
+              [
+                -86.529, 
+                16.315
+              ], 
+              [
+                -86.532, 
+                16.313
+              ], 
+              [
+                -86.538, 
+                16.314
+              ], 
+              [
+                -86.539, 
+                16.314
+              ], 
+              [
+                -86.543, 
+                16.314
+              ], 
+              [
+                -86.544, 
+                16.314
+              ], 
+              [
+                -86.544, 
+                16.315
+              ], 
+              [
+                -86.544, 
+                16.315
+              ]
             ]
           ]
         ]
@@ -32,23 +110,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513362, 
-        "name": "Roatan Island Airport", 
         "alias_ENG_V": [
           "Roatan Island"
         ], 
-        "ne_latitude": 16.336, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -86.520, 
-        "longitude": -86.532, 
-        "placetype": "Airport", 
+        "name": "Roatan Island Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26813756", 
+          "woe:state=2345633", 
+          "woe:country=23424841", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513362, 
+        "ne_longitude": -86.522, 
+        "longitude": -86.534, 
+        "parent_woeid": 26813756, 
+        "ne_latitude": 16.328, 
         "iso": "HN", 
-        "date_indexed": "2010-12-02T19:21:06Z", 
-        "parent_woeid": 107195, 
-        "latitude": 16.324, 
-        "sw_longitude": -86.544, 
+        "sw_latitude": 16.313, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 16.321, 
+        "sw_longitude": -86.548, 
         "fullname": "Roatan Island Airport, Islas de la Bah\u00eda, Roat\u00e1n, Honduras", 
-        "sw_latitude": 16.313
+        "iata_code": "RTB", 
+        "date_indexed": "2010-12-02T19:21:06Z"
       }, 
       "id": 12513362
     }

@@ -3,28 +3,42 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -0.181, 
-              5.585
-            ], 
-            [
-              -0.181, 
-              5.608
-            ], 
-            [
-              -0.159, 
-              5.608
-            ], 
-            [
-              -0.159, 
-              5.585
-            ], 
-            [
-              -0.181, 
-              5.585
+              [
+                -0.171, 
+                5.606
+              ], 
+              [
+                -0.170, 
+                5.603
+              ], 
+              [
+                -0.171, 
+                5.606
+              ], 
+              [
+                -0.172, 
+                5.608
+              ], 
+              [
+                -0.172, 
+                5.607
+              ], 
+              [
+                -0.170, 
+                5.607
+              ], 
+              [
+                -0.171, 
+                5.606
+              ], 
+              [
+                -0.171, 
+                5.606
+              ]
             ]
           ]
         ]
@@ -32,23 +46,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513022, 
-        "name": "Kotoka International Airport", 
         "alias_ENG_V": [
           "ACC Airport"
         ], 
+        "name": "Kotoka International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2345462", 
+          "woe:country=23424824", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513022, 
+        "ne_longitude": -0.170, 
+        "longitude": -0.171, 
+        "parent_woeid": 2345462, 
         "ne_latitude": 5.608, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -0.159, 
-        "longitude": -0.170, 
-        "placetype": "Airport", 
         "iso": "GH", 
-        "date_indexed": "2010-12-02T17:57:50Z", 
-        "parent_woeid": 1330848, 
-        "latitude": 5.596, 
-        "sw_longitude": -0.181, 
+        "sw_latitude": 5.603, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 5.606, 
+        "sw_longitude": -0.172, 
         "fullname": "Kotoka International Airport, Greater Accra, Ghana", 
-        "sw_latitude": 5.585
+        "iata_code": "ACC", 
+        "date_indexed": "2010-12-02T17:57:50Z"
       }, 
       "id": 12513022
     }

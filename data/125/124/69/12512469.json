@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512469, 
+        "placetype": "airport", 
         "name": "La Olivia Airport", 
-        "ne_latitude": 21.472, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345110", 
+          "woe:country=23424793", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512469, 
         "ne_longitude": -78.461, 
         "longitude": -78.466, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345110, 
+        "ne_latitude": 21.472, 
         "iso": "CU", 
-        "date_indexed": "2010-12-02T08:58:58Z", 
-        "parent_woeid": 63853, 
+        "sw_latitude": 21.463, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 21.468, 
         "sw_longitude": -78.470, 
         "fullname": "La Olivia Airport, La Jagua, Camaguey, Cuba", 
-        "sw_latitude": 21.463
+        "date_indexed": "2010-12-02T08:58:58Z"
       }, 
       "id": 12512469
     }

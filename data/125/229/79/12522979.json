@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522979, 
+        "placetype": "airport", 
         "name": "Karibib Airport", 
-        "ne_latitude": -21.844, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55921137", 
+          "woe:state=20069837", 
+          "woe:country=23424987", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522979, 
         "ne_longitude": 15.909, 
         "longitude": 15.904, 
-        "placetype": "Airport", 
+        "parent_woeid": 55921137, 
+        "ne_latitude": -21.844, 
         "iso": "NA", 
-        "date_indexed": "2010-12-02T07:50:17Z", 
-        "parent_woeid": 1465143, 
+        "sw_latitude": -21.853, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -21.848, 
         "sw_longitude": 15.899, 
-        "fullname": "Karibib Airport, Karibib, Erongo, Karibib, Namibia", 
-        "sw_latitude": -21.853
+        "fullname": "Karibib Airport, Karibib, Erongo, Namibia", 
+        "date_indexed": "2010-12-02T07:50:17Z"
       }, 
       "id": 12522979
     }

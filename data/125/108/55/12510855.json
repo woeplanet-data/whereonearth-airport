@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510855, 
+        "placetype": "airport", 
         "name": "St Truiden Airport", 
-        "ne_latitude": 50.794, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12602288", 
+          "woe:county=12591782", 
+          "woe:state=7153301", 
+          "woe:country=23424757", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510855, 
         "ne_longitude": 5.202, 
         "longitude": 5.194, 
-        "placetype": "Airport", 
+        "parent_woeid": 12602288, 
+        "ne_latitude": 50.794, 
         "iso": "BE", 
-        "date_indexed": "2010-12-02T16:32:27Z", 
-        "parent_woeid": 966411, 
+        "sw_latitude": 50.785, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.789, 
         "sw_longitude": 5.187, 
-        "fullname": "St Truiden Airport, Aelst, Limburg, Hasselt, Belgium", 
-        "sw_latitude": 50.785
+        "fullname": "St Truiden Airport, Aelst, Limburg, Belgium", 
+        "date_indexed": "2010-12-02T16:32:27Z"
       }, 
       "id": 12510855
     }

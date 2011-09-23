@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514658, 
+        "placetype": "airport", 
         "name": "Marsa Brega Airport", 
-        "ne_latitude": 30.384, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2346130", 
+          "woe:country=23424882", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514658, 
         "ne_longitude": 19.582, 
         "longitude": 19.577, 
-        "placetype": "Airport", 
+        "parent_woeid": 2346130, 
+        "ne_latitude": 30.384, 
         "iso": "LY", 
-        "date_indexed": "2010-12-02T08:58:29Z", 
-        "parent_woeid": 1352687, 
+        "sw_latitude": 30.375, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 30.379, 
         "sw_longitude": 19.572, 
         "fullname": "Marsa Brega Airport, Ajdabiya, Libya", 
-        "sw_latitude": 30.375
+        "date_indexed": "2010-12-02T08:58:29Z"
       }, 
       "id": 12514658
     }

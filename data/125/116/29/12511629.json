@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511629, 
-        "name": "Creston Airport", 
         "alias_ENG_V": [
           "YCZ Airport"
         ], 
-        "ne_latitude": 49.041, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Creston Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375076", 
+          "woe:state=2344916", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511629, 
         "ne_longitude": -116.490, 
         "longitude": -116.497, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375076, 
+        "ne_latitude": 49.041, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 29373936, 
+        "sw_latitude": 49.032, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.037, 
         "sw_longitude": -116.504, 
-        "fullname": "Creston Airport, Creston Indian Reserve 1, British Columbia, Central Kootenay, Canada", 
-        "sw_latitude": 49.032
+        "fullname": "Creston Airport, Creston Indian Reserve 1, British Columbia, Canada", 
+        "iata_code": "YCZ", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12511629
     }

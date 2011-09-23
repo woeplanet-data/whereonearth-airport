@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519891, 
-        "name": "Geronimo Field Airport", 
         "alias_ENG_V": [
           "Geronimo Field"
         ], 
-        "ne_latitude": 29.596, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Geronimo Field Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590100", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519891, 
         "ne_longitude": -97.991, 
         "longitude": -97.999, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590100, 
+        "ne_latitude": 29.596, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2490592, 
+        "sw_latitude": 29.589, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 29.593, 
         "sw_longitude": -98.001, 
-        "fullname": "Geronimo Field Airport, Seguin, Texas, Guadalupe, United States", 
-        "sw_latitude": 29.589
+        "fullname": "Geronimo Field Airport, Seguin, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12519891
     }

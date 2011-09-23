@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518091, 
-        "name": "Gamston Airport", 
         "alias_ENG_V": [
           "GNE"
         ], 
-        "ne_latitude": 53.283, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Gamston Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=12696051", 
+          "woe:county=12602147", 
+          "woe:state=24554868", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518091, 
         "ne_longitude": -0.943, 
         "longitude": -0.951, 
-        "placetype": "Airport", 
+        "parent_woeid": 12696051, 
+        "ne_latitude": 53.283, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:20:54Z", 
-        "parent_woeid": 20814, 
+        "sw_latitude": 53.274, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.279, 
         "sw_longitude": -0.958, 
-        "fullname": "Gamston Airport, Gamston, England, Nottinghamshire, United Kingdom", 
-        "sw_latitude": 53.274
+        "fullname": "Gamston Airport, Gamston, England, United Kingdom", 
+        "iata_code": "GNE", 
+        "date_indexed": "2010-12-02T12:20:54Z"
       }, 
       "id": 12518091
     }

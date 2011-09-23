@@ -3,28 +3,42 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              108.738, 
-              34.433
-            ], 
-            [
-              108.738, 
-              34.456
-            ], 
-            [
-              108.765, 
-              34.456
-            ], 
-            [
-              108.765, 
-              34.433
-            ], 
-            [
-              108.738, 
-              34.433
+              [
+                108.759, 
+                34.444
+              ], 
+              [
+                108.760, 
+                34.441
+              ], 
+              [
+                108.756, 
+                34.442
+              ], 
+              [
+                108.753, 
+                34.441
+              ], 
+              [
+                108.751, 
+                34.444
+              ], 
+              [
+                108.755, 
+                34.445
+              ], 
+              [
+                108.759, 
+                34.445
+              ], 
+              [
+                108.759, 
+                34.444
+              ]
             ]
           ]
         ]
@@ -32,23 +46,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512075, 
-        "name": "Hsien Yang Airport", 
         "alias_ENG_V": [
           "Hsien Yang"
         ], 
-        "ne_latitude": 34.456, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": 108.765, 
-        "longitude": 108.752, 
-        "placetype": "Airport", 
-        "iso": "CN", 
-        "date_indexed": "2010-12-02T08:51:48Z", 
+        "name": "Hsien Yang Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=12687231", 
+          "woe:county=26198120", 
+          "woe:state=12578015", 
+          "woe:country=23424781", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512075, 
+        "ne_longitude": 108.760, 
+        "longitude": 108.756, 
         "parent_woeid": 12687231, 
-        "latitude": 34.445, 
-        "sw_longitude": 108.738, 
+        "ne_latitude": 34.445, 
+        "iso": "CN", 
+        "sw_latitude": 34.441, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 34.443, 
+        "sw_longitude": 108.751, 
         "fullname": "Hsien Yang Airport, Shaanxi, Xianyang, China", 
-        "sw_latitude": 34.433
+        "date_indexed": "2010-12-02T08:51:48Z"
       }, 
       "id": 12512075
     }

@@ -3,28 +3,78 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -71.056, 
-              42.345
-            ], 
-            [
-              -71.056, 
-              42.355
-            ], 
-            [
-              -71.044, 
-              42.355
-            ], 
-            [
-              -71.044, 
-              42.345
-            ], 
-            [
-              -71.056, 
-              42.345
+              [
+                -71.057, 
+                42.359
+              ], 
+              [
+                -71.057, 
+                42.359
+              ], 
+              [
+                -71.059, 
+                42.359
+              ], 
+              [
+                -71.060, 
+                42.359
+              ], 
+              [
+                -71.060, 
+                42.359
+              ], 
+              [
+                -71.064, 
+                42.362
+              ], 
+              [
+                -71.062, 
+                42.364
+              ], 
+              [
+                -71.060, 
+                42.366
+              ], 
+              [
+                -71.059, 
+                42.366
+              ], 
+              [
+                -71.058, 
+                42.364
+              ], 
+              [
+                -71.057, 
+                42.362
+              ], 
+              [
+                -71.056, 
+                42.361
+              ], 
+              [
+                -71.056, 
+                42.360
+              ], 
+              [
+                -71.056, 
+                42.360
+              ], 
+              [
+                -71.056, 
+                42.360
+              ], 
+              [
+                -71.057, 
+                42.359
+              ], 
+              [
+                -71.057, 
+                42.359
+              ]
             ]
           ]
         ]
@@ -32,23 +82,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523136, 
-        "name": "Boston City Heliport", 
         "alias_ENG_V": [
           "JBC"
         ], 
-        "ne_latitude": 42.355, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -71.044, 
-        "longitude": -71.050, 
-        "placetype": "Airport", 
-        "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
+        "name": "Boston City Heliport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:suburb=2496012", 
+          "woe:county=12588712", 
+          "woe:state=2347580", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523136, 
+        "ne_longitude": -71.056, 
+        "longitude": -71.059, 
         "parent_woeid": 2496012, 
-        "latitude": 42.350, 
-        "sw_longitude": -71.056, 
-        "fullname": "Boston City Heliport, Boston, Massachusetts, Suffolk, United States", 
-        "sw_latitude": 42.345
+        "ne_latitude": 42.366, 
+        "iso": "US", 
+        "sw_latitude": 42.359, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 42.362, 
+        "sw_longitude": -71.064, 
+        "fullname": "Boston City Heliport, Boston, Massachusetts, United States", 
+        "iata_code": "JBC", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12523136
     }

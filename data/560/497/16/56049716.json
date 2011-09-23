@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "CZE", 
-        "woeid": 56049716, 
+        "placetype": "airport", 
         "name": "Letiste Tachov", 
-        "ne_latitude": 49.803, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12610045", 
+          "woe:county=12582613", 
+          "woe:state=20070501", 
+          "woe:country=23424810", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56049716, 
         "ne_longitude": 12.718, 
         "longitude": 12.708, 
-        "placetype": "Airport", 
+        "parent_woeid": 12610045, 
+        "ne_latitude": 49.803, 
         "iso": "CZ", 
-        "date_indexed": "2010-12-02T08:56:52Z", 
-        "parent_woeid": 799522, 
+        "sw_latitude": 49.790, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.796, 
         "sw_longitude": 12.698, 
-        "fullname": "Letiste Tachov, Tachov, Plze\u0148sk\u00fd, Tachov, Czech Republic", 
-        "sw_latitude": 49.790
+        "fullname": "Letiste Tachov, Tachov, Plze\u0148sk\u00fd, Czech Republic", 
+        "date_indexed": "2010-12-02T08:56:52Z"
       }, 
       "id": 56049716
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 12523854, 
+        "placetype": "airport", 
         "name": "Bonn-Hangelar", 
-        "ne_latitude": 50.773, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12624376", 
+          "woe:county=12596828", 
+          "woe:state=2345487", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523854, 
         "ne_longitude": 7.178, 
         "longitude": 7.167, 
-        "placetype": "Airport", 
+        "parent_woeid": 12624376, 
+        "ne_latitude": 50.773, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 695997, 
+        "sw_latitude": 50.765, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.767, 
         "sw_longitude": 7.155, 
-        "fullname": "Bonn-Hangelar, St. Augustin, North Rhine-Westphalia, Rhein-Sieg-Kreis, Germany", 
+        "fullname": "Bonn-Hangelar, St. Augustin, North Rhine-Westphalia, Germany", 
         "alias_GER_V": [
           "Flughafen Bonn-Hangelar"
         ], 
-        "sw_latitude": 50.765
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 12523854
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516501, 
+        "placetype": "airport", 
         "name": "Nikolayevskaya Airport", 
-        "ne_latitude": 44.881, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597820", 
+          "woe:state=2346884", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516501, 
         "ne_longitude": 41.574, 
         "longitude": 41.568, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597820, 
+        "ne_latitude": 44.881, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2051945, 
+        "sw_latitude": 44.871, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.876, 
         "sw_longitude": 41.562, 
         "fullname": "Nikolayevskaya Airport, Krasnodarskiy Kray, Uspensky, Russia", 
-        "sw_latitude": 44.871
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516501
     }

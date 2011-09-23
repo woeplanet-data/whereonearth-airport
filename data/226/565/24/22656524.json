@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 22656524, 
+        "placetype": "airport", 
         "name": "Flugplatz Biel-Kappelen", 
-        "ne_latitude": 47.092, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12683754", 
+          "woe:county=12593086", 
+          "woe:state=2347087", 
+          "woe:country=23424957", 
+          "woe:planet=1"
+        ], 
+        "woeid": 22656524, 
         "ne_longitude": 7.293, 
         "longitude": 7.291, 
-        "placetype": "Airport", 
+        "parent_woeid": 12683754, 
+        "ne_latitude": 47.092, 
         "iso": "CH", 
-        "date_indexed": "2010-12-02T18:20:52Z", 
-        "parent_woeid": 28997127, 
+        "sw_latitude": 47.085, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.091, 
         "sw_longitude": 7.284, 
-        "fullname": "Flugplatz Biel-Kappelen, Werdthof, Canton of Berne, Aarberg, Switzerland", 
-        "sw_latitude": 47.085
+        "fullname": "Flugplatz Biel-Kappelen, Werdthof, Canton of Berne, Switzerland", 
+        "date_indexed": "2010-12-02T18:20:52Z"
       }, 
       "id": 22656524
     }

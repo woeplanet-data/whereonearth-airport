@@ -32,23 +32,28 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523886, 
-        "name": "Grundarfjordur Airport", 
         "alias_ENG_V": [
           "GUU"
         ], 
-        "ne_latitude": 64.919, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Grundarfjordur Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2345702", 
+          "woe:country=23424845", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523886, 
         "ne_longitude": -23.208, 
         "longitude": -23.219, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345702, 
+        "ne_latitude": 64.919, 
         "iso": "IS", 
-        "date_indexed": "2010-12-02T09:55:32Z", 
-        "parent_woeid": 980160, 
+        "sw_latitude": 64.910, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 64.914, 
         "sw_longitude": -23.230, 
         "fullname": "Grundarfjordur Airport, Grundarfjoerdur, Snaefellsnesog Hnappadalssysla, Iceland", 
-        "sw_latitude": 64.910
+        "date_indexed": "2010-12-02T09:55:32Z"
       }, 
       "id": 12523886
     }

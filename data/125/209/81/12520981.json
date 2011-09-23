@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520981, 
-        "name": "Mogollon Airport", 
         "alias_ENG_V": [
           "Overgaard Airport"
         ], 
-        "ne_latitude": 34.408, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Mogollon Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587589", 
+          "woe:state=2347561", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520981, 
         "ne_longitude": -110.523, 
         "longitude": -110.535, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587589, 
+        "ne_latitude": 34.408, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2466931, 
+        "sw_latitude": 34.391, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 34.391, 
         "sw_longitude": -110.536, 
-        "fullname": "Mogollon Airport, Overgaard, Arizona, Navajo, United States", 
-        "sw_latitude": 34.391
+        "fullname": "Mogollon Airport, Overgaard, Arizona, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520981
     }

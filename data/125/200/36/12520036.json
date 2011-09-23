@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520036, 
+        "placetype": "airport", 
         "name": "Gulfpark Airport", 
-        "ne_latitude": 30.396, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12588913", 
+          "woe:state=2347583", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520036, 
         "ne_longitude": -88.753, 
         "longitude": -88.754, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588913, 
+        "ne_latitude": 30.396, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2464094, 
+        "sw_latitude": 30.385, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 30.390, 
         "sw_longitude": -88.755, 
-        "fullname": "Gulfpark Airport, Ocean Springs, Mississippi, Jackson, United States", 
-        "sw_latitude": 30.385
+        "fullname": "Gulfpark Airport, Ocean Springs, Mississippi, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520036
     }

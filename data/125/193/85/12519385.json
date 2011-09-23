@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519385, 
-        "name": "Currituck County Airport", 
         "alias_ENG_V": [
           "9w7"
         ], 
-        "ne_latitude": 36.408, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Currituck County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589400", 
+          "woe:state=2347592", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519385, 
         "ne_longitude": -76.007, 
         "longitude": -76.014, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589400, 
+        "ne_latitude": 36.408, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2445116, 
+        "sw_latitude": 36.389, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.399, 
         "sw_longitude": -76.026, 
-        "fullname": "Currituck County Airport, Maple, North Carolina, Currituck, United States", 
-        "sw_latitude": 36.389
+        "fullname": "Currituck County Airport, Maple, North Carolina, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519385
     }

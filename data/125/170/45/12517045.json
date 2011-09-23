@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517045, 
+        "placetype": "airport", 
         "name": "Tundrino West Airport", 
-        "ne_latitude": 61.286, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599483", 
+          "woe:state=20070526", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517045, 
         "ne_longitude": 71.767, 
         "longitude": 71.757, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599483, 
+        "ne_latitude": 61.286, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2039082, 
+        "sw_latitude": 61.277, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 61.282, 
         "sw_longitude": 71.748, 
         "fullname": "Tundrino West Airport, Khanty-Mansiyskiy Avtonomnyy Okrug, Surgutsky, Russia", 
-        "sw_latitude": 61.277
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12517045
     }

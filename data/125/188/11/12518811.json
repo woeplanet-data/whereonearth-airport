@@ -3,28 +3,30 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -112.508, 
-              45.941
-            ], 
-            [
-              -112.508, 
-              45.969
-            ], 
-            [
-              -112.485, 
-              45.969
-            ], 
-            [
-              -112.485, 
-              45.941
-            ], 
-            [
-              -112.508, 
-              45.941
+              [
+                -112.502, 
+                45.955
+              ], 
+              [
+                -112.502, 
+                45.953
+              ], 
+              [
+                -112.498, 
+                45.951
+              ], 
+              [
+                -112.502, 
+                45.953
+              ], 
+              [
+                -112.502, 
+                45.955
+              ]
             ]
           ]
         ]
@@ -32,23 +34,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518811, 
-        "name": "Bert Mooney Airport", 
         "alias_ENG_V": [
           "Bert Mooney"
         ], 
-        "ne_latitude": 45.969, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -112.485, 
-        "longitude": -112.503, 
-        "placetype": "Airport", 
+        "name": "Bert Mooney Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589127", 
+          "woe:state=2347585", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518811, 
+        "ne_longitude": -112.498, 
+        "longitude": -112.501, 
+        "parent_woeid": 12589127, 
+        "ne_latitude": 45.955, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2372641, 
-        "latitude": 45.954, 
-        "sw_longitude": -112.508, 
-        "fullname": "Bert Mooney Airport, Butte, Montana, Silver Bow, United States", 
-        "sw_latitude": 45.941
+        "sw_latitude": 45.951, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 45.953, 
+        "sw_longitude": -112.502, 
+        "fullname": "Bert Mooney Airport, Butte, Montana, United States", 
+        "iata_code": "BTM", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518811
     }

@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512708, 
+        "placetype": "airport", 
         "name": "Ras Sudr Airport", 
-        "ne_latitude": 29.605, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345237", 
+          "woe:country=23424802", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512708, 
         "ne_longitude": 32.693, 
         "longitude": 32.688, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345237, 
+        "ne_latitude": 29.605, 
         "iso": "EG", 
-        "date_indexed": "2010-12-02T12:16:51Z", 
-        "parent_woeid": 1522746, 
+        "sw_latitude": 29.596, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 29.601, 
         "sw_longitude": 32.682, 
         "fullname": "Ras Sudr Airport, Shamal Sina', Egypt", 
-        "sw_latitude": 29.596
+        "date_indexed": "2010-12-02T12:16:51Z"
       }, 
       "id": 12512708
     }

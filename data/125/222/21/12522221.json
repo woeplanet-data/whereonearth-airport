@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522221, 
+        "placetype": "airport", 
         "name": "Tupelo Industrial Airpark", 
-        "ne_latitude": 34.181, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12588924", 
+          "woe:state=2347583", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522221, 
         "ne_longitude": -88.683, 
         "longitude": -88.688, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588924, 
+        "ne_latitude": 34.181, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2511885, 
+        "sw_latitude": 34.172, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 34.177, 
         "sw_longitude": -88.694, 
-        "fullname": "Tupelo Industrial Airpark, Verona, Mississippi, Lee, United States", 
-        "sw_latitude": 34.172
+        "fullname": "Tupelo Industrial Airpark, Verona, Mississippi, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12522221
     }

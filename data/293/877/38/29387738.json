@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29387738, 
-        "name": "Kalaupapa Airport", 
         "alias_ENG_V": [
           "Lup"
         ], 
-        "ne_latitude": 21.209, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Kalaupapa Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588031", 
+          "woe:state=2347570", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29387738, 
         "ne_longitude": -156.974, 
         "longitude": -156.976, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588031, 
+        "ne_latitude": 21.209, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2430491, 
+        "sw_latitude": 21.206, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 21.208, 
         "sw_longitude": -156.978, 
-        "fullname": "Kalaupapa Airport, Kalaupapa, Hawaii, Kalawao, United States", 
-        "sw_latitude": 21.206
+        "fullname": "Kalaupapa Airport, Kalaupapa, Hawaii, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 29387738
     }

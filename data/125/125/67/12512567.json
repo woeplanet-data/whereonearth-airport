@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512567, 
+        "placetype": "airport", 
         "name": "Stankov Airport", 
-        "ne_latitude": 49.565, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12610003", 
+          "woe:county=12582605", 
+          "woe:state=20070501", 
+          "woe:country=23424810", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512567, 
         "ne_longitude": 13.062, 
         "longitude": 13.055, 
-        "placetype": "Airport", 
+        "parent_woeid": 12610003, 
+        "ne_latitude": 49.565, 
         "iso": "CZ", 
-        "date_indexed": "2010-12-02T08:56:52Z", 
-        "parent_woeid": 798602, 
+        "sw_latitude": 49.556, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.561, 
         "sw_longitude": 13.048, 
-        "fullname": "Stankov Airport, Sta\u0148kov, Plze\u0148sk\u00fd, Doma\u017elice, Czech Republic", 
-        "sw_latitude": 49.556
+        "fullname": "Stankov Airport, Sta\u0148kov, Plze\u0148sk\u00fd, Czech Republic", 
+        "date_indexed": "2010-12-02T08:56:52Z"
       }, 
       "id": 12512567
     }

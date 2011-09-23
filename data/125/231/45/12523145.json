@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523145, 
-        "name": "St. Cloud Municipal Heliport", 
         "alias_ENG_V": [
           "JSK"
         ], 
-        "ne_latitude": 45.588, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "St. Cloud Municipal Heliport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588869", 
+          "woe:state=2347582", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523145, 
         "ne_longitude": -94.177, 
         "longitude": -94.183, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588869, 
+        "ne_latitude": 45.588, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2486726, 
+        "sw_latitude": 45.579, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.583, 
         "sw_longitude": -94.190, 
-        "fullname": "St. Cloud Municipal Heliport, St. Cloud, Minnesota, Stearns, United States", 
-        "sw_latitude": 45.579
+        "fullname": "St. Cloud Municipal Heliport, St. Cloud, Minnesota, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12523145
     }

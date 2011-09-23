@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 28677622, 
+        "placetype": "airport", 
         "name": "Glenormiston Aerodrome", 
-        "ne_latitude": -22.882, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55863939", 
+          "woe:state=2344702", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 28677622, 
         "ne_longitude": 138.829, 
         "longitude": 138.824, 
-        "placetype": "Airport", 
+        "parent_woeid": 55863939, 
+        "ne_latitude": -22.882, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 28587607, 
+        "sw_latitude": -22.891, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -22.887, 
         "sw_longitude": 138.819, 
-        "fullname": "Glenormiston Aerodrome, Toko, Queensland, Boulia, Australia", 
-        "sw_latitude": -22.891
+        "fullname": "Glenormiston Aerodrome, Toko, Queensland, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 28677622
     }

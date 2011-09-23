@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510640, 
+        "placetype": "airport", 
         "name": "Cooma Airport", 
-        "ne_latitude": -36.298, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55863972", 
+          "woe:state=2344705", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510640, 
         "ne_longitude": 145.981, 
         "longitude": 145.975, 
-        "placetype": "Airport", 
+        "parent_woeid": 55863972, 
+        "ne_latitude": -36.298, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1101664, 
+        "sw_latitude": -36.307, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -36.303, 
         "sw_longitude": 145.969, 
-        "fullname": "Cooma Airport, Devenish, Victoria, Benalla, Australia", 
-        "sw_latitude": -36.307
+        "fullname": "Cooma Airport, Devenish, Victoria, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 12510640
     }

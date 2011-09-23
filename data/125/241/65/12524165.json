@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524165, 
-        "name": "Lansdowne House Airport", 
         "alias_ENG_V": [
           "YLH Airport"
         ], 
-        "ne_latitude": 52.211, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Lansdowne House Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375238", 
+          "woe:state=2344922", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524165, 
         "ne_longitude": -87.903, 
         "longitude": -87.910, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375238, 
+        "ne_latitude": 52.211, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 2673, 
+        "sw_latitude": 52.202, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 52.207, 
         "sw_longitude": -87.918, 
-        "fullname": "Lansdowne House Airport, Lansdowne House, Ontario, Kenora, Canada", 
-        "sw_latitude": 52.202
+        "fullname": "Lansdowne House Airport, Lansdowne House, Ontario, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12524165
     }

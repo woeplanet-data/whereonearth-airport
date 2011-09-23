@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521166, 
-        "name": "Northway Airport", 
         "alias_ENG_V": [
           "ORT"
         ], 
-        "ne_latitude": 62.966, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Northway Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587575", 
+          "woe:state=2347560", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521166, 
         "ne_longitude": -141.917, 
         "longitude": -141.927, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587575, 
+        "ne_latitude": 62.966, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2462069, 
+        "sw_latitude": 62.957, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 62.962, 
         "sw_longitude": -141.937, 
-        "fullname": "Northway Airport, Northway, Alaska, Southeast Fairbanks Census Area, United States", 
-        "sw_latitude": 62.957
+        "fullname": "Northway Airport, Northway, Alaska, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521166
     }

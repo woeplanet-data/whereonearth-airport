@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515288, 
+        "placetype": "airport", 
         "name": "Borsk Airport", 
-        "ne_latitude": 53.965, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=24547709", 
+          "woe:county=12591372", 
+          "woe:state=12577945", 
+          "woe:country=23424923", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515288, 
         "ne_longitude": 17.953, 
         "longitude": 17.945, 
-        "placetype": "Airport", 
+        "parent_woeid": 24547709, 
+        "ne_latitude": 53.965, 
         "iso": "PL", 
-        "date_indexed": "2010-12-02T12:12:45Z", 
-        "parent_woeid": 487398, 
+        "sw_latitude": 53.956, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.961, 
         "sw_longitude": 17.937, 
         "fullname": "Borsk Airport, Pomeranian, Koscierzyna County, Poland", 
-        "sw_latitude": 53.956
+        "date_indexed": "2010-12-02T12:12:45Z"
       }, 
       "id": 12515288
     }

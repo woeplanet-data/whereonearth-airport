@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520467, 
+        "placetype": "airport", 
         "name": "Kingdon Airpark", 
-        "ne_latitude": 38.096, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12587708", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520467, 
         "ne_longitude": -121.353, 
         "longitude": -121.358, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587708, 
+        "ne_latitude": 38.096, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2441037, 
+        "sw_latitude": 38.087, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.092, 
         "sw_longitude": -121.364, 
-        "fullname": "Kingdon Airpark, Lodi, California, San Joaquin, United States", 
-        "sw_latitude": 38.087
+        "fullname": "Kingdon Airpark, Lodi, California, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12520467
     }

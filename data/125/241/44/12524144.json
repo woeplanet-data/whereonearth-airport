@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524144, 
-        "name": "Isachsen Airport", 
         "alias_ENG_V": [
           "YIC Airport"
         ], 
-        "ne_latitude": 78.788, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Isachsen Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375230", 
+          "woe:state=20069920", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524144, 
         "ne_longitude": -103.527, 
         "longitude": -103.550, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375230, 
+        "ne_latitude": 78.788, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 4315, 
+        "sw_latitude": 78.779, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 78.783, 
         "sw_longitude": -103.573, 
-        "fullname": "Isachsen Airport, Isachsen, Nunavut, Nunavut, Canada", 
-        "sw_latitude": 78.779
+        "fullname": "Isachsen Airport, Isachsen, Nunavut, Canada", 
+        "iata_code": "YIC", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12524144
     }

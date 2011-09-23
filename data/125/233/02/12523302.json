@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523302, 
-        "name": "North Rim Airport", 
         "alias_ENG_V": [
           "N Rim Airport"
         ], 
-        "ne_latitude": 36.188, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "North Rim Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587582", 
+          "woe:state=2347561", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523302, 
         "ne_longitude": -112.127, 
         "longitude": -112.133, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587582, 
+        "ne_latitude": 36.188, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2461544, 
+        "sw_latitude": 36.179, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.183, 
         "sw_longitude": -112.139, 
-        "fullname": "North Rim Airport, North Rim, Arizona, Coconino, United States", 
-        "sw_latitude": 36.179
+        "fullname": "North Rim Airport, North Rim, Arizona, United States", 
+        "iata_code": "NGC", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12523302
     }

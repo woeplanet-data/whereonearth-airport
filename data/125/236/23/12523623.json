@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523623, 
-        "name": "Macara Airport", 
         "alias_ENG_V": [
           "MRR"
         ], 
-        "ne_latitude": -4.379, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Macara Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=26810155", 
+          "woe:county=26809584", 
+          "woe:state=2345213", 
+          "woe:country=23424801", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523623, 
         "ne_longitude": -79.929, 
         "longitude": -79.933, 
-        "placetype": "Airport", 
+        "parent_woeid": 26810155, 
+        "ne_latitude": -4.379, 
         "iso": "EC", 
-        "date_indexed": "2010-12-02T17:51:45Z", 
-        "parent_woeid": 375799, 
+        "sw_latitude": -4.388, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -4.383, 
         "sw_longitude": -79.938, 
-        "fullname": "Macara Airport, Macar\u00e1, Loja, Macara, Ecuador", 
-        "sw_latitude": -4.388
+        "fullname": "Macara Airport, Macar\u00e1, Loja, Ecuador", 
+        "iata_code": "MRR", 
+        "date_indexed": "2010-12-02T17:51:45Z"
       }, 
       "id": 12523623
     }

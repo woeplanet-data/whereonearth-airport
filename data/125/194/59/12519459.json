@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519459, 
-        "name": "Dell City Municipal Airport", 
         "alias_ENG_V": [
           "2e5"
         ], 
-        "ne_latitude": 31.948, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Dell City Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590121", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519459, 
         "ne_longitude": -105.184, 
         "longitude": -105.201, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590121, 
+        "ne_latitude": 31.948, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2390847, 
+        "sw_latitude": 31.947, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 31.947, 
         "sw_longitude": -105.201, 
-        "fullname": "Dell City Municipal Airport, Dell City, Texas, Hudspeth, United States", 
-        "sw_latitude": 31.947
+        "fullname": "Dell City Municipal Airport, Dell City, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519459
     }

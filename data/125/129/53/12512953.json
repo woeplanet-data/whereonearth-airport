@@ -3,28 +3,42 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -0.437, 
-              43.368
-            ], 
-            [
-              -0.437, 
-              43.390
-            ], 
-            [
-              -0.405, 
-              43.390
-            ], 
-            [
-              -0.405, 
-              43.368
-            ], 
-            [
-              -0.437, 
-              43.368
+              [
+                -0.415, 
+                43.383
+              ], 
+              [
+                -0.413, 
+                43.382
+              ], 
+              [
+                -0.408, 
+                43.381
+              ], 
+              [
+                -0.414, 
+                43.380
+              ], 
+              [
+                -0.416, 
+                43.376
+              ], 
+              [
+                -0.418, 
+                43.381
+              ], 
+              [
+                -0.418, 
+                43.382
+              ], 
+              [
+                -0.415, 
+                43.383
+              ]
             ]
           ]
         ]
@@ -40,11 +54,16 @@
         "alias_ENG_P": [
           "Pont Long Uzein Airport"
         ], 
-        "ne_latitude": 43.390, 
-        "alias_UNK_V": [
-          "Letisko Pau-Pyrenees"
+        "hierarchy": [
+          "woe:localadmin=12653953", 
+          "woe:county=12597114", 
+          "woe:state=7153309", 
+          "woe:country=23424819", 
+          "woe:planet=1"
         ], 
-        "placetype": "Airport", 
+        "ne_latitude": 43.383, 
+        "ne_longitude": -0.408, 
+        "placetype": "airport", 
         "alias_POR_V": [
           "Aeroporto de Pau-Pyrenees"
         ], 
@@ -52,14 +71,15 @@
           "Aeroporto Di Pau-Pyr\u00e9n\u00e9es"
         ], 
         "woeid": 12512953, 
-        "sw_longitude": -0.437, 
+        "iata_code": "PUF", 
+        "sw_longitude": -0.418, 
         "alias_FIN_V": [
           "Pau-Pyreneesin Lentokentta"
         ], 
         "alias_SPA_V": [
           "Aeropuerto de Pau-Pyr\u00e9n\u00e9es"
         ], 
-        "latitude": 43.382, 
+        "latitude": 43.380, 
         "date_indexed": "2010-12-02T12:04:01Z", 
         "provider": "geoplanet 7.6.0", 
         "alias_DUT_V": [
@@ -73,15 +93,17 @@
         ], 
         "lang": "FRE", 
         "name": "A\u00e9roport de Pau-Pyr\u00e9n\u00e9es", 
-        "parent_woeid": 629688, 
-        "ne_longitude": -0.405, 
-        "longitude": -0.414, 
+        "parent_woeid": 12653953, 
+        "alias_UNK_V": [
+          "Letisko Pau-Pyrenees"
+        ], 
+        "longitude": -0.415, 
         "iso": "FR", 
-        "sw_latitude": 43.368, 
+        "sw_latitude": 43.376, 
         "alias_FRE_V": [
           "A\u00e9roport PUF"
         ], 
-        "fullname": "A\u00e9roport de Pau-Pyr\u00e9n\u00e9es, Uzein, Aquitaine, Pyrenees-Atlantiques, France", 
+        "fullname": "A\u00e9roport de Pau-Pyr\u00e9n\u00e9es, Uzein, Aquitaine, France", 
         "alias_FRE_S": [
           "Aeroport Pau-Pyrenees"
         ]

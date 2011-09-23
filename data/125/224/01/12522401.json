@@ -3,28 +3,86 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -72.564, 
-              42.173
-            ], 
-            [
-              -72.564, 
-              42.221
-            ], 
-            [
-              -72.495, 
-              42.221
-            ], 
-            [
-              -72.495, 
-              42.173
-            ], 
-            [
-              -72.564, 
-              42.173
+              [
+                -72.547, 
+                42.163
+              ], 
+              [
+                -72.551, 
+                42.163
+              ], 
+              [
+                -72.549, 
+                42.171
+              ], 
+              [
+                -72.556, 
+                42.179
+              ], 
+              [
+                -72.571, 
+                42.175
+              ], 
+              [
+                -72.565, 
+                42.165
+              ], 
+              [
+                -72.571, 
+                42.166
+              ], 
+              [
+                -72.576, 
+                42.173
+              ], 
+              [
+                -72.577, 
+                42.173
+              ], 
+              [
+                -72.576, 
+                42.177
+              ], 
+              [
+                -72.571, 
+                42.175
+              ], 
+              [
+                -72.561, 
+                42.184
+              ], 
+              [
+                -72.548, 
+                42.187
+              ], 
+              [
+                -72.544, 
+                42.196
+              ], 
+              [
+                -72.541, 
+                42.191
+              ], 
+              [
+                -72.539, 
+                42.179
+              ], 
+              [
+                -72.543, 
+                42.171
+              ], 
+              [
+                -72.543, 
+                42.163
+              ], 
+              [
+                -72.547, 
+                42.163
+              ]
             ]
           ]
         ]
@@ -32,23 +90,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522401, 
-        "name": "Westover Metro Airport", 
         "alias_ENG_V": [
           "Westover Metropolitan Airport"
         ], 
-        "ne_latitude": 42.221, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -72.495, 
-        "longitude": -72.557, 
-        "placetype": "Airport", 
+        "name": "Westover Metro Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588706", 
+          "woe:state=2347580", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522401, 
+        "ne_longitude": -72.539, 
+        "longitude": -72.552, 
+        "parent_woeid": 12588706, 
+        "ne_latitude": 42.196, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2379691, 
-        "latitude": 42.181, 
-        "sw_longitude": -72.564, 
-        "fullname": "Westover Metro Airport, Chicopee, Massachusetts, Hampden, United States", 
-        "sw_latitude": 42.173
+        "sw_latitude": 42.163, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 42.178, 
+        "sw_longitude": -72.577, 
+        "fullname": "Westover Metro Airport, Chicopee, Massachusetts, United States", 
+        "iata_code": "CEF", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522401
     }

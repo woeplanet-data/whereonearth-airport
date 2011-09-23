@@ -3,28 +3,58 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -122.303, 
-              40.498
-            ], 
-            [
-              -122.303, 
-              40.522
-            ], 
-            [
-              -122.277, 
-              40.522
-            ], 
-            [
-              -122.277, 
-              40.498
-            ], 
-            [
-              -122.303, 
-              40.498
+              [
+                -122.300, 
+                40.506
+              ], 
+              [
+                -122.301, 
+                40.504
+              ], 
+              [
+                -122.302, 
+                40.498
+              ], 
+              [
+                -122.303, 
+                40.504
+              ], 
+              [
+                -122.308, 
+                40.506
+              ], 
+              [
+                -122.302, 
+                40.506
+              ], 
+              [
+                -122.301, 
+                40.508
+              ], 
+              [
+                -122.299, 
+                40.510
+              ], 
+              [
+                -122.301, 
+                40.514
+              ], 
+              [
+                -122.298, 
+                40.511
+              ], 
+              [
+                -122.295, 
+                40.506
+              ], 
+              [
+                -122.300, 
+                40.506
+              ]
             ]
           ]
         ]
@@ -32,23 +62,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521548, 
-        "name": "Redding Municipal Airport", 
         "alias_ENG_V": [
           "Redding Airport"
         ], 
-        "ne_latitude": 40.522, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -122.277, 
+        "name": "Redding Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587714", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521548, 
+        "ne_longitude": -122.295, 
         "longitude": -122.300, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587714, 
+        "ne_latitude": 40.514, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2479567, 
+        "sw_latitude": 40.498, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.506, 
-        "sw_longitude": -122.303, 
-        "fullname": "Redding Municipal Airport, Redding, California, Shasta, United States", 
-        "sw_latitude": 40.498
+        "sw_longitude": -122.308, 
+        "fullname": "Redding Municipal Airport, Redding, California, United States", 
+        "iata_code": "RDD", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521548
     }

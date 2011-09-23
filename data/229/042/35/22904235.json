@@ -3,28 +3,54 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              2.103, 
-              49.444
-            ], 
-            [
-              2.103, 
-              49.466
-            ], 
-            [
-              2.138, 
-              49.466
-            ], 
-            [
-              2.138, 
-              49.444
-            ], 
-            [
-              2.103, 
-              49.444
+              [
+                2.113, 
+                49.460
+              ], 
+              [
+                2.112, 
+                49.458
+              ], 
+              [
+                2.111, 
+                49.458
+              ], 
+              [
+                2.107, 
+                49.459
+              ], 
+              [
+                2.106, 
+                49.460
+              ], 
+              [
+                2.104, 
+                49.461
+              ], 
+              [
+                2.106, 
+                49.461
+              ], 
+              [
+                2.108, 
+                49.464
+              ], 
+              [
+                2.111, 
+                49.460
+              ], 
+              [
+                2.114, 
+                49.461
+              ], 
+              [
+                2.113, 
+                49.460
+              ]
             ]
           ]
         ]
@@ -40,11 +66,16 @@
         "alias_ENG_P": [
           "Beauvais-Tille Airport"
         ], 
-        "ne_latitude": 49.466, 
-        "alias_UNK_V": [
-          "Letisko Beauvais-Tille"
+        "hierarchy": [
+          "woe:localadmin=22757484", 
+          "woe:county=12597158", 
+          "woe:state=7153326", 
+          "woe:country=23424819", 
+          "woe:planet=1"
         ], 
-        "placetype": "Airport", 
+        "ne_latitude": 49.464, 
+        "ne_longitude": 2.114, 
+        "placetype": "airport", 
         "alias_POR_V": [
           "Aeroporto de Beauvais-Till\u00e9"
         ], 
@@ -52,7 +83,8 @@
           "Aeroporto Di Beauvais-Tille"
         ], 
         "woeid": 22904235, 
-        "sw_longitude": 2.103, 
+        "iata_code": "BVA", 
+        "sw_longitude": 2.104, 
         "alias_FIN_V": [
           "Beauvais-Tillen Lentokentta"
         ], 
@@ -73,15 +105,17 @@
         ], 
         "lang": "FRE", 
         "name": "A\u00e9roport de Beauvais-Till\u00e9", 
-        "parent_woeid": 628680, 
-        "ne_longitude": 2.138, 
-        "longitude": 2.106, 
+        "parent_woeid": 22757484, 
+        "alias_UNK_V": [
+          "Letisko Beauvais-Tille"
+        ], 
+        "longitude": 2.109, 
         "iso": "FR", 
-        "sw_latitude": 49.444, 
+        "sw_latitude": 49.458, 
         "alias_FRE_V": [
           "A\u00e9roport BVA"
         ], 
-        "fullname": "A\u00e9roport de Beauvais-Till\u00e9, Till\u00e9, Picardie, Oise, France", 
+        "fullname": "A\u00e9roport de Beauvais-Till\u00e9, Till\u00e9, Picardie, France", 
         "alias_FRE_S": [
           "Aeroport Beauvais-Tille"
         ]

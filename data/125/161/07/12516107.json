@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516107, 
+        "placetype": "airport", 
         "name": "Kastornoye Northeast Airport", 
-        "ne_latitude": 51.846, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598573", 
+          "woe:state=2346905", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516107, 
         "ne_longitude": 38.177, 
         "longitude": 38.170, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598573, 
+        "ne_latitude": 51.846, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 1982687, 
+        "sw_latitude": 51.837, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.841, 
         "sw_longitude": 38.162, 
         "fullname": "Kastornoye Northeast Airport, Kurskaya Oblast, Kastorensky, Russia", 
-        "sw_latitude": 51.837
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516107
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522248, 
-        "name": "University Airport", 
         "alias_ENG_V": [
           "University of California-Davis Airport"
         ], 
-        "ne_latitude": 38.536, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "University Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:suburb=55858647", 
+          "woe:county=12587726", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522248, 
         "ne_longitude": -121.785, 
         "longitude": -121.790, 
-        "placetype": "Airport", 
-        "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
         "parent_woeid": 55858647, 
+        "ne_latitude": 38.536, 
+        "iso": "US", 
+        "sw_latitude": 38.526, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.531, 
         "sw_longitude": -121.791, 
-        "fullname": "University Airport, Davis, California, Yolo, United States", 
-        "sw_latitude": 38.526
+        "fullname": "University Airport, Davis, California, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522248
     }

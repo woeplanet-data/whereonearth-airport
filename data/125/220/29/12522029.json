@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522029, 
-        "name": "Stuart Powell Field Airport", 
         "alias_ENG_V": [
           "DVK Airport"
         ], 
-        "ne_latitude": 37.585, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Stuart Powell Field Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588486", 
+          "woe:state=2347576", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522029, 
         "ne_longitude": -84.759, 
         "longitude": -84.773, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588486, 
+        "ne_latitude": 37.585, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2430278, 
+        "sw_latitude": 37.572, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 37.585, 
         "sw_longitude": -84.777, 
-        "fullname": "Stuart Powell Field Airport, Junction City, Kentucky, Boyle, United States", 
-        "sw_latitude": 37.572
+        "fullname": "Stuart Powell Field Airport, Junction City, Kentucky, United States", 
+        "iata_code": "DVK", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522029
     }

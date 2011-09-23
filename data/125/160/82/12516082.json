@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516082, 
+        "placetype": "airport", 
         "name": "Kamyshin Northwest Airport", 
-        "ne_latitude": 50.203, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599561", 
+          "woe:state=2346933", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516082, 
         "ne_longitude": 45.198, 
         "longitude": 45.191, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599561, 
+        "ne_latitude": 50.203, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2035550, 
+        "sw_latitude": 50.194, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.199, 
         "sw_longitude": 45.184, 
         "fullname": "Kamyshin Northwest Airport, Volgogradskaya Oblast, Kamyshinsky, Russia", 
-        "sw_latitude": 50.194
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516082
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518945, 
-        "name": "Brooks County Airport", 
         "alias_ENG_V": [
           "Bks"
         ], 
-        "ne_latitude": 27.217, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Brooks County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590030", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518945, 
         "ne_longitude": -98.119, 
         "longitude": -98.120, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590030, 
+        "ne_latitude": 27.217, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2402072, 
+        "sw_latitude": 27.200, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 27.217, 
         "sw_longitude": -98.127, 
-        "fullname": "Brooks County Airport, Falfurrias, Texas, Brooks, United States", 
-        "sw_latitude": 27.200
+        "fullname": "Brooks County Airport, Falfurrias, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518945
     }

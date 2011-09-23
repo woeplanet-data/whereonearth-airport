@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511787, 
-        "name": "Pembroke Airport", 
         "alias_ENG_V": [
           "YTA Airport"
         ], 
-        "ne_latitude": 45.874, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Pembroke Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375220", 
+          "woe:state=2344922", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511787, 
         "ne_longitude": -77.244, 
         "longitude": -77.256, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375220, 
+        "ne_latitude": 45.874, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:24:00Z", 
-        "parent_woeid": 3314, 
+        "sw_latitude": 45.856, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.866, 
         "sw_longitude": -77.260, 
-        "fullname": "Pembroke Airport, Petawawa, Ontario, Renfrew, Canada", 
-        "sw_latitude": 45.856
+        "fullname": "Pembroke Airport, Petawawa, Ontario, Canada", 
+        "date_indexed": "2010-12-02T10:24:00Z"
       }, 
       "id": 12511787
     }

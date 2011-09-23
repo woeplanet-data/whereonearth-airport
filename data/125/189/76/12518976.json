@@ -3,28 +3,42 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -81.694, 
-              41.510
-            ], 
-            [
-              -81.694, 
-              41.532
-            ], 
-            [
-              -81.662, 
-              41.532
-            ], 
-            [
-              -81.662, 
-              41.510
-            ], 
-            [
-              -81.694, 
-              41.510
+              [
+                -81.687, 
+                41.516
+              ], 
+              [
+                -81.685, 
+                41.517
+              ], 
+              [
+                -81.682, 
+                41.518
+              ], 
+              [
+                -81.683, 
+                41.516
+              ], 
+              [
+                -81.685, 
+                41.514
+              ], 
+              [
+                -81.687, 
+                41.511
+              ], 
+              [
+                -81.688, 
+                41.516
+              ], 
+              [
+                -81.687, 
+                41.516
+              ]
             ]
           ]
         ]
@@ -32,23 +46,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518976, 
-        "name": "Burke Lakefront Airport", 
         "alias_ENG_V": [
           "BKL"
         ], 
-        "ne_latitude": 41.532, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -81.662, 
-        "longitude": -81.687, 
-        "placetype": "Airport", 
-        "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
+        "name": "Burke Lakefront Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:suburb=55805926", 
+          "woe:county=12589544", 
+          "woe:state=2347594", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518976, 
+        "ne_longitude": -81.682, 
+        "longitude": -81.685, 
         "parent_woeid": 55805926, 
-        "latitude": 41.512, 
-        "sw_longitude": -81.694, 
-        "fullname": "Burke Lakefront Airport, Cleveland, Ohio, Cuyahoga, United States", 
-        "sw_latitude": 41.510
+        "ne_latitude": 41.518, 
+        "iso": "US", 
+        "sw_latitude": 41.511, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 41.515, 
+        "sw_longitude": -81.688, 
+        "fullname": "Burke Lakefront Airport, Cleveland, Ohio, United States", 
+        "iata_code": "BKL", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518976
     }

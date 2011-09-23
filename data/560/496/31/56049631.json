@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 56049631, 
+        "placetype": "airport", 
         "name": "Aeroporto Della Provincia Di Pavia", 
-        "ne_latitude": 44.962, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12680659", 
+          "woe:county=12591878", 
+          "woe:state=7153338", 
+          "woe:country=23424853", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56049631, 
         "ne_longitude": 9.027, 
         "longitude": 9.015, 
-        "placetype": "Airport", 
+        "parent_woeid": 12680659, 
+        "ne_latitude": 44.962, 
         "iso": "IT", 
-        "date_indexed": "2010-12-02T16:30:51Z", 
-        "parent_woeid": 29336147, 
+        "sw_latitude": 44.944, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.953, 
         "sw_longitude": 9.002, 
-        "fullname": "Aeroporto Della Provincia Di Pavia, Cascina Tranquilla, Lombardy, Pavia, Italy", 
-        "sw_latitude": 44.944
+        "fullname": "Aeroporto Della Provincia Di Pavia, Cascina Tranquilla, Lombardy, Italy", 
+        "date_indexed": "2010-12-02T16:30:51Z"
       }, 
       "id": 56049631
     }

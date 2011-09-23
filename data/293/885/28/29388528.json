@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388528, 
+        "placetype": "airport", 
         "name": "Bladen Lakes Airport", 
-        "ne_latitude": 34.687, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12589382", 
+          "woe:state=2347592", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388528, 
         "ne_longitude": -78.569, 
         "longitude": -78.582, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589382, 
+        "ne_latitude": 34.687, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2502800, 
+        "sw_latitude": 34.683, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 34.683, 
         "sw_longitude": -78.582, 
-        "fullname": "Bladen Lakes Airport, Suttons Corner, North Carolina, Bladen, United States", 
-        "sw_latitude": 34.683
+        "fullname": "Bladen Lakes Airport, Suttons Corner, North Carolina, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388528
     }

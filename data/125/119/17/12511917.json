@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511917, 
+        "placetype": "airport", 
         "name": "Winnipeg St Andrews Airport", 
-        "ne_latitude": 50.055, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=29375231", 
+          "woe:state=2344917", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511917, 
         "ne_longitude": -97.026, 
         "longitude": -97.033, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375231, 
+        "ne_latitude": 50.055, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 23402801, 
+        "sw_latitude": 50.045, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.050, 
         "sw_longitude": -97.040, 
-        "fullname": "Winnipeg St Andrews Airport, St. Andrews, Manitoba, Manitoba, Canada", 
-        "sw_latitude": 50.045
+        "fullname": "Winnipeg St Andrews Airport, St. Andrews, Manitoba, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12511917
     }

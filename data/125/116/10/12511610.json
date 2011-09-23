@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511610, 
-        "name": "Chetwynd Airport", 
         "alias_ENG_V": [
           "YCQ Airport"
         ], 
-        "ne_latitude": 55.691, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Chetwynd Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375233", 
+          "woe:state=2344916", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511610, 
         "ne_longitude": -121.616, 
         "longitude": -121.624, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375233, 
+        "ne_latitude": 55.691, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 9381, 
+        "sw_latitude": 55.682, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 55.687, 
         "sw_longitude": -121.632, 
-        "fullname": "Chetwynd Airport, Chetwynd, British Columbia, Peace River, Canada", 
-        "sw_latitude": 55.682
+        "fullname": "Chetwynd Airport, Chetwynd, British Columbia, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12511610
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521276, 
-        "name": "Page Field Airport", 
         "alias_ENG_V": [
           "Page Airport"
         ], 
-        "ne_latitude": 26.594, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Page Field Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587838", 
+          "woe:state=2347568", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521276, 
         "ne_longitude": -81.856, 
         "longitude": -81.862, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587838, 
+        "ne_latitude": 26.594, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2467452, 
+        "sw_latitude": 26.577, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 26.581, 
         "sw_longitude": -81.872, 
-        "fullname": "Page Field Airport, Page Park, Florida, Lee, United States", 
-        "sw_latitude": 26.577
+        "fullname": "Page Field Airport, Page Park, Florida, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521276
     }

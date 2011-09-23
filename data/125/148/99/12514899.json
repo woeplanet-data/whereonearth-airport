@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514899, 
+        "placetype": "airport", 
         "name": "Jaujilla Airport", 
-        "ne_latitude": 19.864, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12600547", 
+          "woe:state=2346279", 
+          "woe:country=23424900", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514899, 
         "ne_longitude": -101.736, 
         "longitude": -101.741, 
-        "placetype": "Airport", 
+        "parent_woeid": 12600547, 
+        "ne_latitude": 19.864, 
         "iso": "MX", 
-        "date_indexed": "2010-12-02T16:57:55Z", 
-        "parent_woeid": 114691, 
+        "sw_latitude": 19.855, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 19.859, 
         "sw_longitude": -101.746, 
-        "fullname": "Jaujilla Airport, Cantabria, Michoacan de Ocampo, Zacapu, Mexico", 
-        "sw_latitude": 19.855
+        "fullname": "Jaujilla Airport, Cantabria, Michoacan de Ocampo, Mexico", 
+        "date_indexed": "2010-12-02T16:57:55Z"
       }, 
       "id": 12514899
     }

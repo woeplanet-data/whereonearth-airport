@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511500, 
+        "placetype": "airport", 
         "name": "Ruen Airport", 
-        "ne_latitude": 42.810, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55873928", 
+          "woe:state=20070075", 
+          "woe:country=23424771", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511500, 
         "ne_longitude": 27.290, 
         "longitude": 27.284, 
-        "placetype": "Airport", 
+        "parent_woeid": 55873928, 
+        "ne_latitude": 42.810, 
         "iso": "BG", 
-        "date_indexed": "2010-12-02T16:14:37Z", 
-        "parent_woeid": 839317, 
+        "sw_latitude": 42.801, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.805, 
         "sw_longitude": 27.277, 
         "fullname": "Ruen Airport, Burgas, Ruen, Bulgaria", 
-        "sw_latitude": 42.801
+        "date_indexed": "2010-12-02T16:14:37Z"
       }, 
       "id": 12511500
     }

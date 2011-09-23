@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516816, 
+        "placetype": "airport", 
         "name": "Sandagou Airport", 
-        "ne_latitude": 44.083, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597904", 
+          "woe:state=2346886", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516816, 
         "ne_longitude": 133.885, 
         "longitude": 133.879, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597904, 
+        "ne_latitude": 44.083, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2086470, 
+        "sw_latitude": 44.074, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.078, 
         "sw_longitude": 133.872, 
         "fullname": "Sandagou Airport, Primorskiy Kray, Chuguyevsky, Russia", 
-        "sw_latitude": 44.074
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516816
     }

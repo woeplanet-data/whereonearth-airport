@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511820, 
+        "placetype": "airport", 
         "name": "Russell Airport", 
-        "ne_latitude": 50.770, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=29375231", 
+          "woe:state=2344917", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511820, 
         "ne_longitude": -101.288, 
         "longitude": -101.295, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375231, 
+        "ne_latitude": 50.770, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 2488, 
+        "sw_latitude": 50.761, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.766, 
         "sw_longitude": -101.302, 
-        "fullname": "Russell Airport, Russell, Manitoba, Manitoba, Canada", 
-        "sw_latitude": 50.761
+        "fullname": "Russell Airport, Russell, Manitoba, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12511820
     }

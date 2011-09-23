@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516438, 
+        "placetype": "airport", 
         "name": "Mingrelskaya Airport", 
-        "ne_latitude": 45.034, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597764", 
+          "woe:state=2346884", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516438, 
         "ne_longitude": 38.387, 
         "longitude": 38.380, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597764, 
+        "ne_latitude": 45.034, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2046351, 
+        "sw_latitude": 45.025, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.030, 
         "sw_longitude": 38.374, 
         "fullname": "Mingrelskaya Airport, Krasnodarskiy Kray, Abinsky, Russia", 
-        "sw_latitude": 45.025
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516438
     }

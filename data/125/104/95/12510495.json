@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510495, 
-        "name": "Esquel Airport", 
         "alias_ENG_V": [
           "EQS"
         ], 
-        "ne_latitude": -42.915, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Esquel Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=20071051", 
+          "woe:state=2344678", 
+          "woe:country=23424747", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510495, 
         "ne_longitude": -71.127, 
         "longitude": -71.143, 
-        "placetype": "Airport", 
+        "parent_woeid": 20071051, 
+        "ne_latitude": -42.915, 
         "iso": "AR", 
-        "date_indexed": "2010-12-02T17:41:29Z", 
-        "parent_woeid": 466956, 
+        "sw_latitude": -42.938, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -42.926, 
         "sw_longitude": -71.158, 
-        "fullname": "Esquel Airport, Esquel, Chubut, Futaleufu, Argentina", 
-        "sw_latitude": -42.938
+        "fullname": "Esquel Airport, Esquel, Chubut, Argentina", 
+        "date_indexed": "2010-12-02T17:41:29Z"
       }, 
       "id": 12510495
     }

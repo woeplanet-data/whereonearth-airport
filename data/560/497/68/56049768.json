@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 56049768, 
+        "placetype": "airport", 
         "name": "George Heliport", 
-        "ne_latitude": -33.997, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=56189594", 
+          "woe:county=56189419", 
+          "woe:state=2346987", 
+          "woe:country=23424942", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56049768, 
         "ne_longitude": 22.381, 
         "longitude": 22.376, 
-        "placetype": "Airport", 
+        "parent_woeid": 56189594, 
+        "ne_latitude": -33.997, 
         "iso": "ZA", 
-        "date_indexed": "2010-12-02T08:57:52Z", 
-        "parent_woeid": 55879884, 
+        "sw_latitude": -34.006, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -34.002, 
         "sw_longitude": 22.370, 
         "fullname": "George Heliport, Western Cape, Western Cape Rural, South Africa", 
-        "sw_latitude": -34.006
+        "date_indexed": "2010-12-02T08:57:52Z"
       }, 
       "id": 56049768
     }

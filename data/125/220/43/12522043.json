@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522043, 
+        "placetype": "airport", 
         "name": "Summersville Airport", 
-        "ne_latitude": 38.235, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12590512", 
+          "woe:state=2347607", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522043, 
         "ne_longitude": -80.865, 
         "longitude": -80.871, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590512, 
+        "ne_latitude": 38.235, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2501667, 
+        "sw_latitude": 38.226, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.231, 
         "sw_longitude": -80.877, 
-        "fullname": "Summersville Airport, Summersville, West Virginia, Nicholas, United States", 
-        "sw_latitude": 38.226
+        "fullname": "Summersville Airport, Summersville, West Virginia, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12522043
     }

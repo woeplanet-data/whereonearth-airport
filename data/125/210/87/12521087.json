@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521087, 
-        "name": "Navasota Municipal Airport", 
         "alias_ENG_V": [
           "60r"
         ], 
-        "ne_latitude": 30.378, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Navasota Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590099", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521087, 
         "ne_longitude": -96.112, 
         "longitude": -96.116, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590099, 
+        "ne_latitude": 30.378, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2457359, 
+        "sw_latitude": 30.366, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 30.373, 
         "sw_longitude": -96.117, 
-        "fullname": "Navasota Municipal Airport, Navasota, Texas, Grimes, United States", 
-        "sw_latitude": 30.366
+        "fullname": "Navasota Municipal Airport, Navasota, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12521087
     }

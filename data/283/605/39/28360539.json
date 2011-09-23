@@ -32,26 +32,32 @@
       "type": "Feature", 
       "properties": {
         "lang": "JPN", 
-        "woeid": 28360539, 
         "name": "\u85a9\u6469\u786b\u9ec4\u5cf6\u98db\u884c\u5834", 
         "alias_ENG_P": [
           "Satsuma-Iwojima Airport"
         ], 
-        "ne_latitude": 30.789, 
+        "parent_woeid": 24857241, 
+        "woeid": 28360539, 
+        "provider": "geoplanet 7.6.0", 
         "alias_JPN_V": [
           "\u30b5\u30c4\u30de\u30a4\u30aa\u30a6\u30b8\u30de\u30d2\u30b3\u30a6\u30b8\u30e7\u30a6"
         ], 
-        "ne_longitude": 130.276, 
         "longitude": 130.271, 
-        "parent_woeid": 24854260, 
-        "placetype": "Airport", 
+        "ne_longitude": 130.276, 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=24857241", 
+          "woe:state=2345867", 
+          "woe:country=23424856", 
+          "woe:planet=1"
+        ], 
         "iso": "JP", 
-        "date_indexed": "2010-12-02T08:09:09Z", 
-        "provider": "geoplanet 7.6.0", 
+        "sw_latitude": 30.780, 
+        "ne_latitude": 30.789, 
         "latitude": 30.784, 
         "sw_longitude": 130.265, 
-        "fullname": "\u85a9\u6469\u786b\u9ec4\u5cf6\u98db\u884c\u5834, Mishima-mura, Kagoshima Prefecture, Kagoshima-gun, Japan", 
-        "sw_latitude": 30.780
+        "fullname": "\u85a9\u6469\u786b\u9ec4\u5cf6\u98db\u884c\u5834, Mishima-mura, Kagoshima Prefecture, Japan", 
+        "date_indexed": "2010-12-02T08:09:09Z"
       }, 
       "id": 28360539
     }

@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524525, 
-        "name": "Tiputini Airport", 
         "alias_ENG_V": [
           "TPN"
         ], 
-        "ne_latitude": -0.763, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Tiputini Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=26810581", 
+          "woe:county=26809486", 
+          "woe:state=20070099", 
+          "woe:country=23424801", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524525, 
         "ne_longitude": -75.523, 
         "longitude": -75.528, 
-        "placetype": "Airport", 
+        "parent_woeid": 26810581, 
+        "ne_latitude": -0.763, 
         "iso": "EC", 
-        "date_indexed": "2010-12-02T17:51:45Z", 
-        "parent_woeid": 376307, 
+        "sw_latitude": -0.772, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -0.767, 
         "sw_longitude": -75.532, 
-        "fullname": "Tiputini Airport, Tiputini, Orellano, Aguarico, Ecuador", 
-        "sw_latitude": -0.772
+        "fullname": "Tiputini Airport, Tiputini, Orellano, Ecuador", 
+        "iata_code": "TPN", 
+        "date_indexed": "2010-12-02T17:51:45Z"
       }, 
       "id": 12524525
     }

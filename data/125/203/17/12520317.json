@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520317, 
-        "name": "Gogebic-Iron County Airport", 
         "alias_ENG_V": [
           "IWD"
         ], 
-        "ne_latitude": 46.532, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Gogebic-Iron County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588740", 
+          "woe:state=2347581", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520317, 
         "ne_longitude": -90.114, 
         "longitude": -90.134, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588740, 
+        "ne_latitude": 46.532, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2357650, 
+        "sw_latitude": 46.521, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.521, 
         "sw_longitude": -90.154, 
-        "fullname": "Gogebic-Iron County Airport, Auvinen Corner, Michigan, Gogebic, United States", 
-        "sw_latitude": 46.521
+        "fullname": "Gogebic-Iron County Airport, Auvinen Corner, Michigan, United States", 
+        "iata_code": "IWD", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520317
     }

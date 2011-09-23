@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521281, 
+        "placetype": "airport", 
         "name": "Paisano Ranch Airport", 
-        "ne_latitude": 28.401, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12590168", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521281, 
         "ne_longitude": -98.357, 
         "longitude": -98.363, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590168, 
+        "ne_latitude": 28.401, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2373362, 
+        "sw_latitude": 28.392, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 28.397, 
         "sw_longitude": -98.368, 
-        "fullname": "Paisano Ranch Airport, Calliham, Texas, Mcmullen, United States", 
-        "sw_latitude": 28.392
+        "fullname": "Paisano Ranch Airport, Calliham, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521281
     }

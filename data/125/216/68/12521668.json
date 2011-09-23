@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521668, 
-        "name": "Roy Wilcox Airport", 
         "alias_ENG_V": [
           "Chatom Municipal Airport"
         ], 
-        "ne_latitude": 31.455, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Roy Wilcox Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587551", 
+          "woe:state=2347559", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521668, 
         "ne_longitude": -88.186, 
         "longitude": -88.196, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587551, 
+        "ne_latitude": 31.455, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2378673, 
+        "sw_latitude": 31.447, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 31.451, 
         "sw_longitude": -88.201, 
-        "fullname": "Roy Wilcox Airport, Chatom, Alabama, Washington, United States", 
-        "sw_latitude": 31.447
+        "fullname": "Roy Wilcox Airport, Chatom, Alabama, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521668
     }

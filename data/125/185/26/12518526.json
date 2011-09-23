@@ -3,28 +3,98 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -92.251, 
-              34.715
-            ], 
-            [
-              -92.251, 
-              34.746
-            ], 
-            [
-              -92.198, 
-              34.746
-            ], 
-            [
-              -92.198, 
-              34.715
-            ], 
-            [
-              -92.251, 
-              34.715
+              [
+                -92.241, 
+                34.732
+              ], 
+              [
+                -92.240, 
+                34.734
+              ], 
+              [
+                -92.240, 
+                34.734
+              ], 
+              [
+                -92.241, 
+                34.734
+              ], 
+              [
+                -92.241, 
+                34.734
+              ], 
+              [
+                -92.242, 
+                34.734
+              ], 
+              [
+                -92.242, 
+                34.731
+              ], 
+              [
+                -92.238, 
+                34.723
+              ], 
+              [
+                -92.233, 
+                34.726
+              ], 
+              [
+                -92.229, 
+                34.730
+              ], 
+              [
+                -92.227, 
+                34.736
+              ], 
+              [
+                -92.220, 
+                34.731
+              ], 
+              [
+                -92.218, 
+                34.739
+              ], 
+              [
+                -92.216, 
+                34.732
+              ], 
+              [
+                -92.216, 
+                34.732
+              ], 
+              [
+                -92.219, 
+                34.728
+              ], 
+              [
+                -92.218, 
+                34.721
+              ], 
+              [
+                -92.224, 
+                34.716
+              ], 
+              [
+                -92.229, 
+                34.716
+              ], 
+              [
+                -92.226, 
+                34.720
+              ], 
+              [
+                -92.233, 
+                34.726
+              ], 
+              [
+                -92.241, 
+                34.732
+              ]
             ]
           ]
         ]
@@ -32,23 +102,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518526, 
-        "name": "Adams Field Airport", 
         "alias_ENG_V": [
           "Little Rock National Airport"
         ], 
-        "ne_latitude": 34.746, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -92.198, 
+        "name": "Adams Field Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587654", 
+          "woe:state=2347562", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518526, 
+        "ne_longitude": -92.216, 
         "longitude": -92.220, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587654, 
+        "ne_latitude": 34.739, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2461289, 
-        "latitude": 34.728, 
-        "sw_longitude": -92.251, 
-        "fullname": "Adams Field Airport, North Little Rock, Arkansas, Pulaski, United States", 
-        "sw_latitude": 34.715
+        "sw_latitude": 34.716, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 34.725, 
+        "sw_longitude": -92.242, 
+        "fullname": "Adams Field Airport, North Little Rock, Arkansas, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518526
     }

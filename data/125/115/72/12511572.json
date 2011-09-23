@@ -32,29 +32,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "FRE", 
-        "woeid": 12511572, 
-        "name": "A\u00e9roport de Baie-Comeau", 
-        "alias_ENG_P": [
-          "Baie Comeau Airport"
-        ], 
-        "ne_latitude": 49.138, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "YBC Airport"
         ], 
+        "name": "A\u00e9roport de Baie-Comeau", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Baie Comeau Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=29375147", 
+          "woe:state=2344924", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511572, 
         "ne_longitude": -68.186, 
         "longitude": -68.199, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375147, 
+        "ne_latitude": 49.138, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 1225, 
+        "sw_latitude": 49.129, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.137, 
         "sw_longitude": -68.221, 
-        "fullname": "A\u00e9roport de Baie-Comeau, Pointe-Lebel, Quebec, Manicouagan, Canada", 
+        "fullname": "A\u00e9roport de Baie-Comeau, Pointe-Lebel, Quebec, Canada", 
+        "iata_code": "YBC", 
         "alias_FRE_S": [
           "Aeroport de Baie-Comeau"
         ], 
-        "sw_latitude": 49.129
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12511572
     }

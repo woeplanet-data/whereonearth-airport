@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513778, 
+        "placetype": "airport", 
         "name": "Hatserim Airport", 
-        "ne_latitude": 31.239, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345791", 
+          "woe:country=23424852", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513778, 
         "ne_longitude": 34.668, 
         "longitude": 34.662, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345791, 
+        "ne_latitude": 31.239, 
         "iso": "IL", 
-        "date_indexed": "2010-12-02T08:53:06Z", 
-        "parent_woeid": 22722775, 
+        "sw_latitude": 31.230, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 31.234, 
         "sw_longitude": 34.657, 
         "fullname": "Hatserim Airport, HaDarom, Israel", 
-        "sw_latitude": 31.230
+        "date_indexed": "2010-12-02T08:53:06Z"
       }, 
       "id": 12513778
     }

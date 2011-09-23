@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519238, 
+        "placetype": "airport", 
         "name": "Clewiston Airport", 
-        "ne_latitude": 26.746, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12587828", 
+          "woe:state=2347568", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519238, 
         "ne_longitude": -80.945, 
         "longitude": -80.950, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587828, 
+        "ne_latitude": 26.746, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:15Z", 
-        "parent_woeid": 2381527, 
+        "sw_latitude": 26.737, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 26.742, 
         "sw_longitude": -80.955, 
-        "fullname": "Clewiston Airport, Clewiston, Florida, Hendry, United States", 
-        "sw_latitude": 26.737
+        "fullname": "Clewiston Airport, Clewiston, Florida, United States", 
+        "date_indexed": "2010-12-02T18:39:15Z"
       }, 
       "id": 12519238
     }

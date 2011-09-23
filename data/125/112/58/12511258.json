@@ -32,29 +32,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511258, 
-        "name": "Aeroporto Municipal de Paranagua", 
-        "alias_ENG_P": [
-          "Paranagua Municipal Airport"
-        ], 
-        "ne_latitude": -25.535, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "Paranagua Airport"
         ], 
+        "name": "Aeroporto Municipal de Paranagua", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Paranagua Municipal Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12580607", 
+          "woe:state=2344859", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511258, 
         "ne_longitude": -48.526, 
         "longitude": -48.531, 
-        "placetype": "Airport", 
+        "parent_woeid": 12580607, 
+        "ne_latitude": -25.535, 
         "alias_POR_V": [
           "Aeroporto PNG"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 455895, 
+        "sw_latitude": -25.545, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -25.540, 
         "sw_longitude": -48.536, 
-        "fullname": "Aeroporto Municipal de Paranagua, Paranagu\u00e1, Parana, Paranagu\u00e1, Brazil", 
-        "sw_latitude": -25.545
+        "fullname": "Aeroporto Municipal de Paranagua, Paranagu\u00e1, Parana, Brazil", 
+        "iata_code": "PNG", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511258
     }

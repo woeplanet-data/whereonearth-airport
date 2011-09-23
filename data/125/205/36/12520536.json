@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520536, 
-        "name": "Lake Viking Airport", 
         "alias_ENG_V": [
           "Lk Viking Airport"
         ], 
-        "ne_latitude": 39.938, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Lake Viking Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588996", 
+          "woe:state=2347584", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520536, 
         "ne_longitude": -94.068, 
         "longitude": -94.074, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588996, 
+        "ne_latitude": 39.938, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 23511093, 
+        "sw_latitude": 39.929, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 39.933, 
         "sw_longitude": -94.080, 
-        "fullname": "Lake Viking Airport, Lake Viking, Missouri, Daviess, United States", 
-        "sw_latitude": 39.929
+        "fullname": "Lake Viking Airport, Lake Viking, Missouri, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12520536
     }

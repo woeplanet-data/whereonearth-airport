@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511412, 
+        "placetype": "airport", 
         "name": "Dolna Mitropoliya Airport", 
-        "ne_latitude": 43.451, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55873717", 
+          "woe:state=20070065", 
+          "woe:country=23424771", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511412, 
         "ne_longitude": 24.502, 
         "longitude": 24.495, 
-        "placetype": "Airport", 
+        "parent_woeid": 55873717, 
+        "ne_latitude": 43.451, 
         "iso": "BG", 
-        "date_indexed": "2010-12-02T16:14:37Z", 
-        "parent_woeid": 840815, 
+        "sw_latitude": 43.441, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.446, 
         "sw_longitude": 24.489, 
         "fullname": "Dolna Mitropoliya Airport, Pleven, Dolna Mitropoliya, Bulgaria", 
-        "sw_latitude": 43.441
+        "date_indexed": "2010-12-02T16:14:37Z"
       }, 
       "id": 12511412
     }

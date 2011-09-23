@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515343, 
+        "placetype": "airport", 
         "name": "Lukaszow Airport", 
-        "ne_latitude": 51.195, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12618095", 
+          "woe:county=12591164", 
+          "woe:state=12577935", 
+          "woe:country=23424923", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515343, 
         "ne_longitude": 15.916, 
         "longitude": 15.908, 
-        "placetype": "Airport", 
+        "parent_woeid": 12618095, 
+        "ne_latitude": 51.195, 
         "iso": "PL", 
-        "date_indexed": "2010-12-02T12:12:45Z", 
-        "parent_woeid": 505742, 
+        "sw_latitude": 51.185, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.190, 
         "sw_longitude": 15.901, 
         "fullname": "Lukaszow Airport, Lower Silesia, Zlotoryja County, Poland", 
-        "sw_latitude": 51.185
+        "date_indexed": "2010-12-02T12:12:45Z"
       }, 
       "id": 12515343
     }

@@ -3,28 +3,34 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -74.378, 
-              45.635
-            ], 
-            [
-              -74.378, 
-              45.644
-            ], 
-            [
-              -74.365, 
-              45.644
-            ], 
-            [
-              -74.365, 
-              45.635
-            ], 
-            [
-              -74.378, 
-              45.635
+              [
+                -74.363, 
+                45.640
+              ], 
+              [
+                -74.363, 
+                45.639
+              ], 
+              [
+                -74.363, 
+                45.639
+              ], 
+              [
+                -74.367, 
+                45.640
+              ], 
+              [
+                -74.363, 
+                45.641
+              ], 
+              [
+                -74.363, 
+                45.640
+              ]
             ]
           ]
         ]
@@ -32,20 +38,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511727, 
+        "placetype": "airport", 
         "name": "Lachute Airport", 
-        "ne_latitude": 45.644, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -74.365, 
-        "longitude": -74.372, 
-        "placetype": "Airport", 
+        "hierarchy": [
+          "woe:county=29375247", 
+          "woe:state=2344924", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511727, 
+        "ne_longitude": -74.363, 
+        "longitude": -74.364, 
+        "parent_woeid": 29375247, 
+        "ne_latitude": 45.641, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 3526, 
-        "latitude": 45.639, 
-        "sw_longitude": -74.378, 
-        "fullname": "Lachute Airport, Lachute, Quebec, Argenteuil, Canada", 
-        "sw_latitude": 45.635
+        "sw_latitude": 45.639, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 45.640, 
+        "sw_longitude": -74.367, 
+        "fullname": "Lachute Airport, Lachute, Quebec, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12511727
     }

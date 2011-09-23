@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "FRE", 
-        "woeid": 56051912, 
+        "placetype": "airport", 
         "name": "A\u00e9rodrome de Nuits-saint-georges", 
-        "ne_latitude": 47.144, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12642020", 
+          "woe:county=12597144", 
+          "woe:state=7153312", 
+          "woe:country=23424819", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56051912, 
         "ne_longitude": 4.975, 
         "longitude": 4.974, 
-        "placetype": "Airport", 
+        "parent_woeid": 12642020, 
+        "ne_latitude": 47.144, 
         "iso": "FR", 
-        "date_indexed": "2010-12-02T12:04:01Z", 
-        "parent_woeid": 614740, 
+        "sw_latitude": 47.140, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.141, 
         "sw_longitude": 4.962, 
-        "fullname": "A\u00e9rodrome de Nuits-saint-georges, Nuits-St.-Georges, Burgundy, Cote-d'Or, France", 
+        "fullname": "A\u00e9rodrome de Nuits-saint-georges, Nuits-St.-Georges, Burgundy, France", 
         "alias_FRE_S": [
           "Aerodrome de Nuits-saint-georges"
         ], 
-        "sw_latitude": 47.140
+        "date_indexed": "2010-12-02T12:04:01Z"
       }, 
       "id": 56051912
     }

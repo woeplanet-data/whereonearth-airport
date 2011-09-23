@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516506, 
+        "placetype": "airport", 
         "name": "Nizhaly Kislyay Airport", 
-        "ne_latitude": 50.871, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599626", 
+          "woe:state=2346935", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516506, 
         "ne_longitude": 40.180, 
         "longitude": 40.173, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599626, 
+        "ne_latitude": 50.871, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2052870, 
+        "sw_latitude": 50.862, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.867, 
         "sw_longitude": 40.166, 
         "fullname": "Nizhaly Kislyay Airport, Voronezhskaya Oblast, Buturlinovsky, Russia", 
-        "sw_latitude": 50.862
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516506
     }

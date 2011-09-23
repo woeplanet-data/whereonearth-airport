@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514954, 
+        "placetype": "airport", 
         "name": "San Carlos Airport", 
-        "ne_latitude": 21.060, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12600008", 
+          "woe:state=2346274", 
+          "woe:country=23424900", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514954, 
         "ne_longitude": -101.574, 
         "longitude": -101.579, 
-        "placetype": "Airport", 
+        "parent_woeid": 12600008, 
+        "ne_latitude": 21.060, 
         "iso": "MX", 
-        "date_indexed": "2010-12-02T16:57:55Z", 
-        "parent_woeid": 143023, 
+        "sw_latitude": 21.051, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 21.056, 
         "sw_longitude": -101.584, 
-        "fullname": "San Carlos Airport, San Isidro de los L\u00f3pez, Guanajuato, Leon, Mexico", 
-        "sw_latitude": 21.051
+        "fullname": "San Carlos Airport, San Isidro de los L\u00f3pez, Guanajuato, Mexico", 
+        "date_indexed": "2010-12-02T16:57:55Z"
       }, 
       "id": 12514954
     }

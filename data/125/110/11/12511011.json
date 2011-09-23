@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511011, 
+        "placetype": "airport", 
         "name": "Aerodromo do Nacional de Aviac", 
         "alias_ENG_P": [
           "Aviac National Aerodrome"
         ], 
-        "ne_latitude": -16.620, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12578971", 
+          "woe:state=2344852", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511011, 
         "ne_longitude": -49.346, 
         "longitude": -49.351, 
-        "placetype": "Airport", 
+        "parent_woeid": 12578971, 
+        "ne_latitude": -16.620, 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 455831, 
+        "sw_latitude": -16.630, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -16.625, 
         "sw_longitude": -49.355, 
-        "fullname": "Aerodromo do Nacional de Aviac, Goiania, Goias, Goi\u00e2nia, Brazil", 
-        "sw_latitude": -16.630
+        "fullname": "Aerodromo do Nacional de Aviac, Goiania, Goias, Brazil", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511011
     }

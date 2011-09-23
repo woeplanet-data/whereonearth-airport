@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518514, 
-        "name": "Aberdeen Regional Airport", 
         "alias_ENG_V": [
           "ABR"
         ], 
-        "ne_latitude": 45.459, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Aberdeen Regional Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589851", 
+          "woe:state=2347600", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518514, 
         "ne_longitude": -98.406, 
         "longitude": -98.418, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589851, 
+        "ne_latitude": 45.459, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2351561, 
+        "sw_latitude": 45.438, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.453, 
         "sw_longitude": -98.433, 
-        "fullname": "Aberdeen Regional Airport, Aberdeen, South Dakota, Brown, United States", 
-        "sw_latitude": 45.438
+        "fullname": "Aberdeen Regional Airport, Aberdeen, South Dakota, United States", 
+        "iata_code": "ABR", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518514
     }

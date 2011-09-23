@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388224, 
+        "placetype": "airport", 
         "name": "East Side Airport", 
-        "ne_latitude": 32.513, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12590098", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388224, 
         "ne_longitude": -94.696, 
         "longitude": -94.700, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590098, 
+        "ne_latitude": 32.513, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2441761, 
+        "sw_latitude": 32.504, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 32.506, 
         "sw_longitude": -94.705, 
-        "fullname": "East Side Airport, Longview, Texas, Gregg, United States", 
-        "sw_latitude": 32.504
+        "fullname": "East Side Airport, Longview, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388224
     }

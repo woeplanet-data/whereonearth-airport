@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513729, 
+        "placetype": "airport", 
         "name": "Ilam Airport", 
-        "ne_latitude": 33.628, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345775", 
+          "woe:country=23424851", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513729, 
         "ne_longitude": 46.422, 
         "longitude": 46.417, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345775, 
+        "ne_latitude": 33.628, 
         "iso": "IR", 
-        "date_indexed": "2010-12-02T08:53:52Z", 
-        "parent_woeid": 2254714, 
+        "sw_latitude": 33.619, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 33.624, 
         "sw_longitude": 46.411, 
         "fullname": "Ilam Airport, Ilam, Ilam, Iran", 
-        "sw_latitude": 33.619
+        "date_indexed": "2010-12-02T08:53:52Z"
       }, 
       "id": 12513729
     }

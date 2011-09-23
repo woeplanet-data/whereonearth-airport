@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523613, 
-        "name": "Las Lomitas Airport", 
         "alias_ENG_V": [
           "LLS"
         ], 
-        "ne_latitude": -24.695, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Las Lomitas Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=20070787", 
+          "woe:state=2344683", 
+          "woe:country=23424747", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523613, 
         "ne_longitude": -60.595, 
         "longitude": -60.600, 
-        "placetype": "Airport", 
+        "parent_woeid": 20070787, 
+        "ne_latitude": -24.695, 
         "iso": "AR", 
-        "date_indexed": "2010-12-02T17:41:29Z", 
-        "parent_woeid": 332499, 
+        "sw_latitude": -24.705, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -24.700, 
         "sw_longitude": -60.605, 
-        "fullname": "Las Lomitas Airport, Las Lomitas, Formosa, Pati\u00f1o, Argentina", 
-        "sw_latitude": -24.705
+        "fullname": "Las Lomitas Airport, Las Lomitas, Formosa, Argentina", 
+        "date_indexed": "2010-12-02T17:41:29Z"
       }, 
       "id": 12523613
     }

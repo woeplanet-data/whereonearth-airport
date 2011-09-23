@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522769, 
-        "name": "Ciudad Bolivar Airport", 
         "alias_ENG_V": [
           "CBL"
         ], 
-        "ne_latitude": 8.133, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Ciudad Bolivar Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=26805589", 
+          "woe:county=26804567", 
+          "woe:state=2347682", 
+          "woe:country=23424982", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522769, 
         "ne_longitude": -63.533, 
         "longitude": -63.537, 
-        "placetype": "Airport", 
+        "parent_woeid": 26805589, 
+        "ne_latitude": 8.133, 
         "iso": "VE", 
-        "date_indexed": "2010-12-02T16:11:43Z", 
-        "parent_woeid": 468393, 
+        "sw_latitude": 8.124, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 8.128, 
         "sw_longitude": -63.542, 
-        "fullname": "Ciudad Bolivar Airport, Ciudad Bolivar, Bolivar, Heres, Venezuela", 
-        "sw_latitude": 8.124
+        "fullname": "Ciudad Bolivar Airport, Ciudad Bolivar, Bolivar, Venezuela", 
+        "iata_code": "CBL", 
+        "date_indexed": "2010-12-02T16:11:43Z"
       }, 
       "id": 12522769
     }

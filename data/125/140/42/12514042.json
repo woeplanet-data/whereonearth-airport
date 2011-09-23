@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514042, 
-        "name": "Boscobel Airport", 
         "alias_ENG_V": [
           "OCJ"
         ], 
-        "ne_latitude": 18.405, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Boscobel Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2345921", 
+          "woe:country=23424858", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514042, 
         "ne_longitude": -76.967, 
         "longitude": -76.972, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345921, 
+        "ne_latitude": 18.405, 
         "iso": "JM", 
-        "date_indexed": "2010-12-02T08:59:07Z", 
-        "parent_woeid": 108413, 
+        "sw_latitude": 18.396, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 18.401, 
         "sw_longitude": -76.976, 
         "fullname": "Boscobel Airport, Saint Mary, Jamaica", 
-        "sw_latitude": 18.396
+        "iata_code": "OCJ", 
+        "date_indexed": "2010-12-02T08:59:07Z"
       }, 
       "id": 12514042
     }

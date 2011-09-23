@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518816, 
-        "name": "Beulah Airport", 
         "alias_ENG_V": [
           "Beulah Field Airport"
         ], 
-        "ne_latitude": 47.254, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Beulah Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589502", 
+          "woe:state=2347593", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518816, 
         "ne_longitude": -101.807, 
         "longitude": -101.818, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589502, 
+        "ne_latitude": 47.254, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2363680, 
+        "sw_latitude": 47.249, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.253, 
         "sw_longitude": -101.823, 
-        "fullname": "Beulah Airport, Beulah, North Dakota, Mercer, United States", 
-        "sw_latitude": 47.249
+        "fullname": "Beulah Airport, Beulah, North Dakota, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518816
     }

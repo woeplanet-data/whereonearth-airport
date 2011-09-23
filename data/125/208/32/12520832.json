@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520832, 
-        "name": "Mason City Municipal Airport", 
         "alias_ENG_V": [
           "MCW"
         ], 
-        "ne_latitude": 43.177, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Mason City Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588288", 
+          "woe:state=2347574", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520832, 
         "ne_longitude": -93.320, 
         "longitude": -93.336, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588288, 
+        "ne_latitude": 43.177, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2381172, 
+        "sw_latitude": 43.148, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.153, 
         "sw_longitude": -93.350, 
-        "fullname": "Mason City Municipal Airport, Clear Lake, Iowa, Cerro Gordo, United States", 
-        "sw_latitude": 43.148
+        "fullname": "Mason City Municipal Airport, Clear Lake, Iowa, United States", 
+        "iata_code": "MCW", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520832
     }

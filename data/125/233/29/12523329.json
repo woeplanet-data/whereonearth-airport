@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523329, 
-        "name": "Schloredt Airport", 
         "alias_ENG_V": [
           "Schloredt"
         ], 
-        "ne_latitude": 44.405, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Schloredt Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590611", 
+          "woe:state=2347609", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523329, 
         "ne_longitude": -104.361, 
         "longitude": -104.367, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590611, 
+        "ne_latitude": 44.405, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2501988, 
+        "sw_latitude": 44.395, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.400, 
         "sw_longitude": -104.373, 
-        "fullname": "Schloredt Airport, Sundance, Wyoming, Crook, United States", 
-        "sw_latitude": 44.395
+        "fullname": "Schloredt Airport, Sundance, Wyoming, United States", 
+        "iata_code": "SUC", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12523329
     }

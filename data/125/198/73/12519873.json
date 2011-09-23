@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519873, 
+        "placetype": "airport", 
         "name": "Geauga County Airport", 
-        "ne_latitude": 41.454, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12589554", 
+          "woe:state=2347594", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519873, 
         "ne_longitude": -81.057, 
         "longitude": -81.063, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589554, 
+        "ne_latitude": 41.454, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2450313, 
+        "sw_latitude": 41.445, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.449, 
         "sw_longitude": -81.069, 
-        "fullname": "Geauga County Airport, Middlefield, Ohio, Geauga, United States", 
-        "sw_latitude": 41.445
+        "fullname": "Geauga County Airport, Middlefield, Ohio, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12519873
     }

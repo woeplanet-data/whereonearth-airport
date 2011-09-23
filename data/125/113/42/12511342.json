@@ -32,29 +32,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511342, 
-        "name": "Aeroporto Telemaco Borba", 
-        "alias_ENG_P": [
-          "Telemaco Borba Airport"
-        ], 
-        "ne_latitude": -24.315, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "TEC"
         ], 
+        "name": "Aeroporto Telemaco Borba", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Telemaco Borba Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12580704", 
+          "woe:state=2344859", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511342, 
         "ne_longitude": -50.648, 
         "longitude": -50.653, 
-        "placetype": "Airport", 
+        "parent_woeid": 12580704, 
+        "ne_latitude": -24.315, 
         "alias_POR_V": [
           "Aeroporto TEC"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:28Z", 
-        "parent_woeid": 439276, 
+        "sw_latitude": -24.324, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -24.319, 
         "sw_longitude": -50.657, 
-        "fullname": "Aeroporto Telemaco Borba, Manda\u00e7aia, Parana, Tel\u00eamaco Borba, Brazil", 
-        "sw_latitude": -24.324
+        "fullname": "Aeroporto Telemaco Borba, Manda\u00e7aia, Parana, Brazil", 
+        "iata_code": "TEC", 
+        "date_indexed": "2010-12-02T18:01:28Z"
       }, 
       "id": 12511342
     }

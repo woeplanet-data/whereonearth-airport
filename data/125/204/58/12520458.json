@@ -3,28 +3,46 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -82.061, 
-              29.833
-            ], 
-            [
-              -82.061, 
-              29.852
-            ], 
-            [
-              -82.037, 
-              29.852
-            ], 
-            [
-              -82.037, 
-              29.833
-            ], 
-            [
-              -82.061, 
-              29.833
+              [
+                -82.046, 
+                29.839
+              ], 
+              [
+                -82.048, 
+                29.839
+              ], 
+              [
+                -82.049, 
+                29.839
+              ], 
+              [
+                -82.050, 
+                29.843
+              ], 
+              [
+                -82.047, 
+                29.841
+              ], 
+              [
+                -82.046, 
+                29.841
+              ], 
+              [
+                -82.044, 
+                29.840
+              ], 
+              [
+                -82.044, 
+                29.839
+              ], 
+              [
+                -82.046, 
+                29.839
+              ]
             ]
           ]
         ]
@@ -32,23 +50,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520458, 
-        "name": "Keystone Airpark", 
         "alias_ENG_V": [
           "42j"
         ], 
-        "ne_latitude": 29.852, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -82.037, 
-        "longitude": -82.049, 
-        "placetype": "Airport", 
+        "name": "Keystone Airpark", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587806", 
+          "woe:state=2347568", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520458, 
+        "ne_longitude": -82.044, 
+        "longitude": -82.047, 
+        "parent_woeid": 12587806, 
+        "ne_latitude": 29.843, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2505582, 
-        "latitude": 29.835, 
-        "sw_longitude": -82.061, 
-        "fullname": "Keystone Airpark, Theressa, Florida, Bradford, United States", 
-        "sw_latitude": 29.833
+        "sw_latitude": 29.839, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 29.840, 
+        "sw_longitude": -82.050, 
+        "fullname": "Keystone Airpark, Theressa, Florida, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520458
     }

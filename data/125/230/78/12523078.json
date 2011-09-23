@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523078, 
-        "name": "North Bay Airport", 
         "alias_ENG_V": [
           "BRR"
         ], 
-        "ne_latitude": 57.030, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "North Bay Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=12696213", 
+          "woe:county=12602210", 
+          "woe:state=12578048", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523078, 
         "ne_longitude": -7.441, 
         "longitude": -7.447, 
-        "placetype": "Airport", 
+        "parent_woeid": 12696213, 
+        "ne_latitude": 57.030, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:21:01Z", 
-        "parent_woeid": 19639, 
+        "sw_latitude": 57.020, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 57.026, 
         "sw_longitude": -7.458, 
-        "fullname": "North Bay Airport, Eoligarry, Scotland, Eilean Siar, United Kingdom", 
-        "sw_latitude": 57.020
+        "fullname": "North Bay Airport, Eoligarry, Scotland, United Kingdom", 
+        "iata_code": "BRR", 
+        "date_indexed": "2010-12-02T12:21:01Z"
       }, 
       "id": 12523078
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "SWE", 
-        "woeid": 12517638, 
+        "placetype": "airport", 
         "name": "Heden Flygplats", 
         "alias_ENG_P": [
           "Heden Airport"
         ], 
-        "ne_latitude": 65.844, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12587345", 
+          "woe:state=2347057", 
+          "woe:country=23424954", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517638, 
         "ne_longitude": 21.484, 
         "longitude": 21.473, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587345, 
+        "ne_latitude": 65.844, 
         "iso": "SE", 
-        "date_indexed": "2010-12-02T16:45:55Z", 
-        "parent_woeid": 886986, 
+        "sw_latitude": 65.835, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 65.839, 
         "sw_longitude": 21.462, 
-        "fullname": "Heden Flygplats, Degerb\u00e4cken, Norrbotten, Boden, Sweden", 
-        "sw_latitude": 65.835
+        "fullname": "Heden Flygplats, Degerb\u00e4cken, Norrbotten, Sweden", 
+        "date_indexed": "2010-12-02T16:45:55Z"
       }, 
       "id": 12517638
     }

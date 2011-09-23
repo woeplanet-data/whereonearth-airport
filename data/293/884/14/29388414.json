@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388414, 
-        "name": "Basin Harbor Airport", 
         "alias_ENG_V": [
           "B06"
         ], 
-        "ne_latitude": 44.197, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Basin Harbor Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590290", 
+          "woe:state=2347604", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388414, 
         "ne_longitude": -73.358, 
         "longitude": -73.358, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590290, 
+        "ne_latitude": 44.197, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2403161, 
+        "sw_latitude": 44.187, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.197, 
         "sw_longitude": -73.360, 
-        "fullname": "Basin Harbor Airport, Ferrisburg, Vermont, Addison, United States", 
-        "sw_latitude": 44.187
+        "fullname": "Basin Harbor Airport, Ferrisburg, Vermont, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388414
     }

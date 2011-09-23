@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513270, 
+        "placetype": "airport", 
         "name": "Zerbst Airport", 
-        "ne_latitude": 51.997, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=24547366", 
+          "woe:county=12596924", 
+          "woe:state=2345494", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513270, 
         "ne_longitude": 12.121, 
         "longitude": 12.114, 
-        "placetype": "Airport", 
+        "parent_woeid": 24547366, 
+        "ne_latitude": 51.997, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 708757, 
+        "sw_latitude": 51.988, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.993, 
         "sw_longitude": 12.106, 
-        "fullname": "Zerbst Airport, Zerbst, Saxony-Anhalt, Anhalt-Zerbst, Germany", 
+        "fullname": "Zerbst Airport, Zerbst, Saxony-Anhalt, Germany", 
         "alias_GER_Q": [
           "Flughafen Zerbst"
         ], 
-        "sw_latitude": 51.988
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 12513270
     }

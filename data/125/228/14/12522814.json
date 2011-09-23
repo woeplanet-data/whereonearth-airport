@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522814, 
+        "placetype": "airport", 
         "name": "Mamon Airport", 
-        "ne_latitude": 11.271, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=26805437", 
+          "woe:county=26804482", 
+          "woe:state=2347687", 
+          "woe:country=23424982", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522814, 
         "ne_longitude": -70.245, 
         "longitude": -70.250, 
-        "placetype": "Airport", 
+        "parent_woeid": 26805437, 
+        "ne_latitude": 11.271, 
         "iso": "VE", 
-        "date_indexed": "2010-12-02T16:11:43Z", 
-        "parent_woeid": 395420, 
+        "sw_latitude": 11.262, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 11.267, 
         "sw_longitude": -70.255, 
         "fullname": "Mamon Airport, Falcon, Urumaco, Venezuela", 
-        "sw_latitude": 11.262
+        "date_indexed": "2010-12-02T16:11:43Z"
       }, 
       "id": 12522814
     }

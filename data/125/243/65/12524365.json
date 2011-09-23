@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524365, 
-        "name": "Palacios Airport", 
         "alias_ENG_V": [
           "PCH"
         ], 
-        "ne_latitude": 15.926, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Palacios Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26813673", 
+          "woe:state=2345625", 
+          "woe:country=23424841", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524365, 
         "ne_longitude": -84.967, 
         "longitude": -84.972, 
-        "placetype": "Airport", 
+        "parent_woeid": 26813673, 
+        "ne_latitude": 15.926, 
         "iso": "HN", 
-        "date_indexed": "2010-12-02T19:21:06Z", 
-        "parent_woeid": 107836, 
+        "sw_latitude": 15.917, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 15.921, 
         "sw_longitude": -84.977, 
         "fullname": "Palacios Airport, Gracias a Dios, Juan Francisco Bulnes, Honduras", 
-        "sw_latitude": 15.917
+        "iata_code": "PCH", 
+        "date_indexed": "2010-12-02T19:21:06Z"
       }, 
       "id": 12524365
     }

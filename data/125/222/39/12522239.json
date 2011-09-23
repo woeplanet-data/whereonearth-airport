@@ -3,28 +3,46 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -85.581, 
-              30.065
-            ], 
-            [
-              -85.581, 
-              30.074
-            ], 
-            [
-              -85.570, 
-              30.074
-            ], 
-            [
-              -85.570, 
-              30.065
-            ], 
-            [
-              -85.581, 
-              30.065
+              [
+                -85.593, 
+                30.070
+              ], 
+              [
+                -85.592, 
+                30.067
+              ], 
+              [
+                -85.594, 
+                30.068
+              ], 
+              [
+                -85.596, 
+                30.070
+              ], 
+              [
+                -85.596, 
+                30.073
+              ], 
+              [
+                -85.592, 
+                30.076
+              ], 
+              [
+                -85.593, 
+                30.073
+              ], 
+              [
+                -85.593, 
+                30.071
+              ], 
+              [
+                -85.593, 
+                30.070
+              ]
             ]
           ]
         ]
@@ -32,23 +50,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522239, 
-        "name": "Tyndall Air Force Base", 
         "alias_ENG_V": [
           "PAM Airport"
         ], 
-        "ne_latitude": 30.074, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -85.570, 
-        "longitude": -85.575, 
-        "placetype": "Airport", 
+        "name": "Tyndall Air Force Base", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587805", 
+          "woe:state=2347568", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522239, 
+        "ne_longitude": -85.592, 
+        "longitude": -85.594, 
+        "parent_woeid": 12587805, 
+        "ne_latitude": 30.076, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2360565, 
-        "latitude": 30.070, 
-        "sw_longitude": -85.581, 
-        "fullname": "Tyndall Air Force Base, Beacon Beach, Florida, Bay, United States", 
-        "sw_latitude": 30.065
+        "sw_latitude": 30.067, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 30.071, 
+        "sw_longitude": -85.596, 
+        "fullname": "Tyndall Air Force Base, Beacon Beach, Florida, United States", 
+        "iata_code": "PAM", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12522239
     }

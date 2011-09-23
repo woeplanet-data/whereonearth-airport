@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518117, 
+        "placetype": "airport", 
         "name": "Leeming Airport", 
-        "ne_latitude": 54.303, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12696044", 
+          "woe:county=12602195", 
+          "woe:state=24554868", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518117, 
         "ne_longitude": -1.529, 
         "longitude": -1.537, 
-        "placetype": "Airport", 
+        "parent_woeid": 12696044, 
+        "ne_latitude": 54.303, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:21:01Z", 
-        "parent_woeid": 26051, 
+        "sw_latitude": 54.294, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 54.299, 
         "sw_longitude": -1.544, 
-        "fullname": "Leeming Airport, Leeming, England, North Yorkshire, United Kingdom", 
-        "sw_latitude": 54.294
+        "fullname": "Leeming Airport, Leeming, England, United Kingdom", 
+        "date_indexed": "2010-12-02T12:21:01Z"
       }, 
       "id": 12518117
     }

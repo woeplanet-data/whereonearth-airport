@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514426, 
+        "placetype": "airport", 
         "name": "Obruchevka Airport", 
-        "ne_latitude": 42.515, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345982", 
+          "woe:country=23424871", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514426, 
         "ne_longitude": 69.115, 
         "longitude": 69.109, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345982, 
+        "ne_latitude": 42.515, 
         "iso": "KZ", 
-        "date_indexed": "2010-12-02T08:54:13Z", 
-        "parent_woeid": 2264938, 
+        "sw_latitude": 42.506, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.510, 
         "sw_longitude": 69.103, 
         "fullname": "Obruchevka Airport, Ongtustik Qazaqstan, Kazakhstan", 
-        "sw_latitude": 42.506
+        "date_indexed": "2010-12-02T08:54:13Z"
       }, 
       "id": 12514426
     }

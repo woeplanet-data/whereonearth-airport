@@ -3,28 +3,30 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              108.700, 
-              15.404
-            ], 
-            [
-              108.700, 
-              15.413
-            ], 
-            [
-              108.709, 
-              15.413
-            ], 
-            [
-              108.709, 
-              15.404
-            ], 
-            [
-              108.700, 
-              15.404
+              [
+                108.686, 
+                15.410
+              ], 
+              [
+                108.685, 
+                15.412
+              ], 
+              [
+                108.686, 
+                15.411
+              ], 
+              [
+                108.686, 
+                15.410
+              ], 
+              [
+                108.686, 
+                15.410
+              ]
             ]
           ]
         ]
@@ -32,20 +34,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522888, 
+        "placetype": "airport", 
         "name": "Chu Lai Airport", 
-        "ne_latitude": 15.413, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": 108.709, 
-        "longitude": 108.704, 
-        "placetype": "Airport", 
+        "hierarchy": [
+          "woe:state=2347711", 
+          "woe:country=23424984", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522888, 
+        "ne_longitude": 108.686, 
+        "longitude": 108.686, 
+        "parent_woeid": 2347711, 
+        "ne_latitude": 15.412, 
         "iso": "VN", 
-        "date_indexed": "2010-12-02T08:52:49Z", 
-        "parent_woeid": 1252559, 
-        "latitude": 15.409, 
-        "sw_longitude": 108.700, 
+        "sw_latitude": 15.410, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 15.411, 
+        "sw_longitude": 108.685, 
         "fullname": "Chu Lai Airport, Quang Nam, Vietnam", 
-        "sw_latitude": 15.404
+        "date_indexed": "2010-12-02T08:52:49Z"
       }, 
       "id": 12522888
     }

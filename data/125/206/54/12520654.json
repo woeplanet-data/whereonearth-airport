@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520654, 
-        "name": "Lincoln County Airport", 
         "alias_ENG_V": [
           "Ipj"
         ], 
-        "ne_latitude": 35.490, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Lincoln County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589428", 
+          "woe:state=2347592", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520654, 
         "ne_longitude": -81.153, 
         "longitude": -81.168, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589428, 
+        "ne_latitude": 35.490, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2439608, 
+        "sw_latitude": 35.475, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.481, 
         "sw_longitude": -81.170, 
-        "fullname": "Lincoln County Airport, Lincolnton, North Carolina, Lincoln, United States", 
-        "sw_latitude": 35.475
+        "fullname": "Lincoln County Airport, Lincolnton, North Carolina, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520654
     }

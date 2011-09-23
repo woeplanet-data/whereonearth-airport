@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522807, 
+        "placetype": "airport", 
         "name": "La Vieja Airport", 
-        "ne_latitude": 9.691, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=26805723", 
+          "woe:county=26804579", 
+          "woe:state=2347678", 
+          "woe:country=23424982", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522807, 
         "ne_longitude": -64.175, 
         "longitude": -64.180, 
-        "placetype": "Airport", 
+        "parent_woeid": 26805723, 
+        "ne_latitude": 9.691, 
         "iso": "VE", 
-        "date_indexed": "2010-12-02T16:11:43Z", 
-        "parent_woeid": 395563, 
+        "sw_latitude": 9.682, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 9.687, 
         "sw_longitude": -64.184, 
         "fullname": "La Vieja Airport, Anzoategui, Pedro Maria Freites, Venezuela", 
-        "sw_latitude": 9.682
+        "date_indexed": "2010-12-02T16:11:43Z"
       }, 
       "id": 12522807
     }

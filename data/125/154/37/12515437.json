@@ -32,26 +32,33 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515437, 
-        "name": "Braga Airport", 
         "alias_ENG_V": [
           "BGZ"
         ], 
-        "ne_latitude": 41.591, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Braga Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12596498", 
+          "woe:state=2346564", 
+          "woe:country=23424925", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515437, 
         "ne_longitude": -8.436, 
         "longitude": -8.442, 
-        "placetype": "Airport", 
+        "parent_woeid": 12596498, 
+        "ne_latitude": 41.591, 
         "alias_POR_V": [
           "BGZ Aeroport"
         ], 
         "iso": "PT", 
-        "date_indexed": "2010-12-02T10:00:50Z", 
-        "parent_woeid": 29382129, 
+        "sw_latitude": 41.582, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.587, 
         "sw_longitude": -8.448, 
-        "fullname": "Braga Airport, P\u00f3voa, Braga, Braga, Portugal", 
-        "sw_latitude": 41.582
+        "fullname": "Braga Airport, P\u00f3voa, Braga, Portugal", 
+        "iata_code": "BGZ", 
+        "date_indexed": "2010-12-02T10:00:50Z"
       }, 
       "id": 12515437
     }

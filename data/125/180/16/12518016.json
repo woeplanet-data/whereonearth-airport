@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518016, 
-        "name": "Kilimanjaro International Airport", 
         "alias_ENG_V": [
           "JRO"
         ], 
-        "ne_latitude": -3.416, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Kilimanjaro International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=56025101", 
+          "woe:state=2347357", 
+          "woe:country=23424973", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518016, 
         "ne_longitude": 37.083, 
         "longitude": 37.071, 
-        "placetype": "Airport", 
+        "parent_woeid": 56025101, 
+        "ne_latitude": -3.416, 
         "iso": "TZ", 
-        "date_indexed": "2010-12-02T12:16:03Z", 
-        "parent_woeid": 1449281, 
+        "sw_latitude": -3.439, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -3.428, 
         "sw_longitude": 37.060, 
-        "fullname": "Kilimanjaro International Airport, Sanya, Kilimanjaro, Hai, Tanzania", 
-        "sw_latitude": -3.439
+        "fullname": "Kilimanjaro International Airport, Sanya, Kilimanjaro, Tanzania", 
+        "iata_code": "JRO", 
+        "date_indexed": "2010-12-02T12:16:03Z"
       }, 
       "id": 12518016
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513134, 
+        "placetype": "airport", 
         "name": "Ilnow Airport", 
-        "ne_latitude": 52.828, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=28350197", 
+          "woe:county=12596902", 
+          "woe:state=2345491", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513134, 
         "ne_longitude": 13.678, 
         "longitude": 13.670, 
-        "placetype": "Airport", 
+        "parent_woeid": 28350197, 
+        "ne_latitude": 52.828, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:24Z", 
-        "parent_woeid": 29352143, 
+        "sw_latitude": 52.819, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 52.824, 
         "sw_longitude": 13.663, 
-        "fullname": "Ilnow Airport, Schorfheide, Brandenburg, Barnim, Germany", 
+        "fullname": "Ilnow Airport, Schorfheide, Brandenburg, Germany", 
         "alias_GER_Q": [
           "Flughafen Ilnow"
         ], 
-        "sw_latitude": 52.819
+        "date_indexed": "2010-12-02T09:50:24Z"
       }, 
       "id": 12513134
     }

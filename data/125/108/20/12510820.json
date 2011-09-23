@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510820, 
+        "placetype": "airport", 
         "name": "Yuendumu Airport", 
-        "ne_latitude": -22.252, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=56072997", 
+          "woe:state=2344701", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510820, 
         "ne_longitude": 131.786, 
         "longitude": 131.781, 
-        "placetype": "Airport", 
+        "parent_woeid": 56072997, 
+        "ne_latitude": -22.252, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1107099, 
+        "sw_latitude": -22.261, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -22.256, 
         "sw_longitude": 131.776, 
-        "fullname": "Yuendumu Airport, Yuendumu, Northern Territory, Yuendumu, Australia", 
-        "sw_latitude": -22.261
+        "fullname": "Yuendumu Airport, Yuendumu, Northern Territory, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 12510820
     }

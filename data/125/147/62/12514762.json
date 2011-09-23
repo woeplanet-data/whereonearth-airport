@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514762, 
+        "placetype": "airport", 
         "name": "Ulaangon Airport", 
-        "ne_latitude": 49.972, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2346173", 
+          "woe:country=23424887", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514762, 
         "ne_longitude": 92.084, 
         "longitude": 92.077, 
-        "placetype": "Airport", 
+        "parent_woeid": 2346173, 
+        "ne_latitude": 49.972, 
         "iso": "MN", 
-        "date_indexed": "2010-12-02T08:53:23Z", 
-        "parent_woeid": 2266543, 
+        "sw_latitude": 49.963, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.967, 
         "sw_longitude": 92.070, 
         "fullname": "Ulaangon Airport, Ulaangom, Uvs, Mongolia", 
-        "sw_latitude": 49.963
+        "date_indexed": "2010-12-02T08:53:23Z"
       }, 
       "id": 12514762
     }

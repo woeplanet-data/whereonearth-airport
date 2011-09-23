@@ -3,28 +3,70 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -73.607, 
-              45.714
-            ], 
-            [
-              -73.607, 
-              45.723
-            ], 
-            [
-              -73.594, 
-              45.723
-            ], 
-            [
-              -73.594, 
-              45.714
-            ], 
-            [
-              -73.607, 
-              45.714
+              [
+                -73.598, 
+                45.719
+              ], 
+              [
+                -73.596, 
+                45.720
+              ], 
+              [
+                -73.595, 
+                45.720
+              ], 
+              [
+                -73.595, 
+                45.721
+              ], 
+              [
+                -73.593, 
+                45.724
+              ], 
+              [
+                -73.593, 
+                45.722
+              ], 
+              [
+                -73.587, 
+                45.721
+              ], 
+              [
+                -73.588, 
+                45.716
+              ], 
+              [
+                -73.588, 
+                45.715
+              ], 
+              [
+                -73.588, 
+                45.713
+              ], 
+              [
+                -73.591, 
+                45.714
+              ], 
+              [
+                -73.594, 
+                45.715
+              ], 
+              [
+                -73.595, 
+                45.716
+              ], 
+              [
+                -73.595, 
+                45.716
+              ], 
+              [
+                -73.598, 
+                45.719
+              ]
             ]
           ]
         ]
@@ -32,20 +74,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511758, 
+        "placetype": "airport", 
         "name": "Montreal Mascouche Airport", 
-        "ne_latitude": 45.723, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -73.594, 
-        "longitude": -73.601, 
-        "placetype": "Airport", 
+        "hierarchy": [
+          "woe:county=29375099", 
+          "woe:state=2344924", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511758, 
+        "ne_longitude": -73.587, 
+        "longitude": -73.592, 
+        "parent_woeid": 29375099, 
+        "ne_latitude": 45.724, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 3522, 
+        "sw_latitude": 45.713, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.718, 
-        "sw_longitude": -73.607, 
-        "fullname": "Montreal Mascouche Airport, Mascouche, Quebec, Les Moulins, Canada", 
-        "sw_latitude": 45.714
+        "sw_longitude": -73.598, 
+        "fullname": "Montreal Mascouche Airport, Mascouche, Quebec, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12511758
     }

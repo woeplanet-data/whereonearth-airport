@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515775, 
+        "placetype": "airport", 
         "name": "Barguzin Airport", 
-        "ne_latitude": 53.609, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597280", 
+          "woe:state=2346867", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515775, 
         "ne_longitude": 109.604, 
         "longitude": 109.596, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597280, 
+        "ne_latitude": 53.609, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2120167, 
+        "sw_latitude": 53.600, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.604, 
         "sw_longitude": 109.588, 
-        "fullname": "Barguzin Airport, Barguzin, Buryatiya, Barguzinsky, Russia", 
-        "sw_latitude": 53.600
+        "fullname": "Barguzin Airport, Barguzin, Buryatiya, Russia", 
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12515775
     }

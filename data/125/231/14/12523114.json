@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523114, 
-        "name": "Gosford Airport", 
         "alias_ENG_V": [
           "GOS"
         ], 
-        "ne_latitude": -33.429, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Gosford Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55864188", 
+          "woe:state=2344700", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523114, 
         "ne_longitude": 151.355, 
         "longitude": 151.350, 
-        "placetype": "Airport", 
+        "parent_woeid": 55864188, 
+        "ne_latitude": -33.429, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1095609, 
+        "sw_latitude": -33.438, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -33.433, 
         "sw_longitude": 151.345, 
-        "fullname": "Gosford Airport, East Gosford, New South Wales, Gosford, Australia", 
-        "sw_latitude": -33.438
+        "fullname": "Gosford Airport, East Gosford, New South Wales, Australia", 
+        "iata_code": "GOS", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 12523114
     }

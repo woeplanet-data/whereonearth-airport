@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514791, 
-        "name": "Sale Airport", 
         "alias_ENG_V": [
           "RBA"
         ], 
-        "ne_latitude": 34.059, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Sale Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=56120073", 
+          "woe:state=56120059", 
+          "woe:country=23424893", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514791, 
         "ne_longitude": -6.744, 
         "longitude": -6.758, 
-        "placetype": "Airport", 
+        "parent_woeid": 56120073, 
+        "ne_latitude": 34.059, 
         "iso": "MA", 
-        "date_indexed": "2010-12-02T18:19:13Z", 
-        "parent_woeid": 7224095, 
+        "sw_latitude": 34.036, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 34.048, 
         "sw_longitude": -6.772, 
         "fullname": "Sale Airport, Rabat-Sale, Morocco", 
-        "sw_latitude": 34.036
+        "iata_code": "RBA", 
+        "date_indexed": "2010-12-02T18:19:13Z"
       }, 
       "id": 12514791
     }

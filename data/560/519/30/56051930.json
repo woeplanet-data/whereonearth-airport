@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "FRE", 
-        "woeid": 56051930, 
+        "placetype": "airport", 
         "name": "A\u00e9rodrome de Semur-en-auxois", 
-        "ne_latitude": 47.485, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12641130", 
+          "woe:county=12597144", 
+          "woe:state=7153312", 
+          "woe:country=23424819", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56051930, 
         "ne_longitude": 4.347, 
         "longitude": 4.341, 
-        "placetype": "Airport", 
+        "parent_woeid": 12641130, 
+        "ne_latitude": 47.485, 
         "iso": "FR", 
-        "date_indexed": "2010-12-02T12:04:01Z", 
-        "parent_woeid": 621702, 
+        "sw_latitude": 47.478, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.484, 
         "sw_longitude": 4.338, 
-        "fullname": "A\u00e9rodrome de Semur-en-auxois, Semur-en-Auxois, Burgundy, Cote-d'Or, France", 
+        "fullname": "A\u00e9rodrome de Semur-en-auxois, Semur-en-Auxois, Burgundy, France", 
         "alias_FRE_S": [
           "Aerodrome de Semur-en-auxois"
         ], 
-        "sw_latitude": 47.478
+        "date_indexed": "2010-12-02T12:04:01Z"
       }, 
       "id": 56051930
     }

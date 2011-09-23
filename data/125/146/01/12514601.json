@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514601, 
+        "placetype": "airport", 
         "name": "Vilnius East Airport", 
-        "ne_latitude": 54.683, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=56044076", 
+          "woe:county=2346096", 
+          "woe:state=55848083", 
+          "woe:country=23424875", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514601, 
         "ne_longitude": 25.521, 
         "longitude": 25.513, 
-        "placetype": "Airport", 
+        "parent_woeid": 56044076, 
+        "ne_latitude": 54.683, 
         "iso": "LT", 
-        "date_indexed": "2010-12-02T09:36:04Z", 
-        "parent_woeid": 476465, 
+        "sw_latitude": 54.674, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 54.678, 
         "sw_longitude": 25.505, 
         "fullname": "Vilnius East Airport, Vilnius County, Vilnius District Municipality, Lithuania", 
-        "sw_latitude": 54.674
+        "date_indexed": "2010-12-02T09:36:04Z"
       }, 
       "id": 12514601
     }

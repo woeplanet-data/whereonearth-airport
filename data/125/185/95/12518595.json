@@ -3,28 +3,46 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -99.300, 
-              34.646
-            ], 
-            [
-              -99.300, 
-              34.681
-            ], 
-            [
-              -99.258, 
-              34.681
-            ], 
-            [
-              -99.258, 
-              34.646
-            ], 
-            [
-              -99.300, 
-              34.646
+              [
+                -99.286, 
+                34.656
+              ], 
+              [
+                -99.281, 
+                34.658
+              ], 
+              [
+                -99.278, 
+                34.653
+              ], 
+              [
+                -99.283, 
+                34.653
+              ], 
+              [
+                -99.286, 
+                34.653
+              ], 
+              [
+                -99.288, 
+                34.652
+              ], 
+              [
+                -99.289, 
+                34.657
+              ], 
+              [
+                -99.289, 
+                34.657
+              ], 
+              [
+                -99.286, 
+                34.656
+              ]
             ]
           ]
         ]
@@ -32,23 +50,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518595, 
-        "name": "Altus Air Force Base", 
         "alias_ENG_V": [
           "Altus AFB"
         ], 
-        "ne_latitude": 34.681, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -99.258, 
-        "longitude": -99.283, 
-        "placetype": "Airport", 
+        "name": "Altus Air Force Base", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589647", 
+          "woe:state=2347595", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518595, 
+        "ne_longitude": -99.278, 
+        "longitude": -99.284, 
+        "parent_woeid": 12589647, 
+        "ne_latitude": 34.658, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:15Z", 
-        "parent_woeid": 2354008, 
-        "latitude": 34.660, 
-        "sw_longitude": -99.300, 
-        "fullname": "Altus Air Force Base, Altus, Oklahoma, Jackson, United States", 
-        "sw_latitude": 34.646
+        "sw_latitude": 34.652, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 34.655, 
+        "sw_longitude": -99.289, 
+        "fullname": "Altus Air Force Base, Altus, Oklahoma, United States", 
+        "iata_code": "LTS", 
+        "date_indexed": "2010-12-02T18:39:15Z"
       }, 
       "id": 12518595
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520144, 
-        "name": "Hazlehurst Airport", 
         "alias_ENG_V": [
           "AZE"
         ], 
-        "ne_latitude": 31.890, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Hazlehurst Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587949", 
+          "woe:state=2347569", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520144, 
         "ne_longitude": -82.638, 
         "longitude": -82.639, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587949, 
+        "ne_latitude": 31.890, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2419306, 
+        "sw_latitude": 31.875, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 31.878, 
         "sw_longitude": -82.653, 
-        "fullname": "Hazlehurst Airport, Hazlehurst, Georgia, Jeff Davis, United States", 
-        "sw_latitude": 31.875
+        "fullname": "Hazlehurst Airport, Hazlehurst, Georgia, United States", 
+        "iata_code": "AZE", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520144
     }

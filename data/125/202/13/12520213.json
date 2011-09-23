@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520213, 
-        "name": "Homestead General Aviation Airport", 
         "alias_ENG_V": [
           "X51"
         ], 
-        "ne_latitude": 25.504, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Homestead General Aviation Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587815", 
+          "woe:state=2347568", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520213, 
         "ne_longitude": -80.543, 
         "longitude": -80.543, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587815, 
+        "ne_latitude": 25.504, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2423770, 
+        "sw_latitude": 25.489, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 25.500, 
         "sw_longitude": -80.559, 
-        "fullname": "Homestead General Aviation Airport, Homestead, Florida, Miami-Dade, United States", 
-        "sw_latitude": 25.489
+        "fullname": "Homestead General Aviation Airport, Homestead, Florida, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520213
     }

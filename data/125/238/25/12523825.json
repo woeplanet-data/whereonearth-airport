@@ -3,28 +3,30 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              4.029, 
-              49.301
-            ], 
-            [
-              4.029, 
-              49.320
-            ], 
-            [
-              4.069, 
-              49.320
-            ], 
-            [
-              4.069, 
-              49.301
-            ], 
-            [
-              4.029, 
-              49.301
+              [
+                4.042, 
+                49.310
+              ], 
+              [
+                4.043, 
+                49.311
+              ], 
+              [
+                4.044, 
+                49.309
+              ], 
+              [
+                4.039, 
+                49.307
+              ], 
+              [
+                4.042, 
+                49.310
+              ]
             ]
           ]
         ]
@@ -32,32 +34,40 @@
       "type": "Feature", 
       "properties": {
         "lang": "FRE", 
-        "woeid": 12523825, 
+        "alias_ENG_V": [
+          "RHE"
+        ], 
         "name": "A\u00e9roport de Reims-Champagn\u00e9", 
         "alias_ENG_P": [
           "Prunay Airport"
         ], 
-        "ne_latitude": 49.320, 
-        "alias_ENG_V": [
-          "RHE"
+        "hierarchy": [
+          "woe:localadmin=12638801", 
+          "woe:county=12597123", 
+          "woe:state=7153315", 
+          "woe:country=23424819", 
+          "woe:planet=1"
         ], 
-        "ne_longitude": 4.069, 
-        "longitude": 4.058, 
-        "parent_woeid": 579658, 
-        "placetype": "Airport", 
+        "woeid": 12523825, 
+        "provider": "geoplanet 7.6.0", 
+        "ne_longitude": 4.044, 
+        "longitude": 4.042, 
+        "parent_woeid": 12638801, 
+        "placetype": "airport", 
+        "latitude": 49.309, 
+        "iso": "FR", 
+        "sw_latitude": 49.307, 
+        "ne_latitude": 49.311, 
         "alias_FRE_V": [
           "RHE A\u00e9roport"
         ], 
-        "iso": "FR", 
-        "date_indexed": "2010-12-02T12:04:01Z", 
-        "provider": "geoplanet 7.6.0", 
-        "latitude": 49.308, 
-        "sw_longitude": 4.029, 
-        "fullname": "A\u00e9roport de Reims-Champagn\u00e9, B\u00e9theny, Champagne-Ardenne, Marne, France", 
+        "sw_longitude": 4.039, 
+        "fullname": "A\u00e9roport de Reims-Champagn\u00e9, B\u00e9theny, Champagne-Ardenne, France", 
+        "iata_code": "RHE", 
         "alias_FRE_S": [
           "Aeroport Reims-Champagne"
         ], 
-        "sw_latitude": 49.301
+        "date_indexed": "2010-12-02T12:04:01Z"
       }, 
       "id": 12523825
     }

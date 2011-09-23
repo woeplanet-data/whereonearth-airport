@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512373, 
-        "name": "El Carano Airport", 
         "alias_ENG_V": [
           "UIB"
         ], 
-        "ne_latitude": 5.695, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "El Carano Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26797163", 
+          "woe:state=2345057", 
+          "woe:country=23424787", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512373, 
         "ne_longitude": -76.642, 
         "longitude": -76.646, 
-        "placetype": "Airport", 
+        "parent_woeid": 26797163, 
+        "ne_latitude": 5.695, 
         "iso": "CO", 
-        "date_indexed": "2010-12-02T17:57:37Z", 
-        "parent_woeid": 368554, 
+        "sw_latitude": 5.686, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 5.690, 
         "sw_longitude": -76.651, 
-        "fullname": "El Carano Airport, Quibd\u00f3, Choco, Quibdo, Colombia", 
-        "sw_latitude": 5.686
+        "fullname": "El Carano Airport, Quibd\u00f3, Choco, Colombia", 
+        "date_indexed": "2010-12-02T17:57:37Z"
       }, 
       "id": 12512373
     }

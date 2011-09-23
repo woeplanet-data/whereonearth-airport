@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511880, 
-        "name": "Toronto Buttonville Airport", 
         "alias_ENG_V": [
           "Buttonville Municipal Airport"
         ], 
-        "ne_latitude": 43.867, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Toronto Buttonville Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375112", 
+          "woe:state=2344922", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511880, 
         "ne_longitude": -79.363, 
         "longitude": -79.369, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375112, 
+        "ne_latitude": 43.867, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 1333, 
+        "sw_latitude": 43.855, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.866, 
         "sw_longitude": -79.375, 
-        "fullname": "Toronto Buttonville Airport, Richmond Hill, Ontario, York, Canada", 
-        "sw_latitude": 43.855
+        "fullname": "Toronto Buttonville Airport, Richmond Hill, Ontario, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12511880
     }

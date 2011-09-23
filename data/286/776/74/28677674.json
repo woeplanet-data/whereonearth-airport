@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 28677674, 
+        "placetype": "airport", 
         "name": "Kowanyama Aerodrome", 
-        "ne_latitude": -15.480, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55864344", 
+          "woe:state=2344702", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 28677674, 
         "ne_longitude": 141.755, 
         "longitude": 141.751, 
-        "placetype": "Airport", 
+        "parent_woeid": 55864344, 
+        "ne_latitude": -15.480, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1103209, 
+        "sw_latitude": -15.489, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -15.484, 
         "sw_longitude": 141.746, 
-        "fullname": "Kowanyama Aerodrome, Kowanyama, Queensland, Kowanyama, Australia", 
-        "sw_latitude": -15.489
+        "fullname": "Kowanyama Aerodrome, Kowanyama, Queensland, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 28677674
     }

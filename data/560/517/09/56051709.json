@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 56051709, 
+        "placetype": "airport", 
         "name": "Flugplatz Dobersberg", 
-        "ne_latitude": 48.924, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12673861", 
+          "woe:county=12591692", 
+          "woe:state=2344710", 
+          "woe:country=23424750", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56051709, 
         "ne_longitude": 15.300, 
         "longitude": 15.292, 
-        "placetype": "Airport", 
+        "parent_woeid": 12673861, 
+        "ne_latitude": 48.924, 
         "iso": "AT", 
-        "date_indexed": "2010-12-02T16:35:40Z", 
-        "parent_woeid": 541365, 
+        "sw_latitude": 48.920, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.923, 
         "sw_longitude": 15.291, 
-        "fullname": "Flugplatz Dobersberg, Dobersberg, Lower Austria, Waidhofen an der Thaya, Austria", 
-        "sw_latitude": 48.920
+        "fullname": "Flugplatz Dobersberg, Dobersberg, Lower Austria, Austria", 
+        "date_indexed": "2010-12-02T16:35:40Z"
       }, 
       "id": 56051709
     }

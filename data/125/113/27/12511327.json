@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511327, 
+        "placetype": "airport", 
         "name": "Aeroporto Sertania", 
         "alias_ENG_P": [
           "Sertania Airport"
         ], 
-        "ne_latitude": -8.052, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12580871", 
+          "woe:state=2344860", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511327, 
         "ne_longitude": -37.318, 
         "longitude": -37.322, 
-        "placetype": "Airport", 
+        "parent_woeid": 12580871, 
+        "ne_latitude": -8.052, 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 458099, 
+        "sw_latitude": -8.061, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -8.057, 
         "sw_longitude": -37.327, 
-        "fullname": "Aeroporto Sertania, Sert\u00e2nia, Pernambuco, Sert\u00e2nia, Brazil", 
-        "sw_latitude": -8.061
+        "fullname": "Aeroporto Sertania, Sert\u00e2nia, Pernambuco, Brazil", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511327
     }

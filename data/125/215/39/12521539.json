@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521539, 
+        "placetype": "airport", 
         "name": "Real County Airport", 
-        "ne_latitude": 29.750, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12590199", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521539, 
         "ne_longitude": -99.755, 
         "longitude": -99.761, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590199, 
+        "ne_latitude": 29.750, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2437546, 
+        "sw_latitude": 29.741, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 29.745, 
         "sw_longitude": -99.766, 
-        "fullname": "Real County Airport, Leakey, Texas, Real, United States", 
-        "sw_latitude": 29.741
+        "fullname": "Real County Airport, Leakey, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521539
     }

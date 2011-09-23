@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524616, 
-        "name": "Crooked Creek Airport", 
         "alias_ENG_V": [
           "CKD"
         ], 
-        "ne_latitude": 61.871, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Crooked Creek Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587557", 
+          "woe:state=2347560", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524616, 
         "ne_longitude": -158.123, 
         "longitude": -158.133, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587557, 
+        "ne_latitude": 61.871, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2387447, 
+        "sw_latitude": 61.862, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 61.867, 
         "sw_longitude": -158.143, 
-        "fullname": "Crooked Creek Airport, Crooked Creek, Alaska, Bethel Census Area, United States", 
-        "sw_latitude": 61.862
+        "fullname": "Crooked Creek Airport, Crooked Creek, Alaska, United States", 
+        "iata_code": "CKD", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12524616
     }

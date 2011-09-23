@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523475, 
-        "name": "Apolo Airport", 
         "alias_ENG_V": [
           "APB"
         ], 
-        "ne_latitude": -14.713, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Apolo Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=55967947", 
+          "woe:county=55967781", 
+          "woe:state=2344804", 
+          "woe:country=23424762", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523475, 
         "ne_longitude": -68.503, 
         "longitude": -68.508, 
-        "placetype": "Airport", 
+        "parent_woeid": 55967947, 
+        "ne_latitude": -14.713, 
         "iso": "BO", 
-        "date_indexed": "2010-12-02T17:57:50Z", 
-        "parent_woeid": 346122, 
+        "sw_latitude": -14.722, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -14.717, 
         "sw_longitude": -68.512, 
-        "fullname": "Apolo Airport, Apolo, La Paz, Franz Tamayo, Bolivia", 
-        "sw_latitude": -14.722
+        "fullname": "Apolo Airport, Apolo, La Paz, Bolivia", 
+        "iata_code": "APB", 
+        "date_indexed": "2010-12-02T17:57:50Z"
       }, 
       "id": 12523475
     }

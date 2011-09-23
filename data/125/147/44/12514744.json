@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514744, 
+        "placetype": "airport", 
         "name": "Erdenet Airport", 
-        "ne_latitude": 48.993, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2346174", 
+          "woe:country=23424887", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514744, 
         "ne_longitude": 104.147, 
         "longitude": 104.140, 
-        "placetype": "Airport", 
+        "parent_woeid": 2346174, 
+        "ne_latitude": 48.993, 
         "iso": "MN", 
-        "date_indexed": "2010-12-02T08:53:23Z", 
-        "parent_woeid": 2266261, 
+        "sw_latitude": 48.984, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.989, 
         "sw_longitude": 104.133, 
         "fullname": "Erdenet Airport, Bulgan, Mongolia", 
-        "sw_latitude": 48.984
+        "date_indexed": "2010-12-02T08:53:23Z"
       }, 
       "id": 12514744
     }

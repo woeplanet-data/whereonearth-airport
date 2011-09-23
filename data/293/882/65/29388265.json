@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388265, 
+        "placetype": "airport", 
         "name": "Standish Industrial Airport", 
-        "ne_latitude": 43.981, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12588719", 
+          "woe:state=2347581", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388265, 
         "ne_longitude": -83.967, 
         "longitude": -83.977, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588719, 
+        "ne_latitude": 43.981, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2498920, 
+        "sw_latitude": 43.978, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.979, 
         "sw_longitude": -83.981, 
-        "fullname": "Standish Industrial Airport, Standish, Michigan, Arenac, United States", 
-        "sw_latitude": 43.978
+        "fullname": "Standish Industrial Airport, Standish, Michigan, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388265
     }

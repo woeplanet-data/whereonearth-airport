@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522203, 
+        "placetype": "airport", 
         "name": "Trinity Center Airport", 
-        "ne_latitude": 40.987, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12587722", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522203, 
         "ne_longitude": -122.687, 
         "longitude": -122.693, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587722, 
+        "ne_latitude": 40.987, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2508033, 
+        "sw_latitude": 40.978, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.982, 
         "sw_longitude": -122.699, 
-        "fullname": "Trinity Center Airport, Trinity Center, California, Trinity, United States", 
-        "sw_latitude": 40.978
+        "fullname": "Trinity Center Airport, Trinity Center, California, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12522203
     }

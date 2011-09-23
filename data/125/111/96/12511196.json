@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511196, 
+        "placetype": "airport", 
         "name": "Aeroporto Jequitinhonha", 
         "alias_ENG_P": [
           "Jequitinhonha Airport"
         ], 
-        "ne_latitude": -16.467, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12579762", 
+          "woe:state=2344856", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511196, 
         "ne_longitude": -41.020, 
         "longitude": -41.024, 
-        "placetype": "Airport", 
+        "parent_woeid": 12579762, 
+        "ne_latitude": -16.467, 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 457421, 
+        "sw_latitude": -16.476, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -16.472, 
         "sw_longitude": -41.029, 
-        "fullname": "Aeroporto Jequitinhonha, Jequitinhonha, Minas Gerais, Jequitinhonha, Brazil", 
-        "sw_latitude": -16.476
+        "fullname": "Aeroporto Jequitinhonha, Jequitinhonha, Minas Gerais, Brazil", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511196
     }

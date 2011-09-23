@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515918, 
+        "placetype": "airport", 
         "name": "Chuchkovo Airport", 
-        "ne_latitude": 54.251, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599157", 
+          "woe:state=2346922", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515918, 
         "ne_longitude": 41.511, 
         "longitude": 41.504, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599157, 
+        "ne_latitude": 54.251, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2100380, 
+        "sw_latitude": 54.242, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 54.246, 
         "sw_longitude": 41.496, 
         "fullname": "Chuchkovo Airport, Ryazanskaya Oblast, Chuchkovsky, Russia", 
-        "sw_latitude": 54.242
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12515918
     }

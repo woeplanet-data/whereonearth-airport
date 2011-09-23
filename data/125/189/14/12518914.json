@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518914, 
-        "name": "Bradford Regional Airport", 
         "alias_ENG_V": [
           "Bradford Airport"
         ], 
-        "ne_latitude": 41.800, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Bradford Regional Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589769", 
+          "woe:state=2347597", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518914, 
         "ne_longitude": -78.635, 
         "longitude": -78.641, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589769, 
+        "ne_latitude": 41.800, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:15Z", 
-        "parent_woeid": 2434551, 
+        "sw_latitude": 41.792, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.796, 
         "sw_longitude": -78.646, 
-        "fullname": "Bradford Regional Airport, Lafayette, Pennsylvania, Mckean, United States", 
-        "sw_latitude": 41.792
+        "fullname": "Bradford Regional Airport, Lafayette, Pennsylvania, United States", 
+        "iata_code": "BFD", 
+        "date_indexed": "2010-12-02T18:39:15Z"
       }, 
       "id": 12518914
     }

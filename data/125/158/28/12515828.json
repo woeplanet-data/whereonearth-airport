@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515828, 
+        "placetype": "airport", 
         "name": "Bogashevo Airport", 
-        "ne_latitude": 56.401, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599403", 
+          "woe:state=2346928", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515828, 
         "ne_longitude": 85.235, 
         "longitude": 85.227, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599403, 
+        "ne_latitude": 56.401, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2124711, 
+        "sw_latitude": 56.392, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 56.397, 
         "sw_longitude": 85.219, 
         "fullname": "Bogashevo Airport, Tomskaya Oblast, Tomsky, Russia", 
-        "sw_latitude": 56.392
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12515828
     }

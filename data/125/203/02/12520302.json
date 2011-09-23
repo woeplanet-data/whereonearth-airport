@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520302, 
-        "name": "Ingalls Field Airport", 
         "alias_ENG_V": [
           "Ingalls Airport"
         ], 
-        "ne_latitude": 37.956, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Ingalls Field Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590313", 
+          "woe:state=2347605", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520302, 
         "ne_longitude": -79.825, 
         "longitude": -79.837, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590313, 
+        "ne_latitude": 37.956, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2419360, 
+        "sw_latitude": 37.946, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 37.953, 
         "sw_longitude": -79.844, 
-        "fullname": "Ingalls Field Airport, Healing Springs, Virginia, Bath, United States", 
-        "sw_latitude": 37.946
+        "fullname": "Ingalls Field Airport, Healing Springs, Virginia, United States", 
+        "iata_code": "HSP", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520302
     }

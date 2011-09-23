@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511771, 
+        "placetype": "airport", 
         "name": "Nestor Falls Airport", 
-        "ne_latitude": 49.145, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=29375238", 
+          "woe:state=2344922", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511771, 
         "ne_longitude": -93.910, 
         "longitude": -93.917, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375238, 
+        "ne_latitude": 49.145, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 3064, 
+        "sw_latitude": 49.136, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.140, 
         "sw_longitude": -93.924, 
-        "fullname": "Nestor Falls Airport, Nestor Falls, Ontario, Kenora, Canada", 
-        "sw_latitude": 49.136
+        "fullname": "Nestor Falls Airport, Nestor Falls, Ontario, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12511771
     }

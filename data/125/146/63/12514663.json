@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514663, 
+        "placetype": "airport", 
         "name": "New Ghadames Airport", 
-        "ne_latitude": 30.138, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2346139", 
+          "woe:country=23424882", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514663, 
         "ne_longitude": 9.719, 
         "longitude": 9.714, 
-        "placetype": "Airport", 
+        "parent_woeid": 2346139, 
+        "ne_latitude": 30.138, 
         "iso": "LY", 
-        "date_indexed": "2010-12-02T08:58:29Z", 
-        "parent_woeid": 1352906, 
+        "sw_latitude": 30.129, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 30.134, 
         "sw_longitude": 9.709, 
         "fullname": "New Ghadames Airport, Ghadamis, Libya", 
-        "sw_latitude": 30.129
+        "date_indexed": "2010-12-02T08:58:29Z"
       }, 
       "id": 12514663
     }

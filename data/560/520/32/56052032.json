@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 56052032, 
+        "placetype": "airport", 
         "name": "Segelflugplatz Kell Am See", 
-        "ne_latitude": 49.625, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12629348", 
+          "woe:county=12596747", 
+          "woe:state=2345488", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56052032, 
         "ne_longitude": 6.846, 
         "longitude": 6.846, 
-        "placetype": "Airport", 
+        "parent_woeid": 12629348, 
+        "ne_latitude": 49.625, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 665371, 
+        "sw_latitude": 49.617, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.625, 
         "sw_longitude": 6.834, 
-        "fullname": "Segelflugplatz Kell Am See, Kell am See, Rhineland-Palatinate, Trier-Saarburg, Germany", 
-        "sw_latitude": 49.617
+        "fullname": "Segelflugplatz Kell Am See, Kell am See, Rhineland-Palatinate, Germany", 
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 56052032
     }

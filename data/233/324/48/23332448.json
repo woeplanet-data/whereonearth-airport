@@ -3,28 +3,106 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              7.486, 
-              46.907
-            ], 
-            [
-              7.486, 
-              46.923
-            ], 
-            [
-              7.506, 
-              46.923
-            ], 
-            [
-              7.506, 
-              46.907
-            ], 
-            [
-              7.486, 
-              46.907
+              [
+                7.495, 
+                46.909
+              ], 
+              [
+                7.508, 
+                46.913
+              ], 
+              [
+                7.508, 
+                46.923
+              ], 
+              [
+                7.509, 
+                46.915
+              ], 
+              [
+                7.523, 
+                46.905
+              ], 
+              [
+                7.525, 
+                46.902
+              ], 
+              [
+                7.532, 
+                46.908
+              ], 
+              [
+                7.525, 
+                46.912
+              ], 
+              [
+                7.509, 
+                46.915
+              ], 
+              [
+                7.507, 
+                46.908
+              ], 
+              [
+                7.505, 
+                46.905
+              ], 
+              [
+                7.507, 
+                46.894
+              ], 
+              [
+                7.504, 
+                46.889
+              ], 
+              [
+                7.498, 
+                46.888
+              ], 
+              [
+                7.484, 
+                46.881
+              ], 
+              [
+                7.471, 
+                46.883
+              ], 
+              [
+                7.467, 
+                46.883
+              ], 
+              [
+                7.462, 
+                46.884
+              ], 
+              [
+                7.465, 
+                46.886
+              ], 
+              [
+                7.477, 
+                46.887
+              ], 
+              [
+                7.482, 
+                46.898
+              ], 
+              [
+                7.495, 
+                46.906
+              ], 
+              [
+                7.495, 
+                46.909
+              ], 
+              [
+                7.495, 
+                46.909
+              ]
             ]
           ]
         ]
@@ -32,29 +110,37 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 23332448, 
-        "name": "Flughafen Bern-Belp", 
-        "alias_ENG_P": [
-          "Bern Belp Airport"
-        ], 
-        "ne_latitude": 46.923, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "Bern Belp"
         ], 
-        "ne_longitude": 7.506, 
-        "longitude": 7.501, 
-        "placetype": "Airport", 
+        "name": "Flughafen Bern-Belp", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Bern Belp Airport"
+        ], 
+        "hierarchy": [
+          "woe:localadmin=12682753", 
+          "woe:county=12593134", 
+          "woe:state=2347087", 
+          "woe:country=23424957", 
+          "woe:planet=1"
+        ], 
+        "woeid": 23332448, 
+        "ne_longitude": 7.532, 
+        "longitude": 7.485, 
+        "parent_woeid": 12682753, 
+        "ne_latitude": 46.923, 
         "iso": "CH", 
-        "date_indexed": "2010-12-02T18:20:52Z", 
-        "parent_woeid": 781778, 
-        "latitude": 46.914, 
-        "sw_longitude": 7.486, 
-        "fullname": "Flughafen Bern-Belp, Belp, Canton of Berne, Seftigen, Switzerland", 
+        "sw_latitude": 46.881, 
+        "iata_code": "BRN", 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 46.892, 
+        "sw_longitude": 7.462, 
+        "fullname": "Flughafen Bern-Belp, Belp, Canton of Berne, Switzerland", 
         "alias_GER_V": [
           "Bern-Belp"
         ], 
-        "sw_latitude": 46.907
+        "date_indexed": "2010-12-02T18:20:52Z"
       }, 
       "id": 23332448
     }

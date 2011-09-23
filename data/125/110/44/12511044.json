@@ -32,29 +32,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511044, 
-        "name": "Aeroporto Barra do Garcas", 
-        "alias_ENG_P": [
-          "Barra do Garcas Airport"
-        ], 
-        "ne_latitude": -15.856, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "BPG"
         ], 
+        "name": "Aeroporto Barra do Garcas", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Barra do Garcas Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12579325", 
+          "woe:state=2344855", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511044, 
         "ne_longitude": -52.384, 
         "longitude": -52.389, 
-        "placetype": "Airport", 
+        "parent_woeid": 12579325, 
+        "ne_latitude": -15.856, 
         "alias_POR_V": [
           "Aeroporto BPG"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 456071, 
+        "sw_latitude": -15.865, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -15.860, 
         "sw_longitude": -52.394, 
-        "fullname": "Aeroporto Barra do Garcas, Barra do Gar\u00e7as, Mato Grosso, Barra do Gar\u00e7as, Brazil", 
-        "sw_latitude": -15.865
+        "fullname": "Aeroporto Barra do Garcas, Barra do Gar\u00e7as, Mato Grosso, Brazil", 
+        "iata_code": "BPG", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511044
     }

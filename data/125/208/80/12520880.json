@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520880, 
+        "placetype": "airport", 
         "name": "Meadow Lake Airport", 
-        "ne_latitude": 38.952, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12587747", 
+          "woe:state=2347564", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520880, 
         "ne_longitude": -104.567, 
         "longitude": -104.573, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587747, 
+        "ne_latitude": 38.952, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2402034, 
+        "sw_latitude": 38.943, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.947, 
         "sw_longitude": -104.579, 
-        "fullname": "Meadow Lake Airport, Falcon, Colorado, El Paso, United States", 
-        "sw_latitude": 38.943
+        "fullname": "Meadow Lake Airport, Falcon, Colorado, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12520880
     }

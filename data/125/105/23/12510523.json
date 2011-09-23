@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510523, 
+        "placetype": "airport", 
         "name": "Moron Airport", 
-        "ne_latitude": -34.672, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=20070610", 
+          "woe:state=2344675", 
+          "woe:country=23424747", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510523, 
         "ne_longitude": -58.638, 
         "longitude": -58.643, 
-        "placetype": "Airport", 
+        "parent_woeid": 20070610, 
+        "ne_latitude": -34.672, 
         "iso": "AR", 
-        "date_indexed": "2010-12-02T17:41:29Z", 
-        "parent_woeid": 464979, 
+        "sw_latitude": -34.681, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -34.677, 
         "sw_longitude": -58.649, 
-        "fullname": "Moron Airport, Castelar, Buenos Aires, Mor\u00f3n, Argentina", 
-        "sw_latitude": -34.681
+        "fullname": "Moron Airport, Castelar, Buenos Aires, Argentina", 
+        "date_indexed": "2010-12-02T17:41:29Z"
       }, 
       "id": 12510523
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523029, 
+        "placetype": "airport", 
         "name": "Hwange Town Airport", 
-        "ne_latitude": -18.358, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=56048508", 
+          "woe:state=2347815", 
+          "woe:country=23425004", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523029, 
         "ne_longitude": 26.523, 
         "longitude": 26.518, 
-        "placetype": "Airport", 
+        "parent_woeid": 56048508, 
+        "ne_latitude": -18.358, 
         "iso": "ZW", 
-        "date_indexed": "2010-12-02T16:52:36Z", 
-        "parent_woeid": 1467072, 
+        "sw_latitude": -18.367, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -18.362, 
         "sw_longitude": 26.514, 
-        "fullname": "Hwange Town Airport, Hwange, Matabeleland North, Hwange, Zimbabwe", 
-        "sw_latitude": -18.367
+        "fullname": "Hwange Town Airport, Hwange, Matabeleland North, Zimbabwe", 
+        "date_indexed": "2010-12-02T16:52:36Z"
       }, 
       "id": 12523029
     }

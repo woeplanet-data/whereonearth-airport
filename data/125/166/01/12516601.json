@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516601, 
+        "placetype": "airport", 
         "name": "Olekminsk Airport", 
-        "ne_latitude": 60.397, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597641", 
+          "woe:state=2346881", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516601, 
         "ne_longitude": 120.448, 
         "longitude": 120.439, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597641, 
+        "ne_latitude": 60.397, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2124755, 
+        "sw_latitude": 60.387, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 60.392, 
         "sw_longitude": 120.430, 
-        "fullname": "Olekminsk Airport, Olekminsk, Sakha, Olekminsky, Russia", 
-        "sw_latitude": 60.387
+        "fullname": "Olekminsk Airport, Olekminsk, Sakha, Russia", 
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516601
     }

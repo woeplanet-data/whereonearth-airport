@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523526, 
-        "name": "Gamboa Airport", 
         "alias_ENG_V": [
           "WCA"
         ], 
-        "ne_latitude": -42.478, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Gamboa Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=26794150", 
+          "woe:county=26793986", 
+          "woe:state=2345026", 
+          "woe:country=23424782", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523526, 
         "ne_longitude": -73.761, 
         "longitude": -73.767, 
-        "placetype": "Airport", 
+        "parent_woeid": 26794150, 
+        "ne_latitude": -42.478, 
         "iso": "CL", 
-        "date_indexed": "2010-12-02T12:15:39Z", 
-        "parent_woeid": 349897, 
+        "sw_latitude": -42.488, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -42.483, 
         "sw_longitude": -73.773, 
-        "fullname": "Gamboa Airport, Castro, Los Lagos Region, Chiloe Province, Chile", 
-        "sw_latitude": -42.488
+        "fullname": "Gamboa Airport, Castro, Los Lagos Region, Chile", 
+        "iata_code": "WCA", 
+        "date_indexed": "2010-12-02T12:15:39Z"
       }, 
       "id": 12523526
     }

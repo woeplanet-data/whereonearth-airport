@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519701, 
+        "placetype": "airport", 
         "name": "Fall River Municipal Airport", 
-        "ne_latitude": 41.760, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12588702", 
+          "woe:state=2347580", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519701, 
         "ne_longitude": -71.104, 
         "longitude": -71.110, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588702, 
+        "ne_latitude": 41.760, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:16Z", 
-        "parent_woeid": 2402096, 
+        "sw_latitude": 41.751, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.756, 
         "sw_longitude": -71.116, 
-        "fullname": "Fall River Municipal Airport, Fall River, Massachusetts, Bristol, United States", 
-        "sw_latitude": 41.751
+        "fullname": "Fall River Municipal Airport, Fall River, Massachusetts, United States", 
+        "date_indexed": "2010-12-02T18:39:16Z"
       }, 
       "id": 12519701
     }

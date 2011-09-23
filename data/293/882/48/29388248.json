@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388248, 
+        "placetype": "airport", 
         "name": "Clare Municipal Airport", 
-        "ne_latitude": 43.834, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12588731", 
+          "woe:state=2347581", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388248, 
         "ne_longitude": -84.736, 
         "longitude": -84.739, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588731, 
+        "ne_latitude": 43.834, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2380615, 
+        "sw_latitude": 43.829, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.829, 
         "sw_longitude": -84.748, 
-        "fullname": "Clare Municipal Airport, Clare, Michigan, Clare, United States", 
-        "sw_latitude": 43.829
+        "fullname": "Clare Municipal Airport, Clare, Michigan, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388248
     }

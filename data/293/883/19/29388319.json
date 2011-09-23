@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388319, 
-        "name": "Blatter Airport", 
         "alias_ENG_V": [
           "25mt"
         ], 
-        "ne_latitude": 40.867, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Blatter Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589611", 
+          "woe:state=2347594", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388319, 
         "ne_longitude": -81.784, 
         "longitude": -81.784, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589611, 
+        "ne_latitude": 40.867, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2466410, 
+        "sw_latitude": 40.862, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.863, 
         "sw_longitude": -81.795, 
-        "fullname": "Blatter Airport, Orrville, Ohio, Wayne, United States", 
-        "sw_latitude": 40.862
+        "fullname": "Blatter Airport, Orrville, Ohio, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388319
     }

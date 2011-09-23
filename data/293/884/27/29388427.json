@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388427, 
-        "name": "Northway Airport", 
         "alias_ENG_V": [
           "Ny97"
         ], 
-        "ne_latitude": 44.676, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Northway Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589321", 
+          "woe:state=2347591", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388427, 
         "ne_longitude": -73.559, 
         "longitude": -73.561, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589321, 
+        "ne_latitude": 44.676, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2489798, 
+        "sw_latitude": 44.667, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.672, 
         "sw_longitude": -73.566, 
-        "fullname": "Northway Airport, Schuyler Falls, New York, Clinton, United States", 
-        "sw_latitude": 44.667
+        "fullname": "Northway Airport, Schuyler Falls, New York, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388427
     }

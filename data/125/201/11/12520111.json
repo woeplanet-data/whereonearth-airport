@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520111, 
-        "name": "Harry W Browne Airport", 
         "alias_ENG_V": [
           "Hyx"
         ], 
-        "ne_latitude": 43.436, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Harry W Browne Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588786", 
+          "woe:state=2347581", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520111, 
         "ne_longitude": -83.853, 
         "longitude": -83.861, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588786, 
+        "ne_latitude": 43.436, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 23417623, 
+        "sw_latitude": 43.429, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.429, 
         "sw_longitude": -83.876, 
-        "fullname": "Harry W Browne Airport, Buena Vista, Michigan, Saginaw, United States", 
-        "sw_latitude": 43.429
+        "fullname": "Harry W Browne Airport, Buena Vista, Michigan, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520111
     }

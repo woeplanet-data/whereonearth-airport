@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516978, 
+        "placetype": "airport", 
         "name": "Tara West Airport", 
-        "ne_latitude": 56.859, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598908", 
+          "woe:state=2346915", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516978, 
         "ne_longitude": 74.211, 
         "longitude": 74.203, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598908, 
+        "ne_latitude": 56.859, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 1997350, 
+        "sw_latitude": 56.850, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 56.854, 
         "sw_longitude": 74.194, 
         "fullname": "Tara West Airport, Omskaya Oblast, Tarsky, Russia", 
-        "sw_latitude": 56.850
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516978
     }

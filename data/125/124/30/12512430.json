@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512430, 
+        "placetype": "airport", 
         "name": "El Carmen Airport", 
-        "ne_latitude": 10.205, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=26808912", 
+          "woe:county=26808854", 
+          "woe:state=2345086", 
+          "woe:country=23424791", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512430, 
         "ne_longitude": -83.466, 
         "longitude": -83.471, 
-        "placetype": "Airport", 
+        "parent_woeid": 26808912, 
+        "ne_latitude": 10.205, 
         "iso": "CR", 
-        "date_indexed": "2010-12-02T12:16:27Z", 
-        "parent_woeid": 58793, 
+        "sw_latitude": 10.196, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 10.201, 
         "sw_longitude": -83.475, 
         "fullname": "El Carmen Airport, Limon, Siquirres, Costa Rica", 
-        "sw_latitude": 10.196
+        "date_indexed": "2010-12-02T12:16:27Z"
       }, 
       "id": 12512430
     }

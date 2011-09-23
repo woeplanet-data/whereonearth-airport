@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388055, 
+        "placetype": "airport", 
         "name": "Prairie City Krohn Airport", 
-        "ne_latitude": 41.635, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12588321", 
+          "woe:state=2347574", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388055, 
         "ne_longitude": -93.199, 
         "longitude": -93.212, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588321, 
+        "ne_latitude": 41.635, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2382970, 
+        "sw_latitude": 41.630, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.632, 
         "sw_longitude": -93.213, 
-        "fullname": "Prairie City Krohn Airport, Colfax, Iowa, Jasper, United States", 
-        "sw_latitude": 41.630
+        "fullname": "Prairie City Krohn Airport, Colfax, Iowa, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388055
     }

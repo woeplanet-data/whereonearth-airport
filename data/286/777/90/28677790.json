@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 28677790, 
+        "placetype": "airport", 
         "name": "Norseman Airport", 
-        "ne_latitude": -32.203, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55864165", 
+          "woe:state=2344706", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 28677790, 
         "ne_longitude": 121.764, 
         "longitude": 121.758, 
-        "placetype": "Airport", 
+        "parent_woeid": 55864165, 
+        "ne_latitude": -32.203, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1104669, 
+        "sw_latitude": -32.212, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -32.208, 
         "sw_longitude": 121.753, 
-        "fullname": "Norseman Airport, Norseman, Western Australia, Dundas, Australia", 
-        "sw_latitude": -32.212
+        "fullname": "Norseman Airport, Norseman, Western Australia, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 28677790
     }

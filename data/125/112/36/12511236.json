@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511236, 
+        "placetype": "airport", 
         "name": "Aeroporto Miritituba", 
         "alias_ENG_P": [
           "Miritituba Airport"
         ], 
-        "ne_latitude": -4.290, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12580168", 
+          "woe:state=2344857", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511236, 
         "ne_longitude": -55.959, 
         "longitude": -55.963, 
-        "placetype": "Airport", 
+        "parent_woeid": 12580168, 
+        "ne_latitude": -4.290, 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 460271, 
+        "sw_latitude": -4.300, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -4.295, 
         "sw_longitude": -55.968, 
-        "fullname": "Aeroporto Miritituba, Nova Vida, Para, Itaituba, Brazil", 
-        "sw_latitude": -4.300
+        "fullname": "Aeroporto Miritituba, Nova Vida, Para, Brazil", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511236
     }

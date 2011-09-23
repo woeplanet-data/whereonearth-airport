@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513734, 
+        "placetype": "airport", 
         "name": "Karaj Airport", 
-        "ne_latitude": 35.770, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345785", 
+          "woe:country=23424851", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513734, 
         "ne_longitude": 50.875, 
         "longitude": 50.869, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345785, 
+        "ne_latitude": 35.770, 
         "iso": "IR", 
-        "date_indexed": "2010-12-02T08:53:52Z", 
-        "parent_woeid": 2254904, 
+        "sw_latitude": 35.761, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.765, 
         "sw_longitude": 50.864, 
         "fullname": "Karaj Airport, Mardabad, Tehran, Iran", 
-        "sw_latitude": 35.761
+        "date_indexed": "2010-12-02T08:53:52Z"
       }, 
       "id": 12513734
     }

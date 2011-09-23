@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517025, 
+        "placetype": "airport", 
         "name": "Troitsk East Airport", 
-        "ne_latitude": 54.116, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598143", 
+          "woe:state=2346893", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517025, 
         "ne_longitude": 61.681, 
         "longitude": 61.673, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598143, 
+        "ne_latitude": 54.116, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 1990197, 
+        "sw_latitude": 54.107, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 54.111, 
         "sw_longitude": 61.666, 
         "fullname": "Troitsk East Airport, Chelyabinskaya Oblast, Troitsky, Russia", 
-        "sw_latitude": 54.107
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12517025
     }

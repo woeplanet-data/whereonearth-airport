@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514575, 
-        "name": "Riga Central Airport", 
         "alias_ENG_V": [
           "Spiive Airfield"
         ], 
-        "ne_latitude": 56.981, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Riga Central Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55844479", 
+          "woe:state=20070121", 
+          "woe:country=23424874", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514575, 
         "ne_longitude": 24.081, 
         "longitude": 24.072, 
-        "placetype": "Airport", 
+        "parent_woeid": 55844479, 
+        "ne_latitude": 56.981, 
         "iso": "LV", 
-        "date_indexed": "2010-12-02T08:49:48Z", 
-        "parent_woeid": 854823, 
+        "sw_latitude": 56.972, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 56.976, 
         "sw_longitude": 24.064, 
-        "fullname": "Riga Central Airport, Riga, Riga, R\u013cga, Latvia", 
-        "sw_latitude": 56.972
+        "fullname": "Riga Central Airport, Riga, Riga, Latvia", 
+        "date_indexed": "2010-12-02T08:49:48Z"
       }, 
       "id": 12514575
     }

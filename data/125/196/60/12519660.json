@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519660, 
-        "name": "Essex County Airport", 
         "alias_ENG_V": [
           "CDW"
         ], 
-        "ne_latitude": 40.879, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Essex County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589264", 
+          "woe:state=2347589", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519660, 
         "ne_longitude": -74.272, 
         "longitude": -74.278, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589264, 
+        "ne_latitude": 40.879, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2401428, 
+        "sw_latitude": 40.867, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.876, 
         "sw_longitude": -74.292, 
-        "fullname": "Essex County Airport, Fairfield, New Jersey, Essex, United States", 
-        "sw_latitude": 40.867
+        "fullname": "Essex County Airport, Fairfield, New Jersey, United States", 
+        "iata_code": "CDW", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12519660
     }

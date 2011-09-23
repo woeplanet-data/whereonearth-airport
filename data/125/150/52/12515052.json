@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515052, 
-        "name": "Port Vila Bauerfield Airport", 
         "alias_ENG_V": [
           "VLI Airport"
         ], 
-        "ne_latitude": -17.699, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Port Vila Bauerfield Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=20069888", 
+          "woe:country=23424907", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515052, 
         "ne_longitude": 168.317, 
         "longitude": 168.312, 
-        "placetype": "Airport", 
+        "parent_woeid": 20069888, 
+        "ne_latitude": -17.699, 
         "iso": "VU", 
-        "date_indexed": "2010-12-02T17:52:20Z", 
-        "parent_woeid": 1050907, 
+        "sw_latitude": -17.708, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -17.704, 
         "sw_longitude": 168.307, 
         "fullname": "Port Vila Bauerfield Airport, Port-Vila, Shefa, Vanuatu", 
-        "sw_latitude": -17.708
+        "iata_code": "VLI", 
+        "date_indexed": "2010-12-02T17:52:20Z"
       }, 
       "id": 12515052
     }

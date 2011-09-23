@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520444, 
+        "placetype": "airport", 
         "name": "Kent County Airport", 
-        "ne_latitude": 33.234, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12590138", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520444, 
         "ne_longitude": -100.563, 
         "longitude": -100.568, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590138, 
+        "ne_latitude": 33.234, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2428777, 
+        "sw_latitude": 33.225, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 33.229, 
         "sw_longitude": -100.574, 
-        "fullname": "Kent County Airport, Jayton, Texas, Kent, United States", 
-        "sw_latitude": 33.225
+        "fullname": "Kent County Airport, Jayton, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12520444
     }

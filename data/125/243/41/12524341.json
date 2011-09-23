@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524341, 
-        "name": "El Naranjo Airport", 
         "alias_ENG_V": [
           "ENJ"
         ], 
-        "ne_latitude": 13.952, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "El Naranjo Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26806978", 
+          "woe:state=2345557", 
+          "woe:country=23424834", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524341, 
         "ne_longitude": -91.018, 
         "longitude": -91.023, 
-        "placetype": "Airport", 
+        "parent_woeid": 26806978, 
+        "ne_latitude": 13.952, 
         "iso": "GT", 
-        "date_indexed": "2010-12-02T16:55:27Z", 
-        "parent_woeid": 82582, 
+        "sw_latitude": 13.943, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 13.948, 
         "sw_longitude": -91.027, 
-        "fullname": "El Naranjo Airport, El Naranjo, Escuintla, La Gomera, Guatemala", 
-        "sw_latitude": 13.943
+        "fullname": "El Naranjo Airport, El Naranjo, Escuintla, Guatemala", 
+        "iata_code": "ENJ", 
+        "date_indexed": "2010-12-02T16:55:27Z"
       }, 
       "id": 12524341
     }

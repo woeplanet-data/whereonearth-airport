@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511386, 
+        "placetype": "airport", 
         "name": "Banite Airport", 
-        "ne_latitude": 42.594, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55873936", 
+          "woe:state=20070054", 
+          "woe:country=23424771", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511386, 
         "ne_longitude": 25.421, 
         "longitude": 25.415, 
-        "placetype": "Airport", 
+        "parent_woeid": 55873936, 
+        "ne_latitude": 42.594, 
         "iso": "BG", 
-        "date_indexed": "2010-12-02T16:14:37Z", 
-        "parent_woeid": 839304, 
+        "sw_latitude": 42.584, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.589, 
         "sw_longitude": 25.409, 
         "fullname": "Banite Airport, Stara Zagora, Kazanlak, Bulgaria", 
-        "sw_latitude": 42.584
+        "date_indexed": "2010-12-02T16:14:37Z"
       }, 
       "id": 12511386
     }

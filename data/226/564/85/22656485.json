@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 22656485, 
+        "placetype": "airport", 
         "name": "Stichting Vliegveld Hoogeveen Airport", 
-        "ne_latitude": 52.732, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12592220", 
+          "woe:state=2346373", 
+          "woe:country=23424909", 
+          "woe:planet=1"
+        ], 
+        "woeid": 22656485, 
         "ne_longitude": 6.529, 
         "longitude": 6.521, 
-        "placetype": "Airport", 
+        "parent_woeid": 12592220, 
+        "ne_latitude": 52.732, 
         "alias_DUT_Q": [
           "Stichting Vliegveld Hoogeveen"
         ], 
         "iso": "NL", 
-        "date_indexed": "2010-12-02T18:17:47Z", 
-        "parent_woeid": 730324, 
+        "sw_latitude": 52.730, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 52.731, 
         "sw_longitude": 6.505, 
-        "fullname": "Stichting Vliegveld Hoogeveen Airport, Hoogeveen, Drenthe, Hoogeveen, Netherlands", 
-        "sw_latitude": 52.730
+        "fullname": "Stichting Vliegveld Hoogeveen Airport, Hoogeveen, Drenthe, Netherlands", 
+        "date_indexed": "2010-12-02T18:17:47Z"
       }, 
       "id": 22656485
     }

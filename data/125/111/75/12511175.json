@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511175, 
+        "placetype": "airport", 
         "name": "Aeroporto Ibaiti", 
         "alias_ENG_P": [
           "Ibaiti Airport"
         ], 
-        "ne_latitude": -23.750, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12580511", 
+          "woe:state=2344859", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511175, 
         "ne_longitude": -50.287, 
         "longitude": -50.292, 
-        "placetype": "Airport", 
+        "parent_woeid": 12580511, 
+        "ne_latitude": -23.750, 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 456223, 
+        "sw_latitude": -23.759, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -23.754, 
         "sw_longitude": -50.297, 
-        "fullname": "Aeroporto Ibaiti, Ibaiti, Parana, Ibaiti, Brazil", 
-        "sw_latitude": -23.759
+        "fullname": "Aeroporto Ibaiti, Ibaiti, Parana, Brazil", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511175
     }

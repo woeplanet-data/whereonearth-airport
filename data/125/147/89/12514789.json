@@ -3,28 +3,118 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -6.916, 
-              30.923
-            ], 
-            [
-              -6.916, 
-              30.946
-            ], 
-            [
-              -6.890, 
-              30.946
-            ], 
-            [
-              -6.890, 
-              30.923
-            ], 
-            [
-              -6.916, 
-              30.923
+              [
+                -6.915, 
+                30.920
+              ], 
+              [
+                -6.920, 
+                30.920
+              ], 
+              [
+                -6.920, 
+                30.921
+              ], 
+              [
+                -6.932, 
+                30.920
+              ], 
+              [
+                -6.941, 
+                30.929
+              ], 
+              [
+                -6.938, 
+                30.932
+              ], 
+              [
+                -6.933, 
+                30.935
+              ], 
+              [
+                -6.924, 
+                30.929
+              ], 
+              [
+                -6.909, 
+                30.935
+              ], 
+              [
+                -6.908, 
+                30.936
+              ], 
+              [
+                -6.887, 
+                30.938
+              ], 
+              [
+                -6.883, 
+                30.939
+              ], 
+              [
+                -6.877, 
+                30.948
+              ], 
+              [
+                -6.875, 
+                30.953
+              ], 
+              [
+                -6.868, 
+                30.957
+              ], 
+              [
+                -6.873, 
+                30.950
+              ], 
+              [
+                -6.873, 
+                30.950
+              ], 
+              [
+                -6.874, 
+                30.950
+              ], 
+              [
+                -6.874, 
+                30.949
+              ], 
+              [
+                -6.876, 
+                30.948
+              ], 
+              [
+                -6.877, 
+                30.948
+              ], 
+              [
+                -6.886, 
+                30.941
+              ], 
+              [
+                -6.887, 
+                30.938
+              ], 
+              [
+                -6.905, 
+                30.931
+              ], 
+              [
+                -6.904, 
+                30.925
+              ], 
+              [
+                -6.911, 
+                30.921
+              ], 
+              [
+                -6.915, 
+                30.920
+              ]
             ]
           ]
         ]
@@ -32,23 +122,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514789, 
-        "name": "Ouarzazate Airport", 
         "alias_ENG_V": [
           "OZZ"
         ], 
-        "ne_latitude": 30.946, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -6.890, 
-        "longitude": -6.903, 
-        "placetype": "Airport", 
+        "name": "Ouarzazate Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=2346210", 
+          "woe:state=56120060", 
+          "woe:country=23424893", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514789, 
+        "ne_longitude": -6.868, 
+        "longitude": -6.919, 
+        "parent_woeid": 2346210, 
+        "ne_latitude": 30.957, 
         "iso": "MA", 
-        "date_indexed": "2010-12-02T18:19:13Z", 
-        "parent_woeid": 1538332, 
-        "latitude": 30.934, 
-        "sw_longitude": -6.916, 
+        "sw_latitude": 30.920, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 30.928, 
+        "sw_longitude": -6.941, 
         "fullname": "Ouarzazate Airport, Ouarzazate, Ouarzazate, Morocco", 
-        "sw_latitude": 30.923
+        "iata_code": "OZZ", 
+        "date_indexed": "2010-12-02T18:19:13Z"
       }, 
       "id": 12514789
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 28677593, 
+        "placetype": "airport", 
         "name": "Calvert Hills Aerodrome", 
-        "ne_latitude": -17.204, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=56072995", 
+          "woe:state=2344701", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 28677593, 
         "ne_longitude": 137.359, 
         "longitude": 137.354, 
-        "placetype": "Airport", 
+        "parent_woeid": 56072995, 
+        "ne_latitude": -17.204, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 55864468, 
+        "sw_latitude": -17.213, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -17.209, 
         "sw_longitude": 137.349, 
         "fullname": "Calvert Hills Aerodrome, Calvert, Northern Territory, Australia", 
-        "sw_latitude": -17.213
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 28677593
     }

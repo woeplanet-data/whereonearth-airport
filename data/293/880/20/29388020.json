@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388020, 
-        "name": "Marion Airport", 
         "alias_ENG_V": [
           "C17"
         ], 
-        "ne_latitude": 42.036, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Marion Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588328", 
+          "woe:state=2347574", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388020, 
         "ne_longitude": -91.525, 
         "longitude": -91.532, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588328, 
+        "ne_latitude": 42.036, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2445765, 
+        "sw_latitude": 42.027, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.035, 
         "sw_longitude": -91.535, 
-        "fullname": "Marion Airport, Marion, Iowa, Linn, United States", 
-        "sw_latitude": 42.027
+        "fullname": "Marion Airport, Marion, Iowa, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388020
     }

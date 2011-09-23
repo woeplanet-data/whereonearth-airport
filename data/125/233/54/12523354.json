@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523354, 
-        "name": "Kastelorizo Airport", 
         "alias_ENG_V": [
           "KZS"
         ], 
-        "ne_latitude": 36.140, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Kastelorizo Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=24543745", 
+          "woe:county=12591118", 
+          "woe:state=12577886", 
+          "woe:country=23424833", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523354, 
         "ne_longitude": 29.581, 
         "longitude": 29.575, 
-        "placetype": "Airport", 
+        "parent_woeid": 24543745, 
+        "ne_latitude": 36.140, 
         "iso": "GR", 
-        "date_indexed": "2010-12-02T16:52:21Z", 
-        "parent_woeid": 22722418, 
+        "sw_latitude": 36.131, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.136, 
         "sw_longitude": 29.570, 
-        "fullname": "Kastelorizo Airport, Megisti, Notio Aigaio, Dodekanissos, Greece", 
-        "sw_latitude": 36.131
+        "fullname": "Kastelorizo Airport, Megisti, Notio Aigaio, Greece", 
+        "date_indexed": "2010-12-02T16:52:21Z"
       }, 
       "id": 12523354
     }

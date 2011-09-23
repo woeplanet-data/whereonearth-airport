@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518702, 
-        "name": "Aurora Municipal Airport", 
         "alias_ENG_V": [
           "Auh"
         ], 
-        "ne_latitude": 40.902, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Aurora Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589178", 
+          "woe:state=2347586", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518702, 
         "ne_longitude": -97.991, 
         "longitude": -97.998, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589178, 
+        "ne_latitude": 40.902, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2357470, 
+        "sw_latitude": 40.887, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.891, 
         "sw_longitude": -97.998, 
-        "fullname": "Aurora Municipal Airport, Aurora, Nebraska, Hamilton, United States", 
-        "sw_latitude": 40.887
+        "fullname": "Aurora Municipal Airport, Aurora, Nebraska, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518702
     }

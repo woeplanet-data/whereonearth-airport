@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513167, 
+        "placetype": "airport", 
         "name": "Leutkirch Unterzeil Airport", 
-        "ne_latitude": 47.863, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12623825", 
+          "woe:county=12596733", 
+          "woe:state=2345481", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513167, 
         "ne_longitude": 10.024, 
         "longitude": 10.016, 
-        "placetype": "Airport", 
+        "parent_woeid": 12623825, 
+        "ne_latitude": 47.863, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 673485, 
+        "sw_latitude": 47.855, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.860, 
         "sw_longitude": 10.006, 
-        "fullname": "Leutkirch Unterzeil Airport, Mailand, Baden-Wurttemberg, Landkreis Ravensburg, Germany", 
+        "fullname": "Leutkirch Unterzeil Airport, Mailand, Baden-Wurttemberg, Germany", 
         "alias_GER_Q": [
           "Flughafen Leutkirch Unterzeil"
         ], 
-        "sw_latitude": 47.855
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 12513167
     }

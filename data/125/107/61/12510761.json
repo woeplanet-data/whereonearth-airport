@@ -3,28 +3,114 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              115.946, 
-              -31.981
-            ], 
-            [
-              115.946, 
-              -31.916
-            ], 
-            [
-              115.996, 
-              -31.916
-            ], 
-            [
-              115.996, 
-              -31.981
-            ], 
-            [
-              115.946, 
-              -31.981
+              [
+                115.960, 
+                -31.935
+              ], 
+              [
+                115.959, 
+                -31.934
+              ], 
+              [
+                115.958, 
+                -31.933
+              ], 
+              [
+                115.961, 
+                -31.931
+              ], 
+              [
+                115.962, 
+                -31.931
+              ], 
+              [
+                115.967, 
+                -31.931
+              ], 
+              [
+                115.970, 
+                -31.929
+              ], 
+              [
+                115.972, 
+                -31.928
+              ], 
+              [
+                115.968, 
+                -31.928
+              ], 
+              [
+                115.967, 
+                -31.931
+              ], 
+              [
+                115.966, 
+                -31.937
+              ], 
+              [
+                115.966, 
+                -31.941
+              ], 
+              [
+                115.971, 
+                -31.941
+              ], 
+              [
+                115.972, 
+                -31.938
+              ], 
+              [
+                115.973, 
+                -31.939
+              ], 
+              [
+                115.977, 
+                -31.935
+              ], 
+              [
+                115.977, 
+                -31.941
+              ], 
+              [
+                115.976, 
+                -31.946
+              ], 
+              [
+                115.974, 
+                -31.946
+              ], 
+              [
+                115.972, 
+                -31.946
+              ], 
+              [
+                115.972, 
+                -31.945
+              ], 
+              [
+                115.967, 
+                -31.943
+              ], 
+              [
+                115.964, 
+                -31.946
+              ], 
+              [
+                115.962, 
+                -31.941
+              ], 
+              [
+                115.964, 
+                -31.939
+              ], 
+              [
+                115.960, 
+                -31.935
+              ]
             ]
           ]
         ]
@@ -32,23 +118,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510761, 
-        "name": "Perth International Airport", 
         "alias_ENG_V": [
           "PER"
         ], 
-        "ne_latitude": -31.916, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": 115.996, 
-        "longitude": 115.974, 
-        "placetype": "Airport", 
-        "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
+        "name": "Perth International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55864411", 
+          "woe:state=2344706", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510761, 
+        "ne_longitude": 115.977, 
+        "longitude": 115.969, 
         "parent_woeid": 55864411, 
-        "latitude": -31.942, 
-        "sw_longitude": 115.946, 
+        "ne_latitude": -31.928, 
+        "iso": "AU", 
+        "sw_latitude": -31.946, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": -31.940, 
+        "sw_longitude": 115.958, 
         "fullname": "Perth International Airport, Western Australia, City of Belmont, Australia", 
-        "sw_latitude": -31.981
+        "iata_code": "PER", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 12510761
     }

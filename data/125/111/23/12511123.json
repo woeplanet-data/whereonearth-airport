@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511123, 
+        "placetype": "airport", 
         "name": "Aeroporto Estreito", 
         "alias_ENG_P": [
           "Estreito Airport"
         ], 
-        "ne_latitude": -6.512, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12579216", 
+          "woe:state=2344854", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511123, 
         "ne_longitude": -47.429, 
         "longitude": -47.433, 
-        "placetype": "Airport", 
+        "parent_woeid": 12579216, 
+        "ne_latitude": -6.512, 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 457166, 
+        "sw_latitude": -6.521, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -6.517, 
         "sw_longitude": -47.438, 
-        "fullname": "Aeroporto Estreito, Estreito, Maranhao, Estreito, Brazil", 
-        "sw_latitude": -6.521
+        "fullname": "Aeroporto Estreito, Estreito, Maranhao, Brazil", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511123
     }

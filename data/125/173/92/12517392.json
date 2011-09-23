@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517392, 
+        "placetype": "airport", 
         "name": "Amsterdam West Airport", 
-        "ne_latitude": -26.629, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=56189605", 
+          "woe:county=56189441", 
+          "woe:state=2346983", 
+          "woe:country=23424942", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517392, 
         "ne_longitude": 30.610, 
         "longitude": 30.605, 
-        "placetype": "Airport", 
+        "parent_woeid": 56189605, 
+        "ne_latitude": -26.629, 
         "iso": "ZA", 
-        "date_indexed": "2010-12-02T08:57:46Z", 
-        "parent_woeid": 1579455, 
+        "sw_latitude": -26.638, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -26.633, 
         "sw_longitude": 30.600, 
-        "fullname": "Amsterdam West Airport, Amsterdam, Mpumalanga, Amsterdam, South Africa", 
-        "sw_latitude": -26.638
+        "fullname": "Amsterdam West Airport, Amsterdam, Mpumalanga, South Africa", 
+        "date_indexed": "2010-12-02T08:57:46Z"
       }, 
       "id": 12517392
     }

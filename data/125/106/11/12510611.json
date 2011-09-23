@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510611, 
-        "name": "Boigu Island Airport", 
         "alias_ENG_V": [
           "GIC"
         ], 
-        "ne_latitude": -9.258, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Boigu Island Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=56072977", 
+          "woe:state=2344702", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510611, 
         "ne_longitude": 142.218, 
         "longitude": 142.214, 
-        "placetype": "Airport", 
+        "parent_woeid": 56072977, 
+        "ne_latitude": -9.258, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1094510, 
+        "sw_latitude": -9.267, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -9.262, 
         "sw_longitude": 142.209, 
-        "fullname": "Boigu Island Airport, Boigu, Queensland, Iama Island, Australia", 
-        "sw_latitude": -9.267
+        "fullname": "Boigu Island Airport, Boigu, Queensland, Australia", 
+        "iata_code": "GIC", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 12510611
     }

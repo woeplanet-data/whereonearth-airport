@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518606, 
-        "name": "Amery Municipal Airport", 
         "alias_ENG_V": [
           "Amery Airport"
         ], 
-        "ne_latitude": 45.288, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Amery Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590582", 
+          "woe:state=2347608", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518606, 
         "ne_longitude": -92.368, 
         "longitude": -92.368, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590582, 
+        "ne_latitude": 45.288, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2354273, 
+        "sw_latitude": 45.275, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.284, 
         "sw_longitude": -92.378, 
-        "fullname": "Amery Municipal Airport, Amery, Wisconsin, Polk, United States", 
-        "sw_latitude": 45.275
+        "fullname": "Amery Municipal Airport, Amery, Wisconsin, United States", 
+        "iata_code": "AHH", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518606
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511531, 
+        "placetype": "airport", 
         "name": "Trastenik Airport", 
-        "ne_latitude": 43.667, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55873877", 
+          "woe:state=20070069", 
+          "woe:country=23424771", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511531, 
         "ne_longitude": 25.866, 
         "longitude": 25.860, 
-        "placetype": "Airport", 
+        "parent_woeid": 55873877, 
+        "ne_latitude": 43.667, 
         "iso": "BG", 
-        "date_indexed": "2010-12-02T16:14:37Z", 
-        "parent_woeid": 840241, 
+        "sw_latitude": 43.658, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.663, 
         "sw_longitude": 25.854, 
         "fullname": "Trastenik Airport, Ruse, Ivanovo, Bulgaria", 
-        "sw_latitude": 43.658
+        "date_indexed": "2010-12-02T16:14:37Z"
       }, 
       "id": 12511531
     }

@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523678, 
-        "name": "Puerto Aisen Airport", 
         "alias_ENG_V": [
           "Pto Aisen Airport"
         ], 
-        "ne_latitude": -45.412, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Puerto Aisen Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=26794023", 
+          "woe:county=26793973", 
+          "woe:state=2345019", 
+          "woe:country=23424782", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523678, 
         "ne_longitude": -72.694, 
         "longitude": -72.700, 
-        "placetype": "Airport", 
+        "parent_woeid": 26794023, 
+        "ne_latitude": -45.412, 
         "iso": "CL", 
-        "date_indexed": "2010-12-02T12:15:39Z", 
-        "parent_woeid": 349944, 
+        "sw_latitude": -45.421, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -45.417, 
         "sw_longitude": -72.706, 
-        "fullname": "Puerto Aisen Airport, Puerto Ais\u00e9n, Aisen Region, Aisen Province, Chile", 
-        "sw_latitude": -45.421
+        "fullname": "Puerto Aisen Airport, Puerto Ais\u00e9n, Aisen Region, Chile", 
+        "iata_code": "WPA", 
+        "date_indexed": "2010-12-02T12:15:39Z"
       }, 
       "id": 12523678
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511423, 
+        "placetype": "airport", 
         "name": "Gara Dulovo Airport", 
-        "ne_latitude": 43.792, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55873725", 
+          "woe:state=20070070", 
+          "woe:country=23424771", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511423, 
         "ne_longitude": 27.132, 
         "longitude": 27.126, 
-        "placetype": "Airport", 
+        "parent_woeid": 55873725, 
+        "ne_latitude": 43.792, 
         "iso": "BG", 
-        "date_indexed": "2010-12-02T16:14:37Z", 
-        "parent_woeid": 839203, 
+        "sw_latitude": 43.783, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.788, 
         "sw_longitude": 27.120, 
         "fullname": "Gara Dulovo Airport, Silistra, Dulovo, Bulgaria", 
-        "sw_latitude": 43.783
+        "date_indexed": "2010-12-02T16:14:37Z"
       }, 
       "id": 12511423
     }

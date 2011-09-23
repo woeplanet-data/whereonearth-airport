@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523410, 
-        "name": "Albany Naval Air Station", 
         "alias_ENG_V": [
           "NAB"
         ], 
-        "ne_latitude": 31.597, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Albany Naval Air Station", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587916", 
+          "woe:state=2347569", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523410, 
         "ne_longitude": -84.149, 
         "longitude": -84.155, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587916, 
+        "ne_latitude": 31.597, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2352648, 
+        "sw_latitude": 31.588, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 31.592, 
         "sw_longitude": -84.160, 
-        "fullname": "Albany Naval Air Station, Albany, Georgia, Dougherty, United States", 
-        "sw_latitude": 31.588
+        "fullname": "Albany Naval Air Station, Albany, Georgia, United States", 
+        "iata_code": "NAB", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12523410
     }

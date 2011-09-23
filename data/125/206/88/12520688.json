@@ -3,28 +3,110 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -108.570, 
-              45.799
-            ], 
-            [
-              -108.570, 
-              45.827
-            ], 
-            [
-              -108.508, 
-              45.827
-            ], 
-            [
-              -108.508, 
-              45.799
-            ], 
-            [
-              -108.570, 
-              45.799
+              [
+                -108.538, 
+                45.803
+              ], 
+              [
+                -108.540, 
+                45.803
+              ], 
+              [
+                -108.541, 
+                45.804
+              ], 
+              [
+                -108.546, 
+                45.802
+              ], 
+              [
+                -108.545, 
+                45.799
+              ], 
+              [
+                -108.549, 
+                45.802
+              ], 
+              [
+                -108.546, 
+                45.802
+              ], 
+              [
+                -108.542, 
+                45.807
+              ], 
+              [
+                -108.541, 
+                45.804
+              ], 
+              [
+                -108.537, 
+                45.804
+              ], 
+              [
+                -108.536, 
+                45.804
+              ], 
+              [
+                -108.535, 
+                45.803
+              ], 
+              [
+                -108.534, 
+                45.802
+              ], 
+              [
+                -108.532, 
+                45.802
+              ], 
+              [
+                -108.528, 
+                45.803
+              ], 
+              [
+                -108.527, 
+                45.804
+              ], 
+              [
+                -108.523, 
+                45.801
+              ], 
+              [
+                -108.522, 
+                45.801
+              ], 
+              [
+                -108.524, 
+                45.801
+              ], 
+              [
+                -108.528, 
+                45.803
+              ], 
+              [
+                -108.531, 
+                45.801
+              ], 
+              [
+                -108.533, 
+                45.801
+              ], 
+              [
+                -108.535, 
+                45.802
+              ], 
+              [
+                -108.537, 
+                45.802
+              ], 
+              [
+                -108.538, 
+                45.803
+              ]
             ]
           ]
         ]
@@ -32,23 +114,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520688, 
-        "name": "Logan International Airport", 
         "alias_ENG_V": [
           "Billings Logan International Airport"
         ], 
-        "ne_latitude": 45.827, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -108.508, 
-        "longitude": -108.535, 
-        "placetype": "Airport", 
-        "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
+        "name": "Logan International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:suburb=55858033", 
+          "woe:county=12589136", 
+          "woe:state=2347585", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520688, 
+        "ne_longitude": -108.522, 
+        "longitude": -108.537, 
         "parent_woeid": 55858033, 
+        "ne_latitude": 45.807, 
+        "iso": "US", 
+        "sw_latitude": 45.799, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.803, 
-        "sw_longitude": -108.570, 
-        "fullname": "Logan International Airport, Billings, Montana, Yellowstone, United States", 
-        "sw_latitude": 45.799
+        "sw_longitude": -108.549, 
+        "fullname": "Logan International Airport, Billings, Montana, United States", 
+        "iata_code": "BIL", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520688
     }

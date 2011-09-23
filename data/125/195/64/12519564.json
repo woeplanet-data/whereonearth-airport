@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519564, 
-        "name": "Eagle River Union Airport", 
         "alias_ENG_V": [
           "Eagle River Union"
         ], 
-        "ne_latitude": 45.938, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Eagle River Union Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590597", 
+          "woe:state=2347608", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519564, 
         "ne_longitude": -89.260, 
         "longitude": -89.260, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590597, 
+        "ne_latitude": 45.938, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2395085, 
+        "sw_latitude": 45.925, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.932, 
         "sw_longitude": -89.278, 
-        "fullname": "Eagle River Union Airport, Eagle River, Wisconsin, Vilas, United States", 
-        "sw_latitude": 45.925
+        "fullname": "Eagle River Union Airport, Eagle River, Wisconsin, United States", 
+        "iata_code": "EGV", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519564
     }

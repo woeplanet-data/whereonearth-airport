@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523531, 
-        "name": "Caucasia Airport", 
         "alias_ENG_V": [
           "CAQ"
         ], 
-        "ne_latitude": 7.998, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Caucasia Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26796641", 
+          "woe:state=2345048", 
+          "woe:country=23424787", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523531, 
         "ne_longitude": -75.202, 
         "longitude": -75.206, 
-        "placetype": "Airport", 
+        "parent_woeid": 26796641, 
+        "ne_latitude": 7.998, 
         "iso": "CO", 
-        "date_indexed": "2010-12-02T17:57:37Z", 
-        "parent_woeid": 368187, 
+        "sw_latitude": 7.989, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 7.993, 
         "sw_longitude": -75.211, 
-        "fullname": "Caucasia Airport, Caucasia, Antioquia, Caucasia, Colombia", 
-        "sw_latitude": 7.989
+        "fullname": "Caucasia Airport, Caucasia, Antioquia, Colombia", 
+        "iata_code": "CAQ", 
+        "date_indexed": "2010-12-02T17:57:37Z"
       }, 
       "id": 12523531
     }

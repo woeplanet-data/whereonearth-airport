@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513006, 
+        "placetype": "airport", 
         "name": "Kvareli Airport", 
-        "ne_latitude": 41.910, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=20070372", 
+          "woe:country=23424823", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513006, 
         "ne_longitude": 45.833, 
         "longitude": 45.827, 
-        "placetype": "Airport", 
+        "parent_woeid": 20070372, 
+        "ne_latitude": 41.910, 
         "iso": "GE", 
-        "date_indexed": "2010-12-02T17:51:59Z", 
-        "parent_woeid": 1964190, 
+        "sw_latitude": 41.901, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.906, 
         "sw_longitude": 45.821, 
         "fullname": "Kvareli Airport, Qvarlis Raioni, Georgia", 
-        "sw_latitude": 41.901
+        "date_indexed": "2010-12-02T17:51:59Z"
       }, 
       "id": 12513006
     }

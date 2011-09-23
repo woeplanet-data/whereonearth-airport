@@ -3,28 +3,30 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -75.656, 
-              45.456
-            ], 
-            [
-              -75.656, 
-              45.464
-            ], 
-            [
-              -75.636, 
-              45.464
-            ], 
-            [
-              -75.636, 
-              45.456
-            ], 
-            [
-              -75.656, 
-              45.456
+              [
+                -75.641, 
+                45.462
+              ], 
+              [
+                -75.640, 
+                45.461
+              ], 
+              [
+                -75.643, 
+                45.456
+              ], 
+              [
+                -75.644, 
+                45.459
+              ], 
+              [
+                -75.641, 
+                45.462
+              ]
             ]
           ]
         ]
@@ -32,23 +34,32 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511780, 
-        "name": "Rockcliffe Airport", 
         "alias_ENG_V": [
           "YRO Airport"
         ], 
-        "ne_latitude": 45.464, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -75.636, 
-        "longitude": -75.640, 
-        "placetype": "Airport", 
-        "iso": "CA", 
-        "date_indexed": "2010-12-02T10:24:00Z", 
+        "name": "Rockcliffe Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:suburb=55855938", 
+          "woe:suburb=55855914", 
+          "woe:county=29375164", 
+          "woe:state=2344922", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511780, 
+        "ne_longitude": -75.640, 
+        "longitude": -75.642, 
         "parent_woeid": 55855938, 
-        "latitude": 45.463, 
-        "sw_longitude": -75.656, 
-        "fullname": "Rockcliffe Airport, Ottawa, Ontario, Ottawa, Canada", 
-        "sw_latitude": 45.456
+        "ne_latitude": 45.462, 
+        "iso": "CA", 
+        "sw_latitude": 45.456, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 45.459, 
+        "sw_longitude": -75.644, 
+        "fullname": "Rockcliffe Airport, Ottawa, Ontario, Canada", 
+        "iata_code": "YRO", 
+        "date_indexed": "2010-12-02T10:24:00Z"
       }, 
       "id": 12511780
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524570, 
-        "name": "Wings Field Airport", 
         "alias_ENG_V": [
           "BBX Airport"
         ], 
-        "ne_latitude": 40.144, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Wings Field Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589773", 
+          "woe:state=2347597", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524570, 
         "ne_longitude": -75.254, 
         "longitude": -75.264, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589773, 
+        "ne_latitude": 40.144, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 28745154, 
+        "sw_latitude": 40.131, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.133, 
         "sw_longitude": -75.272, 
-        "fullname": "Wings Field Airport, Whitpain, Pennsylvania, Montgomery, United States", 
-        "sw_latitude": 40.131
+        "fullname": "Wings Field Airport, Whitpain, Pennsylvania, United States", 
+        "iata_code": "BBX", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12524570
     }

@@ -3,28 +3,230 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              2.059, 
-              41.281
-            ], 
-            [
-              2.059, 
-              41.312
-            ], 
-            [
-              2.107, 
-              41.312
-            ], 
-            [
-              2.107, 
-              41.281
-            ], 
-            [
-              2.059, 
-              41.281
+              [
+                2.085, 
+                41.280
+              ], 
+              [
+                2.084, 
+                41.279
+              ], 
+              [
+                2.080, 
+                41.279
+              ], 
+              [
+                2.080, 
+                41.279
+              ], 
+              [
+                2.075, 
+                41.277
+              ], 
+              [
+                2.073, 
+                41.277
+              ], 
+              [
+                2.068, 
+                41.276
+              ], 
+              [
+                2.066, 
+                41.275
+              ], 
+              [
+                2.065, 
+                41.275
+              ], 
+              [
+                2.063, 
+                41.275
+              ], 
+              [
+                2.062, 
+                41.276
+              ], 
+              [
+                2.060, 
+                41.280
+              ], 
+              [
+                2.059, 
+                41.281
+              ], 
+              [
+                2.054, 
+                41.283
+              ], 
+              [
+                2.055, 
+                41.287
+              ], 
+              [
+                2.059, 
+                41.291
+              ], 
+              [
+                2.057, 
+                41.295
+              ], 
+              [
+                2.057, 
+                41.299
+              ], 
+              [
+                2.058, 
+                41.302
+              ], 
+              [
+                2.057, 
+                41.305
+              ], 
+              [
+                2.060, 
+                41.306
+              ], 
+              [
+                2.060, 
+                41.306
+              ], 
+              [
+                2.066, 
+                41.310
+              ], 
+              [
+                2.066, 
+                41.311
+              ], 
+              [
+                2.067, 
+                41.312
+              ], 
+              [
+                2.073, 
+                41.311
+              ], 
+              [
+                2.079, 
+                41.314
+              ], 
+              [
+                2.084, 
+                41.312
+              ], 
+              [
+                2.090, 
+                41.312
+              ], 
+              [
+                2.093, 
+                41.311
+              ], 
+              [
+                2.096, 
+                41.310
+              ], 
+              [
+                2.098, 
+                41.307
+              ], 
+              [
+                2.102, 
+                41.305
+              ], 
+              [
+                2.103, 
+                41.306
+              ], 
+              [
+                2.107, 
+                41.312
+              ], 
+              [
+                2.108, 
+                41.307
+              ], 
+              [
+                2.108, 
+                41.306
+              ], 
+              [
+                2.107, 
+                41.303
+              ], 
+              [
+                2.106, 
+                41.302
+              ], 
+              [
+                2.104, 
+                41.300
+              ], 
+              [
+                2.104, 
+                41.300
+              ], 
+              [
+                2.107, 
+                41.294
+              ], 
+              [
+                2.112, 
+                41.289
+              ], 
+              [
+                2.106, 
+                41.287
+              ], 
+              [
+                2.105, 
+                41.286
+              ], 
+              [
+                2.104, 
+                41.286
+              ], 
+              [
+                2.103, 
+                41.286
+              ], 
+              [
+                2.101, 
+                41.286
+              ], 
+              [
+                2.098, 
+                41.284
+              ], 
+              [
+                2.096, 
+                41.283
+              ], 
+              [
+                2.094, 
+                41.282
+              ], 
+              [
+                2.090, 
+                41.281
+              ], 
+              [
+                2.090, 
+                41.281
+              ], 
+              [
+                2.087, 
+                41.281
+              ], 
+              [
+                2.085, 
+                41.280
+              ]
             ]
           ]
         ]
@@ -40,11 +242,16 @@
         "alias_ENG_P": [
           "Barcelona Airport"
         ], 
-        "ne_latitude": 41.312, 
-        "alias_UNK_V": [
-          "Aeroport Del Prat"
+        "hierarchy": [
+          "woe:localadmin=12693549", 
+          "woe:county=12602124", 
+          "woe:state=12578034", 
+          "woe:country=23424950", 
+          "woe:planet=1"
         ], 
-        "placetype": "Airport", 
+        "ne_latitude": 41.314, 
+        "ne_longitude": 2.112, 
+        "placetype": "airport", 
         "alias_POR_Q": [
           "Aeroporto de Barcelona"
         ], 
@@ -52,15 +259,16 @@
           "Aeroporto Di Barcellona"
         ], 
         "woeid": 22411879, 
+        "iata_code": "BCN", 
         "alias_FIN_Q": [
           "Barcelonan Lentokentt\u00e4"
         ], 
-        "sw_longitude": 2.059, 
+        "sw_longitude": 2.054, 
         "alias_FIN_V": [
           "Barcelonan Lentokentta"
         ], 
         "provider": "geoplanet 7.6.0", 
-        "latitude": 41.303, 
+        "latitude": 41.295, 
         "date_indexed": "2010-12-02T17:38:37Z", 
         "alias_SPA_V": [
           "Aeropuerto Barcelona"
@@ -76,18 +284,20 @@
         ], 
         "lang": "SPA", 
         "name": "Aeropuerto de Barcelona", 
-        "parent_woeid": 759589, 
+        "parent_woeid": 12693549, 
         "alias_UNK_Q": [
           "Letisko Barcelona"
         ], 
-        "ne_longitude": 2.107, 
-        "longitude": 2.076, 
+        "alias_UNK_V": [
+          "Aeroport Del Prat"
+        ], 
+        "longitude": 2.081, 
         "iso": "ES", 
-        "sw_latitude": 41.281, 
+        "sw_latitude": 41.275, 
         "alias_FRE_V": [
           "Aeroport de Barcelone"
         ], 
-        "fullname": "Aeropuerto de Barcelona, El Prat de Llobregat, Catalonia, Barcelona, Spain", 
+        "fullname": "Aeropuerto de Barcelona, El Prat de Llobregat, Catalonia, Spain", 
         "alias_FRE_Q": [
           "A\u00e9roport de Barcelone"
         ]

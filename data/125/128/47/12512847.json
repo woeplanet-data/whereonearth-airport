@@ -3,28 +3,30 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              3.146, 
-              45.779
-            ], 
-            [
-              3.146, 
-              45.792
-            ], 
-            [
-              3.197, 
-              45.792
-            ], 
-            [
-              3.197, 
-              45.779
-            ], 
-            [
-              3.146, 
-              45.779
+              [
+                3.160, 
+                45.791
+              ], 
+              [
+                3.162, 
+                45.787
+              ], 
+              [
+                3.159, 
+                45.790
+              ], 
+              [
+                3.157, 
+                45.790
+              ], 
+              [
+                3.160, 
+                45.791
+              ]
             ]
           ]
         ]
@@ -40,16 +42,22 @@
         "alias_ENG_P": [
           "Aulnat Airport"
         ], 
-        "ne_latitude": 45.792, 
-        "alias_UNK_V": [
-          "Letisko Clermont-Ferrand-Auvergne"
+        "hierarchy": [
+          "woe:localadmin=12637685", 
+          "woe:county=12597146", 
+          "woe:state=7153310", 
+          "woe:country=23424819", 
+          "woe:planet=1"
         ], 
-        "placetype": "Airport", 
+        "ne_latitude": 45.791, 
+        "ne_longitude": 3.162, 
+        "placetype": "airport", 
         "alias_ITA_V": [
           "Aeroporto Clermont-Ferrand-Auvergne"
         ], 
         "woeid": 12512847, 
-        "sw_longitude": 3.146, 
+        "iata_code": "CFE", 
+        "sw_longitude": 3.157, 
         "alias_FIN_V": [
           "Clermont-Fd-Auvergne Lentokentt\u00e5"
         ], 
@@ -70,15 +78,17 @@
         ], 
         "lang": "FRE", 
         "name": "A\u00e9roport de Clermont-Ferrand", 
-        "parent_woeid": 577234, 
-        "ne_longitude": 3.197, 
+        "parent_woeid": 12637685, 
+        "alias_UNK_V": [
+          "Letisko Clermont-Ferrand-Auvergne"
+        ], 
         "longitude": 3.160, 
         "iso": "FR", 
-        "sw_latitude": 45.779, 
+        "sw_latitude": 45.787, 
         "alias_FRE_V": [
           "CFE A\u00e9roport"
         ], 
-        "fullname": "A\u00e9roport de Clermont-Ferrand, Aulnat, Auvergne, Puy-de-Dome, France", 
+        "fullname": "A\u00e9roport de Clermont-Ferrand, Aulnat, Auvergne, France", 
         "alias_FRE_S": [
           "Aeroport Clermont-Ferrand"
         ]

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519878, 
+        "placetype": "airport", 
         "name": "General Electric Airport", 
-        "ne_latitude": 38.926, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12589527", 
+          "woe:state=2347594", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519878, 
         "ne_longitude": -83.322, 
         "longitude": -83.328, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589527, 
+        "ne_latitude": 38.926, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2451990, 
+        "sw_latitude": 38.917, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.922, 
         "sw_longitude": -83.334, 
-        "fullname": "General Electric Airport, Mineral Springs, Ohio, Adams, United States", 
-        "sw_latitude": 38.917
+        "fullname": "General Electric Airport, Mineral Springs, Ohio, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12519878
     }

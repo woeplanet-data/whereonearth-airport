@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515221, 
-        "name": "Chimbote Airport", 
         "alias_ENG_V": [
           "CHM"
         ], 
-        "ne_latitude": -9.140, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Chimbote Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26805935", 
+          "woe:state=2346469", 
+          "woe:country=23424919", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515221, 
         "ne_longitude": -78.516, 
         "longitude": -78.521, 
-        "placetype": "Airport", 
+        "parent_woeid": 26805935, 
+        "ne_latitude": -9.140, 
         "iso": "PE", 
-        "date_indexed": "2010-12-02T16:12:16Z", 
-        "parent_woeid": 418453, 
+        "sw_latitude": -9.149, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -9.145, 
         "sw_longitude": -78.525, 
-        "fullname": "Chimbote Airport, Chimbote, Ancash, Santa, Peru", 
-        "sw_latitude": -9.149
+        "fullname": "Chimbote Airport, Chimbote, Ancash, Peru", 
+        "iata_code": "CHM", 
+        "date_indexed": "2010-12-02T16:12:16Z"
       }, 
       "id": 12515221
     }

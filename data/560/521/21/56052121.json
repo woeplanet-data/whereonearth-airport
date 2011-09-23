@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 56052121, 
+        "placetype": "airport", 
         "name": "Flugplatz Hodenhagen", 
-        "ne_latitude": 52.767, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12629732", 
+          "woe:county=12596847", 
+          "woe:state=2345486", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56052121, 
         "ne_longitude": 9.616, 
         "longitude": 9.607, 
-        "placetype": "Airport", 
+        "parent_woeid": 12629732, 
+        "ne_latitude": 52.767, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 660676, 
+        "sw_latitude": 52.759, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 52.762, 
         "sw_longitude": 9.597, 
-        "fullname": "Flugplatz Hodenhagen, Hodenhagen, Lower Saxony, Soltau-Fallingbostel, Germany", 
-        "sw_latitude": 52.759
+        "fullname": "Flugplatz Hodenhagen, Hodenhagen, Lower Saxony, Germany", 
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 56052121
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388017, 
+        "placetype": "airport", 
         "name": "Dunbar Airport", 
-        "ne_latitude": 45.653, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12590571", 
+          "woe:state=2347608", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388017, 
         "ne_longitude": -88.178, 
         "longitude": -88.182, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590571, 
+        "ne_latitude": 45.653, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2394278, 
+        "sw_latitude": 45.649, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.653, 
         "sw_longitude": -88.186, 
-        "fullname": "Dunbar Airport, Dunbar, Wisconsin, Marinette, United States", 
-        "sw_latitude": 45.649
+        "fullname": "Dunbar Airport, Dunbar, Wisconsin, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388017
     }

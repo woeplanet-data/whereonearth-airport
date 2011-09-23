@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511598, 
-        "name": "Camrose Airport", 
         "alias_ENG_V": [
           "YCA"
         ], 
-        "ne_latitude": 53.045, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Camrose Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375228", 
+          "woe:state=2344915", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511598, 
         "ne_longitude": -112.808, 
         "longitude": -112.815, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375228, 
+        "ne_latitude": 53.045, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 8528, 
+        "sw_latitude": 53.031, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.032, 
         "sw_longitude": -112.821, 
-        "fullname": "Camrose Airport, Camrose, Alberta, Alberta, Canada", 
-        "sw_latitude": 53.031
+        "fullname": "Camrose Airport, Camrose, Alberta, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12511598
     }

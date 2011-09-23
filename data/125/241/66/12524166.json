@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524166, 
-        "name": "Clinton Creek Airport", 
         "alias_ENG_V": [
           "YLM Airport"
         ], 
-        "ne_latitude": 64.471, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Clinton Creek Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375157", 
+          "woe:state=2344926", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524166, 
         "ne_longitude": -140.722, 
         "longitude": -140.733, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375157, 
+        "ne_latitude": 64.471, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 4191, 
+        "sw_latitude": 64.462, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 64.467, 
         "sw_longitude": -140.744, 
-        "fullname": "Clinton Creek Airport, Clinton Creek, Yukon Territory, Yukon Territory, Canada", 
-        "sw_latitude": 64.462
+        "fullname": "Clinton Creek Airport, Clinton Creek, Yukon Territory, Canada", 
+        "iata_code": "YLM", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12524166
     }

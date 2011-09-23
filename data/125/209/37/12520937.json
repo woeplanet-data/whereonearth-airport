@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520937, 
-        "name": "Mid Valley Airport", 
         "alias_ENG_V": [
           "T65"
         ], 
-        "ne_latitude": 26.181, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Mid Valley Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590114", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520937, 
         "ne_longitude": -97.971, 
         "longitude": -97.975, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590114, 
+        "ne_latitude": 26.181, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2516522, 
+        "sw_latitude": 26.175, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 26.178, 
         "sw_longitude": -97.978, 
-        "fullname": "Mid Valley Airport, Weslaco, Texas, Hidalgo, United States", 
-        "sw_latitude": 26.175
+        "fullname": "Mid Valley Airport, Weslaco, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12520937
     }

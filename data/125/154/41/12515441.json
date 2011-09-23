@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515441, 
+        "placetype": "airport", 
         "name": "Espinho Airport", 
-        "ne_latitude": 40.986, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12596548", 
+          "woe:state=2346562", 
+          "woe:country=23424925", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515441, 
         "ne_longitude": -8.639, 
         "longitude": -8.645, 
-        "placetype": "Airport", 
+        "parent_woeid": 12596548, 
+        "ne_latitude": 40.986, 
         "iso": "PT", 
-        "date_indexed": "2010-12-02T10:00:50Z", 
-        "parent_woeid": 29383084, 
+        "sw_latitude": 40.977, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.981, 
         "sw_longitude": -8.651, 
-        "fullname": "Espinho Airport, Praia de Paramos, Aveiro, Espinho, Portugal", 
-        "sw_latitude": 40.977
+        "fullname": "Espinho Airport, Praia de Paramos, Aveiro, Portugal", 
+        "date_indexed": "2010-12-02T10:00:50Z"
       }, 
       "id": 12515441
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512733, 
+        "placetype": "airport", 
         "name": "Haljala Airport", 
-        "ne_latitude": 59.429, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=29389844", 
+          "woe:state=2345282", 
+          "woe:country=23424805", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512733, 
         "ne_longitude": 26.352, 
         "longitude": 26.343, 
-        "placetype": "Airport", 
+        "parent_woeid": 29389844, 
+        "ne_latitude": 59.429, 
         "iso": "EE", 
-        "date_indexed": "2010-12-02T16:43:34Z", 
-        "parent_woeid": 844797, 
+        "sw_latitude": 59.420, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 59.425, 
         "sw_longitude": 26.334, 
         "fullname": "Haljala Airport, Laane-Viru County, Haljala Parish, Estonia", 
-        "sw_latitude": 59.420
+        "date_indexed": "2010-12-02T16:43:34Z"
       }, 
       "id": 12512733
     }

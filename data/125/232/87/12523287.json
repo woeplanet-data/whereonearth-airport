@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523287, 
-        "name": "Shark Bay Airport", 
         "alias_ENG_V": [
           "MJK"
         ], 
-        "ne_latitude": -25.887, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Shark Bay Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55864375", 
+          "woe:state=2344706", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523287, 
         "ne_longitude": 113.579, 
         "longitude": 113.578, 
-        "placetype": "Airport", 
+        "parent_woeid": 55864375, 
+        "ne_latitude": -25.887, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1101640, 
+        "sw_latitude": -25.905, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -25.888, 
         "sw_longitude": 113.575, 
-        "fullname": "Shark Bay Airport, Denham, Western Australia, Shark Bay, Australia", 
-        "sw_latitude": -25.905
+        "fullname": "Shark Bay Airport, Denham, Western Australia, Australia", 
+        "iata_code": "MJK", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 12523287
     }

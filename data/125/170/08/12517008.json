@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517008, 
+        "placetype": "airport", 
         "name": "Tiksi West Airport", 
-        "ne_latitude": 71.686, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597626", 
+          "woe:state=2346881", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517008, 
         "ne_longitude": 128.677, 
         "longitude": 128.662, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597626, 
+        "ne_latitude": 71.686, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2123897, 
+        "sw_latitude": 71.677, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 71.681, 
         "sw_longitude": 128.648, 
         "fullname": "Tiksi West Airport, Sakha, Bulunsky, Russia", 
-        "sw_latitude": 71.677
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12517008
     }

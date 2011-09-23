@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522957, 
+        "placetype": "airport", 
         "name": "Tay Ninh West Airport", 
-        "ne_latitude": 11.334, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2347714", 
+          "woe:country=23424984", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522957, 
         "ne_longitude": 106.074, 
         "longitude": 106.070, 
-        "placetype": "Airport", 
+        "parent_woeid": 2347714, 
+        "ne_latitude": 11.334, 
         "iso": "VN", 
-        "date_indexed": "2010-12-02T08:52:49Z", 
-        "parent_woeid": 1252601, 
+        "sw_latitude": 11.325, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 11.330, 
         "sw_longitude": 106.065, 
         "fullname": "Tay Ninh West Airport, Tai nin, Tay Ninh, Vietnam", 
-        "sw_latitude": 11.325
+        "date_indexed": "2010-12-02T08:52:49Z"
       }, 
       "id": 12522957
     }

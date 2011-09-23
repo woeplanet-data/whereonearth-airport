@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513112, 
+        "placetype": "airport", 
         "name": "Grafenwohr Army Air Field", 
-        "ne_latitude": 49.703, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12634268", 
+          "woe:county=12596906", 
+          "woe:state=2345482", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513112, 
         "ne_longitude": 11.950, 
         "longitude": 11.943, 
-        "placetype": "Airport", 
+        "parent_woeid": 12634268, 
+        "ne_latitude": 49.703, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:24Z", 
-        "parent_woeid": 657039, 
+        "sw_latitude": 49.694, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.699, 
         "sw_longitude": 11.936, 
-        "fullname": "Grafenwohr Army Air Field, Hammergm\u00fcnd, Bavaria, Landkreis Neustadt an der Waldnaab, Germany", 
-        "sw_latitude": 49.694
+        "fullname": "Grafenwohr Army Air Field, Hammergm\u00fcnd, Bavaria, Germany", 
+        "date_indexed": "2010-12-02T09:50:24Z"
       }, 
       "id": 12513112
     }

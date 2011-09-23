@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514380, 
+        "placetype": "airport", 
         "name": "Khlebodarovskiy Airport", 
-        "ne_latitude": 50.539, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345980", 
+          "woe:country=23424871", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514380, 
         "ne_longitude": 56.857, 
         "longitude": 56.850, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345980, 
+        "ne_latitude": 50.539, 
         "iso": "KZ", 
-        "date_indexed": "2010-12-02T08:54:13Z", 
-        "parent_woeid": 2264495, 
+        "sw_latitude": 50.530, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.534, 
         "sw_longitude": 56.843, 
         "fullname": "Khlebodarovskiy Airport, Aqtobe, Kazakhstan", 
-        "sw_latitude": 50.530
+        "date_indexed": "2010-12-02T08:54:13Z"
       }, 
       "id": 12514380
     }

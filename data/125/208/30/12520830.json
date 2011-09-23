@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520830, 
-        "name": "Marysville Municipal Airport", 
         "alias_ENG_V": [
           "MYZ"
         ], 
-        "ne_latitude": 39.859, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Marysville Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588428", 
+          "woe:state=2347575", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520830, 
         "ne_longitude": -96.626, 
         "longitude": -96.633, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588428, 
+        "ne_latitude": 39.859, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2446572, 
+        "sw_latitude": 39.849, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 39.853, 
         "sw_longitude": -96.634, 
-        "fullname": "Marysville Municipal Airport, Marysville, Kansas, Marshall, United States", 
-        "sw_latitude": 39.849
+        "fullname": "Marysville Municipal Airport, Marysville, Kansas, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520830
     }

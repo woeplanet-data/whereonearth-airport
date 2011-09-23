@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521044, 
-        "name": "Mountain Empire Airport", 
         "alias_ENG_V": [
           "MKJ"
         ], 
-        "ne_latitude": 36.897, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Mountain Empire Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590420", 
+          "woe:state=2347605", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521044, 
         "ne_longitude": -81.341, 
         "longitude": -81.343, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590420, 
+        "ne_latitude": 36.897, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2415188, 
+        "sw_latitude": 36.891, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.895, 
         "sw_longitude": -81.360, 
-        "fullname": "Mountain Empire Airport, Groseclose, Virginia, Smyth, United States", 
-        "sw_latitude": 36.891
+        "fullname": "Mountain Empire Airport, Groseclose, Virginia, United States", 
+        "iata_code": "MKJ", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12521044
     }

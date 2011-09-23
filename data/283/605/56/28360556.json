@@ -32,26 +32,32 @@
       "type": "Feature", 
       "properties": {
         "lang": "JPN", 
-        "woeid": 28360556, 
         "name": "\u6803\u6728\u30d8\u30ea\u30dd\u30fc\u30c8", 
         "alias_ENG_P": [
           "Tochigi Heliport"
         ], 
-        "ne_latitude": 36.564, 
+        "parent_woeid": 24857669, 
+        "woeid": 28360556, 
+        "provider": "geoplanet 7.6.0", 
         "alias_JPN_V": [
           "\u6803\u6728\u3078\u30ea\u30dd\u30fc\u30c8"
         ], 
-        "ne_longitude": 140.012, 
         "longitude": 140.007, 
-        "parent_woeid": 24707262, 
-        "placetype": "Airport", 
+        "ne_longitude": 140.012, 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=24857669", 
+          "woe:state=2345887", 
+          "woe:country=23424856", 
+          "woe:planet=1"
+        ], 
         "iso": "JP", 
-        "date_indexed": "2010-12-02T08:09:09Z", 
-        "provider": "geoplanet 7.6.0", 
+        "sw_latitude": 36.555, 
+        "ne_latitude": 36.564, 
         "latitude": 36.560, 
         "sw_longitude": 140.001, 
-        "fullname": "\u6803\u6728\u30d8\u30ea\u30dd\u30fc\u30c8, Haga-machi, Tochigi Prefecture, Haga-gun, Japan", 
-        "sw_latitude": 36.555
+        "fullname": "\u6803\u6728\u30d8\u30ea\u30dd\u30fc\u30c8, Haga-machi, Tochigi Prefecture, Japan", 
+        "date_indexed": "2010-12-02T08:09:09Z"
       }, 
       "id": 28360556
     }

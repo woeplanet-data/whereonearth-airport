@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519415, 
-        "name": "Darlington County Airport", 
         "alias_ENG_V": [
           "Udg"
         ], 
-        "ne_latitude": 34.450, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Darlington County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589815", 
+          "woe:state=2347599", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519415, 
         "ne_longitude": -79.879, 
         "longitude": -79.885, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589815, 
+        "ne_latitude": 34.450, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:15Z", 
-        "parent_woeid": 2408633, 
+        "sw_latitude": 34.439, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 34.445, 
         "sw_longitude": -79.892, 
-        "fullname": "Darlington County Airport, Gandy, South Carolina, Darlington, United States", 
-        "sw_latitude": 34.439
+        "fullname": "Darlington County Airport, Gandy, South Carolina, United States", 
+        "date_indexed": "2010-12-02T18:39:15Z"
       }, 
       "id": 12519415
     }

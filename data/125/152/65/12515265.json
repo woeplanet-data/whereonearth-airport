@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515265, 
+        "placetype": "airport", 
         "name": "Sahiwal Airport", 
-        "ne_latitude": 31.892, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2346498", 
+          "woe:country=23424922", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515265, 
         "ne_longitude": 72.316, 
         "longitude": 72.311, 
-        "placetype": "Airport", 
+        "parent_woeid": 2346498, 
+        "ne_latitude": 31.892, 
         "iso": "PK", 
-        "date_indexed": "2010-12-02T17:56:57Z", 
-        "parent_woeid": 2208452, 
+        "sw_latitude": 31.883, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 31.888, 
         "sw_longitude": 72.306, 
         "fullname": "Sahiwal Airport, Punjab, Pakistan", 
-        "sw_latitude": 31.883
+        "date_indexed": "2010-12-02T17:56:57Z"
       }, 
       "id": 12515265
     }

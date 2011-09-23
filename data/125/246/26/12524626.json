@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524626, 
-        "name": "Cube Cove Airport", 
         "alias_ENG_V": [
           "CUW"
         ], 
-        "ne_latitude": 58.353, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Cube Cove Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587563", 
+          "woe:state=2347560", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524626, 
         "ne_longitude": -133.768, 
         "longitude": -133.777, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587563, 
+        "ne_latitude": 58.353, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2430300, 
+        "sw_latitude": 58.344, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 58.348, 
         "sw_longitude": -133.786, 
-        "fullname": "Cube Cove Airport, Juneau, Alaska, City and Borough of Juneau, United States", 
-        "sw_latitude": 58.344
+        "fullname": "Cube Cove Airport, Juneau, Alaska, United States", 
+        "iata_code": "CUW", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12524626
     }

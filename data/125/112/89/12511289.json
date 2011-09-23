@@ -32,29 +32,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511289, 
-        "name": "Aeroporto Presidente Prudente", 
-        "alias_ENG_P": [
-          "Presidente Prudente Airport"
-        ], 
-        "ne_latitude": -22.173, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "PPB"
         ], 
+        "name": "Aeroporto Presidente Prudente", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Presidente Prudente Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12582236", 
+          "woe:state=2344868", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511289, 
         "ne_longitude": -51.416, 
         "longitude": -51.421, 
-        "placetype": "Airport", 
+        "parent_woeid": 12582236, 
+        "ne_latitude": -22.173, 
         "alias_POR_V": [
           "Aeroporto PPB"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 431749, 
+        "sw_latitude": -22.182, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -22.178, 
         "sw_longitude": -51.426, 
-        "fullname": "Aeroporto Presidente Prudente, Espig\u00e3o, Sao Paulo, Regente Feij\u00f3, Brazil", 
-        "sw_latitude": -22.182
+        "fullname": "Aeroporto Presidente Prudente, Espig\u00e3o, Sao Paulo, Brazil", 
+        "iata_code": "PPB", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511289
     }

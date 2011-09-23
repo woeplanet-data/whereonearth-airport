@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388039, 
-        "name": "Elkader Municipal Airport", 
         "alias_ENG_V": [
           "I27"
         ], 
-        "ne_latitude": 42.850, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Elkader Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588293", 
+          "woe:state=2347574", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388039, 
         "ne_longitude": -91.378, 
         "longitude": -91.383, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588293, 
+        "ne_latitude": 42.850, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2398454, 
+        "sw_latitude": 42.844, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.847, 
         "sw_longitude": -91.384, 
-        "fullname": "Elkader Municipal Airport, Elkader, Iowa, Clayton, United States", 
-        "sw_latitude": 42.844
+        "fullname": "Elkader Municipal Airport, Elkader, Iowa, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388039
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521842, 
-        "name": "Shoshone County Airport", 
         "alias_ENG_V": [
           "S83"
         ], 
-        "ne_latitude": 47.548, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Shoshone County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588073", 
+          "woe:state=2347571", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521842, 
         "ne_longitude": -116.175, 
         "longitude": -116.188, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588073, 
+        "ne_latitude": 47.548, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2494821, 
+        "sw_latitude": 47.546, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.548, 
         "sw_longitude": -116.201, 
-        "fullname": "Shoshone County Airport, Smelterville, Idaho, Shoshone, United States", 
-        "sw_latitude": 47.546
+        "fullname": "Shoshone County Airport, Smelterville, Idaho, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521842
     }

@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512200, 
+        "placetype": "airport", 
         "name": "Suiyang Airport", 
-        "ne_latitude": 27.816, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=20071171", 
+          "woe:county=26198206", 
+          "woe:state=12578007", 
+          "woe:country=23424781", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512200, 
         "ne_longitude": 107.229, 
         "longitude": 107.224, 
-        "placetype": "Airport", 
+        "parent_woeid": 20071171, 
+        "ne_latitude": 27.816, 
         "iso": "CN", 
-        "date_indexed": "2010-12-02T08:51:54Z", 
-        "parent_woeid": 2147160, 
+        "sw_latitude": 27.807, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 27.812, 
         "sw_longitude": 107.219, 
-        "fullname": "Suiyang Airport, Xinzhou, Guizhou, Zunyi, China", 
-        "sw_latitude": 27.807
+        "fullname": "Suiyang Airport, Xinzhou, Guizhou, China", 
+        "date_indexed": "2010-12-02T08:51:54Z"
       }, 
       "id": 12512200
     }

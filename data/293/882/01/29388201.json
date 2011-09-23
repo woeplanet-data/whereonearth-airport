@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388201, 
-        "name": "Searcy County Airport", 
         "alias_ENG_V": [
           "4a5"
         ], 
-        "ne_latitude": 35.903, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Searcy County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587658", 
+          "woe:state=2347562", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388201, 
         "ne_longitude": -92.650, 
         "longitude": -92.660, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587658, 
+        "ne_latitude": 35.903, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2446112, 
+        "sw_latitude": 35.893, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.899, 
         "sw_longitude": -92.667, 
-        "fullname": "Searcy County Airport, Marshall, Arkansas, Searcy, United States", 
-        "sw_latitude": 35.893
+        "fullname": "Searcy County Airport, Marshall, Arkansas, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388201
     }

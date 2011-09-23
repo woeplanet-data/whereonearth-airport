@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523707, 
-        "name": "Santa Rosalia Airport", 
         "alias_ENG_V": [
           "SSL"
         ], 
-        "ne_latitude": 5.121, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Santa Rosalia Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26797675", 
+          "woe:state=2345076", 
+          "woe:country=23424787", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523707, 
         "ne_longitude": -70.862, 
         "longitude": -70.867, 
-        "placetype": "Airport", 
+        "parent_woeid": 26797675, 
+        "ne_latitude": 5.121, 
         "iso": "CO", 
-        "date_indexed": "2010-12-02T17:57:37Z", 
-        "parent_woeid": 366624, 
+        "sw_latitude": 5.112, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 5.117, 
         "sw_longitude": -70.871, 
-        "fullname": "Santa Rosalia Airport, Santa Rosal\u00eda, Vichada, Santa Rosalia, Colombia", 
-        "sw_latitude": 5.112
+        "fullname": "Santa Rosalia Airport, Santa Rosal\u00eda, Vichada, Colombia", 
+        "iata_code": "SSL", 
+        "date_indexed": "2010-12-02T17:57:37Z"
       }, 
       "id": 12523707
     }

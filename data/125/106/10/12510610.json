@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510610, 
-        "name": "Blackwater Aerodrome", 
         "alias_ENG_V": [
           "Blackwater Airport"
         ], 
-        "ne_latitude": -23.597, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Blackwater Aerodrome", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=56072993", 
+          "woe:state=2344702", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510610, 
         "ne_longitude": 148.810, 
         "longitude": 148.805, 
-        "placetype": "Airport", 
+        "parent_woeid": 56072993, 
+        "ne_latitude": -23.597, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 28596110, 
+        "sw_latitude": -23.606, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -23.601, 
         "sw_longitude": 148.800, 
-        "fullname": "Blackwater Aerodrome, Stewarton, Queensland, Duaringa, Australia", 
-        "sw_latitude": -23.606
+        "fullname": "Blackwater Aerodrome, Stewarton, Queensland, Australia", 
+        "iata_code": "BLT", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 12510610
     }

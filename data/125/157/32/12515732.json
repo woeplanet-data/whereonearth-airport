@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515732, 
+        "placetype": "airport", 
         "name": "Arsenyev North Airport", 
-        "ne_latitude": 44.228, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597900", 
+          "woe:state=2346886", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515732, 
         "ne_longitude": 133.275, 
         "longitude": 133.268, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597900, 
+        "ne_latitude": 44.228, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 1984136, 
+        "sw_latitude": 44.219, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.224, 
         "sw_longitude": 133.262, 
-        "fullname": "Arsenyev North Airport, Arsen'yev, Primorskiy Kray, Arsenyev, Russia", 
-        "sw_latitude": 44.219
+        "fullname": "Arsenyev North Airport, Arsen'yev, Primorskiy Kray, Russia", 
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12515732
     }

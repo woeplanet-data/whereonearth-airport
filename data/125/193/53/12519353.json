@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519353, 
-        "name": "Crane County Airport", 
         "alias_ENG_V": [
           "CCG"
         ], 
-        "ne_latitude": 31.418, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Crane County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590058", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519353, 
         "ne_longitude": -102.353, 
         "longitude": -102.355, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590058, 
+        "ne_latitude": 31.418, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2386678, 
+        "sw_latitude": 31.406, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 31.406, 
         "sw_longitude": -102.366, 
-        "fullname": "Crane County Airport, Crane, Texas, Crane, United States", 
-        "sw_latitude": 31.406
+        "fullname": "Crane County Airport, Crane, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519353
     }

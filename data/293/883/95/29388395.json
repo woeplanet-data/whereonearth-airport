@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388395, 
-        "name": "Twin Mountain Airport", 
         "alias_ENG_V": [
           "8b2"
         ], 
-        "ne_latitude": 44.267, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Twin Mountain Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589251", 
+          "woe:state=2347588", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388395, 
         "ne_longitude": -71.541, 
         "longitude": -71.546, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589251, 
+        "ne_latitude": 44.267, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2375486, 
+        "sw_latitude": 44.263, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.266, 
         "sw_longitude": -71.552, 
-        "fullname": "Twin Mountain Airport, Carroll, New Hampshire, Coos, United States", 
-        "sw_latitude": 44.263
+        "fullname": "Twin Mountain Airport, Carroll, New Hampshire, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388395
     }

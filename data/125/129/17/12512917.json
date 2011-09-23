@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512917, 
+        "placetype": "airport", 
         "name": "Le Cannet Airport", 
-        "ne_latitude": 43.390, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12664673", 
+          "woe:county=12597187", 
+          "woe:state=7153328", 
+          "woe:country=23424819", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512917, 
         "ne_longitude": 6.394, 
         "longitude": 6.388, 
-        "placetype": "Airport", 
+        "parent_woeid": 12664673, 
+        "ne_latitude": 43.390, 
         "iso": "FR", 
-        "date_indexed": "2010-12-02T12:04:01Z", 
-        "parent_woeid": 602419, 
+        "sw_latitude": 43.381, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.386, 
         "sw_longitude": 6.382, 
-        "fullname": "Le Cannet Airport, Le Cannet, Provence-Alpes-Cote d'Azur, Var, France", 
-        "sw_latitude": 43.381
+        "fullname": "Le Cannet Airport, Le Cannet, Provence-Alpes-Cote d'Azur, France", 
+        "date_indexed": "2010-12-02T12:04:01Z"
       }, 
       "id": 12512917
     }

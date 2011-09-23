@@ -3,28 +3,74 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -108.546, 
-              39.106
-            ], 
-            [
-              -108.546, 
-              39.136
-            ], 
-            [
-              -108.507, 
-              39.136
-            ], 
-            [
-              -108.507, 
-              39.106
-            ], 
-            [
-              -108.546, 
-              39.106
+              [
+                -108.524, 
+                39.122
+              ], 
+              [
+                -108.523, 
+                39.121
+              ], 
+              [
+                -108.517, 
+                39.119
+              ], 
+              [
+                -108.523, 
+                39.118
+              ], 
+              [
+                -108.530, 
+                39.117
+              ], 
+              [
+                -108.531, 
+                39.122
+              ], 
+              [
+                -108.532, 
+                39.124
+              ], 
+              [
+                -108.537, 
+                39.126
+              ], 
+              [
+                -108.540, 
+                39.128
+              ], 
+              [
+                -108.537, 
+                39.129
+              ], 
+              [
+                -108.537, 
+                39.128
+              ], 
+              [
+                -108.531, 
+                39.125
+              ], 
+              [
+                -108.529, 
+                39.125
+              ], 
+              [
+                -108.529, 
+                39.126
+              ], 
+              [
+                -108.525, 
+                39.123
+              ], 
+              [
+                -108.524, 
+                39.122
+              ]
             ]
           ]
         ]
@@ -32,23 +78,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522315, 
-        "name": "Walker Field Airport", 
         "alias_ENG_V": [
           "Grand Junction Airport"
         ], 
-        "ne_latitude": 39.136, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -108.507, 
-        "longitude": -108.529, 
-        "placetype": "Airport", 
-        "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
+        "name": "Walker Field Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:suburb=55859436", 
+          "woe:county=12587766", 
+          "woe:state=2347564", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522315, 
+        "ne_longitude": -108.517, 
+        "longitude": -108.528, 
         "parent_woeid": 55859436, 
+        "ne_latitude": 39.129, 
+        "iso": "US", 
+        "sw_latitude": 39.117, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 39.122, 
-        "sw_longitude": -108.546, 
-        "fullname": "Walker Field Airport, Grand Junction, Colorado, Mesa, United States", 
-        "sw_latitude": 39.106
+        "sw_longitude": -108.540, 
+        "fullname": "Walker Field Airport, Grand Junction, Colorado, United States", 
+        "iata_code": "GJT", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522315
     }

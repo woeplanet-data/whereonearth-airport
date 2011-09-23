@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388526, 
-        "name": "Ocean Isle Beach Airport", 
         "alias_ENG_V": [
           "60j"
         ], 
-        "ne_latitude": 33.914, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Ocean Isle Beach Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589383", 
+          "woe:state=2347592", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388526, 
         "ne_longitude": -78.427, 
         "longitude": -78.431, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589383, 
+        "ne_latitude": 33.914, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2464078, 
+        "sw_latitude": 33.904, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 33.910, 
         "sw_longitude": -78.442, 
-        "fullname": "Ocean Isle Beach Airport, Ocean Isle Beach, North Carolina, Brunswick, United States", 
-        "sw_latitude": 33.904
+        "fullname": "Ocean Isle Beach Airport, Ocean Isle Beach, North Carolina, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388526
     }

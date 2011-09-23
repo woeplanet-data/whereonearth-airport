@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518151, 
-        "name": "Southend Airport", 
         "alias_ENG_V": [
           "SEN Airport"
         ], 
-        "ne_latitude": 51.572, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Southend Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=12695949", 
+          "woe:county=12602168", 
+          "woe:state=24554868", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518151, 
         "ne_longitude": 0.707, 
         "longitude": 0.701, 
-        "placetype": "Airport", 
+        "parent_woeid": 12695949, 
+        "ne_latitude": 51.572, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:21:01Z", 
-        "parent_woeid": 33430, 
+        "sw_latitude": 51.563, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.567, 
         "sw_longitude": 0.692, 
-        "fullname": "Southend Airport, Rochford, England, Essex, United Kingdom", 
-        "sw_latitude": 51.563
+        "fullname": "Southend Airport, Rochford, England, United Kingdom", 
+        "date_indexed": "2010-12-02T12:21:01Z"
       }, 
       "id": 12518151
     }

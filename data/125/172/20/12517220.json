@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517220, 
+        "placetype": "airport", 
         "name": "Vyborg East Airport", 
-        "ne_latitude": 60.676, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598668", 
+          "woe:state=2346907", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517220, 
         "ne_longitude": 29.196, 
         "longitude": 29.187, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598668, 
+        "ne_latitude": 60.676, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2118364, 
+        "sw_latitude": 60.667, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 60.671, 
         "sw_longitude": 29.177, 
         "fullname": "Vyborg East Airport, Leningradskaya Oblast, Vyborgsky, Russia", 
-        "sw_latitude": 60.667
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12517220
     }

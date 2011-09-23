@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "SWE", 
-        "woeid": 12517673, 
+        "placetype": "airport", 
         "name": "Satenas Flygplats", 
         "alias_ENG_P": [
           "Satenas Airport"
         ], 
-        "ne_latitude": 58.433, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12587389", 
+          "woe:state=20070562", 
+          "woe:country=23424954", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517673, 
         "ne_longitude": 12.723, 
         "longitude": 12.714, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587389, 
+        "ne_latitude": 58.433, 
         "iso": "SE", 
-        "date_indexed": "2010-12-02T16:45:55Z", 
-        "parent_woeid": 908193, 
+        "sw_latitude": 58.424, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 58.429, 
         "sw_longitude": 12.705, 
-        "fullname": "Satenas Flygplats, S\u00e5ten\u00e4s Villastad, Vastra Gotaland, Lidk\u00f6ping, Sweden", 
-        "sw_latitude": 58.424
+        "fullname": "Satenas Flygplats, S\u00e5ten\u00e4s Villastad, Vastra Gotaland, Sweden", 
+        "date_indexed": "2010-12-02T16:45:55Z"
       }, 
       "id": 12517673
     }

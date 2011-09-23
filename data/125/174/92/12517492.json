@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517492, 
+        "placetype": "airport", 
         "name": "Vereeniging Airport", 
-        "ne_latitude": -26.562, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=56189548", 
+          "woe:county=56189408", 
+          "woe:state=2346981", 
+          "woe:country=23424942", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517492, 
         "ne_longitude": 27.966, 
         "longitude": 27.961, 
-        "placetype": "Airport", 
+        "parent_woeid": 56189548, 
+        "ne_latitude": -26.562, 
         "iso": "ZA", 
-        "date_indexed": "2010-12-02T08:57:52Z", 
-        "parent_woeid": 1588588, 
+        "sw_latitude": -26.571, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -26.567, 
         "sw_longitude": 27.956, 
-        "fullname": "Vereeniging Airport, Vereeniging, Gauteng, Vereeniging, South Africa", 
-        "sw_latitude": -26.571
+        "fullname": "Vereeniging Airport, Vereeniging, Gauteng, South Africa", 
+        "date_indexed": "2010-12-02T08:57:52Z"
       }, 
       "id": 12517492
     }

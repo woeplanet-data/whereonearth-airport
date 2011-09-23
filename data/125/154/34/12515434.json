@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515434, 
+        "placetype": "airport", 
         "name": "Alverca Airport", 
-        "ne_latitude": 38.888, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12596432", 
+          "woe:state=2346573", 
+          "woe:country=23424925", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515434, 
         "ne_longitude": -9.024, 
         "longitude": -9.030, 
-        "placetype": "Airport", 
+        "parent_woeid": 12596432, 
+        "ne_latitude": 38.888, 
         "iso": "PT", 
-        "date_indexed": "2010-12-02T10:00:50Z", 
-        "parent_woeid": 29382787, 
+        "sw_latitude": 38.879, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.884, 
         "sw_longitude": -9.036, 
-        "fullname": "Alverca Airport, Verdelha, Lisbon, Vila Franca de Xira, Portugal", 
-        "sw_latitude": 38.879
+        "fullname": "Alverca Airport, Verdelha, Lisbon, Portugal", 
+        "date_indexed": "2010-12-02T10:00:50Z"
       }, 
       "id": 12515434
     }

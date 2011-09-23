@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513216, 
+        "placetype": "airport", 
         "name": "Reinsdore Airport", 
-        "ne_latitude": 51.896, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=24547317", 
+          "woe:county=12596900", 
+          "woe:state=2345491", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513216, 
         "ne_longitude": 13.196, 
         "longitude": 13.189, 
-        "placetype": "Airport", 
+        "parent_woeid": 24547317, 
+        "ne_latitude": 51.896, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 653748, 
+        "sw_latitude": 51.887, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.892, 
         "sw_longitude": 13.182, 
-        "fullname": "Reinsdore Airport, Gr\u00e4fendorf, Brandenburg, Teltow-Fl\u00e4ming, Germany", 
+        "fullname": "Reinsdore Airport, Gr\u00e4fendorf, Brandenburg, Germany", 
         "alias_GER_Q": [
           "Flughafen Reinsdore"
         ], 
-        "sw_latitude": 51.887
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 12513216
     }

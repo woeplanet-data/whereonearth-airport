@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523173, 
-        "name": "Merimbula Aerodrome", 
         "alias_ENG_V": [
           "Merimbula Airport"
         ], 
-        "ne_latitude": -36.900, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Merimbula Aerodrome", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55864267", 
+          "woe:state=2344700", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523173, 
         "ne_longitude": 149.908, 
         "longitude": 149.901, 
-        "placetype": "Airport", 
+        "parent_woeid": 55864267, 
+        "ne_latitude": -36.900, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1097226, 
+        "sw_latitude": -36.914, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -36.909, 
         "sw_longitude": 149.896, 
-        "fullname": "Merimbula Aerodrome, Merimbula, New South Wales, Bega Valley, Australia", 
-        "sw_latitude": -36.914
+        "fullname": "Merimbula Aerodrome, Merimbula, New South Wales, Australia", 
+        "iata_code": "MIM", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 12523173
     }

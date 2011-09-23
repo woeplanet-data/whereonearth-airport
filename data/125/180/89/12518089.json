@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518089, 
-        "name": "Filton Airport", 
         "alias_ENG_V": [
           "FZO"
         ], 
-        "ne_latitude": 51.524, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Filton Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=12696146", 
+          "woe:county=12602184", 
+          "woe:state=24554868", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518089, 
         "ne_longitude": -2.569, 
         "longitude": -2.576, 
-        "placetype": "Airport", 
+        "parent_woeid": 12696146, 
+        "ne_latitude": 51.524, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:20:54Z", 
-        "parent_woeid": 20173, 
+        "sw_latitude": 51.515, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.519, 
         "sw_longitude": -2.583, 
-        "fullname": "Filton Airport, Filton, England, Gloucestershire, United Kingdom", 
-        "sw_latitude": 51.515
+        "fullname": "Filton Airport, Filton, England, United Kingdom", 
+        "date_indexed": "2010-12-02T12:20:54Z"
       }, 
       "id": 12518089
     }

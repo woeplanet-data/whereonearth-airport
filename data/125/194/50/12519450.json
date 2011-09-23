@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519450, 
-        "name": "Del Norte Municipal and County Airport", 
         "alias_ENG_V": [
           "Del Norte Municipal & County Airport"
         ], 
-        "ne_latitude": 37.722, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Del Norte Municipal and County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587780", 
+          "woe:state=2347564", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519450, 
         "ne_longitude": -106.346, 
         "longitude": -106.351, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587780, 
+        "ne_latitude": 37.722, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2390691, 
+        "sw_latitude": 37.706, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 37.716, 
         "sw_longitude": -106.364, 
-        "fullname": "Del Norte Municipal and County Airport, Del Norte, Colorado, Rio Grande, United States", 
-        "sw_latitude": 37.706
+        "fullname": "Del Norte Municipal and County Airport, Del Norte, Colorado, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519450
     }

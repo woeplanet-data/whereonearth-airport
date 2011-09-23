@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "FRE", 
-        "woeid": 56051777, 
+        "placetype": "airport", 
         "name": "A\u00e9rodrome de Lons-le-saunier", 
-        "ne_latitude": 46.682, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12649574", 
+          "woe:county=12597120", 
+          "woe:state=7153317", 
+          "woe:country=23424819", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56051777, 
         "ne_longitude": 5.481, 
         "longitude": 5.462, 
-        "placetype": "Airport", 
+        "parent_woeid": 12649574, 
+        "ne_latitude": 46.682, 
         "iso": "FR", 
-        "date_indexed": "2010-12-02T12:04:01Z", 
-        "parent_woeid": 612932, 
+        "sw_latitude": 46.672, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.675, 
         "sw_longitude": 5.460, 
-        "fullname": "A\u00e9rodrome de Lons-le-saunier, Montmorot, Franche-Comte, Jura, France", 
+        "fullname": "A\u00e9rodrome de Lons-le-saunier, Montmorot, Franche-Comte, France", 
         "alias_FRE_S": [
           "Aerodrome de Lons-le-saunier"
         ], 
-        "sw_latitude": 46.672
+        "date_indexed": "2010-12-02T12:04:01Z"
       }, 
       "id": 56051777
     }

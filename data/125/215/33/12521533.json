@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521533, 
-        "name": "Ravalli County Airport", 
         "alias_ENG_V": [
           "6s5"
         ], 
-        "ne_latitude": 46.259, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Ravalli County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589121", 
+          "woe:state=2347585", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521533, 
         "ne_longitude": -114.124, 
         "longitude": -114.128, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589121, 
+        "ne_latitude": 46.259, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2416594, 
+        "sw_latitude": 46.244, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.253, 
         "sw_longitude": -114.129, 
-        "fullname": "Ravalli County Airport, Hamilton, Montana, Ravalli, United States", 
-        "sw_latitude": 46.244
+        "fullname": "Ravalli County Airport, Hamilton, Montana, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521533
     }

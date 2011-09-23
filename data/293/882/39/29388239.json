@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388239, 
-        "name": "Oscoda County Airport", 
         "alias_ENG_V": [
           "51m"
         ], 
-        "ne_latitude": 44.680, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Oscoda County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588781", 
+          "woe:state=2347581", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388239, 
         "ne_longitude": -84.118, 
         "longitude": -84.128, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588781, 
+        "ne_latitude": 44.680, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2364209, 
+        "sw_latitude": 44.674, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.677, 
         "sw_longitude": -84.130, 
-        "fullname": "Oscoda County Airport, Biggs Settlement, Michigan, Oscoda, United States", 
-        "sw_latitude": 44.674
+        "fullname": "Oscoda County Airport, Biggs Settlement, Michigan, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388239
     }

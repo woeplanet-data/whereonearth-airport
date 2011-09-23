@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512412, 
-        "name": "Santa Ana Airport", 
         "alias_ENG_V": [
           "SQB"
         ], 
-        "ne_latitude": 4.761, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Santa Ana Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26797567", 
+          "woe:state=2345074", 
+          "woe:country=23424787", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512412, 
         "ne_longitude": -75.951, 
         "longitude": -75.956, 
-        "placetype": "Airport", 
+        "parent_woeid": 26797567, 
+        "ne_latitude": 4.761, 
         "iso": "CO", 
-        "date_indexed": "2010-12-02T17:57:37Z", 
-        "parent_woeid": 368258, 
+        "sw_latitude": 4.752, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 4.757, 
         "sw_longitude": -75.960, 
-        "fullname": "Santa Ana Airport, Ansermanuevo, Valle del Cauca, Ansermanuevo, Colombia", 
-        "sw_latitude": 4.752
+        "fullname": "Santa Ana Airport, Ansermanuevo, Valle del Cauca, Colombia", 
+        "iata_code": "SQB", 
+        "date_indexed": "2010-12-02T17:57:37Z"
       }, 
       "id": 12512412
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522098, 
+        "placetype": "airport", 
         "name": "Temple Bar Airport", 
-        "ne_latitude": 36.025, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12587588", 
+          "woe:state=2347561", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522098, 
         "ne_longitude": -114.329, 
         "longitude": -114.334, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587588, 
+        "ne_latitude": 36.025, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2504667, 
+        "sw_latitude": 36.016, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.021, 
         "sw_longitude": -114.340, 
-        "fullname": "Temple Bar Airport, Temple Bar Marina, Arizona, Mohave, United States", 
-        "sw_latitude": 36.016
+        "fullname": "Temple Bar Airport, Temple Bar Marina, Arizona, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12522098
     }

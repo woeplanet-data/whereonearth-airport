@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522313, 
-        "name": "Walker County Airport-Bevill Field", 
         "alias_ENG_V": [
           "JFX"
         ], 
-        "ne_latitude": 33.906, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Walker County Airport-Bevill Field", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587550", 
+          "woe:state=2347559", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522313, 
         "ne_longitude": -87.305, 
         "longitude": -87.316, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587550, 
+        "ne_latitude": 33.906, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2444642, 
+        "sw_latitude": 33.901, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 33.905, 
         "sw_longitude": -87.328, 
-        "fullname": "Walker County Airport-Bevill Field, Manchester, Alabama, Walker, United States", 
-        "sw_latitude": 33.901
+        "fullname": "Walker County Airport-Bevill Field, Manchester, Alabama, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522313
     }

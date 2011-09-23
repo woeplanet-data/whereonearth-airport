@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520377, 
-        "name": "John Day State Airport", 
         "alias_ENG_V": [
           "Jda"
         ], 
-        "ne_latitude": 44.412, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "John Day State Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589703", 
+          "woe:state=2347596", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520377, 
         "ne_longitude": -118.960, 
         "longitude": -118.965, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589703, 
+        "ne_latitude": 44.412, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2374561, 
+        "sw_latitude": 44.395, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.397, 
         "sw_longitude": -118.979, 
-        "fullname": "John Day State Airport, Canyon City, Oregon, Grant, United States", 
-        "sw_latitude": 44.395
+        "fullname": "John Day State Airport, Canyon City, Oregon, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520377
     }

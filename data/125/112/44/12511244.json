@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511244, 
+        "placetype": "airport", 
         "name": "Aeroporto Nova Ponte", 
         "alias_ENG_P": [
           "Nova Ponte Airport"
         ], 
-        "ne_latitude": -19.195, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12579854", 
+          "woe:state=2344856", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511244, 
         "ne_longitude": -47.722, 
         "longitude": -47.727, 
-        "placetype": "Airport", 
+        "parent_woeid": 12579854, 
+        "ne_latitude": -19.195, 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 441644, 
+        "sw_latitude": -19.204, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -19.199, 
         "sw_longitude": -47.732, 
-        "fullname": "Aeroporto Nova Ponte, Nova Ponte, Minas Gerais, Nova Ponte, Brazil", 
-        "sw_latitude": -19.204
+        "fullname": "Aeroporto Nova Ponte, Nova Ponte, Minas Gerais, Brazil", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511244
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520901, 
-        "name": "Mercer County Airport", 
         "alias_ENG_V": [
           "Trenton-Mercer"
         ], 
-        "ne_latitude": 40.285, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Mercer County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589268", 
+          "woe:state=2347589", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520901, 
         "ne_longitude": -74.804, 
         "longitude": -74.818, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589268, 
+        "ne_latitude": 40.285, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2401020, 
+        "sw_latitude": 40.268, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.278, 
         "sw_longitude": -74.824, 
-        "fullname": "Mercer County Airport, Ewing, New Jersey, Mercer, United States", 
-        "sw_latitude": 40.268
+        "fullname": "Mercer County Airport, Ewing, New Jersey, United States", 
+        "iata_code": "TTN", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520901
     }

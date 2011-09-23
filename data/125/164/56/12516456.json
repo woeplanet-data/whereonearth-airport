@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516456, 
+        "placetype": "airport", 
         "name": "Mozhga Airport", 
-        "ne_latitude": 56.432, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597606", 
+          "woe:state=2346880", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516456, 
         "ne_longitude": 52.282, 
         "longitude": 52.274, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597606, 
+        "ne_latitude": 56.432, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2122275, 
+        "sw_latitude": 56.423, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 56.428, 
         "sw_longitude": 52.265, 
-        "fullname": "Mozhga Airport, Mozhga, Udmurtiya, Mogzsha, Russia", 
-        "sw_latitude": 56.423
+        "fullname": "Mozhga Airport, Mozhga, Udmurtiya, Russia", 
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516456
     }

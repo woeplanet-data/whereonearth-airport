@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513661, 
-        "name": "Rajkot Airport", 
         "alias_ENG_V": [
           "RAJ"
         ], 
-        "ne_latitude": 22.321, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Rajkot Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12586430", 
+          "woe:state=2345743", 
+          "woe:country=23424848", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513661, 
         "ne_longitude": 70.774, 
         "longitude": 70.769, 
-        "placetype": "Airport", 
+        "parent_woeid": 12586430, 
+        "ne_latitude": 22.321, 
         "iso": "IN", 
-        "date_indexed": "2010-12-02T09:26:27Z", 
-        "parent_woeid": 2295404, 
+        "sw_latitude": 22.312, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 22.317, 
         "sw_longitude": 70.764, 
-        "fullname": "Rajkot Airport, Rajkot, Gujarat, Rajkot, India", 
-        "sw_latitude": 22.312
+        "fullname": "Rajkot Airport, Rajkot, Gujarat, India", 
+        "iata_code": "RAJ", 
+        "date_indexed": "2010-12-02T09:26:27Z"
       }, 
       "id": 12513661
     }

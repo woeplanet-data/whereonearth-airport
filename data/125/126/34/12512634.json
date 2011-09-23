@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512634, 
+        "placetype": "airport", 
         "name": "Gualaquiza Airport", 
-        "ne_latitude": -3.421, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=26810013", 
+          "woe:county=26809557", 
+          "woe:state=2345216", 
+          "woe:country=23424801", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512634, 
         "ne_longitude": -78.557, 
         "longitude": -78.561, 
-        "placetype": "Airport", 
+        "parent_woeid": 26810013, 
+        "ne_latitude": -3.421, 
         "iso": "EC", 
-        "date_indexed": "2010-12-02T17:51:45Z", 
-        "parent_woeid": 375793, 
+        "sw_latitude": -3.430, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -3.426, 
         "sw_longitude": -78.566, 
-        "fullname": "Gualaquiza Airport, Gualaquiza, Morona-Santiago, Gualaquiza, Ecuador", 
-        "sw_latitude": -3.430
+        "fullname": "Gualaquiza Airport, Gualaquiza, Morona-Santiago, Ecuador", 
+        "date_indexed": "2010-12-02T17:51:45Z"
       }, 
       "id": 12512634
     }

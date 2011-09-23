@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 28349280, 
-        "name": "Point Arena Air Force Station", 
         "alias_ENG_V": [
           "Point Arena AFS"
         ], 
-        "ne_latitude": 38.912, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Point Arena Air Force Station", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587692", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 28349280, 
         "ne_longitude": -123.608, 
         "longitude": -123.614, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587692, 
+        "ne_latitude": 38.912, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2474548, 
+        "sw_latitude": 38.903, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.908, 
         "sw_longitude": -123.620, 
-        "fullname": "Point Arena Air Force Station, Point Arena, California, Mendocino, United States", 
-        "sw_latitude": 38.903
+        "fullname": "Point Arena Air Force Station, Point Arena, California, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 28349280
     }

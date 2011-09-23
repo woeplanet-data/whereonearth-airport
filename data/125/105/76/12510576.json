@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510576, 
+        "placetype": "airport", 
         "name": "Villa Reynolds Airport", 
-        "ne_latitude": -33.725, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=20070742", 
+          "woe:state=2344693", 
+          "woe:country=23424747", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510576, 
         "ne_longitude": -65.380, 
         "longitude": -65.386, 
-        "placetype": "Airport", 
+        "parent_woeid": 20070742, 
+        "ne_latitude": -33.725, 
         "iso": "AR", 
-        "date_indexed": "2010-12-02T17:41:29Z", 
-        "parent_woeid": 467977, 
+        "sw_latitude": -33.735, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -33.730, 
         "sw_longitude": -65.391, 
-        "fullname": "Villa Reynolds Airport, Villa Reynolds, San Luis, Gral Pedernera, Argentina", 
-        "sw_latitude": -33.735
+        "fullname": "Villa Reynolds Airport, Villa Reynolds, San Luis, Argentina", 
+        "date_indexed": "2010-12-02T17:41:29Z"
       }, 
       "id": 12510576
     }

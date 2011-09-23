@@ -3,28 +3,46 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -104.533, 
-              38.275
-            ], 
-            [
-              -104.533, 
-              38.311
-            ], 
-            [
-              -104.459, 
-              38.311
-            ], 
-            [
-              -104.459, 
-              38.275
-            ], 
-            [
-              -104.533, 
-              38.275
+              [
+                -104.496, 
+                38.283
+              ], 
+              [
+                -104.496, 
+                38.282
+              ], 
+              [
+                -104.497, 
+                38.281
+              ], 
+              [
+                -104.499, 
+                38.282
+              ], 
+              [
+                -104.499, 
+                38.285
+              ], 
+              [
+                -104.497, 
+                38.286
+              ], 
+              [
+                -104.496, 
+                38.287
+              ], 
+              [
+                -104.495, 
+                38.284
+              ], 
+              [
+                -104.496, 
+                38.283
+              ]
             ]
           ]
         ]
@@ -32,23 +50,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521494, 
-        "name": "Pueblo Memorial Airport", 
         "alias_ENG_V": [
           "PUB"
         ], 
-        "ne_latitude": 38.311, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -104.459, 
-        "longitude": -104.495, 
-        "placetype": "Airport", 
+        "name": "Pueblo Memorial Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587778", 
+          "woe:state=2347564", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521494, 
+        "ne_longitude": -104.495, 
+        "longitude": -104.497, 
+        "parent_woeid": 12587778, 
+        "ne_latitude": 38.287, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2360136, 
+        "sw_latitude": 38.281, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.284, 
-        "sw_longitude": -104.533, 
-        "fullname": "Pueblo Memorial Airport, Baxter, Colorado, Pueblo, United States", 
-        "sw_latitude": 38.275
+        "sw_longitude": -104.499, 
+        "fullname": "Pueblo Memorial Airport, Baxter, Colorado, United States", 
+        "iata_code": "PUB", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521494
     }

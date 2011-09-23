@@ -32,29 +32,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12523571, 
-        "name": "Aeroporto Gravatai", 
-        "alias_ENG_P": [
-          "Gravatai Airport"
-        ], 
-        "ne_latitude": -29.948, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "GCV"
         ], 
+        "name": "Aeroporto Gravatai", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Gravatai Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12581360", 
+          "woe:state=2344864", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523571, 
         "ne_longitude": -50.975, 
         "longitude": -50.980, 
-        "placetype": "Airport", 
+        "parent_woeid": 12581360, 
+        "ne_latitude": -29.948, 
         "alias_POR_V": [
           "Aeroporto GCV"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:28Z", 
-        "parent_woeid": 457229, 
+        "sw_latitude": -29.958, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -29.953, 
         "sw_longitude": -50.985, 
-        "fullname": "Aeroporto Gravatai, Gravata\u00ed, Rio Grande do Sul, Gravata\u00ed, Brazil", 
-        "sw_latitude": -29.958
+        "fullname": "Aeroporto Gravatai, Gravata\u00ed, Rio Grande do Sul, Brazil", 
+        "iata_code": "GCV", 
+        "date_indexed": "2010-12-02T18:01:28Z"
       }, 
       "id": 12523571
     }

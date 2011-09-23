@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522624, 
+        "placetype": "airport", 
         "name": "Imeni Kirova Airport", 
-        "ne_latitude": 40.625, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345982", 
+          "woe:country=23424871", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522624, 
         "ne_longitude": 68.624, 
         "longitude": 68.618, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345982, 
+        "ne_latitude": 40.625, 
         "iso": "KZ", 
-        "date_indexed": "2010-12-02T08:54:13Z", 
-        "parent_woeid": 2262062, 
+        "sw_latitude": 40.616, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.620, 
         "sw_longitude": 68.613, 
         "fullname": "Imeni Kirova Airport, Ongtustik Qazaqstan, Kazakhstan", 
-        "sw_latitude": 40.616
+        "date_indexed": "2010-12-02T08:54:13Z"
       }, 
       "id": 12522624
     }

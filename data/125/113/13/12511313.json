@@ -32,29 +32,35 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511313, 
-        "name": "Aeroporto Sao Borja", 
-        "alias_ENG_P": [
-          "Sao Borja Airport"
-        ], 
-        "ne_latitude": -28.647, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "QOJ"
         ], 
+        "name": "Aeroporto Sao Borja", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Sao Borja Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12581486", 
+          "woe:state=2344864", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511313, 
         "ne_longitude": -56.027, 
         "longitude": -56.032, 
-        "placetype": "Airport", 
+        "parent_woeid": 12581486, 
+        "ne_latitude": -28.647, 
         "alias_POR_V": [
           "Aeroporto QOJ"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 456510, 
+        "sw_latitude": -28.656, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -28.651, 
         "sw_longitude": -56.037, 
-        "fullname": "Aeroporto Sao Borja, S\u00e3o Borja, Rio Grande do Sul, S\u00e3o Borja, Brazil", 
-        "sw_latitude": -28.656
+        "fullname": "Aeroporto Sao Borja, S\u00e3o Borja, Rio Grande do Sul, Brazil", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511313
     }

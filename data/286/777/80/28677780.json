@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 28677780, 
+        "placetype": "airport", 
         "name": "Moora Airport", 
-        "ne_latitude": -30.627, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55864056", 
+          "woe:state=2344706", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 28677780, 
         "ne_longitude": 115.990, 
         "longitude": 115.985, 
-        "placetype": "Airport", 
+        "parent_woeid": 55864056, 
+        "ne_latitude": -30.627, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1104067, 
+        "sw_latitude": -30.636, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -30.631, 
         "sw_longitude": 115.979, 
-        "fullname": "Moora Airport, Moora, Western Australia, Moora, Australia", 
-        "sw_latitude": -30.636
+        "fullname": "Moora Airport, Moora, Western Australia, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 28677780
     }

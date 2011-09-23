@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510520, 
+        "placetype": "airport", 
         "name": "Mariano Moreno Airport", 
-        "ne_latitude": -34.556, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=20070609", 
+          "woe:state=2344675", 
+          "woe:country=23424747", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510520, 
         "ne_longitude": -58.784, 
         "longitude": -58.790, 
-        "placetype": "Airport", 
+        "parent_woeid": 20070609, 
+        "ne_latitude": -34.556, 
         "iso": "AR", 
-        "date_indexed": "2010-12-02T17:41:29Z", 
-        "parent_woeid": 468959, 
+        "sw_latitude": -34.565, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -34.560, 
         "sw_longitude": -58.795, 
-        "fullname": "Mariano Moreno Airport, Moreno, Buenos Aires, Moreno, Argentina", 
-        "sw_latitude": -34.565
+        "fullname": "Mariano Moreno Airport, Moreno, Buenos Aires, Argentina", 
+        "date_indexed": "2010-12-02T17:41:29Z"
       }, 
       "id": 12510520
     }

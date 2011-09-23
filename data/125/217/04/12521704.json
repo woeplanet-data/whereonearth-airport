@@ -3,28 +3,66 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -121.622, 
-              36.650
-            ], 
-            [
-              -121.622, 
-              36.671
-            ], 
-            [
-              -121.595, 
-              36.671
-            ], 
-            [
-              -121.595, 
-              36.650
-            ], 
-            [
-              -121.622, 
-              36.650
+              [
+                -121.609, 
+                36.670
+              ], 
+              [
+                -121.604, 
+                36.668
+              ], 
+              [
+                -121.608, 
+                36.664
+              ], 
+              [
+                -121.607, 
+                36.663
+              ], 
+              [
+                -121.605, 
+                36.662
+              ], 
+              [
+                -121.607, 
+                36.659
+              ], 
+              [
+                -121.610, 
+                36.660
+              ], 
+              [
+                -121.614, 
+                36.661
+              ], 
+              [
+                -121.614, 
+                36.664
+              ], 
+              [
+                -121.619, 
+                36.665
+              ], 
+              [
+                -121.615, 
+                36.666
+              ], 
+              [
+                -121.614, 
+                36.666
+              ], 
+              [
+                -121.614, 
+                36.670
+              ], 
+              [
+                -121.609, 
+                36.670
+              ]
             ]
           ]
         ]
@@ -32,23 +70,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521704, 
-        "name": "Salinas Municipal Airport", 
         "alias_ENG_V": [
           "SNS"
         ], 
-        "ne_latitude": 36.671, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -121.595, 
-        "longitude": -121.613, 
-        "placetype": "Airport", 
+        "name": "Salinas Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587696", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521704, 
+        "ne_longitude": -121.604, 
+        "longitude": -121.610, 
+        "parent_woeid": 12587696, 
+        "ne_latitude": 36.670, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2353181, 
+        "sw_latitude": 36.659, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.665, 
-        "sw_longitude": -121.622, 
-        "fullname": "Salinas Municipal Airport, Alisal, California, Monterey, United States", 
-        "sw_latitude": 36.650
+        "sw_longitude": -121.619, 
+        "fullname": "Salinas Municipal Airport, Alisal, California, United States", 
+        "iata_code": "SNS", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521704
     }

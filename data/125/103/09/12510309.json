@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510309, 
-        "name": "Mazar I Sharif Airport", 
         "alias_ENG_V": [
           "MZR"
         ], 
-        "ne_latitude": 36.709, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Mazar I Sharif Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=56000747", 
+          "woe:state=2344575", 
+          "woe:country=23424739", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510309, 
         "ne_longitude": 67.214, 
         "longitude": 67.208, 
-        "placetype": "Airport", 
+        "parent_woeid": 56000747, 
+        "ne_latitude": 36.709, 
         "iso": "AF", 
-        "date_indexed": "2010-12-02T18:03:37Z", 
-        "parent_woeid": 1935342, 
+        "sw_latitude": 36.700, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.704, 
         "sw_longitude": 67.203, 
-        "fullname": "Mazar I Sharif Airport, Mazar-i-Sharif, Balkh, Nahri Shahi, Afghanistan", 
-        "sw_latitude": 36.700
+        "fullname": "Mazar I Sharif Airport, Mazar-i-Sharif, Balkh, Afghanistan", 
+        "iata_code": "MZR", 
+        "date_indexed": "2010-12-02T18:03:37Z"
       }, 
       "id": 12510309
     }

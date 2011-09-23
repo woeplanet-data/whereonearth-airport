@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519228, 
-        "name": "Clayton Municipal Airpark", 
         "alias_ENG_V": [
           "CAO"
         ], 
-        "ne_latitude": 36.453, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Clayton Municipal Airpark", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589310", 
+          "woe:state=2347590", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519228, 
         "ne_longitude": -103.136, 
         "longitude": -103.157, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589310, 
+        "ne_latitude": 36.453, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2381105, 
+        "sw_latitude": 36.438, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.447, 
         "sw_longitude": -103.164, 
-        "fullname": "Clayton Municipal Airpark, Clayton, New Mexico, Union, United States", 
-        "sw_latitude": 36.438
+        "fullname": "Clayton Municipal Airpark, Clayton, New Mexico, United States", 
+        "iata_code": "CAO", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519228
     }

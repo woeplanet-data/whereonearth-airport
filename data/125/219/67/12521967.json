@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521967, 
-        "name": "St Johns Industrial Air Park", 
         "alias_ENG_V": [
           "SJN"
         ], 
-        "ne_latitude": 34.526, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "St Johns Industrial Air Park", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587580", 
+          "woe:state=2347561", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521967, 
         "ne_longitude": -109.373, 
         "longitude": -109.384, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587580, 
+        "ne_latitude": 34.526, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2486895, 
+        "sw_latitude": 34.512, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 34.525, 
         "sw_longitude": -109.384, 
-        "fullname": "St Johns Industrial Air Park, St. Johns, Arizona, Apache, United States", 
-        "sw_latitude": 34.512
+        "fullname": "St Johns Industrial Air Park, St. Johns, Arizona, United States", 
+        "iata_code": "SJN", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521967
     }

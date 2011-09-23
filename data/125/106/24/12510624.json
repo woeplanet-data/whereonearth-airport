@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510624, 
-        "name": "Camden Airport", 
         "alias_ENG_V": [
           "Cambden Airport"
         ], 
-        "ne_latitude": -34.036, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Camden Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55863847", 
+          "woe:state=2344700", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510624, 
         "ne_longitude": 150.702, 
         "longitude": 150.696, 
-        "placetype": "Airport", 
+        "parent_woeid": 55863847, 
+        "ne_latitude": -34.036, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 22721323, 
+        "sw_latitude": -34.045, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -34.040, 
         "sw_longitude": 150.691, 
-        "fullname": "Camden Airport, Kirkham, New South Wales, Camden, Australia", 
-        "sw_latitude": -34.045
+        "fullname": "Camden Airport, Kirkham, New South Wales, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 12510624
     }

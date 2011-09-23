@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515183, 
-        "name": "Itaipu Airport", 
         "alias_ENG_V": [
           "ITP"
         ], 
-        "ne_latitude": -25.402, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Itaipu Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26810732", 
+          "woe:state=2346448", 
+          "woe:country=23424917", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515183, 
         "ne_longitude": -54.616, 
         "longitude": -54.621, 
-        "placetype": "Airport", 
+        "parent_woeid": 26810732, 
+        "ne_latitude": -25.402, 
         "iso": "PY", 
-        "date_indexed": "2010-12-02T12:08:38Z", 
-        "parent_woeid": 379181, 
+        "sw_latitude": -25.411, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -25.407, 
         "sw_longitude": -54.626, 
-        "fullname": "Itaipu Airport, Ciudad del Este, Alto Paran\u00e1, Ciudad del Este, Paraguay", 
-        "sw_latitude": -25.411
+        "fullname": "Itaipu Airport, Ciudad del Este, Alto Paran\u00e1, Paraguay", 
+        "iata_code": "ITP", 
+        "date_indexed": "2010-12-02T12:08:38Z"
       }, 
       "id": 12515183
     }

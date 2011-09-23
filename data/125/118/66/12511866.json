@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511866, 
+        "placetype": "airport", 
         "name": "Taber Airport", 
-        "ne_latitude": 49.829, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=29375228", 
+          "woe:state=2344915", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511866, 
         "ne_longitude": -112.180, 
         "longitude": -112.187, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375228, 
+        "ne_latitude": 49.829, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 8816, 
+        "sw_latitude": 49.820, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.825, 
         "sw_longitude": -112.194, 
-        "fullname": "Taber Airport, Taber, Alberta, Alberta, Canada", 
-        "sw_latitude": 49.820
+        "fullname": "Taber Airport, Taber, Alberta, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12511866
     }

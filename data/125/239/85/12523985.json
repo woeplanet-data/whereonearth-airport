@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523985, 
-        "name": "Hoy Island Airport", 
         "alias_ENG_V": [
           "HOY Airport"
         ], 
-        "ne_latitude": 58.838, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Hoy Island Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=12696205", 
+          "woe:county=12602205", 
+          "woe:state=12578048", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523985, 
         "ne_longitude": -3.291, 
         "longitude": -3.300, 
-        "placetype": "Airport", 
+        "parent_woeid": 12696205, 
+        "ne_latitude": 58.838, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:21:01Z", 
-        "parent_woeid": 28680, 
+        "sw_latitude": 58.829, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 58.833, 
         "sw_longitude": -3.309, 
-        "fullname": "Hoy Island Airport, Melsetter, Scotland, Orkney, United Kingdom", 
-        "sw_latitude": 58.829
+        "fullname": "Hoy Island Airport, Melsetter, Scotland, United Kingdom", 
+        "iata_code": "HOY", 
+        "date_indexed": "2010-12-02T12:21:01Z"
       }, 
       "id": 12523985
     }

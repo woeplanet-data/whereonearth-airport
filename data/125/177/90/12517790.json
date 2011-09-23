@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517790, 
-        "name": "Rayong Airport", 
         "alias_ENG_V": [
           "UTP"
         ], 
-        "ne_latitude": 12.682, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Rayong Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=28341355", 
+          "woe:state=2347171", 
+          "woe:country=23424960", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517790, 
         "ne_longitude": 101.014, 
         "longitude": 101.009, 
-        "placetype": "Airport", 
+        "parent_woeid": 28341355, 
+        "ne_latitude": 12.682, 
         "iso": "TH", 
-        "date_indexed": "2010-12-02T17:05:34Z", 
-        "parent_woeid": 55945616, 
+        "sw_latitude": 12.673, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 12.678, 
         "sw_longitude": 101.005, 
-        "fullname": "Rayong Airport, Pla, Rayong, Ban Chang, Thailand", 
-        "sw_latitude": 12.673
+        "fullname": "Rayong Airport, Pla, Rayong, Thailand", 
+        "date_indexed": "2010-12-02T17:05:34Z"
       }, 
       "id": 12517790
     }

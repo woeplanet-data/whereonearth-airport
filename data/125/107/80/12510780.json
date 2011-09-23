@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510780, 
-        "name": "Smithton Aerodrome", 
         "alias_ENG_V": [
           "Smithton Airport"
         ], 
-        "ne_latitude": -40.831, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Smithton Aerodrome", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55864272", 
+          "woe:state=2344704", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510780, 
         "ne_longitude": 145.089, 
         "longitude": 145.083, 
-        "placetype": "Airport", 
+        "parent_woeid": 55864272, 
+        "ne_latitude": -40.831, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1105591, 
+        "sw_latitude": -40.840, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -40.836, 
         "sw_longitude": 145.077, 
-        "fullname": "Smithton Aerodrome, Smithton, Tasmania, Circular Head, Australia", 
-        "sw_latitude": -40.840
+        "fullname": "Smithton Aerodrome, Smithton, Tasmania, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 12510780
     }

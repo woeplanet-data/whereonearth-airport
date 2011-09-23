@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388511, 
-        "name": "Ball Airport", 
         "alias_ENG_V": [
           "79nc"
         ], 
-        "ne_latitude": 36.138, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Ball Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589408", 
+          "woe:state=2347592", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388511, 
         "ne_longitude": -78.281, 
         "longitude": -78.283, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589408, 
+        "ne_latitude": 36.138, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2442304, 
+        "sw_latitude": 36.130, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.137, 
         "sw_longitude": -78.283, 
-        "fullname": "Ball Airport, Louisburg, North Carolina, Franklin, United States", 
-        "sw_latitude": 36.130
+        "fullname": "Ball Airport, Louisburg, North Carolina, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388511
     }

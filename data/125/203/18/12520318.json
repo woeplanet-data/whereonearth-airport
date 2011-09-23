@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520318, 
-        "name": "Isbell Field Airport", 
         "alias_ENG_V": [
           "4a9"
         ], 
-        "ne_latitude": 34.478, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Isbell Field Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587511", 
+          "woe:state=2347559", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520318, 
         "ne_longitude": -85.716, 
         "longitude": -85.721, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587511, 
+        "ne_latitude": 34.478, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2405889, 
+        "sw_latitude": 34.467, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 34.476, 
         "sw_longitude": -85.729, 
-        "fullname": "Isbell Field Airport, Fort Payne, Alabama, Dekalb, United States", 
-        "sw_latitude": 34.467
+        "fullname": "Isbell Field Airport, Fort Payne, Alabama, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520318
     }

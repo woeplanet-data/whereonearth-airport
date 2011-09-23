@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515792, 
+        "placetype": "airport", 
         "name": "Belozersk Airport", 
-        "ne_latitude": 60.035, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599592", 
+          "woe:state=2346934", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515792, 
         "ne_longitude": 37.777, 
         "longitude": 37.768, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599592, 
+        "ne_latitude": 60.035, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2120239, 
+        "sw_latitude": 60.026, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 60.031, 
         "sw_longitude": 37.758, 
-        "fullname": "Belozersk Airport, Belozersk, Vologodskaya Oblast, Belozersky, Russia", 
-        "sw_latitude": 60.026
+        "fullname": "Belozersk Airport, Belozersk, Vologodskaya Oblast, Russia", 
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12515792
     }

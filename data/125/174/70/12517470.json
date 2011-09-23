@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517470, 
-        "name": "Richards Bay Airport", 
         "alias_ENG_V": [
           "RCB"
         ], 
-        "ne_latitude": -28.734, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Richards Bay Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=56189647", 
+          "woe:county=56189453", 
+          "woe:state=2346982", 
+          "woe:country=23424942", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517470, 
         "ne_longitude": 32.098, 
         "longitude": 32.094, 
-        "placetype": "Airport", 
+        "parent_woeid": 56189647, 
+        "ne_latitude": -28.734, 
         "iso": "ZA", 
-        "date_indexed": "2010-12-02T08:57:52Z", 
-        "parent_woeid": 55879831, 
+        "sw_latitude": -28.748, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -28.737, 
         "sw_longitude": 32.085, 
         "fullname": "Richards Bay Airport, Kwazulu Natal, Richards Bay, South Africa", 
-        "sw_latitude": -28.748
+        "iata_code": "RCB", 
+        "date_indexed": "2010-12-02T08:57:52Z"
       }, 
       "id": 12517470
     }

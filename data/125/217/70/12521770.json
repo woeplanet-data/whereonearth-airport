@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521770, 
+        "placetype": "airport", 
         "name": "Schwegmann Field Airport", 
-        "ne_latitude": 30.782, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12588938", 
+          "woe:state=2347583", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521770, 
         "ne_longitude": -89.720, 
         "longitude": -89.725, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588938, 
+        "ne_latitude": 30.782, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2387676, 
+        "sw_latitude": 30.773, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 30.777, 
         "sw_longitude": -89.730, 
-        "fullname": "Schwegmann Field Airport, Crossroads, Mississippi, Pearl River, United States", 
-        "sw_latitude": 30.773
+        "fullname": "Schwegmann Field Airport, Crossroads, Mississippi, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521770
     }

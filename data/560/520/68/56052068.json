@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 56052068, 
+        "placetype": "airport", 
         "name": "Segelflugplatz Asperden", 
-        "ne_latitude": 51.692, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12624400", 
+          "woe:county=12596784", 
+          "woe:state=2345487", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56052068, 
         "ne_longitude": 6.114, 
         "longitude": 6.111, 
-        "placetype": "Airport", 
+        "parent_woeid": 12624400, 
+        "ne_latitude": 51.692, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 652990, 
+        "sw_latitude": 51.689, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.692, 
         "sw_longitude": 6.102, 
-        "fullname": "Segelflugplatz Asperden, Goch, North Rhine-Westphalia, Landkreis Kleve, Germany", 
-        "sw_latitude": 51.689
+        "fullname": "Segelflugplatz Asperden, Goch, North Rhine-Westphalia, Germany", 
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 56052068
     }

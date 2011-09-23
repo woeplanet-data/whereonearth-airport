@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 28677618, 
-        "name": "Jabiru Aerodrome", 
         "alias_ENG_V": [
           "Jabiru Airport"
         ], 
-        "ne_latitude": -12.650, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Jabiru Aerodrome", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=56072970", 
+          "woe:state=2344701", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 28677618, 
         "ne_longitude": 132.906, 
         "longitude": 132.892, 
-        "placetype": "Airport", 
+        "parent_woeid": 56072970, 
+        "ne_latitude": -12.650, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1102799, 
+        "sw_latitude": -12.667, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -12.660, 
         "sw_longitude": 132.884, 
         "fullname": "Jabiru Aerodrome, Jabiru, Northern Territory, Australia", 
-        "sw_latitude": -12.667
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 28677618
     }

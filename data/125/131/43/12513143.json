@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513143, 
+        "placetype": "airport", 
         "name": "Kaufbeuren Airport", 
-        "ne_latitude": 47.867, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12634723", 
+          "woe:county=12597112", 
+          "woe:state=2345482", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513143, 
         "ne_longitude": 10.622, 
         "longitude": 10.616, 
-        "placetype": "Airport", 
+        "parent_woeid": 12634723, 
+        "ne_latitude": 47.867, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:24Z", 
-        "parent_woeid": 665250, 
+        "sw_latitude": 47.858, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.863, 
         "sw_longitude": 10.609, 
-        "fullname": "Kaufbeuren Airport, Kaufbeuren, Bavaria, Stadtkreis Kaufbeuren, Germany", 
+        "fullname": "Kaufbeuren Airport, Kaufbeuren, Bavaria, Germany", 
         "alias_GER_Q": [
           "Flughafen Kaufbeuren"
         ], 
-        "sw_latitude": 47.858
+        "date_indexed": "2010-12-02T09:50:24Z"
       }, 
       "id": 12513143
     }

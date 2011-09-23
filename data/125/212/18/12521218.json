@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521218, 
-        "name": "Olney Municipal Airport", 
         "alias_ENG_V": [
           "ONY"
         ], 
-        "ne_latitude": 33.359, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Olney Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590258", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521218, 
         "ne_longitude": -98.812, 
         "longitude": -98.813, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590258, 
+        "ne_latitude": 33.359, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2465440, 
+        "sw_latitude": 33.342, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 33.352, 
         "sw_longitude": -98.827, 
-        "fullname": "Olney Municipal Airport, Olney, Texas, Young, United States", 
-        "sw_latitude": 33.342
+        "fullname": "Olney Municipal Airport, Olney, Texas, United States", 
+        "iata_code": "ONY", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521218
     }

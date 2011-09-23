@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519051, 
-        "name": "Cape Blanco State Airport", 
         "alias_ENG_V": [
           "5s6"
         ], 
-        "ne_latitude": 42.866, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Cape Blanco State Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589699", 
+          "woe:state=2347596", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519051, 
         "ne_longitude": -124.511, 
         "longitude": -124.521, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589699, 
+        "ne_latitude": 42.866, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2494229, 
+        "sw_latitude": 42.850, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.861, 
         "sw_longitude": -124.523, 
-        "fullname": "Cape Blanco State Airport, Lakeport, Oregon, Curry, United States", 
-        "sw_latitude": 42.850
+        "fullname": "Cape Blanco State Airport, Lakeport, Oregon, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519051
     }

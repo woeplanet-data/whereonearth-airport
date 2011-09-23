@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524478, 
-        "name": "Guacamayas Airport", 
         "alias_ENG_V": [
           "GCA"
         ], 
-        "ne_latitude": 2.288, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Guacamayas Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26796957", 
+          "woe:state=2345054", 
+          "woe:country=23424787", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524478, 
         "ne_longitude": -74.945, 
         "longitude": -74.950, 
-        "placetype": "Airport", 
+        "parent_woeid": 26796957, 
+        "ne_latitude": 2.288, 
         "iso": "CO", 
-        "date_indexed": "2010-12-02T17:57:37Z", 
-        "parent_woeid": 368954, 
+        "sw_latitude": 2.279, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 2.283, 
         "sw_longitude": -74.955, 
         "fullname": "Guacamayas Airport, Caqueta, San Vicente del Caguan, Colombia", 
-        "sw_latitude": 2.279
+        "iata_code": "GCA", 
+        "date_indexed": "2010-12-02T17:57:37Z"
       }, 
       "id": 12524478
     }

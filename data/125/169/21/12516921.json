@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516921, 
+        "placetype": "airport", 
         "name": "Sredniye Airport", 
-        "ne_latitude": 53.460, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598176", 
+          "woe:state=2346894", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516921, 
         "ne_longitude": 119.312, 
         "longitude": 119.305, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598176, 
+        "ne_latitude": 53.460, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2000340, 
+        "sw_latitude": 53.451, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.455, 
         "sw_longitude": 119.297, 
         "fullname": "Sredniye Airport, Chitinskaya Oblast, Mogochinsky, Russia", 
-        "sw_latitude": 53.451
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516921
     }

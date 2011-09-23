@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516251, 
+        "placetype": "airport", 
         "name": "Krasnoarmeyskaya West Airport", 
-        "ne_latitude": 45.381, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597784", 
+          "woe:state=2346884", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516251, 
         "ne_longitude": 38.115, 
         "longitude": 38.109, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597784, 
+        "ne_latitude": 45.381, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2071938, 
+        "sw_latitude": 45.372, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.376, 
         "sw_longitude": 38.102, 
         "fullname": "Krasnoarmeyskaya West Airport, Krasnodarskiy Kray, Krasnoarmeysky, Russia", 
-        "sw_latitude": 45.372
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516251
     }

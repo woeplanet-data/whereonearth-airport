@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510502, 
-        "name": "General Urquiza Airport", 
         "alias_ENG_V": [
           "PRA"
         ], 
-        "ne_latitude": -31.784, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "General Urquiza Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=20070673", 
+          "woe:state=2344682", 
+          "woe:country=23424747", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510502, 
         "ne_longitude": -60.467, 
         "longitude": -60.480, 
-        "placetype": "Airport", 
+        "parent_woeid": 20070673, 
+        "ne_latitude": -31.784, 
         "iso": "AR", 
-        "date_indexed": "2010-12-02T17:41:29Z", 
-        "parent_woeid": 331860, 
+        "sw_latitude": -31.806, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -31.795, 
         "sw_longitude": -60.493, 
         "fullname": "General Urquiza Airport, Entre Rios, Paran\u00e1, Argentina", 
-        "sw_latitude": -31.806
+        "iata_code": "PRA", 
+        "date_indexed": "2010-12-02T17:41:29Z"
       }, 
       "id": 12510502
     }

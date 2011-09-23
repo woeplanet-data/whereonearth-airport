@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 56052239, 
+        "placetype": "airport", 
         "name": "Campo de Pouso", 
-        "ne_latitude": -26.250, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12581767", 
+          "woe:state=2344867", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56052239, 
         "ne_longitude": -49.415, 
         "longitude": -49.416, 
-        "placetype": "Airport", 
+        "parent_woeid": 12581767, 
+        "ne_latitude": -26.250, 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:28Z", 
-        "parent_woeid": 458028, 
+        "sw_latitude": -26.258, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -26.254, 
         "sw_longitude": -49.416, 
-        "fullname": "Campo de Pouso, S\u00e3o Bento do Sul, Santa Catarina, S\u00e3o Bento do Sul, Brazil", 
-        "sw_latitude": -26.258
+        "fullname": "Campo de Pouso, S\u00e3o Bento do Sul, Santa Catarina, Brazil", 
+        "date_indexed": "2010-12-02T18:01:28Z"
       }, 
       "id": 56052239
     }

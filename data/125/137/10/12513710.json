@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513710, 
-        "name": "Bushehr Airport", 
         "alias_ENG_V": [
           "BUZ"
         ], 
-        "ne_latitude": 28.954, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Bushehr Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2345781", 
+          "woe:country=23424851", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513710, 
         "ne_longitude": 50.836, 
         "longitude": 50.831, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345781, 
+        "ne_latitude": 28.954, 
         "iso": "IR", 
-        "date_indexed": "2010-12-02T08:53:52Z", 
-        "parent_woeid": 2254463, 
+        "sw_latitude": 28.945, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 28.949, 
         "sw_longitude": 50.826, 
         "fullname": "Bushehr Airport, Bandar-e Bushehr, Bushehr, Iran", 
-        "sw_latitude": 28.945
+        "iata_code": "BUZ", 
+        "date_indexed": "2010-12-02T08:53:52Z"
       }, 
       "id": 12513710
     }

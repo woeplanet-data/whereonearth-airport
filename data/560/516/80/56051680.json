@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 56051680, 
+        "placetype": "airport", 
         "name": "Flugplatz Punitz", 
-        "ne_latitude": 47.151, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12673468", 
+          "woe:county=12591658", 
+          "woe:state=2344708", 
+          "woe:country=23424750", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56051680, 
         "ne_longitude": 16.321, 
         "longitude": 16.313, 
-        "placetype": "Airport", 
+        "parent_woeid": 12673468, 
+        "ne_latitude": 47.151, 
         "iso": "AT", 
-        "date_indexed": "2010-12-02T16:35:40Z", 
-        "parent_woeid": 539037, 
+        "sw_latitude": 47.143, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.150, 
         "sw_longitude": 16.313, 
-        "fullname": "Flugplatz Punitz, Sankt Michael an der Strem, Burgenland, G\u00fcssing, Austria", 
-        "sw_latitude": 47.143
+        "fullname": "Flugplatz Punitz, Sankt Michael an der Strem, Burgenland, Austria", 
+        "date_indexed": "2010-12-02T16:35:40Z"
       }, 
       "id": 56051680
     }

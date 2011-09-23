@@ -32,29 +32,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511083, 
-        "name": "Aeroporto Caruaru", 
-        "alias_ENG_P": [
-          "Caruaru Airport"
-        ], 
-        "ne_latitude": -8.229, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "CAU"
         ], 
+        "name": "Aeroporto Caruaru", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Caruaru Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12580847", 
+          "woe:state=2344860", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511083, 
         "ne_longitude": -35.912, 
         "longitude": -35.917, 
-        "placetype": "Airport", 
+        "parent_woeid": 12580847, 
+        "ne_latitude": -8.229, 
         "alias_POR_V": [
           "Aeroporto CAU"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 434672, 
+        "sw_latitude": -8.238, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -8.233, 
         "sw_longitude": -35.921, 
-        "fullname": "Aeroporto Caruaru, Gon\u00e7alves Ferreira, Pernambuco, Riacho das Almas, Brazil", 
-        "sw_latitude": -8.238
+        "fullname": "Aeroporto Caruaru, Gon\u00e7alves Ferreira, Pernambuco, Brazil", 
+        "iata_code": "CAU", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511083
     }

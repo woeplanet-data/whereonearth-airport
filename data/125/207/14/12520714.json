@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520714, 
-        "name": "Louisville Winston County Airport", 
         "alias_ENG_V": [
           "LMS Airport"
         ], 
-        "ne_latitude": 33.153, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Louisville Winston County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588963", 
+          "woe:state=2347583", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520714, 
         "ne_longitude": -89.058, 
         "longitude": -89.060, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588963, 
+        "ne_latitude": 33.153, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2442328, 
+        "sw_latitude": 33.139, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 33.142, 
         "sw_longitude": -89.064, 
-        "fullname": "Louisville Winston County Airport, Louisville, Mississippi, Winston, United States", 
-        "sw_latitude": 33.139
+        "fullname": "Louisville Winston County Airport, Louisville, Mississippi, United States", 
+        "iata_code": "LMS", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520714
     }

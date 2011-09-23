@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523232, 
-        "name": "Samsun Airport", 
         "alias_ENG_V": [
           "SSX"
         ], 
-        "ne_latitude": 41.288, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Samsun Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29390625", 
+          "woe:state=2347307", 
+          "woe:country=23424969", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523232, 
         "ne_longitude": 36.306, 
         "longitude": 36.300, 
-        "placetype": "Airport", 
+        "parent_woeid": 29390625, 
+        "ne_latitude": 41.288, 
         "iso": "TR", 
-        "date_indexed": "2010-12-02T16:23:11Z", 
-        "parent_woeid": 2344351, 
+        "sw_latitude": 41.279, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.283, 
         "sw_longitude": 36.294, 
-        "fullname": "Samsun Airport, Samsun, Samsun, Merkez, Turkey", 
-        "sw_latitude": 41.279
+        "fullname": "Samsun Airport, Samsun, Samsun, Turkey", 
+        "iata_code": "SSX", 
+        "date_indexed": "2010-12-02T16:23:11Z"
       }, 
       "id": 12523232
     }

@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522776, 
+        "placetype": "airport", 
         "name": "El Guayabo Airport", 
-        "ne_latitude": 8.671, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=26805043", 
+          "woe:county=26804713", 
+          "woe:state=2347699", 
+          "woe:country=23424982", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522776, 
         "ne_longitude": -72.329, 
         "longitude": -72.333, 
-        "placetype": "Airport", 
+        "parent_woeid": 26805043, 
+        "ne_latitude": 8.671, 
         "iso": "VE", 
-        "date_indexed": "2010-12-02T16:11:43Z", 
-        "parent_woeid": 395473, 
+        "sw_latitude": 8.662, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 8.667, 
         "sw_longitude": -72.338, 
         "fullname": "El Guayabo Airport, Zulia, Catatumbo, Venezuela", 
-        "sw_latitude": 8.662
+        "date_indexed": "2010-12-02T16:11:43Z"
       }, 
       "id": 12522776
     }

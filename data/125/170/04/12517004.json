@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517004, 
+        "placetype": "airport", 
         "name": "Tigil Airport", 
-        "ne_latitude": 57.782, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598426", 
+          "woe:state=20070515", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517004, 
         "ne_longitude": 158.743, 
         "longitude": 158.735, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598426, 
+        "ne_latitude": 57.782, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2124816, 
+        "sw_latitude": 57.773, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 57.777, 
         "sw_longitude": 158.726, 
-        "fullname": "Tigil Airport, Tigil', Koryakskiy Avtonomnyy Okrug, Tigilsky, Russia", 
-        "sw_latitude": 57.773
+        "fullname": "Tigil Airport, Tigil', Koryakskiy Avtonomnyy Okrug, Russia", 
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12517004
     }

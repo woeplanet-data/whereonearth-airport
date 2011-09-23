@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521509, 
-        "name": "Quillayute State Airport", 
         "alias_ENG_V": [
           "Quillayute State"
         ], 
-        "ne_latitude": 47.947, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Quillayute State Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590444", 
+          "woe:state=2347606", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521509, 
         "ne_longitude": -124.546, 
         "longitude": -124.570, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590444, 
+        "ne_latitude": 47.947, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2477835, 
+        "sw_latitude": 47.931, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.935, 
         "sw_longitude": -124.573, 
-        "fullname": "Quillayute State Airport, Quillayute, Washington, Clallam, United States", 
-        "sw_latitude": 47.931
+        "fullname": "Quillayute State Airport, Quillayute, Washington, United States", 
+        "iata_code": "UIL", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521509
     }

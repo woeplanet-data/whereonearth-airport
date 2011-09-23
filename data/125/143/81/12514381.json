@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514381, 
+        "placetype": "airport", 
         "name": "Kokbasty Airport", 
-        "ne_latitude": 43.066, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345983", 
+          "woe:country=23424871", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514381, 
         "ne_longitude": 71.637, 
         "longitude": 71.631, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345983, 
+        "ne_latitude": 43.066, 
         "iso": "KZ", 
-        "date_indexed": "2010-12-02T08:54:13Z", 
-        "parent_woeid": 2264166, 
+        "sw_latitude": 43.057, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.062, 
         "sw_longitude": 71.625, 
         "fullname": "Kokbasty Airport, Zhambyl, Kazakhstan", 
-        "sw_latitude": 43.057
+        "date_indexed": "2010-12-02T08:54:13Z"
       }, 
       "id": 12514381
     }

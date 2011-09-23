@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519262, 
-        "name": "Cochran County Airport", 
         "alias_ENG_V": [
           "F85"
         ], 
-        "ne_latitude": 33.735, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Cochran County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590046", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519262, 
         "ne_longitude": -102.732, 
         "longitude": -102.736, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590046, 
+        "ne_latitude": 33.735, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2454426, 
+        "sw_latitude": 33.728, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 33.730, 
         "sw_longitude": -102.741, 
-        "fullname": "Cochran County Airport, Morton, Texas, Cochran, United States", 
-        "sw_latitude": 33.728
+        "fullname": "Cochran County Airport, Morton, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519262
     }

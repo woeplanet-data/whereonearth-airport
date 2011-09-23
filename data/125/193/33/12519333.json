@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519333, 
-        "name": "Cottonwood Municipal Airport", 
         "alias_ENG_V": [
           "S84"
         ], 
-        "ne_latitude": 46.040, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Cottonwood Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588058", 
+          "woe:state=2347571", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519333, 
         "ne_longitude": -116.325, 
         "longitude": -116.327, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588058, 
+        "ne_latitude": 46.040, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:15Z", 
-        "parent_woeid": 2385641, 
+        "sw_latitude": 46.038, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.039, 
         "sw_longitude": -116.329, 
-        "fullname": "Cottonwood Municipal Airport, Cottonwood, Idaho, Idaho, United States", 
-        "sw_latitude": 46.038
+        "fullname": "Cottonwood Municipal Airport, Cottonwood, Idaho, United States", 
+        "date_indexed": "2010-12-02T18:39:15Z"
       }, 
       "id": 12519333
     }

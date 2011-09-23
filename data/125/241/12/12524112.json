@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524112, 
-        "name": "Estevan Point Airport", 
         "alias_ENG_V": [
           "YEP Airport"
         ], 
-        "ne_latitude": 49.389, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Estevan Point Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375188", 
+          "woe:state=2344916", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524112, 
         "ne_longitude": -126.518, 
         "longitude": -126.525, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375188, 
+        "ne_latitude": 49.389, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 9738, 
+        "sw_latitude": 49.379, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.384, 
         "sw_longitude": -126.532, 
-        "fullname": "Estevan Point Airport, Hesquiat, British Columbia, Alberni-Clayoquot, Canada", 
-        "sw_latitude": 49.379
+        "fullname": "Estevan Point Airport, Hesquiat, British Columbia, Canada", 
+        "iata_code": "YEP", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12524112
     }

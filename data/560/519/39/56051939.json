@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 56051939, 
+        "placetype": "airport", 
         "name": "Flugplatz Kempten-durach", 
-        "ne_latitude": 47.696, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12635039", 
+          "woe:county=12596693", 
+          "woe:state=2345482", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56051939, 
         "ne_longitude": 10.346, 
         "longitude": 10.341, 
-        "placetype": "Airport", 
+        "parent_woeid": 12635039, 
+        "ne_latitude": 47.696, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 645974, 
+        "sw_latitude": 47.687, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.695, 
         "sw_longitude": 10.332, 
-        "fullname": "Flugplatz Kempten-durach, Durach, Bavaria, Oberallg\u00e4u, Germany", 
-        "sw_latitude": 47.687
+        "fullname": "Flugplatz Kempten-durach, Durach, Bavaria, Germany", 
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 56051939
     }

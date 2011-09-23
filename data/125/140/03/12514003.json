@@ -32,29 +32,34 @@
       "type": "Feature", 
       "properties": {
         "lang": "JPN", 
-        "woeid": 12514003, 
-        "name": "\u5927\u5206\u7a7a\u6e2f", 
         "alias_ENG_V": [
           "OIT Airport"
         ], 
+        "name": "\u5927\u5206\u7a7a\u6e2f", 
         "alias_ENG_P": [
           "Oita Airport"
         ], 
-        "ne_latitude": 33.485, 
+        "parent_woeid": 2345879, 
+        "woeid": 12514003, 
+        "provider": "geoplanet 7.6.0", 
         "alias_JPN_V": [
           "\u30aa\u30aa\u30a4\u30bf\u30af\u30a6\u30b3\u30a6"
         ], 
-        "ne_longitude": 131.742, 
         "longitude": 131.737, 
-        "parent_woeid": 28379407, 
-        "placetype": "Airport", 
+        "ne_longitude": 131.742, 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2345879", 
+          "woe:country=23424856", 
+          "woe:planet=1"
+        ], 
         "iso": "JP", 
-        "date_indexed": "2010-12-02T08:09:08Z", 
-        "provider": "geoplanet 7.6.0", 
+        "sw_latitude": 33.476, 
+        "ne_latitude": 33.485, 
         "latitude": 33.480, 
         "sw_longitude": 131.731, 
         "fullname": "\u5927\u5206\u7a7a\u6e2f, Kunisaki-shi, Oita Prefecture, Japan", 
-        "sw_latitude": 33.476
+        "date_indexed": "2010-12-02T08:09:08Z"
       }, 
       "id": 12514003
     }

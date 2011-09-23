@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515859, 
+        "placetype": "airport", 
         "name": "Bredy Airport", 
-        "ne_latitude": 52.443, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598113", 
+          "woe:state=2346893", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515859, 
         "ne_longitude": 60.351, 
         "longitude": 60.344, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598113, 
+        "ne_latitude": 52.443, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2120403, 
+        "sw_latitude": 52.434, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 52.439, 
         "sw_longitude": 60.337, 
-        "fullname": "Bredy Airport, Bredy, Chelyabinskaya Oblast, Bredinsky, Russia", 
-        "sw_latitude": 52.434
+        "fullname": "Bredy Airport, Bredy, Chelyabinskaya Oblast, Russia", 
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12515859
     }

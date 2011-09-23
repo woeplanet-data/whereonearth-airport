@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520084, 
-        "name": "Hardwick Field Airport", 
         "alias_ENG_V": [
           "HDI"
         ], 
-        "ne_latitude": 35.225, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Hardwick Field Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589917", 
+          "woe:state=2347601", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520084, 
         "ne_longitude": -84.828, 
         "longitude": -84.831, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589917, 
+        "ne_latitude": 35.225, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2381467, 
+        "sw_latitude": 35.215, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.220, 
         "sw_longitude": -84.836, 
-        "fullname": "Hardwick Field Airport, Cleveland, Tennessee, Bradley, United States", 
-        "sw_latitude": 35.215
+        "fullname": "Hardwick Field Airport, Cleveland, Tennessee, United States", 
+        "iata_code": "HDI", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520084
     }

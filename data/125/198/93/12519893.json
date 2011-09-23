@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519893, 
+        "placetype": "airport", 
         "name": "Ghost Ranch Airport", 
-        "ne_latitude": 36.330, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12589300", 
+          "woe:state=2347590", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519893, 
         "ne_longitude": -106.505, 
         "longitude": -106.511, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589300, 
+        "ne_latitude": 36.330, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2397800, 
+        "sw_latitude": 36.321, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.325, 
         "sw_longitude": -106.516, 
-        "fullname": "Ghost Ranch Airport, El Monte Rojo, New Mexico, Rio Arriba, United States", 
-        "sw_latitude": 36.321
+        "fullname": "Ghost Ranch Airport, El Monte Rojo, New Mexico, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12519893
     }

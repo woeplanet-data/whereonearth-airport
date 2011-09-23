@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522975, 
-        "name": "Eros Airport", 
         "alias_ENG_V": [
           "ERS"
         ], 
-        "ne_latitude": -22.601, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Eros Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55921197", 
+          "woe:state=20069845", 
+          "woe:country=23424987", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522975, 
         "ne_longitude": 17.094, 
         "longitude": 17.082, 
-        "placetype": "Airport", 
+        "parent_woeid": 55921197, 
+        "ne_latitude": -22.601, 
         "iso": "NA", 
-        "date_indexed": "2010-12-02T07:50:17Z", 
-        "parent_woeid": 1466367, 
+        "sw_latitude": -22.624, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -22.612, 
         "sw_longitude": 17.070, 
         "fullname": "Eros Airport, Khomas, Namibia", 
-        "sw_latitude": -22.624
+        "iata_code": "ERS", 
+        "date_indexed": "2010-12-02T07:50:17Z"
       }, 
       "id": 12522975
     }

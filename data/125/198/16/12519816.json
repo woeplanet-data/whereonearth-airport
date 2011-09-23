@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519816, 
+        "placetype": "airport", 
         "name": "Freedom Municipal Airport", 
-        "ne_latitude": 36.762, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12589690", 
+          "woe:state=2347595", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519816, 
         "ne_longitude": -99.096, 
         "longitude": -99.102, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589690, 
+        "ne_latitude": 36.762, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2407255, 
+        "sw_latitude": 36.753, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.758, 
         "sw_longitude": -99.107, 
-        "fullname": "Freedom Municipal Airport, Freedom, Oklahoma, Woods, United States", 
-        "sw_latitude": 36.753
+        "fullname": "Freedom Municipal Airport, Freedom, Oklahoma, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12519816
     }

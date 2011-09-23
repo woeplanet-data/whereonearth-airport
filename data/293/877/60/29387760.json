@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29387760, 
+        "placetype": "airport", 
         "name": "Paul Hoberg Airport", 
-        "ne_latitude": 38.876, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12587686", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29387760, 
         "ne_longitude": -122.678, 
         "longitude": -122.680, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587686, 
+        "ne_latitude": 38.876, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2490608, 
+        "sw_latitude": 38.874, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.875, 
         "sw_longitude": -122.681, 
-        "fullname": "Paul Hoberg Airport, Seigler Springs, California, Lake, United States", 
-        "sw_latitude": 38.874
+        "fullname": "Paul Hoberg Airport, Seigler Springs, California, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 29387760
     }

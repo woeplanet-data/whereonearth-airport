@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514946, 
+        "placetype": "airport", 
         "name": "Rancho la Milpita Airport", 
-        "ne_latitude": 30.488, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12601586", 
+          "woe:state=2346289", 
+          "woe:country=23424900", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514946, 
         "ne_longitude": -109.638, 
         "longitude": -109.643, 
-        "placetype": "Airport", 
+        "parent_woeid": 12601586, 
+        "ne_latitude": 30.488, 
         "iso": "MX", 
-        "date_indexed": "2010-12-02T16:57:55Z", 
-        "parent_woeid": 134273, 
+        "sw_latitude": 30.479, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 30.483, 
         "sw_longitude": -109.649, 
-        "fullname": "Rancho la Milpita Airport, Nacozari de Garc\u00eda, Sonora, Nacozari de Garcia, Mexico", 
-        "sw_latitude": 30.479
+        "fullname": "Rancho la Milpita Airport, Nacozari de Garc\u00eda, Sonora, Mexico", 
+        "date_indexed": "2010-12-02T16:57:55Z"
       }, 
       "id": 12514946
     }

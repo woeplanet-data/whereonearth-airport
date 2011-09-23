@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521193, 
-        "name": "Oconto Municipal Airport", 
         "alias_ENG_V": [
           "OCQ"
         ], 
-        "ne_latitude": 44.878, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Oconto Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590576", 
+          "woe:state=2347608", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521193, 
         "ne_longitude": -87.900, 
         "longitude": -87.914, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590576, 
+        "ne_latitude": 44.878, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2464179, 
+        "sw_latitude": 44.870, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.877, 
         "sw_longitude": -87.917, 
-        "fullname": "Oconto Municipal Airport, Oconto, Wisconsin, Oconto, United States", 
-        "sw_latitude": 44.870
+        "fullname": "Oconto Municipal Airport, Oconto, Wisconsin, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521193
     }

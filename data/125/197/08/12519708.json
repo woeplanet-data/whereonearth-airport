@@ -3,28 +3,38 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -112.090, 
-              43.499
-            ], 
-            [
-              -112.090, 
-              43.526
-            ], 
-            [
-              -112.057, 
-              43.526
-            ], 
-            [
-              -112.057, 
-              43.499
-            ], 
-            [
-              -112.090, 
-              43.499
+              [
+                -112.072, 
+                43.515
+              ], 
+              [
+                -112.067, 
+                43.517
+              ], 
+              [
+                -112.065, 
+                43.519
+              ], 
+              [
+                -112.067, 
+                43.515
+              ], 
+              [
+                -112.068, 
+                43.513
+              ], 
+              [
+                -112.070, 
+                43.512
+              ], 
+              [
+                -112.072, 
+                43.515
+              ]
             ]
           ]
         ]
@@ -32,23 +42,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519708, 
-        "name": "Fanning Field Airport", 
         "alias_ENG_V": [
           "Idaho Falls Regional Airport"
         ], 
-        "ne_latitude": 43.526, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -112.057, 
-        "longitude": -112.067, 
-        "placetype": "Airport", 
+        "name": "Fanning Field Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588043", 
+          "woe:state=2347571", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519708, 
+        "ne_longitude": -112.065, 
+        "longitude": -112.069, 
+        "parent_woeid": 12588043, 
+        "ne_latitude": 43.519, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2426440, 
+        "sw_latitude": 43.512, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.515, 
-        "sw_longitude": -112.090, 
-        "fullname": "Fanning Field Airport, Idaho Falls, Idaho, Bonneville, United States", 
-        "sw_latitude": 43.499
+        "sw_longitude": -112.072, 
+        "fullname": "Fanning Field Airport, Idaho Falls, Idaho, United States", 
+        "iata_code": "IDA", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12519708
     }

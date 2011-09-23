@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511378, 
+        "placetype": "airport", 
         "name": "Abrit Airport", 
-        "ne_latitude": 43.914, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55873906", 
+          "woe:state=20070050", 
+          "woe:country=23424771", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511378, 
         "ne_longitude": 27.818, 
         "longitude": 27.812, 
-        "placetype": "Airport", 
+        "parent_woeid": 55873906, 
+        "ne_latitude": 43.914, 
         "iso": "BG", 
-        "date_indexed": "2010-12-02T16:14:37Z", 
-        "parent_woeid": 834630, 
+        "sw_latitude": 43.905, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.910, 
         "sw_longitude": 27.805, 
         "fullname": "Abrit Airport, Dobrich, Krushari, Bulgaria", 
-        "sw_latitude": 43.905
+        "date_indexed": "2010-12-02T16:14:37Z"
       }, 
       "id": 12511378
     }

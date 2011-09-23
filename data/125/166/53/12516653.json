@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516653, 
+        "placetype": "airport", 
         "name": "Panfilovo Airport", 
-        "ne_latitude": 50.393, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599571", 
+          "woe:state=2346933", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516653, 
         "ne_longitude": 42.889, 
         "longitude": 42.882, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599571, 
+        "ne_latitude": 50.393, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2062508, 
+        "sw_latitude": 50.384, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.389, 
         "sw_longitude": 42.875, 
         "fullname": "Panfilovo Airport, Volgogradskaya Oblast, Novoanninsky, Russia", 
-        "sw_latitude": 50.384
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516653
     }

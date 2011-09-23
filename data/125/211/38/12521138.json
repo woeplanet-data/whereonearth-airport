@@ -3,28 +3,114 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -78.972, 
-              43.099
-            ], 
-            [
-              -78.972, 
-              43.116
-            ], 
-            [
-              -78.927, 
-              43.116
-            ], 
-            [
-              -78.927, 
-              43.099
-            ], 
-            [
-              -78.972, 
-              43.099
+              [
+                -78.945, 
+                43.100
+              ], 
+              [
+                -78.943, 
+                43.102
+              ], 
+              [
+                -78.941, 
+                43.104
+              ], 
+              [
+                -78.935, 
+                43.108
+              ], 
+              [
+                -78.934, 
+                43.108
+              ], 
+              [
+                -78.934, 
+                43.102
+              ], 
+              [
+                -78.937, 
+                43.100
+              ], 
+              [
+                -78.944, 
+                43.101
+              ], 
+              [
+                -78.945, 
+                43.099
+              ], 
+              [
+                -78.947, 
+                43.098
+              ], 
+              [
+                -78.950, 
+                43.098
+              ], 
+              [
+                -78.954, 
+                43.096
+              ], 
+              [
+                -78.954, 
+                43.096
+              ], 
+              [
+                -78.954, 
+                43.096
+              ], 
+              [
+                -78.952, 
+                43.103
+              ], 
+              [
+                -78.950, 
+                43.098
+              ], 
+              [
+                -78.947, 
+                43.098
+              ], 
+              [
+                -78.945, 
+                43.099
+              ], 
+              [
+                -78.944, 
+                43.101
+              ], 
+              [
+                -78.937, 
+                43.100
+              ], 
+              [
+                -78.934, 
+                43.102
+              ], 
+              [
+                -78.934, 
+                43.108
+              ], 
+              [
+                -78.935, 
+                43.108
+              ], 
+              [
+                -78.941, 
+                43.104
+              ], 
+              [
+                -78.943, 
+                43.102
+              ], 
+              [
+                -78.945, 
+                43.100
+              ]
             ]
           ]
         ]
@@ -32,23 +118,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521138, 
-        "name": "Niagara Falls International Airport", 
         "alias_ENG_V": [
           "Niagara Falls Airport"
         ], 
-        "ne_latitude": 43.116, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -78.927, 
-        "longitude": -78.942, 
-        "placetype": "Airport", 
+        "name": "Niagara Falls International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589343", 
+          "woe:state=2347591", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521138, 
+        "ne_longitude": -78.934, 
+        "longitude": -78.952, 
+        "parent_woeid": 12589343, 
+        "ne_latitude": 43.108, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 28744813, 
-        "latitude": 43.100, 
-        "sw_longitude": -78.972, 
-        "fullname": "Niagara Falls International Airport, Wheatfield, New York, Niagara, United States", 
-        "sw_latitude": 43.099
+        "sw_latitude": 43.096, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 43.099, 
+        "sw_longitude": -78.954, 
+        "fullname": "Niagara Falls International Airport, Wheatfield, New York, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12521138
     }

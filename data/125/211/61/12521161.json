@@ -32,23 +32,32 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521161, 
-        "name": "Northeast Philadelphia Airport", 
         "alias_ENG_V": [
           "PNE Airport"
         ], 
-        "ne_latitude": 40.099, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Northeast Philadelphia Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:suburb=2356755", 
+          "woe:suburb=55864648", 
+          "woe:county=12589778", 
+          "woe:state=2347597", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521161, 
         "ne_longitude": -74.989, 
         "longitude": -75.011, 
-        "placetype": "Airport", 
-        "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
         "parent_woeid": 2356755, 
+        "ne_latitude": 40.099, 
+        "iso": "US", 
+        "sw_latitude": 40.069, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.074, 
         "sw_longitude": -75.025, 
-        "fullname": "Northeast Philadelphia Airport, Philadelphia, Pennsylvania, Philadelphia, United States", 
-        "sw_latitude": 40.069
+        "fullname": "Northeast Philadelphia Airport, Philadelphia, Pennsylvania, United States", 
+        "iata_code": "PNE", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521161
     }

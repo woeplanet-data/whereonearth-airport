@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510698, 
-        "name": "Isisford Aerodrome", 
         "alias_ENG_V": [
           "Isisford Airport"
         ], 
-        "ne_latitude": -24.256, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Isisford Aerodrome", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=56072974", 
+          "woe:state=2344702", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510698, 
         "ne_longitude": 144.430, 
         "longitude": 144.425, 
-        "placetype": "Airport", 
+        "parent_woeid": 56072974, 
+        "ne_latitude": -24.256, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1102789, 
+        "sw_latitude": -24.265, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -24.260, 
         "sw_longitude": 144.420, 
-        "fullname": "Isisford Aerodrome, Isisford, Queensland, Isisford, Australia", 
-        "sw_latitude": -24.265
+        "fullname": "Isisford Aerodrome, Isisford, Queensland, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 12510698
     }

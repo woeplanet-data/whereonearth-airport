@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521292, 
-        "name": "Palo Alto Airport of Santa Clara County", 
         "alias_ENG_V": [
           "Palo Alto of Santa Clara"
         ], 
-        "ne_latitude": 37.465, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Palo Alto Airport of Santa Clara County", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587710", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521292, 
         "ne_longitude": -122.110, 
         "longitude": -122.114, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587710, 
+        "ne_latitude": 37.465, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2395993, 
+        "sw_latitude": 37.453, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 37.453, 
         "sw_longitude": -122.119, 
-        "fullname": "Palo Alto Airport of Santa Clara County, East Palo Alto, California, San Mateo, United States", 
-        "sw_latitude": 37.453
+        "fullname": "Palo Alto Airport of Santa Clara County, East Palo Alto, California, United States", 
+        "iata_code": "PAO", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521292
     }

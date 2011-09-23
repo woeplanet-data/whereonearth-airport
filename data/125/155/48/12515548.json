@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515548, 
+        "placetype": "airport", 
         "name": "Ludus Airport", 
-        "ne_latitude": 46.480, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2346640", 
+          "woe:country=23424933", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515548, 
         "ne_longitude": 24.126, 
         "longitude": 24.120, 
-        "placetype": "Airport", 
+        "parent_woeid": 2346640, 
+        "ne_latitude": 46.480, 
         "iso": "RO", 
-        "date_indexed": "2010-12-02T16:37:48Z", 
-        "parent_woeid": 870800, 
+        "sw_latitude": 46.471, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.476, 
         "sw_longitude": 24.113, 
         "fullname": "Ludus Airport, Mures, Romania", 
-        "sw_latitude": 46.471
+        "date_indexed": "2010-12-02T16:37:48Z"
       }, 
       "id": 12515548
     }

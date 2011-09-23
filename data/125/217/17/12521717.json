@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521717, 
-        "name": "San Augustine County Airport", 
         "alias_ENG_V": [
           "78r"
         ], 
-        "ne_latitude": 31.546, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "San Augustine County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590209", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521717, 
         "ne_longitude": -94.168, 
         "longitude": -94.169, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590209, 
+        "ne_latitude": 31.546, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2487851, 
+        "sw_latitude": 31.533, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 31.544, 
         "sw_longitude": -94.171, 
-        "fullname": "San Augustine County Airport, San Augustine, Texas, San Augustine, United States", 
-        "sw_latitude": 31.533
+        "fullname": "San Augustine County Airport, San Augustine, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521717
     }

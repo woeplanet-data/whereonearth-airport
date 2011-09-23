@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522050, 
+        "placetype": "airport", 
         "name": "Sunflower Gliderport Airport", 
-        "ne_latitude": 37.931, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12588448", 
+          "woe:state=2347575", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522050, 
         "ne_longitude": -97.900, 
         "longitude": -97.906, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588448, 
+        "ne_latitude": 37.931, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2524786, 
+        "sw_latitude": 37.922, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 37.927, 
         "sw_longitude": -97.912, 
-        "fullname": "Sunflower Gliderport Airport, Yoder, Kansas, Reno, United States", 
-        "sw_latitude": 37.922
+        "fullname": "Sunflower Gliderport Airport, Yoder, Kansas, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12522050
     }

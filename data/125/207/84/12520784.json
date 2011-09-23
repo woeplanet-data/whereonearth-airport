@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520784, 
-        "name": "Mansfield Municipal Airport", 
         "alias_ENG_V": [
           "03b"
         ], 
-        "ne_latitude": 37.129, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Mansfield Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589080", 
+          "woe:state=2347584", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520784, 
         "ne_longitude": -92.614, 
         "longitude": -92.623, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589080, 
+        "ne_latitude": 37.129, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2444991, 
+        "sw_latitude": 37.125, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 37.125, 
         "sw_longitude": -92.629, 
-        "fullname": "Mansfield Municipal Airport, Mansfield, Missouri, Wright, United States", 
-        "sw_latitude": 37.125
+        "fullname": "Mansfield Municipal Airport, Mansfield, Missouri, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520784
     }

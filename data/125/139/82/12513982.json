@@ -32,29 +32,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "JPN", 
-        "woeid": 12513982, 
-        "name": "\u4e45\u7c73\u5cf6\u7a7a\u6e2f", 
         "alias_ENG_V": [
           "UEO Airport"
         ], 
+        "name": "\u4e45\u7c73\u5cf6\u7a7a\u6e2f", 
         "alias_ENG_P": [
           "Kumejima Airport"
         ], 
-        "ne_latitude": 26.372, 
+        "parent_woeid": 24857540, 
+        "woeid": 12513982, 
+        "provider": "geoplanet 7.6.0", 
         "alias_JPN_V": [
           "\u30af\u30e1\u30b8\u30de\u30af\u30a6\u30b3\u30a6"
         ], 
-        "ne_longitude": 126.721, 
         "longitude": 126.716, 
-        "parent_woeid": 24714248, 
-        "placetype": "Airport", 
+        "ne_longitude": 126.721, 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=24857540", 
+          "woe:state=2345896", 
+          "woe:country=23424856", 
+          "woe:planet=1"
+        ], 
         "iso": "JP", 
-        "date_indexed": "2010-12-02T08:09:08Z", 
-        "provider": "geoplanet 7.6.0", 
+        "sw_latitude": 26.363, 
+        "ne_latitude": 26.372, 
         "latitude": 26.368, 
         "sw_longitude": 126.711, 
-        "fullname": "\u4e45\u7c73\u5cf6\u7a7a\u6e2f, Kumejima-cho, Okinawa Prefecture, Shimajiri-gun, Japan", 
-        "sw_latitude": 26.363
+        "fullname": "\u4e45\u7c73\u5cf6\u7a7a\u6e2f, Kumejima-cho, Okinawa Prefecture, Japan", 
+        "iata_code": "UEO", 
+        "date_indexed": "2010-12-02T08:09:08Z"
       }, 
       "id": 12513982
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519080, 
-        "name": "Carroll County Airport", 
         "alias_ENG_V": [
           "Hzd"
         ], 
-        "ne_latitude": 36.098, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Carroll County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589920", 
+          "woe:state=2347601", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519080, 
         "ne_longitude": -88.460, 
         "longitude": -88.465, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589920, 
+        "ne_latitude": 36.098, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2420966, 
+        "sw_latitude": 36.081, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.081, 
         "sw_longitude": -88.468, 
-        "fullname": "Carroll County Airport, Hico, Tennessee, Carroll, United States", 
-        "sw_latitude": 36.081
+        "fullname": "Carroll County Airport, Hico, Tennessee, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519080
     }

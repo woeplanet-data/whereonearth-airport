@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516673, 
+        "placetype": "airport", 
         "name": "Permskaya Oblast Airport", 
-        "ne_latitude": 60.668, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599027", 
+          "woe:state=20070511", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516673, 
         "ne_longitude": 55.585, 
         "longitude": 55.576, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599027, 
+        "ne_latitude": 60.668, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2059500, 
+        "sw_latitude": 60.659, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 60.664, 
         "sw_longitude": 55.567, 
         "fullname": "Permskaya Oblast Airport, Permskiy Kray, Cherdynsky, Russia", 
-        "sw_latitude": 60.659
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516673
     }

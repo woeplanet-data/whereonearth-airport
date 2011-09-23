@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514471, 
+        "placetype": "airport", 
         "name": "Sholakozek Airport", 
-        "ne_latitude": 45.612, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=20070180", 
+          "woe:country=23424871", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514471, 
         "ne_longitude": 79.477, 
         "longitude": 79.470, 
-        "placetype": "Airport", 
+        "parent_woeid": 20070180, 
+        "ne_latitude": 45.612, 
         "iso": "KZ", 
-        "date_indexed": "2010-12-02T08:54:13Z", 
-        "parent_woeid": 2264149, 
+        "sw_latitude": 45.603, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.607, 
         "sw_longitude": 79.464, 
         "fullname": "Sholakozek Airport, Almaty, Kazakhstan", 
-        "sw_latitude": 45.603
+        "date_indexed": "2010-12-02T08:54:13Z"
       }, 
       "id": 12514471
     }

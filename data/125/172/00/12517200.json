@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517200, 
+        "placetype": "airport", 
         "name": "Voroshilovskiy Airport", 
-        "ne_latitude": 54.665, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598850", 
+          "woe:state=2346914", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517200, 
         "ne_longitude": 83.073, 
         "longitude": 83.065, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598850, 
+        "ne_latitude": 54.665, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2087478, 
+        "sw_latitude": 54.656, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 54.660, 
         "sw_longitude": 83.057, 
         "fullname": "Voroshilovskiy Airport, Novosibirskaya Oblast, Iskitimsky, Russia", 
-        "sw_latitude": 54.656
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12517200
     }

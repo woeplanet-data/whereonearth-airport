@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515317, 
+        "placetype": "airport", 
         "name": "Kamien Slaski Airport", 
-        "ne_latitude": 50.529, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=24548585", 
+          "woe:county=12591316", 
+          "woe:state=12577942", 
+          "woe:country=23424923", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515317, 
         "ne_longitude": 18.082, 
         "longitude": 18.075, 
-        "placetype": "Airport", 
+        "parent_woeid": 24548585, 
+        "ne_latitude": 50.529, 
         "iso": "PL", 
-        "date_indexed": "2010-12-02T12:12:45Z", 
-        "parent_woeid": 498384, 
+        "sw_latitude": 50.520, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.525, 
         "sw_longitude": 18.068, 
         "fullname": "Kamien Slaski Airport, Opole, Krapkowice County, Poland", 
-        "sw_latitude": 50.520
+        "date_indexed": "2010-12-02T12:12:45Z"
       }, 
       "id": 12515317
     }

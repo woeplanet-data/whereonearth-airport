@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512319, 
-        "name": "El Bosque Airport", 
         "alias_ENG_V": [
           "Base Aerea El Bosque"
         ], 
-        "ne_latitude": -33.552, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "El Bosque Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=26794281", 
+          "woe:county=26794015", 
+          "woe:state=2345029", 
+          "woe:country=23424782", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512319, 
         "ne_longitude": -70.680, 
         "longitude": -70.686, 
-        "placetype": "Airport", 
+        "parent_woeid": 26794281, 
+        "ne_latitude": -33.552, 
         "iso": "CL", 
-        "date_indexed": "2010-12-02T12:15:39Z", 
-        "parent_woeid": 347481, 
+        "sw_latitude": -33.561, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -33.557, 
         "sw_longitude": -70.691, 
-        "fullname": "El Bosque Airport, El Bosque, Santiago Metropolitan Region, Santiago Province, Chile", 
-        "sw_latitude": -33.561
+        "fullname": "El Bosque Airport, El Bosque, Santiago Metropolitan Region, Chile", 
+        "date_indexed": "2010-12-02T12:15:39Z"
       }, 
       "id": 12512319
     }

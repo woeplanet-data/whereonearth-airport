@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521088, 
-        "name": "Nebraska City Municipal Airport", 
         "alias_ENG_V": [
           "AFK"
         ], 
-        "ne_latitude": 40.614, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Nebraska City Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589203", 
+          "woe:state=2347586", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521088, 
         "ne_longitude": -95.860, 
         "longitude": -95.861, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589203, 
+        "ne_latitude": 40.614, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2469293, 
+        "sw_latitude": 40.602, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.605, 
         "sw_longitude": -95.873, 
-        "fullname": "Nebraska City Municipal Airport, Paul, Nebraska, Otoe, United States", 
-        "sw_latitude": 40.602
+        "fullname": "Nebraska City Municipal Airport, Paul, Nebraska, United States", 
+        "iata_code": "AFK", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12521088
     }

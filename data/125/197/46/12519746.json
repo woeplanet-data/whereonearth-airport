@@ -3,28 +3,30 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -79.736, 
-              34.173
-            ], 
-            [
-              -79.736, 
-              34.197
-            ], 
-            [
-              -79.712, 
-              34.197
-            ], 
-            [
-              -79.712, 
-              34.173
-            ], 
-            [
-              -79.736, 
-              34.173
+              [
+                -79.733, 
+                34.191
+              ], 
+              [
+                -79.733, 
+                34.192
+              ], 
+              [
+                -79.729, 
+                34.194
+              ], 
+              [
+                -79.733, 
+                34.192
+              ], 
+              [
+                -79.733, 
+                34.191
+              ]
             ]
           ]
         ]
@@ -32,23 +34,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519746, 
-        "name": "Florence Regional Airport", 
         "alias_ENG_V": [
           "Florence Airport"
         ], 
-        "ne_latitude": 34.197, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -79.712, 
-        "longitude": -79.729, 
-        "placetype": "Airport", 
+        "name": "Florence Regional Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589820", 
+          "woe:state=2347599", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519746, 
+        "ne_longitude": -79.729, 
+        "longitude": -79.732, 
+        "parent_woeid": 12589820, 
+        "ne_latitude": 34.194, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2449020, 
-        "latitude": 34.194, 
-        "sw_longitude": -79.736, 
-        "fullname": "Florence Regional Airport, Meeks, South Carolina, Florence, United States", 
-        "sw_latitude": 34.173
+        "sw_latitude": 34.191, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 34.192, 
+        "sw_longitude": -79.733, 
+        "fullname": "Florence Regional Airport, Meeks, South Carolina, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12519746
     }

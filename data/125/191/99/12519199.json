@@ -3,28 +3,74 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -84.430, 
-              39.087
-            ], 
-            [
-              -84.430, 
-              39.113
-            ], 
-            [
-              -84.408, 
-              39.113
-            ], 
-            [
-              -84.408, 
-              39.087
-            ], 
-            [
-              -84.430, 
-              39.087
+              [
+                -84.430, 
+                39.104
+              ], 
+              [
+                -84.429, 
+                39.104
+              ], 
+              [
+                -84.428, 
+                39.104
+              ], 
+              [
+                -84.427, 
+                39.103
+              ], 
+              [
+                -84.426, 
+                39.102
+              ], 
+              [
+                -84.421, 
+                39.101
+              ], 
+              [
+                -84.420, 
+                39.102
+              ], 
+              [
+                -84.426, 
+                39.102
+              ], 
+              [
+                -84.428, 
+                39.102
+              ], 
+              [
+                -84.430, 
+                39.098
+              ], 
+              [
+                -84.433, 
+                39.100
+              ], 
+              [
+                -84.434, 
+                39.101
+              ], 
+              [
+                -84.437, 
+                39.106
+              ], 
+              [
+                -84.432, 
+                39.102
+              ], 
+              [
+                -84.430, 
+                39.103
+              ], 
+              [
+                -84.430, 
+                39.104
+              ]
             ]
           ]
         ]
@@ -32,23 +78,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519199, 
-        "name": "Cincinnati Municipal Airport-Lunken Field", 
         "alias_ENG_V": [
           "Cincinnati-Lunken Field"
         ], 
-        "ne_latitude": 39.113, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -84.408, 
-        "longitude": -84.430, 
-        "placetype": "Airport", 
-        "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
+        "name": "Cincinnati Municipal Airport-Lunken Field", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:suburb=28339820", 
+          "woe:county=12589557", 
+          "woe:state=2347594", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519199, 
+        "ne_longitude": -84.420, 
+        "longitude": -84.433, 
         "parent_woeid": 28339820, 
-        "latitude": 39.103, 
-        "sw_longitude": -84.430, 
-        "fullname": "Cincinnati Municipal Airport-Lunken Field, Cincinnati, Ohio, Hamilton, United States", 
-        "sw_latitude": 39.087
+        "ne_latitude": 39.106, 
+        "iso": "US", 
+        "sw_latitude": 39.098, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 39.102, 
+        "sw_longitude": -84.437, 
+        "fullname": "Cincinnati Municipal Airport-Lunken Field, Cincinnati, Ohio, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519199
     }

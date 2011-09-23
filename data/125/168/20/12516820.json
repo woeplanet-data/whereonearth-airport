@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516820, 
+        "placetype": "airport", 
         "name": "Saratov South Airport", 
-        "ne_latitude": 51.486, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599251", 
+          "woe:state=2346924", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516820, 
         "ne_longitude": 45.945, 
         "longitude": 45.937, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599251, 
+        "ne_latitude": 51.486, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2123272, 
+        "sw_latitude": 51.477, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.482, 
         "sw_longitude": 45.930, 
-        "fullname": "Saratov South Airport, Saratov, Saratovskaya Oblast, Saratov, Russia", 
-        "sw_latitude": 51.477
+        "fullname": "Saratov South Airport, Saratov, Saratovskaya Oblast, Russia", 
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516820
     }

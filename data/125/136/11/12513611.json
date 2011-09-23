@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513611, 
-        "name": "Jodhpur Airport", 
         "alias_ENG_V": [
           "JDH"
         ], 
-        "ne_latitude": 26.261, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Jodhpur Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12586667", 
+          "woe:state=2345757", 
+          "woe:country=23424848", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513611, 
         "ne_longitude": 73.060, 
         "longitude": 73.055, 
-        "placetype": "Airport", 
+        "parent_woeid": 12586667, 
+        "ne_latitude": 26.261, 
         "iso": "IN", 
-        "date_indexed": "2010-12-02T09:26:27Z", 
-        "parent_woeid": 2278805, 
+        "sw_latitude": 26.252, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 26.256, 
         "sw_longitude": 73.049, 
-        "fullname": "Jodhpur Airport, Jhalamand, Rajasthan, Jodhpur, India", 
-        "sw_latitude": 26.252
+        "fullname": "Jodhpur Airport, Jhalamand, Rajasthan, India", 
+        "date_indexed": "2010-12-02T09:26:27Z"
       }, 
       "id": 12513611
     }

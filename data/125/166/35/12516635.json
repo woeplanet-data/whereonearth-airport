@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516635, 
+        "placetype": "airport", 
         "name": "Ostrov Kildin Airport", 
-        "ne_latitude": 69.320, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598812", 
+          "woe:state=2346912", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516635, 
         "ne_longitude": 34.208, 
         "longitude": 34.195, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598812, 
+        "ne_latitude": 69.320, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2108819, 
+        "sw_latitude": 69.311, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 69.316, 
         "sw_longitude": 34.182, 
         "fullname": "Ostrov Kildin Airport, Murmanskaya Oblast, Severomorsk, Russia", 
-        "sw_latitude": 69.311
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516635
     }

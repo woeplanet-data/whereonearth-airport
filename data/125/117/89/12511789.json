@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511789, 
-        "name": "Peterborough Airport", 
         "alias_ENG_V": [
           "YPQ Airport"
         ], 
-        "ne_latitude": 44.236, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Peterborough Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375059", 
+          "woe:state=2344922", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511789, 
         "ne_longitude": -78.351, 
         "longitude": -78.354, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375059, 
+        "ne_latitude": 44.236, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:24:00Z", 
-        "parent_woeid": 23400490, 
+        "sw_latitude": 44.224, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.234, 
         "sw_longitude": -78.377, 
-        "fullname": "Peterborough Airport, Fraserville, Ontario, Peterborough, Canada", 
-        "sw_latitude": 44.224
+        "fullname": "Peterborough Airport, Fraserville, Ontario, Canada", 
+        "iata_code": "YPQ", 
+        "date_indexed": "2010-12-02T10:24:00Z"
       }, 
       "id": 12511789
     }

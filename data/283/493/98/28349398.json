@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 28349398, 
-        "name": "Lewis B Wilson Airport", 
         "alias_ENG_V": [
           "Wilson Airport"
         ], 
-        "ne_latitude": 32.805, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Lewis B Wilson Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587880", 
+          "woe:state=2347569", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 28349398, 
         "ne_longitude": -83.668, 
         "longitude": -83.674, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587880, 
+        "ne_latitude": 32.805, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2443844, 
+        "sw_latitude": 32.796, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 32.801, 
         "sw_longitude": -83.679, 
-        "fullname": "Lewis B Wilson Airport, Macon, Georgia, Bibb, United States", 
-        "sw_latitude": 32.796
+        "fullname": "Lewis B Wilson Airport, Macon, Georgia, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 28349398
     }

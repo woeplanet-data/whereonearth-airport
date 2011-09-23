@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521233, 
+        "placetype": "airport", 
         "name": "Opa Locka West Airport", 
-        "ne_latitude": 25.950, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12587808", 
+          "woe:state=2347568", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521233, 
         "ne_longitude": -80.413, 
         "longitude": -80.418, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587808, 
+        "ne_latitude": 25.950, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2452272, 
+        "sw_latitude": 25.940, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 25.945, 
         "sw_longitude": -80.423, 
-        "fullname": "Opa Locka West Airport, Miramar, Florida, Broward, United States", 
-        "sw_latitude": 25.940
+        "fullname": "Opa Locka West Airport, Miramar, Florida, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521233
     }

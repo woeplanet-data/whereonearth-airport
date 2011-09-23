@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518673, 
-        "name": "Ashland Boyd County Airport", 
         "alias_ENG_V": [
           "Dwu"
         ], 
-        "ne_latitude": 38.556, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Ashland Boyd County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588520", 
+          "woe:state=2347576", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518673, 
         "ne_longitude": -82.727, 
         "longitude": -82.737, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588520, 
+        "ne_latitude": 38.556, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2524012, 
+        "sw_latitude": 38.552, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.552, 
         "sw_longitude": -82.748, 
-        "fullname": "Ashland Boyd County Airport, Worthington, Kentucky, Greenup, United States", 
-        "sw_latitude": 38.552
+        "fullname": "Ashland Boyd County Airport, Worthington, Kentucky, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518673
     }

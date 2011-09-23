@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512076, 
+        "placetype": "airport", 
         "name": "Huaide Airport", 
-        "ne_latitude": 43.530, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12685639", 
+          "woe:county=26198077", 
+          "woe:state=12577995", 
+          "woe:country=23424781", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512076, 
         "ne_longitude": 124.790, 
         "longitude": 124.783, 
-        "placetype": "Airport", 
+        "parent_woeid": 12685639, 
+        "ne_latitude": 43.530, 
         "iso": "CN", 
-        "date_indexed": "2010-12-02T08:51:48Z", 
-        "parent_woeid": 2138126, 
+        "sw_latitude": 43.521, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.526, 
         "sw_longitude": 124.777, 
-        "fullname": "Huaide Airport, Gongzhuling, Jilin, Siping, China", 
-        "sw_latitude": 43.521
+        "fullname": "Huaide Airport, Gongzhuling, Jilin, China", 
+        "date_indexed": "2010-12-02T08:51:48Z"
       }, 
       "id": 12512076
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522032, 
-        "name": "Stuttgart Municipal Airport", 
         "alias_ENG_V": [
           "Stuttgart Airport"
         ], 
-        "ne_latitude": 34.607, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Stuttgart Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587653", 
+          "woe:state=2347562", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522032, 
         "ne_longitude": -91.556, 
         "longitude": -91.568, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587653, 
+        "ne_latitude": 34.607, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2401592, 
+        "sw_latitude": 34.582, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 34.596, 
         "sw_longitude": -91.588, 
-        "fullname": "Stuttgart Municipal Airport, Fairmount, Arkansas, Prairie, United States", 
-        "sw_latitude": 34.582
+        "fullname": "Stuttgart Municipal Airport, Fairmount, Arkansas, United States", 
+        "iata_code": "SGT", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522032
     }

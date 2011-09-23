@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514362, 
+        "placetype": "airport", 
         "name": "Karasor Airport", 
-        "ne_latitude": 50.669, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345980", 
+          "woe:country=23424871", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514362, 
         "ne_longitude": 61.524, 
         "longitude": 61.516, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345980, 
+        "ne_latitude": 50.669, 
         "iso": "KZ", 
-        "date_indexed": "2010-12-02T08:54:13Z", 
-        "parent_woeid": 2260710, 
+        "sw_latitude": 50.660, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.664, 
         "sw_longitude": 61.509, 
         "fullname": "Karasor Airport, Oktyabr', Aqtobe, Kazakhstan", 
-        "sw_latitude": 50.660
+        "date_indexed": "2010-12-02T08:54:13Z"
       }, 
       "id": 12514362
     }

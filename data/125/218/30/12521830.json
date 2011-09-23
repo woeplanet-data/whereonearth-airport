@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521830, 
-        "name": "Shenandoah Valley Regional Airport", 
         "alias_ENG_V": [
           "SHD Airport"
         ], 
-        "ne_latitude": 38.274, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Shenandoah Valley Regional Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590312", 
+          "woe:state=2347605", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521830, 
         "ne_longitude": -78.886, 
         "longitude": -78.900, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590312, 
+        "ne_latitude": 38.274, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2518805, 
+        "sw_latitude": 38.256, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.264, 
         "sw_longitude": -78.905, 
-        "fullname": "Shenandoah Valley Regional Airport, Weyers Cave, Virginia, Augusta, United States", 
-        "sw_latitude": 38.256
+        "fullname": "Shenandoah Valley Regional Airport, Weyers Cave, Virginia, United States", 
+        "iata_code": "SHD", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521830
     }

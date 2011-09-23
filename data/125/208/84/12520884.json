@@ -3,28 +3,58 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -122.885, 
-              42.356
-            ], 
-            [
-              -122.885, 
-              42.389
-            ], 
-            [
-              -122.861, 
-              42.389
-            ], 
-            [
-              -122.861, 
-              42.356
-            ], 
-            [
-              -122.885, 
-              42.356
+              [
+                -122.878, 
+                42.370
+              ], 
+              [
+                -122.877, 
+                42.370
+              ], 
+              [
+                -122.875, 
+                42.372
+              ], 
+              [
+                -122.873, 
+                42.371
+              ], 
+              [
+                -122.871, 
+                42.370
+              ], 
+              [
+                -122.871, 
+                42.369
+              ], 
+              [
+                -122.874, 
+                42.368
+              ], 
+              [
+                -122.879, 
+                42.368
+              ], 
+              [
+                -122.880, 
+                42.368
+              ], 
+              [
+                -122.883, 
+                42.366
+              ], 
+              [
+                -122.880, 
+                42.369
+              ], 
+              [
+                -122.878, 
+                42.370
+              ]
             ]
           ]
         ]
@@ -32,23 +62,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520884, 
-        "name": "Rogue Valley International-Medford Airport", 
         "alias_ENG_V": [
           "Medford Jackson Airport"
         ], 
-        "ne_latitude": 42.389, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -122.861, 
-        "longitude": -122.873, 
-        "placetype": "Airport", 
+        "name": "Rogue Valley International-Medford Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589706", 
+          "woe:state=2347596", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520884, 
+        "ne_longitude": -122.871, 
+        "longitude": -122.876, 
+        "parent_woeid": 12589706, 
+        "ne_latitude": 42.372, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2448929, 
+        "sw_latitude": 42.366, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.369, 
-        "sw_longitude": -122.885, 
-        "fullname": "Rogue Valley International-Medford Airport, Medford, Oregon, Jackson, United States", 
-        "sw_latitude": 42.356
+        "sw_longitude": -122.883, 
+        "fullname": "Rogue Valley International-Medford Airport, Medford, Oregon, United States", 
+        "iata_code": "MFR", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520884
     }

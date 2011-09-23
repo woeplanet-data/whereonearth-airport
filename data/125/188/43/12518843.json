@@ -3,28 +3,46 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -100.767, 
-              46.756
-            ], 
-            [
-              -100.767, 
-              46.787
-            ], 
-            [
-              -100.724, 
-              46.787
-            ], 
-            [
-              -100.724, 
-              46.756
-            ], 
-            [
-              -100.767, 
-              46.756
+              [
+                -100.762, 
+                46.778
+              ], 
+              [
+                -100.764, 
+                46.779
+              ], 
+              [
+                -100.762, 
+                46.778
+              ], 
+              [
+                -100.761, 
+                46.778
+              ], 
+              [
+                -100.760, 
+                46.776
+              ], 
+              [
+                -100.757, 
+                46.775
+              ], 
+              [
+                -100.758, 
+                46.774
+              ], 
+              [
+                -100.760, 
+                46.776
+              ], 
+              [
+                -100.762, 
+                46.778
+              ]
             ]
           ]
         ]
@@ -32,23 +50,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518843, 
-        "name": "Bismarck Municipal Airport", 
         "alias_ENG_V": [
           "Bismarck Airport"
         ], 
-        "ne_latitude": 46.787, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -100.724, 
-        "longitude": -100.757, 
-        "placetype": "Airport", 
+        "name": "Bismarck Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589481", 
+          "woe:state=2347593", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518843, 
+        "ne_longitude": -100.757, 
+        "longitude": -100.759, 
+        "parent_woeid": 12589481, 
+        "ne_latitude": 46.779, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2439459, 
-        "latitude": 46.774, 
-        "sw_longitude": -100.767, 
-        "fullname": "Bismarck Municipal Airport, Lincoln, North Dakota, Burleigh, United States", 
-        "sw_latitude": 46.756
+        "sw_latitude": 46.774, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 46.776, 
+        "sw_longitude": -100.764, 
+        "fullname": "Bismarck Municipal Airport, Lincoln, North Dakota, United States", 
+        "iata_code": "BIS", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518843
     }

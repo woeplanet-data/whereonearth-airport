@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510739, 
-        "name": "Monto Aerodrome", 
         "alias_ENG_V": [
           "Monto Airport"
         ], 
-        "ne_latitude": -24.888, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Monto Aerodrome", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=56072994", 
+          "woe:state=2344702", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510739, 
         "ne_longitude": 151.107, 
         "longitude": 151.102, 
-        "placetype": "Airport", 
+        "parent_woeid": 56072994, 
+        "ne_latitude": -24.888, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1098928, 
+        "sw_latitude": -24.897, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -24.893, 
         "sw_longitude": 151.097, 
-        "fullname": "Monto Aerodrome, Three Moon, Queensland, Monto, Australia", 
-        "sw_latitude": -24.897
+        "fullname": "Monto Aerodrome, Three Moon, Queensland, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 12510739
     }

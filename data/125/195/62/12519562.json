@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519562, 
-        "name": "Eagle Lake Airport", 
         "alias_ENG_V": [
           "ELA"
         ], 
-        "ne_latitude": 29.604, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Eagle Lake Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590051", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519562, 
         "ne_longitude": -96.320, 
         "longitude": -96.326, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590051, 
+        "ne_latitude": 29.604, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2395047, 
+        "sw_latitude": 29.594, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 29.597, 
         "sw_longitude": -96.329, 
-        "fullname": "Eagle Lake Airport, Eagle Lake, Texas, Colorado, United States", 
-        "sw_latitude": 29.594
+        "fullname": "Eagle Lake Airport, Eagle Lake, Texas, United States", 
+        "iata_code": "ELA", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519562
     }

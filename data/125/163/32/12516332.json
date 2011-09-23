@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516332, 
+        "placetype": "airport", 
         "name": "Langry Southeast Airport", 
-        "ne_latitude": 52.951, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599201", 
+          "woe:state=2346937", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516332, 
         "ne_longitude": 142.242, 
         "longitude": 142.234, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599201, 
+        "ne_latitude": 52.951, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2124825, 
+        "sw_latitude": 52.942, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 52.946, 
         "sw_longitude": 142.227, 
         "fullname": "Langry Southeast Airport, Sakhalinskaya Oblast, Okhinsky, Russia", 
-        "sw_latitude": 52.942
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516332
     }

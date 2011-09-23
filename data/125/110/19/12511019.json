@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511019, 
+        "placetype": "airport", 
         "name": "Aeroporto Alto Paraiso de Goias", 
         "alias_ENG_P": [
           "Alto Paraiso de Goias Airport"
         ], 
-        "ne_latitude": -14.114, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12578899", 
+          "woe:state=2344852", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511019, 
         "ne_longitude": -47.526, 
         "longitude": -47.531, 
-        "placetype": "Airport", 
+        "parent_woeid": 12578899, 
+        "ne_latitude": -14.114, 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 455036, 
+        "sw_latitude": -14.123, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -14.118, 
         "sw_longitude": -47.535, 
-        "fullname": "Aeroporto Alto Paraiso de Goias, Veadeiros, Goias, Alto Para\u00edso de Goi\u00e1s, Brazil", 
-        "sw_latitude": -14.123
+        "fullname": "Aeroporto Alto Paraiso de Goias, Veadeiros, Goias, Brazil", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511019
     }

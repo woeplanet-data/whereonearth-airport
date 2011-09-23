@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521005, 
-        "name": "Montgomery County Airport", 
         "alias_ENG_V": [
           "CXO"
         ], 
-        "ne_latitude": 30.367, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Montgomery County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590176", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521005, 
         "ne_longitude": -95.402, 
         "longitude": -95.420, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590176, 
+        "ne_latitude": 30.367, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2384304, 
+        "sw_latitude": 30.339, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 30.354, 
         "sw_longitude": -95.428, 
-        "fullname": "Montgomery County Airport, Conroe, Texas, Montgomery, United States", 
-        "sw_latitude": 30.339
+        "fullname": "Montgomery County Airport, Conroe, Texas, United States", 
+        "iata_code": "CXO", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12521005
     }

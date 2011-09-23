@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29387926, 
-        "name": "Isle Airport", 
         "alias_ENG_V": [
           "My72"
         ], 
-        "ne_latitude": 46.164, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Isle Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588844", 
+          "woe:state=2347582", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29387926, 
         "ne_longitude": -93.460, 
         "longitude": -93.463, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588844, 
+        "ne_latitude": 46.164, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2427870, 
+        "sw_latitude": 46.156, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.159, 
         "sw_longitude": -93.465, 
-        "fullname": "Isle Airport, Isle, Minnesota, Mille Lacs, United States", 
-        "sw_latitude": 46.156
+        "fullname": "Isle Airport, Isle, Minnesota, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29387926
     }

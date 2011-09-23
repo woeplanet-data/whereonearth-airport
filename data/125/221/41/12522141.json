@@ -3,28 +3,42 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -123.824, 
-              45.411
-            ], 
-            [
-              -123.824, 
-              45.427
-            ], 
-            [
-              -123.802, 
-              45.427
-            ], 
-            [
-              -123.802, 
-              45.411
-            ], 
-            [
-              -123.824, 
-              45.411
+              [
+                -123.805, 
+                45.420
+              ], 
+              [
+                -123.806, 
+                45.421
+              ], 
+              [
+                -123.803, 
+                45.423
+              ], 
+              [
+                -123.802, 
+                45.423
+              ], 
+              [
+                -123.801, 
+                45.422
+              ], 
+              [
+                -123.802, 
+                45.421
+              ], 
+              [
+                -123.802, 
+                45.420
+              ], 
+              [
+                -123.805, 
+                45.420
+              ]
             ]
           ]
         ]
@@ -32,23 +46,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522141, 
-        "name": "Tillamook Airport", 
         "alias_ENG_V": [
           "Tmk"
         ], 
-        "ne_latitude": 45.427, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -123.802, 
-        "longitude": -123.824, 
-        "placetype": "Airport", 
+        "name": "Tillamook Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589720", 
+          "woe:state=2347596", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522141, 
+        "ne_longitude": -123.801, 
+        "longitude": -123.803, 
+        "parent_woeid": 12589720, 
+        "ne_latitude": 45.423, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2506354, 
-        "latitude": 45.420, 
-        "sw_longitude": -123.824, 
-        "fullname": "Tillamook Airport, Tillamook, Oregon, Tillamook, United States", 
-        "sw_latitude": 45.411
+        "sw_latitude": 45.420, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 45.421, 
+        "sw_longitude": -123.806, 
+        "fullname": "Tillamook Airport, Tillamook, Oregon, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522141
     }

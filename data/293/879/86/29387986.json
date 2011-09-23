@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29387986, 
-        "name": "Kimball Municipal Airport", 
         "alias_ENG_V": [
           "6a6"
         ], 
-        "ne_latitude": 43.762, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Kimball Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589852", 
+          "woe:state=2347600", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29387986, 
         "ne_longitude": -98.979, 
         "longitude": -98.982, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589852, 
+        "ne_latitude": 43.762, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2432335, 
+        "sw_latitude": 43.757, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.759, 
         "sw_longitude": -98.985, 
-        "fullname": "Kimball Municipal Airport, Kimball, South Dakota, Brule, United States", 
-        "sw_latitude": 43.757
+        "fullname": "Kimball Municipal Airport, Kimball, South Dakota, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 29387986
     }

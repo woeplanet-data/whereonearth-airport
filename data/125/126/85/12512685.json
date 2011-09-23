@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512685, 
+        "placetype": "airport", 
         "name": "El Minya Airport", 
-        "ne_latitude": 28.105, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345232", 
+          "woe:country=23424802", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512685, 
         "ne_longitude": 30.737, 
         "longitude": 30.731, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345232, 
+        "ne_latitude": 28.105, 
         "iso": "EG", 
-        "date_indexed": "2010-12-02T12:16:51Z", 
-        "parent_woeid": 1521857, 
+        "sw_latitude": 28.095, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 28.100, 
         "sw_longitude": 30.726, 
         "fullname": "El Minya Airport, Al Minya, Al Minya, Egypt", 
-        "sw_latitude": 28.095
+        "date_indexed": "2010-12-02T12:16:51Z"
       }, 
       "id": 12512685
     }

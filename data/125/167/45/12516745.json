@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516745, 
+        "placetype": "airport", 
         "name": "Proletarskiy Airport", 
-        "ne_latitude": 45.270, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597821", 
+          "woe:state=2346884", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516745, 
         "ne_longitude": 40.022, 
         "longitude": 40.015, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597821, 
+        "ne_latitude": 45.270, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2029302, 
+        "sw_latitude": 45.261, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.265, 
         "sw_longitude": 40.009, 
         "fullname": "Proletarskiy Airport, Krasnodarskiy Kray, Ust-Labinsky, Russia", 
-        "sw_latitude": 45.261
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516745
     }

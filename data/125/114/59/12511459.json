@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511459, 
+        "placetype": "airport", 
         "name": "Malevo Airport", 
-        "ne_latitude": 41.874, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55873784", 
+          "woe:state=20070073", 
+          "woe:country=23424771", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511459, 
         "ne_longitude": 25.609, 
         "longitude": 25.603, 
-        "placetype": "Airport", 
+        "parent_woeid": 55873784, 
+        "ne_latitude": 41.874, 
         "iso": "BG", 
-        "date_indexed": "2010-12-02T16:14:37Z", 
-        "parent_woeid": 837958, 
+        "sw_latitude": 41.865, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.869, 
         "sw_longitude": 25.597, 
         "fullname": "Malevo Airport, Khaskovo, Haskovo, Bulgaria", 
-        "sw_latitude": 41.865
+        "date_indexed": "2010-12-02T16:14:37Z"
       }, 
       "id": 12511459
     }

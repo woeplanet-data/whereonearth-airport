@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521043, 
-        "name": "Mount Washington Regional Airport", 
         "alias_ENG_V": [
           "Mt Washington Regional Airport"
         ], 
-        "ne_latitude": 44.368, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Mount Washington Regional Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589251", 
+          "woe:state=2347588", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521043, 
         "ne_longitude": -71.537, 
         "longitude": -71.551, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589251, 
+        "ne_latitude": 44.368, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2519636, 
+        "sw_latitude": 44.365, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.366, 
         "sw_longitude": -71.552, 
-        "fullname": "Mount Washington Regional Airport, Whitefield, New Hampshire, Coos, United States", 
-        "sw_latitude": 44.365
+        "fullname": "Mount Washington Regional Airport, Whitefield, New Hampshire, United States", 
+        "iata_code": "HIE", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12521043
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518799, 
-        "name": "Bennington State Airport", 
         "alias_ENG_V": [
           "William H Morse State Airport"
         ], 
-        "ne_latitude": 42.895, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Bennington State Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590291", 
+          "woe:state=2347604", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518799, 
         "ne_longitude": -73.237, 
         "longitude": -73.246, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590291, 
+        "ne_latitude": 42.895, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2362655, 
+        "sw_latitude": 42.886, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.889, 
         "sw_longitude": -73.254, 
-        "fullname": "Bennington State Airport, Bennington, Vermont, Bennington, United States", 
-        "sw_latitude": 42.886
+        "fullname": "Bennington State Airport, Bennington, Vermont, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518799
     }

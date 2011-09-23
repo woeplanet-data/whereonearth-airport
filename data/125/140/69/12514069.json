@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514069, 
+        "placetype": "airport", 
         "name": "Laikipia Air Base", 
-        "ne_latitude": 0.037, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345943", 
+          "woe:country=23424863", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514069, 
         "ne_longitude": 37.029, 
         "longitude": 37.024, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345943, 
+        "ne_latitude": 0.037, 
         "iso": "KE", 
-        "date_indexed": "2010-12-02T08:53:57Z", 
-        "parent_woeid": 1528507, 
+        "sw_latitude": 0.028, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 0.033, 
         "sw_longitude": 37.020, 
         "fullname": "Laikipia Air Base, Nanyuki, Rift Valley, Kenya", 
-        "sw_latitude": 0.028
+        "date_indexed": "2010-12-02T08:53:57Z"
       }, 
       "id": 12514069
     }

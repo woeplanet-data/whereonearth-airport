@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388206, 
-        "name": "Lake Whitney State Park Airport", 
         "alias_ENG_V": [
           "F50"
         ], 
-        "ne_latitude": 31.929, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Lake Whitney State Park Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590115", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388206, 
         "ne_longitude": -97.360, 
         "longitude": -97.370, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590115, 
+        "ne_latitude": 31.929, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2519978, 
+        "sw_latitude": 31.921, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 31.924, 
         "sw_longitude": -97.370, 
-        "fullname": "Lake Whitney State Park Airport, Whitney, Texas, Hill, United States", 
-        "sw_latitude": 31.921
+        "fullname": "Lake Whitney State Park Airport, Whitney, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388206
     }

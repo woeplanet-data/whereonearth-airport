@@ -3,28 +3,106 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -76.476, 
-              42.483
-            ], 
-            [
-              -76.476, 
-              42.504
-            ], 
-            [
-              -76.447, 
-              42.504
-            ], 
-            [
-              -76.447, 
-              42.483
-            ], 
-            [
-              -76.476, 
-              42.483
+              [
+                -76.463, 
+                42.490
+              ], 
+              [
+                -76.470, 
+                42.486
+              ], 
+              [
+                -76.474, 
+                42.480
+              ], 
+              [
+                -76.478, 
+                42.485
+              ], 
+              [
+                -76.481, 
+                42.483
+              ], 
+              [
+                -76.482, 
+                42.483
+              ], 
+              [
+                -76.482, 
+                42.481
+              ], 
+              [
+                -76.479, 
+                42.480
+              ], 
+              [
+                -76.476, 
+                42.479
+              ], 
+              [
+                -76.474, 
+                42.479
+              ], 
+              [
+                -76.472, 
+                42.480
+              ], 
+              [
+                -76.470, 
+                42.486
+              ], 
+              [
+                -76.470, 
+                42.488
+              ], 
+              [
+                -76.464, 
+                42.491
+              ], 
+              [
+                -76.468, 
+                42.495
+              ], 
+              [
+                -76.464, 
+                42.491
+              ], 
+              [
+                -76.463, 
+                42.491
+              ], 
+              [
+                -76.460, 
+                42.491
+              ], 
+              [
+                -76.458, 
+                42.492
+              ], 
+              [
+                -76.457, 
+                42.487
+              ], 
+              [
+                -76.459, 
+                42.485
+              ], 
+              [
+                -76.465, 
+                42.483
+              ], 
+              [
+                -76.463, 
+                42.490
+              ], 
+              [
+                -76.463, 
+                42.490
+              ]
             ]
           ]
         ]
@@ -32,23 +110,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522159, 
-        "name": "Ithaca Tompkins Regional Airport", 
         "alias_ENG_V": [
           "ITH"
         ], 
-        "ne_latitude": 42.504, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -76.447, 
-        "longitude": -76.463, 
-        "placetype": "Airport", 
+        "name": "Ithaca Tompkins Regional Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589366", 
+          "woe:state=2347591", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522159, 
+        "ne_longitude": -76.457, 
+        "longitude": -76.432, 
+        "parent_woeid": 12589366, 
+        "ne_latitude": 42.495, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2436447, 
-        "latitude": 42.489, 
-        "sw_longitude": -76.476, 
-        "fullname": "Ithaca Tompkins Regional Airport, Lansing, New York, Tompkins, United States", 
-        "sw_latitude": 42.483
+        "sw_latitude": 42.479, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 42.501, 
+        "sw_longitude": -76.482, 
+        "fullname": "Ithaca Tompkins Regional Airport, Lansing, New York, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12522159
     }

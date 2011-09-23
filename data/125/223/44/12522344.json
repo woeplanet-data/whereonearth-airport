@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522344, 
-        "name": "Washington Wilkes County Airport", 
         "alias_ENG_V": [
           "IIY"
         ], 
-        "ne_latitude": 33.779, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Washington Wilkes County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588026", 
+          "woe:state=2347569", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522344, 
         "ne_longitude": -82.808, 
         "longitude": -82.812, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588026, 
+        "ne_latitude": 33.779, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2377138, 
+        "sw_latitude": 33.773, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 33.776, 
         "sw_longitude": -82.815, 
-        "fullname": "Washington Wilkes County Airport, Celeste, Georgia, Wilkes, United States", 
-        "sw_latitude": 33.773
+        "fullname": "Washington Wilkes County Airport, Celeste, Georgia, United States", 
+        "iata_code": "IIY", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12522344
     }

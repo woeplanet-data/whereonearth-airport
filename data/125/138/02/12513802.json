@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513802, 
+        "placetype": "airport", 
         "name": "Asiago Airport", 
-        "ne_latitude": 45.891, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12676311", 
+          "woe:county=12591862", 
+          "woe:state=7153349", 
+          "woe:country=23424853", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513802, 
         "ne_longitude": 11.523, 
         "longitude": 11.517, 
-        "placetype": "Airport", 
+        "parent_woeid": 12676311, 
+        "ne_latitude": 45.891, 
         "iso": "IT", 
-        "date_indexed": "2010-12-02T16:30:51Z", 
-        "parent_woeid": 29341474, 
+        "sw_latitude": 45.882, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.887, 
         "sw_longitude": 11.510, 
-        "fullname": "Asiago Airport, Costa, Veneto, Vicenza, Italy", 
-        "sw_latitude": 45.882
+        "fullname": "Asiago Airport, Costa, Veneto, Italy", 
+        "date_indexed": "2010-12-02T16:30:51Z"
       }, 
       "id": 12513802
     }

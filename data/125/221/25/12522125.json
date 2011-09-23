@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522125, 
-        "name": "Thomas C Russell Field Airport", 
         "alias_ENG_V": [
           "ALX Airport"
         ], 
-        "ne_latitude": 32.922, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Thomas C Russell Field Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587548", 
+          "woe:state=2347559", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522125, 
         "ne_longitude": -85.962, 
         "longitude": -85.963, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587548, 
+        "ne_latitude": 32.922, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2352996, 
+        "sw_latitude": 32.907, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 32.919, 
         "sw_longitude": -85.964, 
-        "fullname": "Thomas C Russell Field Airport, Alexander City, Alabama, Tallapoosa, United States", 
-        "sw_latitude": 32.907
+        "fullname": "Thomas C Russell Field Airport, Alexander City, Alabama, United States", 
+        "iata_code": "ALX", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522125
     }

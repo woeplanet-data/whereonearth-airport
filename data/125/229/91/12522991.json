@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522991, 
-        "name": "Rundu Airport", 
         "alias_ENG_V": [
           "NDU"
         ], 
-        "ne_latitude": -17.948, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Rundu Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55921174", 
+          "woe:state=20069820", 
+          "woe:country=23424987", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522991, 
         "ne_longitude": 19.728, 
         "longitude": 19.723, 
-        "placetype": "Airport", 
+        "parent_woeid": 55921174, 
+        "ne_latitude": -17.948, 
         "iso": "NA", 
-        "date_indexed": "2010-12-02T07:50:17Z", 
-        "parent_woeid": 55921232, 
+        "sw_latitude": -17.957, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -17.953, 
         "sw_longitude": 19.719, 
-        "fullname": "Rundu Airport, Rundu, Okavango, Rundu Urban, Namibia", 
-        "sw_latitude": -17.957
+        "fullname": "Rundu Airport, Rundu, Okavango, Namibia", 
+        "iata_code": "NDU", 
+        "date_indexed": "2010-12-02T07:50:17Z"
       }, 
       "id": 12522991
     }

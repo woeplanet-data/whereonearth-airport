@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519895, 
-        "name": "Gibson County Airport", 
         "alias_ENG_V": [
           "TGC"
         ], 
-        "ne_latitude": 35.940, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Gibson County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589938", 
+          "woe:state=2347601", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519895, 
         "ne_longitude": -88.846, 
         "longitude": -88.851, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589938, 
+        "ne_latitude": 35.940, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2453763, 
+        "sw_latitude": 35.925, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.935, 
         "sw_longitude": -88.851, 
-        "fullname": "Gibson County Airport, Moores Chapel, Tennessee, Gibson, United States", 
-        "sw_latitude": 35.925
+        "fullname": "Gibson County Airport, Moores Chapel, Tennessee, United States", 
+        "iata_code": "TGC", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12519895
     }

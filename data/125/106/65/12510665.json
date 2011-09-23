@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510665, 
-        "name": "Emerald Aerodrome", 
         "alias_ENG_V": [
           "Emerald Airport"
         ], 
-        "ne_latitude": -23.558, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Emerald Aerodrome", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=56072993", 
+          "woe:state=2344702", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510665, 
         "ne_longitude": 148.192, 
         "longitude": 148.172, 
-        "placetype": "Airport", 
+        "parent_woeid": 56072993, 
+        "ne_latitude": -23.558, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1101908, 
+        "sw_latitude": -23.575, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -23.568, 
         "sw_longitude": 148.169, 
-        "fullname": "Emerald Aerodrome, Emerald, Queensland, Emerald, Australia", 
-        "sw_latitude": -23.575
+        "fullname": "Emerald Aerodrome, Emerald, Queensland, Australia", 
+        "iata_code": "EMD", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 12510665
     }

@@ -3,28 +3,34 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              27.909, 
-              -25.955
-            ], 
-            [
-              27.909, 
-              -25.927
-            ], 
-            [
-              27.941, 
-              -25.927
-            ], 
-            [
-              27.941, 
-              -25.955
-            ], 
-            [
-              27.909, 
-              -25.955
+              [
+                27.926, 
+                -25.935
+              ], 
+              [
+                27.926, 
+                -25.934
+              ], 
+              [
+                27.929, 
+                -25.933
+              ], 
+              [
+                27.926, 
+                -25.935
+              ], 
+              [
+                27.924, 
+                -25.940
+              ], 
+              [
+                27.926, 
+                -25.935
+              ]
             ]
           ]
         ]
@@ -32,23 +38,32 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517436, 
-        "name": "Lanseria Airport", 
         "alias_ENG_V": [
           "HLA Airport"
         ], 
-        "ne_latitude": -25.927, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": 27.941, 
-        "longitude": 27.925, 
-        "placetype": "Airport", 
-        "iso": "ZA", 
-        "date_indexed": "2010-12-02T08:57:52Z", 
+        "name": "Lanseria Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:suburb=55877958", 
+          "woe:localadmin=56189710", 
+          "woe:county=56189422", 
+          "woe:state=2346981", 
+          "woe:country=23424942", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517436, 
+        "ne_longitude": 27.929, 
+        "longitude": 27.926, 
         "parent_woeid": 55877958, 
-        "latitude": -25.935, 
-        "sw_longitude": 27.909, 
-        "fullname": "Lanseria Airport, Johannesburg, Gauteng, Johannesburg, South Africa", 
-        "sw_latitude": -25.955
+        "ne_latitude": -25.933, 
+        "iso": "ZA", 
+        "sw_latitude": -25.940, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": -25.936, 
+        "sw_longitude": 27.924, 
+        "fullname": "Lanseria Airport, Johannesburg, Gauteng, South Africa", 
+        "iata_code": "HLA", 
+        "date_indexed": "2010-12-02T08:57:52Z"
       }, 
       "id": 12517436
     }

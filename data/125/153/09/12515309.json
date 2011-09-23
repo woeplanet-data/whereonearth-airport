@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515309, 
+        "placetype": "airport", 
         "name": "Igolomia Airport", 
-        "ne_latitude": 50.095, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12618641", 
+          "woe:county=12591254", 
+          "woe:state=12577940", 
+          "woe:country=23424923", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515309, 
         "ne_longitude": 20.224, 
         "longitude": 20.217, 
-        "placetype": "Airport", 
+        "parent_woeid": 12618641, 
+        "ne_latitude": 50.095, 
         "iso": "PL", 
-        "date_indexed": "2010-12-02T12:12:45Z", 
-        "parent_woeid": 496224, 
+        "sw_latitude": 50.086, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.090, 
         "sw_longitude": 20.210, 
         "fullname": "Igolomia Airport, Lesser Poland, Krakow County, Poland", 
-        "sw_latitude": 50.086
+        "date_indexed": "2010-12-02T12:12:45Z"
       }, 
       "id": 12515309
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516801, 
+        "placetype": "airport", 
         "name": "Ryazan-Dyagilevo Airport", 
-        "ne_latitude": 54.651, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599170", 
+          "woe:state=2346922", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516801, 
         "ne_longitude": 39.582, 
         "longitude": 39.575, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599170, 
+        "ne_latitude": 54.651, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2068008, 
+        "sw_latitude": 54.641, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 54.646, 
         "sw_longitude": 39.567, 
         "fullname": "Ryazan-Dyagilevo Airport, Ryazanskaya Oblast, Ryazan, Russia", 
-        "sw_latitude": 54.641
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516801
     }

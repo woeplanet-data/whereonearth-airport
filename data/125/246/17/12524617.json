@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524617, 
-        "name": "Clear Lake Airport", 
         "alias_ENG_V": [
           "CKE"
         ], 
-        "ne_latitude": 38.941, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Clear Lake Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587686", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524617, 
         "ne_longitude": -122.618, 
         "longitude": -122.624, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587686, 
+        "ne_latitude": 38.941, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2381238, 
+        "sw_latitude": 38.932, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.937, 
         "sw_longitude": -122.630, 
-        "fullname": "Clear Lake Airport, Clearlake, California, Lake, United States", 
-        "sw_latitude": 38.932
+        "fullname": "Clear Lake Airport, Clearlake, California, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12524617
     }

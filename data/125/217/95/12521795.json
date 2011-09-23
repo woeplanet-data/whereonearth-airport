@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521795, 
-        "name": "Seminole Spraying Service Airport", 
         "alias_ENG_V": [
           "39te"
         ], 
-        "ne_latitude": 32.725, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Seminole Spraying Service Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590089", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521795, 
         "ne_longitude": -102.733, 
         "longitude": -102.743, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590089, 
+        "ne_latitude": 32.725, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2490760, 
+        "sw_latitude": 32.711, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 32.718, 
         "sw_longitude": -102.743, 
-        "fullname": "Seminole Spraying Service Airport, Seminole, Texas, Gaines, United States", 
-        "sw_latitude": 32.711
+        "fullname": "Seminole Spraying Service Airport, Seminole, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521795
     }

@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512907, 
+        "placetype": "airport", 
         "name": "La Veze Airport", 
-        "ne_latitude": 47.213, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12651642", 
+          "woe:county=12597116", 
+          "woe:state=7153317", 
+          "woe:country=23424819", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512907, 
         "ne_longitude": 6.090, 
         "longitude": 6.083, 
-        "placetype": "Airport", 
+        "parent_woeid": 12651642, 
+        "ne_latitude": 47.213, 
         "iso": "FR", 
-        "date_indexed": "2010-12-02T12:04:01Z", 
-        "parent_woeid": 620987, 
+        "sw_latitude": 47.204, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.208, 
         "sw_longitude": 6.076, 
-        "fullname": "La Veze Airport, Sa\u00f4ne, Franche-Comte, Doubs, France", 
-        "sw_latitude": 47.204
+        "fullname": "La Veze Airport, Sa\u00f4ne, Franche-Comte, France", 
+        "date_indexed": "2010-12-02T12:04:01Z"
       }, 
       "id": 12512907
     }

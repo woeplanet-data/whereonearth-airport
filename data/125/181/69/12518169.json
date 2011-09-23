@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518169, 
+        "placetype": "airport", 
         "name": "Upwood Airport", 
-        "ne_latitude": 52.445, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12695885", 
+          "woe:county=12602140", 
+          "woe:state=24554868", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518169, 
         "ne_longitude": -0.129, 
         "longitude": -0.136, 
-        "placetype": "Airport", 
+        "parent_woeid": 12695885, 
+        "ne_latitude": 52.445, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:21:01Z", 
-        "parent_woeid": 38816, 
+        "sw_latitude": 52.436, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 52.440, 
         "sw_longitude": -0.144, 
-        "fullname": "Upwood Airport, Upwood, England, Cambridgeshire, United Kingdom", 
-        "sw_latitude": 52.436
+        "fullname": "Upwood Airport, Upwood, England, United Kingdom", 
+        "date_indexed": "2010-12-02T12:21:01Z"
       }, 
       "id": 12518169
     }

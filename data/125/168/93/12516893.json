@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516893, 
+        "placetype": "airport", 
         "name": "Solikamsk Airport", 
-        "ne_latitude": 59.643, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599060", 
+          "woe:state=20070511", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516893, 
         "ne_longitude": 56.803, 
         "longitude": 56.794, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599060, 
+        "ne_latitude": 59.643, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2123555, 
+        "sw_latitude": 59.634, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 59.638, 
         "sw_longitude": 56.785, 
-        "fullname": "Solikamsk Airport, Solikamsk, Permskiy Kray, Solikamsk, Russia", 
-        "sw_latitude": 59.634
+        "fullname": "Solikamsk Airport, Solikamsk, Permskiy Kray, Russia", 
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516893
     }

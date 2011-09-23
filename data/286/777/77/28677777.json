@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 28677777, 
+        "placetype": "airport", 
         "name": "Mckenzie Landing Ground", 
-        "ne_latitude": -31.183, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55864087", 
+          "woe:state=2344706", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 28677777, 
         "ne_longitude": 121.626, 
         "longitude": 121.620, 
-        "placetype": "Airport", 
+        "parent_woeid": 55864087, 
+        "ne_latitude": -31.183, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1102937, 
+        "sw_latitude": -31.192, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -31.188, 
         "sw_longitude": 121.615, 
-        "fullname": "Mckenzie Landing Ground, Kambalda, Western Australia, Coolgardie, Australia", 
-        "sw_latitude": -31.192
+        "fullname": "Mckenzie Landing Ground, Kambalda, Western Australia, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 28677777
     }

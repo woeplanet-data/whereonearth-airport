@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518036, 
-        "name": "Benson Airport", 
         "alias_ENG_V": [
           "BEX"
         ], 
-        "ne_latitude": 51.619, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Benson Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=12696059", 
+          "woe:county=12602175", 
+          "woe:state=24554868", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518036, 
         "ne_longitude": -1.087, 
         "longitude": -1.095, 
-        "placetype": "Airport", 
+        "parent_woeid": 12696059, 
+        "ne_latitude": 51.619, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:20:54Z", 
-        "parent_woeid": 32580, 
+        "sw_latitude": 51.610, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.615, 
         "sw_longitude": -1.102, 
-        "fullname": "Benson Airport, Preston Crowmarsh, England, Oxfordshire, United Kingdom", 
-        "sw_latitude": 51.610
+        "fullname": "Benson Airport, Preston Crowmarsh, England, United Kingdom", 
+        "iata_code": "BEX", 
+        "date_indexed": "2010-12-02T12:20:54Z"
       }, 
       "id": 12518036
     }

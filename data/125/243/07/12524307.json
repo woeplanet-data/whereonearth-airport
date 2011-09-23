@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524307, 
-        "name": "St. Paul Airport", 
         "alias_ENG_V": [
           "ZSP Airport"
         ], 
-        "ne_latitude": 47.755, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "St. Paul Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375081", 
+          "woe:state=2344924", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524307, 
         "ne_longitude": -69.410, 
         "longitude": -69.417, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375081, 
+        "ne_latitude": 47.755, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 1402, 
+        "sw_latitude": 47.745, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.750, 
         "sw_longitude": -69.423, 
-        "fullname": "St. Paul Airport, St.-Antonin, Quebec, Rivi\u00e8re-du-Loup, Canada", 
-        "sw_latitude": 47.745
+        "fullname": "St. Paul Airport, St.-Antonin, Quebec, Canada", 
+        "iata_code": "ZSP", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12524307
     }

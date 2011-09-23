@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519457, 
-        "name": "Delaware Municipal Airport", 
         "alias_ENG_V": [
           "DLZ"
         ], 
-        "ne_latitude": 40.284, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Delaware Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589547", 
+          "woe:state=2347594", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519457, 
         "ne_longitude": -83.100, 
         "longitude": -83.106, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589547, 
+        "ne_latitude": 40.284, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:15Z", 
-        "parent_woeid": 2390774, 
+        "sw_latitude": 40.275, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.279, 
         "sw_longitude": -83.112, 
-        "fullname": "Delaware Municipal Airport, Delaware, Ohio, Delaware, United States", 
-        "sw_latitude": 40.275
+        "fullname": "Delaware Municipal Airport, Delaware, Ohio, United States", 
+        "iata_code": "DLZ", 
+        "date_indexed": "2010-12-02T18:39:15Z"
       }, 
       "id": 12519457
     }

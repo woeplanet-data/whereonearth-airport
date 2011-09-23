@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518290, 
+        "placetype": "airport", 
         "name": "Kiev West Airport", 
-        "ne_latitude": 50.436, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=20070188", 
+          "woe:country=23424976", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518290, 
         "ne_longitude": 30.295, 
         "longitude": 30.287, 
-        "placetype": "Airport", 
+        "parent_woeid": 20070188, 
+        "ne_latitude": 50.436, 
         "iso": "UA", 
-        "date_indexed": "2010-12-02T08:52:33Z", 
-        "parent_woeid": 937945, 
+        "sw_latitude": 50.427, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.432, 
         "sw_longitude": 30.280, 
         "fullname": "Kiev West Airport, Kiev City Municipality, Ukraine", 
-        "sw_latitude": 50.427
+        "date_indexed": "2010-12-02T08:52:33Z"
       }, 
       "id": 12518290
     }

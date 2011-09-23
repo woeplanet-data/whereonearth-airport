@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 56049649, 
+        "placetype": "airport", 
         "name": "Ban Bueng Airport", 
-        "ne_latitude": 13.301, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=28341352", 
+          "woe:state=2347170", 
+          "woe:country=23424960", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56049649, 
         "ne_longitude": 101.125, 
         "longitude": 101.123, 
-        "placetype": "Airport", 
+        "parent_woeid": 28341352, 
+        "ne_latitude": 13.301, 
         "iso": "TH", 
-        "date_indexed": "2010-12-02T17:05:34Z", 
-        "parent_woeid": 1201567, 
+        "sw_latitude": 13.297, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 13.299, 
         "sw_longitude": 101.121, 
-        "fullname": "Ban Bueng Airport, Ban Bung (1), Chon Buri, Ban Bueng, Thailand", 
-        "sw_latitude": 13.297
+        "fullname": "Ban Bueng Airport, Ban Bung (1), Chon Buri, Thailand", 
+        "date_indexed": "2010-12-02T17:05:34Z"
       }, 
       "id": 56049649
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 28677640, 
+        "placetype": "airport", 
         "name": "Koolatah Aerodrome", 
-        "ne_latitude": -15.915, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55864340", 
+          "woe:state=2344702", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 28677640, 
         "ne_longitude": 142.454, 
         "longitude": 142.449, 
-        "placetype": "Airport", 
+        "parent_woeid": 55864340, 
+        "ne_latitude": -15.915, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 28586010, 
+        "sw_latitude": -15.924, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -15.920, 
         "sw_longitude": 142.445, 
-        "fullname": "Koolatah Aerodrome, Maramie, Queensland, Carpentaria Shire, Australia", 
-        "sw_latitude": -15.924
+        "fullname": "Koolatah Aerodrome, Maramie, Queensland, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 28677640
     }

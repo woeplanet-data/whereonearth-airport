@@ -3,28 +3,58 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -106.938, 
-              39.638
-            ], 
-            [
-              -106.938, 
-              39.648
-            ], 
-            [
-              -106.900, 
-              39.648
-            ], 
-            [
-              -106.900, 
-              39.638
-            ], 
-            [
-              -106.938, 
-              39.638
+              [
+                -106.911, 
+                39.643
+              ], 
+              [
+                -106.909, 
+                39.643
+              ], 
+              [
+                -106.906, 
+                39.644
+              ], 
+              [
+                -106.910, 
+                39.641
+              ], 
+              [
+                -106.911, 
+                39.639
+              ], 
+              [
+                -106.915, 
+                39.638
+              ], 
+              [
+                -106.919, 
+                39.638
+              ], 
+              [
+                -106.917, 
+                39.643
+              ], 
+              [
+                -106.922, 
+                39.644
+              ], 
+              [
+                -106.917, 
+                39.644
+              ], 
+              [
+                -106.916, 
+                39.644
+              ], 
+              [
+                -106.911, 
+                39.643
+              ]
             ]
           ]
         ]
@@ -32,23 +62,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519558, 
-        "name": "Eagle County Regional Airport", 
         "alias_ENG_V": [
           "EGE"
         ], 
-        "ne_latitude": 39.648, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -106.900, 
+        "name": "Eagle County Regional Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587746", 
+          "woe:state=2347564", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519558, 
+        "ne_longitude": -106.906, 
         "longitude": -106.914, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587746, 
+        "ne_latitude": 39.644, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2415834, 
-        "latitude": 39.640, 
-        "sw_longitude": -106.938, 
-        "fullname": "Eagle County Regional Airport, Gypsum, Colorado, Eagle, United States", 
-        "sw_latitude": 39.638
+        "sw_latitude": 39.638, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 39.641, 
+        "sw_longitude": -106.922, 
+        "fullname": "Eagle County Regional Airport, Gypsum, Colorado, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519558
     }

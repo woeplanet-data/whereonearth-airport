@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514571, 
+        "placetype": "airport", 
         "name": "Krustpils Airport", 
-        "ne_latitude": 56.542, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55844605", 
+          "woe:state=56190534", 
+          "woe:country=23424874", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514571, 
         "ne_longitude": 25.918, 
         "longitude": 25.910, 
-        "placetype": "Airport", 
+        "parent_woeid": 55844605, 
+        "ne_latitude": 56.542, 
         "iso": "LV", 
-        "date_indexed": "2010-12-02T08:49:48Z", 
-        "parent_woeid": 855038, 
+        "sw_latitude": 56.533, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 56.537, 
         "sw_longitude": 25.902, 
         "fullname": "Krustpils Airport, Jekabpils Rajons, Krustpils Pagasts, Latvia", 
-        "sw_latitude": 56.533
+        "date_indexed": "2010-12-02T08:49:48Z"
       }, 
       "id": 12514571
     }

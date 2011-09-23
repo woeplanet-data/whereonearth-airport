@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 28677659, 
+        "placetype": "airport", 
         "name": "Theodore Aerodrome", 
-        "ne_latitude": -24.983, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=56072982", 
+          "woe:state=2344702", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 28677659, 
         "ne_longitude": 150.098, 
         "longitude": 150.093, 
-        "placetype": "Airport", 
+        "parent_woeid": 56072982, 
+        "ne_latitude": -24.983, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 28588786, 
+        "sw_latitude": -24.992, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -24.988, 
         "sw_longitude": 150.088, 
-        "fullname": "Theodore Aerodrome, Lonesome Creek, Queensland, Banana, Australia", 
-        "sw_latitude": -24.992
+        "fullname": "Theodore Aerodrome, Lonesome Creek, Queensland, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 28677659
     }

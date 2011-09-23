@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388515, 
+        "placetype": "airport", 
         "name": "Fountain Airport", 
-        "ne_latitude": 34.854, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12589404", 
+          "woe:state=2347592", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388515, 
         "ne_longitude": -77.661, 
         "longitude": -77.669, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589404, 
+        "ne_latitude": 34.854, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2406241, 
+        "sw_latitude": 34.846, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 34.850, 
         "sw_longitude": -77.670, 
-        "fullname": "Fountain Airport, Fountain, North Carolina, Duplin, United States", 
-        "sw_latitude": 34.846
+        "fullname": "Fountain Airport, Fountain, North Carolina, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388515
     }

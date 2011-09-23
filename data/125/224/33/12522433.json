@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522433, 
-        "name": "Wichita Valley Airport", 
         "alias_ENG_V": [
           "F14"
         ], 
-        "ne_latitude": 33.951, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Wichita Valley Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590249", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522433, 
         "ne_longitude": -98.612, 
         "longitude": -98.621, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590249, 
+        "ne_latitude": 33.951, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2474112, 
+        "sw_latitude": 33.943, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 33.950, 
         "sw_longitude": -98.621, 
-        "fullname": "Wichita Valley Airport, Pleasant Valley, Texas, Wichita, United States", 
-        "sw_latitude": 33.943
+        "fullname": "Wichita Valley Airport, Pleasant Valley, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522433
     }

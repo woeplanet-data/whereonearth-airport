@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516172, 
+        "placetype": "airport", 
         "name": "Kirsanov Airport", 
-        "ne_latitude": 52.693, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599359", 
+          "woe:state=2346927", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516172, 
         "ne_longitude": 42.680, 
         "longitude": 42.672, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599359, 
+        "ne_latitude": 52.693, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2082957, 
+        "sw_latitude": 52.684, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 52.688, 
         "sw_longitude": 42.665, 
         "fullname": "Kirsanov Airport, Tambovskaya Oblast, Kirsanovo, Russia", 
-        "sw_latitude": 52.684
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516172
     }

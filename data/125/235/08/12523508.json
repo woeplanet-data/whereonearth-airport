@@ -32,29 +32,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12523508, 
-        "name": "Aeroporto Cacador", 
-        "alias_ENG_P": [
-          "Cacador Airport"
-        ], 
-        "ne_latitude": -26.773, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "CFC"
         ], 
+        "name": "Aeroporto Cacador", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Cacador Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12581627", 
+          "woe:state=2344867", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523508, 
         "ne_longitude": -51.012, 
         "longitude": -51.018, 
-        "placetype": "Airport", 
+        "parent_woeid": 12581627, 
+        "ne_latitude": -26.773, 
         "alias_POR_V": [
           "Aeroporto CFC"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:28Z", 
-        "parent_woeid": 456892, 
+        "sw_latitude": -26.782, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -26.777, 
         "sw_longitude": -51.023, 
-        "fullname": "Aeroporto Cacador, Ca\u00e7ador, Santa Catarina, Ca\u00e7ador, Brazil", 
-        "sw_latitude": -26.782
+        "fullname": "Aeroporto Cacador, Ca\u00e7ador, Santa Catarina, Brazil", 
+        "iata_code": "CFC", 
+        "date_indexed": "2010-12-02T18:01:28Z"
       }, 
       "id": 12523508
     }

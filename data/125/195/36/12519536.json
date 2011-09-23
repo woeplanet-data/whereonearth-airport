@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519536, 
-        "name": "Du Bois Jefferson County Airport", 
         "alias_ENG_V": [
           "DUJ"
         ], 
-        "ne_latitude": 41.188, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Du Bois Jefferson County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589760", 
+          "woe:state=2347597", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519536, 
         "ne_longitude": -78.888, 
         "longitude": -78.893, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589760, 
+        "ne_latitude": 41.188, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 28744746, 
+        "sw_latitude": 41.173, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.183, 
         "sw_longitude": -78.909, 
-        "fullname": "Du Bois Jefferson County Airport, Washington, Pennsylvania, Jefferson, United States", 
-        "sw_latitude": 41.173
+        "fullname": "Du Bois Jefferson County Airport, Washington, Pennsylvania, United States", 
+        "iata_code": "DUJ", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519536
     }

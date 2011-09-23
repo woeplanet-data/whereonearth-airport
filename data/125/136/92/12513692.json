@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513692, 
-        "name": "Vadodara Airport", 
         "alias_ENG_V": [
           "BDQ"
         ], 
-        "ne_latitude": 22.341, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Vadodara Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12586435", 
+          "woe:state=2345743", 
+          "woe:country=23424848", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513692, 
         "ne_longitude": 73.231, 
         "longitude": 73.226, 
-        "placetype": "Airport", 
+        "parent_woeid": 12586435, 
+        "ne_latitude": 22.341, 
         "iso": "IN", 
-        "date_indexed": "2010-12-02T09:26:27Z", 
-        "parent_woeid": 29000044, 
+        "sw_latitude": 22.332, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 22.337, 
         "sw_longitude": 73.221, 
-        "fullname": "Vadodara Airport, GSFC Complex, Gujarat, Vadodara, India", 
-        "sw_latitude": 22.332
+        "fullname": "Vadodara Airport, GSFC Complex, Gujarat, India", 
+        "iata_code": "BDQ", 
+        "date_indexed": "2010-12-02T09:26:27Z"
       }, 
       "id": 12513692
     }

@@ -3,28 +3,58 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -119.736, 
-              36.765
-            ], 
-            [
-              -119.736, 
-              36.787
-            ], 
-            [
-              -119.700, 
-              36.787
-            ], 
-            [
-              -119.700, 
-              36.765
-            ], 
-            [
-              -119.736, 
-              36.765
+              [
+                -119.719, 
+                36.765
+              ], 
+              [
+                -119.715, 
+                36.762
+              ], 
+              [
+                -119.719, 
+                36.765
+              ], 
+              [
+                -119.722, 
+                36.765
+              ], 
+              [
+                -119.725, 
+                36.765
+              ], 
+              [
+                -119.724, 
+                36.770
+              ], 
+              [
+                -119.723, 
+                36.773
+              ], 
+              [
+                -119.718, 
+                36.772
+              ], 
+              [
+                -119.714, 
+                36.773
+              ], 
+              [
+                -119.712, 
+                36.768
+              ], 
+              [
+                -119.718, 
+                36.769
+              ], 
+              [
+                -119.719, 
+                36.765
+              ]
             ]
           ]
         ]
@@ -32,23 +62,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519826, 
-        "name": "Fresno Yosemite International Airport", 
         "alias_ENG_V": [
           "Fresno Yosemite International"
         ], 
-        "ne_latitude": 36.787, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -119.700, 
-        "longitude": -119.717, 
-        "placetype": "Airport", 
-        "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
+        "name": "Fresno Yosemite International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:suburb=55805959", 
+          "woe:county=12587679", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519826, 
+        "ne_longitude": -119.712, 
+        "longitude": -119.720, 
         "parent_woeid": 55805959, 
-        "latitude": 36.768, 
-        "sw_longitude": -119.736, 
-        "fullname": "Fresno Yosemite International Airport, Fresno, California, Fresno, United States", 
-        "sw_latitude": 36.765
+        "ne_latitude": 36.773, 
+        "iso": "US", 
+        "sw_latitude": 36.762, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 36.769, 
+        "sw_longitude": -119.725, 
+        "fullname": "Fresno Yosemite International Airport, Fresno, California, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12519826
     }

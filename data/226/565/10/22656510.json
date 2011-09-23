@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 22656510, 
+        "placetype": "airport", 
         "name": "Flugplatz Speck", 
-        "ne_latitude": 47.381, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12683445", 
+          "woe:county=12593197", 
+          "woe:state=2347107", 
+          "woe:country=23424957", 
+          "woe:planet=1"
+        ], 
+        "woeid": 22656510, 
         "ne_longitude": 8.769, 
         "longitude": 8.762, 
-        "placetype": "Airport", 
+        "parent_woeid": 12683445, 
+        "ne_latitude": 47.381, 
         "iso": "CH", 
-        "date_indexed": "2010-12-02T18:20:52Z", 
-        "parent_woeid": 782413, 
+        "sw_latitude": 47.372, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.377, 
         "sw_longitude": 8.755, 
-        "fullname": "Flugplatz Speck, Fehraltorf, Canton of Zurich, Pf\u00e4ffikon, Switzerland", 
-        "sw_latitude": 47.372
+        "fullname": "Flugplatz Speck, Fehraltorf, Canton of Zurich, Switzerland", 
+        "date_indexed": "2010-12-02T18:20:52Z"
       }, 
       "id": 22656510
     }

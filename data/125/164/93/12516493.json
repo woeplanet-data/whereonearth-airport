@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516493, 
+        "placetype": "airport", 
         "name": "Nezamayevskiy Airport", 
-        "ne_latitude": 46.109, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599126", 
+          "woe:state=2346884", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516493, 
         "ne_longitude": 40.406, 
         "longitude": 40.400, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599126, 
+        "ne_latitude": 46.109, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2050955, 
+        "sw_latitude": 46.100, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.105, 
         "sw_longitude": 40.393, 
         "fullname": "Nezamayevskiy Airport, Krasnodarskiy Kray, Novopokrovsky, Russia", 
-        "sw_latitude": 46.100
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516493
     }

@@ -3,28 +3,38 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -97.929, 
-              36.321
-            ], 
-            [
-              -97.929, 
-              36.353
-            ], 
-            [
-              -97.890, 
-              36.353
-            ], 
-            [
-              -97.890, 
-              36.321
-            ], 
-            [
-              -97.929, 
-              36.321
+              [
+                -97.907, 
+                36.340
+              ], 
+              [
+                -97.909, 
+                36.341
+              ], 
+              [
+                -97.909, 
+                36.341
+              ], 
+              [
+                -97.907, 
+                36.344
+              ], 
+              [
+                -97.907, 
+                36.341
+              ], 
+              [
+                -97.903, 
+                36.339
+              ], 
+              [
+                -97.907, 
+                36.340
+              ]
             ]
           ]
         ]
@@ -32,23 +42,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522270, 
-        "name": "Vance Air Force Base", 
         "alias_ENG_V": [
           "END Airport"
         ], 
-        "ne_latitude": 36.353, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -97.890, 
-        "longitude": -97.909, 
-        "placetype": "Airport", 
+        "name": "Vance Air Force Base", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589638", 
+          "woe:state=2347595", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522270, 
+        "ne_longitude": -97.903, 
+        "longitude": -97.907, 
+        "parent_woeid": 12589638, 
+        "ne_latitude": 36.344, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2399751, 
-        "latitude": 36.337, 
-        "sw_longitude": -97.929, 
-        "fullname": "Vance Air Force Base, Enid, Oklahoma, Garfield, United States", 
-        "sw_latitude": 36.321
+        "sw_latitude": 36.339, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 36.341, 
+        "sw_longitude": -97.909, 
+        "fullname": "Vance Air Force Base, Enid, Oklahoma, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12522270
     }

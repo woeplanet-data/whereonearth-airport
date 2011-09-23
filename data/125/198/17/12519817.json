@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519817, 
-        "name": "Freeman Field Airport", 
         "alias_ENG_V": [
           "Junction City Municipal Airport"
         ], 
-        "ne_latitude": 39.050, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Freeman Field Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588401", 
+          "woe:state=2347575", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519817, 
         "ne_longitude": -96.837, 
         "longitude": -96.837, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588401, 
+        "ne_latitude": 39.050, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2430279, 
+        "sw_latitude": 39.037, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 39.042, 
         "sw_longitude": -96.848, 
-        "fullname": "Freeman Field Airport, Junction City, Kansas, Geary, United States", 
-        "sw_latitude": 39.037
+        "fullname": "Freeman Field Airport, Junction City, Kansas, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12519817
     }

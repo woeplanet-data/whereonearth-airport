@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 22656439, 
+        "placetype": "airport", 
         "name": "Flughafen Wiener Neustadt West Airport", 
-        "ne_latitude": 47.843, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12674236", 
+          "woe:county=12591707", 
+          "woe:state=2344710", 
+          "woe:country=23424750", 
+          "woe:planet=1"
+        ], 
+        "woeid": 22656439, 
         "ne_longitude": 16.227, 
         "longitude": 16.220, 
-        "placetype": "Airport", 
+        "parent_woeid": 12674236, 
+        "ne_latitude": 47.843, 
         "iso": "AT", 
-        "date_indexed": "2010-12-02T16:35:40Z", 
-        "parent_woeid": 544374, 
+        "sw_latitude": 47.834, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.838, 
         "sw_longitude": 16.213, 
-        "fullname": "Flughafen Wiener Neustadt West Airport, Wiener Neustadt, Lower Austria, Wiener Neustadt, Austria", 
-        "sw_latitude": 47.834
+        "fullname": "Flughafen Wiener Neustadt West Airport, Wiener Neustadt, Lower Austria, Austria", 
+        "date_indexed": "2010-12-02T16:35:40Z"
       }, 
       "id": 22656439
     }

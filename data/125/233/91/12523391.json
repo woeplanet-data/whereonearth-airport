@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523391, 
-        "name": "Seaplane Memorial Airport", 
         "alias_ENG_V": [
           "OIL"
         ], 
-        "ne_latitude": 41.438, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Seaplane Memorial Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589788", 
+          "woe:state=2347597", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523391, 
         "ne_longitude": -79.691, 
         "longitude": -79.697, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589788, 
+        "ne_latitude": 41.438, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2464445, 
+        "sw_latitude": 41.429, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.433, 
         "sw_longitude": -79.703, 
-        "fullname": "Seaplane Memorial Airport, Oil City, Pennsylvania, Venango, United States", 
-        "sw_latitude": 41.429
+        "fullname": "Seaplane Memorial Airport, Oil City, Pennsylvania, United States", 
+        "iata_code": "OIL", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12523391
     }

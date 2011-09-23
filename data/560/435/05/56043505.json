@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 56043505, 
-        "name": "St Arnaud Airport", 
         "alias_ENG_V": [
           "Saint Arnaud Airport"
         ], 
-        "ne_latitude": -36.631, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "St Arnaud Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55863974", 
+          "woe:state=2344705", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56043505, 
         "ne_longitude": 143.190, 
         "longitude": 143.184, 
-        "placetype": "Airport", 
+        "parent_woeid": 55863974, 
+        "ne_latitude": -36.631, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1097365, 
+        "sw_latitude": -36.640, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -36.636, 
         "sw_longitude": 143.179, 
-        "fullname": "St Arnaud Airport, Moolerr, Victoria, Northern Grampians, Australia", 
-        "sw_latitude": -36.640
+        "fullname": "St Arnaud Airport, Moolerr, Victoria, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 56043505
     }

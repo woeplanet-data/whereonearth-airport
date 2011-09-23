@@ -3,28 +3,98 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -47.937, 
-              -15.874
-            ], 
-            [
-              -47.937, 
-              -15.860
-            ], 
-            [
-              -47.895, 
-              -15.860
-            ], 
-            [
-              -47.895, 
-              -15.874
-            ], 
-            [
-              -47.937, 
-              -15.874
+              [
+                -47.920, 
+                -15.837
+              ], 
+              [
+                -47.914, 
+                -15.835
+              ], 
+              [
+                -47.912, 
+                -15.836
+              ], 
+              [
+                -47.895, 
+                -15.834
+              ], 
+              [
+                -47.883, 
+                -15.839
+              ], 
+              [
+                -47.882, 
+                -15.843
+              ], 
+              [
+                -47.880, 
+                -15.858
+              ], 
+              [
+                -47.894, 
+                -15.845
+              ], 
+              [
+                -47.900, 
+                -15.860
+              ], 
+              [
+                -47.899, 
+                -15.870
+              ], 
+              [
+                -47.900, 
+                -15.874
+              ], 
+              [
+                -47.908, 
+                -15.873
+              ], 
+              [
+                -47.915, 
+                -15.874
+              ], 
+              [
+                -47.918, 
+                -15.875
+              ], 
+              [
+                -47.924, 
+                -15.879
+              ], 
+              [
+                -47.931, 
+                -15.870
+              ], 
+              [
+                -47.930, 
+                -15.864
+              ], 
+              [
+                -47.926, 
+                -15.862
+              ], 
+              [
+                -47.921, 
+                -15.851
+              ], 
+              [
+                -47.926, 
+                -15.840
+              ], 
+              [
+                -47.922, 
+                -15.837
+              ], 
+              [
+                -47.920, 
+                -15.837
+              ]
             ]
           ]
         ]
@@ -32,29 +102,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511058, 
-        "name": "Aeroporto Internacional Juscelino Kubitschek", 
-        "alias_ENG_P": [
-          "Juscelino Kubitschek International Airport"
-        ], 
-        "ne_latitude": -15.860, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "BSB Airport"
         ], 
-        "ne_longitude": -47.895, 
-        "longitude": -47.912, 
-        "placetype": "Airport", 
+        "name": "Aeroporto Internacional Juscelino Kubitschek", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Juscelino Kubitschek International Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=28358220", 
+          "woe:state=2344850", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511058, 
+        "ne_longitude": -47.880, 
+        "longitude": -47.908, 
+        "parent_woeid": 28358220, 
+        "ne_latitude": -15.834, 
         "alias_POR_V": [
           "Aeroporto BSB"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:28Z", 
-        "parent_woeid": 28358233, 
-        "latitude": -15.862, 
-        "sw_longitude": -47.937, 
-        "fullname": "Aeroporto Internacional Juscelino Kubitschek, Candangol\u00e2ndia, Distrito Federal, Candangol\u00e2ndia, Brazil", 
-        "sw_latitude": -15.874
+        "sw_latitude": -15.879, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": -15.854, 
+        "sw_longitude": -47.931, 
+        "fullname": "Aeroporto Internacional Juscelino Kubitschek, Candangol\u00e2ndia, Distrito Federal, Brazil", 
+        "iata_code": "BSB", 
+        "date_indexed": "2010-12-02T18:01:28Z"
       }, 
       "id": 12511058
     }

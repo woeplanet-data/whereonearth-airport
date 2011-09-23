@@ -3,28 +3,34 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -99.474, 
-              27.530
-            ], 
-            [
-              -99.474, 
-              27.559
-            ], 
-            [
-              -99.452, 
-              27.559
-            ], 
-            [
-              -99.452, 
-              27.530
-            ], 
-            [
-              -99.474, 
-              27.530
+              [
+                -99.452, 
+                27.559
+              ], 
+              [
+                -99.451, 
+                27.560
+              ], 
+              [
+                -99.450, 
+                27.557
+              ], 
+              [
+                -99.451, 
+                27.555
+              ], 
+              [
+                -99.451, 
+                27.556
+              ], 
+              [
+                -99.452, 
+                27.559
+              ]
             ]
           ]
         ]
@@ -32,23 +38,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520571, 
-        "name": "Laredo International Airport", 
         "alias_ENG_V": [
           "LRD"
         ], 
-        "ne_latitude": 27.559, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -99.452, 
-        "longitude": -99.455, 
-        "placetype": "Airport", 
-        "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
+        "name": "Laredo International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:suburb=2390683", 
+          "woe:county=12590246", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520571, 
+        "ne_longitude": -99.450, 
+        "longitude": -99.451, 
         "parent_woeid": 2390683, 
-        "latitude": 27.543, 
-        "sw_longitude": -99.474, 
-        "fullname": "Laredo International Airport, Laredo, Texas, Webb, United States", 
-        "sw_latitude": 27.530
+        "ne_latitude": 27.560, 
+        "iso": "US", 
+        "sw_latitude": 27.555, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 27.558, 
+        "sw_longitude": -99.452, 
+        "fullname": "Laredo International Airport, Laredo, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520571
     }

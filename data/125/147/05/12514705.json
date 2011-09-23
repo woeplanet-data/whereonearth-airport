@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514705, 
-        "name": "Morondava Airport", 
         "alias_ENG_V": [
           "MOQ"
         ], 
-        "ne_latitude": -20.279, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Morondava Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=23706616", 
+          "woe:state=2346151", 
+          "woe:country=23424883", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514705, 
         "ne_longitude": 44.323, 
         "longitude": 44.318, 
-        "placetype": "Airport", 
+        "parent_woeid": 23706616, 
+        "ne_latitude": -20.279, 
         "iso": "MG", 
-        "date_indexed": "2010-12-02T16:43:54Z", 
-        "parent_woeid": 1363130, 
+        "sw_latitude": -20.288, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -20.284, 
         "sw_longitude": 44.313, 
-        "fullname": "Morondava Airport, Marovoay, Toliara, Morondava, Madagascar", 
-        "sw_latitude": -20.288
+        "fullname": "Morondava Airport, Marovoay, Toliara, Madagascar", 
+        "date_indexed": "2010-12-02T16:43:54Z"
       }, 
       "id": 12514705
     }

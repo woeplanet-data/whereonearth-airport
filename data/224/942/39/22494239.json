@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 22494239, 
-        "name": "Wick Airport", 
         "alias_ENG_V": [
           "WIC"
         ], 
-        "ne_latitude": 58.458, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Wick Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=12696199", 
+          "woe:county=12602203", 
+          "woe:state=12578048", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 22494239, 
         "ne_longitude": -3.079, 
         "longitude": -3.087, 
-        "placetype": "Airport", 
+        "parent_woeid": 12696199, 
+        "ne_latitude": 58.458, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:21:01Z", 
-        "parent_woeid": 40227, 
+        "sw_latitude": 58.449, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 58.452, 
         "sw_longitude": -3.096, 
-        "fullname": "Wick Airport, Whitechapel, Scotland, Highland, United Kingdom", 
-        "sw_latitude": 58.449
+        "fullname": "Wick Airport, Whitechapel, Scotland, United Kingdom", 
+        "iata_code": "WIC", 
+        "date_indexed": "2010-12-02T12:21:01Z"
       }, 
       "id": 22494239
     }

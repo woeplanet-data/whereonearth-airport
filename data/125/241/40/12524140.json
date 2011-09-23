@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524140, 
-        "name": "Poplar Hill Airport", 
         "alias_ENG_V": [
           "YHP Airport"
         ], 
-        "ne_latitude": 52.085, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Poplar Hill Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375238", 
+          "woe:state=2344922", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524140, 
         "ne_longitude": -94.302, 
         "longitude": -94.309, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375238, 
+        "ne_latitude": 52.085, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 2651, 
+        "sw_latitude": 52.076, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 52.080, 
         "sw_longitude": -94.317, 
-        "fullname": "Poplar Hill Airport, Poplar Hill, Ontario, Kenora, Canada", 
-        "sw_latitude": 52.076
+        "fullname": "Poplar Hill Airport, Poplar Hill, Ontario, Canada", 
+        "iata_code": "YHP", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12524140
     }

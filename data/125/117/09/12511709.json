@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511709, 
-        "name": "Jasper-Hinton Airport", 
         "alias_ENG_V": [
           "YJA Airport"
         ], 
-        "ne_latitude": 53.326, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Jasper-Hinton Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375228", 
+          "woe:state=2344915", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511709, 
         "ne_longitude": -117.744, 
         "longitude": -117.756, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375228, 
+        "ne_latitude": 53.326, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 8446, 
+        "sw_latitude": 53.313, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.323, 
         "sw_longitude": -117.762, 
-        "fullname": "Jasper-Hinton Airport, Solomon, Alberta, Alberta, Canada", 
-        "sw_latitude": 53.313
+        "fullname": "Jasper-Hinton Airport, Solomon, Alberta, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12511709
     }

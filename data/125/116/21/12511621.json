@@ -3,28 +3,122 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -110.314, 
-              54.384
-            ], 
-            [
-              -110.314, 
-              54.420
-            ], 
-            [
-              -110.253, 
-              54.420
-            ], 
-            [
-              -110.253, 
-              54.384
-            ], 
-            [
-              -110.314, 
-              54.384
+              [
+                -110.277, 
+                54.411
+              ], 
+              [
+                -110.276, 
+                54.411
+              ], 
+              [
+                -110.276, 
+                54.410
+              ], 
+              [
+                -110.273, 
+                54.409
+              ], 
+              [
+                -110.273, 
+                54.405
+              ], 
+              [
+                -110.278, 
+                54.404
+              ], 
+              [
+                -110.277, 
+                54.400
+              ], 
+              [
+                -110.277, 
+                54.400
+              ], 
+              [
+                -110.281, 
+                54.398
+              ], 
+              [
+                -110.285, 
+                54.396
+              ], 
+              [
+                -110.283, 
+                54.401
+              ], 
+              [
+                -110.284, 
+                54.403
+              ], 
+              [
+                -110.286, 
+                54.406
+              ], 
+              [
+                -110.287, 
+                54.409
+              ], 
+              [
+                -110.288, 
+                54.413
+              ], 
+              [
+                -110.290, 
+                54.413
+              ], 
+              [
+                -110.293, 
+                54.414
+              ], 
+              [
+                -110.297, 
+                54.414
+              ], 
+              [
+                -110.295, 
+                54.411
+              ], 
+              [
+                -110.292, 
+                54.407
+              ], 
+              [
+                -110.292, 
+                54.402
+              ], 
+              [
+                -110.293, 
+                54.398
+              ], 
+              [
+                -110.291, 
+                54.402
+              ], 
+              [
+                -110.286, 
+                54.406
+              ], 
+              [
+                -110.280, 
+                54.405
+              ], 
+              [
+                -110.277, 
+                54.409
+              ], 
+              [
+                -110.277, 
+                54.411
+              ], 
+              [
+                -110.277, 
+                54.411
+              ]
             ]
           ]
         ]
@@ -32,23 +126,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511621, 
-        "name": "Cold Lake Airport", 
         "alias_ENG_V": [
           "YOD Airport"
         ], 
-        "ne_latitude": 54.420, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -110.253, 
-        "longitude": -110.276, 
-        "placetype": "Airport", 
+        "name": "Cold Lake Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375228", 
+          "woe:state=2344915", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511621, 
+        "ne_longitude": -110.273, 
+        "longitude": -110.130, 
+        "parent_woeid": 29375228, 
+        "ne_latitude": 54.414, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 8240, 
-        "latitude": 54.407, 
-        "sw_longitude": -110.314, 
-        "fullname": "Cold Lake Airport, Medley, Alberta, Alberta, Canada", 
-        "sw_latitude": 54.384
+        "sw_latitude": 54.396, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 54.344, 
+        "sw_longitude": -110.297, 
+        "fullname": "Cold Lake Airport, Medley, Alberta, Canada", 
+        "iata_code": "YOD", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12511621
     }

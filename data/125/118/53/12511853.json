@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511853, 
+        "placetype": "airport", 
         "name": "Ste Anne des Monts Airport", 
-        "ne_latitude": 49.121, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=29375105", 
+          "woe:state=2344924", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511853, 
         "ne_longitude": -66.526, 
         "longitude": -66.533, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375105, 
+        "ne_latitude": 49.121, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 1442, 
+        "sw_latitude": 49.112, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.117, 
         "sw_longitude": -66.540, 
-        "fullname": "Ste Anne des Monts Airport, Ste.-Anne-des-Monts, Quebec, La Haute-Gasp\u00e9sie, Canada", 
-        "sw_latitude": 49.112
+        "fullname": "Ste Anne des Monts Airport, Ste.-Anne-des-Monts, Quebec, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12511853
     }

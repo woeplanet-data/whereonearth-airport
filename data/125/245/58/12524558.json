@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524558, 
-        "name": "Aniak Airport", 
         "alias_ENG_V": [
           "ANI"
         ], 
-        "ne_latitude": 61.588, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Aniak Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587557", 
+          "woe:state=2347560", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524558, 
         "ne_longitude": -159.524, 
         "longitude": -159.535, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587557, 
+        "ne_latitude": 61.588, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2354811, 
+        "sw_latitude": 61.572, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 61.574, 
         "sw_longitude": -159.564, 
-        "fullname": "Aniak Airport, Aniak, Alaska, Bethel Census Area, United States", 
-        "sw_latitude": 61.572
+        "fullname": "Aniak Airport, Aniak, Alaska, United States", 
+        "iata_code": "ANI", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12524558
     }

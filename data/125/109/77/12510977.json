@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510977, 
+        "placetype": "airport", 
         "name": "Polotsk Northwest Airport", 
-        "ne_latitude": 55.633, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2344835", 
+          "woe:country=23424765", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510977, 
         "ne_longitude": 28.668, 
         "longitude": 28.660, 
-        "placetype": "Airport", 
+        "parent_woeid": 2344835, 
+        "ne_latitude": 55.633, 
         "iso": "BY", 
-        "date_indexed": "2010-12-02T16:32:57Z", 
-        "parent_woeid": 823602, 
+        "sw_latitude": 55.624, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 55.629, 
         "sw_longitude": 28.652, 
         "fullname": "Polotsk Northwest Airport, Vitsyebskaya Voblasts', Belarus", 
-        "sw_latitude": 55.624
+        "date_indexed": "2010-12-02T16:32:57Z"
       }, 
       "id": 12510977
     }

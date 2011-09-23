@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520867, 
-        "name": "Mccarley Field Airport", 
         "alias_ENG_V": [
           "Blackfoot City Airport"
         ], 
-        "ne_latitude": 43.208, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Mccarley Field Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588039", 
+          "woe:state=2347571", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520867, 
         "ne_longitude": -112.344, 
         "longitude": -112.347, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588039, 
+        "ne_latitude": 43.208, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2364963, 
+        "sw_latitude": 43.204, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.206, 
         "sw_longitude": -112.350, 
-        "fullname": "Mccarley Field Airport, Blackfoot, Idaho, Bingham, United States", 
-        "sw_latitude": 43.204
+        "fullname": "Mccarley Field Airport, Blackfoot, Idaho, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12520867
     }

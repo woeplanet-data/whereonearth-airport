@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510342, 
+        "placetype": "airport", 
         "name": "Reggane Airport", 
-        "ne_latitude": 26.710, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2344604", 
+          "woe:country=23424740", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510342, 
         "ne_longitude": 0.284, 
         "longitude": 0.279, 
-        "placetype": "Airport", 
+        "parent_woeid": 2344604, 
+        "ne_latitude": 26.710, 
         "iso": "DZ", 
-        "date_indexed": "2010-12-02T17:07:16Z", 
-        "parent_woeid": 1257110, 
+        "sw_latitude": 26.701, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 26.705, 
         "sw_longitude": 0.274, 
         "fullname": "Reggane Airport, Reggane, Adrar, Algeria", 
-        "sw_latitude": 26.701
+        "date_indexed": "2010-12-02T17:07:16Z"
       }, 
       "id": 12510342
     }

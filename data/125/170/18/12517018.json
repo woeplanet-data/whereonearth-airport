@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517018, 
+        "placetype": "airport", 
         "name": "Tomtar Airport", 
-        "ne_latitude": 63.248, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597643", 
+          "woe:state=2346881", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517018, 
         "ne_longitude": 143.194, 
         "longitude": 143.184, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597643, 
+        "ne_latitude": 63.248, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2050520, 
+        "sw_latitude": 63.239, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 63.243, 
         "sw_longitude": 143.174, 
-        "fullname": "Tomtar Airport, Nel'kan, Sakha, Oymyakonsky, Russia", 
-        "sw_latitude": 63.239
+        "fullname": "Tomtar Airport, Nel'kan, Sakha, Russia", 
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12517018
     }

@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514293, 
+        "placetype": "airport", 
         "name": "Blinkovo Airport", 
-        "ne_latitude": 42.275, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345982", 
+          "woe:country=23424871", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514293, 
         "ne_longitude": 70.157, 
         "longitude": 70.151, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345982, 
+        "ne_latitude": 42.275, 
         "iso": "KZ", 
-        "date_indexed": "2010-12-02T08:54:13Z", 
-        "parent_woeid": 2264468, 
+        "sw_latitude": 42.266, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.270, 
         "sw_longitude": 70.145, 
         "fullname": "Blinkovo Airport, Ongtustik Qazaqstan, Kazakhstan", 
-        "sw_latitude": 42.266
+        "date_indexed": "2010-12-02T08:54:13Z"
       }, 
       "id": 12514293
     }

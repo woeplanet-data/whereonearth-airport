@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516856, 
+        "placetype": "airport", 
         "name": "Shcherbakovo Airport", 
-        "ne_latitude": 65.237, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598694", 
+          "woe:state=20070513", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516856, 
         "ne_longitude": 160.556, 
         "longitude": 160.545, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598694, 
+        "ne_latitude": 65.237, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2124819, 
+        "sw_latitude": 65.227, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 65.232, 
         "sw_longitude": 160.534, 
         "fullname": "Shcherbakovo Airport, Chukotskiy Avtonomnyy Okrug, Bilibinsky, Russia", 
-        "sw_latitude": 65.227
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516856
     }

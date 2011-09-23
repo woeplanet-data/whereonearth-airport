@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517472, 
+        "placetype": "airport", 
         "name": "Rustenburg Airport", 
-        "ne_latitude": -25.641, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=56189597", 
+          "woe:county=56189432", 
+          "woe:state=2346984", 
+          "woe:country=23424942", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517472, 
         "ne_longitude": 27.276, 
         "longitude": 27.271, 
-        "placetype": "Airport", 
+        "parent_woeid": 56189597, 
+        "ne_latitude": -25.641, 
         "iso": "ZA", 
-        "date_indexed": "2010-12-02T08:57:52Z", 
-        "parent_woeid": 1591195, 
+        "sw_latitude": -25.650, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -25.645, 
         "sw_longitude": 27.266, 
-        "fullname": "Rustenburg Airport, Rustenburg, North-west, Rustenburg, South Africa", 
-        "sw_latitude": -25.650
+        "fullname": "Rustenburg Airport, Rustenburg, North-west, South Africa", 
+        "date_indexed": "2010-12-02T08:57:52Z"
       }, 
       "id": 12517472
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518759, 
-        "name": "Bay City Municipal Airport", 
         "alias_ENG_V": [
           "BBC"
         ], 
-        "ne_latitude": 28.980, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Bay City Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590164", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518759, 
         "ne_longitude": -95.855, 
         "longitude": -95.857, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590164, 
+        "ne_latitude": 28.980, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2374313, 
+        "sw_latitude": 28.965, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 28.969, 
         "sw_longitude": -95.871, 
-        "fullname": "Bay City Municipal Airport, Caney, Texas, Matagorda, United States", 
-        "sw_latitude": 28.965
+        "fullname": "Bay City Municipal Airport, Caney, Texas, United States", 
+        "iata_code": "BBC", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518759
     }

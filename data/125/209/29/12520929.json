@@ -3,28 +3,70 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -86.332, 
-              41.695
-            ], 
-            [
-              -86.332, 
-              41.722
-            ], 
-            [
-              -86.294, 
-              41.722
-            ], 
-            [
-              -86.294, 
-              41.695
-            ], 
-            [
-              -86.332, 
-              41.695
+              [
+                -86.309, 
+                41.701
+              ], 
+              [
+                -86.310, 
+                41.698
+              ], 
+              [
+                -86.310, 
+                41.696
+              ], 
+              [
+                -86.313, 
+                41.696
+              ], 
+              [
+                -86.315, 
+                41.695
+              ], 
+              [
+                -86.316, 
+                41.699
+              ], 
+              [
+                -86.319, 
+                41.703
+              ], 
+              [
+                -86.322, 
+                41.700
+              ], 
+              [
+                -86.323, 
+                41.700
+              ], 
+              [
+                -86.319, 
+                41.703
+              ], 
+              [
+                -86.315, 
+                41.705
+              ], 
+              [
+                -86.314, 
+                41.709
+              ], 
+              [
+                -86.313, 
+                41.706
+              ], 
+              [
+                -86.309, 
+                41.705
+              ], 
+              [
+                -86.309, 
+                41.701
+              ]
             ]
           ]
         ]
@@ -32,23 +74,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520929, 
-        "name": "South Bend Regional Airport", 
         "alias_ENG_V": [
           "SBN"
         ], 
-        "ne_latitude": 41.722, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -86.294, 
-        "longitude": -86.311, 
-        "placetype": "Airport", 
+        "name": "South Bend Regional Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588253", 
+          "woe:state=2347573", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520929, 
+        "ne_longitude": -86.309, 
+        "longitude": -86.313, 
+        "parent_woeid": 12588253, 
+        "ne_latitude": 41.709, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2495968, 
+        "sw_latitude": 41.695, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.701, 
-        "sw_longitude": -86.332, 
-        "fullname": "South Bend Regional Airport, South Bend, Indiana, St. Joseph, United States", 
-        "sw_latitude": 41.695
+        "sw_longitude": -86.323, 
+        "fullname": "South Bend Regional Airport, South Bend, Indiana, United States", 
+        "iata_code": "SBN", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520929
     }

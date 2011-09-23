@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518708, 
-        "name": "Austin Municipal Airport", 
         "alias_ENG_V": [
           "Austin Airport"
         ], 
-        "ne_latitude": 43.673, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Austin Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588846", 
+          "woe:state=2347582", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518708, 
         "ne_longitude": -92.930, 
         "longitude": -92.930, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588846, 
+        "ne_latitude": 43.673, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2357531, 
+        "sw_latitude": 43.656, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.665, 
         "sw_longitude": -92.940, 
-        "fullname": "Austin Municipal Airport, Austin, Minnesota, Mower, United States", 
-        "sw_latitude": 43.656
+        "fullname": "Austin Municipal Airport, Austin, Minnesota, United States", 
+        "iata_code": "AUM", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518708
     }

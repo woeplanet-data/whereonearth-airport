@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516324, 
+        "placetype": "airport", 
         "name": "Kyusyur Airport", 
-        "ne_latitude": 70.692, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597626", 
+          "woe:state=2346881", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516324, 
         "ne_longitude": 127.442, 
         "longitude": 127.429, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597626, 
+        "ne_latitude": 70.692, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2034570, 
+        "sw_latitude": 70.683, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 70.687, 
         "sw_longitude": 127.415, 
         "fullname": "Kyusyur Airport, Sakha, Bulunsky, Russia", 
-        "sw_latitude": 70.683
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516324
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521608, 
-        "name": "Killeen-Fort Hood Regional Airport", 
         "alias_ENG_V": [
           "GRK"
         ], 
-        "ne_latitude": 31.084, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Killeen-Fort Hood Regional Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590020", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521608, 
         "ne_longitude": -97.816, 
         "longitude": -97.821, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590020, 
+        "ne_latitude": 31.084, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2432286, 
+        "sw_latitude": 31.052, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 31.061, 
         "sw_longitude": -97.838, 
-        "fullname": "Killeen-Fort Hood Regional Airport, Killeen, Texas, Bell, United States", 
-        "sw_latitude": 31.052
+        "fullname": "Killeen-Fort Hood Regional Airport, Killeen, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521608
     }

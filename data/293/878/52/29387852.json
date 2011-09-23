@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29387852, 
-        "name": "Redlands Airport", 
         "alias_ENG_V": [
           "44co"
         ], 
-        "ne_latitude": 38.844, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Redlands Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587742", 
+          "woe:state=2347564", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29387852, 
         "ne_longitude": -107.792, 
         "longitude": -107.793, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587742, 
+        "ne_latitude": 38.844, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2437437, 
+        "sw_latitude": 38.836, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.844, 
         "sw_longitude": -107.793, 
-        "fullname": "Redlands Airport, Lazear, Colorado, Delta, United States", 
-        "sw_latitude": 38.836
+        "fullname": "Redlands Airport, Lazear, Colorado, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29387852
     }

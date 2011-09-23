@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 56051999, 
+        "placetype": "airport", 
         "name": "Segelflugplatz Werdenfels", 
-        "ne_latitude": 47.627, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12634608", 
+          "woe:county=12596775", 
+          "woe:state=2345482", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56051999, 
         "ne_longitude": 11.192, 
         "longitude": 11.184, 
-        "placetype": "Airport", 
+        "parent_woeid": 12634608, 
+        "ne_latitude": 47.627, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 648707, 
+        "sw_latitude": 47.618, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.626, 
         "sw_longitude": 11.183, 
-        "fullname": "Segelflugplatz Werdenfels, Eschenlohe, Bavaria, Landkreis Garmisch-Partenkirchen, Germany", 
-        "sw_latitude": 47.618
+        "fullname": "Segelflugplatz Werdenfels, Eschenlohe, Bavaria, Germany", 
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 56051999
     }

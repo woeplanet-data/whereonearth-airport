@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523547, 
-        "name": "Mandinga Airport", 
         "alias_ENG_V": [
           "COG"
         ], 
-        "ne_latitude": 5.075, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Mandinga Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26797170", 
+          "woe:state=2345057", 
+          "woe:country=23424787", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523547, 
         "ne_longitude": -76.638, 
         "longitude": -76.642, 
-        "placetype": "Airport", 
+        "parent_woeid": 26797170, 
+        "ne_latitude": 5.075, 
         "iso": "CO", 
-        "date_indexed": "2010-12-02T17:57:37Z", 
-        "parent_woeid": 368291, 
+        "sw_latitude": 5.066, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 5.070, 
         "sw_longitude": -76.647, 
-        "fullname": "Mandinga Airport, Condoto, Choco, Condoto, Colombia", 
-        "sw_latitude": 5.066
+        "fullname": "Mandinga Airport, Condoto, Choco, Colombia", 
+        "iata_code": "COG", 
+        "date_indexed": "2010-12-02T17:57:37Z"
       }, 
       "id": 12523547
     }

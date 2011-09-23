@@ -3,28 +3,42 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -77.539, 
-              44.112
-            ], 
-            [
-              -77.539, 
-              44.121
-            ], 
-            [
-              -77.527, 
-              44.121
-            ], 
-            [
-              -77.527, 
-              44.112
-            ], 
-            [
-              -77.539, 
-              44.112
+              [
+                -77.530, 
+                44.111
+              ], 
+              [
+                -77.534, 
+                44.112
+              ], 
+              [
+                -77.534, 
+                44.115
+              ], 
+              [
+                -77.532, 
+                44.119
+              ], 
+              [
+                -77.529, 
+                44.115
+              ], 
+              [
+                -77.529, 
+                44.114
+              ], 
+              [
+                -77.529, 
+                44.112
+              ], 
+              [
+                -77.530, 
+                44.111
+              ]
             ]
           ]
         ]
@@ -32,23 +46,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511886, 
-        "name": "Trenton Airport", 
         "alias_ENG_V": [
           "YTR Airport"
         ], 
-        "ne_latitude": 44.121, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -77.527, 
-        "longitude": -77.533, 
-        "placetype": "Airport", 
+        "name": "Trenton Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375163", 
+          "woe:state=2344922", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511886, 
+        "ne_longitude": -77.529, 
+        "longitude": -77.531, 
+        "parent_woeid": 29375163, 
+        "ne_latitude": 44.119, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 4111, 
-        "latitude": 44.116, 
-        "sw_longitude": -77.539, 
-        "fullname": "Trenton Airport, Trenton, Ontario, Hastings, Canada", 
-        "sw_latitude": 44.112
+        "sw_latitude": 44.111, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 44.114, 
+        "sw_longitude": -77.534, 
+        "fullname": "Trenton Airport, Trenton, Ontario, Canada", 
+        "iata_code": "YTR", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12511886
     }

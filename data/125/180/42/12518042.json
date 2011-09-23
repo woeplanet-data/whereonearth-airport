@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518042, 
-        "name": "Blackbushe Airport", 
         "alias_ENG_V": [
           "BBS"
         ], 
-        "ne_latitude": 51.330, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Blackbushe Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=12695963", 
+          "woe:county=12602169", 
+          "woe:state=24554868", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518042, 
         "ne_longitude": -0.834, 
         "longitude": -0.842, 
-        "placetype": "Airport", 
+        "parent_woeid": 12695963, 
+        "ne_latitude": 51.330, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:20:54Z", 
-        "parent_woeid": 41341, 
+        "sw_latitude": 51.321, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.325, 
         "sw_longitude": -0.849, 
-        "fullname": "Blackbushe Airport, Yateley, England, Hampshire, United Kingdom", 
-        "sw_latitude": 51.321
+        "fullname": "Blackbushe Airport, Yateley, England, United Kingdom", 
+        "iata_code": "BBS", 
+        "date_indexed": "2010-12-02T12:20:54Z"
       }, 
       "id": 12518042
     }

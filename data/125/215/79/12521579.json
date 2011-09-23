@@ -3,28 +3,58 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -95.994, 
-              36.031
-            ], 
-            [
-              -95.994, 
-              36.049
-            ], 
-            [
-              -95.976, 
-              36.049
-            ], 
-            [
-              -95.976, 
-              36.031
-            ], 
-            [
-              -95.994, 
-              36.031
+              [
+                -95.988, 
+                36.039
+              ], 
+              [
+                -95.987, 
+                36.034
+              ], 
+              [
+                -95.983, 
+                36.035
+              ], 
+              [
+                -95.987, 
+                36.032
+              ], 
+              [
+                -95.989, 
+                36.036
+              ], 
+              [
+                -95.989, 
+                36.037
+              ], 
+              [
+                -95.992, 
+                36.039
+              ], 
+              [
+                -95.994, 
+                36.041
+              ], 
+              [
+                -95.991, 
+                36.041
+              ], 
+              [
+                -95.990, 
+                36.041
+              ], 
+              [
+                -95.988, 
+                36.040
+              ], 
+              [
+                -95.988, 
+                36.039
+              ]
             ]
           ]
         ]
@@ -32,23 +62,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521579, 
-        "name": "Richard Lloyd Jones Jr Airport", 
         "alias_ENG_V": [
           "Richard Lloyd Jones Jr"
         ], 
-        "ne_latitude": 36.049, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -95.976, 
-        "longitude": -95.994, 
-        "placetype": "Airport", 
-        "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
+        "name": "Richard Lloyd Jones Jr Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:suburb=2517836", 
+          "woe:county=12589686", 
+          "woe:state=2347595", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521579, 
+        "ne_longitude": -95.983, 
+        "longitude": -95.989, 
         "parent_woeid": 2517836, 
-        "latitude": 36.038, 
+        "ne_latitude": 36.041, 
+        "iso": "US", 
+        "sw_latitude": 36.032, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 36.037, 
         "sw_longitude": -95.994, 
-        "fullname": "Richard Lloyd Jones Jr Airport, Tulsa, Oklahoma, Tulsa, United States", 
-        "sw_latitude": 36.031
+        "fullname": "Richard Lloyd Jones Jr Airport, Tulsa, Oklahoma, United States", 
+        "iata_code": "RVS", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521579
     }

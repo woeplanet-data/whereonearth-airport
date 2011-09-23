@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517023, 
+        "placetype": "airport", 
         "name": "Totma Airport", 
-        "ne_latitude": 59.990, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599609", 
+          "woe:state=2346934", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517023, 
         "ne_longitude": 42.782, 
         "longitude": 42.773, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599609, 
+        "ne_latitude": 59.990, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2096850, 
+        "sw_latitude": 59.980, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 59.985, 
         "sw_longitude": 42.764, 
-        "fullname": "Totma Airport, Tot'ma, Vologodskaya Oblast, Totemsky, Russia", 
-        "sw_latitude": 59.980
+        "fullname": "Totma Airport, Tot'ma, Vologodskaya Oblast, Russia", 
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12517023
     }

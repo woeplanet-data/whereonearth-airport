@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510808, 
+        "placetype": "airport", 
         "name": "Wee Waa Airport", 
-        "ne_latitude": -30.254, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55863796", 
+          "woe:state=2344700", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510808, 
         "ne_longitude": 149.414, 
         "longitude": 149.408, 
-        "placetype": "Airport", 
+        "parent_woeid": 55863796, 
+        "ne_latitude": -30.254, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1106541, 
+        "sw_latitude": -30.263, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -30.258, 
         "sw_longitude": 149.403, 
-        "fullname": "Wee Waa Airport, Wee Waa, New South Wales, Narrabri, Australia", 
-        "sw_latitude": -30.263
+        "fullname": "Wee Waa Airport, Wee Waa, New South Wales, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 12510808
     }

@@ -3,28 +3,46 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -3.384, 
-              56.431
-            ], 
-            [
-              -3.384, 
-              56.440
-            ], 
-            [
-              -3.368, 
-              56.440
-            ], 
-            [
-              -3.368, 
-              56.431
-            ], 
-            [
-              -3.384, 
-              56.431
+              [
+                -3.372, 
+                56.437
+              ], 
+              [
+                -3.373, 
+                56.435
+              ], 
+              [
+                -3.377, 
+                56.433
+              ], 
+              [
+                -3.378, 
+                56.434
+              ], 
+              [
+                -3.376, 
+                56.437
+              ], 
+              [
+                -3.376, 
+                56.441
+              ], 
+              [
+                -3.372, 
+                56.442
+              ], 
+              [
+                -3.372, 
+                56.439
+              ], 
+              [
+                -3.372, 
+                56.437
+              ]
             ]
           ]
         ]
@@ -32,23 +50,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524000, 
-        "name": "Perth Airport", 
         "alias_ENG_V": [
           "PSL"
         ], 
-        "ne_latitude": 56.440, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -3.368, 
-        "longitude": -3.376, 
-        "placetype": "Airport", 
+        "name": "Perth Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=12696206", 
+          "woe:county=12602208", 
+          "woe:state=12578048", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524000, 
+        "ne_longitude": -3.372, 
+        "longitude": -3.374, 
+        "parent_woeid": 12696206, 
+        "ne_latitude": 56.442, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:21:01Z", 
-        "parent_woeid": 35715, 
-        "latitude": 56.436, 
-        "sw_longitude": -3.384, 
-        "fullname": "Perth Airport, St. Martins, Scotland, Tayside, United Kingdom", 
-        "sw_latitude": 56.431
+        "sw_latitude": 56.433, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 56.438, 
+        "sw_longitude": -3.378, 
+        "fullname": "Perth Airport, St. Martins, Scotland, United Kingdom", 
+        "iata_code": "PSL", 
+        "date_indexed": "2010-12-02T12:21:01Z"
       }, 
       "id": 12524000
     }

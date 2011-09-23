@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517459, 
-        "name": "Pietermaritzburg Airport", 
         "alias_ENG_V": [
           "PZB"
         ], 
-        "ne_latitude": -29.638, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Pietermaritzburg Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=56189494", 
+          "woe:county=56189434", 
+          "woe:state=2346982", 
+          "woe:country=23424942", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517459, 
         "ne_longitude": 30.399, 
         "longitude": 30.393, 
-        "placetype": "Airport", 
+        "parent_woeid": 56189494, 
+        "ne_latitude": -29.638, 
         "iso": "ZA", 
-        "date_indexed": "2010-12-02T08:57:52Z", 
-        "parent_woeid": 1586549, 
+        "sw_latitude": -29.647, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -29.642, 
         "sw_longitude": 30.388, 
-        "fullname": "Pietermaritzburg Airport, Pietermaritzburg, Kwazulu Natal, Pietermaritzburg, South Africa", 
-        "sw_latitude": -29.647
+        "fullname": "Pietermaritzburg Airport, Pietermaritzburg, Kwazulu Natal, South Africa", 
+        "iata_code": "PZB", 
+        "date_indexed": "2010-12-02T08:57:52Z"
       }, 
       "id": 12517459
     }

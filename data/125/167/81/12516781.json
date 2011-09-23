@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516781, 
+        "placetype": "airport", 
         "name": "Romny Airport", 
-        "ne_latitude": 50.817, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597995", 
+          "woe:state=2346888", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516781, 
         "ne_longitude": 129.231, 
         "longitude": 129.224, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597995, 
+        "ne_latitude": 50.817, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2014645, 
+        "sw_latitude": 50.808, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.813, 
         "sw_longitude": 129.217, 
         "fullname": "Romny Airport, Amurskaya Oblast, Romnensky, Russia", 
-        "sw_latitude": 50.808
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516781
     }

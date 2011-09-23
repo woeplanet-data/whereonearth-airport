@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515207, 
-        "name": "Juliaca Airport", 
         "alias_ENG_V": [
           "JUL"
         ], 
-        "ne_latitude": -15.460, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Juliaca Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26805931", 
+          "woe:state=2346488", 
+          "woe:country=23424919", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515207, 
         "ne_longitude": -70.150, 
         "longitude": -70.154, 
-        "placetype": "Airport", 
+        "parent_woeid": 26805931, 
+        "ne_latitude": -15.460, 
         "iso": "PE", 
-        "date_indexed": "2010-12-02T16:12:16Z", 
-        "parent_woeid": 418457, 
+        "sw_latitude": -15.469, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -15.464, 
         "sw_longitude": -70.159, 
-        "fullname": "Juliaca Airport, Juliaca, Puno, San Rom\u00e1n, Peru", 
-        "sw_latitude": -15.469
+        "fullname": "Juliaca Airport, Juliaca, Puno, Peru", 
+        "iata_code": "JUL", 
+        "date_indexed": "2010-12-02T16:12:16Z"
       }, 
       "id": 12515207
     }

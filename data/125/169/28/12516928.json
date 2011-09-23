@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516928, 
+        "placetype": "airport", 
         "name": "Staraya Northeast Airport", 
-        "ne_latitude": 70.997, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597625", 
+          "woe:state=2346881", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516928, 
         "ne_longitude": 114.434, 
         "longitude": 114.420, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597625, 
+        "ne_latitude": 70.997, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 1982347, 
+        "sw_latitude": 70.988, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 70.993, 
         "sw_longitude": 114.406, 
         "fullname": "Staraya Northeast Airport, Sakha, Anabarsky, Russia", 
-        "sw_latitude": 70.988
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516928
     }

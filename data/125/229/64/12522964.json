@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522964, 
+        "placetype": "airport", 
         "name": "Truc Giang Airport", 
-        "ne_latitude": 10.273, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2347703", 
+          "woe:country=23424984", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522964, 
         "ne_longitude": 106.348, 
         "longitude": 106.344, 
-        "placetype": "Airport", 
+        "parent_woeid": 2347703, 
+        "ne_latitude": 10.273, 
         "iso": "VN", 
-        "date_indexed": "2010-12-02T08:52:49Z", 
-        "parent_woeid": 1252645, 
+        "sw_latitude": 10.264, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 10.269, 
         "sw_longitude": 106.339, 
         "fullname": "Truc Giang Airport, Ben Tre, Ben Tre, Vietnam", 
-        "sw_latitude": 10.264
+        "date_indexed": "2010-12-02T08:52:49Z"
       }, 
       "id": 12522964
     }

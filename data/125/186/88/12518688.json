@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518688, 
+        "placetype": "airport", 
         "name": "Atlanta Municipal Airport", 
-        "ne_latitude": 33.107, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12590040", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518688, 
         "ne_longitude": -94.188, 
         "longitude": -94.195, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590040, 
+        "ne_latitude": 33.107, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2357020, 
+        "sw_latitude": 33.099, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 33.105, 
         "sw_longitude": -94.201, 
-        "fullname": "Atlanta Municipal Airport, Atlanta, Texas, Cass, United States", 
-        "sw_latitude": 33.099
+        "fullname": "Atlanta Municipal Airport, Atlanta, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518688
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 55805820, 
-        "name": "Hulett Municipal Airport", 
         "alias_ENG_V": [
           "W43"
         ], 
-        "ne_latitude": 44.673, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Hulett Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590611", 
+          "woe:state=2347609", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 55805820, 
         "ne_longitude": -104.564, 
         "longitude": -104.570, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590611, 
+        "ne_latitude": 44.673, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2425451, 
+        "sw_latitude": 44.664, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.669, 
         "sw_longitude": -104.577, 
-        "fullname": "Hulett Municipal Airport, Hulett, Wyoming, Crook, United States", 
-        "sw_latitude": 44.664
+        "fullname": "Hulett Municipal Airport, Hulett, Wyoming, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 55805820
     }

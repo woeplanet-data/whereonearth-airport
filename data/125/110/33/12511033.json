@@ -32,29 +32,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511033, 
-        "name": "Aeroporto Araraquara", 
-        "alias_ENG_P": [
-          "Araraquara Airport"
-        ], 
-        "ne_latitude": -21.803, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "AQA"
         ], 
+        "name": "Aeroporto Araraquara", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Araraquara Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12581845", 
+          "woe:state=2344868", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511033, 
         "ne_longitude": -48.131, 
         "longitude": -48.136, 
-        "placetype": "Airport", 
+        "parent_woeid": 12581845, 
+        "ne_latitude": -21.803, 
         "alias_POR_V": [
           "Aeroporto AQA"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 455930, 
+        "sw_latitude": -21.812, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -21.808, 
         "sw_longitude": -48.140, 
-        "fullname": "Aeroporto Araraquara, Araraquara, Sao Paulo, Araraquara, Brazil", 
-        "sw_latitude": -21.812
+        "fullname": "Aeroporto Araraquara, Araraquara, Sao Paulo, Brazil", 
+        "iata_code": "AQA", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511033
     }

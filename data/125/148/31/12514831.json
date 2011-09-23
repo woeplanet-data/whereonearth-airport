@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514831, 
+        "placetype": "airport", 
         "name": "Cabo Roja Airport", 
-        "ne_latitude": 21.741, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12601872", 
+          "woe:state=2346293", 
+          "woe:country=23424900", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514831, 
         "ne_longitude": -97.548, 
         "longitude": -97.553, 
-        "placetype": "Airport", 
+        "parent_woeid": 12601872, 
+        "ne_latitude": 21.741, 
         "iso": "MX", 
-        "date_indexed": "2010-12-02T16:57:55Z", 
-        "parent_woeid": 113970, 
+        "sw_latitude": 21.732, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 21.736, 
         "sw_longitude": -97.558, 
-        "fullname": "Cabo Roja Airport, Cabo Rojito, Veracruz-Llave, Tampico Alto, Mexico", 
-        "sw_latitude": 21.732
+        "fullname": "Cabo Roja Airport, Cabo Rojito, Veracruz-Llave, Mexico", 
+        "date_indexed": "2010-12-02T16:57:55Z"
       }, 
       "id": 12514831
     }

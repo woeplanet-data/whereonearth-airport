@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513084, 
+        "placetype": "airport", 
         "name": "Eggebek Airport", 
-        "ne_latitude": 54.630, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12631601", 
+          "woe:county=12596740", 
+          "woe:state=2345490", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513084, 
         "ne_longitude": 9.355, 
         "longitude": 9.347, 
-        "placetype": "Airport", 
+        "parent_woeid": 12631601, 
+        "ne_latitude": 54.630, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:24Z", 
-        "parent_woeid": 646645, 
+        "sw_latitude": 54.621, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 54.626, 
         "sw_longitude": 9.339, 
-        "fullname": "Eggebek Airport, Eggebek, Schleswig-Holstein, Schleswig-Flensburg, Germany", 
+        "fullname": "Eggebek Airport, Eggebek, Schleswig-Holstein, Germany", 
         "alias_GER_Q": [
           "Flughafen Eggebek"
         ], 
-        "sw_latitude": 54.621
+        "date_indexed": "2010-12-02T09:50:24Z"
       }, 
       "id": 12513084
     }

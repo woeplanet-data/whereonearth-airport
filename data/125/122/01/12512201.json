@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512201, 
+        "placetype": "airport", 
         "name": "Suizhong Airport", 
-        "ne_latitude": 40.300, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12686792", 
+          "woe:county=26198069", 
+          "woe:state=12578008", 
+          "woe:country=23424781", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512201, 
         "ne_longitude": 120.363, 
         "longitude": 120.357, 
-        "placetype": "Airport", 
+        "parent_woeid": 12686792, 
+        "ne_latitude": 40.300, 
         "iso": "CN", 
-        "date_indexed": "2010-12-02T08:51:54Z", 
-        "parent_woeid": 2148048, 
+        "sw_latitude": 40.290, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.295, 
         "sw_longitude": 120.352, 
-        "fullname": "Suizhong Airport, Suizhong, Liaoning, Huludao, China", 
-        "sw_latitude": 40.290
+        "fullname": "Suizhong Airport, Suizhong, Liaoning, China", 
+        "date_indexed": "2010-12-02T08:51:54Z"
       }, 
       "id": 12512201
     }

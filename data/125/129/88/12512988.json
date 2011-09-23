@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512988, 
+        "placetype": "airport", 
         "name": "Vittefleur Airport", 
-        "ne_latitude": 49.839, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12638721", 
+          "woe:county=12597115", 
+          "woe:state=7153318", 
+          "woe:country=23424819", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512988, 
         "ne_longitude": 0.663, 
         "longitude": 0.652, 
-        "placetype": "Airport", 
+        "parent_woeid": 12638721, 
+        "ne_latitude": 49.839, 
         "iso": "FR", 
-        "date_indexed": "2010-12-02T12:04:01Z", 
-        "parent_woeid": 615573, 
+        "sw_latitude": 49.831, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.835, 
         "sw_longitude": 0.640, 
-        "fullname": "Vittefleur Airport, Paluel, Haute-Normandie, Seine-Maritime, France", 
-        "sw_latitude": 49.831
+        "fullname": "Vittefleur Airport, Paluel, Haute-Normandie, France", 
+        "date_indexed": "2010-12-02T12:04:01Z"
       }, 
       "id": 12512988
     }

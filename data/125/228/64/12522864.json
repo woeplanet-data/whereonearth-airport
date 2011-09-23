@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522864, 
+        "placetype": "airport", 
         "name": "Ba Gi Airport", 
-        "ne_latitude": 13.869, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2347730", 
+          "woe:country=23424984", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522864, 
         "ne_longitude": 109.147, 
         "longitude": 109.142, 
-        "placetype": "Airport", 
+        "parent_woeid": 2347730, 
+        "ne_latitude": 13.869, 
         "iso": "VN", 
-        "date_indexed": "2010-12-02T08:52:49Z", 
-        "parent_woeid": 1245842, 
+        "sw_latitude": 13.860, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 13.865, 
         "sw_longitude": 109.137, 
         "fullname": "Ba Gi Airport, Ki N'on, Binh Dinh, Vietnam", 
-        "sw_latitude": 13.860
+        "date_indexed": "2010-12-02T08:52:49Z"
       }, 
       "id": 12522864
     }

@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517451, 
+        "placetype": "airport", 
         "name": "Nederland Airport", 
-        "ne_latitude": -24.297, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=56189595", 
+          "woe:county=56189406", 
+          "woe:state=2346986", 
+          "woe:country=23424942", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517451, 
         "ne_longitude": 31.298, 
         "longitude": 31.293, 
-        "placetype": "Airport", 
+        "parent_woeid": 56189595, 
+        "ne_latitude": -24.297, 
         "iso": "ZA", 
-        "date_indexed": "2010-12-02T08:57:52Z", 
-        "parent_woeid": 1582287, 
+        "sw_latitude": -24.306, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -24.301, 
         "sw_longitude": 31.288, 
         "fullname": "Nederland Airport, Limpopo, Limpopo Rural, South Africa", 
-        "sw_latitude": -24.306
+        "date_indexed": "2010-12-02T08:57:52Z"
       }, 
       "id": 12517451
     }

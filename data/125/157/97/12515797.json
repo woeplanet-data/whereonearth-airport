@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515797, 
+        "placetype": "airport", 
         "name": "Berdsk Airport", 
-        "ne_latitude": 54.738, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598850", 
+          "woe:state=2346914", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515797, 
         "ne_longitude": 83.101, 
         "longitude": 83.093, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598850, 
+        "ne_latitude": 54.738, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2120253, 
+        "sw_latitude": 54.729, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 54.733, 
         "sw_longitude": 83.085, 
-        "fullname": "Berdsk Airport, Berdsk, Novosibirskaya Oblast, Iskitimsky, Russia", 
-        "sw_latitude": 54.729
+        "fullname": "Berdsk Airport, Berdsk, Novosibirskaya Oblast, Russia", 
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12515797
     }

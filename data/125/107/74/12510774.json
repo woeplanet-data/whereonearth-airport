@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510774, 
-        "name": "Roma Aerodrome", 
         "alias_ENG_V": [
           "Roma Airport"
         ], 
-        "ne_latitude": -26.536, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Roma Aerodrome", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=56072958", 
+          "woe:state=2344702", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510774, 
         "ne_longitude": 148.784, 
         "longitude": 148.779, 
-        "placetype": "Airport", 
+        "parent_woeid": 56072958, 
+        "ne_latitude": -26.536, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1105383, 
+        "sw_latitude": -26.555, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -26.543, 
         "sw_longitude": 148.765, 
-        "fullname": "Roma Aerodrome, Roma, Queensland, Roma, Australia", 
-        "sw_latitude": -26.555
+        "fullname": "Roma Aerodrome, Roma, Queensland, Australia", 
+        "iata_code": "RMA", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 12510774
     }

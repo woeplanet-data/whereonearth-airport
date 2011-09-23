@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388088, 
+        "placetype": "airport", 
         "name": "Gill Airport", 
-        "ne_latitude": 38.624, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12588421", 
+          "woe:state=2347575", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388088, 
         "ne_longitude": -100.507, 
         "longitude": -100.508, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588421, 
+        "ne_latitude": 38.624, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2492701, 
+        "sw_latitude": 38.620, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.622, 
         "sw_longitude": -100.515, 
-        "fullname": "Gill Airport, Shields, Kansas, Lane, United States", 
-        "sw_latitude": 38.620
+        "fullname": "Gill Airport, Shields, Kansas, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388088
     }

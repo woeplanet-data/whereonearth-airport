@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512626, 
+        "placetype": "airport", 
         "name": "Cotopaxi Airport", 
-        "ne_latitude": -0.904, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=26810123", 
+          "woe:county=26809578", 
+          "woe:state=2345208", 
+          "woe:country=23424801", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512626, 
         "ne_longitude": -78.610, 
         "longitude": -78.614, 
-        "placetype": "Airport", 
+        "parent_woeid": 26810123, 
+        "ne_latitude": -0.904, 
         "iso": "EC", 
-        "date_indexed": "2010-12-02T17:51:45Z", 
-        "parent_woeid": 375752, 
+        "sw_latitude": -0.913, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -0.909, 
         "sw_longitude": -78.619, 
-        "fullname": "Cotopaxi Airport, Latacunga, Cotopaxi, Latacunga, Ecuador", 
-        "sw_latitude": -0.913
+        "fullname": "Cotopaxi Airport, Latacunga, Cotopaxi, Ecuador", 
+        "date_indexed": "2010-12-02T17:51:45Z"
       }, 
       "id": 12512626
     }

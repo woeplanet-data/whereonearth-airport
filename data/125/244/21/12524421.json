@@ -32,23 +32,28 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524421, 
-        "name": "Miquelon Airport", 
         "alias_ENG_V": [
           "MQC"
         ], 
-        "ne_latitude": 47.138, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Miquelon Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=24549865", 
+          "woe:country=23424939", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524421, 
         "ne_longitude": -56.377, 
         "longitude": -56.383, 
-        "placetype": "Airport", 
+        "parent_woeid": 24549865, 
+        "ne_latitude": 47.138, 
         "iso": "PM", 
-        "date_indexed": "2010-12-02T12:15:58Z", 
-        "parent_woeid": 161844, 
+        "sw_latitude": 47.129, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.133, 
         "sw_longitude": -56.390, 
         "fullname": "Miquelon Airport, St. Pierre, St.-Pierre, Saint Pierre and Miquelon", 
-        "sw_latitude": 47.129
+        "date_indexed": "2010-12-02T12:15:58Z"
       }, 
       "id": 12524421
     }

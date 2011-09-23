@@ -32,29 +32,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511071, 
-        "name": "Aeroporto Internacional Campo Grande", 
-        "alias_ENG_P": [
-          "Campo Grande International Airport"
-        ], 
-        "ne_latitude": -20.455, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "Campo Grande Airport"
         ], 
+        "name": "Aeroporto Internacional Campo Grande", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Campo Grande International Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12579121", 
+          "woe:state=2344853", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511071, 
         "ne_longitude": -54.651, 
         "longitude": -54.674, 
-        "placetype": "Airport", 
+        "parent_woeid": 12579121, 
+        "ne_latitude": -20.455, 
         "alias_POR_V": [
           "Aer Internacional de Campo Grande"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:28Z", 
-        "parent_woeid": 455849, 
+        "sw_latitude": -20.489, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -20.475, 
         "sw_longitude": -54.701, 
-        "fullname": "Aeroporto Internacional Campo Grande, Campo Grande, Mato Grosso do Sul, Campo Grande, Brazil", 
-        "sw_latitude": -20.489
+        "fullname": "Aeroporto Internacional Campo Grande, Campo Grande, Mato Grosso do Sul, Brazil", 
+        "iata_code": "CGR", 
+        "date_indexed": "2010-12-02T18:01:28Z"
       }, 
       "id": 12511071
     }

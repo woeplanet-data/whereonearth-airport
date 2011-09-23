@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516049, 
+        "placetype": "airport", 
         "name": "Ivanovskaya Airport", 
-        "ne_latitude": 45.232, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597784", 
+          "woe:state=2346884", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516049, 
         "ne_longitude": 38.474, 
         "longitude": 38.467, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597784, 
+        "ne_latitude": 45.232, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2121069, 
+        "sw_latitude": 45.223, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.227, 
         "sw_longitude": 38.461, 
         "fullname": "Ivanovskaya Airport, Krasnodarskiy Kray, Krasnoarmeysky, Russia", 
-        "sw_latitude": 45.223
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516049
     }

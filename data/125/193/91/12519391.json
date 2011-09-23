@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519391, 
-        "name": "Custer County Airport", 
         "alias_ENG_V": [
           "Custer County Airfield"
         ], 
-        "ne_latitude": 43.735, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Custer County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589861", 
+          "woe:state=2347600", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519391, 
         "ne_longitude": -103.608, 
         "longitude": -103.614, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589861, 
+        "ne_latitude": 43.735, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2388509, 
+        "sw_latitude": 43.731, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.732, 
         "sw_longitude": -103.632, 
-        "fullname": "Custer County Airport, Custer, South Dakota, Custer, United States", 
-        "sw_latitude": 43.731
+        "fullname": "Custer County Airport, Custer, South Dakota, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519391
     }

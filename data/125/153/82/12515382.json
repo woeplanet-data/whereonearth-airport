@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515382, 
+        "placetype": "airport", 
         "name": "Rostki Airport", 
-        "ne_latitude": 53.721, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=24548093", 
+          "woe:county=12591451", 
+          "woe:state=12577948", 
+          "woe:country=23424923", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515382, 
         "ne_longitude": 21.926, 
         "longitude": 21.919, 
-        "placetype": "Airport", 
+        "parent_woeid": 24548093, 
+        "ne_latitude": 53.721, 
         "iso": "PL", 
-        "date_indexed": "2010-12-02T12:12:45Z", 
-        "parent_woeid": 516090, 
+        "sw_latitude": 53.712, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.717, 
         "sw_longitude": 21.911, 
         "fullname": "Rostki Airport, Warmian-Masurian, Pisz County, Poland", 
-        "sw_latitude": 53.712
+        "date_indexed": "2010-12-02T12:12:45Z"
       }, 
       "id": 12515382
     }

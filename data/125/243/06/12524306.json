@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524306, 
-        "name": "Sandy Lake Airport", 
         "alias_ENG_V": [
           "ZSJ Airport"
         ], 
-        "ne_latitude": 53.056, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Sandy Lake Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375238", 
+          "woe:state=2344922", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524306, 
         "ne_longitude": -93.242, 
         "longitude": -93.249, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375238, 
+        "ne_latitude": 53.056, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 1642, 
+        "sw_latitude": 53.047, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.051, 
         "sw_longitude": -93.257, 
-        "fullname": "Sandy Lake Airport, Sandy Lake, Ontario, Kenora, Canada", 
-        "sw_latitude": 53.047
+        "fullname": "Sandy Lake Airport, Sandy Lake, Ontario, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12524306
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516122, 
+        "placetype": "airport", 
         "name": "Kellog Airport", 
-        "ne_latitude": 62.485, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597889", 
+          "woe:state=20070524", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516122, 
         "ne_longitude": 86.304, 
         "longitude": 86.294, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597889, 
+        "ne_latitude": 62.485, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2018489, 
+        "sw_latitude": 62.476, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 62.481, 
         "sw_longitude": 86.284, 
         "fullname": "Kellog Airport, Krasnoyarskiy Kray, Turukhansky, Russia", 
-        "sw_latitude": 62.476
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516122
     }

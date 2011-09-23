@@ -3,28 +3,74 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -111.392, 
-              47.464
-            ], 
-            [
-              -111.392, 
-              47.497
-            ], 
-            [
-              -111.349, 
-              47.497
-            ], 
-            [
-              -111.349, 
-              47.464
-            ], 
-            [
-              -111.392, 
-              47.464
+              [
+                -111.363, 
+                47.474
+              ], 
+              [
+                -111.363, 
+                47.480
+              ], 
+              [
+                -111.356, 
+                47.482
+              ], 
+              [
+                -111.355, 
+                47.486
+              ], 
+              [
+                -111.350, 
+                47.487
+              ], 
+              [
+                -111.350, 
+                47.487
+              ], 
+              [
+                -111.345, 
+                47.488
+              ], 
+              [
+                -111.342, 
+                47.484
+              ], 
+              [
+                -111.339, 
+                47.480
+              ], 
+              [
+                -111.340, 
+                47.480
+              ], 
+              [
+                -111.348, 
+                47.477
+              ], 
+              [
+                -111.354, 
+                47.477
+              ], 
+              [
+                -111.362, 
+                47.473
+              ], 
+              [
+                -111.366, 
+                47.469
+              ], 
+              [
+                -111.368, 
+                47.470
+              ], 
+              [
+                -111.363, 
+                47.474
+              ]
             ]
           ]
         ]
@@ -32,23 +78,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519974, 
-        "name": "Great Falls International Airport", 
         "alias_ENG_V": [
           "GTF"
         ], 
-        "ne_latitude": 47.497, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -111.349, 
-        "longitude": -111.356, 
-        "placetype": "Airport", 
+        "name": "Great Falls International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589087", 
+          "woe:state=2347585", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519974, 
+        "ne_longitude": -111.339, 
+        "longitude": -111.352, 
+        "parent_woeid": 12589087, 
+        "ne_latitude": 47.488, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2413588, 
-        "latitude": 47.482, 
-        "sw_longitude": -111.392, 
-        "fullname": "Great Falls International Airport, Great Falls, Montana, Cascade, United States", 
-        "sw_latitude": 47.464
+        "sw_latitude": 47.469, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 47.480, 
+        "sw_longitude": -111.368, 
+        "fullname": "Great Falls International Airport, Great Falls, Montana, United States", 
+        "iata_code": "GTF", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12519974
     }

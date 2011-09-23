@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519292, 
-        "name": "Columbus Municipal Airport", 
         "alias_ENG_V": [
           "OLU"
         ], 
-        "ne_latitude": 41.455, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Columbus Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589208", 
+          "woe:state=2347586", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519292, 
         "ne_longitude": -97.331, 
         "longitude": -97.346, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589208, 
+        "ne_latitude": 41.455, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2383654, 
+        "sw_latitude": 41.439, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.442, 
         "sw_longitude": -97.349, 
-        "fullname": "Columbus Municipal Airport, Columbus, Nebraska, Platte, United States", 
-        "sw_latitude": 41.439
+        "fullname": "Columbus Municipal Airport, Columbus, Nebraska, United States", 
+        "iata_code": "OLU", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519292
     }

@@ -3,28 +3,30 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -80.121, 
-              26.241
-            ], 
-            [
-              -80.121, 
-              26.259
-            ], 
-            [
-              -80.104, 
-              26.259
-            ], 
-            [
-              -80.104, 
-              26.241
-            ], 
-            [
-              -80.121, 
-              26.241
+              [
+                -80.112, 
+                26.246
+              ], 
+              [
+                -80.111, 
+                26.246
+              ], 
+              [
+                -80.110, 
+                26.240
+              ], 
+              [
+                -80.112, 
+                26.242
+              ], 
+              [
+                -80.112, 
+                26.246
+              ]
             ]
           ]
         ]
@@ -32,23 +34,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521431, 
-        "name": "Pompano Beach Airpark", 
         "alias_ENG_V": [
           "PMP"
         ], 
-        "ne_latitude": 26.259, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -80.104, 
-        "longitude": -80.114, 
-        "placetype": "Airport", 
+        "name": "Pompano Beach Airpark", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587808", 
+          "woe:state=2347568", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521431, 
+        "ne_longitude": -80.110, 
+        "longitude": -80.111, 
+        "parent_woeid": 12587808, 
+        "ne_latitude": 26.246, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2474897, 
-        "latitude": 26.241, 
-        "sw_longitude": -80.121, 
-        "fullname": "Pompano Beach Airpark, Pompano Beach, Florida, Broward, United States", 
-        "sw_latitude": 26.241
+        "sw_latitude": 26.240, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 26.243, 
+        "sw_longitude": -80.112, 
+        "fullname": "Pompano Beach Airpark, Pompano Beach, Florida, United States", 
+        "iata_code": "PMP", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521431
     }

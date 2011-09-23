@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520366, 
-        "name": "Jesup Wayne County Airport", 
         "alias_ENG_V": [
           "JES"
         ], 
-        "ne_latitude": 31.557, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Jesup Wayne County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588020", 
+          "woe:state=2347569", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520366, 
         "ne_longitude": -81.869, 
         "longitude": -81.895, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588020, 
+        "ne_latitude": 31.557, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2429266, 
+        "sw_latitude": 31.551, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 31.556, 
         "sw_longitude": -81.896, 
-        "fullname": "Jesup Wayne County Airport, Jesup, Georgia, Wayne, United States", 
-        "sw_latitude": 31.551
+        "fullname": "Jesup Wayne County Airport, Jesup, Georgia, United States", 
+        "iata_code": "JES", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520366
     }

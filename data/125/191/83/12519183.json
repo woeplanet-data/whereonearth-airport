@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519183, 
-        "name": "Chiloquin State Airport", 
         "alias_ENG_V": [
           "Chiloquin State"
         ], 
-        "ne_latitude": 42.581, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Chiloquin State Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589709", 
+          "woe:state=2347596", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519183, 
         "ne_longitude": -121.871, 
         "longitude": -121.877, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589709, 
+        "ne_latitude": 42.581, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:15Z", 
-        "parent_woeid": 2379786, 
+        "sw_latitude": 42.572, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.576, 
         "sw_longitude": -121.883, 
-        "fullname": "Chiloquin State Airport, Chiloquin, Oregon, Klamath, United States", 
-        "sw_latitude": 42.572
+        "fullname": "Chiloquin State Airport, Chiloquin, Oregon, United States", 
+        "iata_code": "CHZ", 
+        "date_indexed": "2010-12-02T18:39:15Z"
       }, 
       "id": 12519183
     }

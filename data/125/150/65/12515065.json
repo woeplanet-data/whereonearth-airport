@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515065, 
-        "name": "Ibadan Airport", 
         "alias_ENG_V": [
           "IBA"
         ], 
-        "ne_latitude": 7.365, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Ibadan Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=56057936", 
+          "woe:state=2346360", 
+          "woe:country=23424908", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515065, 
         "ne_longitude": 3.983, 
         "longitude": 3.978, 
-        "placetype": "Airport", 
+        "parent_woeid": 56057936, 
+        "ne_latitude": 7.365, 
         "iso": "NG", 
-        "date_indexed": "2010-12-02T09:35:13Z", 
-        "parent_woeid": 1393672, 
+        "sw_latitude": 7.356, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 7.361, 
         "sw_longitude": 3.974, 
-        "fullname": "Ibadan Airport, Ibadan, Oyo, Ibadan North West, Nigeria", 
-        "sw_latitude": 7.356
+        "fullname": "Ibadan Airport, Ibadan, Oyo, Nigeria", 
+        "iata_code": "IBA", 
+        "date_indexed": "2010-12-02T09:35:13Z"
       }, 
       "id": 12515065
     }

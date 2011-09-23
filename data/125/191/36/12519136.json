@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519136, 
+        "placetype": "airport", 
         "name": "Chapin Airport", 
-        "ne_latitude": 41.205, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12589565", 
+          "woe:state=2347594", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519136, 
         "ne_longitude": -82.568, 
         "longitude": -82.574, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589565, 
+        "ne_latitude": 41.205, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:15Z", 
-        "parent_woeid": 2462246, 
+        "sw_latitude": 41.196, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.201, 
         "sw_longitude": -82.580, 
-        "fullname": "Chapin Airport, Norwalk, Ohio, Huron, United States", 
-        "sw_latitude": 41.196
+        "fullname": "Chapin Airport, Norwalk, Ohio, United States", 
+        "date_indexed": "2010-12-02T18:39:15Z"
       }, 
       "id": 12519136
     }

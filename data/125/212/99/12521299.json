@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521299, 
-        "name": "Panola County Airport", 
         "alias_ENG_V": [
           "Pmu"
         ], 
-        "ne_latitude": 34.371, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Panola County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588937", 
+          "woe:state=2347583", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521299, 
         "ne_longitude": -89.889, 
         "longitude": -89.890, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588937, 
+        "ne_latitude": 34.371, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2359957, 
+        "sw_latitude": 34.356, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 34.362, 
         "sw_longitude": -89.895, 
-        "fullname": "Panola County Airport, Batesville, Mississippi, Panola, United States", 
-        "sw_latitude": 34.356
+        "fullname": "Panola County Airport, Batesville, Mississippi, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521299
     }

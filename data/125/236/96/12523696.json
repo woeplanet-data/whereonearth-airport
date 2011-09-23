@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523696, 
-        "name": "Rio Mayo Airport", 
         "alias_ENG_V": [
           "ROY"
         ], 
-        "ne_latitude": -45.715, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Rio Mayo Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=20071062", 
+          "woe:state=2344678", 
+          "woe:country=23424747", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523696, 
         "ne_longitude": -70.245, 
         "longitude": -70.251, 
-        "placetype": "Airport", 
+        "parent_woeid": 20071062, 
+        "ne_latitude": -45.715, 
         "iso": "AR", 
-        "date_indexed": "2010-12-02T17:41:29Z", 
-        "parent_woeid": 466378, 
+        "sw_latitude": -45.724, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -45.719, 
         "sw_longitude": -70.258, 
-        "fullname": "Rio Mayo Airport, R\u00edo Mayo, Chubut, Rio Senguer, Argentina", 
-        "sw_latitude": -45.724
+        "fullname": "Rio Mayo Airport, R\u00edo Mayo, Chubut, Argentina", 
+        "iata_code": "ROY", 
+        "date_indexed": "2010-12-02T17:41:29Z"
       }, 
       "id": 12523696
     }

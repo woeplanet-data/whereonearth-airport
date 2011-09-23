@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513570, 
-        "name": "Cooch Behar Airport", 
         "alias_ENG_V": [
           "COH Airport"
         ], 
-        "ne_latitude": 26.336, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Cooch Behar Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12586799", 
+          "woe:state=2345761", 
+          "woe:country=23424848", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513570, 
         "ne_longitude": 89.477, 
         "longitude": 89.472, 
-        "placetype": "Airport", 
+        "parent_woeid": 12586799, 
+        "ne_latitude": 26.336, 
         "iso": "IN", 
-        "date_indexed": "2010-12-02T09:26:27Z", 
-        "parent_woeid": 2294844, 
+        "sw_latitude": 26.327, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 26.331, 
         "sw_longitude": 89.467, 
-        "fullname": "Cooch Behar Airport, Koch Bihar, West Bengal, Coochbehar, India", 
-        "sw_latitude": 26.327
+        "fullname": "Cooch Behar Airport, Koch Bihar, West Bengal, India", 
+        "iata_code": "COH", 
+        "date_indexed": "2010-12-02T09:26:27Z"
       }, 
       "id": 12513570
     }

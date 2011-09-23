@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510493, 
-        "name": "Eldorado Airport", 
         "alias_ENG_V": [
           "ELO"
         ], 
-        "ne_latitude": -26.391, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Eldorado Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=20070806", 
+          "woe:state=2344688", 
+          "woe:country=23424747", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510493, 
         "ne_longitude": -54.567, 
         "longitude": -54.572, 
-        "placetype": "Airport", 
+        "parent_woeid": 20070806, 
+        "ne_latitude": -26.391, 
         "iso": "AR", 
-        "date_indexed": "2010-12-02T17:41:29Z", 
-        "parent_woeid": 466953, 
+        "sw_latitude": -26.400, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -26.396, 
         "sw_longitude": -54.578, 
-        "fullname": "Eldorado Airport, Eldorado, Misiones, Eldorado, Argentina", 
-        "sw_latitude": -26.400
+        "fullname": "Eldorado Airport, Eldorado, Misiones, Argentina", 
+        "date_indexed": "2010-12-02T17:41:29Z"
       }, 
       "id": 12510493
     }

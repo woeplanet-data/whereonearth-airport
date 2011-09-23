@@ -3,28 +3,74 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -63.538, 
-              44.863
-            ], 
-            [
-              -63.538, 
-              44.898
-            ], 
-            [
-              -63.486, 
-              44.898
-            ], 
-            [
-              -63.486, 
-              44.863
-            ], 
-            [
-              -63.538, 
-              44.863
+              [
+                -63.533, 
+                44.877
+              ], 
+              [
+                -63.535, 
+                44.875
+              ], 
+              [
+                -63.534, 
+                44.877
+              ], 
+              [
+                -63.534, 
+                44.877
+              ], 
+              [
+                -63.523, 
+                44.879
+              ], 
+              [
+                -63.523, 
+                44.885
+              ], 
+              [
+                -63.528, 
+                44.895
+              ], 
+              [
+                -63.516, 
+                44.890
+              ], 
+              [
+                -63.515, 
+                44.893
+              ], 
+              [
+                -63.510, 
+                44.889
+              ], 
+              [
+                -63.506, 
+                44.888
+              ], 
+              [
+                -63.508, 
+                44.881
+              ], 
+              [
+                -63.512, 
+                44.881
+              ], 
+              [
+                -63.519, 
+                44.875
+              ], 
+              [
+                -63.524, 
+                44.875
+              ], 
+              [
+                -63.533, 
+                44.877
+              ]
             ]
           ]
         ]
@@ -32,29 +78,35 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511686, 
-        "name": "Halifax International Airport", 
         "alias_ENG_V": [
           "YHZ Airport"
         ], 
-        "ne_latitude": 44.898, 
-        "ne_longitude": -63.486, 
-        "longitude": -63.515, 
-        "parent_woeid": 23391340, 
-        "placetype": "Airport", 
+        "name": "Halifax International Airport", 
+        "hierarchy": [
+          "woe:county=29375176", 
+          "woe:state=2344921", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511686, 
+        "provider": "geoplanet 7.6.0", 
+        "ne_longitude": -63.506, 
+        "longitude": -63.518, 
+        "parent_woeid": 29375176, 
+        "placetype": "airport", 
+        "latitude": 44.884, 
+        "iso": "CA", 
+        "sw_latitude": 44.875, 
+        "ne_latitude": 44.895, 
         "alias_FRE_V": [
           "A\u00e9roport Intl de Robert L Stanfield"
         ], 
-        "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "provider": "geoplanet 7.6.0", 
-        "latitude": 44.887, 
-        "sw_longitude": -63.538, 
-        "fullname": "Halifax International Airport, Oldham, Nova Scotia, Halifax, Canada", 
+        "sw_longitude": -63.535, 
+        "fullname": "Halifax International Airport, Oldham, Nova Scotia, Canada", 
         "alias_FRE_S": [
           "Aeroport International de Halifax"
         ], 
-        "sw_latitude": 44.863, 
+        "date_indexed": "2010-12-02T10:23:54Z", 
         "alias_FRE_Q": [
           "A\u00e9roport International de Halifax"
         ]

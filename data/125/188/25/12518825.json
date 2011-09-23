@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518825, 
+        "placetype": "airport", 
         "name": "Big Sandy Airport", 
-        "ne_latitude": 48.167, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12589088", 
+          "woe:state=2347585", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518825, 
         "ne_longitude": -110.106, 
         "longitude": -110.113, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589088, 
+        "ne_latitude": 48.167, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:15Z", 
-        "parent_woeid": 2364108, 
+        "sw_latitude": 48.158, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.162, 
         "sw_longitude": -110.119, 
-        "fullname": "Big Sandy Airport, Big Sandy, Montana, Chouteau, United States", 
-        "sw_latitude": 48.158
+        "fullname": "Big Sandy Airport, Big Sandy, Montana, United States", 
+        "date_indexed": "2010-12-02T18:39:15Z"
       }, 
       "id": 12518825
     }

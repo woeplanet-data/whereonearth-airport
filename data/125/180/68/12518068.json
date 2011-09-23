@@ -3,28 +3,46 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -0.627, 
-              52.064
-            ], 
-            [
-              -0.627, 
-              52.073
-            ], 
-            [
-              -0.612, 
-              52.073
-            ], 
-            [
-              -0.612, 
-              52.064
-            ], 
-            [
-              -0.627, 
-              52.064
+              [
+                -0.627, 
+                52.068
+              ], 
+              [
+                -0.628, 
+                52.068
+              ], 
+              [
+                -0.627, 
+                52.071
+              ], 
+              [
+                -0.625, 
+                52.072
+              ], 
+              [
+                -0.623, 
+                52.074
+              ], 
+              [
+                -0.618, 
+                52.073
+              ], 
+              [
+                -0.623, 
+                52.071
+              ], 
+              [
+                -0.624, 
+                52.066
+              ], 
+              [
+                -0.627, 
+                52.068
+              ]
             ]
           ]
         ]
@@ -32,23 +50,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518068, 
-        "name": "Cranfield Airport", 
         "alias_ENG_V": [
           "GTC"
         ], 
-        "ne_latitude": 52.073, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -0.612, 
-        "longitude": -0.619, 
-        "placetype": "Airport", 
+        "name": "Cranfield Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=12695875", 
+          "woe:county=12602163", 
+          "woe:state=24554868", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518068, 
+        "ne_longitude": -0.618, 
+        "longitude": -0.624, 
+        "parent_woeid": 12695875, 
+        "ne_latitude": 52.074, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:20:54Z", 
-        "parent_woeid": 40089, 
-        "latitude": 52.069, 
-        "sw_longitude": -0.627, 
-        "fullname": "Cranfield Airport, Wharley End, England, Bedfordshire, United Kingdom", 
-        "sw_latitude": 52.064
+        "sw_latitude": 52.066, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 52.070, 
+        "sw_longitude": -0.628, 
+        "fullname": "Cranfield Airport, Wharley End, England, United Kingdom", 
+        "iata_code": "GTC", 
+        "date_indexed": "2010-12-02T12:20:54Z"
       }, 
       "id": 12518068
     }

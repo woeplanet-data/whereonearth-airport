@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518764, 
-        "name": "Bear Lake County Airport", 
         "alias_ENG_V": [
           "1u7"
         ], 
-        "ne_latitude": 42.257, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Bear Lake County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588037", 
+          "woe:state=2347571", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518764, 
         "ne_longitude": -111.326, 
         "longitude": -111.337, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588037, 
+        "ne_latitude": 42.257, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2514200, 
+        "sw_latitude": 42.236, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.253, 
         "sw_longitude": -111.355, 
-        "fullname": "Bear Lake County Airport, Wardboro, Idaho, Bear Lake, United States", 
-        "sw_latitude": 42.236
+        "fullname": "Bear Lake County Airport, Wardboro, Idaho, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518764
     }

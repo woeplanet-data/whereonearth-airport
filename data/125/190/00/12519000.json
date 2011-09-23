@@ -3,28 +3,110 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -117.698, 
-              34.107
-            ], 
-            [
-              -117.698, 
-              34.122
-            ], 
-            [
-              -117.681, 
-              34.122
-            ], 
-            [
-              -117.681, 
-              34.107
-            ], 
-            [
-              -117.698, 
-              34.107
+              [
+                -117.686, 
+                34.112
+              ], 
+              [
+                -117.684, 
+                34.113
+              ], 
+              [
+                -117.682, 
+                34.114
+              ], 
+              [
+                -117.681, 
+                34.114
+              ], 
+              [
+                -117.681, 
+                34.111
+              ], 
+              [
+                -117.681, 
+                34.110
+              ], 
+              [
+                -117.681, 
+                34.110
+              ], 
+              [
+                -117.678, 
+                34.106
+              ], 
+              [
+                -117.681, 
+                34.107
+              ], 
+              [
+                -117.683, 
+                34.106
+              ], 
+              [
+                -117.686, 
+                34.107
+              ], 
+              [
+                -117.688, 
+                34.107
+              ], 
+              [
+                -117.690, 
+                34.103
+              ], 
+              [
+                -117.690, 
+                34.099
+              ], 
+              [
+                -117.690, 
+                34.099
+              ], 
+              [
+                -117.690, 
+                34.103
+              ], 
+              [
+                -117.690, 
+                34.108
+              ], 
+              [
+                -117.694, 
+                34.109
+              ], 
+              [
+                -117.698, 
+                34.107
+              ], 
+              [
+                -117.700, 
+                34.107
+              ], 
+              [
+                -117.697, 
+                34.110
+              ], 
+              [
+                -117.694, 
+                34.109
+              ], 
+              [
+                -117.689, 
+                34.111
+              ], 
+              [
+                -117.688, 
+                34.111
+              ], 
+              [
+                -117.686, 
+                34.112
+              ]
             ]
           ]
         ]
@@ -32,23 +114,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519000, 
-        "name": "Cable Airport", 
         "alias_ENG_V": [
           "CCB"
         ], 
-        "ne_latitude": 34.122, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -117.681, 
-        "longitude": -117.684, 
-        "placetype": "Airport", 
+        "name": "Cable Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587705", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519000, 
+        "ne_longitude": -117.678, 
+        "longitude": -117.687, 
+        "parent_woeid": 12587705, 
+        "ne_latitude": 34.114, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2510215, 
-        "latitude": 34.111, 
-        "sw_longitude": -117.698, 
-        "fullname": "Cable Airport, Upland, California, San Bernardino, United States", 
-        "sw_latitude": 34.107
+        "sw_latitude": 34.099, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 34.109, 
+        "sw_longitude": -117.700, 
+        "fullname": "Cable Airport, Upland, California, United States", 
+        "iata_code": "CCB", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519000
     }

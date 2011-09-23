@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512049, 
+        "placetype": "airport", 
         "name": "Fuxin Airport", 
-        "ne_latitude": 42.072, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12686770", 
+          "woe:county=26198072", 
+          "woe:state=12578008", 
+          "woe:country=23424781", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512049, 
         "ne_longitude": 121.728, 
         "longitude": 121.722, 
-        "placetype": "Airport", 
+        "parent_woeid": 12686770, 
+        "ne_latitude": 42.072, 
         "iso": "CN", 
-        "date_indexed": "2010-12-02T08:51:48Z", 
-        "parent_woeid": 2148033, 
+        "sw_latitude": 42.063, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.068, 
         "sw_longitude": 121.716, 
-        "fullname": "Fuxin Airport, Fuxin Town, Liaoning, Fuxin, China", 
-        "sw_latitude": 42.063
+        "fullname": "Fuxin Airport, Fuxin Town, Liaoning, China", 
+        "date_indexed": "2010-12-02T08:51:48Z"
       }, 
       "id": 12512049
     }

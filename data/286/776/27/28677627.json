@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 28677627, 
+        "placetype": "airport", 
         "name": "Iffley Aerodrome", 
-        "ne_latitude": -18.890, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55864340", 
+          "woe:state=2344702", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 28677627, 
         "ne_longitude": 141.212, 
         "longitude": 141.207, 
-        "placetype": "Airport", 
+        "parent_woeid": 55864340, 
+        "ne_latitude": -18.890, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 28585061, 
+        "sw_latitude": -18.899, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -18.894, 
         "sw_longitude": 141.202, 
-        "fullname": "Iffley Aerodrome, Fielding, Queensland, Carpentaria Shire, Australia", 
-        "sw_latitude": -18.899
+        "fullname": "Iffley Aerodrome, Fielding, Queensland, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 28677627
     }

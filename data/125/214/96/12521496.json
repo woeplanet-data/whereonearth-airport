@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521496, 
-        "name": "Pullman-Moscow Regional Airport", 
         "alias_ENG_V": [
           "Pullman-Moscow Airport"
         ], 
-        "ne_latitude": 46.749, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Pullman-Moscow Regional Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590477", 
+          "woe:state=2347606", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521496, 
         "ne_longitude": -117.094, 
         "longitude": -117.119, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590477, 
+        "ne_latitude": 46.749, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2477224, 
+        "sw_latitude": 46.739, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.743, 
         "sw_longitude": -117.127, 
-        "fullname": "Pullman-Moscow Regional Airport, Pullman, Washington, Whitman, United States", 
-        "sw_latitude": 46.739
+        "fullname": "Pullman-Moscow Regional Airport, Pullman, Washington, United States", 
+        "iata_code": "PUW", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521496
     }

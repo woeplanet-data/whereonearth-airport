@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521225, 
-        "name": "Ona Airpark", 
         "alias_ENG_V": [
           "12v"
         ], 
-        "ne_latitude": 38.445, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Ona Airpark", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590484", 
+          "woe:state=2347607", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521225, 
         "ne_longitude": -82.195, 
         "longitude": -82.199, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590484, 
+        "ne_latitude": 38.445, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2524606, 
+        "sw_latitude": 38.437, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.442, 
         "sw_longitude": -82.208, 
-        "fullname": "Ona Airpark, Yates Crossing, West Virginia, Cabell, United States", 
-        "sw_latitude": 38.437
+        "fullname": "Ona Airpark, Yates Crossing, West Virginia, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521225
     }

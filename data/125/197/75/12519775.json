@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519775, 
-        "name": "Fort Dodge Regional Airport", 
         "alias_ENG_V": [
           "Ft Dodge Regional Airport"
         ], 
-        "ne_latitude": 42.558, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Fort Dodge Regional Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588365", 
+          "woe:state=2347574", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519775, 
         "ne_longitude": -94.178, 
         "longitude": -94.182, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588365, 
+        "ne_latitude": 42.558, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2405667, 
+        "sw_latitude": 42.543, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.552, 
         "sw_longitude": -94.215, 
-        "fullname": "Fort Dodge Regional Airport, Fort Dodge, Iowa, Webster, United States", 
-        "sw_latitude": 42.543
+        "fullname": "Fort Dodge Regional Airport, Fort Dodge, Iowa, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12519775
     }

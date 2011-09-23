@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516180, 
+        "placetype": "airport", 
         "name": "Kizhevatovo Airport", 
-        "ne_latitude": 53.264, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598992", 
+          "woe:state=2346918", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516180, 
         "ne_longitude": 45.283, 
         "longitude": 45.276, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598992, 
+        "ne_latitude": 53.264, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 1997463, 
+        "sw_latitude": 53.255, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.259, 
         "sw_longitude": 45.268, 
         "fullname": "Kizhevatovo Airport, Penzenskaya Oblast, Bessonovsky, Russia", 
-        "sw_latitude": 53.255
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516180
     }

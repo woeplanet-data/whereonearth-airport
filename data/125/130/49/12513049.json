@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513049, 
+        "placetype": "airport", 
         "name": "Bischofswerda Airport", 
-        "ne_latitude": 51.118, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12636305", 
+          "woe:county=12596844", 
+          "woe:state=2345493", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513049, 
         "ne_longitude": 14.186, 
         "longitude": 14.179, 
-        "placetype": "Airport", 
+        "parent_woeid": 12636305, 
+        "ne_latitude": 51.118, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:24Z", 
-        "parent_woeid": 639253, 
+        "sw_latitude": 51.109, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 51.113, 
         "sw_longitude": 14.172, 
-        "fullname": "Bischofswerda Airport, Bischofswerda, Saxony, Landkreis Bautzen, Germany", 
+        "fullname": "Bischofswerda Airport, Bischofswerda, Saxony, Germany", 
         "alias_GER_Q": [
           "Flughafen Bischofswerda"
         ], 
-        "sw_latitude": 51.109
+        "date_indexed": "2010-12-02T09:50:24Z"
       }, 
       "id": 12513049
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388566, 
-        "name": "Hoonah Airport", 
         "alias_ENG_V": [
           "HNH Airport"
         ], 
-        "ne_latitude": 58.101, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Hoonah Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55999797", 
+          "woe:state=2347560", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388566, 
         "ne_longitude": -135.401, 
         "longitude": -135.410, 
-        "placetype": "Airport", 
+        "parent_woeid": 55999797, 
+        "ne_latitude": 58.101, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2424068, 
+        "sw_latitude": 58.092, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 58.096, 
         "sw_longitude": -135.419, 
-        "fullname": "Hoonah Airport, Hoonah, Alaska, Hoonah-Angoon Census Area, United States", 
-        "sw_latitude": 58.092
+        "fullname": "Hoonah Airport, Hoonah, Alaska, United States", 
+        "iata_code": "HNH", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 29388566
     }

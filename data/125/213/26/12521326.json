@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521326, 
-        "name": "Pella Municipal Airport", 
         "alias_ENG_V": [
           "PEA"
         ], 
-        "ne_latitude": 41.407, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Pella Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588334", 
+          "woe:state=2347574", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521326, 
         "ne_longitude": -92.943, 
         "longitude": -92.945, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588334, 
+        "ne_latitude": 41.407, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2470042, 
+        "sw_latitude": 41.394, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.405, 
         "sw_longitude": -92.949, 
-        "fullname": "Pella Municipal Airport, Pella, Iowa, Marion, United States", 
-        "sw_latitude": 41.394
+        "fullname": "Pella Municipal Airport, Pella, Iowa, United States", 
+        "iata_code": "PEA", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521326
     }

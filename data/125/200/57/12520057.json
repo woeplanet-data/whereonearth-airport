@@ -3,28 +3,30 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -122.511, 
-              37.505
-            ], 
-            [
-              -122.511, 
-              37.523
-            ], 
-            [
-              -122.487, 
-              37.523
-            ], 
-            [
-              -122.487, 
-              37.505
-            ], 
-            [
-              -122.511, 
-              37.505
+              [
+                -122.498, 
+                37.515
+              ], 
+              [
+                -122.497, 
+                37.516
+              ], 
+              [
+                -122.496, 
+                37.514
+              ], 
+              [
+                -122.499, 
+                37.514
+              ], 
+              [
+                -122.498, 
+                37.515
+              ]
             ]
           ]
         ]
@@ -32,23 +34,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520057, 
-        "name": "Half Moon Bay Airport", 
         "alias_ENG_V": [
           "HAF"
         ], 
-        "ne_latitude": 37.523, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -122.487, 
-        "longitude": -122.494, 
-        "placetype": "Airport", 
+        "name": "Half Moon Bay Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587710", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520057, 
+        "ne_longitude": -122.496, 
+        "longitude": -122.497, 
+        "parent_woeid": 12587710, 
+        "ne_latitude": 37.516, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2490275, 
-        "latitude": 37.514, 
-        "sw_longitude": -122.511, 
-        "fullname": "Half Moon Bay Airport, Seal Cove, California, San Mateo, United States", 
-        "sw_latitude": 37.505
+        "sw_latitude": 37.514, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 37.515, 
+        "sw_longitude": -122.499, 
+        "fullname": "Half Moon Bay Airport, Seal Cove, California, United States", 
+        "iata_code": "HAF", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520057
     }

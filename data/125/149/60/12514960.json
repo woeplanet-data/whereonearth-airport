@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514960, 
+        "placetype": "airport", 
         "name": "San Luis Rio Colorado Airport", 
-        "ne_latitude": 32.450, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12601600", 
+          "woe:state=2346289", 
+          "woe:country=23424900", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514960, 
         "ne_longitude": -114.793, 
         "longitude": -114.798, 
-        "placetype": "Airport", 
+        "parent_woeid": 12601600, 
+        "ne_latitude": 32.450, 
         "iso": "MX", 
-        "date_indexed": "2010-12-02T16:57:55Z", 
-        "parent_woeid": 144266, 
+        "sw_latitude": 32.441, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 32.446, 
         "sw_longitude": -114.804, 
-        "fullname": "San Luis Rio Colorado Airport, S. Luis Rio Colorado, Sonora, San Luis Rio Colorado, Mexico", 
-        "sw_latitude": 32.441
+        "fullname": "San Luis Rio Colorado Airport, S. Luis Rio Colorado, Sonora, Mexico", 
+        "date_indexed": "2010-12-02T16:57:55Z"
       }, 
       "id": 12514960
     }

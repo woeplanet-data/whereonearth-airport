@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520667, 
-        "name": "Litchfield Municipal Airport", 
         "alias_ENG_V": [
           "LJF"
         ], 
-        "ne_latitude": 39.171, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Litchfield Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588145", 
+          "woe:state=2347572", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520667, 
         "ne_longitude": -89.664, 
         "longitude": -89.670, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588145, 
+        "ne_latitude": 39.171, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2440044, 
+        "sw_latitude": 39.162, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 39.166, 
         "sw_longitude": -89.676, 
-        "fullname": "Litchfield Municipal Airport, Litchfield, Illinois, Montgomery, United States", 
-        "sw_latitude": 39.162
+        "fullname": "Litchfield Municipal Airport, Litchfield, Illinois, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12520667
     }

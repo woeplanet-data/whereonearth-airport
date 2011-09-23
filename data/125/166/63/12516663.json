@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516663, 
+        "placetype": "airport", 
         "name": "Pavlovskiy Airport", 
-        "ne_latitude": 52.114, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598935", 
+          "woe:state=2346916", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516663, 
         "ne_longitude": 60.063, 
         "longitude": 60.055, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598935, 
+        "ne_latitude": 52.114, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2063524, 
+        "sw_latitude": 52.104, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 52.109, 
         "sw_longitude": 60.048, 
         "fullname": "Pavlovskiy Airport, Orenburgskaya Oblast, Kvarkensky, Russia", 
-        "sw_latitude": 52.104
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516663
     }

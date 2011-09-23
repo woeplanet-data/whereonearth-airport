@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512392, 
-        "name": "Los Garzones Airport", 
         "alias_ENG_V": [
           "MTR"
         ], 
-        "ne_latitude": 8.835, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Los Garzones Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26797021", 
+          "woe:state=2345058", 
+          "woe:country=23424787", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512392, 
         "ne_longitude": -75.820, 
         "longitude": -75.825, 
-        "placetype": "Airport", 
+        "parent_woeid": 26797021, 
+        "ne_latitude": 8.835, 
         "iso": "CO", 
-        "date_indexed": "2010-12-02T17:57:37Z", 
-        "parent_woeid": 361583, 
+        "sw_latitude": 8.826, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 8.831, 
         "sw_longitude": -75.829, 
-        "fullname": "Los Garzones Airport, Los Garzones, Cordoba, Monteria, Colombia", 
-        "sw_latitude": 8.826
+        "fullname": "Los Garzones Airport, Los Garzones, Cordoba, Colombia", 
+        "iata_code": "MTR", 
+        "date_indexed": "2010-12-02T17:57:37Z"
       }, 
       "id": 12512392
     }

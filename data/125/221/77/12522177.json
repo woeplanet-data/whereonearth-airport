@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522177, 
+        "placetype": "airport", 
         "name": "Transwestern Pipeline Nr 3 Airport", 
-        "ne_latitude": 35.305, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12587582", 
+          "woe:state=2347561", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522177, 
         "ne_longitude": -110.828, 
         "longitude": -110.833, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587582, 
+        "ne_latitude": 35.305, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2438587, 
+        "sw_latitude": 35.295, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.300, 
         "sw_longitude": -110.839, 
-        "fullname": "Transwestern Pipeline Nr 3 Airport, Leupp, Arizona, Coconino, United States", 
-        "sw_latitude": 35.295
+        "fullname": "Transwestern Pipeline Nr 3 Airport, Leupp, Arizona, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12522177
     }

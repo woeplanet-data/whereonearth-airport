@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521762, 
-        "name": "Schenck Field Airport", 
         "alias_ENG_V": [
           "Clarinda Municipal Airport"
         ], 
-        "ne_latitude": 40.728, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Schenck Field Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588344", 
+          "woe:state=2347574", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521762, 
         "ne_longitude": -95.022, 
         "longitude": -95.029, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588344, 
+        "ne_latitude": 40.728, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2380675, 
+        "sw_latitude": 40.717, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.723, 
         "sw_longitude": -95.031, 
-        "fullname": "Schenck Field Airport, Clarinda, Iowa, Page, United States", 
-        "sw_latitude": 40.717
+        "fullname": "Schenck Field Airport, Clarinda, Iowa, United States", 
+        "iata_code": "ICL", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521762
     }

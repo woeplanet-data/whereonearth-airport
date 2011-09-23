@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516741, 
+        "placetype": "airport", 
         "name": "Privonaya Airport", 
-        "ne_latitude": 46.990, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599149", 
+          "woe:state=2346921", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516741, 
         "ne_longitude": 41.201, 
         "longitude": 41.195, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599149, 
+        "ne_latitude": 46.990, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2121667, 
+        "sw_latitude": 46.981, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.986, 
         "sw_longitude": 41.188, 
         "fullname": "Privonaya Airport, Rostovskaya Oblast, Veselovsky, Russia", 
-        "sw_latitude": 46.981
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516741
     }

@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514498, 
+        "placetype": "airport", 
         "name": "Tyuratam 1 Airport", 
-        "ne_latitude": 45.634, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345990", 
+          "woe:country=23424871", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514498, 
         "ne_longitude": 63.205, 
         "longitude": 63.199, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345990, 
+        "ne_latitude": 45.634, 
         "iso": "KZ", 
-        "date_indexed": "2010-12-02T08:54:13Z", 
-        "parent_woeid": 2264978, 
+        "sw_latitude": 45.624, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.629, 
         "sw_longitude": 63.192, 
         "fullname": "Tyuratam 1 Airport, Qyzylorda, Kazakhstan", 
-        "sw_latitude": 45.624
+        "date_indexed": "2010-12-02T08:54:13Z"
       }, 
       "id": 12514498
     }

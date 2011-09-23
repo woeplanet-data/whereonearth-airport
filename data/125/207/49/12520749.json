@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520749, 
-        "name": "Madison Lac Qui Parle County Airport", 
         "alias_ENG_V": [
           "DXX Airport"
         ], 
-        "ne_latitude": 44.992, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Madison Lac Qui Parle County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588833", 
+          "woe:state=2347582", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520749, 
         "ne_longitude": -96.170, 
         "longitude": -96.183, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588833, 
+        "ne_latitude": 44.992, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2443950, 
+        "sw_latitude": 44.982, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.985, 
         "sw_longitude": -96.184, 
-        "fullname": "Madison Lac Qui Parle County Airport, Madison, Minnesota, Lac Qui Parle, United States", 
-        "sw_latitude": 44.982
+        "fullname": "Madison Lac Qui Parle County Airport, Madison, Minnesota, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520749
     }

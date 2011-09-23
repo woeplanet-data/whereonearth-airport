@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513434, 
+        "placetype": "airport", 
         "name": "Taszar Airport", 
-        "ne_latitude": 46.394, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12596292", 
+          "woe:state=12577924", 
+          "woe:country=23424844", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513434, 
         "ne_longitude": 17.917, 
         "longitude": 17.911, 
-        "placetype": "Airport", 
+        "parent_woeid": 12596292, 
+        "ne_latitude": 46.394, 
         "iso": "HU", 
-        "date_indexed": "2010-12-02T09:56:22Z", 
-        "parent_woeid": 816295, 
+        "sw_latitude": 46.385, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.389, 
         "sw_longitude": 17.904, 
-        "fullname": "Taszar Airport, Tazar, Somogy, Tasz\u00e1r, Hungary", 
-        "sw_latitude": 46.385
+        "fullname": "Taszar Airport, Tazar, Somogy, Hungary", 
+        "date_indexed": "2010-12-02T09:56:22Z"
       }, 
       "id": 12513434
     }

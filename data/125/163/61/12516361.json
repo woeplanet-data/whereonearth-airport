@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516361, 
+        "placetype": "airport", 
         "name": "Lopanka Airport", 
-        "ne_latitude": 46.404, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599145", 
+          "woe:state=2346921", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516361, 
         "ne_longitude": 41.078, 
         "longitude": 41.071, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599145, 
+        "ne_latitude": 46.404, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2121972, 
+        "sw_latitude": 46.395, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.399, 
         "sw_longitude": 41.065, 
         "fullname": "Lopanka Airport, Rostovskaya Oblast, Tselinsky, Russia", 
-        "sw_latitude": 46.395
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516361
     }

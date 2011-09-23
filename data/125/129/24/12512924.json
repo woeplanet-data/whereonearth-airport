@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512924, 
+        "placetype": "airport", 
         "name": "Les Pujols Airport", 
-        "ne_latitude": 43.093, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12665486", 
+          "woe:county=12597197", 
+          "woe:state=7153323", 
+          "woe:country=23424819", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512924, 
         "ne_longitude": 1.711, 
         "longitude": 1.699, 
-        "placetype": "Airport", 
+        "parent_woeid": 12665486, 
+        "ne_latitude": 43.093, 
         "iso": "FR", 
-        "date_indexed": "2010-12-02T12:04:01Z", 
-        "parent_woeid": 607242, 
+        "sw_latitude": 43.088, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.091, 
         "sw_longitude": 1.689, 
-        "fullname": "Les Pujols Airport, Les Pujols, Midi-Pyrenees, Ariege, France", 
-        "sw_latitude": 43.088
+        "fullname": "Les Pujols Airport, Les Pujols, Midi-Pyrenees, France", 
+        "date_indexed": "2010-12-02T12:04:01Z"
       }, 
       "id": 12512924
     }

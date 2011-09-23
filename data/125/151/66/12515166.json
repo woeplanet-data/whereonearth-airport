@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515166, 
-        "name": "Frankton Airport", 
         "alias_ENG_V": [
           "ZQN Airport"
         ], 
-        "ne_latitude": -45.017, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Frankton Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55875858", 
+          "woe:state=15021754", 
+          "woe:country=23424916", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515166, 
         "ne_longitude": 168.743, 
         "longitude": 168.737, 
-        "placetype": "Airport", 
+        "parent_woeid": 55875858, 
+        "ne_latitude": -45.017, 
         "iso": "NZ", 
-        "date_indexed": "2010-12-02T17:02:39Z", 
-        "parent_woeid": 2348560, 
+        "sw_latitude": -45.026, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -45.022, 
         "sw_longitude": 168.730, 
-        "fullname": "Frankton Airport, Frankton, Otago, Queenstown Lakes District, New Zealand", 
-        "sw_latitude": -45.026
+        "fullname": "Frankton Airport, Frankton, Otago, New Zealand", 
+        "date_indexed": "2010-12-02T17:02:39Z"
       }, 
       "id": 12515166
     }

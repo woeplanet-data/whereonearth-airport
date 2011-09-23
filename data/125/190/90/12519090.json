@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519090, 
+        "placetype": "airport", 
         "name": "Cascade Airport", 
-        "ne_latitude": 48.115, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12590470", 
+          "woe:state=2347606", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519090, 
         "ne_longitude": -122.054, 
         "longitude": -122.061, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590470, 
+        "ne_latitude": 48.115, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:15Z", 
-        "parent_woeid": 2494156, 
+        "sw_latitude": 48.106, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.111, 
         "sw_longitude": -122.068, 
-        "fullname": "Cascade Airport, Sisco Heights, Washington, Snohomish, United States", 
-        "sw_latitude": 48.106
+        "fullname": "Cascade Airport, Sisco Heights, Washington, United States", 
+        "date_indexed": "2010-12-02T18:39:15Z"
       }, 
       "id": 12519090
     }

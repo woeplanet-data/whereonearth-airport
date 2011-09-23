@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511626, 
-        "name": "Cornwall Regional Airport", 
         "alias_ENG_V": [
           "YCC Airport"
         ], 
-        "ne_latitude": 45.097, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Cornwall Regional Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375251", 
+          "woe:state=2344922", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511626, 
         "ne_longitude": -74.558, 
         "longitude": -74.560, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375251, 
+        "ne_latitude": 45.097, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 23399237, 
+        "sw_latitude": 45.090, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.092, 
         "sw_longitude": -74.576, 
-        "fullname": "Cornwall Regional Airport, Summerstown, Ontario, Stormont Dundas and Glengarry, Canada", 
-        "sw_latitude": 45.090
+        "fullname": "Cornwall Regional Airport, Summerstown, Ontario, Canada", 
+        "iata_code": "YCC", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12511626
     }

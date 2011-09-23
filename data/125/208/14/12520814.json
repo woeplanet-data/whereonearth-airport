@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520814, 
+        "placetype": "airport", 
         "name": "Mars Landing Strip", 
-        "ne_latitude": 41.217, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12589604", 
+          "woe:state=2347594", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520814, 
         "ne_longitude": -80.961, 
         "longitude": -80.967, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589604, 
+        "ne_latitude": 41.217, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2459681, 
+        "sw_latitude": 41.208, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.213, 
         "sw_longitude": -80.974, 
-        "fullname": "Mars Landing Strip, Newton Falls, Ohio, Trumbull, United States", 
-        "sw_latitude": 41.208
+        "fullname": "Mars Landing Strip, Newton Falls, Ohio, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12520814
     }

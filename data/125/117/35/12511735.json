@@ -3,28 +3,66 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -81.169, 
-              43.020
-            ], 
-            [
-              -81.169, 
-              43.045
-            ], 
-            [
-              -81.136, 
-              43.045
-            ], 
-            [
-              -81.136, 
-              43.020
-            ], 
-            [
-              -81.169, 
-              43.020
+              [
+                -81.149, 
+                43.029
+              ], 
+              [
+                -81.148, 
+                43.028
+              ], 
+              [
+                -81.146, 
+                43.025
+              ], 
+              [
+                -81.149, 
+                43.028
+              ], 
+              [
+                -81.150, 
+                43.028
+              ], 
+              [
+                -81.151, 
+                43.029
+              ], 
+              [
+                -81.152, 
+                43.030
+              ], 
+              [
+                -81.153, 
+                43.034
+              ], 
+              [
+                -81.158, 
+                43.035
+              ], 
+              [
+                -81.152, 
+                43.036
+              ], 
+              [
+                -81.151, 
+                43.035
+              ], 
+              [
+                -81.150, 
+                43.033
+              ], 
+              [
+                -81.149, 
+                43.032
+              ], 
+              [
+                -81.149, 
+                43.029
+              ]
             ]
           ]
         ]
@@ -32,23 +70,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511735, 
-        "name": "London International Airport", 
         "alias_ENG_V": [
           "YXU Airport"
         ], 
-        "ne_latitude": 43.045, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -81.136, 
-        "longitude": -81.150, 
-        "placetype": "Airport", 
+        "name": "London International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375211", 
+          "woe:state=2344922", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511735, 
+        "ne_longitude": -81.146, 
+        "longitude": -81.151, 
+        "parent_woeid": 29375211, 
+        "ne_latitude": 43.036, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:24:00Z", 
-        "parent_woeid": 23396996, 
-        "latitude": 43.028, 
-        "sw_longitude": -81.169, 
-        "fullname": "London International Airport, Thorndale, Ontario, Middlesex, Canada", 
-        "sw_latitude": 43.020
+        "sw_latitude": 43.025, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 43.032, 
+        "sw_longitude": -81.158, 
+        "fullname": "London International Airport, Thorndale, Ontario, Canada", 
+        "date_indexed": "2010-12-02T10:24:00Z"
       }, 
       "id": 12511735
     }

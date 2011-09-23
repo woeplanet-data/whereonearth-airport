@@ -3,28 +3,134 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -80.171, 
-              26.181
-            ], 
-            [
-              -80.171, 
-              26.196
-            ], 
-            [
-              -80.153, 
-              26.196
-            ], 
-            [
-              -80.153, 
-              26.181
-            ], 
-            [
-              -80.171, 
-              26.181
+              [
+                -80.155, 
+                26.199
+              ], 
+              [
+                -80.152, 
+                26.200
+              ], 
+              [
+                -80.151, 
+                26.200
+              ], 
+              [
+                -80.150, 
+                26.199
+              ], 
+              [
+                -80.150, 
+                26.197
+              ], 
+              [
+                -80.151, 
+                26.196
+              ], 
+              [
+                -80.152, 
+                26.193
+              ], 
+              [
+                -80.153, 
+                26.192
+              ], 
+              [
+                -80.157, 
+                26.189
+              ], 
+              [
+                -80.160, 
+                26.190
+              ], 
+              [
+                -80.161, 
+                26.193
+              ], 
+              [
+                -80.156, 
+                26.196
+              ], 
+              [
+                -80.153, 
+                26.192
+              ], 
+              [
+                -80.155, 
+                26.188
+              ], 
+              [
+                -80.154, 
+                26.185
+              ], 
+              [
+                -80.156, 
+                26.188
+              ], 
+              [
+                -80.158, 
+                26.188
+              ], 
+              [
+                -80.161, 
+                26.187
+              ], 
+              [
+                -80.165, 
+                26.183
+              ], 
+              [
+                -80.166, 
+                26.187
+              ], 
+              [
+                -80.170, 
+                26.187
+              ], 
+              [
+                -80.170, 
+                26.191
+              ], 
+              [
+                -80.170, 
+                26.196
+              ], 
+              [
+                -80.168, 
+                26.194
+              ], 
+              [
+                -80.167, 
+                26.188
+              ], 
+              [
+                -80.164, 
+                26.188
+              ], 
+              [
+                -80.161, 
+                26.193
+              ], 
+              [
+                -80.162, 
+                26.194
+              ], 
+              [
+                -80.161, 
+                26.196
+              ], 
+              [
+                -80.159, 
+                26.196
+              ], 
+              [
+                -80.155, 
+                26.199
+              ]
             ]
           ]
         ]
@@ -32,23 +138,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519776, 
-        "name": "Fort Lauderdale Executive Airport", 
         "alias_ENG_V": [
           "Ft Lauderdale Executive"
         ], 
-        "ne_latitude": 26.196, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -80.153, 
-        "longitude": -80.162, 
-        "placetype": "Airport", 
+        "name": "Fort Lauderdale Executive Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587808", 
+          "woe:state=2347568", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519776, 
+        "ne_longitude": -80.150, 
+        "longitude": -80.159, 
+        "parent_woeid": 12587808, 
+        "ne_latitude": 26.200, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2503822, 
-        "latitude": 26.188, 
-        "sw_longitude": -80.171, 
-        "fullname": "Fort Lauderdale Executive Airport, Tamarac, Florida, Broward, United States", 
-        "sw_latitude": 26.181
+        "sw_latitude": 26.183, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 26.192, 
+        "sw_longitude": -80.170, 
+        "fullname": "Fort Lauderdale Executive Airport, Tamarac, Florida, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12519776
     }

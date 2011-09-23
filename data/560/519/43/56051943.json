@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 56051943, 
+        "placetype": "airport", 
         "name": "Segelflugplatz Erlach/flintsbach", 
-        "ne_latitude": 47.724, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12635765", 
+          "woe:county=12596730", 
+          "woe:state=2345482", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56051943, 
         "ne_longitude": 12.118, 
         "longitude": 12.111, 
-        "placetype": "Airport", 
+        "parent_woeid": 12635765, 
+        "ne_latitude": 47.724, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 15002622, 
+        "sw_latitude": 47.720, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.723, 
         "sw_longitude": 12.107, 
-        "fullname": "Segelflugplatz Erlach/flintsbach, Flintsbach, Bavaria, Landkreis Rosenheim, Germany", 
-        "sw_latitude": 47.720
+        "fullname": "Segelflugplatz Erlach/flintsbach, Flintsbach, Bavaria, Germany", 
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 56051943
     }

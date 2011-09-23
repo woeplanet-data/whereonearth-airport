@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512478, 
-        "name": "Nueva Gerona Airport", 
         "alias_ENG_V": [
           "GER"
         ], 
-        "ne_latitude": 21.842, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Nueva Gerona Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2345109", 
+          "woe:country=23424793", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512478, 
         "ne_longitude": -82.775, 
         "longitude": -82.780, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345109, 
+        "ne_latitude": 21.842, 
         "iso": "CU", 
-        "date_indexed": "2010-12-02T08:58:58Z", 
-        "parent_woeid": 65725, 
+        "sw_latitude": 21.833, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 21.837, 
         "sw_longitude": -82.785, 
         "fullname": "Nueva Gerona Airport, Nueva Gerona, Isla de la Juventud, Cuba", 
-        "sw_latitude": 21.833
+        "iata_code": "GER", 
+        "date_indexed": "2010-12-02T08:58:58Z"
       }, 
       "id": 12512478
     }

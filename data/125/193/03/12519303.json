@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519303, 
-        "name": "Concordia Parish Airport", 
         "alias_ENG_V": [
           "0r4"
         ], 
-        "ne_latitude": 31.569, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Concordia Parish Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588610", 
+          "woe:state=2347577", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519303, 
         "ne_longitude": -91.505, 
         "longitude": -91.508, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588610, 
+        "ne_latitude": 31.569, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:15Z", 
-        "parent_woeid": 2452184, 
+        "sw_latitude": 31.565, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 31.567, 
         "sw_longitude": -91.510, 
-        "fullname": "Concordia Parish Airport, Minorca, Louisiana, Concordia Parish, United States", 
-        "sw_latitude": 31.565
+        "fullname": "Concordia Parish Airport, Minorca, Louisiana, United States", 
+        "date_indexed": "2010-12-02T18:39:15Z"
       }, 
       "id": 12519303
     }

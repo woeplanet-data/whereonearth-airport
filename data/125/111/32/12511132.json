@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511132, 
+        "placetype": "airport", 
         "name": "Aeroporto Fazenda Fortaleza", 
         "alias_ENG_P": [
           "Fazenda Fortaleza Airport"
         ], 
-        "ne_latitude": -23.321, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12582172", 
+          "woe:state=2344868", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511132, 
         "ne_longitude": -48.812, 
         "longitude": -48.817, 
-        "placetype": "Airport", 
+        "parent_woeid": 12582172, 
+        "ne_latitude": -23.321, 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 442817, 
+        "sw_latitude": -23.330, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -23.326, 
         "sw_longitude": -48.822, 
-        "fullname": "Aeroporto Fazenda Fortaleza, Paranapanema, Sao Paulo, Paranapanema, Brazil", 
-        "sw_latitude": -23.330
+        "fullname": "Aeroporto Fazenda Fortaleza, Paranapanema, Sao Paulo, Brazil", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511132
     }

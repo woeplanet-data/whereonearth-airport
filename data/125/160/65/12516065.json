@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516065, 
+        "placetype": "airport", 
         "name": "Kalininskiy Airport", 
-        "ne_latitude": 52.516, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598113", 
+          "woe:state=2346893", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516065, 
         "ne_longitude": 59.687, 
         "longitude": 59.680, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598113, 
+        "ne_latitude": 52.516, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2121130, 
+        "sw_latitude": 52.507, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 52.512, 
         "sw_longitude": 59.672, 
         "fullname": "Kalininskiy Airport, Chelyabinskaya Oblast, Bredinsky, Russia", 
-        "sw_latitude": 52.507
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516065
     }

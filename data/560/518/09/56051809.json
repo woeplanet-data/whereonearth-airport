@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "FRE", 
-        "woeid": 56051809, 
+        "placetype": "airport", 
         "name": "A\u00e9rodrome de Morestel", 
-        "ne_latitude": 45.690, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12667270", 
+          "woe:county=12597188", 
+          "woe:state=7153329", 
+          "woe:country=23424819", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56051809, 
         "ne_longitude": 5.457, 
         "longitude": 5.455, 
-        "placetype": "Airport", 
+        "parent_woeid": 12667270, 
+        "ne_latitude": 45.690, 
         "iso": "FR", 
-        "date_indexed": "2010-12-02T12:04:01Z", 
-        "parent_woeid": 613220, 
+        "sw_latitude": 45.683, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.683, 
         "sw_longitude": 5.448, 
-        "fullname": "A\u00e9rodrome de Morestel, Morestel, Rhone-Alpes, Isere, France", 
+        "fullname": "A\u00e9rodrome de Morestel, Morestel, Rhone-Alpes, France", 
         "alias_FRE_S": [
           "Aerodrome de Morestel"
         ], 
-        "sw_latitude": 45.683
+        "date_indexed": "2010-12-02T12:04:01Z"
       }, 
       "id": 56051809
     }

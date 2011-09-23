@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521621, 
-        "name": "Robinson Army Airfield", 
         "alias_ENG_V": [
           "Robinson Army Air Field"
         ], 
-        "ne_latitude": 34.850, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Robinson Army Airfield", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587654", 
+          "woe:state=2347562", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521621, 
         "ne_longitude": -92.295, 
         "longitude": -92.299, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587654, 
+        "ne_latitude": 34.850, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 28337698, 
+        "sw_latitude": 34.845, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 34.847, 
         "sw_longitude": -92.302, 
-        "fullname": "Robinson Army Airfield, Camp Robinson, Arkansas, Pulaski, United States", 
-        "sw_latitude": 34.845
+        "fullname": "Robinson Army Airfield, Camp Robinson, Arkansas, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521621
     }

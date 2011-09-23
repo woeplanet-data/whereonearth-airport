@@ -3,28 +3,42 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -125.785, 
-              49.072
-            ], 
-            [
-              -125.785, 
-              49.091
-            ], 
-            [
-              -125.757, 
-              49.091
-            ], 
-            [
-              -125.757, 
-              49.072
-            ], 
-            [
-              -125.785, 
-              49.072
+              [
+                -125.766, 
+                49.072
+              ], 
+              [
+                -125.766, 
+                49.072
+              ], 
+              [
+                -125.771, 
+                49.076
+              ], 
+              [
+                -125.767, 
+                49.078
+              ], 
+              [
+                -125.767, 
+                49.078
+              ], 
+              [
+                -125.765, 
+                49.075
+              ], 
+              [
+                -125.764, 
+                49.072
+              ], 
+              [
+                -125.766, 
+                49.072
+              ]
             ]
           ]
         ]
@@ -32,23 +46,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511879, 
-        "name": "Tofino Airport", 
         "alias_ENG_V": [
           "YAZ Airport"
         ], 
-        "ne_latitude": 49.091, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -125.757, 
-        "longitude": -125.769, 
-        "placetype": "Airport", 
+        "name": "Tofino Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375188", 
+          "woe:state=2344916", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511879, 
+        "ne_longitude": -125.764, 
+        "longitude": -125.767, 
+        "parent_woeid": 29375188, 
+        "ne_latitude": 49.078, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:24:00Z", 
-        "parent_woeid": 29373465, 
-        "latitude": 49.080, 
-        "sw_longitude": -125.785, 
-        "fullname": "Tofino Airport, Esowista Indian Reserve 3, British Columbia, Alberni-Clayoquot, Canada", 
-        "sw_latitude": 49.072
+        "sw_latitude": 49.072, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 49.075, 
+        "sw_longitude": -125.771, 
+        "fullname": "Tofino Airport, Esowista Indian Reserve 3, British Columbia, Canada", 
+        "iata_code": "YAZ", 
+        "date_indexed": "2010-12-02T10:24:00Z"
       }, 
       "id": 12511879
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520686, 
+        "placetype": "airport", 
         "name": "Logan County Airport", 
-        "ne_latitude": 40.165, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12588131", 
+          "woe:state=2347572", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520686, 
         "ne_longitude": -89.330, 
         "longitude": -89.338, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588131, 
+        "ne_latitude": 40.165, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2439474, 
+        "sw_latitude": 40.152, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.165, 
         "sw_longitude": -89.342, 
-        "fullname": "Logan County Airport, Lincoln, Illinois, Logan, United States", 
-        "sw_latitude": 40.152
+        "fullname": "Logan County Airport, Lincoln, Illinois, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520686
     }

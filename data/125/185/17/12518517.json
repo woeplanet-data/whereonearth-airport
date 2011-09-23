@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518517, 
-        "name": "Abilene Municipal Airport", 
         "alias_ENG_V": [
           "K78"
         ], 
-        "ne_latitude": 38.912, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Abilene Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588391", 
+          "woe:state=2347575", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518517, 
         "ne_longitude": -97.233, 
         "longitude": -97.234, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588391, 
+        "ne_latitude": 38.912, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2351597, 
+        "sw_latitude": 38.896, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.907, 
         "sw_longitude": -97.242, 
-        "fullname": "Abilene Municipal Airport, Abilene, Kansas, Dickinson, United States", 
-        "sw_latitude": 38.896
+        "fullname": "Abilene Municipal Airport, Abilene, Kansas, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518517
     }

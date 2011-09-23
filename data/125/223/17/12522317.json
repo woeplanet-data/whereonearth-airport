@@ -3,28 +3,66 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -118.306, 
-              46.082
-            ], 
-            [
-              -118.306, 
-              46.108
-            ], 
-            [
-              -118.251, 
-              46.108
-            ], 
-            [
-              -118.251, 
-              46.082
-            ], 
-            [
-              -118.306, 
-              46.082
+              [
+                -118.297, 
+                46.079
+              ], 
+              [
+                -118.302, 
+                46.085
+              ], 
+              [
+                -118.299, 
+                46.079
+              ], 
+              [
+                -118.298, 
+                46.079
+              ], 
+              [
+                -118.297, 
+                46.079
+              ], 
+              [
+                -118.285, 
+                46.082
+              ], 
+              [
+                -118.284, 
+                46.087
+              ], 
+              [
+                -118.281, 
+                46.091
+              ], 
+              [
+                -118.273, 
+                46.094
+              ], 
+              [
+                -118.269, 
+                46.084
+              ], 
+              [
+                -118.274, 
+                46.082
+              ], 
+              [
+                -118.283, 
+                46.076
+              ], 
+              [
+                -118.297, 
+                46.079
+              ], 
+              [
+                -118.297, 
+                46.079
+              ]
             ]
           ]
         ]
@@ -32,23 +70,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522317, 
-        "name": "Walla Walla Regional Airport", 
         "alias_ENG_V": [
           "Walla Walla Airport"
         ], 
-        "ne_latitude": 46.108, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -118.251, 
-        "longitude": -118.284, 
-        "placetype": "Airport", 
+        "name": "Walla Walla Regional Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590475", 
+          "woe:state=2347606", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522317, 
+        "ne_longitude": -118.269, 
+        "longitude": -118.279, 
+        "parent_woeid": 12590475, 
+        "ne_latitude": 46.094, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2513583, 
-        "latitude": 46.087, 
-        "sw_longitude": -118.306, 
-        "fullname": "Walla Walla Regional Airport, Walla Walla, Washington, Walla Walla, United States", 
-        "sw_latitude": 46.082
+        "sw_latitude": 46.076, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 46.084, 
+        "sw_longitude": -118.302, 
+        "fullname": "Walla Walla Regional Airport, Walla Walla, Washington, United States", 
+        "iata_code": "ALW", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522317
     }

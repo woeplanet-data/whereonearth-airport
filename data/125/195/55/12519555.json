@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519555, 
-        "name": "Dyersburg Municipal Airport", 
         "alias_ENG_V": [
           "Dyr"
         ], 
-        "ne_latitude": 36.004, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Dyersburg Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589934", 
+          "woe:state=2347601", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519555, 
         "ne_longitude": -89.396, 
         "longitude": -89.401, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589934, 
+        "ne_latitude": 36.004, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:15Z", 
-        "parent_woeid": 2394932, 
+        "sw_latitude": 35.996, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.000, 
         "sw_longitude": -89.406, 
-        "fullname": "Dyersburg Municipal Airport, Dyersburg, Tennessee, Dyer, United States", 
-        "sw_latitude": 35.996
+        "fullname": "Dyersburg Municipal Airport, Dyersburg, Tennessee, United States", 
+        "date_indexed": "2010-12-02T18:39:15Z"
       }, 
       "id": 12519555
     }

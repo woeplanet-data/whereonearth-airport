@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515155, 
-        "name": "Hamilton Airport", 
         "alias_ENG_V": [
           "HLZ Airport"
         ], 
-        "ne_latitude": -37.858, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Hamilton Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55875913", 
+          "woe:state=15021765", 
+          "woe:country=23424916", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515155, 
         "ne_longitude": 175.339, 
         "longitude": 175.328, 
-        "placetype": "Airport", 
+        "parent_woeid": 55875913, 
+        "ne_latitude": -37.858, 
         "iso": "NZ", 
-        "date_indexed": "2010-12-02T17:02:39Z", 
-        "parent_woeid": 2350492, 
+        "sw_latitude": -37.875, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -37.867, 
         "sw_longitude": 175.323, 
-        "fullname": "Hamilton Airport, Rukuhia, Waikato, Waipa District, New Zealand", 
-        "sw_latitude": -37.875
+        "fullname": "Hamilton Airport, Rukuhia, Waikato, New Zealand", 
+        "iata_code": "HLZ", 
+        "date_indexed": "2010-12-02T17:02:39Z"
       }, 
       "id": 12515155
     }

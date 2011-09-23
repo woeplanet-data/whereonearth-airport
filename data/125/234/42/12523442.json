@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12523442, 
-        "name": "Oban Heliport", 
         "alias_ENG_V": [
           "OHP"
         ], 
-        "ne_latitude": 56.418, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Oban Heliport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=12696185", 
+          "woe:county=12602207", 
+          "woe:state=12578048", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523442, 
         "ne_longitude": -5.462, 
         "longitude": -5.470, 
-        "placetype": "Airport", 
+        "parent_woeid": 12696185, 
+        "ne_latitude": 56.418, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:21:01Z", 
-        "parent_woeid": 30828, 
+        "sw_latitude": 56.408, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 56.413, 
         "sw_longitude": -5.478, 
-        "fullname": "Oban Heliport, Oban, Scotland, Strathclyde, United Kingdom", 
-        "sw_latitude": 56.408
+        "fullname": "Oban Heliport, Oban, Scotland, United Kingdom", 
+        "iata_code": "OHP", 
+        "date_indexed": "2010-12-02T12:21:01Z"
       }, 
       "id": 12523442
     }

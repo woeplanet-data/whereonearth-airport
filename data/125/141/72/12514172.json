@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514172, 
+        "placetype": "airport", 
         "name": "Sonchon Airport", 
-        "ne_latitude": 39.850, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345955", 
+          "woe:country=23424865", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514172, 
         "ne_longitude": 124.867, 
         "longitude": 124.861, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345955, 
+        "ne_latitude": 39.850, 
         "iso": "KP", 
-        "date_indexed": "2010-12-02T10:22:43Z", 
-        "parent_woeid": 1093957, 
+        "sw_latitude": 39.841, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 39.846, 
         "sw_longitude": 124.855, 
         "fullname": "Sonchon Airport, Sonch'on, P'yongan-bukto, North Korea", 
-        "sw_latitude": 39.841
+        "date_indexed": "2010-12-02T10:22:43Z"
       }, 
       "id": 12514172
     }

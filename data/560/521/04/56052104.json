@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 56052104, 
+        "placetype": "airport", 
         "name": "Flugplatz Damme", 
-        "ne_latitude": 52.491, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12630042", 
+          "woe:county=12596881", 
+          "woe:state=2345486", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56052104, 
         "ne_longitude": 8.192, 
         "longitude": 8.183, 
-        "placetype": "Airport", 
+        "parent_woeid": 12630042, 
+        "ne_latitude": 52.491, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 643653, 
+        "sw_latitude": 52.486, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 52.490, 
         "sw_longitude": 8.177, 
-        "fullname": "Flugplatz Damme, Damme, Lower Saxony, Landkreis Vechta, Germany", 
-        "sw_latitude": 52.486
+        "fullname": "Flugplatz Damme, Damme, Lower Saxony, Germany", 
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 56052104
     }

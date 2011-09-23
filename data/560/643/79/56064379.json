@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 56064379, 
-        "name": "Hubli Airport", 
         "alias_ENG_V": [
           "HBX"
         ], 
-        "ne_latitude": 15.371, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Hubli Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12586580", 
+          "woe:state=2345753", 
+          "woe:country=23424848", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56064379, 
         "ne_longitude": 75.094, 
         "longitude": 75.085, 
-        "placetype": "Airport", 
+        "parent_woeid": 12586580, 
+        "ne_latitude": 15.371, 
         "iso": "IN", 
-        "date_indexed": "2010-12-02T09:26:27Z", 
-        "parent_woeid": 2295417, 
+        "sw_latitude": 15.353, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 15.362, 
         "sw_longitude": 75.075, 
-        "fullname": "Hubli Airport, Hubli-Dharwad, Karnataka, Dharwad, India", 
-        "sw_latitude": 15.353
+        "fullname": "Hubli Airport, Hubli-Dharwad, Karnataka, India", 
+        "date_indexed": "2010-12-02T09:26:27Z"
       }, 
       "id": 56064379
     }

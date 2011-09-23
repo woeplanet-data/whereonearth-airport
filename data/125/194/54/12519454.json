@@ -3,28 +3,30 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -119.242, 
-              35.732
-            ], 
-            [
-              -119.242, 
-              35.754
-            ], 
-            [
-              -119.223, 
-              35.754
-            ], 
-            [
-              -119.223, 
-              35.732
-            ], 
-            [
-              -119.242, 
-              35.732
+              [
+                -119.238, 
+                35.744
+              ], 
+              [
+                -119.238, 
+                35.744
+              ], 
+              [
+                -119.237, 
+                35.743
+              ], 
+              [
+                -119.237, 
+                35.742
+              ], 
+              [
+                -119.238, 
+                35.744
+              ]
             ]
           ]
         ]
@@ -32,23 +34,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519454, 
-        "name": "Delano Municipal Airport", 
         "alias_ENG_V": [
           "DLO"
         ], 
-        "ne_latitude": 35.754, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -119.223, 
-        "longitude": -119.239, 
-        "placetype": "Airport", 
+        "name": "Delano Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587684", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519454, 
+        "ne_longitude": -119.237, 
+        "longitude": -119.238, 
+        "parent_woeid": 12587684, 
+        "ne_latitude": 35.744, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2390746, 
-        "latitude": 35.745, 
-        "sw_longitude": -119.242, 
-        "fullname": "Delano Municipal Airport, Delano, California, Kern, United States", 
-        "sw_latitude": 35.732
+        "sw_latitude": 35.742, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 35.743, 
+        "sw_longitude": -119.238, 
+        "fullname": "Delano Municipal Airport, Delano, California, United States", 
+        "iata_code": "DLO", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519454
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514926, 
+        "placetype": "airport", 
         "name": "Nuevo Dolores Airport", 
-        "ne_latitude": 24.066, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12601632", 
+          "woe:state=2346291", 
+          "woe:country=23424900", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514926, 
         "ne_longitude": -98.411, 
         "longitude": -98.416, 
-        "placetype": "Airport", 
+        "parent_woeid": 12601632, 
+        "ne_latitude": 24.066, 
         "iso": "MX", 
-        "date_indexed": "2010-12-02T16:57:55Z", 
-        "parent_woeid": 110910, 
+        "sw_latitude": 24.057, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 24.061, 
         "sw_longitude": -98.421, 
-        "fullname": "Nuevo Dolores Airport, Abasolo, Tamaulipas, Abasolo, Mexico", 
-        "sw_latitude": 24.057
+        "fullname": "Nuevo Dolores Airport, Abasolo, Tamaulipas, Mexico", 
+        "date_indexed": "2010-12-02T16:57:55Z"
       }, 
       "id": 12514926
     }

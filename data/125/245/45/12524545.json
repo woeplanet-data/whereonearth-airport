@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524545, 
-        "name": "Moyobamba Airport", 
         "alias_ENG_V": [
           "MBP"
         ], 
-        "ne_latitude": -5.970, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Moyobamba Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26805894", 
+          "woe:state=2346489", 
+          "woe:country=23424919", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524545, 
         "ne_longitude": -77.012, 
         "longitude": -77.017, 
-        "placetype": "Airport", 
+        "parent_woeid": 26805894, 
+        "ne_latitude": -5.970, 
         "iso": "PE", 
-        "date_indexed": "2010-12-02T16:12:16Z", 
-        "parent_woeid": 409250, 
+        "sw_latitude": -5.980, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -5.975, 
         "sw_longitude": -77.021, 
-        "fullname": "Moyobamba Airport, Moyobamba, San Martin, Moyobamba, Peru", 
-        "sw_latitude": -5.980
+        "fullname": "Moyobamba Airport, Moyobamba, San Martin, Peru", 
+        "iata_code": "MBP", 
+        "date_indexed": "2010-12-02T16:12:16Z"
       }, 
       "id": 12524545
     }

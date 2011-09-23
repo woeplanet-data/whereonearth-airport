@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513430, 
+        "placetype": "airport", 
         "name": "Szolnok Airport", 
-        "ne_latitude": 47.165, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12593402", 
+          "woe:state=56043638", 
+          "woe:country=23424844", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513430, 
         "ne_longitude": 20.199, 
         "longitude": 20.192, 
-        "placetype": "Airport", 
+        "parent_woeid": 12593402, 
+        "ne_latitude": 47.165, 
         "iso": "HU", 
-        "date_indexed": "2010-12-02T09:56:22Z", 
-        "parent_woeid": 816011, 
+        "sw_latitude": 47.156, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.160, 
         "sw_longitude": 20.186, 
-        "fullname": "Szolnok Airport, Szolnok, Szolnok, Szolnok, Hungary", 
-        "sw_latitude": 47.156
+        "fullname": "Szolnok Airport, Szolnok, Szolnok, Hungary", 
+        "date_indexed": "2010-12-02T09:56:22Z"
       }, 
       "id": 12513430
     }

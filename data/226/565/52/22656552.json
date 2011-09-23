@@ -3,28 +3,30 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -2.166, 
-              50.962
-            ], 
-            [
-              -2.166, 
-              50.971
-            ], 
-            [
-              -2.151, 
-              50.971
-            ], 
-            [
-              -2.151, 
-              50.962
-            ], 
-            [
-              -2.166, 
-              50.962
+              [
+                -2.152, 
+                50.968
+              ], 
+              [
+                -2.152, 
+                50.969
+              ], 
+              [
+                -2.151, 
+                50.968
+              ], 
+              [
+                -2.151, 
+                50.968
+              ], 
+              [
+                -2.152, 
+                50.968
+              ]
             ]
           ]
         ]
@@ -32,20 +34,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 22656552, 
+        "placetype": "airport", 
         "name": "Compton Abbas Airfield", 
-        "ne_latitude": 50.971, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12695924", 
+          "woe:county=12602183", 
+          "woe:state=24554868", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 22656552, 
         "ne_longitude": -2.151, 
-        "longitude": -2.159, 
-        "placetype": "Airport", 
+        "longitude": -2.152, 
+        "parent_woeid": 12695924, 
+        "ne_latitude": 50.969, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:21:01Z", 
-        "parent_woeid": 19050, 
-        "latitude": 50.967, 
-        "sw_longitude": -2.166, 
-        "fullname": "Compton Abbas Airfield, East Melbury, England, Dorset, United Kingdom", 
-        "sw_latitude": 50.962
+        "sw_latitude": 50.968, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 50.968, 
+        "sw_longitude": -2.152, 
+        "fullname": "Compton Abbas Airfield, East Melbury, England, United Kingdom", 
+        "date_indexed": "2010-12-02T12:21:01Z"
       }, 
       "id": 22656552
     }

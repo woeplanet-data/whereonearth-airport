@@ -3,28 +3,58 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -117.724, 
-              33.663
-            ], 
-            [
-              -117.724, 
-              33.672
-            ], 
-            [
-              -117.713, 
-              33.672
-            ], 
-            [
-              -117.713, 
-              33.663
-            ], 
-            [
-              -117.724, 
-              33.663
+              [
+                -117.733, 
+                33.665
+              ], 
+              [
+                -117.730, 
+                33.660
+              ], 
+              [
+                -117.727, 
+                33.661
+              ], 
+              [
+                -117.729, 
+                33.659
+              ], 
+              [
+                -117.730, 
+                33.659
+              ], 
+              [
+                -117.734, 
+                33.660
+              ], 
+              [
+                -117.738, 
+                33.664
+              ], 
+              [
+                -117.736, 
+                33.668
+              ], 
+              [
+                -117.735, 
+                33.670
+              ], 
+              [
+                -117.732, 
+                33.670
+              ], 
+              [
+                -117.732, 
+                33.666
+              ], 
+              [
+                -117.733, 
+                33.665
+              ]
             ]
           ]
         ]
@@ -32,20 +62,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519611, 
+        "placetype": "airport", 
         "name": "El Toro Marine Corps Air Station", 
-        "ne_latitude": 33.672, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -117.713, 
-        "longitude": -117.718, 
-        "placetype": "Airport", 
-        "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:16Z", 
+        "hierarchy": [
+          "woe:suburb=55859717", 
+          "woe:county=12587699", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519611, 
+        "ne_longitude": -117.727, 
+        "longitude": -117.734, 
         "parent_woeid": 55859717, 
-        "latitude": 33.667, 
-        "sw_longitude": -117.724, 
-        "fullname": "El Toro Marine Corps Air Station, Irvine, California, Orange, United States", 
-        "sw_latitude": 33.663
+        "ne_latitude": 33.670, 
+        "iso": "US", 
+        "sw_latitude": 33.659, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 33.664, 
+        "sw_longitude": -117.738, 
+        "fullname": "El Toro Marine Corps Air Station, Irvine, California, United States", 
+        "date_indexed": "2010-12-02T18:39:16Z"
       }, 
       "id": 12519611
     }

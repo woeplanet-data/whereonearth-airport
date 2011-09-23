@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518980, 
-        "name": "Burlington Municipal Airport", 
         "alias_ENG_V": [
           "Southeast Iowa Regional Airport"
         ], 
-        "ne_latitude": 40.792, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Burlington Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588300", 
+          "woe:state=2347574", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518980, 
         "ne_longitude": -91.117, 
         "longitude": -91.120, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588300, 
+        "ne_latitude": 40.792, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2372070, 
+        "sw_latitude": 40.770, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.782, 
         "sw_longitude": -91.138, 
-        "fullname": "Burlington Municipal Airport, Burlington, Iowa, Des Moines, United States", 
-        "sw_latitude": 40.770
+        "fullname": "Burlington Municipal Airport, Burlington, Iowa, United States", 
+        "iata_code": "BRL", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518980
     }

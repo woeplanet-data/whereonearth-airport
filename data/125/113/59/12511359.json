@@ -32,29 +32,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511359, 
-        "name": "Aeroporto Ernesto Geisel", 
-        "alias_ENG_P": [
-          "Ernesto Geisel Airport"
-        ], 
-        "ne_latitude": -23.794, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "UMU"
         ], 
+        "name": "Aeroporto Ernesto Geisel", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Ernesto Geisel Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12580717", 
+          "woe:state=2344859", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511359, 
         "ne_longitude": -53.308, 
         "longitude": -53.313, 
-        "placetype": "Airport", 
+        "parent_woeid": 12580717, 
+        "ne_latitude": -23.794, 
         "alias_POR_V": [
           "Aeroporto UMU"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:28Z", 
-        "parent_woeid": 455918, 
+        "sw_latitude": -23.803, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -23.798, 
         "sw_longitude": -53.318, 
-        "fullname": "Aeroporto Ernesto Geisel, Umuarama, Parana, Umuarama, Brazil", 
-        "sw_latitude": -23.803
+        "fullname": "Aeroporto Ernesto Geisel, Umuarama, Parana, Brazil", 
+        "iata_code": "UMU", 
+        "date_indexed": "2010-12-02T18:01:28Z"
       }, 
       "id": 12511359
     }

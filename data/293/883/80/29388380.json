@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388380, 
-        "name": "Hamburg Airport", 
         "alias_ENG_V": [
           "4g2"
         ], 
-        "ne_latitude": 42.705, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Hamburg Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589326", 
+          "woe:state=2347591", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388380, 
         "ne_longitude": -78.913, 
         "longitude": -78.914, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589326, 
+        "ne_latitude": 42.705, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2416511, 
+        "sw_latitude": 42.697, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.704, 
         "sw_longitude": -78.916, 
-        "fullname": "Hamburg Airport, Hamburg, New York, Erie, United States", 
-        "sw_latitude": 42.697
+        "fullname": "Hamburg Airport, Hamburg, New York, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388380
     }

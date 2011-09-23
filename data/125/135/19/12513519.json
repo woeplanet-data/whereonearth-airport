@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513519, 
-        "name": "Tembagapura Airport", 
         "alias_ENG_V": [
           "TIM"
         ], 
-        "ne_latitude": -4.530, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Tembagapura Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=56000201", 
+          "woe:state=2345718", 
+          "woe:country=23424846", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513519, 
         "ne_longitude": 136.893, 
         "longitude": 136.888, 
-        "placetype": "Airport", 
+        "parent_woeid": 56000201, 
+        "ne_latitude": -4.530, 
         "iso": "ID", 
-        "date_indexed": "2010-12-02T16:54:32Z", 
-        "parent_woeid": 1048949, 
+        "sw_latitude": -4.539, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -4.535, 
         "sw_longitude": 136.884, 
         "fullname": "Tembagapura Airport, Papua, Mimika, Indonesia", 
-        "sw_latitude": -4.539
+        "date_indexed": "2010-12-02T16:54:32Z"
       }, 
       "id": 12513519
     }

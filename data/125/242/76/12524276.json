@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524276, 
-        "name": "Salluit Airport", 
         "alias_ENG_V": [
           "YZG Airport"
         ], 
-        "ne_latitude": 62.190, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Salluit Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375254", 
+          "woe:state=2344924", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524276, 
         "ne_longitude": -75.659, 
         "longitude": -75.668, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375254, 
+        "ne_latitude": 62.190, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 23394711, 
+        "sw_latitude": 62.181, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 62.185, 
         "sw_longitude": -75.678, 
-        "fullname": "Salluit Airport, Salluit, Quebec, Kativik, Canada", 
-        "sw_latitude": 62.181
+        "fullname": "Salluit Airport, Salluit, Quebec, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12524276
     }

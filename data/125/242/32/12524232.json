@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524232, 
-        "name": "Telegraph Creek Aerodrome", 
         "alias_ENG_V": [
           "YTX Airport"
         ], 
-        "ne_latitude": 57.921, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Telegraph Creek Aerodrome", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29375209", 
+          "woe:state=2344916", 
+          "woe:country=23424775", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524232, 
         "ne_longitude": -131.158, 
         "longitude": -131.167, 
-        "placetype": "Airport", 
+        "parent_woeid": 29375209, 
+        "ne_latitude": 57.921, 
         "iso": "CA", 
-        "date_indexed": "2010-12-02T10:23:54Z", 
-        "parent_woeid": 9304, 
+        "sw_latitude": 57.912, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 57.917, 
         "sw_longitude": -131.176, 
-        "fullname": "Telegraph Creek Aerodrome, Telegraph Creek, British Columbia, Kitimat-Stikine, Canada", 
-        "sw_latitude": 57.912
+        "fullname": "Telegraph Creek Aerodrome, Telegraph Creek, British Columbia, Canada", 
+        "date_indexed": "2010-12-02T10:23:54Z"
       }, 
       "id": 12524232
     }

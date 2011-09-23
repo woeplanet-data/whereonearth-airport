@@ -32,29 +32,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511185, 
-        "name": "Aeroporto Itaituba", 
-        "alias_ENG_P": [
-          "Itaituba Airport"
-        ], 
-        "ne_latitude": -4.237, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "ITB"
         ], 
+        "name": "Aeroporto Itaituba", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Itaituba Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12580168", 
+          "woe:state=2344857", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511185, 
         "ne_longitude": -55.996, 
         "longitude": -56.000, 
-        "placetype": "Airport", 
+        "parent_woeid": 12580168, 
+        "ne_latitude": -4.237, 
         "alias_POR_V": [
           "Aeroporto ITB"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 460271, 
+        "sw_latitude": -4.246, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -4.242, 
         "sw_longitude": -56.005, 
-        "fullname": "Aeroporto Itaituba, Nova Vida, Para, Itaituba, Brazil", 
-        "sw_latitude": -4.246
+        "fullname": "Aeroporto Itaituba, Nova Vida, Para, Brazil", 
+        "iata_code": "ITB", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511185
     }

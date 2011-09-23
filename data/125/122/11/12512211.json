@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512211, 
+        "placetype": "airport", 
         "name": "Tianzhu Airport", 
-        "ne_latitude": 26.912, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12686726", 
+          "woe:county=26198359", 
+          "woe:state=12578007", 
+          "woe:country=23424781", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512211, 
         "ne_longitude": 109.176, 
         "longitude": 109.171, 
-        "placetype": "Airport", 
+        "parent_woeid": 12686726, 
+        "ne_latitude": 26.912, 
         "iso": "CN", 
-        "date_indexed": "2010-12-02T08:51:54Z", 
-        "parent_woeid": 2146763, 
+        "sw_latitude": 26.903, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 26.908, 
         "sw_longitude": 109.166, 
-        "fullname": "Tianzhu Airport, Tianzhu, Guizhou, Qiandongnan Miaozu Dongzu, China", 
-        "sw_latitude": 26.903
+        "fullname": "Tianzhu Airport, Tianzhu, Guizhou, China", 
+        "date_indexed": "2010-12-02T08:51:54Z"
       }, 
       "id": 12512211
     }

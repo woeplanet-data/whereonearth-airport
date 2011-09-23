@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516224, 
+        "placetype": "airport", 
         "name": "Korliki Airport", 
-        "ne_latitude": 61.549, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599464", 
+          "woe:state=20070526", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516224, 
         "ne_longitude": 82.377, 
         "longitude": 82.368, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599464, 
+        "ne_latitude": 61.549, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2025854, 
+        "sw_latitude": 61.540, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 61.545, 
         "sw_longitude": 82.358, 
         "fullname": "Korliki Airport, Khanty-Mansiyskiy Avtonomnyy Okrug, Nizhnevartovsky, Russia", 
-        "sw_latitude": 61.540
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516224
     }

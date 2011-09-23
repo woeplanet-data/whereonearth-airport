@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524528, 
-        "name": "Bemichi Airport", 
         "alias_ENG_V": [
           "BCG"
         ], 
-        "ne_latitude": 7.705, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Bemichi Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2345603", 
+          "woe:country=23424836", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524528, 
         "ne_longitude": -59.162, 
         "longitude": -59.167, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345603, 
+        "ne_latitude": 7.705, 
         "iso": "GY", 
-        "date_indexed": "2010-12-02T16:33:25Z", 
-        "parent_woeid": 376802, 
+        "sw_latitude": 7.695, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 7.700, 
         "sw_longitude": -59.171, 
         "fullname": "Bemichi Airport, Baramanni, Barima-Waini, Guyana", 
-        "sw_latitude": 7.695
+        "iata_code": "BCG", 
+        "date_indexed": "2010-12-02T16:33:25Z"
       }, 
       "id": 12524528
     }

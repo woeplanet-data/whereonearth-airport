@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511475, 
+        "placetype": "airport", 
         "name": "Novi Pazar North Airport", 
-        "ne_latitude": 43.380, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55873880", 
+          "woe:state=20070052", 
+          "woe:country=23424771", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511475, 
         "ne_longitude": 27.177, 
         "longitude": 27.171, 
-        "placetype": "Airport", 
+        "parent_woeid": 55873880, 
+        "ne_latitude": 43.380, 
         "iso": "BG", 
-        "date_indexed": "2010-12-02T16:14:37Z", 
-        "parent_woeid": 838800, 
+        "sw_latitude": 43.371, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.375, 
         "sw_longitude": 27.164, 
-        "fullname": "Novi Pazar North Airport, Pliska, Shumen, Novi Pazar, Bulgaria", 
-        "sw_latitude": 43.371
+        "fullname": "Novi Pazar North Airport, Pliska, Shumen, Bulgaria", 
+        "date_indexed": "2010-12-02T16:14:37Z"
       }, 
       "id": 12511475
     }

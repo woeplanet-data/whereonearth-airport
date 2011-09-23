@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 56051968, 
+        "placetype": "airport", 
         "name": "Flugplatz Rothenburg Ob Der Tauber", 
-        "ne_latitude": 49.393, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12634422", 
+          "woe:county=12596809", 
+          "woe:state=2345482", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56051968, 
         "ne_longitude": 10.223, 
         "longitude": 10.218, 
-        "placetype": "Airport", 
+        "parent_woeid": 12634422, 
+        "ne_latitude": 49.393, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 689932, 
+        "sw_latitude": 49.384, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.389, 
         "sw_longitude": 10.213, 
-        "fullname": "Flugplatz Rothenburg Ob Der Tauber, Rothenburg ob der Tauber, Bavaria, Landkreis Ansbach, Germany", 
-        "sw_latitude": 49.384
+        "fullname": "Flugplatz Rothenburg Ob Der Tauber, Rothenburg ob der Tauber, Bavaria, Germany", 
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 56051968
     }

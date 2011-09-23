@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518670, 
-        "name": "Ashe County Airport", 
         "alias_ENG_V": [
           "Gev"
         ], 
-        "ne_latitude": 36.433, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Ashe County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589378", 
+          "woe:state=2347592", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518670, 
         "ne_longitude": -81.412, 
         "longitude": -81.425, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589378, 
+        "ne_latitude": 36.433, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 28339374, 
+        "sw_latitude": 36.430, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.431, 
         "sw_longitude": -81.429, 
-        "fullname": "Ashe County Airport, Theta, North Carolina, Ashe, United States", 
-        "sw_latitude": 36.430
+        "fullname": "Ashe County Airport, Theta, North Carolina, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518670
     }

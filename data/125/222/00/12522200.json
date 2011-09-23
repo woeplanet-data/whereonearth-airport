@@ -3,28 +3,138 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -79.955, 
-              36.081
-            ], 
-            [
-              -79.955, 
-              36.123
-            ], 
-            [
-              -79.910, 
-              36.123
-            ], 
-            [
-              -79.910, 
-              36.081
-            ], 
-            [
-              -79.955, 
-              36.081
+              [
+                -79.936, 
+                36.105
+              ], 
+              [
+                -79.937, 
+                36.105
+              ], 
+              [
+                -79.942, 
+                36.109
+              ], 
+              [
+                -79.942, 
+                36.109
+              ], 
+              [
+                -79.943, 
+                36.107
+              ], 
+              [
+                -79.943, 
+                36.106
+              ], 
+              [
+                -79.944, 
+                36.105
+              ], 
+              [
+                -79.940, 
+                36.103
+              ], 
+              [
+                -79.940, 
+                36.100
+              ], 
+              [
+                -79.936, 
+                36.103
+              ], 
+              [
+                -79.935, 
+                36.102
+              ], 
+              [
+                -79.933, 
+                36.104
+              ], 
+              [
+                -79.934, 
+                36.104
+              ], 
+              [
+                -79.935, 
+                36.107
+              ], 
+              [
+                -79.935, 
+                36.111
+              ], 
+              [
+                -79.932, 
+                36.112
+              ], 
+              [
+                -79.931, 
+                36.111
+              ], 
+              [
+                -79.931, 
+                36.110
+              ], 
+              [
+                -79.935, 
+                36.107
+              ], 
+              [
+                -79.934, 
+                36.104
+              ], 
+              [
+                -79.933, 
+                36.104
+              ], 
+              [
+                -79.935, 
+                36.102
+              ], 
+              [
+                -79.936, 
+                36.103
+              ], 
+              [
+                -79.940, 
+                36.100
+              ], 
+              [
+                -79.940, 
+                36.103
+              ], 
+              [
+                -79.944, 
+                36.105
+              ], 
+              [
+                -79.943, 
+                36.106
+              ], 
+              [
+                -79.943, 
+                36.107
+              ], 
+              [
+                -79.942, 
+                36.109
+              ], 
+              [
+                -79.942, 
+                36.109
+              ], 
+              [
+                -79.937, 
+                36.105
+              ], 
+              [
+                -79.936, 
+                36.105
+              ]
             ]
           ]
         ]
@@ -32,23 +142,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522200, 
-        "name": "Triad International Airport", 
         "alias_ENG_V": [
           "Triad"
         ], 
-        "ne_latitude": 36.123, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -79.910, 
-        "longitude": -79.943, 
-        "placetype": "Airport", 
+        "name": "Triad International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589414", 
+          "woe:state=2347592", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522200, 
+        "ne_longitude": -79.931, 
+        "longitude": -79.933, 
+        "parent_woeid": 12589414, 
+        "ne_latitude": 36.112, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2407678, 
-        "latitude": 36.104, 
-        "sw_longitude": -79.955, 
-        "fullname": "Triad International Airport, Friendship, North Carolina, Guilford, United States", 
-        "sw_latitude": 36.081
+        "sw_latitude": 36.100, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 36.110, 
+        "sw_longitude": -79.944, 
+        "fullname": "Triad International Airport, Friendship, North Carolina, United States", 
+        "iata_code": "GSO", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522200
     }

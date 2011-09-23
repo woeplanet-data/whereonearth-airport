@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 28677715, 
+        "placetype": "airport", 
         "name": "Balfour Landing Ground", 
-        "ne_latitude": -41.255, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55864272", 
+          "woe:state=2344704", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 28677715, 
         "ne_longitude": 144.892, 
         "longitude": 144.886, 
-        "placetype": "Airport", 
+        "parent_woeid": 55864272, 
+        "ne_latitude": -41.255, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1094200, 
+        "sw_latitude": -41.264, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -41.260, 
         "sw_longitude": 144.880, 
-        "fullname": "Balfour Landing Ground, Balfour, Tasmania, Circular Head, Australia", 
-        "sw_latitude": -41.264
+        "fullname": "Balfour Landing Ground, Balfour, Tasmania, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 28677715
     }

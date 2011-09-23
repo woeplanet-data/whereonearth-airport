@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522006, 
-        "name": "Sterling Airport", 
         "alias_ENG_V": [
           "SQI"
         ], 
-        "ne_latitude": 42.430, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Sterling Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588713", 
+          "woe:state=2347580", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522006, 
         "ne_longitude": -71.787, 
         "longitude": -71.797, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588713, 
+        "ne_latitude": 42.430, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2499628, 
+        "sw_latitude": 42.422, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.426, 
         "sw_longitude": -71.799, 
-        "fullname": "Sterling Airport, Sterling, Massachusetts, Worcester, United States", 
-        "sw_latitude": 42.422
+        "fullname": "Sterling Airport, Sterling, Massachusetts, United States", 
+        "iata_code": "SQI", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522006
     }

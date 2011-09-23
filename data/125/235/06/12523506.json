@@ -32,29 +32,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12523506, 
-        "name": "Aeroporto Brumado", 
-        "alias_ENG_P": [
-          "Brumado Airport"
-        ], 
-        "ne_latitude": -14.206, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "BMS"
         ], 
+        "name": "Aeroporto Brumado", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Brumado Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12578285", 
+          "woe:state=2344848", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523506, 
         "ne_longitude": -41.658, 
         "longitude": -41.663, 
-        "placetype": "Airport", 
+        "parent_woeid": 12578285, 
+        "ne_latitude": -14.206, 
         "alias_POR_V": [
           "Aeroporto BMS"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:28Z", 
-        "parent_woeid": 456094, 
+        "sw_latitude": -14.216, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -14.211, 
         "sw_longitude": -41.667, 
-        "fullname": "Aeroporto Brumado, Brumado, Bahia, Brumado, Brazil", 
-        "sw_latitude": -14.216
+        "fullname": "Aeroporto Brumado, Brumado, Bahia, Brazil", 
+        "iata_code": "BMS", 
+        "date_indexed": "2010-12-02T18:01:28Z"
       }, 
       "id": 12523506
     }

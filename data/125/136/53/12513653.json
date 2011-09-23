@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513653, 
-        "name": "Porbandar Airport", 
         "alias_ENG_V": [
           "PBD"
         ], 
-        "ne_latitude": 21.653, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Porbandar Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=28298848", 
+          "woe:state=2345743", 
+          "woe:country=23424848", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513653, 
         "ne_longitude": 69.662, 
         "longitude": 69.657, 
-        "placetype": "Airport", 
+        "parent_woeid": 28298848, 
+        "ne_latitude": 21.653, 
         "iso": "IN", 
-        "date_indexed": "2010-12-02T09:26:27Z", 
-        "parent_woeid": 2291646, 
+        "sw_latitude": 21.644, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 21.649, 
         "sw_longitude": 69.652, 
-        "fullname": "Porbandar Airport, Chhaya, Gujarat, Porbandar, India", 
-        "sw_latitude": 21.644
+        "fullname": "Porbandar Airport, Chhaya, Gujarat, India", 
+        "iata_code": "PBD", 
+        "date_indexed": "2010-12-02T09:26:27Z"
       }, 
       "id": 12513653
     }

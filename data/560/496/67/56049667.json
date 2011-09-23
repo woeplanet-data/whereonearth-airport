@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "SPA", 
-        "woeid": 56049667, 
+        "placetype": "airport", 
         "name": "Aeroclub Del Bages", 
-        "ne_latitude": 41.785, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12693569", 
+          "woe:county=12602124", 
+          "woe:state=12578034", 
+          "woe:country=23424950", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56049667, 
         "ne_longitude": 1.899, 
         "longitude": 1.890, 
-        "placetype": "Airport", 
+        "parent_woeid": 12693569, 
+        "ne_latitude": 41.785, 
         "iso": "ES", 
-        "date_indexed": "2010-12-02T17:38:37Z", 
-        "parent_woeid": 20226001, 
+        "sw_latitude": 41.772, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.779, 
         "sw_longitude": 1.881, 
-        "fullname": "Aeroclub Del Bages, Sallent, Catalonia, Barcelona, Spain", 
-        "sw_latitude": 41.772
+        "fullname": "Aeroclub Del Bages, Sallent, Catalonia, Spain", 
+        "date_indexed": "2010-12-02T17:38:37Z"
       }, 
       "id": 56049667
     }

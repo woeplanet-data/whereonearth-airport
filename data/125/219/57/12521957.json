@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521957, 
-        "name": "St Clair County International Airport", 
         "alias_ENG_V": [
           "St Clair International Airport"
         ], 
-        "ne_latitude": 42.920, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "St Clair County International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588790", 
+          "woe:state=2347581", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521957, 
         "ne_longitude": -82.513, 
         "longitude": -82.520, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588790, 
+        "ne_latitude": 42.920, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2446575, 
+        "sw_latitude": 42.901, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.910, 
         "sw_longitude": -82.541, 
-        "fullname": "St Clair County International Airport, Marysville, Michigan, St. Clair, United States", 
-        "sw_latitude": 42.901
+        "fullname": "St Clair County International Airport, Marysville, Michigan, United States", 
+        "iata_code": "PHN", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521957
     }

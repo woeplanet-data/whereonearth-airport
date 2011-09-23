@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521572, 
+        "placetype": "airport", 
         "name": "Rice Lake Municipal Airport", 
-        "ne_latitude": 45.487, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12590536", 
+          "woe:state=2347608", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521572, 
         "ne_longitude": -91.720, 
         "longitude": -91.723, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590536, 
+        "ne_latitude": 45.487, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2480634, 
+        "sw_latitude": 45.484, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.485, 
         "sw_longitude": -91.725, 
-        "fullname": "Rice Lake Municipal Airport, Rice Lake, Wisconsin, Barron, United States", 
-        "sw_latitude": 45.484
+        "fullname": "Rice Lake Municipal Airport, Rice Lake, Wisconsin, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521572
     }

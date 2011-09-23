@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519771, 
-        "name": "Fort Benton Airport", 
         "alias_ENG_V": [
           "Ft Benton Airport"
         ], 
-        "ne_latitude": 47.844, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Fort Benton Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589088", 
+          "woe:state=2347585", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519771, 
         "ne_longitude": -110.641, 
         "longitude": -110.648, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589088, 
+        "ne_latitude": 47.844, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2405596, 
+        "sw_latitude": 47.836, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 47.842, 
         "sw_longitude": -110.655, 
-        "fullname": "Fort Benton Airport, Fort Benton, Montana, Chouteau, United States", 
-        "sw_latitude": 47.836
+        "fullname": "Fort Benton Airport, Fort Benton, Montana, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12519771
     }

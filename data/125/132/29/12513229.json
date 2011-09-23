@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513229, 
+        "placetype": "airport", 
         "name": "Schohauserdamm Airport", 
-        "ne_latitude": 52.605, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12635892", 
+          "woe:county=12596875", 
+          "woe:state=2345494", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513229, 
         "ne_longitude": 12.126, 
         "longitude": 12.119, 
-        "placetype": "Airport", 
+        "parent_woeid": 12635892, 
+        "ne_latitude": 52.605, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 693078, 
+        "sw_latitude": 52.596, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 52.600, 
         "sw_longitude": 12.111, 
-        "fullname": "Schohauserdamm Airport, Sch\u00f6nhauser Damm, Saxony-Anhalt, Landkreis Stendal, Germany", 
+        "fullname": "Schohauserdamm Airport, Sch\u00f6nhauser Damm, Saxony-Anhalt, Germany", 
         "alias_GER_Q": [
           "Flughafen Schohauserdamm"
         ], 
-        "sw_latitude": 52.596
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 12513229
     }

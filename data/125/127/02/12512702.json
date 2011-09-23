@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512702, 
+        "placetype": "airport", 
         "name": "Quwaysina Airport", 
-        "ne_latitude": 30.588, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345231", 
+          "woe:country=23424802", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512702, 
         "ne_longitude": 31.137, 
         "longitude": 31.132, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345231, 
+        "ne_latitude": 30.588, 
         "iso": "EG", 
-        "date_indexed": "2010-12-02T12:16:51Z", 
-        "parent_woeid": 1526060, 
+        "sw_latitude": 30.579, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 30.583, 
         "sw_longitude": 31.127, 
         "fullname": "Quwaysina Airport, Al Minufiyah, Egypt", 
-        "sw_latitude": 30.579
+        "date_indexed": "2010-12-02T12:16:51Z"
       }, 
       "id": 12512702
     }

@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520824, 
-        "name": "Martin County Airport", 
         "alias_ENG_V": [
           "Mcz"
         ], 
-        "ne_latitude": 35.871, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Martin County Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589431", 
+          "woe:state=2347592", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520824, 
         "ne_longitude": -77.173, 
         "longitude": -77.181, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589431, 
+        "ne_latitude": 35.871, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2400855, 
+        "sw_latitude": 35.854, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.854, 
         "sw_longitude": -77.183, 
-        "fullname": "Martin County Airport, Everetts, North Carolina, Martin, United States", 
-        "sw_latitude": 35.854
+        "fullname": "Martin County Airport, Everetts, North Carolina, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520824
     }

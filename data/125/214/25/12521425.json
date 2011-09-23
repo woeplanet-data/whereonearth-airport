@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521425, 
-        "name": "Point Hope Airport", 
         "alias_ENG_V": [
           "PHO"
         ], 
-        "ne_latitude": 68.354, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Point Hope Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587570", 
+          "woe:state=2347560", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521425, 
         "ne_longitude": -166.784, 
         "longitude": -166.797, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587570, 
+        "ne_latitude": 68.354, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2474582, 
+        "sw_latitude": 68.345, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 68.349, 
         "sw_longitude": -166.809, 
-        "fullname": "Point Hope Airport, Point Hope, Alaska, North Slope Borough, United States", 
-        "sw_latitude": 68.345
+        "fullname": "Point Hope Airport, Point Hope, Alaska, United States", 
+        "iata_code": "PHO", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521425
     }

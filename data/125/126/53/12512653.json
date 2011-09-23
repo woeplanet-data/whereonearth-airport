@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512653, 
+        "placetype": "airport", 
         "name": "Taura Airport", 
-        "ne_latitude": -2.253, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=56189790", 
+          "woe:county=26809654", 
+          "woe:state=2345211", 
+          "woe:country=23424801", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512653, 
         "ne_longitude": -79.674, 
         "longitude": -79.678, 
-        "placetype": "Airport", 
+        "parent_woeid": 56189790, 
+        "ne_latitude": -2.253, 
         "iso": "EC", 
-        "date_indexed": "2010-12-02T17:51:45Z", 
-        "parent_woeid": 420039, 
+        "sw_latitude": -2.262, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -2.257, 
         "sw_longitude": -79.683, 
         "fullname": "Taura Airport, Guayas, San Jacinto de Yaguachi, Ecuador", 
-        "sw_latitude": -2.262
+        "date_indexed": "2010-12-02T17:51:45Z"
       }, 
       "id": 12512653
     }

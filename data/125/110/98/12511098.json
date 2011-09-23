@@ -32,29 +32,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511098, 
-        "name": "Aeroporto Concordia", 
-        "alias_ENG_P": [
-          "Concordia Airport"
-        ], 
-        "ne_latitude": -27.176, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "CCI"
         ], 
+        "name": "Aeroporto Concordia", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Concordia Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12581641", 
+          "woe:state=2344867", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511098, 
         "ne_longitude": -52.046, 
         "longitude": -52.053, 
-        "placetype": "Airport", 
+        "parent_woeid": 12581641, 
+        "ne_latitude": -27.176, 
         "alias_POR_V": [
           "Aeroporto Municipal de Concordia"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:28Z", 
-        "parent_woeid": 456149, 
+        "sw_latitude": -27.185, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -27.179, 
         "sw_longitude": -52.058, 
-        "fullname": "Aeroporto Concordia, Conc\u00f3rdia, Santa Catarina, Conc\u00f3rdia, Brazil", 
-        "sw_latitude": -27.185
+        "fullname": "Aeroporto Concordia, Conc\u00f3rdia, Santa Catarina, Brazil", 
+        "iata_code": "CCI", 
+        "date_indexed": "2010-12-02T18:01:28Z"
       }, 
       "id": 12511098
     }

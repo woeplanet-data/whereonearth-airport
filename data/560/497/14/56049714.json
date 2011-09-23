@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "CZE", 
-        "woeid": 56049714, 
+        "placetype": "airport", 
         "name": "Letiste Hory", 
-        "ne_latitude": 50.224, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12609979", 
+          "woe:county=12582606", 
+          "woe:state=20070500", 
+          "woe:country=23424810", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56049714, 
         "ne_longitude": 12.786, 
         "longitude": 12.776, 
-        "placetype": "Airport", 
+        "parent_woeid": 12609979, 
+        "ne_latitude": 50.224, 
         "iso": "CZ", 
-        "date_indexed": "2010-12-02T08:56:52Z", 
-        "parent_woeid": 791140, 
+        "sw_latitude": 50.211, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.217, 
         "sw_longitude": 12.766, 
-        "fullname": "Letiste Hory, Carlsbad, Karlovarsk\u00fd, Carlsbad, Czech Republic", 
-        "sw_latitude": 50.211
+        "fullname": "Letiste Hory, Carlsbad, Karlovarsk\u00fd, Czech Republic", 
+        "date_indexed": "2010-12-02T08:56:52Z"
       }, 
       "id": 56049714
     }

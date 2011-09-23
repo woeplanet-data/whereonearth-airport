@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522300, 
-        "name": "Wadsworth Municipal Airport", 
         "alias_ENG_V": [
           "3g3"
         ], 
-        "ne_latitude": 41.006, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Wadsworth Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589578", 
+          "woe:state=2347594", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522300, 
         "ne_longitude": -81.752, 
         "longitude": -81.756, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589578, 
+        "ne_latitude": 41.006, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2513035, 
+        "sw_latitude": 40.996, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 41.004, 
         "sw_longitude": -81.765, 
-        "fullname": "Wadsworth Municipal Airport, Wadsworth, Ohio, Medina, United States", 
-        "sw_latitude": 40.996
+        "fullname": "Wadsworth Municipal Airport, Wadsworth, Ohio, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522300
     }

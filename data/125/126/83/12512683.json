@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512683, 
-        "name": "El Arish Airport", 
         "alias_ENG_V": [
           "AAC"
         ], 
-        "ne_latitude": 31.081, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "El Arish Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:state=2345248", 
+          "woe:country=23424802", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512683, 
         "ne_longitude": 33.839, 
         "longitude": 33.833, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345248, 
+        "ne_latitude": 31.081, 
         "iso": "EG", 
-        "date_indexed": "2010-12-02T12:16:51Z", 
-        "parent_woeid": 1521258, 
+        "sw_latitude": 31.072, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 31.076, 
         "sw_longitude": 33.828, 
         "fullname": "El Arish Airport, Al Arish, Shamal Sina', Egypt", 
-        "sw_latitude": 31.072
+        "iata_code": "AAC", 
+        "date_indexed": "2010-12-02T12:16:51Z"
       }, 
       "id": 12512683
     }

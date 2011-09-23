@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512287, 
+        "placetype": "airport", 
         "name": "Yulin West Airport", 
-        "ne_latitude": 38.289, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12687244", 
+          "woe:county=26198114", 
+          "woe:state=12578015", 
+          "woe:country=23424781", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512287, 
         "ne_longitude": 109.738, 
         "longitude": 109.733, 
-        "placetype": "Airport", 
+        "parent_woeid": 12687244, 
+        "ne_latitude": 38.289, 
         "iso": "CN", 
-        "date_indexed": "2010-12-02T08:51:54Z", 
-        "parent_woeid": 2156963, 
+        "sw_latitude": 38.280, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.284, 
         "sw_longitude": 109.727, 
-        "fullname": "Yulin West Airport, Yulin, Shaanxi, Yulin, China", 
-        "sw_latitude": 38.280
+        "fullname": "Yulin West Airport, Yulin, Shaanxi, China", 
+        "date_indexed": "2010-12-02T08:51:54Z"
       }, 
       "id": 12512287
     }

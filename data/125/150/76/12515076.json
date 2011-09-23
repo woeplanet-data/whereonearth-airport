@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515076, 
-        "name": "Port Harcourt International Airport", 
         "alias_ENG_V": [
           "Pt Harcourt Airport"
         ], 
-        "ne_latitude": 5.024, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Port Harcourt International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=56057615", 
+          "woe:state=2346344", 
+          "woe:country=23424908", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515076, 
         "ne_longitude": 6.974, 
         "longitude": 6.963, 
-        "placetype": "Airport", 
+        "parent_woeid": 56057615, 
+        "ne_latitude": 5.024, 
         "iso": "NG", 
-        "date_indexed": "2010-12-02T09:35:13Z", 
-        "parent_woeid": 1388660, 
+        "sw_latitude": 5.001, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 5.013, 
         "sw_longitude": 6.951, 
         "fullname": "Port Harcourt International Airport, Rivers, Ikwerre, Nigeria", 
-        "sw_latitude": 5.001
+        "iata_code": "PHC", 
+        "date_indexed": "2010-12-02T09:35:13Z"
       }, 
       "id": 12515076
     }

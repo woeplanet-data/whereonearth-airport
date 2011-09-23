@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513148, 
+        "placetype": "airport", 
         "name": "Klein Koris Airport", 
-        "ne_latitude": 52.163, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12632984", 
+          "woe:county=12596993", 
+          "woe:state=2345491", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513148, 
         "ne_longitude": 13.707, 
         "longitude": 13.699, 
-        "placetype": "Airport", 
+        "parent_woeid": 12632984, 
+        "ne_latitude": 52.163, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:24Z", 
-        "parent_woeid": 666991, 
+        "sw_latitude": 52.154, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 52.159, 
         "sw_longitude": 13.692, 
-        "fullname": "Klein Koris Airport, Klein K\u00f6ris, Brandenburg, Dahme-Spreewald, Germany", 
+        "fullname": "Klein Koris Airport, Klein K\u00f6ris, Brandenburg, Germany", 
         "alias_GER_Q": [
           "Flughafen Klein Koris"
         ], 
-        "sw_latitude": 52.154
+        "date_indexed": "2010-12-02T09:50:24Z"
       }, 
       "id": 12513148
     }

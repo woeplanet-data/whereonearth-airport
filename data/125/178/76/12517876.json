@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12517876, 
-        "name": "Bursa Airport", 
         "alias_ENG_V": [
           "BTZ"
         ], 
-        "ne_latitude": 40.239, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Bursa Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=29390676", 
+          "woe:state=2347273", 
+          "woe:country=23424969", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517876, 
         "ne_longitude": 29.011, 
         "longitude": 29.005, 
-        "placetype": "Airport", 
+        "parent_woeid": 29390676, 
+        "ne_latitude": 40.239, 
         "iso": "TR", 
-        "date_indexed": "2010-12-02T16:23:11Z", 
-        "parent_woeid": 2314592, 
+        "sw_latitude": 40.230, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.234, 
         "sw_longitude": 28.999, 
         "fullname": "Bursa Airport, Bursa, Osmangazi, Turkey", 
-        "sw_latitude": 40.230
+        "iata_code": "BTZ", 
+        "date_indexed": "2010-12-02T16:23:11Z"
       }, 
       "id": 12517876
     }

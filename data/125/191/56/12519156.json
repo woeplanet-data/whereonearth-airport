@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519156, 
-        "name": "Chautauqua County-Dunkirk Airport", 
         "alias_ENG_V": [
           "DKK Airport"
         ], 
-        "ne_latitude": 42.503, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Chautauqua County-Dunkirk Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589318", 
+          "woe:state=2347591", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519156, 
         "ne_longitude": -79.237, 
         "longitude": -79.278, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589318, 
+        "ne_latitude": 42.503, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2492408, 
+        "sw_latitude": 42.487, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 42.493, 
         "sw_longitude": -79.284, 
-        "fullname": "Chautauqua County-Dunkirk Airport, Sheridan, New York, Chautauqua, United States", 
-        "sw_latitude": 42.487
+        "fullname": "Chautauqua County-Dunkirk Airport, Sheridan, New York, United States", 
+        "iata_code": "DKK", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519156
     }

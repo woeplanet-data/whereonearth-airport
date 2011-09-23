@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515410, 
+        "placetype": "airport", 
         "name": "Zywiec North Airport", 
-        "ne_latitude": 49.773, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12618554", 
+          "woe:county=12591419", 
+          "woe:state=12577946", 
+          "woe:country=23424923", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515410, 
         "ne_longitude": 19.224, 
         "longitude": 19.217, 
-        "placetype": "Airport", 
+        "parent_woeid": 12618554, 
+        "ne_latitude": 49.773, 
         "iso": "PL", 
-        "date_indexed": "2010-12-02T12:12:45Z", 
-        "parent_woeid": 490586, 
+        "sw_latitude": 49.764, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.768, 
         "sw_longitude": 19.210, 
-        "fullname": "Zywiec North Airport, Czernich\u00f3w, Silesian, Zywiec County, Poland", 
-        "sw_latitude": 49.764
+        "fullname": "Zywiec North Airport, Czernich\u00f3w, Silesian, Poland", 
+        "date_indexed": "2010-12-02T12:12:45Z"
       }, 
       "id": 12515410
     }

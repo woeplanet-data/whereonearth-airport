@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 28677647, 
+        "placetype": "airport", 
         "name": "Morney Aerodrome", 
-        "ne_latitude": -25.355, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55863947", 
+          "woe:state=2344702", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 28677647, 
         "ne_longitude": 141.440, 
         "longitude": 141.435, 
-        "placetype": "Airport", 
+        "parent_woeid": 55863947, 
+        "ne_latitude": -25.355, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 28588589, 
+        "sw_latitude": -25.364, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -25.359, 
         "sw_longitude": 141.430, 
-        "fullname": "Morney Aerodrome, Farrars Creek, Queensland, Barcoo, Australia", 
-        "sw_latitude": -25.364
+        "fullname": "Morney Aerodrome, Farrars Creek, Queensland, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 28677647
     }

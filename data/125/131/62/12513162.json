@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12513162, 
+        "placetype": "airport", 
         "name": "Lechfeld Airport", 
-        "ne_latitude": 48.191, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12634767", 
+          "woe:county=12596778", 
+          "woe:state=2345482", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12513162, 
         "ne_longitude": 10.869, 
         "longitude": 10.862, 
-        "placetype": "Airport", 
+        "parent_woeid": 12634767, 
+        "ne_latitude": 48.191, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 22662201, 
+        "sw_latitude": 48.182, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.186, 
         "sw_longitude": 10.855, 
-        "fullname": "Lechfeld Airport, Lagerlechfeld, Bavaria, Landkreis Augsburg, Germany", 
+        "fullname": "Lechfeld Airport, Lagerlechfeld, Bavaria, Germany", 
         "alias_GER_Q": [
           "Flughafen Lechfeld"
         ], 
-        "sw_latitude": 48.182
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 12513162
     }

@@ -32,29 +32,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12523575, 
-        "name": "Aeroporto Guimaraes", 
-        "alias_ENG_P": [
-          "Guimaraes Airport"
-        ], 
-        "ne_latitude": -2.129, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "GMS"
         ], 
+        "name": "Aeroporto Guimaraes", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "Guimaraes Airport"
+        ], 
+        "hierarchy": [
+          "woe:county=12579225", 
+          "woe:state=2344854", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12523575, 
         "ne_longitude": -44.595, 
         "longitude": -44.600, 
-        "placetype": "Airport", 
+        "parent_woeid": 12579225, 
+        "ne_latitude": -2.129, 
         "alias_POR_V": [
           "Aeroporto GMS"
         ], 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:28Z", 
-        "parent_woeid": 457250, 
+        "sw_latitude": -2.138, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -2.133, 
         "sw_longitude": -44.605, 
-        "fullname": "Aeroporto Guimaraes, Guimar\u00e3es, Maranhao, Guimar\u00e3es, Brazil", 
-        "sw_latitude": -2.138
+        "fullname": "Aeroporto Guimaraes, Guimar\u00e3es, Maranhao, Brazil", 
+        "iata_code": "GMS", 
+        "date_indexed": "2010-12-02T18:01:28Z"
       }, 
       "id": 12523575
     }

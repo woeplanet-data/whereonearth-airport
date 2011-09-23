@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511456, 
+        "placetype": "airport", 
         "name": "Leskovo Airport", 
-        "ne_latitude": 43.724, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55873886", 
+          "woe:state=20070050", 
+          "woe:country=23424771", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511456, 
         "ne_longitude": 27.695, 
         "longitude": 27.688, 
-        "placetype": "Airport", 
+        "parent_woeid": 55873886, 
+        "ne_latitude": 43.724, 
         "iso": "BG", 
-        "date_indexed": "2010-12-02T16:14:37Z", 
-        "parent_woeid": 837673, 
+        "sw_latitude": 43.715, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.720, 
         "sw_longitude": 27.682, 
         "fullname": "Leskovo Airport, Dobrich, Dobrichka, Bulgaria", 
-        "sw_latitude": 43.715
+        "date_indexed": "2010-12-02T16:14:37Z"
       }, 
       "id": 12511456
     }

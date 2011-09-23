@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518881, 
-        "name": "Boise City Airport", 
         "alias_ENG_V": [
           "17k"
         ], 
-        "ne_latitude": 36.779, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Boise City Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589627", 
+          "woe:state=2347595", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518881, 
         "ne_longitude": -102.504, 
         "longitude": -102.518, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589627, 
+        "ne_latitude": 36.779, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2366382, 
+        "sw_latitude": 36.770, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.772, 
         "sw_longitude": -102.518, 
-        "fullname": "Boise City Airport, Boise City, Oklahoma, Cimarron, United States", 
-        "sw_latitude": 36.770
+        "fullname": "Boise City Airport, Boise City, Oklahoma, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518881
     }

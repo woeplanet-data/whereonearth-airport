@@ -32,29 +32,36 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 22256373, 
-        "name": "Norderney Airfield", 
-        "alias_ENG_P": [
-          "NRD Airfield"
-        ], 
-        "ne_latitude": 53.712, 
-        "provider": "geoplanet 7.6.0", 
         "alias_ENG_V": [
           "NRD"
         ], 
+        "name": "Norderney Airfield", 
+        "placetype": "airport", 
+        "alias_ENG_P": [
+          "NRD Airfield"
+        ], 
+        "hierarchy": [
+          "woe:localadmin=12629851", 
+          "woe:county=12596721", 
+          "woe:state=2345486", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 22256373, 
         "ne_longitude": 7.233, 
         "longitude": 7.225, 
-        "placetype": "Airport", 
+        "parent_woeid": 12629851, 
+        "ne_latitude": 53.712, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 29350614, 
+        "sw_latitude": 53.703, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 53.709, 
         "sw_longitude": 7.218, 
-        "fullname": "Norderney Airfield, Siedlung Nordhelm, Lower Saxony, Landkreis Aurich, Germany", 
+        "fullname": "Norderney Airfield, Siedlung Nordhelm, Lower Saxony, Germany", 
         "alias_GER_V": [
           "NRD Flugplatz"
         ], 
-        "sw_latitude": 53.703
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 22256373
     }

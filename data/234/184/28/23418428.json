@@ -3,28 +3,62 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -116.181, 
-              33.613
-            ], 
-            [
-              -116.181, 
-              33.642
-            ], 
-            [
-              -116.147, 
-              33.642
-            ], 
-            [
-              -116.147, 
-              33.613
-            ], 
-            [
-              -116.181, 
-              33.613
+              [
+                -116.165, 
+                33.634
+              ], 
+              [
+                -116.167, 
+                33.632
+              ], 
+              [
+                -116.166, 
+                33.635
+              ], 
+              [
+                -116.166, 
+                33.635
+              ], 
+              [
+                -116.164, 
+                33.635
+              ], 
+              [
+                -116.161, 
+                33.639
+              ], 
+              [
+                -116.160, 
+                33.640
+              ], 
+              [
+                -116.160, 
+                33.640
+              ], 
+              [
+                -116.158, 
+                33.639
+              ], 
+              [
+                -116.158, 
+                33.636
+              ], 
+              [
+                -116.159, 
+                33.634
+              ], 
+              [
+                -116.164, 
+                33.635
+              ], 
+              [
+                -116.165, 
+                33.634
+              ]
             ]
           ]
         ]
@@ -32,23 +66,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 23418428, 
-        "name": "Desert Resorts Regional Airport", 
         "alias_ENG_V": [
           "Trm"
         ], 
-        "ne_latitude": 33.642, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -116.147, 
-        "longitude": -116.164, 
-        "placetype": "Airport", 
+        "name": "Desert Resorts Regional Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587702", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 23418428, 
+        "ne_longitude": -116.158, 
+        "longitude": -116.161, 
+        "parent_woeid": 12587702, 
+        "ne_latitude": 33.640, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2505584, 
+        "sw_latitude": 33.632, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 33.636, 
-        "sw_longitude": -116.181, 
-        "fullname": "Desert Resorts Regional Airport, Thermal, California, Riverside, United States", 
-        "sw_latitude": 33.613
+        "sw_longitude": -116.167, 
+        "fullname": "Desert Resorts Regional Airport, Thermal, California, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 23418428
     }

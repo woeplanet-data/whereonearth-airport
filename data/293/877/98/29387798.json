@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29387798, 
-        "name": "Lopez Island Airport", 
         "alias_ENG_V": [
           "Lps"
         ], 
-        "ne_latitude": 48.489, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Lopez Island Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590467", 
+          "woe:state=2347606", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29387798, 
         "ne_longitude": -122.936, 
         "longitude": -122.936, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590467, 
+        "ne_latitude": 48.489, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2480729, 
+        "sw_latitude": 48.479, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 48.486, 
         "sw_longitude": -122.938, 
-        "fullname": "Lopez Island Airport, Richardson, Washington, San Juan, United States", 
-        "sw_latitude": 48.479
+        "fullname": "Lopez Island Airport, Richardson, Washington, United States", 
+        "iata_code": "LPS", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 29387798
     }

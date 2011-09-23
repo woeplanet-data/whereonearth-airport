@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515293, 
+        "placetype": "airport", 
         "name": "Chojna Airport", 
-        "ne_latitude": 52.938, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=28301721", 
+          "woe:county=12591493", 
+          "woe:state=12577950", 
+          "woe:country=23424923", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515293, 
         "ne_longitude": 14.421, 
         "longitude": 14.413, 
-        "placetype": "Airport", 
+        "parent_woeid": 28301721, 
+        "ne_latitude": 52.938, 
         "iso": "PL", 
-        "date_indexed": "2010-12-02T12:12:45Z", 
-        "parent_woeid": 493969, 
+        "sw_latitude": 52.929, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 52.934, 
         "sw_longitude": 14.406, 
         "fullname": "Chojna Airport, West Pomeranian, Gryfino County, Poland", 
-        "sw_latitude": 52.929
+        "date_indexed": "2010-12-02T12:12:45Z"
       }, 
       "id": 12515293
     }

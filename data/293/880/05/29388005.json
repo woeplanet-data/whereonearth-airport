@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388005, 
-        "name": "Sky Haven Airport", 
         "alias_ENG_V": [
           "5n4"
         ], 
-        "ne_latitude": 46.630, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Sky Haven Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589510", 
+          "woe:state=2347593", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388005, 
         "ne_longitude": -97.616, 
         "longitude": -97.617, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589510, 
+        "ne_latitude": 46.630, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2399588, 
+        "sw_latitude": 46.624, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.629, 
         "sw_longitude": -97.626, 
-        "fullname": "Sky Haven Airport, Enderlin, North Dakota, Ransom, United States", 
-        "sw_latitude": 46.624
+        "fullname": "Sky Haven Airport, Enderlin, North Dakota, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388005
     }

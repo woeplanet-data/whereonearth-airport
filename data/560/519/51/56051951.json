@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 56051951, 
+        "placetype": "airport", 
         "name": "Flugplatz Kulmbach", 
-        "ne_latitude": 50.136, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12635350", 
+          "woe:county=12596862", 
+          "woe:state=2345482", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56051951, 
         "ne_longitude": 11.466, 
         "longitude": 11.464, 
-        "placetype": "Airport", 
+        "parent_woeid": 12635350, 
+        "ne_latitude": 50.136, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 669470, 
+        "sw_latitude": 50.133, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.134, 
         "sw_longitude": 11.454, 
-        "fullname": "Flugplatz Kulmbach, Kulmbach, Bavaria, Landkreis Kulmbach, Germany", 
-        "sw_latitude": 50.133
+        "fullname": "Flugplatz Kulmbach, Kulmbach, Bavaria, Germany", 
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 56051951
     }

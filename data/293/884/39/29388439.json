@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388439, 
-        "name": "Van Sant Airport", 
         "alias_ENG_V": [
           "9n1"
         ], 
-        "ne_latitude": 40.493, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Van Sant Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589736", 
+          "woe:state=2347597", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388439, 
         "ne_longitude": -75.083, 
         "longitude": -75.106, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589736, 
+        "ne_latitude": 40.493, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2506585, 
+        "sw_latitude": 40.479, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.481, 
         "sw_longitude": -75.107, 
-        "fullname": "Van Sant Airport, Tinicum, Pennsylvania, Bucks, United States", 
-        "sw_latitude": 40.479
+        "fullname": "Van Sant Airport, Tinicum, Pennsylvania, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388439
     }

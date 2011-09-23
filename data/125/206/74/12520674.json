@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520674, 
+        "placetype": "airport", 
         "name": "Live Oak County Airport", 
-        "ne_latitude": 28.367, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12590155", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520674, 
         "ne_longitude": -98.111, 
         "longitude": -98.116, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590155, 
+        "ne_latitude": 28.367, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2409591, 
+        "sw_latitude": 28.358, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 28.362, 
         "sw_longitude": -98.121, 
-        "fullname": "Live Oak County Airport, George West, Texas, Live Oak, United States", 
-        "sw_latitude": 28.358
+        "fullname": "Live Oak County Airport, George West, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12520674
     }

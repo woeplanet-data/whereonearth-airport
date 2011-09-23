@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512487, 
+        "placetype": "airport", 
         "name": "San Pedro Highway Strip Airport", 
-        "ne_latitude": 22.980, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345107", 
+          "woe:country=23424793", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512487, 
         "ne_longitude": -82.466, 
         "longitude": -82.471, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345107, 
+        "ne_latitude": 22.980, 
         "iso": "CU", 
-        "date_indexed": "2010-12-02T08:58:58Z", 
-        "parent_woeid": 68478, 
+        "sw_latitude": 22.970, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 22.975, 
         "sw_longitude": -82.476, 
         "fullname": "San Pedro Highway Strip Airport, Valle Grande, Ciudad de la Habana, Cuba", 
-        "sw_latitude": 22.970
+        "date_indexed": "2010-12-02T08:58:58Z"
       }, 
       "id": 12512487
     }

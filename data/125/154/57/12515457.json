@@ -32,26 +32,33 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515457, 
-        "name": "Santa Maria Airport", 
         "alias_ENG_V": [
           "SMA"
         ], 
-        "ne_latitude": 36.977, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Santa Maria Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=56071132", 
+          "woe:state=15021776", 
+          "woe:country=23424925", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515457, 
         "ne_longitude": -25.157, 
         "longitude": -25.171, 
-        "placetype": "Airport", 
+        "parent_woeid": 56071132, 
+        "ne_latitude": 36.977, 
         "alias_POR_V": [
           "SMA Aeroport"
         ], 
         "iso": "PT", 
-        "date_indexed": "2010-12-02T10:00:50Z", 
-        "parent_woeid": 537861, 
+        "sw_latitude": 36.954, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.966, 
         "sw_longitude": -25.186, 
-        "fullname": "Santa Maria Airport, Almagreira, Azores, Vila do Porto, Portugal", 
-        "sw_latitude": 36.954
+        "fullname": "Santa Maria Airport, Almagreira, Azores, Portugal", 
+        "iata_code": "SMA", 
+        "date_indexed": "2010-12-02T10:00:50Z"
       }, 
       "id": 12515457
     }

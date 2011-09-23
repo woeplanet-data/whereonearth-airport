@@ -3,28 +3,30 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -97.205, 
-              33.641
-            ], 
-            [
-              -97.205, 
-              33.665
-            ], 
-            [
-              -97.181, 
-              33.665
-            ], 
-            [
-              -97.181, 
-              33.641
-            ], 
-            [
-              -97.205, 
-              33.641
+              [
+                -97.202, 
+                33.651
+              ], 
+              [
+                -97.200, 
+                33.651
+              ], 
+              [
+                -97.201, 
+                33.650
+              ], 
+              [
+                -97.202, 
+                33.650
+              ], 
+              [
+                -97.202, 
+                33.651
+              ]
             ]
           ]
         ]
@@ -32,23 +34,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519849, 
-        "name": "Gainesville Municipal Airport", 
         "alias_ENG_V": [
           "GLE"
         ], 
-        "ne_latitude": 33.665, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -97.181, 
-        "longitude": -97.203, 
-        "placetype": "Airport", 
+        "name": "Gainesville Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590055", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519849, 
+        "ne_longitude": -97.200, 
+        "longitude": -97.201, 
+        "parent_woeid": 12590055, 
+        "ne_latitude": 33.651, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2408353, 
-        "latitude": 33.651, 
-        "sw_longitude": -97.205, 
-        "fullname": "Gainesville Municipal Airport, Gainesville, Texas, Cooke, United States", 
-        "sw_latitude": 33.641
+        "sw_latitude": 33.650, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 33.650, 
+        "sw_longitude": -97.202, 
+        "fullname": "Gainesville Municipal Airport, Gainesville, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12519849
     }

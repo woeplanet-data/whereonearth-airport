@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515362, 
+        "placetype": "airport", 
         "name": "Nowy Targ Airport", 
-        "ne_latitude": 49.468, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12591259", 
+          "woe:state=12577940", 
+          "woe:country=23424923", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515362, 
         "ne_longitude": 20.059, 
         "longitude": 20.052, 
-        "placetype": "Airport", 
+        "parent_woeid": 12591259, 
+        "ne_latitude": 49.468, 
         "iso": "PL", 
-        "date_indexed": "2010-12-02T12:12:45Z", 
-        "parent_woeid": 509949, 
+        "sw_latitude": 49.459, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.464, 
         "sw_longitude": 20.045, 
-        "fullname": "Nowy Targ Airport, Nowy Targ, Lesser Poland, Nowy Targ County, Poland", 
-        "sw_latitude": 49.459
+        "fullname": "Nowy Targ Airport, Nowy Targ, Lesser Poland, Poland", 
+        "date_indexed": "2010-12-02T12:12:45Z"
       }, 
       "id": 12515362
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518542, 
+        "placetype": "airport", 
         "name": "Airlie Airport", 
-        "ne_latitude": 38.762, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12590346", 
+          "woe:state=2347605", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518542, 
         "ne_longitude": -77.782, 
         "longitude": -77.787, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590346, 
+        "ne_latitude": 38.762, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:15Z", 
-        "parent_woeid": 2352393, 
+        "sw_latitude": 38.753, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 38.758, 
         "sw_longitude": -77.793, 
-        "fullname": "Airlie Airport, Airlie, Virginia, Fauquier, United States", 
-        "sw_latitude": 38.753
+        "fullname": "Airlie Airport, Airlie, Virginia, United States", 
+        "date_indexed": "2010-12-02T18:39:15Z"
       }, 
       "id": 12518542
     }

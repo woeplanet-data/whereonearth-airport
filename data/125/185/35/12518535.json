@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518535, 
-        "name": "Aiken Municipal Airport", 
         "alias_ENG_V": [
           "Aiken Airport"
         ], 
-        "ne_latitude": 33.658, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Aiken Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589801", 
+          "woe:state=2347599", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518535, 
         "ne_longitude": -81.675, 
         "longitude": -81.677, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589801, 
+        "ne_latitude": 33.658, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2490609, 
+        "sw_latitude": 33.642, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 33.649, 
         "sw_longitude": -81.698, 
-        "fullname": "Aiken Municipal Airport, Seiglers Crossroads, South Carolina, Aiken, United States", 
-        "sw_latitude": 33.642
+        "fullname": "Aiken Municipal Airport, Seiglers Crossroads, South Carolina, United States", 
+        "iata_code": "AIK", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518535
     }

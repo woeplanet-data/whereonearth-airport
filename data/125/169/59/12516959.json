@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516959, 
+        "placetype": "airport", 
         "name": "Susuman Airport", 
-        "ne_latitude": 62.765, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598706", 
+          "woe:state=20070512", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516959, 
         "ne_longitude": 148.179, 
         "longitude": 148.169, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598706, 
+        "ne_latitude": 62.765, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2123764, 
+        "sw_latitude": 62.756, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 62.761, 
         "sw_longitude": 148.159, 
-        "fullname": "Susuman Airport, Susuman, Magadanskaya Oblast, Susumansky, Russia", 
-        "sw_latitude": 62.756
+        "fullname": "Susuman Airport, Susuman, Magadanskaya Oblast, Russia", 
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516959
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388158, 
+        "placetype": "airport", 
         "name": "Bell Airport", 
-        "ne_latitude": 33.504, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12588959", 
+          "woe:state=2347583", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388158, 
         "ne_longitude": -91.058, 
         "longitude": -91.061, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588959, 
+        "ne_latitude": 33.504, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2522362, 
+        "sw_latitude": 33.500, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 33.502, 
         "sw_longitude": -91.063, 
-        "fullname": "Bell Airport, Winterville, Mississippi, Washington, United States", 
-        "sw_latitude": 33.500
+        "fullname": "Bell Airport, Winterville, Mississippi, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 29388158
     }

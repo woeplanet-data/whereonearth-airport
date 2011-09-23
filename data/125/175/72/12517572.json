@@ -3,28 +3,34 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              2.702, 
-              39.598
-            ], 
-            [
-              2.702, 
-              39.607
-            ], 
-            [
-              2.713, 
-              39.607
-            ], 
-            [
-              2.713, 
-              39.598
-            ], 
-            [
-              2.702, 
-              39.598
+              [
+                2.706, 
+                39.604
+              ], 
+              [
+                2.706, 
+                39.604
+              ], 
+              [
+                2.708, 
+                39.605
+              ], 
+              [
+                2.706, 
+                39.604
+              ], 
+              [
+                2.706, 
+                39.604
+              ], 
+              [
+                2.706, 
+                39.604
+              ]
             ]
           ]
         ]
@@ -32,26 +38,33 @@
       "type": "Feature", 
       "properties": {
         "lang": "SPA", 
-        "woeid": 12517572, 
+        "placetype": "airport", 
         "name": "Aeropuerto d\u00e9 S\u00f8n Bonet", 
         "alias_ENG_P": [
           "Son Bonet Airport"
         ], 
-        "ne_latitude": 39.607, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": 2.713, 
+        "hierarchy": [
+          "woe:localadmin=12687742", 
+          "woe:county=12602088", 
+          "woe:state=12578039", 
+          "woe:country=23424950", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12517572, 
+        "ne_longitude": 2.708, 
         "longitude": 2.707, 
-        "placetype": "Airport", 
+        "parent_woeid": 12687742, 
+        "ne_latitude": 39.605, 
         "alias_SPA_S": [
           "Aeropuerto de Son Bonet"
         ], 
         "iso": "ES", 
-        "date_indexed": "2010-12-02T17:38:37Z", 
-        "parent_woeid": 770459, 
-        "latitude": 39.602, 
-        "sw_longitude": 2.702, 
-        "fullname": "Aeropuerto d\u00e9 S\u00f8n Bonet, Pont d'Inca, Balearic Islands, Baleares, Spain", 
-        "sw_latitude": 39.598
+        "sw_latitude": 39.604, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 39.604, 
+        "sw_longitude": 2.706, 
+        "fullname": "Aeropuerto d\u00e9 S\u00f8n Bonet, Pont d'Inca, Balearic Islands, Spain", 
+        "date_indexed": "2010-12-02T17:38:37Z"
       }, 
       "id": 12517572
     }

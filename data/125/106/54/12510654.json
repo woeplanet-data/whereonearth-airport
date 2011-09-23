@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510654, 
-        "name": "Derby Airport", 
         "alias_ENG_V": [
           "DRB"
         ], 
-        "ne_latitude": -17.367, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Derby Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55864372", 
+          "woe:state=2344706", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510654, 
         "ne_longitude": 123.669, 
         "longitude": 123.664, 
-        "placetype": "Airport", 
+        "parent_woeid": 55864372, 
+        "ne_latitude": -17.367, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1101656, 
+        "sw_latitude": -17.375, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -17.369, 
         "sw_longitude": 123.653, 
-        "fullname": "Derby Airport, Derby, Western Australia, Derby-west Kimberley, Australia", 
-        "sw_latitude": -17.375
+        "fullname": "Derby Airport, Derby, Western Australia, Australia", 
+        "iata_code": "DRB", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 12510654
     }

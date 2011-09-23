@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521898, 
-        "name": "Socorro Municipal Airport", 
         "alias_ENG_V": [
           "Socorro Airport"
         ], 
-        "ne_latitude": 34.030, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Socorro Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589307", 
+          "woe:state=2347590", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521898, 
         "ne_longitude": -106.895, 
         "longitude": -106.897, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589307, 
+        "ne_latitude": 34.030, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2442997, 
+        "sw_latitude": 34.014, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 34.025, 
         "sw_longitude": -106.916, 
-        "fullname": "Socorro Municipal Airport, Luis Lopez, New Mexico, Socorro, United States", 
-        "sw_latitude": 34.014
+        "fullname": "Socorro Municipal Airport, Luis Lopez, New Mexico, United States", 
+        "iata_code": "ONM", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521898
     }

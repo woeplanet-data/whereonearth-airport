@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388078, 
-        "name": "Monmouth Municipal Airport", 
         "alias_ENG_V": [
           "C66"
         ], 
-        "ne_latitude": 40.935, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Monmouth Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12588171", 
+          "woe:state=2347572", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388078, 
         "ne_longitude": -90.627, 
         "longitude": -90.641, 
-        "placetype": "Airport", 
+        "parent_woeid": 12588171, 
+        "ne_latitude": 40.935, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:52Z", 
-        "parent_woeid": 2452954, 
+        "sw_latitude": 40.925, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 40.925, 
         "sw_longitude": -90.641, 
-        "fullname": "Monmouth Municipal Airport, Monmouth, Illinois, Warren, United States", 
-        "sw_latitude": 40.925
+        "fullname": "Monmouth Municipal Airport, Monmouth, Illinois, United States", 
+        "date_indexed": "2010-12-02T18:39:52Z"
       }, 
       "id": 29388078
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515727, 
+        "placetype": "airport", 
         "name": "Arkhangelsk-Talagi Airport", 
-        "ne_latitude": 64.607, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12598029", 
+          "woe:state=20070508", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515727, 
         "ne_longitude": 40.720, 
         "longitude": 40.709, 
-        "placetype": "Airport", 
+        "parent_woeid": 12598029, 
+        "ne_latitude": 64.607, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2093500, 
+        "sw_latitude": 64.598, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 64.603, 
         "sw_longitude": 40.698, 
         "fullname": "Arkhangelsk-Talagi Airport, Arkhangelrskaya Oblast, Primorsky, Russia", 
-        "sw_latitude": 64.598
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12515727
     }

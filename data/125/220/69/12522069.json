@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522069, 
+        "placetype": "airport", 
         "name": "Taggares Field Airport", 
-        "ne_latitude": 46.868, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12590440", 
+          "woe:state=2347606", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522069, 
         "ne_longitude": -119.131, 
         "longitude": -119.137, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590440, 
+        "ne_latitude": 46.868, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2462424, 
+        "sw_latitude": 46.859, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.863, 
         "sw_longitude": -119.144, 
-        "fullname": "Taggares Field Airport, Novara, Washington, Adams, United States", 
-        "sw_latitude": 46.859
+        "fullname": "Taggares Field Airport, Novara, Washington, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12522069
     }

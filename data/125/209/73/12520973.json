@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520973, 
+        "placetype": "airport", 
         "name": "Mississippi County Airport", 
-        "ne_latitude": 36.846, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12589032", 
+          "woe:state=2347584", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520973, 
         "ne_longitude": -89.354, 
         "longitude": -89.360, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589032, 
+        "ne_latitude": 36.846, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2354930, 
+        "sw_latitude": 36.837, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 36.842, 
         "sw_longitude": -89.366, 
-        "fullname": "Mississippi County Airport, Anniston, Missouri, Mississippi, United States", 
-        "sw_latitude": 36.837
+        "fullname": "Mississippi County Airport, Anniston, Missouri, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12520973
     }

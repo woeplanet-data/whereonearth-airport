@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515734, 
-        "name": "Artem North Airport", 
         "alias_ENG_V": [
           "Artem North"
         ], 
-        "ne_latitude": 43.402, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Artem North Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12597901", 
+          "woe:state=2346886", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515734, 
         "ne_longitude": 132.163, 
         "longitude": 132.156, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597901, 
+        "ne_latitude": 43.402, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2120089, 
+        "sw_latitude": 43.393, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.397, 
         "sw_longitude": 132.150, 
-        "fullname": "Artem North Airport, Artem, Primorskiy Kray, Artem, Russia", 
-        "sw_latitude": 43.393
+        "fullname": "Artem North Airport, Artem, Primorskiy Kray, Russia", 
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12515734
     }

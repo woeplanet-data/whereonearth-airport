@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 28677635, 
+        "placetype": "airport", 
         "name": "Dorunda Aerodrome", 
-        "ne_latitude": -16.552, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55864340", 
+          "woe:state=2344702", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 28677635, 
         "ne_longitude": 141.814, 
         "longitude": 141.809, 
-        "placetype": "Airport", 
+        "parent_woeid": 55864340, 
+        "ne_latitude": -16.552, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 28586010, 
+        "sw_latitude": -16.561, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -16.557, 
         "sw_longitude": 141.805, 
-        "fullname": "Dorunda Aerodrome, Maramie, Queensland, Carpentaria Shire, Australia", 
-        "sw_latitude": -16.561
+        "fullname": "Dorunda Aerodrome, Maramie, Queensland, Australia", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 28677635
     }

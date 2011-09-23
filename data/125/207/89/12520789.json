@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520789, 
+        "placetype": "airport", 
         "name": "Maravillas Gap Ranch Airport", 
-        "ne_latitude": 29.931, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12590028", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520789, 
         "ne_longitude": -103.289, 
         "longitude": -103.294, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590028, 
+        "ne_latitude": 29.931, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2445444, 
+        "sw_latitude": 29.922, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 29.926, 
         "sw_longitude": -103.300, 
-        "fullname": "Maravillas Gap Ranch Airport, Marathon, Texas, Brewster, United States", 
-        "sw_latitude": 29.922
+        "fullname": "Maravillas Gap Ranch Airport, Marathon, Texas, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12520789
     }

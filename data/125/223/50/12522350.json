@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522350, 
-        "name": "Watertown Municipal Airport", 
         "alias_ENG_V": [
           "RYV"
         ], 
-        "ne_latitude": 43.175, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Watertown Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590561", 
+          "woe:state=2347608", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522350, 
         "ne_longitude": -88.715, 
         "longitude": -88.728, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590561, 
+        "ne_latitude": 43.175, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2515210, 
+        "sw_latitude": 43.165, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.173, 
         "sw_longitude": -88.732, 
-        "fullname": "Watertown Municipal Airport, Watertown, Wisconsin, Jefferson, United States", 
-        "sw_latitude": 43.165
+        "fullname": "Watertown Municipal Airport, Watertown, Wisconsin, United States", 
+        "iata_code": "RYV", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12522350
     }

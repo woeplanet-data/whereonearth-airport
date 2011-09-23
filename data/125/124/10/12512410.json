@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512410, 
-        "name": "San Luis Airport", 
         "alias_ENG_V": [
           "IPI"
         ], 
-        "ne_latitude": 0.866, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "San Luis Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26797304", 
+          "woe:state=2345065", 
+          "woe:country=23424787", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512410, 
         "ne_longitude": -77.664, 
         "longitude": -77.668, 
-        "placetype": "Airport", 
+        "parent_woeid": 26797304, 
+        "ne_latitude": 0.866, 
         "iso": "CO", 
-        "date_indexed": "2010-12-02T17:57:37Z", 
-        "parent_woeid": 368211, 
+        "sw_latitude": 0.857, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 0.861, 
         "sw_longitude": -77.673, 
-        "fullname": "San Luis Airport, Ipiales, Narino, Ipiales, Colombia", 
-        "sw_latitude": 0.857
+        "fullname": "San Luis Airport, Ipiales, Narino, Colombia", 
+        "iata_code": "IPI", 
+        "date_indexed": "2010-12-02T17:57:37Z"
       }, 
       "id": 12512410
     }

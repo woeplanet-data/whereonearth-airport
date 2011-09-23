@@ -3,28 +3,58 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -0.433, 
-              51.548
-            ], 
-            [
-              -0.433, 
-              51.561
-            ], 
-            [
-              -0.402, 
-              51.561
-            ], 
-            [
-              -0.402, 
-              51.548
-            ], 
-            [
-              -0.433, 
-              51.548
+              [
+                -0.415, 
+                51.551
+              ], 
+              [
+                -0.413, 
+                51.550
+              ], 
+              [
+                -0.411, 
+                51.550
+              ], 
+              [
+                -0.410, 
+                51.548
+              ], 
+              [
+                -0.413, 
+                51.549
+              ], 
+              [
+                -0.414, 
+                51.550
+              ], 
+              [
+                -0.415, 
+                51.550
+              ], 
+              [
+                -0.416, 
+                51.550
+              ], 
+              [
+                -0.416, 
+                51.550
+              ], 
+              [
+                -0.418, 
+                51.550
+              ], 
+              [
+                -0.417, 
+                51.550
+              ], 
+              [
+                -0.415, 
+                51.551
+              ]
             ]
           ]
         ]
@@ -32,23 +62,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518134, 
-        "name": "Northolt Airport", 
         "alias_ENG_V": [
           "NHT"
         ], 
-        "ne_latitude": 51.561, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -0.402, 
-        "longitude": -0.410, 
-        "placetype": "Airport", 
-        "iso": "GB", 
-        "date_indexed": "2010-12-02T12:21:01Z", 
+        "name": "Northolt Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:suburb=33749", 
+          "woe:localadmin=12695831", 
+          "woe:county=23416974", 
+          "woe:state=24554868", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518134, 
+        "ne_longitude": -0.410, 
+        "longitude": -0.414, 
         "parent_woeid": 33749, 
-        "latitude": 51.558, 
-        "sw_longitude": -0.433, 
-        "fullname": "Northolt Airport, London, England, Greater London, United Kingdom", 
-        "sw_latitude": 51.548
+        "ne_latitude": 51.551, 
+        "iso": "GB", 
+        "sw_latitude": 51.548, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 51.550, 
+        "sw_longitude": -0.418, 
+        "fullname": "Northolt Airport, London, England, United Kingdom", 
+        "date_indexed": "2010-12-02T12:21:01Z"
       }, 
       "id": 12518134
     }

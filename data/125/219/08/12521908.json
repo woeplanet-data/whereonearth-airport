@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521908, 
-        "name": "South County Airport of Santa Clara County", 
         "alias_ENG_V": [
           "S County Airport of Santa Clara County"
         ], 
-        "ne_latitude": 37.088, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "South County Airport of Santa Clara County", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587712", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521908, 
         "ne_longitude": -121.592, 
         "longitude": -121.601, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587712, 
+        "ne_latitude": 37.088, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:45Z", 
-        "parent_woeid": 2488137, 
+        "sw_latitude": 37.074, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 37.083, 
         "sw_longitude": -121.602, 
-        "fullname": "South County Airport of Santa Clara County, San Martin, California, Santa Clara, United States", 
-        "sw_latitude": 37.074
+        "fullname": "South County Airport of Santa Clara County, San Martin, California, United States", 
+        "date_indexed": "2010-12-02T18:39:45Z"
       }, 
       "id": 12521908
     }

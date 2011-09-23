@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "POR", 
-        "woeid": 12511324, 
+        "placetype": "airport", 
         "name": "Aeroporto Sao Raimundo Nonato", 
         "alias_ENG_P": [
           "Sao Raimundo Nonato Airport"
         ], 
-        "ne_latitude": -9.012, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12581003", 
+          "woe:state=2344861", 
+          "woe:country=23424768", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511324, 
         "ne_longitude": -42.829, 
         "longitude": -42.833, 
-        "placetype": "Airport", 
+        "parent_woeid": 12581003, 
+        "ne_latitude": -9.012, 
         "iso": "BR", 
-        "date_indexed": "2010-12-02T18:01:20Z", 
-        "parent_woeid": 449494, 
+        "sw_latitude": -9.021, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -9.017, 
         "sw_longitude": -42.838, 
-        "fullname": "Aeroporto Sao Raimundo Nonato, S\u00e3o Antonio, Piaui, S\u00e3o Raimundo Nonato, Brazil", 
-        "sw_latitude": -9.021
+        "fullname": "Aeroporto Sao Raimundo Nonato, S\u00e3o Antonio, Piaui, Brazil", 
+        "date_indexed": "2010-12-02T18:01:20Z"
       }, 
       "id": 12511324
     }

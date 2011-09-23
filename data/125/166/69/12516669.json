@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516669, 
+        "placetype": "airport", 
         "name": "Perepravnaya Airport", 
-        "ne_latitude": 44.353, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12597797", 
+          "woe:state=2346884", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516669, 
         "ne_longitude": 40.777, 
         "longitude": 40.771, 
-        "placetype": "Airport", 
+        "parent_woeid": 12597797, 
+        "ne_latitude": 44.353, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:11:04Z", 
-        "parent_woeid": 2064085, 
+        "sw_latitude": 44.344, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 44.349, 
         "sw_longitude": 40.764, 
         "fullname": "Perepravnaya Airport, Krasnodarskiy Kray, Mostovsky, Russia", 
-        "sw_latitude": 44.344
+        "date_indexed": "2010-12-02T16:11:04Z"
       }, 
       "id": 12516669
     }

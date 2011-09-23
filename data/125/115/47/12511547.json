@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12511547, 
+        "placetype": "airport", 
         "name": "Vodno Airport", 
-        "ne_latitude": 43.865, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55873725", 
+          "woe:state=20070070", 
+          "woe:country=23424771", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12511547, 
         "ne_longitude": 27.142, 
         "longitude": 27.135, 
-        "placetype": "Airport", 
+        "parent_woeid": 55873725, 
+        "ne_latitude": 43.865, 
         "iso": "BG", 
-        "date_indexed": "2010-12-02T16:14:37Z", 
-        "parent_woeid": 838917, 
+        "sw_latitude": 43.856, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 43.860, 
         "sw_longitude": 27.129, 
         "fullname": "Vodno Airport, Silistra, Dulovo, Bulgaria", 
-        "sw_latitude": 43.856
+        "date_indexed": "2010-12-02T16:14:37Z"
       }, 
       "id": 12511547
     }

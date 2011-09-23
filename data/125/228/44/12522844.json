@@ -32,23 +32,31 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522844, 
-        "name": "San Tome Airport", 
         "alias_ENG_V": [
           "SOM"
         ], 
-        "ne_latitude": 8.953, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "San Tome Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=26805722", 
+          "woe:county=26804579", 
+          "woe:state=2347678", 
+          "woe:country=23424982", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522844, 
         "ne_longitude": -64.143, 
         "longitude": -64.148, 
-        "placetype": "Airport", 
+        "parent_woeid": 26805722, 
+        "ne_latitude": 8.953, 
         "iso": "VE", 
-        "date_indexed": "2010-12-02T16:11:43Z", 
-        "parent_woeid": 468667, 
+        "sw_latitude": 8.944, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 8.949, 
         "sw_longitude": -64.152, 
         "fullname": "San Tome Airport, Anzoategui, Pedro Maria Freites, Venezuela", 
-        "sw_latitude": 8.944
+        "iata_code": "SOM", 
+        "date_indexed": "2010-12-02T16:11:43Z"
       }, 
       "id": 12522844
     }

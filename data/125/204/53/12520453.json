@@ -32,23 +32,29 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520453, 
-        "name": "Ketchikan International Airport", 
         "alias_ENG_V": [
           "KTN"
         ], 
-        "ne_latitude": 55.365, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Ketchikan International Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587565", 
+          "woe:state=2347560", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520453, 
         "ne_longitude": -131.697, 
         "longitude": -131.709, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587565, 
+        "ne_latitude": 55.365, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2431967, 
+        "sw_latitude": 55.347, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 55.357, 
         "sw_longitude": -131.729, 
         "fullname": "Ketchikan International Airport, Alaska, Ketchikan Gateway Borough, United States", 
-        "sw_latitude": 55.347
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520453
     }

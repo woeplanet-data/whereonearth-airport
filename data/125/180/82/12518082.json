@@ -3,28 +3,30 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -0.996, 
-              53.919
-            ], 
-            [
-              -0.996, 
-              53.928
-            ], 
-            [
-              -0.981, 
-              53.928
-            ], 
-            [
-              -0.981, 
-              53.919
-            ], 
-            [
-              -0.996, 
-              53.919
+              [
+                -0.970, 
+                53.920
+              ], 
+              [
+                -0.971, 
+                53.921
+              ], 
+              [
+                -0.970, 
+                53.925
+              ], 
+              [
+                -0.969, 
+                53.926
+              ], 
+              [
+                -0.970, 
+                53.920
+              ]
             ]
           ]
         ]
@@ -32,20 +34,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518082, 
+        "placetype": "airport", 
         "name": "Elvington Airport", 
-        "ne_latitude": 53.928, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -0.981, 
-        "longitude": -0.988, 
-        "placetype": "Airport", 
+        "hierarchy": [
+          "woe:localadmin=12696148", 
+          "woe:county=12602195", 
+          "woe:state=24554868", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518082, 
+        "ne_longitude": -0.969, 
+        "longitude": -0.970, 
+        "parent_woeid": 12696148, 
+        "ne_latitude": 53.926, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:20:54Z", 
-        "parent_woeid": 40137, 
-        "latitude": 53.924, 
-        "sw_longitude": -0.996, 
-        "fullname": "Elvington Airport, Wheldrake, England, North Yorkshire, United Kingdom", 
-        "sw_latitude": 53.919
+        "sw_latitude": 53.920, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 53.923, 
+        "sw_longitude": -0.971, 
+        "fullname": "Elvington Airport, Wheldrake, England, United Kingdom", 
+        "date_indexed": "2010-12-02T12:20:54Z"
       }, 
       "id": 12518082
     }

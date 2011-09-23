@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524446, 
-        "name": "Villa Montes Airport", 
         "alias_ENG_V": [
           "VLM"
         ], 
-        "ne_latitude": -21.245, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Villa Montes Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:localadmin=55968102", 
+          "woe:county=55967841", 
+          "woe:state=2344809", 
+          "woe:country=23424762", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524446, 
         "ne_longitude": -63.495, 
         "longitude": -63.500, 
-        "placetype": "Airport", 
+        "parent_woeid": 55968102, 
+        "ne_latitude": -21.245, 
         "iso": "BO", 
-        "date_indexed": "2010-12-02T17:57:50Z", 
-        "parent_woeid": 345707, 
+        "sw_latitude": -21.255, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -21.250, 
         "sw_longitude": -63.505, 
-        "fullname": "Villa Montes Airport, Villa Montes, Tarija, Gran Chaco, Bolivia", 
-        "sw_latitude": -21.255
+        "fullname": "Villa Montes Airport, Villa Montes, Tarija, Bolivia", 
+        "date_indexed": "2010-12-02T17:57:50Z"
       }, 
       "id": 12524446
     }

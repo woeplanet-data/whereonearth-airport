@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520055, 
+        "placetype": "airport", 
         "name": "Haigh Field Airport", 
-        "ne_latitude": 39.726, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12587680", 
+          "woe:state=2347563", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520055, 
         "ne_longitude": -122.139, 
         "longitude": -122.145, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587680, 
+        "ne_latitude": 39.726, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 2466246, 
+        "sw_latitude": 39.717, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 39.721, 
         "sw_longitude": -122.151, 
-        "fullname": "Haigh Field Airport, Orland, California, Glenn, United States", 
-        "sw_latitude": 39.717
+        "fullname": "Haigh Field Airport, Orland, California, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12520055
     }

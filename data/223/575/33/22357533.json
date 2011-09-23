@@ -32,29 +32,35 @@
       "type": "Feature", 
       "properties": {
         "lang": "DUT", 
-        "woeid": 22357533, 
-        "name": "Den Helder Airport", 
         "alias_ENG_V": [
           "Militair Vliegveld Kooy Airport"
         ], 
-        "ne_latitude": 52.929, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Den Helder Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12592117", 
+          "woe:state=2346379", 
+          "woe:country=23424909", 
+          "woe:planet=1"
+        ], 
+        "woeid": 22357533, 
         "ne_longitude": 4.791, 
         "longitude": 4.785, 
-        "placetype": "Airport", 
+        "parent_woeid": 12592117, 
+        "ne_latitude": 52.929, 
         "alias_DUT_S": [
           "Marinevliegkamp de Kooy"
         ], 
         "iso": "NL", 
-        "date_indexed": "2010-12-02T18:17:47Z", 
+        "sw_latitude": 52.917, 
         "alias_DUT_V": [
           "DHR Luchthaven"
         ], 
-        "parent_woeid": 728649, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 52.921, 
         "sw_longitude": 4.773, 
-        "fullname": "Den Helder Airport, Den Helder, North Holland, Den Helder, Netherlands", 
-        "sw_latitude": 52.917
+        "fullname": "Den Helder Airport, Den Helder, North Holland, Netherlands", 
+        "date_indexed": "2010-12-02T18:17:47Z"
       }, 
       "id": 22357533
     }

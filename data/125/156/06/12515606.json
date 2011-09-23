@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515606, 
-        "name": "Cauayan Airport", 
         "alias_ENG_V": [
           "CYZ"
         ], 
-        "ne_latitude": 16.935, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Cauayan Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=2346686", 
+          "woe:state=23424715", 
+          "woe:country=23424934", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515606, 
         "ne_longitude": 121.761, 
         "longitude": 121.756, 
-        "placetype": "Airport", 
+        "parent_woeid": 2346686, 
+        "ne_latitude": 16.935, 
         "iso": "PH", 
-        "date_indexed": "2010-12-02T09:56:58Z", 
-        "parent_woeid": 1199076, 
+        "sw_latitude": 16.925, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 16.930, 
         "sw_longitude": 121.751, 
-        "fullname": "Cauayan Airport, Cauayan, Cagayan Valley, Isabela, Philippines", 
-        "sw_latitude": 16.925
+        "fullname": "Cauayan Airport, Cauayan, Cagayan Valley, Philippines", 
+        "iata_code": "CYZ", 
+        "date_indexed": "2010-12-02T09:56:58Z"
       }, 
       "id": 12515606
     }

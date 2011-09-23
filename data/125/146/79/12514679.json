@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514679, 
+        "placetype": "airport", 
         "name": "Waw Al Kabir Airport", 
-        "ne_latitude": 25.356, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2346125", 
+          "woe:country=23424882", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514679, 
         "ne_longitude": 16.815, 
         "longitude": 16.810, 
-        "placetype": "Airport", 
+        "parent_woeid": 2346125, 
+        "ne_latitude": 25.356, 
         "iso": "LY", 
-        "date_indexed": "2010-12-02T08:58:29Z", 
-        "parent_woeid": 1353300, 
+        "sw_latitude": 25.347, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 25.351, 
         "sw_longitude": 16.805, 
         "fullname": "Waw Al Kabir Airport, Murzuq, Libya", 
-        "sw_latitude": 25.347
+        "date_indexed": "2010-12-02T08:58:29Z"
       }, 
       "id": 12514679
     }

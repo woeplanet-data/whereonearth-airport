@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518876, 
-        "name": "Boca Raton Airport", 
         "alias_ENG_V": [
           "BCT"
         ], 
-        "ne_latitude": 26.386, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Boca Raton Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12587852", 
+          "woe:state=2347568", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518876, 
         "ne_longitude": -80.100, 
         "longitude": -80.108, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587852, 
+        "ne_latitude": 26.386, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2366220, 
+        "sw_latitude": 26.371, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 26.383, 
         "sw_longitude": -80.116, 
-        "fullname": "Boca Raton Airport, Boca Raton, Florida, Palm Beach, United States", 
-        "sw_latitude": 26.371
+        "fullname": "Boca Raton Airport, Boca Raton, Florida, United States", 
+        "iata_code": "BCT", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12518876
     }

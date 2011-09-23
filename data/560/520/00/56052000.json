@@ -32,20 +32,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "GER", 
-        "woeid": 56052000, 
+        "placetype": "airport", 
         "name": "Flugplatz Lichtenfels", 
-        "ne_latitude": 50.151, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12635366", 
+          "woe:county=12597001", 
+          "woe:state=2345482", 
+          "woe:country=23424829", 
+          "woe:planet=1"
+        ], 
+        "woeid": 56052000, 
         "ne_longitude": 11.052, 
         "longitude": 11.050, 
-        "placetype": "Airport", 
+        "parent_woeid": 12635366, 
+        "ne_latitude": 50.151, 
         "iso": "DE", 
-        "date_indexed": "2010-12-02T09:50:31Z", 
-        "parent_woeid": 671602, 
+        "sw_latitude": 50.145, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.148, 
         "sw_longitude": 11.043, 
-        "fullname": "Flugplatz Lichtenfels, Lichtenfels, Bavaria, Landkreis Lichtenfels, Germany", 
-        "sw_latitude": 50.145
+        "fullname": "Flugplatz Lichtenfels, Lichtenfels, Bavaria, Germany", 
+        "date_indexed": "2010-12-02T09:50:31Z"
       }, 
       "id": 56052000
     }

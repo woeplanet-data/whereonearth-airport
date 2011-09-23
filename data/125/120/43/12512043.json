@@ -32,20 +32,28 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12512043, 
+        "placetype": "airport", 
         "name": "Enshi Airport", 
-        "ne_latitude": 30.292, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:localadmin=12686260", 
+          "woe:county=26198264", 
+          "woe:state=12578002", 
+          "woe:country=23424781", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12512043, 
         "ne_longitude": 109.477, 
         "longitude": 109.472, 
-        "placetype": "Airport", 
+        "parent_woeid": 12686260, 
+        "ne_latitude": 30.292, 
         "iso": "CN", 
-        "date_indexed": "2010-12-02T08:51:48Z", 
-        "parent_woeid": 2163874, 
+        "sw_latitude": 30.283, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 30.288, 
         "sw_longitude": 109.467, 
-        "fullname": "Enshi Airport, Enshi, Hubei, E'xi Tujiazu Miaozu, China", 
-        "sw_latitude": 30.283
+        "fullname": "Enshi Airport, Enshi, Hubei, China", 
+        "iata_code": "ENH", 
+        "date_indexed": "2010-12-02T08:51:48Z"
       }, 
       "id": 12512043
     }

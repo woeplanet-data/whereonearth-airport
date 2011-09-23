@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12524461, 
-        "name": "Yaguara Airport", 
         "alias_ENG_V": [
           "AYG"
         ], 
-        "ne_latitude": 2.671, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Yaguara Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=26797218", 
+          "woe:state=2345061", 
+          "woe:country=23424787", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12524461, 
         "ne_longitude": -75.512, 
         "longitude": -75.517, 
-        "placetype": "Airport", 
+        "parent_woeid": 26797218, 
+        "ne_latitude": 2.671, 
         "iso": "CO", 
-        "date_indexed": "2010-12-02T17:57:37Z", 
-        "parent_woeid": 368611, 
+        "sw_latitude": 2.662, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 2.667, 
         "sw_longitude": -75.521, 
-        "fullname": "Yaguara Airport, Yaguar\u00e1, Huila, Yaguara, Colombia", 
-        "sw_latitude": 2.662
+        "fullname": "Yaguara Airport, Yaguar\u00e1, Huila, Colombia", 
+        "iata_code": "AYG", 
+        "date_indexed": "2010-12-02T17:57:37Z"
       }, 
       "id": 12524461
     }

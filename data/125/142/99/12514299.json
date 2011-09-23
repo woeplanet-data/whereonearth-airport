@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514299, 
+        "placetype": "airport", 
         "name": "Burynshik Southeast Airport", 
-        "ne_latitude": 45.348, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345991", 
+          "woe:country=23424871", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514299, 
         "ne_longitude": 51.833, 
         "longitude": 51.826, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345991, 
+        "ne_latitude": 45.348, 
         "iso": "KZ", 
-        "date_indexed": "2010-12-02T08:54:13Z", 
-        "parent_woeid": 2256953, 
+        "sw_latitude": 45.339, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 45.343, 
         "sw_longitude": 51.820, 
         "fullname": "Burynshik Southeast Airport, Mangghystau, Kazakhstan", 
-        "sw_latitude": 45.339
+        "date_indexed": "2010-12-02T08:54:13Z"
       }, 
       "id": 12514299
     }

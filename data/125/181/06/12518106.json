@@ -3,28 +3,58 @@
   "features": [
     {
       "geometry": {
-        "type": "Polygon", 
+        "type": "MultiPolygon", 
         "coordinates": [
           [
             [
-              -2.062, 
-              51.664
-            ], 
-            [
-              -2.062, 
-              51.673
-            ], 
-            [
-              -2.048, 
-              51.673
-            ], 
-            [
-              -2.048, 
-              51.664
-            ], 
-            [
-              -2.062, 
-              51.664
+              [
+                -2.019, 
+                51.686
+              ], 
+              [
+                -2.013, 
+                51.686
+              ], 
+              [
+                -2.017, 
+                51.675
+              ], 
+              [
+                -2.041, 
+                51.670
+              ], 
+              [
+                -2.055, 
+                51.659
+              ], 
+              [
+                -2.061, 
+                51.664
+              ], 
+              [
+                -2.064, 
+                51.668
+              ], 
+              [
+                -2.058, 
+                51.672
+              ], 
+              [
+                -2.033, 
+                51.675
+              ], 
+              [
+                -2.028, 
+                51.679
+              ], 
+              [
+                -2.024, 
+                51.682
+              ], 
+              [
+                -2.019, 
+                51.686
+              ]
             ]
           ]
         ]
@@ -32,20 +62,27 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518106, 
+        "placetype": "airport", 
         "name": "Kemble Airport", 
-        "ne_latitude": 51.673, 
-        "provider": "geoplanet 7.6.0", 
-        "ne_longitude": -2.048, 
-        "longitude": -2.055, 
-        "placetype": "Airport", 
+        "hierarchy": [
+          "woe:localadmin=12696111", 
+          "woe:county=12602186", 
+          "woe:state=24554868", 
+          "woe:country=23424975", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518106, 
+        "ne_longitude": -2.013, 
+        "longitude": -2.039, 
+        "parent_woeid": 12696111, 
+        "ne_latitude": 51.686, 
         "iso": "GB", 
-        "date_indexed": "2010-12-02T12:21:01Z", 
-        "parent_woeid": 15795, 
-        "latitude": 51.668, 
-        "sw_longitude": -2.062, 
-        "fullname": "Kemble Airport, Chelworth, England, Wiltshire, United Kingdom", 
-        "sw_latitude": 51.664
+        "sw_latitude": 51.659, 
+        "provider": "geoplanet 7.6.0", 
+        "latitude": 51.673, 
+        "sw_longitude": -2.064, 
+        "fullname": "Kemble Airport, Chelworth, England, United Kingdom", 
+        "date_indexed": "2010-12-02T12:21:01Z"
       }, 
       "id": 12518106
     }

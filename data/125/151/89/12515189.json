@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12515189, 
+        "placetype": "airport", 
         "name": "Andoas Airport", 
-        "ne_latitude": -2.826, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=26805777", 
+          "woe:state=2346483", 
+          "woe:country=23424919", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12515189, 
         "ne_longitude": -76.451, 
         "longitude": -76.455, 
-        "placetype": "Airport", 
+        "parent_woeid": 26805777, 
+        "ne_latitude": -2.826, 
         "iso": "PE", 
-        "date_indexed": "2010-12-02T16:12:16Z", 
-        "parent_woeid": 419747, 
+        "sw_latitude": -2.835, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -2.830, 
         "sw_longitude": -76.460, 
         "fullname": "Andoas Airport, Loreto, Alto Amazonas, Peru", 
-        "sw_latitude": -2.835
+        "date_indexed": "2010-12-02T16:12:16Z"
       }, 
       "id": 12515189
     }

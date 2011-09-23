@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12519115, 
-        "name": "Centerville Municipal Airport", 
         "alias_ENG_V": [
           "GHM"
         ], 
-        "ne_latitude": 35.845, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Centerville Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12589952", 
+          "woe:state=2347601", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12519115, 
         "ne_longitude": -87.440, 
         "longitude": -87.442, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589952, 
+        "ne_latitude": 35.845, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2377504, 
+        "sw_latitude": 35.831, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 35.844, 
         "sw_longitude": -87.449, 
-        "fullname": "Centerville Municipal Airport, Centerville, Tennessee, Hickman, United States", 
-        "sw_latitude": 35.831
+        "fullname": "Centerville Municipal Airport, Centerville, Tennessee, United States", 
+        "iata_code": "GHM", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 12519115
     }

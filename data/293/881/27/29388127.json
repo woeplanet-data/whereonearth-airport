@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 29388127, 
+        "placetype": "airport", 
         "name": "Myers Park Memorial Municipal Airport", 
-        "ne_latitude": 37.149, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12589014", 
+          "woe:state=2347584", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 29388127, 
         "ne_longitude": -94.307, 
         "longitude": -94.312, 
-        "placetype": "Airport", 
+        "parent_woeid": 12589014, 
+        "ne_latitude": 37.149, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:31Z", 
-        "parent_woeid": 2375731, 
+        "sw_latitude": 37.142, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 37.145, 
         "sw_longitude": -94.316, 
-        "fullname": "Myers Park Memorial Municipal Airport, Carthage, Missouri, Jasper, United States", 
-        "sw_latitude": 37.142
+        "fullname": "Myers Park Memorial Municipal Airport, Carthage, Missouri, United States", 
+        "date_indexed": "2010-12-02T18:39:31Z"
       }, 
       "id": 29388127
     }

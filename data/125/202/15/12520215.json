@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12520215, 
-        "name": "Hondo Municipal Airport", 
         "alias_ENG_V": [
           "HDO"
         ], 
-        "ne_latitude": 29.369, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Hondo Municipal Airport", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=12590169", 
+          "woe:state=2347602", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12520215, 
         "ne_longitude": -99.160, 
         "longitude": -99.168, 
-        "placetype": "Airport", 
+        "parent_woeid": 12590169, 
+        "ne_latitude": 29.369, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:38Z", 
-        "parent_woeid": 2423855, 
+        "sw_latitude": 29.347, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 29.353, 
         "sw_longitude": -99.186, 
-        "fullname": "Hondo Municipal Airport, Hondo, Texas, Medina, United States", 
-        "sw_latitude": 29.347
+        "fullname": "Hondo Municipal Airport, Hondo, Texas, United States", 
+        "iata_code": "HDO", 
+        "date_indexed": "2010-12-02T18:39:38Z"
       }, 
       "id": 12520215
     }

@@ -32,23 +32,30 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12510815, 
-        "name": "Winton Aerodrome", 
         "alias_ENG_V": [
           "Winton Airport"
         ], 
-        "ne_latitude": -22.356, 
-        "provider": "geoplanet 7.6.0", 
+        "name": "Winton Aerodrome", 
+        "placetype": "airport", 
+        "hierarchy": [
+          "woe:county=55863870", 
+          "woe:state=2344702", 
+          "woe:country=23424748", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12510815, 
         "ne_longitude": 143.090, 
         "longitude": 143.083, 
-        "placetype": "Airport", 
+        "parent_woeid": 55863870, 
+        "ne_latitude": -22.356, 
         "iso": "AU", 
-        "date_indexed": "2010-12-02T17:46:05Z", 
-        "parent_woeid": 1101382, 
+        "sw_latitude": -22.368, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -22.357, 
         "sw_longitude": 143.077, 
-        "fullname": "Winton Aerodrome, Corfield, Queensland, Winton, Australia", 
-        "sw_latitude": -22.368
+        "fullname": "Winton Aerodrome, Corfield, Queensland, Australia", 
+        "iata_code": "WIN", 
+        "date_indexed": "2010-12-02T17:46:05Z"
       }, 
       "id": 12510815
     }

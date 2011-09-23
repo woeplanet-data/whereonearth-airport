@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12518288, 
+        "placetype": "airport", 
         "name": "Khmelnik Northeast Airport", 
-        "ne_latitude": 49.580, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2347554", 
+          "woe:country=23424976", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12518288, 
         "ne_longitude": 28.041, 
         "longitude": 28.034, 
-        "placetype": "Airport", 
+        "parent_woeid": 2347554, 
+        "ne_latitude": 49.580, 
         "iso": "UA", 
-        "date_indexed": "2010-12-02T08:52:33Z", 
-        "parent_woeid": 917304, 
+        "sw_latitude": 49.571, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 49.575, 
         "sw_longitude": 28.027, 
         "fullname": "Khmelnik Northeast Airport, Vinnytsia Oblast, Ukraine", 
-        "sw_latitude": 49.571
+        "date_indexed": "2010-12-02T08:52:33Z"
       }, 
       "id": 12518288
     }

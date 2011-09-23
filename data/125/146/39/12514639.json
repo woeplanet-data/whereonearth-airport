@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514639, 
+        "placetype": "airport", 
         "name": "Al Jufra Airport", 
-        "ne_latitude": 29.204, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2346122", 
+          "woe:country=23424882", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514639, 
         "ne_longitude": 16.007, 
         "longitude": 16.002, 
-        "placetype": "Airport", 
+        "parent_woeid": 2346122, 
+        "ne_latitude": 29.204, 
         "iso": "LY", 
-        "date_indexed": "2010-12-02T08:58:29Z", 
-        "parent_woeid": 1352926, 
+        "sw_latitude": 29.195, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 29.199, 
         "sw_longitude": 15.996, 
         "fullname": "Al Jufra Airport, Al Jufrah, Libya", 
-        "sw_latitude": 29.195
+        "date_indexed": "2010-12-02T08:58:29Z"
       }, 
       "id": 12514639
     }

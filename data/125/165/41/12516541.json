@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12516541, 
+        "placetype": "airport", 
         "name": "Novogorovskaya Airport", 
-        "ne_latitude": 46.362, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12599152", 
+          "woe:state=2346921", 
+          "woe:country=23424936", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12516541, 
         "ne_longitude": 40.691, 
         "longitude": 40.685, 
-        "placetype": "Airport", 
+        "parent_woeid": 12599152, 
+        "ne_latitude": 46.362, 
         "iso": "RU", 
-        "date_indexed": "2010-12-02T16:10:58Z", 
-        "parent_woeid": 2056364, 
+        "sw_latitude": 46.353, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 46.358, 
         "sw_longitude": 40.678, 
         "fullname": "Novogorovskaya Airport, Rostovskaya Oblast, Yegorlyksky, Russia", 
-        "sw_latitude": 46.353
+        "date_indexed": "2010-12-02T16:10:58Z"
       }, 
       "id": 12516541
     }

@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12521190, 
+        "placetype": "airport", 
         "name": "Ocean Reef Club Airport", 
-        "ne_latitude": 25.327, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=12587846", 
+          "woe:state=2347568", 
+          "woe:country=23424977", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12521190, 
         "ne_longitude": -80.272, 
         "longitude": -80.277, 
-        "placetype": "Airport", 
+        "parent_woeid": 12587846, 
+        "ne_latitude": 25.327, 
         "iso": "US", 
-        "date_indexed": "2010-12-02T18:39:24Z", 
-        "parent_woeid": 23510752, 
+        "sw_latitude": 25.318, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 25.323, 
         "sw_longitude": -80.282, 
-        "fullname": "Ocean Reef Club Airport, Ocean Reef Club, Florida, Monroe, United States", 
-        "sw_latitude": 25.318
+        "fullname": "Ocean Reef Club Airport, Ocean Reef Club, Florida, United States", 
+        "date_indexed": "2010-12-02T18:39:24Z"
       }, 
       "id": 12521190
     }

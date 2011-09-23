@@ -32,20 +32,26 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12522984, 
+        "placetype": "airport", 
         "name": "Omega Airport", 
-        "ne_latitude": -18.026, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:county=55921188", 
+          "woe:state=20069820", 
+          "woe:country=23424987", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12522984, 
         "ne_longitude": 22.194, 
         "longitude": 22.190, 
-        "placetype": "Airport", 
+        "parent_woeid": 55921188, 
+        "ne_latitude": -18.026, 
         "iso": "NA", 
-        "date_indexed": "2010-12-02T07:50:17Z", 
-        "parent_woeid": 1465266, 
+        "sw_latitude": -18.035, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": -18.031, 
         "sw_longitude": 22.185, 
         "fullname": "Omega Airport, Caprivi, Namibia", 
-        "sw_latitude": -18.035
+        "date_indexed": "2010-12-02T07:50:17Z"
       }, 
       "id": 12522984
     }

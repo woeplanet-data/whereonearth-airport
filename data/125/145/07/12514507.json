@@ -32,20 +32,25 @@
       "type": "Feature", 
       "properties": {
         "lang": "ENG", 
-        "woeid": 12514507, 
+        "placetype": "airport", 
         "name": "Ush Tobe Airport", 
-        "ne_latitude": 50.581, 
-        "provider": "geoplanet 7.6.0", 
+        "hierarchy": [
+          "woe:state=2345996", 
+          "woe:country=23424871", 
+          "woe:planet=1"
+        ], 
+        "woeid": 12514507, 
         "ne_longitude": 66.748, 
         "longitude": 66.741, 
-        "placetype": "Airport", 
+        "parent_woeid": 2345996, 
+        "ne_latitude": 50.581, 
         "iso": "KZ", 
-        "date_indexed": "2010-12-02T08:54:13Z", 
-        "parent_woeid": 2263274, 
+        "sw_latitude": 50.571, 
+        "provider": "geoplanet 7.6.0", 
         "latitude": 50.576, 
         "sw_longitude": 66.734, 
         "fullname": "Ush Tobe Airport, Aqmola, Kazakhstan", 
-        "sw_latitude": 50.571
+        "date_indexed": "2010-12-02T08:54:13Z"
       }, 
       "id": 12514507
     }
