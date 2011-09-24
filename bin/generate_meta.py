@@ -22,6 +22,16 @@ if __name__ == '__main__':
     datadir = os.path.join(rootdir, 'data')
     metadir = os.path.join(rootdir, 'meta')
 
+    # generate a list of all the airports - assume the extractotron cities.txt
+    # file plus some airport specific stuff as a 'format':
+    # https://github.com/migurski/Extractotron/blob/master/cities.txt
+
+    airports_path = os.path.join(metadir, 'airports.tsv')
+    airports_fh = open(airports_path, 'w')
+
+    airports_writer = csv.writer(airports_fh, delimiter='\t')
+    airports_writer.writerow(('top', 'left', 'bottom', 'right', 'slug', 'name', 'iso', 'icao', 'iata'))
+
     for root, dirs, files in os.walk(datadir):
 
         for f in files:
@@ -58,6 +68,31 @@ if __name__ == '__main__':
                 # wtf?
                 continue
 
+            #
+
+            add_airport = True
+
+            for pt in ('sw_latitude', 'sw_longitude', 'ne_latitude', 'ne_longitude'):
+                if not props.get(pt, False):
+                    add_airport = False
+                    break
+
+            if add_airport:
+
+                airports_writer.writerow((
+                        props['ne_latitude'],
+                        props['sw_longitude'],
+                        props['sw_latitude'],
+                        props['ne_longitude'],
+                        props['woe:id'],
+                        props['name'].encode('utf-8'),
+                        props['iso'],
+                        props.get('icao:code', ''),
+                        props.get('iata:code', '')
+                        ))
+
+            #
+
             woeid = props['woe:id']
 
             root = utils.woeid2path(woeid)
@@ -82,50 +117,52 @@ if __name__ == '__main__':
             if not iso_codes.get(this_country, False):
                 iso_codes[this_country] = props['iso']
 
-# generate some basic stats (as a CVS file)
+    airports_fh.close()
 
-csv_path = os.path.join(metadir, 'countries.csv')
-csv_fh = open(csv_path, 'w')
+    # generate some basic stats (as a CVS file)
 
-writer = csv.writer(csv_fh)
-writer.writerow(('iso', 'woeid', 'airports'))
+    csv_path = os.path.join(metadir, 'countries.csv')
+    csv_fh = open(csv_path, 'w')
 
-tmp = {}
+    writer = csv.writer(csv_fh)
+    writer.writerow(('iso', 'woeid', 'airports'))
 
-for k,v in iso_codes.items():
-    tmp[v] = k
+    tmp = {}
 
-codes = tmp.keys()
-codes.sort()
+    for k,v in iso_codes.items():
+        tmp[v] = k
 
-for iso in codes:
+    codes = tmp.keys()
+    codes.sort()
 
-    woeid = tmp[iso]
-    ports = countries[woeid]
+    for iso in codes:
 
-    logging.info("%s (%s) : %s airports" % (iso, woeid, len(ports)))
-    writer.writerow((iso, woeid, len(ports)))
+        woeid = tmp[iso]
+        ports = countries[woeid]
 
-csv_fh.close()
+        logging.info("%s (%s) : %s airports" % (iso, woeid, len(ports)))
+        writer.writerow((iso, woeid, len(ports)))
 
-# Now generate files for each country
+    csv_fh.close()
 
-for woeid, features in countries.items():
+    # Now generate files for each country
 
-    iso = iso_codes[woeid]
+    for woeid, features in countries.items():
 
-    collection = {
-        'type': 'FeatureCollection',
-        'features': features,
-        'properties': {
-            'woe:country': woeid,
-            'iso': iso
+        iso = iso_codes[woeid]
+
+        collection = {
+            'type': 'FeatureCollection',
+            'features': features,
+            'properties': {
+                'woe:country': woeid,
+                'iso': iso
+                }
             }
-        }
 
-    co_path = os.path.join(metadir, "%s.json" % iso)
-    logging.info("write %s" % co_path)
+        co_path = os.path.join(metadir, "%s.json" % iso)
+        logging.info("write %s" % co_path)
 
-    co_fh = open(co_path, 'w')
-    utils.write_json(collection, co_fh)
-    co_fh.close()
+        co_fh = open(co_path, 'w')
+        utils.write_json(collection, co_fh)
+        co_fh.close()
