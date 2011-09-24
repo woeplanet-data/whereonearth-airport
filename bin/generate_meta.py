@@ -118,7 +118,7 @@ for woeid, features in countries.items():
         'type': 'FeatureCollection',
         'features': features,
         'properties': {
-            'woe:id': woeid,
+            'woe:country': woeid,
             'iso': iso
             }
         }
