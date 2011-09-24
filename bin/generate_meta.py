@@ -15,15 +15,20 @@ iso_codes = {}
 
 if __name__ == '__main__':
 
-    # FIX ME
+    whoami = os.path.abspath(sys.argv[0])
+    bindir = os.path.dirname(whoami)
+    rootdir = os.path.dirname(bindir)
 
-    airports = '../data'
+    datadir = os.path.join(rootdir, 'data')
+    metadir = os.path.join(rootdir, 'meta')
 
-    for root, dirs, files in os.walk(airports):
+    for root, dirs, files in os.walk(datadir):
 
         for f in files:
 
             path = os.path.join(root, f)
+            logging.info("processing %s" % path)
+
             fh = open(path)
             data = json.load(fh)
 
@@ -79,11 +84,10 @@ if __name__ == '__main__':
 
 # generate some basic stats (as a CVS file)
 
-# FIX ME
+csv_path = os.path.join(metadir, 'countries.csv')
+csv_fh = open(csv_path, 'w')
 
-fh = open('../meta/countries.csv', 'w')
-
-writer = csv.writer(fh)
+writer = csv.writer(csv_fh)
 writer.writerow(('iso', 'woeid', 'airports'))
 
 tmp = {}
@@ -102,7 +106,7 @@ for iso in codes:
     logging.info("%s (%s) : %s airports" % (iso, woeid, len(ports)))
     writer.writerow((iso, woeid, len(ports)))
 
-fh.close()
+csv_fh.close()
 
 # Now generate files for each country
 
@@ -119,11 +123,9 @@ for woeid, features in countries.items():
             }
         }
 
-    # FIX ME
+    co_path = os.path.join(metadir, "%s.json" % iso)
+    logging.info("write %s" % co_path)
 
-    path = "../meta/%s.json" % iso
-    logging.info("write %s" % path)
-
-    fh = open(path, 'w')
-    utils.write_json(collection, fh)
-    fh.close()
+    co_fh = open(co_path, 'w')
+    utils.write_json(collection, co_fh)
+    co_fh.close()
