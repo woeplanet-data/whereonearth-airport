@@ -31,6 +31,9 @@ is far from complete. Records have been cross-referenced against the
 [whereonearth-building](https://github.com/straup/whereonearth-building/)
 repository and pointers to buildings parented by individual airports have been added.
 
+Each record contains a bounding box or a complex polygon defining the contour of
+the airport. Polygons are sourced from the January 2010 release of the [Flickr Alpha Shapes](http://code.flickr.com/blog/2011/01/08/flickr-shapefiles-public-dataset-2-0/).
+
 See also
 --
 
@@ -42,3 +45,4 @@ See also
 
 * [GeoPlanet data downloads](http://developer.yahoo.com/geo/geoplanet/data/)
 
+* [Flickr Alpha Shapes](http://code.flickr.com/blog/2011/01/08/flickr-shapefiles-public-dataset-2-0/)
