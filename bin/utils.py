@@ -10,7 +10,7 @@ def write_json(data, out, indent=2):
 
     for atom in encoded:
         if float_pat.match(atom):
-            out.write('%.3f' % float(atom))
+            out.write('%.6f' % float(atom))
         else:
             out.write(atom)
 
