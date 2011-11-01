@@ -34,6 +34,13 @@ repository and pointers to buildings parented by individual airports have been a
 Each record contains a bounding box or a complex polygon defining the contour of
 the airport. Polygons are sourced from the January 2010 release of the [Flickr Alpha Shapes](http://code.flickr.com/blog/2011/01/08/flickr-shapefiles-public-dataset-2-0/).
 
+A word about Github
+--
+
+In the long-run Github may not be the best venue for managing all of these
+records. But it's not an entirely crazy idea either so we're going to try it for
+a while because it's easy and safe.
+
 See also
 --
 
